@@ -1,0 +1,269 @@
+{
+  "Meta": {
+    "title": "LegalWin — Usługi prawne w Polsce",
+    "description": "Prawo imigracyjne i gospodarcze w Polsce. Karta pobytu, obywatelstwo, rejestracja spółek, relokacja. 500+ spraw rocznie, zespół 8 prawników."
+  },
+  "Nav": {
+    "services": "Usługi",
+    "cases": "Sprawy",
+    "team": "Zespół",
+    "process": "Proces",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "consultation": "Konsultacja"
+  },
+  "Hero": {
+    "eyebrow": "Warszawa · Od 2019",
+    "titleLine1": "Polskie prawo.",
+    "titleLine2": "Bez szarych stref.",
+    "subtitle": "Prowadzimy sprawy imigracyjne, zakładamy spółki, rozliczamy podatki i pomagamy w relokacji — dla klientów z WNP, UE i USA. Pod klucz.",
+    "ctaPrimary": "Bezpłatna konsultacja",
+    "ctaSecondary": "Wszystkie usługi",
+    "availableNow": "Odpowiadamy w ciągu godziny",
+    "hoursToday": "Dziś do 19:00"
+  },
+  "Marquee": {
+    "items": "Karta Pobytu · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
+  },
+  "Stats": {
+    "title": "Liczby, które mówią za nas",
+    "subtitle": "Kancelaria założona w 2019 roku w Warszawie. Pracujemy w czterech językach i prowadzimy sprawy od pierwszej konsultacji do odbioru dokumentów.",
+    "stat1Value": "500",
+    "stat1Suffix": "+",
+    "stat1Label": "kart pobytu rocznie",
+    "stat2Value": "8",
+    "stat2Label": "prawników w zespole",
+    "stat3Value": "5",
+    "stat3Suffix": "+",
+    "stat3Label": "lat na rynku",
+    "stat4Value": "4",
+    "stat4Label": "języki robocze",
+    "stat1Note": "Średni czas decyzji — 42 dni",
+    "stat2Note": "Adwokat, radca prawny, konsultanci",
+    "stat3Note": "Od 2019 roku w Warszawie",
+    "stat4Note": "PL · RU · UA · EN"
+  },
+  "Services": {
+    "eyebrow": "Praktyki",
+    "title": "Wszystko, czego potrzebuje cudzoziemiec w Polsce",
+    "subtitle": "Pięć obszarów, jeden zespół. Każdą sprawą kieruje wyspecjalizowany prawnik — nie zlecamy dokumentów na zewnątrz.",
+    "tag": "/ pełny zakres",
+    "cta": "Zapytaj",
+    "groups": {
+      "immigration": {
+        "number": "01",
+        "title": "Imigracja",
+        "lead": "Legalny pobyt w Polsce od zera lub przedłużenie bez odmów.",
+        "items": [
+          { "name": "Karta Czasowego Pobytu", "desc": "Praca, biznes, studia, Blue Card, łączenie rodzin, względy humanitarne" },
+          { "name": "Karta Stałego Pobytu", "desc": "Małżeństwo, polskie pochodzenie, Karta Polaka, azyl, status uchodźcy" },
+          { "name": "Obywatelstwo Polskie", "desc": "Naturalizacja, uznanie, potwierdzenie pochodzenia" },
+          { "name": "Karta Polaka", "desc": "Przygotowanie do rozmowy, zebranie dowodów polskich korzeni" },
+          { "name": "Ochrona międzynarodowa", "desc": "Status uchodźcy, pobyt humanitarny, pobyt tolerowany" },
+          { "name": "Apelacje", "desc": "Zaskarżanie odmów Urzędu do Spraw Cudzoziemców w sądach" }
+        ]
+      },
+      "documents": {
+        "number": "02",
+        "title": "Dokumenty",
+        "lead": "Biurokracja bez twoich wizyt w urzędzie.",
+        "items": [
+          { "name": "PESEL", "desc": "Nadanie numeru identyfikacyjnego na każdy cel" },
+          { "name": "Meldunek", "desc": "Zameldowanie — czasowe i stałe" },
+          { "name": "Akty stanu cywilnego", "desc": "Akt urodzenia, małżeństwa, zgonu — uzyskanie i uznanie" },
+          { "name": "Apostille i legalizacja", "desc": "Apostille na dokumenty do wykorzystania za granicą" },
+          { "name": "Wymiana prawa jazdy", "desc": "Wymiana krajowego prawa jazdy na polskie bez egzaminów" },
+          { "name": "Zaświadczenia ZUS / US", "desc": "Zaświadczenia z ZUS i urzędu skarbowego" },
+          { "name": "Zaświadczenia o niekaralności", "desc": "KRK z Polski i krajów pochodzenia" },
+          { "name": "Tłumaczenia przysięgłe", "desc": "Tłumaczenia wszelkich dokumentów na/z polskiego" }
+        ]
+      },
+      "business": {
+        "number": "03",
+        "title": "Biznes",
+        "lead": "Od pomysłu do sp. z o.o. w 10 dni roboczych.",
+        "items": [
+          { "name": "Rejestracja Sp. z o.o.", "desc": "Pełen cykl przez S24 lub notarialnie. Adres w Warszawie w cenie" },
+          { "name": "Gotowe spółki", "desc": "Spółki z historią i rachunkiem — start w 24 godziny" },
+          { "name": "Jednoosobowa działalność gospodarcza", "desc": "JDG dla posiadaczy karty pobytu z prawem do prowadzenia biznesu" },
+          { "name": "Przedstawicielstwa", "desc": "Oddział, przedstawicielstwo zagranicznej firmy w Polsce" },
+          { "name": "Podatki i księgowość", "desc": "CIT, VAT, PIT, Estoński CIT, IP Box. Księgowość partnerska" },
+          { "name": "Likwidacja i sprzedaż", "desc": "Zamknięcie firmy lub transakcje M&A pod klucz" }
+        ]
+      },
+      "realestate": {
+        "number": "04",
+        "title": "Nieruchomości",
+        "lead": "Zakup mieszkania przez cudzoziemca — legalnie i szybko.",
+        "items": [
+          { "name": "Zezwolenie MSWiA", "desc": "Zgoda MSWiA na zakup nieruchomości dla obywateli spoza UE" },
+          { "name": "Due diligence transakcji", "desc": "Weryfikacja księgi wieczystej, obciążeń, historii nieruchomości" },
+          { "name": "Asysta u notariusza", "desc": "Obecność adwokata przy akcie notarialnym" },
+          { "name": "Najem komercyjny", "desc": "Umowy najmu biura i lokalu handlowego dla biznesu" }
+        ]
+      },
+      "relocation": {
+        "number": "05",
+        "title": "Relokacja",
+        "lead": "Miękkie lądowanie w Polsce — od trapu do pierwszej wypłaty.",
+        "items": [
+          { "name": "Zaproszenia elektroniczne", "desc": "Zaproszenia do wiz Schengen i krajowych" },
+          { "name": "Odbiór z lotniska", "desc": "Transfer z Chopin / Modlin / Kraków-Balice" },
+          { "name": "Wyszukiwanie mieszkania", "desc": "Najem długoterminowy i zakup — od mieszkania do domu" },
+          { "name": "Tłumacz na wizyty", "desc": "Asysta w urzędzie, banku, szkole, szpitalu" },
+          { "name": "Pomoc w zatrudnieniu", "desc": "CV w polskim standardzie, zezwolenie na pracę" },
+          { "name": "Zapis dzieci do szkoły", "desc": "Obowiązek szkolny i klasa powitalna" }
+        ]
+      }
+    }
+  },
+  "About": {
+    "eyebrow": "O LegalWin",
+    "title": "Prawnicy, którzy mówią twoim językiem",
+    "paragraph1": "LegalWin to zespół polskich adwokatów i radców prawnych oraz konsultantów imigracyjnych. Pracujemy z klientami z Rosji, Ukrainy, Białorusi, Kazachstanu i UE od 2019 roku.",
+    "paragraph2": "Prowadzimy sprawy w Urzędzie do Spraw Cudzoziemców, ZUS, US, KRS i sądach powszechnych. Nasi klienci to przedsiębiorcy, specjaliści IT, inwestorzy i rodziny przeprowadzające się do Polski.",
+    "point1": "Przejrzyste ceny — stała cena za etap",
+    "point2": "Dedykowany prawnik dla każdej sprawy",
+    "point3": "Raporty w czasie rzeczywistym przez portal klienta",
+    "point4": "Obsługa w języku polskim, rosyjskim, ukraińskim i angielskim"
+  },
+  "Cases": {
+    "eyebrow": "Sprawy",
+    "title": "Realne sprawy, realne terminy",
+    "subtitle": "Pokazujemy bez upiększeń: co, w jakim czasie i z jakim skutkiem. Imiona zmienione na prośbę klientów.",
+    "items": [
+      {
+        "tag": "Karta pobytu · praca",
+        "title": "Specjalista IT z Białorusi",
+        "duration": "38 dni",
+        "outcome": "TRC na 3 lata",
+        "desc": "Pierwszy kontakt w piątek — wniosek w piątek następnego tygodnia. Urząd Mazowiecki wydał decyzję w 38 dni zamiast standardowych 90."
+      },
+      {
+        "tag": "Spółka · konsulting IT",
+        "title": "Rejestracja Sp. z o.o. od zera",
+        "duration": "7 dni",
+        "outcome": "KRS + konto + VAT",
+        "desc": "Dwóch założycieli z Kazachstanu. S24, uchwała wspólników, konto w mBanku, rejestracja VAT, umowy — gotowe w tydzień roboczy."
+      },
+      {
+        "tag": "Apelacja · stały pobyt",
+        "title": "Uchylenie odmowy w Karcie Stałego Pobytu",
+        "duration": "4 miesiące",
+        "outcome": "PR uzyskany",
+        "desc": "Klientce odmówiono PR z powodów formalnych. Złożyliśmy skargę do WSA — sąd uchylił odmowę, wojewoda wydał kartę."
+      }
+    ]
+  },
+  "Testimonials": {
+    "eyebrow": "Opinie",
+    "title": "Co mówią klienci",
+    "items": [
+      { "text": "Kartę pobytu dostałam w 40 dni. Bez moich wizyt w urzędzie i nerwów przy korespondencji — wszystko robili prawnicy, ja tylko podpisywałam.", "author": "Olga M.", "role": "projektantka, przeprowadziła się z Kijowa" },
+      { "text": "Otworzyliśmy spółkę w tydzień, od razu z VAT i rachunkiem. Odpowiadają na Telegramie natychmiast, tłumaczą jasno — bez prawniczej kaszy.", "author": "Dymitr K.", "role": "CTO, startup SaaS" },
+      { "text": "Pomogli z apelacją po odmowie PR. Drugi prawnik, do którego trafiłam — i jedyny, który naprawdę doprowadził sprawę do zwycięstwa.", "author": "Anna S.", "role": "lekarka, Warszawa" },
+      { "text": "Pełen pakiet: odbiór z lotniska, mieszkanie, PESEL, szkoła dla dzieci, otwarli spółkę. W półtora miesiąca przeszliśmy wszystkie kręgi polskiego piekła.", "author": "Siergiej i Irena L.", "role": "rodzina z dwójką dzieci" }
+    ]
+  },
+  "Team": {
+    "eyebrow": "Zespół",
+    "title": "Ośmiu prawników. Jeden punkt wejścia.",
+    "subtitle": "Każdy obszar ma wyspecjalizowanego prawnika. Twój osobisty konsultant koordynuje ich pracę.",
+    "members": [
+      { "initials": "AK", "name": "Anna Kowalska", "role": "Adwokat · Imigracja" },
+      { "initials": "PN", "name": "Paweł Nowak", "role": "Radca prawny · Biznes" },
+      { "initials": "MW", "name": "Maria Wiśniewska", "role": "Konsultantka imigracyjna" },
+      { "initials": "TL", "name": "Tomasz Lewandowski", "role": "Adwokat · Spory sądowe" },
+      { "initials": "KZ", "name": "Katarzyna Zielińska", "role": "Konsultantka podatkowa" },
+      { "initials": "JM", "name": "Jakub Mazur", "role": "Radca prawny · Nieruchomości" },
+      { "initials": "ND", "name": "Natalia Dąbrowska", "role": "Relokacja i dokumenty" },
+      { "initials": "RS", "name": "Rafał Sawicki", "role": "Starszy prawnik" }
+    ]
+  },
+  "Process": {
+    "eyebrow": "Jak pracujemy",
+    "title": "Cztery kroki do rozwiązania",
+    "step1Title": "Konsultacja",
+    "step1Desc": "30–60 minut gratis. Analizujemy sytuację, oceniamy szanse, proponujemy strategię.",
+    "step2Title": "Umowa i zaliczka",
+    "step2Desc": "Ustalamy zakres prac i koszty w pisemnej umowie. Żadnych niespodzianek na fakturze.",
+    "step3Title": "Prowadzenie sprawy",
+    "step3Desc": "Przygotowujemy dokumenty, składamy, reprezentujemy. Otrzymujesz statusy na Telegramie na każdym etapie.",
+    "step4Title": "Rezultat",
+    "step4Desc": "Otrzymujemy decyzję. Przekazujemy oryginały, wyjaśniamy następne kroki, dajemy bonusy stałym klientom."
+  },
+  "Faq": {
+    "eyebrow": "Pytania",
+    "title": "Najczęściej zadawane",
+    "items": [
+      { "q": "Ile kosztuje konsultacja?", "a": "Pierwsza 30-minutowa konsultacja — gratis. Jeśli potrzebna jest głęboka analiza dokumentów, kolejne spotkania kosztują od 200 PLN w zależności od złożoności." },
+      { "q": "Ile trwa otrzymanie karty pobytu?", "a": "Średni czas decyzji w naszych sprawach to 42 dni. Zgodnie z ustawą wojewoda ma do 90 dni, ale przy prawidłowym złożeniu i pełnym pakiecie decyzja przychodzi szybciej." },
+      { "q": "Czy pracujecie zdalnie?", "a": "Tak. Klienci z innych miast Polski i z zagranicy prowadzą sprawy całkowicie online. Pełnomocnictwo notarialne, kanał Telegram z prawnikiem i portal klienta ze statusami." },
+      { "q": "Co jeśli otrzymam odmowę?", "a": "Przeanalizujemy przyczyny odmowy i złożymy apelację w ciągu 14 dni. Mamy skuteczne apelacje w sprawach TRC, PR, obywatelstwa i ochrony międzynarodowej — w tym przez Wojewódzki Sąd Administracyjny." },
+      { "q": "Czy można otworzyć spółkę zdalnie?", "a": "Tak, przez S24 z kwalifikowanym podpisem elektronicznym (ePUAP / ePodpis) lub przez pełnomocnictwo notarialne. Rejestracja trwa 5–10 dni roboczych." },
+      { "q": "Jakie języki w pracy?", "a": "Polski, rosyjski, ukraiński, angielski. Wszystkie dokumenty otrzymujesz z tłumaczeniem na swój język." }
+    ]
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Opowiedz nam o swojej sprawie",
+    "subtitle": "Zostaw zgłoszenie — prawnik odpowie w ciągu godziny w godzinach pracy. Pierwsza konsultacja gratis.",
+    "name": "Imię",
+    "namePlaceholder": "Jan Kowalski",
+    "email": "Email",
+    "emailPlaceholder": "jan@example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+48 600 000 000",
+    "service": "Obszar",
+    "servicePlaceholder": "Wybierz obszar",
+    "serviceTrc": "Karta pobytu (TRC/PR)",
+    "serviceCitizenship": "Obywatelstwo / Karta Polaka",
+    "serviceBusiness": "Biznes (Sp. z o.o.)",
+    "serviceTax": "Podatki i księgowość",
+    "serviceOther": "Inne",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Krótko opisz sytuację — obywatelstwo, podstawa pobytu, terminy",
+    "submit": "Wyślij zgłoszenie",
+    "submitting": "Wysyłanie…",
+    "successTitle": "Zgłoszenie przyjęte",
+    "successMessage": "Prawnik odpowie w ciągu godziny w godzinach pracy (pn–pt 8:30–19:00).",
+    "errorTitle": "Nie udało się wysłać",
+    "errorMessage": "Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
+    "hours": "Pn–Pt · 8:30 – 19:00",
+    "phoneLine": "+48 506 55 07 21",
+    "emailLine": "legalwin.warszawa@gmail.com",
+    "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
+    "validation": {
+      "nameMin": "Minimum 2 znaki",
+      "emailInvalid": "Nieprawidłowy email",
+      "phoneInvalid": "Nieprawidłowy numer telefonu",
+      "messageMin": "Minimum 10 znaków",
+      "serviceRequired": "Wybierz obszar"
+    }
+  },
+  "Footer": {
+    "tagline": "Kancelaria w Warszawie. Imigracja, biznes, podatki, relokacja od 2019 roku.",
+    "servicesTitle": "Usługi",
+    "companyTitle": "Firma",
+    "contactTitle": "Kontakt",
+    "rights": "Wszystkie prawa zastrzeżone",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin"
+  },
+  "ServiceDetail": {
+    "documentsEyebrow": "/ dokumenty",
+    "popular": "Popularne",
+    "faqEyebrow": "/ pytania",
+    "faqTitle": "Najczęstsze pytania",
+    "relatedTitle": "Powiązane usługi",
+    "ctaSubmit": "Wyślij zgłoszenie"
+  },
+  "Chat": {
+    "title": "Prawnik online",
+    "subtitle": "Zwykle odpowiadamy w minutę",
+    "placeholder": "Zadaj pytanie…",
+    "send": "Wyślij",
+    "greeting": "Dzień dobry! Jestem wirtualnym konsultantem LegalWin. W czym mogę pomóc — karta pobytu, spółki, podatki, obywatelstwo?",
+    "disclaimer": "Odpowiedzi mają charakter informacyjny i nie zastępują konsultacji z prawnikiem."
+  }
+}
