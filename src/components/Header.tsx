@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
+import { LogoLockup } from './Logo';
 import { cn } from '@/lib/cn';
 
 const sections = ['services', 'cases', 'process', 'faq', 'contact'] as const;
@@ -34,15 +35,14 @@ export function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
         <Link
           href="/"
-          className="group inline-flex items-center gap-2.5 text-ink-50"
+          className="group transition-colors duration-300 hover:text-gold-300"
           aria-label="LegalWin"
         >
-          <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-gold-400 to-gold-600 text-ink-950">
-            <span className="font-display text-[20px] font-bold leading-none">L</span>
-          </span>
-          <span className="font-display text-[22px] font-semibold tracking-tight">
-            LegalWin
-          </span>
+          <LogoLockup
+            markSize={34}
+            wordSize={22}
+            className="transition-transform duration-300 group-hover:[&_svg]:scale-105"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm text-ink-300 lg:flex">
