@@ -84,7 +84,7 @@ export function Hero() {
   return (
     <section
       ref={ref}
-      className="relative isolate overflow-hidden pt-32 pb-24 sm:pt-40 lg:pt-48 lg:pb-32 min-h-[100svh]"
+      className="relative isolate overflow-hidden pt-36 pb-24 sm:pt-44 lg:pt-52 lg:pb-32 min-h-[100svh]"
     >
       {/* Cinematic photo background */}
       <motion.div

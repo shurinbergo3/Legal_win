@@ -21,8 +21,8 @@ export function Header() {
     <motion.header
       initial={false}
       animate={{
-        paddingTop: shrunk ? 10 : 22,
-        paddingBottom: shrunk ? 10 : 22
+        paddingTop: shrunk ? 6 : 12,
+        paddingBottom: shrunk ? 6 : 12
       }}
       transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className={cn(
@@ -35,18 +35,22 @@ export function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
         <Link
           href="/"
-          className="group inline-flex items-center gap-3 text-ink-50 transition-colors duration-300 hover:text-gold-300"
+          className="group inline-block text-gold-400 transition-colors duration-300 hover:text-gold-300"
           aria-label="LegalWin"
         >
-          {/* Compact badge in header — text removed for legibility at small size */}
+          {/* Full badge — same as footer, just smaller. LW + LEGAL · WIN visible at this size. */}
           <LogoBadge
-            size={48}
-            compact
-            className="text-gold-400 transition-transform duration-300 group-hover:scale-105"
+            size={72}
+            className="block transition-transform duration-300 group-hover:scale-[1.04] sm:hidden"
           />
-          <span className="font-display text-[22px] font-semibold tracking-tight">
-            LegalWin
-          </span>
+          <LogoBadge
+            size={92}
+            className="hidden transition-transform duration-300 group-hover:scale-[1.04] sm:block lg:hidden"
+          />
+          <LogoBadge
+            size={108}
+            className="hidden transition-transform duration-300 group-hover:scale-[1.04] lg:block"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm text-ink-300 lg:flex">
