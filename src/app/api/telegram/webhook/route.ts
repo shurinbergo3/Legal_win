@@ -111,13 +111,15 @@ export async function POST(req: NextRequest) {
 
   // Treat anything else as a password attempt
   if (password && text === password) {
-    const added = await addSubscriber(chatId);
-    await tgSend(
-      chatId,
-      added
-        ? '✅ <b>Доступ открыт.</b> Вы будете получать новые заявки с сайта LegalWin в этот чат.\n\nКоманды:\n/status — проверить подписку\n/stop — отписаться'
-        : '✅ Вы уже подписаны.'
-    );
+    const result = await addSubscriber(chatId);
+    const messages = {
+      added:
+        '✅ <b>Доступ открыт.</b> Вы будете получать новые заявки с сайта LegalWin в этот чат.\n\nКоманды:\n/status — проверить подписку\n/stop — отписаться',
+      duplicate: '✅ Вы уже подписаны.',
+      ephemeral:
+        `⚠️ <b>Пароль верный, но хостинг не сохраняет подписки.</b>\n\nВаш chat ID: <code>${chatId}</code>\n\nПередайте этот номер администратору — он добавит его в переменную <code>TELEGRAM_OPERATOR_CHAT_IDS</code> на Vercel (через запятую с другими). После этого заявки начнут приходить.`
+    } as const;
+    await tgSend(chatId, messages[result]);
     return NextResponse.json({ ok: true });
   }
 

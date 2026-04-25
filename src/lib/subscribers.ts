@@ -36,9 +36,33 @@ async function read(): Promise<Store> {
   }
 }
 
-async function write(data: Store) {
-  await fs.mkdir(path.dirname(FILE), { recursive: true });
-  await fs.writeFile(FILE, JSON.stringify(data, null, 2), 'utf8');
+/** Returns true if the write succeeded; false on read-only filesystems
+ * (e.g. Vercel / Cloudflare Workers serverless runtimes) — caller should
+ * fall back to env-based operators. */
+async function write(data: Store): Promise<boolean> {
+  try {
+    await fs.mkdir(path.dirname(FILE), { recursive: true });
+    await fs.writeFile(FILE, JSON.stringify(data, null, 2), 'utf8');
+    return true;
+  } catch (e) {
+    console.warn(
+      '[subscribers] cannot persist to disk (likely serverless read-only FS) — ' +
+        'use TELEGRAM_OPERATOR_CHAT_IDS env var to add permanent subscribers:',
+      e instanceof Error ? e.message : e
+    );
+    return false;
+  }
+}
+
+/** True when running in a runtime where we know disk writes won't survive
+ * (Vercel sets VERCEL=1 / VERCEL_ENV; Netlify sets NETLIFY=true). */
+export function isEphemeralRuntime(): boolean {
+  return Boolean(
+    process.env.VERCEL ||
+      process.env.VERCEL_ENV ||
+      process.env.NETLIFY ||
+      process.env.AWS_LAMBDA_FUNCTION_NAME
+  );
 }
 
 function permanentOperators(): number[] {
@@ -49,13 +73,20 @@ function permanentOperators(): number[] {
     .filter((n) => Number.isFinite(n) && n !== 0);
 }
 
-export async function addSubscriber(chatId: number): Promise<boolean> {
+/** Add a chat as a subscriber. Returns:
+ *   - 'added'      → newly persisted to disk
+ *   - 'duplicate'  → already in the file (or env operator list)
+ *   - 'ephemeral'  → write failed (read-only FS) — admin must use env var */
+export async function addSubscriber(
+  chatId: number
+): Promise<'added' | 'duplicate' | 'ephemeral'> {
+  if (permanentOperators().includes(chatId)) return 'duplicate';
   const data = await read();
-  if (data.chatIds.includes(chatId)) return false;
+  if (data.chatIds.includes(chatId)) return 'duplicate';
   data.chatIds.push(chatId);
   data.updatedAt = new Date().toISOString();
-  await write(data);
-  return true;
+  const ok = await write(data);
+  return ok ? 'added' : 'ephemeral';
 }
 
 export async function removeSubscriber(chatId: number): Promise<boolean> {
