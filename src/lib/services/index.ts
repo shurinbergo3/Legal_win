@@ -3,6 +3,7 @@ import kartaStalegoPobytu from './karta-stalego-pobytu';
 import obywatelstwo from './obywatelstwo';
 import ochronaMiedzynarodowa from './ochrona-miedzynarodowa';
 import apelacje from './apelacje';
+import kod95 from './kod-95';
 import type { ServiceEntry, ServiceLocale } from './types';
 
 export const services: Record<string, ServiceEntry> = {
@@ -10,7 +11,8 @@ export const services: Record<string, ServiceEntry> = {
   'karta-stalego-pobytu': kartaStalegoPobytu,
   'obywatelstwo': obywatelstwo,
   'ochrona-miedzynarodowa': ochronaMiedzynarodowa,
-  'apelacje': apelacje
+  'apelacje': apelacje,
+  'kod-95': kod95
 };
 
 export const serviceSlugs = Object.keys(services);

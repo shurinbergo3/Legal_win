@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "LegalWin — Legal services in Poland",
-    "description": "Immigration and business law in Poland. Residence permits, citizenship, company formation, relocation. 500+ cases a year, team of 8 lawyers."
+    "title": "LegalWin — Help for immigrants in Poland: residency, driving licences, Code 95",
+    "description": "Warsaw lawyers for immigrants: residence cards, exchange of driving licences to Polish, Code 95 for professional drivers, citizenship, documents. Since 2019, 500+ cases a year."
   },
   "Nav": {
     "services": "Services",
@@ -14,16 +14,16 @@
   },
   "Hero": {
     "eyebrow": "Warsaw · Since 2019",
-    "titleLine1": "Polish law.",
-    "titleLine2": "No grey areas.",
-    "subtitle": "We handle immigration cases, register companies, run taxes and deliver relocation — for clients from CIS, EU and US. End-to-end.",
+    "titleLine1": "Help for immigrants in Poland.",
+    "titleLine2": "Residency · Driving Licence · Code 95.",
+    "subtitle": "Residence cards, exchange of foreign driving licences to Polish, Code 95 for professional drivers, documents and legalisation. Warsaw lawyers since 2019 — built for newcomers.",
     "ctaPrimary": "Free consultation",
     "ctaSecondary": "All services",
     "availableNow": "Reply within an hour",
     "hoursToday": "Open today until 7 PM"
   },
   "Marquee": {
-    "items": "Karta Pobytu · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
+    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
   },
   "Stats": {
     "title": "Numbers that speak for us",
@@ -72,7 +72,8 @@
           { "name": "Meldunek", "desc": "Temporary and permanent residence registration" },
           { "name": "Civil status records", "desc": "Birth, marriage, death certificates — obtain and recognize" },
           { "name": "Apostille & legalization", "desc": "Apostille on documents for international use" },
-          { "name": "Driver's licence exchange", "desc": "Swap national licence for Polish without exams" },
+          { "name": "Driver's licence exchange", "desc": "Swap your national licence for a Polish one: sworn translations, badania lekarskie & psychotest, WORD booking and on-site support" },
+          { "name": "Code 95 (driver CPC)", "desc": "Professional qualification for C/CE/D/DE: kwalifikacja wstępna or szkolenie okresowe (35 h / 5 yrs). OSK selection, paperwork, WORD exam" },
           { "name": "ZUS / tax certificates", "desc": "Certificates from social insurance and tax authority" },
           { "name": "Criminal record checks", "desc": "KRK for Poland and countries of origin" },
           { "name": "Sworn translations", "desc": "Tłumaczenia przysięgłe of any documents to/from Polish" }
@@ -217,6 +218,7 @@
     "service": "Practice area",
     "servicePlaceholder": "Select an area",
     "serviceTrc": "Residence permit (TRC/PR)",
+    "serviceDriver": "Driving licence / Code 95",
     "serviceCitizenship": "Citizenship / Karta Polaka",
     "serviceBusiness": "Business (Sp. z o.o.)",
     "serviceTax": "Tax & accounting",

@@ -24,18 +24,18 @@ export function Faq() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.7, ease }}
-            className="col-span-12 flex flex-col gap-4 lg:sticky lg:top-28 lg:col-span-4 lg:self-start"
+            className="col-span-12 flex flex-col gap-4 lg:sticky lg:top-28 lg:col-span-5 lg:self-start lg:pr-8"
           >
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
               <span className="inline-block h-px w-10 bg-gold-500/60" />
               {t('eyebrow')}
             </div>
-            <h2 className="font-display section-size font-semibold text-ink-50">
+            <h2 className="font-display display-size font-semibold text-balance text-ink-50">
               {t('title')}
             </h2>
           </motion.div>
 
-          <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] border-t border-b hairline lg:col-span-8">
+          <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] border-t border-b hairline lg:col-span-7">
             {items.map((it, i) => {
               const isOpen = open === i;
               return (

@@ -19,15 +19,28 @@ export function Footer() {
   const tS = useTranslations('Services.groups');
 
   return (
-    <footer className="relative border-t hairline bg-ink-950 pt-24 pb-10">
-      <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        {/* Giant wordmark */}
-        <div className="mb-16 overflow-hidden">
-          <span className="block font-display text-[clamp(4rem,18vw,18rem)] font-semibold leading-[0.85] tracking-[-0.035em] text-ink-900">
-            legalwin.
-          </span>
-        </div>
+    <footer className="relative overflow-hidden border-t hairline bg-ink-950 pt-16 pb-8">
+      {/* Giant wordmark as background */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 select-none overflow-hidden"
+      >
+        <span
+          className="block font-display text-[clamp(6rem,22vw,22rem)] font-semibold leading-[0.78] tracking-[-0.045em] text-center"
+          style={{
+            backgroundImage:
+              'linear-gradient(180deg, color-mix(in oklab, var(--color-gold-500) 28%, transparent) 0%, color-mix(in oklab, var(--color-gold-500) 8%, transparent) 55%, transparent 100%)',
+            WebkitBackgroundClip: 'text',
+            backgroundClip: 'text',
+            color: 'transparent',
+            transform: 'translateY(8%)'
+          }}
+        >
+          legalwin.
+        </span>
+      </div>
 
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid grid-cols-12 gap-10">
           <div className="col-span-12 flex flex-col gap-5 lg:col-span-5">
             <Link href="/" className="inline-flex items-center gap-2.5 text-ink-50">
@@ -63,7 +76,6 @@ export function Footer() {
             </h4>
             <ul className="flex flex-col gap-3 text-sm text-ink-200">
               <li><a href="#cases" className="transition-colors hover:text-gold-400">{tNav('cases')}</a></li>
-              <li><a href="#team" className="transition-colors hover:text-gold-400">{tNav('team')}</a></li>
               <li><a href="#process" className="transition-colors hover:text-gold-400">{tNav('process')}</a></li>
               <li><a href="#faq" className="transition-colors hover:text-gold-400">{tNav('faq')}</a></li>
             </ul>
@@ -89,7 +101,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col-reverse items-start justify-between gap-4 border-t hairline pt-8 text-xs text-ink-500 sm:flex-row sm:items-center">
+        <div className="mt-12 flex flex-col-reverse items-start justify-between gap-4 border-t hairline pt-6 text-xs text-ink-500 sm:flex-row sm:items-center">
           <div>
             © {year} LegalWin Sp. z o.o. · {t('rights')}
           </div>

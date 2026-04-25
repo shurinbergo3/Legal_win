@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "LegalWin — Usługi prawne w Polsce",
-    "description": "Prawo imigracyjne i gospodarcze w Polsce. Karta pobytu, obywatelstwo, rejestracja spółek, relokacja. 500+ spraw rocznie, zespół 8 prawników."
+    "title": "LegalWin — Pomoc imigrantom w Polsce: karta pobytu, prawo jazdy, Kod 95",
+    "description": "Kancelaria w Warszawie dla imigrantów: karta pobytu, wymiana prawa jazdy na polskie, Kod 95 dla zawodowych kierowców, obywatelstwo, dokumenty. Od 2019 roku, 500+ spraw rocznie."
   },
   "Nav": {
     "services": "Usługi",
@@ -14,16 +14,16 @@
   },
   "Hero": {
     "eyebrow": "Warszawa · Od 2019",
-    "titleLine1": "Polskie prawo.",
-    "titleLine2": "Bez szarych stref.",
-    "subtitle": "Prowadzimy sprawy imigracyjne, zakładamy spółki, rozliczamy podatki i pomagamy w relokacji — dla klientów z WNP, UE i USA. Pod klucz.",
+    "titleLine1": "Pomoc imigrantom w Polsce.",
+    "titleLine2": "Karta pobytu · Prawo jazdy · Kod 95.",
+    "subtitle": "Karta pobytu, wymiana zagranicznego prawa jazdy na polskie, Kod 95 dla zawodowych kierowców, dokumenty i legalizacja. Kancelaria w Warszawie od 2019 roku — dla nowoprzybyłych z WNP.",
     "ctaPrimary": "Bezpłatna konsultacja",
     "ctaSecondary": "Wszystkie usługi",
     "availableNow": "Odpowiadamy w ciągu godziny",
     "hoursToday": "Dziś do 19:00"
   },
   "Marquee": {
-    "items": "Karta Pobytu · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
+    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
   },
   "Stats": {
     "title": "Liczby, które mówią za nas",
@@ -72,7 +72,8 @@
           { "name": "Meldunek", "desc": "Zameldowanie — czasowe i stałe" },
           { "name": "Akty stanu cywilnego", "desc": "Akt urodzenia, małżeństwa, zgonu — uzyskanie i uznanie" },
           { "name": "Apostille i legalizacja", "desc": "Apostille na dokumenty do wykorzystania za granicą" },
-          { "name": "Wymiana prawa jazdy", "desc": "Wymiana krajowego prawa jazdy na polskie bez egzaminów" },
+          { "name": "Wymiana prawa jazdy", "desc": "Wymiana zagranicznego prawa jazdy na polskie: tłumaczenia przysięgłe, badania lekarskie i psychotechniczne, zapis i obsługa w WORD" },
+          { "name": "Kod 95 (kwalifikacja kierowcy)", "desc": "Kwalifikacja zawodowa dla kategorii C/CE/D/DE: kwalifikacja wstępna lub szkolenie okresowe (35 h / 5 lat). Dobór OSK, dokumenty, egzamin w WORD" },
           { "name": "Zaświadczenia ZUS / US", "desc": "Zaświadczenia z ZUS i urzędu skarbowego" },
           { "name": "Zaświadczenia o niekaralności", "desc": "KRK z Polski i krajów pochodzenia" },
           { "name": "Tłumaczenia przysięgłe", "desc": "Tłumaczenia wszelkich dokumentów na/z polskiego" }
@@ -217,6 +218,7 @@
     "service": "Obszar",
     "servicePlaceholder": "Wybierz obszar",
     "serviceTrc": "Karta pobytu (TRC/PR)",
+    "serviceDriver": "Prawo jazdy / Kod 95",
     "serviceCitizenship": "Obywatelstwo / Karta Polaka",
     "serviceBusiness": "Biznes (Sp. z o.o.)",
     "serviceTax": "Podatki i księgowość",

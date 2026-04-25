@@ -2,6 +2,7 @@ import type { ContactInput } from './schemas';
 
 const labels: Record<NonNullable<ContactInput['service']>, string> = {
   trc: 'TRC / residence permit',
+  driver: 'Driving licence / Code 95',
   citizenship: 'Citizenship',
   business: 'Business setup',
   tax: 'Tax & compliance',

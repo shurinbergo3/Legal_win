@@ -7,7 +7,7 @@ import { Link } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { cn } from '@/lib/cn';
 
-const sections = ['services', 'cases', 'team', 'faq', 'contact'] as const;
+const sections = ['services', 'cases', 'process', 'faq', 'contact'] as const;
 
 export function Header() {
   const t = useTranslations('Nav');

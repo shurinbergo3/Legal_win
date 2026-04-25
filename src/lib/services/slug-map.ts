@@ -21,7 +21,12 @@ const nameBySlug: Record<string, string[]> = {
     'Ochrona międzynarodowa',
     'International protection'
   ],
-  'apelacje': ['Апелляции', 'Apelacje', 'Appeals']
+  'apelacje': ['Апелляции', 'Apelacje', 'Appeals'],
+  'kod-95': [
+    'Kod 95 (квалификация водителя)',
+    'Kod 95 (kwalifikacja kierowcy)',
+    'Code 95 (driver CPC)'
+  ]
 };
 
 const nameToSlugIndex = new Map<string, string>();

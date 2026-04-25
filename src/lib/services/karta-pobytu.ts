@@ -83,7 +83,7 @@ const kartaPobytu: ServiceEntry = {
       { q: 'Что делать при отказе?', a: 'У вас 14 дней на odwołanie к Szefowi Urzędu do Spraw Cudzoziemców. При повторном отказе — 30 дней на skargę в Wojewódzki Sąd Administracyjny. Мы ведём полный цикл.' },
       { q: 'Нужно ли сдавать польский язык?', a: 'Для TRC — нет. Польский B1 обязателен только при натурализации (гражданство) и в некоторых случаях для ПМЖ.' }
     ],
-    related: ['karta-stalego-pobytu', 'apelacje', 'ochrona-miedzynarodowa'],
+    related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],
     ctaTitle: 'Разберём ваш кейс за 30 минут',
     ctaSubtitle: 'Первая консультация бесплатна. После звонка вы получите список документов под ваше основание и примерный срок.'
   },
@@ -169,7 +169,7 @@ const kartaPobytu: ServiceEntry = {
       { q: 'Co robić przy odmowie?', a: 'Masz 14 dni na odwołanie do Szefa UdSC. Po powtórnej odmowie — 30 dni na skargę do WSA. Prowadzimy pełen cykl.' },
       { q: 'Czy trzeba zdawać polski?', a: 'Dla TRC — nie. Polski B1 jest wymagany tylko przy naturalizacji i w niektórych przypadkach PR.' }
     ],
-    related: ['karta-stalego-pobytu', 'apelacje', 'ochrona-miedzynarodowa'],
+    related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],
     ctaTitle: 'Przeanalizujmy Twoją sprawę w 30 minut',
     ctaSubtitle: 'Pierwsza konsultacja gratis. Po rozmowie dostaniesz listę dokumentów pod Twoją podstawę i szacowany termin.'
   },
@@ -255,7 +255,7 @@ const kartaPobytu: ServiceEntry = {
       { q: 'What if I\'m denied?', a: 'You have 14 days to appeal to the Head of the Office for Foreigners. On second denial — 30 days to file a complaint to the Voivodeship Administrative Court. We handle the full cycle.' },
       { q: 'Do I need to take a Polish exam?', a: 'For TRC — no. Polish B1 is mandatory for naturalisation (citizenship) and in some PR cases.' }
     ],
-    related: ['karta-stalego-pobytu', 'apelacje', 'ochrona-miedzynarodowa'],
+    related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],
     ctaTitle: 'Let\'s review your case in 30 minutes',
     ctaSubtitle: 'First consultation is free. You\'ll walk away with a document list tailored to your ground and a realistic timeline.'
   }

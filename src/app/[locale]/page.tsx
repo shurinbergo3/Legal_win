@@ -6,7 +6,6 @@ import { TrustBar } from '@/components/TrustBar';
 import { Services } from '@/components/Services';
 import { Cases } from '@/components/Cases';
 import { Testimonials } from '@/components/Testimonials';
-import { Team } from '@/components/Team';
 import { Process } from '@/components/Process';
 import { Faq } from '@/components/Faq';
 import { Contact } from '@/components/Contact';
@@ -31,7 +30,6 @@ export default async function HomePage({
         <Services />
         <Cases />
         <Testimonials />
-        <Team />
         <Process />
         <Faq />
         <Contact locale={locale} />

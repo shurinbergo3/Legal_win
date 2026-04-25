@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const serviceValues = ['trc', 'citizenship', 'business', 'tax', 'other'] as const;
+export const serviceValues = ['trc', 'driver', 'citizenship', 'business', 'tax', 'other'] as const;
 export type ServiceValue = (typeof serviceValues)[number];
 
 export const contactSchema = z.object({
