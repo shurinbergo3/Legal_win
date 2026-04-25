@@ -57,7 +57,7 @@ export function Contact({ locale }: { locale: string }) {
       />
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
           {/* LEFT — heading + contact details */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -136,10 +136,10 @@ function FormCard({ children }: { children: React.ReactNode }) {
           />
 
           {/* Top status strip */}
-          <div className="relative flex items-center justify-between border-b hairline px-6 py-3.5 sm:px-8">
-            <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-ink-400">
+          <div className="relative flex items-center justify-between border-b hairline px-5 py-3 sm:px-8 sm:py-3.5">
+            <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.28em] text-ink-400">
               <ShieldCheck className="h-3.5 w-3.5 text-gold-400" strokeWidth={1.6} aria-hidden />
-              <span>Form · 01 / Secure</span>
+              <span>Form · 01</span>
             </div>
             <div className="hidden items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-ink-400 sm:flex">
               <Lock className="h-3 w-3" strokeWidth={1.6} aria-hidden />
@@ -148,7 +148,7 @@ function FormCard({ children }: { children: React.ReactNode }) {
           </div>
 
           {/* Body */}
-          <div className="relative p-6 sm:p-8 lg:p-10">{children}</div>
+          <div className="relative p-5 sm:p-8 lg:p-10">{children}</div>
         </div>
       </div>
     </div>
@@ -550,7 +550,7 @@ function ServiceChips({
         <span>{t('service')}</span>
         {required && <span className="text-gold-400">*</span>}
       </legend>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-1.5 sm:gap-2">
         {serviceValues.map((value) => {
           const Icon = serviceIcon[value];
           const label = t(`service${value.charAt(0).toUpperCase() + value.slice(1)}` as 'serviceTrc');
@@ -559,7 +559,7 @@ function ServiceChips({
             <label
               key={value}
               className={cn(
-                'group/chip relative inline-flex cursor-pointer items-center gap-2 rounded-full border px-4 py-2.5 text-sm transition-all duration-200',
+                'group/chip relative inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-3 py-2 text-[13px] transition-all duration-200 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm',
                 isSelected
                   ? 'border-gold-500/70 bg-gold-400/15 text-gold-300 shadow-[0_0_0_3px_rgba(212,166,71,0.08)]'
                   : 'border-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] bg-ink-950/40 text-ink-200 hover:border-gold-500/30 hover:bg-ink-900/60 hover:text-ink-50'

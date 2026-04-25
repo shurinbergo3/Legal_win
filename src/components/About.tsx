@@ -13,7 +13,7 @@ export function About() {
   return (
     <section id="about" className="relative border-t hairline py-28 lg:py-36">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-8 lg:gap-12">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-8 lg:gap-12">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}

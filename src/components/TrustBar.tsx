@@ -45,7 +45,7 @@ export function TrustBar() {
       />
 
       <div className="relative mx-auto max-w-[1400px] px-6 py-14 sm:py-16 lg:px-10 lg:py-24">
-        <div className="grid grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}

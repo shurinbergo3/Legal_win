@@ -130,9 +130,26 @@ export function Chatbot() {
               )}
 
               {error && (
-                <p className="text-xs text-red-400" role="alert">
-                  {error.message}
-                </p>
+                <div
+                  role="alert"
+                  className="mr-auto max-w-[85%] rounded-2xl rounded-bl-sm border hairline bg-ink-900/70 px-4 py-3 text-sm text-ink-200"
+                >
+                  <p className="font-medium text-ink-50">
+                    Чат временно недоступен
+                  </p>
+                  <p className="mt-1 text-xs leading-relaxed text-ink-300">
+                    Напишите нам в{' '}
+                    <a
+                      href="https://t.me/legalwin"
+                      target="_blank"
+                      rel="noopener"
+                      className="text-gold-400 underline-offset-2 hover:underline"
+                    >
+                      Телеграм
+                    </a>{' '}
+                    или оставьте заявку через форму на сайте — юрист ответит в течение часа.
+                  </p>
+                </div>
               )}
             </div>
 

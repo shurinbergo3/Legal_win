@@ -42,7 +42,7 @@ export function Footer() {
       </div>
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-10">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10">
           <div className="col-span-12 flex flex-col gap-5 lg:col-span-5">
             {/* Full badge — at this size LW + LEGAL · WIN + WARSZAWA all read */}
             <Link href="/" aria-label="LegalWin" className="inline-block w-fit">

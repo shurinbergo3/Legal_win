@@ -154,7 +154,7 @@ function DetailHero({
           <span className="text-gold-400">{content.title}</span>
         </motion.nav>
 
-        <div className="grid grid-cols-12 gap-8 lg:gap-12">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-8 lg:gap-12">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -338,7 +338,7 @@ function Documents({
   return (
     <section className="relative py-24 lg:py-32">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
           <div className="col-span-12 flex flex-col gap-6 lg:sticky lg:top-28 lg:col-span-5 lg:self-start">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
               <span className="inline-block h-px w-10 bg-gold-500/60" />
@@ -449,7 +449,7 @@ function LegalBase({ data }: { data: NonNullable<ServiceContent['legalBase']> })
   return (
     <section className="relative py-20 lg:py-24">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-8 lg:gap-16">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-8 lg:gap-16">
           <div className="col-span-12 flex flex-col gap-4 lg:col-span-4">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
               <Scale className="h-4 w-4" strokeWidth={1.6} aria-hidden />
@@ -492,7 +492,7 @@ function Faq({
   return (
     <section className="relative border-t hairline bg-ink-900/30 py-24 lg:py-32">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
           <div className="col-span-12 flex flex-col gap-4 lg:sticky lg:top-28 lg:col-span-4 lg:self-start">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
               <span className="inline-block h-px w-10 bg-gold-500/60" />

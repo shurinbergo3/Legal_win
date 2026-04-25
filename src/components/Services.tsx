@@ -37,7 +37,7 @@ export function Services() {
     <section id="services" className="relative py-28 lg:py-40">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         {/* Section heading */}
-        <div className="mb-20 grid grid-cols-12 gap-8 lg:mb-28">
+        <div className="mb-20 grid grid-cols-12 gap-x-0 gap-y-8 lg:mb-28 lg:gap-x-8">
           <div className="col-span-12 flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}

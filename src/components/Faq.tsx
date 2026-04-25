@@ -18,7 +18,7 @@ export function Faq() {
   return (
     <section id="faq" className="relative border-t hairline bg-ink-900/30 py-28 lg:py-36">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
