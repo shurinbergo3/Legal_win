@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Fraunces, Inter, JetBrains_Mono } from 'next/font/google';
+import { Fraunces, Source_Serif_4, Inter, JetBrains_Mono } from 'next/font/google';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -8,9 +8,19 @@ import '../globals.css';
 
 const fraunces = Fraunces({
   subsets: ['latin', 'latin-ext'],
-  variable: '--font-display',
+  variable: '--font-fraunces',
   display: 'swap',
   axes: ['opsz', 'SOFT', 'WONK']
+});
+
+// Cyrillic fallback for display: Fraunces lacks Cyrillic glyphs, so the
+// browser would fall back to Georgia. Source Serif 4 carries the same
+// editorial-luxury feel and has full Cyrillic + matching italic.
+const sourceSerif = Source_Serif_4({
+  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
+  variable: '--font-source-serif',
+  display: 'swap',
+  axes: ['opsz']
 });
 
 const inter = Inter({
@@ -72,7 +82,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${fraunces.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
+    <html lang={locale} className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="grain min-h-dvh antialiased">
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>
