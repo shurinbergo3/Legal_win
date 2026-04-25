@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { LogoLockup, LogoStamp } from './Logo';
+import { LogoBadge } from './Logo';
 
 export function Footer() {
   const t = useTranslations('Footer');
@@ -44,16 +44,13 @@ export function Footer() {
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid grid-cols-12 gap-10">
           <div className="col-span-12 flex flex-col gap-5 lg:col-span-5">
-            <div className="flex items-start justify-between gap-6">
-              <Link href="/" aria-label="LegalWin">
-                <LogoLockup markSize={36} wordSize={24} />
-              </Link>
-              {/* Decorative notarial stamp */}
-              <LogoStamp
-                size={104}
-                className="hidden flex-shrink-0 text-gold-400/55 sm:block"
+            {/* Full badge — at this size LW + LEGAL · WIN + WARSZAWA all read */}
+            <Link href="/" aria-label="LegalWin" className="inline-block w-fit">
+              <LogoBadge
+                size={168}
+                className="text-gold-400 transition-transform duration-500 hover:scale-[1.02]"
               />
-            </div>
+            </Link>
             <p className="max-w-sm text-sm text-ink-400">{t('tagline')}</p>
             <p className="text-xs text-ink-500">{tContact('address')}</p>
           </div>

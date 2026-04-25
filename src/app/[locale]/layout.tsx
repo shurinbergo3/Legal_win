@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Fraunces, Source_Serif_4, Inter, JetBrains_Mono } from 'next/font/google';
+import { Fraunces, Source_Serif_4, Cormorant_Garamond, Inter, JetBrains_Mono } from 'next/font/google';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -21,6 +21,16 @@ const sourceSerif = Source_Serif_4({
   variable: '--font-source-serif',
   display: 'swap',
   axes: ['opsz']
+});
+
+// Cormorant Garamond — used by the brand mark for the italic LW
+// monogram and the LEGAL · WIN / WARSZAWA caps inside the badge.
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['500', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-cormorant',
+  display: 'swap'
 });
 
 const inter = Inter({
@@ -82,7 +92,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
+    <html lang={locale} className={`${fraunces.variable} ${sourceSerif.variable} ${cormorant.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="grain min-h-dvh antialiased">
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>

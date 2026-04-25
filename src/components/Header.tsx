@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
-import { LogoLockup } from './Logo';
+import { LogoBadge } from './Logo';
 import { cn } from '@/lib/cn';
 
 const sections = ['services', 'cases', 'process', 'faq', 'contact'] as const;
@@ -35,14 +35,18 @@ export function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
         <Link
           href="/"
-          className="group transition-colors duration-300 hover:text-gold-300"
+          className="group inline-flex items-center gap-3 text-ink-50 transition-colors duration-300 hover:text-gold-300"
           aria-label="LegalWin"
         >
-          <LogoLockup
-            markSize={34}
-            wordSize={22}
-            className="transition-transform duration-300 group-hover:[&_svg]:scale-105"
+          {/* Compact badge in header — text removed for legibility at small size */}
+          <LogoBadge
+            size={48}
+            compact
+            className="text-gold-400 transition-transform duration-300 group-hover:scale-105"
           />
+          <span className="font-display text-[22px] font-semibold tracking-tight">
+            LegalWin
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm text-ink-300 lg:flex">

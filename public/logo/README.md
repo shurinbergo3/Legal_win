@@ -1,38 +1,51 @@
-# LegalWin — Brand Mark Kit
+# LegalWin — Brand Mark
 
-All marks are vector (SVG) so they scale to any size — favicon, business card, billboard.
+Vector circular badge with Themis scales of justice, italic "LW" monogram,
+and "LEGAL · WIN / WARSZAWA" lockup. Scales 16px → poster.
 
 ## Files
 
 | File | Use case | Color |
 |------|----------|-------|
-| `mark-gold.svg` | Icon-only mark, 320×320 | Gold (`#D4A647`) on transparent |
-| `mark-ink.svg` | Icon-only mark for light surfaces | Ink (`#05091a`) on transparent |
-| `lockup-gold-on-dark.svg` | Header / dark business card / signature | Gold + cream on ink |
-| `lockup-ink-on-light.svg` | Letterhead / invoice / light deck | Bronze + ink on cream |
-| `stamp-gold-on-dark.svg` | Notarial stamp / footer ornament / wax-seal moments | Gold on ink |
+| `legal-win-gold.svg` | Standalone export for Figma, PDF, business cards, signatures | Gold (`#B8923A`) on transparent |
+| `legal-win-ink.svg` | Letterhead, invoices, light surfaces | Ink (`#0a1021`) on transparent |
 
-The favicon at `/public/favicon.svg` is the same mark on a rounded ink-navy chip.
+The favicon at `/public/favicon.svg` is the same scales motif (without the
+LW typography — illegible at favicon size) on a rounded ink-navy chip.
 
-## In-app components
+## In-app component
 
-The site uses `src/components/Logo.tsx`:
+`src/components/Logo.tsx` exports `<LogoBadge>`:
 
-- `<LogoMark />` — accepts `size`, `strokeWidth`, `className`. Inherits `currentColor`.
-- `<LogoLockup />` — `markSize`, `wordSize`, optional subtitle.
-- `<LogoStamp />` — circular badge with curved text + centered mark.
+```tsx
+<LogoBadge size={48} compact />   // header — scales only
+<LogoBadge size={168} />          // footer — full badge with text
+```
+
+- `size` (number, default 64) — pixel dimension
+- `compact` (boolean) — hide LW + wordmark text (use for sizes <40px)
+- `className` — applied to root SVG; controls color via `text-*` (currentColor)
 
 ## Brand colors
 
 ```
 Ink-950   #05091a   (background)
+Ink-900   #0a1021   (background — slightly lighter)
 Ink-50    #f5f7fb   (foreground)
+Gold-300  #f3d78a
 Gold-400  #E9C269   (accent — light gold)
 Gold-500  #D4A647   (accent — primary gold)
-Gold-600  #B4862E   (accent — bronze)
+Gold-600  #B4862E   (accent — bronze, used in standalone SVG)
+Gold-700  #8a631e
 ```
+
+## Typography
+
+- LW italic monogram + LEGAL · WIN + WARSZAWA — **Cormorant Garamond**
+  (loaded via next/font in `layout.tsx`)
 
 ## Clearspace
 
-Reserve at least the height of the mark on every side. Don't crop the mark.
-Don't recolor outside the brand palette. Don't italicize the wordmark.
+Reserve at least the height of the badge on every side. Do not crop.
+Do not recolor outside the gold/ink palette. Do not modify proportions
+of the scales or the typography lockup.

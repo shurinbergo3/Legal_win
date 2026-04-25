@@ -1,200 +1,168 @@
 /**
- * LegalWin logo system.
+ * LegalWin brand mark.
  *
- * Three variants share the same geometric scales mark:
- *  - <LogoMark />     icon-only (favicon, social avatars, compact UI)
- *  - <LogoLockup />   mark + "LegalWin" wordmark (header, business cards)
- *  - <LogoStamp />    circular notarial-stamp badge (footer, formal docs)
+ * Single circular badge with Themis scales, "LW" italic monogram,
+ * "LEGAL · WIN / WARSZAWA" caps below. Vector. Scales 16px → poster.
  *
- * The mark is a single-stroke architectural scales-of-justice glyph:
- * vertical pillar + horizontal beam + two suspended pans + tiered base.
- * No ornament. Reads at 16×16 (favicon) and at 320×320 (print).
+ *   <LogoBadge size={56} />          // compact (header)
+ *   <LogoBadge size={180} />         // full (footer, formal docs)
+ *   <LogoBadge size={32} compact />  // scales-only (favicon-style)
  *
- * All variants use currentColor so they inherit theme colors.
+ * Uses currentColor so the parent's text-* class controls ink/gold tone.
  */
 
 import { cn } from '@/lib/cn';
 
-/* ---------- Mark ---------- */
-
-export function LogoMark({
+export function LogoBadge({
   className,
-  size = 32,
-  strokeWidth = 1.5
+  size = 64,
+  compact = false
 }: {
   className?: string;
   size?: number;
-  strokeWidth?: number;
+  /** Hide LW + wordmark text (use for favicon-tier sizes <40px). */
+  compact?: boolean;
 }) {
   return (
     <svg
-      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 320 320"
       width={size}
       height={size}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={strokeWidth}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-hidden="true"
-      focusable="false"
+      className={cn('text-gold-500', className)}
+      role="img"
+      aria-label="LegalWin"
     >
-      {/* Top finial */}
-      <circle cx="16" cy="4" r="1.3" fill="currentColor" stroke="none" />
-      {/* Central pillar */}
-      <line x1="16" y1="5.4" x2="16" y2="25" />
-      {/* Crossbeam */}
-      <line x1="5" y1="9.5" x2="27" y2="9.5" />
-      {/* Suspension drops */}
-      <line x1="6" y1="9.5" x2="6" y2="13.4" />
-      <line x1="26" y1="9.5" x2="26" y2="13.4" />
-      {/* Left pan — shallow bowl */}
-      <path d="M1.6 13.4 L10.4 13.4 Q6 18.4 1.6 13.4 Z" />
-      {/* Right pan — shallow bowl */}
-      <path d="M21.6 13.4 L30.4 13.4 Q26 18.4 21.6 13.4 Z" />
-      {/* Tiered base */}
-      <line x1="12.5" y1="25" x2="19.5" y2="25" />
-      <line x1="10.5" y1="27" x2="21.5" y2="27" />
-      <line x1="8.5" y1="29" x2="23.5" y2="29" />
+      {/* Outer rings */}
+      <circle cx="160" cy="160" r="148" stroke="currentColor" strokeWidth="1" fill="none" />
+      <circle cx="160" cy="160" r="142" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.5" />
+
+      {/* Themis scales group */}
+      <g stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        {/* Top diamond + finial */}
+        <path d="M 160 66 L 163 74 L 160 78 L 157 74 Z" fill="currentColor" stroke="none" />
+        <circle cx="160" cy="74" r="1.53" fill="currentColor" stroke="none" />
+
+        {/* Twin pole lines */}
+        <line x1="159" y1="78" x2="159" y2="162.5" strokeWidth="1.19" />
+        <line x1="161" y1="78" x2="161" y2="162.5" strokeWidth="1.19" />
+
+        {/* Beam (curved) + shadow line */}
+        <path d="M 85 105.5 Q 160 96 235 105.5" strokeWidth="2.04" />
+        <path d="M 89 108.5 Q 160 99 231 108.5" strokeWidth="0.68" opacity="0.65" />
+
+        {/* Center balance diamond */}
+        <path d="M 160 98.5 L 164 103.5 L 160 108.5 L 156 103.5 Z" fill="currentColor" stroke="none" />
+
+        {/* Beam end caps */}
+        <circle cx="85" cy="105.5" r="2.72" fill="currentColor" stroke="none" />
+        <circle cx="235" cy="105.5" r="2.72" fill="currentColor" stroke="none" />
+
+        {/* Suspension chains — left */}
+        <line x1="85" y1="104.5" x2="59.5" y2="126.45" strokeWidth="0.94" />
+        <line x1="85" y1="104.5" x2="85" y2="125.17" strokeWidth="0.94" />
+        <line x1="85" y1="104.5" x2="110.5" y2="126.45" strokeWidth="0.94" />
+
+        {/* Suspension chains — right */}
+        <line x1="235" y1="104.5" x2="260.5" y2="126.45" strokeWidth="0.94" />
+        <line x1="235" y1="104.5" x2="235" y2="125.17" strokeWidth="0.94" />
+        <line x1="235" y1="104.5" x2="209.5" y2="126.45" strokeWidth="0.94" />
+
+        {/* Left pan */}
+        <g>
+          <ellipse cx="85" cy="129" rx="30" ry="6.38" stroke="currentColor" strokeWidth="1.53" fill="none" />
+          <ellipse cx="85" cy="129" rx="30" ry="5.42" fill="currentColor" stroke="none" opacity="0.95" />
+          <path d="M 57 130 Q 85 147.6 113 130" strokeWidth="1.7" stroke="currentColor" fill="none" />
+          <path d="M 60 132 Q 85 144 110 132" strokeWidth="0.68" stroke="currentColor" fill="none" opacity="0.55" />
+          <circle cx="85" cy="148.6" r="1.02" fill="currentColor" stroke="none" />
+        </g>
+
+        {/* Right pan */}
+        <g>
+          <ellipse cx="235" cy="129" rx="30" ry="6.38" stroke="currentColor" strokeWidth="1.53" fill="none" />
+          <ellipse cx="235" cy="129" rx="30" ry="5.42" fill="currentColor" stroke="none" opacity="0.95" />
+          <path d="M 207 130 Q 235 147.6 263 130" strokeWidth="1.7" stroke="currentColor" fill="none" />
+          <path d="M 210 132 Q 235 144 260 132" strokeWidth="0.68" stroke="currentColor" fill="none" opacity="0.55" />
+          <circle cx="235" cy="148.6" r="1.02" fill="currentColor" stroke="none" />
+        </g>
+
+        {/* Tiered pedestal */}
+        <rect x="150.55" y="162.5" width="18.9" height="2.38" fill="currentColor" stroke="none" />
+        <path d="M 133.75 170.5 L 186.25 170.5 L 179.95 165.5 L 140.05 165.5 Z" fill="currentColor" stroke="none" />
+        <rect x="127.45" y="172.5" width="65.1" height="2.72" fill="currentColor" stroke="none" />
+        <line x1="123.25" y1="177.5" x2="196.75" y2="177.5" strokeWidth="0.85" />
+      </g>
+
+      {/* Decorative divider with end caps + dots */}
+      <g stroke="currentColor" strokeWidth="1" strokeLinecap="round">
+        <line x1="74" y1="186" x2="246" y2="186" />
+        <line x1="74" y1="183" x2="74" y2="189" />
+        <line x1="246" y1="183" x2="246" y2="189" />
+        <circle cx="160" cy="186" r="2" fill="currentColor" stroke="none" />
+        <circle cx="116" cy="186" r="1" fill="currentColor" stroke="none" />
+        <circle cx="204" cy="186" r="1" fill="currentColor" stroke="none" />
+      </g>
+
+      {/* LW italic monogram + LEGAL · WIN / WARSZAWA — hidden in compact mode */}
+      {!compact && (
+        <>
+          <text
+            x="160"
+            y="244"
+            textAnchor="middle"
+            fontSize="66"
+            fontWeight="500"
+            fontStyle="italic"
+            fill="currentColor"
+            letterSpacing="-2.64"
+            style={{ fontFamily: "var(--font-cormorant), var(--font-cormorant), 'Cormorant Garamond', var(--font-source-serif), Georgia, serif" }}
+          >
+            LW
+          </text>
+          <text
+            x="160"
+            y="276"
+            textAnchor="middle"
+            fontSize="11"
+            fontWeight="600"
+            fill="currentColor"
+            letterSpacing="6"
+            style={{ fontFamily: "var(--font-cormorant), 'Cormorant Garamond', var(--font-source-serif), Georgia, serif" }}
+          >
+            LEGAL · WIN
+          </text>
+          <text
+            x="160"
+            y="294"
+            textAnchor="middle"
+            fontSize="9"
+            fill="currentColor"
+            letterSpacing="5"
+            opacity="0.75"
+            style={{ fontFamily: "var(--font-cormorant), 'Cormorant Garamond', var(--font-source-serif), Georgia, serif" }}
+          >
+            WARSZAWA
+          </text>
+        </>
+      )}
     </svg>
   );
 }
 
-/* ---------- Lockup (mark + wordmark) ---------- */
+/* ---------- Backwards-compat exports ---------- */
+// Keep old names alive so existing imports don't break while we refactor.
+export const LogoMark = (props: { className?: string; size?: number; strokeWidth?: number }) => (
+  <LogoBadge className={props.className} size={props.size ?? 32} compact />
+);
 
-export function LogoLockup({
-  className,
-  markSize = 32,
-  wordSize = 22,
-  showSubtitle = false,
-  subtitle = 'Adwokaci · Warszawa'
-}: {
+export const LogoLockup = (props: {
   className?: string;
   markSize?: number;
   wordSize?: number;
-  showSubtitle?: boolean;
-  subtitle?: string;
-}) {
-  return (
-    <span
-      className={cn('inline-flex items-center gap-2.5 text-ink-50', className)}
-      aria-label="LegalWin"
-    >
-      <LogoMark size={markSize} className="text-gold-400" />
-      <span className="flex flex-col leading-none">
-        <span
-          className="font-display font-semibold tracking-[-0.02em]"
-          style={{ fontSize: wordSize }}
-        >
-          LegalWin
-        </span>
-        {showSubtitle && (
-          <span className="mt-1 font-mono text-[9px] uppercase tracking-[0.32em] text-ink-400">
-            {subtitle}
-          </span>
-        )}
-      </span>
-    </span>
-  );
-}
+}) => (
+  <LogoBadge className={props.className} size={props.markSize ?? 56} />
+);
 
-/* ---------- Stamp (circular badge with curved text) ---------- */
-
-export function LogoStamp({
-  className,
-  size = 144
-}: {
-  className?: string;
-  size?: number;
-}) {
-  return (
-    <svg
-      viewBox="0 0 144 144"
-      width={size}
-      height={size}
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-label="LegalWin · Warszawa"
-    >
-      <defs>
-        {/* Top arc for curved text — runs left-to-right across the top */}
-        <path
-          id="legalwin-stamp-top-arc"
-          d="M 18 72 A 54 54 0 0 1 126 72"
-          fill="none"
-        />
-      </defs>
-
-      {/* Outer ring (very thin, faded) */}
-      <circle
-        cx="72"
-        cy="72"
-        r="69"
-        strokeWidth="0.5"
-        opacity="0.35"
-      />
-      {/* Inner ring */}
-      <circle cx="72" cy="72" r="62" strokeWidth="0.7" />
-
-      {/* Side dots — anchor points where rings meet */}
-      <circle cx="10" cy="72" r="1.4" fill="currentColor" stroke="none" />
-      <circle cx="134" cy="72" r="1.4" fill="currentColor" stroke="none" />
-
-      {/* Curved text along top arc */}
-      <text
-        fontFamily="'Inter', system-ui, sans-serif"
-        fontSize="7"
-        fontWeight="500"
-        letterSpacing="2.6"
-        fill="currentColor"
-        stroke="none"
-      >
-        <textPath
-          href="#legalwin-stamp-top-arc"
-          startOffset="50%"
-          textAnchor="middle"
-        >
-          L E G A L W I N · W A R S Z A W A
-        </textPath>
-      </text>
-
-      {/* Centered scales mark */}
-      <g transform="translate(56, 50) scale(1.3)">
-        <circle cx="16" cy="4" r="1.3" fill="currentColor" stroke="none" />
-        <line x1="16" y1="5.4" x2="16" y2="25" strokeWidth="1.2" />
-        <line x1="5" y1="9.5" x2="27" y2="9.5" strokeWidth="1.2" />
-        <line x1="6" y1="9.5" x2="6" y2="13.4" strokeWidth="1.2" />
-        <line x1="26" y1="9.5" x2="26" y2="13.4" strokeWidth="1.2" />
-        <path
-          d="M1.6 13.4 L10.4 13.4 Q6 18.4 1.6 13.4 Z"
-          strokeWidth="1.2"
-        />
-        <path
-          d="M21.6 13.4 L30.4 13.4 Q26 18.4 21.6 13.4 Z"
-          strokeWidth="1.2"
-        />
-        <line x1="12.5" y1="25" x2="19.5" y2="25" strokeWidth="1.2" />
-        <line x1="10.5" y1="27" x2="21.5" y2="27" strokeWidth="1.2" />
-        <line x1="8.5" y1="29" x2="23.5" y2="29" strokeWidth="1.2" />
-      </g>
-
-      {/* Bottom est. line — straight, mono, small */}
-      <text
-        x="72"
-        y="118"
-        fontFamily="'JetBrains Mono', ui-monospace, monospace"
-        fontSize="6"
-        letterSpacing="1.8"
-        fill="currentColor"
-        stroke="none"
-        textAnchor="middle"
-      >
-        EST · MMXIX
-      </text>
-    </svg>
-  );
-}
+export const LogoStamp = (props: { className?: string; size?: number }) => (
+  <LogoBadge className={props.className} size={props.size ?? 144} />
+);

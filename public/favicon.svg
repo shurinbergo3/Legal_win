@@ -1,39 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="lw-gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e9c269"/>
-      <stop offset="1" stop-color="#b4862e"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <!-- Dark navy rounded chip — keeps mark visible on light or dark browser tabs -->
+  <rect width="320" height="320" rx="56" fill="#05091a"/>
 
-  <!-- Dark navy rounded background — keeps mark visible on any browser tab -->
-  <rect width="64" height="64" rx="14" fill="#05091a"/>
+  <!-- Outer rings -->
+  <circle cx="160" cy="160" r="148" stroke="#D4A647" stroke-width="2" fill="none"/>
+  <circle cx="160" cy="160" r="142" stroke="#D4A647" stroke-width="1" fill="none" opacity="0.5"/>
 
-  <!-- Scales of justice mark, scaled into the 64×64 frame -->
-  <g
-    transform="translate(16,12)"
-    fill="none"
-    stroke="url(#lw-gold)"
-    stroke-width="2.4"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  >
-    <!-- Top finial -->
-    <circle cx="16" cy="4" r="1.8" fill="url(#lw-gold)" stroke="none"/>
-    <!-- Central pillar -->
-    <line x1="16" y1="5.4" x2="16" y2="32"/>
-    <!-- Crossbeam -->
-    <line x1="3" y1="10" x2="29" y2="10"/>
-    <!-- Suspension drops -->
-    <line x1="5" y1="10" x2="5" y2="14.5"/>
-    <line x1="27" y1="10" x2="27" y2="14.5"/>
+  <!-- Themis scales (compact: scales only, no LW text — illegible at 16px anyway) -->
+  <g stroke="#D4A647" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top diamond + finial -->
+    <path d="M 160 80 L 164 90 L 160 95 L 156 90 Z" fill="#D4A647" stroke="none"/>
+    <circle cx="160" cy="89" r="2" fill="#D4A647" stroke="none"/>
+
+    <!-- Twin pole lines -->
+    <line x1="158" y1="95" x2="158" y2="225" stroke-width="2"/>
+    <line x1="162" y1="95" x2="162" y2="225" stroke-width="2"/>
+
+    <!-- Beam (curved) -->
+    <path d="M 70 130 Q 160 118 250 130" stroke-width="3"/>
+    <path d="M 75 134 Q 160 122 245 134" stroke-width="1" opacity="0.55"/>
+
+    <!-- Center balance diamond -->
+    <path d="M 160 122 L 165 128 L 160 134 L 155 128 Z" fill="#D4A647" stroke="none"/>
+
+    <!-- Beam end caps -->
+    <circle cx="70" cy="130" r="4" fill="#D4A647" stroke="none"/>
+    <circle cx="250" cy="130" r="4" fill="#D4A647" stroke="none"/>
+
+    <!-- Suspension chains -->
+    <line x1="70" y1="130" x2="42" y2="158" stroke-width="1.5"/>
+    <line x1="70" y1="130" x2="70" y2="158" stroke-width="1.5"/>
+    <line x1="70" y1="130" x2="98" y2="158" stroke-width="1.5"/>
+    <line x1="250" y1="130" x2="222" y2="158" stroke-width="1.5"/>
+    <line x1="250" y1="130" x2="250" y2="158" stroke-width="1.5"/>
+    <line x1="250" y1="130" x2="278" y2="158" stroke-width="1.5"/>
+
     <!-- Left pan -->
-    <path d="M0.5 14.5 L9.5 14.5 Q5 20 0.5 14.5 Z"/>
+    <ellipse cx="70" cy="162" rx="34" ry="6.5" stroke-width="2" fill="none"/>
+    <ellipse cx="70" cy="162" rx="34" ry="5.5" fill="#D4A647" stroke="none" opacity="0.95"/>
+    <path d="M 38 163 Q 70 184 102 163" stroke-width="2" fill="none"/>
+
     <!-- Right pan -->
-    <path d="M22.5 14.5 L31.5 14.5 Q27 20 22.5 14.5 Z"/>
-    <!-- Tiered base -->
-    <line x1="11" y1="32" x2="21" y2="32"/>
-    <line x1="8.5" y1="35" x2="23.5" y2="35"/>
-    <line x1="6" y1="38" x2="26" y2="38"/>
+    <ellipse cx="250" cy="162" rx="34" ry="6.5" stroke-width="2" fill="none"/>
+    <ellipse cx="250" cy="162" rx="34" ry="5.5" fill="#D4A647" stroke="none" opacity="0.95"/>
+    <path d="M 218 163 Q 250 184 282 163" stroke-width="2" fill="none"/>
+
+    <!-- Pedestal -->
+    <rect x="148" y="225" width="24" height="3" fill="#D4A647" stroke="none"/>
+    <path d="M 128 235 L 192 235 L 184 228 L 136 228 Z" fill="#D4A647" stroke="none"/>
+    <rect x="120" y="237" width="80" height="3.5" fill="#D4A647" stroke="none"/>
+    <line x1="115" y1="244" x2="205" y2="244" stroke-width="1.5"/>
   </g>
 </svg>
