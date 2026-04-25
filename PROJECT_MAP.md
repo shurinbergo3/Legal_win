@@ -59,7 +59,7 @@ Legalwin/
     │   ├── robots.ts             ← /robots.txt
     │   ├── sitemap.ts            ← /sitemap.xml с hreflang
     │   ├── api/
-    │   │   └── chat/route.ts     ← AI-чат (edge runtime, OpenAI)
+    │   │   └── chat/route.ts     ← AI-чат (Node runtime, Groq llama-3.3-70b, submitLead → Telegram)
     │   └── [locale]/
     │       ├── layout.tsx        ← шрифты, metadata, IntlProvider
     │       ├── page.tsx          ← главная (собирает секции)
@@ -88,7 +88,7 @@ Legalwin/
 |---|---|---|
 | `TELEGRAM_BOT_TOKEN` | отправка заявок в Telegram | [@BotFather](https://t.me/BotFather) → `/newbot` → токен |
 | `TELEGRAM_CHAT_ID` | в какой чат/канал слать | добавить бота в группу → `https://api.telegram.org/bot<TOKEN>/getUpdates` → поле `chat.id` |
-| `OPENAI_API_KEY` | AI-консультант | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) |
+| `GROQ_API_KEY` | AI-консультант (Groq llama-3.3-70b) | [console.groq.com/keys](https://console.groq.com/keys) |
 | `NEXT_PUBLIC_SITE_URL` | canonical / sitemap / OG | `https://legalwin.pl` (в проде), `http://localhost:3000` (локально) |
 
 ### Проверка Telegram
@@ -136,7 +136,7 @@ curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getMe"
 
 ### AI-чатбот
 - Виджет: `src/components/Chatbot.tsx`
-- API: `src/app/api/chat/route.ts` (edge runtime, модель `gpt-4o-mini`)
+- API: `src/app/api/chat/route.ts` (Node runtime, Groq `llama-3.3-70b-versatile`, инструмент `submitLead` шлёт лид в Telegram)
 - System prompt: константа `SYSTEM_PROMPT` в `route.ts`
 - **База знаний:** `src/lib/knowledge-base.ts` — сейчас это плейсхолдер, заменить на реальные тексты с `legalwin.pl` (политика, цены, кейсы, FAQ). Для больших объёмов знаний — подключить RAG (embeddings + векторная БД).
 
@@ -202,6 +202,6 @@ Edge-runtime для `/api/chat` уже включён (`export const runtime = '
 | `Could not parse module middleware.ts` | Turbopack закэшировал старый путь после перемещения файла. `rm -rf .next`, перезапусти |
 | `localhost:3000` показывает чужой ответ | другой процесс занял порт. `lsof -iTCP:3000 -sTCP:LISTEN` + `kill -9 PID`, либо заходи на 3001 |
 | Форма молчит после отправки | проверь `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`; бот добавлен в чат админом? |
-| Чат отвечает ошибкой | проверь `OPENAI_API_KEY` + биллинг в OpenAI |
+| Чат отвечает ошибкой | проверь `GROQ_API_KEY` (получи на console.groq.com) и логи `[chat] lead delivery failed` |
 | Не применяются цвета `bg-gold-400` | Tailwind v4 подхватывает токены из `@theme` в `globals.css` — убедись, что файл импортирован в `src/app/[locale]/layout.tsx` |
 | `useChat is not a function` | `@ai-sdk/react` должен быть в dependencies, хук импортируется оттуда, не из `ai` |

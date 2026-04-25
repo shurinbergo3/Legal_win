@@ -49,6 +49,9 @@
 
 html {
   scroll-behavior: smooth;
+  /* Hard cap on horizontal scrolling caused by decorative blurs/wordmarks.
+     `clip` (vs `hidden`) doesn't break sticky/fixed positioning. */
+  overflow-x: clip;
 }
 
 html,
@@ -59,6 +62,8 @@ body {
   font-feature-settings: 'cv11', 'ss01', 'ss03';
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Belt-and-suspenders for browsers that don't support overflow:clip on <html> */
+  overflow-x: clip;
 }
 
 ::selection {

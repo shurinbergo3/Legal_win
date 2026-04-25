@@ -12,7 +12,7 @@ Trilingual (RU · PL · EN) · AI legal consultant with RAG · Telegram intake.
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![next-intl](https://img.shields.io/badge/next--intl-v4-7C3AED)](https://next-intl.dev)
 [![Vercel AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-v4-000000?logo=vercel&logoColor=white)](https://sdk.vercel.ai)
-[![OpenAI](https://img.shields.io/badge/OpenAI-gpt--4o--mini-412991?logo=openai&logoColor=white)](https://platform.openai.com)
+[![Groq](https://img.shields.io/badge/Groq-llama--3.3--70b-F55036?logo=groq&logoColor=white)](https://groq.com)
 [![License](https://img.shields.io/badge/License-Proprietary-7A5B14)](#license)
 
 </div>
@@ -60,7 +60,7 @@ LegalWin is the marketing site for a Warsaw-based law firm serving CIS, EU and U
 | Motion | **Framer Motion v12** |
 | i18n | **next-intl v4** — middleware-based routing, JSON message catalogs |
 | Forms | **react-hook-form** + **Zod** validation |
-| AI | **Vercel AI SDK v4** + **@ai-sdk/openai** (`gpt-4o-mini`) |
+| AI | **Vercel AI SDK v4** + **Groq** (`llama-3.3-70b-versatile`, OpenAI-compatible API) with `submitLead` tool that forwards captured contacts to the Telegram bot |
 | Messaging | **Telegram Bot API** (MarkdownV2) |
 | Icons | **lucide-react** |
 
@@ -91,7 +91,7 @@ A floating chat in the bottom-right corner serves as a virtual LegalWin lawyer. 
 | Layer | Location | Purpose |
 |---|---|---|
 | UI widget | [src/components/Chatbot.tsx](src/components/Chatbot.tsx) | Floating button + chat window; streams via `useChat` (`@ai-sdk/react`) |
-| API | [src/app/api/chat/route.ts](src/app/api/chat/route.ts) | Edge-runtime endpoint, `streamText` from Vercel AI SDK, model `gpt-4o-mini` |
+| API | [src/app/api/chat/route.ts](src/app/api/chat/route.ts) | Node-runtime endpoint, `streamText` from Vercel AI SDK, Groq `llama-3.3-70b-versatile`, server-side `submitLead` tool that delivers captured leads to the Telegram bot |
 | Knowledge base | [src/lib/knowledge-base.ts](src/lib/knowledge-base.ts) | Source of truth for RAG: firm facts, procedures, constraints |
 | System prompt | `SYSTEM_PROMPT` constant in `route.ts` | Role, tone, guardrails (no fabricated timelines or pricing, scope limits) |
 
@@ -131,7 +131,7 @@ npm run dev                     # http://localhost:3000/ru
 
 | Variable | Required | Purpose |
 |---|:---:|---|
-| `OPENAI_API_KEY` | ✅ | Powers the RAG-backed AI consultant |
+| `GROQ_API_KEY` | ✅ | Powers the on-site chatbot via Groq (`llama-3.3-70b-versatile`) |
 | `TELEGRAM_BOT_TOKEN` | ✅ | Sends contact-form submissions to Telegram |
 | `TELEGRAM_CHAT_ID` | ✅ | Primary chat / channel that receives submissions |
 | `NEXT_PUBLIC_SITE_URL` | ✅ | Canonical URL, sitemap, OG tags (`https://legalwin.pl` in production) |
