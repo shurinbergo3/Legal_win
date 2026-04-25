@@ -42,5 +42,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
   );
 
-  return [...home, ...servicePages];
+  // Legal pages — privacy policy, cookie policy
+  const legalSlugs = ['polityka-prywatnosci', 'polityka-cookies'] as const;
+  const legalPages: MetadataRoute.Sitemap = routing.locales.flatMap((locale) =>
+    legalSlugs.map((slug) => ({
+      url: `${SITE_URL}/${locale}/${slug}`,
+      lastModified: now,
+      changeFrequency: 'yearly' as const,
+      priority: 0.4,
+      alternates: {
+        languages: Object.fromEntries(
+          routing.locales.map((l) => [l, `${SITE_URL}/${l}/${slug}`])
+        )
+      }
+    }))
+  );
+
+  return [...home, ...servicePages, ...legalPages];
 }

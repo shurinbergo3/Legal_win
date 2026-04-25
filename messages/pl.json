@@ -250,9 +250,36 @@
     "servicesTitle": "Usługi",
     "companyTitle": "Firma",
     "contactTitle": "Kontakt",
+    "legalTitle": "Prawne",
     "rights": "Wszystkie prawa zastrzeżone",
     "privacy": "Polityka prywatności",
-    "terms": "Regulamin"
+    "cookies": "Polityka cookies",
+    "manageCookies": "Ustawienia cookies"
+  },
+  "Cookies": {
+    "bannerTitle": "Używamy plików cookies",
+    "bannerIntro": "Cookies techniczne są niezbędne do działania serwisu. Analityczne i marketingowe — tylko za Twoją zgodą. Decyzję możesz zmienić w dowolnym momencie.",
+    "readMore": "Dowiedz się więcej",
+    "settings": "Ustawienia",
+    "necessaryOnly": "Tylko niezbędne",
+    "acceptAll": "Akceptuj wszystkie",
+    "saveChoice": "Zapisz wybór",
+    "settingsTitle": "Ustawienia plików cookies",
+    "settingsIntro": "Wybierz kategorie cookies, na które wyrażasz zgodę. Cookies techniczne są zawsze włączone — bez nich strona nie działa.",
+    "close": "Zamknij",
+    "catNecessaryTitle": "Niezbędne",
+    "catNecessaryDesc": "Sesja, wybór języka, podstawowe bezpieczeństwo. Nie wymagają zgody zgodnie z PKE Art. 11.",
+    "catFunctionalTitle": "Funkcjonalne",
+    "catFunctionalDesc": "Zapamiętują Twoje ustawienia i preferencje, aby kolejne wizyty były wygodniejsze.",
+    "catAnalyticalTitle": "Analityczne",
+    "catAnalyticalDesc": "Anonimowe statystyki odwiedzin: które strony są popularne, gdzie odwiedzający rezygnują. Pomagają ulepszać serwis.",
+    "catMarketingTitle": "Marketingowe",
+    "catMarketingDesc": "Personalizacja reklam i pomiar ich skuteczności na zewnętrznych platformach."
+  },
+  "ConsentForm": {
+    "label": "Wyrażam zgodę na przetwarzanie moich danych osobowych przez LegalWin (administrator danych) w celu obsługi tego zapytania zgodnie z {policy}. Mam świadomość, że mogę cofnąć zgodę w dowolnym momencie.",
+    "policyLink": "Polityką prywatności",
+    "required": "Aby wysłać zgłoszenie, musisz wyrazić zgodę na przetwarzanie danych"
   },
   "ServiceDetail": {
     "documentsEyebrow": "/ dokumenty",
@@ -269,5 +296,10 @@
     "send": "Wyślij",
     "greeting": "Dzień dobry! Jestem wirtualnym konsultantem LegalWin. W czym mogę pomóc — karta pobytu, spółki, podatki, obywatelstwo?",
     "disclaimer": "Odpowiedzi mają charakter informacyjny i nie zastępują konsultacji z prawnikiem."
+  },
+  "Legal": {
+    "back": "Strona główna",
+    "updated": "Zaktualizowano",
+    "updatedAt": "10 kwietnia 2026"
   }
 }

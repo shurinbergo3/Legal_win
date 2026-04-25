@@ -103,11 +103,26 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col-reverse items-start justify-between gap-4 border-t hairline pt-6 text-xs text-ink-500 sm:flex-row sm:items-center">
           <div>
-            © {year} LegalWin · {t('rights')}
+            © {year} LegalWin sp. z o.o. · {t('rights')}
           </div>
-          <div className="flex gap-6">
-            <a href="#" className="transition-colors hover:text-ink-200">{t('privacy')}</a>
-            <a href="#" className="transition-colors hover:text-ink-200">{t('terms')}</a>
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <Link href="/polityka-prywatnosci" className="transition-colors hover:text-ink-200">
+              {t('privacy')}
+            </Link>
+            <Link href="/polityka-cookies" className="transition-colors hover:text-ink-200">
+              {t('cookies')}
+            </Link>
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  window.dispatchEvent(new CustomEvent('legalwin-open-cookie-settings'));
+                }
+              }}
+              className="cursor-pointer transition-colors hover:text-ink-200"
+            >
+              {t('manageCookies')}
+            </button>
           </div>
         </div>
       </div>

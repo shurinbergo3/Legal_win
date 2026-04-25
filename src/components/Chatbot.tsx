@@ -4,8 +4,14 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useChat } from '@ai-sdk/react';
 import { useTranslations } from 'next-intl';
 import { useEffect, useRef, useState } from 'react';
-import { MessageSquare, Send, X, Sparkles } from 'lucide-react';
+import Image from 'next/image';
+import { MessageSquare, Send, Sparkles, X } from 'lucide-react';
 import { cn } from '@/lib/cn';
+
+// Operator portrait — drop the photo at public/chatbot/operator.jpg.
+// Used in the floating toggle, the panel header, and beside each
+// assistant message for a "live operator" feel.
+const OPERATOR_AVATAR = '/chatbot/operator.jpg';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -43,8 +49,10 @@ export function Chatbot() {
         whileHover={{ scale: 1.04 }}
         whileTap={{ scale: 0.96 }}
         className={cn(
-          'group fixed bottom-5 right-5 z-40 inline-flex h-14 w-14 items-center justify-center rounded-full text-ink-950 shadow-elite transition-colors duration-300 sm:bottom-8 sm:right-8',
-          open ? 'bg-ink-50' : 'bg-gold-400 hover:bg-gold-300'
+          'group fixed bottom-5 right-5 z-40 inline-flex h-16 w-16 items-center justify-center overflow-hidden rounded-full text-ink-950 shadow-elite transition-colors duration-300 sm:bottom-8 sm:right-8',
+          open
+            ? 'bg-ink-50'
+            : 'bg-gold-400 ring-2 ring-gold-400/40 ring-offset-2 ring-offset-ink-950 hover:bg-gold-300'
         )}
       >
         <AnimatePresence mode="wait" initial={false}>
@@ -60,13 +68,22 @@ export function Chatbot() {
             </motion.span>
           ) : (
             <motion.span
-              key="msg"
-              initial={{ rotate: 90, opacity: 0 }}
-              animate={{ rotate: 0, opacity: 1 }}
-              exit={{ rotate: -90, opacity: 0 }}
-              transition={{ duration: 0.2 }}
+              key="avatar"
+              initial={{ scale: 0.6, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.6, opacity: 0 }}
+              transition={{ duration: 0.25, ease }}
+              className="relative h-full w-full"
             >
-              <MessageSquare className="h-5 w-5" strokeWidth={1.8} aria-hidden />
+              <Image
+                src={OPERATOR_AVATAR}
+                alt={t('title')}
+                fill
+                sizes="64px"
+                className="object-cover"
+              />
+              {/* Online dot */}
+              <span className="absolute bottom-1 right-1 h-3 w-3 rounded-full border-2 border-gold-400 bg-emerald-400" />
             </motion.span>
           )}
         </AnimatePresence>

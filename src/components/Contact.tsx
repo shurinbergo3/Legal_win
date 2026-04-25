@@ -24,6 +24,7 @@ import {
   Timer
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
+import { Link } from '@/i18n/navigation';
 import { submitContact, type ContactState } from '@/app/[locale]/actions';
 import { serviceValues, type ServiceValue } from '@/lib/schemas';
 import { cn } from '@/lib/cn';
@@ -297,6 +298,22 @@ function ContactForm({
         />
       </motion.div>
 
+      {/* GDPR consent — required */}
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, ease, delay: 0.22 }}
+      >
+        <ConsentCheckbox
+          error={
+            (state.status === 'invalid' && state.fieldErrors.consent
+              ? true
+              : false)
+          }
+        />
+      </motion.div>
+
       {/* Trust strip + submit */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
@@ -371,6 +388,56 @@ function TrustChip({ Icon, label }: { Icon: LucideIcon; label: string }) {
       <Icon className="h-3 w-3 text-gold-400" strokeWidth={1.8} aria-hidden />
       {label}
     </span>
+  );
+}
+
+/* ---------- GDPR consent checkbox ---------- */
+
+function ConsentCheckbox({ error }: { error: boolean }) {
+  const t = useTranslations('ConsentForm');
+  const id = useId();
+  const labelTemplate = t('label');
+  const policyText = t('policyLink');
+  const [before, after] = labelTemplate.split('{policy}');
+
+  return (
+    <div className="flex flex-col gap-2">
+      <label
+        htmlFor={id}
+        className={cn(
+          'group/cb flex cursor-pointer items-start gap-3 rounded-2xl border p-4 transition-colors',
+          error
+            ? 'border-red-500/60 bg-red-500/[0.04]'
+            : 'hairline bg-ink-950/40 hover:border-gold-500/30'
+        )}
+      >
+        <input
+          id={id}
+          type="checkbox"
+          name="consent"
+          required
+          aria-invalid={error}
+          aria-describedby={error ? `${id}-err` : undefined}
+          className="peer mt-0.5 h-5 w-5 flex-shrink-0 cursor-pointer appearance-none rounded-md border border-ink-600 bg-ink-950/60 transition-all checked:border-gold-500/80 checked:bg-gold-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950 relative after:pointer-events-none after:absolute after:left-1/2 after:top-1/2 after:hidden after:h-2.5 after:w-1.5 after:-translate-x-1/2 after:-translate-y-[60%] after:rotate-45 after:border-r-2 after:border-b-2 after:border-ink-950 checked:after:block"
+        />
+        <span className="text-xs leading-relaxed text-ink-300">
+          {before}
+          <Link
+            href="/polityka-prywatnosci"
+            target="_blank"
+            className="text-gold-400 underline-offset-2 hover:underline"
+          >
+            {policyText}
+          </Link>
+          {after}
+        </span>
+      </label>
+      {error && (
+        <p id={`${id}-err`} className="pl-1 text-xs text-red-400" role="alert">
+          {t('required')}
+        </p>
+      )}
+    </div>
   );
 }
 

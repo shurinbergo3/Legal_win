@@ -250,9 +250,36 @@
     "servicesTitle": "Services",
     "companyTitle": "Company",
     "contactTitle": "Contact",
+    "legalTitle": "Legal",
     "rights": "All rights reserved",
     "privacy": "Privacy policy",
-    "terms": "Terms of use"
+    "cookies": "Cookie policy",
+    "manageCookies": "Cookie settings"
+  },
+  "Cookies": {
+    "bannerTitle": "We use cookies",
+    "bannerIntro": "Necessary cookies keep the site running. Analytics and marketing cookies — only with your consent. You can change your choice any time.",
+    "readMore": "Learn more",
+    "settings": "Settings",
+    "necessaryOnly": "Necessary only",
+    "acceptAll": "Accept all",
+    "saveChoice": "Save choices",
+    "settingsTitle": "Cookie settings",
+    "settingsIntro": "Pick the cookie categories you allow. Necessary cookies are always on — the site can't run without them.",
+    "close": "Close",
+    "catNecessaryTitle": "Necessary",
+    "catNecessaryDesc": "Session, language preference, basic security. No consent needed under PKE Art. 11.",
+    "catFunctionalTitle": "Functional",
+    "catFunctionalDesc": "Remember your settings and preferences for a smoother return visit.",
+    "catAnalyticalTitle": "Analytics",
+    "catAnalyticalDesc": "Anonymous visit statistics: which pages are popular, where visitors drop off. Helps us improve the site.",
+    "catMarketingTitle": "Marketing",
+    "catMarketingDesc": "Personalised advertising and measurement of its effectiveness on partner platforms."
+  },
+  "ConsentForm": {
+    "label": "I consent to processing of my personal data by LegalWin (data controller) for the purpose of handling this enquiry in accordance with the {policy}. I understand I can withdraw consent at any time.",
+    "policyLink": "Privacy Policy",
+    "required": "To send the request you must consent to data processing"
   },
   "ServiceDetail": {
     "documentsEyebrow": "/ documents",
@@ -269,5 +296,10 @@
     "send": "Send",
     "greeting": "Hello! I'm LegalWin's virtual consultant. How can I help — residence permits, companies, taxes, citizenship?",
     "disclaimer": "Responses are informational and don't substitute for legal advice."
+  },
+  "Legal": {
+    "back": "Home",
+    "updated": "Updated",
+    "updatedAt": "10 April 2026"
   }
 }

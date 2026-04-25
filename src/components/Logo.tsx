@@ -1,12 +1,13 @@
 /**
- * LegalWin brand mark.
+ * LegalWin brand mark — "Sovereign Signet".
  *
- * Single circular badge with Themis scales, "LW" italic monogram,
- * "LEGAL · WIN / WARSZAWA" caps below. Vector. Scales 16px → poster.
+ * A signet-stamp aesthetic: double hairline ring, heraldic star ornament,
+ * monumental LW monogram (pure SVG paths — no font dependency), engraved
+ * rule with diamond stops, and a tracked LEGAL · WIN wordmark below.
  *
- *   <LogoBadge size={56} />          // compact (header)
- *   <LogoBadge size={180} />         // full (footer, formal docs)
- *   <LogoBadge size={32} compact />  // scales-only (favicon-style)
+ *   <LogoBadge size={56} />          // header
+ *   <LogoBadge size={168} />         // footer / hero
+ *   <LogoBadge size={32} compact />  // favicon-tier (mark only)
  *
  * Uses currentColor so the parent's text-* class controls ink/gold tone.
  */
@@ -20,7 +21,7 @@ export function LogoBadge({
 }: {
   className?: string;
   size?: number;
-  /** Hide LW + wordmark text (use for favicon-tier sizes <40px). */
+  /** Strip the wordmark + tagline (use for favicon-tier sizes < 40px). */
   compact?: boolean;
 }) {
   return (
@@ -33,113 +34,151 @@ export function LogoBadge({
       role="img"
       aria-label="LegalWin"
     >
-      {/* Outer rings */}
-      <circle cx="160" cy="160" r="148" stroke="currentColor" strokeWidth="1" fill="none" />
-      <circle cx="160" cy="160" r="142" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.5" />
+      {/* === SIGNET FRAME === */}
+      {/* Outer hairline ring */}
+      <circle
+        cx="160"
+        cy="160"
+        r="152"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        fill="none"
+      />
+      {/* Inner ghost ring — gives the signet its doubled-border craft */}
+      <circle
+        cx="160"
+        cy="160"
+        r="146"
+        stroke="currentColor"
+        strokeWidth="0.5"
+        fill="none"
+        opacity="0.45"
+      />
 
-      {/* Themis scales group */}
-      <g stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {/* Top diamond + finial */}
-        <path d="M 160 66 L 163 74 L 160 78 L 157 74 Z" fill="currentColor" stroke="none" />
-        <circle cx="160" cy="74" r="1.53" fill="currentColor" stroke="none" />
+      {/* === TOP ORNAMENT (heraldic star + flanking ticks) === */}
+      {/* Five-point star at 12 o'clock — discreet sovereignty mark */}
+      <path
+        d="M160 16 L162.65 23.15 L170.3 23.15 L164.0 27.6 L166.4 35.05 L160 30.55 L153.6 35.05 L156.0 27.6 L149.7 23.15 L157.35 23.15 Z"
+        fill="currentColor"
+        opacity="0.92"
+      />
+      {/* Symmetric flanking ticks */}
+      <line
+        x1="132"
+        y1="25"
+        x2="142"
+        y2="25"
+        stroke="currentColor"
+        strokeWidth="0.7"
+        opacity="0.55"
+      />
+      <line
+        x1="178"
+        y1="25"
+        x2="188"
+        y2="25"
+        stroke="currentColor"
+        strokeWidth="0.7"
+        opacity="0.55"
+      />
 
-        {/* Twin pole lines */}
-        <line x1="159" y1="78" x2="159" y2="162.5" strokeWidth="1.19" />
-        <line x1="161" y1="78" x2="161" y2="162.5" strokeWidth="1.19" />
+      {/* === LW MONOGRAM (pure paths, font-independent) === */}
+      {/* Capital L — confident vertical with extending foot */}
+      <path
+        d="M 104 80 L 104 184 L 152 184"
+        stroke="currentColor"
+        strokeWidth="13"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Capital W — four geometric strokes meeting at sharp peaks */}
+      <path
+        d="M 168 80 L 184 184 L 192 132 L 200 184 L 216 80"
+        stroke="currentColor"
+        strokeWidth="13"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Tiny linking dot between L and W — turns two letters into one mark */}
+      <circle cx="160" cy="184" r="2.2" fill="currentColor" />
 
-        {/* Beam (curved) + shadow line */}
-        <path d="M 85 105.5 Q 160 96 235 105.5" strokeWidth="2.04" />
-        <path d="M 89 108.5 Q 160 99 231 108.5" strokeWidth="0.68" opacity="0.65" />
-
-        {/* Center balance diamond */}
-        <path d="M 160 98.5 L 164 103.5 L 160 108.5 L 156 103.5 Z" fill="currentColor" stroke="none" />
-
-        {/* Beam end caps */}
-        <circle cx="85" cy="105.5" r="2.72" fill="currentColor" stroke="none" />
-        <circle cx="235" cy="105.5" r="2.72" fill="currentColor" stroke="none" />
-
-        {/* Suspension chains — left */}
-        <line x1="85" y1="104.5" x2="59.5" y2="126.45" strokeWidth="0.94" />
-        <line x1="85" y1="104.5" x2="85" y2="125.17" strokeWidth="0.94" />
-        <line x1="85" y1="104.5" x2="110.5" y2="126.45" strokeWidth="0.94" />
-
-        {/* Suspension chains — right */}
-        <line x1="235" y1="104.5" x2="260.5" y2="126.45" strokeWidth="0.94" />
-        <line x1="235" y1="104.5" x2="235" y2="125.17" strokeWidth="0.94" />
-        <line x1="235" y1="104.5" x2="209.5" y2="126.45" strokeWidth="0.94" />
-
-        {/* Left pan */}
-        <g>
-          <ellipse cx="85" cy="129" rx="30" ry="6.38" stroke="currentColor" strokeWidth="1.53" fill="none" />
-          <ellipse cx="85" cy="129" rx="30" ry="5.42" fill="currentColor" stroke="none" opacity="0.95" />
-          <path d="M 57 130 Q 85 147.6 113 130" strokeWidth="1.7" stroke="currentColor" fill="none" />
-          <path d="M 60 132 Q 85 144 110 132" strokeWidth="0.68" stroke="currentColor" fill="none" opacity="0.55" />
-          <circle cx="85" cy="148.6" r="1.02" fill="currentColor" stroke="none" />
-        </g>
-
-        {/* Right pan */}
-        <g>
-          <ellipse cx="235" cy="129" rx="30" ry="6.38" stroke="currentColor" strokeWidth="1.53" fill="none" />
-          <ellipse cx="235" cy="129" rx="30" ry="5.42" fill="currentColor" stroke="none" opacity="0.95" />
-          <path d="M 207 130 Q 235 147.6 263 130" strokeWidth="1.7" stroke="currentColor" fill="none" />
-          <path d="M 210 132 Q 235 144 260 132" strokeWidth="0.68" stroke="currentColor" fill="none" opacity="0.55" />
-          <circle cx="235" cy="148.6" r="1.02" fill="currentColor" stroke="none" />
-        </g>
-
-        {/* Tiered pedestal */}
-        <rect x="150.55" y="162.5" width="18.9" height="2.38" fill="currentColor" stroke="none" />
-        <path d="M 133.75 170.5 L 186.25 170.5 L 179.95 165.5 L 140.05 165.5 Z" fill="currentColor" stroke="none" />
-        <rect x="127.45" y="172.5" width="65.1" height="2.72" fill="currentColor" stroke="none" />
-        <line x1="123.25" y1="177.5" x2="196.75" y2="177.5" strokeWidth="0.85" />
-      </g>
-
-      {/* Decorative divider with end caps + dots */}
-      <g stroke="currentColor" strokeWidth="1" strokeLinecap="round">
-        <line x1="74" y1="186" x2="246" y2="186" />
-        <line x1="74" y1="183" x2="74" y2="189" />
-        <line x1="246" y1="183" x2="246" y2="189" />
-        <circle cx="160" cy="186" r="2" fill="currentColor" stroke="none" />
-        <circle cx="116" cy="186" r="1" fill="currentColor" stroke="none" />
-        <circle cx="204" cy="186" r="1" fill="currentColor" stroke="none" />
-      </g>
-
-      {/* LW italic monogram + LEGAL · WIN / WARSZAWA — hidden in compact mode */}
       {!compact && (
         <>
-          <text
-            x="160"
-            y="244"
-            textAnchor="middle"
-            fontSize="66"
-            fontWeight="500"
-            fontStyle="italic"
+          {/* === ENGRAVED RULE — connects mark to wordmark === */}
+          <line
+            x1="92"
+            y1="214"
+            x2="228"
+            y2="214"
+            stroke="currentColor"
+            strokeWidth="0.7"
+            opacity="0.7"
+          />
+          {/* Diamond end caps */}
+          <path
+            d="M88 214 L92 209 L96 214 L92 219 Z"
             fill="currentColor"
-            letterSpacing="-2.64"
-            style={{ fontFamily: "var(--font-cormorant), var(--font-cormorant), 'Cormorant Garamond', var(--font-source-serif), Georgia, serif" }}
-          >
-            LW
-          </text>
+            opacity="0.85"
+          />
+          <path
+            d="M224 214 L228 209 L232 214 L228 219 Z"
+            fill="currentColor"
+            opacity="0.85"
+          />
+
+          {/* === WORDMARK: LEGAL ⋄ WIN === */}
           <text
-            x="160"
-            y="276"
-            textAnchor="middle"
-            fontSize="11"
+            x="151"
+            y="244"
+            textAnchor="end"
+            fontSize="16.5"
             fontWeight="600"
             fill="currentColor"
-            letterSpacing="6"
-            style={{ fontFamily: "var(--font-cormorant), 'Cormorant Garamond', var(--font-source-serif), Georgia, serif" }}
+            letterSpacing="3.6"
+            style={{
+              fontFamily:
+                "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
+            }}
           >
-            LEGAL · WIN
+            LEGAL
           </text>
+          {/* Centered diamond between the two halves of the name */}
+          <path
+            d="M155 238 L160 232 L165 238 L160 244 Z"
+            fill="currentColor"
+          />
+          <text
+            x="169"
+            y="244"
+            textAnchor="start"
+            fontSize="16.5"
+            fontWeight="600"
+            fill="currentColor"
+            letterSpacing="3.6"
+            style={{
+              fontFamily:
+                "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
+            }}
+          >
+            WIN
+          </text>
+
+          {/* === TAGLINE: WARSZAWA === */}
           <text
             x="160"
-            y="294"
+            y="266"
             textAnchor="middle"
             fontSize="9"
+            fontWeight="500"
             fill="currentColor"
-            letterSpacing="5"
-            opacity="0.75"
-            style={{ fontFamily: "var(--font-cormorant), 'Cormorant Garamond', var(--font-source-serif), Georgia, serif" }}
+            letterSpacing="4.8"
+            opacity="0.62"
+            style={{
+              fontFamily:
+                "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
+            }}
           >
             WARSZAWA
           </text>
@@ -150,7 +189,7 @@ export function LogoBadge({
 }
 
 /* ---------- Backwards-compat exports ---------- */
-// Keep old names alive so existing imports don't break while we refactor.
+// Existing imports throughout the app keep working.
 export const LogoMark = (props: { className?: string; size?: number; strokeWidth?: number }) => (
   <LogoBadge className={props.className} size={props.size ?? 32} compact />
 );

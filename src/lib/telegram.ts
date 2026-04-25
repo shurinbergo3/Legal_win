@@ -55,6 +55,7 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
       : null,
     hasService ? `<b>Направление:</b> ${escapeHtml(labels[data.service!])}` : null,
     data.locale ? `<b>Язык сайта:</b> ${data.locale.toUpperCase()}` : null,
+    `<b>RODO:</b> согласие получено ✓ (${new Date().toISOString()})`,
     hasMessage ? '' : null,
     hasMessage ? '<b>Сообщение:</b>' : null,
     hasMessage ? escapeHtml(data.message!) : null

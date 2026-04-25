@@ -5,6 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { JsonLd } from '@/components/JsonLd';
+import { CookieConsent } from '@/components/CookieConsent';
 import {
   OG_IMAGE_HEIGHT,
   OG_IMAGE_PATH,
@@ -160,7 +161,10 @@ export default async function LocaleLayout({
       <body className="grain min-h-dvh antialiased">
         <JsonLd data={organizationLd()} />
         <JsonLd data={websiteLd(locale as SeoLocale)} />
-        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <CookieConsent />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
