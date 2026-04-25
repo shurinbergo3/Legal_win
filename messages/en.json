@@ -292,9 +292,13 @@
   "Chat": {
     "title": "Lawyer online",
     "subtitle": "Typically replies in a minute",
+    "operatorName": "Anna",
+    "operatorRole": "LegalWin consultant",
     "placeholder": "Ask a question…",
     "send": "Send",
     "greeting": "Hello! I'm LegalWin's virtual consultant. How can I help — residence permits, companies, taxes, citizenship?",
+    "teaseGreeting": "Hi! I can help with Karta Pobytu, driving licence exchange or Code 95. Send me your question.",
+    "teaseCta": "Open chat",
     "disclaimer": "Responses are informational and don't substitute for legal advice."
   },
   "Legal": {

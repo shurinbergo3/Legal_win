@@ -292,9 +292,13 @@
   "Chat": {
     "title": "Prawnik online",
     "subtitle": "Zwykle odpowiadamy w minutę",
+    "operatorName": "Anna",
+    "operatorRole": "konsultantka LegalWin",
     "placeholder": "Zadaj pytanie…",
     "send": "Wyślij",
     "greeting": "Dzień dobry! Jestem wirtualnym konsultantem LegalWin. W czym mogę pomóc — karta pobytu, spółki, podatki, obywatelstwo?",
+    "teaseGreeting": "Dzień dobry! Pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Napisz pytanie.",
+    "teaseCta": "Otwórz czat",
     "disclaimer": "Odpowiedzi mają charakter informacyjny i nie zastępują konsultacji z prawnikiem."
   },
   "Legal": {
