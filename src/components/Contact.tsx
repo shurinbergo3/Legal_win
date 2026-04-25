@@ -248,7 +248,6 @@ function ContactForm({
           placeholder={t('emailPlaceholder')}
           autoComplete="email"
           Icon={Mail}
-          required
           error={fieldErrors.email && t('validation.emailInvalid')}
         />
       </motion.div>
@@ -296,7 +295,6 @@ function ContactForm({
           label={t('message')}
           placeholder={t('messagePlaceholder')}
           Icon={MessageSquare}
-          required
           error={fieldErrors.message && t('validation.messageMin')}
         />
       </motion.div>

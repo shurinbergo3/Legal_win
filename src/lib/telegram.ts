@@ -40,19 +40,24 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
     return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
   }
 
+  const hasEmail = Boolean(data.email && data.email.trim());
+  const hasMessage = Boolean(data.message && data.message.trim());
+
   const text = [
     '🔔 <b>Новая заявка — LegalWin</b>',
     '',
     `<b>Имя:</b> ${escapeHtml(data.name)}`,
-    `<b>Email:</b> <a href="mailto:${escapeHtml(data.email)}">${escapeHtml(data.email)}</a>`,
     `<b>Телефон:</b> <a href="tel:${escapeHtml(data.phone.replace(/\s/g, ''))}">${escapeHtml(data.phone)}</a>`,
+    hasEmail
+      ? `<b>Email:</b> <a href="mailto:${escapeHtml(data.email!)}">${escapeHtml(data.email!)}</a>`
+      : null,
     `<b>Направление:</b> ${escapeHtml(labels[data.service])}`,
     data.locale ? `<b>Язык сайта:</b> ${data.locale.toUpperCase()}` : null,
-    '',
-    '<b>Сообщение:</b>',
-    escapeHtml(data.message)
+    hasMessage ? '' : null,
+    hasMessage ? '<b>Сообщение:</b>' : null,
+    hasMessage ? escapeHtml(data.message!) : null
   ]
-    .filter(Boolean)
+    .filter((line) => line !== null)
     .join('\n');
 
   const results = await Promise.allSettled(
@@ -86,6 +91,87 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
 
   if (errors.length) {
     console.error('[telegram] delivery errors:', errors);
+  }
+
+  return {
+    ok: delivered > 0,
+    attempted: subscribers.length,
+    delivered,
+    errors
+  };
+}
+
+export type ChatLead = {
+  name: string;
+  phone?: string;
+  email?: string;
+  topic?: string;
+  summary?: string;
+  locale?: string;
+};
+
+export async function sendChatLeadToTelegram(lead: ChatLead): Promise<DeliveryReport> {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  if (!token) {
+    throw new Error('TELEGRAM_BOT_TOKEN is not configured');
+  }
+
+  const subscribers = await listSubscribers();
+  if (subscribers.length === 0) {
+    console.warn('[telegram] chat lead received but no subscribers — request not delivered');
+    return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
+  }
+
+  const lines = [
+    '💬 <b>Лид из чата на сайте — LegalWin</b>',
+    '',
+    `<b>Имя:</b> ${escapeHtml(lead.name)}`,
+    lead.phone
+      ? `<b>Телефон:</b> <a href="tel:${escapeHtml(lead.phone.replace(/\s/g, ''))}">${escapeHtml(lead.phone)}</a>`
+      : null,
+    lead.email
+      ? `<b>Email:</b> <a href="mailto:${escapeHtml(lead.email)}">${escapeHtml(lead.email)}</a>`
+      : null,
+    lead.topic ? `<b>Тема:</b> ${escapeHtml(lead.topic)}` : null,
+    lead.locale ? `<b>Язык сайта:</b> ${lead.locale.toUpperCase()}` : null,
+    lead.summary ? '' : null,
+    lead.summary ? '<b>Краткое описание:</b>' : null,
+    lead.summary ? escapeHtml(lead.summary) : null
+  ].filter(Boolean);
+
+  const text = lines.join('\n');
+
+  const results = await Promise.allSettled(
+    subscribers.map((chatId) =>
+      fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text,
+          parse_mode: 'HTML',
+          disable_web_page_preview: true
+        }),
+        cache: 'no-store'
+      }).then(async (r) => {
+        if (!r.ok) {
+          const body = await r.text().catch(() => '');
+          throw new Error(`chat ${chatId}: HTTP ${r.status} ${body}`);
+        }
+        return r.json() as Promise<{ ok: boolean }>;
+      })
+    )
+  );
+
+  const delivered = results.filter(
+    (r) => r.status === 'fulfilled' && r.value.ok
+  ).length;
+  const errors = results
+    .filter((r): r is PromiseRejectedResult => r.status === 'rejected')
+    .map((r) => String(r.reason));
+
+  if (errors.length) {
+    console.error('[telegram] chat-lead delivery errors:', errors);
   }
 
   return {
