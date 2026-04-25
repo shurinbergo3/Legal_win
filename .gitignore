@@ -11,3 +11,6 @@ tsconfig.tsbuildinfo
 
 # Source assets (originals live here; built copies go in public/)
 Image/
+
+# Runtime data (telegram subscriber chat-ids, etc.)
+data/

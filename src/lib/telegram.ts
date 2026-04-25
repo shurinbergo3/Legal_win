@@ -1,57 +1,97 @@
 import type { ContactInput } from './schemas';
+import { listSubscribers } from './subscribers';
 
 const labels: Record<NonNullable<ContactInput['service']>, string> = {
-  trc: 'TRC / residence permit',
-  driver: 'Driving licence / Code 95',
-  citizenship: 'Citizenship',
-  business: 'Business setup',
-  tax: 'Tax & compliance',
-  other: 'Other'
+  trc: 'Карта побыту (ВНЖ / ПМЖ)',
+  driver: 'Обмен прав / Kod 95',
+  citizenship: 'Гражданство / Karta Polaka',
+  business: 'Бизнес (Sp. z o.o.)',
+  tax: 'Налоги и бухгалтерия',
+  other: 'Другое'
 };
 
-function escapeMarkdown(v: string) {
-  return v.replace(/([_*`\[\]()~>#+\-=|{}.!])/g, '\\$1');
+function escapeHtml(v: string) {
+  return v
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
 }
 
-export async function sendContactToTelegram(data: ContactInput) {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
+export type DeliveryReport = {
+  ok: boolean;
+  attempted: number;
+  delivered: number;
+  errors: string[];
+};
 
-  if (!token || !chatId) {
-    throw new Error('Telegram credentials not configured');
+export async function sendContactToTelegram(data: ContactInput): Promise<DeliveryReport> {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  if (!token) {
+    throw new Error('TELEGRAM_BOT_TOKEN is not configured');
   }
 
-  const lines = [
-    '*New enquiry — LegalWin*',
+  const subscribers = await listSubscribers();
+  if (subscribers.length === 0) {
+    // Don't fail the form — the user successfully submitted. Log and return
+    // so an operator can investigate why no one is subscribed yet.
+    console.warn(
+      '[telegram] form submission received but no subscribers — request not delivered to anyone'
+    );
+    return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
+  }
+
+  const text = [
+    '🔔 <b>Новая заявка — LegalWin</b>',
     '',
-    `*Name:* ${escapeMarkdown(data.name)}`,
-    `*Email:* ${escapeMarkdown(data.email)}`,
-    `*Phone:* ${escapeMarkdown(data.phone)}`,
-    `*Area:* ${escapeMarkdown(labels[data.service])}`,
-    data.locale ? `*Locale:* ${data.locale}` : null,
+    `<b>Имя:</b> ${escapeHtml(data.name)}`,
+    `<b>Email:</b> <a href="mailto:${escapeHtml(data.email)}">${escapeHtml(data.email)}</a>`,
+    `<b>Телефон:</b> <a href="tel:${escapeHtml(data.phone.replace(/\s/g, ''))}">${escapeHtml(data.phone)}</a>`,
+    `<b>Направление:</b> ${escapeHtml(labels[data.service])}`,
+    data.locale ? `<b>Язык сайта:</b> ${data.locale.toUpperCase()}` : null,
     '',
-    '*Message:*',
-    escapeMarkdown(data.message)
+    '<b>Сообщение:</b>',
+    escapeHtml(data.message)
   ]
     .filter(Boolean)
     .join('\n');
 
-  const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      chat_id: chatId,
-      text: lines,
-      parse_mode: 'MarkdownV2',
-      disable_web_page_preview: true
-    }),
-    cache: 'no-store'
-  });
+  const results = await Promise.allSettled(
+    subscribers.map((chatId) =>
+      fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text,
+          parse_mode: 'HTML',
+          disable_web_page_preview: true
+        }),
+        cache: 'no-store'
+      }).then(async (r) => {
+        if (!r.ok) {
+          const body = await r.text().catch(() => '');
+          throw new Error(`chat ${chatId}: HTTP ${r.status} ${body}`);
+        }
+        return r.json() as Promise<{ ok: boolean }>;
+      })
+    )
+  );
 
-  if (!res.ok) {
-    const body = await res.text().catch(() => '');
-    throw new Error(`Telegram error ${res.status}: ${body}`);
+  const delivered = results.filter(
+    (r) => r.status === 'fulfilled' && r.value.ok
+  ).length;
+  const errors = results
+    .filter((r): r is PromiseRejectedResult => r.status === 'rejected')
+    .map((r) => String(r.reason));
+
+  if (errors.length) {
+    console.error('[telegram] delivery errors:', errors);
   }
 
-  return (await res.json()) as { ok: boolean };
+  return {
+    ok: delivered > 0,
+    attempted: subscribers.length,
+    delivered,
+    errors
+  };
 }
