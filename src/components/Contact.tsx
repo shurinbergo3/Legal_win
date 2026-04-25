@@ -238,7 +238,6 @@ function ContactForm({
           placeholder={t('namePlaceholder')}
           autoComplete="name"
           Icon={User}
-          required
           error={fieldErrors.name && t('validation.nameMin')}
         />
         <Field
@@ -278,7 +277,6 @@ function ContactForm({
         transition={{ duration: 0.5, ease, delay: 0.15 }}
       >
         <ServiceChips
-          required
           error={fieldErrors.service && t('validation.serviceRequired')}
         />
       </motion.div>

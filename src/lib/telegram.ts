@@ -40,18 +40,20 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
     return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
   }
 
+  const hasName = Boolean(data.name && data.name.trim());
   const hasEmail = Boolean(data.email && data.email.trim());
+  const hasService = Boolean(data.service);
   const hasMessage = Boolean(data.message && data.message.trim());
 
   const text = [
     '🔔 <b>Новая заявка — LegalWin</b>',
     '',
-    `<b>Имя:</b> ${escapeHtml(data.name)}`,
+    hasName ? `<b>Имя:</b> ${escapeHtml(data.name!)}` : null,
     `<b>Телефон:</b> <a href="tel:${escapeHtml(data.phone.replace(/\s/g, ''))}">${escapeHtml(data.phone)}</a>`,
     hasEmail
       ? `<b>Email:</b> <a href="mailto:${escapeHtml(data.email!)}">${escapeHtml(data.email!)}</a>`
       : null,
-    `<b>Направление:</b> ${escapeHtml(labels[data.service])}`,
+    hasService ? `<b>Направление:</b> ${escapeHtml(labels[data.service!])}` : null,
     data.locale ? `<b>Язык сайта:</b> ${data.locale.toUpperCase()}` : null,
     hasMessage ? '' : null,
     hasMessage ? '<b>Сообщение:</b>' : null,

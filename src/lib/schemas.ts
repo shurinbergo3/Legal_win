@@ -7,17 +7,22 @@ export type ServiceValue = (typeof serviceValues)[number];
 const emptyToUndefined = (v: unknown) =>
   typeof v === 'string' && v.trim() === '' ? undefined : v;
 
+// Only phone is required. Name, email, service, message are all optional.
 export const contactSchema = z.object({
-  name: z.string().trim().min(2),
-  // Optional — empty is fine; if present, must be a valid email.
+  name: z.preprocess(
+    emptyToUndefined,
+    z.string().trim().min(2).optional()
+  ),
   email: z.preprocess(emptyToUndefined, z.string().email().optional()),
   phone: z
     .string()
     .trim()
     .min(6)
     .regex(/^[+\d\s()\-]{6,24}$/),
-  service: z.enum(serviceValues),
-  // Optional — empty is fine; max 2000 chars if present.
+  service: z.preprocess(
+    emptyToUndefined,
+    z.enum(serviceValues).optional()
+  ),
   message: z.preprocess(
     emptyToUndefined,
     z.string().trim().max(2000).optional()
