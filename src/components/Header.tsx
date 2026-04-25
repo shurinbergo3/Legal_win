@@ -55,20 +55,20 @@ export function Header() {
 
         <nav className="hidden items-center gap-8 text-sm text-ink-300 lg:flex">
           {sections.map((s) => (
-            <a
+            <Link
               key={s}
-              href={`#${s}`}
+              href={`/#${s}`}
               className="relative transition-colors duration-200 hover:text-ink-50"
             >
               {t(s)}
-            </a>
+            </Link>
           ))}
         </nav>
 
         <div className="flex items-center gap-3">
           <LocaleSwitcher className="hidden sm:inline-flex" />
-          <a
-            href="#contact"
+          <Link
+            href="/#contact"
             className="group inline-flex items-center gap-2 rounded-full bg-gold-400 px-4 py-2 text-sm font-medium text-ink-950 shadow-soft transition-all duration-200 hover:bg-gold-300 hover:shadow-elite"
           >
             {t('consultation')}
@@ -86,7 +86,7 @@ export function Header() {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </motion.header>

@@ -183,8 +183,8 @@ function DetailHero({
             transition={{ duration: 0.8, ease, delay: 0.12 }}
             className="col-span-12 flex flex-col gap-3 lg:col-span-4 lg:mt-20"
           >
-            <a
-              href="#contact"
+            <Link
+              href="/#contact"
               className="group inline-flex items-center justify-between gap-2.5 rounded-full bg-gold-400 px-6 py-4 text-base font-medium text-ink-950 ring-gold transition-all duration-300 hover:bg-gold-300"
             >
               {content.ctaTitle.length < 40 ? content.ctaTitle : backLabel}
@@ -193,7 +193,7 @@ function DetailHero({
                 strokeWidth={1.6}
                 aria-hidden
               />
-            </a>
+            </Link>
             <Link
               href="/#services"
               className="inline-flex items-center justify-center gap-2 rounded-full border hairline px-6 py-4 text-sm text-ink-200 transition-colors hover:border-gold-500/50 hover:text-gold-400"

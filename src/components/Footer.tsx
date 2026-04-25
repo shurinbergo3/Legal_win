@@ -62,9 +62,9 @@ export function Footer() {
             <ul className="flex flex-col gap-3 text-sm text-ink-200">
               {services.map((s) => (
                 <li key={s}>
-                  <a href="#services" className="transition-colors hover:text-gold-400">
+                  <Link href="/#services" className="transition-colors hover:text-gold-400">
                     {tS(`${s}.title`)}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -75,9 +75,9 @@ export function Footer() {
               {t('companyTitle')}
             </h4>
             <ul className="flex flex-col gap-3 text-sm text-ink-200">
-              <li><a href="#cases" className="transition-colors hover:text-gold-400">{tNav('cases')}</a></li>
-              <li><a href="#process" className="transition-colors hover:text-gold-400">{tNav('process')}</a></li>
-              <li><a href="#faq" className="transition-colors hover:text-gold-400">{tNav('faq')}</a></li>
+              <li><Link href="/#cases" className="transition-colors hover:text-gold-400">{tNav('cases')}</Link></li>
+              <li><Link href="/#process" className="transition-colors hover:text-gold-400">{tNav('process')}</Link></li>
+              <li><Link href="/#faq" className="transition-colors hover:text-gold-400">{tNav('faq')}</Link></li>
             </ul>
           </div>
 
@@ -103,7 +103,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col-reverse items-start justify-between gap-4 border-t hairline pt-6 text-xs text-ink-500 sm:flex-row sm:items-center">
           <div>
-            © {year} LegalWin Sp. z o.o. · {t('rights')}
+            © {year} LegalWin · {t('rights')}
           </div>
           <div className="flex gap-6">
             <a href="#" className="transition-colors hover:text-ink-200">{t('privacy')}</a>
