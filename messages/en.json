@@ -1,7 +1,8 @@
 {
   "Meta": {
-    "title": "LegalWin — Help for immigrants in Poland: residency, driving licences, Code 95",
-    "description": "Warsaw lawyers for immigrants: residence cards, exchange of driving licences to Polish, Code 95 for professional drivers, citizenship, documents. Since 2019, 500+ cases a year."
+    "title": "Immigration lawyer in Warsaw: Karta Pobytu, Polish citizenship, Code 95 | LegalWin",
+    "description": "LegalWin — Warsaw law firm for foreigners: temporary & permanent residence cards (Karta Pobytu), Polish citizenship, driving licence exchange, Code 95, appeals against voivode denials, Sp. z o.o. registration. Since 2019, 500+ cases per year.",
+    "keywords": "Karta Pobytu, temporary residence card Poland, permanent residence Poland, Polish citizenship, immigration lawyer Warsaw, Polish residence permit, EU Blue Card Poland, driving licence exchange Poland, Code 95, driver CPC Poland, register company in Poland, Sp. z o.o., appeal residence permit denial, MOS v2.0, LegalWin"
   },
   "Nav": {
     "services": "Services",
@@ -13,6 +14,7 @@
     "consultation": "Consultation"
   },
   "Hero": {
+    "imageAlt": "LegalWin law firm in Warsaw — immigration lawyers helping foreigners with Karta Pobytu and Polish citizenship",
     "eyebrow": "Warsaw · Since 2019",
     "titleLine1": "Help for immigrants in Poland.",
     "titleLine2": "Residency · Driving Licence · Code 95.",

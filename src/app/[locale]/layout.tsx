@@ -4,6 +4,18 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  OG_IMAGE_HEIGHT,
+  OG_IMAGE_PATH,
+  OG_IMAGE_WIDTH,
+  ORG_LEGAL_NAME,
+  SITE_URL,
+  languagesAlternate,
+  organizationLd,
+  websiteLd,
+  type SeoLocale
+} from '@/lib/seo';
 import '../globals.css';
 
 const fraunces = Fraunces({
@@ -56,23 +68,75 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Meta' });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
+
+  const title = t('title');
+  const description = t('description');
+  const keywords = t('keywords')
+    .split(',')
+    .map((k) => k.trim())
+    .filter(Boolean);
+
+  const ogLocaleMap: Record<string, string> = {
+    ru: 'ru_RU',
+    pl: 'pl_PL',
+    en: 'en_US'
+  };
+  const ogAlt = ogLocaleMap[locale] ?? 'en_US';
+  const otherLocales = Object.values(ogLocaleMap).filter((l) => l !== ogAlt);
 
   return {
-    title: t('title'),
-    description: t('description'),
-    metadataBase: new URL(siteUrl),
+    title,
+    description,
+    keywords,
+    metadataBase: new URL(SITE_URL),
+    applicationName: ORG_LEGAL_NAME,
+    authors: [{ name: ORG_LEGAL_NAME, url: SITE_URL }],
+    creator: ORG_LEGAL_NAME,
+    publisher: ORG_LEGAL_NAME,
+    category: 'Legal services',
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false
+    },
     openGraph: {
-      title: t('title'),
-      description: t('description'),
+      title,
+      description,
       url: `/${locale}`,
-      siteName: 'LegalWin',
+      siteName: ORG_LEGAL_NAME,
       type: 'website',
-      locale
+      locale: ogAlt,
+      alternateLocale: otherLocales,
+      images: [
+        {
+          url: OG_IMAGE_PATH,
+          width: OG_IMAGE_WIDTH,
+          height: OG_IMAGE_HEIGHT,
+          alt: title,
+          type: 'image/jpeg'
+        }
+      ]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [OG_IMAGE_PATH]
     },
     alternates: {
       canonical: `/${locale}`,
-      languages: Object.fromEntries(routing.locales.map((l) => [l, `/${l}`]))
+      languages: languagesAlternate((l) => `/${l}`)
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-snippet': -1,
+        'max-image-preview': 'large',
+        'max-video-preview': -1
+      }
     },
     icons: { icon: '/favicon.svg' }
   };
@@ -94,6 +158,8 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${fraunces.variable} ${sourceSerif.variable} ${cormorant.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="grain min-h-dvh antialiased">
+        <JsonLd data={organizationLd()} />
+        <JsonLd data={websiteLd(locale as SeoLocale)} />
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>
     </html>

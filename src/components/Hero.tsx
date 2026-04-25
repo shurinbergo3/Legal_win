@@ -94,7 +94,7 @@ export function Hero() {
       >
         <Image
           src="/hero/staruwka.jpg"
-          alt=""
+          alt={t('imageAlt')}
           fill
           priority
           sizes="100vw"

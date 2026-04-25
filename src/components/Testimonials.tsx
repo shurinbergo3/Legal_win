@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Star } from 'lucide-react';
+import { UserAvatar } from './UserAvatar';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -83,13 +84,7 @@ export function Testimonials() {
 
                 <figcaption className="mt-auto flex flex-wrap items-center justify-between gap-4 border-t hairline pt-6">
                   <div className="flex items-center gap-4">
-                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-gold-400 to-gold-600 font-display text-sm font-semibold text-ink-950 ring-1 ring-gold-500/40">
-                      {it.author
-                        .split(' ')
-                        .map((p) => p[0])
-                        .slice(0, 2)
-                        .join('')}
-                    </span>
+                    <UserAvatar size={44} ariaLabel={it.author} />
                     <div className="flex flex-col leading-tight">
                       <span className="text-sm font-medium text-ink-50">
                         {it.author}

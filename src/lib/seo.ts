@@ -1,0 +1,143 @@
+import { routing } from '@/i18n/routing';
+
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
+
+export const ORG_LEGAL_NAME = 'LegalWin';
+export const ORG_PHONE = '+48 506 55 07 21';
+export const ORG_EMAIL = 'legalwin.warszawa@gmail.com';
+export const ORG_STREET = 'ul. Świętokrzyska 30/63';
+export const ORG_POSTAL = '00-116';
+export const ORG_CITY = 'Warszawa';
+export const ORG_REGION = 'Mazowieckie';
+export const ORG_COUNTRY = 'PL';
+export const ORG_LAT = 52.2376;
+export const ORG_LNG = 21.0061;
+export const ORG_FOUNDED = '2019';
+
+export const OG_IMAGE_PATH = '/hero/staruwka.jpg';
+export const OG_IMAGE_WIDTH = 1600;
+export const OG_IMAGE_HEIGHT = 900;
+
+export type SeoLocale = 'ru' | 'pl' | 'en';
+
+export function languagesAlternate(
+  basePath: (locale: SeoLocale) => string
+): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const l of routing.locales as readonly SeoLocale[]) {
+    out[l] = basePath(l);
+  }
+  out['x-default'] = basePath('ru');
+  return out;
+}
+
+export function organizationLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': ['LegalService', 'ProfessionalService', 'LocalBusiness'],
+    '@id': `${SITE_URL}/#organization`,
+    name: ORG_LEGAL_NAME,
+    legalName: 'LegalWin Kancelaria Prawna',
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo/legal-win-gold.svg`,
+    image: `${SITE_URL}${OG_IMAGE_PATH}`,
+    telephone: ORG_PHONE,
+    email: ORG_EMAIL,
+    foundingDate: ORG_FOUNDED,
+    priceRange: 'PLN',
+    description:
+      'Polish law firm in Warsaw helping foreigners with residence permits (Karta Pobytu), Polish citizenship, business setup (Sp. z o.o., JDG), tax compliance, driving licence exchange and Code 95 since 2019.',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: ORG_STREET,
+      postalCode: ORG_POSTAL,
+      addressLocality: ORG_CITY,
+      addressRegion: ORG_REGION,
+      addressCountry: ORG_COUNTRY
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: ORG_LAT,
+      longitude: ORG_LNG
+    },
+    areaServed: [
+      { '@type': 'Country', name: 'Poland' },
+      { '@type': 'AdministrativeArea', name: 'European Union' }
+    ],
+    availableLanguage: ['pl', 'ru', 'uk', 'en'],
+    knowsLanguage: ['pl', 'ru', 'uk', 'en'],
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:30',
+        closes: '19:00'
+      }
+    ],
+    sameAs: [] as string[]
+  } as const;
+}
+
+export function websiteLd(locale: SeoLocale) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    url: `${SITE_URL}/${locale}`,
+    name: ORG_LEGAL_NAME,
+    inLanguage: locale,
+    publisher: { '@id': `${SITE_URL}/#organization` }
+  } as const;
+}
+
+export function breadcrumbLd(
+  items: { name: string; url: string }[]
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      item: it.url
+    }))
+  } as const;
+}
+
+export function faqPageLd(items: { q: string; a: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((it) => ({
+      '@type': 'Question',
+      name: it.q,
+      acceptedAnswer: { '@type': 'Answer', text: it.a }
+    }))
+  } as const;
+}
+
+export function serviceLd(opts: {
+  name: string;
+  description: string;
+  url: string;
+  serviceType?: string;
+  locale: SeoLocale;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: opts.name,
+    description: opts.description,
+    serviceType: opts.serviceType ?? 'Legal services',
+    provider: { '@id': `${SITE_URL}/#organization` },
+    areaServed: { '@type': 'Country', name: 'Poland' },
+    url: opts.url,
+    inLanguage: opts.locale,
+    audience: {
+      '@type': 'PeopleAudience',
+      audienceType: 'foreigners in Poland'
+    }
+  } as const;
+}
