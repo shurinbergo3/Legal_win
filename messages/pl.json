@@ -292,16 +292,16 @@
     "ctaSubmit": "Wyślij zgłoszenie"
   },
   "Chat": {
-    "title": "Prawnik online",
-    "subtitle": "Zwykle odpowiadamy w minutę",
-    "operatorName": "Anna",
-    "operatorRole": "konsultantka LegalWin",
+    "title": "Mila · LegalWin",
+    "subtitle": "Zwykle odpowiadam w minutę",
+    "operatorName": "Mila",
+    "operatorRole": "menedżer LegalWin",
     "placeholder": "Zadaj pytanie…",
     "send": "Wyślij",
-    "greeting": "Dzień dobry! Jestem wirtualnym konsultantem LegalWin. W czym mogę pomóc — karta pobytu, spółki, podatki, obywatelstwo?",
-    "teaseGreeting": "Dzień dobry! Pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Napisz pytanie.",
-    "teaseCta": "Otwórz czat",
-    "disclaimer": "Odpowiedzi mają charakter informacyjny i nie zastępują konsultacji z prawnikiem."
+    "greeting": "Dzień dobry! Nazywam się Mila, jestem z LegalWin. W czym mogę pomóc — karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo?",
+    "teaseGreeting": "Dzień dobry! Jestem Mila z LegalWin — pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Co Pana/Panią interesuje?",
+    "teaseCta": "Napisz do Mili",
+    "disclaimer": "Dokładne terminy i ceny dla Pana/Pani sprawy potwierdzi prawnik na bezpłatnej konsultacji."
   },
   "Legal": {
     "back": "Strona główna",

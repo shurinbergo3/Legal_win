@@ -292,16 +292,16 @@
     "ctaSubmit": "Send request"
   },
   "Chat": {
-    "title": "Lawyer online",
-    "subtitle": "Typically replies in a minute",
-    "operatorName": "Anna",
-    "operatorRole": "LegalWin consultant",
+    "title": "Mila · LegalWin",
+    "subtitle": "Usually reply in a minute",
+    "operatorName": "Mila",
+    "operatorRole": "LegalWin manager",
     "placeholder": "Ask a question…",
     "send": "Send",
-    "greeting": "Hello! I'm LegalWin's virtual consultant. How can I help — residence permits, companies, taxes, citizenship?",
-    "teaseGreeting": "Hi! I can help with Karta Pobytu, driving licence exchange or Code 95. Send me your question.",
-    "teaseCta": "Open chat",
-    "disclaimer": "Responses are informational and don't substitute for legal advice."
+    "greeting": "Hi! I'm Mila from LegalWin — what can I help you with? Residence card, driving licence exchange, Code 95, citizenship?",
+    "teaseGreeting": "Hi! I'm Mila from LegalWin — happy to help with Karta Pobytu, driving licence exchange or Code 95. What's your question?",
+    "teaseCta": "Message Mila",
+    "disclaimer": "Exact timelines and pricing for your case will be confirmed by a lawyer on the free consultation."
   },
   "Legal": {
     "back": "Home",
