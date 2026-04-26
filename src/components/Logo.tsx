@@ -40,19 +40,21 @@ export function LogoBadge({
         role="img"
         aria-label="LegalWin"
       >
-        {/* Ł — fills the canvas */}
+        {/* Ł — fills the canvas. Optically centered: stem sits slightly
+            right of canvas center; the diagonal bar extends left to
+            counter the foot extending right (equal wing extensions). */}
         {/* Stem */}
-        <rect x="112" y="44" width="32" height="220" fill="currentColor" />
+        <rect x="152" y="50" width="32" height="220" fill="currentColor" />
         {/* Foot */}
-        <rect x="112" y="232" width="124" height="32" fill="currentColor" />
+        <rect x="152" y="234" width="88" height="32" fill="currentColor" />
         {/* Diagonal cross-stroke (the Polish bar) */}
         <line
-          x1="86"
-          y1="174"
-          x2="166"
-          y2="116"
+          x1="88"
+          y1="178"
+          x2="184"
+          y2="100"
           stroke="currentColor"
-          strokeWidth="16"
+          strokeWidth="18"
           strokeLinecap="square"
         />
       </svg>
@@ -69,19 +71,19 @@ export function LogoBadge({
       role="img"
       aria-label="LegalWin · Warszawa"
     >
-      {/* === Ł MONOGRAM === */}
+      {/* === Ł MONOGRAM (optically balanced) === */}
       {/* Stem */}
-      <rect x="138" y="32" width="22" height="156" fill="currentColor" />
+      <rect x="152" y="22" width="22" height="156" fill="currentColor" />
       {/* Foot */}
-      <rect x="138" y="170" width="86" height="22" fill="currentColor" />
-      {/* Diagonal cross-stroke */}
+      <rect x="152" y="156" width="64" height="22" fill="currentColor" />
+      {/* Diagonal cross-stroke — extends left to counter foot's right reach */}
       <line
-        x1="120"
+        x1="112"
         y1="124"
-        x2="172"
-        y2="86"
+        x2="188"
+        y2="50"
         stroke="currentColor"
-        strokeWidth="11"
+        strokeWidth="12"
         strokeLinecap="square"
       />
 
