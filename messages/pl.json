@@ -277,6 +277,8 @@
     "catMarketingDesc": "Personalizacja reklam i pomiar ich skuteczności na zewnętrznych platformach."
   },
   "ConsentForm": {
+    "headerLabel": "Zgoda RODO",
+    "requiredBadge": "Wymagane",
     "label": "Wyrażam zgodę na przetwarzanie moich danych osobowych przez LegalWin (administrator danych) w celu obsługi tego zapytania zgodnie z {policy}. Mam świadomość, że mogę cofnąć zgodę w dowolnym momencie.",
     "policyLink": "Polityką prywatności",
     "required": "Aby wysłać zgłoszenie, musisz wyrazić zgodę na przetwarzanie danych"

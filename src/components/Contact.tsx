@@ -399,16 +399,40 @@ function ConsentCheckbox({ error }: { error: boolean }) {
   const labelTemplate = t('label');
   const policyText = t('policyLink');
   const [before, after] = labelTemplate.split('{policy}');
+  const [touched, setTouched] = useState(false);
+  const [checked, setChecked] = useState(false);
+
+  // Show "missing" warning if user tried to submit (server error) OR if user
+  // interacted then unchecked it (client touch). Either way it's "needs action".
+  const showError = error || (touched && !checked);
 
   return (
     <div className="flex flex-col gap-2">
+      {/* Header row — explicit "required" label, like the other form fields */}
+      <div className="flex items-center justify-between">
+        <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300">
+          <span>{t('headerLabel')}</span>
+          <span className="text-gold-400" aria-hidden>*</span>
+        </span>
+        <span
+          className={cn(
+            'font-mono text-[10px] uppercase tracking-[0.22em] transition-colors',
+            showError ? 'text-red-400' : 'text-ink-500'
+          )}
+        >
+          {t('requiredBadge')}
+        </span>
+      </div>
+
       <label
         htmlFor={id}
         className={cn(
           'group/cb flex cursor-pointer items-start gap-3 rounded-2xl border p-4 transition-colors',
-          error
-            ? 'border-red-500/60 bg-red-500/[0.04]'
-            : 'hairline bg-ink-950/40 hover:border-gold-500/30'
+          showError
+            ? 'border-red-500/60 bg-red-500/[0.05]'
+            : checked
+            ? 'border-gold-500/40 bg-gold-400/[0.04]'
+            : 'hairline-gold bg-ink-950/40 hover:border-gold-500/50'
         )}
       >
         <input
@@ -416,11 +440,19 @@ function ConsentCheckbox({ error }: { error: boolean }) {
           type="checkbox"
           name="consent"
           required
-          aria-invalid={error}
-          aria-describedby={error ? `${id}-err` : undefined}
+          aria-required="true"
+          aria-invalid={showError}
+          aria-describedby={`${id}-err`}
+          checked={checked}
+          onChange={(e) => {
+            setChecked(e.target.checked);
+            setTouched(true);
+          }}
+          onBlur={() => setTouched(true)}
           className="peer mt-0.5 h-5 w-5 flex-shrink-0 cursor-pointer appearance-none rounded-md border border-ink-600 bg-ink-950/60 transition-all checked:border-gold-500/80 checked:bg-gold-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950 relative after:pointer-events-none after:absolute after:left-1/2 after:top-1/2 after:hidden after:h-2.5 after:w-1.5 after:-translate-x-1/2 after:-translate-y-[60%] after:rotate-45 after:border-r-2 after:border-b-2 after:border-ink-950 checked:after:block"
         />
         <span className="text-xs leading-relaxed text-ink-300">
+          <span className="mr-1 font-semibold text-gold-400" aria-hidden>*</span>
           {before}
           <Link
             href="/polityka-prywatnosci"
@@ -432,11 +464,16 @@ function ConsentCheckbox({ error }: { error: boolean }) {
           {after}
         </span>
       </label>
-      {error && (
-        <p id={`${id}-err`} className="pl-1 text-xs text-red-400" role="alert">
-          {t('required')}
-        </p>
-      )}
+      <p
+        id={`${id}-err`}
+        role={showError ? 'alert' : undefined}
+        className={cn(
+          'pl-1 text-xs transition-opacity',
+          showError ? 'opacity-100 text-red-400' : 'opacity-0 h-0 overflow-hidden'
+        )}
+      >
+        {t('required')}
+      </p>
     </div>
   );
 }
