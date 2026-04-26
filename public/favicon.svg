@@ -2,26 +2,9 @@
   <!-- Dark navy rounded chip — keeps mark visible on light or dark browser tabs -->
   <rect width="320" height="320" rx="56" fill="#05091a"/>
 
-  <!-- Outer signet ring -->
-  <circle cx="160" cy="160" r="148" stroke="#D4A647" stroke-width="2.5" fill="none"/>
-
-  <!-- Inner ghost ring -->
-  <circle cx="160" cy="160" r="138" stroke="#D4A647" stroke-width="1" fill="none" opacity="0.5"/>
-
-  <!-- Heraldic star at 12 o'clock -->
-  <path d="M160 30 L165 43.5 L179.5 43.5 L167.7 51.9 L172.2 65.4 L160 57 L147.8 65.4 L152.3 51.9 L140.5 43.5 L155 43.5 Z"
-        fill="#D4A647"/>
-
-  <!-- L — confident vertical + foot -->
-  <path d="M 100 95 L 100 222 L 156 222"
-        stroke="#D4A647" stroke-width="18" fill="none"
-        stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- W — four geometric strokes -->
-  <path d="M 172 95 L 188 222 L 196 154 L 204 222 L 220 95"
-        stroke="#D4A647" stroke-width="18" fill="none"
-        stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Linking dot between L and W -->
-  <circle cx="164" cy="222" r="3.5" fill="#D4A647"/>
+  <!-- Ł — Polish bar, single-letter mark -->
+  <rect x="112" y="44" width="32" height="220" fill="#D4A647"/>
+  <rect x="112" y="232" width="124" height="32" fill="#D4A647"/>
+  <line x1="86" y1="174" x2="166" y2="116"
+        stroke="#D4A647" stroke-width="16" stroke-linecap="square"/>
 </svg>

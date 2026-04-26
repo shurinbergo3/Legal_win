@@ -1,13 +1,18 @@
 /**
- * LegalWin brand mark — "Sovereign Signet".
+ * LegalWin brand mark — "Polish Bar".
  *
- * A signet-stamp aesthetic: double hairline ring, heraldic star ornament,
- * monumental LW monogram (pure SVG paths — no font dependency), engraved
- * rule with diamond stops, and a tracked LEGAL · WIN wordmark below.
+ * One letter, one gesture: a monumental Polish Ł.
+ *   - Reads as "L" for Legal worldwide
+ *   - Polish Ł — unique national signature; no Western law firm uses this
+ *   - Built-in graphic detail (cross-stroke) replaces all decoration
  *
- *   <LogoBadge size={56} />          // header
+ * Brutalist editorial: sharp corners, geometric stems, no rings, no
+ * ornaments. Confidence through reduction. Pairs with a tracked LEGALWIN
+ * wordmark + WARSZAWA · POLSKA tagline.
+ *
+ *   <LogoBadge size={32} compact />  // favicon-tier — mark only
+ *   <LogoBadge size={108} />         // header — mark + wordmark + tagline
  *   <LogoBadge size={168} />         // footer / hero
- *   <LogoBadge size={32} compact />  // favicon-tier (mark only)
  *
  * Uses currentColor so the parent's text-* class controls ink/gold tone.
  */
@@ -24,6 +29,36 @@ export function LogoBadge({
   /** Strip the wordmark + tagline (use for favicon-tier sizes < 40px). */
   compact?: boolean;
 }) {
+  if (compact) {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 320"
+        width={size}
+        height={size}
+        className={cn('text-gold-500', className)}
+        role="img"
+        aria-label="LegalWin"
+      >
+        {/* Ł — fills the canvas */}
+        {/* Stem */}
+        <rect x="112" y="44" width="32" height="220" fill="currentColor" />
+        {/* Foot */}
+        <rect x="112" y="232" width="124" height="32" fill="currentColor" />
+        {/* Diagonal cross-stroke (the Polish bar) */}
+        <line
+          x1="86"
+          y1="174"
+          x2="166"
+          y2="116"
+          stroke="currentColor"
+          strokeWidth="16"
+          strokeLinecap="square"
+        />
+      </svg>
+    );
+  }
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -32,158 +67,69 @@ export function LogoBadge({
       height={size}
       className={cn('text-gold-500', className)}
       role="img"
-      aria-label="LegalWin"
+      aria-label="LegalWin · Warszawa"
     >
-      {/* === SIGNET FRAME === */}
-      {/* Outer hairline ring */}
-      <circle
-        cx="160"
-        cy="160"
-        r="152"
+      {/* === Ł MONOGRAM === */}
+      {/* Stem */}
+      <rect x="138" y="32" width="22" height="156" fill="currentColor" />
+      {/* Foot */}
+      <rect x="138" y="170" width="86" height="22" fill="currentColor" />
+      {/* Diagonal cross-stroke */}
+      <line
+        x1="120"
+        y1="124"
+        x2="172"
+        y2="86"
         stroke="currentColor"
-        strokeWidth="1.4"
-        fill="none"
+        strokeWidth="11"
+        strokeLinecap="square"
       />
-      {/* Inner ghost ring — gives the signet its doubled-border craft */}
-      <circle
-        cx="160"
-        cy="160"
-        r="146"
+
+      {/* === WORDMARK: LEGALWIN === */}
+      <text
+        x="160"
+        y="232"
+        textAnchor="middle"
+        fontSize="22"
+        fontWeight="500"
+        fill="currentColor"
+        letterSpacing="5.4"
+        style={{
+          fontFamily:
+            "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
+        }}
+      >
+        LEGALWIN
+      </text>
+
+      {/* Hairline divider — single line, no diamonds, brutalist clean */}
+      <line
+        x1="116"
+        y1="252"
+        x2="204"
+        y2="252"
         stroke="currentColor"
-        strokeWidth="0.5"
-        fill="none"
+        strokeWidth="0.6"
         opacity="0.45"
       />
 
-      {/* === TOP ORNAMENT (heraldic star + flanking ticks) === */}
-      {/* Five-point star at 12 o'clock — discreet sovereignty mark */}
-      <path
-        d="M160 16 L162.65 23.15 L170.3 23.15 L164.0 27.6 L166.4 35.05 L160 30.55 L153.6 35.05 L156.0 27.6 L149.7 23.15 L157.35 23.15 Z"
+      {/* === TAGLINE === */}
+      <text
+        x="160"
+        y="270"
+        textAnchor="middle"
+        fontSize="8.5"
+        fontWeight="500"
         fill="currentColor"
-        opacity="0.92"
-      />
-      {/* Symmetric flanking ticks */}
-      <line
-        x1="132"
-        y1="25"
-        x2="142"
-        y2="25"
-        stroke="currentColor"
-        strokeWidth="0.7"
-        opacity="0.55"
-      />
-      <line
-        x1="178"
-        y1="25"
-        x2="188"
-        y2="25"
-        stroke="currentColor"
-        strokeWidth="0.7"
-        opacity="0.55"
-      />
-
-      {/* === LW MONOGRAM (pure paths, font-independent) === */}
-      {/* Capital L — confident vertical with extending foot */}
-      <path
-        d="M 104 80 L 104 184 L 152 184"
-        stroke="currentColor"
-        strokeWidth="13"
-        fill="none"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      {/* Capital W — four geometric strokes meeting at sharp peaks */}
-      <path
-        d="M 168 80 L 184 184 L 192 132 L 200 184 L 216 80"
-        stroke="currentColor"
-        strokeWidth="13"
-        fill="none"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      {/* Tiny linking dot between L and W — turns two letters into one mark */}
-      <circle cx="160" cy="184" r="2.2" fill="currentColor" />
-
-      {!compact && (
-        <>
-          {/* === ENGRAVED RULE — connects mark to wordmark === */}
-          <line
-            x1="92"
-            y1="214"
-            x2="228"
-            y2="214"
-            stroke="currentColor"
-            strokeWidth="0.7"
-            opacity="0.7"
-          />
-          {/* Diamond end caps */}
-          <path
-            d="M88 214 L92 209 L96 214 L92 219 Z"
-            fill="currentColor"
-            opacity="0.85"
-          />
-          <path
-            d="M224 214 L228 209 L232 214 L228 219 Z"
-            fill="currentColor"
-            opacity="0.85"
-          />
-
-          {/* === WORDMARK: LEGAL ⋄ WIN === */}
-          <text
-            x="151"
-            y="244"
-            textAnchor="end"
-            fontSize="16.5"
-            fontWeight="600"
-            fill="currentColor"
-            letterSpacing="3.6"
-            style={{
-              fontFamily:
-                "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
-            }}
-          >
-            LEGAL
-          </text>
-          {/* Centered diamond between the two halves of the name */}
-          <path
-            d="M155 238 L160 232 L165 238 L160 244 Z"
-            fill="currentColor"
-          />
-          <text
-            x="169"
-            y="244"
-            textAnchor="start"
-            fontSize="16.5"
-            fontWeight="600"
-            fill="currentColor"
-            letterSpacing="3.6"
-            style={{
-              fontFamily:
-                "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
-            }}
-          >
-            WIN
-          </text>
-
-          {/* === TAGLINE: WARSZAWA === */}
-          <text
-            x="160"
-            y="266"
-            textAnchor="middle"
-            fontSize="9"
-            fontWeight="500"
-            fill="currentColor"
-            letterSpacing="4.8"
-            opacity="0.62"
-            style={{
-              fontFamily:
-                "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
-            }}
-          >
-            WARSZAWA
-          </text>
-        </>
-      )}
+        letterSpacing="4.2"
+        opacity="0.62"
+        style={{
+          fontFamily:
+            "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
+        }}
+      >
+        WARSZAWA · POLSKA
+      </text>
     </svg>
   );
 }
