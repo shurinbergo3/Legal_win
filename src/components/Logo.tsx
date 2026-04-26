@@ -40,19 +40,21 @@ export function LogoBadge({
         role="img"
         aria-label="LegalWin"
       >
-        {/* Ł — fills the canvas. Optically centered: stem sits slightly
-            right of canvas center; the diagonal bar extends left to
-            counter the foot extending right (equal wing extensions). */}
+        {/* Ł — fills the canvas. The L-shape (stem+foot) is the dominant
+            visual mass, so we center IT on the canvas: foot center sits
+            at x=160. Stem ends up slightly left of canvas center; slash
+            is contained as a graphic detail crossing the stem
+            symmetrically (not pulled out as a separate wing). */}
         {/* Stem */}
-        <rect x="152" y="50" width="32" height="220" fill="currentColor" />
-        {/* Foot */}
-        <rect x="152" y="234" width="88" height="32" fill="currentColor" />
-        {/* Diagonal cross-stroke (the Polish bar) */}
+        <rect x="116" y="50" width="32" height="220" fill="currentColor" />
+        {/* Foot — centered horizontally on canvas */}
+        <rect x="116" y="234" width="88" height="32" fill="currentColor" />
+        {/* Diagonal cross-stroke (the Polish bar) — symmetric across stem */}
         <line
-          x1="88"
-          y1="178"
-          x2="184"
-          y2="100"
+          x1="84"
+          y1="152"
+          x2="180"
+          y2="88"
           stroke="currentColor"
           strokeWidth="18"
           strokeLinecap="square"
@@ -71,17 +73,18 @@ export function LogoBadge({
       role="img"
       aria-label="LegalWin · Warszawa"
     >
-      {/* === Ł MONOGRAM (optically balanced) === */}
+      {/* === Ł MONOGRAM === */}
+      {/* L-shape centered on canvas: foot center sits at x=160. */}
       {/* Stem */}
-      <rect x="152" y="22" width="22" height="156" fill="currentColor" />
-      {/* Foot */}
-      <rect x="152" y="156" width="64" height="22" fill="currentColor" />
-      {/* Diagonal cross-stroke — extends left to counter foot's right reach */}
+      <rect x="128" y="22" width="22" height="156" fill="currentColor" />
+      {/* Foot — centered horizontally on canvas */}
+      <rect x="128" y="156" width="64" height="22" fill="currentColor" />
+      {/* Diagonal cross-stroke — symmetric across stem, contained as detail */}
       <line
-        x1="112"
-        y1="124"
-        x2="188"
-        y2="50"
+        x1="108"
+        y1="92"
+        x2="170"
+        y2="56"
         stroke="currentColor"
         strokeWidth="12"
         strokeLinecap="square"

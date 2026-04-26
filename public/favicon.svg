@@ -2,9 +2,9 @@
   <!-- Dark navy rounded chip — keeps mark visible on light or dark browser tabs -->
   <rect width="320" height="320" rx="56" fill="#05091a"/>
 
-  <!-- Ł — Polish bar, optically balanced -->
-  <rect x="152" y="50" width="32" height="220" fill="#D4A647"/>
-  <rect x="152" y="234" width="88" height="32" fill="#D4A647"/>
-  <line x1="88" y1="178" x2="184" y2="100"
+  <!-- Ł — L-shape centered on canvas, slash as contained graphic detail -->
+  <rect x="116" y="50" width="32" height="220" fill="#D4A647"/>
+  <rect x="116" y="234" width="88" height="32" fill="#D4A647"/>
+  <line x1="84" y1="152" x2="180" y2="88"
         stroke="#D4A647" stroke-width="18" stroke-linecap="square"/>
 </svg>
