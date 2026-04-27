@@ -40,37 +40,24 @@ export function Chatbot() {
     }
   }, [messages, open]);
 
-  /* --- Idle tease: open mini-popup after 10s of inactivity, once per session --- */
+  /* --- Tease: open mini-popup ~10s after first visit, once per session.
+     Earlier version reset the timer on mousemove/scroll, so on a normal
+     browsing session it never fired. Now it's a simple page-time timer. */
   useEffect(() => {
-    if (reduce) return; // Respect reduced-motion users
+    if (reduce) return;
     if (typeof window === 'undefined') return;
     if (sessionStorage.getItem(TEASE_SESSION_KEY)) return;
+    if (open) return;
 
-    let timer: ReturnType<typeof setTimeout> | null = null;
-    const reset = () => {
-      if (timer) clearTimeout(timer);
-      if (open || sessionStorage.getItem(TEASE_SESSION_KEY)) return;
-      timer = setTimeout(() => {
-        if (!open) {
-          setTease(true);
-          sessionStorage.setItem(TEASE_SESSION_KEY, '1');
-        }
-      }, IDLE_TEASE_MS);
-    };
+    const timer = window.setTimeout(() => {
+      // Re-check at fire time — user might have opened chat in the meantime.
+      if (!sessionStorage.getItem(TEASE_SESSION_KEY)) {
+        setTease(true);
+        sessionStorage.setItem(TEASE_SESSION_KEY, '1');
+      }
+    }, IDLE_TEASE_MS);
 
-    const events: (keyof WindowEventMap)[] = [
-      'mousemove',
-      'keydown',
-      'scroll',
-      'touchstart'
-    ];
-    events.forEach((e) => window.addEventListener(e, reset, { passive: true }));
-    reset(); // start initial timer
-
-    return () => {
-      if (timer) clearTimeout(timer);
-      events.forEach((e) => window.removeEventListener(e, reset));
-    };
+    return () => window.clearTimeout(timer);
   }, [open, reduce]);
 
   // Opening the chat dismisses the tease

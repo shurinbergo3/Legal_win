@@ -50,7 +50,7 @@ export function ScrollToTop() {
           transition={{ duration: 0.3, ease }}
           whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.94 }}
-          className="glass-strong fixed bottom-5 left-5 z-40 hidden h-12 w-12 items-center justify-center rounded-full border hairline-gold text-gold-400 shadow-elite transition-colors hover:border-gold-500/70 hover:text-gold-300 sm:bottom-8 sm:left-8 sm:inline-flex"
+          className="glass-strong fixed bottom-5 left-5 z-40 inline-flex h-11 w-11 items-center justify-center rounded-full border hairline-gold text-gold-400 shadow-elite transition-colors hover:border-gold-500/70 hover:text-gold-300 sm:bottom-8 sm:left-8 sm:h-12 sm:w-12"
         >
           <ArrowUp className="h-5 w-5" strokeWidth={1.8} aria-hidden />
         </motion.button>
