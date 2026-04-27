@@ -3,7 +3,7 @@ import { routing } from '@/i18n/routing';
 import { serviceSlugs, services } from '@/lib/services';
 import { getAllPosts, getAvailableLocalesForSlug } from '@/lib/blog';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.legalwin.pl';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

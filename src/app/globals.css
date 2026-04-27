@@ -65,7 +65,7 @@ body {
   font-family: var(--font-sans);
   font-feature-settings: 'cv11', 'ss01', 'ss03';
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeSpeed;
   /* Belt-and-suspenders for browsers that don't support overflow:clip on <html> */
   overflow-x: clip;
 }
@@ -78,7 +78,7 @@ body {
 .font-display {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-variation-settings: 'SOFT' 30, 'WONK' 0;
+  font-variation-settings: 'opsz' 18;
   letter-spacing: -0.02em;
 }
 

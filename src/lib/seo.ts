@@ -1,7 +1,7 @@
 import { routing } from '@/i18n/routing';
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.legalwin.pl';
 
 export const ORG_LEGAL_NAME = 'LegalWin';
 export const ORG_PHONE = '+48 506 55 07 21';

@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
@@ -8,11 +9,12 @@ import { Cases } from '@/components/Cases';
 import { Testimonials } from '@/components/Testimonials';
 import { Process } from '@/components/Process';
 import { Faq } from '@/components/Faq';
-import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
-import { Chatbot } from '@/components/Chatbot';
 import { JsonLd } from '@/components/JsonLd';
 import { faqPageLd } from '@/lib/seo';
+
+const Contact = dynamic(() => import('@/components/Contact').then(m => ({ default: m.Contact })));
+const Chatbot = dynamic(() => import('@/components/Chatbot').then(m => ({ default: m.Chatbot })), { ssr: false });
 
 type FaqItem = { q: string; a: string };
 

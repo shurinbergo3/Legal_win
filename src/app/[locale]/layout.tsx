@@ -24,14 +24,14 @@ const fraunces = Fraunces({
   subsets: ['latin', 'latin-ext'],
   variable: '--font-fraunces',
   display: 'swap',
-  axes: ['opsz', 'SOFT', 'WONK']
+  axes: ['opsz']
 });
 
 // Cyrillic fallback for display: Fraunces lacks Cyrillic glyphs, so the
 // browser would fall back to Georgia. Source Serif 4 carries the same
 // editorial-luxury feel and has full Cyrillic + matching italic.
 const sourceSerif = Source_Serif_4({
-  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
+  subsets: ['latin', 'latin-ext', 'cyrillic'],
   variable: '--font-source-serif',
   display: 'swap',
   axes: ['opsz']
@@ -48,13 +48,13 @@ const cormorant = Cormorant_Garamond({
 });
 
 const inter = Inter({
-  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
+  subsets: ['latin', 'latin-ext', 'cyrillic'],
   variable: '--font-sans',
   display: 'swap'
 });
 
 const jetbrainsMono = JetBrains_Mono({
-  subsets: ['latin', 'latin-ext', 'cyrillic'],
+  subsets: ['latin', 'latin-ext'],
   variable: '--font-mono',
   display: 'swap'
 });

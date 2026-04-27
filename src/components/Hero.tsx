@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { ArrowRight, Phone } from 'lucide-react';
 
@@ -68,18 +68,23 @@ export function Hero() {
   const t = useTranslations('Hero');
   const ref = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
+  const [isMobile, setIsMobile] = useState(true);
+  useEffect(() => {
+    setIsMobile(window.matchMedia('(max-width: 1023px)').matches);
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ['start start', 'end start']
   });
 
-  const photoY = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : [0, 140]);
-  const photoScale = useTransform(scrollYProgress, [0, 1], reduce ? [1, 1] : [1.05, 1.12]);
-  const orbY = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : [0, 200]);
-  const themisY = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : [0, -120]);
-  const textY = useTransform(scrollYProgress, [0, 1], reduce ? [0, 0] : [0, -50]);
-  const textOpacity = useTransform(scrollYProgress, [0, 0.85], [1, 0.2]);
+  const skip = reduce || isMobile;
+  const photoY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, 140]);
+  const photoScale = useTransform(scrollYProgress, [0, 1], skip ? [1, 1] : [1.05, 1.12]);
+  const orbY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, 200]);
+  const themisY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, -120]);
+  const textY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, -50]);
+  const textOpacity = useTransform(scrollYProgress, [0, 0.85], skip ? [1, 1] : [1, 0.2]);
 
   return (
     <section
