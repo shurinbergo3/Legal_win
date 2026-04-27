@@ -196,6 +196,21 @@ body::before {
 
 .caret { animation: caret-blink 1.2s step-end infinite; }
 
+/* Hero text entrance — CSS-only so LCP element is visible before JS hydrates */
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.hero-in {
+  animation: hero-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.hero-in-d1 { animation-delay: 0.10s; }
+.hero-in-d2 { animation-delay: 0.18s; }
+.hero-in-d3 { animation-delay: 0.26s; }
+.hero-in-d4 { animation-delay: 0.34s; }
+.hero-in-d5 { animation-delay: 0.42s; }
+
 /* Slow background shift */
 @keyframes bg-shift {
   0%, 100% { background-position: 0% 0%; }

@@ -1,66 +1,177 @@
 /**
  * Telegram bot webhook.
  *
- * Conversation flow:
- *   /start               → welcome + ask for password
- *   <password>           → add chat to subscribers, confirm
- *   /myid                → show own Telegram chat ID (available to everyone)
- *   /status              → tell whether they're subscribed
- *   /stop                → remove from subscribers
- *   /adduser <id>        → admin: add subscriber by chat ID
- *   /removeuser <id>     → admin: remove subscriber by chat ID
- *   /listusers           → admin: list all active subscribers
+ * Commands (registered via /api/telegram/setup):
+ *   /start       → welcome + subscribe flow
+ *   /admin       → admin panel with inline keyboard (admins only)
+ *   /myid        → show own Telegram chat ID
+ *   /status      → subscription status
+ *   /stop        → unsubscribe
+ *   /adduser     → admin: add subscriber by chat ID
+ *   /removeuser  → admin: remove subscriber by chat ID
+ *   /listusers   → admin: list all subscribers
  *
  * Admins are identified by TELEGRAM_OPERATOR_CHAT_IDS env var.
- *
- * Setup (one-time, see TELEGRAM.md):
- *   curl -X POST "https://api.telegram.org/bot<TOKEN>/setWebhook" \
- *        -d "url=https://<your-domain>/api/telegram/webhook" \
- *        -d "secret_token=<TELEGRAM_WEBHOOK_SECRET>"
  */
 
 import { NextRequest, NextResponse } from 'next/server';
 import {
   addSubscriber,
   isSubscribed,
-  listSubscribers,
+  listSubscribersWithMeta,
   removeSubscriber
 } from '@/lib/subscribers';
 
 export const runtime = 'nodejs';
-// We mutate disk in addSubscriber/removeSubscriber, so don't cache.
 export const dynamic = 'force-dynamic';
 
-type TgUpdate = {
-  message?: {
-    chat: { id: number; first_name?: string; username?: string };
-    text?: string;
-  };
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+type TgChat = { id: number; first_name?: string; last_name?: string; username?: string };
+type TgMessage = { message_id: number; chat: TgChat; text?: string };
+type TgCallbackQuery = {
+  id: string;
+  from: TgChat;
+  message?: TgMessage;
+  data?: string;
 };
 
-async function tgSend(chatId: number, text: string) {
+type TgUpdate = {
+  message?: TgMessage;
+  callback_query?: TgCallbackQuery;
+};
+
+type InlineButton = { text: string; callback_data: string };
+type InlineKeyboard = { inline_keyboard: InlineButton[][] };
+type ReplyKeyboard = {
+  keyboard: { text: string }[][];
+  resize_keyboard: boolean;
+  persistent?: boolean;
+};
+
+// ─── Telegram API helpers ─────────────────────────────────────────────────────
+
+async function tgApi(method: string, body: Record<string, unknown>) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   if (!token) return;
-  await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+  await fetch(`https://api.telegram.org/bot${token}/${method}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      chat_id: chatId,
-      text,
-      parse_mode: 'HTML',
-      disable_web_page_preview: true
-    })
+    body: JSON.stringify(body),
+    cache: 'no-store'
   }).catch(() => {});
 }
 
+async function tgSend(
+  chatId: number,
+  text: string,
+  extra?: { reply_markup?: InlineKeyboard | ReplyKeyboard }
+) {
+  await tgApi('sendMessage', {
+    chat_id: chatId,
+    text,
+    parse_mode: 'HTML',
+    disable_web_page_preview: true,
+    ...extra
+  });
+}
+
+async function tgEdit(chatId: number, messageId: number, text: string, keyboard?: InlineKeyboard) {
+  await tgApi('editMessageText', {
+    chat_id: chatId,
+    message_id: messageId,
+    text,
+    parse_mode: 'HTML',
+    disable_web_page_preview: true,
+    ...(keyboard ? { reply_markup: keyboard } : {})
+  });
+}
+
+async function tgAnswer(callbackId: string, text?: string) {
+  await tgApi('answerCallbackQuery', {
+    callback_query_id: callbackId,
+    ...(text ? { text, show_alert: false } : {})
+  });
+}
+
+// ─── Keyboards ────────────────────────────────────────────────────────────────
+
+function adminInlineMenu(): InlineKeyboard {
+  return {
+    inline_keyboard: [
+      [{ text: '👥 Список подписчиков', callback_data: 'admin:list' }],
+      [
+        { text: '➕ Добавить по ID', callback_data: 'admin:add_help' },
+        { text: '➖ Удалить по ID', callback_data: 'admin:remove_help' }
+      ],
+      [{ text: '📋 Все команды', callback_data: 'admin:commands' }]
+    ]
+  };
+}
+
+function adminReplyKeyboard(): ReplyKeyboard {
+  return {
+    keyboard: [
+      [{ text: '👑 Панель администратора' }],
+      [{ text: '📊 Статус' }, { text: '🆔 Мой ID' }]
+    ],
+    resize_keyboard: true,
+    persistent: true
+  };
+}
+
+function subscriberReplyKeyboard(): ReplyKeyboard {
+  return {
+    keyboard: [
+      [{ text: '📊 Статус подписки' }, { text: '🆔 Мой ID' }],
+      [{ text: '❌ Отписаться' }]
+    ],
+    resize_keyboard: true,
+    persistent: true
+  };
+}
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function isAdmin(id: number): boolean {
+  const raw = process.env.TELEGRAM_OPERATOR_CHAT_IDS ?? '';
+  return raw
+    .split(',')
+    .map((s) => Number(s.trim()))
+    .filter((n) => Number.isFinite(n) && n !== 0)
+    .includes(id);
+}
+
+function displayName(chat: TgChat): string {
+  const parts = [chat.first_name, chat.last_name].filter(Boolean).join(' ');
+  return parts || chat.username || 'друг';
+}
+
+async function buildSubscriberList(): Promise<string> {
+  const list = await listSubscribersWithMeta();
+  if (list.length === 0) return '📋 Нет активных подписчиков.';
+
+  const ops = (process.env.TELEGRAM_OPERATOR_CHAT_IDS ?? '')
+    .split(',')
+    .map((s) => Number(s.trim()))
+    .filter(Boolean);
+
+  const lines = list.map((s) => {
+    const tag = ops.includes(s.chatId) ? ' 👑' : '';
+    const uname = s.username ? ` (@${s.username})` : '';
+    return `• <b>${s.name}</b>${uname}${tag}\n  ID: <code>${s.chatId}</code>`;
+  });
+
+  return `👥 <b>Подписчики (${list.length}):</b>\n\n${lines.join('\n\n')}`;
+}
+
+// ─── Webhook handler ─────────────────────────────────────────────────────────
+
 export async function POST(req: NextRequest) {
-  // Optional shared-secret check
   const expected = process.env.TELEGRAM_WEBHOOK_SECRET;
   if (expected) {
     const got = req.headers.get('x-telegram-bot-api-secret-token');
-    if (got !== expected) {
-      return NextResponse.json({ ok: false }, { status: 401 });
-    }
+    if (got !== expected) return NextResponse.json({ ok: false }, { status: 401 });
   }
 
   let update: TgUpdate;
@@ -70,62 +181,150 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: false }, { status: 400 });
   }
 
+  // ── Callback query (inline button press) ────────────────────────────────────
+  if (update.callback_query) {
+    const cq = update.callback_query;
+    const chatId = cq.from.id;
+    const msgId = cq.message?.message_id;
+    const data = cq.data ?? '';
+
+    await tgAnswer(cq.id);
+
+    if (!isAdmin(chatId)) {
+      await tgAnswer(cq.id, '❌ Нет доступа');
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data === 'admin:list') {
+      const text = await buildSubscriberList();
+      const backBtn: InlineKeyboard = {
+        inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]]
+      };
+      if (msgId) await tgEdit(chatId, msgId, text, backBtn);
+      else await tgSend(chatId, text, { reply_markup: backBtn });
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data === 'admin:add_help') {
+      const text =
+        '➕ <b>Добавить подписчика:</b>\n\n' +
+        'Попросите нового пользователя написать боту /myid — он получит свой Chat ID.\n\n' +
+        'Затем отправьте мне:\n<code>/adduser 123456789</code>';
+      const backBtn: InlineKeyboard = {
+        inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]]
+      };
+      if (msgId) await tgEdit(chatId, msgId, text, backBtn);
+      else await tgSend(chatId, text, { reply_markup: backBtn });
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data === 'admin:remove_help') {
+      const text =
+        '➖ <b>Удалить подписчика:</b>\n\n' +
+        'Сначала посмотрите список подписчиков и скопируйте нужный ID.\n\n' +
+        'Затем отправьте:\n<code>/removeuser 123456789</code>';
+      const backBtn: InlineKeyboard = {
+        inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]]
+      };
+      if (msgId) await tgEdit(chatId, msgId, text, backBtn);
+      else await tgSend(chatId, text, { reply_markup: backBtn });
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data === 'admin:commands') {
+      const text =
+        '📋 <b>Все команды бота:</b>\n\n' +
+        '<b>Для всех:</b>\n' +
+        '/start — приветствие и подписка\n' +
+        '/myid — ваш Telegram Chat ID\n' +
+        '/status — статус подписки\n' +
+        '/stop — отписаться\n\n' +
+        '<b>Только для администраторов:</b>\n' +
+        '/admin — панель управления\n' +
+        '/listusers — список подписчиков\n' +
+        '/adduser &lt;id&gt; — добавить подписчика\n' +
+        '/removeuser &lt;id&gt; — удалить подписчика';
+      const backBtn: InlineKeyboard = {
+        inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]]
+      };
+      if (msgId) await tgEdit(chatId, msgId, text, backBtn);
+      else await tgSend(chatId, text, { reply_markup: backBtn });
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data === 'admin:menu') {
+      const text = '👑 <b>Панель администратора LegalWin</b>\n\nВыберите действие:';
+      if (msgId) await tgEdit(chatId, msgId, text, adminInlineMenu());
+      else await tgSend(chatId, text, { reply_markup: adminInlineMenu() });
+      return NextResponse.json({ ok: true });
+    }
+
+    return NextResponse.json({ ok: true });
+  }
+
+  // ── Regular message ─────────────────────────────────────────────────────────
   const message = update.message;
   if (!message?.text) return NextResponse.json({ ok: true });
 
   const chatId = message.chat.id;
   const text = message.text.trim();
   const password = process.env.TELEGRAM_PASSWORD ?? '';
-  const greeting = message.chat.first_name ?? message.chat.username ?? 'друг';
+  const greeting = displayName(message.chat);
+  const admin = isAdmin(chatId);
 
-  function isAdmin(id: number): boolean {
-    const raw = process.env.TELEGRAM_OPERATOR_CHAT_IDS ?? '';
-    return raw
-      .split(',')
-      .map((s) => Number(s.trim()))
-      .filter((n) => Number.isFinite(n) && n !== 0)
-      .includes(id);
-  }
-
-  // /myid — available to everyone
+  // /myid
   if (text === '/myid') {
     await tgSend(
       chatId,
-      `🆔 Ваш Telegram Chat ID:\n<code>${chatId}</code>\n\nСкопируйте и передайте администратору, чтобы он добавил вас вручную.`
+      `🆔 <b>Ваш Telegram Chat ID:</b>\n<code>${chatId}</code>\n\nПередайте этот номер администратору чтобы он добавил вас в подписчики.`
     );
     return NextResponse.json({ ok: true });
   }
 
-  // /adduser <chatId> — admin only
+  // /admin
+  if (text === '/admin' || text === '👑 Панель администратора') {
+    if (!admin) {
+      await tgSend(chatId, '❌ У вас нет прав администратора.');
+      return NextResponse.json({ ok: true });
+    }
+    await tgSend(
+      chatId,
+      '👑 <b>Панель администратора LegalWin</b>\n\nВыберите действие:',
+      { reply_markup: adminInlineMenu() }
+    );
+    return NextResponse.json({ ok: true });
+  }
+
+  // /adduser <id>
   if (text.startsWith('/adduser')) {
-    if (!isAdmin(chatId)) {
+    if (!admin) {
       await tgSend(chatId, '❌ У вас нет прав администратора.');
       return NextResponse.json({ ok: true });
     }
     const targetId = Number(text.split(/\s+/)[1]);
     if (!targetId || !Number.isFinite(targetId)) {
-      await tgSend(chatId, '⚠️ Укажите ID: /adduser 123456789');
+      await tgSend(chatId, '⚠️ Укажите ID:\n<code>/adduser 123456789</code>');
       return NextResponse.json({ ok: true });
     }
     const result = await addSubscriber(targetId);
-    const msgs = {
+    const msgs: Record<typeof result, string> = {
       added: `✅ Пользователь <code>${targetId}</code> добавлен в подписчики.`,
       duplicate: `ℹ️ Пользователь <code>${targetId}</code> уже подписан.`,
-      ephemeral: `⚠️ Хостинг не сохраняет подписки. Добавьте <code>${targetId}</code> в переменную <b>TELEGRAM_OPERATOR_CHAT_IDS</b> на Vercel.`
-    } as const;
+      ephemeral: `⚠️ Хостинг не сохраняет подписки между деплоями.\n\nДобавьте <code>${targetId}</code> в переменную <b>TELEGRAM_OPERATOR_CHAT_IDS</b> на Vercel (через запятую).`
+    };
     await tgSend(chatId, msgs[result]);
     return NextResponse.json({ ok: true });
   }
 
-  // /removeuser <chatId> — admin only
+  // /removeuser <id>
   if (text.startsWith('/removeuser')) {
-    if (!isAdmin(chatId)) {
+    if (!admin) {
       await tgSend(chatId, '❌ У вас нет прав администратора.');
       return NextResponse.json({ ok: true });
     }
     const targetId = Number(text.split(/\s+/)[1]);
     if (!targetId || !Number.isFinite(targetId)) {
-      await tgSend(chatId, '⚠️ Укажите ID: /removeuser 123456789');
+      await tgSend(chatId, '⚠️ Укажите ID:\n<code>/removeuser 123456789</code>');
       return NextResponse.json({ ok: true });
     }
     const removed = await removeSubscriber(targetId);
@@ -133,91 +332,118 @@ export async function POST(req: NextRequest) {
       chatId,
       removed
         ? `✅ Пользователь <code>${targetId}</code> удалён из подписчиков.`
-        : `ℹ️ Пользователь <code>${targetId}</code> не найден в подписчиках.`
+        : `ℹ️ Пользователь <code>${targetId}</code> не найден.`
     );
     return NextResponse.json({ ok: true });
   }
 
-  // /listusers — admin only
+  // /listusers
   if (text === '/listusers') {
-    if (!isAdmin(chatId)) {
+    if (!admin) {
       await tgSend(chatId, '❌ У вас нет прав администратора.');
       return NextResponse.json({ ok: true });
     }
-    const subscribers = await listSubscribers();
-    if (subscribers.length === 0) {
-      await tgSend(chatId, '📋 Нет активных подписчиков.');
-    } else {
-      const list = subscribers.map((id) => `• <code>${id}</code>`).join('\n');
-      await tgSend(chatId, `📋 <b>Подписчики (${subscribers.length}):</b>\n\n${list}`);
-    }
+    const listText = await buildSubscriberList();
+    await tgSend(chatId, listText);
     return NextResponse.json({ ok: true });
   }
 
-  if (text === '/start' || text.startsWith('/start ')) {
-    const already = await isSubscribed(chatId);
-    if (already) {
-      const body = isAdmin(chatId)
-        ? `Здравствуйте, ${greeting}!\n\nВы подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n<b>Все команды:</b>\n/myid — ваш Telegram ID\n/status — проверить подписку\n/stop — отписаться\n\n👑 <b>Администратор:</b>\n/adduser &lt;id&gt; — добавить подписчика\n/removeuser &lt;id&gt; — удалить подписчика\n/listusers — список всех подписчиков`
-        : `Здравствуйте, ${greeting}!\n\nВы уже подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n/myid — ваш Telegram ID\n/status — проверить подписку\n/stop — отписаться`;
-      await tgSend(chatId, body);
-    } else {
-      await tgSend(
-        chatId,
-        `Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для приёма заявок с сайта.\n\nЧтобы начать получать новые заявки, отправьте <b>пароль доступа</b> одним сообщением.\n\n/myid — узнать свой Telegram ID`
-      );
-    }
-    return NextResponse.json({ ok: true });
-  }
-
-  if (text === '/status') {
+  // /status or keyboard button
+  if (text === '/status' || text === '📊 Статус' || text === '📊 Статус подписки') {
     const subbed = await isSubscribed(chatId);
     await tgSend(
       chatId,
       subbed
-        ? '✅ Вы подписаны и получаете заявки.'
-        : '❌ Вы не подписаны. Отправьте пароль чтобы подписаться, или /start для инструкции.'
+        ? '✅ Вы подписаны и получаете заявки с сайта LegalWin.'
+        : '❌ Вы не подписаны.\n\nОтправьте пароль чтобы подписаться, или /start для инструкции.'
     );
     return NextResponse.json({ ok: true });
   }
 
-  if (text === '/stop' || text === '/unsubscribe') {
+  // /stop or keyboard button
+  if (text === '/stop' || text === '/unsubscribe' || text === '❌ Отписаться') {
     const removed = await removeSubscriber(chatId);
     await tgSend(
       chatId,
       removed
-        ? '✅ Вы отписаны от заявок. /start — подписаться снова.'
+        ? '✅ Вы отписаны от заявок.\n\nОтправьте /start чтобы подписаться снова.'
         : 'Вы и так не были подписаны.'
     );
     return NextResponse.json({ ok: true });
   }
 
-  // Treat anything else as a password attempt
-  if (password && text === password) {
-    const result = await addSubscriber(chatId);
-    const messages = {
-      added:
-        '✅ <b>Доступ открыт.</b> Вы будете получать новые заявки с сайта LegalWin в этот чат.\n\nКоманды:\n/status — проверить подписку\n/stop — отписаться',
-      duplicate: '✅ Вы уже подписаны.',
-      ephemeral:
-        `⚠️ <b>Пароль верный, но хостинг не сохраняет подписки.</b>\n\nВаш chat ID: <code>${chatId}</code>\n\nПередайте этот номер администратору — он добавит его в переменную <code>TELEGRAM_OPERATOR_CHAT_IDS</code> на Vercel (через запятую с другими). После этого заявки начнут приходить.`
-    } as const;
-    await tgSend(chatId, messages[result]);
+  // 🆔 Мой ID — keyboard button
+  if (text === '🆔 Мой ID') {
+    await tgSend(
+      chatId,
+      `🆔 <b>Ваш Telegram Chat ID:</b>\n<code>${chatId}</code>`
+    );
     return NextResponse.json({ ok: true });
   }
 
+  // /start
+  if (text === '/start' || text.startsWith('/start ')) {
+    const already = await isSubscribed(chatId);
+    if (already) {
+      await addSubscriber(chatId, { name: greeting, username: message.chat.username });
+      if (admin) {
+        await tgSend(
+          chatId,
+          `👋 Здравствуйте, ${greeting}!\n\nВы подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n👑 Вы — администратор.`,
+          { reply_markup: adminReplyKeyboard() }
+        );
+      } else {
+        await tgSend(
+          chatId,
+          `👋 Здравствуйте, ${greeting}!\n\nВы уже подписаны и получаете заявки с сайта <b>LegalWin</b>.`,
+          { reply_markup: subscriberReplyKeyboard() }
+        );
+      }
+    } else {
+      await tgSend(
+        chatId,
+        `👋 Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы начать получать новые заявки, отправьте <b>пароль доступа</b> одним сообщением.\n\n/myid — узнать свой Telegram ID`
+      );
+    }
+    return NextResponse.json({ ok: true });
+  }
+
+  // Password attempt
+  if (password && text === password) {
+    const result = await addSubscriber(chatId, {
+      name: greeting,
+      username: message.chat.username
+    });
+    if (result === 'added' || result === 'duplicate') {
+      const msg =
+        result === 'added'
+          ? `✅ <b>Доступ открыт.</b>\n\nВы будете получать новые заявки с сайта LegalWin в этот чат.`
+          : '✅ Вы уже подписаны.';
+      const keyboard = admin ? adminReplyKeyboard() : subscriberReplyKeyboard();
+      await tgSend(chatId, msg, { reply_markup: keyboard });
+    } else {
+      await tgSend(
+        chatId,
+        `⚠️ <b>Пароль верный, но хостинг не сохраняет подписки между деплоями.</b>\n\n` +
+          `Ваш Chat ID: <code>${chatId}</code>\n\n` +
+          `Добавьте его в переменную <code>TELEGRAM_OPERATOR_CHAT_IDS</code> на Vercel.`
+      );
+    }
+    return NextResponse.json({ ok: true });
+  }
+
+  // Unknown message
   await tgSend(
     chatId,
-    '❌ Неверный пароль.\n\nПопробуйте ещё раз или /start для инструкции.'
+    '❓ Не понял команду.\n\nОтправьте /start для инструкции.'
   );
   return NextResponse.json({ ok: true });
 }
 
-// Helpful GET for sanity-checking the deployment URL in the browser
 export async function GET() {
   return NextResponse.json({
     ok: true,
     name: 'legalwin-telegram-webhook',
-    docs: 'POST endpoint — only Telegram should call this. See TELEGRAM.md.'
+    setup: 'GET /api/telegram/setup to register bot commands'
   });
 }

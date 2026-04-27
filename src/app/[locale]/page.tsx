@@ -12,9 +12,9 @@ import { Faq } from '@/components/Faq';
 import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { faqPageLd } from '@/lib/seo';
+import { ChatbotLoader } from '@/components/ChatbotLoader';
 
 const Contact = dynamic(() => import('@/components/Contact').then(m => ({ default: m.Contact })));
-const Chatbot = dynamic(() => import('@/components/Chatbot').then(m => ({ default: m.Chatbot })), { ssr: false });
 
 type FaqItem = { q: string; a: string };
 
@@ -45,7 +45,7 @@ export default async function HomePage({
         <Contact locale={locale} />
       </main>
       <Footer />
-      <Chatbot />
+      <ChatbotLoader />
     </>
   );
 }

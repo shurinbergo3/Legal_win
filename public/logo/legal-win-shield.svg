@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 268" width="400" height="536">
+  <defs>
+    <linearGradient id="goldMetal" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%"   stop-color="#F2E08A"/>
+      <stop offset="30%"  stop-color="#C9A84C"/>
+      <stop offset="55%"  stop-color="#9A6F1E"/>
+      <stop offset="80%"  stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#8B6210"/>
+    </linearGradient>
+
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#F0DC82"/>
+      <stop offset="45%"  stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#A07828"/>
+    </linearGradient>
+
+    <linearGradient id="navyBody" x1="0%" y1="0%" x2="100%" y2="120%">
+      <stop offset="0%"   stop-color="#1E2E55"/>
+      <stop offset="100%" stop-color="#09142A"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="drop" x="-20%" y="-10%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- ══ SHIELD ══ -->
+
+  <!-- Outer gold rim -->
+  <path d="M 28,12 L 172,12
+           Q 192,12 192,34
+           L 192,150
+           Q 192,202 100,236
+           Q 8,202 8,150
+           L 8,34
+           Q 8,12 28,12 Z"
+        fill="url(#goldMetal)"
+        filter="url(#drop)"/>
+
+  <!-- Navy shield body -->
+  <path d="M 37,21 L 163,21
+           Q 181,21 181,41
+           L 181,148
+           Q 181,196 100,228
+           Q 19,196 19,148
+           L 19,41
+           Q 19,21 37,21 Z"
+        fill="url(#navyBody)"/>
+
+  <!-- Inner border line 1 -->
+  <path d="M 45,29 L 155,29
+           Q 171,29 171,46
+           L 171,145
+           Q 171,189 100,220
+           Q 29,189 29,145
+           L 29,46
+           Q 29,29 45,29 Z"
+        fill="none"
+        stroke="url(#goldMetal)"
+        stroke-width="1.3"/>
+
+  <!-- Inner border line 2 (hairline) -->
+  <path d="M 51,35 L 149,35
+           Q 163,35 163,50
+           L 163,143
+           Q 163,183 100,212
+           Q 37,183 37,143
+           L 37,50
+           Q 37,35 51,35 Z"
+        fill="none"
+        stroke="url(#goldMetal)"
+        stroke-width="0.5"
+        opacity="0.55"/>
+
+  <!-- ══ CORNER DIAMONDS ══ -->
+  <polygon points="45,29 51,35 45,41 39,35" fill="url(#goldMetal)" opacity="0.9"/>
+  <polygon points="155,29 161,35 155,41 149,35" fill="url(#goldMetal)" opacity="0.9"/>
+
+  <!-- ══ LW MONOGRAM ══ -->
+  <text x="100" y="152"
+        font-family="'Georgia','Times New Roman',Times,serif"
+        font-size="84"
+        font-weight="700"
+        fill="url(#goldText)"
+        text-anchor="middle"
+        letter-spacing="-3"
+        filter="url(#glow)">LW</text>
+
+  <!-- ══ DIVIDER ══ -->
+  <line x1="18" y1="247" x2="182" y2="247"
+        stroke="url(#goldMetal)" stroke-width="0.7" opacity="0.6"/>
+
+  <!-- ══ WORDMARK ══ -->
+  <text x="100" y="263"
+        font-family="'Georgia','Times New Roman',Times,serif"
+        font-size="16.5"
+        font-weight="600"
+        fill="url(#goldText)"
+        text-anchor="middle"
+        letter-spacing="8">LEGALWIN</text>
+</svg>

@@ -8,16 +8,6 @@ import { ArrowRight, Phone } from 'lucide-react';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
-const container = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.12 } }
-};
-
-const item = {
-  hidden: { y: 32, opacity: 0 },
-  show: { y: 0, opacity: 1, transition: { duration: 0.8, ease } }
-};
-
 function ThemisScales({ className }: { className?: string }) {
   return (
     <svg
@@ -180,18 +170,13 @@ export function Hero() {
         <ThemisScales className="h-full w-full" />
       </div>
 
+      {/* Text content — parallax wrapper only, entrance via CSS so LCP isn't blocked by JS */}
       <motion.div
         style={{ y: textY, opacity: textOpacity }}
-        variants={container}
-        initial="hidden"
-        animate="show"
         className="relative mx-auto grid max-w-[1400px] grid-cols-12 gap-x-6 gap-y-10 px-6 lg:px-10"
       >
         {/* Status strip */}
-        <motion.div
-          variants={item}
-          className="col-span-12 flex flex-wrap items-center justify-between gap-5"
-        >
+        <div className="hero-in hero-in-d1 col-span-12 flex flex-wrap items-center justify-between gap-5">
           <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.32em] text-gold-300">
             <span className="inline-block h-px w-10 bg-gold-500/70" />
             {t('eyebrow')}
@@ -203,32 +188,23 @@ export function Hero() {
             </span>
             {t('availableNow')} · {t('hoursToday')}
           </div>
-        </motion.div>
+        </div>
 
         {/* Oversized headline */}
-        <motion.h1
-          variants={item}
-          className="font-display hero-size col-span-12 text-balance font-semibold text-ink-50 [text-shadow:0_2px_24px_rgba(5,9,26,0.55)]"
-        >
+        <h1 className="hero-in hero-in-d2 font-display hero-size col-span-12 text-balance font-semibold text-ink-50 [text-shadow:0_2px_24px_rgba(5,9,26,0.55)]">
           <span className="block">{t('titleLine1')}</span>
           <span className="block italic text-gold-400">
             {t('titleLine2')}
             <span className="caret ml-1 inline-block h-[0.75em] w-[0.08em] translate-y-[-0.1em] bg-gold-400 align-middle" />
           </span>
-        </motion.h1>
+        </h1>
 
-        {/* Subtitle + CTAs */}
-        <motion.p
-          variants={item}
-          className="col-span-12 max-w-2xl text-pretty text-lg leading-relaxed text-ink-200 lg:col-span-7 lg:text-xl [text-shadow:0_1px_18px_rgba(5,9,26,0.65)]"
-        >
+        {/* Subtitle — LCP element, rendered visible immediately via CSS */}
+        <p className="hero-in hero-in-d3 col-span-12 max-w-2xl text-pretty text-lg leading-relaxed text-ink-200 lg:col-span-7 lg:text-xl [text-shadow:0_1px_18px_rgba(5,9,26,0.65)]">
           {t('subtitle')}
-        </motion.p>
+        </p>
 
-        <motion.div
-          variants={item}
-          className="col-span-12 flex flex-wrap items-center gap-3"
-        >
+        <div className="hero-in hero-in-d4 col-span-12 flex flex-wrap items-center gap-3">
           <a
             href="#contact"
             className="group inline-flex items-center gap-2.5 rounded-full bg-gold-400 px-7 py-4 text-base font-medium text-ink-950 ring-gold transition-all duration-300 hover:bg-gold-300"
@@ -253,19 +229,14 @@ export function Hero() {
             <Phone className="h-4 w-4" strokeWidth={1.6} aria-hidden />
             +48 506 55 07 21
           </a>
-        </motion.div>
+        </div>
       </motion.div>
 
       {/* Editorial photo caption — bottom left */}
-      <motion.div
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.9, delay: 0.6, ease }}
-        className="pointer-events-none absolute bottom-6 left-6 z-10 hidden flex-col gap-1 font-mono text-[10px] uppercase tracking-[0.32em] text-ink-300/80 sm:left-10 sm:flex"
-      >
+      <div className="hero-in hero-in-d5 pointer-events-none absolute bottom-6 left-6 z-10 hidden flex-col gap-1 font-mono text-[10px] uppercase tracking-[0.32em] text-ink-300/80 sm:left-10 sm:flex">
         <span className="text-gold-400/80">52.2297° N · 21.0122° E</span>
         <span>Pałac Kultury · Warszawa</span>
-      </motion.div>
+      </div>
 
       {/* Bottom scroll cue */}
       <div className="pointer-events-none absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-[10px] uppercase tracking-[0.4em] text-ink-300/80">

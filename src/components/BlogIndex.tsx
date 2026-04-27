@@ -30,6 +30,17 @@ export function BlogIndex({ posts, labels }: Props) {
       <section className="hero-gradient relative isolate overflow-hidden pt-32 pb-12 sm:pt-40 sm:pb-16 lg:pt-48 lg:pb-20">
         <div
           aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{
+            backgroundImage: 'url(/hero/blog.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            opacity: 0.25
+          }}
+        />
+        <div
+          aria-hidden
           className="pointer-events-none absolute inset-0 opacity-[0.05]"
           style={{
             backgroundImage:
