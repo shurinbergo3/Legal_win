@@ -19,7 +19,7 @@ const kartaPobytu: ServiceEntry = {
       title: 'Основания для подачи',
       subtitle: 'Восемь типовых оснований по Ustawa o cudzoziemcach.',
       items: [
-        { title: 'Работа у польского работодателя', desc: 'Umowa o pracę или zlecenie, зарплата от минималки (4 666 PLN брутто в 2026). Оформляем вместе с zezwolenie na pracę.' },
+        { title: 'Работа у польского работодателя', desc: 'Umowa o pracę или zlecenie, зарплата от минималки (4 806 PLN брутто в 2026). Оформляем вместе с zezwolenie na pracę.' },
         { title: 'Blue Card ЕС (высококвалифицированный)', desc: 'Высшее образование, зарплата от 1,5× среднего по Польше, контракт от 1 года. Плюс — ускоренная процедура.' },
         { title: 'Собственный бизнес', desc: 'Sp. z o.o. с доходом от 12-кратной средней зарплаты или 2 штатными работниками, либо JDG.' },
         { title: 'Учёба в аккредитованном вузе', desc: 'Подтверждение из dziekanatu, доказательство финансов (≥ 721 PLN/мес), жильё, медстраховка.' },
@@ -105,7 +105,7 @@ const kartaPobytu: ServiceEntry = {
       title: 'Podstawy złożenia wniosku',
       subtitle: 'Osiem typowych podstaw zgodnie z ustawą o cudzoziemcach.',
       items: [
-        { title: 'Praca u polskiego pracodawcy', desc: 'Umowa o pracę lub zlecenie, wynagrodzenie od minimalnego (4 666 PLN brutto w 2026). Składamy łącznie z zezwoleniem na pracę.' },
+        { title: 'Praca u polskiego pracodawcy', desc: 'Umowa o pracę lub zlecenie, wynagrodzenie od minimalnego (4 806 PLN brutto w 2026). Składamy łącznie z zezwoleniem na pracę.' },
         { title: 'Niebieska Karta UE', desc: 'Wyższe wykształcenie, pensja 1,5× średniej krajowej, umowa od 1 roku. Procedura przyspieszona.' },
         { title: 'Własny biznes', desc: 'Sp. z o.o. z dochodem od 12-krotności średniego wynagrodzenia albo 2 pracownikami, lub JDG.' },
         { title: 'Studia na akredytowanej uczelni', desc: 'Zaświadczenie z dziekanatu, środki finansowe (≥ 721 PLN/mies), zakwaterowanie, ubezpieczenie.' },
@@ -191,7 +191,7 @@ const kartaPobytu: ServiceEntry = {
       title: 'Grounds for application',
       subtitle: 'Eight common grounds under the Law on Foreigners.',
       items: [
-        { title: 'Employment by a Polish employer', desc: 'Umowa o pracę or zlecenie, salary at least minimum wage (4,666 PLN gross in 2026). Combined with zezwolenie na pracę.' },
+        { title: 'Employment by a Polish employer', desc: 'Umowa o pracę or zlecenie, salary at least minimum wage (4,806 PLN gross in 2026). Combined with zezwolenie na pracę.' },
         { title: 'EU Blue Card', desc: 'Higher education, salary ≥ 1.5× national average, contract ≥ 1 year. Expedited procedure.' },
         { title: 'Own business', desc: 'Sp. z o.o. with income ≥ 12× average salary or 2 employees, or sole proprietorship (JDG).' },
         { title: 'Studies at an accredited university', desc: 'Certificate from dziekanat, proof of funds (≥ 721 PLN/month), accommodation, insurance.' },

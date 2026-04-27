@@ -118,6 +118,49 @@ export function faqPageLd(items: { q: string; a: string }[]) {
   } as const;
 }
 
+export function articleLd(opts: {
+  title: string;
+  description: string;
+  url: string;
+  locale: SeoLocale;
+  publishDate: string;
+  modifiedDate?: string;
+  author?: string;
+  image?: string;
+  keywords?: string[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: opts.title,
+    description: opts.description,
+    inLanguage: opts.locale,
+    url: opts.url,
+    datePublished: opts.publishDate,
+    dateModified: opts.modifiedDate ?? opts.publishDate,
+    image: opts.image ?? `${SITE_URL}${OG_IMAGE_PATH}`,
+    keywords: opts.keywords ?? [],
+    author: {
+      '@type': 'Organization',
+      name: opts.author ?? ORG_LEGAL_NAME,
+      url: SITE_URL
+    },
+    publisher: {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: ORG_LEGAL_NAME,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo/legal-win-gold.svg`
+      }
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': opts.url
+    }
+  } as const;
+}
+
 export function serviceLd(opts: {
   name: string;
   description: string;

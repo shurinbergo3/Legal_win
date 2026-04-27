@@ -49,6 +49,10 @@
 
 html {
   scroll-behavior: smooth;
+  /* Anchor links (#services, #contact …) shouldn't stop with the section
+     hidden behind the fixed header. ~6rem ≈ shrunk header height + breathing
+     room. Universal — applies to every internal anchor jump. */
+  scroll-padding-top: 6rem;
   /* Hard cap on horizontal scrolling caused by decorative blurs/wordmarks.
      `clip` (vs `hidden`) doesn't break sticky/fixed positioning. */
   overflow-x: clip;

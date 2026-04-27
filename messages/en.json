@@ -11,7 +11,8 @@
     "process": "Process",
     "faq": "FAQ",
     "contact": "Contact",
-    "consultation": "Consultation"
+    "consultation": "Consultation",
+    "blog": "Blog"
   },
   "Hero": {
     "imageAlt": "LegalWin law firm in Warsaw — immigration lawyers helping foreigners with Karta Pobytu and Polish citizenship",
@@ -57,12 +58,30 @@
         "title": "Immigration",
         "lead": "Legal status in Poland from scratch or renewed without denials.",
         "items": [
-          { "name": "Temporary residence (TRC)", "desc": "Work, business, study, Blue Card, family reunification, humanitarian" },
-          { "name": "Permanent residence (PR)", "desc": "Marriage, Polish origin, Karta Polaka, asylum, refugee status" },
-          { "name": "Polish citizenship", "desc": "Naturalization, recognition, confirmation of origin" },
-          { "name": "Karta Polaka", "desc": "Interview prep, gathering evidence of Polish roots" },
-          { "name": "International protection", "desc": "Refugee status, humanitarian residence, tolerated stay" },
-          { "name": "Appeals", "desc": "Challenging denials of the Office for Foreigners in court" }
+          {
+            "name": "Temporary residence (TRC)",
+            "desc": "Work, business, study, Blue Card, family reunification, humanitarian"
+          },
+          {
+            "name": "Permanent residence (PR)",
+            "desc": "Marriage, Polish origin, Karta Polaka, asylum, refugee status"
+          },
+          {
+            "name": "Polish citizenship",
+            "desc": "Naturalization, recognition, confirmation of origin"
+          },
+          {
+            "name": "Karta Polaka",
+            "desc": "Interview prep, gathering evidence of Polish roots"
+          },
+          {
+            "name": "International protection",
+            "desc": "Refugee status, humanitarian residence, tolerated stay"
+          },
+          {
+            "name": "Appeals",
+            "desc": "Challenging denials of the Office for Foreigners in court"
+          }
         ]
       },
       "documents": {
@@ -70,15 +89,42 @@
         "title": "Documents",
         "lead": "Paperwork bureaucracy without your office visits.",
         "items": [
-          { "name": "PESEL", "desc": "Polish ID number for all purposes" },
-          { "name": "Meldunek", "desc": "Temporary and permanent residence registration" },
-          { "name": "Civil status records", "desc": "Birth, marriage, death certificates — obtain and recognize" },
-          { "name": "Apostille & legalization", "desc": "Apostille on documents for international use" },
-          { "name": "Driver's licence exchange", "desc": "Swap your national licence for a Polish one: sworn translations, badania lekarskie & psychotest, WORD booking and on-site support" },
-          { "name": "Code 95 (driver CPC)", "desc": "Professional qualification for C/CE/D/DE: kwalifikacja wstępna or szkolenie okresowe (35 h / 5 yrs). OSK selection, paperwork, WORD exam" },
-          { "name": "ZUS / tax certificates", "desc": "Certificates from social insurance and tax authority" },
-          { "name": "Criminal record checks", "desc": "KRK for Poland and countries of origin" },
-          { "name": "Sworn translations", "desc": "Tłumaczenia przysięgłe of any documents to/from Polish" }
+          {
+            "name": "PESEL",
+            "desc": "Polish ID number for all purposes"
+          },
+          {
+            "name": "Meldunek",
+            "desc": "Temporary and permanent residence registration"
+          },
+          {
+            "name": "Civil status records",
+            "desc": "Birth, marriage, death certificates — obtain and recognize"
+          },
+          {
+            "name": "Apostille & legalization",
+            "desc": "Apostille on documents for international use"
+          },
+          {
+            "name": "Driver's licence exchange",
+            "desc": "Swap your national licence for a Polish one: sworn translations, badania lekarskie & psychotest, WORD booking and on-site support"
+          },
+          {
+            "name": "Code 95 (driver CPC)",
+            "desc": "Professional qualification for C/CE/D/DE: kwalifikacja wstępna or szkolenie okresowe (35 h / 5 yrs). OSK selection, paperwork, WORD exam"
+          },
+          {
+            "name": "ZUS / tax certificates",
+            "desc": "Certificates from social insurance and tax authority"
+          },
+          {
+            "name": "Criminal record checks",
+            "desc": "KRK for Poland and countries of origin"
+          },
+          {
+            "name": "Sworn translations",
+            "desc": "Tłumaczenia przysięgłe of any documents to/from Polish"
+          }
         ]
       },
       "business": {
@@ -86,12 +132,30 @@
         "title": "Business",
         "lead": "From idea to LLC in 10 business days.",
         "items": [
-          { "name": "Sp. z o.o. registration", "desc": "Full cycle via S24 or notarial. Warsaw registered address included" },
-          { "name": "Ready-made companies", "desc": "Shelf companies with history and account — live in 24 hours" },
-          { "name": "Sole proprietorship", "desc": "JDG for TRC holders with business permission" },
-          { "name": "Branch offices", "desc": "Oddział, przedstawicielstwo of a foreign company in Poland" },
-          { "name": "Tax & accounting", "desc": "CIT, VAT, PIT, Estonian CIT, IP Box. Partner accounting firms" },
-          { "name": "Wind-down & M&A", "desc": "Closing the company or M&A deals end-to-end" }
+          {
+            "name": "Sp. z o.o. registration",
+            "desc": "Full cycle via S24 or notarial. Warsaw registered address included"
+          },
+          {
+            "name": "Ready-made companies",
+            "desc": "Shelf companies with history and account — live in 24 hours"
+          },
+          {
+            "name": "Sole proprietorship",
+            "desc": "JDG for TRC holders with business permission"
+          },
+          {
+            "name": "Branch offices",
+            "desc": "Oddział, przedstawicielstwo of a foreign company in Poland"
+          },
+          {
+            "name": "Tax & accounting",
+            "desc": "CIT, VAT, PIT, Estonian CIT, IP Box. Partner accounting firms"
+          },
+          {
+            "name": "Wind-down & M&A",
+            "desc": "Closing the company or M&A deals end-to-end"
+          }
         ]
       },
       "realestate": {
@@ -99,10 +163,22 @@
         "title": "Real estate",
         "lead": "Property purchase by a foreigner — legal and fast.",
         "items": [
-          { "name": "MSWiA permit", "desc": "Interior Ministry consent for non-EU citizens to buy property" },
-          { "name": "Transaction due diligence", "desc": "Land register, encumbrances, history check" },
-          { "name": "Notary assistance", "desc": "Attorney present at the deed of sale" },
-          { "name": "Commercial leases", "desc": "Office and retail lease contracts for your business" }
+          {
+            "name": "MSWiA permit",
+            "desc": "Interior Ministry consent for non-EU citizens to buy property"
+          },
+          {
+            "name": "Transaction due diligence",
+            "desc": "Land register, encumbrances, history check"
+          },
+          {
+            "name": "Notary assistance",
+            "desc": "Attorney present at the deed of sale"
+          },
+          {
+            "name": "Commercial leases",
+            "desc": "Office and retail lease contracts for your business"
+          }
         ]
       },
       "relocation": {
@@ -110,12 +186,30 @@
         "title": "Relocation",
         "lead": "Soft landing in Poland — from the jetway to your first payslip.",
         "items": [
-          { "name": "Electronic invitations", "desc": "Zaproszenia for Schengen and national visas" },
-          { "name": "Airport pickup", "desc": "Transfer from Chopin / Modlin / Kraków-Balice" },
-          { "name": "Housing search", "desc": "Long-term rental and purchase — flat to house" },
-          { "name": "Translator for visits", "desc": "Accompanying at offices, banks, schools, hospitals" },
-          { "name": "Employment help", "desc": "Polish-standard CV, zezwolenie na pracę" },
-          { "name": "School enrolment", "desc": "Obowiązek szkolny and klasa powitalna placement" }
+          {
+            "name": "Electronic invitations",
+            "desc": "Zaproszenia for Schengen and national visas"
+          },
+          {
+            "name": "Airport pickup",
+            "desc": "Transfer from Chopin / Modlin / Kraków-Balice"
+          },
+          {
+            "name": "Housing search",
+            "desc": "Long-term rental and purchase — flat to house"
+          },
+          {
+            "name": "Translator for visits",
+            "desc": "Accompanying at offices, banks, schools, hospitals"
+          },
+          {
+            "name": "Employment help",
+            "desc": "Polish-standard CV, zezwolenie na pracę"
+          },
+          {
+            "name": "School enrolment",
+            "desc": "Obowiązek szkolny and klasa powitalna placement"
+          }
         ]
       }
     }
@@ -162,10 +256,26 @@
     "eyebrow": "Testimonials",
     "title": "What clients say",
     "items": [
-      { "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress — lawyers did everything, I just signed.", "author": "Olga M.", "role": "designer, moved from Kyiv" },
-      { "text": "Set up our company in a week, with VAT and bank account. They reply on Telegram instantly, explain things clearly — no legalese soup.", "author": "Dmitry K.", "role": "CTO, SaaS startup" },
-      { "text": "Helped with an appeal after my PR denial. Second lawyer I tried — and the only one who actually got it over the line.", "author": "Anna S.", "role": "doctor, Warsaw" },
-      { "text": "Full package: airport pickup, apartment, PESEL, school for the kids, company set up. Cleared the whole Polish red-tape marathon in six weeks.", "author": "Sergey & Irina L.", "role": "family with two kids" }
+      {
+        "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress — lawyers did everything, I just signed.",
+        "author": "Olga M.",
+        "role": "designer, moved from Kyiv"
+      },
+      {
+        "text": "Set up our company in a week, with VAT and bank account. They reply on Telegram instantly, explain things clearly — no legalese soup.",
+        "author": "Dmitry K.",
+        "role": "CTO, SaaS startup"
+      },
+      {
+        "text": "Helped with an appeal after my PR denial. Second lawyer I tried — and the only one who actually got it over the line.",
+        "author": "Anna S.",
+        "role": "doctor, Warsaw"
+      },
+      {
+        "text": "Full package: airport pickup, apartment, PESEL, school for the kids, company set up. Cleared the whole Polish red-tape marathon in six weeks.",
+        "author": "Sergey & Irina L.",
+        "role": "family with two kids"
+      }
     ]
   },
   "Team": {
@@ -173,14 +283,46 @@
     "title": "Eight lawyers. One point of contact.",
     "subtitle": "Every area has a dedicated specialist. Your personal consultant coordinates their work.",
     "members": [
-      { "initials": "AK", "name": "Anna Kowalska", "role": "Adwokat · Immigration" },
-      { "initials": "PN", "name": "Paweł Nowak", "role": "Radca prawny · Business" },
-      { "initials": "MW", "name": "Maria Wiśniewska", "role": "Immigration consultant" },
-      { "initials": "TL", "name": "Tomasz Lewandowski", "role": "Adwokat · Litigation" },
-      { "initials": "KZ", "name": "Katarzyna Zielińska", "role": "Tax consultant" },
-      { "initials": "JM", "name": "Jakub Mazur", "role": "Radca prawny · Real estate" },
-      { "initials": "ND", "name": "Natalia Dąbrowska", "role": "Relocation & docs" },
-      { "initials": "RS", "name": "Rafał Sawicki", "role": "Senior lawyer" }
+      {
+        "initials": "AK",
+        "name": "Anna Kowalska",
+        "role": "Adwokat · Immigration"
+      },
+      {
+        "initials": "PN",
+        "name": "Paweł Nowak",
+        "role": "Radca prawny · Business"
+      },
+      {
+        "initials": "MW",
+        "name": "Maria Wiśniewska",
+        "role": "Immigration consultant"
+      },
+      {
+        "initials": "TL",
+        "name": "Tomasz Lewandowski",
+        "role": "Adwokat · Litigation"
+      },
+      {
+        "initials": "KZ",
+        "name": "Katarzyna Zielińska",
+        "role": "Tax consultant"
+      },
+      {
+        "initials": "JM",
+        "name": "Jakub Mazur",
+        "role": "Radca prawny · Real estate"
+      },
+      {
+        "initials": "ND",
+        "name": "Natalia Dąbrowska",
+        "role": "Relocation & docs"
+      },
+      {
+        "initials": "RS",
+        "name": "Rafał Sawicki",
+        "role": "Senior lawyer"
+      }
     ]
   },
   "Process": {
@@ -199,12 +341,30 @@
     "eyebrow": "Questions",
     "title": "Frequently asked",
     "items": [
-      { "q": "How much is a consultation?", "a": "The first 30-minute consultation is free. For deep document review, follow-up sessions start at 200 PLN depending on complexity." },
-      { "q": "How long does a residence permit take?", "a": "Our average is 42 days. Statutory deadline is 90 days, but a clean filing with a full document pack gets decisions faster." },
-      { "q": "Do you work remotely?", "a": "Yes. Clients from other Polish cities and abroad run cases fully online. Notarial power of attorney, a Telegram channel with the lawyer, and a client portal with live statuses." },
-      { "q": "What if I get denied?", "a": "We analyse the grounds and file an appeal within 14 days. We have successful appeals on TRC, PR, citizenship and international protection — including through the Voivodeship Administrative Court." },
-      { "q": "Can I register a company remotely?", "a": "Yes, via S24 with a qualified e-signature (ePUAP / ePodpis) or by notarial power of attorney. Registration takes 5–10 business days." },
-      { "q": "What languages do you work in?", "a": "Polish, Russian, Ukrainian, English. All documents come translated into your language." }
+      {
+        "q": "How much is a consultation?",
+        "a": "The first 30-minute consultation is free. For deep document review, follow-up sessions start at 200 PLN depending on complexity."
+      },
+      {
+        "q": "How long does a residence permit take?",
+        "a": "Our average is 42 days. Statutory deadline is 90 days, but a clean filing with a full document pack gets decisions faster."
+      },
+      {
+        "q": "Do you work remotely?",
+        "a": "Yes. Clients from other Polish cities and abroad run cases fully online. Notarial power of attorney, a Telegram channel with the lawyer, and a client portal with live statuses."
+      },
+      {
+        "q": "What if I get denied?",
+        "a": "We analyse the grounds and file an appeal within 14 days. We have successful appeals on TRC, PR, citizenship and international protection — including through the Voivodeship Administrative Court."
+      },
+      {
+        "q": "Can I register a company remotely?",
+        "a": "Yes, via S24 with a qualified e-signature (ePUAP / ePodpis) or by notarial power of attorney. Registration takes 5–10 business days."
+      },
+      {
+        "q": "What languages do you work in?",
+        "a": "Polish, Russian, Ukrainian, English. All documents come translated into your language."
+      }
     ]
   },
   "Contact": {
@@ -279,8 +439,7 @@
   "ConsentForm": {
     "headerLabel": "GDPR consent",
     "requiredBadge": "Required",
-    "label": "I consent to processing of my personal data by LegalWin (data controller) for the purpose of handling this enquiry in accordance with the {policy}. I understand I can withdraw consent at any time.",
-    "policyLink": "Privacy Policy",
+    "label": "I consent to processing of my personal data by LegalWin (data controller) for the purpose of handling this enquiry in accordance with the <policy>Privacy Policy</policy>. I understand I can withdraw consent at any time.",
     "required": "To send the request you must consent to data processing"
   },
   "ServiceDetail": {
@@ -307,5 +466,15 @@
     "back": "Home",
     "updated": "Updated",
     "updatedAt": "10 April 2026"
+  },
+  "Blog": {
+    "eyebrow": "/ Journal",
+    "title": "LegalWin Blog",
+    "intro": "Practical guides on legalisation in Poland — residence cards, driving licence exchange, Code 95, Polish citizenship. No filler, with links to Polish urzędy and real 2026 prices.",
+    "empty": "First articles will appear here soon.",
+    "readingTime": "min read",
+    "back": "All articles",
+    "publishedOn": "Published",
+    "related": "Related reading"
   }
 }

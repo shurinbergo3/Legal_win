@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
+import { ScrollToTop } from '@/components/ScrollToTop';
 import {
   OG_IMAGE_HEIGHT,
   OG_IMAGE_PATH,
@@ -163,6 +164,7 @@ export default async function LocaleLayout({
         <JsonLd data={websiteLd(locale as SeoLocale)} />
         <NextIntlClientProvider messages={messages}>
           {children}
+          <ScrollToTop />
           <CookieConsent />
         </NextIntlClientProvider>
       </body>

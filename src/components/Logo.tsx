@@ -1,23 +1,29 @@
 /**
- * LegalWin brand mark — "Polish Bar".
+ * LegalWin brand mark — "Layered Monogram".
  *
- * One letter, one gesture: a monumental Polish Ł.
- *   - Reads as "L" for Legal worldwide
- *   - Polish Ł — unique national signature; no Western law firm uses this
- *   - Built-in graphic detail (cross-stroke) replaces all decoration
+ * Three-layer composition:
+ *   1. Themis scales (back) — hairline ghosted halo (opacity 0.18)
+ *   2. W (mid) — cream/ink-50, thinner stroke; W frames the canvas
+ *   3. L (front) — primary gold (currentColor); L stem sits on the W's
+ *      central vertical axis, L foot ends at the W's right-bottom vertex
  *
- * Brutalist editorial: sharp corners, geometric stems, no rings, no
- * ornaments. Confidence through reduction. Pairs with a tracked LEGALWIN
- * wordmark + WARSZAWA · POLSKA tagline.
+ * The L is centered inside the W: its stem coincides with the W's middle
+ * peak, and its foot terminates at the W's right-bottom — the two letters
+ * share that endpoint, integrating cleanly. The W "embraces" the L.
  *
- *   <LogoBadge size={32} compact />  // favicon-tier — mark only
- *   <LogoBadge size={108} />         // header — mark + wordmark + tagline
+ *   <LogoBadge size={32} compact />  // favicon-tier — LW only
+ *   <LogoBadge size={108} />         // header — full lockup
  *   <LogoBadge size={168} />         // footer / hero
  *
- * Uses currentColor so the parent's text-* class controls ink/gold tone.
+ * L color follows parent (currentColor); W is fixed cream so the two
+ * letters remain visually distinct regardless of parent text-* class.
  */
 
 import { cn } from '@/lib/cn';
+
+const W_COLOR = '#f5f7fb'; // ink-50 — cream-white, fixed accent for the W
+const FONT_STACK =
+  "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif";
 
 export function LogoBadge({
   className,
@@ -40,24 +46,23 @@ export function LogoBadge({
         role="img"
         aria-label="LegalWin"
       >
-        {/* Ł — fills the canvas. The L-shape (stem+foot) is the dominant
-            visual mass, so we center IT on the canvas: foot center sits
-            at x=160. Stem ends up slightly left of canvas center; slash
-            is contained as a graphic detail crossing the stem
-            symmetrically (not pulled out as a separate wing). */}
-        {/* Stem */}
-        <rect x="116" y="50" width="32" height="220" fill="currentColor" />
-        {/* Foot — centered horizontally on canvas */}
-        <rect x="116" y="234" width="88" height="32" fill="currentColor" />
-        {/* Diagonal cross-stroke (the Polish bar) — symmetric across stem */}
-        <line
-          x1="84"
-          y1="152"
-          x2="180"
-          y2="88"
+        {/* W — wide, behind, frames the L on both sides */}
+        <path
+          d="M 40 70 L 100 250 L 160 140 L 220 250 L 280 70"
+          stroke={W_COLOR}
+          strokeWidth="22"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        {/* L — front; stem on W's central axis, foot ends at W's right-bottom */}
+        <path
+          d="M 160 70 L 160 250 L 220 250"
           stroke="currentColor"
-          strokeWidth="18"
-          strokeLinecap="square"
+          strokeWidth="28"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     );
@@ -73,22 +78,67 @@ export function LogoBadge({
       role="img"
       aria-label="LegalWin · Warszawa"
     >
-      {/* === Ł MONOGRAM === */}
-      {/* L-shape centered on canvas: foot center sits at x=160. */}
-      {/* Stem */}
-      <rect x="128" y="22" width="22" height="156" fill="currentColor" />
-      {/* Foot — centered horizontally on canvas */}
-      <rect x="128" y="156" width="64" height="22" fill="currentColor" />
-      {/* Diagonal cross-stroke — symmetric across stem, contained as detail */}
-      <line
-        x1="108"
-        y1="92"
-        x2="170"
-        y2="56"
+      {/* === THEMIS SCALES (background) — more legible === */}
+      <g
+        opacity="0.28"
         stroke="currentColor"
+        fill="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        {/* Top finial */}
+        <path d="M 156 22 L 160 16 L 164 22 L 160 28 Z" stroke="none" />
+        {/* Vertical pole */}
+        <line x1="160" y1="26" x2="160" y2="200" strokeWidth="2.0" fill="none" />
+        {/* Beam (subtly arched) */}
+        <path d="M 50 76 Q 160 68 270 76" strokeWidth="3.2" fill="none" />
+        {/* Center balance diamond */}
+        <path d="M 156 72 L 160 64 L 164 72 L 160 80 Z" stroke="none" />
+        {/* Beam end caps */}
+        <circle cx="50" cy="76" r="3.5" stroke="none" />
+        <circle cx="270" cy="76" r="3.5" stroke="none" />
+        {/* Suspension chains */}
+        <line x1="50" y1="76" x2="32" y2="100" strokeWidth="1.8" fill="none" />
+        <line x1="50" y1="76" x2="50" y2="100" strokeWidth="1.8" fill="none" />
+        <line x1="50" y1="76" x2="68" y2="100" strokeWidth="1.8" fill="none" />
+        <line x1="270" y1="76" x2="252" y2="100" strokeWidth="1.8" fill="none" />
+        <line x1="270" y1="76" x2="270" y2="100" strokeWidth="1.8" fill="none" />
+        <line x1="270" y1="76" x2="288" y2="100" strokeWidth="1.8" fill="none" />
+        {/* Left pan */}
+        <ellipse cx="50" cy="104" rx="25" ry="4.5" strokeWidth="2.4" fill="none" />
+        <path d="M 25 105 Q 50 123 75 105" strokeWidth="2.4" fill="none" />
+        {/* Right pan */}
+        <ellipse cx="270" cy="104" rx="25" ry="4.5" strokeWidth="2.4" fill="none" />
+        <path d="M 245 105 Q 270 123 295 105" strokeWidth="2.4" fill="none" />
+      </g>
+
+      {/* === W (mid layer, cream) — editorial: thin stroke, flat caps, miter corners === */}
+      <path
+        d="M 50 50 L 108 200 L 160 114 L 212 200 L 270 50"
+        stroke={W_COLOR}
         strokeWidth="12"
-        strokeLinecap="square"
+        fill="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
       />
+      {/* W serif accents — small horizontal bars at all four terminals */}
+      <line x1="42" y1="50" x2="58" y2="50" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
+      <line x1="262" y1="50" x2="278" y2="50" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
+      <line x1="100" y1="200" x2="116" y2="200" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
+      <line x1="204" y1="200" x2="220" y2="200" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
+
+      {/* === L (front layer, gold) — editorial: thinner, flat caps, miter corner === */}
+      <path
+        d="M 160 50 L 160 200 L 212 200"
+        stroke="currentColor"
+        strokeWidth="16"
+        fill="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+      />
+      {/* L serif accents */}
+      <line x1="151" y1="50" x2="169" y2="50" stroke="currentColor" strokeWidth="6.5" strokeLinecap="butt" />
+      <line x1="212" y1="192" x2="212" y2="208" stroke="currentColor" strokeWidth="6.5" strokeLinecap="butt" />
 
       {/* === WORDMARK: LEGALWIN === */}
       <text
@@ -99,15 +149,12 @@ export function LogoBadge({
         fontWeight="500"
         fill="currentColor"
         letterSpacing="5.4"
-        style={{
-          fontFamily:
-            "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
-        }}
+        style={{ fontFamily: FONT_STACK }}
       >
         LEGALWIN
       </text>
 
-      {/* Hairline divider — single line, no diamonds, brutalist clean */}
+      {/* Hairline divider */}
       <line
         x1="116"
         y1="252"
@@ -128,10 +175,7 @@ export function LogoBadge({
         fill="currentColor"
         letterSpacing="4.2"
         opacity="0.62"
-        style={{
-          fontFamily:
-            "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif"
-        }}
+        style={{ fontFamily: FONT_STACK }}
       >
         WARSZAWA · POLSKA
       </text>
@@ -140,7 +184,6 @@ export function LogoBadge({
 }
 
 /* ---------- Backwards-compat exports ---------- */
-// Existing imports throughout the app keep working.
 export const LogoMark = (props: { className?: string; size?: number; strokeWidth?: number }) => (
   <LogoBadge className={props.className} size={props.size ?? 32} compact />
 );

@@ -78,6 +78,7 @@ export function Footer() {
               <li><Link href="/#cases" className="transition-colors hover:text-gold-400">{tNav('cases')}</Link></li>
               <li><Link href="/#process" className="transition-colors hover:text-gold-400">{tNav('process')}</Link></li>
               <li><Link href="/#faq" className="transition-colors hover:text-gold-400">{tNav('faq')}</Link></li>
+              <li><Link href="/blog" className="transition-colors hover:text-gold-400">{tNav('blog')}</Link></li>
             </ul>
           </div>
 

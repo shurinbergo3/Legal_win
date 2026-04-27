@@ -11,7 +11,7 @@ import { cn } from '@/lib/cn';
 // Operator portrait — drop the photo at public/chatbot/operator.jpg.
 // Used in the floating toggle, the panel header, and beside each
 // assistant message for a "live operator" feel.
-const OPERATOR_AVATAR = '/chatbot/operator.jpg';
+const OPERATOR_AVATAR = '/chatbot/operator.png';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 

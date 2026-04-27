@@ -3,7 +3,7 @@
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { LogoBadge } from './Logo';
 import { cn } from '@/lib/cn';
@@ -12,10 +12,19 @@ const sections = ['services', 'cases', 'process', 'faq', 'contact'] as const;
 
 export function Header() {
   const t = useTranslations('Nav');
+  const pathname = usePathname();
+  const isHome = pathname === '/';
   const { scrollY } = useScroll();
   const [shrunk, setShrunk] = useState(false);
 
   useMotionValueEvent(scrollY, 'change', (y) => setShrunk(y > 24));
+
+  function handleLogoClick(e: React.MouseEvent) {
+    if (isHome) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
 
   return (
     <motion.header
@@ -35,6 +44,7 @@ export function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
         <Link
           href="/"
+          onClick={handleLogoClick}
           className="group inline-block text-gold-400 transition-colors duration-300 hover:text-gold-300"
           aria-label="LegalWin"
         >
@@ -63,6 +73,12 @@ export function Header() {
               {t(s)}
             </Link>
           ))}
+          <Link
+            href="/blog"
+            className="relative transition-colors duration-200 hover:text-ink-50"
+          >
+            {t('blog')}
+          </Link>
         </nav>
 
         <div className="flex items-center gap-3">

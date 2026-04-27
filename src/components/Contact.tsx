@@ -396,19 +396,13 @@ function TrustChip({ Icon, label }: { Icon: LucideIcon; label: string }) {
 function ConsentCheckbox({ error }: { error: boolean }) {
   const t = useTranslations('ConsentForm');
   const id = useId();
-  const labelTemplate = t('label');
-  const policyText = t('policyLink');
-  const [before, after] = labelTemplate.split('{policy}');
   const [touched, setTouched] = useState(false);
   const [checked, setChecked] = useState(false);
 
-  // Show "missing" warning if user tried to submit (server error) OR if user
-  // interacted then unchecked it (client touch). Either way it's "needs action".
   const showError = error || (touched && !checked);
 
   return (
     <div className="flex flex-col gap-2">
-      {/* Header row — explicit "required" label, like the other form fields */}
       <div className="flex items-center justify-between">
         <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300">
           <span>{t('headerLabel')}</span>
@@ -453,15 +447,17 @@ function ConsentCheckbox({ error }: { error: boolean }) {
         />
         <span className="text-xs leading-relaxed text-ink-300">
           <span className="mr-1 font-semibold text-gold-400" aria-hidden>*</span>
-          {before}
-          <Link
-            href="/polityka-prywatnosci"
-            target="_blank"
-            className="text-gold-400 underline-offset-2 hover:underline"
-          >
-            {policyText}
-          </Link>
-          {after}
+          {t.rich('label', {
+            policy: (chunks) => (
+              <Link
+                href="/polityka-prywatnosci"
+                target="_blank"
+                className="text-gold-400 underline-offset-2 hover:underline"
+              >
+                {chunks}
+              </Link>
+            )
+          })}
         </span>
       </label>
       <p
@@ -555,7 +551,7 @@ function Field({
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           className={cn(
-            'w-full rounded-xl border hairline bg-ink-950/60 py-3.5 text-base text-ink-50 placeholder:text-ink-500',
+            'w-full rounded-xl border border-ink-700/80 bg-ink-900/40 py-3.5 text-base text-ink-50 placeholder:text-ink-500 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)]',
             Icon ? 'pl-11 pr-4' : 'px-4',
             'transition-all duration-200 focus:border-gold-500/60 focus:bg-ink-950/80 focus:outline-none focus:ring-4 focus:ring-gold-500/[0.08]',
             error && 'border-red-500/60 focus:border-red-500/80 focus:ring-red-500/[0.08]'
@@ -620,7 +616,7 @@ function TextareaField({
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           className={cn(
-            'w-full resize-none rounded-xl border hairline bg-ink-950/60 py-3.5 text-base text-ink-50 placeholder:text-ink-500',
+            'w-full resize-none rounded-xl border border-ink-700/80 bg-ink-900/40 py-3.5 text-base text-ink-50 placeholder:text-ink-500 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)]',
             Icon ? 'pl-11 pr-4' : 'px-4',
             'transition-all duration-200 focus:border-gold-500/60 focus:bg-ink-950/80 focus:outline-none focus:ring-4 focus:ring-gold-500/[0.08]',
             error && 'border-red-500/60 focus:border-red-500/80 focus:ring-red-500/[0.08]'
