@@ -1,29 +1,83 @@
-/**
- * LegalWin brand mark — "Layered Monogram".
- *
- * Three-layer composition:
- *   1. Themis scales (back) — hairline ghosted halo (opacity 0.18)
- *   2. W (mid) — cream/ink-50, thinner stroke; W frames the canvas
- *   3. L (front) — primary gold (currentColor); L stem sits on the W's
- *      central vertical axis, L foot ends at the W's right-bottom vertex
- *
- * The L is centered inside the W: its stem coincides with the W's middle
- * peak, and its foot terminates at the W's right-bottom — the two letters
- * share that endpoint, integrating cleanly. The W "embraces" the L.
- *
- *   <LogoBadge size={32} compact />  // favicon-tier — LW only
- *   <LogoBadge size={108} />         // header — full lockup
- *   <LogoBadge size={168} />         // footer / hero
- *
- * L color follows parent (currentColor); W is fixed cream so the two
- * letters remain visually distinct regardless of parent text-* class.
- */
-
 import { cn } from '@/lib/cn';
 
-const W_COLOR = '#f5f7fb'; // ink-50 — cream-white, fixed accent for the W
-const FONT_STACK =
-  "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif";
+const GOLD_STOPS = (
+  <defs>
+    <linearGradient id="lgGold" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%"   stopColor="#F2E08A" />
+      <stop offset="30%"  stopColor="#C9A84C" />
+      <stop offset="55%"  stopColor="#9A6F1E" />
+      <stop offset="80%"  stopColor="#C9A84C" />
+      <stop offset="100%" stopColor="#8B6210" />
+    </linearGradient>
+    <linearGradient id="lgText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stopColor="#F0DC82" />
+      <stop offset="45%"  stopColor="#C9A84C" />
+      <stop offset="100%" stopColor="#A07828" />
+    </linearGradient>
+    <linearGradient id="lgNavy" x1="0%" y1="0%" x2="100%" y2="120%">
+      <stop offset="0%"   stopColor="#1E2E55" />
+      <stop offset="100%" stopColor="#09142A" />
+    </linearGradient>
+    <filter id="lgDrop" x="-20%" y="-10%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" floodColor="#000" floodOpacity="0.5" />
+    </filter>
+    <filter id="lgGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+);
+
+/** Shield body — shared between compact and full */
+function ShieldMark() {
+  return (
+    <>
+      {/* Outer gold rim */}
+      <path
+        d="M 28,12 L 172,12 Q 192,12 192,34 L 192,150 Q 192,202 100,236 Q 8,202 8,150 L 8,34 Q 8,12 28,12 Z"
+        fill="url(#lgGold)"
+        filter="url(#lgDrop)"
+      />
+      {/* Navy body */}
+      <path
+        d="M 37,21 L 163,21 Q 181,21 181,41 L 181,148 Q 181,196 100,228 Q 19,196 19,148 L 19,41 Q 19,21 37,21 Z"
+        fill="url(#lgNavy)"
+      />
+      {/* Inner border */}
+      <path
+        d="M 45,29 L 155,29 Q 171,29 171,46 L 171,145 Q 171,189 100,220 Q 29,189 29,145 L 29,46 Q 29,29 45,29 Z"
+        fill="none"
+        stroke="url(#lgGold)"
+        strokeWidth="1.3"
+      />
+      {/* Hairline inner border */}
+      <path
+        d="M 51,35 L 149,35 Q 163,35 163,50 L 163,143 Q 163,183 100,212 Q 37,183 37,143 L 37,50 Q 37,35 51,35 Z"
+        fill="none"
+        stroke="url(#lgGold)"
+        strokeWidth="0.5"
+        opacity="0.55"
+      />
+      {/* Corner diamonds */}
+      <polygon points="45,29 51,35 45,41 39,35" fill="url(#lgGold)" opacity="0.9" />
+      <polygon points="155,29 161,35 155,41 149,35" fill="url(#lgGold)" opacity="0.9" />
+      {/* LW monogram */}
+      <text
+        x="100"
+        y="152"
+        fontFamily="'Georgia','Times New Roman',Times,serif"
+        fontSize="84"
+        fontWeight="700"
+        fill="url(#lgText)"
+        textAnchor="middle"
+        letterSpacing="-3"
+        filter="url(#lgGlow)"
+      >
+        LW
+      </text>
+    </>
+  );
+}
 
 export function LogoBadge({
   className,
@@ -32,38 +86,26 @@ export function LogoBadge({
 }: {
   className?: string;
   size?: number;
-  /** Strip the wordmark + tagline (use for favicon-tier sizes < 40px). */
+  /** Compact mode: shield mark only, no wordmark. Use for small/favicon-tier sizes. */
   compact?: boolean;
 }) {
+  // height derived from aspect ratio to keep proportions
+  const compactH = Math.round(size * (228 / 200));
+  const fullH    = Math.round(size * (268 / 200));
+
   if (compact) {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 320 320"
+        viewBox="0 0 200 228"
         width={size}
-        height={size}
-        className={cn('text-gold-500', className)}
+        height={compactH}
+        className={cn(className)}
         role="img"
         aria-label="LegalWin"
       >
-        {/* W — wide, behind, frames the L on both sides */}
-        <path
-          d="M 40 70 L 100 250 L 160 140 L 220 250 L 280 70"
-          stroke={W_COLOR}
-          strokeWidth="22"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        {/* L — front; stem on W's central axis, foot ends at W's right-bottom */}
-        <path
-          d="M 160 70 L 160 250 L 220 250"
-          stroke="currentColor"
-          strokeWidth="28"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        {GOLD_STOPS}
+        <ShieldMark />
       </svg>
     );
   }
@@ -71,128 +113,42 @@ export function LogoBadge({
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 320 320"
+      viewBox="0 0 200 268"
       width={size}
-      height={size}
-      className={cn('text-gold-500', className)}
+      height={fullH}
+      className={cn(className)}
       role="img"
       aria-label="LegalWin · Warszawa"
     >
-      {/* === THEMIS SCALES (background) — more legible === */}
-      <g
-        opacity="0.28"
-        stroke="currentColor"
-        fill="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        {/* Top finial */}
-        <path d="M 156 22 L 160 16 L 164 22 L 160 28 Z" stroke="none" />
-        {/* Vertical pole */}
-        <line x1="160" y1="26" x2="160" y2="200" strokeWidth="2.0" fill="none" />
-        {/* Beam (subtly arched) */}
-        <path d="M 50 76 Q 160 68 270 76" strokeWidth="3.2" fill="none" />
-        {/* Center balance diamond */}
-        <path d="M 156 72 L 160 64 L 164 72 L 160 80 Z" stroke="none" />
-        {/* Beam end caps */}
-        <circle cx="50" cy="76" r="3.5" stroke="none" />
-        <circle cx="270" cy="76" r="3.5" stroke="none" />
-        {/* Suspension chains */}
-        <line x1="50" y1="76" x2="32" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="50" y1="76" x2="50" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="50" y1="76" x2="68" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="270" y1="76" x2="252" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="270" y1="76" x2="270" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="270" y1="76" x2="288" y2="100" strokeWidth="1.8" fill="none" />
-        {/* Left pan */}
-        <ellipse cx="50" cy="104" rx="25" ry="4.5" strokeWidth="2.4" fill="none" />
-        <path d="M 25 105 Q 50 123 75 105" strokeWidth="2.4" fill="none" />
-        {/* Right pan */}
-        <ellipse cx="270" cy="104" rx="25" ry="4.5" strokeWidth="2.4" fill="none" />
-        <path d="M 245 105 Q 270 123 295 105" strokeWidth="2.4" fill="none" />
-      </g>
+      {GOLD_STOPS}
+      <ShieldMark />
 
-      {/* === W (mid layer, cream) — editorial: thin stroke, flat caps, miter corners === */}
-      <path
-        d="M 50 50 L 108 200 L 160 114 L 212 200 L 270 50"
-        stroke={W_COLOR}
-        strokeWidth="12"
-        fill="none"
-        strokeLinecap="butt"
-        strokeLinejoin="miter"
-      />
-      {/* W serif accents — small horizontal bars at all four terminals */}
-      <line x1="42" y1="50" x2="58" y2="50" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-      <line x1="262" y1="50" x2="278" y2="50" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-      <line x1="100" y1="200" x2="116" y2="200" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-      <line x1="204" y1="200" x2="220" y2="200" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
+      {/* Divider */}
+      <line x1="18" y1="247" x2="182" y2="247" stroke="url(#lgGold)" strokeWidth="0.7" opacity="0.6" />
 
-      {/* === L (front layer, gold) — editorial: thinner, flat caps, miter corner === */}
-      <path
-        d="M 160 50 L 160 200 L 212 200"
-        stroke="currentColor"
-        strokeWidth="16"
-        fill="none"
-        strokeLinecap="butt"
-        strokeLinejoin="miter"
-      />
-      {/* L serif accents */}
-      <line x1="151" y1="50" x2="169" y2="50" stroke="currentColor" strokeWidth="6.5" strokeLinecap="butt" />
-      <line x1="212" y1="192" x2="212" y2="208" stroke="currentColor" strokeWidth="6.5" strokeLinecap="butt" />
-
-      {/* === WORDMARK: LEGALWIN === */}
+      {/* LEGALWIN wordmark */}
       <text
-        x="160"
-        y="232"
+        x="100"
+        y="263"
+        fontFamily="'Georgia','Times New Roman',Times,serif"
+        fontSize="16.5"
+        fontWeight="600"
+        fill="url(#lgText)"
         textAnchor="middle"
-        fontSize="22"
-        fontWeight="500"
-        fill="currentColor"
-        letterSpacing="5.4"
-        style={{ fontFamily: FONT_STACK }}
+        letterSpacing="8"
       >
         LEGALWIN
-      </text>
-
-      {/* Hairline divider */}
-      <line
-        x1="116"
-        y1="252"
-        x2="204"
-        y2="252"
-        stroke="currentColor"
-        strokeWidth="0.6"
-        opacity="0.45"
-      />
-
-      {/* === TAGLINE === */}
-      <text
-        x="160"
-        y="270"
-        textAnchor="middle"
-        fontSize="8.5"
-        fontWeight="500"
-        fill="currentColor"
-        letterSpacing="4.2"
-        opacity="0.62"
-        style={{ fontFamily: FONT_STACK }}
-      >
-        WARSZAWA · POLSKA
       </text>
     </svg>
   );
 }
 
 /* ---------- Backwards-compat exports ---------- */
-export const LogoMark = (props: { className?: string; size?: number; strokeWidth?: number }) => (
+export const LogoMark = (props: { className?: string; size?: number }) => (
   <LogoBadge className={props.className} size={props.size ?? 32} compact />
 );
 
-export const LogoLockup = (props: {
-  className?: string;
-  markSize?: number;
-  wordSize?: number;
-}) => (
+export const LogoLockup = (props: { className?: string; markSize?: number }) => (
   <LogoBadge className={props.className} size={props.markSize ?? 56} />
 );
 
