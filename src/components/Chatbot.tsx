@@ -15,9 +15,44 @@ const OPERATOR_AVATAR = '/chatbot/operator.png';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
-// Open the tease popup after this many ms of idleness, once per session.
-const IDLE_TEASE_MS = 10_000;
-const TEASE_SESSION_KEY = 'lw-chat-tease-shown';
+/* Tease popup tuning — based on Drift / Intercom / HubSpot benchmarks.
+ *
+ * Two triggers race; whichever fires first wins:
+ *   1) TEASE_DELAY_MS — 35s on the page (sweet spot for content sites)
+ *   2) TEASE_SCROLL_RATIO — user scrolls past 55% of the page
+ *      (signals genuine engagement, more qualified than a timer)
+ *
+ * Once shown OR explicitly dismissed, suppressed for TEASE_TTL_MS.
+ * 7 days in localStorage — short enough that returning prospects still
+ * see it within their decision window, long enough that the user isn't
+ * pestered every visit.
+ *
+ * Suppressed entirely when:
+ *   • Contact section is in viewport — they're already on the form
+ *   • prefers-reduced-motion — respect accessibility preference */
+const TEASE_DELAY_MS = 35_000;
+const TEASE_SCROLL_RATIO = 0.55;
+const TEASE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+const TEASE_KEY = 'lw-chat-tease-shown-at';
+
+function teaseRecentlyShown(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    const ts = Number(window.localStorage.getItem(TEASE_KEY) ?? 0);
+    return ts > 0 && Date.now() - ts < TEASE_TTL_MS;
+  } catch {
+    return false;
+  }
+}
+
+function markTeaseShown() {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(TEASE_KEY, String(Date.now()));
+  } catch {
+    /* localStorage disabled — tease will re-show on next visit, acceptable */
+  }
+}
 
 export function Chatbot() {
   const t = useTranslations('Chat');
@@ -40,24 +75,41 @@ export function Chatbot() {
     }
   }, [messages, open]);
 
-  /* --- Tease: open mini-popup ~10s after first visit, once per session.
-     Earlier version reset the timer on mousemove/scroll, so on a normal
-     browsing session it never fired. Now it's a simple page-time timer. */
+  /* --- Tease: timer + scroll-depth race, 7-day suppression --- */
   useEffect(() => {
     if (reduce) return;
     if (typeof window === 'undefined') return;
-    if (sessionStorage.getItem(TEASE_SESSION_KEY)) return;
     if (open) return;
+    if (teaseRecentlyShown()) return;
 
-    const timer = window.setTimeout(() => {
-      // Re-check at fire time — user might have opened chat in the meantime.
-      if (!sessionStorage.getItem(TEASE_SESSION_KEY)) {
-        setTease(true);
-        sessionStorage.setItem(TEASE_SESSION_KEY, '1');
+    let fired = false;
+    const fire = () => {
+      if (fired || open) return;
+      // Skip if user is already on the contact section (#contact in viewport)
+      const contact = document.getElementById('contact');
+      if (contact) {
+        const rect = contact.getBoundingClientRect();
+        const inView = rect.top < window.innerHeight && rect.bottom > 0;
+        if (inView) return;
       }
-    }, IDLE_TEASE_MS);
+      fired = true;
+      setTease(true);
+      markTeaseShown();
+    };
 
-    return () => window.clearTimeout(timer);
+    const timer = window.setTimeout(fire, TEASE_DELAY_MS);
+
+    const onScroll = () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      if (max <= 0) return;
+      if (window.scrollY / max >= TEASE_SCROLL_RATIO) fire();
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener('scroll', onScroll);
+    };
   }, [open, reduce]);
 
   // Opening the chat dismisses the tease
