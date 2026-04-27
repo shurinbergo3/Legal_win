@@ -52,6 +52,14 @@ export async function GET(req: NextRequest) {
 
   const results: Record<string, unknown> = {};
 
+  // Register webhook with all required update types
+  const webhookUrl = `${req.nextUrl.origin}/api/telegram/webhook`;
+  results.webhook = await tgApi(token, 'setWebhook', {
+    url: webhookUrl,
+    allowed_updates: ['message', 'callback_query'],
+    ...(secret ? { secret_token: secret } : {})
+  });
+
   // Set default commands for all users
   results.userCommands = await tgApi(token, 'setMyCommands', {
     commands: userCommands,
