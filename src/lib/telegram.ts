@@ -109,8 +109,22 @@ export type ChatLead = {
   phone?: string;
   email?: string;
   topic?: string;
-  summary?: string;
+  situation?: string;
+  urgency?: 'high' | 'medium' | 'low';
+  readiness?: 'hot' | 'warm' | 'cold';
   locale?: string;
+};
+
+const urgencyLabel: Record<NonNullable<ChatLead['urgency']>, string> = {
+  high: '🔴 СРОЧНО',
+  medium: '🟡 ОБЫЧНЫЙ',
+  low: '🟢 ХОЛОДНЫЙ'
+};
+
+const readinessLabel: Record<NonNullable<ChatLead['readiness']>, string> = {
+  hot: '🔥 Горячий',
+  warm: '👍 Тёплый',
+  cold: '❄️ Холодный'
 };
 
 export async function sendChatLeadToTelegram(lead: ChatLead): Promise<DeliveryReport> {
@@ -125,8 +139,16 @@ export async function sendChatLeadToTelegram(lead: ChatLead): Promise<DeliveryRe
     return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
   }
 
+  const urgency = lead.urgency ? urgencyLabel[lead.urgency] : '⚪️ Без оценки';
+  const readiness = lead.readiness ? readinessLabel[lead.readiness] : null;
+
+  const header = lead.topic
+    ? `💬 <b>${urgency} | ${escapeHtml(lead.topic)}</b>`
+    : `💬 <b>${urgency} | Лид из чата — LegalWin</b>`;
+
   const lines = [
-    '💬 <b>Лид из чата на сайте — LegalWin</b>',
+    header,
+    readiness ? `<b>Готовность:</b> ${readiness}` : null,
     '',
     `<b>Имя:</b> ${escapeHtml(lead.name)}`,
     lead.phone
@@ -135,11 +157,9 @@ export async function sendChatLeadToTelegram(lead: ChatLead): Promise<DeliveryRe
     lead.email
       ? `<b>Email:</b> <a href="mailto:${escapeHtml(lead.email)}">${escapeHtml(lead.email)}</a>`
       : null,
-    lead.topic ? `<b>Тема:</b> ${escapeHtml(lead.topic)}` : null,
-    lead.locale ? `<b>Язык сайта:</b> ${lead.locale.toUpperCase()}` : null,
-    lead.summary ? '' : null,
-    lead.summary ? '<b>Краткое описание:</b>' : null,
-    lead.summary ? escapeHtml(lead.summary) : null
+    lead.locale ? `<b>Язык:</b> ${lead.locale.toUpperCase()}` : null,
+    lead.situation ? '' : null,
+    lead.situation ? `<b>Ситуация:</b> ${escapeHtml(lead.situation)}` : null
   ].filter(Boolean);
 
   const text = lines.join('\n');
