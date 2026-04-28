@@ -7,6 +7,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Send, X, ShieldCheck } from 'lucide-react';
 import { cn } from '@/lib/cn';
+import ReactMarkdown from 'react-markdown';
 
 // Operator portrait — drop the photo at public/chatbot/operator.jpg.
 // Used in the floating toggle, the panel header, and beside each
@@ -523,13 +524,18 @@ function ConsentCard({ t, locale, checked, onCheck, onConfirm }: ConsentCardProp
 /* ---------- Assistant message bubble with avatar ---------- */
 
 function AssistantMessage({ children }: { children: React.ReactNode }) {
+  const content = typeof children === 'string' ? children : null;
   return (
     <div className="flex items-end gap-2">
       <span className="relative h-7 w-7 flex-shrink-0 overflow-hidden rounded-full ring-1 ring-gold-500/30">
         <Image src={OPERATOR_AVATAR} alt="" fill sizes="28px" className="object-cover" />
       </span>
-      <div className="max-w-[85%] rounded-2xl rounded-bl-sm bg-ink-800/70 px-4 py-2.5 leading-relaxed text-ink-100">
-        {children}
+      <div className="prose prose-sm max-w-[85%] rounded-2xl rounded-bl-sm bg-ink-800/70 px-4 py-2.5 leading-relaxed text-ink-100 [&_a]:text-gold-400 [&_a]:no-underline [&_a:hover]:underline [&_strong]:font-semibold [&_strong]:text-ink-50 [&_ul]:my-1 [&_ul]:space-y-0.5 [&_ul]:pl-4 [&_ol]:my-1 [&_ol]:space-y-0.5 [&_ol]:pl-4 [&_li]:text-ink-100 [&_p]:my-0 [&_p+p]:mt-2">
+        {content !== null ? (
+          <ReactMarkdown>{content}</ReactMarkdown>
+        ) : (
+          children
+        )}
       </div>
     </div>
   );
