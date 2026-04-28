@@ -34,7 +34,7 @@ const TEASE_DELAY_MS = 35_000;
 const TEASE_SCROLL_RATIO = 0.55;
 const TEASE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 const TEASE_KEY = 'lw-chat-tease-shown-at';
-const CONSENT_KEY = 'lw-chat-consent-at';
+const CONSENT_KEY = 'lw-chat-consent-v2';
 const CONSENT_TTL_MS = 365 * 24 * 60 * 60 * 1000; // 1 year
 
 function consentAlreadyGiven(): boolean {

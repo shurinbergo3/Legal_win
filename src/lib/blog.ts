@@ -13,6 +13,7 @@ export type BlogFrontmatter = {
   publishDate: string;
   author?: string;
   category?: string;
+  coverImage?: string;
   keywords?: string[];
   relatedServices?: string[];
 };
@@ -55,6 +56,7 @@ function readPost(locale: string, fileName: string): BlogPost | null {
     publishDate: fm.publishDate,
     author: fm.author,
     category: fm.category,
+    coverImage: fm.coverImage,
     keywords: fm.keywords ?? [],
     relatedServices: fm.relatedServices ?? [],
     content: parsed.content.trimStart(),

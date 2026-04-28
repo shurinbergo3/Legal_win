@@ -17,6 +17,7 @@ import {
   Scale,
   Shield
 } from 'lucide-react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { services } from '@/lib/services';
@@ -120,6 +121,26 @@ function DetailHero({
 }) {
   return (
     <section className="hero-gradient relative isolate overflow-hidden pt-36 pb-20 lg:pt-44 lg:pb-28">
+      {/* Photo background */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+        <Image
+          src="/about/rondo.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+      </div>
+      {/* Dark overlay over photo */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 -z-10"
+        style={{
+          background:
+            'linear-gradient(180deg, rgba(5,9,26,0.88) 0%, rgba(5,9,26,0.72) 40%, rgba(5,9,26,0.92) 100%)'
+        }}
+      />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 opacity-[0.05]"

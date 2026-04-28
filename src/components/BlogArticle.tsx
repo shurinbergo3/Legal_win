@@ -1,4 +1,5 @@
 import { ChevronLeft } from 'lucide-react';
+import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
@@ -85,6 +86,23 @@ export function BlogArticle({ post, related, labels }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Cover image */}
+      {post.coverImage && (
+        <div className="mx-auto max-w-4xl px-6 lg:px-10 -mt-4 mb-4 sm:-mt-6 sm:mb-6">
+          <div className="relative aspect-[16/7] overflow-hidden rounded-2xl">
+            <Image
+              src={post.coverImage}
+              alt={post.title}
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 896px"
+            />
+            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink-950/40 to-transparent" />
+          </div>
+        </div>
+      )}
 
       {/* Body */}
       <section className="relative pb-20 sm:pb-24 lg:pb-32">
