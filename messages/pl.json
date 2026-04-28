@@ -460,7 +460,12 @@
     "greeting": "Dzień dobry! Nazywam się Mila, jestem z LegalWin. W czym mogę pomóc — karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo?",
     "teaseGreeting": "Dzień dobry! Jestem Mila z LegalWin — pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Co Pana/Panią interesuje?",
     "teaseCta": "Napisz do Mili",
-    "disclaimer": "Dokładne terminy i ceny dla Pana/Pani sprawy potwierdzi prawnik na bezpłatnej konsultacji."
+    "disclaimer": "Dokładne terminy i ceny dla Pana/Pani sprawy potwierdzi prawnik na bezpłatnej konsultacji.",
+    "consentTitle": "Zanim zaczniemy",
+    "consentText": "Jeśli zostawi Pan/Pani dane kontaktowe, zostaną przekazane prawnikowi LegalWin w celu obsługi zgłoszenia zgodnie z wymogami RODO.",
+    "consentCheckbox": "Wyrażam zgodę na przetwarzanie danych osobowych",
+    "consentPrivacy": "Polityka prywatności",
+    "consentStart": "Rozpocznij czat"
   },
   "Legal": {
     "back": "Strona główna",

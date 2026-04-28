@@ -2,10 +2,10 @@
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useChat } from '@ai-sdk/react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { Send, X } from 'lucide-react';
+import { Send, X, ShieldCheck } from 'lucide-react';
 import { cn } from '@/lib/cn';
 
 // Operator portrait — drop the photo at public/chatbot/operator.jpg.
@@ -34,6 +34,25 @@ const TEASE_DELAY_MS = 35_000;
 const TEASE_SCROLL_RATIO = 0.55;
 const TEASE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 const TEASE_KEY = 'lw-chat-tease-shown-at';
+const CONSENT_KEY = 'lw-chat-consent-at';
+const CONSENT_TTL_MS = 365 * 24 * 60 * 60 * 1000; // 1 year
+
+function consentAlreadyGiven(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    const ts = Number(window.localStorage.getItem(CONSENT_KEY) ?? 0);
+    return ts > 0 && Date.now() - ts < CONSENT_TTL_MS;
+  } catch {
+    return false;
+  }
+}
+
+function saveConsent() {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(CONSENT_KEY, String(Date.now()));
+  } catch { /* ignore */ }
+}
 
 function teaseRecentlyShown(): boolean {
   if (typeof window === 'undefined') return false;
@@ -56,10 +75,18 @@ function markTeaseShown() {
 
 export function Chatbot() {
   const t = useTranslations('Chat');
+  const locale = useLocale();
   const reduce = useReducedMotion();
   const [open, setOpen] = useState(false);
   const [tease, setTease] = useState(false);
+  const [consentGiven, setConsentGiven] = useState(false);
+  const [consentChecked, setConsentChecked] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  // Restore consent from localStorage on mount
+  useEffect(() => {
+    setConsentGiven(consentAlreadyGiven());
+  }, []);
 
   const { messages, input, handleInputChange, handleSubmit, status, error } = useChat({
     api: '/api/chat'
@@ -121,6 +148,11 @@ export function Chatbot() {
   const dismissTease = useCallback((e?: React.MouseEvent) => {
     e?.stopPropagation();
     setTease(false);
+  }, []);
+
+  const handleConsentConfirm = useCallback(() => {
+    saveConsent();
+    setConsentGiven(true);
   }, []);
 
   const loading = status === 'submitted' || status === 'streaming';
@@ -323,7 +355,17 @@ export function Chatbot() {
               ref={scrollRef}
               className="flex-1 space-y-3 overflow-y-auto px-5 py-5 text-sm"
             >
-              {messages.length === 0 && (
+              {!consentGiven && (
+                <ConsentCard
+                  t={t}
+                  locale={locale}
+                  checked={consentChecked}
+                  onCheck={setConsentChecked}
+                  onConfirm={handleConsentConfirm}
+                />
+              )}
+
+              {consentGiven && messages.length === 0 && (
                 <AssistantMessage>{t('greeting')}</AssistantMessage>
               )}
 
@@ -382,13 +424,14 @@ export function Chatbot() {
               <input
                 value={input}
                 onChange={handleInputChange}
-                placeholder={t('placeholder')}
-                className="flex-1 bg-transparent px-3 py-2 text-sm text-ink-50 placeholder:text-ink-500 focus:outline-none"
+                placeholder={consentGiven ? t('placeholder') : t('consentStart')}
+                disabled={!consentGiven}
+                className="flex-1 bg-transparent px-3 py-2 text-sm text-ink-50 placeholder:text-ink-500 focus:outline-none disabled:cursor-not-allowed disabled:opacity-40"
                 aria-label={t('placeholder')}
               />
               <button
                 type="submit"
-                disabled={loading || !input.trim()}
+                disabled={loading || !input.trim() || !consentGiven}
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gold-400 text-ink-950 transition-all duration-200 hover:bg-gold-300 disabled:cursor-not-allowed disabled:opacity-40"
                 aria-label={t('send')}
               >
@@ -403,6 +446,77 @@ export function Chatbot() {
         )}
       </AnimatePresence>
     </>
+  );
+}
+
+/* ---------- GDPR / RODO consent card ---------- */
+
+type ConsentCardProps = {
+  t: ReturnType<typeof useTranslations<'Chat'>>;
+  locale: string;
+  checked: boolean;
+  onCheck: (v: boolean) => void;
+  onConfirm: () => void;
+};
+
+function ConsentCard({ t, locale, checked, onCheck, onConfirm }: ConsentCardProps) {
+  const privacyHref = `/${locale}/polityka-prywatnosci`;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+      className="rounded-2xl border hairline-gold bg-ink-900/60 px-4 py-4 text-sm"
+    >
+      <div className="mb-3 flex items-center gap-2 text-gold-400">
+        <ShieldCheck className="h-4 w-4 flex-shrink-0" strokeWidth={1.8} aria-hidden />
+        <span className="font-medium text-ink-50">{t('consentTitle')}</span>
+      </div>
+
+      <p className="mb-4 text-[12px] leading-relaxed text-ink-300">
+        {t('consentText')}{' '}
+        <a
+          href={privacyHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gold-400 underline-offset-2 hover:underline"
+        >
+          {t('consentPrivacy')}
+        </a>
+        .
+      </p>
+
+      <label className="mb-4 flex cursor-pointer items-start gap-2.5">
+        <span className="relative mt-0.5 flex-shrink-0">
+          <input
+            type="checkbox"
+            checked={checked}
+            onChange={(e) => onCheck(e.target.checked)}
+            className="peer sr-only"
+          />
+          <span className="flex h-4 w-4 items-center justify-center rounded border border-ink-600 bg-ink-800 transition-colors peer-checked:border-gold-400 peer-checked:bg-gold-400">
+            {checked && (
+              <svg viewBox="0 0 10 8" className="h-2.5 w-2.5 text-ink-950" fill="none" stroke="currentColor" strokeWidth={1.8}>
+                <path d="M1 4l3 3 5-6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            )}
+          </span>
+        </span>
+        <span className="text-[12px] leading-relaxed text-ink-200">{t('consentCheckbox')}</span>
+      </label>
+
+      <motion.button
+        type="button"
+        onClick={onConfirm}
+        disabled={!checked}
+        whileHover={checked ? { scale: 1.02 } : {}}
+        whileTap={checked ? { scale: 0.97 } : {}}
+        className="w-full rounded-xl bg-gold-400 py-2 text-[13px] font-medium text-ink-950 transition-opacity disabled:cursor-not-allowed disabled:opacity-35"
+      >
+        {t('consentStart')}
+      </motion.button>
+    </motion.div>
   );
 }
 

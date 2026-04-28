@@ -460,7 +460,12 @@
     "greeting": "Hi! I'm Mila from LegalWin — what can I help you with? Residence card, driving licence exchange, Code 95, citizenship?",
     "teaseGreeting": "Hi! I'm Mila from LegalWin — happy to help with Karta Pobytu, driving licence exchange or Code 95. What's your question?",
     "teaseCta": "Message Mila",
-    "disclaimer": "Exact timelines and pricing for your case will be confirmed by a lawyer on the free consultation."
+    "disclaimer": "Exact timelines and pricing for your case will be confirmed by a lawyer on the free consultation.",
+    "consentTitle": "Before we start",
+    "consentText": "If you share your contact details, they will be passed to a LegalWin lawyer to handle your enquiry in accordance with GDPR requirements.",
+    "consentCheckbox": "I consent to the processing of my personal data",
+    "consentPrivacy": "Privacy Policy",
+    "consentStart": "Start chat"
   },
   "Legal": {
     "back": "Home",
