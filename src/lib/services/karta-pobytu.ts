@@ -98,7 +98,7 @@ const kartaPobytu: ServiceEntry = {
     facts: [
       { label: 'Okres ważności', value: 'do 3 lat', note: 'z możliwością przedłużenia' },
       { label: 'Opłata', value: '340 + 100 PLN', note: 'wniosek + karta' },
-      { label: 'Decyzja', value: '42 dni', note: 'naszaa średnia · ustawowo do 90' },
+      { label: 'Decyzja', value: '42 dni', note: 'nasza średnia · ustawowo do 90' },
       { label: 'Gdzie składać', value: 'MOS v2.0', note: 'wg województwa zamieszkania' }
     ],
     grounds: {
