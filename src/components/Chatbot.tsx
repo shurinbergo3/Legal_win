@@ -355,6 +355,10 @@ export function Chatbot() {
               ref={scrollRef}
               className="flex-1 space-y-3 overflow-y-auto px-5 py-5 text-sm"
             >
+              {messages.length === 0 && (
+                <AssistantMessage>{t('greeting')}</AssistantMessage>
+              )}
+
               {!consentGiven && (
                 <ConsentCard
                   t={t}
@@ -363,10 +367,6 @@ export function Chatbot() {
                   onCheck={setConsentChecked}
                   onConfirm={handleConsentConfirm}
                 />
-              )}
-
-              {consentGiven && messages.length === 0 && (
-                <AssistantMessage>{t('greeting')}</AssistantMessage>
               )}
 
               {messages.map((m) =>
