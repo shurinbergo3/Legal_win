@@ -1,24 +1,16 @@
 /**
  * Themis scales — line-art silhouette used as a decorative watermark.
  *
- * Default usage: faint gold tint via Tailwind text colour, e.g.
- *   <ThemisScales className="text-gold-400/[0.10] h-full w-full" />
+ *   <ThemisScales className="text-gold-400/[0.10] h-full w-full" />     (standalone)
+ *   <g transform="translate(...) scale(...)"><ThemisScalesPaths /></g>  (nested)
  *
- * Lives outside Hero so the Header can reuse it for the navigation watermark
- * without duplicating SVG paths.
+ * `ThemisScalesPaths` lets the Logo embed the same silhouette inside the
+ * shield without nesting another <svg>; it also lets the Header reuse it as a
+ * background watermark.
  */
-export function ThemisScales({ className }: { className?: string }) {
+export function ThemisScalesPaths() {
   return (
-    <svg
-      viewBox="0 0 240 280"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="0.9"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden
-      className={className}
-    >
+    <>
       {/* Top finial */}
       <circle cx="120" cy="22" r="4" fill="currentColor" stroke="none" />
       <line x1="120" y1="26" x2="120" y2="38" />
@@ -49,6 +41,23 @@ export function ThemisScales({ className }: { className?: string }) {
       <path d="M92 240 L148 240" />
       <path d="M82 252 L158 252" />
       <path d="M76 262 L164 262" />
+    </>
+  );
+}
+
+export function ThemisScales({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 240 280"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="0.9"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+      className={className}
+    >
+      <ThemisScalesPaths />
     </svg>
   );
 }

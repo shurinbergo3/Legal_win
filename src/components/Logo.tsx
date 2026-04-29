@@ -11,6 +11,7 @@
 
 import { useId } from 'react';
 import { cn } from '@/lib/cn';
+import { ThemisScalesPaths } from './ThemisScales';
 
 const FONT_STACK =
   "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, 'Times New Roman', serif";
@@ -67,6 +68,21 @@ function Shield({ ids }: { ids: GradientIds }) {
         strokeWidth="0.9"
         opacity="0.85"
       />
+      {/* Themis silhouette behind the LW monogram — thin, gold, ~22% opacity so
+          it reads like an embossed watermark rather than a competing element.
+          Paths are scaled to fit the inner shield bounds (54-266 × 40-273). */}
+      <g
+        transform="translate(60 40) scale(0.83)"
+        color="#c9a84c"
+        stroke="currentColor"
+        fill="none"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        opacity="0.22"
+      >
+        <ThemisScalesPaths />
+      </g>
       <text
         x="160"
         y="194"
