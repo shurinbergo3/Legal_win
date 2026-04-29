@@ -6,6 +6,7 @@ import { Marquee } from '@/components/Marquee';
 import { TrustBar } from '@/components/TrustBar';
 import { Services } from '@/components/Services';
 import { Cases } from '@/components/Cases';
+import { Team } from '@/components/Team';
 import { Testimonials } from '@/components/Testimonials';
 import { Process } from '@/components/Process';
 import { Faq } from '@/components/Faq';
@@ -39,6 +40,7 @@ export default async function HomePage({
         <TrustBar />
         <Services />
         <Cases />
+        <Team />
         <Testimonials />
         <Process />
         <Faq />

@@ -210,6 +210,7 @@ body::before {
 .hero-in-d3 { animation-delay: 0.26s; }
 .hero-in-d4 { animation-delay: 0.34s; }
 .hero-in-d5 { animation-delay: 0.42s; }
+.hero-in-d6 { animation-delay: 0.50s; }
 
 /* Slow background shift */
 @keyframes bg-shift {

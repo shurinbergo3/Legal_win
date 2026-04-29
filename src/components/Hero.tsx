@@ -4,7 +4,9 @@ import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion
 import { useTranslations } from 'next-intl';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { ArrowRight, Phone } from 'lucide-react';
+import { ArrowRight, Phone, Star } from 'lucide-react';
+import { blur } from '@/lib/image-blur';
+import { REVIEW_COUNT, REVIEW_RATING_VALUE } from '@/lib/seo';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -92,6 +94,8 @@ export function Hero() {
           alt={t('imageAlt')}
           fill
           priority
+          placeholder="blur"
+          blurDataURL={blur.staruwka}
           sizes="100vw"
           className="object-cover object-[50%_38%]"
         />
@@ -204,7 +208,28 @@ export function Hero() {
           {t('subtitle')}
         </p>
 
-        <div className="hero-in hero-in-d4 col-span-12 flex flex-wrap items-center gap-3">
+        {/* Social proof — public rating from Testimonials section */}
+        <div className="hero-in hero-in-d4 col-span-12 -mt-2 flex flex-wrap items-center gap-x-3 gap-y-2">
+          <div className="flex items-center gap-1.5 rounded-full border hairline-gold bg-ink-950/55 px-3 py-1.5 backdrop-blur-md">
+            <span className="flex items-center gap-0.5" aria-hidden>
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Star
+                  key={i}
+                  className="h-3.5 w-3.5 fill-gold-400 text-gold-400"
+                  strokeWidth={1.4}
+                />
+              ))}
+            </span>
+            <span className="ml-1 text-sm font-semibold text-ink-50">
+              {REVIEW_RATING_VALUE}
+            </span>
+          </div>
+          <span className="font-mono text-[11px] uppercase tracking-[0.24em] text-ink-200">
+            / {REVIEW_COUNT} {t('socialProofLabel')}
+          </span>
+        </div>
+
+        <div className="hero-in hero-in-d5 col-span-12 flex flex-wrap items-center gap-3">
           <a
             href="#contact"
             className="group inline-flex items-center gap-2.5 rounded-full bg-gold-400 px-7 py-4 text-base font-medium text-ink-950 ring-gold transition-all duration-300 hover:bg-gold-300"
@@ -233,7 +258,7 @@ export function Hero() {
       </motion.div>
 
       {/* Editorial photo caption — bottom left */}
-      <div className="hero-in hero-in-d5 pointer-events-none absolute bottom-6 left-6 z-10 hidden flex-col gap-1 font-mono text-[10px] uppercase tracking-[0.32em] text-ink-300/80 sm:left-10 sm:flex">
+      <div className="hero-in hero-in-d6 pointer-events-none absolute bottom-6 left-6 z-10 hidden flex-col gap-1 font-mono text-[10px] uppercase tracking-[0.32em] text-ink-300/80 sm:left-10 sm:flex">
         <span className="text-gold-400/80">52.2297° N · 21.0122° E</span>
         <span>Pałac Kultury · Warszawa</span>
       </div>

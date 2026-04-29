@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Kancelaria prawna Warszawa: karta pobytu, obywatelstwo, Kod 95 | LegalWin",
-    "description": "Kancelaria LegalWin w Warszawie dla cudzoziemców: karta czasowego i stałego pobytu, obywatelstwo polskie, wymiana prawa jazdy, Kod 95, apelacje od decyzji wojewody, rejestracja Sp. z o.o. Od 2019 roku, 500+ spraw rocznie.",
+    "title": "Karta pobytu w Polsce — kancelaria LegalWin · Warszawa 2026",
+    "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Kancelaria w Warszawie od 2019 — 4.9★ od 312 klientów, 500+ spraw rocznie.",
     "keywords": "karta pobytu, karta czasowego pobytu, karta stałego pobytu, TRC Polska, obywatelstwo polskie, kancelaria imigracyjna Warszawa, prawnik dla cudzoziemców Warszawa, wymiana prawa jazdy w Polsce, Kod 95, kwalifikacja wstępna, szkolenie okresowe, rejestracja Sp. z o.o., odwołanie od decyzji wojewody, MOS v2.0, eDoręczenia, LegalWin"
   },
   "Nav": {
@@ -17,13 +17,14 @@
   "Hero": {
     "imageAlt": "Kancelaria prawna LegalWin w Warszawie — pomoc imigrantom: karta pobytu, obywatelstwo polskie",
     "eyebrow": "Warszawa · Od 2019",
-    "titleLine1": "Pomoc imigrantom w Polsce.",
-    "titleLine2": "Karta pobytu · Prawo jazdy · Kod 95.",
-    "subtitle": "Karta pobytu, wymiana zagranicznego prawa jazdy na polskie, Kod 95 dla zawodowych kierowców, dokumenty i legalizacja. Kancelaria w Warszawie od 2019 roku — dla nowoprzybyłych z WNP.",
+    "titleLine1": "Karta pobytu, TRC i pobyt stały w Polsce.",
+    "titleLine2": "Kancelaria dla cudzoziemców · Warszawa.",
+    "subtitle": "Karta pobytu, obywatelstwo, wymiana prawa jazdy, Kod 95, dokumenty i legalizacja. Kancelaria w Warszawie od 2019 — 4.9★ od 312 klientów.",
     "ctaPrimary": "Bezpłatna konsultacja",
     "ctaSecondary": "Wszystkie usługi",
     "availableNow": "Odpowiadamy w ciągu godziny",
-    "hoursToday": "Dziś do 19:00"
+    "hoursToday": "Dziś do 19:00",
+    "socialProofLabel": "opinii · Google"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"

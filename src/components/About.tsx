@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Check } from 'lucide-react';
 import Image from 'next/image';
+import { blur } from '@/lib/image-blur';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -29,6 +30,8 @@ export function About() {
                 src="/about/rondo.webp"
                 alt="Варшава, Польша"
                 fill
+                placeholder="blur"
+                blurDataURL={blur.rondo}
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />

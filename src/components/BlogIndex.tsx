@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
+import { blur } from '@/lib/image-blur';
 import type { BlogPostSummary } from '@/lib/blog';
 
 type Props = {
@@ -37,6 +38,8 @@ export function BlogIndex({ posts, labels }: Props) {
             alt=""
             fill
             priority
+            placeholder="blur"
+            blurDataURL={blur.city1}
             sizes="100vw"
             className="object-cover object-center"
           />

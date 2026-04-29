@@ -22,6 +22,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { services } from '@/lib/services';
 import type { ServiceContent } from '@/lib/services/types';
+import { cityBlur, blur } from '@/lib/image-blur';
 import { cn } from '@/lib/cn';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -139,6 +140,8 @@ function DetailHero({
           alt=""
           fill
           priority
+          placeholder="blur"
+          blurDataURL={cityBlur[photo] ?? blur.city2}
           sizes="100vw"
           className="object-cover object-center"
         />

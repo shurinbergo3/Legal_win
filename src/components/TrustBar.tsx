@@ -91,7 +91,7 @@ export function TrustBar() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.7, ease, delay: i * 0.1 }}
-              className="group relative flex flex-col bg-ink-950 px-7 py-12 transition-colors duration-500 hover:bg-[color-mix(in_oklab,var(--color-ink-900)_50%,var(--color-ink-950))] lg:px-10 lg:py-16"
+              className="group relative flex flex-col bg-ink-950 px-5 py-10 transition-colors duration-500 hover:bg-[color-mix(in_oklab,var(--color-ink-900)_50%,var(--color-ink-950))] sm:px-7 sm:py-12 lg:px-10 lg:py-16"
             >
               {/* Ambient gold halo on hover */}
               <div
@@ -100,14 +100,14 @@ export function TrustBar() {
               />
 
               {/* Index — top left */}
-              <span className="mb-6 font-mono text-[10px] text-ink-600 lg:mb-8">
+              <span className="mb-4 font-mono text-[10px] text-ink-600 sm:mb-6 lg:mb-8">
                 / 0{i + 1}
               </span>
 
               {/* Number — typographically dominant */}
               <div
                 className="flex items-baseline gap-1 font-display font-semibold leading-[0.9] tracking-tight text-ink-50 transition-colors duration-500 group-hover:text-white"
-                style={{ fontSize: 'clamp(3.75rem, 9vw, 8rem)' }}
+                style={{ fontSize: 'clamp(2.5rem, 9vw, 8rem)' }}
               >
                 <CountUp to={s.value} />
                 {s.suffix && (
@@ -118,7 +118,7 @@ export function TrustBar() {
               </div>
 
               {/* Label */}
-              <div className="mt-6 text-[10px] uppercase tracking-[0.28em] text-ink-400 lg:mt-8">
+              <div className="mt-4 text-[10px] uppercase tracking-[0.28em] text-ink-400 sm:mt-6 lg:mt-8">
                 {s.label}
               </div>
 

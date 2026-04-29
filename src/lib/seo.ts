@@ -19,6 +19,12 @@ export const OG_IMAGE_PATH = '/hero/staruwka.webp';
 export const OG_IMAGE_WIDTH = 1600;
 export const OG_IMAGE_HEIGHT = 900;
 
+// Aggregate rating shown publicly in the Testimonials section.
+// Keep these in sync with what's visible on the page (currently 4.9 / 312 in
+// `messages/*.json` + Testimonials.tsx) so Google can verify the value.
+export const REVIEW_RATING_VALUE = '4.9';
+export const REVIEW_COUNT = 312;
+
 export type SeoLocale = 'ru' | 'pl' | 'en';
 
 export function languagesAlternate(
@@ -75,6 +81,72 @@ export function organizationLd() {
         closes: '19:00'
       }
     ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: REVIEW_RATING_VALUE,
+      reviewCount: REVIEW_COUNT,
+      bestRating: '5',
+      worstRating: '1'
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Legal services for foreigners in Poland',
+      itemListElement: [
+        {
+          '@type': 'OfferCatalog',
+          name: 'Immigration',
+          itemListElement: [
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Karta Czasowego Pobytu (TRC)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Karta Stałego Pobytu (PR)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Polish citizenship' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Karta Polaka' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'International protection' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Administrative appeals' } }
+          ]
+        },
+        {
+          '@type': 'OfferCatalog',
+          name: 'Documents',
+          itemListElement: [
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'PESEL' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Meldunek' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Driving licence exchange' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Code 95 (driver CPC)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Apostille and legalization' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Sworn translations' } }
+          ]
+        },
+        {
+          '@type': 'OfferCatalog',
+          name: 'Business',
+          itemListElement: [
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Sp. z o.o. registration' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Jednoosobowa działalność gospodarcza (JDG)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Tax and accounting (CIT, VAT, PIT)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Foreign branch offices' } }
+          ]
+        },
+        {
+          '@type': 'OfferCatalog',
+          name: 'Real estate',
+          itemListElement: [
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MSWiA permit for non-EU buyers' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Property due diligence' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Notary deed assistance' } }
+          ]
+        },
+        {
+          '@type': 'OfferCatalog',
+          name: 'Relocation',
+          itemListElement: [
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Schengen and national visa invitations' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Housing search' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Interpreter for office visits' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'School enrolment for children' } }
+          ]
+        }
+      ]
+    },
     sameAs: [] as string[]
   } as const;
 }
