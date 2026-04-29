@@ -5,11 +5,13 @@ import { Hero } from '@/components/Hero';
 import { Marquee } from '@/components/Marquee';
 import { TrustBar } from '@/components/TrustBar';
 import { Services } from '@/components/Services';
+import { Pricing } from '@/components/Pricing';
 import { Cases } from '@/components/Cases';
 import { Team } from '@/components/Team';
 import { Testimonials } from '@/components/Testimonials';
 import { Process } from '@/components/Process';
 import { Faq } from '@/components/Faq';
+import { BlogTeaser } from '@/components/BlogTeaser';
 import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { faqPageLd } from '@/lib/seo';
@@ -39,11 +41,13 @@ export default async function HomePage({
         <Marquee />
         <TrustBar />
         <Services />
+        <Pricing />
         <Cases />
         <Team />
         <Testimonials />
         <Process />
         <Faq />
+        <BlogTeaser locale={locale} />
         <Contact locale={locale} />
       </main>
       <Footer />

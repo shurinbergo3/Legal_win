@@ -7,11 +7,17 @@ import type { LucideIcon } from 'lucide-react';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
-const steps: { key: 'step1' | 'step2' | 'step3' | 'step4'; Icon: LucideIcon }[] = [
-  { key: 'step1', Icon: Phone },
-  { key: 'step2', Icon: FileSignature },
-  { key: 'step3', Icon: Briefcase },
-  { key: 'step4', Icon: Award }
+// Day labels reflect the 42-day average from the Cases section ("38 дней" for the
+// flagship TRC case + buffer). Using D-notation keeps them locale-neutral.
+const steps: {
+  key: 'step1' | 'step2' | 'step3' | 'step4';
+  Icon: LucideIcon;
+  day: string;
+}[] = [
+  { key: 'step1', Icon: Phone, day: 'D0' },
+  { key: 'step2', Icon: FileSignature, day: 'D1–3' },
+  { key: 'step3', Icon: Briefcase, day: 'D3–38' },
+  { key: 'step4', Icon: Award, day: '≈ D42' }
 ];
 
 export function Process() {
@@ -50,7 +56,7 @@ export function Process() {
           <div className="pointer-events-none absolute left-0 right-0 top-[68px] hidden h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent lg:block" />
 
           <ol className="relative grid grid-cols-1 gap-px overflow-hidden rounded-3xl border hairline bg-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map(({ key, Icon }, i) => (
+            {steps.map(({ key, Icon, day }, i) => (
               <motion.li
                 key={key}
                 initial={{ opacity: 0, y: 18 }}
@@ -73,6 +79,11 @@ export function Process() {
                     <Icon className="h-4 w-4 text-gold-400" strokeWidth={1.5} aria-hidden />
                   </span>
                 </div>
+                {/* Day badge — quick visual of where this step sits on the 42-day average timeline */}
+                <span className="inline-flex w-fit items-center gap-2 rounded-full border hairline-gold bg-gold-500/[0.05] px-3 py-1 font-mono text-[10px] uppercase tracking-[0.22em] text-gold-300">
+                  <span className="h-1 w-1 rounded-full bg-gold-400" />
+                  {day}
+                </span>
                 <div className="h-px w-full bg-gradient-to-r from-gold-500/40 via-ink-700 to-transparent" />
                 <h3 className="font-display text-xl font-semibold leading-tight text-ink-50 sm:text-2xl">
                   {t(`${key}Title` as 'step1Title')}

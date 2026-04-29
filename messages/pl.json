@@ -6,6 +6,7 @@
   },
   "Nav": {
     "services": "Usługi",
+    "pricing": "Ceny",
     "cases": "Sprawy",
     "team": "Zespół",
     "process": "Proces",
@@ -279,6 +280,22 @@
       }
     ]
   },
+  "Pricing": {
+    "eyebrow": "Ceny",
+    "title": "Przejrzyste ceny bez niespodzianek",
+    "subtitle": "Honorarium prawnika — stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład — na stronie każdej usługi.",
+    "consultationCta": "Pierwsza konsultacja gratis · 30–60 min",
+    "items": [
+      { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 42 dni" },
+      { "slug": "karta-stalego-pobytu", "name": "Karta stałego pobytu (PR)", "value": "od 3 500 PLN", "note": "Pod klucz. Opłaty 640 + 100 PLN osobno" },
+      { "slug": "obywatelstwo", "name": "Obywatelstwo polskie", "value": "od 4 500 PLN", "note": "Uznanie — pod klucz. Nadanie — od 6 000 PLN" },
+      { "slug": "apelacje", "name": "Apelacja od decyzji", "value": "od 1 800 PLN", "note": "Ekspres-analiza decyzji 48 h — 500 PLN, zalicza się" },
+      { "slug": "kod-95", "name": "Kod 95 dla kierowców", "value": "od 1 200 PLN", "note": "OSK, dokumenty, badania, egzamin w WORD" },
+      { "slug": "kod-95", "name": "Wymiana prawa jazdy", "value": "od 600 PLN", "note": "Tłumaczenia, badania lekarskie, starostwo" }
+    ],
+    "footnote": "Wszystkie ceny to honoraria prawników. Opłaty urzędowe (opłata skarbowa) i tłumaczenia przysięgłe są osobno. Po bezpłatnej konsultacji wszystko fiksujemy w umowie.",
+    "ctaDetails": "Pełna kalkulacja"
+  },
   "Team": {
     "eyebrow": "Zespół",
     "title": "Ośmiu prawników. Jeden punkt wejścia.",
@@ -412,6 +429,8 @@
     "companyTitle": "Firma",
     "contactTitle": "Kontakt",
     "legalTitle": "Prawne",
+    "sourcesTitle": "Źródła urzędowe",
+    "sourcesIntro": "Państwowe portale, na które się powołujemy w naszej pracy.",
     "rights": "Wszystkie prawa zastrzeżone",
     "privacy": "Polityka prywatności",
     "cookies": "Polityka cookies",
@@ -472,6 +491,12 @@
     "back": "Strona główna",
     "updated": "Zaktualizowano",
     "updatedAt": "10 kwietnia 2026"
+  },
+  "BlogTeaser": {
+    "eyebrow": "Dziennik",
+    "title": "Najnowsze poradniki dla cudzoziemców",
+    "subtitle": "Praktyczne instrukcje dotyczące karty pobytu, obywatelstwa i wymiany prawa jazdy. Z realnymi cenami i linkami do polskich urzędów.",
+    "ctaAll": "Wszystkie artykuły"
   },
   "Blog": {
     "eyebrow": "/ Dziennik",
