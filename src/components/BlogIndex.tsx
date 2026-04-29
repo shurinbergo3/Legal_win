@@ -25,37 +25,6 @@ function formatDate(iso: string, locale: string): string {
   }
 }
 
-function categoryImage(category?: string, coverImage?: string): string {
-  if (coverImage) return coverImage;
-  const cat = (category ?? '').toLowerCase();
-  if (cat.includes('иммигр') || cat.includes('immigr')) return '/cities/city-2.jpg';
-  if (cat.includes('бизн') || cat.includes('busin')) return '/cities/city-5.jpg';
-  return '/cities/city-6.jpg';
-}
-
-function CardThumbnail({ category, coverImage }: { category?: string; coverImage?: string }) {
-  const src = categoryImage(category, coverImage);
-  return (
-    <div className="relative aspect-[16/7] overflow-hidden rounded-xl">
-      <Image
-        src={src}
-        alt=""
-        fill
-        className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
-        sizes="(max-width: 768px) 100vw, 800px"
-      />
-      <div
-        aria-hidden
-        className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-ink-950/20 to-transparent"
-      />
-      {category && (
-        <span className="absolute bottom-3 left-4 font-mono text-[10px] uppercase tracking-[0.28em] text-gold-300/90">
-          {category}
-        </span>
-      )}
-    </div>
-  );
-}
 
 export function BlogIndex({ posts, labels }: Props) {
   return (
@@ -122,8 +91,6 @@ export function BlogIndex({ posts, labels }: Props) {
                     href={`/blog/${post.slug}`}
                     className="group flex flex-col gap-4 rounded-2xl border hairline bg-ink-900/40 p-6 transition-colors hover:bg-ink-900/70 sm:p-8"
                   >
-                    <CardThumbnail category={post.category} coverImage={post.coverImage} />
-
                     <div className="flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-ink-400">
                       {post.category && (
                         <span className="text-gold-400">{post.category}</span>
