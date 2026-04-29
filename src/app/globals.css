@@ -243,3 +243,255 @@ body::before {
   overflow: hidden;
   vertical-align: bottom;
 }
+
+/* === Editorial / Blog Article === */
+
+/* Folio rail — issue / category strip above title */
+.folio-rail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--color-ink-100) 70%, transparent);
+}
+.folio-rail .rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--color-gold-500) 40%, transparent),
+    color-mix(in oklab, var(--color-gold-500) 8%, transparent) 70%,
+    transparent
+  );
+}
+.folio-rail .gold {
+  color: var(--color-gold-300);
+}
+
+/* Vertical Roman date stamp — like the seal on a legal codex */
+.folio-stamp {
+  font-family: var(--font-display);
+  font-feature-settings: 'lnum' 1, 'ss01' 1;
+  text-align: right;
+  line-height: 1;
+  user-select: none;
+}
+.folio-stamp .day {
+  display: block;
+  font-size: clamp(3.25rem, 6vw, 5.5rem);
+  font-weight: 600;
+  color: var(--color-ink-50);
+  letter-spacing: -0.04em;
+  font-variation-settings: 'opsz' 144;
+}
+.folio-stamp .month {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: clamp(1.1rem, 2vw, 1.65rem);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-gold-400);
+  letter-spacing: 0.22em;
+}
+.folio-stamp .year {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.42em;
+  color: color-mix(in oklab, var(--color-ink-200) 65%, transparent);
+}
+.folio-stamp .edge {
+  margin-left: auto;
+  margin-bottom: 0.65rem;
+  display: block;
+  width: 28px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklab, var(--color-gold-500) 70%, transparent)
+  );
+}
+
+/* Ornamental divider — thin gold rule with center glyph */
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 2.5rem 0 1.5rem;
+}
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklab, var(--color-gold-500) 50%, transparent) 30%,
+    color-mix(in oklab, var(--color-gold-500) 50%, transparent) 70%,
+    transparent
+  );
+}
+.ornament-divider .glyph {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-gold-400);
+  font-size: 0.9rem;
+  letter-spacing: 0.5em;
+  padding-right: 0;
+  text-shadow: 0 0 24px color-mix(in oklab, var(--color-gold-400) 40%, transparent);
+}
+
+/* Reading-time seal — ornamental pill */
+.reading-seal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.4rem 0.95rem 0.4rem 0.75rem;
+  border: 1px solid color-mix(in oklab, var(--color-gold-500) 38%, transparent);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--color-gold-300) 90%, var(--color-ink-50));
+  background: color-mix(in oklab, var(--color-gold-500) 6%, transparent);
+}
+.reading-seal::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-gold-400);
+  box-shadow: 0 0 12px color-mix(in oklab, var(--color-gold-400) 80%, transparent);
+}
+
+/* Byline band — author + meta with gold separators */
+.byline-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--color-ink-200) 75%, transparent);
+}
+.byline-band .sep {
+  color: color-mix(in oklab, var(--color-gold-500) 60%, transparent);
+  font-style: italic;
+  font-family: var(--font-display);
+  letter-spacing: 0;
+}
+.byline-band strong {
+  color: var(--color-ink-50);
+  font-weight: 500;
+}
+
+/* Decorative gold accent line at top-left of hero */
+.editorial-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 96px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--color-gold-500) 80%, transparent),
+    transparent
+  );
+}
+
+/* Drop cap on first paragraph of article body */
+.blog-prose > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 4.5rem;
+  line-height: 0.85;
+  float: left;
+  padding: 0.45rem 0.7rem 0 0;
+  margin: 0.05rem 0.05rem 0 0;
+  color: var(--color-gold-400);
+  font-variation-settings: 'opsz' 144;
+  text-shadow: 0 0 30px color-mix(in oklab, var(--color-gold-400) 30%, transparent);
+}
+
+/* H2 with section symbol prefix — "§" in gold italic */
+.blog-prose h2::before {
+  content: '§\00a0';
+  color: var(--color-gold-500);
+  font-style: italic;
+  font-weight: 500;
+  font-family: var(--font-display);
+  font-size: 0.92em;
+  letter-spacing: -0.01em;
+  margin-right: 0.15em;
+}
+
+/* Pull-quote / blockquote with massive gold opening mark */
+.blog-prose blockquote {
+  position: relative;
+  margin: 2.75rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 2.25rem;
+  border-left: 1px solid color-mix(in oklab, var(--color-gold-500) 50%, transparent);
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-ink-50);
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--color-gold-500) 6%, transparent),
+    transparent 80%
+  );
+}
+.blog-prose blockquote::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.15em;
+  left: 0.55rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--color-gold-500);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* Article hr — ornamental rule with center diamond */
+.blog-prose hr.editorial {
+  border: 0;
+  height: 32px;
+  margin: 3rem auto;
+  width: 100%;
+  position: relative;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklab, var(--color-gold-500) 35%, transparent) 30%,
+      color-mix(in oklab, var(--color-gold-500) 35%, transparent) 70%,
+      transparent
+    ) center / 100% 1px no-repeat;
+}
+.blog-prose hr.editorial::after {
+  content: '\25C7';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--page-bg);
+  padding: 0 0.65rem;
+  color: var(--color-gold-400);
+  font-size: 0.7rem;
+}
+

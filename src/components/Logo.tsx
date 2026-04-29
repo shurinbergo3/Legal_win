@@ -69,12 +69,12 @@ function Shield({ ids }: { ids: GradientIds }) {
       />
       <text
         x="160"
-        y="200"
+        y="194"
         textAnchor="middle"
-        fontSize="138"
+        fontSize="116"
         fontWeight="700"
         fill={`url(#${ids.text})`}
-        letterSpacing="-4"
+        letterSpacing="-2"
         style={{ fontFamily: FONT_STACK }}
       >
         LW

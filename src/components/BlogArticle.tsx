@@ -17,6 +17,46 @@ type Props = {
   };
 };
 
+const ROMAN_MONTHS = [
+  'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'
+];
+
+function toRomanNumeral(n: number): string {
+  const table: [number, string][] = [
+    [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'],
+    [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'],
+    [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I'],
+  ];
+  let value = n;
+  let out = '';
+  for (const [v, s] of table) {
+    while (value >= v) { out += s; value -= v; }
+  }
+  return out;
+}
+
+function folioDate(iso: string) {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return {
+    day: d.getUTCDate().toString().padStart(2, '0'),
+    month: ROMAN_MONTHS[d.getUTCMonth()],
+    year: toRomanNumeral(d.getUTCFullYear()),
+    yearNumeric: d.getUTCFullYear(),
+  };
+}
+
+function dayOfYear(iso: string): number {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return 0;
+  const start = Date.UTC(d.getUTCFullYear(), 0, 0);
+  return Math.floor((d.getTime() - start) / 86_400_000);
+}
+
+function issueNumber(iso: string): string {
+  return dayOfYear(iso).toString().padStart(3, '0');
+}
+
 function formatDate(iso: string, locale: string): string {
   try {
     return new Intl.DateTimeFormat(locale === 'ru' ? 'ru-RU' : locale, {
@@ -30,10 +70,14 @@ function formatDate(iso: string, locale: string): string {
 }
 
 export function BlogArticle({ post, related, labels }: Props) {
+  const stamp = folioDate(post.publishDate);
+  const issue = issueNumber(post.publishDate);
+
   return (
     <div className="relative">
-      {/* Hero */}
-      <section className="hero-gradient relative isolate overflow-hidden pt-32 pb-12 sm:pt-40 sm:pb-16 lg:pt-48 lg:pb-20">
+      {/* === Hero — editorial codex === */}
+      <section className="hero-gradient relative isolate overflow-hidden pt-28 pb-14 sm:pt-36 sm:pb-20 lg:pt-44 lg:pb-24">
+        {/* Atmospheric layers */}
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0 opacity-[0.05]"
@@ -47,50 +91,98 @@ export function BlogArticle({ post, related, labels }: Props) {
         />
         <div
           aria-hidden
-          className="pointer-events-none absolute -right-32 -top-32 h-[460px] w-[460px] rounded-full bg-gold-500/15 blur-[140px] blob-1"
+          className="pointer-events-none absolute -right-32 -top-40 h-[520px] w-[520px] rounded-full bg-gold-500/15 blur-[160px] blob-1"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -left-40 bottom-0 h-[420px] w-[420px] rounded-full bg-cyan-accent/[0.06] blur-[140px] blob-2"
         />
 
-        <div className="relative mx-auto max-w-4xl px-6 lg:px-10">
+        <div className="relative mx-auto max-w-5xl px-6 lg:px-10">
+          {/* Back to all */}
           <Link
             href="/blog"
-            className="mb-8 inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300 transition-colors hover:text-gold-400"
+            className="hero-in hero-in-d1 mb-10 inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.24em] text-ink-300 transition-colors hover:text-gold-400"
           >
             <ChevronLeft className="h-3.5 w-3.5" strokeWidth={1.6} aria-hidden />
             {labels.back}
           </Link>
 
-          <div>
-            {post.category && (
-              <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
-                <span className="inline-block h-px w-10 bg-gold-500/60" />
-                {post.category}
-              </div>
-            )}
-            <h1 className="font-display mt-5 text-balance text-4xl font-semibold leading-[1.04] tracking-[-0.025em] text-ink-50 sm:text-5xl lg:text-[3.5rem]">
-              {post.title}
-            </h1>
-            <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink-200 lg:text-lg">
-              {post.description}
-            </p>
-            <p className="mt-8 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-400">
-              {labels.publishedOn} {formatDate(post.publishDate, post.locale)}
-              <span className="mx-3 text-ink-700">·</span>
-              {post.readingMinutes} {labels.readingTime}
-              {post.author && (
+          {/* Folio rail — issue / category strip */}
+          <div className="hero-in hero-in-d2 folio-rail mb-12">
+            <span>
+              {post.category ? (
                 <>
-                  <span className="mx-3 text-ink-700">·</span>
-                  {post.author}
+                  <span className="gold">·</span> {post.category}
+                </>
+              ) : (
+                'Folio'
+              )}
+            </span>
+            <span className="rule" aria-hidden />
+            <span>
+              № {issue}
+              {stamp && (
+                <>
+                  <span className="mx-2 text-ink-700">·</span>
+                  <span className="gold">{stamp.year}</span>
                 </>
               )}
-            </p>
+            </span>
+          </div>
+
+          {/* Title block — asymmetric grid: prose left, date stamp right */}
+          <div className="relative grid items-start gap-y-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-x-14">
+            <div className="relative">
+              <h1 className="hero-in hero-in-d3 font-display text-balance text-[2.5rem] font-semibold leading-[1.02] tracking-[-0.025em] text-ink-50 sm:text-[3.5rem] lg:text-[4.5rem] xl:text-[5.25rem]">
+                {post.title}
+              </h1>
+              <p className="hero-in hero-in-d4 mt-7 max-w-2xl text-balance text-base leading-relaxed text-ink-200 sm:text-lg lg:mt-8 lg:text-xl">
+                {post.description}
+              </p>
+            </div>
+
+            {/* Vertical Roman date stamp — desktop only, sits to the right of the title */}
+            {stamp && (
+              <div className="hero-in hero-in-d3 hidden lg:block">
+                <div className="folio-stamp pt-2">
+                  <span className="edge" aria-hidden />
+                  <span className="day">{stamp.day}</span>
+                  <span className="month">{stamp.month}</span>
+                  <span className="year">{stamp.year}</span>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Ornamental divider */}
+          <div className="hero-in hero-in-d5 ornament-divider" aria-hidden>
+            <span className="glyph">✦</span>
+          </div>
+
+          {/* Byline band */}
+          <div className="hero-in hero-in-d6 byline-band">
+            {post.author && (
+              <>
+                <span>
+                  <strong>{post.author}</strong>
+                </span>
+                <span className="sep" aria-hidden>—</span>
+              </>
+            )}
+            <span>{labels.publishedOn} {formatDate(post.publishDate, post.locale)}</span>
+            <span className="sep" aria-hidden>—</span>
+            <span className="reading-seal">
+              {post.readingMinutes} {labels.readingTime}
+            </span>
           </div>
         </div>
       </section>
 
-      {/* Cover image */}
+      {/* Optional cover image — only renders when explicitly provided */}
       {post.coverImage && (
-        <div className="mx-auto max-w-4xl px-6 lg:px-10 -mt-4 mb-4 sm:-mt-6 sm:mb-6">
-          <div className="relative aspect-[16/7] overflow-hidden rounded-2xl">
+        <div className="mx-auto max-w-4xl px-6 lg:px-10 -mt-6 mb-2 sm:-mt-8 sm:mb-4">
+          <div className="relative aspect-[16/7] overflow-hidden rounded-2xl ring-1 ring-gold-500/20 shadow-elite">
             <Image
               src={post.coverImage}
               alt={post.title}
@@ -104,10 +196,10 @@ export function BlogArticle({ post, related, labels }: Props) {
         </div>
       )}
 
-      {/* Body */}
+      {/* === Body === */}
       <section className="relative pb-20 sm:pb-24 lg:pb-32">
         <div className="mx-auto max-w-3xl px-6 lg:px-10">
-          <article className="blog-prose flex flex-col gap-6 text-base leading-relaxed text-ink-200">
+          <article className="blog-prose flex flex-col gap-6 text-base leading-relaxed text-ink-200 lg:text-[17px]">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               rehypePlugins={[rehypeSlug]}
@@ -116,7 +208,7 @@ export function BlogArticle({ post, related, labels }: Props) {
                 h2: ({ children, id }) => (
                   <h2
                     id={id}
-                    className="scroll-mt-28 font-display mt-10 text-2xl font-semibold leading-tight text-ink-50 sm:text-3xl"
+                    className="scroll-mt-28 font-display mt-12 text-2xl font-semibold leading-tight text-ink-50 sm:text-[1.875rem]"
                   >
                     {children}
                   </h2>
@@ -124,7 +216,7 @@ export function BlogArticle({ post, related, labels }: Props) {
                 h3: ({ children, id }) => (
                   <h3
                     id={id}
-                    className="scroll-mt-28 font-display mt-8 text-xl font-semibold text-ink-50 sm:text-2xl"
+                    className="scroll-mt-28 font-display mt-9 text-xl font-semibold text-ink-50 sm:text-2xl"
                   >
                     {children}
                   </h3>
@@ -132,13 +224,15 @@ export function BlogArticle({ post, related, labels }: Props) {
                 h4: ({ children, id }) => (
                   <h4
                     id={id}
-                    className="scroll-mt-28 mt-6 text-lg font-semibold text-ink-100"
+                    className="scroll-mt-28 mt-7 font-mono text-[12px] uppercase tracking-[0.18em] text-gold-300"
                   >
                     {children}
                   </h4>
                 ),
                 p: ({ children }) => (
-                  <p className="text-base leading-relaxed text-ink-200">{children}</p>
+                  <p className="text-base leading-relaxed text-ink-200 lg:text-[17px] lg:leading-[1.78]">
+                    {children}
+                  </p>
                 ),
                 strong: ({ children }) => (
                   <strong className="font-semibold text-ink-50">{children}</strong>
@@ -146,14 +240,14 @@ export function BlogArticle({ post, related, labels }: Props) {
                 em: ({ children }) => <em className="italic text-ink-100">{children}</em>,
                 ul: ({ children }) => (
                   <ul
-                    className="flex flex-col gap-2 pl-5"
+                    className="flex flex-col gap-2 pl-5 marker:text-gold-400"
                     style={{ listStyleType: '"— "' }}
                   >
                     {children}
                   </ul>
                 ),
                 ol: ({ children }) => (
-                  <ol className="ml-5 list-decimal space-y-2 marker:text-gold-400">
+                  <ol className="ml-5 list-decimal space-y-2 marker:text-gold-400 marker:font-mono marker:text-[0.85em]">
                     {children}
                   </ol>
                 ),
@@ -182,12 +276,8 @@ export function BlogArticle({ post, related, labels }: Props) {
                     </a>
                   );
                 },
-                hr: () => <hr className="my-10 border-0 border-t hairline" />,
-                blockquote: ({ children }) => (
-                  <blockquote className="border-l-2 border-gold-500/60 pl-5 italic text-ink-100">
-                    {children}
-                  </blockquote>
-                ),
+                hr: () => <hr className="editorial" />,
+                blockquote: ({ children }) => <blockquote>{children}</blockquote>,
                 code: ({ children }) => (
                   <code className="rounded bg-ink-900/70 px-1.5 py-0.5 font-mono text-[0.92em] text-gold-200">
                     {children}
@@ -218,28 +308,46 @@ export function BlogArticle({ post, related, labels }: Props) {
             </ReactMarkdown>
           </article>
 
+          {/* End-of-article ornament */}
+          <div className="ornament-divider mt-16" aria-hidden>
+            <span className="glyph">✦ ✦ ✦</span>
+          </div>
+
           {related.length > 0 && (
-            <aside className="mt-16 border-t hairline pt-10">
-              <p className="mb-6 font-mono text-[11px] uppercase tracking-[0.25em] text-ink-400">
-                {labels.related}
-              </p>
+            <aside className="mt-12">
+              <div className="mb-8 flex items-baseline gap-4">
+                <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-gold-300">
+                  {labels.related}
+                </span>
+                <span className="h-px flex-1 bg-gradient-to-r from-gold-500/40 to-transparent" aria-hidden />
+              </div>
               <ul className="grid gap-5 sm:grid-cols-2">
-                {related.map((r) => (
+                {related.map((r, i) => (
                   <li key={r.slug}>
                     <Link
                       href={`/blog/${r.slug}`}
-                      className="group flex h-full flex-col gap-2 rounded-2xl border hairline bg-ink-900/40 p-5 transition-colors hover:bg-ink-900/70"
+                      className="group relative flex h-full flex-col gap-3 overflow-hidden rounded-2xl border hairline bg-ink-900/40 p-6 transition-all duration-300 hover:border-gold-500/40 hover:bg-ink-900/70 hover:shadow-elite"
                     >
+                      <span
+                        aria-hidden
+                        className="pointer-events-none absolute -right-8 -top-8 font-display text-[6rem] font-semibold leading-none text-gold-500/[0.06] transition-colors duration-300 group-hover:text-gold-500/[0.14]"
+                      >
+                        {(i + 1).toString().padStart(2, '0')}
+                      </span>
                       {r.category && (
-                        <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-gold-400">
+                        <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-gold-400">
                           {r.category}
                         </span>
                       )}
-                      <span className="font-display text-lg font-semibold leading-snug text-ink-50 transition-colors group-hover:text-gold-300">
+                      <span className="font-display text-lg font-semibold leading-snug text-ink-50 transition-colors group-hover:text-gold-300 sm:text-xl">
                         {r.title}
                       </span>
                       <span className="text-sm leading-relaxed text-ink-300">
                         {r.description}
+                      </span>
+                      <span className="mt-1 inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-ink-400 transition-colors group-hover:text-gold-300">
+                        <span className="h-px w-6 bg-current transition-all duration-300 group-hover:w-10" aria-hidden />
+                        {r.readingMinutes} {labels.readingTime}
                       </span>
                     </Link>
                   </li>
