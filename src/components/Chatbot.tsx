@@ -37,6 +37,8 @@ const TEASE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 const TEASE_KEY = 'lw-chat-tease-shown-at';
 const CONSENT_KEY = 'lw-chat-consent-v2';
 const CONSENT_TTL_MS = 365 * 24 * 60 * 60 * 1000; // 1 year
+const SESSION_MESSAGES_KEY = 'lw-chat-messages';
+const SESSION_OPEN_KEY = 'lw-chat-open';
 
 function consentAlreadyGiven(): boolean {
   if (typeof window === 'undefined') return false;
@@ -74,6 +76,45 @@ function markTeaseShown() {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function loadSessionMessages(): any[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const raw = window.sessionStorage.getItem(SESSION_MESSAGES_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function saveSessionMessages(messages: any[]) {
+  if (typeof window === 'undefined') return;
+  try {
+    window.sessionStorage.setItem(SESSION_MESSAGES_KEY, JSON.stringify(messages));
+  } catch { /* ignore */ }
+}
+
+function loadSessionOpen(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    return window.sessionStorage.getItem(SESSION_OPEN_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function saveSessionOpen(open: boolean) {
+  if (typeof window === 'undefined') return;
+  try {
+    if (open) {
+      window.sessionStorage.setItem(SESSION_OPEN_KEY, '1');
+    } else {
+      window.sessionStorage.removeItem(SESSION_OPEN_KEY);
+    }
+  } catch { /* ignore */ }
+}
+
 export function Chatbot() {
   const t = useTranslations('Chat');
   const locale = useLocale();
@@ -84,14 +125,21 @@ export function Chatbot() {
   const [consentChecked, setConsentChecked] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  // Restore consent from localStorage on mount
+  // Restore consent and session state from storage on mount
   useEffect(() => {
     setConsentGiven(consentAlreadyGiven());
+    if (loadSessionOpen()) setOpen(true);
   }, []);
 
   const { messages, input, handleInputChange, handleSubmit, status, error } = useChat({
-    api: '/api/chat'
+    api: '/api/chat',
+    initialMessages: loadSessionMessages(),
   });
+
+  // Persist messages to sessionStorage whenever they change
+  useEffect(() => {
+    if (messages.length > 0) saveSessionMessages(messages);
+  }, [messages]);
 
   // Auto-scroll to bottom when messages arrive or panel opens
   useEffect(() => {
@@ -139,6 +187,11 @@ export function Chatbot() {
       window.removeEventListener('scroll', onScroll);
     };
   }, [open, reduce]);
+
+  // Persist open state to sessionStorage
+  useEffect(() => {
+    saveSessionOpen(open);
+  }, [open]);
 
   // Opening the chat dismisses the tease
   const openChat = useCallback(() => {

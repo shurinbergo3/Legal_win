@@ -6,18 +6,25 @@ import { ArrowUpRight, Fingerprint, FileText, Building2, Home, Plane } from 'luc
 import type { LucideIcon } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { slugFromName } from '@/lib/services/slug-map';
-import { cn } from '@/lib/cn';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 type GroupKey = 'immigration' | 'documents' | 'business' | 'realestate' | 'relocation';
 
-const groupMeta: Record<GroupKey, { Icon: LucideIcon; tone: string }> = {
-  immigration: { Icon: Fingerprint, tone: 'from-gold-500/10' },
-  documents: { Icon: FileText, tone: 'from-cyan-accent/10' },
-  business: { Icon: Building2, tone: 'from-gold-500/10' },
-  realestate: { Icon: Home, tone: 'from-ink-400/10' },
-  relocation: { Icon: Plane, tone: 'from-cyan-accent/10' }
+type GlowConfig = {
+  Icon: LucideIcon;
+  rgb: string;
+  spotOpacity: number;
+  lineOpacity: number;
+  ambientOpacity: number;
+};
+
+const groupMeta: Record<GroupKey, GlowConfig> = {
+  immigration: { Icon: Fingerprint, rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
+  documents:   { Icon: FileText,    rgb: '34, 211, 238',  spotOpacity: 0.13, lineOpacity: 0.75, ambientOpacity: 0.04  },
+  business:    { Icon: Building2,   rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
+  realestate:  { Icon: Home,        rgb: '148, 163, 184', spotOpacity: 0.10, lineOpacity: 0.6,  ambientOpacity: 0.03  },
+  relocation:  { Icon: Plane,       rgb: '34, 211, 238',  spotOpacity: 0.13, lineOpacity: 0.75, ambientOpacity: 0.04  },
 };
 
 const groupOrder: GroupKey[] = [
@@ -70,7 +77,7 @@ export function Services() {
 function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }) {
   const t = useTranslations(`Services.groups.${groupKey}`);
   const tRoot = useTranslations('Services');
-  const { Icon, tone } = groupMeta[groupKey];
+  const { Icon, rgb, spotOpacity, lineOpacity, ambientOpacity } = groupMeta[groupKey];
 
   const number = t('number');
   const title = t('title');
@@ -85,13 +92,40 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
       transition={{ duration: 0.8, ease, delay: (index % 3) * 0.05 }}
       className="group relative border-t hairline py-14 lg:py-20"
     >
+      {/* Layer 1: always-visible ambient — anchored left, not centered */}
       <div
         aria-hidden
-        className={cn(
-          'pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b opacity-0 transition-opacity duration-700 group-hover:opacity-100',
-          tone,
-          'to-transparent'
-        )}
+        className="pointer-events-none absolute inset-x-0 top-0 h-56"
+        style={{
+          background: `radial-gradient(ellipse 48% 100% at 14% 0%, rgba(${rgb}, ${ambientOpacity}) 0%, transparent 70%)`
+        }}
+      />
+
+      {/* Layer 2: hover — luminous hairline along the border-top, peaks left-of-center */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-px opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+        style={{
+          background: `linear-gradient(90deg,
+            rgba(${rgb}, 0) 0%,
+            rgba(${rgb}, ${lineOpacity * 0.6}) 18%,
+            rgba(${rgb}, ${lineOpacity}) 38%,
+            rgba(${rgb}, ${lineOpacity}) 52%,
+            rgba(${rgb}, ${lineOpacity * 0.6}) 72%,
+            rgba(${rgb}, 0) 100%)`
+        }}
+      />
+
+      {/* Layer 3: hover — elliptical spot light, anchored at the left content column */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-80 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+        style={{
+          background: `radial-gradient(ellipse 52% 100% at 14% 0%,
+            rgba(${rgb}, ${spotOpacity}) 0%,
+            rgba(${rgb}, ${spotOpacity * 0.35}) 40%,
+            transparent 70%)`
+        }}
       />
 
       <div className="relative grid grid-cols-12 gap-x-6 gap-y-10">
