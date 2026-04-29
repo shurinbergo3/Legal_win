@@ -25,69 +25,33 @@ function formatDate(iso: string, locale: string): string {
   }
 }
 
-function CategoryThumbnail({ category, coverImage }: { category?: string; coverImage?: string }) {
-  if (coverImage) {
-    return (
-      <div className="relative aspect-[16/7] overflow-hidden rounded-xl">
-        <Image
-          src={coverImage}
-          alt=""
-          fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
-          sizes="(max-width: 768px) 100vw, 800px"
-        />
-        <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink-950/60 to-transparent" />
-      </div>
-    );
-  }
+function categoryImage(category?: string, coverImage?: string): string {
+  if (coverImage) return coverImage;
+  const cat = (category ?? '').toLowerCase();
+  if (cat.includes('иммигр') || cat.includes('immigr')) return '/cities/city-2.jpg';
+  if (cat.includes('бизн') || cat.includes('busin')) return '/cities/city-5.jpg';
+  return '/cities/city-6.jpg';
+}
 
-  const cat = category?.toLowerCase() ?? '';
-  const isImmigration = cat.includes('иммигр') || cat.includes('immigr');
-  const isBusiness = cat.includes('бизн') || cat.includes('busin');
-
+function CardThumbnail({ category, coverImage }: { category?: string; coverImage?: string }) {
+  const src = categoryImage(category, coverImage);
   return (
-    <div className="relative aspect-[16/7] overflow-hidden rounded-xl border hairline bg-ink-900/70">
-      {/* Subtle grid */}
+    <div className="relative aspect-[16/7] overflow-hidden rounded-xl">
+      <Image
+        src={src}
+        alt=""
+        fill
+        className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+        sizes="(max-width: 768px) 100vw, 800px"
+      />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.06]"
-        style={{
-          backgroundImage:
-            'linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)',
-          backgroundSize: '40px 40px'
-        }}
+        className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-ink-950/20 to-transparent"
       />
-      {/* Ambient glow */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-gold-500/20 blur-3xl transition-opacity duration-500 opacity-60 group-hover:opacity-100"
-      />
-      {/* Category icon */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        {isImmigration ? (
-          <svg viewBox="0 0 80 80" fill="none" className="h-16 w-16 text-gold-400/30 transition-colors duration-500 group-hover:text-gold-400/50" aria-hidden>
-            <circle cx="40" cy="30" r="14" stroke="currentColor" strokeWidth="1.5" />
-            <path d="M16 68c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            <path d="M54 40l8-8m0 0l-8-8m8 8H46" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        ) : isBusiness ? (
-          <svg viewBox="0 0 80 80" fill="none" className="h-16 w-16 text-gold-400/30 transition-colors duration-500 group-hover:text-gold-400/50" aria-hidden>
-            <rect x="12" y="28" width="56" height="40" rx="3" stroke="currentColor" strokeWidth="1.5" />
-            <path d="M28 28V20a12 12 0 0 1 24 0v8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            <path d="M12 44h56" stroke="currentColor" strokeWidth="1.5" />
-            <circle cx="40" cy="44" r="4" fill="currentColor" opacity="0.4" />
-          </svg>
-        ) : (
-          <svg viewBox="0 0 80 80" fill="none" className="h-16 w-16 text-gold-400/30 transition-colors duration-500 group-hover:text-gold-400/50" aria-hidden>
-            <rect x="18" y="12" width="44" height="56" rx="3" stroke="currentColor" strokeWidth="1.5" />
-            <path d="M28 28h24M28 38h24M28 48h16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-          </svg>
-        )}
-      </div>
       {category && (
-        <div className="absolute bottom-3 left-4 font-mono text-[10px] uppercase tracking-[0.28em] text-gold-400/70">
+        <span className="absolute bottom-3 left-4 font-mono text-[10px] uppercase tracking-[0.28em] text-gold-300/90">
           {category}
-        </div>
+        </span>
       )}
     </div>
   );
@@ -97,15 +61,23 @@ export function BlogIndex({ posts, labels }: Props) {
   return (
     <div className="relative">
       <section className="hero-gradient relative isolate overflow-hidden pt-32 pb-12 sm:pt-40 sm:pb-16 lg:pt-48 lg:pb-20">
+        {/* City photo hero */}
+        <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+          <Image
+            src="/cities/city-1.jpg"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+        </div>
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0"
+          className="pointer-events-none absolute inset-0 -z-10"
           style={{
-            backgroundImage: 'url(/hero/blog.png)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            opacity: 0.25
+            background:
+              'linear-gradient(180deg, rgba(5,9,26,0.75) 0%, rgba(5,9,26,0.55) 40%, rgba(5,9,26,0.82) 80%, rgba(5,9,26,0.97) 100%)'
           }}
         />
         <div
@@ -150,7 +122,7 @@ export function BlogIndex({ posts, labels }: Props) {
                     href={`/blog/${post.slug}`}
                     className="group flex flex-col gap-4 rounded-2xl border hairline bg-ink-900/40 p-6 transition-colors hover:bg-ink-900/70 sm:p-8"
                   >
-                    <CategoryThumbnail category={post.category} coverImage={post.coverImage} />
+                    <CardThumbnail category={post.category} coverImage={post.coverImage} />
 
                     <div className="flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-ink-400">
                       {post.category && (

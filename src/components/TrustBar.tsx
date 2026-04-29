@@ -37,65 +37,97 @@ export function TrustBar() {
   ];
 
   return (
-    <section className="relative isolate overflow-hidden border-y hairline bg-ink-900/40">
-      {/* Ambient accent */}
+    <section className="relative isolate overflow-hidden border-y hairline bg-ink-950">
+      {/* Noise texture */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -left-20 top-1/2 h-[360px] w-[360px] -translate-y-1/2 rounded-full bg-gold-500/[0.05] blur-[140px]"
+        className="pointer-events-none absolute inset-0 opacity-[0.018]"
+        style={{
+          backgroundImage:
+            'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 256 256\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'n\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'4\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23n)\'/%3E%3C/svg%3E")',
+          backgroundRepeat: 'repeat',
+          backgroundSize: '128px 128px'
+        }}
       />
 
-      <div className="relative mx-auto max-w-[1400px] px-6 py-14 sm:py-16 lg:px-10 lg:py-24">
-        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.7, ease }}
-            className="col-span-12 flex flex-col gap-4 lg:col-span-4"
-          >
+      {/* Gold top rule */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute left-0 right-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/70 to-transparent"
+      />
+
+      {/* ── Header strip ── */}
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-80px' }}
+        transition={{ duration: 0.65, ease }}
+        className="relative border-b hairline"
+      >
+        <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
+          <div className="flex flex-col gap-5 py-10 lg:flex-row lg:items-end lg:justify-between lg:py-12">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
-              <span className="inline-block h-px w-10 bg-gold-500/60" />
+              <span className="inline-block h-px w-8 bg-gold-500/70" />
               2019 — 2026
             </div>
-            <h2 className="font-display display-size font-semibold text-balance text-ink-50">
+            <h2 className="font-display text-2xl font-semibold text-ink-50 sm:text-3xl lg:text-4xl">
               {t('title')}
             </h2>
-            <p className="max-w-sm text-sm leading-relaxed text-ink-300">
+            <p className="max-w-xs text-sm leading-relaxed text-ink-400 lg:text-right">
               {t('subtitle')}
             </p>
-          </motion.div>
-
-          <div className="col-span-12 grid grid-cols-2 gap-px overflow-hidden rounded-3xl border hairline bg-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] lg:col-span-8">
-            {stats.map((s, i) => (
-              <motion.div
-                key={s.label}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.6, ease, delay: i * 0.08 }}
-                className="group relative flex flex-col gap-3 bg-ink-950 p-6 transition-colors duration-500 hover:bg-ink-900 sm:p-7"
-              >
-                {/* Hover gold halo */}
-                <div
-                  aria-hidden
-                  className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-gold-500/[0.06] opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100"
-                />
-                <div className="relative flex items-baseline gap-1 font-display text-[clamp(2.75rem,6vw,4.5rem)] font-semibold leading-none text-ink-50">
-                  <CountUp to={s.value} />
-                  <span className="text-gold-400">{s.suffix}</span>
-                </div>
-                <div className="text-xs uppercase tracking-[0.2em] text-ink-300">
-                  {s.label}
-                </div>
-                <div className="mt-auto pt-4 text-[11px] leading-relaxed text-ink-500">
-                  {s.note}
-                </div>
-                <span className="pointer-events-none absolute right-4 top-4 font-mono text-[10px] text-ink-500">
-                  / 0{i + 1}
-                </span>
-              </motion.div>
-            ))}
           </div>
+        </div>
+      </motion.div>
+
+      {/* ── Stats grid ── */}
+      <div className="relative mx-auto max-w-[1400px]">
+        {/* gap-px + parent bg = hairline dividers between cells */}
+        <div className="grid grid-cols-2 gap-px bg-[color-mix(in_oklab,var(--color-ink-50)_7%,transparent)] lg:grid-cols-4">
+          {stats.map((s, i) => (
+            <motion.div
+              key={s.label}
+              initial={{ opacity: 0, y: 32 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-50px' }}
+              transition={{ duration: 0.7, ease, delay: i * 0.1 }}
+              className="group relative flex flex-col bg-ink-950 px-7 py-12 transition-colors duration-500 hover:bg-[color-mix(in_oklab,var(--color-ink-900)_50%,var(--color-ink-950))] lg:px-10 lg:py-16"
+            >
+              {/* Ambient gold halo on hover */}
+              <div
+                aria-hidden
+                className="pointer-events-none absolute -right-24 -top-24 h-56 w-56 rounded-full bg-gold-500/[0.06] opacity-0 blur-[80px] transition-opacity duration-700 group-hover:opacity-100"
+              />
+
+              {/* Index — top left */}
+              <span className="mb-6 font-mono text-[10px] text-ink-600 lg:mb-8">
+                / 0{i + 1}
+              </span>
+
+              {/* Number — typographically dominant */}
+              <div
+                className="flex items-baseline gap-1 font-display font-semibold leading-[0.9] tracking-tight text-ink-50 transition-colors duration-500 group-hover:text-white"
+                style={{ fontSize: 'clamp(3.75rem, 9vw, 8rem)' }}
+              >
+                <CountUp to={s.value} />
+                {s.suffix && (
+                  <span className="text-gold-400" style={{ fontSize: '0.55em' }}>
+                    {s.suffix}
+                  </span>
+                )}
+              </div>
+
+              {/* Label */}
+              <div className="mt-6 text-[10px] uppercase tracking-[0.28em] text-ink-400 lg:mt-8">
+                {s.label}
+              </div>
+
+              {/* Note — anchored to bottom */}
+              <div className="mt-auto border-t hairline pt-5 text-[11px] leading-relaxed text-ink-500">
+                {s.note}
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
