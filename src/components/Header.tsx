@@ -10,7 +10,7 @@ import { ThemisScales } from './ThemisScales';
 import { cn } from '@/lib/cn';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
-const sections = ['services', 'pricing', 'cases', 'team', 'process', 'faq', 'contact'] as const;
+const sections = ['services', 'pricing', 'cases', 'process', 'faq', 'contact'] as const;
 
 export function Header() {
   const t = useTranslations('Nav');

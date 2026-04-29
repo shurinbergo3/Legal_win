@@ -41,8 +41,16 @@ export function Services() {
   const t = useTranslations('Services');
 
   return (
-    <section id="services" className="relative py-28 lg:py-40">
-      <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
+    <section id="services" className="relative isolate overflow-hidden py-28 lg:py-40">
+      {/* Editorial giant "§" watermark — the legal section sign as a quiet authority mark */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-12 right-2 select-none font-display text-[clamp(12rem,26vw,26rem)] font-semibold leading-none text-gold-500/[0.05] sm:right-8"
+      >
+        §
+      </div>
+
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         {/* Section heading */}
         <div className="mb-20 grid grid-cols-12 gap-x-0 gap-y-8 lg:mb-28 lg:gap-x-8">
           <div className="col-span-12 flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">

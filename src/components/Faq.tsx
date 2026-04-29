@@ -16,8 +16,16 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="relative border-t hairline bg-ink-900/30 py-28 lg:py-36">
-      <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
+    <section id="faq" className="relative isolate overflow-hidden border-t hairline bg-ink-900/30 py-28 lg:py-36">
+      {/* Editorial giant "?" watermark — pair to the “ glyph in Testimonials */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-10 right-2 select-none font-display text-[clamp(12rem,26vw,26rem)] font-semibold leading-none text-gold-500/[0.06] sm:right-8"
+      >
+        ?
+      </div>
+
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
           <motion.div
             initial={{ opacity: 0, y: 16 }}

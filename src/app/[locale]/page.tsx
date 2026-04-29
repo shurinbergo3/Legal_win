@@ -7,7 +7,6 @@ import { TrustBar } from '@/components/TrustBar';
 import { Services } from '@/components/Services';
 import { Pricing } from '@/components/Pricing';
 import { Cases } from '@/components/Cases';
-import { Team } from '@/components/Team';
 import { Testimonials } from '@/components/Testimonials';
 import { Process } from '@/components/Process';
 import { Faq } from '@/components/Faq';
@@ -43,7 +42,6 @@ export default async function HomePage({
         <Services />
         <Pricing />
         <Cases />
-        <Team />
         <Testimonials />
         <Process />
         <Faq />
