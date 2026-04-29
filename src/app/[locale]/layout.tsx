@@ -140,7 +140,9 @@ export async function generateMetadata({
         'max-video-preview': -1
       }
     },
-    icons: { icon: '/favicon.svg' }
+    // Bump the `?v=` query whenever favicon.svg changes — browsers cache
+    // favicons aggressively and won't refetch on a hard reload otherwise.
+    icons: { icon: '/favicon.svg?v=3' }
   };
 }
 
