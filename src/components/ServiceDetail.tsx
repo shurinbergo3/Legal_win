@@ -109,12 +109,12 @@ export function ServiceDetail({
 /* ---------- Hero ---------- */
 
 const servicePhotos: Record<string, string> = {
-  'karta-pobytu':           '/cities/city-7.jpg',
-  'karta-stalego-pobytu':   '/cities/city-8.jpg',
-  'obywatelstwo':           '/cities/city-3.jpg',
-  'kod-95':                 '/cities/city-4.jpg',
-  'apelacje':               '/cities/city-5.jpg',
-  'ochrona-miedzynarodowa': '/cities/city-6.jpg',
+  'karta-pobytu':           '/cities/city-7.webp',
+  'karta-stalego-pobytu':   '/cities/city-8.webp',
+  'obywatelstwo':           '/cities/city-3.webp',
+  'kod-95':                 '/cities/city-4.webp',
+  'apelacje':               '/cities/city-5.webp',
+  'ochrona-miedzynarodowa': '/cities/city-6.webp',
 };
 
 function DetailHero({
@@ -128,7 +128,7 @@ function DetailHero({
   servicesEyebrow: string;
   backLabel: string;
 }) {
-  const photo = servicePhotos[content.slug] ?? '/cities/city-2.jpg';
+  const photo = servicePhotos[content.slug] ?? '/cities/city-2.webp';
 
   return (
     <section className="hero-gradient relative isolate overflow-hidden pt-36 pb-20 lg:pt-44 lg:pb-28">

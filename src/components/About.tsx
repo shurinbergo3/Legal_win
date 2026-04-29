@@ -26,7 +26,7 @@ export function About() {
           >
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
               <Image
-                src="/about/rondo.jpg"
+                src="/about/rondo.webp"
                 alt="Варшава, Польша"
                 fill
                 className="object-cover object-center"

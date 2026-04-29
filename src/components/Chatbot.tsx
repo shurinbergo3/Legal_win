@@ -12,7 +12,7 @@ import ReactMarkdown from 'react-markdown';
 // Operator portrait — drop the photo at public/chatbot/operator.jpg.
 // Used in the floating toggle, the panel header, and beside each
 // assistant message for a "live operator" feel.
-const OPERATOR_AVATAR = '/chatbot/operator.png';
+const OPERATOR_AVATAR = '/chatbot/operator.webp';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 

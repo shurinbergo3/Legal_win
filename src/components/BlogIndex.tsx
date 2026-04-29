@@ -33,7 +33,7 @@ export function BlogIndex({ posts, labels }: Props) {
         {/* City photo hero */}
         <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
           <Image
-            src="/cities/city-1.jpg"
+            src="/cities/city-1.webp"
             alt=""
             fill
             priority

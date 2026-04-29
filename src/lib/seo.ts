@@ -15,7 +15,7 @@ export const ORG_LAT = 52.2376;
 export const ORG_LNG = 21.0061;
 export const ORG_FOUNDED = '2019';
 
-export const OG_IMAGE_PATH = '/hero/staruwka.jpg';
+export const OG_IMAGE_PATH = '/hero/staruwka.webp';
 export const OG_IMAGE_WIDTH = 1600;
 export const OG_IMAGE_HEIGHT = 900;
 
