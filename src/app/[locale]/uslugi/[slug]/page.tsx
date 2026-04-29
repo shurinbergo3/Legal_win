@@ -177,6 +177,241 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'driving licence exchange Poland',
       'professional driver qualification Poland'
     ]
+  },
+  'pesel': {
+    ru: [
+      'оформление PESEL',
+      'PESEL для иностранца',
+      'PESEL Польша',
+      'PESEL для трудоустройства',
+      'PESEL UKR',
+      'ePUAP profil zaufany',
+      'mObywatel Польша',
+      'PESEL онлайн Варшава'
+    ],
+    pl: [
+      'PESEL dla cudzoziemca',
+      'nadanie numeru PESEL',
+      'wniosek o PESEL',
+      'PESEL UKR',
+      'PESEL w celu zatrudnienia',
+      'profil zaufany ePUAP',
+      'mObywatel',
+      'kancelaria PESEL Warszawa'
+    ],
+    en: [
+      'PESEL Poland',
+      'PESEL for foreigners',
+      'Polish national ID number',
+      'PESEL UKR',
+      'ePUAP profil zaufany',
+      'mObywatel app',
+      'PESEL application Warsaw'
+    ]
+  },
+  'meldunek': {
+    ru: [
+      'meldunek в Польше',
+      'прописка иностранца Польша',
+      'zameldowanie na pobyt czasowy',
+      'регистрация места жительства Польша',
+      'meldunek для TRC',
+      'прописка Варшава иностранец',
+      'юридический адрес для бизнеса Варшава'
+    ],
+    pl: [
+      'meldunek cudzoziemca',
+      'zameldowanie na pobyt czasowy',
+      'zameldowanie na pobyt stały',
+      'zaświadczenie o zameldowaniu',
+      'meldunek do TRC MOS v2.0',
+      'kancelaria meldunek Warszawa',
+      'adres firmowy Warszawa'
+    ],
+    en: [
+      'meldunek Poland',
+      'residence registration Poland',
+      'zameldowanie for foreigners',
+      'temporary residence registration Warsaw',
+      'business address Poland',
+      'meldunek certificate'
+    ]
+  },
+  'akty-stanu-cywilnego': {
+    ru: [
+      'свидетельство о рождении Польша',
+      'свидетельство о браке Польша',
+      'umiejscowienie aktu',
+      'USC Варшава',
+      'akty stanu cywilnego',
+      'odpis aktu urodzenia',
+      'признание иностранного свидетельства Польша',
+      'BUSC Варшава'
+    ],
+    pl: [
+      'akty stanu cywilnego',
+      'umiejscowienie aktu zagranicznego',
+      'odpis aktu urodzenia',
+      'odpis aktu małżeństwa',
+      'kierownik USC Warszawa',
+      'BUSC Warszawa',
+      'kancelaria USC Warszawa'
+    ],
+    en: [
+      'Polish civil status records',
+      'birth certificate Poland',
+      'marriage certificate Poland',
+      'foreign act recognition Poland',
+      'umiejscowienie',
+      'USC Warsaw'
+    ]
+  },
+  'apostille': {
+    ru: [
+      'apostille Польша',
+      'апостиль на польские документы',
+      'легализация документов Польша',
+      'MSZ apostille Варшава',
+      'apostille на свидетельство USC',
+      'apostille на KRS',
+      'apostille на диплом',
+      'Конвенция Гаага 1961'
+    ],
+    pl: [
+      'apostille MSZ',
+      'legalizacja dokumentów Polska',
+      'apostille na akty USC',
+      'apostille na wypis KRS',
+      'apostille na dyplomy MEiN',
+      'Konwencja Haska 1961',
+      'kancelaria apostille Warszawa'
+    ],
+    en: [
+      'apostille Poland',
+      'document legalisation Poland',
+      'apostille MSZ',
+      'Hague Convention 1961',
+      'apostille KRS extract',
+      'apostille USC certificate',
+      'apostille diploma Poland'
+    ]
+  },
+  'wymiana-prawa-jazdy': {
+    ru: [
+      'обмен водительских прав в Польше',
+      'обмен украинских прав на польские',
+      'обмен белорусских прав Польша',
+      'обмен российских прав Польша',
+      'wymiana prawa jazdy',
+      'присяжный перевод водительских прав',
+      'WORD egzamin teoretyczny',
+      'badania lekarskie kierowcy'
+    ],
+    pl: [
+      'wymiana prawa jazdy',
+      'wymiana zagranicznego prawa jazdy',
+      'wymiana ukraińskiego prawa jazdy',
+      'wymiana białoruskiego prawa jazdy',
+      'starostwo wymiana prawa jazdy',
+      'badania lekarskie kierowcy',
+      'kancelaria prawo jazdy Warszawa'
+    ],
+    en: [
+      'driving licence exchange Poland',
+      'Ukrainian licence exchange Poland',
+      'Belarusian licence exchange Poland',
+      'foreign driving licence Poland',
+      'CIS driving licence Poland',
+      'starostwo licence exchange'
+    ]
+  },
+  'zaswiadczenia-zus-us': {
+    ru: [
+      'справка ZUS',
+      'справка US Польша',
+      'zaświadczenie o niezaleganiu',
+      'PIT-11 дубликат',
+      'ZUS RMUA',
+      'A1 ZUS',
+      'PUE ZUS',
+      'e-Urząd Skarbowy справка'
+    ],
+    pl: [
+      'zaświadczenie ZUS',
+      'zaświadczenie US',
+      'zaświadczenie o niezaleganiu',
+      'PIT-11 duplikat',
+      'ZUS RMUA',
+      'A1 zaświadczenie',
+      'PUE ZUS',
+      'e-Urząd Skarbowy'
+    ],
+    en: [
+      'ZUS certificate Poland',
+      'tax certificate Poland',
+      'no-arrears certificate',
+      'PIT-11 duplicate',
+      'A1 posted worker',
+      'PUE ZUS',
+      'e-Urząd Skarbowy'
+    ]
+  },
+  'zaswiadczenie-o-niekaralnosci': {
+    ru: [
+      'справка о несудимости Польша',
+      'KRK справка',
+      'zaświadczenie z KRK',
+      'e-KRK онлайн',
+      'справка для гражданства Польши',
+      'apostille KRK',
+      'юрист KRK Варшава'
+    ],
+    pl: [
+      'zaświadczenie o niekaralności',
+      'KRK',
+      'e-KRK',
+      'zaświadczenie z Krajowego Rejestru Karnego',
+      'KRK do obywatelstwa',
+      'KRK do karty stałego pobytu',
+      'kancelaria KRK Warszawa'
+    ],
+    en: [
+      'criminal record certificate Poland',
+      'KRK certificate',
+      'e-KRK online',
+      'Polish criminal record',
+      'KRK for citizenship',
+      'KRK apostille'
+    ]
+  },
+  'tlumaczenia-przysiegle': {
+    ru: [
+      'присяжный перевод Польша',
+      'tłumacz przysięgły',
+      'присяжный переводчик украинский',
+      'присяжный переводчик русский',
+      'присяжный перевод Варшава',
+      'TEPIS переводчик',
+      'tłumaczenie przysięgłe online',
+      'переводы для urząd Польша'
+    ],
+    pl: [
+      'tłumacz przysięgły',
+      'tłumaczenia przysięgłe',
+      'tłumacz przysięgły ukraiński',
+      'tłumacz przysięgły rosyjski',
+      'tłumacz przysięgły angielski',
+      'TEPIS Warszawa',
+      'tłumaczenie z apostille'
+    ],
+    en: [
+      'sworn translator Poland',
+      'sworn translation Polish',
+      'Ukrainian sworn translator Warsaw',
+      'Russian sworn translator Warsaw',
+      'TEPIS Warsaw',
+      'certified translation Poland'
+    ]
   }
 };
 

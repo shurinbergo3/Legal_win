@@ -26,6 +26,44 @@ const nameBySlug: Record<string, string[]> = {
     'Kod 95 (квалификация водителя)',
     'Kod 95 (kwalifikacja kierowcy)',
     'Code 95 (driver CPC)'
+  ],
+  'pesel': ['PESEL'],
+  'meldunek': ['Meldunek'],
+  'akty-stanu-cywilnego': [
+    'Акты гражданского состояния',
+    'Akty stanu cywilnego',
+    'Civil status acts',
+    'Civil status records'
+  ],
+  'apostille': [
+    'Apostille и легализация',
+    'Apostille i legalizacja',
+    'Apostille and legalisation',
+    'Apostille & legalization'
+  ],
+  'wymiana-prawa-jazdy': [
+    'Обмен водительских прав',
+    'Wymiana prawa jazdy',
+    'Driving licence exchange',
+    "Driver's licence exchange"
+  ],
+  'zaswiadczenia-zus-us': [
+    'Справки ZUS / US',
+    'Zaświadczenia ZUS / US',
+    'ZUS / US certificates',
+    'ZUS / tax certificates'
+  ],
+  'zaswiadczenie-o-niekaralnosci': [
+    'Справки о несудимости',
+    'Zaświadczenie o niekaralności',
+    'Zaświadczenia o niekaralności',
+    'Criminal record certificate',
+    'Criminal record checks'
+  ],
+  'tlumaczenia-przysiegle': [
+    'Присяжные переводы',
+    'Tłumaczenia przysięgłe',
+    'Sworn translations'
   ]
 };
 

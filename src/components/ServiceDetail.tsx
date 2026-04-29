@@ -110,12 +110,20 @@ export function ServiceDetail({
 /* ---------- Hero ---------- */
 
 const servicePhotos: Record<string, string> = {
-  'karta-pobytu':           '/cities/city-7.webp',
-  'karta-stalego-pobytu':   '/cities/city-8.webp',
-  'obywatelstwo':           '/cities/city-3.webp',
-  'kod-95':                 '/cities/city-4.webp',
-  'apelacje':               '/cities/city-5.webp',
-  'ochrona-miedzynarodowa': '/cities/city-6.webp',
+  'karta-pobytu':                  '/cities/city-7.webp',
+  'karta-stalego-pobytu':          '/cities/city-8.webp',
+  'obywatelstwo':                  '/cities/city-3.webp',
+  'kod-95':                        '/cities/city-4.webp',
+  'apelacje':                      '/cities/city-5.webp',
+  'ochrona-miedzynarodowa':        '/cities/city-6.webp',
+  'pesel':                         '/cities/city-1.webp',
+  'meldunek':                      '/cities/city-2.webp',
+  'akty-stanu-cywilnego':          '/cities/city-3.webp',
+  'apostille':                     '/cities/city-8.webp',
+  'wymiana-prawa-jazdy':           '/cities/city-4.webp',
+  'zaswiadczenia-zus-us':          '/cities/city-6.webp',
+  'zaswiadczenie-o-niekaralnosci': '/cities/city-5.webp',
+  'tlumaczenia-przysiegle':        '/cities/city-7.webp',
 };
 
 function DetailHero({
