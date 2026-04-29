@@ -1,29 +1,87 @@
 /**
- * LegalWin brand mark — "Layered Monogram".
+ * LegalWin brand mark — gold shield with LW monogram + LEGALWIN wordmark.
  *
- * Three-layer composition:
- *   1. Themis scales (back) — hairline ghosted halo (opacity 0.18)
- *   2. W (mid) — cream/ink-50, thinner stroke; W frames the canvas
- *   3. L (front) — primary gold (currentColor); L stem sits on the W's
- *      central vertical axis, L foot ends at the W's right-bottom vertex
- *
- * The L is centered inside the W: its stem coincides with the W's middle
- * peak, and its foot terminates at the W's right-bottom — the two letters
- * share that endpoint, integrating cleanly. The W "embraces" the L.
- *
- *   <LogoBadge size={32} compact />  // favicon-tier — LW only
- *   <LogoBadge size={108} />         // header — full lockup
+ *   <LogoBadge size={32} compact />  // favicon-tier — shield only
+ *   <LogoBadge size={108} />         // header — shield + wordmark + tagline
  *   <LogoBadge size={168} />         // footer / hero
  *
- * L color follows parent (currentColor); W is fixed cream so the two
- * letters remain visually distinct regardless of parent text-* class.
+ * The L and W on the shield share an identical cap height (rendered in a
+ * serif so capital letters align top and bottom).
  */
 
+import { useId } from 'react';
 import { cn } from '@/lib/cn';
 
-const W_COLOR = '#f5f7fb'; // ink-50 — cream-white, fixed accent for the W
 const FONT_STACK =
-  "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, serif";
+  "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, 'Times New Roman', serif";
+
+type GradientIds = {
+  rim: string;
+  body: string;
+  text: string;
+  shadow: string;
+};
+
+function GradientDefs({ ids }: { ids: GradientIds }) {
+  return (
+    <defs>
+      <linearGradient id={ids.rim} x1="10%" y1="0%" x2="90%" y2="100%">
+        <stop offset="0%" stopColor="#F4DA84" />
+        <stop offset="22%" stopColor="#E1BC5E" />
+        <stop offset="50%" stopColor="#9A6F1E" />
+        <stop offset="78%" stopColor="#D9B358" />
+        <stop offset="100%" stopColor="#7E5710" />
+      </linearGradient>
+      <linearGradient id={ids.text} x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#F2D779" />
+        <stop offset="50%" stopColor="#C9A84C" />
+        <stop offset="100%" stopColor="#8E6918" />
+      </linearGradient>
+      <linearGradient id={ids.body} x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#0e1a36" />
+        <stop offset="100%" stopColor="#05091a" />
+      </linearGradient>
+      <filter id={ids.shadow} x="-20%" y="-10%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="3" stdDeviation="3" floodColor="#000" floodOpacity="0.55" />
+      </filter>
+    </defs>
+  );
+}
+
+function Shield({ ids }: { ids: GradientIds }) {
+  return (
+    <g>
+      <path
+        d="M 50 24 L 270 24 Q 282 24 282 36 L 282 198 Q 282 250 160 292 Q 38 250 38 198 L 38 36 Q 38 24 50 24 Z"
+        fill={`url(#${ids.rim})`}
+        filter={`url(#${ids.shadow})`}
+      />
+      <path
+        d="M 58 34 L 262 34 Q 272 34 272 44 L 272 195 Q 272 244 160 281 Q 48 244 48 195 L 48 44 Q 48 34 58 34 Z"
+        fill={`url(#${ids.body})`}
+      />
+      <path
+        d="M 64 40 L 256 40 Q 266 40 266 50 L 266 192 Q 266 238 160 273 Q 54 238 54 192 L 54 50 Q 54 40 64 40 Z"
+        fill="none"
+        stroke={`url(#${ids.rim})`}
+        strokeWidth="0.9"
+        opacity="0.85"
+      />
+      <text
+        x="160"
+        y="200"
+        textAnchor="middle"
+        fontSize="138"
+        fontWeight="700"
+        fill={`url(#${ids.text})`}
+        letterSpacing="-4"
+        style={{ fontFamily: FONT_STACK }}
+      >
+        LW
+      </text>
+    </g>
+  );
+}
 
 export function LogoBadge({
   className,
@@ -32,9 +90,16 @@ export function LogoBadge({
 }: {
   className?: string;
   size?: number;
-  /** Strip the wordmark + tagline (use for favicon-tier sizes < 40px). */
   compact?: boolean;
 }) {
+  const uid = useId().replace(/[:]/g, '');
+  const ids: GradientIds = {
+    rim: `lw-rim-${uid}`,
+    body: `lw-body-${uid}`,
+    text: `lw-text-${uid}`,
+    shadow: `lw-shadow-${uid}`
+  };
+
   if (compact) {
     return (
       <svg
@@ -42,139 +107,63 @@ export function LogoBadge({
         viewBox="0 0 320 320"
         width={size}
         height={size}
-        className={cn('text-gold-500', className)}
+        className={cn(className)}
         role="img"
         aria-label="LegalWin"
       >
-        {/* W — wide, behind, frames the L on both sides */}
-        <path
-          d="M 40 70 L 100 250 L 160 140 L 220 250 L 280 70"
-          stroke={W_COLOR}
-          strokeWidth="22"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        {/* L — front; stem on W's central axis, foot ends at W's right-bottom */}
-        <path
-          d="M 160 70 L 160 250 L 220 250"
-          stroke="currentColor"
-          strokeWidth="28"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        <GradientDefs ids={ids} />
+        <Shield ids={ids} />
       </svg>
     );
   }
 
+  const fullHeight = Math.round((size * 420) / 320);
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 320 320"
+      viewBox="0 0 320 420"
       width={size}
-      height={size}
-      className={cn('text-gold-500', className)}
+      height={fullHeight}
+      className={cn(className)}
       role="img"
-      aria-label="LegalWin · Warszawa"
+      aria-label="LegalWin · Warszawa · Polska"
     >
-      {/* === THEMIS SCALES (background) — more legible === */}
-      <g
-        opacity="0.28"
-        stroke="currentColor"
-        fill="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        {/* Top finial */}
-        <path d="M 156 22 L 160 16 L 164 22 L 160 28 Z" stroke="none" />
-        {/* Vertical pole */}
-        <line x1="160" y1="26" x2="160" y2="200" strokeWidth="2.0" fill="none" />
-        {/* Beam (subtly arched) */}
-        <path d="M 50 76 Q 160 68 270 76" strokeWidth="3.2" fill="none" />
-        {/* Center balance diamond */}
-        <path d="M 156 72 L 160 64 L 164 72 L 160 80 Z" stroke="none" />
-        {/* Beam end caps */}
-        <circle cx="50" cy="76" r="3.5" stroke="none" />
-        <circle cx="270" cy="76" r="3.5" stroke="none" />
-        {/* Suspension chains */}
-        <line x1="50" y1="76" x2="32" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="50" y1="76" x2="50" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="50" y1="76" x2="68" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="270" y1="76" x2="252" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="270" y1="76" x2="270" y2="100" strokeWidth="1.8" fill="none" />
-        <line x1="270" y1="76" x2="288" y2="100" strokeWidth="1.8" fill="none" />
-        {/* Left pan */}
-        <ellipse cx="50" cy="104" rx="25" ry="4.5" strokeWidth="2.4" fill="none" />
-        <path d="M 25 105 Q 50 123 75 105" strokeWidth="2.4" fill="none" />
-        {/* Right pan */}
-        <ellipse cx="270" cy="104" rx="25" ry="4.5" strokeWidth="2.4" fill="none" />
-        <path d="M 245 105 Q 270 123 295 105" strokeWidth="2.4" fill="none" />
-      </g>
+      <GradientDefs ids={ids} />
+      <Shield ids={ids} />
 
-      {/* === W (mid layer, cream) — editorial: thin stroke, flat caps, miter corners === */}
-      <path
-        d="M 50 50 L 108 200 L 160 114 L 212 200 L 270 50"
-        stroke={W_COLOR}
-        strokeWidth="12"
-        fill="none"
-        strokeLinecap="butt"
-        strokeLinejoin="miter"
-      />
-      {/* W serif accents — small horizontal bars at all four terminals */}
-      <line x1="42" y1="50" x2="58" y2="50" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-      <line x1="262" y1="50" x2="278" y2="50" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-      <line x1="100" y1="200" x2="116" y2="200" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-      <line x1="204" y1="200" x2="220" y2="200" stroke={W_COLOR} strokeWidth="5" strokeLinecap="butt" />
-
-      {/* === L (front layer, gold) — editorial: thinner, flat caps, miter corner === */}
-      <path
-        d="M 160 50 L 160 200 L 212 200"
-        stroke="currentColor"
-        strokeWidth="16"
-        fill="none"
-        strokeLinecap="butt"
-        strokeLinejoin="miter"
-      />
-      {/* L serif accents */}
-      <line x1="151" y1="50" x2="169" y2="50" stroke="currentColor" strokeWidth="6.5" strokeLinecap="butt" />
-      <line x1="212" y1="192" x2="212" y2="208" stroke="currentColor" strokeWidth="6.5" strokeLinecap="butt" />
-
-      {/* === WORDMARK: LEGALWIN === */}
       <text
         x="160"
-        y="232"
+        y="345"
         textAnchor="middle"
-        fontSize="22"
+        fontSize="36"
         fontWeight="500"
-        fill="currentColor"
-        letterSpacing="5.4"
+        fill={`url(#${ids.text})`}
+        letterSpacing="6"
         style={{ fontFamily: FONT_STACK }}
       >
         LEGALWIN
       </text>
 
-      {/* Hairline divider */}
       <line
-        x1="116"
-        y1="252"
-        x2="204"
-        y2="252"
-        stroke="currentColor"
-        strokeWidth="0.6"
-        opacity="0.45"
+        x1="118"
+        y1="365"
+        x2="202"
+        y2="365"
+        stroke={`url(#${ids.rim})`}
+        strokeWidth="1"
+        opacity="0.65"
       />
 
-      {/* === TAGLINE === */}
       <text
         x="160"
-        y="270"
+        y="395"
         textAnchor="middle"
-        fontSize="8.5"
+        fontSize="13"
         fontWeight="500"
-        fill="currentColor"
-        letterSpacing="4.2"
-        opacity="0.62"
+        fill={`url(#${ids.text})`}
+        letterSpacing="6"
+        opacity="0.9"
         style={{ fontFamily: FONT_STACK }}
       >
         WARSZAWA · POLSKA

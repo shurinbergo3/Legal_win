@@ -1,54 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="800" height="800">
-  <!-- LegalWin "Layered Monogram" — ink L + mid-gray W + Themis halo (light surfaces) -->
-
-  <!-- THEMIS SCALES (background, opacity 0.28 for legibility) -->
-  <g opacity="0.28" stroke="#0a1021" fill="#0a1021" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 156 22 L 160 16 L 164 22 L 160 28 Z" stroke="none"/>
-    <line x1="160" y1="26" x2="160" y2="200" stroke-width="2.0" fill="none"/>
-    <path d="M 50 76 Q 160 68 270 76" stroke-width="3.2" fill="none"/>
-    <path d="M 156 72 L 160 64 L 164 72 L 160 80 Z" stroke="none"/>
-    <circle cx="50" cy="76" r="3.5" stroke="none"/>
-    <circle cx="270" cy="76" r="3.5" stroke="none"/>
-    <line x1="50" y1="76" x2="32" y2="100" stroke-width="1.8" fill="none"/>
-    <line x1="50" y1="76" x2="50" y2="100" stroke-width="1.8" fill="none"/>
-    <line x1="50" y1="76" x2="68" y2="100" stroke-width="1.8" fill="none"/>
-    <line x1="270" y1="76" x2="252" y2="100" stroke-width="1.8" fill="none"/>
-    <line x1="270" y1="76" x2="270" y2="100" stroke-width="1.8" fill="none"/>
-    <line x1="270" y1="76" x2="288" y2="100" stroke-width="1.8" fill="none"/>
-    <ellipse cx="50" cy="104" rx="25" ry="4.5" stroke-width="2.4" fill="none"/>
-    <path d="M 25 105 Q 50 123 75 105" stroke-width="2.4" fill="none"/>
-    <ellipse cx="270" cy="104" rx="25" ry="4.5" stroke-width="2.4" fill="none"/>
-    <path d="M 245 105 Q 270 123 295 105" stroke-width="2.4" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" width="640" height="840">
+  <!-- Single-color ink version for letterhead, invoices, light surfaces. -->
+  <g fill="none" stroke="#0a1021" stroke-width="2.4">
+    <!-- Outer shield -->
+    <path d="M 50 24 L 270 24 Q 282 24 282 36 L 282 198 Q 282 250 160 292 Q 38 250 38 198 L 38 36 Q 38 24 50 24 Z"/>
+    <!-- Inner shield outline -->
+    <path d="M 64 40 L 256 40 Q 266 40 266 50 L 266 192 Q 266 238 160 273 Q 54 238 54 192 L 54 50 Q 54 40 64 40 Z"
+          stroke-width="1"/>
   </g>
 
-  <!-- W — editorial, thin, flat caps, mid-gray -->
-  <path d="M 50 50 L 108 200 L 160 114 L 212 200 L 270 50"
-        stroke="#9aa6bd" stroke-width="12" fill="none"
-        stroke-linecap="butt" stroke-linejoin="miter"/>
-  <!-- W serif accents -->
-  <line x1="42" y1="50" x2="58" y2="50" stroke="#9aa6bd" stroke-width="5" stroke-linecap="butt"/>
-  <line x1="262" y1="50" x2="278" y2="50" stroke="#9aa6bd" stroke-width="5" stroke-linecap="butt"/>
-  <line x1="100" y1="200" x2="116" y2="200" stroke="#9aa6bd" stroke-width="5" stroke-linecap="butt"/>
-  <line x1="204" y1="200" x2="220" y2="200" stroke="#9aa6bd" stroke-width="5" stroke-linecap="butt"/>
+  <text x="160" y="200" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="138" font-weight="700"
+        fill="#0a1021" letter-spacing="-4">LW</text>
 
-  <!-- L — editorial, flat caps, ink -->
-  <path d="M 160 50 L 160 200 L 212 200"
-        stroke="#0a1021" stroke-width="16" fill="none"
-        stroke-linecap="butt" stroke-linejoin="miter"/>
-  <!-- L serif accents -->
-  <line x1="151" y1="50" x2="169" y2="50" stroke="#0a1021" stroke-width="6.5" stroke-linecap="butt"/>
-  <line x1="212" y1="192" x2="212" y2="208" stroke="#0a1021" stroke-width="6.5" stroke-linecap="butt"/>
+  <text x="160" y="345" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="36" font-weight="500"
+        fill="#0a1021" letter-spacing="6">LEGALWIN</text>
 
-  <!-- Wordmark -->
-  <text x="160" y="232" text-anchor="middle"
-        font-family="'Fraunces','Cormorant Garamond','Playfair Display',Georgia,serif"
-        font-size="22" font-weight="500" fill="#0a1021" letter-spacing="5.4">LEGALWIN</text>
+  <line x1="118" y1="365" x2="202" y2="365" stroke="#0a1021" stroke-width="1" opacity="0.5"/>
 
-  <!-- Hairline divider -->
-  <line x1="116" y1="252" x2="204" y2="252" stroke="#0a1021" stroke-width="0.6" opacity="0.45"/>
-
-  <!-- Tagline -->
-  <text x="160" y="270" text-anchor="middle"
-        font-family="'Fraunces','Cormorant Garamond',Georgia,serif"
-        font-size="8.5" font-weight="500" fill="#0a1021" letter-spacing="4.2" opacity="0.62">WARSZAWA · POLSKA</text>
+  <text x="160" y="395" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="13" font-weight="500"
+        fill="#0a1021" letter-spacing="6" opacity="0.7">WARSZAWA · POLSKA</text>
 </svg>
