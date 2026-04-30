@@ -22,7 +22,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { services } from '@/lib/services';
 import type { ServiceContent } from '@/lib/services/types';
-import { cityBlur, blur } from '@/lib/image-blur';
+import { serviceBlur, blur } from '@/lib/image-blur';
 import { cn } from '@/lib/cn';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -110,20 +110,26 @@ export function ServiceDetail({
 /* ---------- Hero ---------- */
 
 const servicePhotos: Record<string, string> = {
-  'karta-pobytu':                  '/cities/city-7.webp',
-  'karta-stalego-pobytu':          '/cities/city-8.webp',
-  'obywatelstwo':                  '/cities/city-3.webp',
-  'kod-95':                        '/cities/city-4.webp',
-  'apelacje':                      '/cities/city-5.webp',
-  'ochrona-miedzynarodowa':        '/cities/city-6.webp',
-  'pesel':                         '/cities/city-1.webp',
-  'meldunek':                      '/cities/city-2.webp',
-  'akty-stanu-cywilnego':          '/cities/city-3.webp',
-  'apostille':                     '/cities/city-8.webp',
-  'wymiana-prawa-jazdy':           '/cities/city-4.webp',
-  'zaswiadczenia-zus-us':          '/cities/city-6.webp',
-  'zaswiadczenie-o-niekaralnosci': '/cities/city-5.webp',
-  'tlumaczenia-przysiegle':        '/cities/city-7.webp',
+  'karta-pobytu':                  '/services/karta-pobytu.webp',
+  'karta-stalego-pobytu':          '/services/karta-stalego-pobytu.webp',
+  'obywatelstwo':                  '/services/obywatelstwo.webp',
+  'ochrona-miedzynarodowa':        '/services/ochrona-miedzynarodowa.webp',
+  'apelacje':                      '/services/apelacje.webp',
+  'kod-95':                        '/services/kod-95.webp',
+  'pesel':                         '/services/pesel.webp',
+  'meldunek':                      '/services/meldunek.webp',
+  'akty-stanu-cywilnego':          '/services/akty-stanu-cywilnego.webp',
+  'apostille':                     '/services/apostille.webp',
+  'wymiana-prawa-jazdy':           '/services/wymiana-prawa-jazdy.webp',
+  'zaswiadczenia-zus-us':          '/services/zaswiadczenia-zus-us.webp',
+  'zaswiadczenie-o-niekaralnosci': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'tlumaczenia-przysiegle':        '/services/tlumaczenia-przysiegle.webp',
+  'zaproszenia':                   '/services/zaproszenia.webp',
+  'odbior-z-lotniska':             '/services/odbior-z-lotniska.webp',
+  'wyszukiwanie-mieszkania':       '/services/wyszukiwanie-mieszkania.webp',
+  'tlumacz-na-wizyty':             '/services/tlumacz-na-wizyty.webp',
+  'pomoc-w-zatrudnieniu':          '/services/pomoc-w-zatrudnieniu.webp',
+  'zapis-dzieci-do-szkoly':        '/services/zapis-dzieci-do-szkoly.webp',
 };
 
 function DetailHero({
@@ -137,7 +143,7 @@ function DetailHero({
   servicesEyebrow: string;
   backLabel: string;
 }) {
-  const photo = servicePhotos[content.slug] ?? '/cities/city-2.webp';
+  const photo = servicePhotos[content.slug] ?? '/services/karta-pobytu.webp';
 
   return (
     <section className="hero-gradient relative isolate overflow-hidden pt-36 pb-20 lg:pt-44 lg:pb-28">
@@ -149,7 +155,7 @@ function DetailHero({
           fill
           priority
           placeholder="blur"
-          blurDataURL={cityBlur[photo] ?? blur.city2}
+          blurDataURL={serviceBlur[content.slug] ?? blur.city2}
           sizes="100vw"
           className="object-cover object-center"
         />

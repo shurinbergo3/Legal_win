@@ -291,7 +291,7 @@
       { "slug": "obywatelstwo", "name": "Гражданство Польши", "value": "от 4 500 PLN", "note": "Uznanie — под ключ. Натурализация — от 6 000 PLN" },
       { "slug": "apelacje", "name": "Apelacja по отказу", "value": "от 1 800 PLN", "note": "Экспресс-анализ решения за 48 ч — 500 PLN, зачитывается" },
       { "slug": "kod-95", "name": "Kod 95 для водителей", "value": "от 1 200 PLN", "note": "OSK, документы, медкомиссия, экзамен в WORD" },
-      { "slug": "kod-95", "name": "Обмен водительских прав", "value": "от 600 PLN", "note": "Переводы, badania lekarskie, starostwo" }
+      { "slug": "wymiana-prawa-jazdy", "name": "Обмен водительских прав", "value": "от 600 PLN", "note": "Переводы, badania lekarskie, starostwo" }
     ],
     "footnote": "Все цены — гонорары юристов. Госпошлины (opłata skarbowa) и присяжные переводы оплачиваются отдельно. После бесплатной консультации фиксируем точную стоимость в договоре.",
     "ctaDetails": "Полная разбивка"

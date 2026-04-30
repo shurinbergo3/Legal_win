@@ -1,6 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
-import { blur } from '@/lib/image-blur';
+import { serviceBlur } from '@/lib/image-blur';
 import type { BlogPostSummary } from '@/lib/blog';
 
 type Props = {
@@ -34,12 +34,12 @@ export function BlogIndex({ posts, labels }: Props) {
         {/* City photo hero */}
         <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
           <Image
-            src="/cities/city-1.webp"
+            src="/services/blog.webp"
             alt=""
             fill
             priority
             placeholder="blur"
-            blurDataURL={blur.city1}
+            blurDataURL={serviceBlur.blog}
             sizes="100vw"
             className="object-cover object-center"
           />

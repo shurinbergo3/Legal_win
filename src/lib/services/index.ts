@@ -12,6 +12,12 @@ import wymianaPrawaJazdy from './wymiana-prawa-jazdy';
 import zaswiadczeniaZusUs from './zaswiadczenia-zus-us';
 import zaswiadczenieONiekaralnosci from './zaswiadczenie-o-niekaralnosci';
 import tlumaczeniaPrzysiegle from './tlumaczenia-przysiegle';
+import zaproszenia from './zaproszenia';
+import odbiorZLotniska from './odbior-z-lotniska';
+import wyszukiwanieMieszkania from './wyszukiwanie-mieszkania';
+import tlumaczNaWizyty from './tlumacz-na-wizyty';
+import pomocWZatrudnieniu from './pomoc-w-zatrudnieniu';
+import zapisDzieciDoSzkoly from './zapis-dzieci-do-szkoly';
 import type { ServiceEntry, ServiceLocale } from './types';
 
 export const services: Record<string, ServiceEntry> = {
@@ -28,7 +34,13 @@ export const services: Record<string, ServiceEntry> = {
   'wymiana-prawa-jazdy': wymianaPrawaJazdy,
   'zaswiadczenia-zus-us': zaswiadczeniaZusUs,
   'zaswiadczenie-o-niekaralnosci': zaswiadczenieONiekaralnosci,
-  'tlumaczenia-przysiegle': tlumaczeniaPrzysiegle
+  'tlumaczenia-przysiegle': tlumaczeniaPrzysiegle,
+  'zaproszenia': zaproszenia,
+  'odbior-z-lotniska': odbiorZLotniska,
+  'wyszukiwanie-mieszkania': wyszukiwanieMieszkania,
+  'tlumacz-na-wizyty': tlumaczNaWizyty,
+  'pomoc-w-zatrudnieniu': pomocWZatrudnieniu,
+  'zapis-dzieci-do-szkoly': zapisDzieciDoSzkoly
 };
 
 export const serviceSlugs = Object.keys(services);

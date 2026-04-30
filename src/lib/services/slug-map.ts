@@ -64,6 +64,36 @@ const nameBySlug: Record<string, string[]> = {
     'Присяжные переводы',
     'Tłumaczenia przysięgłe',
     'Sworn translations'
+  ],
+  'zaproszenia': [
+    'Электронные приглашения',
+    'Zaproszenia elektroniczne',
+    'Electronic invitations'
+  ],
+  'odbior-z-lotniska': [
+    'Встреча в аэропорту',
+    'Odbiór z lotniska',
+    'Airport pickup'
+  ],
+  'wyszukiwanie-mieszkania': [
+    'Поиск жилья',
+    'Wyszukiwanie mieszkania',
+    'Housing search'
+  ],
+  'tlumacz-na-wizyty': [
+    'Переводчик для визитов',
+    'Tłumacz na wizyty',
+    'Translator for visits'
+  ],
+  'pomoc-w-zatrudnieniu': [
+    'Помощь с трудоустройством',
+    'Pomoc w zatrudnieniu',
+    'Employment help'
+  ],
+  'zapis-dzieci-do-szkoly': [
+    'Прописка детей в школу',
+    'Zapis dzieci do szkoły',
+    'School enrolment'
   ]
 };
 

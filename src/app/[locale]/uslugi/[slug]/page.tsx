@@ -412,6 +412,194 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'TEPIS Warsaw',
       'certified translation Poland'
     ]
+  },
+  'zaproszenia': {
+    ru: [
+      'zaproszenie в Польшу',
+      'приглашение в Польшу',
+      'виза D Польша приглашение',
+      'Schengen виза приглашение',
+      'wniosek o zaproszenie',
+      'zaproszenie wojewoda',
+      'приглашение Варшава для визы',
+      'электронное приглашение Польша'
+    ],
+    pl: [
+      'zaproszenie dla cudzoziemca',
+      'wniosek o zaproszenie',
+      'zaproszenie do wizy Schengen',
+      'zaproszenie do wizy D',
+      'zaproszenie wojewoda Warszawa',
+      'zaproszenie biznesowe Polska',
+      'kancelaria zaproszenia Warszawa'
+    ],
+    en: [
+      'invitation letter Poland',
+      'zaproszenie Poland',
+      'Polish D-visa invitation',
+      'Schengen invitation letter Poland',
+      'business invitation Poland',
+      'family invitation Polish visa'
+    ]
+  },
+  'odbior-z-lotniska': {
+    ru: [
+      'встреча в аэропорту Варшава',
+      'трансфер из Chopin',
+      'трансфер Modlin Варшава',
+      'аэропорт Варшава встреча',
+      'EES правила Польша',
+      'юрист встреча в аэропорту',
+      'трансфер Krakow Balice',
+      'встреча с табличкой Варшава'
+    ],
+    pl: [
+      'odbiór z lotniska Warszawa',
+      'transfer z Chopin',
+      'transfer Modlin Warszawa',
+      'odbiór z lotniska Kraków',
+      'EES Polska',
+      'prawnik odbiór z lotniska',
+      'transfer biznesowy Warszawa',
+      'powitanie na lotnisku Warszawa'
+    ],
+    en: [
+      'airport pickup Warsaw',
+      'Chopin airport transfer',
+      'Modlin transfer to Warsaw',
+      'Krakow Balice airport pickup',
+      'EES Poland 2025',
+      'expat airport meet Warsaw',
+      'business airport transfer Poland'
+    ]
+  },
+  'wyszukiwanie-mieszkania': {
+    ru: [
+      'поиск жилья в Варшаве для иностранца',
+      'аренда квартиры Варшава',
+      'покупка квартиры в Польше иностранцем',
+      'MSWiA разрешение покупка недвижимости',
+      'аренда без meldunkу',
+      'риелтор для иностранцев Варшава',
+      'квартира в Польше для экспата',
+      'księga wieczysta проверка'
+    ],
+    pl: [
+      'wyszukiwanie mieszkania dla cudzoziemca',
+      'najem mieszkania Warszawa',
+      'zakup mieszkania w Polsce',
+      'MSWiA zezwolenie nieruchomości',
+      'najem z meldunkiem',
+      'pośrednik dla cudzoziemców',
+      'mieszkanie dla expat Warszawa',
+      'księga wieczysta sprawdzenie'
+    ],
+    en: [
+      'apartment search Poland for foreigners',
+      'Warsaw rental for expats',
+      'apartment purchase Poland foreign buyer',
+      'MSWiA real estate permit',
+      'rental with meldunek',
+      'expat real-estate agent Warsaw',
+      'KW land register Poland',
+      'real estate lawyer Warsaw'
+    ]
+  },
+  'tlumacz-na-wizyty': {
+    ru: [
+      'переводчик для urząd Варшава',
+      'юрист переводчик Варшава',
+      'переводчик в банке Польша',
+      'переводчик на свадьбу USC',
+      'переводчик в больнице Польша',
+      'устный переводчик ZUS',
+      'асистент в urzędzie',
+      'присяжный устный переводчик Варшава'
+    ],
+    pl: [
+      'tłumacz na wizyty urzędowe',
+      'prawnik tłumacz Warszawa',
+      'tłumacz do banku Warszawa',
+      'tłumacz w USC do ślubu',
+      'tłumacz w szpitalu Warszawa',
+      'tłumacz ZUS ustny',
+      'asysta urzędowa Warszawa',
+      'tłumacz przysięgły ustny'
+    ],
+    en: [
+      'interpreter for Polish urząd',
+      'lawyer interpreter Warsaw',
+      'bank interpreter Poland',
+      'USC wedding interpreter Poland',
+      'hospital interpreter Warsaw',
+      'ZUS interpreter Polish',
+      'urząd accompaniment Warsaw',
+      'sworn interpreter Warsaw'
+    ]
+  },
+  'pomoc-w-zatrudnieniu': {
+    ru: [
+      'помощь с трудоустройством Польша',
+      'CV для Польши',
+      'zezwolenie na pracę',
+      'Blue Card Польша IT',
+      'oświadczenie o powierzeniu pracy',
+      'работа в Польше для иностранца 2026',
+      'IP Box Польша',
+      'B2B контракт Польша'
+    ],
+    pl: [
+      'pomoc w zatrudnieniu cudzoziemców',
+      'CV pod polski rynek',
+      'zezwolenie na pracę typ A',
+      'Niebieska Karta UE Polska',
+      'oświadczenie o powierzeniu pracy',
+      'praca w Polsce dla cudzoziemca 2026',
+      'IP Box programista',
+      'B2B kontrakt Polska'
+    ],
+    en: [
+      'employment help Poland',
+      'Polish CV writing',
+      'work permit Poland type A',
+      'EU Blue Card Poland IT',
+      'oświadczenie work declaration Poland',
+      'job search Poland expats',
+      'IP Box developer Poland',
+      'B2B contract Poland'
+    ]
+  },
+  'zapis-dzieci-do-szkoly': {
+    ru: [
+      'запись ребёнка в школу Польша',
+      'klasa powitalna Варшава',
+      'школа для иностранцев Польша',
+      'международная школа Варшава',
+      'obowiązek szkolny Польша',
+      'детсад в Польше для иностранца',
+      'школа international Warsaw',
+      'польская школа для украинских детей'
+    ],
+    pl: [
+      'zapis dziecka cudzoziemca do szkoły',
+      'klasa powitalna Warszawa',
+      'szkoła dla cudzoziemców Polska',
+      'szkoła międzynarodowa Warszawa',
+      'obowiązek szkolny dla cudzoziemców',
+      'przedszkole dla cudzoziemca',
+      'szkoła Akademeia BISC ISW',
+      'szkoła dla dzieci ukraińskich'
+    ],
+    en: [
+      'school enrolment Poland for expat children',
+      'welcome class Warsaw',
+      'foreign children Polish school',
+      'international school Warsaw Akademeia BISC ISW',
+      'compulsory schooling Poland',
+      'kindergarten Warsaw expats',
+      'Polish school for Ukrainian kids',
+      'expat children Polish education'
+    ]
   }
 };
 

@@ -291,7 +291,7 @@
       { "slug": "obywatelstwo", "name": "Polish citizenship", "value": "from 4,500 PLN", "note": "Recognition — turnkey. Naturalisation from 6,000 PLN" },
       { "slug": "apelacje", "name": "Appeal on a denial", "value": "from 1,800 PLN", "note": "48-hour express decision review — 500 PLN, credited" },
       { "slug": "kod-95", "name": "Code 95 for drivers", "value": "from 1,200 PLN", "note": "OSK, paperwork, medicals, WORD exam" },
-      { "slug": "kod-95", "name": "Driving licence exchange", "value": "from 600 PLN", "note": "Translations, badania lekarskie, starostwo" }
+      { "slug": "wymiana-prawa-jazdy", "name": "Driving licence exchange", "value": "from 600 PLN", "note": "Translations, badania lekarskie, starostwo" }
     ],
     "footnote": "Listed prices are attorney fees only. Official fees (opłata skarbowa) and sworn translations are billed separately. After the free consultation, exact pricing is fixed in writing.",
     "ctaDetails": "Full breakdown"

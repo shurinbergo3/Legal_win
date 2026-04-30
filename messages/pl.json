@@ -291,7 +291,7 @@
       { "slug": "obywatelstwo", "name": "Obywatelstwo polskie", "value": "od 4 500 PLN", "note": "Uznanie — pod klucz. Nadanie — od 6 000 PLN" },
       { "slug": "apelacje", "name": "Apelacja od decyzji", "value": "od 1 800 PLN", "note": "Ekspres-analiza decyzji 48 h — 500 PLN, zalicza się" },
       { "slug": "kod-95", "name": "Kod 95 dla kierowców", "value": "od 1 200 PLN", "note": "OSK, dokumenty, badania, egzamin w WORD" },
-      { "slug": "kod-95", "name": "Wymiana prawa jazdy", "value": "od 600 PLN", "note": "Tłumaczenia, badania lekarskie, starostwo" }
+      { "slug": "wymiana-prawa-jazdy", "name": "Wymiana prawa jazdy", "value": "od 600 PLN", "note": "Tłumaczenia, badania lekarskie, starostwo" }
     ],
     "footnote": "Wszystkie ceny to honoraria prawników. Opłaty urzędowe (opłata skarbowa) i tłumaczenia przysięgłe są osobno. Po bezpłatnej konsultacji wszystko fiksujemy w umowie.",
     "ctaDetails": "Pełna kalkulacja"
