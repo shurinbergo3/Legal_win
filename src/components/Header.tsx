@@ -70,7 +70,7 @@ export function Header() {
             className="group inline-block text-gold-400 transition-colors duration-300 hover:text-gold-300"
             aria-label="LegalWin"
           >
-            <LogoBadge size={64} className="block transition-transform duration-300 group-hover:scale-[1.04] sm:hidden" />
+            <LogoBadge size={48} compact className="block transition-transform duration-300 group-hover:scale-[1.04] sm:hidden" />
             <LogoBadge size={80} className="hidden transition-transform duration-300 group-hover:scale-[1.04] sm:block lg:hidden" />
             <LogoBadge size={96} className="hidden transition-transform duration-300 group-hover:scale-[1.04] lg:block" />
           </Link>
