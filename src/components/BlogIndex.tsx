@@ -31,15 +31,17 @@ export function BlogIndex({ posts, labels }: Props) {
   return (
     <div className="relative">
       <section className="hero-gradient relative isolate overflow-hidden pt-32 pb-12 sm:pt-40 sm:pb-16 lg:pt-48 lg:pb-20">
-        {/* City photo hero */}
-        <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+        {/* Hero photo with solid dark fallback so the area never goes blank
+            before the image fades in. */}
+        <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-ink-950">
           <Image
-            src="/services/blog.webp"
+            src="/services/zapis-dzieci-do-szkoly.webp"
             alt=""
             fill
             priority
+            fetchPriority="high"
             placeholder="blur"
-            blurDataURL={serviceBlur.blog}
+            blurDataURL={serviceBlur['/services/zapis-dzieci-do-szkoly.webp']}
             sizes="100vw"
             className="object-cover object-center"
           />

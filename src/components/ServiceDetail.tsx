@@ -109,27 +109,29 @@ export function ServiceDetail({
 
 /* ---------- Hero ---------- */
 
+// Each photo is paired with the service whose subject it best evokes.
+// File names reflect what the photo *depicts*, not which service uses it.
 const servicePhotos: Record<string, string> = {
-  'karta-pobytu':                  '/services/karta-pobytu.webp',
-  'karta-stalego-pobytu':          '/services/karta-stalego-pobytu.webp',
-  'obywatelstwo':                  '/services/obywatelstwo.webp',
-  'ochrona-miedzynarodowa':        '/services/ochrona-miedzynarodowa.webp',
-  'apelacje':                      '/services/apelacje.webp',
-  'kod-95':                        '/services/kod-95.webp',
-  'pesel':                         '/services/pesel.webp',
-  'meldunek':                      '/services/meldunek.webp',
-  'akty-stanu-cywilnego':          '/services/akty-stanu-cywilnego.webp',
-  'apostille':                     '/services/apostille.webp',
-  'wymiana-prawa-jazdy':           '/services/wymiana-prawa-jazdy.webp',
-  'zaswiadczenia-zus-us':          '/services/zaswiadczenia-zus-us.webp',
-  'zaswiadczenie-o-niekaralnosci': '/services/zaswiadczenie-o-niekaralnosci.webp',
-  'tlumaczenia-przysiegle':        '/services/tlumaczenia-przysiegle.webp',
-  'zaproszenia':                   '/services/zaproszenia.webp',
-  'odbior-z-lotniska':             '/services/odbior-z-lotniska.webp',
-  'wyszukiwanie-mieszkania':       '/services/wyszukiwanie-mieszkania.webp',
-  'tlumacz-na-wizyty':             '/services/tlumacz-na-wizyty.webp',
-  'pomoc-w-zatrudnieniu':          '/services/pomoc-w-zatrudnieniu.webp',
-  'zapis-dzieci-do-szkoly':        '/services/zapis-dzieci-do-szkoly.webp',
+  'karta-pobytu':                  '/services/karta-pobytu.webp',                  // Warsaw skyline + Vistula — settling in
+  'karta-stalego-pobytu':          '/services/karta-stalego-pobytu.webp',          // Krakow basilica — permanence
+  'obywatelstwo':                  '/services/obywatelstwo.webp',                  // Wawel Castle — Polish citizenship
+  'ochrona-miedzynarodowa':        '/services/ochrona-miedzynarodowa.webp',        // Sunset over towers — refuge / hope
+  'apelacje':                      '/services/zaswiadczenia-zus-us.webp',          // Warsaw business towers at dusk — institutional gravity
+  'kod-95':                        '/services/zaproszenia.webp',                   // Top-down roundabout — drivers / road code
+  'pesel':                         '/services/pesel.webp',                         // Old town at sunset — civic foundation
+  'meldunek':                      '/services/meldunek.webp',                      // Market square with stalls — daily registration
+  'akty-stanu-cywilnego':          '/services/akty-stanu-cywilnego.webp',          // Old town + skyline — heritage records
+  'apostille':                     '/services/apostille.webp',                     // Poznan market square — formal European document
+  'wymiana-prawa-jazdy':           '/services/wyszukiwanie-mieszkania.webp',       // Bridge with road — driving licence
+  'zaswiadczenia-zus-us':          '/services/tlumaczenia-przysiegle.webp',        // Warsaw business district daylight — workplace certs
+  'zaswiadczenie-o-niekaralnosci': '/services/zaswiadczenie-o-niekaralnosci.webp', // Modern street with people — clean civic record
+  'tlumaczenia-przysiegle':        '/services/wymiana-prawa-jazdy.webp',           // Gdansk gothic church — scholarly / formal translation
+  'zaproszenia':                   '/services/odbior-z-lotniska.webp',             // Palace of Culture — "welcome to Warsaw"
+  'odbior-z-lotniska':             '/services/kod-95.webp',                        // Royal Castle gardens with skyline — Warsaw arrival
+  'wyszukiwanie-mieszkania':       '/services/apelacje.webp',                      // Old town rooftops — housing
+  'tlumacz-na-wizyty':             '/services/tlumacz-na-wizyty.webp',             // Old + modern skyline — bridging
+  'pomoc-w-zatrudnieniu':          '/services/blog.webp',                          // Warsaw Spire towers — corporate jobs
+  'zapis-dzieci-do-szkoly':        '/services/pomoc-w-zatrudnieniu.webp',          // Gdansk canal — calm, family
 };
 
 function DetailHero({
@@ -147,15 +149,18 @@ function DetailHero({
 
   return (
     <section className="hero-gradient relative isolate overflow-hidden pt-36 pb-20 lg:pt-44 lg:pb-28">
-      {/* Photo background */}
-      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+      {/* Photo background — solid ink-950 underneath so the area never goes
+          blank: the dark gradient overlay above already covers ~85% of the
+          photo, so when the image fades in there is no perceptible swap. */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-ink-950">
         <Image
           src={photo}
           alt=""
           fill
           priority
+          fetchPriority="high"
           placeholder="blur"
-          blurDataURL={serviceBlur[content.slug] ?? blur.city2}
+          blurDataURL={serviceBlur[photo] ?? blur.city2}
           sizes="100vw"
           className="object-cover object-center"
         />
