@@ -16,7 +16,7 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="relative isolate overflow-hidden border-t hairline bg-ink-900/30 py-28 lg:py-36">
+    <section id="faq" className="relative isolate overflow-clip border-t hairline bg-ink-900/30 py-28 lg:py-36">
       {/* Editorial giant "?" watermark — pair to the “ glyph in Testimonials */}
       <div
         aria-hidden
