@@ -140,6 +140,12 @@ export async function generateMetadata({
         'max-video-preview': -1
       }
     },
+    verification: {
+      google: 'BuKBlLiIYFKsNo9pMxdRbCCACEnVsB5f6PUOJ5VTgro',
+      other: {
+        'msvalidate.01': '4A779CC4B436CFC5EE17C01C4DF302C7'
+      }
+    },
     // Bump the `?v=` query whenever favicon.svg changes — browsers cache
     // favicons aggressively and won't refetch on a hard reload otherwise.
     icons: { icon: '/favicon.svg?v=3' }
