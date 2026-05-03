@@ -57,8 +57,8 @@ export function Contact({ locale }: { locale: string }) {
         className="pointer-events-none absolute left-[-8%] bottom-0 h-[420px] w-[580px] rounded-full bg-cyan-accent/[0.05] blur-[140px]"
       />
 
-      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
+      <div className="relative mx-auto max-w-[1280px] px-6 lg:px-10">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-14">
           {/* LEFT — heading + contact details */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -121,9 +121,9 @@ function FormCard({ children }: { children: React.ReactNode }) {
   return (
     <div className="group relative">
       {/* Outer gold ring frame */}
-      <div className="relative rounded-[28px] border hairline-gold bg-ink-900/40 p-px shadow-[0_0_0_1px_rgba(212,166,71,0.08),0_30px_120px_-40px_rgba(212,166,71,0.25)] backdrop-blur-xl">
+      <div className="relative rounded-[22px] border hairline-gold bg-ink-900/40 p-px shadow-[0_0_0_1px_rgba(212,166,71,0.08),0_24px_90px_-36px_rgba(212,166,71,0.28)] backdrop-blur-xl transition-shadow duration-500 hover:shadow-[0_0_0_1px_rgba(212,166,71,0.14),0_28px_110px_-32px_rgba(212,166,71,0.38)]">
         {/* Inner gradient background */}
-        <div className="relative overflow-hidden rounded-[27px] bg-gradient-to-br from-ink-900/80 via-ink-950/95 to-ink-950">
+        <div className="relative overflow-hidden rounded-[21px] bg-gradient-to-br from-ink-900/80 via-ink-950/95 to-ink-950">
           {/* Corner brackets — decorative */}
           <CornerBracket position="tl" />
           <CornerBracket position="tr" />
@@ -133,11 +133,16 @@ function FormCard({ children }: { children: React.ReactNode }) {
           {/* Soft gold halo top-right */}
           <div
             aria-hidden
-            className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-gold-500/15 blur-3xl"
+            className="pointer-events-none absolute -right-20 -top-20 h-60 w-60 rounded-full bg-gold-500/[0.13] blur-3xl"
+          />
+          {/* Subtle bottom-left halo for depth */}
+          <div
+            aria-hidden
+            className="pointer-events-none absolute -bottom-24 -left-16 h-56 w-56 rounded-full bg-cyan-accent/[0.05] blur-3xl"
           />
 
           {/* Top status strip */}
-          <div className="relative flex items-center justify-between border-b hairline px-5 py-3 sm:px-8 sm:py-3.5">
+          <div className="relative flex items-center justify-between border-b hairline px-5 py-2.5 sm:px-7 sm:py-3">
             <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.28em] text-ink-400">
               <ShieldCheck className="h-3.5 w-3.5 text-gold-400" strokeWidth={1.6} aria-hidden />
               <span>Form · 01</span>
@@ -149,7 +154,7 @@ function FormCard({ children }: { children: React.ReactNode }) {
           </div>
 
           {/* Body */}
-          <div className="relative p-5 sm:p-8 lg:p-10">{children}</div>
+          <div className="relative p-5 sm:p-7 lg:p-8">{children}</div>
         </div>
       </div>
     </div>
@@ -221,7 +226,7 @@ function ContactForm({
     state.status === 'invalid' ? state.fieldErrors : ({} as Record<string, string[]>);
 
   return (
-    <form action={action} className="relative flex flex-col gap-7" noValidate>
+    <form action={action} className="relative flex flex-col gap-5" noValidate>
       <input type="hidden" name="locale" value={locale} />
       <input type="text" name="hp" autoComplete="off" tabIndex={-1} aria-hidden className="sr-only" />
 
@@ -231,7 +236,7 @@ function ContactForm({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, ease, delay: 0.05 }}
-        className="grid grid-cols-1 gap-5 sm:grid-cols-2"
+        className="grid grid-cols-1 gap-4 sm:grid-cols-2"
       >
         <Field
           name="name"
@@ -320,10 +325,10 @@ function ContactForm({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, ease, delay: 0.25 }}
-        className="flex flex-col gap-5 border-t hairline pt-6"
+        className="flex flex-col gap-4 border-t hairline pt-5"
       >
         {/* Trust signals */}
-        <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px] uppercase tracking-[0.22em] text-ink-400">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[10.5px] uppercase tracking-[0.22em] text-ink-400">
           <TrustChip Icon={Timer} label="≤ 1h reply" />
           <TrustChip Icon={ShieldCheck} label="Free · 30 min" />
           <TrustChip Icon={Lock} label="GDPR · encrypted" />
@@ -350,10 +355,10 @@ function ContactForm({
             type="submit"
             disabled={pending}
             className={cn(
-              'group/btn relative inline-flex items-center justify-center gap-2.5 overflow-hidden rounded-full px-8 py-4 text-base font-medium text-ink-950 ring-gold transition-all duration-300',
+              'group/btn relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-7 py-3.5 text-[15px] font-medium text-ink-950 ring-gold transition-all duration-300',
               'bg-gradient-to-br from-gold-300 via-gold-400 to-gold-600',
-              'shadow-[0_8px_30px_-6px_rgba(212,166,71,0.55)] hover:shadow-[0_12px_40px_-6px_rgba(212,166,71,0.7)]',
-              'hover:translate-y-[-1px]',
+              'shadow-[0_8px_28px_-8px_rgba(212,166,71,0.55)] hover:shadow-[0_14px_38px_-8px_rgba(212,166,71,0.75)]',
+              'hover:-translate-y-px active:translate-y-0',
               'disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0'
             )}
           >
@@ -402,15 +407,15 @@ function ConsentCheckbox({ error }: { error: boolean }) {
   const showError = error || (touched && !checked);
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-1.5">
       <div className="flex items-center justify-between">
-        <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300">
+        <span className="flex items-center gap-1.5 text-[10.5px] uppercase tracking-[0.22em] text-ink-300">
           <span>{t('headerLabel')}</span>
           <span className="text-gold-400" aria-hidden>*</span>
         </span>
         <span
           className={cn(
-            'font-mono text-[10px] uppercase tracking-[0.22em] transition-colors',
+            'font-mono text-[9.5px] uppercase tracking-[0.22em] transition-colors',
             showError ? 'text-red-400' : 'text-ink-500'
           )}
         >
@@ -421,7 +426,7 @@ function ConsentCheckbox({ error }: { error: boolean }) {
       <label
         htmlFor={id}
         className={cn(
-          'group/cb flex cursor-pointer items-start gap-3 rounded-2xl border p-4 transition-colors',
+          'group/cb flex cursor-pointer items-start gap-3 rounded-xl border px-3.5 py-3 transition-colors',
           showError
             ? 'border-red-500/60 bg-red-500/[0.05]'
             : checked
@@ -443,9 +448,9 @@ function ConsentCheckbox({ error }: { error: boolean }) {
             setTouched(true);
           }}
           onBlur={() => setTouched(true)}
-          className="peer mt-0.5 h-5 w-5 flex-shrink-0 cursor-pointer appearance-none rounded-md border border-ink-600 bg-ink-950/60 transition-all checked:border-gold-500/80 checked:bg-gold-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950 relative after:pointer-events-none after:absolute after:left-1/2 after:top-1/2 after:hidden after:h-2.5 after:w-1.5 after:-translate-x-1/2 after:-translate-y-[60%] after:rotate-45 after:border-r-2 after:border-b-2 after:border-ink-950 checked:after:block"
+          className="peer mt-0.5 h-[18px] w-[18px] flex-shrink-0 cursor-pointer appearance-none rounded-[5px] border border-ink-600 bg-ink-950/60 transition-all checked:border-gold-500/80 checked:bg-gold-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500/40 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950 relative after:pointer-events-none after:absolute after:left-1/2 after:top-1/2 after:hidden after:h-2.5 after:w-1.5 after:-translate-x-1/2 after:-translate-y-[60%] after:rotate-45 after:border-r-2 after:border-b-2 after:border-ink-950 checked:after:block"
         />
-        <span className="text-xs leading-relaxed text-ink-300">
+        <span className="text-[11.5px] leading-relaxed text-ink-300">
           <span className="mr-1 font-semibold text-gold-400" aria-hidden>*</span>
           {t.rich('label', {
             policy: (chunks) => (
@@ -522,8 +527,8 @@ function Field({
   const [focused, setFocused] = useState(false);
 
   return (
-    <div className="flex flex-col gap-2">
-      <label htmlFor={id} className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300">
+    <div className="flex flex-col gap-1.5">
+      <label htmlFor={id} className="flex items-center gap-1.5 text-[10.5px] uppercase tracking-[0.22em] text-ink-300">
         <span>{label}</span>
         {required && <span className="text-gold-400">*</span>}
       </label>
@@ -531,7 +536,7 @@ function Field({
         {Icon && (
           <Icon
             className={cn(
-              'pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 transition-colors duration-200',
+              'pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 transition-colors duration-200',
               focused ? 'text-gold-400' : 'text-ink-500',
               error && 'text-red-400'
             )}
@@ -551,9 +556,9 @@ function Field({
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           className={cn(
-            'w-full rounded-xl border border-ink-700/80 bg-ink-900/40 py-3.5 text-base text-ink-50 placeholder:text-ink-500 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)]',
-            Icon ? 'pl-11 pr-4' : 'px-4',
-            'transition-all duration-200 focus:border-gold-500/60 focus:bg-ink-950/80 focus:outline-none focus:ring-4 focus:ring-gold-500/[0.08]',
+            'w-full rounded-xl border border-ink-700/80 bg-ink-900/40 py-3 text-[15px] text-ink-50 placeholder:text-ink-500 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)]',
+            Icon ? 'pl-10 pr-3.5' : 'px-3.5',
+            'transition-all duration-200 hover:border-ink-600 focus:border-gold-500/60 focus:bg-ink-950/80 focus:outline-none focus:ring-4 focus:ring-gold-500/[0.1]',
             error && 'border-red-500/60 focus:border-red-500/80 focus:ring-red-500/[0.08]'
           )}
         />
@@ -588,8 +593,8 @@ function TextareaField({
   const [focused, setFocused] = useState(false);
 
   return (
-    <div className="flex flex-col gap-2">
-      <label htmlFor={id} className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300">
+    <div className="flex flex-col gap-1.5">
+      <label htmlFor={id} className="flex items-center gap-1.5 text-[10.5px] uppercase tracking-[0.22em] text-ink-300">
         <span>{label}</span>
         {required && <span className="text-gold-400">*</span>}
       </label>
@@ -597,7 +602,7 @@ function TextareaField({
         {Icon && (
           <Icon
             className={cn(
-              'pointer-events-none absolute left-4 top-4 h-4 w-4 transition-colors duration-200',
+              'pointer-events-none absolute left-3.5 top-3.5 h-4 w-4 transition-colors duration-200',
               focused ? 'text-gold-400' : 'text-ink-500',
               error && 'text-red-400'
             )}
@@ -610,15 +615,15 @@ function TextareaField({
           name={name}
           placeholder={placeholder}
           required={required}
-          rows={5}
+          rows={4}
           aria-invalid={!!error}
           aria-describedby={error ? `${id}-err` : undefined}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           className={cn(
-            'w-full resize-none rounded-xl border border-ink-700/80 bg-ink-900/40 py-3.5 text-base text-ink-50 placeholder:text-ink-500 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)]',
-            Icon ? 'pl-11 pr-4' : 'px-4',
-            'transition-all duration-200 focus:border-gold-500/60 focus:bg-ink-950/80 focus:outline-none focus:ring-4 focus:ring-gold-500/[0.08]',
+            'w-full resize-none rounded-xl border border-ink-700/80 bg-ink-900/40 py-3 text-[15px] leading-relaxed text-ink-50 placeholder:text-ink-500 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)]',
+            Icon ? 'pl-10 pr-3.5' : 'px-3.5',
+            'transition-all duration-200 hover:border-ink-600 focus:border-gold-500/60 focus:bg-ink-950/80 focus:outline-none focus:ring-4 focus:ring-gold-500/[0.1]',
             error && 'border-red-500/60 focus:border-red-500/80 focus:ring-red-500/[0.08]'
           )}
         />
@@ -645,8 +650,8 @@ function ServiceChips({
   const [selected, setSelected] = useState<ServiceValue | ''>('');
 
   return (
-    <fieldset className="flex flex-col gap-3">
-      <legend className="mb-1 flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-ink-300">
+    <fieldset className="flex flex-col gap-2.5">
+      <legend className="mb-0.5 flex items-center gap-1.5 text-[10.5px] uppercase tracking-[0.22em] text-ink-300">
         <span>{t('service')}</span>
         {required && <span className="text-gold-400">*</span>}
       </legend>
@@ -659,7 +664,8 @@ function ServiceChips({
             <label
               key={value}
               className={cn(
-                'group/chip relative inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-3 py-2 text-[13px] transition-all duration-200 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm',
+                'group/chip relative inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-3 py-1.5 text-[12.5px] transition-all duration-200 sm:gap-2 sm:px-3.5 sm:py-2 sm:text-[13px]',
+                'active:scale-[0.97]',
                 isSelected
                   ? 'border-gold-500/70 bg-gold-400/15 text-gold-300 shadow-[0_0_0_3px_rgba(212,166,71,0.08)]'
                   : 'border-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] bg-ink-950/40 text-ink-200 hover:border-gold-500/30 hover:bg-ink-900/60 hover:text-ink-50'

@@ -1,6 +1,7 @@
 import kartaPobytu from './karta-pobytu';
 import kartaStalegoPobytu from './karta-stalego-pobytu';
 import obywatelstwo from './obywatelstwo';
+import kartaPolaka from './karta-polaka';
 import ochronaMiedzynarodowa from './ochrona-miedzynarodowa';
 import apelacje from './apelacje';
 import kod95 from './kod-95';
@@ -12,6 +13,16 @@ import wymianaPrawaJazdy from './wymiana-prawa-jazdy';
 import zaswiadczeniaZusUs from './zaswiadczenia-zus-us';
 import zaswiadczenieONiekaralnosci from './zaswiadczenie-o-niekaralnosci';
 import tlumaczeniaPrzysiegle from './tlumaczenia-przysiegle';
+import rejestracjaSpZOo from './rejestracja-sp-z-oo';
+import gotoweFirmy from './gotowe-firmy';
+import jdg from './jdg';
+import przedstawicielstwa from './przedstawicielstwa';
+import podatkiKsiegowosc from './podatki-ksiegowosc';
+import likwidacjaSprzedaz from './likwidacja-sprzedaz';
+import mswiaZezwolenie from './mswia-zezwolenie';
+import dueDiligenceNieruchomosci from './due-diligence-nieruchomosci';
+import notariuszAsysta from './notariusz-asysta';
+import najemKomercyjny from './najem-komercyjny';
 import zaproszenia from './zaproszenia';
 import odbiorZLotniska from './odbior-z-lotniska';
 import wyszukiwanieMieszkania from './wyszukiwanie-mieszkania';
@@ -24,6 +35,7 @@ export const services: Record<string, ServiceEntry> = {
   'karta-pobytu': kartaPobytu,
   'karta-stalego-pobytu': kartaStalegoPobytu,
   'obywatelstwo': obywatelstwo,
+  'karta-polaka': kartaPolaka,
   'ochrona-miedzynarodowa': ochronaMiedzynarodowa,
   'apelacje': apelacje,
   'kod-95': kod95,
@@ -35,6 +47,16 @@ export const services: Record<string, ServiceEntry> = {
   'zaswiadczenia-zus-us': zaswiadczeniaZusUs,
   'zaswiadczenie-o-niekaralnosci': zaswiadczenieONiekaralnosci,
   'tlumaczenia-przysiegle': tlumaczeniaPrzysiegle,
+  'rejestracja-sp-z-oo': rejestracjaSpZOo,
+  'gotowe-firmy': gotoweFirmy,
+  'jdg': jdg,
+  'przedstawicielstwa': przedstawicielstwa,
+  'podatki-ksiegowosc': podatkiKsiegowosc,
+  'likwidacja-sprzedaz': likwidacjaSprzedaz,
+  'mswia-zezwolenie': mswiaZezwolenie,
+  'due-diligence-nieruchomosci': dueDiligenceNieruchomosci,
+  'notariusz-asysta': notariuszAsysta,
+  'najem-komercyjny': najemKomercyjny,
   'zaproszenia': zaproszenia,
   'odbior-z-lotniska': odbiorZLotniska,
   'wyszukiwanie-mieszkania': wyszukiwanieMieszkania,

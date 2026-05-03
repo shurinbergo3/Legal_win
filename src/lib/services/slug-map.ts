@@ -16,6 +16,9 @@ const nameBySlug: Record<string, string[]> = {
     'Obywatelstwo Polskie',
     'Polish citizenship'
   ],
+  'karta-polaka': [
+    'Karta Polaka'
+  ],
   'ochrona-miedzynarodowa': [
     'Международная защита',
     'Ochrona międzynarodowa',
@@ -64,6 +67,55 @@ const nameBySlug: Record<string, string[]> = {
     'Присяжные переводы',
     'Tłumaczenia przysięgłe',
     'Sworn translations'
+  ],
+  'rejestracja-sp-z-oo': [
+    'Регистрация Sp. z o.o.',
+    'Rejestracja Sp. z o.o.',
+    'Sp. z o.o. registration'
+  ],
+  'gotowe-firmy': [
+    'Готовые компании',
+    'Gotowe spółki',
+    'Ready-made companies'
+  ],
+  'jdg': [
+    'Jednoosobowa działalność gospodarcza',
+    'Sole proprietorship'
+  ],
+  'przedstawicielstwa': [
+    'Представительства',
+    'Przedstawicielstwa',
+    'Branch offices'
+  ],
+  'podatki-ksiegowosc': [
+    'Налоги и бухгалтерия',
+    'Podatki i księgowość',
+    'Tax & accounting'
+  ],
+  'likwidacja-sprzedaz': [
+    'Ликвидация и продажа',
+    'Likwidacja i sprzedaż',
+    'Wind-down & M&A'
+  ],
+  'mswia-zezwolenie': [
+    'Разрешение MSWiA',
+    'Zezwolenie MSWiA',
+    'MSWiA permit'
+  ],
+  'due-diligence-nieruchomosci': [
+    'Проверка чистоты сделки',
+    'Due diligence transakcji',
+    'Transaction due diligence'
+  ],
+  'notariusz-asysta': [
+    'Сопровождение у нотариуса',
+    'Asysta u notariusza',
+    'Notary assistance'
+  ],
+  'najem-komercyjny': [
+    'Аренда коммерческих помещений',
+    'Najem komercyjny',
+    'Commercial leases'
   ],
   'zaproszenia': [
     'Электронные приглашения',

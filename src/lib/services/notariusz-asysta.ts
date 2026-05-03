@@ -1,0 +1,276 @@
+import type { ServiceEntry } from './types';
+
+const notariuszAsysta: ServiceEntry = {
+  ru: {
+    slug: 'notariusz-asysta',
+    group: 'realestate',
+    icon: 'gavel',
+    badge: 'Akt notarialny · pełnomocnik · 1 dzień',
+    title: 'Сопровождение у нотариуса',
+    subtitle: 'Адвокат-присутствие на акте купли-продажи недвижимости',
+    lead: 'Akt notarialny — финальная процедура покупки недвижимости в Польше. Нотариус подтверждает umowę, но не защищает покупателя — он нейтральный. Адвокат-сопровождение читает akt до подписания, проверяет каждую klauzulę, договаривается об изменениях с продавцом, контролирует передачу денег и ключей. На сделке за 800 тыс. PLN наш гонорар окупается одной поправкой. Если вы не в Польше — pełnomocnictwo notarialne, и мы заменяем вас полностью.',
+    facts: [
+      { label: 'Длительность aktu', value: '1–2 часа', note: 'у нотариуса · читка + подписание' },
+      { label: 'Подготовка', value: '5–7 дней', note: 'projekt aktu · корректировки' },
+      { label: 'Без приезда', value: 'опция', note: 'через pełnomocnictwo' },
+      { label: 'Госпошлина', value: '2% PCC', note: 'на rynku вторичном' }
+    ],
+    grounds: {
+      title: 'Чем помогает адвокат на акте',
+      subtitle: 'Нотариус — нейтральный. Адвокат — на стороне покупателя.',
+      items: [
+        { title: 'Чтение projektu aktu заранее', desc: 'Нотариус показывает projekt aktu за 1–7 дней до подписания. Многие нюансы скрыты в стандартных формулировках. Анализируем каждую klauzulę и предлагаем поправки.' },
+        { title: 'Negotiacje klauzul', desc: 'Стандартные точки споров: момент перехода собственности (z chwilą podpisania или z chwilą zapłaty?), кто оплачивает PCC и нотариуса, depozyt notarialny, право пользования до выезда продавца, сроки передачи ключей.' },
+        { title: 'Контроль передачи денег', desc: 'Schemat безопасной оплаты: rachunek powierniczy notariusza или банковский escrow. Покупатель платит на rachunek, нотариус контролирует и переводит продавцу после wpisu в KW. Защищает obie strony.' },
+        { title: 'Проверка podstawы продажи', desc: 'Перед aktem проверяем: pełnomocnictwa продавца (если он не лично), brak ograniczeń (areszt, hipoteka, służebność), zgody małżonka (если поляк-собственник в браке), zgoda spadkobierców (если унаследовано).' },
+        { title: 'Pełnomocnictwo от вас', desc: 'Если вы не в Польше — оформляем pełnomocnictwo notarialne у польского консула в стране проживания (или с apostille). Мы подписываем akt от вашего имени. Вы получаете keys и право собственности удалённо.' },
+        { title: 'Передача недвижимости после aktu', desc: 'Подписание aktu ≠ передача keys. После aktu организуем protokol zdawczo-odbiorczy с фото состояния, snyczyciel показателями (вода, газ, прąд), передачей keys и инструкций (alarm, отопление, окна).' },
+        { title: 'Wpis do KW', desc: 'Нотариус подаёт wniosek о wpisie новой собственности в księgę wieczystą. KW обновляется за 1–4 недели. Контролируем процесс, после wpisu — confirmation klientu.' }
+      ]
+    },
+    timeline: {
+      title: 'Этапы aktu notarialnego',
+      subtitle: 'Полная подготовка от choice нотариуса до wpisu в KW — обычно 2–4 недели.',
+      steps: [
+        { title: 'Бесплатная консультация', duration: '30 мин', desc: 'Собираем info о сделке: цена, форма оплаты, MSWiA, due diligence. Решаем — нужно ли pełnomocnictwo (если не в Польше).' },
+        { title: 'Выбор нотариуса', duration: '1 день', desc: 'Подбираем нотариуса в Варшаве с reputация и опытом сделок с иностранцами. Часто один из 5 доверенных. Договариваемся о таксе (negocjowalna).' },
+        { title: 'Projekt aktu', duration: '5–7 дней', desc: 'Нотариус готовит projekt с данными покупателя, продавца, недвижимости. Мы получаем PDF, анализируем, предлагаем поправки.' },
+        { title: 'Negociacje klauzul', duration: '2–5 дней', desc: 'Корректировки с продавцом и его юристом. Часто 2–4 итерации до финального текста.' },
+        { title: 'Pełnomocnictwo (опция)', duration: '5–7 дней', desc: 'Если вы не в Польше — pełnomocnictwo nositarne у консула или с apostille. Мы получаем оригинал.' },
+        { title: 'Akt notarialny', duration: '1–2 часа', desc: 'У нотариуса. Чтение aktu вслух, обсуждение, подписание. Передача денег через depozyt notarialny.' },
+        { title: 'Wpis do KW', duration: '7–14 дней', desc: 'Нотариус подаёт wniosek в KW. Контролируем wpis, after wpisu сообщаем klientu о готовности.' },
+        { title: 'Передача недвижимости', duration: 'согласно akcie', desc: 'Protokol zdawczo-odbiorczy: фото, показатели, ключи. Иногда сразу после aktu, иногда через 7–30 дней (если продавец живёт).' }
+      ]
+    },
+    documents: {
+      title: 'Что нужно для aktu',
+      subtitle: 'Большая часть — у нотариуса и продавца. От вас — паспорт и pełnomocnictwo.',
+      items: [
+        'Паспорт покупателя + ВНЖ если есть',
+        'PESEL (если у нотариуса можно с паспортом, но PESEL ускоряет KW)',
+        'NIP — если покупка через Sp. z o.o.',
+        'Pełnomocnictwo нотариальное (если не в Польше)',
+        'Zezwolenie MSWiA (если требуется — для не-ЕС)',
+        'Подтверждение источника денег (для AML — банковский perevod)',
+        'Akt notarialny документы продавца — он предоставляет (KW, ewidencja, PIT)',
+        'Polisa ubezpieczeniowa (если кредит — банк требует)'
+      ]
+    },
+    pricing: {
+      title: 'Стоимость работы',
+      subtitle: 'Сопровождение и pełnomocnictwo — отдельно от taksy notarialnej.',
+      items: [
+        { label: 'Консультация', value: 'Бесплатно', note: '30 минут · обзор сделки' },
+        { label: 'Сопровождение aktu', value: 'от 2 800 PLN', note: 'Чтение + переговоры + akt' },
+        { label: 'Сопровождение + DD', value: 'от 5 500 PLN', note: 'Бандл с DD' },
+        { label: 'Pełne pełnomocnictwo', value: 'от 4 500 PLN', note: 'Замена покупателя на акте' }
+      ],
+      note: 'Taksa notarialna — отдельно (рассчитывается по cенi nieruchomości, ~1 500–6 000 PLN до 1 млн PLN cенi). PCC 2% (или VAT для нового rynku) — обязательная госпошлина. Wpis do KW — 200 PLN.'
+    },
+    legalBase: {
+      title: 'Нормативная база',
+      items: [
+        'Ustawa z dnia 14 lutego 1991 r. — Prawo o notariacie',
+        'Ustawa z dnia 23 kwietnia 1964 r. — Kodeks cywilny (rozdz. III dział II — przeniesienie własności)',
+        'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece',
+        'Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych (PCC 2%)',
+        'Rozporządzenie MS ws. taksy notarialnej',
+        'Ustawa o przeciwdziałaniu praniu pieniędzy z 1 marca 2018 r. (KYC при aktiе)'
+      ]
+    },
+    faq: [
+      { q: 'Зачем адвокат, если есть нотариус?', a: 'Нотариус — нейтральная третья сторона, обязан защищать «obie strony одинаково». Когда возникает дилемма (например, формулировка о моменте перехода собственности или o terminie wykonania) — нотариус выбирает «нейтральный» вариант, который часто выгоднее продавцу. Адвокат покупателя — защищает только вас, видит каждый wagi риск, торгуется за каждую klauzulę.' },
+      { q: 'Можно ли изменить tekst aktu?', a: 'Да, до подписания. Нотариус готовит projekt и принимает поправки от обеих сторон. Стандартно 2–4 итерации. После подписания — нет, akt становится notarialnym dokumentem. Поэтому критично, чтобы адвокат прочитал tekst до встречи у нотариуса.' },
+      { q: 'Как переводятся деньги при покупке?', a: 'Самый безопасный способ — depozyt notarialny: вы переводите cenu на rachunek нотариуса перед aktem. Нотариус подтверждает płatność продавцу, akt подписывается. После wpisu в KW нотариус переводит деньги продавцу. Если что-то пойдёт не так — деньги возвращаются. Стоит +0,3–0,5% от cены.' },
+      { q: 'Pełnomocnictwo — как работает?', a: 'Вы оформляете нотариальное pełnomocnictwo на нас в Польше (если приезжаете на 1 день) или у польского консула в стране проживания (без приезда), или у местного нотариуса с apostille. С pełnomocnictwem мы подписываем akt от вашего имени, вносим деньги, получаем keys. Вы становитесь собственником без приезда в Польшу.' },
+      { q: 'Кто платит taksę notarialną?', a: 'По стандарту обе стороны делят пополам, но это не закон — torgujem. Часто продавец оплачивает свою часть (1/2), а покупатель — свою + PCC. Иногда покупатель оплачивает всё (если рынок продавца). Может быть условием umowy przedwstępnej.' },
+      { q: 'Что такое PCC и кто платит?', a: 'PCC (podatek od czynności cywilnoprawnych) — 2% от cены nieruchomości на вторичном рынку. Платит покупатель в течение 14 дней после aktu. Деклараcja PCC-3 в Urzędzie Skarbowym. На pierwszym rynku (от dewelopera) — VAT 8% включается в cенu, PCC не платится.' },
+      { q: 'Зачем нужен protokol zdawczo-odbiorczy?', a: 'Защищает покупателя от «сюрпризов» в момент въезда. Документируем состояние на день передачи: фото каждой комнаты, показатели счётчиков, наличие отказывающихся работать appliances. Если через месяц обнаруживается, что продавец вынес шкаф или сломал дверь — у вас есть документация для требования исправления или компенсации.' }
+    ],
+    related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Адвокат на акте у нотариуса',
+    ctaSubtitle: 'Бесплатно обсуждаем сделку и подбираем нотариуса. От 2 800 PLN под ключ. Удалённо — через pełnomocnictwo.'
+  },
+  pl: {
+    slug: 'notariusz-asysta',
+    group: 'realestate',
+    icon: 'gavel',
+    badge: 'Akt notarialny · pełnomocnik · 1 dzień',
+    title: 'Asysta u notariusza',
+    subtitle: 'Adwokat przy akcie notarialnym sprzedaży nieruchomości',
+    lead: 'Akt notarialny to finał zakupu. Notariusz jest neutralny — nie chroni kupującego. Adwokat-asysta czyta akt przed podpisaniem, sprawdza każdą klauzulę, negocjuje zmiany ze sprzedającym, kontroluje przepływ pieniędzy i kluczy. Przy 800 tys. PLN nasz honorarium zwraca się jedną poprawką. Jeśli nie jesteś w Polsce — pełnomocnictwo, zastępujemy Cię w pełni.',
+    facts: [
+      { label: 'Czas aktu', value: '1–2 godz.', note: 'czytanie + podpisanie' },
+      { label: 'Przygotowanie', value: '5–7 dni', note: 'projekt aktu + poprawki' },
+      { label: 'Bez przyjazdu', value: 'opcja', note: 'pełnomocnictwo' },
+      { label: 'PCC', value: '2%', note: 'rynek wtórny' }
+    ],
+    grounds: {
+      title: 'Co robi adwokat',
+      subtitle: 'Notariusz — neutralny. Adwokat — po stronie kupującego.',
+      items: [
+        { title: 'Czytanie projektu aktu', desc: 'Notariusz wysyła projekt 1–7 dni przed. Analizujemy każdą klauzulę.' },
+        { title: 'Negocjacje klauzul', desc: 'Kiedy własność przechodzi (przy podpisaniu czy zapłacie?), kto płaci PCC, depozyt notarialny, klucze.' },
+        { title: 'Kontrola przepływu pieniędzy', desc: 'Depozyt notarialny lub escrow bankowy. Pieniądze do sprzedającego po wpisie w KW.' },
+        { title: 'Sprawdzenie podstawy', desc: 'Pełnomocnictwa, brak obciążeń, zgoda małżonka, zgoda spadkobierców.' },
+        { title: 'Pełnomocnictwo od Ciebie', desc: 'U konsula RP lub z apostille — podpisujemy akt za Ciebie.' },
+        { title: 'Protokół zdawczo-odbiorczy', desc: 'Zdjęcia stanu, liczniki, klucze, instrukcje.' },
+        { title: 'Wpis do KW', desc: 'Notariusz wnosi, my kontrolujemy.' }
+      ]
+    },
+    timeline: {
+      title: 'Etapy aktu',
+      subtitle: 'Od wyboru notariusza do wpisu — 2–4 tygodnie.',
+      steps: [
+        { title: 'Konsultacja', duration: '30 min', desc: 'Cena, forma płatności, MSWiA, DD. Pełnomocnictwo?' },
+        { title: 'Wybór notariusza', duration: '1 dzień', desc: 'Doświadczenie z cudzoziemcami. Negocjacja taksy.' },
+        { title: 'Projekt aktu', duration: '5–7 dni', desc: 'Analiza, propozycje poprawek.' },
+        { title: 'Negocjacje', duration: '2–5 dni', desc: '2–4 iteracje.' },
+        { title: 'Pełnomocnictwo (opcja)', duration: '5–7 dni', desc: 'U konsula lub z apostille.' },
+        { title: 'Akt notarialny', duration: '1–2 godz.', desc: 'Czytanie, podpisanie, depozyt.' },
+        { title: 'Wpis w KW', duration: '7–14 dni', desc: 'Kontrolujemy.' },
+        { title: 'Przekazanie nieruchomości', duration: 'wg aktu', desc: 'Protokół z zdjęciami, licznikami, kluczami.' }
+      ]
+    },
+    documents: {
+      title: 'Co potrzebujemy',
+      subtitle: 'Większość po stronie notariusza i sprzedającego.',
+      items: [
+        'Paszport + karta pobytu',
+        'PESEL (przyspiesza KW)',
+        'NIP (zakup przez Sp. z o.o.)',
+        'Pełnomocnictwo notarialne',
+        'Zezwolenie MSWiA (jeśli wymagane)',
+        'Źródło środków (AML)',
+        'Dokumenty sprzedającego (KW, ewidencja, PIT)',
+        'Polisa ubezpieczeniowa (kredyt)'
+      ]
+    },
+    pricing: {
+      title: 'Wycena',
+      subtitle: 'Asysta i pełnomocnictwo osobno od taksy notarialnej.',
+      items: [
+        { label: 'Konsultacja', value: 'Gratis', note: '30 min · ocena transakcji' },
+        { label: 'Asysta przy akcie', value: 'od 2 800 PLN', note: 'Czytanie + negocjacje + akt' },
+        { label: 'Asysta + DD', value: 'od 5 500 PLN', note: 'Pakiet z DD' },
+        { label: 'Pełne pełnomocnictwo', value: 'od 4 500 PLN', note: 'Zastępstwo na akcie' }
+      ],
+      note: 'Taksa notarialna ~1 500–6 000 PLN do 1 mln PLN ceny. PCC 2% (lub VAT). Wpis KW 200 PLN.'
+    },
+    legalBase: {
+      title: 'Podstawa prawna',
+      items: [
+        'Prawo o notariacie z 14 lutego 1991 r.',
+        'Kodeks cywilny — rozdz. III dział II',
+        'Ustawa z 6 lipca 1982 r. o KW i hipotece',
+        'Ustawa z 9 września 2000 r. o PCC',
+        'Rozporządzenie MS ws. taksy notarialnej',
+        'Ustawa AML z 1 marca 2018 r.'
+      ]
+    },
+    faq: [
+      { q: 'Po co adwokat, jak jest notariusz?', a: 'Notariusz neutralny — przy dylematach wybiera wariant często korzystniejszy dla sprzedającego. Adwokat broni kupującego.' },
+      { q: 'Zmiana aktu?', a: 'Tak, do podpisania. 2–4 iteracje. Po podpisaniu — nie.' },
+      { q: 'Przepływ pieniędzy?', a: 'Depozyt notarialny — pieniądze do sprzedającego po wpisie w KW. +0,3–0,5%.' },
+      { q: 'Pełnomocnictwo?', a: 'U konsula RP lub z apostille. Zastępujemy Cię w pełni.' },
+      { q: 'Kto płaci taksę?', a: 'Standardowo po połowie, ale negocjowalne.' },
+      { q: 'PCC?', a: '2% od ceny na rynku wtórnym. Kupujący w 14 dni przez PCC-3.' },
+      { q: 'Protokół zdawczo-odbiorczy?', a: 'Zdjęcia, liczniki — chroni przed niespodziankami przy wprowadzeniu się.' }
+    ],
+    related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Adwokat przy akcie',
+    ctaSubtitle: 'Bezpłatnie omawiamy. Od 2 800 PLN. Zdalnie — pełnomocnictwo.'
+  },
+  en: {
+    slug: 'notariusz-asysta',
+    group: 'realestate',
+    icon: 'gavel',
+    badge: 'Notarial deed · PoA · 1 day',
+    title: 'Notary attendance',
+    subtitle: 'Attorney attending the deed of sale',
+    lead: 'The notarial deed (akt notarialny) is the final stage of buying property. The notary confirms the agreement but is neutral — they don\'t protect the buyer. Our attorney attendance reads the deed before signing, checks every clause, negotiates changes with the seller, and controls the flow of money and keys. On an 800k purchase, our fee pays for itself with one amendment. If you\'re not in Poland — notarial PoA, and we replace you in full.',
+    facts: [
+      { label: 'Deed duration', value: '1–2 hours', note: 'reading + signing' },
+      { label: 'Preparation', value: '5–7 days', note: 'draft deed + amendments' },
+      { label: 'Without travel', value: 'optional', note: 'via PoA' },
+      { label: 'PCC', value: '2%', note: 'secondary market' }
+    ],
+    grounds: {
+      title: 'What an attorney does',
+      subtitle: 'Notary — neutral. Attorney — on your side.',
+      items: [
+        { title: 'Reviewing the draft deed', desc: 'Notary sends draft 1–7 days before. We analyze every clause and propose amendments.' },
+        { title: 'Negotiating clauses', desc: 'Title transfer moment (signing or payment?), who pays PCC, notarial deposit, key handover, occupancy.' },
+        { title: 'Money flow control', desc: 'Notarial deposit or bank escrow. Buyer pays into account, notary releases to seller after KW entry.' },
+        { title: 'Verifying basis', desc: 'Seller PoAs, no encumbrances, spousal consent, heir consent.' },
+        { title: 'PoA from you', desc: 'Notarized at Polish consulate or with apostille — we sign the deed on your behalf.' },
+        { title: 'Handover protocol', desc: 'Photos, meter readings, keys, manuals.' },
+        { title: 'KW entry', desc: 'Notary files, we monitor.' }
+      ]
+    },
+    timeline: {
+      title: 'Deed steps',
+      subtitle: 'From notary selection to KW entry — 2–4 weeks.',
+      steps: [
+        { title: 'Free consultation', duration: '30 min', desc: 'Price, payment, MSWiA, DD. PoA needed?' },
+        { title: 'Notary selection', duration: '1 day', desc: 'Foreigner experience. Fee negotiation.' },
+        { title: 'Draft deed', duration: '5–7 days', desc: 'Analysis and amendments.' },
+        { title: 'Negotiations', duration: '2–5 days', desc: '2–4 iterations.' },
+        { title: 'PoA (optional)', duration: '5–7 days', desc: 'Polish consulate or apostille.' },
+        { title: 'Notarial deed', duration: '1–2 hours', desc: 'Reading, signing, deposit.' },
+        { title: 'KW filing', duration: '7–14 days', desc: 'We monitor.' },
+        { title: 'Property handover', duration: 'per deed', desc: 'Protocol with photos, meters, keys.' }
+      ]
+    },
+    documents: {
+      title: 'What we need',
+      subtitle: 'Most on notary and seller side.',
+      items: [
+        'Passport + residence card',
+        'PESEL (speeds up KW)',
+        'NIP (purchase via Sp. z o.o.)',
+        'Notarial PoA (if remote)',
+        'MSWiA permit (if required)',
+        'Source of funds (AML)',
+        'Seller documents (KW, cadastre, PIT)',
+        'Insurance policy (mortgage)'
+      ]
+    },
+    pricing: {
+      title: 'Our fee',
+      subtitle: 'Attendance and PoA separate from notary fee.',
+      items: [
+        { label: 'Consultation', value: 'Free', note: '30 min · transaction review' },
+        { label: 'Deed attendance', value: 'from 2,800 PLN', note: 'Review + negotiation + deed' },
+        { label: 'Attendance + DD', value: 'from 5,500 PLN', note: 'Bundle with DD' },
+        { label: 'Full PoA', value: 'from 4,500 PLN', note: 'Replace you on deed' }
+      ],
+      note: 'Notary fee separate (~1,500–6,000 PLN up to 1M price). PCC 2% (or VAT for new market). KW entry 200 PLN.'
+    },
+    legalBase: {
+      title: 'Legal basis',
+      items: [
+        'Notary Law of 14 February 1991',
+        'Civil Code — Book III, Title II (transfer of ownership)',
+        'Land Register Act of 6 July 1982',
+        'PCC Act of 9 September 2000 (2%)',
+        'Justice Ministry Regulation on notarial fees',
+        'AML Act of 1 March 2018 (KYC at deed)'
+      ]
+    },
+    faq: [
+      { q: "Why an attorney if there's a notary?", a: 'The notary is neutral — required to protect both sides equally. On dilemmas (transfer moment, deadlines) the notary picks the "neutral" wording that often favors the seller. Your attorney sees every risk and negotiates each clause for you.' },
+      { q: 'Can the deed text be changed?', a: 'Yes, before signing. Notary takes amendments from both sides. 2–4 iterations standard. After signing — no.' },
+      { q: 'Money transfer mechanics?', a: 'Safest: notarial deposit. Buyer wires price to notary account before deed. Notary confirms payment, deed signed. After KW entry, notary releases to seller. Costs +0.3–0.5%.' },
+      { q: 'How does the PoA work?', a: 'Notarized PoA in Poland (1-day visit) or at the Polish consulate abroad (no travel) or notarized locally with apostille. We sign, pay, collect keys.' },
+      { q: 'Who pays the notary fee?', a: 'Customarily split, but negotiable. Often each side pays their half, buyer adds PCC.' },
+      { q: 'PCC?', a: '2% on secondary-market price. Buyer pays within 14 days via PCC-3 declaration. New build (developer) — VAT 8% in price, no PCC.' },
+      { q: 'Why a handover protocol?', a: 'Documents the property state on transfer — photos, meter readings, working appliances. Protects you if seller removes a wardrobe or breaks a door later.' }
+    ],
+    related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Attorney at the notary',
+    ctaSubtitle: 'Free consultation. From 2,800 PLN. Remote via PoA available.'
+  }
+};
+
+export default notariuszAsysta;

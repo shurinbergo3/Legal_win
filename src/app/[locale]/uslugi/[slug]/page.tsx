@@ -103,6 +103,38 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'Polish citizenship lawyer'
     ]
   },
+  'karta-polaka': {
+    ru: [
+      'Karta Polaka',
+      'карта поляка',
+      'польское происхождение',
+      'польские корни',
+      'Karta Polaka собеседование',
+      'польский язык A2 B1',
+      'Karta Polaka документы',
+      'польская национальность'
+    ],
+    pl: [
+      'Karta Polaka',
+      'wniosek o Kartę Polaka',
+      'polskie pochodzenie',
+      'narodowość polska',
+      'rozmowa z konsulem Karta Polaka',
+      'archiwa kresowe',
+      'Karta Polaka a obywatelstwo',
+      'kancelaria Karta Polaka Warszawa'
+    ],
+    en: [
+      'Karta Polaka',
+      'Polish ancestry card',
+      'Polish heritage card',
+      'Polish nation card',
+      'Karta Polaka application',
+      'Polish citizenship through Karta Polaka',
+      'Karta Polaka interview prep',
+      'Polish ancestry research'
+    ]
+  },
   'ochrona-miedzynarodowa': {
     ru: [
       'международная защита Польша',
@@ -599,6 +631,326 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'kindergarten Warsaw expats',
       'Polish school for Ukrainian kids',
       'expat children Polish education'
+    ]
+  },
+  'rejestracja-sp-z-oo': {
+    ru: [
+      'регистрация Sp. z o.o.',
+      'открыть фирму в Польше',
+      'польская ООО',
+      'KRS S24',
+      'учредить Sp. z o.o.',
+      'CIT 9% Польша',
+      'Estonian CIT Польша',
+      'Sp. z o.o. для иностранца'
+    ],
+    pl: [
+      'rejestracja Sp. z o.o.',
+      'założenie spółki z o.o.',
+      'spółka z o.o. S24',
+      'KRS rejestracja',
+      'CIT estoński',
+      'IP Box programista',
+      'kancelaria spółki Warszawa',
+      'Sp. z o.o. dla cudzoziemców'
+    ],
+    en: [
+      'Sp. z o.o. registration Poland',
+      'Polish LLC formation',
+      'open company in Poland',
+      'KRS registration',
+      'Estonian CIT Poland',
+      'IP Box Poland',
+      'Poland company for foreigners',
+      'Polish LLC lawyer Warsaw'
+    ]
+  },
+  'gotowe-firmy': {
+    ru: [
+      'готовая компания Польша',
+      'shelf company Польша',
+      'купить Sp. z o.o.',
+      'готовая Sp. z o.o.',
+      'готовая фирма с историей',
+      'Sp. z o.o. с банковским счётом',
+      'shelf-company Варшава',
+      'фирма с активным VAT'
+    ],
+    pl: [
+      'gotowa spółka',
+      'spółka z historią',
+      'shelf company',
+      'kupno gotowej Sp. z o.o.',
+      'spółka z kontem bankowym',
+      'aktywny VAT spółka',
+      'gotowa firma Warszawa',
+      'sprzedaż udziałów'
+    ],
+    en: [
+      'shelf company Poland',
+      'ready-made Sp. z o.o.',
+      'buy Polish company',
+      'aged company Poland',
+      'company with bank account Poland',
+      'active VAT shelf company',
+      'shelf company Warsaw',
+      'instant company Poland'
+    ]
+  },
+  'jdg': {
+    ru: [
+      'JDG Польша',
+      'индивидуальное предпринимательство Польша',
+      'CEIDG регистрация',
+      'samozatrudnienie',
+      'Ulga na start ZUS',
+      'IP Box JDG',
+      'JDG для иностранца',
+      'mały ZUS Plus'
+    ],
+    pl: [
+      'JDG',
+      'jednoosobowa działalność',
+      'CEIDG rejestracja',
+      'samozatrudnienie',
+      'Ulga na start',
+      'Mały ZUS Plus',
+      'IP Box JDG',
+      'JDG dla cudzoziemca'
+    ],
+    en: [
+      'sole proprietorship Poland',
+      'JDG registration',
+      'CEIDG Poland',
+      'self-employment Poland',
+      'Ulga na start ZUS',
+      'IP Box sole trader',
+      'Poland self-employed for foreigners',
+      'Mały ZUS Plus'
+    ]
+  },
+  'przedstawicielstwa': {
+    ru: [
+      'представительство в Польше',
+      'oddział иностранной фирмы Польша',
+      'przedstawicielstwo zagranicznej firmy',
+      'филиал в Польше',
+      'регистрация oddziału',
+      'KRS oddział',
+      'международная экспансия в Польшу',
+      'юрист oddział Варшава'
+    ],
+    pl: [
+      'oddział zagranicznej firmy',
+      'przedstawicielstwo zagraniczne',
+      'rejestracja oddziału w Polsce',
+      'rejestr przedstawicielstw MRiT',
+      'KRS oddział',
+      'kierownik oddziału',
+      'firma zagraniczna w Polsce',
+      'kancelaria oddział Warszawa'
+    ],
+    en: [
+      'foreign company branch Poland',
+      'representative office Poland',
+      'oddział registration',
+      'przedstawicielstwo MRiT',
+      'KRS branch',
+      'foreign branch manager',
+      'foreign company in Poland',
+      'branch office Warsaw lawyer'
+    ]
+  },
+  'podatki-ksiegowosc': {
+    ru: [
+      'бухгалтерия в Польше',
+      'налоги в Польше',
+      'CIT 9% Польша',
+      'Estonian CIT',
+      'IP Box 5%',
+      'JPK_V7',
+      'KSeF Польша',
+      'księgowość dla Sp. z o.o.'
+    ],
+    pl: [
+      'księgowość Warszawa',
+      'biuro rachunkowe',
+      'CIT estoński',
+      'IP Box',
+      'JPK_V7',
+      'KSeF 2026',
+      'kontrola podatkowa',
+      'ceny transferowe'
+    ],
+    en: [
+      'Polish accounting services',
+      'tax compliance Poland',
+      'Estonian CIT Poland',
+      'IP Box 5%',
+      'JPK_V7 Poland',
+      'KSeF 2026',
+      'tax audit Poland',
+      'transfer pricing Poland'
+    ]
+  },
+  'likwidacja-sprzedaz': {
+    ru: [
+      'ликвидация Sp. z o.o.',
+      'закрытие фирмы Польша',
+      'продажа фирмы Польша',
+      'sprzedaż udziałów',
+      'M&A Польша',
+      'wykreślenie z KRS',
+      'упадлошчь',
+      'likwidator Sp. z o.o.'
+    ],
+    pl: [
+      'likwidacja Sp. z o.o.',
+      'zamknięcie firmy',
+      'sprzedaż spółki',
+      'zbycie udziałów',
+      'M&A polska',
+      'wykreślenie z KRS',
+      'upadłość',
+      'kancelaria likwidacja'
+    ],
+    en: [
+      'Sp. z o.o. liquidation',
+      'wind-down company Poland',
+      'sell Polish company',
+      'share transfer Poland',
+      'M&A Poland',
+      'KRS deregistration',
+      'Polish bankruptcy',
+      'company closure Warsaw'
+    ]
+  },
+  'mswia-zezwolenie': {
+    ru: [
+      'разрешение MSWiA',
+      'согласие МВД на покупку недвижимости',
+      'MSWiA для иностранцев',
+      'покупка недвижимости в Польше иностранцем',
+      'zezwolenie MSWiA',
+      'więź z Polską',
+      'strefa nadgraniczna',
+      'Karta Polaka недвижимость'
+    ],
+    pl: [
+      'zezwolenie MSWiA',
+      'zakup nieruchomości przez cudzoziemca',
+      'MSWiA wniosek',
+      'więź z Polską',
+      'strefa nadgraniczna',
+      'departament zezwoleń',
+      'kancelaria MSWiA Warszawa',
+      'pozwolenie ministra spraw wewnętrznych'
+    ],
+    en: [
+      'MSWiA permit Poland',
+      'real estate permit foreign buyer Poland',
+      'Polish Interior Ministry permit',
+      'non-EU property purchase Poland',
+      'border zone Poland real estate',
+      'więź z Polską',
+      'Polish property buyer permit',
+      'Karta Polaka real estate'
+    ]
+  },
+  'due-diligence-nieruchomosci': {
+    ru: [
+      'due diligence недвижимости',
+      'проверка квартиры перед покупкой',
+      'KW проверка',
+      'księga wieczysta',
+      'проверка чистоты сделки',
+      'обременения недвижимости',
+      'юридический аудит недвижимости',
+      'риски при покупке недвижимости Польша'
+    ],
+    pl: [
+      'due diligence nieruchomości',
+      'sprawdzenie mieszkania',
+      'księga wieczysta sprawdzenie',
+      'audyt prawny nieruchomości',
+      'obciążenia nieruchomości',
+      'historia nieruchomości',
+      'wspólnota mieszkaniowa',
+      'kancelaria nieruchomości Warszawa'
+    ],
+    en: [
+      'real estate due diligence Poland',
+      'property check before purchase',
+      'Polish land register check',
+      'KW verification',
+      'Polish property legal audit',
+      'encumbrances Poland',
+      'real estate lawyer Warsaw',
+      'pre-purchase property review Poland'
+    ]
+  },
+  'notariusz-asysta': {
+    ru: [
+      'адвокат на акте у нотариуса',
+      'akt notarialny сопровождение',
+      'нотариус Варшава недвижимость',
+      'pełnomocnictwo купля недвижимости',
+      'depozyt notarialny',
+      'PCC 2%',
+      'Wpis do KW',
+      'нотариальный акт Польша'
+    ],
+    pl: [
+      'asysta przy akcie notarialnym',
+      'adwokat u notariusza',
+      'pełnomocnictwo zakup nieruchomości',
+      'depozyt notarialny',
+      'PCC 2%',
+      'taksa notarialna',
+      'wpis do KW',
+      'kancelaria nieruchomości Warszawa'
+    ],
+    en: [
+      'attorney at notary deed Poland',
+      'real estate notary assistance Warsaw',
+      'power of attorney property purchase Poland',
+      'notarial deposit Poland',
+      'PCC 2% Poland',
+      'notarial fee Poland',
+      'land register entry',
+      'Poland real estate closing lawyer'
+    ]
+  },
+  'najem-komercyjny': {
+    ru: [
+      'аренда офиса Варшава',
+      'najem komercyjny',
+      'договор аренды офиса',
+      'аренда магазина Польша',
+      'аренда склада Польша',
+      'service charge офис',
+      'fit-out офис',
+      'klauzula konkurencji najem'
+    ],
+    pl: [
+      'najem komercyjny',
+      'najem biura Warszawa',
+      'najem lokalu',
+      'najem magazynu',
+      'service charge',
+      'fit-out',
+      'klauzula konkurencji',
+      'kancelaria najmu Warszawa'
+    ],
+    en: [
+      'commercial lease Poland',
+      'office lease Warsaw',
+      'retail lease Poland',
+      'warehouse lease Poland',
+      'service charge office',
+      'fit-out negotiation',
+      'non-compete clause lease',
+      'Polish commercial real estate lawyer'
     ]
   }
 };
