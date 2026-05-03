@@ -148,7 +148,15 @@ export async function generateMetadata({
     },
     // Bump the `?v=` query whenever favicon.svg changes — browsers cache
     // favicons aggressively and won't refetch on a hard reload otherwise.
-    icons: { icon: '/favicon.svg?v=3' }
+    icons: {
+      icon: [
+        { url: '/favicon.svg?v=4', type: 'image/svg+xml' },
+        { url: '/favicon-32.png?v=4', sizes: '32x32', type: 'image/png' },
+        { url: '/favicon-16.png?v=4', sizes: '16x16', type: 'image/png' }
+      ],
+      apple: [{ url: '/apple-touch-icon.png?v=4', sizes: '180x180', type: 'image/png' }]
+    },
+    manifest: '/site.webmanifest?v=4'
   };
 }
 
