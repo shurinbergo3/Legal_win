@@ -3,7 +3,7 @@ slug: legalizacja-w-polshe-warszawa
 title: "Легализация в Польше: пути для иностранцев в Варшаве 2026"
 description: "Полный гид по легализации иностранцев в Варшаве в 2026 году — visa D, karta czasowego pobytu, karta stałego pobytu, CUKR, гражданство. Сроки в Mazowieckim Urzędzie Wojewódzkim, цены, реальные ожидания."
 locale: ru
-publishDate: 2026-05-04
+publishDate: 2024-09-15
 author: LegalWin
 category: Иммиграция
 keywords:

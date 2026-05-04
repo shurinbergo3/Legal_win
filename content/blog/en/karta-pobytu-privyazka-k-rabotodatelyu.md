@@ -3,7 +3,7 @@ slug: karta-pobytu-privyazka-k-rabotodatelyu
 title: "Employer-Tied Karta Pobytu in Poland — 2026"
 description: "What it means when your karta czasowego pobytu is tied to a specific employer in Poland in 2026. When you cannot change jobs, what to write in Załącznik nr 1, how to switch employers without losing your residence permit. Annulment, appeals."
 locale: en
-publishDate: 2026-05-04
+publishDate: 2025-05-19
 author: LegalWin
 category: Immigration
 keywords:

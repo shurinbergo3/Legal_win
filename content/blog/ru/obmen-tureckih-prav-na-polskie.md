@@ -3,7 +3,7 @@ slug: obmen-tureckih-prav-na-polskie
 title: "Обмен турецких прав на польские в 2026 году"
 description: "Как поменять турецкие водительские права на польские в 2026 — Венская конвенция, документы, цены от 200 PLN, сроки 45–90 дней. Особенности для прав образца до 2016, переводы с турецкого, Wydział Komunikacji."
 locale: ru
-publishDate: 2026-05-04
+publishDate: 2025-02-11
 author: LegalWin
 category: Документы
 keywords:
