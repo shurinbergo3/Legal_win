@@ -1,16 +1,23 @@
 /**
  * Telegram bot subscribers — chat IDs that receive contact-form requests.
  *
- * Storage: a JSON file at <repo>/data/subscribers.json (gitignored).
- *   - Works in any long-lived runtime (local dev, self-hosted Node, VPS).
- *   - Will NOT persist across deploys on serverless platforms (Vercel).
- *     For production, add IDs to TELEGRAM_OPERATOR_CHAT_IDS env var.
+ * Storage strategy:
+ *   1. Vercel KV (Upstash Redis) when KV_REST_API_URL + KV_REST_API_TOKEN are set.
+ *      This is the production path — survives deploys, works on serverless.
+ *   2. Local JSON file at <repo>/data/subscribers.json otherwise.
+ *      Fine for `npm run dev` without a KV connection.
+ *
+ * Permanent operators in TELEGRAM_OPERATOR_CHAT_IDS are always merged in on read.
  */
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { kv } from '@vercel/kv';
 
 const FILE = path.join(process.cwd(), 'data', 'subscribers.json');
+const KV_KEY = 'legalwin:subscribers';
+
+const hasKV = Boolean(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
 
 export type SubscriberMeta = {
   chatId: number;
@@ -25,39 +32,47 @@ type Store = {
   updatedAt: string;
 };
 
+const empty = (): Store => ({ chatIds: [], meta: [], updatedAt: new Date().toISOString() });
+
 async function read(): Promise<Store> {
+  if (hasKV) {
+    const data = await kv.get<Store>(KV_KEY);
+    if (!data) return empty();
+    return {
+      chatIds: Array.isArray(data.chatIds) ? data.chatIds : [],
+      meta: Array.isArray(data.meta) ? data.meta : [],
+      updatedAt: data.updatedAt ?? new Date().toISOString()
+    };
+  }
   try {
     const text = await fs.readFile(FILE, 'utf8');
     const parsed = JSON.parse(text) as Partial<Store>;
-    const chatIds = Array.isArray(parsed.chatIds) ? parsed.chatIds : [];
-    const meta = Array.isArray(parsed.meta) ? parsed.meta : [];
-    return { chatIds, meta, updatedAt: parsed.updatedAt ?? new Date().toISOString() };
+    return {
+      chatIds: Array.isArray(parsed.chatIds) ? parsed.chatIds : [],
+      meta: Array.isArray(parsed.meta) ? parsed.meta : [],
+      updatedAt: parsed.updatedAt ?? new Date().toISOString()
+    };
   } catch {
-    return { chatIds: [], meta: [], updatedAt: new Date().toISOString() };
+    return empty();
   }
 }
 
 async function write(data: Store): Promise<boolean> {
+  if (hasKV) {
+    await kv.set(KV_KEY, data);
+    return true;
+  }
   try {
     await fs.mkdir(path.dirname(FILE), { recursive: true });
     await fs.writeFile(FILE, JSON.stringify(data, null, 2), 'utf8');
     return true;
   } catch (e) {
     console.warn(
-      '[subscribers] cannot persist to disk (likely serverless read-only FS):',
+      '[subscribers] cannot persist to disk and KV is not configured:',
       e instanceof Error ? e.message : e
     );
     return false;
   }
-}
-
-export function isEphemeralRuntime(): boolean {
-  return Boolean(
-    process.env.VERCEL ||
-      process.env.VERCEL_ENV ||
-      process.env.NETLIFY ||
-      process.env.AWS_LAMBDA_FUNCTION_NAME
-  );
 }
 
 function permanentOperators(): number[] {
@@ -75,7 +90,6 @@ export async function addSubscriber(
   if (permanentOperators().includes(chatId)) return 'duplicate';
   const data = await read();
   if (data.chatIds.includes(chatId)) {
-    // Update meta if better info available
     if (info?.name) {
       const idx = data.meta.findIndex((m) => m.chatId === chatId);
       if (idx >= 0) {
@@ -134,7 +148,6 @@ export async function listSubscribersWithMeta(): Promise<SubscriberMeta[]> {
     }
   }
 
-  // Ensure dynamic IDs without meta are included
   for (const id of data.chatIds) {
     if (!result.find((m) => m.chatId === id)) {
       result.push({ chatId: id, name: `ID ${id}`, addedAt: '—' });

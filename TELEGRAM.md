@@ -1,8 +1,12 @@
 # Telegram bot — setup & usage
 
 The contact form on legalwin.pl sends every submission to a Telegram bot.
-Whoever DMs the bot with the access password becomes a subscriber and
-starts receiving requests in their personal chat. No accounts, no panel.
+Recipients are:
+
+1. **Admins** — chat IDs listed in `TELEGRAM_OPERATOR_CHAT_IDS`. Always
+   receive leads, can manage subscribers from inside the bot.
+2. **Subscribers** — added at runtime via `/adduser` (admin command) or
+   the admin panel inline button. Stored in Vercel KV.
 
 ## How it works
 
@@ -16,12 +20,13 @@ starts receiving requests in their personal chat. No accounts, no panel.
    sendContactToTelegram()  ─►  Telegram Bot API
             │                         │
             ▼                         ▼
-  reads data/subscribers.json    sends a message to
-  + TELEGRAM_OPERATOR_CHAT_IDS   each subscriber chat
+  reads TELEGRAM_OPERATOR_CHAT_IDS    sends a message to
+   + Vercel KV (legalwin:subscribers) each subscriber chat
 ```
 
-Subscribers are added via the bot itself (`/start` → password) — the site
-operator never has to touch a config file to add a new lawyer.
+If Vercel KV is not connected, the bot falls back to a local JSON file
+(`data/subscribers.json`). On Vercel that filesystem is read-only, so any
+`/adduser` will fail with an "ephemeral" warning until KV is wired up.
 
 ## One-time bot setup
 
@@ -31,13 +36,28 @@ Locally — `.env.local`:
 
 ```env
 TELEGRAM_BOT_TOKEN=7688457397:AAGsEOzTsuLPHY6ZuqHdCgexomWOBaxIfHI
-TELEGRAM_PASSWORD=240919952026
+TELEGRAM_OPERATOR_CHAT_IDS=240919952026
 TELEGRAM_WEBHOOK_SECRET=         # optional, see below
-TELEGRAM_OPERATOR_CHAT_IDS=      # optional comma-separated list
 ```
 
-In production (Vercel / Netlify / wherever) — set the same vars in the
-hosting provider's dashboard.
+In production (Vercel) — set the same vars in the hosting provider's
+dashboard.
+
+### 1b. Connect Vercel KV (production)
+
+Required for `/adduser`, `/removeuser`, and the admin-panel inline buttons
+to work on Vercel.
+
+1. Vercel Dashboard → your project → **Storage** → **Create Database** →
+   pick **Upstash for Redis** (KV). Free tier is enough.
+2. Click **Connect** to attach it to the LegalWin project.
+3. Vercel auto-injects `KV_REST_API_URL`, `KV_REST_API_TOKEN`, and a few
+   companions into your env vars.
+4. Redeploy. The bot detects KV at runtime and starts persisting
+   subscribers there.
+
+To run locally against the same KV (optional), pull the env vars:
+`vercel env pull .env.local`.
 
 ### 2. Set the webhook URL
 
@@ -51,8 +71,11 @@ SECRET=""   # optional — must match TELEGRAM_WEBHOOK_SECRET if set
 curl -sS -X POST "https://api.telegram.org/bot$TOKEN/setWebhook" \
      -d "url=$URL" \
      -d "secret_token=$SECRET" \
-     -d "allowed_updates=[\"message\"]"
+     -d "allowed_updates=[\"message\",\"callback_query\"]"
 ```
+
+Or hit `GET /api/telegram/setup?secret=<TELEGRAM_WEBHOOK_SECRET>` once after
+each deploy — it registers the webhook and the command list in one go.
 
 Verify:
 
@@ -77,46 +100,45 @@ curl -X POST "https://api.telegram.org/bot$TOKEN/setWebhook" \
 
 Re-run the setWebhook each time ngrok hands you a new URL.
 
-## How a lawyer subscribes
+## How a lawyer is added
 
-1. Open Telegram, find the bot (search by its `@username`).
-2. Press **Start** (or send `/start`). Bot greets and asks for the password.
-3. Send the password (one message, just the digits).
-4. Bot replies "✅ Доступ открыт" — done. Future form submissions arrive
-   as messages in this chat.
+1. Lawyer opens Telegram, finds the bot, hits **Start** and sends `/myid`.
+2. Lawyer sends their Chat ID to the admin.
+3. Admin opens `/admin` → **➕ Добавить по ID** → sends `/adduser <id>`.
+   The new subscriber is persisted to Vercel KV; no redeploy needed.
+
+Alternative: append the Chat ID to `TELEGRAM_OPERATOR_CHAT_IDS` on Vercel
+to grant **admin** rights (full panel access). Permanent operators in that
+env var are always merged in regardless of what's in KV.
 
 ### Bot commands
 
 | Command | Effect |
 |---------|--------|
-| `/start`   | Welcome + password prompt |
+| `/start`   | Welcome — shows the user's Chat ID |
+| `/myid`    | Show own Chat ID |
 | `/status`  | Shows whether you're subscribed |
-| `/stop`    | Removes you from the subscriber list |
+| `/stop`    | Unsubscribe yourself |
+| `/admin`   | Admin panel (admins only) |
+| `/listusers` | List all subscribers (admins only) |
+| `/adduser <id>` | Add subscriber by ID (admins only) |
+| `/removeuser <id>` | Remove subscriber by ID (admins only) |
 
 ## Storage notes
 
-Subscribers are stored in `data/subscribers.json` (gitignored).
+Subscribers are stored in **Vercel KV** under the key `legalwin:subscribers`
+when KV is connected (the production setup). Without KV, the code falls
+back to `data/subscribers.json` — fine for local dev, broken on serverless.
 
-- **Long-lived runtime (VPS, dedicated host, Docker)**: works as-is —
-  the file persists between requests.
-- **Serverless (Vercel, Cloudflare Workers, Netlify functions)**: the
-  filesystem is reset every cold start. The file approach won't survive
-  a redeploy. Either:
-  - Hard-code permanent operators via `TELEGRAM_OPERATOR_CHAT_IDS=
-    111,222,333` (comma-separated chat IDs), or
-  - Swap `src/lib/subscribers.ts` to use a real KV store (Vercel KV,
-    Upstash Redis, Postgres, etc.). The interface (`addSubscriber`,
-    `removeSubscriber`, `listSubscribers`, `isSubscribed`) is small.
+Permanent operators in `TELEGRAM_OPERATOR_CHAT_IDS` are always merged in on
+top of whatever is in KV — even if KV is wiped, those IDs keep receiving
+leads.
 
 ## Security
 
 - The bot token is a **secret** — anyone with it can post as the bot.
   If it leaks, regenerate via [@BotFather](https://t.me/BotFather) →
-  `/revoke`. (The token in this repo's `.env.local` was shared in plain
-  chat; if that conversation could be read by anyone outside the team,
-  rotate the token before going live.)
-- The password gates *who can subscribe*. Pick something long and random.
-  Don't commit it.
+  `/revoke`.
 - Set `TELEGRAM_WEBHOOK_SECRET` to a random string and pass it to
   `setWebhook?secret_token=...` — Telegram will then sign every request
   and the route rejects anything else.
@@ -127,6 +149,6 @@ Subscribers are stored in `data/subscribers.json` (gitignored).
 |---------|-------|
 | Bot doesn't respond to `/start` | `getWebhookInfo` — webhook URL set? `last_error_message` non-empty? |
 | `getWebhookInfo` shows errors | URL must be HTTPS, must respond 200 to POST, must accept JSON |
-| Form says "success" but nothing arrives | `data/subscribers.json` is empty — subscribe at least one chat first |
-| `data/subscribers.json` not created | Make sure the Node process has write access to the project root |
-| Need to wipe all subscribers | Delete `data/subscribers.json` (or just the `chatIds` array) |
+| Form says "success" but nothing arrives | `TELEGRAM_OPERATOR_CHAT_IDS` is empty AND no subscribers in KV |
+| `/adduser` says "хостинг не сохраняет подписки" | Vercel KV is not connected — see step 1b above |
+| Need to remove an operator | Delete the ID from `TELEGRAM_OPERATOR_CHAT_IDS` (admin) or run `/removeuser <id>` (subscriber) |

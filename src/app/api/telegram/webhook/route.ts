@@ -268,7 +268,6 @@ export async function POST(req: NextRequest) {
 
   const chatId = message.chat.id;
   const text = message.text.trim();
-  const password = process.env.TELEGRAM_PASSWORD ?? '';
   const greeting = displayName(message.chat);
   const admin = isAdmin(chatId);
 
@@ -355,7 +354,7 @@ export async function POST(req: NextRequest) {
       chatId,
       subbed
         ? '✅ Вы подписаны и получаете заявки с сайта LegalWin.'
-        : '❌ Вы не подписаны.\n\nОтправьте пароль чтобы подписаться, или /start для инструкции.'
+        : `❌ Вы не подписаны.\n\nПередайте администратору ваш Chat ID: <code>${chatId}</code>`
     );
     return NextResponse.json({ ok: true });
   }
@@ -402,31 +401,7 @@ export async function POST(req: NextRequest) {
     } else {
       await tgSend(
         chatId,
-        `👋 Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы начать получать новые заявки, отправьте <b>пароль доступа</b> одним сообщением.\n\n/myid — узнать свой Telegram ID`
-      );
-    }
-    return NextResponse.json({ ok: true });
-  }
-
-  // Password attempt
-  if (password && text === password) {
-    const result = await addSubscriber(chatId, {
-      name: greeting,
-      username: message.chat.username
-    });
-    if (result === 'added' || result === 'duplicate') {
-      const msg =
-        result === 'added'
-          ? `✅ <b>Доступ открыт.</b>\n\nВы будете получать новые заявки с сайта LegalWin в этот чат.`
-          : '✅ Вы уже подписаны.';
-      const keyboard = admin ? adminReplyKeyboard() : subscriberReplyKeyboard();
-      await tgSend(chatId, msg, { reply_markup: keyboard });
-    } else {
-      await tgSend(
-        chatId,
-        `⚠️ <b>Пароль верный, но хостинг не сохраняет подписки между деплоями.</b>\n\n` +
-          `Ваш Chat ID: <code>${chatId}</code>\n\n` +
-          `Добавьте его в переменную <code>TELEGRAM_OPERATOR_CHAT_IDS</code> на Vercel.`
+        `👋 Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы получать заявки, передайте администратору ваш Chat ID:\n<code>${chatId}</code>\n\n/myid — показать ID ещё раз`
       );
     }
     return NextResponse.json({ ok: true });

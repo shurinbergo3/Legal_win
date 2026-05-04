@@ -140,7 +140,7 @@ A separate webhook bot (`/api/telegram/webhook`) manages operator subscriptions 
 | `/removeuser <id>` | Admins | Remove a subscriber |
 | `/listusers` | Admins | List all active subscribers |
 
-Admins are identified by `TELEGRAM_OPERATOR_CHAT_IDS`. New operators subscribe via password (`TELEGRAM_PASSWORD`). See [TELEGRAM.md](./TELEGRAM.md) for full setup.
+Admins and subscribers are listed in `TELEGRAM_OPERATOR_CHAT_IDS` (comma-separated). To add a new operator, append their Chat ID to that env var on Vercel and redeploy. See [TELEGRAM.md](./TELEGRAM.md) for full setup.
 
 ---
 
@@ -169,7 +169,6 @@ npm run dev                     # http://localhost:3000/ru
 | `TELEGRAM_BOT_TOKEN` | ✅ | Telegram Bot API token |
 | `TELEGRAM_OPERATOR_CHAT_IDS` | ✅ | Comma-separated admin Chat IDs — always receive leads, grant admin rights |
 | `NEXT_PUBLIC_SITE_URL` | ✅ | Canonical URL for sitemap and OG tags (`https://legalwin.pl` in prod) |
-| `TELEGRAM_PASSWORD` | — | Password for operators to self-subscribe via `/start` |
 | `TELEGRAM_WEBHOOK_SECRET` | — | Secret token to validate Telegram webhook requests |
 
 Bot setup and webhook registration are documented in [TELEGRAM.md](./TELEGRAM.md).
