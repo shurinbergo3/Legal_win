@@ -3,7 +3,7 @@ slug: cheklist-novopribyvshih-v-polshu
 title: "Lista kontrolna dla nowo przybyłych do Polski — pierwsze 90 dni"
 description: "Pełna lista kontrolna dla cudzoziemców przybywających do Polski w 2025 roku. PESEL, meldunek, Profil Zaufany, konto bankowe, NFZ, szkoła, praca, karta pobytu — co i kiedy zrobić w pierwszych 30, 60 i 90 dniach."
 locale: pl
-publishDate: 2025-11-01
+publishDate: 2025-11-25
 author: LegalWin
 category: Imigracja
 keywords:

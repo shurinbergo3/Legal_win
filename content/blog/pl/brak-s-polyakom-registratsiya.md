@@ -3,7 +3,7 @@ slug: brak-s-polyakom-registratsiya
 title: "Zawarcie małżeństwa z obywatelem Polski — przewodnik 2024"
 description: "Jak zarejestrować małżeństwo z obywatelem Polski w 2024 roku. Dokumenty, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, tłumaczenia. Wpływ małżeństwa na kartę pobytu i obywatelstwo."
 locale: pl
-publishDate: 2024-06-10
+publishDate: 2025-12-29
 author: LegalWin
 category: Rodzina
 keywords:

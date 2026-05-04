@@ -3,7 +3,7 @@ slug: kak-podat-zayavlenie-mos-2-0
 title: "Jak złożyć wniosek przez MOS 2.0 w Polsce — przewodnik 2026"
 description: "Instrukcja krok po kroku składania wniosku o kartę pobytu przez MOS v2.0 w 2026 roku. Rejestracja konta, Profil Zaufany, wypełnianie wniosku, Załącznik nr 1, biometria, częste błędy. Realny harmonogram w Mazowieckim."
 locale: pl
-publishDate: 2025-08-07
+publishDate: 2026-04-26
 author: LegalWin
 category: Imigracja
 keywords:

@@ -3,7 +3,7 @@ slug: karta-cukr-dlya-ukraincev
 title: "Karta CUKR in Poland for Ukrainians — Complete 2025 Guide"
 description: "What is the karta CUKR in Poland — a special residence permit for Ukrainians with PESEL UKR. How to apply, timelines, documents, costs, differences from a regular karta czasowego pobytu. Three-year validity, no minimum salary."
 locale: en
-publishDate: 2025-09-12
+publishDate: 2026-04-01
 author: LegalWin
 category: Immigration
 keywords:

@@ -3,7 +3,7 @@ slug: otkaz-po-karte-pobytu
 title: "Odmowa karty pobytu w Polsce — co robić w 2025"
 description: "Co zrobić w przypadku decyzji odmownej dotyczącej karty pobytu w Polsce w 2025 roku. Terminy odwołania, najczęstsze przyczyny odmów w Mazowieckim, jak sporządzić odwołanie do Szefa UDSC i skargę do WSA. Realne szanse powodzenia."
 locale: pl
-publishDate: 2025-10-08
+publishDate: 2026-05-04
 author: LegalWin
 category: Imigracja
 keywords:

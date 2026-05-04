@@ -3,7 +3,7 @@ slug: otkrytie-bankovskogo-scheta-v-polshe
 title: "Открытие банковского счёта в Польше для иностранцев — 2025"
 description: "Как открыть konto bankowe в Польше для иностранцев в 2025. Сравнение PKO BP, Santander, mBank, Pekao, ING — документы, время открытия, тарифы. С PESEL и без, личное посещение и онлайн."
 locale: ru
-publishDate: 2025-01-20
+publishDate: 2026-02-04
 author: LegalWin
 category: Финансы
 keywords:

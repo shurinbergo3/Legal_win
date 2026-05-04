@@ -3,7 +3,7 @@ slug: cheklist-novopribyvshih-v-polshu
 title: "Checklist for Newcomers to Poland — What to Do in the First 90 Days"
 description: "Complete checklist for foreigners arriving in Poland in 2025. PESEL, meldunek, Profil Zaufany, bank account, NFZ, school, work, karta pobytu — what to do in the first 30, 60, and 90 days."
 locale: en
-publishDate: 2025-11-01
+publishDate: 2025-11-25
 author: LegalWin
 category: Immigration
 keywords:

@@ -3,7 +3,7 @@ slug: jdg-dlya-inostrancev-v-polshe
 title: "JDG для иностранцев в Польше — открытие ИП в 2025"
 description: "Как открыть jednoosobową działalność gospodarczą (JDG) в Польше иностранцу в 2025. Кто имеет право, документы, CEIDG, ZUS, налоги — ryczałt vs zasady ogólne. Преимущества для karta pobytu."
 locale: ru
-publishDate: 2025-07-23
+publishDate: 2026-02-13
 author: LegalWin
 category: Бизнес
 keywords:

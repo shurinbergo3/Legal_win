@@ -3,7 +3,7 @@ slug: obmen-azerbajdzhanskih-prav-na-polskie
 title: "Обмен азербайджанских прав на польские в 2026 году"
 description: "Как поменять азербайджанские водительские права на польские в 2026 — Венская конвенция, экзамены, апостиль, переводы. Сроки 60–120 дней, цены от 220 PLN, нюансы для прав образца до 2017 года."
 locale: ru
-publishDate: 2024-11-22
+publishDate: 2025-12-12
 author: LegalWin
 category: Документы
 keywords:

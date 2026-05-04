@@ -3,7 +3,7 @@ slug: kod-95-polsha-kak-poluchit
 title: "Kod 95 w Polsce: dla kogo i jak uzyskać w 3 miesiące"
 description: "Kod 95 dla kierowców kat. C, D, C+E, D+E w Polsce — kto potrzebuje, dwie ścieżki (KWP za 2800 PLN lub Szkolenie Okresowe za 900 PLN), terminy, dokumenty dla cudzoziemców z krajów WNP."
 locale: pl
-publishDate: 2026-04-27
+publishDate: 2026-03-02
 author: LegalWin
 category: Dokumenty
 keywords:

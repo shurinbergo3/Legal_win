@@ -3,7 +3,7 @@ slug: karta-stalego-pobytu-pmzh-polsha-2026
 title: "Карта сталего побыту (ПМЖ) в Польше 2026: кому можно и как оформить"
 description: "Кто может получить карту стałego поbytu в Польше в 2026 году, какие документы нужны, сколько ждать решения в Мазовецком воеводстве и что даёт ПМЖ по сравнению с временной картой."
 locale: ru
-publishDate: 2026-04-27
+publishDate: 2026-02-21
 author: LegalWin
 category: Иммиграция
 keywords:

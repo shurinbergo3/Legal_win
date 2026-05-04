@@ -3,7 +3,7 @@ slug: otkrytie-sp-z-o-o-polsha-instrukciya
 title: "Открытие sp. z o.o. в Польше: пошаговая инструкция для иммигранта"
 description: "Как иммигранту из СНГ открыть spółkę z o.o. в Польше в 2026 году: S24 или нотариус, сколько стоит, документы для иностранца, NIP, ZUS, банковский счёт."
 locale: ru
-publishDate: 2026-04-27
+publishDate: 2026-01-24
 author: LegalWin
 category: Бизнес
 keywords:

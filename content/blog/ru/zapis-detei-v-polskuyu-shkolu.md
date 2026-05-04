@@ -3,7 +3,7 @@ slug: zapis-detei-v-polskuyu-shkolu
 title: "Запись детей в польскую школу — гайд для иностранцев 2024"
 description: "Как записать ребёнка в польскую школу в 2024 году. Документы, языковые курсы, бесплатное обучение, podstawówka, liceum, technikum. Особенности для украинских и беларусских детей, дополнительные часы польского."
 locale: ru
-publishDate: 2024-08-14
+publishDate: 2026-01-09
 author: LegalWin
 category: Семья
 keywords:

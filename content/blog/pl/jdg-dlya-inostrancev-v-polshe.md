@@ -3,7 +3,7 @@ slug: jdg-dlya-inostrancev-v-polshe
 title: "JDG dla cudzoziemców w Polsce — otwarcie działalności w 2025"
 description: "Jak otworzyć jednoosobową działalność gospodarczą (JDG) w Polsce jako cudzoziemiec w 2025. Kto ma prawo, dokumenty, CEIDG, ZUS, podatki — ryczałt vs zasady ogólne. Korzyści dla karty pobytu."
 locale: pl
-publishDate: 2025-07-23
+publishDate: 2026-02-13
 author: LegalWin
 category: Biznes
 keywords:

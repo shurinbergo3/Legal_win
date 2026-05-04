@@ -3,7 +3,7 @@ slug: obmen-prav-na-polskie-2026
 title: "Обмен украинских и белорусских прав на польские в 2026"
 description: "Как поменять водительские права на польские в 2026 году — для граждан Украины и Беларуси. Документы, цены (от 160 PLN), сроки (30–90 дней), Wydział Komunikacji в Mazowieckim, нужны ли экзамены."
 locale: ru
-publishDate: 2026-04-27
+publishDate: 2025-11-19
 author: LegalWin
 category: Документы
 keywords:

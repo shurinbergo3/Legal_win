@@ -3,7 +3,7 @@ slug: apostille-v-polshe
 title: "Apostille w Polsce — czym jest i kiedy jest potrzebny w 2025"
 description: "Czym jest apostille w Polsce, jak i gdzie go uzyskać, na które dokumenty potrzebny. Konwencja Haska 1961, MSZ Polska, ul. Krucza 38/42, opłata 60 PLN, terminy 1–3 tygodnie. Alternatywa — legalizacja konsularna."
 locale: pl
-publishDate: 2025-04-05
+publishDate: 2025-12-18
 author: LegalWin
 category: Dokumenty
 keywords:

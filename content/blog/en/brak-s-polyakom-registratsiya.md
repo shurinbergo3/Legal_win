@@ -3,7 +3,7 @@ slug: brak-s-polyakom-registratsiya
 title: "Marriage to a Polish Citizen in Poland — 2024 Guide"
 description: "How to register a marriage with a Polish citizen in 2024. Documents, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostilles, translations. Effect of marriage on karta pobytu and citizenship."
 locale: en
-publishDate: 2024-06-10
+publishDate: 2025-12-29
 author: LegalWin
 category: Family
 keywords:

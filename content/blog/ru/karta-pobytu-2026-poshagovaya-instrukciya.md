@@ -3,7 +3,7 @@ slug: karta-pobytu-2026-poshagovaya-instrukciya
 title: "Карта побыту в Польше 2026: пошаговая инструкция"
 description: "Как оформить karta czasowego pobytu в Польше в 2026 году — через MOS v2.0, без штампа в паспорте, с минимальной зарплатой 4806 PLN. Сроки, документы, цены и что делать при odmowie."
 locale: ru
-publishDate: 2026-04-27
+publishDate: 2026-03-22
 author: LegalWin
 category: Иммиграция
 keywords:

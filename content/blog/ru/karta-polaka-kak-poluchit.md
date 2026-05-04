@@ -3,7 +3,7 @@ slug: karta-polaka-kak-poluchit
 title: "Karta Polaka — как получить в 2024 году: документы, экзамен, сроки"
 description: "Как получить Karta Polaka в 2024 — для лиц с польскими корнями из Беларуси, Украины, России, Казахстана и других стран. Документы родства, экзамен по польскому языку и культуре, консулат, привилегии."
 locale: ru
-publishDate: 2024-03-22
+publishDate: 2025-12-03
 author: LegalWin
 category: Иммиграция
 keywords:

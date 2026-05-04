@@ -3,7 +3,7 @@ slug: pesel-profil-zaufany-mdowod-posle-karty-pobytu
 title: "PESEL, Profil Zaufany i mDowód: co zrobić po otrzymaniu karty pobytu"
 description: "Przewodnik krok po kroku po rejestracji PESEL, Profil Zaufany, mDowód i eDoręczenia po otrzymaniu karty pobytu w Polsce w 2026 roku. Dokumenty, terminy, najczęstsze błędy."
 locale: pl
-publishDate: 2026-04-27
+publishDate: 2026-03-12
 author: LegalWin
 category: Imigracja
 keywords:

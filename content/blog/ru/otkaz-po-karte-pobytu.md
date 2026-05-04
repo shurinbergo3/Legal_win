@@ -3,7 +3,7 @@ slug: otkaz-po-karte-pobytu
 title: "Отказ по карте побыта в Польше — что делать в 2025"
 description: "Что делать при otkazie (decyzji odmownej) по karta pobytu в Польше в 2025 году. Сроки апелляции, причины отказов в Mazowieckim, как составить odwołanie do Szefa UDSC и skargę do WSA. Шансы на успех."
 locale: ru
-publishDate: 2025-10-08
+publishDate: 2026-05-04
 author: LegalWin
 category: Иммиграция
 keywords:

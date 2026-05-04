@@ -3,7 +3,7 @@ slug: pesel-profil-zaufany-mdowod-posle-karty-pobytu
 title: "PESEL, Profil Zaufany and mDowód: What to Do After Getting Your Residence Card"
 description: "A step-by-step guide to registering for PESEL, Profil Zaufany, mDowód and eDoręczenia after receiving your residence card in Poland in 2026. Documents, timelines, and common mistakes."
 locale: en
-publishDate: 2026-04-27
+publishDate: 2026-03-12
 author: LegalWin
 category: Immigration
 keywords:

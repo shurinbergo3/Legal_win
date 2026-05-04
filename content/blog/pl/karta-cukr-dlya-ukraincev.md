@@ -3,7 +3,7 @@ slug: karta-cukr-dlya-ukraincev
 title: "Karta CUKR w Polsce dla Ukraińców — kompletny przewodnik 2025"
 description: "Czym jest karta CUKR w Polsce — specjalne zezwolenie na pobyt dla obywateli Ukrainy z PESEL UKR. Jak złożyć wniosek, terminy, dokumenty, koszty, różnice w stosunku do zwykłej karty czasowego pobytu. 3 lata ważności, bez minimalnego wynagrodzenia."
 locale: pl
-publishDate: 2025-09-12
+publishDate: 2026-04-01
 author: LegalWin
 category: Imigracja
 keywords:

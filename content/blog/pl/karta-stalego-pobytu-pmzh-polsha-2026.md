@@ -3,7 +3,7 @@ slug: karta-stalego-pobytu-pmzh-polsha-2026
 title: "Karta stałego pobytu w Polsce 2026: kto może złożyć i jak to zrobić"
 description: "Kto może ubiegać się o kartę stałego pobytu w Polsce w 2026 roku, jakie dokumenty są wymagane, jak długo trwa postępowanie w Mazowieckim Urzędzie Wojewódzkim i co zmienia stały pobyt w porównaniu z czasowym."
 locale: pl
-publishDate: 2026-04-27
+publishDate: 2026-02-21
 author: LegalWin
 category: Imigracja
 keywords:

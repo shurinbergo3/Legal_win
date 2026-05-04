@@ -3,7 +3,7 @@ slug: otkrytie-sp-z-o-o-polsha-instrukciya
 title: "Założenie sp. z o.o. w Polsce: instrukcja krok po kroku dla cudzoziemca"
 description: "Jak cudzoziemiec może założyć spółkę z o.o. w Polsce w 2026 roku: S24 czy notariusz, koszty, NIP, ZUS, konto bankowe — przewodnik dla imigrantów prowadzących działalność."
 locale: pl
-publishDate: 2026-04-27
+publishDate: 2026-01-24
 author: LegalWin
 category: Biznes
 keywords:

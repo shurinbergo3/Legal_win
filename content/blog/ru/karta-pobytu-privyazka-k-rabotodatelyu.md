@@ -3,7 +3,7 @@ slug: karta-pobytu-privyazka-k-rabotodatelyu
 title: "Карта побыта в Польше с привязкой к работодателю — 2026"
 description: "Что такое привязка karta czasowego pobytu к работодателю в Польше в 2026 году. Когда нельзя сменить работу, что писать в Załączniku nr 1, как корректно перейти к новому pracodawcy без потери ВНЖ. Аннулирование, апелляции."
 locale: ru
-publishDate: 2025-05-19
+publishDate: 2026-04-15
 author: LegalWin
 category: Иммиграция
 keywords:

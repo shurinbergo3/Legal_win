@@ -3,7 +3,7 @@ slug: kak-podat-zayavlenie-mos-2-0
 title: "How to Submit an Application Through MOS 2.0 in Poland — 2026 Guide"
 description: "Step-by-step instruction for filing a karta pobytu application through MOS v2.0 in 2026. Account registration, Profil Zaufany, completing the wniosek, Załącznik nr 1, biometrics, common errors. Real timeline in Mazowieckie."
 locale: en
-publishDate: 2025-08-07
+publishDate: 2026-04-26
 author: LegalWin
 category: Immigration
 keywords:

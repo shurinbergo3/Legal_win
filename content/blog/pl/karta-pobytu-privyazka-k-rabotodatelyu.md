@@ -3,7 +3,7 @@ slug: karta-pobytu-privyazka-k-rabotodatelyu
 title: "Karta pobytu w Polsce z przypisaniem do pracodawcy — 2026"
 description: "Co oznacza przypisanie karty czasowego pobytu do pracodawcy w Polsce w 2026 roku. Kiedy nie można zmienić pracy, co wpisać w Załączniku nr 1, jak poprawnie przejść do nowego pracodawcy bez utraty zezwolenia. Unieważnienie, odwołania."
 locale: pl
-publishDate: 2025-05-19
+publishDate: 2026-04-15
 author: LegalWin
 category: Imigracja
 keywords:

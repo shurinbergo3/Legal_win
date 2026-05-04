@@ -3,7 +3,7 @@ slug: otkrytie-bankovskogo-scheta-v-polshe
 title: "Otwarcie konta bankowego w Polsce dla cudzoziemców — 2025"
 description: "Jak otworzyć konto bankowe w Polsce jako cudzoziemiec w 2025. Porównanie PKO BP, Santander, mBank, Pekao, ING — dokumenty, czas otwarcia, opłaty. Z PESEL i bez, osobiście i online."
 locale: pl
-publishDate: 2025-01-20
+publishDate: 2026-02-04
 author: LegalWin
 category: Finanse
 keywords:
