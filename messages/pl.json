@@ -15,6 +15,24 @@
     "consultation": "Konsultacja",
     "blog": "Blog"
   },
+  "NotFound": {
+    "folio": "Akta · Sprawa nr 404 · Not in record",
+    "stamp": "Case dismissed",
+    "title": "Ta strona nie została dołączona do akt",
+    "lede": "Dokument został wycofany albo nigdy nie był złożony. Ale wiemy, dokąd Państwa skierować — prowadzimy 500+ spraw rocznie.",
+    "popularLabel": "Najczęstsze sprawy",
+    "popular": {
+      "kartaTitle": "Karta pobytu",
+      "kartaDesc": "Pobyt czasowy i stały",
+      "obywTitle": "Obywatelstwo",
+      "obywDesc": "Polski paszport i Karta Polaka",
+      "spolkaTitle": "Sp. z o.o.",
+      "spolkaDesc": "Rejestracja firmy i podatki"
+    },
+    "ctaHome": "Na stronę główną",
+    "ctaContact": "Napisz do prawnika",
+    "footnote": "Jeśli weszli Państwo z linku w mailu lub w wyszukiwarce — dajcie znać, naprawimy"
+  },
   "Hero": {
     "imageAlt": "Kancelaria prawna LegalWin w Warszawie — pomoc imigrantom: karta pobytu, obywatelstwo polskie",
     "eyebrow": "Warszawa · Od 2019",

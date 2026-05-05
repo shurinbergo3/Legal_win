@@ -15,6 +15,24 @@
     "consultation": "Consultation",
     "blog": "Blog"
   },
+  "NotFound": {
+    "folio": "Docket · Case No. 404 · Not in record",
+    "stamp": "Case dismissed",
+    "title": "This page is not on file",
+    "lede": "The document was either withdrawn or never submitted. But we know where to direct you — we run 500+ active matters a year.",
+    "popularLabel": "Most-requested matters",
+    "popular": {
+      "kartaTitle": "Residence permit",
+      "kartaDesc": "Karta pobytu and PR",
+      "obywTitle": "Citizenship",
+      "obywDesc": "Polish passport and Karta Polaka",
+      "spolkaTitle": "Sp. z o.o.",
+      "spolkaDesc": "Company setup and tax"
+    },
+    "ctaHome": "Back to home",
+    "ctaContact": "Talk to a lawyer",
+    "footnote": "If you came from an email link or search result — let us know and we'll fix it"
+  },
   "Hero": {
     "imageAlt": "LegalWin law firm in Warsaw — immigration lawyers helping foreigners with Karta Pobytu and Polish citizenship",
     "eyebrow": "Warsaw · Since 2019",
