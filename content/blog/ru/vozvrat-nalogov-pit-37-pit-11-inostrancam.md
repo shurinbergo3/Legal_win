@@ -3,7 +3,7 @@ slug: vozvrat-nalogov-pit-37-pit-11-inostrancam
 title: "Возврат налогов в Польше 2026: PIT-37 для иностранцев пошагово"
 description: "Чем PIT-11 отличается от PIT-37, как иностранцу подать декларацию через Twój e-PIT, какие льготы вернут переплату на счёт и почему совместный расчёт супругов даёт до 3 600 PLN экономии в 2026 году."
 locale: ru
-publishDate: 2026-05-05
+publishDate: 2026-02-03
 author: LegalWin
 category: Налоги
 keywords:

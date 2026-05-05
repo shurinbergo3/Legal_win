@@ -3,7 +3,7 @@ slug: nalogovoye-rezidentstvo-polsha-183-dnya
 title: "Polish Tax Residency 2026: The 183-Day Rule and How to Avoid Double Taxation"
 description: "How a foreigner becomes a Polish tax resident, why the CFR-1 certificate matters, how the double-taxation treaty works, and why PIT-36 ZG is mandatory for remote workers paid by foreign employers."
 locale: en
-publishDate: 2026-05-05
+publishDate: 2026-01-22
 author: LegalWin
 category: Tax
 keywords:

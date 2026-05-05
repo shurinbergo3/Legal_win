@@ -3,7 +3,7 @@ slug: razreshenie-mswia-pokupka-nedvizhimosti-inostrancem
 title: "Buying Real Estate in Poland as a Foreigner 2026: When You Need an MSWiA Permit"
 description: "When the purchase of a flat, house or land in Poland requires a zezwolenie from the Ministry of the Interior (MSWiA), how to prove your ties to Poland, expected timelines, and how not to lose the deal because of bureaucracy. A guide for US, UK and CIS buyers."
 locale: en
-publishDate: 2026-05-05
+publishDate: 2026-01-12
 author: LegalWin
 category: Real Estate
 keywords:

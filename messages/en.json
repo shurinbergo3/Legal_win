@@ -524,6 +524,11 @@
     "readingTime": "min read",
     "back": "All articles",
     "publishedOn": "Published",
-    "related": "Related reading"
+    "related": "Related reading",
+    "searchPlaceholder": "Search articles, topics, keywords",
+    "allCategories": "All topics",
+    "noResults": "No articles match your query. Try different keywords or clear the filters.",
+    "counterOne": "article",
+    "counterMany": "articles"
   }
 }

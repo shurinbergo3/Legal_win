@@ -524,6 +524,11 @@
     "readingTime": "min czytania",
     "back": "Wszystkie artykuły",
     "publishedOn": "Opublikowano",
-    "related": "Powiązane materiały"
+    "related": "Powiązane materiały",
+    "searchPlaceholder": "Szukaj w artykułach, tematach, słowach kluczowych",
+    "allCategories": "Wszystkie tematy",
+    "noResults": "Nic nie pasuje do Twojego zapytania. Spróbuj innych słów lub wyczyść filtry.",
+    "counterOne": "artykuł",
+    "counterMany": "artykułów"
   }
 }

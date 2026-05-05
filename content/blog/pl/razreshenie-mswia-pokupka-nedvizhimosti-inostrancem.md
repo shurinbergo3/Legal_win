@@ -3,7 +3,7 @@ slug: razreshenie-mswia-pokupka-nedvizhimosti-inostrancem
 title: "Zakup nieruchomości przez cudzoziemca w Polsce 2026: kiedy potrzebne zezwolenie MSWiA"
 description: "Kiedy zakup mieszkania, domu lub działki w Polsce wymaga zezwolenia MSWiA, jak udokumentować więzi z Polską, ile trwa rozpatrywanie wniosku i jak nie stracić transakcji przez biurokrację. Przewodnik dla obywateli USA, Wielkiej Brytanii i krajów WNP."
 locale: pl
-publishDate: 2026-05-05
+publishDate: 2026-01-12
 author: LegalWin
 category: Nieruchomości
 keywords:

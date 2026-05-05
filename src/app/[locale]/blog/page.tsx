@@ -103,7 +103,12 @@ export default async function BlogIndexPage({
             title: t('title'),
             intro: t('intro'),
             readingTime: t('readingTime'),
-            empty: t('empty')
+            empty: t('empty'),
+            searchPlaceholder: t('searchPlaceholder'),
+            allCategories: t('allCategories'),
+            noResults: t('noResults'),
+            counterOne: t('counterOne'),
+            counterMany: t('counterMany')
           }}
         />
       </main>

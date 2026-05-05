@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { routing } from '@/i18n/routing';
+import { getCoverForSlug } from './blog-images';
 
 export type BlogLocale = (typeof routing.locales)[number];
 
@@ -56,7 +57,7 @@ function readPost(locale: string, fileName: string): BlogPost | null {
     publishDate: fm.publishDate,
     author: fm.author,
     category: fm.category,
-    coverImage: fm.coverImage,
+    coverImage: fm.coverImage ?? getCoverForSlug(fm.slug),
     keywords: fm.keywords ?? [],
     relatedServices: fm.relatedServices ?? [],
     content: parsed.content.trimStart(),

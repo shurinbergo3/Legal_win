@@ -3,7 +3,7 @@ slug: razreshenie-mswia-pokupka-nedvizhimosti-inostrancem
 title: "Покупка недвижимости иностранцем в Польше 2026: когда нужно разрешение MSWiA"
 description: "Когда покупка квартиры, дома или земли в Польше требует zezwolenia MSWiA, как доказать связи с Польшей, какой срок ожидания и как не сорвать сделку из-за бюрократии. Гайд для граждан США, Великобритании и СНГ."
 locale: ru
-publishDate: 2026-05-05
+publishDate: 2026-01-12
 author: LegalWin
 category: Недвижимость
 keywords:
