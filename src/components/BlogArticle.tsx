@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
 import { Link } from '@/i18n/navigation';
+import { serviceBlur } from '@/lib/image-blur';
 import type { BlogPost, BlogPostSummary } from '@/lib/blog';
 
 type Props = {
@@ -77,6 +78,32 @@ export function BlogArticle({ post, related, labels }: Props) {
     <div className="relative">
       {/* === Hero — editorial codex === */}
       <section className="hero-gradient relative isolate overflow-hidden pt-28 pb-14 sm:pt-36 sm:pb-20 lg:pt-44 lg:pb-24">
+        {/* Photo background — solid ink-950 underneath so the area never goes
+            blank; the dark overlay above already covers ~85% of the photo. */}
+        {post.coverImage && (
+          <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-ink-950">
+            <Image
+              src={post.coverImage}
+              alt=""
+              fill
+              priority
+              fetchPriority="high"
+              placeholder={serviceBlur[post.coverImage] ? 'blur' : 'empty'}
+              blurDataURL={serviceBlur[post.coverImage]}
+              sizes="100vw"
+              className="object-cover object-center"
+            />
+          </div>
+        )}
+        {/* Dark overlay over photo */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 -z-10"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(5,9,26,0.88) 0%, rgba(5,9,26,0.72) 40%, rgba(5,9,26,0.92) 100%)'
+          }}
+        />
         {/* Atmospheric layers */}
         <div
           aria-hidden
@@ -178,23 +205,6 @@ export function BlogArticle({ post, related, labels }: Props) {
           </div>
         </div>
       </section>
-
-      {/* Optional cover image — only renders when explicitly provided */}
-      {post.coverImage && (
-        <div className="mx-auto max-w-4xl px-6 lg:px-10 -mt-6 mb-2 sm:-mt-8 sm:mb-4">
-          <div className="relative aspect-[16/7] overflow-hidden rounded-2xl ring-1 ring-gold-500/20 shadow-elite">
-            <Image
-              src={post.coverImage}
-              alt={post.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 896px"
-            />
-            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink-950/40 to-transparent" />
-          </div>
-        </div>
-      )}
 
       {/* === Body === */}
       <section className="relative pb-20 sm:pb-24 lg:pb-32">

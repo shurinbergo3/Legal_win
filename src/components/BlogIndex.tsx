@@ -210,9 +210,13 @@ export function BlogIndex({ posts, labels }: Props) {
                   <li key={post.slug}>
                     <Link
                       href={`/blog/${post.slug}`}
-                      className="group flex h-full flex-col overflow-hidden rounded-2xl border hairline bg-ink-900/40 transition-all hover:border-gold-500/30 hover:bg-ink-900/70 hover:shadow-elite"
+                      className="group relative flex h-full flex-col overflow-hidden rounded-2xl border hairline bg-ink-900/40 transition-all hover:border-gold-500/30 hover:shadow-elite"
                     >
-                      <div className="relative aspect-[16/9] w-full overflow-hidden bg-ink-950">
+                      {/* Photo background — heavily darkened, editorial feel */}
+                      <div
+                        aria-hidden
+                        className="pointer-events-none absolute inset-0 -z-10 bg-ink-950"
+                      >
                         <Image
                           src={cover}
                           alt=""
@@ -220,20 +224,34 @@ export function BlogIndex({ posts, labels }: Props) {
                           sizes="(max-width: 768px) 100vw, 540px"
                           placeholder={blurData ? 'blur' : 'empty'}
                           blurDataURL={blurData}
-                          className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                          className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
                         />
-                        <div
-                          aria-hidden
-                          className="absolute inset-0 bg-gradient-to-t from-ink-950/80 via-ink-950/30 to-transparent"
-                        />
-                        {post.category && (
-                          <span className="absolute left-4 top-4 rounded-full border border-gold-400/40 bg-ink-950/70 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.22em] text-gold-300 backdrop-blur">
-                            {post.category}
-                          </span>
-                        )}
                       </div>
-                      <div className="flex flex-1 flex-col gap-3 p-6 sm:p-7">
-                        <div className="flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-ink-400">
+                      <div
+                        aria-hidden
+                        className="pointer-events-none absolute inset-0 -z-10"
+                        style={{
+                          background:
+                            'linear-gradient(180deg, rgba(5,9,26,0.86) 0%, rgba(5,9,26,0.78) 40%, rgba(5,9,26,0.95) 100%)'
+                        }}
+                      />
+                      <div
+                        aria-hidden
+                        className="pointer-events-none absolute inset-0 -z-10 opacity-[0.04]"
+                        style={{
+                          backgroundImage:
+                            'linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)',
+                          backgroundSize: '64px 64px',
+                          maskImage:
+                            'radial-gradient(ellipse 70% 60% at 50% 30%, #000 60%, transparent 100%)'
+                        }}
+                      />
+
+                      <div className="flex flex-1 flex-col gap-4 p-6 sm:p-7 lg:p-8">
+                        <div className="flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-ink-400">
+                          {post.category && (
+                            <span className="text-gold-400">{post.category}</span>
+                          )}
                           <span>{formatDate(post.publishDate, post.locale)}</span>
                           <span>·</span>
                           <span>
