@@ -237,6 +237,17 @@ body::before {
   border-radius: 6px;
 }
 
+/* iOS Safari auto-zooms when a focused input has font-size < 16px, which on
+   mobile pushes the page out of the viewport and hides submit buttons. Enforce
+   a 16px minimum on every text-entry control on small screens. */
+@media (max-width: 640px) {
+  input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='color']),
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
 /* Word reveal helper used in Hero */
 .word-reveal {
   display: inline-block;

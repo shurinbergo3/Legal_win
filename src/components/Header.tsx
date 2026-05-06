@@ -6,7 +6,6 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { LogoBadge } from './Logo';
-import { ThemisScales } from './ThemisScales';
 import { cn } from '@/lib/cn';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -50,24 +49,16 @@ export function Header() {
             : 'bg-transparent border-b border-transparent'
         )}
       >
-        {/* Themis silhouette watermark — fades in with the glass background once
-            the user has scrolled past the Hero, so the navbar gains the same
-            editorial accent as the Hero without competing with it on landing. */}
-        <div
-          aria-hidden
-          className={cn(
-            'pointer-events-none absolute inset-0 overflow-hidden transition-opacity duration-500',
-            shrunk || mobileOpen ? 'opacity-100' : 'opacity-0'
-          )}
-        >
-          <ThemisScales className="absolute left-1/2 top-0 h-[280px] w-auto -translate-x-1/2 text-gold-400/[0.07]" />
-        </div>
-
         <div className="relative mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
           <Link
             href="/"
             onClick={handleLogoClick}
-            className="group inline-block text-gold-400 transition-colors duration-300 hover:text-gold-300"
+            className={cn(
+              'group inline-block text-gold-400 transition-[color,filter] duration-300 hover:text-gold-300',
+              shrunk
+                ? '[filter:drop-shadow(0_0_10px_rgba(212,166,71,0.28))]'
+                : '[filter:drop-shadow(0_2px_8px_rgba(0,0,0,0.4))]'
+            )}
             aria-label="LegalWin"
           >
             <LogoBadge size={48} compact className="block transition-transform duration-300 group-hover:scale-[1.04] sm:hidden" />
