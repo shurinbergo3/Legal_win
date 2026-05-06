@@ -19,7 +19,6 @@ const FONT_STACK =
 type GradientIds = {
   rim: string;
   body: string;
-  text: string;
   shadow: string;
 };
 
@@ -32,11 +31,6 @@ function GradientDefs({ ids }: { ids: GradientIds }) {
         <stop offset="50%" stopColor="#9A6F1E" />
         <stop offset="78%" stopColor="#D9B358" />
         <stop offset="100%" stopColor="#7E5710" />
-      </linearGradient>
-      <linearGradient id={ids.text} x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stopColor="#F2D779" />
-        <stop offset="50%" stopColor="#C9A84C" />
-        <stop offset="100%" stopColor="#8E6918" />
       </linearGradient>
       <linearGradient id={ids.body} x1="0%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" stopColor="#0e1a36" />
@@ -83,13 +77,16 @@ function Shield({ ids }: { ids: GradientIds }) {
       >
         <ThemisScalesPaths />
       </g>
+      {/* Solid gold fill (not a gradient via url(#…)). iOS Safari can drop SVG
+          <text> fills referencing internal gradients when an ancestor has CSS
+          `filter: drop-shadow(...)` and is repainted (e.g. on scroll). */}
       <text
         x="160"
         y="194"
         textAnchor="middle"
         fontSize="116"
         fontWeight="700"
-        fill={`url(#${ids.text})`}
+        fill="#E1BC5E"
         letterSpacing="-2"
         style={{ fontFamily: FONT_STACK }}
       >
@@ -112,7 +109,6 @@ export function LogoBadge({
   const ids: GradientIds = {
     rim: `lw-rim-${uid}`,
     body: `lw-body-${uid}`,
-    text: `lw-text-${uid}`,
     shadow: `lw-shadow-${uid}`
   };
 
@@ -154,7 +150,7 @@ export function LogoBadge({
         textAnchor="middle"
         fontSize="36"
         fontWeight="500"
-        fill={`url(#${ids.text})`}
+        fill="#E1BC5E"
         letterSpacing="6"
         style={{ fontFamily: FONT_STACK }}
       >
@@ -177,7 +173,7 @@ export function LogoBadge({
         textAnchor="middle"
         fontSize="13"
         fontWeight="500"
-        fill={`url(#${ids.text})`}
+        fill="#E1BC5E"
         letterSpacing="6"
         opacity="0.9"
         style={{ fontFamily: FONT_STACK }}
