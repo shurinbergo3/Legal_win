@@ -115,7 +115,7 @@ const servicePhotos: Record<string, string> = {
   'karta-pobytu':                  '/services/karta-pobytu.webp',                  // Warsaw skyline + Vistula — settling in
   'karta-stalego-pobytu':          '/services/karta-stalego-pobytu.webp',          // Krakow basilica — permanence
   'obywatelstwo':                  '/services/obywatelstwo.webp',                  // Wawel Castle — Polish citizenship
-  'karta-polaka':                  '/services/karta-stalego-pobytu.webp',          // Krakow basilica — Polish heritage / national identity
+  'karta-polaka':                  '/services/warszawa-swiatynia.webp',            // Temple of Divine Providence — Polish heritage / national identity
   'ochrona-miedzynarodowa':        '/services/ochrona-miedzynarodowa.webp',        // Sunset over towers — refuge / hope
   'apelacje':                      '/services/zaswiadczenia-zus-us.webp',          // Warsaw business towers at dusk — institutional gravity
   'kod-95':                        '/services/zaproszenia.webp',                   // Top-down roundabout — drivers / road code
@@ -127,21 +127,21 @@ const servicePhotos: Record<string, string> = {
   'zaswiadczenia-zus-us':          '/services/tlumaczenia-przysiegle.webp',        // Warsaw business district daylight — workplace certs
   'zaswiadczenie-o-niekaralnosci': '/services/zaswiadczenie-o-niekaralnosci.webp', // Modern street with people — clean civic record
   'tlumaczenia-przysiegle':        '/services/wymiana-prawa-jazdy.webp',           // Gdansk gothic church — scholarly / formal translation
-  'rejestracja-sp-z-oo':           '/services/blog.webp',                          // Warsaw Spire towers — corporate registration
-  'gotowe-firmy':                  '/services/zaswiadczenia-zus-us.webp',          // Towers at dusk — established companies
-  'jdg':                           '/services/tlumaczenia-przysiegle.webp',        // Warsaw business district — self-employed
-  'przedstawicielstwa':            '/services/odbior-z-lotniska.webp',             // Palace of Culture — international branch presence
-  'podatki-ksiegowosc':            '/services/apostille.webp',                     // Poznan market — formal/official numbers
+  'rejestracja-sp-z-oo':           '/services/warszawa-spire.webp',                // Warsaw Spire towers — corporate registration
+  'gotowe-firmy':                  '/services/warszawa-spire.webp',                // Warsaw Spire towers — established companies
+  'jdg':                           '/services/warszawa-spire.webp',                // Warsaw business district — self-employed
+  'przedstawicielstwa':            '/services/warszawa-pkin-noc.webp',             // Palace of Culture by night — international branch presence
+  'podatki-ksiegowosc':            '/services/warszawa-spire.webp',                // Warsaw Spire — corporate finance / accounting
   'likwidacja-sprzedaz':           '/services/apelacje.webp',                      // Old town rooftops — closing chapter
   'mswia-zezwolenie':              '/services/wyszukiwanie-mieszkania.webp',       // Bridge over Vistula — gateway / permit
   'due-diligence-nieruchomosci':   '/services/meldunek.webp',                      // Market square — registers and titles
   'notariusz-asysta':              '/services/pesel.webp',                         // Old town at sunset — formal/legal moment
-  'najem-komercyjny':              '/services/tlumacz-na-wizyty.webp',             // Old + modern skyline — commercial bridge
-  'zaproszenia':                   '/services/odbior-z-lotniska.webp',             // Palace of Culture — "welcome to Warsaw"
-  'odbior-z-lotniska':             '/services/kod-95.webp',                        // Royal Castle gardens with skyline — Warsaw arrival
+  'najem-komercyjny':              '/services/warszawa-tramwaj.webp',              // Modern district with trams — commercial real estate
+  'zaproszenia':                   '/services/warszawa-defilad-noc.webp',          // Defilad Square at night — "welcome to Warsaw"
+  'odbior-z-lotniska':             '/services/gdansk-aerial.webp',                 // Polish city aerial — arrival
   'wyszukiwanie-mieszkania':       '/services/apelacje.webp',                      // Old town rooftops — housing
   'tlumacz-na-wizyty':             '/services/tlumacz-na-wizyty.webp',             // Old + modern skyline — bridging
-  'pomoc-w-zatrudnieniu':          '/services/blog.webp',                          // Warsaw Spire towers — corporate jobs
+  'pomoc-w-zatrudnieniu':          '/services/warszawa-spire.webp',                // Warsaw Spire towers — corporate jobs
   'zapis-dzieci-do-szkoly':        '/services/pomoc-w-zatrudnieniu.webp',          // Gdansk canal — calm, family
 };
 
