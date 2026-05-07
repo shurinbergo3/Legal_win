@@ -68,7 +68,7 @@ const ochrona: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Что даёт TZTC?', a: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca легализует ваше пребывание в Польше на срок процедуры и даёт право на размещение и медицинскую помощь. Через 6 месяцев без решения — можно получить доступ к рынку труда.' },
+      { q: 'Что даёт TZTC?', a: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca (Временное удостоверение личности иностранца) легализует ваше пребывание в Польше на срок процедуры и даёт право на размещение и медицинскую помощь. Через 6 месяцев без решения — можно получить доступ к рынку труда.' },
       { q: 'Могу ли я выезжать из Польши?', a: 'Нет. Во время процедуры международной защиты вы не можете покидать Польшу — это может привести к прекращению процедуры и возврату в страну происхождения (по правилу Dublin III).' },
       { q: 'Что такое «безопасная страна»?', a: 'Если ваша страна происхождения или страна первого въезда считается «безопасной», процедура может быть ускоренной (до 30 дней) и шансы на отказ выше. Список безопасных стран ведёт UdSC.' },
       { q: 'Разрешат ли мне работать?', a: 'Если решение не вынесено через 6 месяцев не по вашей вине — да, вы получаете свидетельство tożsamości с правом работы. До этого — нет.' },
@@ -224,7 +224,7 @@ const ochrona: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'What does TZTC give me?', a: 'Legalises your stay during the procedure and entitles you to accommodation and medical care. After 6 months without a decision — labour market access.' },
+      { q: 'What does TZTC give me?', a: 'TZTC (Tymczasowe Zaświadczenie Tożsamości Cudzoziemca — Temporary Foreigner ID Certificate) legalises your stay during the procedure and entitles you to accommodation and medical care. After 6 months without a decision — labour market access.' },
       { q: 'Can I leave Poland?', a: 'No. Leaving Poland during the procedure may end it and trigger return to country of origin (Dublin III).' },
       { q: 'What is a "safe country"?', a: 'If your country of origin or transit is "safe", the procedure can be fast-tracked (up to 30 days) and denials more likely. UdSC maintains the list.' },
       { q: 'Will I be allowed to work?', a: 'If no decision is issued within 6 months through no fault of yours — yes, you receive an ID certificate with the right to work.' },

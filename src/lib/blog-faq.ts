@@ -324,9 +324,9 @@ export const BLOG_FAQ: Map = {
   // ─── Citizenship & marriage ─────────────────────────────────────────
   'brak-s-polyakom-registratsiya': {
     ru: [
-      { q: 'Какие документы нужны для регистрации брака с гражданином Польши?', a: 'Свидетельство о рождении с apostille и присяжным переводом, справка о семейном положении (zaświadczenie o zdolności prawnej do zawarcia małżeństwa) — не старше 6 месяцев, паспорт, при необходимости — судебное решение о расторжении предыдущего брака.' },
-      { q: 'Сколько ждать после свадьбы до получения karta pobytu?', a: 'Wniosek о TRC по łączeniu rodzin можно подавать сразу после заключения брака через MOS v2.0. Решение в Mazowieckim UW — 8–14 месяцев. Через 3 года брака открывается путь к karta stałego pobytu.' },
-      { q: 'Можно ли подать на гражданство сразу после брака?', a: 'Нет. Брак не даёт гражданства напрямую. После 3 лет брака с гражданином РП и 2 лет на karcie stałego pobytu можно подать на uznanie za obywatela polskiego — это самый короткий путь к польскому паспорту через брак.' }
+      { q: 'Какие документы нужны для регистрации брака с гражданином Польши?', a: 'Свидетельство о рождении с apostille и присяжным переводом, справка о семейном положении (zaświadczenie o zdolności prawnej do zawarcia małżeństwa — справка о правовой способности заключить брак) — не старше 6 месяцев, паспорт, при необходимости — судебное решение о расторжении предыдущего брака.' },
+      { q: 'Сколько ждать после свадьбы до получения karta pobytu?', a: 'Wniosek (заявление) о TRC по łączeniu rodzin (воссоединению семьи) можно подавать сразу после заключения брака через MOS v2.0. Решение в Mazowieckim UW (Мазовецком воеводском управлении) — 8–14 месяцев. Через 3 года брака открывается путь к karta stałego pobytu (карте постоянного пребывания).' },
+      { q: 'Можно ли подать на гражданство сразу после брака?', a: 'Нет. Брак не даёт гражданства напрямую. После 3 лет брака с гражданином РП и 2 лет на karcie stałego pobytu (карте постоянного пребывания) можно подать на uznanie za obywatela polskiego (признание польским гражданином) — это самый короткий путь к польскому паспорту через брак.' }
     ],
     pl: [
       { q: 'Jakie dokumenty są potrzebne do ślubu z obywatelem Polski?', a: 'Akt urodzenia z apostille i tłumaczeniem przysięgłym, zaświadczenie o zdolności prawnej do zawarcia małżeństwa nie starsze niż 6 miesięcy, paszport, ewentualnie wyrok rozwodowy.' },
@@ -334,9 +334,9 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy można od razu po ślubie złożyć wniosek o obywatelstwo?', a: 'Nie. Ślub sam w sobie nie daje obywatelstwa. Po 3 latach małżeństwa i 2 latach pobytu stałego można złożyć wniosek o uznanie za obywatela polskiego.' }
     ],
     en: [
-      { q: 'What documents are needed for a marriage with a Polish citizen?', a: 'Birth certificate with apostille and a sworn translation, a "zaświadczenie o zdolności prawnej do zawarcia małżeństwa" not older than 6 months, passport, and if applicable a divorce decree.' },
-      { q: 'How long after marriage until you get a residence card?', a: 'You can file the family-reunification TRC immediately after the wedding via MOS v2.0. Decision in Mazowieckie: 8–14 months. After 3 years of marriage you can apply for permanent residence.' },
-      { q: 'Can I apply for citizenship right after marriage?', a: 'No. Marriage alone does not grant citizenship. After 3 years of marriage and 2 years of permanent residence, you can apply for recognition as a Polish citizen ("uznanie") — the shortest path through marriage.' }
+      { q: 'What documents are needed for a marriage with a Polish citizen?', a: 'Birth certificate with apostille and a sworn translation, a zaświadczenie o zdolności prawnej do zawarcia małżeństwa (certificate of legal capacity to marry) not older than 6 months, passport, and if applicable a divorce decree.' },
+      { q: 'How long after marriage until you get a residence card?', a: 'You can file the family-reunification (łączenie rodzin) TRC immediately after the wedding via MOS v2.0. Decision in Mazowieckie: 8–14 months. After 3 years of marriage you can apply for permanent residence.' },
+      { q: 'Can I apply for citizenship right after marriage?', a: 'No. Marriage alone does not grant citizenship. After 3 years of marriage and 2 years of permanent residence, you can apply for recognition as a Polish citizen (uznanie za obywatela polskiego) — the shortest path through marriage.' }
     ]
   },
 
@@ -344,9 +344,9 @@ export const BLOG_FAQ: Map = {
   'kod-95-polsha-kak-poluchit': {
     ru: [
       { q: 'Что такое Kod 95 и кому он нужен?', a: 'Kod 95 — это код в водительских правах, подтверждающий право работать профессиональным водителем (грузовики C/CE и автобусы D/DE). Обязателен для всех платных перевозок в ЕС с 2018 года. Без него работа водителем-дальнобойщиком в Польше невозможна.' },
-      { q: 'Какие три пути получения Kod 95 в Польше?', a: 'Kwalifikacja wstępna 280 часов (для новичков 18+), kwalifikacja wstępna przyspieszona 140 часов (после 23 для C, 21 для D), либо szkolenie okresowe 35 часов раз в 5 лет (для тех, у кого Kod 95 уже был).' },
-      { q: 'Сколько стоит Kod 95 в Польше в 2026?', a: 'Kwalifikacja wstępna pełna — от 4 500 PLN, przyspieszona — от 2 500 PLN, szkolenie okresowe — от 1 200 PLN. Плюс badania lekarskie i psychologiczne (около 600 PLN) и государственный экзамен в WORD (50 PLN).' },
-      { q: 'Можно ли получить Kod 95 без польских прав?', a: 'Нет. Сначала нужно обменять иностранные права на польские (категория C, CE, D или DE), потом проходить kwalifikacja или szkolenie okresowe. Иностранный CPC из ЕС признаётся автоматически.' }
+      { q: 'Какие три пути получения Kod 95 в Польше?', a: 'Kwalifikacja wstępna (начальная квалификация) 280 часов (для новичков 18+), kwalifikacja wstępna przyspieszona (ускоренная начальная квалификация) 140 часов (после 23 для C, 21 для D), либо szkolenie okresowe (периодическое обучение) 35 часов раз в 5 лет (для тех, у кого Kod 95 уже был).' },
+      { q: 'Сколько стоит Kod 95 в Польше в 2026?', a: 'Kwalifikacja wstępna pełna (полная начальная квалификация) — от 4 500 PLN, przyspieszona (ускоренная) — от 2 500 PLN, szkolenie okresowe (периодическое обучение) — от 1 200 PLN. Плюс badania lekarskie i psychologiczne (медосмотр и психологические обследования, около 600 PLN) и государственный экзамен в WORD (Воеводском центре дорожного движения, 50 PLN).' },
+      { q: 'Можно ли получить Kod 95 без польских прав?', a: 'Нет. Сначала нужно обменять иностранные права на польские (категория C, CE, D или DE), потом проходить kwalifikacja (квалификацию) или szkolenie okresowe (периодическое обучение). Иностранный CPC из ЕС признаётся автоматически.' }
     ],
     pl: [
       { q: 'Czym jest Kod 95 i komu jest potrzebny?', a: 'Kod 95 to wpis w prawie jazdy potwierdzający kwalifikację zawodową kierowcy (C/CE i D/DE). Obowiązkowy w UE od 2018 dla wszystkich przewozów zarobkowych. Bez niego nie da się pracować w międzynarodowym transporcie.' },
@@ -357,16 +357,16 @@ export const BLOG_FAQ: Map = {
     en: [
       { q: 'What is Code 95 and who needs it?', a: 'Code 95 is an entry on the driving licence confirming professional-driver qualification (C/CE trucks, D/DE buses). It has been mandatory across the EU since 2018 for all paid transport. Without it you cannot work as a long-haul driver in Poland.' },
       { q: 'What are the three routes to Code 95 in Poland?', a: 'Initial qualification 280 hours (from 18 yrs), accelerated initial qualification 140 hours (from 23 for C, 21 for D), or periodic training 35 hours every 5 years for drivers who already hold Code 95.' },
-      { q: 'How much does Code 95 cost in Poland in 2026?', a: 'Full initial qualification: from PLN 4,500. Accelerated: from PLN 2,500. Periodic training: from PLN 1,200. Plus medical/psychological tests (~PLN 600) and the state exam at WORD (PLN 50).' },
+      { q: 'How much does Code 95 cost in Poland in 2026?', a: 'Full initial qualification: from PLN 4,500. Accelerated: from PLN 2,500. Periodic training: from PLN 1,200. Plus medical/psychological tests (~PLN 600) and the state exam at WORD (regional driving-test centre, PLN 50).' },
       { q: 'Can I get Code 95 without a Polish licence?', a: 'No. First exchange your foreign licence to a Polish one (C, CE, D or DE), then take the qualification or periodic training. EU-issued CPCs are recognised automatically.' }
     ]
   },
 
   'kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe': {
     ru: [
-      { q: 'В чём разница kwalifikacja wstępna и szkolenie okresowe?', a: 'Kwalifikacja wstępna — для тех, кто впервые получает Kod 95 (280 или 140 часов теории + практика + государственный экзамен). Szkolenie okresowe — продление существующего Kod 95 каждые 5 лет (35 часов теории, без экзамена).' },
-      { q: 'Сколько раз нужно проходить szkolenie okresowe?', a: 'Каждые 5 лет с момента последнего прохождения. После szkolenia делается отметка в правах с новой датой действия Kod 95. Пропуск срока = потеря права работать водителем до прохождения.' },
-      { q: 'Можно ли заменить kwalifikację wstępnа szkolenia okresowe?', a: 'Нет. Это разные процедуры. Если Kod 95 истёк больше года назад, нужно заново пройти kwalifikację wstępną — szkolenie okresowe не годится.' }
+      { q: 'В чём разница kwalifikacja wstępna (начальная квалификация) и szkolenie okresowe (периодическое обучение)?', a: 'Kwalifikacja wstępna — для тех, кто впервые получает Kod 95 (280 или 140 часов теории + практика + государственный экзамен). Szkolenie okresowe — продление существующего Kod 95 каждые 5 лет (35 часов теории, без экзамена).' },
+      { q: 'Сколько раз нужно проходить szkolenie okresowe (периодическое обучение)?', a: 'Каждые 5 лет с момента последнего прохождения. После szkolenia делается отметка в правах с новой датой действия Kod 95. Пропуск срока = потеря права работать водителем до прохождения.' },
+      { q: 'Можно ли заменить kwalifikację wstępnа szkolenia okresowe?', a: 'Нет. Это разные процедуры. Если Kod 95 истёк больше года назад, нужно заново пройти kwalifikację wstępną (начальную квалификацию) — szkolenie okresowe (периодическое обучение) не годится.' }
     ],
     pl: [
       { q: 'Czym różni się kwalifikacja wstępna od szkolenia okresowego?', a: 'Kwalifikacja wstępna — dla tych, którzy uzyskują Kod 95 po raz pierwszy (280 lub 140 godzin + egzamin państwowy). Szkolenie okresowe — przedłużenie co 5 lat (35 godzin, bez egzaminu).' },
@@ -383,9 +383,9 @@ export const BLOG_FAQ: Map = {
   'obmen-prav-na-polskie-2026': {
     ru: [
       { q: 'Кому нужно менять водительские права на польские в 2026?', a: 'Иностранцам с TRC, PMŻ или Karta Polaka после 185 дней проживания в Польше. Безвиз и UKR временно позволяют ездить с украинскими/молдавскими правами, но при длительном пребывании обмен обязателен.' },
-      { q: 'Сколько стоит обмен водительских прав в Польше?', a: 'Pozwolenie starostwa — 100,50 PLN. Присяжный перевод иностранных прав — 50–150 PLN. Badania lekarskie — 200 PLN. Если нужен экзамен теории WORD — 50 PLN. Итого 350–500 PLN.' },
-      { q: 'Какие страны меняют права без экзамена в 2026?', a: 'Без экзамена меняются: Украина (по Венской конвенции 1968), Беларусь, Грузия, Армения, Молдова, Узбекистан, Казахстан, Кыргызстан и страны ЕЭП. Россия — ситуативно (некоторые starostwa требуют теорию).' },
-      { q: 'Какие страны требуют экзамен теории WORD?', a: 'США (категория B сдаётся теория WORD), Великобритания, Индия, Австралия, ОАЭ, Турция (теория). Точный список — в Rozporządzeniu Ministra Infrastruktury z 24 lutego 2016 r.' }
+      { q: 'Сколько стоит обмен водительских прав в Польше?', a: 'Pozwolenie starostwa (разрешение старосты) — 100,50 PLN. Присяжный перевод иностранных прав — 50–150 PLN. Badania lekarskie (медосмотр) — 200 PLN. Если нужен экзамен теории WORD (Воеводского центра дорожного движения) — 50 PLN. Итого 350–500 PLN.' },
+      { q: 'Какие страны меняют права без экзамена в 2026?', a: 'Без экзамена меняются: Украина (по Венской конвенции 1968), Беларусь, Грузия, Армения, Молдова, Узбекистан, Казахстан, Кыргызстан и страны ЕЭП. Россия — ситуативно (некоторые starostwa (старостаты) требуют теорию).' },
+      { q: 'Какие страны требуют экзамен теории WORD?', a: 'США (категория B сдаётся теория WORD — в Воеводском центре дорожного движения), Великобритания, Индия, Австралия, ОАЭ, Турция (теория). Точный список — в Rozporządzeniu Ministra Infrastruktury z 24 lutego 2016 r. (Постановлении Министра инфраструктуры от 24 февраля 2016 г.).' }
     ],
     pl: [
       { q: 'Kto musi wymienić prawo jazdy na polskie w 2026?', a: 'Cudzoziemcy z TRC, PR lub Kartą Polaka po 185 dniach pobytu. Ruch bezwizowy i UKR pozwalają tymczasowo jeździć na zagranicznych prawach, ale przy długim pobycie wymiana jest obowiązkowa.' },
@@ -395,7 +395,7 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'Who needs to exchange a driving licence in Poland in 2026?', a: 'Foreigners on TRC, PR or Karta Polaka after 185 days of residence. Visa-free and UKR allow temporary use of Ukrainian or Moldovan licences, but long-term stay requires exchange.' },
-      { q: 'How much does exchanging a driving licence cost?', a: 'Starostwo fee PLN 100.50. Sworn translation PLN 50–150. Medical exam PLN 200. WORD theory test if required: PLN 50. Total: PLN 350–500.' },
+      { q: 'How much does exchanging a driving licence cost?', a: 'Starostwo (county office) fee PLN 100.50. Sworn translation PLN 50–150. Medical exam PLN 200. WORD (regional driving-test centre) theory test if required: PLN 50. Total: PLN 350–500.' },
       { q: 'Which countries can exchange without a test in 2026?', a: 'No test: Ukraine (Vienna 1968), Belarus, Georgia, Armenia, Moldova, Uzbekistan, Kazakhstan, Kyrgyzstan, and EEA states. Russia: case-by-case.' },
       { q: 'Which countries require a WORD theory exam?', a: 'USA, UK, India, Australia, UAE, Turkey. The full list is in the Regulation of the Minister of Infrastructure of 24 February 2016.' }
     ]
@@ -403,9 +403,9 @@ export const BLOG_FAQ: Map = {
 
   'obmen-azerbajdzhanskih-prav-na-polskie': {
     ru: [
-      { q: 'Можно ли обменять азербайджанские права на польские без экзамена?', a: 'Да. Азербайджан подписал Венскую конвенцию 1968 года, поэтому категории A и B меняются без сдачи теории и практики. Обмен через starostwo по месту жительства за 100,50 PLN.' },
-      { q: 'Какие документы нужны для обмена азербайджанских прав?', a: 'Оригинал водительских прав, присяжный перевод, паспорт, karta pobytu / PESEL, фото 35×45 мм, badania lekarskie (~200 PLN), wniosek по форме starostwa.' },
-      { q: 'Меняются ли категории C и D из Азербайджана?', a: 'C и D меняются с экзаменом теории WORD. На практике многие starostwa также требуют экзамен на категории C, CE, D, DE — несмотря на Венскую конвенцию.' }
+      { q: 'Можно ли обменять азербайджанские права на польские без экзамена?', a: 'Да. Азербайджан подписал Венскую конвенцию 1968 года, поэтому категории A и B меняются без сдачи теории и практики. Обмен через starostwo (старостат) по месту жительства за 100,50 PLN.' },
+      { q: 'Какие документы нужны для обмена азербайджанских прав?', a: 'Оригинал водительских прав, присяжный перевод, паспорт, karta pobytu / PESEL, фото 35×45 мм, badania lekarskie (медосмотр, ~200 PLN), wniosek (заявление) по форме starostwa.' },
+      { q: 'Меняются ли категории C и D из Азербайджана?', a: 'C и D меняются с экзаменом теории WORD (Воеводского центра дорожного движения). На практике многие starostwa (старостаты) также требуют экзамен на категории C, CE, D, DE — несмотря на Венскую конвенцию.' }
     ],
     pl: [
       { q: 'Czy można wymienić azerbejdżańskie prawo jazdy bez egzaminu?', a: 'Tak. Azerbejdżan jest stroną Konwencji Wiedeńskiej 1968 — kategorie A i B wymienia się bez egzaminu. Wymiana w starostwie za 100,50 PLN.' },
@@ -413,32 +413,32 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy kategorie C i D wymienia się z Azerbejdżanu?', a: 'Z egzaminem teorii WORD. W praktyce wiele starostw wymaga egzaminu nawet przy Wiedniu 1968.' }
     ],
     en: [
-      { q: 'Can an Azerbaijani driving licence be exchanged without an exam?', a: 'Yes. Azerbaijan is a party to the 1968 Vienna Convention, so categories A and B are exchanged without theory or practical tests. Exchange at the local starostwo costs PLN 100.50.' },
-      { q: 'What documents are needed?', a: 'Original licence, sworn translation, passport, residence card or PESEL, 35×45 mm photo, medical exam (~PLN 200), and the starostwo application form.' },
-      { q: 'Are C and D categories exchangeable?', a: 'With a WORD theory exam. In practice many starostwo offices require an exam even under the Vienna Convention.' }
+      { q: 'Can an Azerbaijani driving licence be exchanged without an exam?', a: 'Yes. Azerbaijan is a party to the 1968 Vienna Convention, so categories A and B are exchanged without theory or practical tests. Exchange at the local starostwo (county office) costs PLN 100.50.' },
+      { q: 'What documents are needed?', a: 'Original licence, sworn translation, passport, residence card or PESEL, 35×45 mm photo, medical exam (~PLN 200), and the starostwo (county office) application form.' },
+      { q: 'Are C and D categories exchangeable?', a: 'With a WORD (regional driving-test centre) theory exam. In practice many starostwo offices require an exam even under the Vienna Convention.' }
     ]
   },
 
   'obmen-tureckih-prav-na-polskie': {
     ru: [
-      { q: 'Какие условия обмена турецких прав на польские в 2026?', a: 'Турция не подписала Венскую конвенцию для обмена без экзамена. Категория B меняется через сдачу теории WORD (50 PLN). Категории C, CE, D, DE — теория + практический экзамен.' },
-      { q: 'Сколько стоит обмен турецких прав?', a: 'Starostwo — 100,50 PLN, перевод 50–150 PLN, badania lekarskie 200 PLN, экзамен теории WORD 50 PLN. Категория B итого ~400–500 PLN. С практическим экзаменом — до 700 PLN.' }
+      { q: 'Какие условия обмена турецких прав на польские в 2026?', a: 'Турция не подписала Венскую конвенцию для обмена без экзамена. Категория B меняется через сдачу теории WORD (Воеводского центра дорожного движения, 50 PLN). Категории C, CE, D, DE — теория + практический экзамен.' },
+      { q: 'Сколько стоит обмен турецких прав?', a: 'Starostwo (старостат) — 100,50 PLN, перевод 50–150 PLN, badania lekarskie (медосмотр) 200 PLN, экзамен теории WORD 50 PLN. Категория B итого ~400–500 PLN. С практическим экзаменом — до 700 PLN.' }
     ],
     pl: [
       { q: 'Jakie są warunki wymiany tureckich praw jazdy w 2026?', a: 'Turcja nie ratyfikowała Konwencji Wiedeńskiej w pełni — kategoria B wymaga teorii WORD. Kategorie C, CE, D, DE — teoria plus egzamin praktyczny.' },
       { q: 'Ile kosztuje wymiana tureckiego prawa jazdy?', a: 'Starostwo 100,50 PLN, tłumaczenie 50–150 PLN, badania 200 PLN, teoria WORD 50 PLN. Kategoria B łącznie 400–500 PLN. Z egzaminem praktycznym do 700 PLN.' }
     ],
     en: [
-      { q: 'How does Turkish licence exchange work in 2026?', a: 'Turkey is not a Vienna Convention party for exchange without exams. Category B requires the WORD theory test (PLN 50). Categories C, CE, D, DE require theory plus a practical exam.' },
-      { q: 'How much does it cost to exchange a Turkish licence?', a: 'Starostwo PLN 100.50, sworn translation PLN 50–150, medical exam PLN 200, WORD theory PLN 50. Category B total: PLN 400–500. With practical exam, up to PLN 700.' }
+      { q: 'How does Turkish licence exchange work in 2026?', a: 'Turkey is not a Vienna Convention party for exchange without exams. Category B requires the WORD (regional driving-test centre) theory test (PLN 50). Categories C, CE, D, DE require theory plus a practical exam.' },
+      { q: 'How much does it cost to exchange a Turkish licence?', a: 'Starostwo (county office) PLN 100.50, sworn translation PLN 50–150, medical exam PLN 200, WORD (regional driving-test centre) theory PLN 50. Category B total: PLN 400–500. With practical exam, up to PLN 700.' }
     ]
   },
 
   'zamena-prav-ssha-uk-india-word-ekzamen': {
     ru: [
-      { q: 'Нужно ли сдавать экзамен WORD при обмене прав США/UK/Индии?', a: 'Да. США, Великобритания и Индия не входят в страны автоматического обмена. Категория B сдаётся теория WORD (30 вопросов, 75% правильных). Практика обычно не требуется для B, но C и D — с практикой.' },
-      { q: 'Сколько стоит экзамен теории в WORD?', a: '50 PLN за подачу. Записаться можно онлайн на сайте WORD по месту жительства. Очередь — 2–6 недель в Варшаве. Можно сдавать на польском, английском, русском, украинском или немецком.' },
-      { q: 'Можно ли получить международные права в Польше?', a: 'Да, после обмена иностранных прав на польские — за 35 PLN в starostwie. Действительны 3 года (Вена) или 1 год (Женева). Нужны для поездок в страны вне ЕС.' }
+      { q: 'Нужно ли сдавать экзамен WORD (Воеводский центр дорожного движения) при обмене прав США/UK/Индии?', a: 'Да. США, Великобритания и Индия не входят в страны автоматического обмена. Категория B сдаётся теория WORD (30 вопросов, 75% правильных). Практика обычно не требуется для B, но C и D — с практикой.' },
+      { q: 'Сколько стоит экзамен теории в WORD?', a: '50 PLN за подачу. Записаться можно онлайн на сайте WORD (Воеводского центра дорожного движения) по месту жительства. Очередь — 2–6 недель в Варшаве. Можно сдавать на польском, английском, русском, украинском или немецком.' },
+      { q: 'Можно ли получить международные права в Польше?', a: 'Да, после обмена иностранных прав на польские — за 35 PLN в starostwie (старостате). Действительны 3 года (Вена) или 1 год (Женева). Нужны для поездок в страны вне ЕС.' }
     ],
     pl: [
       { q: 'Czy potrzebny jest egzamin WORD przy wymianie praw USA / UK / Indii?', a: 'Tak. USA, Wielka Brytania, Indie nie są w wykazie automatycznej wymiany. Kategoria B — teoria WORD (30 pytań, 75% poprawnych). Praktyka zwykle nie dla B, ale C i D — z praktyką.' },
@@ -446,17 +446,17 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy w Polsce można wyrobić międzynarodowe prawo jazdy?', a: 'Tak, po wymianie praw na polskie — 35 PLN w starostwie. Ważność 3 lata (Wiedeń) lub 1 rok (Genewa). Potrzebne do jazdy poza UE.' }
     ],
     en: [
-      { q: 'Do US, UK or Indian licences require a WORD exam?', a: 'Yes. The US, UK and India are not in the automatic-exchange list. Category B requires the WORD theory test (30 questions, 75% pass). Practical not usually required for B; required for C and D.' },
-      { q: 'How much does the WORD theory exam cost?', a: 'PLN 50. Booking is online via the regional WORD site. The queue is 2–6 weeks in Warsaw. The exam is available in Polish, English, Russian, Ukrainian or German.' },
-      { q: 'Can I get an international driving permit in Poland?', a: 'Yes — once your foreign licence is exchanged for a Polish one, you can get an IDP at the starostwo for PLN 35. Valid 3 years (Vienna) or 1 year (Geneva). Required for non-EU travel.' }
+      { q: 'Do US, UK or Indian licences require a WORD exam?', a: 'Yes. The US, UK and India are not in the automatic-exchange list. Category B requires the WORD (regional driving-test centre) theory test (30 questions, 75% pass). Practical not usually required for B; required for C and D.' },
+      { q: 'How much does the WORD theory exam cost?', a: 'PLN 50. Booking is online via the regional WORD (driving-test centre) site. The queue is 2–6 weeks in Warsaw. The exam is available in Polish, English, Russian, Ukrainian or German.' },
+      { q: 'Can I get an international driving permit in Poland?', a: 'Yes — once your foreign licence is exchanged for a Polish one, you can get an IDP at the starostwo (county office) for PLN 35. Valid 3 years (Vienna) or 1 year (Geneva). Required for non-EU travel.' }
     ]
   },
 
   'pravilo-185-dney-itd-shtrafy': {
     ru: [
-      { q: 'Что такое правило 185 дней для водительских прав в Польше?', a: 'По польскому праву иностранец, проживший в Польше более 185 дней в году, обязан обменять иностранные права на польские. Без обмена — езда считается prowadzeniem pojazdu bez uprawnień.' },
-      { q: 'Какой штраф за езду без польских прав после 185 дней?', a: 'Mandat ITD от 1 500 до 5 000 PLN, в случае повторных нарушений — суд и до 30 000 PLN или ограничение свободы. На дороге автомобиль могут эвакуировать на postój policyjny.' },
-      { q: 'Как ITD проверяет 185 дней пребывания?', a: 'По штампам в паспорте, базе MOS v2.0, meldunku, базе ZUS и записям таможни. При проверке инспектор вправе требовать подтверждения адреса и работы. Игнорирование чревато mandatем.' }
+      { q: 'Что такое правило 185 дней для водительских прав в Польше?', a: 'По польскому праву иностранец, проживший в Польше более 185 дней в году, обязан обменять иностранные права на польские. Без обмена — езда считается prowadzeniem pojazdu bez uprawnień (управлением транспортным средством без прав).' },
+      { q: 'Какой штраф за езду без польских прав после 185 дней?', a: 'Mandat (штраф) ITD (Дорожной транспортной инспекции) от 1 500 до 5 000 PLN, в случае повторных нарушений — суд и до 30 000 PLN или ограничение свободы. На дороге автомобиль могут эвакуировать на postój policyjny (полицейскую стоянку).' },
+      { q: 'Как ITD (Дорожная транспортная инспекция) проверяет 185 дней пребывания?', a: 'По штампам в паспорте, базе MOS v2.0, meldunku (регистрации по адресу), базе ZUS и записям таможни. При проверке инспектор вправе требовать подтверждения адреса и работы. Игнорирование чревато mandatем (штрафом).' }
     ],
     pl: [
       { q: 'Czym jest zasada 185 dni dla wymiany prawa jazdy?', a: 'Cudzoziemiec mieszkający w Polsce ponad 185 dni w roku ma obowiązek wymienić prawo jazdy na polskie. Bez wymiany — jazda traktowana jako prowadzenie bez uprawnień.' },
@@ -465,8 +465,8 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'What is the 185-day rule for driving licences in Poland?', a: 'Under Polish law, a foreigner who has lived in Poland for more than 185 days in a calendar year is obliged to exchange the foreign licence for a Polish one. Driving without the exchange counts as driving without authorisation.' },
-      { q: 'What\'s the fine for driving without a Polish licence past 185 days?', a: 'ITD fine PLN 1,500–5,000; for repeat offences, court fines up to PLN 30,000 or restriction of liberty. The vehicle can be towed to a police impound lot.' },
-      { q: 'How does ITD verify 185 days of residence?', a: 'Through passport stamps, the MOS v2.0 database, meldunek records, ZUS, and border-guard logs. Inspectors can request proof of address and employment.' }
+      { q: 'What\'s the fine for driving without a Polish licence past 185 days?', a: 'ITD (road transport inspection) fine PLN 1,500–5,000; for repeat offences, court fines up to PLN 30,000 or restriction of liberty. The vehicle can be towed to a police impound lot.' },
+      { q: 'How does ITD verify 185 days of residence?', a: 'Through passport stamps, the MOS v2.0 database, meldunek (address registration) records, ZUS, and border-guard logs. Inspectors can request proof of address and employment.' }
     ]
   },
 
