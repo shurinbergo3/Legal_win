@@ -21,6 +21,7 @@ import {
   SITE_URL,
   articleLd,
   breadcrumbLd,
+  faqPageLd,
   type SeoLocale
 } from '@/lib/seo';
 
@@ -143,10 +144,13 @@ export default async function BlogPostPage({
     keywords: post.keywords
   });
 
+  const faq = post.faq.length > 0 ? faqPageLd(post.faq) : null;
+
   return (
     <>
       <JsonLd data={breadcrumb} />
       <JsonLd data={article} />
+      {faq && <JsonLd data={faq} />}
       <Header />
       <main className="relative z-10">
         <BlogArticle
@@ -156,7 +160,9 @@ export default async function BlogPostPage({
             back: t('back'),
             publishedOn: t('publishedOn'),
             readingTime: t('readingTime'),
-            related: t('related')
+            related: t('related'),
+            faqEyebrow: t('faqEyebrow'),
+            faqTitle: t('faqTitle')
           }}
         />
       </main>

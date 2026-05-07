@@ -17,7 +17,7 @@ const najemKomercyjny: ServiceEntry = {
     ],
     grounds: {
       title: 'Что договариваемся',
-      subtitle: 'Стандартный template wynajemcy спрятan каждый риск-рычаг. Знаем где искать.',
+      subtitle: 'В стандартном шаблоне wynajemcy скрыт каждый риск-рычаг. Мы знаем, где искать.',
       items: [
         { title: 'Czynsz и indeksacja', desc: 'Базовый czynsz + indeksacja (CPI Polska, EUR Eurostat, fixed). Negotiуем cap на indeksację (max 4–5%/год), pierwszy bezpłatny rok (rent-free period 1–3 мес обычно), discounty при долгом сроке.' },
         { title: 'Fit-out и contribution', desc: 'Wynajemca часто покрывает 50–250 EUR/м² costsa подготовки (ремонт, перегородки, мебель). Negotiу­емum для нового арендатора. Бывает базовый stan, бывает «turn-key» — ключевая разница до 200к за офис 200 м².' },
@@ -30,8 +30,8 @@ const najemKomercyjny: ServiceEntry = {
       ]
     },
     timeline: {
-      title: 'Этапы negotiacji',
-      subtitle: 'От analizy do подписания обычно 2–4 недели. Сложные kontrakty (от 1000 м² или сетевые) — до 2 месяцев.',
+      title: 'Этапы переговоров',
+      subtitle: 'От первичного анализа до подписания обычно 2–4 недели. Сложные контракты (от 1000 м² или сетевые) — до 2 месяцев.',
       steps: [
         { title: 'Бесплатная оценка', duration: '30 мин', desc: 'Описание планов: тип бизнеса, площадь, regiony интереса, бюджет. Подбираем pakiet (review / negotiacje / pełne сопровождение).' },
         { title: 'Получение draftу', duration: '1 неделя', desc: 'Wynajemca присылает свой template umowy. Часто 30–50 страниц. Загружаем в нашу analizę.' },
@@ -79,7 +79,7 @@ const najemKomercyjny: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Зачем юрист, если просто арендую офис?', a: 'Стандартный template wynajemcy в Польше — 30–50 страниц, 80% защищают wynajemcę. Например: «klauzula wcześniejszego rozwiązania» позволяет разорвать umowę за 3 мес если есть «незаметные» нарушения (часто фабриковaные); «service charge» может вырасти на 50% в год; «klauzula konkurencji» может ограничить ваше развитие. Юрист отрабатывает 2 000 PLN на каждой 100 тыс. PLN umowi.' },
+      { q: 'Зачем специалист, если просто арендую офис?', a: 'Стандартный template wynajemcy в Польше — 30–50 страниц, 80% защищают wynajemcę. Например: «klauzula wcześniejszego rozwiązania» позволяет разорвать umowę за 3 мес если есть «незаметные» нарушения (часто фабриковaные); «service charge» может вырасти на 50% в год; «klauzula konkurencji» может ограничить ваше развитие. Наш специалист по аренде отрабатывает 2 000 PLN на каждой 100 тыс. PLN umowi.' },
       { q: 'Сколько стоит ofis в Варшаве?', a: '2024 год: класс A в центре — 18–25 EUR/м²/мес (Mokotów, Wola, Centrum). Класс B на peryferiach — 11–16 EUR. Coworking — 800–1 500 PLN/мес za miejsce. Service charge добавляет 4–8 EUR/м²/мес. Итого офис 100 м² класса B на peryferiach — обычно 7 000–12 000 PLN/мес.' },
       { q: 'Что такое rent-free period?', a: 'Бесплатный период в начале umowy — 1–3 месяца обычно. Используется на ремонт и переезд. Negotiу­ем 2–3 месяца для офиса 200+ м² или 1 месяц для меньших площадей. На rynku арендатора (когда vacancy высокий — как в 2023-24) можно получить 3–6 месяцев.' },
       { q: 'Можно ли расторгнуть досрочно?', a: 'Без специальной klauzuli — нет, вы платите все pozostałe czynsze. Договариваемся об «outerly window» — например, после 3 года можно разорвать с karą 6 мес czynszu. Это стандарт для офисов. Для magazynów и галерей — сложнее, обычно 5+ лет blocked.' },
@@ -169,7 +169,7 @@ const najemKomercyjny: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Po co prawnik przy najmie?', a: '30–50 stron szablonu, 80% chroni wynajmującego. Klauzule rozwiązania, service charge, konkurencji — kosztują dziesiątki tysięcy.' },
+      { q: 'Po co specjalista przy najmie?', a: '30–50 stron szablonu, 80% chroni wynajmującego. Klauzule rozwiązania, service charge, konkurencji — kosztują dziesiątki tysięcy.' },
       { q: 'Cena biura w Warszawie?', a: 'Klasa A w centrum 18–25 EUR/m²/mies. Klasa B 11–16. Coworking 800–1 500 PLN/miejsce. Service +4–8 EUR. Biuro 100 m² B — 7 000–12 000 PLN/mies.' },
       { q: 'Rent-free?', a: '1–3 mies. typowo. Negocjujemy 2–3 mies. dla 200+ m².' },
       { q: 'Wcześniejsze rozwiązanie?', a: 'Window po 3 latach z karą 6 mies. — standard dla biur.' },
@@ -259,7 +259,7 @@ const najemKomercyjny: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Why a lawyer for an office lease?', a: 'Standard template — 30–50 pages, 80% protects landlord. Termination clauses, service charge, non-compete cost tens of thousands. Lawyer earns 2,000 PLN per 100k of contract value.' },
+      { q: 'Why a specialist for an office lease?', a: 'Standard template — 30–50 pages, 80% protects landlord. Termination clauses, service charge, non-compete cost tens of thousands. Our lease specialist earns 2,000 PLN per 100k of contract value.' },
       { q: 'Office prices in Warsaw?', a: '2024: class A center 18–25 EUR/m²/mo. Class B periphery 11–16. Coworking 800–1,500 PLN per seat. Service charge +4–8 EUR. 100 m² class B — typically 7,000–12,000 PLN/mo.' },
       { q: 'Rent-free period?', a: '1–3 months standard. We negotiate 2–3 for 200+ m². Tenant\'s market — 3–6 months.' },
       { q: 'Early exit?', a: 'Without a clause — pay remaining rent. We add an exit window after 3 years with 6 months penalty.' },

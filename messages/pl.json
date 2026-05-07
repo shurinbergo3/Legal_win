@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "Karta pobytu w Polsce — kancelaria LegalWin · Warszawa 2026",
-    "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Kancelaria w Warszawie od 2019 — 4.9★ od 312 klientów, 500+ spraw rocznie.",
-    "keywords": "karta pobytu, karta czasowego pobytu, karta stałego pobytu, TRC Polska, obywatelstwo polskie, kancelaria imigracyjna Warszawa, prawnik dla cudzoziemców Warszawa, wymiana prawa jazdy w Polsce, Kod 95, kwalifikacja wstępna, szkolenie okresowe, rejestracja Sp. z o.o., odwołanie od decyzji wojewody, MOS v2.0, eDoręczenia, LegalWin"
+    "title": "Karta pobytu w Polsce — konsultanci imigracyjni LegalWin · Warszawa 2026",
+    "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Konsultanci imigracyjni w Warszawie od 2019 — 4.9★ od 312 klientów, 500+ spraw rocznie.",
+    "keywords": "karta pobytu, karta czasowego pobytu, karta stałego pobytu, TRC Polska, obywatelstwo polskie, konsultant imigracyjny Warszawa, pomoc dla cudzoziemców Warszawa, wymiana prawa jazdy w Polsce, Kod 95, kwalifikacja wstępna, szkolenie okresowe, rejestracja Sp. z o.o., odwołanie od decyzji wojewody, MOS v2.0, eDoręczenia, LegalWin"
   },
   "Nav": {
     "services": "Usługi",
@@ -30,15 +30,15 @@
       "spolkaDesc": "Rejestracja firmy i podatki"
     },
     "ctaHome": "Na stronę główną",
-    "ctaContact": "Napisz do prawnika",
+    "ctaContact": "Napisz do nas",
     "footnote": "Jeśli weszli Państwo z linku w mailu lub w wyszukiwarce — dajcie znać, naprawimy"
   },
   "Hero": {
-    "imageAlt": "Kancelaria prawna LegalWin w Warszawie — pomoc imigrantom: karta pobytu, obywatelstwo polskie",
+    "imageAlt": "LegalWin w Warszawie — konsultanci imigracyjni: karta pobytu, obywatelstwo polskie",
     "eyebrow": "Warszawa · Od 2019",
     "titleLine1": "Karta pobytu, TRC i pobyt stały w Polsce.",
-    "titleLine2": "Kancelaria dla cudzoziemców · Warszawa.",
-    "subtitle": "Karta pobytu, obywatelstwo, wymiana prawa jazdy, Kod 95, dokumenty i legalizacja. Kancelaria w Warszawie od 2019 — 4.9★ od 312 klientów.",
+    "titleLine2": "Konsultanci imigracyjni · Warszawa.",
+    "subtitle": "Karta pobytu, obywatelstwo, wymiana prawa jazdy, Kod 95, dokumenty i legalizacja. Zespół LegalWin w Warszawie od 2019 — 4.9★ od 312 klientów.",
     "ctaPrimary": "Bezpłatna konsultacja",
     "ctaSecondary": "Wszystkie usługi",
     "availableNow": "Odpowiadamy w ciągu godziny",
@@ -54,22 +54,22 @@
     "stat1Value": "500",
     "stat1Suffix": "+",
     "stat1Label": "kart pobytu rocznie",
-    "stat2Value": "8",
-    "stat2Label": "prawników w zespole",
+    "stat2Value": "5",
+    "stat2Label": "obszarów praktyki",
     "stat3Value": "5",
     "stat3Suffix": "+",
     "stat3Label": "lat na rynku",
     "stat4Value": "4",
     "stat4Label": "języki robocze",
     "stat1Note": "Średni czas decyzji — 42 dni",
-    "stat2Note": "Adwokat, radca prawny, konsultanci",
+    "stat2Note": "Imigracja, biznes, podatki, dokumenty, relokacja",
     "stat3Note": "Od 2019 roku w Warszawie",
     "stat4Note": "PL · RU · UA · EN"
   },
   "Services": {
     "eyebrow": "Praktyki",
     "title": "Wszystko, czego potrzebuje cudzoziemiec w Polsce",
-    "subtitle": "Pięć obszarów, jeden zespół. Każdą sprawą kieruje wyspecjalizowany prawnik — nie zlecamy dokumentów na zewnątrz.",
+    "subtitle": "Pięć obszarów, jeden zespół. Każdą sprawą kieruje dedykowany specjalista — nie zlecamy dokumentów na zewnątrz.",
     "tag": "/ pełny zakres",
     "cta": "Zapytaj",
     "groups": {
@@ -193,7 +193,7 @@
           },
           {
             "name": "Asysta u notariusza",
-            "desc": "Obecność adwokata przy akcie notarialnym"
+            "desc": "Wsparcie specjalisty ds. nieruchomości przy akcie notarialnym"
           },
           {
             "name": "Najem komercyjny",
@@ -236,11 +236,11 @@
   },
   "About": {
     "eyebrow": "O LegalWin",
-    "title": "Prawnicy, którzy mówią twoim językiem",
-    "paragraph1": "LegalWin to zespół polskich adwokatów i radców prawnych oraz konsultantów imigracyjnych. Pracujemy z klientami z Rosji, Ukrainy, Białorusi, Kazachstanu i UE od 2019 roku.",
-    "paragraph2": "Prowadzimy sprawy w Urzędzie do Spraw Cudzoziemców, ZUS, US, KRS i sądach powszechnych. Nasi klienci to przedsiębiorcy, specjaliści IT, inwestorzy i rodziny przeprowadzające się do Polski.",
+    "title": "Specjaliści, którzy mówią twoim językiem",
+    "paragraph1": "LegalWin to warszawski zespół specjalistów ds. legalizacji, biznesu i nieruchomości. Pracujemy z klientami z Rosji, Ukrainy, Białorusi, Kazachstanu i UE od 2019 roku.",
+    "paragraph2": "Prowadzimy sprawy w Urzędzie do Spraw Cudzoziemców, ZUS, US i KRS. Nasi klienci to przedsiębiorcy, specjaliści IT, inwestorzy i rodziny przeprowadzające się do Polski.",
     "point1": "Przejrzyste ceny — stała cena za etap",
-    "point2": "Dedykowany prawnik dla każdej sprawy",
+    "point2": "Dedykowany opiekun sprawy dla każdego klienta",
     "point3": "Raporty w czasie rzeczywistym przez portal klienta",
     "point4": "Obsługa w języku polskim, rosyjskim, ukraińskim i angielskim"
   },
@@ -282,12 +282,12 @@
         "role": "projektantka, przeprowadziła się z Kijowa"
       },
       {
-        "text": "Otworzyliśmy spółkę w tydzień, od razu z VAT i rachunkiem. Odpowiadają na Telegramie natychmiast, tłumaczą jasno — bez prawniczej kaszy.",
+        "text": "Otworzyliśmy spółkę w tydzień, od razu z VAT i rachunkiem. Zespół LegalWin odpowiada na czacie natychmiast, tłumaczą jasno — bez biurokratycznej kaszy.",
         "author": "Dymitr K.",
         "role": "CTO, startup SaaS"
       },
       {
-        "text": "Pomogli z apelacją po odmowie PR. Drugi prawnik, do którego trafiłam — i jedyny, który naprawdę doprowadził sprawę do zwycięstwa.",
+        "text": "Pomogli z apelacją po odmowie PR. Drugi zespół, do którego trafiłam — i jedyny, który naprawdę doprowadził sprawę do zwycięstwa.",
         "author": "Anna S.",
         "role": "lekarka, Warszawa"
       },
@@ -301,7 +301,7 @@
   "Pricing": {
     "eyebrow": "Ceny",
     "title": "Przejrzyste ceny bez niespodzianek",
-    "subtitle": "Honorarium prawnika — stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład — na stronie każdej usługi.",
+    "subtitle": "Nasze honorarium — stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład — na stronie każdej usługi.",
     "consultationCta": "Pierwsza konsultacja gratis · 30–60 min",
     "items": [
       { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 42 dni" },
@@ -311,23 +311,23 @@
       { "slug": "kod-95", "name": "Kod 95 dla kierowców", "value": "od 1 200 PLN", "note": "OSK, dokumenty, badania, egzamin w WORD" },
       { "slug": "wymiana-prawa-jazdy", "name": "Wymiana prawa jazdy", "value": "od 600 PLN", "note": "Tłumaczenia, badania lekarskie, starostwo" }
     ],
-    "footnote": "Wszystkie ceny to honoraria prawników. Opłaty urzędowe (opłata skarbowa) i tłumaczenia przysięgłe są osobno. Po bezpłatnej konsultacji wszystko fiksujemy w umowie.",
+    "footnote": "Wszystkie ceny to nasze honoraria. Opłaty urzędowe (opłata skarbowa) i tłumaczenia przysięgłe są osobno. Po bezpłatnej konsultacji wszystko fiksujemy w umowie.",
     "ctaDetails": "Pełna kalkulacja"
   },
   "Team": {
     "eyebrow": "Zespół",
-    "title": "Ośmiu prawników. Jeden punkt wejścia.",
-    "subtitle": "Każdy obszar ma wyspecjalizowanego prawnika. Twój osobisty konsultant koordynuje ich pracę.",
+    "title": "Specjaliści w każdym obszarze. Jeden punkt wejścia.",
+    "subtitle": "Każdy obszar ma swojego specjalistę. Twój osobisty opiekun sprawy koordynuje ich pracę.",
     "members": [
       {
         "initials": "AK",
         "name": "Anna Kowalska",
-        "role": "Adwokat · Imigracja"
+        "role": "Konsultantka imigracyjna"
       },
       {
         "initials": "PN",
         "name": "Paweł Nowak",
-        "role": "Radca prawny · Biznes"
+        "role": "Konsultant biznesowy"
       },
       {
         "initials": "MW",
@@ -337,7 +337,7 @@
       {
         "initials": "TL",
         "name": "Tomasz Lewandowski",
-        "role": "Adwokat · Spory sądowe"
+        "role": "Specjalista ds. apelacji"
       },
       {
         "initials": "KZ",
@@ -347,7 +347,7 @@
       {
         "initials": "JM",
         "name": "Jakub Mazur",
-        "role": "Radca prawny · Nieruchomości"
+        "role": "Specjalista ds. nieruchomości"
       },
       {
         "initials": "ND",
@@ -357,7 +357,7 @@
       {
         "initials": "RS",
         "name": "Rafał Sawicki",
-        "role": "Starszy prawnik"
+        "role": "Starszy opiekun spraw"
       }
     ]
   },
@@ -369,7 +369,7 @@
     "step2Title": "Umowa i zaliczka",
     "step2Desc": "Ustalamy zakres prac i koszty w pisemnej umowie. Żadnych niespodzianek na fakturze.",
     "step3Title": "Prowadzenie sprawy",
-    "step3Desc": "Przygotowujemy dokumenty, składamy, reprezentujemy. Otrzymujesz statusy na Telegramie na każdym etapie.",
+    "step3Desc": "Przygotowujemy dokumenty, składamy, reprezentujemy. Otrzymujesz statusy mailowo i w portalu klienta na każdym etapie.",
     "step4Title": "Rezultat",
     "step4Desc": "Otrzymujemy decyzję. Przekazujemy oryginały, wyjaśniamy następne kroki, dajemy bonusy stałym klientom."
   },
@@ -387,7 +387,7 @@
       },
       {
         "q": "Czy pracujecie zdalnie?",
-        "a": "Tak. Klienci z innych miast Polski i z zagranicy prowadzą sprawy całkowicie online. Pełnomocnictwo notarialne, kanał Telegram z prawnikiem i portal klienta ze statusami."
+        "a": "Tak. Klienci z innych miast Polski i z zagranicy prowadzą sprawy całkowicie online. Pełnomocnictwo notarialne, bezpośredni kontakt z opiekunem sprawy i portal klienta ze statusami."
       },
       {
         "q": "Co jeśli otrzymam odmowę?",
@@ -406,7 +406,7 @@
   "Contact": {
     "eyebrow": "Kontakt",
     "title": "Opowiedz nam o swojej sprawie",
-    "subtitle": "Zostaw zgłoszenie — prawnik odpowie w ciągu godziny w godzinach pracy. Pierwsza konsultacja gratis.",
+    "subtitle": "Zostaw zgłoszenie — nasz specjalista odpowie w ciągu godziny w godzinach pracy. Pierwsza konsultacja gratis.",
     "name": "Imię",
     "namePlaceholder": "Jan Kowalski",
     "email": "Email",
@@ -426,7 +426,7 @@
     "submit": "Wyślij zgłoszenie",
     "submitting": "Wysyłanie…",
     "successTitle": "Zgłoszenie przyjęte",
-    "successMessage": "Prawnik odpowie w ciągu godziny w godzinach pracy (pn–pt 8:30–19:00).",
+    "successMessage": "Nasz specjalista odpowie w ciągu godziny w godzinach pracy (pn–pt 8:30–19:00).",
     "errorTitle": "Nie udało się wysłać",
     "errorMessage": "Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
     "hours": "Pn–Pt · 8:30 – 19:00",
@@ -442,7 +442,7 @@
     }
   },
   "Footer": {
-    "tagline": "Kancelaria w Warszawie. Imigracja, biznes, podatki, relokacja od 2019 roku.",
+    "tagline": "Specjaliści ds. legalizacji, biznesu i nieruchomości w Warszawie. Od 2019 roku.",
     "servicesTitle": "Usługi",
     "companyTitle": "Firma",
     "contactTitle": "Kontakt",
@@ -498,9 +498,9 @@
     "greeting": "Dzień dobry! Nazywam się Mila, jestem z LegalWin. W czym mogę pomóc — karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo?",
     "teaseGreeting": "Dzień dobry! Jestem Mila z LegalWin — pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Co Pana/Panią interesuje?",
     "teaseCta": "Napisz do Mili",
-    "disclaimer": "Dokładne terminy i ceny dla Pana/Pani sprawy potwierdzi prawnik na bezpłatnej konsultacji.",
+    "disclaimer": "Dokładne terminy i ceny dla Pana/Pani sprawy potwierdzi nasz specjalista na bezpłatnej konsultacji.",
     "consentTitle": "Zanim zaczniemy",
-    "consentText": "Jeśli zostawi Pan/Pani dane kontaktowe, zostaną przekazane prawnikowi LegalWin w celu obsługi zgłoszenia zgodnie z wymogami RODO.",
+    "consentText": "Jeśli zostawi Pan/Pani dane kontaktowe, zostaną przekazane zespołowi LegalWin w celu obsługi zgłoszenia zgodnie z wymogami RODO.",
     "consentCheckbox": "Wyrażam zgodę na przetwarzanie danych osobowych",
     "consentPrivacy": "Polityka prywatności",
     "consentStart": "Rozpocznij czat"
@@ -529,6 +529,8 @@
     "allCategories": "Wszystkie tematy",
     "noResults": "Nic nie pasuje do Twojego zapytania. Spróbuj innych słów lub wyczyść filtry.",
     "counterOne": "artykuł",
-    "counterMany": "artykułów"
+    "counterMany": "artykułów",
+    "faqEyebrow": "/ pytania",
+    "faqTitle": "Najczęstsze pytania"
   }
 }

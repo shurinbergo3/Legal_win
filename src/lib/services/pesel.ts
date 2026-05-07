@@ -7,7 +7,7 @@ const pesel: ServiceEntry = {
     icon: 'id-card',
     badge: '11 цифр · ZUS · US · ePUAP',
     title: 'PESEL для иностранца',
-    subtitle: 'Powszechny Elektroniczny System Ewidencji Ludności',
+    subtitle: 'Идентификационный номер в Польше — основа для ZUS, банка и ePUAP',
     lead: 'PESEL — это 11-значный идентификационный номер, без которого в Польше невозможно подписать договор аренды, открыть счёт в банке, обратиться к врачу через NFZ, оформить ePUAP или подать налоговую декларацию. С 2022 года иностранец получает PESEL по конкретной цели — например, для трудоустройства (cel: zatrudnienie), учёбы или ведения бизнеса. Оформляем заявление, привязываем к ePUAP и подключаем mObywatel.',
     facts: [
       { label: 'Срок выдачи', value: '1 день', note: 'при подаче в urząd gminy' },

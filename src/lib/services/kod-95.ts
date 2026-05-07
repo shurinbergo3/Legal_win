@@ -7,7 +7,7 @@ const kod95: ServiceEntry = {
     icon: 'id-card',
     badge: 'C/CE/D/DE · EU CPC',
     title: 'Kod 95',
-    subtitle: 'Świadectwo kwalifikacji zawodowej kierowcy',
+    subtitle: 'Свидетельство профессиональной квалификации водителя (CPC)',
     lead: 'Kod 95 — это пометка «95» на обороте польского prawa jazdy, подтверждающая профессиональную квалификацию водителя по директиве ЕС 2003/59/WE. Обязательна для всех, кто работает на грузовиках свыше 3,5 т (категории C, CE) и автобусах (D, DE). Без неё за рулём в коммерческом рейсе — штраф до 8 000 PLN водителю и до 12 000 PLN перевозчику.',
     facts: [
       { label: 'Срок действия', value: '5 лет', note: 'нужно продлевать szkoleniem okresowym' },
@@ -46,7 +46,7 @@ const kod95: ServiceEntry = {
         { title: 'Медкомиссия + психотест', duration: '1–2 дня', desc: 'Записываем на badania lekarskie категории 2 (для водителей-профессионалов) и psychotechnikę у аккредитованного психолога.' },
         { title: 'Запись в OSK', duration: '1–7 дней', desc: 'Подбираем ośrodek szkolenia с занятиями на удобном для вас языке (часто доступен русскоязычный преподаватель) и удобным графиком.' },
         { title: 'Обучение', duration: '35–280 ч', desc: 'Szkolenie okresowe — обычно 5 дней по 7 часов или модулями. Kwalifikacja wstępna — несколько недель с разрывом на работу.' },
-        { title: 'Экзамен в WORD', duration: '1 день', desc: 'Только для kwalifikacji wstępnej. Тест на 30 вопросов, проходной балл — 16. Сопровождаем юристом, при провале — пересдача.' },
+        { title: 'Экзамен в WORD', duration: '1 день', desc: 'Только для kwalifikacji wstępnej. Тест на 30 вопросов, проходной балл — 16. Сопровождаем нашим специалистом, при провале — пересдача.' },
         { title: 'Внесение Kod 95 в права', duration: '14 дней', desc: 'Подаём wniosek в starostwo, оплачиваем opłatę 100 PLN. На обороте prawa jazdy появляется «95» с датой окончания через 5 лет.' }
       ]
     },
@@ -168,7 +168,7 @@ const kod95: ServiceEntry = {
         { title: 'Badania lekarskie i psychotechniczne', duration: '1–2 dni', desc: 'Zapisujemy na badania lekarskie kat. 2 (kierowcy zawodowi) i psychotechnikę u akredytowanego psychologa.' },
         { title: 'Zapis do OSK', duration: '1–7 dni', desc: 'Dobieramy ośrodek szkolenia z zajęciami w wygodnym dla Ciebie języku (często jest rosyjskojęzyczny lektor) i pasującym terminarzem.' },
         { title: 'Szkolenie', duration: '35–280 h', desc: 'Szkolenie okresowe to zwykle 5 dni po 7 h lub moduły. Kwalifikacja wstępna — kilka tygodni z przerwami na pracę.' },
-        { title: 'Egzamin w WORD', duration: '1 dzień', desc: 'Tylko dla kwalifikacji wstępnej. Test 30 pytań, próg zdawalności 16. Asystujemy prawnikiem, w razie niepowodzenia — poprawka.' },
+        { title: 'Egzamin w WORD', duration: '1 dzień', desc: 'Tylko dla kwalifikacji wstępnej. Test 30 pytań, próg zdawalności 16. Asystuje konsultant, w razie niepowodzenia — poprawka.' },
         { title: 'Wpis Kod 95 do prawa jazdy', duration: '14 dni', desc: 'Składamy wniosek w starostwie, opłata 100 PLN. Na odwrocie prawa jazdy pojawia się „95" z datą ważności za 5 lat.' }
       ]
     },
@@ -290,7 +290,7 @@ const kod95: ServiceEntry = {
         { title: 'Medical & psych exams', duration: '1–2 days', desc: 'We book badania lekarskie cat. 2 (professional drivers) and psychotechnika with an accredited psychologist.' },
         { title: 'OSK enrolment', duration: '1–7 days', desc: 'We pick a training centre with classes in your preferred language (Russian-speaking instructors are common) and a schedule that fits your work.' },
         { title: 'Training', duration: '35–280 h', desc: 'Periodic training is usually 5 days × 7 h or modular. Initial qualification spans several weeks with breaks for work.' },
-        { title: 'WORD exam', duration: '1 day', desc: 'Initial qualification only. 30-question test, pass mark 16. We attend with a lawyer; on a fail — retake support.' },
+        { title: 'WORD exam', duration: '1 day', desc: 'Initial qualification only. 30-question test, pass mark 16. We attend with a consultant; on a fail — retake support.' },
         { title: 'Code 95 entry into the licence', duration: '14 days', desc: 'We file with starostwo, pay the 100 PLN opłata. The "95" appears on the back of your prawo jazdy with a 5-year expiry.' }
       ]
     },

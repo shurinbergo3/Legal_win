@@ -87,7 +87,7 @@ const dueDiligenceNieruchomosci: ServiceEntry = {
       { q: 'Что делать с hipoteką при покупке?', a: 'Стандартная схема: продавец гарантирует выплату hipoteki из cены покупки, банк готовит wniosek o wykreślenie hipoteki и передаёт нотариусу. Akt notarialny подписывается с условием «после wykreślenia hipoteki». Деньги покупателя депонируются на rachunek powierniczy. После wykreślenia hipoteki — деньги переходят продавцу. Контролируем процесс под ключ.' },
       { q: 'Можно ли проверить только KW самому?', a: 'KW — да, мгновенно через ekw.ms.gov.pl за 0 PLN. Но KW показывает только «зарегистрированные» проблемы. Не показывает: zaległości у продавца, sporów w sądzie, нелегальных пристроек, planów miejscowych, problemów z wspólnotą. KW — 30% всех risiков. DD — 100%.' },
       { q: 'Сколько времени до aktu после positiv­nogo DD?', a: 'Если все papiery уже у нотариуса — 1–3 дня после нашего raportu. Если нужно ещё mwait wniosek MSWiA или wykreślenie hipoteki — 2–8 недель. План на консультации.' },
-      { q: 'Гарантия что в DD не пропустят что-то?', a: 'У нас в umowie — гарантия: если что-то пропустим из standardowych источников и это станет проблемой в первые 12 месяцев — компенсируем убытки до 100% наших гонораров. На практике мы strаchujem себя и каждый отчёт проверяет 2 юриста.' }
+      { q: 'Гарантия что в DD не пропустят что-то?', a: 'У нас в umowie — гарантия: если что-то пропустим из standardowych источников и это станет проблемой в первые 12 месяцев — компенсируем убытки до 100% наших гонораров. На практике мы strаchujem себя и каждый отчёт проверяет 2 специалиста.' }
     ],
     related: ['mswia-zezwolenie', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Due diligence перед покупкой',

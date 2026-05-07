@@ -7,8 +7,8 @@ const notariuszAsysta: ServiceEntry = {
     icon: 'gavel',
     badge: 'Akt notarialny · pełnomocnik · 1 dzień',
     title: 'Сопровождение у нотариуса',
-    subtitle: 'Адвокат-присутствие на акте купли-продажи недвижимости',
-    lead: 'Akt notarialny — финальная процедура покупки недвижимости в Польше. Нотариус подтверждает umowę, но не защищает покупателя — он нейтральный. Адвокат-сопровождение читает akt до подписания, проверяет каждую klauzulę, договаривается об изменениях с продавцом, контролирует передачу денег и ключей. На сделке за 800 тыс. PLN наш гонорар окупается одной поправкой. Если вы не в Польше — pełnomocnictwo notarialne, и мы заменяем вас полностью.',
+    subtitle: 'Сопровождение специалиста по недвижимости на акте купли-продажи',
+    lead: 'Akt notarialny — финальная процедура покупки недвижимости в Польше. Нотариус подтверждает umowę, но не защищает покупателя — он нейтральный. Наш специалист по недвижимости читает akt до подписания, проверяет каждую klauzulę, договаривается об изменениях с продавцом, контролирует передачу денег и ключей. На сделке за 800 тыс. PLN наш гонорар окупается одной поправкой. Если вы не в Польше — pełnomocnictwo notarialne, и мы заменяем вас полностью.',
     facts: [
       { label: 'Длительность aktu', value: '1–2 часа', note: 'у нотариуса · читка + подписание' },
       { label: 'Подготовка', value: '5–7 дней', note: 'projekt aktu · корректировки' },
@@ -16,8 +16,8 @@ const notariuszAsysta: ServiceEntry = {
       { label: 'Госпошлина', value: '2% PCC', note: 'на rynku вторичном' }
     ],
     grounds: {
-      title: 'Чем помогает адвокат на акте',
-      subtitle: 'Нотариус — нейтральный. Адвокат — на стороне покупателя.',
+      title: 'Чем помогает наш специалист на акте',
+      subtitle: 'Нотариус — нейтральный. Мы — на стороне покупателя.',
       items: [
         { title: 'Чтение projektu aktu заранее', desc: 'Нотариус показывает projekt aktu за 1–7 дней до подписания. Многие нюансы скрыты в стандартных формулировках. Анализируем каждую klauzulę и предлагаем поправки.' },
         { title: 'Negotiacje klauzul', desc: 'Стандартные точки споров: момент перехода собственности (z chwilą podpisania или z chwilą zapłaty?), кто оплачивает PCC и нотариуса, depozyt notarialny, право пользования до выезда продавца, сроки передачи ключей.' },
@@ -30,12 +30,12 @@ const notariuszAsysta: ServiceEntry = {
     },
     timeline: {
       title: 'Этапы aktu notarialnego',
-      subtitle: 'Полная подготовка от choice нотариуса до wpisu в KW — обычно 2–4 недели.',
+      subtitle: 'Полная подготовка от выбора нотариуса до wpisu в KW — обычно 2–4 недели.',
       steps: [
         { title: 'Бесплатная консультация', duration: '30 мин', desc: 'Собираем info о сделке: цена, форма оплаты, MSWiA, due diligence. Решаем — нужно ли pełnomocnictwo (если не в Польше).' },
         { title: 'Выбор нотариуса', duration: '1 день', desc: 'Подбираем нотариуса в Варшаве с reputация и опытом сделок с иностранцами. Часто один из 5 доверенных. Договариваемся о таксе (negocjowalna).' },
         { title: 'Projekt aktu', duration: '5–7 дней', desc: 'Нотариус готовит projekt с данными покупателя, продавца, недвижимости. Мы получаем PDF, анализируем, предлагаем поправки.' },
-        { title: 'Negociacje klauzul', duration: '2–5 дней', desc: 'Корректировки с продавцом и его юристом. Часто 2–4 итерации до финального текста.' },
+        { title: 'Negociacje klauzul', duration: '2–5 дней', desc: 'Корректировки с продавцом и его представителем. Часто 2–4 итерации до финального текста.' },
         { title: 'Pełnomocnictwo (опция)', duration: '5–7 дней', desc: 'Если вы не в Польше — pełnomocnictwo nositarne у консула или с apostille. Мы получаем оригинал.' },
         { title: 'Akt notarialny', duration: '1–2 часа', desc: 'У нотариуса. Чтение aktu вслух, обсуждение, подписание. Передача денег через depozyt notarialny.' },
         { title: 'Wpis do KW', duration: '7–14 дней', desc: 'Нотариус подаёт wniosek в KW. Контролируем wpis, after wpisu сообщаем klientu о готовности.' },
@@ -79,8 +79,8 @@ const notariuszAsysta: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Зачем адвокат, если есть нотариус?', a: 'Нотариус — нейтральная третья сторона, обязан защищать «obie strony одинаково». Когда возникает дилемма (например, формулировка о моменте перехода собственности или o terminie wykonania) — нотариус выбирает «нейтральный» вариант, который часто выгоднее продавцу. Адвокат покупателя — защищает только вас, видит каждый wagi риск, торгуется за каждую klauzulę.' },
-      { q: 'Можно ли изменить tekst aktu?', a: 'Да, до подписания. Нотариус готовит projekt и принимает поправки от обеих сторон. Стандартно 2–4 итерации. После подписания — нет, akt становится notarialnym dokumentem. Поэтому критично, чтобы адвокат прочитал tekst до встречи у нотариуса.' },
+      { q: 'Зачем нужен специалист, если есть нотариус?', a: 'Нотариус — нейтральная третья сторона, обязан защищать «obie strony одинаково». Когда возникает дилемма (например, формулировка о моменте перехода собственности или o terminie wykonania) — нотариус выбирает «нейтральный» вариант, который часто выгоднее продавцу. Наш специалист по недвижимости — на стороне покупателя: видит каждый wagi риск, торгуется за каждую klauzulę.' },
+      { q: 'Можно ли изменить tekst aktu?', a: 'Да, до подписания. Нотариус готовит projekt и принимает поправки от обеих сторон. Стандартно 2–4 итерации. После подписания — нет, akt становится notarialnym dokumentem. Поэтому критично, чтобы наш специалист прочитал tekst до встречи у нотариуса.' },
       { q: 'Как переводятся деньги при покупке?', a: 'Самый безопасный способ — depozyt notarialny: вы переводите cenu на rachunek нотариуса перед aktem. Нотариус подтверждает płatność продавцу, akt подписывается. После wpisu в KW нотариус переводит деньги продавцу. Если что-то пойдёт не так — деньги возвращаются. Стоит +0,3–0,5% от cены.' },
       { q: 'Pełnomocnictwo — как работает?', a: 'Вы оформляете нотариальное pełnomocnictwo на нас в Польше (если приезжаете на 1 день) или у польского консула в стране проживания (без приезда), или у местного нотариуса с apostille. С pełnomocnictwem мы подписываем akt от вашего имени, вносим деньги, получаем keys. Вы становитесь собственником без приезда в Польшу.' },
       { q: 'Кто платит taksę notarialną?', a: 'По стандарту обе стороны делят пополам, но это не закон — torgujem. Часто продавец оплачивает свою часть (1/2), а покупатель — свою + PCC. Иногда покупатель оплачивает всё (если рынок продавца). Может быть условием umowy przedwstępnej.' },
@@ -88,7 +88,7 @@ const notariuszAsysta: ServiceEntry = {
       { q: 'Зачем нужен protokol zdawczo-odbiorczy?', a: 'Защищает покупателя от «сюрпризов» в момент въезда. Документируем состояние на день передачи: фото каждой комнаты, показатели счётчиков, наличие отказывающихся работать appliances. Если через месяц обнаруживается, что продавец вынес шкаф или сломал дверь — у вас есть документация для требования исправления или компенсации.' }
     ],
     related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
-    ctaTitle: 'Адвокат на акте у нотариуса',
+    ctaTitle: 'Наш специалист на акте у нотариуса',
     ctaSubtitle: 'Бесплатно обсуждаем сделку и подбираем нотариуса. От 2 800 PLN под ключ. Удалённо — через pełnomocnictwo.'
   },
   pl: {
@@ -97,8 +97,8 @@ const notariuszAsysta: ServiceEntry = {
     icon: 'gavel',
     badge: 'Akt notarialny · pełnomocnik · 1 dzień',
     title: 'Asysta u notariusza',
-    subtitle: 'Adwokat przy akcie notarialnym sprzedaży nieruchomości',
-    lead: 'Akt notarialny to finał zakupu. Notariusz jest neutralny — nie chroni kupującego. Adwokat-asysta czyta akt przed podpisaniem, sprawdza każdą klauzulę, negocjuje zmiany ze sprzedającym, kontroluje przepływ pieniędzy i kluczy. Przy 800 tys. PLN nasz honorarium zwraca się jedną poprawką. Jeśli nie jesteś w Polsce — pełnomocnictwo, zastępujemy Cię w pełni.',
+    subtitle: 'Specjalista ds. nieruchomości przy akcie notarialnym sprzedaży nieruchomości',
+    lead: 'Akt notarialny to finał zakupu. Notariusz jest neutralny — nie chroni kupującego. Nasz specjalista ds. nieruchomości czyta akt przed podpisaniem, sprawdza każdą klauzulę, negocjuje zmiany ze sprzedającym, kontroluje przepływ pieniędzy i kluczy. Przy 800 tys. PLN nasz honorarium zwraca się jedną poprawką. Jeśli nie jesteś w Polsce — pełnomocnictwo, zastępujemy Cię w pełni.',
     facts: [
       { label: 'Czas aktu', value: '1–2 godz.', note: 'czytanie + podpisanie' },
       { label: 'Przygotowanie', value: '5–7 dni', note: 'projekt aktu + poprawki' },
@@ -106,8 +106,8 @@ const notariuszAsysta: ServiceEntry = {
       { label: 'PCC', value: '2%', note: 'rynek wtórny' }
     ],
     grounds: {
-      title: 'Co robi adwokat',
-      subtitle: 'Notariusz — neutralny. Adwokat — po stronie kupującego.',
+      title: 'Co robi nasz specjalista',
+      subtitle: 'Notariusz — neutralny. My — po stronie kupującego.',
       items: [
         { title: 'Czytanie projektu aktu', desc: 'Notariusz wysyła projekt 1–7 dni przed. Analizujemy każdą klauzulę.' },
         { title: 'Negocjacje klauzul', desc: 'Kiedy własność przechodzi (przy podpisaniu czy zapłacie?), kto płaci PCC, depozyt notarialny, klucze.' },
@@ -169,7 +169,7 @@ const notariuszAsysta: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Po co adwokat, jak jest notariusz?', a: 'Notariusz neutralny — przy dylematach wybiera wariant często korzystniejszy dla sprzedającego. Adwokat broni kupującego.' },
+      { q: 'Po co specjalista, jak jest notariusz?', a: 'Notariusz neutralny — przy dylematach wybiera wariant często korzystniejszy dla sprzedającego. Nasz specjalista ds. nieruchomości broni kupującego.' },
       { q: 'Zmiana aktu?', a: 'Tak, do podpisania. 2–4 iteracje. Po podpisaniu — nie.' },
       { q: 'Przepływ pieniędzy?', a: 'Depozyt notarialny — pieniądze do sprzedającego po wpisie w KW. +0,3–0,5%.' },
       { q: 'Pełnomocnictwo?', a: 'U konsula RP lub z apostille. Zastępujemy Cię w pełni.' },
@@ -178,7 +178,7 @@ const notariuszAsysta: ServiceEntry = {
       { q: 'Protokół zdawczo-odbiorczy?', a: 'Zdjęcia, liczniki — chroni przed niespodziankami przy wprowadzeniu się.' }
     ],
     related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
-    ctaTitle: 'Adwokat przy akcie',
+    ctaTitle: 'Specjalista ds. nieruchomości przy akcie',
     ctaSubtitle: 'Bezpłatnie omawiamy. Od 2 800 PLN. Zdalnie — pełnomocnictwo.'
   },
   en: {
@@ -187,8 +187,8 @@ const notariuszAsysta: ServiceEntry = {
     icon: 'gavel',
     badge: 'Notarial deed · PoA · 1 day',
     title: 'Notary attendance',
-    subtitle: 'Attorney attending the deed of sale',
-    lead: 'The notarial deed (akt notarialny) is the final stage of buying property. The notary confirms the agreement but is neutral — they don\'t protect the buyer. Our attorney attendance reads the deed before signing, checks every clause, negotiates changes with the seller, and controls the flow of money and keys. On an 800k purchase, our fee pays for itself with one amendment. If you\'re not in Poland — notarial PoA, and we replace you in full.',
+    subtitle: 'Real-estate specialist attending the deed of sale',
+    lead: 'The notarial deed (akt notarialny) is the final stage of buying property. The notary confirms the agreement but is neutral — they don\'t protect the buyer. Our real-estate specialist reads the deed before signing, checks every clause, negotiates changes with the seller, and controls the flow of money and keys. On an 800k purchase, our fee pays for itself with one amendment. If you\'re not in Poland — notarial PoA, and we replace you in full.',
     facts: [
       { label: 'Deed duration', value: '1–2 hours', note: 'reading + signing' },
       { label: 'Preparation', value: '5–7 days', note: 'draft deed + amendments' },
@@ -196,8 +196,8 @@ const notariuszAsysta: ServiceEntry = {
       { label: 'PCC', value: '2%', note: 'secondary market' }
     ],
     grounds: {
-      title: 'What an attorney does',
-      subtitle: 'Notary — neutral. Attorney — on your side.',
+      title: 'What our specialist does',
+      subtitle: 'Notary — neutral. We — on your side.',
       items: [
         { title: 'Reviewing the draft deed', desc: 'Notary sends draft 1–7 days before. We analyze every clause and propose amendments.' },
         { title: 'Negotiating clauses', desc: 'Title transfer moment (signing or payment?), who pays PCC, notarial deposit, key handover, occupancy.' },
@@ -259,7 +259,7 @@ const notariuszAsysta: ServiceEntry = {
       ]
     },
     faq: [
-      { q: "Why an attorney if there's a notary?", a: 'The notary is neutral — required to protect both sides equally. On dilemmas (transfer moment, deadlines) the notary picks the "neutral" wording that often favors the seller. Your attorney sees every risk and negotiates each clause for you.' },
+      { q: "Why a specialist if there's a notary?", a: 'The notary is neutral — required to protect both sides equally. On dilemmas (transfer moment, deadlines) the notary picks the "neutral" wording that often favors the seller. Our real-estate specialist sees every risk and negotiates each clause for you.' },
       { q: 'Can the deed text be changed?', a: 'Yes, before signing. Notary takes amendments from both sides. 2–4 iterations standard. After signing — no.' },
       { q: 'Money transfer mechanics?', a: 'Safest: notarial deposit. Buyer wires price to notary account before deed. Notary confirms payment, deed signed. After KW entry, notary releases to seller. Costs +0.3–0.5%.' },
       { q: 'How does the PoA work?', a: 'Notarized PoA in Poland (1-day visit) or at the Polish consulate abroad (no travel) or notarized locally with apostille. We sign, pay, collect keys.' },
@@ -268,7 +268,7 @@ const notariuszAsysta: ServiceEntry = {
       { q: 'Why a handover protocol?', a: 'Documents the property state on transfer — photos, meter readings, working appliances. Protects you if seller removes a wardrobe or breaks a door later.' }
     ],
     related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
-    ctaTitle: 'Attorney at the notary',
+    ctaTitle: 'Real-estate specialist at the notary',
     ctaSubtitle: 'Free consultation. From 2,800 PLN. Remote via PoA available.'
   }
 };

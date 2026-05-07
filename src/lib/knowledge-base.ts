@@ -2,8 +2,7 @@ export const knowledgeBase = `
 === LEGALWIN — INTERNAL KNOWLEDGE BASE (PLACEHOLDER) ===
 
 FIRM
-- Established 2012, offices in Warsaw (HQ), Kraków, Wrocław.
-- Bar admissions: adwokat (Okręgowa Rada Adwokacka w Warszawie), radca prawny (OIRP Warszawa).
+- Immigration consultancy, established 2019, based in Warsaw.
 - Languages: Polish, Russian, Ukrainian, English.
 - Website: legalwin.pl.
 
@@ -35,11 +34,11 @@ PRACTICE AREAS
 
 CONSULTATION
 - First 30-min call is free; follow-up paid at fixed rates.
-- Clients can book via the website form (the form message is routed to our Telegram).
+- Clients can book via the website form (the form message is routed to our internal team chat).
 - Typical response: within 2 business hours.
 
 LIMITS OF THIS ASSISTANT
-- Provides general information only; not a substitute for a retained attorney.
+- Provides general information only; not a substitute for a paid consultation.
 - Does not collect or process personal data through chat — direct clients to the contact form for case review.
 - Does not quote exact fees; refers to consultation.
 `.trim();

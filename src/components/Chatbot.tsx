@@ -456,16 +456,14 @@ export function Chatbot() {
                 >
                   <p className="font-medium text-ink-50">Чат временно недоступен</p>
                   <p className="mt-1 text-xs leading-relaxed text-ink-300">
-                    Напишите нам в{' '}
+                    Напишите нам на{' '}
                     <a
-                      href="https://t.me/legalwin"
-                      target="_blank"
-                      rel="noopener"
+                      href="mailto:legalwin.warszawa@gmail.com"
                       className="text-gold-400 underline-offset-2 hover:underline"
                     >
-                      Телеграм
+                      legalwin.warszawa@gmail.com
                     </a>{' '}
-                    или оставьте заявку через форму на сайте — юрист ответит в течение часа.
+                    или оставьте заявку через форму на сайте — наш специалист ответит в течение часа.
                   </p>
                 </div>
               )}

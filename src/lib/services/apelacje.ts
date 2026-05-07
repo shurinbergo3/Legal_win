@@ -45,7 +45,7 @@ const apelacje: ServiceEntry = {
         'Доказательства ошибок в решении (новые документы, экспертные мнения)',
         'Переписка с органом (в том числе через eDoręczenia)',
         'Подтверждение уплаты opłaty за skargę (200 PLN для WSA) — или wniosek o zwolnienie',
-        'Доверенность на адвоката (если ведёт юрист)'
+        'Доверенность на представителя (если ведёт наш специалист)'
       ]
     },
     pricing: {
@@ -123,7 +123,7 @@ const apelacje: ServiceEntry = {
         'Dowody błędów w decyzji (nowe dokumenty, opinie biegłych)',
         'Korespondencja z organem (eDoręczenia)',
         'Potwierdzenie opłaty sądowej (200 PLN w WSA) lub wniosek o zwolnienie',
-        'Pełnomocnictwo dla adwokata'
+        'Pełnomocnictwo dla pełnomocnika'
       ]
     },
     pricing: {

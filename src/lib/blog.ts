@@ -3,6 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { routing } from '@/i18n/routing';
 import { getCoverForSlug } from './blog-images';
+import { getBlogFaq, type BlogFaqItem, type BlogFaqLocale } from './blog-faq';
 
 export type BlogLocale = (typeof routing.locales)[number];
 
@@ -22,6 +23,7 @@ export type BlogFrontmatter = {
 export type BlogPost = BlogFrontmatter & {
   content: string;
   readingMinutes: number;
+  faq: BlogFaqItem[];
 };
 
 export type BlogPostSummary = BlogFrontmatter & {
@@ -61,7 +63,8 @@ function readPost(locale: string, fileName: string): BlogPost | null {
     keywords: fm.keywords ?? [],
     relatedServices: fm.relatedServices ?? [],
     content: parsed.content.trimStart(),
-    readingMinutes: estimateReadingMinutes(parsed.content)
+    readingMinutes: estimateReadingMinutes(parsed.content),
+    faq: getBlogFaq(fm.slug, safeLocale as BlogFaqLocale)
   };
 }
 
@@ -82,7 +85,7 @@ export function getAllPosts(locale: string): BlogPostSummary[] {
     .filter((f) => f.endsWith('.md'))
     .map((f) => readPost(locale, f))
     .filter((p): p is BlogPost => p !== null)
-    .map(({ content: _content, ...rest }) => rest);
+    .map(({ content: _content, faq: _faq, ...rest }) => rest);
   return posts.sort((a, b) => (a.publishDate < b.publishDate ? 1 : -1));
 }
 

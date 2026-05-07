@@ -31,7 +31,7 @@ const ochrona: ServiceEntry = {
         { title: 'Выдача TZTC', duration: 'день 1–30', desc: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca — легализует пребывание на время процедуры.' },
         { title: 'Размещение', duration: 'срок процедуры', desc: 'Ośrodek dla Cudzoziemców или вне — с финансовой помощью 750 PLN/мес. Мы помогаем выбрать.' },
         { title: 'Медицинский осмотр', duration: '14 дней', desc: 'Обязательное обследование у врача — свидетельство здоровья.' },
-        { title: 'Интервью', duration: '1–4 мес', desc: 'Собеседование с urzędnikiem. Присутствует наш юрист. Записываем протокол.' },
+        { title: 'Интервью', duration: '1–4 мес', desc: 'Собеседование с urzędnikiem. Присутствует наш иммиграционный консультант. Записываем протокол.' },
         { title: 'Решение', duration: '3–6 мес', desc: 'Шеф Urzędu do Spraw Cudzoziemców. Отказ — есть odwołanie к Radzie do Spraw Uchodźców.' }
       ]
     },
@@ -109,7 +109,7 @@ const ochrona: ServiceEntry = {
         { title: 'Wydanie TZTC', duration: 'dzień 1–30', desc: 'Legalizuje pobyt na czas procedury.' },
         { title: 'Zakwaterowanie', duration: 'czas procedury', desc: 'Ośrodek lub poza ośrodkiem z pomocą 750 PLN/mies.' },
         { title: 'Badanie lekarskie', duration: '14 dni', desc: 'Obowiązkowe — świadectwo zdrowia.' },
-        { title: 'Wywiad', duration: '1–4 mies', desc: 'Z urzędnikiem UdSC. Nasz prawnik obecny. Protokół.' },
+        { title: 'Wywiad', duration: '1–4 mies', desc: 'Z urzędnikiem UdSC. Nasz konsultant imigracyjny obecny. Protokół.' },
         { title: 'Decyzja', duration: '3–6 mies', desc: 'Szef UdSC. Odmowa — odwołanie do Rady do Spraw Uchodźców.' }
       ]
     },
@@ -187,7 +187,7 @@ const ochrona: ServiceEntry = {
         { title: 'TZTC issued', duration: 'day 1–30', desc: 'Legalises stay throughout the procedure.' },
         { title: 'Accommodation', duration: 'procedure', desc: 'Reception centre or off-site with PLN 750/month aid.' },
         { title: 'Medical exam', duration: '14 days', desc: 'Mandatory — health certificate.' },
-        { title: 'Interview', duration: '1–4 months', desc: 'With UdSC officer. Our lawyer present. Transcript kept.' },
+        { title: 'Interview', duration: '1–4 months', desc: 'With UdSC officer. Our immigration consultant present. Transcript kept.' },
         { title: 'Decision', duration: '3–6 months', desc: 'UdSC Head. Denial — appeal to Refugee Board.' }
       ]
     },

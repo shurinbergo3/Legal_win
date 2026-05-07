@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "Karta Pobytu (TRC) Poland — LegalWin lawyers · Warsaw 2026",
-    "description": "Polish residence cards (TRC/PR), citizenship, appeals against voivode denials, driving-licence exchange, Code 95, Sp. z o.o. registration. Warsaw lawyers since 2019 — 4.9★ from 312 clients, 500+ cases a year.",
-    "keywords": "Karta Pobytu, temporary residence card Poland, permanent residence Poland, Polish citizenship, immigration lawyer Warsaw, Polish residence permit, EU Blue Card Poland, driving licence exchange Poland, Code 95, driver CPC Poland, register company in Poland, Sp. z o.o., appeal residence permit denial, MOS v2.0, LegalWin"
+    "title": "Karta Pobytu (TRC) Poland — LegalWin immigration consultants · Warsaw 2026",
+    "description": "Polish residence cards (TRC/PR), citizenship, appeals against voivode denials, driving-licence exchange, Code 95, Sp. z o.o. registration. Warsaw immigration consultants since 2019 — 4.9★ from 312 clients, 500+ cases a year.",
+    "keywords": "Karta Pobytu, temporary residence card Poland, permanent residence Poland, Polish citizenship, immigration consultant Warsaw, Polish residence permit, EU Blue Card Poland, driving licence exchange Poland, Code 95, driver CPC Poland, register company in Poland, Sp. z o.o., appeal residence permit denial, MOS v2.0, LegalWin"
   },
   "Nav": {
     "services": "Services",
@@ -30,15 +30,15 @@
       "spolkaDesc": "Company setup and tax"
     },
     "ctaHome": "Back to home",
-    "ctaContact": "Talk to a lawyer",
+    "ctaContact": "Talk to our team",
     "footnote": "If you came from an email link or search result — let us know and we'll fix it"
   },
   "Hero": {
-    "imageAlt": "LegalWin law firm in Warsaw — immigration lawyers helping foreigners with Karta Pobytu and Polish citizenship",
+    "imageAlt": "LegalWin in Warsaw — immigration consultants helping foreigners with Karta Pobytu and Polish citizenship",
     "eyebrow": "Warsaw · Since 2019",
     "titleLine1": "Karta Pobytu, TRC and PR in Poland.",
-    "titleLine2": "Immigration lawyers · Warsaw.",
-    "subtitle": "Residence cards, Polish citizenship, driving-licence exchange, Code 95, documents and legalisation. Warsaw lawyers since 2019 — 4.9★ from 312 clients.",
+    "titleLine2": "Immigration consultants · Warsaw.",
+    "subtitle": "Residence cards, Polish citizenship, driving-licence exchange, Code 95, documents and legalisation. LegalWin team in Warsaw since 2019 — 4.9★ from 312 clients.",
     "ctaPrimary": "Free consultation",
     "ctaSecondary": "All services",
     "availableNow": "Reply within an hour",
@@ -54,22 +54,22 @@
     "stat1Value": "500",
     "stat1Suffix": "+",
     "stat1Label": "residence cards per year",
-    "stat2Value": "8",
-    "stat2Label": "lawyers on the team",
+    "stat2Value": "5",
+    "stat2Label": "practice areas",
     "stat3Value": "5",
     "stat3Suffix": "+",
     "stat3Label": "years in the market",
     "stat4Value": "4",
     "stat4Label": "working languages",
     "stat1Note": "Average decision time — 42 days",
-    "stat2Note": "Adwokat, radca prawny, consultants",
+    "stat2Note": "Immigration, business, tax, documents, relocation",
     "stat3Note": "Since 2019 in Warsaw",
     "stat4Note": "PL · RU · UA · EN"
   },
   "Services": {
     "eyebrow": "Practices",
     "title": "Everything a foreigner needs in Poland",
-    "subtitle": "Five practice areas, one team. Each case is led by a specialist — we don't outsource documents.",
+    "subtitle": "Five practice areas, one team. Each case is led by a dedicated specialist — we don't outsource documents.",
     "tag": "/ full scope",
     "cta": "Enquire",
     "groups": {
@@ -193,7 +193,7 @@
           },
           {
             "name": "Notary assistance",
-            "desc": "Attorney present at the deed of sale"
+            "desc": "Real-estate specialist present at the deed of sale"
           },
           {
             "name": "Commercial leases",
@@ -236,11 +236,11 @@
   },
   "About": {
     "eyebrow": "About LegalWin",
-    "title": "Lawyers who speak your language",
-    "paragraph1": "LegalWin is a team of Polish attorneys (adwokat, radca prawny) and immigration consultants working with clients from Russia, Ukraine, Belarus, Kazakhstan and the EU since 2019.",
-    "paragraph2": "We handle cases at the Office for Foreigners, ZUS, tax authorities, KRS and courts. Our clients are entrepreneurs, IT professionals, investors and families relocating to Poland.",
+    "title": "Specialists who speak your language",
+    "paragraph1": "LegalWin is a Warsaw-based team of immigration, business and real-estate specialists working with clients from Russia, Ukraine, Belarus, Kazakhstan and the EU since 2019.",
+    "paragraph2": "We handle cases at the Office for Foreigners, ZUS, tax authorities and KRS. Our clients are entrepreneurs, IT professionals, investors and families relocating to Poland.",
     "point1": "Transparent pricing — fixed fee per stage",
-    "point2": "Dedicated lawyer for every case",
+    "point2": "Dedicated case manager for every matter",
     "point3": "Real-time reporting via client portal",
     "point4": "Service in Polish, Russian, Ukrainian and English"
   },
@@ -277,17 +277,17 @@
     "title": "What clients say",
     "items": [
       {
-        "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress — lawyers did everything, I just signed.",
+        "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress — the LegalWin team did everything, I just signed.",
         "author": "Olga M.",
         "role": "designer, moved from Kyiv"
       },
       {
-        "text": "Set up our company in a week, with VAT and bank account. They reply on Telegram instantly, explain things clearly — no legalese soup.",
+        "text": "Set up our company in a week, with VAT and bank account. They reply on chat instantly, explain things clearly — no legalese soup.",
         "author": "Dmitry K.",
         "role": "CTO, SaaS startup"
       },
       {
-        "text": "Helped with an appeal after my PR denial. Second lawyer I tried — and the only one who actually got it over the line.",
+        "text": "Helped with an appeal after my PR denial. Second team I tried — and the only one who actually got it over the line.",
         "author": "Anna S.",
         "role": "doctor, Warsaw"
       },
@@ -301,7 +301,7 @@
   "Pricing": {
     "eyebrow": "Pricing",
     "title": "Transparent fees, no surprises",
-    "subtitle": "Attorney fees are fixed per stage. Official fees and sworn translations are billed separately. Full breakdown lives on each service page.",
+    "subtitle": "Our fees are fixed per stage. Official fees and sworn translations are billed separately. Full breakdown lives on each service page.",
     "consultationCta": "First consultation free · 30–60 min",
     "items": [
       { "slug": "karta-pobytu", "name": "Karta Pobytu (TRC)", "value": "from 2,500 PLN", "note": "Turnkey, from filing to card · ~42 days average" },
@@ -311,23 +311,23 @@
       { "slug": "kod-95", "name": "Code 95 for drivers", "value": "from 1,200 PLN", "note": "OSK, paperwork, medicals, WORD exam" },
       { "slug": "wymiana-prawa-jazdy", "name": "Driving licence exchange", "value": "from 600 PLN", "note": "Translations, badania lekarskie, starostwo" }
     ],
-    "footnote": "Listed prices are attorney fees only. Official fees (opłata skarbowa) and sworn translations are billed separately. After the free consultation, exact pricing is fixed in writing.",
+    "footnote": "Listed prices are LegalWin fees only. Official fees (opłata skarbowa) and sworn translations are billed separately. After the free consultation, exact pricing is fixed in writing.",
     "ctaDetails": "Full breakdown"
   },
   "Team": {
     "eyebrow": "Team",
-    "title": "Eight lawyers. One point of contact.",
-    "subtitle": "Every area has a dedicated specialist. Your personal consultant coordinates their work.",
+    "title": "Specialists by practice area. One point of contact.",
+    "subtitle": "Every area has its own specialist. Your personal case manager coordinates their work.",
     "members": [
       {
         "initials": "AK",
         "name": "Anna Kowalska",
-        "role": "Adwokat · Immigration"
+        "role": "Immigration consultant"
       },
       {
         "initials": "PN",
         "name": "Paweł Nowak",
-        "role": "Radca prawny · Business"
+        "role": "Business consultant"
       },
       {
         "initials": "MW",
@@ -337,7 +337,7 @@
       {
         "initials": "TL",
         "name": "Tomasz Lewandowski",
-        "role": "Adwokat · Litigation"
+        "role": "Appeals specialist"
       },
       {
         "initials": "KZ",
@@ -347,7 +347,7 @@
       {
         "initials": "JM",
         "name": "Jakub Mazur",
-        "role": "Radca prawny · Real estate"
+        "role": "Real-estate specialist"
       },
       {
         "initials": "ND",
@@ -357,7 +357,7 @@
       {
         "initials": "RS",
         "name": "Rafał Sawicki",
-        "role": "Senior lawyer"
+        "role": "Senior case manager"
       }
     ]
   },
@@ -369,7 +369,7 @@
     "step2Title": "Agreement & retainer",
     "step2Desc": "We fix scope and fee in a written agreement. No surprises on the invoice.",
     "step3Title": "Case handling",
-    "step3Desc": "We prepare, file, represent. You get Telegram status updates at every stage.",
+    "step3Desc": "We prepare, file, represent. You get email and client-portal status updates at every stage.",
     "step4Title": "Outcome",
     "step4Desc": "We secure the decision, hand over originals, explain next steps, reward repeat clients."
   },
@@ -387,7 +387,7 @@
       },
       {
         "q": "Do you work remotely?",
-        "a": "Yes. Clients from other Polish cities and abroad run cases fully online. Notarial power of attorney, a Telegram channel with the lawyer, and a client portal with live statuses."
+        "a": "Yes. Clients from other Polish cities and abroad run cases fully online. Notarial power of attorney, a direct channel with your case manager, and a client portal with live statuses."
       },
       {
         "q": "What if I get denied?",
@@ -406,7 +406,7 @@
   "Contact": {
     "eyebrow": "Get in touch",
     "title": "Tell us about your case",
-    "subtitle": "Leave a request — a lawyer replies within an hour during business hours. First consultation is free.",
+    "subtitle": "Leave a request — our specialist replies within an hour during business hours. First consultation is free.",
     "name": "Name",
     "namePlaceholder": "John Smith",
     "email": "Email",
@@ -426,7 +426,7 @@
     "submit": "Send request",
     "submitting": "Sending…",
     "successTitle": "Request received",
-    "successMessage": "A lawyer will reply within an hour during business hours (Mon–Fri 8:30–19:00).",
+    "successMessage": "Our specialist will reply within an hour during business hours (Mon–Fri 8:30–19:00).",
     "errorTitle": "Could not send",
     "errorMessage": "Please retry or email legalwin.warszawa@gmail.com",
     "hours": "Mon–Fri · 8:30 – 19:00",
@@ -442,7 +442,7 @@
     }
   },
   "Footer": {
-    "tagline": "A law firm in Warsaw. Immigration, business, tax, relocation since 2019.",
+    "tagline": "Immigration, business and real-estate specialists in Warsaw. Since 2019.",
     "servicesTitle": "Services",
     "companyTitle": "Company",
     "contactTitle": "Contact",
@@ -498,9 +498,9 @@
     "greeting": "Hi! I'm Mila from LegalWin — what can I help you with? Residence card, driving licence exchange, Code 95, citizenship?",
     "teaseGreeting": "Hi! I'm Mila from LegalWin — happy to help with Karta Pobytu, driving licence exchange or Code 95. What's your question?",
     "teaseCta": "Message Mila",
-    "disclaimer": "Exact timelines and pricing for your case will be confirmed by a lawyer on the free consultation.",
+    "disclaimer": "Exact timelines and pricing for your case will be confirmed by our specialist on the free consultation.",
     "consentTitle": "Before we start",
-    "consentText": "If you share your contact details, they will be passed to a LegalWin lawyer to handle your enquiry in accordance with GDPR requirements.",
+    "consentText": "If you share your contact details, they will be passed to the LegalWin team to handle your enquiry in accordance with GDPR requirements.",
     "consentCheckbox": "I consent to the processing of my personal data",
     "consentPrivacy": "Privacy Policy",
     "consentStart": "Start chat"
@@ -529,6 +529,8 @@
     "allCategories": "All topics",
     "noResults": "No articles match your query. Try different keywords or clear the filters.",
     "counterOne": "article",
-    "counterMany": "articles"
+    "counterMany": "articles",
+    "faqEyebrow": "/ questions",
+    "faqTitle": "Frequently asked"
   }
 }

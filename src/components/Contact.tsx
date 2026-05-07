@@ -344,10 +344,10 @@ function ContactForm({
           ) : (
             <span className="text-xs text-ink-400 sm:max-w-[260px]">
               {t('submit') === 'Отправить заявку'
-                ? 'Юрист свяжется в течение часа.'
+                ? 'Наш специалист свяжется в течение часа.'
                 : t('submit') === 'Wyślij zgłoszenie'
-                ? 'Prawnik odpowie w ciągu godziny.'
-                : 'A lawyer will reply within the hour.'}
+                ? 'Nasz specjalista odpowie w ciągu godziny.'
+                : 'Our specialist will reply within the hour.'}
             </span>
           )}
 

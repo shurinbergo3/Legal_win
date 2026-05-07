@@ -40,7 +40,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Мы обрабатываем ваши данные исключительно для законных целей, перечисленных ниже:',
           {
             dl: [
-              { term: 'Art. 6(1)(a) GDPR', def: 'Согласие — обработка заявок через форму или AI-чат, отправка ответа юриста.' },
+              { term: 'Art. 6(1)(a) GDPR', def: 'Согласие — обработка заявок через форму или AI-чат, отправка ответа специалиста.' },
               { term: 'Art. 6(1)(b) GDPR', def: 'Заключение и исполнение договора об оказании юридических услуг.' },
               { term: 'Art. 6(1)(c) GDPR', def: 'Исполнение правовых обязательств — ведение бухгалтерской и налоговой документации.' },
               { term: 'Art. 6(1)(f) GDPR', def: 'Законный интерес — защита фирмы от мошенничества, обеспечение безопасности сайта.' }
@@ -72,7 +72,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
             dl: [
               { term: 'Заявки и переписка', def: 'до 24 месяцев с момента последнего контакта или до отзыва согласия.' },
               { term: 'Договоры и счета', def: '5 лет от конца налогового года (ст. 86 § 1 Ordynacja podatkowa).' },
-              { term: 'Адвокатская тайна', def: '10 лет (ст. 5c Ustawy o adwokaturze).' },
+              { term: 'Конфиденциальная переписка по делам', def: '10 лет с момента последнего контакта по делу.' },
               { term: 'Чаты с AI-ботом', def: 'не сохраняются на наших серверах; передача в Telegram при явном согласии.' }
             ]
           }
@@ -109,7 +109,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
         id: 'profilowanie',
         title: 'Автоматизированное принятие решений',
         blocks: [
-          'Мы не принимаем юридически значимых решений на основании автоматической обработки. AI-чат — справочный инструмент, его ответы не заменяют консультацию юриста и не являются юридическим заключением.'
+          'Мы не принимаем юридически значимых решений на основании автоматической обработки. AI-чат — справочный инструмент, его ответы не заменяют консультацию специалиста и не являются юридическим заключением.'
         ]
       },
       {
@@ -156,7 +156,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Przetwarzamy Twoje dane wyłącznie w zgodnych z prawem celach wymienionych poniżej:',
           {
             dl: [
-              { term: 'Art. 6 ust. 1 lit. a RODO', def: 'Zgoda — obsługa zgłoszeń z formularza lub AI-czatu, przesłanie odpowiedzi prawnika.' },
+              { term: 'Art. 6 ust. 1 lit. a RODO', def: 'Zgoda — obsługa zgłoszeń z formularza lub AI-czatu, przesłanie odpowiedzi specjalisty.' },
               { term: 'Art. 6 ust. 1 lit. b RODO', def: 'Zawarcie i wykonanie umowy o świadczenie usług prawnych.' },
               { term: 'Art. 6 ust. 1 lit. c RODO', def: 'Wypełnienie obowiązków prawnych — prowadzenie dokumentacji księgowej i podatkowej.' },
               { term: 'Art. 6 ust. 1 lit. f RODO', def: 'Prawnie uzasadniony interes — ochrona kancelarii przed nadużyciami, bezpieczeństwo serwisu.' }
@@ -188,7 +188,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
             dl: [
               { term: 'Zgłoszenia i korespondencja', def: 'do 24 miesięcy od ostatniego kontaktu lub do cofnięcia zgody.' },
               { term: 'Umowy i faktury', def: '5 lat od końca roku podatkowego (art. 86 § 1 Ordynacji podatkowej).' },
-              { term: 'Tajemnica adwokacka', def: '10 lat (art. 5c Ustawy o adwokaturze).' },
+              { term: 'Poufna korespondencja sprawowa', def: '10 lat od ostatniego kontaktu w sprawie.' },
               { term: 'Czaty z AI-botem', def: 'nie są zapisywane na naszych serwerach; przekazanie do Telegrama wyłącznie za wyraźną zgodą.' }
             ]
           }
@@ -225,7 +225,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
         id: 'profilowanie',
         title: 'Zautomatyzowane podejmowanie decyzji',
         blocks: [
-          'Nie podejmujemy decyzji wywołujących skutki prawne na podstawie wyłącznie zautomatyzowanego przetwarzania. AI-czat to narzędzie pomocnicze — jego odpowiedzi nie zastępują konsultacji z prawnikiem ani nie stanowią opinii prawnej.'
+          'Nie podejmujemy decyzji wywołujących skutki prawne na podstawie wyłącznie zautomatyzowanego przetwarzania. AI-czat to narzędzie pomocnicze — jego odpowiedzi nie zastępują konsultacji ze specjalistą ani nie stanowią opinii prawnej.'
         ]
       },
       {
@@ -272,7 +272,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'We process your data only for the lawful purposes listed below:',
           {
             dl: [
-              { term: 'Art. 6(1)(a) GDPR', def: 'Consent — handling form and AI-chat enquiries, sending the lawyer\'s reply.' },
+              { term: 'Art. 6(1)(a) GDPR', def: 'Consent — handling form and AI-chat enquiries, sending the specialist\'s reply.' },
               { term: 'Art. 6(1)(b) GDPR', def: 'Performance of a legal-services contract.' },
               { term: 'Art. 6(1)(c) GDPR', def: 'Compliance with legal obligations — accounting and tax records.' },
               { term: 'Art. 6(1)(f) GDPR', def: 'Legitimate interests — fraud prevention, site security.' }
@@ -304,7 +304,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
             dl: [
               { term: 'Enquiries & messages', def: 'up to 24 months from last contact or until consent is withdrawn.' },
               { term: 'Contracts & invoices', def: '5 years from end of tax year (Art. 86 §1 Polish Tax Ordinance).' },
-              { term: 'Attorney-client privilege', def: '10 years (Art. 5c Polish Bar Act).' },
+              { term: 'Confidential case correspondence', def: '10 years from the last case contact.' },
               { term: 'AI-bot chats', def: 'not stored on our servers; forwarded to Telegram only with explicit consent.' }
             ]
           }

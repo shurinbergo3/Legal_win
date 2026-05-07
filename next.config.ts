@@ -18,6 +18,14 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion']
+  },
+  async redirects() {
+    return [
+      { source: '/eng', destination: '/en', permanent: true },
+      { source: '/eng/:path*', destination: '/en/:path*', permanent: true },
+      { source: '/tr', destination: '/ru', permanent: true },
+      { source: '/tr/:path*', destination: '/ru', permanent: true }
+    ];
   }
 };
 

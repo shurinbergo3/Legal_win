@@ -1,4 +1,4 @@
-import { ChevronLeft } from 'lucide-react';
+import { ChevronLeft, Plus } from 'lucide-react';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -15,6 +15,8 @@ type Props = {
     publishedOn: string;
     readingTime: string;
     related: string;
+    faqEyebrow: string;
+    faqTitle: string;
   };
 };
 
@@ -322,6 +324,47 @@ export function BlogArticle({ post, related, labels }: Props) {
           <div className="ornament-divider mt-16" aria-hidden>
             <span className="glyph">✦ ✦ ✦</span>
           </div>
+
+          {post.faq.length > 0 && (
+            <section className="mt-16" aria-labelledby="post-faq-title">
+              <div className="mb-8 flex items-baseline gap-4">
+                <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-gold-300">
+                  {labels.faqEyebrow}
+                </span>
+                <span className="h-px flex-1 bg-gradient-to-r from-gold-500/40 to-transparent" aria-hidden />
+              </div>
+              <h2
+                id="post-faq-title"
+                className="font-display mb-8 text-2xl font-semibold leading-tight text-ink-50 sm:text-[1.875rem]"
+              >
+                {labels.faqTitle}
+              </h2>
+              <ul className="flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] border-t border-b hairline">
+                {post.faq.map((it, i) => (
+                  <li key={it.q}>
+                    <details className="group">
+                      <summary className="flex cursor-pointer list-none items-start justify-between gap-6 py-6 text-left transition-colors hover:text-gold-400 lg:py-7 [&::-webkit-details-marker]:hidden">
+                        <div className="flex flex-1 items-start gap-5">
+                          <span className="font-mono pt-1 text-[11px] text-ink-500">
+                            {String(i + 1).padStart(2, '0')}
+                          </span>
+                          <h3 className="font-display text-lg font-semibold leading-tight text-ink-50 transition-colors group-hover:text-gold-400 sm:text-xl">
+                            {it.q}
+                          </h3>
+                        </div>
+                        <span className="hairline mt-1 inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full text-ink-300 transition-all group-open:rotate-45 group-open:border-gold-500/60 group-open:bg-gold-400/10 group-open:text-gold-400">
+                          <Plus className="h-4 w-4" strokeWidth={1.6} aria-hidden />
+                        </span>
+                      </summary>
+                      <p className="max-w-2xl pb-6 pl-10 pr-12 text-base leading-relaxed text-ink-300">
+                        {it.a}
+                      </p>
+                    </details>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           {related.length > 0 && (
             <aside className="mt-12">

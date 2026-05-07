@@ -36,7 +36,7 @@ const kartaPobytu: ServiceEntry = {
         { title: 'Консультация', duration: '30–60 мин', desc: 'Разбираем ваше основание, оцениваем шансы, составляем список документов.' },
         { title: 'Сбор пакета', duration: '5–14 дней', desc: 'Собираем документы, переводим присяжно, готовим ZUS / US / meldunek при необходимости.' },
         { title: 'Подача в MOS v2.0', duration: '1 день', desc: 'Загружаем заявление и вложения в государственную систему, оплачиваем opłatę skarbową 340 PLN.' },
-        { title: 'Сдача биометрии', duration: '1 визит', desc: 'Единственный обязательный визит — отпечатки и фото в воеводе. Сопровождаем юристом.' },
+        { title: 'Сдача биометрии', duration: '1 визит', desc: 'Единственный обязательный визит — отпечатки и фото в воеводе. Сопровождаем нашим иммиграционным консультантом.' },
         { title: 'Ожидание и запросы', duration: '30–60 дней', desc: 'Отвечаем на uzupełnienia через eDoręczenia. Следите за статусом в клиентском портале.' },
         { title: 'Получение карты', duration: '7 дней', desc: 'После положительного решения — +100 PLN за бланк карты, уведомление о готовности, выдача в воеводе.' }
       ]
@@ -63,7 +63,7 @@ const kartaPobytu: ServiceEntry = {
         { label: 'Сопровождение ВНЖ под ключ', value: 'от 2 500 PLN', note: 'Все этапы: от сбора до выдачи' },
         { label: 'Apelacja при отказе', value: 'от 1 800 PLN', note: 'Отдельный договор на оспаривание' }
       ],
-      note: 'Указаны гонорары юриста. Госпошлины (340 + 100 PLN) и присяжные переводы — отдельно.'
+      note: 'Указаны наши гонорары. Госпошлины (340 + 100 PLN) и присяжные переводы — отдельно.'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -122,7 +122,7 @@ const kartaPobytu: ServiceEntry = {
         { title: 'Konsultacja', duration: '30–60 min', desc: 'Analizujemy podstawę, oceniamy szanse, sporządzamy listę dokumentów.' },
         { title: 'Zbiór pakietu', duration: '5–14 dni', desc: 'Zbieramy dokumenty, tłumaczymy przysięgle, wyrabiamy ZUS / US / meldunek.' },
         { title: 'Złożenie w MOS v2.0', duration: '1 dzień', desc: 'Ładujemy wniosek i załączniki do systemu państwowego, opłacamy 340 PLN.' },
-        { title: 'Odciski palców', duration: '1 wizyta', desc: 'Jedyna obowiązkowa wizyta — odciski i zdjęcie u wojewody. Asystuje prawnik.' },
+        { title: 'Odciski palców', duration: '1 wizyta', desc: 'Jedyna obowiązkowa wizyta — odciski i zdjęcie u wojewody. Asystuje konsultant imigracyjny.' },
         { title: 'Oczekiwanie', duration: '30–60 dni', desc: 'Odpowiadamy na wezwania przez eDoręczenia. Statusy na portalu klienta.' },
         { title: 'Odbiór karty', duration: '7 dni', desc: 'Po decyzji pozytywnej — +100 PLN za blankiet, odbiór u wojewody.' }
       ]
@@ -149,7 +149,7 @@ const kartaPobytu: ServiceEntry = {
         { label: 'Prowadzenie TRC pod klucz', value: 'od 2 500 PLN', note: 'Wszystkie etapy' },
         { label: 'Apelacja po odmowie', value: 'od 1 800 PLN', note: 'Odrębna umowa' }
       ],
-      note: 'To honoraria prawnika. Opłaty urzędowe (340 + 100 PLN) i tłumaczenia przysięgłe — osobno.'
+      note: 'To nasze honoraria. Opłaty urzędowe (340 + 100 PLN) i tłumaczenia przysięgłe — osobno.'
     },
     legalBase: {
       title: 'Podstawa prawna',
@@ -208,7 +208,7 @@ const kartaPobytu: ServiceEntry = {
         { title: 'Consultation', duration: '30–60 min', desc: 'We assess your ground, rate the odds, and list required documents.' },
         { title: 'Document pack', duration: '5–14 days', desc: 'We gather docs, arrange sworn translations, handle ZUS / tax / meldunek.' },
         { title: 'Filing via MOS v2.0', duration: '1 day', desc: 'We upload the application and attachments to the state system, pay 340 PLN.' },
-        { title: 'Biometrics', duration: '1 visit', desc: 'Only mandatory visit — fingerprints and photo at the voivode\'s. Lawyer accompanies.' },
+        { title: 'Biometrics', duration: '1 visit', desc: 'Only mandatory visit — fingerprints and photo at the voivode\'s. Immigration consultant accompanies.' },
         { title: 'Waiting & requests', duration: '30–60 days', desc: 'We reply to uzupełnienia via eDoręczenia. Status on client portal.' },
         { title: 'Card collection', duration: '7 days', desc: 'After positive decision — +100 PLN for the card, collect at the voivode\'s.' }
       ]
@@ -235,7 +235,7 @@ const kartaPobytu: ServiceEntry = {
         { label: 'End-to-end TRC handling', value: 'from 2,500 PLN', note: 'All stages' },
         { label: 'Appeal on denial', value: 'from 1,800 PLN', note: 'Separate agreement' }
       ],
-      note: 'Attorney fees. Official fees (340 + 100 PLN) and sworn translations billed separately.'
+      note: 'Our fees. Official fees (340 + 100 PLN) and sworn translations billed separately.'
     },
     legalBase: {
       title: 'Legal basis',

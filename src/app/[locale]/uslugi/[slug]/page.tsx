@@ -28,7 +28,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'оформить ВНЖ в Польше',
       'Karta Czasowego Pobytu',
       'временный вид на жительство Польша',
-      'юрист по карте побыту Варшава',
+      'иммиграционный консультант по карте побыту Варшава',
       'TRC Польша',
       'MOS v2.0'
     ],
@@ -38,7 +38,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'TRC Polska',
       'zezwolenie na pobyt czasowy',
       'wniosek o kartę pobytu Warszawa',
-      'kancelaria imigracyjna Warszawa',
+      'konsultant imigracyjny Warszawa',
       'MOS v2.0',
       'eDoręczenia'
     ],
@@ -47,7 +47,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'Karta Pobytu',
       'Polish residence permit',
       'TRC Poland',
-      'immigration lawyer Warsaw',
+      'immigration consultant Warsaw',
       'MOS v2.0',
       'EU Blue Card Poland'
     ]
@@ -59,7 +59,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'постоянное место жительства Польша',
       'Karta Stałego Pobytu',
       'постоянный вид на жительство в Польше',
-      'юрист ПМЖ Варшава',
+      'иммиграционный консультант ПМЖ Варшава',
       'долгосрочный резидент ЕС'
     ],
     pl: [
@@ -67,14 +67,14 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'pobyt stały w Polsce',
       'PR Polska',
       'rezydent długoterminowy UE',
-      'kancelaria pobyt stały Warszawa'
+      'konsultant pobyt stały Warszawa'
     ],
     en: [
       'permanent residence Poland',
       'Karta Stałego Pobytu',
       'Polish PR',
       'EU long-term resident',
-      'Polish permanent residency lawyer'
+      'Polish permanent residency consultant'
     ]
   },
   obywatelstwo: {
@@ -85,7 +85,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'признание гражданина Польши',
       'польский паспорт',
       'обязательно полски язык B1',
-      'юрист гражданство Варшава'
+      'иммиграционный консультант гражданство Варшава'
     ],
     pl: [
       'obywatelstwo polskie',
@@ -93,14 +93,14 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'uznanie za obywatela polskiego',
       'naturalizacja',
       'wniosek do Prezydenta RP',
-      'kancelaria obywatelstwo Warszawa'
+      'konsultant obywatelstwo Warszawa'
     ],
     en: [
       'Polish citizenship',
       'naturalisation Poland',
       'Polish passport',
       'citizenship by descent Poland',
-      'Polish citizenship lawyer'
+      'Polish citizenship consultant'
     ]
   },
   'karta-polaka': {
@@ -122,7 +122,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'rozmowa z konsulem Karta Polaka',
       'archiwa kresowe',
       'Karta Polaka a obywatelstwo',
-      'kancelaria Karta Polaka Warszawa'
+      'konsultant Karta Polaka Warszawa'
     ],
     en: [
       'Karta Polaka',
@@ -142,7 +142,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'ochrona międzynarodowa',
       'гуманитарные основания Польша',
       'толерантное пребывание',
-      'юрист по убежищу Варшава'
+      'консультант по убежищу Варшава'
     ],
     pl: [
       'ochrona międzynarodowa',
@@ -150,14 +150,14 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'azyl w Polsce',
       'pobyt humanitarny',
       'pobyt tolerowany',
-      'kancelaria uchodźcza Warszawa'
+      'konsultant uchodźca Warszawa'
     ],
     en: [
       'international protection Poland',
       'refugee status Poland',
       'asylum Poland',
       'humanitarian residence Poland',
-      'asylum lawyer Warsaw'
+      'asylum consultant Warsaw'
     ]
   },
   apelacje: {
@@ -166,7 +166,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'оспаривание отказа в ВНЖ Польша',
       'odwołanie do Szefa UdSC',
       'skarga WSA Польша',
-      'юрист апелляция отказ Польша'
+      'консультант по апелляции отказа Польша'
     ],
     pl: [
       'odwołanie od decyzji wojewody',
@@ -180,7 +180,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'Polish immigration appeal',
       'WSA complaint',
       'denial appeal Polish residence card',
-      'immigration appeals lawyer Warsaw'
+      'immigration appeals consultant Warsaw'
     ]
   },
   'kod-95': {
@@ -396,7 +396,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'e-KRK онлайн',
       'справка для гражданства Польши',
       'apostille KRK',
-      'юрист KRK Варшава'
+      'помощь с KRK Варшава'
     ],
     pl: [
       'zaświadczenie o niekaralności',
@@ -481,7 +481,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'трансфер Modlin Варшава',
       'аэропорт Варшава встреча',
       'EES правила Польша',
-      'юрист встреча в аэропорту',
+      'встреча в аэропорту Варшава',
       'трансфер Krakow Balice',
       'встреча с табличкой Варшава'
     ],
@@ -491,7 +491,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'transfer Modlin Warszawa',
       'odbiór z lotniska Kraków',
       'EES Polska',
-      'prawnik odbiór z lotniska',
+      'odbiór z lotniska Warszawa',
       'transfer biznesowy Warszawa',
       'powitanie na lotnisku Warszawa'
     ],
@@ -534,13 +534,13 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'rental with meldunek',
       'expat real-estate agent Warsaw',
       'KW land register Poland',
-      'real estate lawyer Warsaw'
+      'real estate specialist Warsaw'
     ]
   },
   'tlumacz-na-wizyty': {
     ru: [
       'переводчик для urząd Варшава',
-      'юрист переводчик Варшава',
+      'переводчик в urząd Варшава',
       'переводчик в банке Польша',
       'переводчик на свадьбу USC',
       'переводчик в больнице Польша',
@@ -550,7 +550,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
     ],
     pl: [
       'tłumacz na wizyty urzędowe',
-      'prawnik tłumacz Warszawa',
+      'tłumacz na wizyty Warszawa',
       'tłumacz do banku Warszawa',
       'tłumacz w USC do ślubu',
       'tłumacz w szpitalu Warszawa',
@@ -560,7 +560,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
     ],
     en: [
       'interpreter for Polish urząd',
-      'lawyer interpreter Warsaw',
+      'interpreter for office visits Warsaw',
       'bank interpreter Poland',
       'USC wedding interpreter Poland',
       'hospital interpreter Warsaw',
@@ -662,7 +662,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'Estonian CIT Poland',
       'IP Box Poland',
       'Poland company for foreigners',
-      'Polish LLC lawyer Warsaw'
+      'Polish LLC registration Warsaw'
     ]
   },
   'gotowe-firmy': {
@@ -738,7 +738,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'регистрация oddziału',
       'KRS oddział',
       'международная экспансия в Польшу',
-      'юрист oddział Варшава'
+      'регистрация oddział Варшава'
     ],
     pl: [
       'oddział zagranicznej firmy',
@@ -758,7 +758,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'KRS branch',
       'foreign branch manager',
       'foreign company in Poland',
-      'branch office Warsaw lawyer'
+      'branch office registration Warsaw'
     ]
   },
   'podatki-ksiegowosc': {
@@ -876,7 +876,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'obciążenia nieruchomości',
       'historia nieruchomości',
       'wspólnota mieszkaniowa',
-      'kancelaria nieruchomości Warszawa'
+      'specjalista nieruchomości Warszawa'
     ],
     en: [
       'real estate due diligence Poland',
@@ -885,7 +885,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'KW verification',
       'Polish property legal audit',
       'encumbrances Poland',
-      'real estate lawyer Warsaw',
+      'real estate specialist Warsaw',
       'pre-purchase property review Poland'
     ]
   },
@@ -902,23 +902,23 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
     ],
     pl: [
       'asysta przy akcie notarialnym',
-      'adwokat u notariusza',
+      'specjalista u notariusza',
       'pełnomocnictwo zakup nieruchomości',
       'depozyt notarialny',
       'PCC 2%',
       'taksa notarialna',
       'wpis do KW',
-      'kancelaria nieruchomości Warszawa'
+      'specjalista nieruchomości Warszawa'
     ],
     en: [
-      'attorney at notary deed Poland',
+      'notary deed assistance Poland',
       'real estate notary assistance Warsaw',
       'power of attorney property purchase Poland',
       'notarial deposit Poland',
       'PCC 2% Poland',
       'notarial fee Poland',
       'land register entry',
-      'Poland real estate closing lawyer'
+      'Poland real estate closing assistance'
     ]
   },
   'najem-komercyjny': {
@@ -950,7 +950,7 @@ const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
       'service charge office',
       'fit-out negotiation',
       'non-compete clause lease',
-      'Polish commercial real estate lawyer'
+      'Polish commercial real estate specialist'
     ]
   }
 };

@@ -25,7 +25,7 @@ const apostille: ServiceEntry = {
         { title: 'Свидетельства о несудимости (KRK)', desc: 'Zaświadczenie z Krajowego Rejestru Karnego — для рабочих виз, гражданства, ВНЖ за рубежом.' },
         { title: 'Дипломы и аттестаты', desc: 'Apostille от Ministerstwa Edukacji или Nauki — для нострификации дипломов в США, ЕС, СНГ.' },
         { title: 'Судебные решения', desc: 'Wyroki sądów — для исполнения за рубежом, признания брака/развода, наследственных дел.' },
-        { title: 'Apostille иностранных документов', desc: 'Помогаем оформить apostille в стране выдачи через консульство или присяжного юриста на месте.' },
+        { title: 'Apostille иностранных документов', desc: 'Помогаем оформить apostille в стране выдачи через консульство или местного партнёра.' },
         { title: 'Полная легализация (страны вне Конвенции)', desc: 'Для Канады, Китая, ОАЭ — полный цикл: notariusz → MSZ → консульство. До 4 недель.' }
       ]
     },
@@ -113,7 +113,7 @@ const apostille: ServiceEntry = {
         { title: 'Zaświadczenie o niekaralności (KRK)', desc: 'Zaświadczenie z KRK — do wiz pracowniczych, obywatelstwa, TRC za granicą.' },
         { title: 'Dyplomy i świadectwa', desc: 'Apostille z MEiN — do nostryfikacji dyplomów w USA, UE, krajach WNP.' },
         { title: 'Wyroki sądów', desc: 'Wyroki — do egzekucji za granicą, uznania ślubu/rozwodu, spadku.' },
-        { title: 'Apostille zagranicznych dokumentów', desc: 'Pomagamy uzyskać apostille w kraju wydania przez konsulat lub lokalnego prawnika.' },
+        { title: 'Apostille zagranicznych dokumentów', desc: 'Pomagamy uzyskać apostille w kraju wydania przez konsulat lub lokalnego partnera.' },
         { title: 'Pełna legalizacja (poza Konwencją)', desc: 'Dla Kanady (do 2024), Chin, ZEA — pełen cykl: notariusz → MSZ → konsulat. Do 4 tygodni.' }
       ]
     },
@@ -201,7 +201,7 @@ const apostille: ServiceEntry = {
         { title: 'Criminal record (KRK)', desc: 'For work visas, citizenship, foreign residence applications.' },
         { title: 'Diplomas & certificates', desc: 'Apostille from MEiN for diploma recognition in the US, EU, CIS.' },
         { title: 'Court judgements', desc: 'For foreign enforcement, marriage/divorce recognition, inheritance cases.' },
-        { title: 'Apostille on foreign documents', desc: 'We help arrange apostille in the issuing country via consulate or local lawyer.' },
+        { title: 'Apostille on foreign documents', desc: 'We help arrange apostille in the issuing country via consulate or local partner.' },
         { title: 'Full legalisation (non-Convention)', desc: 'For Canada (pre-2024), China, UAE — full chain: notary → MSZ → consulate. Up to 4 weeks.' }
       ]
     },
