@@ -78,13 +78,13 @@ const likwidacjaSprzedaz: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Можно ли закрыть Sp. z o.o. быстрее 6 месяцев?', a: 'Нет, если делаете likwidację — 6 месяцев минимум по KSH (срок dla wierzycieli). Альтернативы: 1) Sprzedaż udziałów покупателю — 2–4 недели; 2) Połączenie с другой Sp. z o.o. (slip-sale) — 3–4 месяца с поглощением; 3) Upadłość — если фирма реально неплатёжеспособна, тоже 6+ месяцев.' },
-      { q: 'Что выгоднее: likwidacja или sprzedaż udziałów?', a: 'Sprzedaż udziałów — быстрее, дешевле, и часто выгоднее по налогам. 19% PIT на zysk (sprzedaż minus koszt nabycia udziałów). При likwidacji — налог на podział majątku (19% от reszty po długach), плюс stoimy 6+ месяцев службы и заплатим лictwiteltę и KRS-feeу. Sprzedaż outearns likwidację в 80% случаев.' },
-      { q: 'Можно ли продать «оболочку» — фирму без бизнеса?', a: 'Да. Это рынок shelf-companies наоборот: вы продаёте свою старую Sp. z o.o. покупателю, который ценит возраст фирмы. Цена обычно 5 000–15 000 PLN за фирму 12+ месяцев. Главное — фирма должна быть «чистой»: ноль долгов, ноль обязательств, проverena due diligence-ом. Делаем продажу через брокеров.' },
-      { q: 'Что с сотрудниками при likwidacji?', a: 'Должны быть уволены до podziału majątku. Likwidator извещает rzecznika pracy и каждого сотрудника за 1–3 месяца (zależnie od staż). Płacicie odprawy: 1 mies. zarobku до 2 lat staż, 2 mies. до 8 lat, 3 mies. свыше. PUP (Powiatowy Urząd Pracy) платит resztę если фирма bankrupt.' },
-      { q: 'Налоги при sprzedaży udziałów?', a: '19% PIT на zysk wspólnika (PIT-38). Zysk = cena sprzedaży minus koszt nabycia udziałów (обычно kapitał zakładowy при основании). Декларируется до 30 апреля следующего года. ESC возможен через рerwsze 6 mies. po sprzedaży на покупку другой фирмы (rzadko stosowany).' },
-      { q: 'А если есть долги ZUS / US?', a: 'При likwidacji они должны быть заплачены или depозированы. Если фирма не может — переходит в upadłość, не в likwidację. Перед началом likwidacji получаем zaświadczenia o niezaleganiu — это критично, без них KRS не вычеркнет.' },
-      { q: 'Что с CRBR при likwidacji?', a: 'Обязательно обновить — указать дату likwidacji. После wykreślenia из KRS — autoматически закрывается в CRBR. Не требует отдельного wniosku.' }
+      { q: 'Можно ли закрыть Sp. z o.o. быстрее 6 месяцев?', a: 'Нет, если делаете likwidację (ликвидацию) — 6 месяцев минимум по KSH (Kodeks spółek handlowych — Кодекс торговых обществ) (срок dla wierzycieli — для кредиторов). Альтернативы: 1) Sprzedaż udziałów (продажа долей) покупателю — 2–4 недели; 2) Połączenie (слияние) с другой Sp. z o.o. (slip-sale) — 3–4 месяца с поглощением; 3) Upadłość (банкротство) — если фирма реально неплатёжеспособна, тоже 6+ месяцев.' },
+      { q: 'Что выгоднее: likwidacja или sprzedaż udziałów?', a: 'Sprzedaż udziałów (продажа долей) — быстрее, дешевле, и часто выгоднее по налогам. 19% PIT на zysk (прибыль = sprzedaż minus koszt nabycia udziałów — продажная цена минус стоимость приобретения долей). При likwidacji (ликвидации) — налог на podział majątku (раздел имущества, 19% от остатка после долгов), плюс stoimy 6+ месяцев службы и заплатим ликвидатору и KRS-fee. Sprzedaż outearns likwidację в 80% случаев.' },
+      { q: 'Можно ли продать «оболочку» — фирму без бизнеса?', a: 'Да. Это рынок shelf-companies наоборот: вы продаёте свою старую Sp. z o.o. покупателю, который ценит возраст фирмы. Цена обычно 5 000–15 000 PLN за фирму 12+ месяцев. Главное — фирма должна быть «чистой»: ноль долгов, ноль обязательств, проверена due diligence-ом. Делаем продажу через брокеров.' },
+      { q: 'Что с сотрудниками при likwidacji?', a: 'Должны быть уволены до podziału majątku (раздела имущества). Likwidator (ликвидатор) извещает rzecznika pracy (инспектора труда) и каждого сотрудника за 1–3 месяца (zależnie od staż — в зависимости от стажа). Płacicie odprawy (выплачиваете выходное пособие): 1 mies. zarobku (месяц зарплаты) до 2 lat staż (стажа), 2 mies. до 8 lat, 3 mies. свыше. PUP (Powiatowy Urząd Pracy — Районная служба занятости) платит resztę если фирма bankrupt.' },
+      { q: 'Налоги при sprzedaży udziałów?', a: '19% PIT на zysk wspólnika (прибыль участника, PIT-38). Zysk = cena sprzedaży minus koszt nabycia udziałów (обычно kapitał zakładowy — уставный капитал при основании). Декларируется до 30 апреля следующего года. ESC возможен через pierwsze 6 mies. po sprzedaży на покупку другой фирмы (rzadko stosowany — редко применяется).' },
+      { q: 'А если есть долги ZUS / US?', a: 'При likwidacji (ликвидации) они должны быть заплачены или депонированы. Если фирма не может — переходит в upadłość (банкротство), не в likwidację. Перед началом likwidacji получаем zaświadczenia o niezaleganiu (справки об отсутствии задолженности) — это критично, без них KRS не вычеркнет.' },
+      { q: 'Что с CRBR при likwidacji?', a: 'Обязательно обновить — указать дату likwidacji. После wykreślenia (исключения из реестра) из KRS — автоматически закрывается в CRBR. Не требует отдельного wniosku (заявления).' }
     ],
     related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'podatki-ksiegowosc'],
     ctaTitle: 'Закрытие или продажа фирмы',
@@ -256,12 +256,12 @@ const likwidacjaSprzedaz: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Faster than 6 months?', a: 'Not via liquidation — KSH requires 6 months for creditors. Alternatives: share sale (2–4 weeks), merger (3–4 months).' },
+      { q: 'Faster than 6 months?', a: 'Not via liquidation — KSH (Commercial Companies Code) requires 6 months for creditors. Alternatives: share sale (2–4 weeks), merger (3–4 months).' },
       { q: 'Liquidation vs share sale?', a: 'Share sale wins 80% of the time: faster, cheaper, lower tax.' },
       { q: 'Selling an empty shell?', a: 'Yes. Old, clean Sp. z o.o. — 5,000–15,000 PLN.' },
       { q: 'Employees at liquidation?', a: 'Termination 1–3 months, severance pay. PUP covers shortfall on bankruptcy.' },
       { q: 'Taxes on share sale?', a: '19% PIT (PIT-38). Gain = price − cost of acquisition.' },
-      { q: 'ZUS/tax arrears?', a: 'Must be paid or deposited. KRS won\'t delete without no-arrears certificates.' },
+      { q: 'ZUS/tax arrears?', a: 'Must be paid or deposited. KRS (court register) won\'t delete without zaświadczenie o niezaleganiu (no-arrears certificates).' },
       { q: 'CRBR?', a: 'Update on liquidation. After KRS deletion — auto-closed.' }
     ],
     related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'podatki-ksiegowosc'],

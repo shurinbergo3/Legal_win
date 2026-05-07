@@ -10,6 +10,7 @@ import { routing } from '@/i18n/routing';
 import {
   ORG_LEGAL_NAME,
   SITE_URL,
+  blogLd,
   breadcrumbLd,
   languagesAlternate,
   type SeoLocale
@@ -86,14 +87,34 @@ export default async function BlogIndexPage({
   const t = await getTranslations({ locale, namespace: 'Blog' });
   const posts = getAllPosts(locale);
 
+  const safeLocale: SeoLocale = (['ru', 'pl', 'en'] as const).includes(
+    locale as SeoLocale
+  )
+    ? (locale as SeoLocale)
+    : 'ru';
+
   const breadcrumb = breadcrumbLd([
     { name: ORG_LEGAL_NAME, url: `${SITE_URL}/${locale}` },
     { name: t('title'), url: `${SITE_URL}/${locale}/blog` }
   ]);
 
+  const blog = blogLd({
+    url: `${SITE_URL}/${locale}/blog`,
+    name: t('title'),
+    description: t('intro'),
+    locale: safeLocale,
+    posts: posts.slice(0, 20).map((p) => ({
+      slug: p.slug,
+      title: p.title,
+      description: p.description,
+      publishDate: p.publishDate
+    }))
+  });
+
   return (
     <>
       <JsonLd data={breadcrumb} />
+      <JsonLd data={blog} />
       <Header />
       <main className="relative z-10">
         <BlogIndex

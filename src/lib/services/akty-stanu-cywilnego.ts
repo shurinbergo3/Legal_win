@@ -77,13 +77,13 @@ const aktyStanuCywilnego: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Что такое umiejscowienie aktu?', a: 'Это вписание иностранного свидетельства о рождении/браке/смерти в польский реестр USC. После umiejscowienia вы получаете polski odpis, который принимают все польские учреждения без перевода. Обязательно для повторного брака, наследства, смены фамилии.' },
-      { q: 'Сколько по времени занимает umiejscowienie?', a: 'От 7 дней (Warszawa-Śródmieście, документы из ЕС) до 30 дней (другие воеводства, документы из не-ЕС стран). Если документ старый или из страны вне Гаагской конвенции — может быть до 60 дней с дополнительными запросами.' },
-      { q: 'Нужно ли umiejscowienie для подачи на TRC?', a: 'Нет, для TRC достаточно оригинала иностранного свидетельства с apostille и присяжным переводом. Umiejscowienie обязательно для повторного брака в Польше, оформления гражданства, наследственных дел.' },
-      { q: 'Что такое apostille и когда нужен?', a: 'Apostille — упрощённая легализация документов между странами Гаагской конвенции 1961 г. Польша требует apostille на все иностранные публичные документы из стран Конвенции (СНГ, США, Великобритания и др.). В странах ЕС — apostille не нужно с 2019 года (Регламент 2016/1191).' },
-      { q: 'Где быстрее сделать umiejscowienie — в Варшаве или регионе?', a: 'USC Warszawa-Śródmieście работает быстрее всех — 7–14 дней. Региональные USC — 14–30 дней. Подаём через Warszawa, даже если живёте в другом городе — закон позволяет.' },
-      { q: 'Можно ли получить odpis aktu онлайн?', a: 'Да, через ePUAP или mObywatel — для лиц с польским PESEL и profil zaufany. Срок — 7 дней, цена та же. Делаем для клиентов через нашу e-platform.' },
-      { q: 'Что делать с разводом из страны вне ЕС?', a: 'Для умieнsования брака в Польше нужно: иностранное свидетельство о разводе с apostille + присяжный перевод. Если брак был в Польше — wpis o rozwiązaniu добавляется по wniosku или automatycznie через sąd. Для сложных случаев — отдельная процедура uznania zagranicznego wyroku rozwodowego.' }
+      { q: 'Что такое umiejscowienie aktu?', a: 'Это вписание (umiejscowienie) иностранного свидетельства о рождении/браке/смерти в польский реестр USC (управление актов гражданского состояния). После umiejscowienia вы получаете polski odpis (польскую выписку), которую принимают все польские учреждения без перевода. Обязательно для повторного брака, наследства, смены фамилии.' },
+      { q: 'Сколько по времени занимает umiejscowienie?', a: 'От 7 дней (Warszawa-Śródmieście, документы из ЕС) до 30 дней (другие воеводства, документы из не-ЕС стран). Если документ старый или из страны вне Гаагской конвенции (Konwencja Haska) — может быть до 60 дней с дополнительными запросами.' },
+      { q: 'Нужно ли umiejscowienie для подачи на TRC?', a: 'Нет, для TRC достаточно оригинала иностранного свидетельства с apostille (апостиль) и присяжным переводом. Umiejscowienie (вписание акта) обязательно для повторного брака в Польше, оформления гражданства, наследственных дел.' },
+      { q: 'Что такое apostille и когда нужен?', a: 'Apostille (апостиль) — упрощённая легализация документов между странами Гаагской конвенции 1961 г. Польша требует apostille на все иностранные публичные документы из стран Конвенции (СНГ, США, Великобритания и др.). В странах ЕС — apostille не нужно с 2019 года (Регламент 2016/1191).' },
+      { q: 'Где быстрее сделать umiejscowienie — в Варшаве или регионе?', a: 'USC (управление актов гражданского состояния) Warszawa-Śródmieście работает быстрее всех — 7–14 дней. Региональные USC — 14–30 дней. Подаём через Warszawa, даже если живёте в другом городе — закон позволяет.' },
+      { q: 'Можно ли получить odpis aktu онлайн?', a: 'Да, через ePUAP (электронная платформа госуслуг) или mObywatel (мобильное приложение «Гражданин») — для лиц с польским PESEL и profil zaufany (доверенный профиль). Срок — 7 дней, цена та же. Делаем для клиентов через нашу e-platform.' },
+      { q: 'Что делать с разводом из страны вне ЕС?', a: 'Для умieнsования брака в Польше нужно: иностранное свидетельство о разводе с apostille (апостиль) + присяжный перевод. Если брак был в Польше — wpis o rozwiązaniu (запись о расторжении) добавляется по wniosku (заявлению) или automatycznie через sąd (суд). Для сложных случаев — отдельная процедура uznania zagranicznego wyroku rozwodowego (признание иностранного решения о разводе).' }
     ],
     related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],
     ctaTitle: 'Свидетельства USC под ключ',
@@ -253,12 +253,12 @@ const aktyStanuCywilnego: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'What is umiejscowienie?', a: 'It\'s entering a foreign certificate into the Polish USC register. After umiejscowienie you receive a Polish odpis accepted by every Polish institution without translation. Required for second marriage, inheritance, name change, citizenship.' },
+      { q: 'What is umiejscowienie?', a: 'It\'s entering a foreign certificate into the Polish USC (civil registry office) register. After umiejscowienie (recognition entry) you receive a Polish odpis (extract) accepted by every Polish institution without translation. Required for second marriage, inheritance, name change, citizenship.' },
       { q: 'How long does it take?', a: '7 days (Warszawa-Śródmieście, EU documents) to 30 days (other voivodeships, non-EU countries). Old acts or non-Hague countries can stretch to 60 days with extra inquiries.' },
-      { q: 'Do I need umiejscowienie for TRC?', a: 'No — TRC accepts the foreign original with apostille and sworn translation. Umiejscowienie is required for second marriage in Poland, citizenship, inheritance.' },
+      { q: 'Do I need umiejscowienie for TRC?', a: 'No — TRC accepts the foreign original with apostille and sworn translation. Umiejscowienie (foreign-act recognition) is required for second marriage in Poland, citizenship, inheritance.' },
       { q: 'What is apostille?', a: 'A simplified legalisation between Hague Convention 1961 states. Poland requires apostille on foreign public documents from convention states (CIS, US, UK). Within the EU — apostille no longer needed since 2019 (Regulation 2016/1191).' },
-      { q: 'Faster — Warsaw or regional?', a: 'USC Warszawa-Śródmieście — 7–14 days. Regional USC — 14–30 days. We file via Warsaw even for clients in other cities — the law allows it.' },
-      { q: 'Can I get an odpis online?', a: 'Yes — via ePUAP or mObywatel for people with PESEL and profil zaufany. 7 days, same price.' },
+      { q: 'Faster — Warsaw or regional?', a: 'USC (civil registry office) Warszawa-Śródmieście — 7–14 days. Regional USC — 14–30 days. We file via Warsaw even for clients in other cities — the law allows it.' },
+      { q: 'Can I get an odpis online?', a: 'Yes — via ePUAP (e-government platform) or mObywatel (Citizen mobile app) for people with PESEL and profil zaufany (trusted profile). 7 days, same price.' },
       { q: 'Divorce from a non-EU country?', a: 'For Polish marriage recognition: foreign divorce certificate with apostille + sworn translation. If the marriage was in Poland — divorce note added by application or court. Complex cases — recognition of foreign divorce judgement.' }
     ],
     related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],

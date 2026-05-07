@@ -88,31 +88,31 @@ const kod95: ServiceEntry = {
     faq: [
       {
         q: 'Сколько по факту стоит получить Kod 95 в Польше?',
-        a: 'Szkolenie okresowe (35 ч) под ключ — около 3 200–3 700 PLN всего: ~1 800 PLN сам курс, ~250 PLN badania lekarskie, ~200 PLN psychotechnika, 100 PLN opłata skarbowa и наш гонорар от 1 200 PLN. Kwalifikacja wstępna przyspieszona (140 ч) выходит в 7 500–9 000 PLN, полная (280 ч) — 11 000+ PLN.'
+        a: 'Szkolenie okresowe (периодическое обучение, 35 ч) под ключ — около 3 200–3 700 PLN всего: ~1 800 PLN сам курс, ~250 PLN badania lekarskie (медобследование), ~200 PLN psychotechnika (психотест), 100 PLN opłata skarbowa (госпошлина) и наш гонорар от 1 200 PLN. Kwalifikacja wstępna przyspieszona (ускоренная начальная квалификация, 140 ч) выходит в 7 500–9 000 PLN, полная (280 ч) — 11 000+ PLN.'
       },
       {
         q: 'Можно ли пройти Kod 95 без знания польского языка?',
-        a: 'Курс — да, есть OSK с русскоязычными преподавателями и материалами (особенно в Варшаве, Вроцлаве и Гданьске). Государственный экзамен в WORD — только на польском, украинском или английском (зависит от воеводства). Подбираем школу и WORD с подходящим вам языком экзамена.'
+        a: 'Курс — да, есть OSK (ośrodek szkolenia kierowców — автошкола) с русскоязычными преподавателями и материалами (особенно в Варшаве, Вроцлаве и Гданьске). Государственный экзамен в WORD (Wojewódzki Ośrodek Ruchu Drogowego — Воеводский центр дорожного движения) — только на польском, украинском или английском (зависит от воеводства). Подбираем школу и WORD с подходящим вам языком экзамена.'
       },
       {
         q: 'Признаётся ли Kod 95, полученный в Украине или Беларуси?',
-        a: 'Нет. CPC из стран вне ЕС/ЕЭЗ официально не признаётся в Польше. Даже если у вас 20 лет опыта — придётся проходить kwalifikację wstępną przyspieszoną (если вам уже есть 21 год для C / 23 для D). Стаж в Украине, увы, не считается.'
+        a: 'Нет. CPC из стран вне ЕС/ЕЭЗ официально не признаётся в Польше. Даже если у вас 20 лет опыта — придётся проходить kwalifikację wstępną przyspieszoną (ускоренную начальную квалификацию) (если вам уже есть 21 год для C / 23 для D). Стаж в Украине, увы, не считается.'
       },
       {
         q: 'Что если у меня нет польских prawa jazdy?',
-        a: 'Сначала нужно обменять иностранные права на польские (или сдать с нуля, если вашей категории нет в обмене). Это 14–30 дней через starostwo. Делаем это первым шагом, параллельно с записью на курс — экономим время.'
+        a: 'Сначала нужно обменять иностранные права (prawo jazdy — водительское удостоверение) на польские (или сдать с нуля, если вашей категории нет в обмене). Это 14–30 дней через starostwo (старостат — районная администрация). Делаем это первым шагом, параллельно с записью на курс — экономим время.'
       },
       {
         q: 'Что если у меня есть Kod 95 из Германии, Литвы, Чехии?',
-        a: 'Признаётся автоматически — Kod 95 из любой страны ЕС/ЕЭЗ действителен на всей территории ЕС. Достаточно показать его при перевозках. Если истекает — szkolenie okresowe можно проходить в Польше или в стране выдачи.'
+        a: 'Признаётся автоматически — Kod 95 из любой страны ЕС/ЕЭЗ действителен на всей территории ЕС. Достаточно показать его при перевозках. Если истекает — szkolenie okresowe (периодическое обучение) можно проходить в Польше или в стране выдачи.'
       },
       {
         q: 'Какой штраф за работу без Kod 95?',
-        a: 'Водителю — до 8 000 PLN, перевозчику — до 12 000 PLN, за каждое нарушение. ITD (Inspekcja Transportu Drogowego) проверяет на дорогах и в фирмах. Кроме того, страховые отказывают в выплатах при ДТП без действующего CPC.'
+        a: 'Водителю — до 8 000 PLN, перевозчику — до 12 000 PLN, за каждое нарушение. ITD (Inspekcja Transportu Drogowego — Инспекция дорожного транспорта) проверяет на дорогах и в фирмах. Кроме того, страховые отказывают в выплатах при ДТП без действующего CPC.'
       },
       {
         q: 'Можно ли начать работу до получения нового Kod 95, если старый истёк?',
-        a: 'Нет. С даты окончания Kod 95 вы не имеете права коммерческого вождения — даже если уже записались на szkolenie okresowe. Поэтому начинайте за 2–3 месяца до истечения. Берём напоминание и ведём за полгода до даты — частая услуга для логистических фирм.'
+        a: 'Нет. С даты окончания Kod 95 вы не имеете права коммерческого вождения — даже если уже записались на szkolenie okresowe (периодическое обучение). Поэтому начинайте за 2–3 месяца до истечения. Берём напоминание и ведём за полгода до даты — частая услуга для логистических фирм.'
       },
       {
         q: 'Как часто меняется законодательство по Kod 95?',
@@ -332,19 +332,19 @@ const kod95: ServiceEntry = {
     faq: [
       {
         q: 'What does Kod 95 actually cost in Poland?',
-        a: 'Periodic training (35 h) turnkey runs about 3,200–3,700 PLN total: ~1,800 PLN for the course, ~250 PLN medical, ~200 PLN psych, 100 PLN state fee, plus our 1,200 PLN+ retainer. Accelerated initial qualification (140 h) is 7,500–9,000 PLN; the full 280 h route — from 11,000 PLN.'
+        a: 'Periodic training (szkolenie okresowe, 35 h) turnkey runs about 3,200–3,700 PLN total: ~1,800 PLN for the course, ~250 PLN medical (badania lekarskie), ~200 PLN psych (psychotechnika), 100 PLN opłata skarbowa (state fee), plus our 1,200 PLN+ retainer. Accelerated initial qualification (kwalifikacja wstępna przyspieszona, 140 h) is 7,500–9,000 PLN; the full 280 h route — from 11,000 PLN.'
       },
       {
         q: 'Can I take Kod 95 without speaking Polish?',
-        a: 'The course — yes; OSKs with Russian-speaking instructors and materials are common (especially in Warsaw, Wrocław, Gdańsk). The state WORD exam is in Polish, Ukrainian or English (varies by voivodeship). We pick the school and the WORD with the language that works for you.'
+        a: 'The course — yes; OSKs (ośrodek szkolenia kierowców — driver training centre) with Russian-speaking instructors and materials are common (especially in Warsaw, Wrocław, Gdańsk). The state WORD (Wojewódzki Ośrodek Ruchu Drogowego — voivodeship traffic centre) exam is in Polish, Ukrainian or English (varies by voivodeship). We pick the school and the WORD with the language that works for you.'
       },
       {
         q: 'Is Ukrainian or Belarusian CPC recognised?',
-        a: 'No. CPCs from non-EU/EEA countries are not formally recognised in Poland. Even with 20 years of experience you have to take the accelerated initial qualification (if you\'re 21+ for C / 23+ for D). Foreign service years don\'t count, sadly.'
+        a: 'No. CPCs from non-EU/EEA countries are not formally recognised in Poland. Even with 20 years of experience you have to take the kwalifikacja wstępna przyspieszona (accelerated initial qualification) (if you\'re 21+ for C / 23+ for D). Foreign service years don\'t count, sadly.'
       },
       {
         q: "What if I don't hold a Polish prawo jazdy?",
-        a: 'We exchange your foreign licence for a Polish one first (or you sit a fresh test if your category cannot be swapped). That takes 14–30 days through starostwo. We do it as step one in parallel with course booking — saves time.'
+        a: 'We exchange your foreign prawo jazdy (driving licence) for a Polish one first (or you sit a fresh test if your category cannot be swapped). That takes 14–30 days through starostwo (district authority). We do it as step one in parallel with course booking — saves time.'
       },
       {
         q: 'What if I have a Code 95 from Germany, Lithuania, Czechia?',
@@ -352,7 +352,7 @@ const kod95: ServiceEntry = {
       },
       {
         q: 'What is the fine for working without Kod 95?',
-        a: 'Up to 8,000 PLN for the driver and 12,000 PLN for the carrier per offence. ITD (Inspekcja Transportu Drogowego) checks at roadside and at firms. Insurers also refuse pay-outs after accidents if CPC is invalid.'
+        a: 'Up to 8,000 PLN for the driver and 12,000 PLN for the carrier per offence. ITD (Inspekcja Transportu Drogowego — Road Transport Inspectorate) checks at roadside and at firms. Insurers also refuse pay-outs after accidents if CPC is invalid.'
       },
       {
         q: 'Can I drive while my old Kod 95 has just expired and the new one is pending?',

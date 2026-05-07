@@ -141,7 +141,9 @@ export default async function BlogPostPage({
     locale: safeLocale,
     publishDate: post.publishDate,
     author: post.author,
-    keywords: post.keywords
+    keywords: post.keywords,
+    articleSection: post.category,
+    wordCount: post.content.trim().split(/\s+/).length
   });
 
   const faq = post.faq.length > 0 ? faqPageLd(post.faq) : null;

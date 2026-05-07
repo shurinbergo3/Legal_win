@@ -77,13 +77,13 @@ const meldunek: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Можно ли оформить meldunek без согласия собственника?', a: 'Нет. Подпись właściciela на формуле — обязательное условие. Если он отказывается — нужно идти через sąd cywilny с powództwem o ustalenie zameldowania (если есть umowa najmu и фактическое проживание). На практике это редко — обычно договариваемся с собственником о подписи или нотариальном upoważnieniu.' },
-      { q: 'Что если арендодатель отказывается прописывать?', a: 'Мы помогаем составить договор аренды с пунктом о согласии на zameldowanie или подбираем владельцев, готовых к meldunkу. Альтернатива — meldunek у работодателя, родственника или через адрес LegalWin для предпринимателей.' },
-      { q: 'Обязателен ли meldunek для подачи на TRC?', a: 'С 2026 года через MOS v2.0 — фактически да. Система автоматически подтягивает адрес из реестра PESEL. Без zameldowania придётся отдельно прикладывать umowę najmu и oświadczenie właściciela, что увеличивает риск отказа на формальном основании.' },
-      { q: 'На какой срок прописываться?', a: 'Pobyt czasowy — на срок действия вашего документа пребывания (TRC, визы, безвиза). При получении новой karty pobytu meldunek нужно продлить.' },
-      { q: 'Можно ли иметь несколько meldunków?', a: 'Только один pobyt stały. Pobyt czasowy можно иметь параллельно с stałym (например, прописка stała у родителей и czasowy в Варшаве на работу). Иностранцу — только один.' },
-      { q: 'Что делать при смене адреса?', a: 'В течение 30 дней — wymeldowanie со старого адреса (часто автоматически при zameldowaniu на новый) и zameldowanie на новый. Делаем за 1 визит.' },
-      { q: 'Сколько стоит meldunek в реальности?', a: 'Само zameldowanie — 0 PLN. Zaświadczenie — 17 PLN. Если квартира съёмная — обычно собственник просит +50–100 PLN за визит в urząd или +150 PLN за нотариальное upoważnienie. Наш гонорар — от 350 PLN.' }
+      { q: 'Можно ли оформить meldunek без согласия собственника?', a: 'Нет. Подпись właściciela (собственника) на формуле — обязательное условие. Если он отказывается — нужно идти через sąd cywilny (гражданский суд) с powództwem o ustalenie zameldowania (иском об установлении регистрации) (если есть umowa najmu — договор аренды и фактическое проживание). На практике это редко — обычно договариваемся с собственником о подписи или нотариальном upoważnieniu (доверенности).' },
+      { q: 'Что если арендодатель отказывается прописывать?', a: 'Мы помогаем составить договор аренды с пунктом о согласии на zameldowanie (регистрацию) или подбираем владельцев, готовых к meldunkу. Альтернатива — meldunek у работодателя, родственника или через адрес LegalWin для предпринимателей.' },
+      { q: 'Обязателен ли meldunek для подачи на TRC?', a: 'С 2026 года через MOS v2.0 — фактически да. Система автоматически подтягивает адрес из реестра PESEL. Без zameldowania (регистрации) придётся отдельно прикладывать umowę najmu (договор аренды) и oświadczenie właściciela (заявление собственника), что увеличивает риск отказа на формальном основании.' },
+      { q: 'На какой срок прописываться?', a: 'Pobyt czasowy (временное пребывание) — на срок действия вашего документа пребывания (TRC, визы, безвиза). При получении новой karty pobytu (карты пребывания) meldunek нужно продлить.' },
+      { q: 'Можно ли иметь несколько meldunków?', a: 'Только один pobyt stały (постоянная регистрация). Pobyt czasowy (временная) можно иметь параллельно с stałym — постоянной (например, прописка stała у родителей и czasowy в Варшаве на работу). Иностранцу — только один.' },
+      { q: 'Что делать при смене адреса?', a: 'В течение 30 дней — wymeldowanie (выписка) со старого адреса (часто автоматически при zameldowaniu — регистрации на новый) и zameldowanie на новый. Делаем за 1 визит.' },
+      { q: 'Сколько стоит meldunek в реальности?', a: 'Само zameldowanie (регистрация) — 0 PLN. Zaświadczenie (справка) — 17 PLN. Если квартира съёмная — обычно собственник просит +50–100 PLN за визит в urząd (учреждение) или +150 PLN за нотариальное upoważnienie (доверенность). Наш гонорар — от 350 PLN.' }
     ],
     related: ['pesel', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Оформим meldunek за 1 день',
@@ -255,7 +255,7 @@ const meldunek: ServiceEntry = {
     faq: [
       { q: 'Can I register without owner consent?', a: "No — the owner's signature is required. If they refuse, you can sue in civil court (action to establish registration) — rarely worth it. We typically arrange a signature or a notarised authorisation." },
       { q: 'Landlord refuses meldunek — what now?', a: 'We draft tenancies with an explicit registration clause, source meldunek-friendly landlords, or use an employer/relative address. For entrepreneurs — a LegalWin business address.' },
-      { q: 'Is meldunek mandatory for TRC?', a: 'From 2026 (MOS v2.0) — effectively yes. The system pulls the address from PESEL. Without zameldowanie you must attach the tenancy and an owner statement, increasing the formal-rejection risk.' },
+      { q: 'Is meldunek mandatory for TRC?', a: 'From 2026 (MOS v2.0) — effectively yes. The system pulls the address from PESEL. Without zameldowanie (registration) you must attach the umowa najmu (tenancy) and an owner statement, increasing the formal-rejection risk.' },
       { q: 'What duration to register for?', a: 'Temporary — for the duration of your stay document. After a new TRC card the meldunek must be extended.' },
       { q: 'Can I have several meldunki?', a: 'Only one permanent. Temporary can run alongside. Foreigners — one only.' },
       { q: 'Address change?', a: 'Within 30 days — deregister from the old (often automatic) and register at the new. We handle both in one visit.' },

@@ -74,10 +74,10 @@ const gotoweFirmy: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Безопасно ли покупать готовую Sp. z o.o.?', a: 'Если фирма от надёжного провайдера — да. Все наши фирмы: ноль операций (только регистрация), ноль обязательств, чистая бухгалтерия, актуальная sprawozdanie finansowe. Перед продажей проводим due diligence: KRS, ZUS, US, KRD, sprawozdania за все периоды. Документы передаём вместе с фирмой.' },
+      { q: 'Безопасно ли покупать готовую Sp. z o.o.?', a: 'Если фирма от надёжного провайдера — да. Все наши фирмы: ноль операций (только регистрация), ноль обязательств, чистая бухгалтерия, актуальная sprawozdanie finansowe (финансовый отчёт). Перед продажей проводим due diligence: KRS (Государственный судебный реестр), ZUS, US (налоговая), KRD, sprawozdania (отчёты) за все периоды. Документы передаём вместе с фирмой.' },
       { q: 'Что с прошлыми обязательствами?', a: 'Готовая фирма не имела никакой деятельности — нет договоров, контрагентов, кредитов, ZUS-долгов. Дополнительно даём гарантию: если всплывёт что-то «прошлое» — компенсируем убытки. В договоре прописано.' },
-      { q: 'Можно ли поменять название и PKD?', a: 'Да. Через uchwałę wspólników меняем nazwę, PKD, siedzibę, kapitał. Требует похода к нотариусу или подачи через KRS. Делаем за 7–14 дней. Стоимость 700–1 500 PLN.' },
-      { q: 'Сохраняется ли VAT-номер при смене собственника?', a: 'Да. NIP и VAT остаются у фирмы (это атрибуты юридического лица, не учредителя). Главное — после смены członka zarządu обновить данные в Urzędzie Skarbowym через VAT-Z.' },
+      { q: 'Можно ли поменять название и PKD?', a: 'Да. Через uchwałę wspólników (решение участников) меняем nazwę (название), PKD, siedzibę (юридический адрес), kapitał (капитал). Требует похода к нотариусу или подачи через KRS (судебный реестр). Делаем за 7–14 дней. Стоимость 700–1 500 PLN.' },
+      { q: 'Сохраняется ли VAT-номер при смене собственника?', a: 'Да. NIP и VAT остаются у фирмы (это атрибуты юридического лица, не учредителя). Главное — после смены członka zarządu (члена правления) обновить данные в Urzędzie Skarbowym (налоговой) через VAT-Z.' },
       { q: 'Что с банковским счётом?', a: 'Зависит от банка. mBank, ING, Santander обычно сохраняют счёт после смены подписантов (новый KYC). Pekao, Citi могут потребовать новую регистрацию счёта. Проверяем перед продажей и предупреждаем.' },
       { q: 'Сколько лет фирма должна быть «активной»?', a: 'Зависит от цели. Для маркетплейсов — достаточно 1+ месяца. Для тендеров — обычно 12+. Для крупных кредитов — 24+. На сайте указано, под какие цели подходит каждая фирма.' },
       { q: 'А можно купить с пройденным оборотом и налоговыми отчётами?', a: 'Только наши фирмы — с нулевой деятельностью, потому что покупка фирмы с реальной историей — высокий риск (скрытые обязательства, налоговые споры). Если нужна реальная история, рекомендуем зарегистрировать Sp. z o.o. под себя и работать активно — это безопаснее долгосрочно.' }
@@ -244,10 +244,10 @@ const gotoweFirmy: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Is it safe?', a: 'From a reputable provider — yes. Our companies: zero activity, zero obligations, clean accounting. We do due diligence pre-sale (KRS, ZUS, tax, KRD). Contractual guarantee.' },
+      { q: 'Is it safe?', a: 'From a reputable provider — yes. Our companies: zero activity, zero obligations, clean accounting. We do due diligence pre-sale (KRS (court register), ZUS, tax, KRD). Contractual guarantee.' },
       { q: "What about prior obligations?", a: "No activity = no obligations. We guarantee compensation for hidden liabilities — written in the contract." },
-      { q: 'Change name and PKD?', a: 'Yes. Shareholders\' resolution. 7–14 days, 700–1,500 PLN.' },
-      { q: 'Does the VAT number persist?', a: 'Yes. NIP and VAT belong to the company, not the owner. We update the tax office after the board change.' },
+      { q: 'Change name and PKD?', a: 'Yes. Shareholders\' resolution (uchwała wspólników). 7–14 days, 700–1,500 PLN.' },
+      { q: 'Does the VAT number persist?', a: 'Yes. NIP and VAT belong to the company, not the owner. We update the tax office after the członek zarządu (board member) change.' },
       { q: 'What about the bank account?', a: 'mBank, ING, Santander usually keep the account after signatory change. Pekao, Citi may require new onboarding. We check beforehand.' },
       { q: 'How old should the company be?', a: 'Marketplace — 1+ month. Tenders — 12+. Big loans — 24+.' },
       { q: 'With trading history?', a: 'No — we only sell zero-activity shells. Real-history companies carry hidden liability risk.' }

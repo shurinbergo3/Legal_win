@@ -552,7 +552,16 @@ function Faq({
   eyebrow: string;
   title: string;
 }) {
-  const [open, setOpen] = useState<number | null>(0);
+  const [open, setOpen] = useState<Set<number>>(() => new Set([0]));
+
+  const toggle = (i: number) => {
+    setOpen((prev) => {
+      const next = new Set(prev);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+  };
 
   return (
     <section className="relative border-t hairline bg-ink-900/30 py-24 lg:py-32">
@@ -570,12 +579,12 @@ function Faq({
 
           <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] border-t border-b hairline lg:col-span-8">
             {data.map((it, i) => {
-              const isOpen = open === i;
+              const isOpen = open.has(i);
               return (
                 <li key={it.q}>
                   <button
                     type="button"
-                    onClick={() => setOpen(isOpen ? null : i)}
+                    onClick={() => toggle(i)}
                     aria-expanded={isOpen}
                     className="group flex w-full items-start justify-between gap-6 py-6 text-left transition-colors hover:text-gold-400 lg:py-7"
                   >

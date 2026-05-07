@@ -77,12 +77,12 @@ const apostille: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'В каких странах apostille заменяет легализацию?', a: 'Во всех странах Гаагской конвенции 1961 г. — это около 130 государств: ЕС, США, Канада (с 2024), Великобритания, Россия, Украина (с 2003), Беларусь, Казахстан, Турция, Япония, Корея, Бразилия и др. Для документов между этими странами достаточно одного apostille.' },
-      { q: 'Что делать для стран вне Конвенции (Китай, ОАЭ, Канада до 2024)?', a: 'Полная легализация: 1) нотариальная заверка → 2) izba notarialna (для нотариальных актов) → 3) MSZ → 4) консульство страны назначения в Польше. Цикл — 2–4 недели, стоимость 750+ PLN наших + консульские сборы.' },
-      { q: 'Сколько по факту стоит apostille в Польше?', a: 'Госпошлина MSZ — 60 PLN/документ. Если документ — нотариальный акт, нужна сначала заверка izby notarialnej (26 PLN). Наш гонорар — от 250 PLN под ключ. Для USC apostille ставит wojewoda — те же 60 PLN.' },
-      { q: 'Можно ли поставить apostille на копию?', a: 'Нет — только на оригинал или нотариально заверенную копию. Для документов, которые нельзя сдавать (диплом, оригинал свидетельства), делаем notarialną kopię i на неё ставим apostille.' },
-      { q: 'Apostille действует бессрочно?', a: 'Да, сам apostille не имеет срока. Но многие документы имеют свой срок: KRS-выписка — 3 месяца, KRK — 6 месяцев. Делайте apostille сразу после получения свежего odpisu.' },
-      { q: 'Как проверить подлинность apostille?', a: 'На сайте MSZ (apostille.gov.pl) — по номеру и дате. Это рекомендуем для всех документов из Польши. Аналогично — у других стран Конвенции (через e-Apostille register).' },
+      { q: 'В каких странах apostille заменяет легализацию?', a: 'Во всех странах Гаагской конвенции 1961 г. — это около 130 государств: ЕС, США, Канада (с 2024), Великобритания, Россия, Украина (с 2003), Беларусь, Казахстан, Турция, Япония, Корея, Бразилия и др. Для документов между этими странами достаточно одного apostille (апостиля).' },
+      { q: 'Что делать для стран вне Конвенции (Китай, ОАЭ, Канада до 2024)?', a: 'Полная легализация: 1) нотариальная заверка → 2) izba notarialna (нотариальная палата, для нотариальных актов) → 3) MSZ (МИД Польши) → 4) консульство страны назначения в Польше. Цикл — 2–4 недели, стоимость 750+ PLN наших + консульские сборы.' },
+      { q: 'Сколько по факту стоит apostille в Польше?', a: 'Госпошлина MSZ (МИД Польши) — 60 PLN/документ. Если документ — нотариальный акт, нужна сначала заверка izby notarialnej (нотариальной палаты, 26 PLN). Наш гонорар — от 250 PLN под ключ. Для USC apostille ставит wojewoda (воевода) — те же 60 PLN.' },
+      { q: 'Можно ли поставить apostille на копию?', a: 'Нет — только на оригинал или нотариально заверенную копию. Для документов, которые нельзя сдавать (диплом, оригинал свидетельства), делаем notarialną kopię (нотариальную копию) и на неё ставим apostille.' },
+      { q: 'Apostille действует бессрочно?', a: 'Да, сам apostille (апостиль) не имеет срока. Но многие документы имеют свой срок: KRS-выписка — 3 месяца, KRK (справка о несудимости) — 6 месяцев. Делайте apostille сразу после получения свежего odpisu (выписки).' },
+      { q: 'Как проверить подлинность apostille?', a: 'На сайте MSZ (МИД Польши, apostille.gov.pl) — по номеру и дате. Это рекомендуем для всех документов из Польши. Аналогично — у других стран Конвенции (через e-Apostille register).' },
       { q: 'Нужен ли перевод apostille?', a: 'Сам apostille имеет двуязычный (польский + английский/французский) формат и переводится автоматически. Документ под ним — нужен присяжный перевод на язык страны использования.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
@@ -257,7 +257,7 @@ const apostille: ServiceEntry = {
       { q: 'Non-Convention countries (China, UAE, Canada pre-2024)?', a: 'Full legalisation: notary → notary chamber (for notarial acts) → MSZ → destination consulate in Poland. 2–4 weeks, from 750 PLN + consular fees.' },
       { q: 'Real cost?', a: 'MSZ — 60 PLN/doc. Notarial acts need notary-chamber authentication first (26 PLN). Our fee — from 250 PLN. USC — voivode 60 PLN.' },
       { q: 'Apostille on a copy?', a: 'No — only on originals or notarised copies. For non-removable documents (diplomas), we apostille a notary copy.' },
-      { q: 'Is apostille open-ended?', a: 'Yes — the apostille has no expiry. But documents do: KRS — 3 months, KRK — 6 months. Apostille right after a fresh extract.' },
+      { q: 'Is apostille open-ended?', a: 'Yes — the apostille has no expiry. But documents do: KRS (commercial register) — 3 months, KRK (criminal record) — 6 months. Apostille right after a fresh extract.' },
       { q: 'How to verify?', a: 'apostille.gov.pl by serial and date. Other countries — via national e-Apostille register.' },
       { q: 'Translation of apostille?', a: 'Apostille itself is bilingual (PL + EN/FR) — no translation needed. The underlying document needs sworn translation.' }
     ],

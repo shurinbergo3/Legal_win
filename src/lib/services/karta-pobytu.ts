@@ -76,11 +76,11 @@ const kartaPobytu: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Можно ли подать на ВНЖ, находясь за границей?', a: 'Нет. Заявление подаётся лично в Польше — основание пребывания должно быть действующим (виза или безвиз). Но мы можем подготовить весь пакет удалённо и встретить вас в аэропорту в день подачи.' },
-      { q: 'Что даёт stempel в паспорте?', a: 'После правильной подачи в паспорт ставится штамп, легализующий ваше пребывание на весь срок рассмотрения — даже если истекла виза. С ним можно жить и работать, но нельзя выезжать из Польши без риска.' },
-      { q: 'Могу ли я работать во время ожидания?', a: 'Да, если подавались на основе работы и на момент подачи уже имели zezwolenie. В остальных случаях — по правилам вашего предыдущего разрешения на пребывание.' },
-      { q: 'Что меняется в 2026 году?', a: 'Все заявления подаются только через MOS v2.0, переписка с воеводой — через eDoręczenia (нужен ePUAP или qualified signature). Бумажную подачу воеводы больше не принимают.' },
-      { q: 'Что делать при отказе?', a: 'У вас 14 дней на odwołanie к Szefowi Urzędu do Spraw Cudzoziemców. При повторном отказе — 30 дней на skargę в Wojewódzki Sąd Administracyjny. Мы ведём полный цикл.' },
+      { q: 'Можно ли подать на ВНЖ, находясь за границей?', a: 'Нет. Заявление (wniosek) подаётся лично в Польше — основание пребывания должно быть действующим (виза или безвиз). Но мы можем подготовить весь пакет удалённо и встретить вас в аэропорту в день подачи.' },
+      { q: 'Что даёт stempel в паспорте?', a: 'Stempel (штамп) — после правильной подачи в паспорт ставится штамп, легализующий ваше пребывание на весь срок рассмотрения — даже если истекла виза. С ним можно жить и работать, но нельзя выезжать из Польши без риска.' },
+      { q: 'Могу ли я работать во время ожидания?', a: 'Да, если подавались на основе работы и на момент подачи уже имели zezwolenie (разрешение). В остальных случаях — по правилам вашего предыдущего разрешения на пребывание.' },
+      { q: 'Что меняется в 2026 году?', a: 'Все заявления подаются только через MOS v2.0 (новая система подачи заявлений), переписка с wojewodą (воеводой) — через eDoręczenia (электронная доставка) (нужен ePUAP — портал госуслуг или kwalifikowany podpis — квалифицированная электронная подпись). Бумажную подачу воеводы больше не принимают.' },
+      { q: 'Что делать при отказе?', a: 'У вас 14 дней на odwołanie (апелляцию) к Szefowi Urzędu do Spraw Cudzoziemców (Главе Управления по делам иностранцев). При повторном отказе — 30 дней на skargę (жалобу) в Wojewódzki Sąd Administracyjny (Воеводский административный суд). Мы ведём полный цикл.' },
       { q: 'Нужно ли сдавать польский язык?', a: 'Для TRC — нет. Польский B1 обязателен только при натурализации (гражданство) и в некоторых случаях для ПМЖ.' }
     ],
     related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],
@@ -250,9 +250,9 @@ const kartaPobytu: ServiceEntry = {
     faq: [
       { q: 'Can I file from abroad?', a: 'No. The application is filed in person in Poland — your current stay must be legal (visa or visa-free). But we prepare the full pack remotely and meet you at the airport on filing day.' },
       { q: 'What does the passport stamp give me?', a: 'A proper filing gets a stamp that legalises stay for the entire review period — even past visa expiry. You can live and work, but leaving Poland is risky.' },
-      { q: 'Can I work while waiting?', a: 'Yes, if the basis is employment and you already held a work permit at filing. Otherwise — under the rules of your previous stay permit.' },
-      { q: 'What changes in 2026?', a: 'All filings only via MOS v2.0, correspondence via eDoręczenia (ePUAP or qualified signature needed). Voivodes no longer accept paper filings.' },
-      { q: 'What if I\'m denied?', a: 'You have 14 days to appeal to the Head of the Office for Foreigners. On second denial — 30 days to file a complaint to the Voivodeship Administrative Court. We handle the full cycle.' },
+      { q: 'Can I work while waiting?', a: 'Yes, if the basis is employment and you already held a zezwolenie (work permit) at filing. Otherwise — under the rules of your previous stay permit.' },
+      { q: 'What changes in 2026?', a: 'All filings only via MOS v2.0 (new online application system), correspondence via eDoręczenia (e-delivery) — ePUAP (e-government portal) or qualified signature needed. Wojewoda (regional governor) offices no longer accept paper filings.' },
+      { q: 'What if I\'m denied?', a: 'You have 14 days to file an odwołanie (appeal) to the Szef UdSC (Head of the Office for Foreigners). On second denial — 30 days to file a skarga (complaint) to the WSA (Voivodeship Administrative Court). We handle the full cycle.' },
       { q: 'Do I need to take a Polish exam?', a: 'For TRC — no. Polish B1 is mandatory for naturalisation (citizenship) and in some PR cases.' }
     ],
     related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],

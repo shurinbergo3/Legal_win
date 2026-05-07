@@ -200,6 +200,8 @@ export function articleLd(opts: {
   author?: string;
   image?: string;
   keywords?: string[];
+  articleSection?: string;
+  wordCount?: number;
 }) {
   return {
     '@context': 'https://schema.org',
@@ -212,6 +214,8 @@ export function articleLd(opts: {
     dateModified: opts.modifiedDate ?? opts.publishDate,
     image: opts.image ?? `${SITE_URL}${OG_IMAGE_PATH}`,
     keywords: opts.keywords ?? [],
+    ...(opts.articleSection ? { articleSection: opts.articleSection } : {}),
+    ...(opts.wordCount ? { wordCount: opts.wordCount } : {}),
     author: {
       '@type': 'Organization',
       name: opts.author ?? ORG_LEGAL_NAME,
@@ -230,6 +234,33 @@ export function articleLd(opts: {
       '@type': 'WebPage',
       '@id': opts.url
     }
+  } as const;
+}
+
+export function blogLd(opts: {
+  url: string;
+  name: string;
+  description: string;
+  locale: SeoLocale;
+  posts: { slug: string; title: string; description: string; publishDate: string }[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': `${opts.url}#blog`,
+    url: opts.url,
+    name: opts.name,
+    description: opts.description,
+    inLanguage: opts.locale,
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    blogPost: opts.posts.map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.title,
+      description: p.description,
+      url: `${SITE_URL}/${opts.locale}/blog/${p.slug}`,
+      datePublished: p.publishDate,
+      inLanguage: opts.locale
+    }))
   } as const;
 }
 

@@ -13,11 +13,11 @@ export const BLOG_FAQ: Map = {
   // ─── Karta Pobytu (TRC) ──────────────────────────────────────────────
   'karta-pobytu-2026-poshagovaya-instrukciya': {
     ru: [
-      { q: 'Какие документы нужны на карту побыту в Польше в 2026 году?', a: 'Заполненный wniosek по форме MOS v2.0, загранпаспорт, 4 биометрических фото 35×45 мм, подтверждение основания (umowa o pracę / договор Sp. z o.o. / справка из вуза), подтверждение жилья и meldunkу, медстраховка с покрытием от 30 000 €, подтверждение оплаты opłaty skarbowej 340 PLN. Полный пакет адаптируется под основание.' },
-      { q: 'Сколько ждать решение по karcie pobytu в Mazowieckim Urzędzie Wojewódzkim?', a: 'Официальный срок — до 90 дней. Реально в Mazowieckim Urzędzie Wojewódzkim в 2026 году решение выдаётся за 8–14 месяцев. При корректной подаче через MOS v2.0 и без uzupełnień первая стадия (przyjęcie wniosku) занимает 3–6 недель.' },
-      { q: 'Что такое MOS v2.0 и обязательно ли подавать через него?', a: 'MOS v2.0 — это новая государственная электронная система для иностранцев, заменившая inPOL с декабря 2025. С 2026 года это единственный канал подачи wniosku о karcie czasowego pobytu. Бумажную подачу воеводы больше не принимают.' },
-      { q: 'Можно ли работать во время рассмотрения karta pobytu?', a: 'Да, если вы подавались на основании работы и на момент подачи уже имели zezwolenie na pracę. В остальных случаях нужно соблюдать правила вашего предыдущего разрешения на пребывание. UPO (электронное подтверждение приёма) легализует пребывание, но не автоматически даёт право на работу.' },
-      { q: 'Какая минимальная зарплата для основания "работа" в 2026 году?', a: '4 806 PLN brutto в месяц (минимальная зарплата с 1 января 2026). Контракты, подписанные на меньшую сумму в 2025, нужно обновить через aneks. Для Niebieskiej Karty UE — 1,5× средней зарплаты по Польше.' },
+      { q: 'Какие документы нужны на карту побыту в Польше в 2026 году?', a: 'Заполненный wniosek (заявление) по форме MOS v2.0, загранпаспорт, 4 биометрических фото 35×45 мм, подтверждение основания (umowa o pracę (трудовой договор) / договор Sp. z o.o. (ООО) / справка из вуза), подтверждение жилья и meldunkу (регистрации по адресу), медстраховка с покрытием от 30 000 €, подтверждение оплаты opłaty skarbowej (госпошлины) 340 PLN. Полный пакет адаптируется под основание.' },
+      { q: 'Сколько ждать решение по karcie pobytu в Mazowieckim Urzędzie Wojewódzkim?', a: 'Официальный срок — до 90 дней. Реально в Mazowieckim Urzędzie Wojewódzkim (Мазовецком воеводском управлении) в 2026 году решение выдаётся за 8–14 месяцев. При корректной подаче через MOS v2.0 и без uzupełnień (дозапросов документов) первая стадия (przyjęcie wniosku — приём заявления) занимает 3–6 недель.' },
+      { q: 'Что такое MOS v2.0 и обязательно ли подавать через него?', a: 'MOS v2.0 — это новая государственная электронная система для иностранцев, заменившая inPOL с декабря 2025. С 2026 года это единственный канал подачи wniosku (заявления) о karcie czasowego pobytu (карте временного пребывания). Бумажную подачу воеводы больше не принимают.' },
+      { q: 'Можно ли работать во время рассмотрения karta pobytu?', a: 'Да, если вы подавались на основании работы и на момент подачи уже имели zezwolenie na pracę (разрешение на работу). В остальных случаях нужно соблюдать правила вашего предыдущего разрешения на пребывание. UPO (электронное подтверждение приёма) легализует пребывание, но не автоматически даёт право на работу.' },
+      { q: 'Какая минимальная зарплата для основания "работа" в 2026 году?', a: '4 806 PLN brutto в месяц (минимальная зарплата с 1 января 2026). Контракты, подписанные на меньшую сумму в 2025, нужно обновить через aneks (дополнительное соглашение). Для Niebieskiej Karty UE (Голубой карты ЕС) — 1,5× средней зарплаты по Польше.' },
       { q: 'Можно ли подать на karta pobytu, находясь за границей?', a: 'Нет. Заявление подаётся лично в Польше — на момент подачи у вас должно быть законное основание пребывания (виза D или безвиз). Подготовить пакет можно дистанционно, и подать в день приезда.' }
     ],
     pl: [
@@ -29,19 +29,19 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy mogę złożyć wniosek z zagranicy?', a: 'Nie. Wniosek składa się osobiście w Polsce — w chwili złożenia musisz mieć ważną podstawę pobytu (wiza D lub ruch bezwizowy). Pakiet możemy przygotować zdalnie i odebrać Cię w dniu przylotu.' }
     ],
     en: [
-      { q: 'What documents are needed for a Polish residence card in 2026?', a: 'A MOS v2.0 application form, passport, four biometric photos 35×45 mm, proof of grounds (employment contract / Sp. z o.o. shareholding / university confirmation), proof of accommodation and meldunek, health insurance with at least €30,000 cover, and proof of the 340 PLN stamp duty. Specifics depend on the grounds.' },
+      { q: 'What documents are needed for a Polish residence card in 2026?', a: 'A MOS v2.0 application form (wniosek), passport, four biometric photos 35×45 mm, proof of grounds (employment contract / Sp. z o.o. (LLC) shareholding / university confirmation), proof of accommodation and meldunek (address registration), health insurance with at least €30,000 cover, and proof of the 340 PLN stamp duty. Specifics depend on the grounds.' },
       { q: 'How long does the residence card decision take in Mazowieckie Voivodeship?', a: 'Statutory limit: 90 days. In practice in Mazowieckie in 2026, the decision arrives in 8–14 months. The first stage — acceptance in MOS v2.0 — takes 3–6 weeks.' },
-      { q: 'What is MOS v2.0 and is it the only filing channel?', a: 'MOS v2.0 is the new state e-platform for foreigners, replacing inPOL from December 2025. From 2026 it is the only channel — voivodes no longer accept paper applications.' },
-      { q: 'Can I work while my Karta Pobytu is being processed?', a: 'Yes, if your grounds are work-based and you already had a work permit when filing. The UPO certificate legalises stay but does not automatically grant a work right.' },
-      { q: 'What is the minimum salary for the "work" basis in 2026?', a: 'PLN 4,806 gross per month (the minimum wage from 1 January 2026). Older contracts at lower amounts need an amendment (aneks). EU Blue Card requires 1.5× the national average.' },
+      { q: 'What is MOS v2.0 and is it the only filing channel?', a: 'MOS v2.0 is the new state e-platform for foreigners, replacing inPOL from December 2025. From 2026 it is the only channel — wojewody (regional governors) no longer accept paper applications.' },
+      { q: 'Can I work while my Karta Pobytu (residence card) is being processed?', a: 'Yes, if your grounds are work-based and you already had a work permit when filing. The UPO certificate legalises stay but does not automatically grant a work right.' },
+      { q: 'What is the minimum salary for the "work" basis in 2026?', a: 'PLN 4,806 gross per month (the minimum wage from 1 January 2026). Older contracts at lower amounts need an amendment (aneks). EU Blue Card (Niebieska Karta UE) requires 1.5× the national average.' },
       { q: 'Can I apply for Karta Pobytu from outside Poland?', a: 'No. The application is filed in person in Poland — you must have a valid stay basis (D-visa or visa-free) at the moment of filing. We can prepare the file remotely and meet you on arrival.' }
     ]
   },
 
   'karta-pobytu-dlya-detey-2026': {
     ru: [
-      { q: 'Кто подаёт заявление на karta pobytu для ребёнка-иностранца?', a: 'Wniosek подают оба законных представителя — обычно родители. Если родитель один, нужно решение суда об ограничении прав другого родителя или согласие на выезд / пребывание. Подача — через MOS v2.0 от имени ребёнка.' },
-      { q: 'Сколько стоит карта побыту для ребёнка?', a: 'Госпошлина — 340 PLN за wniosek + 100 PLN за пластик. Дети до 16 лет освобождаются от opłaty skarbowej по части оснований (łączenie rodzin). Точную сумму проверяет воевода при подаче.' },
+      { q: 'Кто подаёт заявление на karta pobytu для ребёнка-иностранца?', a: 'Wniosek (заявление) подают оба законных представителя — обычно родители. Если родитель один, нужно решение суда об ограничении прав другого родителя или согласие на выезд / пребывание. Подача — через MOS v2.0 от имени ребёнка.' },
+      { q: 'Сколько стоит карта побыту для ребёнка?', a: 'Госпошлина — 340 PLN за wniosek (заявление) + 100 PLN за пластик. Дети до 16 лет освобождаются от opłaty skarbowej (госпошлины) по части оснований (łączenie rodzin — воссоединение семьи). Точную сумму проверяет wojewoda (воевода) при подаче.' },
       { q: 'Можно ли получить TRC ребёнку, если у родителей только виза D?', a: 'Только если родитель подаёт на TRC одновременно или уже подал. Без основания у одного из родителей у ребёнка нет своего основания. Исключение — польское происхождение или гражданство второго родителя.' },
       { q: 'На какой срок выдаётся карта побыту ребёнку?', a: 'До совершеннолетия родителя-обладателя TRC, но не дольше 3 лет. После 18 лет ребёнок подаёт самостоятельно — обычно по студенческому или рабочему основанию.' }
     ],
@@ -53,7 +53,7 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'Who applies for a Polish residence card on behalf of a foreign child?', a: 'Both legal representatives apply — usually parents. A single parent needs a court decision restricting the other parent or written consent. Filing goes through MOS v2.0 on the child\'s behalf.' },
-      { q: 'How much does a residence card cost for a child?', a: 'PLN 340 stamp duty plus PLN 100 for the card. Children under 16 are exempt from part of the fees on family-reunification grounds. The voivode confirms the amount on filing.' },
+      { q: 'How much does a residence card cost for a child?', a: 'PLN 340 stamp duty plus PLN 100 for the card. Children under 16 are exempt from part of the fees on family-reunification (łączenie rodzin) grounds. The wojewoda (regional governor) confirms the amount on filing.' },
       { q: 'Can a child get a TRC if the parents only hold D-visas?', a: 'Only if a parent files for a TRC at the same time or has already filed. Without a parental basis the child has no own ground. Exception: Polish heritage or second-parent citizenship.' },
       { q: 'How long is a residence card issued to a child?', a: 'Up to the parent\'s card expiry, capped at three years. After 18 the child files independently — usually on student or employment grounds.' }
     ]
@@ -61,10 +61,10 @@ export const BLOG_FAQ: Map = {
 
   'karta-pobytu-privyazka-k-rabotodatelyu': {
     ru: [
-      { q: 'Привязана ли карта побыту к работодателю?', a: 'Да, jednolity TRC по основанию "работа" привязана к конкретному работодателю, должности и зарплате (przyznana decyzją). При смене любого из этих параметров нужно подать zmianę zezwolenia в течение 15 рабочих дней.' },
-      { q: 'Что делать при увольнении с работы по karcie pobytu?', a: 'У вас 30 дней с момента ustanie zatrudnienia, чтобы письменно уведомить воеводу. Карта остаётся действительной, но если за 90 дней (по zwykłej TRC) или 30 дней (Niebieska Karta UE) не найдёте новую работу — wojewoda может отозвать decyzję.' },
-      { q: 'Сколько дней даётся на поиск новой работы по karcie pobytu?', a: 'По обычной karcie czasowego pobytu — 30 дней с увольнения, чтобы уведомить wojewodę, и до 90 дней без работы суммарно за время действия карты. По Niebieskiej Karcie UE — те же 30 дней, всего до 6 месяцев за весь срок карты.' },
-      { q: 'Нужно ли менять karta pobytu при смене работодателя?', a: 'Не нужно менять сам пластик, но нужно подать zmianę zezwolenia (форма проще, чем nowy wniosek). Госпошлина — 220 PLN, без сдачи биометрии. Решение — обычно 30–60 дней.' }
+      { q: 'Привязана ли карта побыту к работодателю?', a: 'Да, jednolity TRC по основанию "работа" привязана к конкретному работодателю, должности и зарплате (przyznana decyzją — присвоена решением). При смене любого из этих параметров нужно подать zmianę zezwolenia (изменение разрешения) в течение 15 рабочих дней.' },
+      { q: 'Что делать при увольнении с работы по karcie pobytu?', a: 'У вас 30 дней с момента ustanie zatrudnienia (прекращения трудовых отношений), чтобы письменно уведомить wojewodę (воеводу). Карта остаётся действительной, но если за 90 дней (по zwykłej TRC — обычной TRC) или 30 дней (Niebieska Karta UE — Голубая карта ЕС) не найдёте новую работу — воевода может отозвать decyzję (решение).' },
+      { q: 'Сколько дней даётся на поиск новой работы по karcie pobytu?', a: 'По обычной karcie czasowego pobytu (карте временного пребывания) — 30 дней с увольнения, чтобы уведомить wojewodę (воеводу), и до 90 дней без работы суммарно за время действия карты. По Niebieskiej Karcie UE (Голубой карте ЕС) — те же 30 дней, всего до 6 месяцев за весь срок карты.' },
+      { q: 'Нужно ли менять karta pobytu при смене работодателя?', a: 'Не нужно менять сам пластик, но нужно подать zmianę zezwolenia (изменение разрешения) — форма проще, чем nowy wniosek (новое заявление). Госпошлина — 220 PLN, без сдачи биометрии. Решение — обычно 30–60 дней.' }
     ],
     pl: [
       { q: 'Czy karta pobytu jest powiązana z pracodawcą?', a: 'Tak, jednolite TRC na podstawie pracy jest przyznawane konkretnemu pracodawcy, stanowisku i wynagrodzeniu. Każda zmiana wymaga wniosku o zmianę zezwolenia w ciągu 15 dni roboczych.' },
@@ -73,20 +73,20 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy trzeba wymieniać kartę pobytu przy zmianie pracodawcy?', a: 'Plastiku nie wymienia się, ale trzeba złożyć wniosek o zmianę zezwolenia. Opłata — 220 PLN, bez nowej biometrii. Decyzja — zwykle 30–60 dni.' }
     ],
     en: [
-      { q: 'Is a Polish residence card tied to a specific employer?', a: 'Yes — a single TRC granted on employment grounds is tied to a specific employer, position and salary. Any change requires a "zmiana zezwolenia" application within 15 working days.' },
-      { q: 'What to do after losing a job on a residence card?', a: 'You have 30 days from termination to notify the voivode in writing. The card stays valid, but if you don\'t find new work within 90 days (TRC) or 30 days (EU Blue Card), the voivode can revoke the decision.' },
-      { q: 'How many days do I have to find new employment?', a: 'On a standard TRC: 30 days to notify the voivode and up to 90 days without work cumulatively. On an EU Blue Card: the same 30 days, with up to 6 months unemployment cumulative.' },
-      { q: 'Do I need a new card when I change employer?', a: 'The card itself is not reissued, but you must file an application for change of permit. Fee: PLN 220, no new biometrics. Decision typically 30–60 days.' }
+      { q: 'Is a Polish residence card tied to a specific employer?', a: 'Yes — a single TRC granted on employment grounds is tied to a specific employer, position and salary. Any change requires a zmiana zezwolenia (change-of-permit) application within 15 working days.' },
+      { q: 'What to do after losing a job on a residence card?', a: 'You have 30 days from termination (ustanie zatrudnienia) to notify the wojewoda (regional governor) in writing. The card stays valid, but if you don\'t find new work within 90 days (TRC) or 30 days (EU Blue Card), the wojewoda can revoke the decyzja (decision).' },
+      { q: 'How many days do I have to find new employment?', a: 'On a standard TRC: 30 days to notify the wojewoda (regional governor) and up to 90 days without work cumulatively. On an EU Blue Card: the same 30 days, with up to 6 months unemployment cumulative.' },
+      { q: 'Do I need a new card when I change employer?', a: 'The card itself is not reissued, but you must file an application for change of permit (zmiana zezwolenia). Fee: PLN 220, no new biometrics. Decision typically 30–60 days.' }
     ]
   },
 
   'karta-stalego-pobytu-pmzh-polsha-2026': {
     ru: [
-      { q: 'Кто может получить karta stałego pobytu в 2026 году?', a: 'Постоянное пребывание оформляют по 5 базовым основаниям: 5 лет непрерывного пребывания, брак с гражданином Польши более 3 лет, польское происхождение, статус беженца с 5 годами проживания, дети граждан Польши. Каждое основание имеет свой пакет документов.' },
-      { q: 'Засчитывается ли время на студенческой визе в 5 лет для PMŻ?', a: 'Только наполовину — по Art. 65 ust. 2 Ustawy o cudzoziemcach. 4 года на студенческой karcie pobytu = 2 года в зачёт 5-летнего срока для karta stałego pobytu.' },
-      { q: 'Нужен ли польский язык для karta stałego pobytu?', a: 'Нет — по 5-летнему сроку или браку язык не требуется. Польский B1 нужен только для гражданства (uznanie / nadanie obywatelstwa).' },
-      { q: 'Сколько ждать karta stałego pobytu в Mazowieckim UW в 2026?', a: 'Официальный срок — до 60 дней. На практике в Mazowieckim Urzędzie Wojewódzkim — 12–18 месяцев. Можно ускорить через ponaglenie do Szefa UdSC и далее skargę na bezczynność do WSA.' },
-      { q: 'Можно ли работать в Польше с karta stałego pobytu без zezwoleniа?', a: 'Да. Karta stałego pobytu даёт безусловное право работать на любого работодателя без zezwolenia na pracę и без обязанности уведомлять wojewodę о смене работы.' }
+      { q: 'Кто может получить karta stałego pobytu (карту постоянного пребывания) в 2026 году?', a: 'Постоянное пребывание оформляют по 5 базовым основаниям: 5 лет непрерывного пребывания, брак с гражданином Польши более 3 лет, польское происхождение, статус беженца с 5 годами проживания, дети граждан Польши. Каждое основание имеет свой пакет документов.' },
+      { q: 'Засчитывается ли время на студенческой визе в 5 лет для PMŻ?', a: 'Только наполовину — по Art. 65 ust. 2 Ustawy o cudzoziemcach (Закона об иностранцах). 4 года на студенческой karcie pobytu (карте пребывания) = 2 года в зачёт 5-летнего срока для karta stałego pobytu (карты постоянного пребывания).' },
+      { q: 'Нужен ли польский язык для karta stałego pobytu?', a: 'Нет — по 5-летнему сроку или браку язык не требуется. Польский B1 нужен только для гражданства (uznanie / nadanie obywatelstwa — признание / предоставление гражданства).' },
+      { q: 'Сколько ждать karta stałego pobytu в Mazowieckim UW в 2026?', a: 'Официальный срок — до 60 дней. На практике в Mazowieckim Urzędzie Wojewódzkim (Мазовецком воеводском управлении) — 12–18 месяцев. Можно ускорить через ponaglenie (жалобу на бездействие) do Szefa UdSC (Главе Управления по делам иностранцев) и далее skargę na bezczynność (жалобу на бездействие) do WSA (Воеводского административного суда).' },
+      { q: 'Можно ли работать в Польше с karta stałego pobytu без zezwoleniа?', a: 'Да. Karta stałego pobytu (карта постоянного пребывания) даёт безусловное право работать на любого работодателя без zezwolenia na pracę (разрешения на работу) и без обязанности уведомлять wojewodę (воеводу) о смене работы.' }
     ],
     pl: [
       { q: 'Kto może otrzymać kartę stałego pobytu w 2026?', a: '5 podstaw: 5 lat nieprzerwanego pobytu, małżeństwo z obywatelem RP powyżej 3 lat, polskie pochodzenie, status uchodźcy + 5 lat pobytu, dzieci obywateli RP. Każda podstawa ma własny pakiet dokumentów.' },
@@ -96,19 +96,19 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy z kartą stałego pobytu można pracować bez zezwolenia?', a: 'Tak. Karta stałego pobytu daje pełne prawo do pracy u każdego pracodawcy bez zezwolenia i bez obowiązku zawiadamiania wojewody o zmianie pracy.' }
     ],
     en: [
-      { q: 'Who is eligible for Karta Stałego Pobytu in 2026?', a: 'Five primary bases: 5 years of continuous residence, marriage to a Polish citizen for over 3 years, Polish heritage, refugee status with 5 years of stay, and children of Polish citizens. Each basis has its own document set.' },
+      { q: 'Who is eligible for Karta Stałego Pobytu (permanent residence card) in 2026?', a: 'Five primary bases: 5 years of continuous residence, marriage to a Polish citizen for over 3 years, Polish heritage, refugee status with 5 years of stay, and children of Polish citizens. Each basis has its own document set.' },
       { q: 'Does student-visa time count toward the 5 years for permanent residence?', a: 'Only at half-rate under Article 65(2) of the Law on Foreigners. Four years on a student card counts as two toward the 5-year requirement.' },
-      { q: 'Is Polish language required for permanent residence?', a: 'No — neither for the 5-year nor the marriage basis. A Polish B1 certificate is required only for citizenship (uznanie / nadanie).' },
-      { q: 'How long does the permanent-residence decision take in 2026?', a: 'Statutory limit: 60 days. In Mazowieckie Voivodeship: 12–18 months in practice. Acceleration is possible via a "ponaglenie" to the Head of UdSC and a "skarga na bezczynność" to the WSA.' },
-      { q: 'Can I work without a permit on a Karta Stałego Pobytu?', a: 'Yes. Permanent residence grants the unconditional right to work for any employer without a work permit and without notifying the voivode of changes.' }
+      { q: 'Is Polish language required for permanent residence?', a: 'No — neither for the 5-year nor the marriage basis. A Polish B1 certificate is required only for citizenship (uznanie / nadanie — recognition / grant).' },
+      { q: 'How long does the permanent-residence decision take in 2026?', a: 'Statutory limit: 60 days. In Mazowieckie Voivodeship: 12–18 months in practice. Acceleration is possible via a ponaglenie (urgency motion) to the Szef UdSC (Head of the Office for Foreigners) and a skarga na bezczynność (complaint about inaction) to the WSA (Voivodeship Administrative Court).' },
+      { q: 'Can I work without a permit on a Karta Stałego Pobytu?', a: 'Yes. Permanent residence grants the unconditional right to work for any employer without a zezwolenie na pracę (work permit) and without notifying the wojewoda (regional governor) of changes.' }
     ]
   },
 
   'karta-stalego-pobytu-vs-rezident-eu': {
     ru: [
-      { q: 'В чём разница karta stałego pobytu и długoterminowy rezydent UE?', a: 'Karta stałego pobytu действует только в Польше, выдаётся за связь с РП (брак, происхождение, длительное пребывание). Rezydent długoterminowy UE — европейский статус по Директиве 2003/109/EC, даёт право жить и работать в любой стране ЕС после 12 месяцев в новой стране.' },
-      { q: 'Что лучше — PMŻ или статус długoterminowego rezydenta UE?', a: 'Если планируете жить только в Польше — PMŻ оформляется быстрее и по тем же основаниям. Если есть планы на Германию, Францию или другую страну ЕС — статус długoterminowy rezydent UE даёт мобильность.' },
-      { q: 'Можно ли иметь karta stałego pobytu и długoterminowy rezydent UE одновременно?', a: 'Нет. По польскому праву это разные пластики, и статус rezydenta UE заменяет PMŻ. На практике большинство иностранцев выбирают одну из двух карт по своему сценарию.' }
+      { q: 'В чём разница karta stałego pobytu (карта постоянного пребывания) и długoterminowy rezydent UE (долгосрочный резидент ЕС)?', a: 'Karta stałego pobytu действует только в Польше, выдаётся за связь с РП (брак, происхождение, длительное пребывание). Rezydent długoterminowy UE — европейский статус по Директиве 2003/109/EC, даёт право жить и работать в любой стране ЕС после 12 месяцев в новой стране.' },
+      { q: 'Что лучше — PMŻ или статус długoterminowego rezydenta UE (долгосрочного резидента ЕС)?', a: 'Если планируете жить только в Польше — PMŻ оформляется быстрее и по тем же основаниям. Если есть планы на Германию, Францию или другую страну ЕС — статус długoterminowy rezydent UE даёт мобильность.' },
+      { q: 'Можно ли иметь karta stałego pobytu (карту постоянного пребывания) и długoterminowy rezydent UE одновременно?', a: 'Нет. По польскому праву это разные пластики, и статус rezydenta UE заменяет PMŻ. На практике большинство иностранцев выбирают одну из двух карт по своему сценарию.' }
     ],
     pl: [
       { q: 'Czym różni się karta stałego pobytu od rezydenta długoterminowego UE?', a: 'Karta stałego pobytu obowiązuje tylko w Polsce, wydawana za więź z RP. Rezydent długoterminowy UE to status unijny z dyrektywy 2003/109/WE — pozwala żyć i pracować w innym państwie UE po 12 miesiącach pobytu tam.' },
@@ -124,10 +124,10 @@ export const BLOG_FAQ: Map = {
 
   'kak-podat-zayavlenie-mos-2-0': {
     ru: [
-      { q: 'Как зайти в систему MOS v2.0?', a: 'Логин — через Profil Zaufany, login.gov.pl, e-dowód или mDowód. Без одного из этих идентификаторов в систему не попадёшь. Profil Zaufany оформляется через банк (mBank, PKO, ING) или в urzędzie gminy с PESEL.' },
-      { q: 'Что делать, если MOS v2.0 не принимает документы?', a: 'Проверьте формат (PDF/A или JPG до 5 MB на файл), правильность подписи (ePUAP / qualified signature) и совпадение данных в wniosku и załącznikach. Большинство ошибок — это слишком тяжёлые сканы или несовпадающие даты рождения.' },
-      { q: 'Можно ли подать wniosek в MOS v2.0 без PESEL?', a: 'Можно, но в анкете нужно указать причину отсутствия PESEL и приложить копию паспорта со штампом въезда. Чаще всего PESEL получают параллельно — без него трудно с zameldowaniem и медстраховкой.' },
-      { q: 'Как отслеживать статус заявления в MOS v2.0?', a: 'В личном кабинете MOS v2.0 — раздел "Status sprawy". Параллельно уведомления приходят на eDoręczenia. Звонить в воеводу или через biuro podawcze больше нельзя — все коммуникации через систему.' }
+      { q: 'Как зайти в систему MOS v2.0?', a: 'Логин — через Profil Zaufany (доверенный профиль), login.gov.pl, e-dowód или mDowód. Без одного из этих идентификаторов в систему не попадёшь. Profil Zaufany оформляется через банк (mBank, PKO, ING) или в urzędzie gminy (городском управлении) с PESEL.' },
+      { q: 'Что делать, если MOS v2.0 не принимает документы?', a: 'Проверьте формат (PDF/A или JPG до 5 MB на файл), правильность подписи (ePUAP / qualified signature) и совпадение данных в wniosku (заявлении) и załącznikach (приложениях). Большинство ошибок — это слишком тяжёлые сканы или несовпадающие даты рождения.' },
+      { q: 'Можно ли подать wniosek в MOS v2.0 без PESEL?', a: 'Можно, но в анкете нужно указать причину отсутствия PESEL и приложить копию паспорта со штампом въезда. Чаще всего PESEL получают параллельно — без него трудно с zameldowaniem (регистрацией по адресу) и медстраховкой.' },
+      { q: 'Как отслеживать статус заявления в MOS v2.0?', a: 'В личном кабинете MOS v2.0 — раздел "Status sprawy" (статус дела). Параллельно уведомления приходят на eDoręczenia. Звонить в wojewodę (воеводу) или через biuro podawcze (канцелярию) больше нельзя — все коммуникации через систему.' }
     ],
     pl: [
       { q: 'Jak zalogować się do MOS v2.0?', a: 'Logowanie przez Profil Zaufany, login.gov.pl, e-dowód lub mDowód. Bez tych identyfikatorów nie wejdziesz. Profil Zaufany założysz przez bank (mBank, PKO, ING) lub w urzędzie gminy.' },
@@ -136,19 +136,19 @@ export const BLOG_FAQ: Map = {
       { q: 'Jak śledzić status wniosku w MOS v2.0?', a: 'W panelu MOS v2.0 — sekcja "Status sprawy". Powiadomienia idą też na eDoręczenia. Telefon do wojewody nie pomaga — wszystko przez system.' }
     ],
     en: [
-      { q: 'How do I log into MOS v2.0?', a: 'Login goes through Profil Zaufany, login.gov.pl, e-dowód or mDowód. Without one of these identifiers you cannot enter. Profil Zaufany can be set up via Polish banks (mBank, PKO, ING) or at a gmina office.' },
+      { q: 'How do I log into MOS v2.0?', a: 'Login goes through Profil Zaufany (Trusted Profile), login.gov.pl, e-dowód or mDowód. Without one of these identifiers you cannot enter. Profil Zaufany can be set up via Polish banks (mBank, PKO, ING) or at a gmina (municipal) office.' },
       { q: 'What to do when MOS v2.0 rejects documents?', a: 'Check the format (PDF/A or JPG up to 5 MB), the signature (ePUAP or a qualified e-signature), and that the data on the application matches the attachments. Common errors: oversized scans and date-of-birth mismatches.' },
-      { q: 'Can I file via MOS v2.0 without PESEL?', a: 'Yes, but the form requires a reason and a passport copy with the entry stamp. Most applicants obtain PESEL in parallel — without it, meldunek and health insurance are difficult.' },
-      { q: 'How do I track the status of a MOS v2.0 application?', a: 'Inside the MOS v2.0 cabinet, in "Status sprawy". Notifications also arrive via eDoręczenia. Phone calls to the voivodeship are no longer effective — all communication is through the platform.' }
+      { q: 'Can I file via MOS v2.0 without PESEL?', a: 'Yes, but the form requires a reason and a passport copy with the entry stamp. Most applicants obtain PESEL in parallel — without it, meldunek (address registration) and health insurance are difficult.' },
+      { q: 'How do I track the status of a MOS v2.0 application?', a: 'Inside the MOS v2.0 cabinet, in "Status sprawy" (Case status). Notifications also arrive via eDoręczenia. Phone calls to the voivodeship are no longer effective — all communication is through the platform.' }
     ]
   },
 
   'eu-blue-card-vs-karta-pobytu-2026': {
     ru: [
-      { q: 'В чём разница EU Blue Card и обычной karta pobytu?', a: 'EU Blue Card — европейская карта для высококвалифицированных специалистов с зарплатой от 1,5× средней по стране и высшим образованием. Обычная karta czasowego pobytu — национальный документ Польши, без требования по образованию. Blue Card даёт мобильность по ЕС после 12 месяцев.' },
+      { q: 'В чём разница EU Blue Card и обычной karta pobytu?', a: 'EU Blue Card — европейская карта для высококвалифицированных специалистов с зарплатой от 1,5× средней по стране и высшим образованием. Обычная karta czasowego pobytu (карта временного пребывания) — национальный документ Польши, без требования по образованию. Blue Card даёт мобильность по ЕС после 12 месяцев.' },
       { q: 'Какая зарплата нужна для EU Blue Card в Польше в 2026?', a: 'Минимум 1,5× средней зарплаты по Польше. В 2026 это около 12 750 PLN brutto/месяц. Для дефицитных профессий (IT, инженерия) — снижено до 1,2× средней. Точную цифру публикует Главное статистическое управление (GUS).' },
-      { q: 'Можно ли с EU Blue Card работать в Германии или Нидерландах?', a: 'Да, после 12 месяцев работы в Польше по Blue Card вы можете подать на Blue Card в любой другой стране ЕС по упрощённой процедуре. Это главное преимущество перед национальной karcie pobytu.' },
-      { q: 'Сколько стоит и как долго оформляется EU Blue Card?', a: 'Госпошлина — 440 PLN (340 wniosek + 100 пластик). Срок — официально до 60 дней (для Blue Card), реально 3–5 месяцев в Mazowieckim UW. Это быстрее обычной TRC за счёт ускоренной процедуры.' }
+      { q: 'Можно ли с EU Blue Card работать в Германии или Нидерландах?', a: 'Да, после 12 месяцев работы в Польше по Blue Card вы можете подать на Blue Card в любой другой стране ЕС по упрощённой процедуре. Это главное преимущество перед национальной karcie pobytu (картой пребывания).' },
+      { q: 'Сколько стоит и как долго оформляется EU Blue Card?', a: 'Госпошлина — 440 PLN (340 wniosek (заявление) + 100 пластик). Срок — официально до 60 дней (для Blue Card), реально 3–5 месяцев в Mazowieckim UW (Мазовецком воеводском управлении). Это быстрее обычной TRC за счёт ускоренной процедуры.' }
     ],
     pl: [
       { q: 'Jaka jest różnica między Niebieską Kartą UE a kartą pobytu?', a: 'Niebieska Karta UE — unijny dokument dla wysoko wykwalifikowanych pracowników z pensją 1,5× średniej krajowej i wyższym wykształceniem. Standardowa karta czasowego pobytu — krajowa, bez wymogu wykształcenia. Niebieska Karta daje mobilność w UE po 12 miesiącach.' },
@@ -166,10 +166,10 @@ export const BLOG_FAQ: Map = {
 
   'otkaz-po-karte-pobytu': {
     ru: [
-      { q: 'Что делать при отказе в karcie pobytu?', a: 'У вас 14 дней с момента доставки decyzji через eDoręczenia, чтобы подать odwołanie do Szefa Urzędu do Spraw Cudzoziemców. Срок жёсткий — пропуск означает прекращение дела. Параллельно остановите выезд из Польши.' },
-      { q: 'Какие самые частые причины отказа в karcie pobytu в 2026?', a: 'Niespełnienie wynagrodzenia (зарплата ниже минимальной или средней для Blue Card), несоответствие основания работы, ошибки в meldunku и адресе, недостающие документы (zaświadczenie z ZUS, страховка), непрохождение rozmowy weryfikacyjnej в Urzędzie.' },
-      { q: 'Сколько стоит апелляция karta pobytu?', a: 'Сама подача odwołania — бесплатно. Услуги консультанта по сопровождению — от 1 800 до 4 500 PLN в зависимости от сложности. При выходе на skargę do WSA — добавится opłata sądowa 200 PLN.' },
-      { q: 'Могу ли я остаться в Польше во время апелляции?', a: 'Да. Подача odwołania в срок продлевает право на пребывание до решения Szefa UdSC. UPO остаётся действительным. Но право на работу — нет: оно прекращается с decyzją odmowną, если основание было — работа.' }
+      { q: 'Что делать при отказе в karcie pobytu?', a: 'У вас 14 дней с момента доставки decyzji (решения) через eDoręczenia, чтобы подать odwołanie (апелляцию) do Szefa Urzędu do Spraw Cudzoziemców (Главе Управления по делам иностранцев). Срок жёсткий — пропуск означает прекращение дела. Параллельно остановите выезд из Польши.' },
+      { q: 'Какие самые частые причины отказа в karcie pobytu в 2026?', a: 'Niespełnienie wynagrodzenia (несоответствие зарплаты — ниже минимальной или средней для Blue Card), несоответствие основания работы, ошибки в meldunku (регистрации по адресу), недостающие документы (zaświadczenie z ZUS — справка из ZUS, страховка), непрохождение rozmowy weryfikacyjnej (верификационного собеседования) в Urzędzie (управлении).' },
+      { q: 'Сколько стоит апелляция karta pobytu?', a: 'Сама подача odwołania (апелляции) — бесплатно. Услуги консультанта по сопровождению — от 1 800 до 4 500 PLN в зависимости от сложности. При выходе на skargę do WSA (жалобу в Воеводский административный суд) — добавится opłata sądowa (судебный сбор) 200 PLN.' },
+      { q: 'Могу ли я остаться в Польше во время апелляции?', a: 'Да. Подача odwołania (апелляции) в срок продлевает право на пребывание до решения Szefa UdSC (Главы Управления по делам иностранцев). UPO остаётся действительным. Но право на работу — нет: оно прекращается с decyzją odmowną (отказным решением), если основание было — работа.' }
     ],
     pl: [
       { q: 'Co zrobić przy odmowie karty pobytu?', a: 'Masz 14 dni od doręczenia przez eDoręczenia, by złożyć odwołanie do Szefa UdSC. Termin nie podlega przywróceniu. Równolegle wstrzymaj wyjazd z Polski.' },
@@ -178,18 +178,18 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy mogę zostać w Polsce w trakcie apelacji?', a: 'Tak. Odwołanie w terminie przedłuża pobyt do rozstrzygnięcia Szefa UdSC. UPO jest ważne, ale prawo do pracy gaśnie z chwilą odmowy.' }
     ],
     en: [
-      { q: 'What do you do after a Karta Pobytu refusal?', a: 'You have 14 days from delivery of the decision via eDoręczenia to file an "odwołanie" to the Head of UdSC. The deadline is strict — missing it ends the case. In parallel, postpone any travel out of Poland.' },
-      { q: 'What are the most common reasons for refusal in 2026?', a: 'Salary below the minimum or below 1.5× the national average for the Blue Card, mismatch between the work basis and the actual contract, meldunek address errors, missing ZUS or insurance certificates, and failed verification interviews.' },
-      { q: 'How much does an appeal cost?', a: 'The appeal itself is free. Consultant services run PLN 1,800–4,500. A WSA complaint adds a PLN 200 court fee.' },
-      { q: 'Can I stay in Poland during the appeal?', a: 'Yes. A timely appeal extends your right of residence until the Head of UdSC rules. The UPO remains valid, but the work right is lost the moment of the negative decision if the basis was employment.' }
+      { q: 'What do you do after a Karta Pobytu refusal?', a: 'You have 14 days from delivery of the decyzja (decision) via eDoręczenia to file an odwołanie (appeal) to the Szef UdSC (Head of the Office for Foreigners). The deadline is strict — missing it ends the case. In parallel, postpone any travel out of Poland.' },
+      { q: 'What are the most common reasons for refusal in 2026?', a: 'Salary below the minimum or below 1.5× the national average for the Blue Card, mismatch between the work basis and the actual contract, meldunek (address registration) errors, missing ZUS or insurance certificates, and failed verification interviews.' },
+      { q: 'How much does an appeal cost?', a: 'The odwołanie (appeal) itself is free. Consultant services run PLN 1,800–4,500. A WSA (Voivodeship Administrative Court) complaint adds a PLN 200 court fee.' },
+      { q: 'Can I stay in Poland during the appeal?', a: 'Yes. A timely odwołanie (appeal) extends your right of residence until the Szef UdSC (Head of the Office for Foreigners) rules. The UPO remains valid, but the work right is lost the moment of the negative decision if the basis was employment.' }
     ]
   },
 
   'uskorenie-karty-pobytu-ponaglenie-wsa': {
     ru: [
-      { q: 'Как ускорить выдачу karta pobytu?', a: 'Если воевода нарушил срок (60–90 дней) — подавайте ponaglenie do Szefa Urzędu do Spraw Cudzoziemców. Если ponaglenie не помогло — skargę na bezczynność do Wojewódzkiego Sądu Administracyjnego (WSA). Суд может обязать воеводу решить дело за 14–30 дней.' },
-      { q: 'Что такое ponaglenie и когда его подавать?', a: 'Ponaglenie — это формальная жалоба на bezczynność (бездействие) органа. Подаётся через того же воеводу, который рассматривает дело, на адрес Szefa Urzędu do Spraw Cudzoziemców. Подавать имеет смысл по истечении ustawowego termin (60 или 90 дней).' },
-      { q: 'Сколько стоит skarga do WSA?', a: 'Opłata sądowa — 200 PLN (фиксированная для skarg na bezczynność). Услуги адвоката — от 1 500 PLN. При выигрыше суд возвращает opłatę и часть расходов на представителя.' }
+      { q: 'Как ускорить выдачу karta pobytu?', a: 'Если wojewoda (воевода) нарушил срок (60–90 дней) — подавайте ponaglenie (жалобу на бездействие) do Szefa Urzędu do Spraw Cudzoziemców (Главе Управления по делам иностранцев). Если ponaglenie не помогло — skargę na bezczynność (жалобу на бездействие) do Wojewódzkiego Sądu Administracyjnego (Воеводского административного суда, WSA). Суд может обязать воеводу решить дело за 14–30 дней.' },
+      { q: 'Что такое ponaglenie и когда его подавать?', a: 'Ponaglenie (жалоба на бездействие) — это формальная жалоба на bezczynność (бездействие) органа. Подаётся через того же wojewodу (воеводу), который рассматривает дело, на адрес Szefa Urzędu do Spraw Cudzoziemców (Главы Управления по делам иностранцев). Подавать имеет смысл по истечении ustawowego termin (установленного законом срока — 60 или 90 дней).' },
+      { q: 'Сколько стоит skarga do WSA?', a: 'Opłata sądowa (судебный сбор) — 200 PLN (фиксированная для skarg na bezczynność — жалоб на бездействие). Услуги адвоката — от 1 500 PLN. При выигрыше суд возвращает opłatę (сбор) и часть расходов на представителя.' }
     ],
     pl: [
       { q: 'Jak przyspieszyć wydanie karty pobytu?', a: 'Po przekroczeniu terminu ustawowego (60 lub 90 dni) złóż ponaglenie do Szefa UdSC. Jeśli to nie pomoże — skarga na bezczynność do WSA. Sąd może zobowiązać wojewodę do rozstrzygnięcia w 14–30 dni.' },
@@ -197,17 +197,17 @@ export const BLOG_FAQ: Map = {
       { q: 'Ile kosztuje skarga do WSA?', a: 'Opłata sądowa — 200 PLN. Usługi konsultanta od 1 500 PLN. Po wygranej sąd zwraca opłatę i część kosztów zastępstwa.' }
     ],
     en: [
-      { q: 'How can I accelerate a residence-card decision?', a: 'After the statutory deadline (60 or 90 days), file a ponaglenie to the Head of UdSC. If that fails, file a "skarga na bezczynność" with the WSA — the court can order the voivode to decide within 14–30 days.' },
-      { q: 'What is a ponaglenie and when do you file it?', a: 'A ponaglenie is a formal complaint about the authority\'s inaction. It is filed through the same voivode and addressed to the Head of UdSC after the statutory deadline expires.' },
+      { q: 'How can I accelerate a residence-card decision?', a: 'After the statutory deadline (60 or 90 days), file a ponaglenie (urgency motion) to the Szef UdSC (Head of the Office for Foreigners). If that fails, file a skarga na bezczynność (complaint about inaction) with the WSA (Voivodeship Administrative Court) — the court can order the wojewoda (regional governor) to decide within 14–30 days.' },
+      { q: 'What is a ponaglenie and when do you file it?', a: 'A ponaglenie (urgency motion) is a formal complaint about the authority\'s inaction. It is filed through the same wojewoda and addressed to the Szef UdSC (Head of the Office for Foreigners) after the statutory deadline expires.' },
       { q: 'How much does a WSA complaint cost?', a: 'A flat court fee of PLN 200. Legal representation from PLN 1,500. If you win, the court refunds the fee and part of the representation cost.' }
     ]
   },
 
   'perehod-s-ukr-na-rabochuyu-kartu-pobytu': {
     ru: [
-      { q: 'Как украинцу перейти с UKR на рабочую karta pobytu?', a: 'Найти польского работодателя, получить zezwolenie na pracę типа A или powiadomienie (для работы с польским пасспортом по UKR), подать wniosek через MOS v2.0 в течение действия статуса UKR. Статус UKR продлён до 4 марта 2026.' },
-      { q: 'Когда заканчивается статус UKR в Польше?', a: 'Текущая редакция Ustawy o pomocy obywatelom Ukrainy продлевает статус UKR до 4 марта 2026. Дальнейшие продления зависят от решений ЕС и польского правительства.' },
-      { q: 'Можно ли подать на TRC, оставаясь на UKR?', a: 'Да, и это рекомендуется. Подача wniosku через MOS v2.0 не отменяет статус UKR — оба статуса действуют параллельно до получения karta pobytu или решения по ней.' }
+      { q: 'Как украинцу перейти с UKR на рабочую karta pobytu?', a: 'Найти польского работодателя, получить zezwolenie na pracę (разрешение на работу) типа A или powiadomienie (уведомление, для работы с польским пасспортом по UKR), подать wniosek (заявление) через MOS v2.0 в течение действия статуса UKR. Статус UKR продлён до 4 марта 2026.' },
+      { q: 'Когда заканчивается статус UKR в Польше?', a: 'Текущая редакция Ustawy o pomocy obywatelom Ukrainy (Закона о помощи гражданам Украины) продлевает статус UKR до 4 марта 2026. Дальнейшие продления зависят от решений ЕС и польского правительства.' },
+      { q: 'Можно ли подать на TRC, оставаясь на UKR?', a: 'Да, и это рекомендуется. Подача wniosku (заявления) через MOS v2.0 не отменяет статус UKR — оба статуса действуют параллельно до получения karta pobytu (карты пребывания) или решения по ней.' }
     ],
     pl: [
       { q: 'Jak Ukrainiec może przejść z UKR na kartę pobytu pracowniczą?', a: 'Znaleźć polskiego pracodawcę, uzyskać zezwolenie na pracę typu A lub powiadomienie, złożyć wniosek przez MOS v2.0 w trakcie ważności statusu UKR.' },
@@ -215,7 +215,7 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy mogę złożyć wniosek o TRC pozostając na UKR?', a: 'Tak. Złożenie wniosku przez MOS v2.0 nie anuluje statusu UKR — oba statusy działają równolegle do decyzji.' }
     ],
     en: [
-      { q: 'How does a Ukrainian switch from UKR status to a work-based residence card?', a: 'Find a Polish employer, obtain a type-A work permit or a powiadomienie filing, and submit a residence-card application via MOS v2.0 while the UKR status is still valid. UKR is extended to 4 March 2026.' },
+      { q: 'How does a Ukrainian switch from UKR status to a work-based residence card?', a: 'Find a Polish employer, obtain a type-A work permit or a powiadomienie (notification) filing, and submit a residence-card application via MOS v2.0 while the UKR status is still valid. UKR is extended to 4 March 2026.' },
       { q: 'When does UKR status end in Poland?', a: 'The current version of the Ukrainian Assistance Act extends UKR status to 4 March 2026. Further extensions depend on EU and Polish government decisions.' },
       { q: 'Can I apply for a TRC while still on UKR?', a: 'Yes, and it is recommended. Filing in MOS v2.0 does not cancel UKR status — the two statuses run in parallel until the decision.' }
     ]
@@ -223,9 +223,9 @@ export const BLOG_FAQ: Map = {
 
   'perehod-so-studencheskoy-vizy-na-kartu-pobytu': {
     ru: [
-      { q: 'Можно ли перейти со студенческой визы на karta pobytu в Польше?', a: 'Да. Подача wniosku через MOS v2.0 возможна в любой момент, пока ваша студенческая виза или karta pobytu studencka действительна. Основания: продолжение учёбы, работа, бизнес, брак.' },
-      { q: 'Засчитывается ли студенческое время в стаж для PMŻ?', a: 'Только наполовину — по Art. 65 ust. 2 Ustawy o cudzoziemcach. Это значит 4 года студенческой karty pobytu = 2 года в зачёт 5-летнего срока для karta stałego pobytu.' },
-      { q: 'Можно ли работать на студенческой karcie pobytu?', a: 'Да, без zezwolenia na pracę — на любой должности, включая umowę o pracę, zlecenie, dzieło и собственную JDG (с TRC). Но карта остаётся выданной по основанию учёбы — отчисление приведёт к её отзыву.' }
+      { q: 'Можно ли перейти со студенческой визы на karta pobytu в Польше?', a: 'Да. Подача wniosku (заявления) через MOS v2.0 возможна в любой момент, пока ваша студенческая виза или karta pobytu studencka (студенческая карта пребывания) действительна. Основания: продолжение учёбы, работа, бизнес, брак.' },
+      { q: 'Засчитывается ли студенческое время в стаж для PMŻ?', a: 'Только наполовину — по Art. 65 ust. 2 Ustawy o cudzoziemcach (Закона об иностранцах). Это значит 4 года студенческой karty pobytu (карты пребывания) = 2 года в зачёт 5-летнего срока для karta stałego pobytu (карты постоянного пребывания).' },
+      { q: 'Можно ли работать на студенческой karcie pobytu?', a: 'Да, без zezwolenia na pracę (разрешения на работу) — на любой должности, включая umowę o pracę (трудовой договор), zlecenie (договор поручения), dzieło (договор подряда) и собственную JDG (ИП, с TRC). Но карта остаётся выданной по основанию учёбы — отчисление приведёт к её отзыву.' }
     ],
     pl: [
       { q: 'Czy mogę przejść ze studenckiej karty pobytu na rezydenta?', a: 'Tak. Wniosek przez MOS v2.0 można złożyć w trakcie ważności karty studenckiej. Podstawy: kontynuacja studiów, praca, biznes, małżeństwo.' },
@@ -241,10 +241,10 @@ export const BLOG_FAQ: Map = {
 
   'vossoedinenie-semi-polsha-2026-prava-suprugov': {
     ru: [
-      { q: 'Кто может подать на воссоединение семьи в Польше?', a: 'Łączenie rodzin доступно супругам, несовершеннолетним детям и зависимым родителям следующих категорий: граждан РП, обладателей PMŻ, długoterminowego rezydenta UE, beneficjenta международной защиты, обладателей TRC старше 2 лет.' },
-      { q: 'Сколько ждать решение по воссоединению семьи?', a: 'По łączeniu rodzin срок ускоренный — официально до 6 месяцев (по Директиве 2003/86/EC). На практике в Mazowieckim UW — 8–14 месяцев. Можно ускорить через ponaglenie + WSA.' },
-      { q: 'Нужен ли супругу польский язык для воссоединения?', a: 'Нет. Польский B1 не требуется ни на TRC по łączeniu rodzin, ни на PMŻ для супруга гражданина Польши со стажем 3+ года брака.' },
-      { q: 'Может ли супруг работать после получения karta pobytu?', a: 'Да. TRC по łączeniu rodzin даёт неограниченное право на работу — без zezwolenia na pracę и без необходимости менять основание при смене работодателя.' }
+      { q: 'Кто может подать на воссоединение семьи в Польше?', a: 'Łączenie rodzin (воссоединение семьи) доступно супругам, несовершеннолетним детям и зависимым родителям следующих категорий: граждан РП, обладателей PMŻ, długoterminowego rezydenta UE (долгосрочного резидента ЕС), beneficjenta международной защиты, обладателей TRC старше 2 лет.' },
+      { q: 'Сколько ждать решение по воссоединению семьи?', a: 'По łączeniu rodzin (воссоединению семьи) срок ускоренный — официально до 6 месяцев (по Директиве 2003/86/EC). На практике в Mazowieckim UW (Мазовецком воеводском управлении) — 8–14 месяцев. Можно ускорить через ponaglenie (жалобу на бездействие) + WSA (Воеводский административный суд).' },
+      { q: 'Нужен ли супругу польский язык для воссоединения?', a: 'Нет. Польский B1 не требуется ни на TRC по łączeniu rodzin (воссоединению семьи), ни на PMŻ для супруга гражданина Польши со стажем 3+ года брака.' },
+      { q: 'Может ли супруг работать после получения karta pobytu?', a: 'Да. TRC по łączeniu rodzin (воссоединению семьи) даёт неограниченное право на работу — без zezwolenia na pracę (разрешения на работу) и без необходимости менять основание при смене работодателя.' }
     ],
     pl: [
       { q: 'Kto może złożyć wniosek o łączenie rodzin w Polsce?', a: 'Małżonkowie, małoletnie dzieci, zależni rodzice obywateli RP, posiadaczy karty stałego pobytu, rezydenta długoterminowego UE, beneficjentów ochrony międzynarodowej i posiadaczy TRC z 2-letnim stażem.' },
@@ -254,7 +254,7 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'Who can apply for family reunification in Poland?', a: 'Spouses, minor children and dependent parents of: Polish citizens, permanent-residence holders, EU long-term residents, beneficiaries of international protection, and TRC holders with 2+ years of stay.' },
-      { q: 'How long does the family-reunification decision take?', a: 'Statutory: 6 months under Directive 2003/86/EC. In Mazowieckie in practice: 8–14 months. Acceleration through ponaglenie + WSA complaint is available.' },
+      { q: 'How long does the family-reunification decision take?', a: 'Statutory: 6 months under Directive 2003/86/EC. In Mazowieckie in practice: 8–14 months. Acceleration through a ponaglenie (urgency motion) + WSA (Voivodeship Administrative Court) complaint is available.' },
       { q: 'Is Polish required for the spouse?', a: 'No. Polish B1 is not required for the family-reunification TRC or for permanent residence on the marriage basis (3+ years of marriage to a Polish citizen).' },
       { q: 'Can the spouse work after receiving the card?', a: 'Yes. A family-reunification TRC carries an unlimited right to work — no work permit needed and no change of basis when switching employers.' }
     ]
@@ -262,9 +262,9 @@ export const BLOG_FAQ: Map = {
 
   'smena-rabotodatelya-15-30-dney': {
     ru: [
-      { q: 'В какой срок нужно уведомить воеводу о смене работодателя?', a: '15 рабочих дней с момента подписания нового договора. Уведомление подаётся через MOS v2.0 — формат "zmiana decyzji w sprawie zezwolenia na pobyt". Опоздание = потенциальная утрата karta pobytu.' },
-      { q: 'Что будет, если не сообщить о смене работы по karcie pobytu?', a: 'Воевода вправе отозвать decyzję о karcie pobytu. На практике используется выборочно — через 6–18 месяцев с момента смены, при перепроверке status quo. Чтобы избежать риска — подайте zmianę.' },
-      { q: 'Сколько стоит zmiana zezwolenia после смены работы?', a: 'Opłata skarbowa — 220 PLN. Биометрия не нужна. Решение приходит обычно за 30–90 дней. Сам пластик karty не меняется.' }
+      { q: 'В какой срок нужно уведомить воеводу о смене работодателя?', a: '15 рабочих дней с момента подписания нового договора. Уведомление подаётся через MOS v2.0 — формат "zmiana decyzji w sprawie zezwolenia na pobyt" (изменение решения о разрешении на пребывание). Опоздание = потенциальная утрата karta pobytu.' },
+      { q: 'Что будет, если не сообщить о смене работы по karcie pobytu?', a: 'Wojewoda (воевода) вправе отозвать decyzję (решение) о karcie pobytu. На практике используется выборочно — через 6–18 месяцев с момента смены, при перепроверке status quo. Чтобы избежать риска — подайте zmianę (изменение).' },
+      { q: 'Сколько стоит zmiana zezwolenia (изменение разрешения) после смены работы?', a: 'Opłata skarbowa (госпошлина) — 220 PLN. Биометрия не нужна. Решение приходит обычно за 30–90 дней. Сам пластик karty не меняется.' }
     ],
     pl: [
       { q: 'W jakim terminie zawiadomić wojewodę o zmianie pracodawcy?', a: '15 dni roboczych od podpisania nowej umowy — przez MOS v2.0, jako "zmiana decyzji w sprawie zezwolenia na pobyt". Spóźnienie = ryzyko utraty karty.' },
@@ -272,8 +272,8 @@ export const BLOG_FAQ: Map = {
       { q: 'Ile kosztuje zmiana zezwolenia po zmianie pracy?', a: 'Opłata 220 PLN. Bez biometrii. Decyzja zwykle 30–90 dni. Karta nie jest wymieniana.' }
     ],
     en: [
-      { q: 'How quickly must I notify the voivode about a change of employer?', a: '15 working days from signing the new contract — via MOS v2.0 as a "change of permit decision". Late notification can void the card.' },
-      { q: 'What happens if I don\'t report the job change?', a: 'The voivode can revoke the permit. Enforcement is selective — typically during checks 6–18 months after the change. Filing the change is the safe path.' },
+      { q: 'How quickly must I notify the wojewoda (regional governor) about a change of employer?', a: '15 working days from signing the new contract — via MOS v2.0 as a zmiana zezwolenia (change of permit decision). Late notification can void the card.' },
+      { q: 'What happens if I don\'t report the job change?', a: 'The wojewoda (regional governor) can revoke the permit. Enforcement is selective — typically during checks 6–18 months after the change. Filing the change is the safe path.' },
       { q: 'How much does the change-of-permit application cost?', a: 'PLN 220. No new biometrics. Decision usually within 30–90 days. The plastic card is not reissued.' }
     ]
   },
@@ -282,10 +282,10 @@ export const BLOG_FAQ: Map = {
   'karta-polaka-kak-poluchit': {
     ru: [
       { q: 'Кому положена Karta Polaka?', a: 'Лицам, у которых хотя бы один родитель, дед, бабушка или прадед/прабабушка были польской национальности (не путать с гражданством). Plus подтверждение языка (минимум A2 устно), активной связи с польской культурой и декларация о принадлежности к польской нации.' },
-      { q: 'Какие документы нужны для Karty Polaka?', a: 'Метрики предков польской национальности (свидетельства о рождении, браке), архивные справки, школьные/армейские документы с указанием narodowości "polska", ваш паспорт, фото 35×45 мм, biografia (1–2 страницы), wniosek по форме консульства.' },
+      { q: 'Какие документы нужны для Karty Polaka?', a: 'Метрики предков польской национальности (свидетельства о рождении, браке), архивные справки, школьные/армейские документы с указанием narodowości "polska" (национальности "польская"), ваш паспорт, фото 35×45 мм, biografia (1–2 страницы), wniosek (заявление) по форме консульства.' },
       { q: 'Как сдать собеседование на Karta Polaka?', a: 'Беседа с консулом длится 30–60 минут на польском (A2 уровня). Темы: личные данные, семейная история, польская культура (3 короля, 3 поэта, главные праздники), причины обращения. Вопросы — простые, но без польского никак.' },
       { q: 'Сколько ждать решение по Karta Polaka?', a: 'Официальный срок — 60 дней с момента подачи в консульство. На практике 3–9 месяцев в зависимости от очереди. После положительного решения — выдача карты обычно 4–8 недель.' },
-      { q: 'Даёт ли Karta Polaka гражданство Польши?', a: 'Нет, но даёт ускоренный путь: владелец Karty Polaka после переезда в Польшу подаёт сразу на karta stałego pobytu (без 5-летнего стажа), а через 1 год — на nadanie obywatelstwa polskiego.' }
+      { q: 'Даёт ли Karta Polaka гражданство Польши?', a: 'Нет, но даёт ускоренный путь: владелец Karty Polaka после переезда в Польшу подаёт сразу на karta stałego pobytu (карту постоянного пребывания, без 5-летнего стажа), а через 1 год — на nadanie obywatelstwa polskiego (предоставление польского гражданства).' }
     ],
     pl: [
       { q: 'Komu przysługuje Karta Polaka?', a: 'Osobom, których co najmniej jedno z rodziców, dziadków lub pradziadków było narodowości polskiej (nie obywatelstwa). Plus polski na poziomie A2 ustnie, aktywne związki z kulturą polską i deklaracja przynależności do narodu polskiego.' },
@@ -296,7 +296,7 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'Who is eligible for Karta Polaka?', a: 'Anyone with at least one parent, grandparent or great-grandparent of Polish nationality (not citizenship), confirmed Polish at A2 spoken level, active connections to Polish culture, and a declaration of belonging to the Polish nation.' },
-      { q: 'What documents are needed for Karta Polaka?', a: 'Birth/marriage certificates of Polish-nationality ancestors, archival records, school or military documents listing "narodowość polska", your passport, a 35×45 mm photo, a 1–2-page biography, and the consular application form.' },
+      { q: 'What documents are needed for Karta Polaka?', a: 'Birth/marriage certificates of Polish-nationality ancestors, archival records, school or military documents listing "narodowość polska" (Polish nationality), your passport, a 35×45 mm photo, a 1–2-page biography, and the consular application form.' },
       { q: 'What is the Karta Polaka interview like?', a: '30–60 minutes with a consul, in Polish at A2 level. Topics: personal data, family history, Polish culture (three kings, three poets, main holidays), motivation. Simple questions — but in Polish.' },
       { q: 'How long does the Karta Polaka decision take?', a: 'Statutory: 60 days from filing at the consulate. Realistically 3–9 months. Issuance of the physical card after a positive decision: usually 4–8 weeks.' },
       { q: 'Does Karta Polaka grant Polish citizenship?', a: 'Not directly, but it shortens the path: holders can apply for permanent residence on arrival (no 5-year wait) and for citizenship one year later.' }
@@ -307,7 +307,7 @@ export const BLOG_FAQ: Map = {
     ru: [
       { q: 'Что такое karta CUKR в Польше?', a: 'Это новый формат TRC специально для граждан Украины, заменяющий статус UKR с 4 марта 2026. Подача — через MOS v2.0, ускоренная процедура без проверки минимальной зарплаты в первый год.' },
       { q: 'Чем karta CUKR отличается от обычной karta pobytu?', a: 'Karta CUKR выдаётся только украинцам, имеет упрощённую процедуру и не требует подтверждения занятости в первый год. После 12 месяцев — переход на стандартную TRC по работе или другому основанию.' },
-      { q: 'Когда заканчивается статус UKR и начинается karta CUKR?', a: 'UKR действует до 4 марта 2026. С этой даты подача — только на karta CUKR через MOS v2.0. Перевод автоматическим не будет — нужно подать новый wniosek.' }
+      { q: 'Когда заканчивается статус UKR и начинается karta CUKR?', a: 'UKR действует до 4 марта 2026. С этой даты подача — только на karta CUKR через MOS v2.0. Перевод автоматическим не будет — нужно подать новый wniosek (заявление).' }
     ],
     pl: [
       { q: 'Czym jest karta CUKR w Polsce?', a: 'Nowy format TRC dla obywateli Ukrainy, zastępujący status UKR od 4 marca 2026. Złożenie — przez MOS v2.0, procedura uproszczona, bez wymogu minimalnego wynagrodzenia w pierwszym roku.' },

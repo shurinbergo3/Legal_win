@@ -76,13 +76,13 @@ const jdg: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Может ли иностранец открыть JDG?', a: 'Только при наличии karty pobytu с правом на działalność gospodarczą. Это право даёт стандартная TRC по работе/бизнесу/семье, ПМЖ, Karta Polaka, статус резидента ЕС. Не даёт: студенческая TRC, виза D, безвизовый въезд. Гражданин ЕС/ЕЭП открывает JDG без TRC.' },
-      { q: 'Какая форма налога выгоднее?', a: 'Зависит от типа бизнеса и дохода. Skala (12% до 120к, 32% выше) — для семей с детьми (ulga). Liniowy 19% — для дохода 120–500к. Ryczałt — для услуг с малыми расходами (3-17% от оборота). IP Box — для программистов (5% на доходы от ИС). Считаем на консультации.' },
-      { q: 'Как работает Ulga na start?', a: 'Первые 6 месяцев — только składka zdrowotna (~314 PLN/мес). Без składek społecznych (emerytalnych, rentowych, chorobowych). Включается автоматически при первой регистрации. Если у вас уже была JDG за последние 60 mies — нет права на Ulgę.' },
-      { q: 'Что после 6 месяцев?', a: 'Mały ZUS Plus — 24 месяца ~460 PLN/мес (если доход < 120 000 PLN/год за прошлый год). Затем pełny ZUS ~1 700 PLN/мес. На второй стадии многие переходят на Sp. z o.o. (нет ZUS у учредителя при 2+ wspólnikach).' },
-      { q: 'Можно ли иметь JDG и umowę o pracę?', a: 'Да. Не противоречит. JDG — независимая działalność, umowa o pracę — работа на работодателя. ZUS оплачивается из umowy o pracę (если zarobek > minimum krajowe), JDG освобождается от ZUS-składek społecznych.' },
+      { q: 'Может ли иностранец открыть JDG?', a: 'Только при наличии karty pobytu (карты пребывания) с правом на działalność gospodarczą (предпринимательскую деятельность). Это право даёт стандартная TRC по работе/бизнесу/семье, ПМЖ, Karta Polaka, статус резидента ЕС. Не даёт: студенческая TRC, виза D, безвизовый въезд. Гражданин ЕС/ЕЭП открывает JDG без TRC.' },
+      { q: 'Какая форма налога выгоднее?', a: 'Зависит от типа бизнеса и дохода. Skala (шкала, 12% до 120к, 32% выше) — для семей с детьми (ulga — налоговый вычет). Liniowy (линейный) 19% — для дохода 120–500к. Ryczałt (фиксированный налог с оборота) — для услуг с малыми расходами (3-17% от оборота). IP Box — для программистов (5% на доходы от ИС). Считаем на консультации.' },
+      { q: 'Как работает Ulga na start?', a: 'Ulga na start (льгота на старте) — первые 6 месяцев — только składka zdrowotna (взнос на медстраховку, ~314 PLN/мес). Без składek społecznych (соцвзносов: emerytalnych — пенсионных, rentowych — на пособия, chorobowych — больничных). Включается автоматически при первой регистрации. Если у вас уже была JDG за последние 60 mies — нет права на Ulgę.' },
+      { q: 'Что после 6 месяцев?', a: 'Mały ZUS Plus (малый ZUS-плюс) — 24 месяца ~460 PLN/мес (если доход < 120 000 PLN/год за прошлый год). Затем pełny ZUS (полный ZUS) ~1 700 PLN/мес. На второй стадии многие переходят на Sp. z o.o. (нет ZUS у учредителя при 2+ wspólnikach — участниках).' },
+      { q: 'Можно ли иметь JDG и umowę o pracę?', a: 'Да. Не противоречит. JDG — независимая działalność (деятельность), umowa o pracę (трудовой договор) — работа на работодателя. ZUS оплачивается из umowy o pracę (если zarobek — заработок > minimum krajowe — минимальной зарплаты), JDG освобождается от ZUS-składek społecznych (соцвзносов).' },
       { q: 'Когда переходить на Sp. z o.o.?', a: 'При доходе > 300 000 PLN/год, при привлечении инвесторов, при работе с EU-корпорациями (часто требуют Sp. z o.o.), при риске ответственности (личное имущество защищается только в Sp. z o.o.). На консультации делаем расчёт.' },
-      { q: 'Что с IP Box на JDG?', a: 'JDG на liniowy 19% + IP Box даёт 5% на доход от программистской ИС (kwalifikowanego prawa do oprogramowania). Условия: ведёте раздельный учёт доходов от IP, имеете umowę przeniesienia praw, готовите interpretację indywidualną. Effective налог 5-6%.' }
+      { q: 'Что с IP Box на JDG?', a: 'JDG на liniowy (линейном) 19% + IP Box даёт 5% на доход от программистской ИС (kwalifikowanego prawa do oprogramowania — квалифицированного права на ПО). Условия: ведёте раздельный учёт доходов от IP, имеете umowę przeniesienia praw (договор передачи прав), готовите interpretację indywidualną (индивидуальную налоговую интерпретацию). Effective налог 5-6%.' }
     ],
     related: ['rejestracja-sp-z-oo', 'podatki-ksiegowosc', 'karta-pobytu'],
     ctaTitle: 'JDG за 1 день',
@@ -252,8 +252,8 @@ const jdg: ServiceEntry = {
     faq: [
       { q: 'Can a foreigner open JDG?', a: 'Only with a residence card carrying the right to conduct business. Most work/business/family TRCs grant it; student TRCs and D-visas don\'t. EU citizens — no card needed.' },
       { q: 'Which tax form?', a: 'Progressive (12/32%) — for parents using ulga. Flat 19% — income 120–500k. Lump sum — services with few expenses. IP Box — software developers (5%).' },
-      { q: 'How does Ulga na start work?', a: 'First 6 months — only health insurance (~314 PLN). No social contributions. Auto-applied on first registration. Not available if you ran a JDG in the last 60 months.' },
-      { q: 'After 6 months?', a: 'Mały ZUS Plus for 24 months (~460 PLN if last year\'s revenue < 120k). Then full ZUS (~1,700 PLN). Many migrate to Sp. z o.o. at this stage.' },
+      { q: 'How does Ulga na start work?', a: 'Ulga na start (start relief) — first 6 months you pay only health insurance (~314 PLN). No social contributions. Auto-applied on first registration. Not available if you ran a JDG in the last 60 months.' },
+      { q: 'After 6 months?', a: 'Mały ZUS Plus (small ZUS Plus) for 24 months (~460 PLN if last year\'s revenue < 120k). Then full ZUS (~1,700 PLN). Many migrate to Sp. z o.o. at this stage.' },
       { q: 'JDG + employment contract?', a: 'Yes. They don\'t conflict. Social ZUS paid from employment exempts JDG from social contributions.' },
       { q: 'When to switch to Sp. z o.o.?', a: 'Revenue > 300k, investors, EU enterprise clients (often require Sp. z o.o.), liability exposure.' },
       { q: 'IP Box on JDG?', a: 'Flat 19% + IP Box = 5% on qualified software-IP income. Need separate revenue tracking, IP transfer agreement, individual tax interpretation.' }
