@@ -1,6 +1,6 @@
 ---
 slug: apostille-v-polshe
-title: "Apostille w Polsce — czym jest i kiedy jest potrzebny w 2025"
+title: "Apostille w Polsce — czym jest i kiedy jest potrzebny w 2026"
 description: "Czym jest apostille w Polsce, jak i gdzie go uzyskać, na które dokumenty potrzebny. Konwencja Haska 1961, MSZ Polska, ul. Krucza 38/42, opłata 60 PLN, terminy 1–3 tygodnie. Alternatywa — legalizacja konsularna."
 locale: pl
 publishDate: 2025-12-18
@@ -19,7 +19,7 @@ relatedServices:
 schema: Article
 ---
 
-# Apostille w Polsce — czym jest i kiedy jest potrzebny w 2025
+# Apostille w Polsce — czym jest i kiedy jest potrzebny w 2026
 
 Apostille to uproszczona forma legalizacji dokumentów urzędowych pomiędzy państwami będącymi stronami **Konwencji Haskiej z 1961 roku**. Polska przystąpiła do konwencji w 2005 roku i od tego czasu apostille zastąpił długą procedurę legalizacji konsularnej dla dokumentów wystawianych do użytku w ponad 120 krajach. W Polsce apostille wydaje **Ministerstwo Spraw Zagranicznych (MSZ)** przy ul. Kruczej 38/42 w Warszawie. Koszt — 60 PLN za dokument, czas — 1–3 tygodnie zależnie od typu.
 
@@ -147,7 +147,7 @@ Do tego doliczane są koszty podróży do kraju wydania lub zdalnej obsługi prz
 Samodzielne apostille ma sens dla pojedynczego prostego dokumentu. Prawnik ma sens, gdy:
 
 - Apostille potrzebny dla 5+ dokumentów (logistyka)
-- Dokumenty z kraju o ograniczonej współpracy (RU w 2024–2025)
+- Dokumenty z kraju o ograniczonej współpracy (RU w 2024–2026)
 - Zbieranie dokumentów równolegle z procesami karty pobytu lub USC
 - Wcześniejsza odmowa MSZ lub pilna procedura
 - Sprawy złożone (dokumenty 30+ lat, nieistniejące urzędy)

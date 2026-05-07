@@ -1,7 +1,7 @@
 ---
 slug: karta-polaka-kak-poluchit
-title: "Karta Polaka — jak ją uzyskać w 2024: dokumenty, egzamin, terminy"
-description: "Jak uzyskać Kartę Polaka w 2024 — dla osób polskiego pochodzenia z Białorusi, Ukrainy, Rosji, Kazachstanu i innych krajów. Dokumenty pokrewieństwa, egzamin językowo-kulturowy, konsulat, przywileje."
+title: "Karta Polaka — jak ją uzyskać w 2026: dokumenty, egzamin, terminy"
+description: "Jak uzyskać Kartę Polaka w 2026 — dla osób polskiego pochodzenia z Białorusi, Ukrainy, Rosji, Kazachstanu i innych krajów. Dokumenty pokrewieństwa, egzamin językowo-kulturowy, konsulat, przywileje."
 locale: pl
 publishDate: 2025-12-03
 author: LegalWin
@@ -19,9 +19,9 @@ relatedServices:
 schema: Article
 ---
 
-# Karta Polaka — jak ją uzyskać w 2024: dokumenty, egzamin, terminy
+# Karta Polaka — jak ją uzyskać w 2026: dokumenty, egzamin, terminy
 
-Karta Polaka to specjalny dokument potwierdzający przynależność do narodu polskiego. Nie paszport, nie wiza, nie zezwolenie na pobyt — ale dokument otwierający niemal wszystkie drzwi: bezpłatne staże w Polsce, uproszczona droga do obywatelstwa (zaledwie 1 rok po uzyskaniu karty stałego pobytu), bezpłatne studia na polskich uczelniach, zniżki kolejowe, prawo pracy bez zezwolenia. W 2024 roku Karta Polaka pozostaje jedną z najkorzystniejszych „ścieżek" legalizacyjnych dla osób polskiego pochodzenia z krajów byłego ZSRR.
+Karta Polaka to specjalny dokument potwierdzający przynależność do narodu polskiego. Nie paszport, nie wiza, nie zezwolenie na pobyt — ale dokument otwierający niemal wszystkie drzwi: bezpłatne staże w Polsce, uproszczona droga do obywatelstwa (zaledwie 1 rok po uzyskaniu karty stałego pobytu), bezpłatne studia na polskich uczelniach, zniżki kolejowe, prawo pracy bez zezwolenia. W 2026 roku Karta Polaka pozostaje jedną z najkorzystniejszych „ścieżek" legalizacyjnych dla osób polskiego pochodzenia z krajów byłego ZSRR.
 
 ## Kto kwalifikuje się do Karty Polaka
 
@@ -63,7 +63,7 @@ Egzamin zdaje się w **konsulacie polskim** w kraju zamieszkania (lub u upoważn
 
 Czas trwania — 30–45 minut. Decyzja na miejscu — pozytywna lub negatywna.
 
-W 2024 r. konsulowie traktują egzaminy mniej formalnie niż 5–7 lat temu. Z polskim na poziomie A2 (250–300 słów aktywnych) i znajomością trzech-czterech faktów historycznych zwykle przejdziesz. Z polskim na zero — pewna porażka.
+W 2026 r. konsulowie traktują egzaminy mniej formalnie niż 5–7 lat temu. Z polskim na poziomie A2 (250–300 słów aktywnych) i znajomością trzech-czterech faktów historycznych zwykle przejdziesz. Z polskim na zero — pewna porażka.
 
 ## Gdzie zdawać
 

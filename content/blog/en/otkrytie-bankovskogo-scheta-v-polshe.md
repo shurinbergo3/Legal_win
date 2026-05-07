@@ -1,7 +1,7 @@
 ---
 slug: otkrytie-bankovskogo-scheta-v-polshe
-title: "Opening a Bank Account in Poland for Foreigners — 2025"
-description: "How to open a konto bankowe in Poland as a foreigner in 2025. Comparison of PKO BP, Santander, mBank, Pekao, ING — documents, opening time, fees. With and without PESEL, in-person and online."
+title: "Opening a Bank Account in Poland for Foreigners — 2026"
+description: "How to open a konto bankowe in Poland as a foreigner in 2026. Comparison of PKO BP, Santander, mBank, Pekao, ING — documents, opening time, fees. With and without PESEL, in-person and online."
 locale: en
 publishDate: 2026-02-04
 author: LegalWin
@@ -18,11 +18,11 @@ relatedServices:
 schema: Article
 ---
 
-# Opening a Bank Account in Poland for Foreigners — 2025
+# Opening a Bank Account in Poland for Foreigners — 2026
 
-The Polish banking system is one of the most accessible to foreigners in the EU. With a PESEL, an account opens in 30–60 minutes; without one, it takes 1–2 days (some banks require a visa or karta pobytu). In 2025, competition between banks has produced essentially free basic accounts, mobile apps with translations into Russian, Ukrainian, and English, and a streamlined process for newcomers. Below — a comparison of the main players, documents required, and pitfalls to know.
+The Polish banking system is one of the most accessible to foreigners in the EU. With a PESEL, an account opens in 30–60 minutes; without one, it takes 1–2 days (some banks require a visa or karta pobytu). In 2026, competition between banks has produced essentially free basic accounts, mobile apps with translations into Russian, Ukrainian, and English, and a streamlined process for newcomers. Below — a comparison of the main players, documents required, and pitfalls to know.
 
-## Which Banks Work Best with Foreigners in 2025
+## Which Banks Work Best with Foreigners in 2026
 
 | Bank | Open without PESEL | Basic account | English in app | Notes |
 |---|---|---|---|---|
@@ -60,7 +60,7 @@ Most LegalWin clients start with **PKO BP** or **Santander** — they accept alm
 - Confirmation of visit purpose (employment contract, employer's oświadczenie, document from educational institution)
 - Polish phone number
 
-In 2025, some banks (especially PKO BP and Santander) may open a basic account on visa-free regime without PESEL — but with limits on withdrawals and transactions until karta pobytu is received.
+In 2026, some banks (especially PKO BP and Santander) may open a basic account on visa-free regime without PESEL — but with limits on withdrawals and transactions until karta pobytu is received.
 
 ## Step by Step
 
@@ -79,9 +79,9 @@ In 2025, some banks (especially PKO BP and Santander) may open a basic account o
 
 **Step 6.** Receiving the card. The debit card arrives at your address in 7–14 days (or a "temporary" card is issued at the branch on the day of account opening).
 
-## Fee Comparison in 2025
+## Fee Comparison in 2026
 
-All 5 major banks in 2025 offer **a free basic account** if conditions are met:
+All 5 major banks in 2026 offer **a free basic account** if conditions are met:
 
 - At least 1 transaction per month (card payments or transfers)
 - At least 1 use of online banking per month
@@ -89,7 +89,7 @@ All 5 major banks in 2025 offer **a free basic account** if conditions are met:
 
 Additional options:
 
-| Option | Cost in 2025 |
+| Option | Cost in 2026 |
 |---|---|
 | Visa/MasterCard debit card | free (with active account) |
 | Withdrawals at own-bank ATM | free |
@@ -107,7 +107,7 @@ For a **business account** (sp. z o.o. or JDG) — 30–50 PLN/month for obsług
 
 **2. Distinction between "konto rezydenta" and "konto nierezydenta".** Until PESEL is received, you typically have "konto nierezydenta" with limits. Afterwards — switched to resident on request, free of charge.
 
-**3. Sanctions on RU citizens.** In 2025 most Polish banks do not open accounts for RU citizens without an active karta pobytu. With karta pobytu — they do, but with additional checks.
+**3. Sanctions on RU citizens.** In 2026 most Polish banks do not open accounts for RU citizens without an active karta pobytu. With karta pobytu — they do, but with additional checks.
 
 **4. Address verification checks.** Banks often require someone to sign for your address (e.g., entrance service or postal courier). This is needed for verification.
 
@@ -123,7 +123,7 @@ For a **business account** (sp. z o.o. or JDG) — 30–50 PLN/month for obsług
 
 ## When You Need a Lawyer or Financial Adviser
 
-90% of foreigners manage on their own — banks in 2025 accept almost anyone with valid documents.
+90% of foreigners manage on their own — banks in 2026 accept almost anyone with valid documents.
 
 A lawyer makes sense if:
 

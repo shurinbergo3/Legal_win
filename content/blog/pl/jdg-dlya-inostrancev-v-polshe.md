@@ -1,7 +1,7 @@
 ---
 slug: jdg-dlya-inostrancev-v-polshe
-title: "JDG dla cudzoziemców w Polsce — otwarcie działalności w 2025"
-description: "Jak otworzyć jednoosobową działalność gospodarczą (JDG) w Polsce jako cudzoziemiec w 2025. Kto ma prawo, dokumenty, CEIDG, ZUS, podatki — ryczałt vs zasady ogólne. Korzyści dla karty pobytu."
+title: "JDG dla cudzoziemców w Polsce — otwarcie działalności w 2026"
+description: "Jak otworzyć jednoosobową działalność gospodarczą (JDG) w Polsce jako cudzoziemiec w 2026. Kto ma prawo, dokumenty, CEIDG, ZUS, podatki — ryczałt vs zasady ogólne. Korzyści dla karty pobytu."
 locale: pl
 publishDate: 2026-02-13
 author: LegalWin
@@ -19,7 +19,7 @@ relatedServices:
 schema: Article
 ---
 
-# JDG dla cudzoziemców w Polsce — otwarcie działalności w 2025
+# JDG dla cudzoziemców w Polsce — otwarcie działalności w 2026
 
 JDG (jednoosobowa działalność gospodarcza) to polski odpowiednik rosyjskiego IP, ukraińskiego FOP czy białoruskiego IP. To najprostsza forma prowadzenia firmy w Polsce: rejestracja jest bezpłatna, ZUS stały, podatki wybierane na starcie. Dla cudzoziemców JDG to świetna droga do **karty pobytu na podstawie działalności gospodarczej**, zwłaszcza gdy ścieżki oparte na pracy nie pasują (np. freelance z klientami zagranicznymi lub e-commerce). Poniżej — kto może otworzyć, jak, ile to kosztuje w pierwszym roku.
 
@@ -55,7 +55,7 @@ Wyjątek — przy **karcie CUKR**: daje prawo do JDG automatycznie, bez osobnej 
 
 Otwierając JDG wybierasz jedną z trzech form opodatkowania:
 
-| Forma | Stawka 2025 | Pasuje |
+| Forma | Stawka 2026 | Pasuje |
 |---|---|---|
 | **Zasady ogólne (skala podatkowa)** | 12 % do 120 000 + 32 % powyżej | biznes z dużymi kosztami |
 | **Podatek liniowy** | 19 % od dochodu | IT, doradztwo (bez ulg na dzieci) |
@@ -67,7 +67,7 @@ Dla większości freelancerów IT i doradców **ryczałt 12 %** lub **podatek li
 
 ZUS to obowiązkowe ubezpieczenia (emerytalne, zdrowotne, wypadkowe). Struktura:
 
-| Okres JDG | Miesięczny ZUS w 2025 |
+| Okres JDG | Miesięczny ZUS 2026 |
 |---|---|
 | Pierwsze 6 miesięcy (ulga na start) | ~167 PLN (tylko zdrowotne) |
 | Kolejne 24 miesiące (mały ZUS) | ~770 PLN (preferencyjny) |
@@ -75,7 +75,7 @@ ZUS to obowiązkowe ubezpieczenia (emerytalne, zdrowotne, wypadkowe). Struktura:
 
 To krytyczny parametr finansowy — JDG bez przychodu powyżej ~5 000 PLN/mies. staje się nieopłacalny w 4. roku.
 
-W 2025 obowiązuje też „mały ZUS plus" — dla tych, których dochód za poprzedni rok nie przekroczył 120 000 PLN. ZUS proporcjonalny do dochodu, zwykle 800–1 200 PLN/mies.
+W 2026 obowiązuje też „mały ZUS plus" — dla tych, których dochód za poprzedni rok nie przekroczył 120 000 PLN. ZUS proporcjonalny do dochodu, zwykle 800–1 200 PLN/mies.
 
 ## Rejestracja JDG — krok po kroku
 
@@ -109,7 +109,7 @@ Księgowy dla JDG jest opcjonalny (można korzystać z aplikacji iFirma, inFakt,
 
 Jeśli masz kartę czasowego pobytu **z pracy** i chcesz przejść na JDG, potrzebujesz nowej karty **z działalności**. Warunki dla tej podstawy (Ustawa o cudzoziemcach, art. 142):
 
-- Dochód JDG co najmniej **12-krotność średniej krajowej rocznie** (ok. 90 000–100 000 PLN/rok w 2025)
+- Dochód JDG co najmniej **12-krotność średniej krajowej rocznie** (ok. 90 000–100 000 PLN/rok w 2026)
 - LUB co najmniej **2 zatrudnionych** rezydentów PMŻ lub obywateli PL
 - Działalność realna (nie „pusta" JDG)
 - Aktualne składki ZUS

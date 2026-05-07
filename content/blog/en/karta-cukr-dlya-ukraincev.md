@@ -1,6 +1,6 @@
 ---
 slug: karta-cukr-dlya-ukraincev
-title: "Karta CUKR in Poland for Ukrainians — Complete 2025 Guide"
+title: "Karta CUKR in Poland for Ukrainians — Complete 2026 Guide"
 description: "What is the karta CUKR in Poland — a special residence permit for Ukrainians with PESEL UKR. How to apply, timelines, documents, costs, differences from a regular karta czasowego pobytu. Three-year validity, no minimum salary."
 locale: en
 publishDate: 2026-04-01
@@ -11,7 +11,7 @@ keywords:
   - karta CUKR Poland
   - Ukrainians PESEL UKR residence card
   - zezwolenie pobytu CUKR
-  - temporary protection Poland 2025
+  - temporary protection Poland 2026
 relatedServices:
   - /en/uslugi/karta-pobytu
   - /en/uslugi/pesel
@@ -19,11 +19,11 @@ relatedServices:
 schema: Article
 ---
 
-# Karta CUKR in Poland for Ukrainians — Complete 2025 Guide
+# Karta CUKR in Poland for Ukrainians — Complete 2026 Guide
 
 The karta CUKR (formal name: "zezwolenie na pobyt czasowy dla obywatela Ukrainy") is a special residence permit available only to Ukrainian citizens who hold an active temporary-protection status (PESEL UKR) at the time of filing. Introduced by the "specustawa o pomocy obywatelom Ukrainy" in March 2022 and reworked in 2024–2025, it now grants a three-year residence permit without comparing salary to the minimum wage and without requiring a specific basis such as employment or business.
 
-Below — what distinguishes CUKR from an ordinary karta czasowego pobytu, who it actually suits, how to obtain it in 2025, and what happens after temporary protection expires in March 2027.
+Below — what distinguishes CUKR from an ordinary karta czasowego pobytu, who it actually suits, how to obtain it in 2026, and what happens after temporary protection expires in March 2027.
 
 ## At a Glance: CUKR vs Regular Karta Pobytu
 
@@ -83,7 +83,7 @@ From the UPO, you are exempt from the standard legal-stay requirements of an ord
 
 Biometrics for CUKR in Mazowieckie take place at the standard locations: al. Solidarności 81 or ul. Kruczej 5/11. The summons arrives via eDoręczenia, usually 30–45 days after UPO.
 
-Waiting time for the decision — 3–6 months in Mazowieckie in 2025. Substantially faster than a regular karta czasowego, because the voivode processes CUKR in a separate queue with simplified procedure.
+Waiting time for the decision — 3–6 months in Mazowieckie in 2026. Substantially faster than a regular karta czasowego, because the voivode processes CUKR in a separate queue with simplified procedure.
 
 ## Step 4. Card Collection
 
@@ -103,9 +103,9 @@ CUKR is for 3 years; afterwards you choose a path:
 2. **Apply for a new CUKR** (if temporary protection is still active)
 3. **Switch to a regular karta czasowego pobytu** (if you have a basis — work, business, family)
 
-As of 2025 it is unclear what will happen to temporary protection after March 2027. If it is not extended, a subsequent CUKR may not be possible, and you will need to switch to a regular karta.
+As of 2026 it is unclear what will happen to temporary protection after March 2027. If it is not extended, a subsequent CUKR may not be possible, and you will need to switch to a regular karta.
 
-## Realistic Timeline in Mazowieckie in 2025
+## Realistic Timeline in Mazowieckie in 2026
 
 | Stage | Time |
 |---|---|

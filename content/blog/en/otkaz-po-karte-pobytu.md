@@ -1,7 +1,7 @@
 ---
 slug: otkaz-po-karte-pobytu
-title: "Karta Pobytu Refusal in Poland — What to Do in 2025"
-description: "What to do if you receive a decyzja odmowna on your karta pobytu in Poland in 2025. Appeal deadlines, common refusal reasons in Mazowieckie, how to draft an odwołanie to the Szef UDSC and a skarga to the WSA. Real success rates."
+title: "Karta Pobytu Refusal in Poland — What to Do in 2026"
+description: "What to do if you receive a decyzja odmowna on your karta pobytu in Poland in 2026. Appeal deadlines, common refusal reasons in Mazowieckie, how to draft an odwołanie to the Szef UDSC and a skarga to the WSA. Real success rates."
 locale: en
 publishDate: 2026-05-04
 author: LegalWin
@@ -18,7 +18,7 @@ relatedServices:
 schema: Article
 ---
 
-# Karta Pobytu Refusal in Poland — What to Do in 2025
+# Karta Pobytu Refusal in Poland — What to Do in 2026
 
 A decyzja odmowna on a karta pobytu is not a final verdict. The Polish legal system provides three levels of appeal: odwołanie to the Szef UDSC, skarga to the Wojewódzki Sąd Administracyjny, and (in theory) skarga kasacyjna to the Naczelny Sąd Administracyjny. In practice most cases conclude at the second level — but 60–70% of well-prepared appeals overturn the original refusal. The two essentials: don't miss the deadlines, and understand precisely what the urzędnik considered niewystarczające.
 
@@ -36,7 +36,7 @@ Missing the odwołanie by a day — and the decyzja becomes prawomocna, with the
 
 ## Reasons for Refusal — Behind the "niespełnienie warunków" Formula
 
-Every decyzja odmowna contains formal references to articles of the Ustawa o cudzoziemcach with reasoning. Based on our analysis of 200+ cases in Mazowieckie in 2024–2025, the main categories are:
+Every decyzja odmowna contains formal references to articles of the Ustawa o cudzoziemcach with reasoning. Based on our analysis of 200+ cases in Mazowieckie in 2024–2026, the main categories are:
 
 | Reason | % of refusals | Appeal success rate |
 |---|---|---|
@@ -71,7 +71,7 @@ An odwołanie is not a free-form complaint. It is a structured legal document co
 4. **Wnioski** — what is requested: uchylenie decyzji or przekazanie sprawy do ponownego rozpatrzenia
 5. **Załączniki** — new documents supporting your claims
 
-In Mazowieckie in 2025 the odwołanie is filed via the Mazowiecki voivode (the same one who issued the refusal), who automatically forwards it to UDSC. Processing time — 30–60 days.
+In Mazowieckie in 2026 the odwołanie is filed via the Mazowiecki voivode (the same one who issued the refusal), who automatically forwards it to UDSC. Processing time — 30–60 days.
 
 ## Step 3. What to Attach
 

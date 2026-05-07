@@ -1,7 +1,7 @@
 ---
 slug: otkrytie-bankovskogo-scheta-v-polshe
-title: "Otwarcie konta bankowego w Polsce dla cudzoziemców — 2025"
-description: "Jak otworzyć konto bankowe w Polsce jako cudzoziemiec w 2025. Porównanie PKO BP, Santander, mBank, Pekao, ING — dokumenty, czas otwarcia, opłaty. Z PESEL i bez, osobiście i online."
+title: "Otwarcie konta bankowego w Polsce dla cudzoziemców — 2026"
+description: "Jak otworzyć konto bankowe w Polsce jako cudzoziemiec w 2026. Porównanie PKO BP, Santander, mBank, Pekao, ING — dokumenty, czas otwarcia, opłaty. Z PESEL i bez, osobiście i online."
 locale: pl
 publishDate: 2026-02-04
 author: LegalWin
@@ -18,11 +18,11 @@ relatedServices:
 schema: Article
 ---
 
-# Otwarcie konta bankowego w Polsce dla cudzoziemców — 2025
+# Otwarcie konta bankowego w Polsce dla cudzoziemców — 2026
 
-Polski system bankowy jest jednym z najbardziej otwartych dla cudzoziemców w UE. Z PESEL konto otwiera się w 30–60 minut; bez PESEL — w 1–2 dni (niektóre banki wymagają wizy lub karty pobytu). W 2025 roku konkurencja między bankami doprowadziła do praktycznie bezpłatnych kont podstawowych, aplikacji mobilnych z tłumaczeniem na rosyjski, ukraiński i angielski oraz uproszczonej procedury dla nowo przybyłych. Poniżej — porównanie głównych banków, dokumenty i pułapki, o których warto wiedzieć.
+Polski system bankowy jest jednym z najbardziej otwartych dla cudzoziemców w UE. Z PESEL konto otwiera się w 30–60 minut; bez PESEL — w 1–2 dni (niektóre banki wymagają wizy lub karty pobytu). W 2026 roku konkurencja między bankami doprowadziła do praktycznie bezpłatnych kont podstawowych, aplikacji mobilnych z tłumaczeniem na rosyjski, ukraiński i angielski oraz uproszczonej procedury dla nowo przybyłych. Poniżej — porównanie głównych banków, dokumenty i pułapki, o których warto wiedzieć.
 
-## Które banki najlepiej obsługują cudzoziemców w 2025
+## Które banki najlepiej obsługują cudzoziemców w 2026
 
 | Bank | Otwarcie bez PESEL | Konto podstawowe | Angielski w aplikacji | Uwagi |
 |---|---|---|---|---|
@@ -60,7 +60,7 @@ Większość klientów LegalWin zaczyna od **PKO BP** lub **Santander** — przy
 - Potwierdzenie celu wizyty (umowa o pracę, oświadczenie pracodawcy, dokument z uczelni)
 - Polski numer telefonu
 
-W 2025 niektóre banki (zwłaszcza PKO BP i Santander) mogą otworzyć konto podstawowe w ruchu bezwizowym bez PESEL — ale z limitami wypłat i transakcji do uzyskania karty pobytu.
+W 2026 niektóre banki (zwłaszcza PKO BP i Santander) mogą otworzyć konto podstawowe w ruchu bezwizowym bez PESEL — ale z limitami wypłat i transakcji do uzyskania karty pobytu.
 
 ## Krok po kroku
 
@@ -79,9 +79,9 @@ W 2025 niektóre banki (zwłaszcza PKO BP i Santander) mogą otworzyć konto pod
 
 **Krok 6.** Odbiór karty. Karta debetowa przychodzi pod adres w 7–14 dni (lub karta „tymczasowa" w oddziale w dniu otwarcia konta).
 
-## Porównanie opłat w 2025
+## Porównanie opłat w 2026
 
-Wszystkie 5 głównych banków w 2025 oferuje **bezpłatne konto podstawowe** przy spełnieniu warunków:
+Wszystkie 5 głównych banków w 2026 oferuje **bezpłatne konto podstawowe** przy spełnieniu warunków:
 
 - Minimum 1 transakcja miesięcznie (płatności kartą lub przelewy)
 - Minimum 1 logowanie do bankowości internetowej miesięcznie
@@ -89,7 +89,7 @@ Wszystkie 5 głównych banków w 2025 oferuje **bezpłatne konto podstawowe** pr
 
 Dodatkowe opcje:
 
-| Opcja | Koszt 2025 |
+| Opcja | Koszt 2026 |
 |---|---|
 | Karta Visa/MasterCard | bezpłatnie (przy aktywnym koncie) |
 | Wypłaty w bankomatach własnego banku | bezpłatnie |
@@ -107,7 +107,7 @@ Dla **konta firmowego** (sp. z o.o. lub JDG) — 30–50 PLN/mies. za obsługę 
 
 **2. Różnica między „konto rezydenta" a „konto nierezydenta".** Do uzyskania PESEL zwykle „konto nierezydenta" z limitami. Po PESEL — przełączane na rezydenckie na żądanie, bezpłatnie.
 
-**3. Sankcje wobec obywateli RU.** W 2025 większość polskich banków nie otwiera kont obywatelom RU bez aktywnej karty pobytu. Z kartą pobytu — otwierają, ale z dodatkowymi kontrolami.
+**3. Sankcje wobec obywateli RU.** W 2026 większość polskich banków nie otwiera kont obywatelom RU bez aktywnej karty pobytu. Z kartą pobytu — otwierają, ale z dodatkowymi kontrolami.
 
 **4. Weryfikacja adresu.** Banki często wymagają, by ktoś podpisał się pod Twoim adresem (np. usługa wejściowa lub kurierska). To do weryfikacji.
 
@@ -123,7 +123,7 @@ Dla **konta firmowego** (sp. z o.o. lub JDG) — 30–50 PLN/mies. za obsługę 
 
 ## Kiedy potrzebujesz prawnika lub doradcy
 
-90 % cudzoziemców daje sobie radę samodzielnie — banki w 2025 akceptują niemal każdego z aktualnymi dokumentami.
+90 % cudzoziemców daje sobie radę samodzielnie — banki w 2026 akceptują niemal każdego z aktualnymi dokumentami.
 
 Prawnik ma sens, gdy:
 

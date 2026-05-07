@@ -1,7 +1,7 @@
 ---
 slug: otkaz-po-karte-pobytu
-title: "Odmowa karty pobytu w Polsce — co robić w 2025"
-description: "Co zrobić w przypadku decyzji odmownej dotyczącej karty pobytu w Polsce w 2025 roku. Terminy odwołania, najczęstsze przyczyny odmów w Mazowieckim, jak sporządzić odwołanie do Szefa UDSC i skargę do WSA. Realne szanse powodzenia."
+title: "Odmowa karty pobytu w Polsce — co robić w 2026"
+description: "Co zrobić w przypadku decyzji odmownej dotyczącej karty pobytu w Polsce w 2026 roku. Terminy odwołania, najczęstsze przyczyny odmów w Mazowieckim, jak sporządzić odwołanie do Szefa UDSC i skargę do WSA. Realne szanse powodzenia."
 locale: pl
 publishDate: 2026-05-04
 author: LegalWin
@@ -18,7 +18,7 @@ relatedServices:
 schema: Article
 ---
 
-# Odmowa karty pobytu w Polsce — co robić w 2025
+# Odmowa karty pobytu w Polsce — co robić w 2026
 
 Decyzja odmowna dotycząca karty pobytu nie jest wyrokiem ostatecznym. Polski system prawny przewiduje trzy szczeble odwoławcze: odwołanie do Szefa UDSC, skargę do Wojewódzkiego Sądu Administracyjnego oraz (teoretycznie) skargę kasacyjną do Naczelnego Sądu Administracyjnego. W praktyce większość spraw kończy się na drugim szczeblu — ale 60–70 % dobrze przygotowanych odwołań prowadzi do uchylenia pierwotnej decyzji. Najważniejsze: nie przegap terminów i zrozum dokładnie, co urzędnik uznał za niewystarczające.
 
@@ -36,7 +36,7 @@ Spóźnienie z odwołaniem o jeden dzień — decyzja staje się prawomocna, a o
 
 ## Przyczyny odmów — co kryje się za frazą „niespełnienie warunków"
 
-Każda decyzja odmowna zawiera formalne odniesienia do artykułów Ustawy o cudzoziemcach wraz z uzasadnieniem. Na podstawie analizy 200+ spraw w Mazowieckim w latach 2024–2025 główne kategorie to:
+Każda decyzja odmowna zawiera formalne odniesienia do artykułów Ustawy o cudzoziemcach wraz z uzasadnieniem. Na podstawie analizy 200+ spraw w Mazowieckim w latach 2024–2026 główne kategorie to:
 
 | Powód | % odmów | Szanse na wygraną apelację |
 |---|---|---|
@@ -71,7 +71,7 @@ Odwołanie nie jest skargą w wolnej formie. To uporządkowany dokument prawny, 
 4. **Wnioski** — czego się domagasz: uchylenia decyzji lub przekazania sprawy do ponownego rozpatrzenia
 5. **Załączniki** — nowe dokumenty popierające zarzuty
 
-W Mazowieckim w 2025 odwołanie składa się przez Mazowieckiego Wojewodę (tego samego, który wydał odmowę), który przesyła je automatycznie do UDSC. Czas rozpatrzenia — 30–60 dni.
+W Mazowieckim w 2026 odwołanie składa się przez Mazowieckiego Wojewodę (tego samego, który wydał odmowę), który przesyła je automatycznie do UDSC. Czas rozpatrzenia — 30–60 dni.
 
 ## Krok 3. Co dołączyć do odwołania
 

@@ -1,7 +1,7 @@
 ---
 slug: otkaz-po-karte-pobytu
-title: "Отказ по карте побыта в Польше — что делать в 2025"
-description: "Что делать при otkazie (decyzji odmownej) по karta pobytu в Польше в 2025 году. Сроки апелляции, причины отказов в Mazowieckim, как составить odwołanie do Szefa UDSC и skargę do WSA. Шансы на успех."
+title: "Отказ по карте побыта в Польше — что делать в 2026"
+description: "Что делать при otkazie (decyzji odmownej) по karta pobytu в Польше в 2026 году. Сроки апелляции, причины отказов в Mazowieckim, как составить odwołanie do Szefa UDSC и skargę do WSA. Шансы на успех."
 locale: ru
 publishDate: 2026-05-04
 author: LegalWin
@@ -18,7 +18,7 @@ relatedServices:
 schema: Article
 ---
 
-# Отказ по карте побыта в Польше — что делать в 2025
+# Отказ по карте побыта в Польше — что делать в 2026
 
 Decyzja odmowna по karta pobytu — не приговор. Польская правовая система предусматривает три уровня обжалования: odwołanie do Szefa UDSC, skarga do Wojewódzkiego Sądu Administracyjnego и (теоретически) skarga kasacyjna do Naczelnego Sądu Administracyjnego. На практике большинство дел заканчиваются на втором уровне — но 60-70% грамотно составленных апелляций отменяют первоначальный отказ. Главное — не потерять сроки и понимать, что именно urzędnik посчитал niewystarczające.
 
@@ -36,7 +36,7 @@ Decyzja odmowna по karta pobytu — не приговор. Польская п
 
 ## Причины отказов — что стоит за formulářью «niespełnienie warunków»
 
-Decyzja odmowna содержит формальные ссылки на artykuły Ustawy o cudzoziemcach и обоснование. По нашему анализу 200+ дел в Mazowieckim в 2024-2025, основные категории отказов:
+Decyzja odmowna содержит формальные ссылки на artykuły Ustawy o cudzoziemcach и обоснование. По нашему анализу 200+ дел в Mazowieckim в 2024-2026, основные категории отказов:
 
 | Причина | % отказов | Шансы выиграть apelację |
 |---|---|---|
@@ -71,7 +71,7 @@ Odwołanie — это не «жалоба» в свободной форме. Э
 4. **Wnioski** — что вы просите: uchylenie decyzji или przekazanie sprawy do ponownego rozpatrzenia
 5. **Załączniki** — новые dokumenty, которые подтверждают ваши аргументы
 
-В Mazowieckim в 2025 odwołanie подаётся через **Mazowieckiego Wojewody** (то есть через того же воеводу, который вынес отказ), он автоматически передаёт его в UDSC. Срок рассмотрения — 30-60 дней.
+В Mazowieckim в 2026 odwołanie подаётся через **Mazowieckiego Wojewody** (то есть через того же воеводу, который вынес отказ), он автоматически передаёт его в UDSC. Срок рассмотрения — 30-60 дней.
 
 ## Шаг 3. Что приложить к odwołaniu
 

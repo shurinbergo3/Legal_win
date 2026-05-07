@@ -1,7 +1,7 @@
 ---
 slug: zapis-detei-v-polskuyu-shkolu
-title: "Zapisanie dzieci do polskiej szkoły — przewodnik dla cudzoziemców 2024"
-description: "Jak zapisać dziecko do polskiej szkoły w 2024 roku. Dokumenty, lekcje języka, bezpłatna nauka, podstawówka, liceum, technikum. Specjalne rozwiązania dla dzieci ukraińskich i białoruskich, dodatkowe godziny polskiego."
+title: "Zapisanie dzieci do polskiej szkoły — przewodnik dla cudzoziemców 2026"
+description: "Jak zapisać dziecko do polskiej szkoły w 2026 roku. Dokumenty, lekcje języka, bezpłatna nauka, podstawówka, liceum, technikum. Specjalne rozwiązania dla dzieci ukraińskich i białoruskich, dodatkowe godziny polskiego."
 locale: pl
 publishDate: 2026-01-09
 author: LegalWin
@@ -19,9 +19,9 @@ relatedServices:
 schema: Article
 ---
 
-# Zapisanie dzieci do polskiej szkoły — przewodnik dla cudzoziemców 2024
+# Zapisanie dzieci do polskiej szkoły — przewodnik dla cudzoziemców 2026
 
-Dzieci cudzoziemców w Polsce mają prawo do **bezpłatnej nauki** w systemie publicznym na takich samych zasadach jak dzieci polskie — ujęte w Konstytucji RP (art. 70) i Ustawie o systemie oświaty. Procedura zapisu różni się jednak od polskiej: wymagane są tłumaczenia dokumentów, czasem apostille oraz zrozumienie systemu szkół podstawowych, liceów, techników i szkół branżowych. Poniżej — co zrobić w Warszawie w 2024 roku, by zapewnić dziecku miejsce w szkole.
+Dzieci cudzoziemców w Polsce mają prawo do **bezpłatnej nauki** w systemie publicznym na takich samych zasadach jak dzieci polskie — ujęte w Konstytucji RP (art. 70) i Ustawie o systemie oświaty. Procedura zapisu różni się jednak od polskiej: wymagane są tłumaczenia dokumentów, czasem apostille oraz zrozumienie systemu szkół podstawowych, liceów, techników i szkół branżowych. Poniżej — co zrobić w Warszawie w 2026 roku, by zapewnić dziecku miejsce w szkole.
 
 ## Wieki i typy szkół
 
@@ -63,7 +63,7 @@ By uzyskać te godziny, rodzic składa „wniosek o organizację dodatkowych zaj
 
 ## Bezpłatne posiłki
 
-W Polsce obiady szkolne są płatne — zwykle 8–15 PLN za posiłek. Dla rodzin o niskim dochodzie (poniżej 1 052 PLN na członka rodziny w 2024) — **bezpłatne posiłki przez MOPS** (Miejski Ośrodek Pomocy Społecznej). Wniosek przez warszawa19115.pl, sekcja „Pomoc społeczna".
+W Polsce obiady szkolne są płatne — zwykle 8–15 PLN za posiłek. Dla rodzin o niskim dochodzie (poniżej 1 052 PLN na członka rodziny w 2026) — **bezpłatne posiłki przez MOPS** (Miejski Ośrodek Pomocy Społecznej). Wniosek przez warszawa19115.pl, sekcja „Pomoc społeczna".
 
 ## Liceum, technikum, szkoła branżowa
 

@@ -1,6 +1,6 @@
 ---
 slug: karta-cukr-dlya-ukraincev
-title: "Karta CUKR w Polsce dla Ukraińców — kompletny przewodnik 2025"
+title: "Karta CUKR w Polsce dla Ukraińców — kompletny przewodnik 2026"
 description: "Czym jest karta CUKR w Polsce — specjalne zezwolenie na pobyt dla obywateli Ukrainy z PESEL UKR. Jak złożyć wniosek, terminy, dokumenty, koszty, różnice w stosunku do zwykłej karty czasowego pobytu. 3 lata ważności, bez minimalnego wynagrodzenia."
 locale: pl
 publishDate: 2026-04-01
@@ -11,7 +11,7 @@ keywords:
   - karta CUKR Polska
   - Ukraińcy PESEL UKR karta pobytu
   - zezwolenie pobytu CUKR
-  - ochrona czasowa Polska 2025
+  - ochrona czasowa Polska 2026
 relatedServices:
   - /pl/uslugi/karta-pobytu
   - /pl/uslugi/pesel
@@ -19,11 +19,11 @@ relatedServices:
 schema: Article
 ---
 
-# Karta CUKR w Polsce dla Ukraińców — kompletny przewodnik 2025
+# Karta CUKR w Polsce dla Ukraińców — kompletny przewodnik 2026
 
 Karta CUKR (formalna nazwa: „zezwolenie na pobyt czasowy dla obywatela Ukrainy") to specjalny typ zezwolenia na pobyt, dostępny wyłącznie dla obywateli Ukrainy posiadających aktywny status ochrony czasowej (PESEL UKR) w momencie składania wniosku. Wprowadzona ustawą „specustawa o pomocy obywatelom Ukrainy" w marcu 2022 i przeformułowana w latach 2024–2025, w obecnym kształcie daje 3-letnie zezwolenie bez porównywania wynagrodzenia z minimalnym i bez konkretnej podstawy typu „praca" lub „działalność".
 
-Poniżej — co odróżnia CUKR od zwykłej karty czasowego pobytu, komu rzeczywiście pasuje, jak ją uzyskać w 2025 roku oraz co stanie się po wygaśnięciu ochrony czasowej w marcu 2027 r.
+Poniżej — co odróżnia CUKR od zwykłej karty czasowego pobytu, komu rzeczywiście pasuje, jak ją uzyskać w 2026 roku oraz co stanie się po wygaśnięciu ochrony czasowej w marcu 2027 r.
 
 ## W skrócie: różnice między CUKR a zwykłą kartą pobytu
 
@@ -83,7 +83,7 @@ Od UPO jesteś zwolniony ze standardowych wymogów legalnego pobytu zwykłej kar
 
 Biometria dla CUKR w Mazowieckim odbywa się w standardowych lokalizacjach: al. Solidarności 81 albo ul. Kruczej 5/11. Wezwanie przychodzi przez eDoręczenia, zwykle 30–45 dni po UPO.
 
-Oczekiwanie na decyzję — 3–6 miesięcy w Mazowieckim w 2025. Znacznie szybciej niż przy zwykłej karcie czasowego, ponieważ wojewoda rozpatruje CUKR w odrębnej kolejce z uproszczoną procedurą.
+Oczekiwanie na decyzję — 3–6 miesięcy w Mazowieckim w 2026. Znacznie szybciej niż przy zwykłej karcie czasowego, ponieważ wojewoda rozpatruje CUKR w odrębnej kolejce z uproszczoną procedurą.
 
 ## Krok 4. Odbiór karty
 
@@ -103,9 +103,9 @@ CUKR — na 3 lata, po czym wybierasz drogę:
 2. **Wniosek o nową CUKR** (jeśli ochrona czasowa wciąż aktywna)
 3. **Przejście na zwykłą kartę czasowego pobytu** (jeśli masz podstawę — pracę, działalność, rodzinę)
 
-W 2025 roku nie wiadomo, co stanie się z ochroną czasową po marcu 2027 r. Jeśli nie zostanie przedłużona, kolejna CUKR może nie być możliwa, i konieczne będzie przejście na zwykłą kartę.
+W 2026 roku nie wiadomo, co stanie się z ochroną czasową po marcu 2027 r. Jeśli nie zostanie przedłużona, kolejna CUKR może nie być możliwa, i konieczne będzie przejście na zwykłą kartę.
 
-## Realny harmonogram w Mazowieckim w 2025
+## Realny harmonogram w Mazowieckim w 2026
 
 | Etap | Czas |
 |---|---|

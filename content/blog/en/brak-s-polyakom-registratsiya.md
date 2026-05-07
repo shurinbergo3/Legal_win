@@ -1,7 +1,7 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Marriage to a Polish Citizen in Poland — 2024 Guide"
-description: "How to register a marriage with a Polish citizen in 2024. Documents, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostilles, translations. Effect of marriage on karta pobytu and citizenship."
+title: "Marriage to a Polish Citizen in Poland — 2026 Guide"
+description: "How to register a marriage with a Polish citizen in 2026. Documents, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostilles, translations. Effect of marriage on karta pobytu and citizenship."
 locale: en
 publishDate: 2025-12-29
 author: LegalWin
@@ -19,7 +19,7 @@ relatedServices:
 schema: Article
 ---
 
-# Marriage to a Polish Citizen in Poland — 2024 Guide
+# Marriage to a Polish Citizen in Poland — 2026 Guide
 
 Marriage to a Polish citizen is one of the fastest and most transparent paths to legalisation in the country. Three years after marriage registration you can apply for Polish citizenship; two years after — for karta stałego pobytu without a B1 certificate. The registration procedure for a foreigner differs from that for a Polish citizen: you need an additional document — a zaświadczenie o zdolności do zawarcia małżeństwa (Certificate of No Impediment, CNI) — issued in your country of citizenship.
 
@@ -47,7 +47,7 @@ The procedure for obtaining it depends on the country:
 |---|---|---|
 | Ukraine | civil registry by place of registration or via consulate in Warsaw | 1–3 months |
 | Belarus | civil registry or Ministry of Justice in Minsk | 2–4 months |
-| Russia | via Russian consulate in Warsaw (politically complicated in 2024) | 3–6 months |
+| Russia | via Russian consulate in Warsaw (politically complicated) | 3–6 months |
 | Kazakhstan | Ministry of Justice in Astana | 2–4 months |
 | Georgia | HAUS (House of Justice) in Tbilisi | 1–2 months |
 

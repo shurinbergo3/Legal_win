@@ -1,7 +1,7 @@
 ---
 slug: cheklist-novopribyvshih-v-polshu
 title: "Lista kontrolna dla nowo przybyłych do Polski — pierwsze 90 dni"
-description: "Pełna lista kontrolna dla cudzoziemców przybywających do Polski w 2025 roku. PESEL, meldunek, Profil Zaufany, konto bankowe, NFZ, szkoła, praca, karta pobytu — co i kiedy zrobić w pierwszych 30, 60 i 90 dniach."
+description: "Pełna lista kontrolna dla cudzoziemców przybywających do Polski w 2026 roku. PESEL, meldunek, Profil Zaufany, konto bankowe, NFZ, szkoła, praca, karta pobytu — co i kiedy zrobić w pierwszych 30, 60 i 90 dniach."
 locale: pl
 publishDate: 2025-11-25
 author: LegalWin
@@ -21,7 +21,7 @@ schema: Article
 
 # Lista kontrolna dla nowo przybyłych do Polski — pierwsze 90 dni
 
-Pierwsze trzy miesiące w Polsce to okno, w którym trzeba zbudować podstawową infrastrukturę życia: dokumenty, bank, ubezpieczenie, mieszkanie, pracę. Tych, którzy pomijają te kroki w pierwszych 90 dniach, czeka lawina problemów — od zablokowanej karty pobytu po niemożność zapisania dziecka do szkoły. Poniżej — uporządkowana lista kontrolna sprawdzona na dziesiątkach klientów LegalWin w Warszawie w latach 2024–2025.
+Pierwsze trzy miesiące w Polsce to okno, w którym trzeba zbudować podstawową infrastrukturę życia: dokumenty, bank, ubezpieczenie, mieszkanie, pracę. Tych, którzy pomijają te kroki w pierwszych 90 dniach, czeka lawina problemów — od zablokowanej karty pobytu po niemożność zapisania dziecka do szkoły. Poniżej — uporządkowana lista kontrolna sprawdzona na dziesiątkach klientów LegalWin w Warszawie w latach 2024–2026.
 
 ## Pierwsze 7 dni — działania krytyczne
 
@@ -75,7 +75,7 @@ Przygotuj je przed podróżą. Trudne do uzyskania w Polsce:
 
 Wszystkie te dokumenty wymagają **apostille** (z MSZ kraju wydania), a następnie **tłumaczenia przysięgłego** na polski. Apostille w kraju — 1–2 tygodnie. W Polsce — niemal niemożliwe (tylko przez konsulat, 1–3 miesiące).
 
-## Budżet na pierwsze 90 dni (Warszawa 2025)
+## Budżet na pierwsze 90 dni (Warszawa 2026)
 
 | Kategoria | Kwota |
 |---|---|

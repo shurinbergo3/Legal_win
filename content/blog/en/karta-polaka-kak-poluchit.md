@@ -1,7 +1,7 @@
 ---
 slug: karta-polaka-kak-poluchit
-title: "Karta Polaka — How to Obtain It in 2024: Documents, Exam, Timelines"
-description: "How to obtain a Karta Polaka in 2024 — for people with Polish ancestry from Belarus, Ukraine, Russia, Kazakhstan, and other countries. Ancestry documents, the language and culture exam, consulate procedures, the privileges it grants."
+title: "Karta Polaka — How to Obtain It in 2026: Documents, Exam, Timelines"
+description: "How to obtain a Karta Polaka in 2026 — for people with Polish ancestry from Belarus, Ukraine, Russia, Kazakhstan, and other countries. Ancestry documents, the language and culture exam, consulate procedures, the privileges it grants."
 locale: en
 publishDate: 2025-12-03
 author: LegalWin
@@ -19,9 +19,9 @@ relatedServices:
 schema: Article
 ---
 
-# Karta Polaka — How to Obtain It in 2024: Documents, Exam, Timelines
+# Karta Polaka — How to Obtain It in 2026: Documents, Exam, Timelines
 
-Karta Polaka is a special document confirming belonging to the Polish nation. Not a passport, not a visa, not a residence permit — but a document that opens almost every door: free internships in Poland, a fast-track route to citizenship (just one year after receiving karta stałego pobytu), free study at Polish universities, rail discounts, the right to work without zezwolenia. In 2024 Karta Polaka remains one of the most advantageous "tracks" to legalisation for people with Polish ancestry from former-Soviet countries.
+Karta Polaka is a special document confirming belonging to the Polish nation. Not a passport, not a visa, not a residence permit — but a document that opens almost every door: free internships in Poland, a fast-track route to citizenship (just one year after receiving karta stałego pobytu), free study at Polish universities, rail discounts, the right to work without zezwolenia. In 2026 Karta Polaka remains one of the most advantageous "tracks" to legalisation for people with Polish ancestry from former-Soviet countries.
 
 ## Who Is Eligible for Karta Polaka
 
@@ -63,7 +63,7 @@ The exam is taken at the **Polish consulate** in your country of residence (or b
 
 Duration: 30–45 minutes. The decision is given on the spot — pass or fail.
 
-In 2024 consuls treat exams less formally than 5–7 years ago. With basic Polish (250–300 active vocabulary) and three or four historical facts in your head, you usually pass. With zero Polish — guaranteed fail.
+In 2026 consuls treat exams less formally than 5–7 years ago. With basic Polish (250–300 active vocabulary) and three or four historical facts in your head, you usually pass. With zero Polish — guaranteed fail.
 
 ## Where to Take the Exam
 

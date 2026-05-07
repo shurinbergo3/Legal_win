@@ -1,7 +1,7 @@
 ---
 slug: cheklist-novopribyvshih-v-polshu
 title: "Checklist for Newcomers to Poland — What to Do in the First 90 Days"
-description: "Complete checklist for foreigners arriving in Poland in 2025. PESEL, meldunek, Profil Zaufany, bank account, NFZ, school, work, karta pobytu — what to do in the first 30, 60, and 90 days."
+description: "Complete checklist for foreigners arriving in Poland in 2026. PESEL, meldunek, Profil Zaufany, bank account, NFZ, school, work, karta pobytu — what to do in the first 30, 60, and 90 days."
 locale: en
 publishDate: 2025-11-25
 author: LegalWin
@@ -21,7 +21,7 @@ schema: Article
 
 # Checklist for Newcomers to Poland — What to Do in the First 90 Days
 
-The first three months in Poland are the window in which the basic infrastructure of life must be set up: documents, banking, insurance, housing, work. Those who skip these steps in the first 90 days face a cascade of problems — from a blocked karta pobytu application to being unable to enrol a child in school. Below — a structured checklist tested on dozens of LegalWin clients in Warsaw across 2024–2025.
+The first three months in Poland are the window in which the basic infrastructure of life must be set up: documents, banking, insurance, housing, work. Those who skip these steps in the first 90 days face a cascade of problems — from a blocked karta pobytu application to being unable to enrol a child in school. Below — a structured checklist tested on dozens of LegalWin clients in Warsaw across 2024–2026.
 
 ## The First 7 Days — Critical Actions
 
@@ -75,7 +75,7 @@ Prepare these before travelling. Hard to obtain once in Poland:
 
 All of these documents need an **apostille** (from MFA of the country of issue) and then a **sworn translation** into Polish. Apostille in country of issue — 1–2 weeks. In Poland — almost impossible (only via consulate, 1–3 months).
 
-## First-90-Days Budget (Warsaw 2025)
+## First-90-Days Budget (Warsaw 2026)
 
 | Category | Amount |
 |---|---|

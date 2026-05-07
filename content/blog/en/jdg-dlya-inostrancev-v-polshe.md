@@ -1,7 +1,7 @@
 ---
 slug: jdg-dlya-inostrancev-v-polshe
-title: "JDG for Foreigners in Poland — Opening a Sole Proprietorship in 2025"
-description: "How to open a jednoosobowa działalność gospodarcza (JDG) in Poland as a foreigner in 2025. Eligibility, documents, CEIDG, ZUS, taxes — ryczałt vs zasady ogólne. Advantages for karta pobytu."
+title: "JDG for Foreigners in Poland — Opening a Sole Proprietorship in 2026"
+description: "How to open a jednoosobowa działalność gospodarcza (JDG) in Poland as a foreigner in 2026. Eligibility, documents, CEIDG, ZUS, taxes — ryczałt vs zasady ogólne. Advantages for karta pobytu."
 locale: en
 publishDate: 2026-02-13
 author: LegalWin
@@ -19,7 +19,7 @@ relatedServices:
 schema: Article
 ---
 
-# JDG for Foreigners in Poland — Opening a Sole Proprietorship in 2025
+# JDG for Foreigners in Poland — Opening a Sole Proprietorship in 2026
 
 JDG (jednoosobowa działalność gospodarcza) is the Polish equivalent of a Russian IP, Ukrainian FOP, or Belarusian IP. It is the simplest way to run a business in Poland: registration is free, ZUS contributions are fixed, and tax form is chosen at start. For foreigners, JDG is an excellent path to a **karta pobytu on the basis of działalność gospodarcza**, especially when employment-basis routes do not fit (e.g., freelance with international clients or e-commerce). Below — eligibility, the process, and what it costs in the first year.
 
@@ -55,7 +55,7 @@ Exception — if you have **karta CUKR**: it grants the right to JDG automatical
 
 When opening JDG, choose one of three taxation forms:
 
-| Form | Rate 2025 | Suits |
+| Form | Rate 2026 | Suits |
 |---|---|---|
 | **Zasady ogólne (skala podatkowa)** | 12% up to 120,000 + 32% above | businesses with high deductibles |
 | **Podatek liniowy** | 19% on income | IT, consulting (no child deductions) |
@@ -67,7 +67,7 @@ For most IT freelancers and consultants, **ryczałt 12%** or **podatek liniowy 1
 
 ZUS is mandatory insurance (pension, health, occupational). Structure:
 
-| JDG period | Monthly ZUS in 2025 |
+| JDG period | Monthly ZUS in 2026 |
 |---|---|
 | First 6 months (ulga na start) | ~167 PLN (zdrowotne only) |
 | Next 24 months (mały ZUS) | ~770 PLN (preferential) |
@@ -75,7 +75,7 @@ ZUS is mandatory insurance (pension, health, occupational). Structure:
 
 This is a critical financial parameter — JDG without revenue above ~5,000 PLN/month becomes uneconomic in year 4.
 
-In 2025 there is also "mały ZUS plus" — for those whose previous-year income did not exceed 120,000 PLN. ZUS is income-proportional, typically 800–1,200 PLN/month.
+In 2026 there is also "mały ZUS plus" — for those whose previous-year income did not exceed 120,000 PLN. ZUS is income-proportional, typically 800–1,200 PLN/month.
 
 ## JDG Registration — Step by Step
 
@@ -109,7 +109,7 @@ An accountant for JDG is optional (you can use apps like iFirma, inFakt, wFirma 
 
 If you have karta czasowego pobytu **by employment** and want to switch to JDG, you need a new karta **by business**. Conditions for this basis (Ustawa o cudzoziemcach, art. 142):
 
-- JDG income at least **12× national average annually** (approximately 90,000–100,000 PLN/year in 2025)
+- JDG income at least **12× national average annually** (approximately 90,000–100,000 PLN/year in 2026)
 - OR at least **2 employees** who are PR holders or Polish citizens
 - Genuine business (not an "empty" JDG)
 - ZUS contributions current

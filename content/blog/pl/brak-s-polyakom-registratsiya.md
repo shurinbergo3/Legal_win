@@ -1,7 +1,7 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Zawarcie małżeństwa z obywatelem Polski — przewodnik 2024"
-description: "Jak zarejestrować małżeństwo z obywatelem Polski w 2024 roku. Dokumenty, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, tłumaczenia. Wpływ małżeństwa na kartę pobytu i obywatelstwo."
+title: "Zawarcie małżeństwa z obywatelem Polski — przewodnik 2026"
+description: "Jak zarejestrować małżeństwo z obywatelem Polski w 2026 roku. Dokumenty, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, tłumaczenia. Wpływ małżeństwa na kartę pobytu i obywatelstwo."
 locale: pl
 publishDate: 2025-12-29
 author: LegalWin
@@ -19,7 +19,7 @@ relatedServices:
 schema: Article
 ---
 
-# Zawarcie małżeństwa z obywatelem Polski — przewodnik 2024
+# Zawarcie małżeństwa z obywatelem Polski — przewodnik 2026
 
 Małżeństwo z obywatelem Polski to jedna z najszybszych i najbardziej przejrzystych dróg legalizacji w kraju. Po 3 latach od zawarcia można złożyć wniosek o obywatelstwo polskie, po 2 — o kartę stałego pobytu bez certyfikatu B1. Sama procedura rejestracji małżeństwa dla cudzoziemca różni się jednak od polskiej: konieczny jest dodatkowy dokument — zaświadczenie o zdolności do zawarcia małżeństwa (CNI), wydawane w kraju obywatelstwa.
 
@@ -47,7 +47,7 @@ Procedura zależy od kraju:
 |---|---|---|
 | Ukraina | USC w miejscu zameldowania lub konsulat w Warszawie | 1–3 miesiące |
 | Białoruś | USC lub Ministerstwo Sprawiedliwości w Mińsku | 2–4 miesiące |
-| Rosja | konsulat RU w Warszawie (politycznie utrudnione w 2024) | 3–6 miesięcy |
+| Rosja | konsulat RU w Warszawie (politycznie utrudnione) | 3–6 miesięcy |
 | Kazachstan | Ministerstwo Sprawiedliwości w Astanie | 2–4 miesiące |
 | Gruzja | HAUS (House of Justice) w Tbilisi | 1–2 miesiące |
 

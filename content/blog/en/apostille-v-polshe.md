@@ -1,6 +1,6 @@
 ---
 slug: apostille-v-polshe
-title: "Apostille in Poland — What It Is and When You Need It in 2025"
+title: "Apostille in Poland — What It Is and When You Need It in 2026"
 description: "What an apostille is in Poland, how and where to obtain one, which documents need it. Hague Convention 1961, MSZ Polska, ul. Krucza 38/42, fees of 60 PLN, timelines 1–3 weeks. Alternative — legalizacja konsularna."
 locale: en
 publishDate: 2025-12-18
@@ -19,7 +19,7 @@ relatedServices:
 schema: Article
 ---
 
-# Apostille in Poland — What It Is and When You Need It in 2025
+# Apostille in Poland — What It Is and When You Need It in 2026
 
 An apostille is a simplified form of legalisation of official documents between countries party to the **Hague Convention of 1961**. Poland joined the convention in 2005, and since then the apostille has replaced the lengthy procedure of legalizacja konsularna for documents issued for use in over 120 countries. In Poland the apostille is issued by the **Ministerstwo Spraw Zagranicznych (MSZ)** at ul. Krucza 38/42 in Warsaw. Cost — 60 PLN per document, time — 1–3 weeks depending on type.
 
@@ -147,7 +147,7 @@ To this add the cost of travel to the country of origin or remote processing thr
 Self-handling is realistic for one simple document. A lawyer makes sense if:
 
 - Apostille needed on 5+ documents (logistics)
-- Documents from a country with restricted cooperation (RU in 2024–2025)
+- Documents from a country with restricted cooperation (RU in 2024–2026)
 - Document gathering parallel to karta pobytu or USC processes
 - A previous MSZ refusal or urgent procedure
 - Complex cases (documents 30+ years old, defunct urzędy)

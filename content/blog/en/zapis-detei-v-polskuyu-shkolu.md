@@ -1,7 +1,7 @@
 ---
 slug: zapis-detei-v-polskuyu-shkolu
-title: "Enrolling Children in a Polish School — 2024 Guide for Foreigners"
-description: "How to enrol your child in a Polish school in 2024. Documents, language classes, free education, podstawówka, liceum, technikum. Special arrangements for Ukrainian and Belarusian children, additional Polish-language hours."
+title: "Enrolling Children in a Polish School — 2026 Guide for Foreigners"
+description: "How to enrol your child in a Polish school in 2026. Documents, language classes, free education, podstawówka, liceum, technikum. Special arrangements for Ukrainian and Belarusian children, additional Polish-language hours."
 locale: en
 publishDate: 2026-01-09
 author: LegalWin
@@ -19,9 +19,9 @@ relatedServices:
 schema: Article
 ---
 
-# Enrolling Children in a Polish School — 2024 Guide for Foreigners
+# Enrolling Children in a Polish School — 2026 Guide for Foreigners
 
-Children of foreigners in Poland are entitled to **free education** in the public system on the same terms as Polish children — enshrined in the Polish Constitution (art. 70) and the Ustawa o systemie oświaty. The enrolment procedure differs from the one for Polish citizens: translations of documents are required, sometimes apostilles, and an understanding of the system of szkoły podstawowe, liceá, technika, and szkoły branżowe. Below — what to do in Warsaw in 2024 to secure your child a school place.
+Children of foreigners in Poland are entitled to **free education** in the public system on the same terms as Polish children — enshrined in the Polish Constitution (art. 70) and the Ustawa o systemie oświaty. The enrolment procedure differs from the one for Polish citizens: translations of documents are required, sometimes apostilles, and an understanding of the system of szkoły podstawowe, liceá, technika, and szkoły branżowe. Below — what to do in Warsaw in 2026 to secure your child a school place.
 
 ## Ages and Types of Schools
 
@@ -63,7 +63,7 @@ To obtain these hours, parents file a "wniosek o organizację dodatkowych zaję�
 
 ## Free School Meals
 
-In Poland school lunches (obiad) are paid — usually 8–15 PLN per meal. However, for low-income families (below 1,052 PLN per family member in 2024) — **free meals via MOPS** (Miejski Ośrodek Pomocy Społecznej). Application via warszawa19115.pl, "Pomoc społeczna" section.
+In Poland school lunches (obiad) are paid — usually 8–15 PLN per meal. However, for low-income families (below 1,052 PLN per family member in 2026) — **free meals via MOPS** (Miejski Ośrodek Pomocy Społecznej). Application via warszawa19115.pl, "Pomoc społeczna" section.
 
 ## Liceum, Technikum, Szkoła Branżowa
 
