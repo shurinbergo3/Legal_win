@@ -12,7 +12,7 @@ const kartaPobytu: ServiceEntry = {
     facts: [
       { label: 'Срок действия', value: 'до 3 лет', note: 'с правом продления' },
       { label: 'Госпошлина', value: '340 + 100 PLN', note: 'заявление + карта' },
-      { label: 'Решение', value: '42 дня', note: 'наш средний срок · по закону до 90' },
+      { label: 'Срок получения', value: '6–8 мес.', note: 'в Mazowieckim · по закону до 90 дней' },
       { label: 'Где подаётся', value: 'MOS v2.0', note: 'по воеводству проживания' }
     ],
     grounds: {
@@ -98,7 +98,7 @@ const kartaPobytu: ServiceEntry = {
     facts: [
       { label: 'Okres ważności', value: 'do 3 lat', note: 'z możliwością przedłużenia' },
       { label: 'Opłata', value: '340 + 100 PLN', note: 'wniosek + karta' },
-      { label: 'Decyzja', value: '42 dni', note: 'nasza średnia · ustawowo do 90' },
+      { label: 'Czas uzyskania', value: '6–8 mies.', note: 'w Mazowieckim · ustawowo do 90 dni' },
       { label: 'Gdzie składać', value: 'MOS v2.0', note: 'wg województwa zamieszkania' }
     ],
     grounds: {
@@ -184,7 +184,7 @@ const kartaPobytu: ServiceEntry = {
     facts: [
       { label: 'Validity', value: 'up to 3 years', note: 'renewable' },
       { label: 'Official fees', value: '340 + 100 PLN', note: 'application + card' },
-      { label: 'Decision', value: '42 days', note: 'our average · statutory up to 90' },
+      { label: 'Time to card', value: '6–8 months', note: 'Mazowieckie · statutory up to 90 days' },
       { label: 'Where to file', value: 'MOS v2.0', note: 'voivodeship of residence' }
     ],
     grounds: {

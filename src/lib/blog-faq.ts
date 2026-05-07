@@ -472,9 +472,9 @@ export const BLOG_FAQ: Map = {
 
   'shtrafy-itd-bag-12000-pln-vodiel': {
     ru: [
-      { q: 'Какие штрафы ITD и BAG для водителей грузовиков в 2026?', a: 'ITD (Inspekcja Transportu Drogowego) — польские дорожные штрафы до 12 000 PLN на одно нарушение. BAG (Bundesamt für Güterverkehr) — немецкие штрафы за пересечение границы без правильных документов: tachograph, минимальная зарплата по MiLoG, EES.' },
-      { q: 'Какие нарушения тахографа штрафуются больше всего?', a: 'Manipulacja tachografem — 12 000 PLN на водителя + 12 000 PLN на фирму. Brak karty kierowcy — 2 000 PLN. Превышение времени работы — 100–500 PLN за каждый час.' },
-      { q: 'Что грозит за нарушение MiLoG (минимальная зарплата ФРГ)?', a: 'BAG штрафует фирму до 500 000 EUR за неуплату немецкой минимальной зарплаты водителю при доставке в Германию. Дополнительно — Verbot закупочных контрактов с госорганами ФРГ.' }
+      { q: 'Какие штрафы ITD и BAG для водителей грузовиков в 2026?', a: 'ITD (Inspekcja Transportu Drogowego — Дорожная транспортная инспекция) — польские дорожные штрафы до 12 000 PLN на одно нарушение. BAG (Bundesamt für Güterverkehr — Федеральная служба грузовых перевозок ФРГ) — немецкие штрафы за пересечение границы без правильных документов: tachograph, минимальная зарплата по MiLoG, EES.' },
+      { q: 'Какие нарушения тахографа штрафуются больше всего?', a: 'Manipulacja tachografem (манипуляция тахографом) — 12 000 PLN на водителя + 12 000 PLN на фирму. Brak karty kierowcy (отсутствие карты водителя) — 2 000 PLN. Превышение времени работы — 100–500 PLN за каждый час.' },
+      { q: 'Что грозит за нарушение MiLoG (минимальная зарплата ФРГ)?', a: 'BAG (Федеральная служба грузовых перевозок ФРГ) штрафует фирму до 500 000 EUR за неуплату немецкой минимальной зарплаты водителю при доставке в Германию. Дополнительно — Verbot закупочных контрактов с госорганами ФРГ.' }
     ],
     pl: [
       { q: 'Jakie są kary ITD i BAG dla kierowców ciężarowych w 2026?', a: 'ITD — kary do 12 000 PLN za naruszenie. BAG (niemiecki urząd transportu) — kary za niezgodność z tachografem, MiLoG, EES.' },
@@ -492,8 +492,8 @@ export const BLOG_FAQ: Map = {
   'apostille-v-polshe': {
     ru: [
       { q: 'Что такое apostille и зачем он нужен?', a: 'Apostille — упрощённая международная легализация публичных документов по Гаагской конвенции 1961 года. Нужен для использования польских документов за рубежом и иностранных в Польше — гражданство, брак, бизнес, трудоустройство.' },
-      { q: 'Кто ставит apostille в Польше?', a: 'MSZ (Министерство иностранных дел) — на акты USC и судов. MEiN (Министерство образования) — на дипломы. KRK — самообложима apostille MSZ. Документы консульства проходят через MSZ страны выдачи.' },
-      { q: 'Сколько стоит apostille в Польше в 2026?', a: 'Opłata skarbowa — 60 PLN за один документ MSZ. Срочно (24–48 часов) — +50%. Услуги консультанта по сбору и подаче — от 250 PLN за документ. Курьерская доставка — 25–60 PLN.' },
+      { q: 'Кто ставит apostille в Польше?', a: 'MSZ (Министерство иностранных дел) — на акты USC (отделов записи актов гражданского состояния) и судов. MEiN (Министерство образования) — на дипломы. KRK (справку из реестра судимости) — самообложима apostille MSZ. Документы консульства проходят через MSZ страны выдачи.' },
+      { q: 'Сколько стоит apostille в Польше в 2026?', a: 'Opłata skarbowa (госпошлина) — 60 PLN за один документ MSZ. Срочно (24–48 часов) — +50%. Услуги консультанта по сбору и подаче — от 250 PLN за документ. Курьерская доставка — 25–60 PLN.' },
       { q: 'Сколько ждать apostille в MSZ?', a: 'Стандартный срок — 5–7 рабочих дней при подаче лично или по почте. Срочно — 24–48 часов с дополнительной оплатой. Полностью онлайн пока не работает — нужен оригинал документа.' }
     ],
     pl: [
@@ -504,7 +504,7 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'What is an apostille and why do you need it?', a: 'Apostille is a simplified international legalisation of public documents under the 1961 Hague Convention. Required to use Polish documents abroad or foreign documents in Poland — citizenship, marriage, business, employment.' },
-      { q: 'Who issues apostilles in Poland?', a: 'MSZ (Ministry of Foreign Affairs) for USC and court records. MEiN (Education Ministry) for diplomas. KRK certificates are apostilled by MSZ. Consular documents go through the MSZ of the issuing country.' },
+      { q: 'Who issues apostilles in Poland?', a: 'MSZ (Ministry of Foreign Affairs) for USC (civil registry) and court records. MEiN (Education Ministry) for diplomas. KRK (criminal record) certificates are apostilled by MSZ. Consular documents go through the MSZ of the issuing country.' },
       { q: 'How much does an apostille cost in Poland in 2026?', a: 'PLN 60 stamp duty per document at MSZ. Express (24–48 hours): +50%. Consultant service from PLN 250. Courier PLN 25–60.' },
       { q: 'How long does an apostille take at MSZ?', a: 'Standard 5–7 working days when filed in person or by post. Express 24–48 hours with extra fee. Full online filing is not yet available — the original document is required.' }
     ]
@@ -512,9 +512,9 @@ export const BLOG_FAQ: Map = {
 
   'apostille-nostryfikacja-tlumaczenia-przysiegle': {
     ru: [
-      { q: 'В чём разница apostille, nostryfikacji и присяжного перевода?', a: 'Apostille — международная легализация подлинности печати/подписи. Nostryfikacja — признание иностранного диплома польским вузом. Присяжный перевод — заверенный TEPISем перевод текста. Все три часто требуются вместе для дипломов и документов.' },
-      { q: 'Когда нужен присяжный перевод документа с apostille?', a: 'Когда документ из страны, не подписавшей Гаагскую конвенцию, или когда польский urząd прямо требует tłumaczenie przysięgłe. Apostille легализует оригинал, а перевод делает текст пригодным для польского чиновника.' },
-      { q: 'Сколько стоит nostryfikacja диплома в Польше?', a: 'Госпошлина wuź — 50% от minimalnego wynagrodzenia (около 2 400 PLN в 2026). Услуги bывшего вуза по сбору — варьируются. Срок — 90–180 дней. Часто нужны дополнительные документы из страны выдачи.' }
+      { q: 'В чём разница apostille, nostryfikacji (нострификации) и присяжного перевода?', a: 'Apostille — международная легализация подлинности печати/подписи. Nostryfikacja — признание иностранного диплома польским вузом. Присяжный перевод — заверенный TEPISем перевод текста. Все три часто требуются вместе для дипломов и документов.' },
+      { q: 'Когда нужен присяжный перевод документа с apostille?', a: 'Когда документ из страны, не подписавшей Гаагскую конвенцию, или когда польский urząd (государственное учреждение) прямо требует tłumaczenie przysięgłe (присяжный перевод). Apostille легализует оригинал, а перевод делает текст пригодным для польского чиновника.' },
+      { q: 'Сколько стоит nostryfikacja (нострификация) диплома в Польше?', a: 'Госпошлина wuź — 50% от minimalnego wynagrodzenia (минимальной зарплаты, около 2 400 PLN в 2026). Услуги bывшего вуза по сбору — варьируются. Срок — 90–180 дней. Часто нужны дополнительные документы из страны выдачи.' }
     ],
     pl: [
       { q: 'Czym różni się apostille, nostryfikacja i tłumaczenie przysięgłe?', a: 'Apostille — międzynarodowa legalizacja pieczęci/podpisu. Nostryfikacja — uznanie zagranicznego dyplomu przez polską uczelnię. Tłumaczenie przysięgłe — uwierzytelnione przez TEPIS. Często są wymagane łącznie.' },
@@ -523,16 +523,16 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'What\'s the difference between apostille, nostrification and sworn translation?', a: 'An apostille legalises a stamp or signature. Nostrification is a Polish university\'s recognition of a foreign degree. A sworn translation is a TEPIS-certified rendering of the text. They are often required together for diplomas.' },
-      { q: 'When does a sworn translation with apostille become necessary?', a: 'When the document is issued by a non-Hague state or when the Polish office explicitly requires "tłumaczenie przysięgłe". The apostille legalises the original; the translation makes it usable.' },
+      { q: 'When does a sworn translation with apostille become necessary?', a: 'When the document is issued by a non-Hague state or when the Polish urząd (office) explicitly requires tłumaczenie przysięgłe (sworn translation). The apostille legalises the original; the translation makes it usable.' },
       { q: 'How much does a Polish nostrification of a diploma cost?', a: 'University fee — 50% of the minimum wage (~PLN 2,400 in 2026). Term 90–180 days. Often requires extra documents from the issuing country.' }
     ]
   },
 
   'legalizacja-w-polshe-warszawa': {
     ru: [
-      { q: 'С чего начать легализацию в Варшаве в 2026?', a: 'Сначала выбираете основание (работа, бизнес, учёба, брак), потом подаёте wniosek через MOS v2.0, оформляете meldunek, PESEL, ZUS / медстраховку. Параллельно — обмен прав, трудовой договор, открытие счёта.' },
-      { q: 'Сколько стоит полная легализация в Польше?', a: 'Государственные пошлины — около 800–1 200 PLN (TRC + meldunek + PESEL + права). Услуги консультанта — от 2 500 PLN за TRC. Если добавить PESEL, права и ZUS — обычно 4 000–7 000 PLN под ключ.' },
-      { q: 'С чего начать легализацию иностранцу в Варшаве?', a: 'Запишитесь на консультацию у иммиграционного консультанта, чтобы определить основание. Без правильно подобранного основания подача в MOS v2.0 закончится отказом, а 14-дневное окно apelacji жёсткое.' }
+      { q: 'С чего начать легализацию в Варшаве в 2026?', a: 'Сначала выбираете основание (работа, бизнес, учёба, брак), потом подаёте wniosek (заявление) через MOS v2.0, оформляете meldunek (регистрацию по адресу), PESEL, ZUS / медстраховку. Параллельно — обмен прав, трудовой договор, открытие счёта.' },
+      { q: 'Сколько стоит полная легализация в Польше?', a: 'Государственные пошлины — около 800–1 200 PLN (TRC + meldunek (регистрация по адресу) + PESEL + права). Услуги консультанта — от 2 500 PLN за TRC. Если добавить PESEL, права и ZUS — обычно 4 000–7 000 PLN под ключ.' },
+      { q: 'С чего начать легализацию иностранцу в Варшаве?', a: 'Запишитесь на консультацию у иммиграционного консультанта, чтобы определить основание. Без правильно подобранного основания подача в MOS v2.0 закончится отказом, а 14-дневное окно apelacji (апелляции) жёсткое.' }
     ],
     pl: [
       { q: 'Od czego zacząć legalizację w Warszawie w 2026?', a: 'Najpierw wybór podstawy (praca, biznes, studia, małżeństwo), potem wniosek w MOS v2.0, meldunek, PESEL, ZUS / ubezpieczenie. Równolegle — wymiana praw, umowa, konto bankowe.' },
@@ -540,8 +540,8 @@ export const BLOG_FAQ: Map = {
       { q: 'Od czego zacząć cudzoziemcowi w Warszawie?', a: 'Konsultacja prawna, aby określić podstawę. Bez właściwej podstawy MOS v2.0 odmówi, a 14-dniowy termin odwołania jest sztywny.' }
     ],
     en: [
-      { q: 'Where do I start legalising my stay in Warsaw in 2026?', a: 'First choose the basis (work, business, study, marriage), then file in MOS v2.0, register meldunek, get PESEL, sort ZUS or insurance. In parallel: exchange the driving licence, sign a contract, open a bank account.' },
-      { q: 'How much does full legalisation in Poland cost?', a: 'State fees about PLN 800–1,200 (TRC + meldunek + PESEL + licence). Consultant fees from PLN 2,500 for TRC. A turnkey package usually runs PLN 4,000–7,000.' },
+      { q: 'Where do I start legalising my stay in Warsaw in 2026?', a: 'First choose the basis (work, business, study, marriage), then file in MOS v2.0, register meldunek (address registration), get PESEL, sort ZUS or insurance. In parallel: exchange the driving licence, sign a contract, open a bank account.' },
+      { q: 'How much does full legalisation in Poland cost?', a: 'State fees about PLN 800–1,200 (TRC + meldunek (address registration) + PESEL + licence). Consultant fees from PLN 2,500 for TRC. A turnkey package usually runs PLN 4,000–7,000.' },
       { q: 'Where do foreigners start in Warsaw?', a: 'A legal consultation to identify the right basis. Without it the MOS v2.0 filing risks refusal, and the 14-day appeal window is unforgiving.' }
     ]
   },
@@ -549,9 +549,9 @@ export const BLOG_FAQ: Map = {
   // ─── PESEL, registration, EES ───────────────────────────────────────
   'pesel-profil-zaufany-mdowod-posle-karty-pobytu': {
     ru: [
-      { q: 'Как получить PESEL после karta pobytu?', a: 'PESEL получают в urzędzie gminy с действующей karta pobytu, паспортом и подтверждением цели (зарплата, налоги, банк). Услуга бесплатная, выдаётся на месте за 1–3 рабочих дня.' },
-      { q: 'Что такое Profil Zaufany и как его оформить?', a: 'Profil Zaufany — польский цифровой ID. Получают через банк (mBank, PKO, ING, Pekao) онлайн за 5 минут с активным польским счётом, или в urzędzie gminy с PESEL и паспортом.' },
-      { q: 'Чем mDowód отличается от dowoda osobistego?', a: 'mDowód — мобильная версия польского удостоверения личности в приложении mObywatel. Доступен только гражданам РП и обладателям karty stałego pobytu. Иностранцам с TRC mDowód временно недоступен — используйте Profil Zaufany.' }
+      { q: 'Как получить PESEL после karta pobytu?', a: 'PESEL получают в urzędzie gminy (городском управлении) с действующей karta pobytu, паспортом и подтверждением цели (зарплата, налоги, банк). Услуга бесплатная, выдаётся на месте за 1–3 рабочих дня.' },
+      { q: 'Что такое Profil Zaufany (доверенный профиль) и как его оформить?', a: 'Profil Zaufany — польский цифровой ID. Получают через банк (mBank, PKO, ING, Pekao) онлайн за 5 минут с активным польским счётом, или в urzędzie gminy (городском управлении) с PESEL и паспортом.' },
+      { q: 'Чем mDowód отличается от dowoda osobistego (удостоверения личности)?', a: 'mDowód — мобильная версия польского удостоверения личности в приложении mObywatel. Доступен только гражданам РП и обладателям karty stałego pobytu (карты постоянного пребывания). Иностранцам с TRC mDowód временно недоступен — используйте Profil Zaufany (доверенный профиль).' }
     ],
     pl: [
       { q: 'Jak otrzymać PESEL po karcie pobytu?', a: 'W urzędzie gminy z ważną kartą pobytu, paszportem i potwierdzeniem celu (umowa, podatki, bank). Bezpłatnie, 1–3 dni robocze.' },
@@ -559,17 +559,17 @@ export const BLOG_FAQ: Map = {
       { q: 'Czym mDowód różni się od dowodu osobistego?', a: 'mDowód — mobilna wersja dowodu w aplikacji mObywatel. Dostępny tylko dla obywateli RP i posiadaczy karty stałego pobytu. Cudzoziemcy z TRC korzystają z Profilu Zaufanego.' }
     ],
     en: [
-      { q: 'How do I get PESEL after the residence card?', a: 'At the gmina office with a valid Karta Pobytu, passport, and proof of purpose (employment, taxes, bank). Free, issued in 1–3 working days.' },
-      { q: 'What is Profil Zaufany and how do you set it up?', a: 'Profil Zaufany is the Polish digital ID. You can set it up via a Polish bank (mBank, PKO, ING, Pekao) online in 5 minutes, or at a gmina office with PESEL and passport.' },
-      { q: 'How does mDowód differ from the dowód osobisty?', a: 'mDowód is the mobile version of the Polish ID inside the mObywatel app. Available only to Polish citizens and Karta Stałego Pobytu holders. TRC foreigners use Profil Zaufany instead.' }
+      { q: 'How do I get PESEL after the residence card?', a: 'At the gmina (municipal) office with a valid Karta Pobytu, passport, and proof of purpose (employment, taxes, bank). Free, issued in 1–3 working days.' },
+      { q: 'What is Profil Zaufany and how do you set it up?', a: 'Profil Zaufany (Trusted Profile) is the Polish digital ID. You can set it up via a Polish bank (mBank, PKO, ING, Pekao) online in 5 minutes, or at a gmina (municipal) office with PESEL and passport.' },
+      { q: 'How does mDowód differ from the dowód osobisty?', a: 'mDowód is the mobile version of the Polish ID (dowód osobisty) inside the mObywatel app. Available only to Polish citizens and Karta Stałego Pobytu holders. TRC foreigners use Profil Zaufany (Trusted Profile) instead.' }
     ]
   },
 
   'cheklist-novopribyvshih-v-polshu': {
     ru: [
-      { q: 'Что нужно сделать в первые 30 дней в Польше?', a: 'Meldunek в гмине (обязательно при пребывании > 30 дней), PESEL, открытие банковского счёта, подача wniosku о TRC через MOS v2.0 (если виза D), подключение медстраховки и SIM-карты, регистрация в ZUS при работе.' },
-      { q: 'Какие документы нужны новоприбывшему иностранцу?', a: 'Загранпаспорт с действующей визой/штампом, договор аренды или согласие хозяина на meldunek, paszport, фото 35×45 мм для PESEL и karty pobytu, медстраховка с покрытием от 30 000 €, договор работы при наличии.' },
-      { q: 'С чего начать новоприбывшему в Польше?', a: 'Meldunek и PESEL — основа. Без них трудно с банком, медициной и налогами. Их можно получить за 1–3 рабочих дня в urzędzie gminy. Параллельно — wniosek о TRC, чтобы не упустить срок.' }
+      { q: 'Что нужно сделать в первые 30 дней в Польше?', a: 'Meldunek (регистрация по адресу) в гмине (обязательно при пребывании > 30 дней), PESEL, открытие банковского счёта, подача wniosku (заявления) о TRC через MOS v2.0 (если виза D), подключение медстраховки и SIM-карты, регистрация в ZUS при работе.' },
+      { q: 'Какие документы нужны новоприбывшему иностранцу?', a: 'Загранпаспорт с действующей визой/штампом, договор аренды или согласие хозяина на meldunek (регистрацию по адресу), paszport, фото 35×45 мм для PESEL и karty pobytu, медстраховка с покрытием от 30 000 €, договор работы при наличии.' },
+      { q: 'С чего начать новоприбывшему в Польше?', a: 'Meldunek (регистрация по адресу) и PESEL — основа. Без них трудно с банком, медициной и налогами. Их можно получить за 1–3 рабочих дня в urzędzie gminy (городском управлении). Параллельно — wniosek (заявление) о TRC, чтобы не упустить срок.' }
     ],
     pl: [
       { q: 'Co zrobić w pierwsze 30 dni w Polsce?', a: 'Meldunek w gminie, PESEL, konto bankowe, wniosek o TRC w MOS v2.0 (jeśli wiza D), ubezpieczenie zdrowotne, karta SIM, rejestracja w ZUS przy zatrudnieniu.' },
@@ -577,9 +577,9 @@ export const BLOG_FAQ: Map = {
       { q: 'Od czego zacząć nowoprzybyłemu w Polsce?', a: 'Meldunek i PESEL. Bez nich trudno o bank, medycynę i podatki. W urzędzie gminy 1–3 dni robocze. Równolegle wniosek o TRC.' }
     ],
     en: [
-      { q: 'What needs doing in the first 30 days in Poland?', a: 'Meldunek (mandatory if staying > 30 days), PESEL, opening a bank account, filing TRC via MOS v2.0 (if on D-visa), health insurance, SIM card, ZUS registration if employed.' },
-      { q: 'What documents does a newcomer need?', a: 'Passport with valid visa or stamp, lease or landlord consent for meldunek, 35×45 mm photos, insurance covering at least €30,000, employment contract if applicable.' },
-      { q: 'Where should a newcomer start in Poland?', a: 'Meldunek and PESEL — without them banking, healthcare and taxes are difficult. They take 1–3 working days at the gmina office. File the TRC in parallel.' }
+      { q: 'What needs doing in the first 30 days in Poland?', a: 'Meldunek (address registration, mandatory if staying > 30 days), PESEL, opening a bank account, filing TRC via MOS v2.0 (if on D-visa), health insurance, SIM card, ZUS registration if employed.' },
+      { q: 'What documents does a newcomer need?', a: 'Passport with valid visa or stamp, lease or landlord consent for meldunek (address registration), 35×45 mm photos, insurance covering at least €30,000, employment contract if applicable.' },
+      { q: 'Where should a newcomer start in Poland?', a: 'Meldunek (address registration) and PESEL — without them banking, healthcare and taxes are difficult. They take 1–3 working days at the gmina (municipal) office. File the TRC in parallel.' }
     ]
   },
 
@@ -604,10 +604,10 @@ export const BLOG_FAQ: Map = {
   // ─── Sp. z o.o., JDG, business ───────────────────────────────────────
   'otkrytie-sp-z-o-o-polsha-instrukciya': {
     ru: [
-      { q: 'Сколько стоит открыть Sp. z o.o. в Польше в 2026?', a: 'KRS S24 онлайн — 250 PLN, бумажная подача — 500 PLN. Минимальный капитал — 5 000 PLN (вносится на счёт). Услуги консультанта по сопровождению — от 1 800 PLN под ключ. Открытие банковского счёта в Польше — бесплатно.' },
-      { q: 'Сколько ждать регистрацию Sp. z o.o.?', a: 'Через KRS S24 (онлайн) — 1 рабочий день при правильно оформленном wniosku. Через бумажную подачу — 7–14 дней. Параллельно автоматически присваиваются NIP и REGON. VAT — отдельная регистрация, 7–30 дней.' },
-      { q: 'Можно ли открыть Sp. z o.o. в Польше иностранцу без TRC?', a: 'Да. В отличие от JDG, Sp. z o.o. не требует TRC — учредителем может быть нерезидент. Но при работе в фирме в Польше понадобится zezwolenie na pracę или TRC. Управлять можно дистанционно.' },
-      { q: 'Какие налоги платит Sp. z o.o. в 2026?', a: 'CIT 9% при доходе до 2 млн EUR, иначе 19%. Estonian CIT (от 10% при выплате дивидендов) — для малого бизнеса с reinwestycjami. VAT 23% (8% и 5% для отдельных категорий). PIT 19% — на дивиденды.' }
+      { q: 'Сколько стоит открыть Sp. z o.o. (ООО) в Польше в 2026?', a: 'KRS S24 (Государственный судебный реестр) онлайн — 250 PLN, бумажная подача — 500 PLN. Минимальный капитал — 5 000 PLN (вносится на счёт). Услуги консультанта по сопровождению — от 1 800 PLN под ключ. Открытие банковского счёта в Польше — бесплатно.' },
+      { q: 'Сколько ждать регистрацию Sp. z o.o. (ООО)?', a: 'Через KRS S24 (онлайн) — 1 рабочий день при правильно оформленном wniosku (заявлении). Через бумажную подачу — 7–14 дней. Параллельно автоматически присваиваются NIP и REGON. VAT — отдельная регистрация, 7–30 дней.' },
+      { q: 'Можно ли открыть Sp. z o.o. в Польше иностранцу без TRC?', a: 'Да. В отличие от JDG (ИП), Sp. z o.o. (ООО) не требует TRC — учредителем может быть нерезидент. Но при работе в фирме в Польше понадобится zezwolenie na pracę (разрешение на работу) или TRC. Управлять можно дистанционно.' },
+      { q: 'Какие налоги платит Sp. z o.o. в 2026?', a: 'CIT 9% при доходе до 2 млн EUR, иначе 19%. Estonian CIT (эстонский налог на прибыль, от 10% при выплате дивидендов) — для малого бизнеса с reinwestycjami (реинвестициями). VAT 23% (8% и 5% для отдельных категорий). PIT 19% — на дивиденды.' }
     ],
     pl: [
       { q: 'Ile kosztuje założenie Sp. z o.o. w 2026?', a: 'KRS S24 online — 250 PLN, papierowo — 500 PLN. Kapitał minimalny 5 000 PLN. Honorarium konsultanta od 1 800 PLN. Konto bankowe — bezpłatnie.' },
@@ -616,18 +616,18 @@ export const BLOG_FAQ: Map = {
       { q: 'Jakie podatki płaci Sp. z o.o. w 2026?', a: 'CIT 9% do 2 mln EUR, 19% powyżej. Estoński CIT od 10% przy wypłacie dywidendy. VAT 23%, 8% i 5%. PIT 19% od dywidendy.' }
     ],
     en: [
-      { q: 'How much does opening a Sp. z o.o. in Poland cost in 2026?', a: 'KRS S24 online: PLN 250. Paper filing: PLN 500. Minimum share capital: PLN 5,000. Consultant service from PLN 1,800 turnkey. Polish bank account: free.' },
-      { q: 'How long does Sp. z o.o. registration take?', a: 'Via S24 online — 1 working day with a clean application. Paper filing 7–14 days. NIP and REGON assigned automatically. VAT registration separately, 7–30 days.' },
-      { q: 'Can a non-resident open a Sp. z o.o. in Poland?', a: 'Yes. Unlike JDG, Sp. z o.o. does not require a residence card — a non-resident can be a founder. To work in the company you\'ll need a work permit or TRC. Management can be remote.' },
-      { q: 'What taxes does a Sp. z o.o. pay in 2026?', a: 'CIT 9% up to EUR 2M, 19% above. Estonian CIT from 10% on dividend distribution. VAT 23%, with 8% and 5% reduced rates. PIT 19% on dividends.' }
+      { q: 'How much does opening a Sp. z o.o. (LLC) in Poland cost in 2026?', a: 'KRS S24 (National Court Register) online: PLN 250. Paper filing: PLN 500. Minimum share capital: PLN 5,000. Consultant service from PLN 1,800 turnkey. Polish bank account: free.' },
+      { q: 'How long does Sp. z o.o. (LLC) registration take?', a: 'Via S24 online — 1 working day with a clean application. Paper filing 7–14 days. NIP and REGON assigned automatically. VAT registration separately, 7–30 days.' },
+      { q: 'Can a non-resident open a Sp. z o.o. in Poland?', a: 'Yes. Unlike JDG (sole proprietorship), Sp. z o.o. (LLC) does not require a residence card — a non-resident can be a founder. To work in the company you\'ll need a work permit or TRC. Management can be remote.' },
+      { q: 'What taxes does a Sp. z o.o. pay in 2026?', a: 'CIT 9% up to EUR 2M, 19% above. Estonian CIT (deferred CIT regime) from 10% on dividend distribution. VAT 23%, with 8% and 5% reduced rates. PIT 19% on dividends.' }
     ]
   },
 
   'jdg-dlya-inostrancev-v-polshe': {
     ru: [
-      { q: 'Может ли иностранец открыть JDG в Польше?', a: 'Только обладатели TRC по основанию работы или бизнеса, PMŻ, długoterminowego rezydenta UE или Karta Polaka. На студенческой karcie pobytu JDG нельзя. Для регистрации — CEIDG онлайн через ePUAP за 1 день.' },
-      { q: 'Какие налоговые льготы есть на JDG в 2026?', a: 'Ulga na start — освобождение от ZUS на 6 месяцев. Mały ZUS Plus — пониженные взносы при доходе до 120 000 PLN/год. IP Box — 5% ставка PIT для разработчиков ПО. Riccio — линейная 19% или прогрессивная 12/32%.' },
-      { q: 'Сколько стоит обслуживание JDG в год?', a: 'ZUS — около 500–1 700 PLN/мес в зависимости от opcji. Бухгалтерия — от 200 PLN/мес. ZUS zdrowotny — 9% от dochodu (минимум ~370 PLN). При нулевом доходе — около 6 000 PLN/год минимум.' }
+      { q: 'Может ли иностранец открыть JDG (ИП) в Польше?', a: 'Только обладатели TRC по основанию работы или бизнеса, PMŻ, długoterminowego rezydenta UE (долгосрочного резидента ЕС) или Karta Polaka. На студенческой karcie pobytu JDG нельзя. Для регистрации — CEIDG (Центральный реестр предпринимателей) онлайн через ePUAP за 1 день.' },
+      { q: 'Какие налоговые льготы есть на JDG в 2026?', a: 'Ulga na start (льгота для стартующих) — освобождение от ZUS на 6 месяцев. Mały ZUS Plus (Малый ZUS Плюс) — пониженные взносы при доходе до 120 000 PLN/год. IP Box — 5% ставка PIT для разработчиков ПО. Riccio — линейная 19% или прогрессивная 12/32%.' },
+      { q: 'Сколько стоит обслуживание JDG в год?', a: 'ZUS — около 500–1 700 PLN/мес в зависимости от opcji (опции). Бухгалтерия — от 200 PLN/мес. ZUS zdrowotny (медицинский взнос) — 9% от dochodu (дохода, минимум ~370 PLN). При нулевом доходе — около 6 000 PLN/год минимум.' }
     ],
     pl: [
       { q: 'Czy cudzoziemiec może założyć JDG w Polsce?', a: 'Tylko z TRC na podstawie pracy lub biznesu, PR, rezydent UE lub Karta Polaka. Na karcie studenckiej nie. Rejestracja w CEIDG online przez ePUAP w 1 dzień.' },
@@ -635,17 +635,17 @@ export const BLOG_FAQ: Map = {
       { q: 'Ile kosztuje prowadzenie JDG rocznie?', a: 'ZUS 500–1 700 PLN/m-c zależnie od opcji. Księgowość od 200 PLN/m-c. ZUS zdrowotny 9% dochodu (min. ~370 PLN). Bez przychodu rocznie ok. 6 000 PLN.' }
     ],
     en: [
-      { q: 'Can a foreigner open a JDG in Poland?', a: 'Only those with a TRC on work or business basis, PR, EU long-term resident, or Karta Polaka. Not available on a student card. CEIDG registration is online via ePUAP and takes one day.' },
-      { q: 'What tax breaks does JDG offer in 2026?', a: 'Ulga na start: 6-month ZUS exemption. Mały ZUS Plus: reduced contributions up to PLN 120,000 income. IP Box: 5% PIT for software developers. Linear 19% or progressive 12/32% scale.' },
+      { q: 'Can a foreigner open a JDG (sole proprietorship) in Poland?', a: 'Only those with a TRC on work or business basis, PR, EU long-term resident, or Karta Polaka. Not available on a student card. CEIDG (business register) registration is online via ePUAP and takes one day.' },
+      { q: 'What tax breaks does JDG offer in 2026?', a: 'Ulga na start (start-up relief): 6-month ZUS exemption. Mały ZUS Plus (Small ZUS Plus): reduced contributions up to PLN 120,000 income. IP Box: 5% PIT for software developers. Linear 19% or progressive 12/32% scale.' },
       { q: 'What does running a JDG cost annually?', a: 'ZUS PLN 500–1,700 per month depending on option. Accounting from PLN 200/month. Health-ZUS 9% of income (min. ~PLN 370). With zero income, ~PLN 6,000 per year minimum.' }
     ]
   },
 
   'likvidaciya-sp-z-oo-instrukciya': {
     ru: [
-      { q: 'Сколько длится likwidacja Sp. z o.o. в Польше?', a: 'Минимум 6 месяцев (по статье 286 KSH). Полная процедура — 9–18 месяцев. Включает уведомление KRS, объявление в Monitor Sądowy i Gospodarczy, ожидание 3 месяца для wierzycieli, бухгалтерскую отчётность.' },
-      { q: 'Что дешевле — likwidacja или sprzedaż Sp. z o.o.?', a: 'Sprzedaż udziałów — 2–4 недели и от 800 PLN. Likwidacja — 6+ месяцев и от 5 000 PLN. Sprzedaż подходит, если есть покупатель и нет долгов. Likwidacja — единственный путь при долгах перед ZUS / US.' },
-      { q: 'Какие налоги при ликвидации Sp. z o.o.?', a: 'CIT на нераспределённую прибыль (9% или 19%). PIT 19% на ликвидационные выплаты учредителям. PCC 0,5% от sumy nettoa imienia. VAT — окончательная декларация перед wykreśleniem.' }
+      { q: 'Сколько длится likwidacja Sp. z o.o. (ликвидация ООО) в Польше?', a: 'Минимум 6 месяцев (по статье 286 KSH — Кодекса торговых обществ). Полная процедура — 9–18 месяцев. Включает уведомление KRS (Государственного судебного реестра), объявление в Monitor Sądowy i Gospodarczy (Судебно-хозяйственном вестнике), ожидание 3 месяца для wierzycieli (кредиторов), бухгалтерскую отчётность.' },
+      { q: 'Что дешевле — likwidacja или sprzedaż Sp. z o.o.?', a: 'Sprzedaż udziałów (продажа долей) — 2–4 недели и от 800 PLN. Likwidacja (ликвидация) — 6+ месяцев и от 5 000 PLN. Sprzedaż подходит, если есть покупатель и нет долгов. Likwidacja — единственный путь при долгах перед ZUS / US.' },
+      { q: 'Какие налоги при ликвидации Sp. z o.o.?', a: 'CIT на нераспределённую прибыль (9% или 19%). PIT 19% на ликвидационные выплаты учредителям. PCC 0,5% от sumy nettoa imienia. VAT — окончательная декларация перед wykreśleniem (исключением из реестра).' }
     ],
     pl: [
       { q: 'Ile trwa likwidacja Sp. z o.o.?', a: 'Minimum 6 miesięcy (art. 286 KSH). Pełen cykl 9–18 miesięcy. Obejmuje wpis do KRS, ogłoszenie w MSiG, 3-miesięczne oczekiwanie na wierzycieli, sprawozdawczość.' },
@@ -653,7 +653,7 @@ export const BLOG_FAQ: Map = {
       { q: 'Jakie podatki przy likwidacji Sp. z o.o.?', a: 'CIT od niepodzielonego zysku (9% lub 19%). PIT 19% od wypłat likwidacyjnych. PCC 0,5%. VAT — ostateczna deklaracja przed wykreśleniem.' }
     ],
     en: [
-      { q: 'How long does liquidating a Polish Sp. z o.o. take?', a: 'Minimum 6 months under Article 286 of the Commercial Code. Full cycle 9–18 months. Includes KRS notice, MSiG publication, 3-month creditor wait, accounting reports.' },
+      { q: 'How long does liquidating a Polish Sp. z o.o. take?', a: 'Minimum 6 months under Article 286 of the Commercial Code. Full cycle 9–18 months. Includes KRS (National Court Register) notice, MSiG (Polish Court & Commercial Gazette) publication, 3-month creditor wait, accounting reports.' },
       { q: 'What\'s cheaper — liquidation or sale?', a: 'A share sale takes 2–4 weeks and starts at PLN 800. Liquidation takes 6+ months and starts at PLN 5,000. Sale fits where there\'s a buyer and no debts. Liquidation is required with ZUS / US debt.' },
       { q: 'What taxes apply during Sp. z o.o. liquidation?', a: 'CIT on undistributed profit (9% or 19%). PIT 19% on distributions. PCC 0.5%. VAT — final return before deregistration.' }
     ]
@@ -661,9 +661,9 @@ export const BLOG_FAQ: Map = {
 
   'nalogovye-lgoty-estonian-cit-ip-box': {
     ru: [
-      { q: 'Что такое Estonian CIT в Польше?', a: 'Estonian CIT — режим налогообложения, при котором налог платится только при выплате дивидендов (10% для малых, 20% для остальных), а не на прибыль за год. Подходит малому и среднему бизнесу с reinwestycjami.' },
-      { q: 'Кому подходит IP Box 5% в Польше?', a: 'IP Box — для разработчиков ПО, патентов и других kwalifikowanych prawa własności intelektualnej. Снижает PIT/CIT с 19% до 5% на доход от лицензий и продаж IP. Требует ewidencji R&D и kalkulacji nexus.' },
-      { q: 'Можно ли совмещать IP Box и Estonian CIT?', a: 'Нет. Estonian CIT исключает применение IP Box, ulgi B+R i innych ulg. Нужно выбирать стратегию: либо отсрочка налога (Estonian), либо льготная ставка на IP (IP Box).' }
+      { q: 'Что такое Estonian CIT в Польше?', a: 'Estonian CIT (эстонский налог на прибыль) — режим налогообложения, при котором налог платится только при выплате дивидендов (10% для малых, 20% для остальных), а не на прибыль за год. Подходит малому и среднему бизнесу с reinwestycjami (реинвестициями).' },
+      { q: 'Кому подходит IP Box 5% в Польше?', a: 'IP Box — для разработчиков ПО, патентов и других kwalifikowanych prawa własności intelektualnej (квалифицированных прав интеллектуальной собственности). Снижает PIT/CIT с 19% до 5% на доход от лицензий и продаж IP. Требует ewidencji R&D (учёта НИОКР) и kalkulacji nexus (расчёта nexus).' },
+      { q: 'Можно ли совмещать IP Box и Estonian CIT?', a: 'Нет. Estonian CIT (эстонский налог на прибыль) исключает применение IP Box, ulgi B+R (льготы НИОКР) i innych ulg. Нужно выбирать стратегию: либо отсрочка налога (Estonian), либо льготная ставка на IP (IP Box).' }
     ],
     pl: [
       { q: 'Czym jest estoński CIT w Polsce?', a: 'Estoński CIT — opodatkowanie wyłącznie przy wypłacie dywidendy (10% mali, 20% pozostali). Pasuje MŚP z reinwestycjami.' },
@@ -679,9 +679,9 @@ export const BLOG_FAQ: Map = {
 
   'nalogovoye-rezidentstvo-polsha-183-dnya': {
     ru: [
-      { q: 'Что такое правило 183 дней для налогового резидентства Польши?', a: 'По польскому Ustawe о PIT (art. 3 ust. 1a), вы считаетесь налоговым резидентом РП, если живёте в Польше более 183 дней в году или ваш центр жизненных интересов в Польше — независимо от visa status.' },
-      { q: 'Какие налоги платит налоговый резидент Польши?', a: 'PIT по прогрессивной шкале 12/32% либо линейный 19% (на JDG). Налогом облагается доход всего мира. Дивиденды — 19%. ZUS обязателен при работе. Декларация PIT-37 / PIT-36 — до 30 апреля следующего года.' },
-      { q: 'Как избежать двойного налогообложения с Россией / Украиной?', a: 'У Польши есть умовы o unikaniu podwójnego opodatkowania с большинством стран СНГ (с РФ — приостановлено с 2024). Применяется метод pro rata или wyłączenie, в зависимости от типа дохода. Подача PIT-ZG.' }
+      { q: 'Что такое правило 183 дней для налогового резидентства Польши?', a: 'По польскому Ustawe о PIT (Закону о PIT, art. 3 ust. 1a), вы считаетесь налоговым резидентом РП, если живёте в Польше более 183 дней в году или ваш центр жизненных интересов в Польше — независимо от visa status.' },
+      { q: 'Какие налоги платит налоговый резидент Польши?', a: 'PIT по прогрессивной шкале 12/32% либо линейный 19% (на JDG — ИП). Налогом облагается доход всего мира. Дивиденды — 19%. ZUS обязателен при работе. Декларация PIT-37 / PIT-36 — до 30 апреля следующего года.' },
+      { q: 'Как избежать двойного налогообложения с Россией / Украиной?', a: 'У Польши есть умовы o unikaniu podwójnego opodatkowania (соглашения об избежании двойного налогообложения) с большинством стран СНГ (с РФ — приостановлено с 2024). Применяется метод pro rata или wyłączenie (исключение), в зависимости от типа дохода. Подача PIT-ZG.' }
     ],
     pl: [
       { q: 'Czym jest zasada 183 dni dla rezydencji podatkowej?', a: 'Zgodnie z art. 3 ust. 1a ustawy o PIT, rezydentem RP jest osoba mieszkająca w Polsce ponad 183 dni w roku lub mająca centrum interesów życiowych w Polsce — niezależnie od statusu wizowego.' },
@@ -697,9 +697,9 @@ export const BLOG_FAQ: Map = {
 
   'vozvrat-nalogov-pit-37-pit-11-inostrancam': {
     ru: [
-      { q: 'Может ли иностранец получить возврат налога PIT в Польше?', a: 'Да. Любой налоговый резидент РП с доходом, на который удерживался PIT, имеет право подать PIT-37 / PIT-36 и получить zwrot. Базовая kwota wolna — 30 000 PLN/год (PIT 0% на эту сумму).' },
-      { q: 'Что такое PIT-11 и зачем он нужен?', a: 'PIT-11 — справка от работодателя о зарплате и удержанном налоге за прошлый год. Выдаётся до 28 февраля. На её основе заполняется PIT-37. Без PIT-11 zwrot невозможен.' },
-      { q: 'Какие льготы можно использовать в PIT в 2026?', a: 'Ulga prorodzinna (1 112,04 PLN на ребёнка), ulga na internet, ulga termomodernizacyjna, ulga rehabilitacyjna, ulga dla młodych (PIT 0% до 26 лет), wspólne rozliczenie z małżonkiem.' }
+      { q: 'Может ли иностранец получить возврат налога PIT в Польше?', a: 'Да. Любой налоговый резидент РП с доходом, на который удерживался PIT, имеет право подать PIT-37 / PIT-36 и получить zwrot (возврат). Базовая kwota wolna (необлагаемая сумма) — 30 000 PLN/год (PIT 0% на эту сумму).' },
+      { q: 'Что такое PIT-11 и зачем он нужен?', a: 'PIT-11 — справка от работодателя о зарплате и удержанном налоге за прошлый год. Выдаётся до 28 февраля. На её основе заполняется PIT-37. Без PIT-11 zwrot (возврат) невозможен.' },
+      { q: 'Какие льготы можно использовать в PIT в 2026?', a: 'Ulga prorodzinna (детская льгота, 1 112,04 PLN на ребёнка), ulga na internet (льгота за интернет), ulga termomodernizacyjna (льгота за термомодернизацию), ulga rehabilitacyjna (реабилитационная льгота), ulga dla młodych (льгота для молодёжи, PIT 0% до 26 лет), wspólne rozliczenie z małżonkiem (совместная декларация с супругом).' }
     ],
     pl: [
       { q: 'Czy cudzoziemiec może odzyskać podatek w Polsce?', a: 'Tak. Każdy rezydent podatkowy z pobranym PIT może złożyć PIT-37 / PIT-36. Kwota wolna — 30 000 PLN rocznie.' },
@@ -716,7 +716,7 @@ export const BLOG_FAQ: Map = {
   'otkrytie-bankovskogo-scheta-v-polshe': {
     ru: [
       { q: 'Какой банк выбрать иностранцу в Польше в 2026?', a: 'mBank, PKO BP, ING, Pekao SA, Santander принимают иностранцев с karta pobytu или PESEL. Revolut и WIO работают как digital-альтернативы. Лучший — зависит от языка обслуживания и tarif на международные переводы.' },
-      { q: 'Какие документы нужны для открытия счёта?', a: 'Паспорт, karta pobytu / визa D / PESEL, подтверждение адреса (договор аренды или meldunek), подтверждение дохода (umowa o pracę, оборот фирмы). Иногда — telefon польский для SMS-кода.' },
+      { q: 'Какие документы нужны для открытия счёта?', a: 'Паспорт, karta pobytu / визa D / PESEL, подтверждение адреса (договор аренды или meldunek — регистрация по адресу), подтверждение дохода (umowa o pracę — трудовой договор, оборот фирмы). Иногда — telefon польский для SMS-кода.' },
       { q: 'Можно ли открыть счёт в Польше дистанционно?', a: 'Mало банков принимают полностью удалённое открытие — большинство требует визита в отделение. Revolut, ZEN и WIO позволяют открывать через app, но с верификацией паспорта и видеосвязью.' }
     ],
     pl: [
@@ -726,16 +726,16 @@ export const BLOG_FAQ: Map = {
     ],
     en: [
       { q: 'Which Polish bank should a foreigner pick in 2026?', a: 'mBank, PKO BP, ING, Pekao, and Santander accept foreigners with a residence card or PESEL. Revolut and WIO are digital alternatives. The best choice depends on the service language and international-transfer fees.' },
-      { q: 'What documents are needed to open a Polish account?', a: 'Passport, residence card or D-visa or PESEL, proof of address (lease or meldunek), proof of income (employment contract, company turnover). Sometimes a Polish phone number for SMS.' },
+      { q: 'What documents are needed to open a Polish account?', a: 'Passport, residence card or D-visa or PESEL, proof of address (lease or meldunek — address registration), proof of income (employment contract, company turnover). Sometimes a Polish phone number for SMS.' },
       { q: 'Can I open a Polish bank account remotely?', a: 'Few banks allow fully remote onboarding — most require a branch visit. Revolut, ZEN and WIO open through the app with passport verification and video.' }
     ]
   },
 
   'shtrafy-rabotodatelyam-nelegalnoye-trudoustroystvo': {
     ru: [
-      { q: 'Какой штраф работодателю за нелегальное трудоустройство иностранца?', a: 'PIP штрафует работодателя от 1 000 до 30 000 PLN за каждого нелегально занятого иностранца. При повторных нарушениях — до 60 000 PLN. Также возможно уголовное дело по art. 218–219 Kodeksu karnego.' },
-      { q: 'Что считается нелегальным трудоустройством иностранца?', a: 'Работа без zezwolenia na pracę, истёкшее или несоответствующее zezwolenie, занятость по основанию визой не разрешено, отсутствие договора. Также — фиктивное оформление через JDG для замаскированной работы.' },
-      { q: 'Кто проверяет легальность работы иностранца?', a: 'PIP (Państwowa Inspekcja Pracy) — основной контролёр. ZUS — за неуплату взносов. Straż Graniczna — на дорогах и стройках. Urząd Skarbowy — за уход от PIT. Все могут проверять одновременно.' }
+      { q: 'Какой штраф работодателю за нелегальное трудоустройство иностранца?', a: 'PIP (Государственная инспекция труда) штрафует работодателя от 1 000 до 30 000 PLN за каждого нелегально занятого иностранца. При повторных нарушениях — до 60 000 PLN. Также возможно уголовное дело по art. 218–219 Kodeksu karnego (Уголовного кодекса).' },
+      { q: 'Что считается нелегальным трудоустройством иностранца?', a: 'Работа без zezwolenia na pracę (разрешения на работу), истёкшее или несоответствующее zezwolenie (разрешение), занятость по основанию визой не разрешено, отсутствие договора. Также — фиктивное оформление через JDG (ИП) для замаскированной работы.' },
+      { q: 'Кто проверяет легальность работы иностранца?', a: 'PIP (Państwowa Inspekcja Pracy — Государственная инспекция труда) — основной контролёр. ZUS — за неуплату взносов. Straż Graniczna (Пограничная служба) — на дорогах и стройках. Urząd Skarbowy (Налоговая служба) — за уход от PIT. Все могут проверять одновременно.' }
     ],
     pl: [
       { q: 'Jaka kara dla pracodawcy za nielegalne zatrudnienie cudzoziemca?', a: 'PIP — od 1 000 do 30 000 PLN za każdego cudzoziemca. Recydywa — do 60 000 PLN. Możliwe sprawy karne z art. 218–219 KK.' },
@@ -743,17 +743,17 @@ export const BLOG_FAQ: Map = {
       { q: 'Kto kontroluje legalność pracy cudzoziemca?', a: 'PIP — główny inspektorat. ZUS — składki. Straż Graniczna — drogi i budowy. US — PIT. Mogą sprawdzać równolegle.' }
     ],
     en: [
-      { q: 'What\'s the fine for illegal foreign employment in Poland?', a: 'PIP fines employers PLN 1,000–30,000 per illegally employed foreigner. Repeat offences: up to PLN 60,000. Criminal liability under Articles 218–219 of the Penal Code is possible.' },
-      { q: 'What counts as illegal employment of a foreigner?', a: 'Work without a permit, expired or mismatched permit, employment outside the visa basis, missing contract. Sham JDG to hide employment also qualifies.' },
-      { q: 'Who checks the legality of foreign employment?', a: 'PIP (State Labour Inspectorate) is the main authority. ZUS for contributions. Border Guard at roads and sites. US for PIT. They can check in parallel.' }
+      { q: 'What\'s the fine for illegal foreign employment in Poland?', a: 'PIP (State Labour Inspectorate) fines employers PLN 1,000–30,000 per illegally employed foreigner. Repeat offences: up to PLN 60,000. Criminal liability under Articles 218–219 of the Penal Code is possible.' },
+      { q: 'What counts as illegal employment of a foreigner?', a: 'Work without a zezwolenie na pracę (work permit), expired or mismatched permit, employment outside the visa basis, missing contract. Sham JDG (sole proprietorship) to hide employment also qualifies.' },
+      { q: 'Who checks the legality of foreign employment?', a: 'PIP (State Labour Inspectorate) is the main authority. ZUS for contributions. Straż Graniczna (Border Guard) at roads and sites. Urząd Skarbowy (tax office) for PIT. They can check in parallel.' }
     ]
   },
 
   'nevyplata-zarplaty-zaschita-prav-inostranca-pip': {
     ru: [
-      { q: 'Что делать, если работодатель не выплатил зарплату в Польше?', a: 'Подайте skargę в PIP (Państwowa Inspekcja Pracy) онлайн или лично. PIP вправе провести kontrolę, наложить mandat на работодателя и потребовать выплату. Параллельно — pozew do sądu pracy с возмещением + 0,12% за каждый день задержки.' },
-      { q: 'Сколько времени даётся на pozew o niewypłaconą zarplatę?', a: '3 года с момента, когда зарплата должна была быть выплачена (art. 291 § 1 Kodeksu pracy). После — претензия признаётся przedawnioną. Не тяните — сразу обращайтесь.' },
-      { q: 'Можно ли получить zarplatę без польского языка?', a: 'Да. Услуги PIP бесплатны и доступны переводчики (ukraiński, rosyjski, angielski). Юридическая помощь по trudному делу — от 1 500 PLN. На стадии sąd pracy — обязателен польский или адвокат.' }
+      { q: 'Что делать, если работодатель не выплатил зарплату в Польше?', a: 'Подайте skargę (жалобу) в PIP (Państwowa Inspekcja Pracy — Государственная инспекция труда) онлайн или лично. PIP вправе провести kontrolę (проверку), наложить mandat (штраф) на работодателя и потребовать выплату. Параллельно — pozew do sądu pracy (иск в суд по трудовым делам) с возмещением + 0,12% за каждый день задержки.' },
+      { q: 'Сколько времени даётся на pozew o niewypłaconą zarplatę (иск о невыплаченной зарплате)?', a: '3 года с момента, когда зарплата должна была быть выплачена (art. 291 § 1 Kodeksu pracy — Трудового кодекса). После — претензия признаётся przedawnioną (истёкшей по сроку давности). Не тяните — сразу обращайтесь.' },
+      { q: 'Можно ли получить zarplatę без польского языка?', a: 'Да. Услуги PIP (Государственной инспекции труда) бесплатны и доступны переводчики (ukraiński, rosyjski, angielski). Юридическая помощь по trudному делу — от 1 500 PLN. На стадии sąd pracy (суда по трудовым делам) — обязателен польский или адвокат.' }
     ],
     pl: [
       { q: 'Co zrobić, gdy pracodawca nie wypłaca pensji?', a: 'Skarga do PIP online lub osobiście. PIP może skontrolować, nałożyć mandat i żądać wypłaty. Równolegle pozew do sądu pracy z odsetkami 0,12% za każdy dzień zwłoki.' },
@@ -761,18 +761,18 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy można odzyskać pensję bez polskiego?', a: 'Tak. PIP jest bezpłatny, są tłumacze (ukraiński, rosyjski, angielski). Konsultant od 1 500 PLN. W sądzie pracy potrzebny polski lub pełnomocnik.' }
     ],
     en: [
-      { q: 'What should I do if my Polish employer hasn\'t paid the wage?', a: 'File a complaint with PIP (State Labour Inspectorate) online or in person. PIP can audit the employer, issue a fine, and demand payment. In parallel: file a labour-court suit with damages plus 0.12% per day of delay.' },
-      { q: 'What\'s the deadline for a wage suit?', a: '3 years from the date the wage was due (Article 291 §1 of the Labour Code). After that, the claim is barred.' },
-      { q: 'Can I recover wages without Polish?', a: 'Yes. PIP services are free and interpreters are available (Ukrainian, Russian, English). Legal services from PLN 1,500. In labour court, Polish or an attorney is essential.' }
+      { q: 'What should I do if my Polish employer hasn\'t paid the wage?', a: 'File a skarga (complaint) with PIP (State Labour Inspectorate) online or in person. PIP can audit the employer, issue a fine, and demand payment. In parallel: file a labour-court (sąd pracy) suit with damages plus 0.12% per day of delay.' },
+      { q: 'What\'s the deadline for a wage suit?', a: '3 years from the date the wage was due (Article 291 §1 of the Kodeks pracy — Labour Code). After that, the claim is barred.' },
+      { q: 'Can I recover wages without Polish?', a: 'Yes. PIP (State Labour Inspectorate) services are free and interpreters are available (Ukrainian, Russian, English). Legal services from PLN 1,500. In sąd pracy (labour court), Polish or an attorney is essential.' }
     ]
   },
 
   // ─── Real estate ─────────────────────────────────────────────────────
   'razreshenie-mswia-pokupka-nedvizhimosti-inostrancem': {
     ru: [
-      { q: 'Когда нужно zezwolenie MSWiA для покупки недвижимости?', a: 'Гражданам не-ЕС/ЕЭП — почти всегда, кроме исключений: квартира в общей kondominacie (без отдельной księgi wieczystej), брак с гражданином РП и проживание 2+ года, Karta Polaka, наследство, приобретение Sp. z o.o. с польским управлением.' },
-      { q: 'Сколько ждать решения MSWiA?', a: 'Официальный срок — 2 месяца. Реально — 3–6 месяцев. Сложные кейсы (большой участок, strefa nadgraniczna) — до 12 месяцев. Подача документов — через ePUAP или письменно.' },
-      { q: 'Сколько стоит zezwolenie MSWiA?', a: 'Госпошлина — 1 570 PLN. Услуги консультанта — от 3 500 PLN. Документы из страны гражданства, переводы, апостили — отдельно. Strefa nadgraniczna — обязательно консультация ABW.' }
+      { q: 'Когда нужно zezwolenie MSWiA (разрешение МВД) для покупки недвижимости?', a: 'Гражданам не-ЕС/ЕЭП — почти всегда, кроме исключений: квартира в общей kondominacie (кондоминиуме, без отдельной księgi wieczystej — поземельной книги), брак с гражданином РП и проживание 2+ года, Karta Polaka, наследство, приобретение Sp. z o.o. (ООО) с польским управлением.' },
+      { q: 'Сколько ждать решения MSWiA (МВД)?', a: 'Официальный срок — 2 месяца. Реально — 3–6 месяцев. Сложные кейсы (большой участок, strefa nadgraniczna — приграничная зона) — до 12 месяцев. Подача документов — через ePUAP или письменно.' },
+      { q: 'Сколько стоит zezwolenie MSWiA?', a: 'Госпошлина — 1 570 PLN. Услуги консультанта — от 3 500 PLN. Документы из страны гражданства, переводы, апостили — отдельно. Strefa nadgraniczna (приграничная зона) — обязательно консультация ABW (Агентства внутренней безопасности).' }
     ],
     pl: [
       { q: 'Kiedy potrzebne zezwolenie MSWiA na zakup nieruchomości?', a: 'Obywatelom spoza UE/EOG — niemal zawsze. Wyjątki: lokal w wspólnocie bez własnej KW, małżeństwo z obywatelem RP + 2 lata pobytu, Karta Polaka, dziedziczenie, kupno udziałów w polskiej Sp. z o.o.' },
@@ -780,17 +780,17 @@ export const BLOG_FAQ: Map = {
       { q: 'Ile kosztuje zezwolenie MSWiA?', a: 'Opłata 1 570 PLN. Konsultant od 3 500 PLN. Dokumenty z kraju obywatelstwa, tłumaczenia, apostille — osobno. Strefa nadgraniczna — konsultacja ABW.' }
     ],
     en: [
-      { q: 'When is MSWiA permission required to buy property in Poland?', a: 'Almost always for non-EU/EEA buyers. Exceptions: an apartment in a condominium without its own land register, marriage to a Polish citizen with 2+ years of residence, Karta Polaka, inheritance, or buying shares in a Polish Sp. z o.o.' },
-      { q: 'How long does the MSWiA decision take?', a: 'Statutory 2 months. Realistically 3–6 months. Complex cases (large plots, border zone) up to 12 months.' },
-      { q: 'How much does an MSWiA permit cost?', a: 'PLN 1,570 stamp duty. Consultant fees from PLN 3,500. Country-of-citizenship documents, translations, apostilles are extra. Border zone requires ABW consultation.' }
+      { q: 'When is MSWiA (Ministry of Interior) permission required to buy property in Poland?', a: 'Almost always for non-EU/EEA buyers. Exceptions: an apartment in a condominium without its own land register, marriage to a Polish citizen with 2+ years of residence, Karta Polaka, inheritance, or buying shares in a Polish Sp. z o.o. (LLC).' },
+      { q: 'How long does the MSWiA decision take?', a: 'Statutory 2 months. Realistically 3–6 months. Complex cases (large plots, strefa nadgraniczna — border zone) up to 12 months.' },
+      { q: 'How much does an MSWiA permit cost?', a: 'PLN 1,570 stamp duty. Consultant fees from PLN 3,500. Country-of-citizenship documents, translations, apostilles are extra. Border zone requires ABW (Internal Security Agency) consultation.' }
     ]
   },
 
   'arenda-kommercheskoy-nedvizhimosti-varshava': {
     ru: [
-      { q: 'Какие риски при аренде коммерческого помещения в Варшаве?', a: 'Service charge без верхнего предела (5–25% от czynszu), klauzula konkurencji, automatyczne przedłużenie umowy, kara umowna за досрочный выход (до 12 czynszów), повышение по wskaźnikowi GUS, обязанность fit-out за арендатора.' },
-      { q: 'Сколько стоит najem офиса в центре Варшавы в 2026?', a: 'Klasa A — 22–28 EUR/м²/мес + service charge 5–7 EUR/м². Класс B — 14–18 EUR. Bemowo, Mokotów — 16–20 EUR. На периферии — от 10 EUR. Контракты в EUR, оплата в PLN по NBP.' },
-      { q: 'Можно ли расторгнуть najem досрочно?', a: 'Только по основаниям из umowy: wypowiedzenie с okresem (3–6 месяцев), wypowiedzenie z winy wynajmującego (запущенный technical defect, нарушение). В остальных случаях — kara umowna до 12 czynszów.' }
+      { q: 'Какие риски при аренде коммерческого помещения в Варшаве?', a: 'Service charge без верхнего предела (5–25% от czynszu — арендной платы), klauzula konkurencji (пункт о неконкуренции), automatyczne przedłużenie umowy (автоматическое продление договора), kara umowna (договорной штраф) за досрочный выход (до 12 czynszów), повышение по wskaźnikowi GUS (индексу Главного статистического управления), обязанность fit-out за арендатора.' },
+      { q: 'Сколько стоит najem (аренда) офиса в центре Варшавы в 2026?', a: 'Klasa A — 22–28 EUR/м²/мес + service charge 5–7 EUR/м². Класс B — 14–18 EUR. Bemowo, Mokotów — 16–20 EUR. На периферии — от 10 EUR. Контракты в EUR, оплата в PLN по NBP.' },
+      { q: 'Можно ли расторгнуть najem досрочно?', a: 'Только по основаниям из umowy (договора): wypowiedzenie (расторжение) с okresem (3–6 месяцев), wypowiedzenie z winy wynajmującego (расторжение по вине арендодателя — запущенный technical defect, нарушение). В остальных случаях — kara umowna (договорной штраф) до 12 czynszów (арендных плат).' }
     ],
     pl: [
       { q: 'Jakie ryzyka przy najmie komercyjnym w Warszawie?', a: 'Service charge bez górnego limitu, klauzula konkurencji, automatyczne przedłużenie, kara umowna za wcześniejsze wyjście (do 12 czynszów), waloryzacja GUS, fit-out po stronie najemcy.' },
@@ -807,11 +807,11 @@ export const BLOG_FAQ: Map = {
   // ─── 2026-Q2 series ─────────────────────────────────────────────────
   'karta-pobytu-wygasla-co-delat': {
     ru: [
-      { q: 'Что делать, если карта побыту истекла в 2026?', a: 'В первые 7–14 дней — срочно подайте wniosek о новой karcie pobytu через MOS v2.0 с pisemnym uzasadnieniem причины просрочки. Не выезжайте из Польши до решения вопроса. Подача wniosku приостанавливает депортацию по art. 305 ust. 1 Ustawy o cudzoziemcach. После 14 дней риск получить zobowiązanie do powrotu и запрет Шенгена 1–3 года резко возрастает.' },
-      { q: 'Грозит ли депортация при истёкшей karcie pobytu?', a: 'При активной подаче нового wniosku в первые 7 дней — практически нет (по данным практики LegalWin, депортация коснулась 3 из 87 клиентов в этом окне). После 14 дней без действий — 31% случаев. Главный фактор — не сама просрочка, а ваше поведение после неё.' },
-      { q: 'Можно ли выехать из Польши с истёкшей kartą pobytu?', a: 'Технически да, но это худший выбор. На границе Straż Graniczna фиксирует nielegalny pobyt в системе SIS, и при следующей попытке въезда в любую страну Шенгена вы получите отказ. Запрет — обычно 1–3 года.' },
-      { q: 'Сколько стоит экстренная подача нового wniosku?', a: 'Госпошлины те же, что при стандартной подаче: 340 PLN за wniosek + 100 PLN за пластик. Услуги юриста по экстренной легализации в LegalWin — от 3 500 PLN, включая подачу в течение 24 часов и подготовку odwołania.' },
-      { q: 'Что считается уважительной причиной для просрочки?', a: 'Воеводы и Szef UdSC принимают: госпитализацию, тяжёлую болезнь, операцию (с wypisami ze szpitala), задержку работодателя с zezwoleniem na pracę, потерю документов с заявлением в полицию, технические сбои MOS v2.0 со screenshots. Не работают: «забыл», «думал, что есть время», «уезжал на родину».' }
+      { q: 'Что делать, если карта побыту истекла в 2026?', a: 'В первые 7–14 дней — срочно подайте wniosek (заявление) о новой karcie pobytu через MOS v2.0 с pisemnym uzasadnieniem (письменным обоснованием) причины просрочки. Не выезжайте из Польши до решения вопроса. Подача wniosku приостанавливает депортацию по art. 305 ust. 1 Ustawy o cudzoziemcach (Закона об иностранцах). После 14 дней риск получить zobowiązanie do powrotu (обязательство покинуть страну) и запрет Шенгена 1–3 года резко возрастает.' },
+      { q: 'Грозит ли депортация при истёкшей karcie pobytu?', a: 'При активной подаче нового wniosku (заявления) в первые 7 дней — практически нет (по данным практики LegalWin, депортация коснулась 3 из 87 клиентов в этом окне). После 14 дней без действий — 31% случаев. Главный фактор — не сама просрочка, а ваше поведение после неё.' },
+      { q: 'Можно ли выехать из Польши с истёкшей kartą pobytu?', a: 'Технически да, но это худший выбор. На границе Straż Graniczna (Пограничная служба) фиксирует nielegalny pobyt (нелегальное пребывание) в системе SIS, и при следующей попытке въезда в любую страну Шенгена вы получите отказ. Запрет — обычно 1–3 года.' },
+      { q: 'Сколько стоит экстренная подача нового wniosku?', a: 'Госпошлины те же, что при стандартной подаче: 340 PLN за wniosek (заявление) + 100 PLN за пластик. Услуги юриста по экстренной легализации в LegalWin — от 3 500 PLN, включая подачу в течение 24 часов и подготовку odwołania (апелляции).' },
+      { q: 'Что считается уважительной причиной для просрочки?', a: 'Wojewody (воеводы) и Szef UdSC (Глава Управления по делам иностранцев) принимают: госпитализацию, тяжёлую болезнь, операцию (с wypisami ze szpitala — выписками из больницы), задержку работодателя с zezwoleniem na pracę (разрешением на работу), потерю документов с заявлением в полицию, технические сбои MOS v2.0 со screenshots. Не работают: «забыл», «думал, что есть время», «уезжал на родину».' }
     ],
     pl: [
       { q: 'Co robić, gdy karta pobytu wygasła w 2026?', a: 'W pierwszych 7–14 dniach — pilnie złóż wniosek o nową kartę pobytu w MOS v2.0 z pisemnym uzasadnieniem opóźnienia. Nie wyjeżdżaj z Polski. Wniosek wstrzymuje deportację (art. 305 ust. 1 ustawy o cudzoziemcach). Po 14 dniach ryzyko zobowiązania do powrotu i zakazu Schengen 1–3 lata gwałtownie rośnie.' },
@@ -821,21 +821,21 @@ export const BLOG_FAQ: Map = {
       { q: 'Co jest uznawane za uzasadnioną przyczynę opóźnienia?', a: 'Wojewodowie i Szef UdSC przyjmują: hospitalizację, ciężką chorobę, operację (z wypisami ze szpitala), opóźnienie pracodawcy z zezwoleniem na pracę, utratę dokumentów ze zgłoszeniem na policji, awarie MOS v2.0 ze screenshotami. Nie działają: „zapomniałem", „myślałem, że jest czas", „byłem za granicą".' }
     ],
     en: [
-      { q: 'What do you do when your Polish residence card has expired in 2026?', a: 'In the first 7–14 days, urgently file a new MOS v2.0 application with a written justification for the delay. Don\'t leave Poland. Filing suspends deportation under Article 305(1) of the Foreigners Act. After 14 days the risk of a return order and a 1–3-year Schengen ban rises sharply.' },
+      { q: 'What do you do when your Polish residence card has expired in 2026?', a: 'In the first 7–14 days, urgently file a new MOS v2.0 wniosek (application) with a written justification for the delay. Don\'t leave Poland. Filing suspends deportation under Article 305(1) of the Foreigners Act. After 14 days the risk of a zobowiązanie do powrotu (return order) and a 1–3-year Schengen ban rises sharply.' },
       { q: 'Is deportation likely with an expired Karta Pobytu?', a: 'With active filing in the first 7 days — almost never (from LegalWin practice: 3 out of 87 clients). After 14 days without action — 31% of cases. What matters isn\'t the expiry itself, but your behaviour afterwards.' },
-      { q: 'Can I leave Poland with an expired residence card?', a: 'Technically yes, but it\'s the worst choice. At the border the Border Guard records unlawful stay in SIS, and the next entry attempt into any Schengen state will be denied. Ban — usually 1–3 years.' },
-      { q: 'How much does an emergency new filing cost?', a: 'State fees are the same as standard: PLN 340 for the application + PLN 100 for the card. LegalWin emergency-legalisation service from PLN 3,500, including filing within 24 hours and appeal preparation.' },
-      { q: 'What counts as a valid reason for the delay?', a: 'Voivodes and the Head of UdSC accept: hospitalisation, serious illness, surgery (with discharge papers), employer delay with the work permit, lost documents with a police report, MOS v2.0 outages with screenshots. Not accepted: "I forgot", "I thought I had time", "I was abroad".' }
+      { q: 'Can I leave Poland with an expired residence card?', a: 'Technically yes, but it\'s the worst choice. At the border the Straż Graniczna (Border Guard) records unlawful stay in SIS, and the next entry attempt into any Schengen state will be denied. Ban — usually 1–3 years.' },
+      { q: 'How much does an emergency new filing cost?', a: 'State fees are the same as standard: PLN 340 for the application + PLN 100 for the card. LegalWin emergency-legalisation service from PLN 3,500, including filing within 24 hours and odwołanie (appeal) preparation.' },
+      { q: 'What counts as a valid reason for the delay?', a: 'Wojewody (regional governors) and the Szef UdSC (Head of the Office for Foreigners) accept: hospitalisation, serious illness, surgery (with discharge papers), employer delay with the work permit, lost documents with a police report, MOS v2.0 outages with screenshots. Not accepted: "I forgot", "I thought I had time", "I was abroad".' }
     ]
   },
 
   'skladka-zdrowotna-2026-reforma': {
     ru: [
-      { q: 'Как изменилась składka zdrowotna для JDG с 1 января 2026?', a: 'Введён фиксированный минимум 9% от 75% минимальной зарплаты — в 2026 это 324,40 PLN/мес (3 893 PLN/год). И прогрессивный потолок: для линейного 19% — около 1 500 PLN/мес. Низкодоходные JDG платят чуть больше, высокодоходные — резко меньше. Перелом — около 240 000 PLN dochodu в год.' },
-      { q: 'Сколько платит JDG на ryczałcie 12% в 2026?', a: 'До 60 000 PLN выручки — 324 PLN/мес (новый минимум, было 419 PLN). 60 000 – 300 000 PLN — 698 PLN/мес. Свыше 300 000 — 1 256 PLN/мес. Главная экономия — на самом низком уровне дохода (-95 PLN/мес).' },
-      { q: 'Что меняется для Sp. z o.o. с 2026?', a: 'Сама ставка 9% от kwoty wynagrodzenia члена zarządu не изменилась. Но с 2026 ZUS получил доступ к данным KSeF и автоматически выявляет выплаты członkowi zarządu без uchwały. Доначисляется składka с karą 20%. Совет: оформите uchwałę o powołaniu z wynagrodzeniem (даже минимальным 500 PLN/мес).' },
-      { q: 'Освобождает ли Estonian CIT от składki zdrowotnej?', a: 'Да. На этапе reinwestycji — 0 PLN składki zdrowotnej. Только при wypłaty dywidendy — 10% (mali podatnicy) или 20% налога. Для одноосновной Sp. z o.o. с прибылью 200 000 PLN/год экономия по сравнению с klasycznym CIT — около 56 000 PLN/год.' },
-      { q: 'Когда платится składka zdrowotna и куда?', a: 'Ежемесячно через PUE ZUS до 20 числа следующего месяца. Расчёт 2026 — на основе dochodu предыдущего года (для нового JDG — на основе минимума). Годовая декларация ZUS DRA подаётся до 30 апреля 2027 за 2026 год.' }
+      { q: 'Как изменилась składka zdrowotna (медицинский взнос) для JDG (ИП) с 1 января 2026?', a: 'Введён фиксированный минимум 9% от 75% минимальной зарплаты — в 2026 это 324,40 PLN/мес (3 893 PLN/год). И прогрессивный потолок: для линейного 19% — около 1 500 PLN/мес. Низкодоходные JDG платят чуть больше, высокодоходные — резко меньше. Перелом — около 240 000 PLN dochodu (дохода) в год.' },
+      { q: 'Сколько платит JDG на ryczałcie 12% (упрощёнке) в 2026?', a: 'До 60 000 PLN выручки — 324 PLN/мес (новый минимум, было 419 PLN). 60 000 – 300 000 PLN — 698 PLN/мес. Свыше 300 000 — 1 256 PLN/мес. Главная экономия — на самом низком уровне дохода (-95 PLN/мес).' },
+      { q: 'Что меняется для Sp. z o.o. (ООО) с 2026?', a: 'Сама ставка 9% от kwoty wynagrodzenia (суммы вознаграждения) члена zarządu (правления) не изменилась. Но с 2026 ZUS получил доступ к данным KSeF и автоматически выявляет выплаты członkowi zarządu (члену правления) без uchwały (решения собрания). Доначисляется składka (взнос) с karą (штрафом) 20%. Совет: оформите uchwałę o powołaniu z wynagrodzeniem (решение о назначении с вознаграждением, даже минимальным 500 PLN/мес).' },
+      { q: 'Освобождает ли Estonian CIT (эстонский налог на прибыль) от składki zdrowotnej (медицинского взноса)?', a: 'Да. На этапе reinwestycji (реинвестиций) — 0 PLN składki zdrowotnej. Только при wypłaty dywidendy (выплате дивидендов) — 10% (mali podatnicy — малые плательщики) или 20% налога. Для одноосновной Sp. z o.o. с прибылью 200 000 PLN/год экономия по сравнению с klasycznym CIT — около 56 000 PLN/год.' },
+      { q: 'Когда платится składka zdrowotna и куда?', a: 'Ежемесячно через PUE ZUS (платформу электронных услуг ZUS) до 20 числа следующего месяца. Расчёт 2026 — на основе dochodu (дохода) предыдущего года (для нового JDG — на основе минимума). Годовая декларация ZUS DRA подаётся до 30 апреля 2027 за 2026 год.' }
     ],
     pl: [
       { q: 'Jak zmieniła się składka zdrowotna dla JDG od 1 stycznia 2026?', a: 'Wprowadzono stałe minimum 9% od 75% płacy minimalnej — w 2026 to 324,40 PLN/m-c. Plus progresywny sufit: dla podatku liniowego 19% — ok. 1 500 PLN/m-c. JDG o niskich dochodach płaci nieco więcej, wysokodochodowi — wyraźnie mniej. Punkt równowagi — ok. 240 000 PLN dochodu rocznie.' },
@@ -845,21 +845,21 @@ export const BLOG_FAQ: Map = {
       { q: 'Kiedy płatna jest składka zdrowotna?', a: 'Co miesiąc przez PUE ZUS do 20. dnia następnego miesiąca. Wyliczenie 2026 — na podstawie dochodu poprzedniego roku (dla nowego JDG — minimum). Roczna deklaracja ZUS DRA — do 30 kwietnia 2027 za rok 2026.' }
     ],
     en: [
-      { q: 'How did the JDG health contribution change on 1 January 2026?', a: 'A fixed minimum of 9% of 75% of the minimum wage was introduced — PLN 324.40/month in 2026. Plus a progressive cap: about PLN 1,500/month for the 19% flat rate. Low-income JDGs pay slightly more, high-income — significantly less. Break-even is around PLN 240,000 annual income.' },
-      { q: 'What does a JDG on ryczałt 12% pay in 2026?', a: 'Up to PLN 60,000 revenue — PLN 324/month (new minimum, was PLN 419). PLN 60,000–300,000 — PLN 698/month. Above PLN 300,000 — PLN 1,256/month. The main saving sits in the lowest bracket (-PLN 95/month).' },
-      { q: 'What changes for Sp. z o.o. from 2026?', a: 'The 9% rate on board-member remuneration is unchanged. But from 2026 ZUS has KSeF access and automatically detects payments without an appointment resolution. The contribution is reassessed with a 20% penalty. Tip: have a resolution appointing yourself with even a minimal PLN 500/month salary.' },
-      { q: 'Does Estonian CIT exempt me from the health contribution?', a: 'Yes. During reinvestment — PLN 0 contribution. Only on dividend payouts — 10% (small taxpayers) or 20%. For a single-shareholder Sp. z o.o. with PLN 200,000 profit, savings vs classic CIT are around PLN 56,000/year.' },
-      { q: 'When and where is the health contribution paid?', a: 'Monthly via PUE ZUS by the 20th of the following month. The 2026 calculation is based on the previous year\'s income (for new JDGs — on the minimum). The annual ZUS DRA return is filed by 30 April 2027 for fiscal 2026.' }
+      { q: 'How did the JDG (sole proprietorship) health contribution change on 1 January 2026?', a: 'A fixed minimum of 9% of 75% of the minimum wage was introduced — PLN 324.40/month in 2026. Plus a progressive cap: about PLN 1,500/month for the 19% flat rate. Low-income JDGs pay slightly more, high-income — significantly less. Break-even is around PLN 240,000 annual income.' },
+      { q: 'What does a JDG on ryczałt 12% (lump-sum tax) pay in 2026?', a: 'Up to PLN 60,000 revenue — PLN 324/month (new minimum, was PLN 419). PLN 60,000–300,000 — PLN 698/month. Above PLN 300,000 — PLN 1,256/month. The main saving sits in the lowest bracket (-PLN 95/month).' },
+      { q: 'What changes for Sp. z o.o. (LLC) from 2026?', a: 'The 9% rate on zarząd (board) member remuneration is unchanged. But from 2026 ZUS has KSeF access and automatically detects payments without an uchwała (appointment resolution). The contribution is reassessed with a 20% penalty. Tip: have a resolution appointing yourself with even a minimal PLN 500/month salary.' },
+      { q: 'Does Estonian CIT exempt me from the health contribution?', a: 'Yes. During reinvestment — PLN 0 contribution. Only on dywidenda (dividend) payouts — 10% (small taxpayers) or 20%. For a single-shareholder Sp. z o.o. with PLN 200,000 profit, savings vs classic CIT are around PLN 56,000/year.' },
+      { q: 'When and where is the health contribution paid?', a: 'Monthly via PUE ZUS (ZUS e-services platform) by the 20th of the following month. The 2026 calculation is based on the previous year\'s income (for new JDGs — on the minimum). The annual ZUS DRA return is filed by 30 April 2027 for fiscal 2026.' }
     ]
   },
 
   'ksef-luty-2026-e-faktury': {
     ru: [
-      { q: 'С какой даты обязателен KSeF в Польше?', a: 'С 1 февраля 2026 года все B2B-фактуры в Польше выставляются исключительно через KSeF. Это касается всех Sp. z o.o., JDG-плательщиков VAT, spółek komandytowych, jawnych и иностранных фирм с польским stałym miejscem prowadzenia działalności. Бумажные фактуры и PDF по почте больше не считаются legalnymi dokumentami.' },
-      { q: 'Кто пока освобождён от KSeF?', a: 'До конца 2026 освобождены: JDG на zwolnieniu z VAT (чистый ryczałt без VAT-rejestracji), B2C-поставщики (для физлиц-потребителей), faktury z kas fiskalnych (paragony). Эти категории получат обязательство с 2027 года.' },
-      { q: 'Какие штрафы за невыставление faktury через KSeF?', a: 'До 100% kwoty VAT с одной фактуры за невыставление через KSeF. До 18 000 PLN за факт выставления fakury papierowej в B2B. До 7 000 PLN за niezarejestrowanie się в KSeF. До 5 000 PLN за nieprawidłowy format. С 1 апреля 2026 — automatyczna kontrola сравнивает JPK_VAT с KSeF в реальном времени.' },
-      { q: 'Как иностранцу подключиться к KSeF?', a: '4 шага: 1) получить Profil Zaufany через польский банк или podpis kwalifikowany (от 200 PLN/год); 2) заполнить ZAW-FA в e-Urzędzie Skarbowym и назначить uprawnione osoby; 3) интегрировать бухгалтерскую программу (iFirma, wFirma, Comarch — уже интегрированы); 4) обучить сотрудников новой структуре XML-фактур. Подключение должно быть до 31 января 2026.' },
-      { q: 'Что меняется для входящих фактур от ЕС-контрагентов?', a: 'Контрагенты из других стран ЕС не находятся в KSeF, поэтому для UE-faktur нужны отдельные шаблоны. Большинство польских ERP-систем (Comarch, Subiekt) автоматически генерируют UE-fakturę отдельно. Faktury получаемые от ЕС остаются в обычном формате PDF/electronic.' }
+      { q: 'С какой даты обязателен KSeF (Национальная система электронных счетов-фактур) в Польше?', a: 'С 1 февраля 2026 года все B2B-фактуры в Польше выставляются исключительно через KSeF. Это касается всех Sp. z o.o. (ООО), JDG-плательщиков VAT (ИП), spółek komandytowych (коммандитных товариществ), jawnych (полных товариществ) и иностранных фирм с польским stałym miejscem prowadzenia działalności (постоянным местом ведения деятельности). Бумажные фактуры и PDF по почте больше не считаются legalnymi dokumentami (юридически действительными документами).' },
+      { q: 'Кто пока освобождён от KSeF?', a: 'До конца 2026 освобождены: JDG на zwolnieniu z VAT (освобождении от НДС, чистый ryczałt без VAT-rejestracji — упрощёнка без регистрации НДС), B2C-поставщики (для физлиц-потребителей), faktury z kas fiskalnych (фактуры с фискальных касс — paragony, чеки). Эти категории получат обязательство с 2027 года.' },
+      { q: 'Какие штрафы за невыставление faktury через KSeF?', a: 'До 100% kwoty VAT (суммы НДС) с одной фактуры за невыставление через KSeF. До 18 000 PLN за факт выставления fakury papierowej (бумажной фактуры) в B2B. До 7 000 PLN за niezarejestrowanie się (нерегистрацию) в KSeF. До 5 000 PLN за nieprawidłowy format (некорректный формат). С 1 апреля 2026 — automatyczna kontrola (автоматический контроль) сравнивает JPK_VAT с KSeF в реальном времени.' },
+      { q: 'Как иностранцу подключиться к KSeF?', a: '4 шага: 1) получить Profil Zaufany (доверенный профиль) через польский банк или podpis kwalifikowany (квалифицированную электронную подпись, от 200 PLN/год); 2) заполнить ZAW-FA в e-Urzędzie Skarbowym (электронной налоговой) и назначить uprawnione osoby (уполномоченных лиц); 3) интегрировать бухгалтерскую программу (iFirma, wFirma, Comarch — уже интегрированы); 4) обучить сотрудников новой структуре XML-фактур. Подключение должно быть до 31 января 2026.' },
+      { q: 'Что меняется для входящих фактур от ЕС-контрагентов?', a: 'Контрагенты из других стран ЕС не находятся в KSeF, поэтому для UE-faktur (фактур из ЕС) нужны отдельные шаблоны. Большинство польских ERP-систем (Comarch, Subiekt) автоматически генерируют UE-fakturę отдельно. Faktury получаемые от ЕС остаются в обычном формате PDF/electronic.' }
     ],
     pl: [
       { q: 'Od kiedy obowiązkowy jest KSeF w Polsce?', a: 'Od 1 lutego 2026 wszystkie faktury B2B w Polsce wystawiane są wyłącznie przez KSeF. Dotyczy wszystkich Sp. z o.o., JDG płatników VAT, spółek komandytowych, jawnych i zagranicznych firm ze stałym miejscem prowadzenia działalności w Polsce. Faktury papierowe i PDF mailem przestają być legalnymi dokumentami.' },
@@ -869,21 +869,21 @@ export const BLOG_FAQ: Map = {
       { q: 'Co zmienia się dla faktur od kontrahentów UE?', a: 'Kontrahenci z innych państw UE nie są w KSeF, więc do UE-faktur potrzebne są osobne szablony. Większość polskich ERP (Comarch, Subiekt) generuje UE-fakturę osobno. Faktury otrzymywane z UE pozostają w zwykłym formacie PDF/elektronicznym.' }
     ],
     en: [
-      { q: 'When does KSeF become mandatory in Poland?', a: 'From 1 February 2026, every B2B invoice in Poland is issued exclusively through KSeF. It applies to all Sp. z o.o., JDG VAT payers, spółki komandytowe, jawne, and foreign companies with a Polish fixed place of business. Paper invoices and PDF-by-email are no longer legal documents.' },
-      { q: 'Who is exempt from KSeF until 2027?', a: 'Exempt until end of 2026: JDGs on VAT exemption (pure ryczałt without VAT registration), B2C suppliers (individuals), receipts from fiscal cash registers. These groups will be obligated from 2027.' },
+      { q: 'When does KSeF (National e-Invoicing System) become mandatory in Poland?', a: 'From 1 February 2026, every B2B invoice in Poland is issued exclusively through KSeF. It applies to all Sp. z o.o. (LLCs), JDG (sole proprietor) VAT payers, spółki komandytowe (limited partnerships), jawne (general partnerships), and foreign companies with a Polish fixed place of business. Paper invoices and PDF-by-email are no longer legal documents.' },
+      { q: 'Who is exempt from KSeF until 2027?', a: 'Exempt until end of 2026: JDGs on VAT exemption (pure ryczałt — lump-sum tax — without VAT registration), B2C suppliers (individuals), receipts from fiscal cash registers (paragony). These groups will be obligated from 2027.' },
       { q: 'What are the penalties for not issuing an invoice via KSeF?', a: 'Up to 100% of the VAT amount on the invoice for non-issuance. Up to PLN 18,000 per paper B2B invoice. Up to PLN 7,000 for failure to register. Up to PLN 5,000 for incorrect format. From 1 April 2026 — automated audits reconcile JPK_VAT with KSeF in real time.' },
-      { q: 'How can a foreigner connect to KSeF?', a: '4 steps: 1) Profil Zaufany via a Polish bank or a qualified e-signature (from PLN 200/year); 2) ZAW-FA in e-Urząd Skarbowy with authorised persons; 3) accounting-software integration (iFirma, wFirma, Comarch — already integrated); 4) team training on the new XML structure. Connection by 31 January 2026.' },
+      { q: 'How can a foreigner connect to KSeF?', a: '4 steps: 1) Profil Zaufany (Trusted Profile) via a Polish bank or a qualified e-signature (from PLN 200/year); 2) ZAW-FA in e-Urząd Skarbowy (online tax office) with authorised persons; 3) accounting-software integration (iFirma, wFirma, Comarch — already integrated); 4) team training on the new XML structure. Connection by 31 January 2026.' },
       { q: 'What changes for invoices from EU counterparties?', a: 'EU counterparties aren\'t in KSeF, so EU-invoice templates are needed separately. Most Polish ERPs (Comarch, Subiekt) generate EU invoices separately. Invoices received from the EU remain in standard PDF/electronic format.' }
     ]
   },
 
   'polski-b1-egzamin-do-obywatelstwa': {
     ru: [
-      { q: 'Кому нужен сертификат B1 для гражданства Польши?', a: 'B1 от Państwowej Komisji обязателен для uznania za obywatela polskiego (натурализация после 2 лет PMŻ или 3 лет TRC) и nadania obywatelstwa przez Prezydenta RP. Не нужен для karty stałego pobytu (только в некоторых случаях) и для Karty Polaka (там устный A2 с консулом).' },
-      { q: 'Из каких частей состоит экзамен B1?', a: '4 части за один день (около 5 часов): rozumienie ze słuchu (30 мин), rozumienie tekstów pisanych (45 мин), poprawność gramatyczna (60 мин), pisanie + mówienie (90 мин + 15 мин). Самая сложная для русско- и украиноязычных — gramatyka, особенно miejscownik и aspekty czasownika.' },
-      { q: 'Сколько стоит экзамен B1 в 2026?', a: '150 EUR (около 640 PLN) за регистрацию. Pisemna копия сертификата — 60 PLN, с apostille MSZ +60 PLN. Срочная выдача +50%. При повторной сдаче после niezdania — снова 150 EUR полностью.' },
+      { q: 'Кому нужен сертификат B1 для гражданства Польши?', a: 'B1 от Państwowej Komisji (Государственной комиссии) обязателен для uznania za obywatela polskiego (признания польским гражданином — натурализация после 2 лет PMŻ или 3 лет TRC) и nadania obywatelstwa przez Prezydenta RP (предоставления гражданства Президентом РП). Не нужен для karty stałego pobytu (карты постоянного пребывания, только в некоторых случаях) и для Karty Polaka (там устный A2 с консулом).' },
+      { q: 'Из каких частей состоит экзамен B1?', a: '4 части за один день (около 5 часов): rozumienie ze słuchu (понимание на слух, 30 мин), rozumienie tekstów pisanych (понимание письменных текстов, 45 мин), poprawność gramatyczna (грамматика, 60 мин), pisanie + mówienie (письмо + говорение, 90 мин + 15 мин). Самая сложная для русско- и украиноязычных — gramatyka (грамматика), особенно miejscownik (предложный падеж) и aspekty czasownika (виды глагола).' },
+      { q: 'Сколько стоит экзамен B1 в 2026?', a: '150 EUR (около 640 PLN) за регистрацию. Pisemna копия сертификата — 60 PLN, с apostille MSZ (МИД) +60 PLN. Срочная выдача +50%. При повторной сдаче после niezdania (несдачи) — снова 150 EUR полностью.' },
       { q: 'Когда сдавать экзамен B1 в 2026?', a: 'Три сессии в году: 16–17 мая, 8–9 августа, 7–8 ноября 2026. Регистрация открывается за 3 месяца и закрывается за 6 недель. Места заканчиваются за 1–2 недели до этого. Центры в Польше — 8 (Варшава, Краков, Познань, Гданьск, Вроцлав, Люблин, Лодзь, Катовице) + 23 за рубежом.' },
-      { q: 'Можно ли заменить B1 дипломом польского ВУЗа?', a: 'Да — диплом полностью законченного licencjat / magistra / studiów podyplomowych на польском заменяет B1. Также подходит matura z języka polskiego, сертификат C1/C2 от Państwowej Komisji. Karta Polaka НЕ заменяет B1 — это распространённое заблуждение.' }
+      { q: 'Можно ли заменить B1 дипломом польского ВУЗа?', a: 'Да — диплом полностью законченного licencjat (бакалавриата) / magistra (магистратуры) / studiów podyplomowych (последипломного образования) на польском заменяет B1. Также подходит matura z języka polskiego (выпускной экзамен по польскому), сертификат C1/C2 от Państwowej Komisji (Государственной комиссии). Karta Polaka НЕ заменяет B1 — это распространённое заблуждение.' }
     ],
     pl: [
       { q: 'Komu jest potrzebny certyfikat B1 do obywatelstwa polskiego?', a: 'B1 z Państwowej Komisji jest obowiązkowy do uznania za obywatela polskiego (po 2 latach PR lub 3 latach TRC) i nadania obywatelstwa przez Prezydenta RP. Nie jest potrzebny do karty stałego pobytu (tylko w niektórych podstawach) ani do Karty Polaka (tam ustny A2 z konsulem).' },
@@ -893,7 +893,7 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy dyplom polskiej uczelni zastępuje B1?', a: 'Tak — dyplom ukończonych studiów licencjackich / magisterskich / podyplomowych po polsku zastępuje B1. Pasuje też matura z języka polskiego, certyfikat C1/C2 z Państwowej Komisji. Karta Polaka NIE zastępuje B1 — to częste nieporozumienie.' }
     ],
     en: [
-      { q: 'Who needs the B1 certificate for Polish citizenship?', a: 'B1 from the State Commission is mandatory for recognition as a Polish citizen (after 2 years of PR or 3 years of TRC) and citizenship by Presidential decree. Not required for permanent residence (only on some bases) or Karta Polaka (which uses an A2 oral test with the consul).' },
+      { q: 'Who needs the B1 certificate for Polish citizenship?', a: 'B1 from the Państwowa Komisja (State Commission) is mandatory for uznanie za obywatela polskiego (recognition as a Polish citizen — after 2 years of PR or 3 years of TRC) and nadanie obywatelstwa (citizenship by Presidential decree). Not required for permanent residence (only on some bases) or Karta Polaka (which uses an A2 oral test with the consul).' },
       { q: 'What does the B1 exam consist of?', a: 'Four parts in one day (~5 hours): listening (30 min), reading (45 min), grammar (60 min), writing + speaking (90 + 15 min). The hardest for Russian and Ukrainian speakers is grammar — particularly the locative case and verbal aspect.' },
       { q: 'How much does the B1 exam cost in 2026?', a: 'EUR 150 (~PLN 640) for registration. A written certificate copy — PLN 60, with MSZ apostille +PLN 60. Express issuance +50%. A resit after failing costs the full EUR 150 again.' },
       { q: 'When is the B1 exam in 2026?', a: 'Three sessions: 16–17 May, 8–9 August, 7–8 November 2026. Registration opens 3 months before and closes 6 weeks before. Slots fill 1–2 weeks earlier. Polish centres — 8 (Warsaw, Kraków, Poznań, Gdańsk, Wrocław, Lublin, Łódź, Katowice) plus 23 foreign ones.' },
@@ -903,11 +903,11 @@ export const BLOG_FAQ: Map = {
 
   'nfz-dla-cudzoziemca-2026': {
     ru: [
-      { q: 'Как иностранцу зарегистрироваться в NFZ в 2026?', a: '5 шагов: 1) получить PESEL и karta pobytu; 2) подключиться к ZUS через umowę o pracę / JDG / договор dobrowolnego ubezpieczenia; 3) проверить status на eWUŚ через mObywatel или pacjent.gov.pl; 4) выбрать lekarza POZ и подать deklarację в przychodni; 5) подключить IKP. Регистрация бесплатная.' },
-      { q: 'Кто имеет право на бесплатную медицину NFZ?', a: 'Работники по umowie o pracę или zlecenie с ZUS, JDG-предприниматели платящие składkę zdrowotną, студенты дневной формы с польской strony платой, члены семьи застрахованных (через DRA-2), беженцы UKR (украинцы), обладатели Karty Polaka и dobrowolnie ubezpieczeni (~720 PLN/мес). Туристы и краткосрочные визиты — нет.' },
-      { q: 'Сколько стоит добровольное страхование NFZ?', a: 'В 2026: 720 PLN/мес базового тарифа. При перерыве в страховании менее 3 месяцев — без kary. От 3 до 12 месяцев — +20% kary (864 PLN/мес). Свыше 12 месяцев — +50% (1 080 PLN/мес). Для большинства иностранцев частная страховка (PZU, Allianz, Medicover) дешевле — около 200–500 PLN/мес.' },
-      { q: 'Какие сроки ожидания специалистов в NFZ в 2026?', a: 'POZ — до 1 недели. Дерматолог — 4–8 недель. Гинеколог профилактика — 1–2 месяца. Кардиолог, невролог — 3–8 месяцев. Эндокринолог, ортопед, психиатр — 6–14 месяцев. Для острых случаев — pilne skierowanie от POZ (1–4 недели) или SOR. Запись через mObywatel или IKP.' },
-      { q: 'Что такое IKP и как его подключить?', a: 'IKP (Internetowe Konto Pacjenta) — личный кабинет пациента на pacjent.gov.pl. Доступ — через Profil Zaufany или mObywatel. В IKP: e-skierowania, e-recepty, история визитов, результаты анализов, статус NFZ. С 2026 интегрирован с mObywatel — рецепты и направления прямо в приложении.' }
+      { q: 'Как иностранцу зарегистрироваться в NFZ (Национальном фонде здоровья) в 2026?', a: '5 шагов: 1) получить PESEL и karta pobytu; 2) подключиться к ZUS через umowę o pracę (трудовой договор) / JDG (ИП) / договор dobrowolnego ubezpieczenia (добровольного страхования); 3) проверить status на eWUŚ через mObywatel или pacjent.gov.pl (Интернет-кабинет пациента); 4) выбрать lekarza POZ (врача первичной помощи) и подать deklarację (декларацию) в przychodni (поликлинике); 5) подключить IKP (Интернет-кабинет пациента). Регистрация бесплатная.' },
+      { q: 'Кто имеет право на бесплатную медицину NFZ?', a: 'Работники по umowie o pracę (трудовому договору) или zlecenie (договору поручения) с ZUS, JDG-предприниматели (ИП) платящие składkę zdrowotną (медицинский взнос), студенты дневной формы с польской strony платой, члены семьи застрахованных (через DRA-2), беженцы UKR (украинцы), обладатели Karty Polaka и dobrowolnie ubezpieczeni (добровольно застрахованные, ~720 PLN/мес). Туристы и краткосрочные визиты — нет.' },
+      { q: 'Сколько стоит добровольное страхование NFZ?', a: 'В 2026: 720 PLN/мес базового тарифа. При перерыве в страховании менее 3 месяцев — без kary (штрафа). От 3 до 12 месяцев — +20% kary (864 PLN/мес). Свыше 12 месяцев — +50% (1 080 PLN/мес). Для большинства иностранцев частная страховка (PZU, Allianz, Medicover) дешевле — около 200–500 PLN/мес.' },
+      { q: 'Какие сроки ожидания специалистов в NFZ в 2026?', a: 'POZ (первичная помощь) — до 1 недели. Дерматолог — 4–8 недель. Гинеколог профилактика — 1–2 месяца. Кардиолог, невролог — 3–8 месяцев. Эндокринолог, ортопед, психиатр — 6–14 месяцев. Для острых случаев — pilne skierowanie (срочное направление) от POZ (1–4 недели) или SOR (отделение неотложной помощи). Запись через mObywatel или IKP (Интернет-кабинет пациента).' },
+      { q: 'Что такое IKP и как его подключить?', a: 'IKP (Internetowe Konto Pacjenta — Интернет-кабинет пациента) — личный кабинет пациента на pacjent.gov.pl. Доступ — через Profil Zaufany (доверенный профиль) или mObywatel. В IKP: e-skierowania (электронные направления), e-recepty (электронные рецепты), история визитов, результаты анализов, статус NFZ. С 2026 интегрирован с mObywatel — рецепты и направления прямо в приложении.' }
     ],
     pl: [
       { q: 'Jak cudzoziemiec zarejestruje się w NFZ w 2026?', a: '5 kroków: 1) zdobyć PESEL i kartę pobytu; 2) podłączyć się do ZUS przez umowę o pracę / JDG / dobrowolne ubezpieczenie; 3) sprawdzić status w eWUŚ przez mObywatel lub pacjent.gov.pl; 4) wybrać lekarza POZ i złożyć deklarację w przychodni; 5) podłączyć IKP. Rejestracja bezpłatna.' },
@@ -917,20 +917,20 @@ export const BLOG_FAQ: Map = {
       { q: 'Czym jest IKP i jak je podłączyć?', a: 'IKP (Internetowe Konto Pacjenta) — panel pacjenta na pacjent.gov.pl. Logowanie — Profil Zaufany lub mObywatel. W IKP: e-skierowania, e-recepty, historia wizyt, wyniki badań, status NFZ. Od 2026 zintegrowane z mObywatel — recepty i skierowania w aplikacji.' }
     ],
     en: [
-      { q: 'How does a foreigner register with NFZ in 2026?', a: '5 steps: 1) get PESEL and a residence card; 2) connect to ZUS via employment / JDG / voluntary insurance; 3) check status in eWUŚ via mObywatel or pacjent.gov.pl; 4) choose a POZ doctor and file a declaration at the practice; 5) connect IKP. Registration is free.' },
-      { q: 'Who is eligible for free NFZ healthcare?', a: 'Employees on umowa o pracę or zlecenie with ZUS, JDG entrepreneurs paying the health contribution, full-time students with paid insurance, family members of insured persons (via DRA-2), UKR-status beneficiaries, Karta Polaka holders, and voluntarily insured (~PLN 720/month). Tourists and short stays — no.' },
+      { q: 'How does a foreigner register with NFZ (national health fund) in 2026?', a: '5 steps: 1) get PESEL and a residence card; 2) connect to ZUS via employment / JDG (sole proprietorship) / voluntary insurance; 3) check status in eWUŚ via mObywatel or pacjent.gov.pl; 4) choose a POZ (primary-care) doctor and file a declaration at the practice; 5) connect IKP (Internet Patient Account). Registration is free.' },
+      { q: 'Who is eligible for free NFZ healthcare?', a: 'Employees on umowa o pracę (employment contract) or zlecenie (mandate contract) with ZUS, JDG entrepreneurs paying the składka zdrowotna (health contribution), full-time students with paid insurance, family members of insured persons (via DRA-2), UKR-status beneficiaries, Karta Polaka holders, and voluntarily insured (~PLN 720/month). Tourists and short stays — no.' },
       { q: 'How much does voluntary NFZ insurance cost?', a: 'In 2026: PLN 720/month base. Break under 3 months — no penalty. Break 3–12 months — +20% penalty (PLN 864/month). Break over 12 months — +50% (PLN 1,080/month). For most foreigners, private insurance (PZU, Allianz, Medicover) is cheaper — PLN 200–500/month.' },
-      { q: 'What are NFZ specialist waiting times in 2026?', a: 'POZ — up to 1 week. Dermatology — 4–8 weeks. Gynaecology screening — 1–2 months. Cardiology, neurology — 3–8 months. Endocrinology, orthopedics, psychiatry — 6–14 months. Urgent cases — POZ urgent referral (1–4 weeks) or SOR. Booking via mObywatel or IKP.' },
-      { q: 'What is IKP and how do you connect it?', a: 'IKP (Internet Patient Account) is the patient panel at pacjent.gov.pl. Login via Profil Zaufany or mObywatel. IKP holds e-referrals, e-prescriptions, visit history, lab results and NFZ status. From 2026 it\'s integrated with mObywatel — prescriptions and referrals in the app.' }
+      { q: 'What are NFZ specialist waiting times in 2026?', a: 'POZ (primary care) — up to 1 week. Dermatology — 4–8 weeks. Gynaecology screening — 1–2 months. Cardiology, neurology — 3–8 months. Endocrinology, orthopedics, psychiatry — 6–14 months. Urgent cases — POZ pilne skierowanie (urgent referral, 1–4 weeks) or SOR (emergency department). Booking via mObywatel or IKP (Internet Patient Account).' },
+      { q: 'What is IKP and how do you connect it?', a: 'IKP (Internetowe Konto Pacjenta — Internet Patient Account) is the patient panel at pacjent.gov.pl. Login via Profil Zaufany (Trusted Profile) or mObywatel. IKP holds e-skierowania (e-referrals), e-recepty (e-prescriptions), visit history, lab results and NFZ status. From 2026 it\'s integrated with mObywatel — prescriptions and referrals in the app.' }
     ]
   },
 
   // ─── Schools, kids ───────────────────────────────────────────────────
   'zapis-detei-v-polskuyu-shkolu': {
     ru: [
-      { q: 'Как записать ребёнка-иностранца в польскую школу?', a: 'В urzędzie gminy подаёте wniosek в школу по месту жительства (по obowiązku szkolnym). Нужны: meldunek или подтверждение адреса, паспорт ребёнка, свидетельство о рождении с переводом, прививочная карта, при необходимости — оценки из предыдущей школы.' },
-      { q: 'Что такое klasa powitalna?', a: 'Klasa powitalna — adaptacyjny класс для иностранных детей, не знающих польского. До года интенсивного польского языка, потом интеграция в обычный класс. Включает социальную поддержку и психолога.' },
-      { q: 'Можно ли записать ребёнка в польскую школу без знания польского?', a: 'Да. Obowiązek szkolny действует для всех детей в Польше с 7 до 18 лет, независимо от языка. Школа обязана принять и предоставить дополнительные занятия польским (минимум 4 часа в неделю).' }
+      { q: 'Как записать ребёнка-иностранца в польскую школу?', a: 'В urzędzie gminy (городском управлении) подаёте wniosek (заявление) в школу по месту жительства (по obowiązku szkolnym — обязательному школьному обучению). Нужны: meldunek (регистрация по адресу) или подтверждение адреса, паспорт ребёнка, свидетельство о рождении с переводом, прививочная карта, при необходимости — оценки из предыдущей школы.' },
+      { q: 'Что такое klasa powitalna (приветственный класс)?', a: 'Klasa powitalna — adaptacyjny класс для иностранных детей, не знающих польского. До года интенсивного польского языка, потом интеграция в обычный класс. Включает социальную поддержку и психолога.' },
+      { q: 'Можно ли записать ребёнка в польскую школу без знания польского?', a: 'Да. Obowiązek szkolny (обязательное школьное обучение) действует для всех детей в Польше с 7 до 18 лет, независимо от языка. Школа обязана принять и предоставить дополнительные занятия польским (минимум 4 часа в неделю).' }
     ],
     pl: [
       { q: 'Jak zapisać dziecko cudzoziemca do polskiej szkoły?', a: 'W urzędzie gminy lub szkole rejonowej. Dokumenty: meldunek lub potwierdzenie adresu, paszport dziecka, akt urodzenia z tłumaczeniem, karta szczepień, ewentualnie świadectwo z poprzedniej szkoły.' },
@@ -938,8 +938,8 @@ export const BLOG_FAQ: Map = {
       { q: 'Czy można zapisać dziecko bez znajomości polskiego?', a: 'Tak. Obowiązek szkolny obejmuje wszystkie dzieci 7–18 lat. Szkoła musi przyjąć i zapewnić dodatkowe lekcje polskiego (min. 4 h/tydzień).' }
     ],
     en: [
-      { q: 'How do I enrol a foreign child in a Polish school?', a: 'At the gmina office or directly in the catchment school. Required: meldunek or proof of address, the child\'s passport, birth certificate with translation, vaccination record, and previous school grades if available.' },
-      { q: 'What is a klasa powitalna?', a: 'A welcome class — an adaptation class for foreign children without Polish. Up to a year of intensive Polish, then integration into a regular class. Includes social support and a psychologist.' },
+      { q: 'How do I enrol a foreign child in a Polish school?', a: 'At the gmina (municipal) office or directly in the catchment school. Required: meldunek (address registration) or proof of address, the child\'s passport, birth certificate with translation, vaccination record, and previous school grades if available.' },
+      { q: 'What is a klasa powitalna?', a: 'A klasa powitalna (welcome class) — an adaptation class for foreign children without Polish. Up to a year of intensive Polish, then integration into a regular class. Includes social support and a psychologist.' },
       { q: 'Can I enrol a child who doesn\'t speak Polish?', a: 'Yes. Compulsory schooling applies to all children aged 7–18 in Poland regardless of language. The school must accept and provide additional Polish lessons (at least 4 hours weekly).' }
     ]
   }

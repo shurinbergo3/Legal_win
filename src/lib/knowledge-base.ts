@@ -11,7 +11,7 @@ PRACTICE AREAS
 1. IMMIGRATION (Karta Pobytu / TRC)
 - Grounds: work (zezwolenie na pracę, Blue Card), business, study, family reunion, humanitarian.
 - Authority: Urząd do Spraw Cudzoziemców, voivode's offices.
-- Typical processing: 30–90 days; our average: ~42 days.
+- Statutory processing: up to 90 days; in practice in Mazowieckie 2026: 6–14 months. Our average for clients end-to-end: 6–8 months.
 - Documents: passport, proof of purpose (contract, admission, marriage cert), medical insurance, address registration (zameldowanie), financial means proof.
 - Permanent residence (stały pobyt): after 5 years of uninterrupted TRC, or faster via Karta Polaka / Polish origin.
 

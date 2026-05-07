@@ -61,7 +61,7 @@
     "stat3Label": "lat na rynku",
     "stat4Value": "4",
     "stat4Label": "języki robocze",
-    "stat1Note": "Średni czas decyzji — 42 dni",
+    "stat1Note": "Średni czas uzyskania — 6–8 miesięcy",
     "stat2Note": "Imigracja, biznes, podatki, dokumenty, relokacja",
     "stat3Note": "Od 2019 roku w Warszawie",
     "stat4Note": "PL · RU · UA · EN"
@@ -304,7 +304,7 @@
     "subtitle": "Nasze honorarium — stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład — na stronie każdej usługi.",
     "consultationCta": "Pierwsza konsultacja gratis · 30–60 min",
     "items": [
-      { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 42 dni" },
+      { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 6–8 miesięcy" },
       { "slug": "karta-stalego-pobytu", "name": "Karta stałego pobytu (PR)", "value": "od 3 500 PLN", "note": "Pod klucz. Opłaty 640 + 100 PLN osobno" },
       { "slug": "obywatelstwo", "name": "Obywatelstwo polskie", "value": "od 4 500 PLN", "note": "Uznanie — pod klucz. Nadanie — od 6 000 PLN" },
       { "slug": "apelacje", "name": "Apelacja od decyzji", "value": "od 1 800 PLN", "note": "Ekspres-analiza decyzji 48 h — 500 PLN, zalicza się" },
@@ -383,7 +383,7 @@
       },
       {
         "q": "Ile trwa otrzymanie karty pobytu?",
-        "a": "Średni czas decyzji w naszych sprawach to 42 dni. Zgodnie z ustawą wojewoda ma do 90 dni, ale przy prawidłowym złożeniu i pełnym pakiecie decyzja przychodzi szybciej."
+        "a": "Średni czas uzyskania karty to 6–8 miesięcy. Ustawowo wojewoda ma do 90 dni, ale w Mazowieckim Urzędzie Wojewódzkim w 2026 r. decyzja zapada realnie po 6–14 miesiącach. Przy prawidłowym złożeniu przez MOS v2.0 i pełnym pakiecie — bliżej dolnej granicy. Przyspieszamy przez ponaglenie i, w razie potrzeby, skargę na bezczynność do WSA."
       },
       {
         "q": "Czy pracujecie zdalnie?",

@@ -77,12 +77,12 @@ const pesel: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Можно ли получить PESEL без karta pobytu?', a: 'Да. С 2022 года PESEL оформляется по конкретной цели — на основании umowy o pracę, регистрации фирмы, учёбы или покупки недвижимости. Karta pobytu не обязательна. Достаточно легального пребывания (виза, безвиз, штамп о подаче на ВНЖ).' },
-      { q: 'Сколько ждать получения номера?', a: 'При подаче с полным пакетом — в день обращения. В крупных воеводствах (Warszawa, Wrocław, Kraków) иногда до 3 рабочих дней при большой загрузке. Для UKR-статуса — оформление через mObywatel занимает 1 день без визита.' },
-      { q: 'PESEL даёт право работать?', a: 'Нет. PESEL — это идентификационный номер, не разрешение на работу. Для трудоустройства иностранцу нужно zezwolenie na pracę или TRC с правом на работу. PESEL — необходимое, но не достаточное условие.' },
-      { q: 'Что такое ePUAP и зачем он нужен?', a: 'ePUAP — государственная платформа электронной подписи. С profil zaufany можно подать заявления в ZUS, US, KRS, urząd gminy, suds без личных визитов. Обязателен для подачи TRC с 2026 (MOS v2.0) и для большинства e-госуслуг.' },
-      { q: 'Можно ли изменить PESEL?', a: 'Только в исключительных случаях: смена пола, ошибка в дате рождения, защита свидетеля. По заявлению через MSWiA. Обычно — никогда.' },
-      { q: 'Что делать, если потерял zaświadczenie o PESEL?', a: 'Само zaświadczenie не нужно — PESEL запрашивается из реестра PESEL по запросу любого учреждения. Дубликат можно бесплатно получить в любом urząd gminy в течение 1 дня.' },
+      { q: 'Можно ли получить PESEL без karta pobytu?', a: 'Да. С 2022 года PESEL оформляется по конкретной цели — на основании umowy o pracę (трудового договора), регистрации фирмы, учёбы или покупки недвижимости. Karta pobytu (карта пребывания) не обязательна. Достаточно легального пребывания (виза, безвиз, штамп о подаче на ВНЖ).' },
+      { q: 'Сколько ждать получения номера?', a: 'При подаче с полным пакетом — в день обращения. В крупных воеводствах (Warszawa, Wrocław, Kraków) иногда до 3 рабочих дней при большой загрузке. Для UKR-статуса — оформление через mObywatel (мобильное приложение «Гражданин») занимает 1 день без визита.' },
+      { q: 'PESEL даёт право работать?', a: 'Нет. PESEL — это идентификационный номер, не разрешение на работу. Для трудоустройства иностранцу нужно zezwolenie na pracę (разрешение на работу) или TRC с правом на работу. PESEL — необходимое, но не достаточное условие.' },
+      { q: 'Что такое ePUAP и зачем он нужен?', a: 'ePUAP (государственная электронная платформа) — государственная платформа электронной подписи. С profil zaufany (доверенным профилем) можно подать заявления в ZUS, US, KRS, urząd gminy (городское управление), суды без личных визитов. Обязателен для подачи TRC с 2026 (MOS v2.0) и для большинства e-госуслуг.' },
+      { q: 'Можно ли изменить PESEL?', a: 'Только в исключительных случаях: смена пола, ошибка в дате рождения, защита свидетеля. По заявлению через MSWiA (МВД). Обычно — никогда.' },
+      { q: 'Что делать, если потерял zaświadczenie o PESEL?', a: 'Само zaświadczenie (справка) не нужно — PESEL запрашивается из реестра PESEL по запросу любого учреждения. Дубликат можно бесплатно получить в любом urząd gminy (городском управлении) в течение 1 дня.' },
       { q: 'Получу ли PESEL детям иностранцев?', a: 'Да. На детей до 18 лет PESEL оформляется родителем — нужно свидетельство о рождении (присяжный перевод), паспорта родителей, документы о пребывании ребёнка в Польше. Делаем одновременно со взрослым PESEL — экономия времени и сборов.' }
     ],
     related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
@@ -256,7 +256,7 @@ const pesel: ServiceEntry = {
       { q: 'Can I get PESEL without a residence card?', a: 'Yes. Since 2022 PESEL is granted "for a stated purpose" — employment, business registration, study or property purchase. Residence card is not required — legal stay is enough (visa, visa-free, residence application stamp).' },
       { q: 'How long does it take?', a: 'With a complete pack — same day. Big-city urzęds (Warsaw, Wrocław, Kraków) sometimes take up to 3 working days. UKR status: 1 day via mObywatel without visiting.' },
       { q: 'Does PESEL grant the right to work?', a: 'No. PESEL is an ID number, not a work permit. To work you also need a work permit or a residence card with work rights. PESEL is necessary but not sufficient.' },
-      { q: 'What is ePUAP?', a: 'The state e-signature platform. Profil zaufany lets you file applications with ZUS, US, KRS, courts and any urząd without in-person visits. Mandatory for MOS v2.0 (TRC) starting 2026.' },
+      { q: 'What is ePUAP?', a: 'ePUAP (e-government platform) is the state e-signature platform. Profil zaufany (trusted profile) lets you file applications with ZUS, US (tax office), KRS (court register), courts and any urząd without in-person visits. Mandatory for MOS v2.0 (TRC) starting 2026.' },
       { q: 'Can PESEL be changed?', a: 'Only in exceptional cases — gender change, date-of-birth error, witness protection. Application via MSWiA. Otherwise: never.' },
       { q: 'Lost the PESEL certificate — what now?', a: 'The certificate isn\'t needed — institutions pull PESEL from the register. A duplicate is free at any urząd gminy and issued within a day.' },
       { q: 'PESEL for children?', a: 'Yes — a parent applies. Birth certificate (sworn translation), parents\' passports, child\'s legal-stay proof. We file alongside the adult PESEL.' }
