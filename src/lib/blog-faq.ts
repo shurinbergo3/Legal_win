@@ -5,7 +5,7 @@
 // in Poland (MOS v2.0, eDoręczenia, KSeF, EES, ITD/BAG fines, etc.).
 
 export type BlogFaqItem = { q: string; a: string };
-export type BlogFaqLocale = 'ru' | 'pl' | 'en';
+export type BlogFaqLocale = 'ru' | 'pl' | 'en' | 'tr';
 
 type Map = Record<string, Partial<Record<BlogFaqLocale, BlogFaqItem[]>>>;
 

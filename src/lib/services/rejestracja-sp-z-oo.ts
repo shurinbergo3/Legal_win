@@ -267,6 +267,95 @@ const rejestracjaSpZOo: ServiceEntry = {
     related: ['gotowe-firmy', 'jdg', 'podatki-ksiegowosc'],
     ctaTitle: 'Sp. z o.o. in 7 business days',
     ctaSubtitle: 'Free consultation. Turnkey from 4,800 PLN. Shelf companies live in 24 hours from 6,500 PLN.'
+  },
+  tr: {
+    slug: 'rejestracja-sp-z-oo',
+    group: 'business',
+    icon: 'landmark',
+    badge: 'Sp. z o.o. · 7-10 iş gününde anahtar teslim',
+    title: 'Sp. z o.o. (Polonya limited şirketi) kuruluşu',
+    subtitle: 'Polonya limited şirket 7-10 iş gününde - KRS, NIP, REGON, VAT, banka hesabı',
+    lead: 'Sp. z o.o. (spółka z ograniczoną odpowiedzialnością - limited şirket), Polonya\'nın limited şirket biçimidir. Asgari sermaye 5.000 PLN, sorumluluk paya kadar sınırlı, oturum kartı (TRC) olmayan yabancılar için de uygun. S24 sistemi üzerinden 24 saatte veya genişletilmiş esas sözleşmeyle noterli olarak 5-7 günde kuruyoruz. Pakete Varşova\'da kayıtlı adres, mBank/ING/PKO BP\'de banka hesabı açılışı, VAT (KDV) kaydı ve ZUS\'ta tescil dahildir.',
+    facts: [
+      { label: 'Asgari sermaye', value: '5.000 PLN', note: 'kapitał zakładowy' },
+      { label: 'KRS - S24', value: '24-48 sa', note: 'çevrimiçi - ePUAP üzerinden' },
+      { label: 'KRS - noterli', value: '5-7 gün', note: 'esas sözleşmede serbestlik' },
+      { label: 'CIT (kurumlar vergisi)', value: '%9 / %19', note: '%9 - cirosu 2 mln EUR altı küçük mükellefler' }
+    ],
+    grounds: {
+      title: 'Sp. z o.o. ne zaman tercih edilir',
+      subtitle: 'Sp. z o.o. yabancılar için en yaygın şirket biçimidir. TRC zorunluluğu yoktur, yurt dışından yönetilebilir, kişisel mal varlığını korur.',
+      items: [
+        { title: 'TRC olmayan yabancı', desc: 'JDG (şahıs şirketi), iş hakkı içeren bir oturum izni gerektirir. Sp. z o.o. ise gerektirmez. Yurt dışında olan herhangi bir yabancı adına kurulabilir.' },
+        { title: 'Kişisel mal varlığının korunması', desc: 'Sorumluluk sermayedeki paya kadar sınırlıdır. İflas durumunda şirket borçları ortağa geçmez - yalnızca yönetim kurulu üyesinin ihmali halinde sorumluluk doğar.' },
+        { title: 'Yatırımcılarla çalışma', desc: 'Sermayenin udziały (paylar) üzerinden bölünmesi, ek ortak girişi, ESOP, farklı oy hakkı ve temettü oranlarına sahip pay sınıfları oluşturulması imkanı.' },
+        { title: 'AB müşterileriyle çalışma', desc: 'EU VAT (AB KDV) numarası, OSS / IOSS erişimi, JDG\'nin kabul edilmediği büyük kurumsal müşterilerle çalışabilme.' },
+        { title: 'IP Box ve Estonyan CIT', desc: 'Fikri mülkiyet gelirlerinde (yazılımcılar) %5 indirimli oran, temettü dağıtımına kadar ertelenmiş CIT - yalnızca Sp. z o.o. için.' },
+        { title: 'Şirket üzerinden oturum izni başvurusu', desc: 'Aktif Sp. z o.o. faaliyeti (gelir, en az 2 sigortalı çalışan) - işletme veya samozatrudniony (serbest meslek) gerekçesiyle karta pobytu için yasal temel oluşturur.' }
+      ]
+    },
+    timeline: {
+      title: 'Sp. z o.o. kuruluş aşamaları',
+      subtitle: 'İlk görüşmeden tam operasyonel hale (KRS + banka + VAT + muhasebe) - 7-14 iş günü.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'Ortaklık yapısı, vergi rejimi (CIT / Estonyan CIT / IP Box), faaliyet konuları (PKD kodları). S24 ve noterli arasında karar veririz.' },
+        { title: 'Esas sözleşme hazırlığı', duration: '1-2 gün', desc: 'Umowa spółki (şirket sözleşmesi): PKD kodları, paylar, yönetim kurulu üyeleri, sposób reprezentacji (temsil yetkisi), temettü politikası. S24\'te şablon, noterli kuruluşta bireysel sözleşme.' },
+        { title: 'İmza', duration: '1 gün', desc: 'S24\'te profil zaufany (e-devlet kimliği) veya kwalifikowany podpis (nitelikli elektronik imza) ile elektronik imza. Noterli kuruluş Varşova\'da, vekaletnameyle uzaktan da yapılabilir.' },
+        { title: 'KRS\'ye başvuru', duration: '24 sa (S24) / 5-7 gün', desc: 'Portal S24 veya PRS üzerinden elektronik. KRS, NIP ve REGON numaralarını otomatik atar. Müvekkili bilgilendiririz.' },
+        { title: 'CRBR (UBO kaydı)', duration: 'kuruluştan 7 gün içinde', desc: 'Centralny Rejestr Beneficjentów Rzeczywistych (Merkezi Gerçek Faydalanıcı Sicili) zorunlu kayıt. Geç bildirim cezası 1 mln PLN\'ye kadar.' },
+        { title: 'Banka hesabı', duration: '3-7 gün', desc: 'mBank, ING, PKO BP, Bank Pekao veya Santander\'de açılış. KYC süreci: belgeler, görüntülü kimlik doğrulama, başvuru formunun doldurulması.' },
+        { title: 'VAT kaydı', duration: '7-30 gün', desc: 'VAT-R başvurusu. 200.000 PLN altı ciroda muafiyet vardır, talep edilirse vazgeçilebilir. AB hizmetleri için VAT-UE zorunlu.' },
+        { title: 'ZUS kaydı', duration: '7 gün', desc: 'İlk çalışan veya B2B sözleşmesi durumunda işveren kaydı. Her çalışan için ZUS-ZPA, ZUS-ZUA bildirimleri.' }
+      ]
+    },
+    documents: {
+      title: 'Kuruluş için gerekenler',
+      subtitle: 'Çoğunu biz hazırlıyoruz. Sizden istenen: pasaport, adres, onay yazıları.',
+      items: [
+        'Ortakların ve yönetim kurulu üyelerinin pasaport taraması',
+        'PESEL - yönetim kurulu üyesi için zorunlu (yoksa biz çıkartıyoruz)',
+        'Ortakların ve yönetim kurulu üyelerinin ev adresleri (CRBR için)',
+        'Şirket adı (KRS\'de çakışma olmasın diye 3 alternatif)',
+        'PKD kodları (faaliyet konuları - iş planınıza göre seçeriz)',
+        'Pay yapısı (her wspólnik\'in udział - pay - yüzdesi)',
+        'Sposób reprezentacji (temsil yetkisi: tek başına veya birlikte)',
+        'Şirket merkez adresi - Varşova\'daki adresimiz fiyata dahil veya kendi adresiniz',
+        'S24 için profil zaufany / kwalifikowany podpis (gerekirse biz çıkartıyoruz)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Anahtar teslim sabit fiyat. Resmi harçlar ve noter ayrıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · yapı ve vergi planlaması' },
+        { label: 'S24 üzerinden Sp. z o.o.', value: '1.800 PLN\'den', note: 'KRS + NIP + 12 ay merkez adresi' },
+        { label: 'Noterli Sp. z o.o.', value: '3.500 PLN\'den', note: 'Bireysel esas sözleşme' },
+        { label: 'Anahtar teslim + banka + VAT', value: '4.800 PLN\'den', note: 'KRS + banka + VAT-R + muhasebe' }
+      ],
+      note: 'Resmi harçlar: KRS 250 PLN (S24) veya 500 PLN (noterli), Monitor Sądowy ilanı 100 PLN, 5.000 PLN sermayede noter ücreti yaklaşık 700-1.200 PLN. İlk yıldan sonra merkez adresi - 200 PLN/ay.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych (Ticari Şirketler Kanunu, bölüm III - Sp. z o.o.)',
+        'Ustawa z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym (KRS Kanunu)',
+        'Ustawa z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy (Aklama ile Mücadele Kanunu - CRBR)',
+        'Ustawa z dnia 11 marca 2004 r. o podatku VAT (KDV Kanunu)',
+        'Ustawa z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych (CIT - Kurumlar Vergisi Kanunu)'
+      ]
+    },
+    faq: [
+      { q: 'Polonya\'ya gelmeden kurabilir miyim?', a: 'Evet. S24 üzerinden - profil zaufany veya kwalifikowany podpis (1-2 günde uzaktan ProfilZaufany.pl veya KIR aracılığıyla çıkartılır). Noterli yöntemde - pełnomocnictwo (vekaletname) ile: vekaletnameyi Polonya konsolosluğunda imzalar veya apostille ile gönderirsiniz, biz kuruluşu sizin adınıza yaparız.' },
+      { q: 'PESEL şart mı?', a: 'Yönetim kurulu üyesi (członek zarządu) için zorunludur - mali tabloların KRS\'ye elektronik bildirimi için. Wspólnik (ortak) için zorunlu değildir, pasaport bilgileri yeterli olur. PESEL\'i 7-14 günde çıkartıyoruz.' },
+      { q: 'S24 mü, noterli kuruluş mu?', a: 'S24 - daha hızlı (24 sa), daha ucuz (250 PLN), ancak şablon bir esas sözleşme. Noterli - daha yavaş (5-7 gün), daha pahalı (700+ PLN), ama udziały sınıfları, asimetrik oy hakkı, ESOP, ortakların çıkış koşulları ve miras hükümleri gibi özelleştirmelere imkan tanır. Büyük projeler için noterli yol önerilir.' },
+      { q: 'Sp. z o.o. hangi CIT oranını öder?', a: '%9 - mali podatnicy (yıllık cirosu 2 mln EUR altı küçük mükellefler) için ilk yıl + eşik aşıldığı yıl. %19 - standart oran. Estonyan CIT - temettü dağıtımına kadar erteleme, yatırıma çevrilirse %0. IP Box - yazılım fikri mülkiyetinden gelirler için %5.' },
+      { q: 'Yabancı tek ortak ve tek yönetim kurulu üyesi olabilir mi?', a: 'Evet, PESEL\'i varsa. Vatandaşlık kısıtı yoktur - Sp. z o.o. %100 yabancı sermayeli olabilir. Ancak 1 ortak = 1 wspólnik durumunda şirket, ortağı serbest meslek erbabı gibi ZUS\'a tescil eder ve maliyet artar. Çözüm: ikinci bir ortağın asgari payla ilave edilmesidir.' },
+      { q: 'Sp. z o.o.\'nun yıllık bakım maliyeti?', a: 'Muhasebe - küçük şirket için 800 PLN\'den (5 işlem), orta ölçekli işletme için 1.500-3.000 PLN/ay. Merkez adresi - 200-400 PLN/ay. KRS\'ye yıllık sprawozdanie finansowe (mali tablo) - 600-1.200 PLN/yıl. ZUS hariç asgari toplam: 12.000-15.000 PLN/yıl.' },
+      { q: 'Ortak için ZUS nasıl işliyor?', a: 'Sp. z o.o.\'da 1 wspólnik varsa - jednoosobowy przedsiębiorca (tek kişilik girişimci) gibi ZUS öder (~1.700 PLN/ay). 2 veya daha çok wspólnik varsa - ZUS yok (yalnızca çalışan veya B2B sözleşmesi durumunda). Kritik bir karardır - danışmanlıkta detaylıca konuşuyoruz.' }
+    ],
+    related: ['gotowe-firmy', 'jdg', 'podatki-ksiegowosc'],
+    ctaTitle: 'Sp. z o.o. 7 iş gününde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: yapıyı işinize göre optimize ederiz. Anahtar teslim - 4.800 PLN\'den. 24 saatte aktif hazır şirketler - 6.500 PLN\'den.'
   }
 };
 

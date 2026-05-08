@@ -267,6 +267,95 @@ const likwidacjaSprzedaz: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'podatki-ksiegowosc'],
     ctaTitle: 'Wind-down or sale',
     ctaSubtitle: 'Free path selection. Share sale from 1,800 PLN, liquidation from 6,500 PLN.'
+  },
+  tr: {
+    slug: 'likwidacja-sprzedaz',
+    group: 'business',
+    icon: 'gavel',
+    badge: 'Likwidacja · M&A · pay devri',
+    title: 'Şirket tasfiyesi ve satışı',
+    subtitle: 'Sp. z o.o. kapanışı veya M&A süreciyle anahtar teslim satış',
+    lead: 'Polonya\'da Sp. z o.o.\'nun kapatılması resmi bir prosedürdür: otwarcie likwidacji (tasfiye açılışı), Monitor Sądowy\'da ilan, yükümlülüklerin tasfiyesi, sprawozdanie likwidacyjne (tasfiye raporu), KRS\'den wykreślenie. İlandan kayıt silmeye en az 6 ay. Alternatif - işletme satışı (M&A) veya pay devri. Her iki yolu da yürütüyoruz: alıcı yoksa likwidacja, varsa M&A - vergi açısından daha avantajlı ve daha hızlı.',
+    facts: [
+      { label: 'Likwidacja', value: '6-9 ay', note: 'KSH gereği asgari süre' },
+      { label: 'Pay devri', value: '2-4 hafta', note: 'noter huzurunda' },
+      { label: 'Aktif M&A', value: '2-4 ay', note: 'due diligence + satış' },
+      { label: 'Satışta vergi', value: '%19 PIT', note: 'wspólnik\'in zysk\'ı üzerinden' }
+    ],
+    grounds: {
+      title: 'Hangi yol ne zaman',
+      subtitle: 'Her senaryonun kendi süresi, vergi yükü ve riski vardır. Danışmanlıkta birlikte değerlendiriyoruz.',
+      items: [
+        { title: 'Likwidacja - alıcı yoksa', desc: 'Şirkete ihtiyacınız kalmadıysa ve alıcı yoksa. En pahalı ve uzun yol (6-9 ay), ama gelecekte yükümlülük bırakmadan temiz bir kapanış sağlar.' },
+        { title: 'Pay devri - alıcı varsa', desc: 'Tüm udziałów\'un (payların) alıcıya devri. Hızlı (2-4 hafta), zysk üzerinden %19 PIT. Alıcı tüm yükümlülükleri devralır.' },
+        { title: 'Aktif satışı (asset deal)', desc: 'Tüzel kişilik devredilmeden seçili varlıkların (sözleşmeler, çalışanlar, marka) satışı. İşletmenin bir kısmı satılıp diğeri kapatılırken kullanışlıdır.' },
+        { title: 'Połączenie spółek (birleşme)', desc: 'Sp. z o.o.\'nun başka bir şirketle birleşmesi. Şartlar sağlanırsa vergi muafiyeti. Karmaşıktır - yalnızca orta ölçekli işletmelere uygundur.' },
+        { title: 'Mirasçılara devir', desc: 'Wspólnik\'in (ortağın) ölümü halinde payların mirasçılara intikali. Testament, podział majątku ve KRS düzenlemelerini hazırlıyoruz. Veraset vergisi ayrı bir konudur.' },
+        { title: 'Satışa hazırlık', desc: 'Satıştan önce her şeyi düzene koyma: sözleşmeler, ZUS, vergi, sprawozdania. "As is" satışa kıyasla fiyatı 2 kat artırır.' }
+      ]
+    },
+    timeline: {
+      title: 'Sp. z o.o. likwidacja aşamaları',
+      subtitle: 'Alternatif (pay devri) 2-4 hafta sürer. Likwidacja zorunlu olarak 6+ ay alır.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'Yolu birlikte belirliyoruz: likwidacja vs sprzedaż udziałów vs połączenie. Vergi sonuçlarını hesaplıyoruz.' },
+        { title: 'Uchwała wspólników', duration: '1 hafta', desc: 'Tasfiye açılışı kararı. Likwidator (genelde eski członek zarządu) atanır. KRS\'ye sunum.' },
+        { title: 'MSiG\'de ilan', duration: '7-14 gün', desc: 'Monitor Sądowy i Gospodarczy\'de alacaklılara 3 ay içinde alacaklarını bildirme çağrısı. Damga vergisi 100 PLN.' },
+        { title: 'Yükümlülüklerin tasfiyesi', duration: '2-6 ay', desc: 'Likwidator varlıkları satar, borçları öder, çalışanları işten çıkarır. Düzenlenmemiş alacaklar - noter nezdinde depo edilir.' },
+        { title: 'Bilans likwidacyjny', duration: '1 ay', desc: 'Tasfiye başlangıç ve bitiş bilançolarının hazırlanması. KRS ve US\'ye sunum.' },
+        { title: 'Podział majątku', duration: 'ilandan 6 ay sonra', desc: 'Kalan varlıkların ortaklar arasında pay oranlarına göre bölüşümü. İlan tarihinden itibaren 6 ay geçmeden mümkün değildir.' },
+        { title: 'KRS\'den wykreślenie', duration: '1-3 ay', desc: 'Tasfiyenin sonlandırılması başvurusu. KRS şirketi sicilden siler. Belgeleri 5+ yıl arşivde tutuyoruz.' },
+        { title: 'US, ZUS\'ta kapanış', duration: '1 ay', desc: 'VAT, NIP iptali. ZUS hesaplarının kapatılması. Personel belgeleri 50 yıl saklanır.' }
+      ]
+    },
+    documents: {
+      title: 'Likwidacja veya satış için gerekenler',
+      subtitle: 'Yola bağlıdır. Asgari minimum: kuruluş belgeleri ve mali tablolar.',
+      items: [
+        'Güncel KRS çıktısı (biz alıyoruz)',
+        'Sp. z o.o.\'nun güncel statut\'u',
+        'Şirketin var olduğu tüm yıllar için sprawozdania finansowe',
+        'Wspólnik\'lerin PESEL / pasaport ve pay oranlarıyla listesi',
+        'Müşteri ve tedarikçi sözleşmeleri (yükümlülüklerin değerlendirilmesi için)',
+        'Tüm umowy o pracę ve umowy zlecenia (bildirimler için)',
+        'Tasfiye gününe ait bilanço ve gelir-gider tablosu',
+        'Sabit kıymet ve depo sayım listesi',
+        'Son 12 ayın banka hesap hareketleri'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Likwidacja sabit fiyat. M&A için işlemden % alıyoruz.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · yol seçimi' },
+        { label: 'Pay devri', value: '1.800 PLN\'den', note: 'Noter umowa\'sı + KRS' },
+        { label: 'Sp. z o.o. likwidacja', value: '6.500 PLN\'den', note: '6+ aylık tam döngü' },
+        { label: 'Tam M&A süreci', value: '15.000 PLN\'den', note: 'Due diligence + sözleşme + kapanış' }
+      ],
+      note: 'Likwidacja için: MSiG ilanları ~600 PLN, noter 1.200-2.500 PLN, KRS 350 PLN. M&A için: ek olarak muhasebe due diligence 5.000-15.000 PLN. Kredi, sponsor veya ihtilaflı durumlar varsa - ayrı fiyatlandırma.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych (KSH - bölüm 6, Sp. z o.o. tasfiyesi, madde 270-290)',
+        'Ustawa z dnia 28 lutego 2003 r. - Prawo upadłościowe (İflas Kanunu - ödeme aczi durumunda)',
+        'Ustawa z dnia 26 lipca 1991 r. o PIT (madde 17 - pay satışı, %19 vergi)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (madde 6/1 - işletme bütünü VAT dışı)',
+        'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (Medeni Kanun - işletme satışı)'
+      ]
+    },
+    faq: [
+      { q: 'Sp. z o.o.\'yu 6 aydan kısa sürede kapatabilir miyim?', a: 'Likwidacja yapıyorsanız hayır - KSH gereği wierzyciele için (alacaklılar için) asgari 6 ay. Alternatifler: 1) Pay devri - 2-4 hafta; 2) Połączenie (başka Sp. z o.o. ile birleşme - slip-sale) - 3-4 ay; 3) Upadłość (iflas) - şirket gerçekten ödeme aciziyse, yine 6+ ay.' },
+      { q: 'Likwidacja mı yoksa pay devri mi avantajlı?', a: 'Pay devri (sprzedaż udziałów) genelde daha hızlı, daha ucuz ve vergi açısından daha avantajlıdır. Zysk\'a (kâr = satış fiyatı eksi pay edinim maliyeti) %19 PIT uygulanır. Likwidacja\'da podział majątku\'nda (kalan varlıklara) %19 vergi, plus 6+ aylık süreç ve likwidator + KRS ücretleri vardır. Pay devri vakaların %80\'inde likwidacja\'yı geride bırakır.' },
+      { q: '"Boş kabuk" şirket satabilir miyim?', a: 'Evet. Bu, shelf-companies\'in tersi pazarıdır: yaşı değer kazanmış eski Sp. z o.o.\'nuzu, geçmişi olan bir şirket arayan alıcıya satarsınız. 12+ aylık fiyat genelde 5.000-15.000 PLN\'dir. Şirketin "temiz" olması şarttır: borç yok, yükümlülük yok, due diligence\'tan geçmiş. Brokerlar üzerinden satışını yapıyoruz.' },
+      { q: 'Likwidacja sırasında çalışanlara ne olur?', a: 'Podział majątku\'ndan önce işten çıkarılırlar. Likwidator, rzecznik pracy\'ye (iş müfettişine) ve her çalışana 1-3 ay önceden bildirir (kıdeme bağlı). Odprawy (kıdem tazminatı) öder: 2 yıla kadar 1 aylık maaş, 8 yıla kadar 2, üzeri 3. Şirket iflasta ise PUP (Powiatowy Urząd Pracy) eksiği öder.' },
+      { q: 'Pay devrinde vergi nasıl?', a: 'Wspólnik\'in zysk\'ı üzerinden %19 PIT (PIT-38 ile beyan). Zysk = satış fiyatı eksi pay edinim maliyeti (genelde kuruluş anında ödenen kapitał zakładowy). Takip eden yılın 30 Nisan\'ına kadar beyan edilir. ESC (vergi ertelemesi), satışın ilk 6 ayında başka şirket alımı için kullanılabilir (nadiren uygulanır).' },
+      { q: 'ZUS / US borcu varsa ne olur?', a: 'Likwidacja\'da bu borçların ödenmesi veya depo edilmesi gerekir. Şirket bunu yapamıyorsa - upadłość\'a (iflas) gider, likwidacja\'ya değil. Likwidacja başlamadan önce zaświadczenia o niezaleganiu (borçsuzluk belgesi) alıyoruz - kritik bir adımdır, olmadan KRS sicilden silmez.' },
+      { q: 'Likwidacja\'da CRBR ne olur?', a: 'Mutlaka güncellenir - tasfiye tarihi belirtilir. KRS\'den wykreślenie\'den sonra CRBR\'da otomatik kapanır. Ayrı wniosek gerekmez.' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'podatki-ksiegowosc'],
+    ctaTitle: 'Şirket kapanışı veya satışı',
+    ctaSubtitle: 'Yolu ve vergileri ücretsiz hesaplıyoruz. Pay devri 1.800 PLN\'den, anahtar teslim likwidacja 6.500 PLN\'den.'
   }
 };
 

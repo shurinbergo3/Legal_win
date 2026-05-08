@@ -366,6 +366,128 @@ const kod95: ServiceEntry = {
     related: ['karta-pobytu', 'apelacje', 'karta-stalego-pobytu'],
     ctaTitle: 'Sort Kod 95 without paperwork chases',
     ctaSubtitle: 'Free 30-minute diagnosis: we map the optimal route, calculate the exact budget and lay out the schedule. From first call to a fresh "95" on your licence - 6-10 weeks.'
+  },
+  tr: {
+    slug: 'kod-95',
+    group: 'documents',
+    icon: 'id-card',
+    badge: 'C/CE/D/DE · AB CPC',
+    title: 'Kod 95',
+    subtitle: 'Sürücü mesleki yeterlilik belgesi (CPC)',
+    lead: 'Kod 95, Polonya prawa jazdy\'nın (ehliyet) arkasında bulunan ve 2003/59/AT direktifi uyarınca sürücünün mesleki yeterliliğini belgeleyen "95" ibaresidir. 3,5 tonu aşan kamyon (C, CE) ve otobüs (D, DE) kategorilerinde çalışan tüm sürücüler için zorunludur. Kod 95 olmadan ticari sürüş yaparken ITD kontrolü halinde sürücüye 8.000 PLN, taşıyıcıya 12.000 PLN\'ye kadar ceza kesilir.',
+    facts: [
+      { label: 'Geçerlilik', value: '5 yıl', note: 'szkolenie okresowe ile yenilenir' },
+      { label: 'Kategoriler', value: 'C / CE / D / DE', note: '3,5 t üzeri kamyon ve otobüs' },
+      { label: 'Asgari saat', value: '35 sa', note: 'szkolenie okresowe · her 5 yılda' },
+      { label: 'Yer', value: 'OSK + WORD', note: 'akredite kurs merkezi + devlet sınavı' }
+    ],
+    grounds: {
+      title: 'Kod 95 almak için üç yol',
+      subtitle: 'Hangi yolun size uygun olduğu yaşınıza, deneyiminize ve daha önce başka bir AB ülkesinde CPC sahibi olup olmadığınıza bağlıdır.',
+      items: [
+        {
+          title: 'Kwalifikacja wstępna (tam) - 280 saat',
+          desc: 'Hiç Kod 95 sahibi olmamış ve C kategorisinde 18, D kategorisinde 21 yaşından itibaren çalışmak isteyenler için. 260 saat teori ve uygulama + 20 saat sürüş. WORD\'da devlet sınavıyla biter.'
+        },
+        {
+          title: 'Kwalifikacja wstępna przyspieszona - 140 saat',
+          desc: 'C, CE için 21 yaşını veya D, DE için 23 yaşını dolduranlara hızlandırılmış kurs. 130 saat teori + 10 saat sürüş. WORD\'da aynı sınav.'
+        },
+        {
+          title: 'Szkolenie okresowe - 35 saat',
+          desc: 'Mevcut Kod 95\'i süresi dolacak olanlar için her 5 yılda bir periyodik eğitim. Sınav yoktur. 5 yıllık dönem içinde 7 saatlik modüller halinde alınabilir.'
+        },
+        {
+          title: 'Yabancı CPC\'nin tanınması',
+          desc: 'AB / EFTA ülkesinde verilen Kod 95 / CPC Polonya\'da otomatik olarak tanınır. Türkiye, Ukrayna, Belarus, Rusya veya Kazakistan CPC\'si resmen tanınmaz - sıfırdan kwalifikacja wstępna almak gerekir.'
+        }
+      ]
+    },
+    timeline: {
+      title: 'Anahtar teslim süreç',
+      subtitle: 'İlk görüşmeden ehliyetteki yeni "95" ibaresine kadar her şeyi yürütüyoruz. Sizden istenen: pasaport, ehliyet ve sürmek isteği.',
+      steps: [
+        { title: 'Tanı görüşmesi', duration: '30 dk', desc: 'Ücretsiz danışmanlıkta yolu birlikte belirleriz: szkolenie okresowe, kwalifikacja wstępna przyspieszona veya tam kwalifikacja.' },
+        { title: 'Yabancı ehliyetin değişimi', duration: '14-30 gün', desc: 'Türkiye veya BDT ehliyetiniz varsa - Polonya ehliyetine çevirme işlemini hallederiz (yeminli tercüme, badania lekarskie, starostwo başvurusu).' },
+        { title: 'Sağlık raporu + psikoteknik', duration: '1-2 gün', desc: 'Profesyonel sürücüler için kategori 2 badania lekarskie ve akredite psikolog psikotekniği için randevu alırız.' },
+        { title: 'OSK\'ya kayıt', duration: '1-7 gün', desc: 'Size uygun dilde dersi olan (Varşova\'da Türkçe, Rusça konuşan eğitmen bulmak mümkün) ve programınıza uygun OSK seçeriz.' },
+        { title: 'Eğitim', duration: '35-280 sa', desc: 'Szkolenie okresowe genelde 7\'şer saatlik 5 gün veya modüller halinde. Kwalifikacja wstępna - iş için molalarla birkaç hafta.' },
+        { title: 'WORD sınavı', duration: '1 gün', desc: 'Yalnızca kwalifikacja wstępna için. 30 sorudan 16 doğruyla geçilir. Uzmanımız eşlik eder, başarısızlıkta yeniden sınava destek veririz.' },
+        { title: 'Kod 95\'in ehliyete işlenmesi', duration: '14 gün', desc: 'Starostwo\'ya wniosek sunar, 100 PLN opłata\'yı öderiz. Prawa jazdy arkasında 5 yıl sonrası bitiş tarihiyle "95" görünür.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Asgari paket. Net liste yolunuza ve mevcut durumunuza göre uyarlanır.',
+      items: [
+        'Polonya prawa jazdy C/CE/D/DE kategorisi (veya değişim için yabancı ehliyet)',
+        'PESEL ve karta pobytu (veya yasal ikametinizi kanıtlayan başka bir belge)',
+        'Pasaport + fotoğraflı sayfa fotokopisi',
+        'Orzeczenie lekarskie (profesyonel sürücüler için sağlık raporu, 5 yıl geçerli)',
+        'Orzeczenie psychologiczne (psikoteknik) - 5 yıl geçerli',
+        'AB Kod 95\'iniz varsa - orijinal + yeminli tercüme',
+        'AB ülkesinde kursunuz olmuşsa - Świadectwo CPC + tercüme',
+        'Ehliyet değişimi için 2 adet güncel 35×45 mm fotoğraf'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Şeffaf ve sabit ücretler. Başlamadan önce sözleşme imzalanır.',
+      items: [
+        { label: 'Danışmanlık ve yol seçimi', value: 'Ücretsiz', note: '30 dakika · durum değerlendirmesi' },
+        { label: 'Anahtar teslim Kod 95', value: '1.200 PLN\'den', note: 'OSK seçimi, belgeler, sağlık raporu, sınav' },
+        { label: 'Yalnızca ehliyet değişimi', value: '600 PLN\'den', note: 'Tercümeler, badania lekarskie, starostwo' },
+        { label: 'Starosta ret kararına itiraz', value: '1.200 PLN\'den', note: 'İtiraz için ayrı sözleşme' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. OSK kurs ücretleri (szkolenie okresowe için 1.800 PLN\'den, kwalifikacja wstępna przyspieszona için 5.500 PLN\'den), badania lekarskie (~250 PLN), psikoteknik (~200 PLN) ve opłata skarbowa (100 PLN) sağlayıcı tarifelerine göre ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 6 września 2001 r. o transporcie drogowym (Karayolu Taşımacılığı Kanunu - bölüm 7a, mesleki yeterlilik)',
+        'Ustawa z dnia 5 stycznia 2011 r. o kierujących pojazdami (Sürücüler Kanunu)',
+        'Rozporządzenie Ministra Infrastruktury w sprawie szkolenia kierowców wykonujących przewóz drogowy (Bayındırlık Bakanlığı sürücü eğitimi yönetmeliği)',
+        '2003/59/AT Avrupa Parlamentosu ve Konseyi Direktifi (2018/645 ile değişik)',
+        'Adalet Bakanlığı sınav uygulama yönetmeliği'
+      ]
+    },
+    faq: [
+      {
+        q: 'Polonya\'da Kod 95 fiilen ne kadara mal olur?',
+        a: 'Anahtar teslim szkolenie okresowe (35 sa) yaklaşık 3.200-3.700 PLN: ~1.800 PLN kursun kendisi, ~250 PLN badania lekarskie, ~200 PLN psikoteknik, 100 PLN opłata skarbowa ve 1.200 PLN\'den danışmanlık ücretimiz. Kwalifikacja wstępna przyspieszona (140 sa) 7.500-9.000 PLN, tam kwalifikacja (280 sa) 11.000+ PLN tutar.'
+      },
+      {
+        q: 'Lehçe bilmeden Kod 95 alabilir miyim?',
+        a: 'Kursu - evet, Türkçe veya Rusça bilen eğitmeni olan OSK\'lar Varşova, Wrocław ve Gdańsk\'ta yaygındır. WORD\'daki devlet sınavı (Wojewódzki Ośrodek Ruchu Drogowego - eyalet trafik merkezi) yalnızca Lehçe, Ukraynaca veya İngilizce yapılır (eyalete göre değişir). Size uygun dilde sınav veren OSK ve WORD seçiyoruz.'
+      },
+      {
+        q: 'Türkiye\'den alınan Kod 95 / SRC tanınır mı?',
+        a: 'Hayır. AB / EFTA dışı ülkelerin CPC\'si Polonya\'da resmen tanınmaz. 20 yıl deneyiminiz olsa dahi kwalifikacja wstępna przyspieszona kursu almanız gerekir (C için 21, D için 23 yaşı doldurmuşsanız). Türkiye\'deki tecrübe maalesef sayılmıyor.'
+      },
+      {
+        q: 'Polonya ehliyetim yoksa ne yapmalıyım?',
+        a: 'Önce yabancı ehliyetinizi Polonya ehliyetine çevirmemiz gerekir (kategori değişime uygun değilse sıfırdan sınav). Bu, starostwo üzerinden 14-30 gün sürer. İlk adım olarak yaparız ve eş zamanlı OSK kaydını hazırlayarak zaman kazandırırız.'
+      },
+      {
+        q: 'Almanya, Litvanya veya Çekya\'dan Kod 95\'im varsa?',
+        a: 'AB / EFTA\'dan herhangi bir Kod 95 otomatik tanınır - tüm AB\'de geçerlidir. Ticari taşımalarda göstermeniz yeterlidir. Süresi dolarsa - szkolenie okresowe\'yi Polonya\'da veya kartı veren ülkede alabilirsiniz.'
+      },
+      {
+        q: 'Kod 95\'siz çalışmanın cezası nedir?',
+        a: 'Sürücüye - 8.000 PLN\'ye kadar, taşıyıcıya - 12.000 PLN\'ye kadar, her ihlal için. ITD (Inspekcja Transportu Drogowego - Karayolu Taşımacılığı Müfettişliği) yolda ve firmalarda denetim yapar. Ayrıca sigorta şirketleri geçerli CPC olmadan kazada ödeme yapmıyor.'
+      },
+      {
+        q: 'Eski Kod 95\'in süresi bitti, yenisi gelmeden çalışabilir miyim?',
+        a: 'Hayır. Kod 95\'in bitiş tarihinden itibaren - şu an szkolenie okresowe\'ye kayıtlı olsanız bile - ticari sürüş yapma hakkınız yoktur. Bu nedenle bitişten 2-3 ay önce başlayın. Lojistik firmalar için 6 ay önceden hatırlatmalı takip yapıyoruz - sıkça talep edilen bir hizmettir.'
+      },
+      {
+        q: 'Kod 95 mevzuatı ne sıklıkta değişiyor?',
+        a: 'Büyük değişiklikler 2020\'de oldu (2018/645 Direktifi) - ekoloji, güvenlik ve dijital takograf modülleri eklendi. 2024\'ten itibaren her 35 saatlik eğitime 2,5 saatlik zorunlu uygulamalı oturum eklendi. Güncel programı takip ediyor, lisansı yenilenmiş OSK\'ları seçiyoruz.'
+      }
+    ],
+    related: ['karta-pobytu', 'apelacje', 'karta-stalego-pobytu'],
+    ctaTitle: 'Kod 95\'i koşturmaya gerek kalmadan halledelim',
+    ctaSubtitle: 'Ücretsiz 30 dakikalık tanı görüşmesi: optimal yolu seçer, kesin bütçeyi hesaplar, takvimi belirleriz. İlk görüşmeden ehliyetteki yeni "95"e - 6-10 hafta.'
   }
 };
 

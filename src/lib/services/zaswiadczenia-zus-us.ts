@@ -264,6 +264,94 @@ const zaswiadczeniaZusUs: ServiceEntry = {
     related: ['zaswiadczenie-o-niekaralnosci', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'ZUS / US certificates in 1-7 days',
     ctaSubtitle: 'Free consultation: certificate type, purpose, deadline. From PoA signing to pickup - typically 1-7 working days.'
+  },
+  tr: {
+    slug: 'zaswiadczenia-zus-us',
+    group: 'documents',
+    icon: 'landmark',
+    badge: 'PUE ZUS · e-Urząd Skarbowy',
+    title: 'ZUS / US belgeleri',
+    subtitle: 'ZUS (Sosyal Güvenlik) ve Urząd Skarbowy (vergi dairesi) belgeleri',
+    lead: 'ZUS (Zakład Ubezpieczeń Społecznych - Sosyal Güvenlik Kurumu) ve Urząd Skarbowy (vergi dairesi) zaświadczenia\'ları, TRC, daimi ikamet, ipotek, kredi, yurt dışı vize başvurusu ve kamu ihalelerinde kritik belgelerdir. Gelir belgeleri (PIT-11, ZUS RMUA), borcu olmama (zaświadczenie o niezaleganiu), sigorta dönem belgesi (ZUS S-1) ve onlarca diğerini PUE ZUS, e-Urząd Skarbowy üzerinden veya bizzat ofiste hazırlatıyoruz.',
+    facts: [
+      { label: 'Verilme süresi', value: '1-7 gün', note: 'standart ZUS · karmaşık dosyalarda 14 güne kadar' },
+      { label: 'Resmi harç', value: '0-21 PLN', note: 'temel olanlar ücretsiz' },
+      { label: 'Yer', value: 'PUE ZUS + EUS', note: 'çevrimiçi veya ofis' },
+      { label: 'Geçerlilik', value: '1-6 ay', note: 'belge türüne göre' }
+    ],
+    grounds: {
+      title: 'Hangi belgeleri alıyoruz',
+      subtitle: 'Tam liste biznes.gov.pl\'de. Yabancılarda en sık talep edilenler:',
+      items: [
+        { title: 'Zaświadczenie o niezaleganiu w ZUS', desc: 'Sosyal güvenlik primlerinde borcu olmadığını gösterir. İşletme üzerinden TRC, ihale ve kredi için zorunludur. 7 gün, ücretsiz.' },
+        { title: 'Zaświadczenie o niezaleganiu w US', desc: 'Vergi dairesi muadili - vergi borcu olmama belgesi. 7 gün, 21 PLN. İhale, ipotek, lisans için.' },
+        { title: 'Geçmiş yıllar PIT-11', desc: 'İşveren tarafından düzenlenen yıllık vergi mahsubunun duplikatı - TRC, daimi ikamet, ipotek için. İşveren yanıt vermiyorsa US üzerinden alıyoruz.' },
+        { title: 'ZUS RMUA - prim raporu', desc: 'Yapılan primlerin ve çalışma dönemlerinin listesi - Polonya\'daki çalışma süresinin kanıtı. PUE ZUS üzerinden ücretsiz.' },
+        { title: 'Zaświadczenie A1 (görev belgesi)', desc: 'AB içinde geçici görevle çalışan işçiler için - ZUS\'un yalnızca Polonya\'da ödendiğini teyit eder. Tır şoförleri ve BT serbest çalışanları için zorunludur.' },
+        { title: 'Zaświadczenie ZUS S-1 / U2', desc: 'AB ülkesindeki emeklilik veya yardım için sigorta dönemlerinin teyidi.' },
+        { title: 'Tarihsel mükellef hesap dökümü', desc: 'Seçilen dönem için tüm ödemeler, fazla ve eksik ödemeler - denetim, kontrol veya raporlama için.' },
+        { title: 'Zaświadczenie o dochodach (US)', desc: 'Yıllık gelir belgesi - ipotek, okul bursları, MOPS yardımları, büyükelçilikler için.' }
+      ]
+    },
+    timeline: {
+      title: 'Belge süreci',
+      subtitle: 'Elektronik platformlar veya bizzat ofiste 1-7 iş günü standart.',
+      steps: [
+        { title: 'Danışmanlık', duration: '15 dk', desc: 'Belge türü, kullanım amacı, format (elektronik veya kağıt), geçerlilik süresi.' },
+        { title: 'Vekaletname', duration: '1 gün', desc: 'Pełnomocnictwo (US için UPL-1, ZUS için ZUS-PEL) imzalıyoruz - her biri 17 PLN damga vergisi. ePUAP üzerinden ücretsiz.' },
+        { title: 'Wniosku sunma', duration: '1 gün', desc: 'Belge türüne göre PUE ZUS, e-Urząd Skarbowy veya bizzat dolduruyoruz.' },
+        { title: 'Ödeme (gerekirse)', duration: '1 gün', desc: 'US zaświadczenie için 21 PLN, çoğu ZUS belgesi ücretsiz.' },
+        { title: 'Belgenin teslimi', duration: '1-7 gün', desc: 'Elektronik versiyon PUE / EUS profilinize gelir. Kağıt - bizzat alır veya posta / kurye ile teslim ederiz.' },
+        { title: 'Apostille veya tercüme', duration: '3-7 gün', desc: 'Belge yurt dışında kullanılacaksa - apostille (MSZ 60 PLN) ve yeminli tercüme yaptırıyoruz.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Çoğu belge için asgari paket.',
+      items: [
+        'Pasaport (fotoğraflı sayfa fotokopisi)',
+        'PESEL veya NIP (işletme için)',
+        'Karta pobytu veya başka yasal ikamet belgesi',
+        'LegalWin\'e pełnomocnictwo (US için UPL-1, ZUS için ZUS-PEL)',
+        'Şirket KRS numarası (Sp. z o.o. için belge gerekiyorsa)',
+        'ePUAP / profil zaufany erişimi (varsa süreci hızlandırır)',
+        'Hedef kurum (banka, urząd, büyükelçilik - format değişebilir)',
+        'Belge talep edilen dönem (örn. 2023-2024 gelirleri)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Belge başına 150 PLN\'den. Resmi harçlar ayrıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '15 dakika · amaç netleştirme' },
+        { label: 'Anahtar teslim tek belge', value: '150 PLN\'den', note: 'Wniosek, vekaletname, teslim' },
+        { label: '3+ belge paketi', value: '350 PLN\'den', note: 'Aynı anda başvuruda indirim' },
+        { label: 'Belge + apostille + tercüme', value: '480 PLN\'den', note: 'Yurt dışı kullanım için' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Resmi harçlar (belge başına 0-21 PLN, 17 PLN pełnomocnictwo, 60 PLN apostille) ve yeminli tercüme (~80 PLN/belge) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 13 października 1998 r. o systemie ubezpieczeń społecznych (Sosyal Güvenlik Sistemi Kanunu)',
+        'Ustawa z dnia 29 sierpnia 1997 r. - Ordynacja podatkowa (Vergi Usul Kanunu - madde 306a, zaświadczenia)',
+        'Maliye Bakanlığı zaświadczenie başvuru formu örneği yönetmeliği',
+        'Ustawa z dnia 16 listopada 2006 r. o opłacie skarbowej',
+        '(AT) 883/2004 Tüzüğü (sosyal güvenlik sistemlerinin koordinasyonu)'
+      ]
+    },
+    faq: [
+      { q: 'Belge bizzat gitmeden alınabilir mi?', a: 'Evet. Çoğu ZUS belgesi PUE ZUS üzerinden (Platforma Usług Elektronicznych ZUS - elektronik hizmet platformu, profil zaufany ePUAP gerekir). Çoğu US belgesi e-Urząd Skarbowy (elektronik vergi dairesi) üzerinden. Kağıt versiyon posta veya kuryeyle. Bizzat ziyaret yalnızca apostille için gerekir.' },
+      { q: 'Zaświadczenie o niezaleganiu ne kadar geçerli?', a: 'ZUS - 1 ay, US - 3 ay. Bankalar ve ihaleler genelde ≤ 30 gün taze belge ister. Süreci başlatırken hemen alıyoruz, başvuruyu kaçırmamak için.' },
+      { q: 'Borcum varsa ne yapmalıyım?', a: 'Borç ödenmeden niezaleganie alınamaz. Wniosek o rozłożenie na raty (taksit talebi) veya istisnai durumlarda umorzenie (silme) hazırlamada yardımcı oluyoruz. Borç ödendikten sonra belge aynı gün verilir.' },
+      { q: 'ZUS RMUA ile PIT-11 farkı nedir?', a: 'PIT-11 - işverenin yıllık vergi mahsubudur. RMUA - işverenin sizin için yatırdığı ZUS primlerinin dökümüdür. PIT-11 TRC ve vergi beyannamesi için, RMUA ise çalışma süresinin kanıtı için gerekir.' },
+      { q: 'A1 nedir, ne zaman gerekli?', a: 'Zaświadczenie A1 - başka bir AB ülkesinde çalışırken sosyal primleri yalnızca Polonya\'da ödediğinizi teyit eden AB belgesidir. Tır şoförleri, AB\'de müşterisi olan BT serbest çalışanları, 24 ayı aşan görevlendirmeler için zorunludur. A1 olmadan kabul eden ülke kendi prim tahakkukunu yapabilir.' },
+      { q: 'Yurt dışı banka / büyükelçilik için belge nasıl alınır?', a: 'Belgeyi alır, AB dışı ülkeyse apostille düzenletir, gerekli dile yeminli tercüme yaptırırız. Tam döngü 7-14 gün. Sık karşılaşılan amaçlar: Almanya\'da ipotek, ABD vizesi (DS-160), BAE\'de mukim olma.' },
+      { q: 'TRC için tüm belgelerin maliyeti gerçekte ne kadar?', a: 'İş gerekçesiyle TRC için temel paket: PIT-11 (ücretsiz), ZUS RMUA (ücretsiz), zaświadczenie o niezaleganiu (US 21 PLN + ZUS 0 PLN). Bizim danışmanlık 350 PLN. Toplam paket 371 PLN. Apostille ve tercümeyle 700-800 PLN.' }
+    ],
+    related: ['zaswiadczenie-o-niekaralnosci', 'apostille', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'ZUS / US belgeleri 1-7 günde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: belge türü, kullanım amacı ve süreyi netleştiririz. Vekaletname imzasından teslime genelde 1-7 iş günü.'
   }
 };
 

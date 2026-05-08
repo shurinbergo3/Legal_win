@@ -261,6 +261,93 @@ const jdg: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'podatki-ksiegowosc', 'karta-pobytu'],
     ctaTitle: 'JDG in 1 day',
     ctaSubtitle: 'Free consultation, TRC verification, tax form choice. Turnkey in 3-5 days.'
+  },
+  tr: {
+    slug: 'jdg',
+    group: 'business',
+    icon: 'landmark',
+    badge: 'JDG · CEIDG · 1 gün',
+    title: 'Jednoosobowa działalność gospodarcza (JDG)',
+    subtitle: 'Karta pobytu sahipleri için Polonya şahıs şirketi',
+    lead: 'JDG (jednoosobowa działalność gospodarcza - şahıs şirketi), Polonya\'nın bireysel girişim biçimidir. CEIDG\'ye kayıt 1 günde tamamlanır, vergi rejimi gelirinize göre seçilir: %12 / %19 progresif, %19 podatek liniowy (lineer vergi), ryczałt (götürü), IP Box (%5). Yabancılar JDG\'yi yalnızca działalność hakkı veren bir karta pobytu ile açabilir (öğrenci TRC\'si dışındaki standart TRC\'ler bu hakkı verir). Vergi rejimi seçiminden ilk VAT-7 beyannamesine kadar süreci uçtan uca yürütüyoruz.',
+    facts: [
+      { label: 'CEIDG kaydı', value: '1 gün', note: 'mObywatel üzerinden çevrimiçi' },
+      { label: 'Başlangıç ZUS', value: '0 PLN', note: 'ilk 6 ay - Ulga na start (başlangıç indirimi)' },
+      { label: 'Mały ZUS Plus', value: '~ 460 PLN/ay', note: 'Ulga sonrası · gelir < 120.000 PLN' },
+      { label: 'Tam ZUS', value: '~ 1.700 PLN/ay', note: '24+ ay sonra' }
+    ],
+    grounds: {
+      title: 'JDG kime uygun',
+      subtitle: 'JDG, Sp. z o.o.\'dan daha basit ve daha ucuz işletilir; ancak TRC zorunluluğu vardır ve kişisel mal varlığını korumaz.',
+      items: [
+        { title: 'Tek müşterili BT serbest çalışanı', desc: 'Polonyalı veya yurt dışı bir şirketle B2B sözleşmeli yazılımcı. JDG + IP Box (%5) çoğu durumda Sp. z o.o.\'dan daha avantajlı olur.' },
+        { title: 'Serbest meslek mensubu', desc: 'Tasarımcı, pazarlamacı, tercüman, özel ders veren, iş danışmanı - JDG idealdir: minimum bürokrasi, vergi rejimi seçim özgürlüğü.' },
+        { title: 'Küçük dükkan veya hizmet işletmesi', desc: 'Mahalle kuaförü, kafe, oto tamir. 5-10 çalışana kadar - yetki belgesiyle JDG olarak yönetilebilir.' },
+        { title: 'Niş test etme', desc: 'Yükümlülüksüz başlangıç. JDG kapanışı CEIDG\'de 1 gündür - Sp. z o.o. ile karşılaştırıldığında (4-6 ay ve 4.000+ PLN) çok hızlıdır.' },
+        { title: 'IP Box hakkı olan BT', desc: 'JDG liniowy %19 + IP Box (yazılım fikri mülkiyetinden gelirde %5) - efektif vergiyi %5-6\'ya kadar optimize eder.' },
+        { title: 'Samozatrudnienie üzerinden oturum izni', desc: 'Aktif JDG (6+ ay) ve düzenli gelir - samozatrudniony (serbest meslek) gerekçesiyle karta pobytu için temel oluşturur. Umowa o pracę alternatifidir.' }
+      ]
+    },
+    timeline: {
+      title: 'JDG\'yi nasıl açıyoruz',
+      subtitle: 'Hak kontrolünden ilk umowa\'ya kadar - genelde 3-5 iş günü.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'TRC temelinizi (działalność hakkı şart) kontrol ederiz, vergi rejimini seçeriz: skala (progresif %12/32), liniowy (lineer) %19, ryczałt (götürü), IP Box. Estonyan CIT yalnızca Sp. z o.o. içindir.' },
+        { title: 'PKD kodları ve plan', duration: '1 gün', desc: 'Hizmet ve ürünlerinize uygun PKD kodlarını seçeriz. Aynı anda birden fazla kod olabilir. Ana kod ZUS oranını belirler.' },
+        { title: 'CEIDG\'ye kayıt', duration: '1 gün', desc: 'Wniosek (başvuru) - ePUAP, mObywatel veya yerel Urząd Gminy (belediye dairesi) üzerinden. NIP, REGON ve VAT-R aktivasyonu.' },
+        { title: 'ZUS ve Ulga na start', duration: '7 gün', desc: 'ZUS-ZUA tescili. Ulga na start aktive edilir: 6 ay sosyal primler ödenmez (yalnızca składka zdrowotna - sağlık primi ~314 PLN).' },
+        { title: 'İşyeri banka hesabı', duration: '1-3 gün', desc: 'mBank, ING, PKO BP\'de konto firmowe açılışı. Asgari ciroyla JDG için genelde ücretsizdir.' },
+        { title: 'JPK_V7 ve ilk beyanname', duration: 'her ay', desc: 'JPK_V7 (birleştirilmiş VAT + gider defteri) takip eden ayın 25\'ine kadar verilir. Muhasebeci sizin yerinize hazırlar.' },
+        { title: 'ZUS indirimi', duration: '6 ay sonra', desc: 'Ulga sonrası - Mały ZUS Plus (yıllık gelir < 120.000 PLN ise): 24 ay boyunca ~460 PLN/ay. Sonrasında tam ZUS ~1.700 PLN/ay.' }
+      ]
+    },
+    documents: {
+      title: 'Açılış için gerekenler',
+      subtitle: 'Kayıt hızlıdır - kritik nokta hak veren TRC\'nin olması.',
+      items: [
+        'Pasaport + działalność gospodarcza (ticari faaliyet) hakkı veren Karta Pobytu',
+        'PESEL (CEIDG için zorunlu)',
+        'Polonya\'da ikamet adresi (CEIDG ve Urząd Skarbowy - vergi dairesi için)',
+        'Faaliyet adresi (ev adresiyle aynı olabilir)',
+        'PKD kodları - danışmanlıkta seçeriz',
+        'Profil zaufany / kwalifikowany podpis (gerekirse biz çıkartıyoruz)',
+        'Banka hesabı - kişisel veya doğrudan firmowe',
+        'Sizin yerinize biz açıyorsak - pełnomocnictwo notarialne (noter onaylı vekaletname)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'JDG açılışı devlette ücretsizdir. Yalnızca emek ve muhasebe için ödersiniz.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · vergi rejimi ve PKD' },
+        { label: 'JDG açılışı', value: '600 PLN\'den', note: 'CEIDG + ZUS + banka + VAT-R' },
+        { label: 'JDG muhasebesi', value: '250 PLN/aydan', note: 'KPiR / ryczałt + JPK_V7' },
+        { label: 'JDG + işletme üzerinden oturum izni', value: '4.800 PLN\'den', note: 'JDG + samozatrudniony karta pobytu' }
+      ],
+      note: 'Devlet harcı yoktur - CEIDG ve ZUS ücretsizdir. ZUS-składki ~314 PLN/ay (Ulga), ~460 PLN (Mały+), ~1.700 PLN (tam). Vergi sonuçlara göre ayrıdır.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 6 marca 2018 r. - Prawo przedsiębiorców (Girişimciler Kanunu)',
+        'Ustawa z dnia 26 lipca 1991 r. o podatku PIT (PIT - gelir vergisi: skala, liniowy, ryczałt)',
+        'Ustawa z dnia 13 października 1998 r. o ZUS (Ulga na start, Mały ZUS Plus)',
+        'Ustawa z dnia 6 marca 2018 r. o CEIDG (Merkezi Ticari Faaliyet Kayıt Sistemi)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (200.000 PLN altında muafiyet)'
+      ]
+    },
+    faq: [
+      { q: 'Yabancı JDG açabilir mi?', a: 'Yalnızca działalność gospodarcza (ticari faaliyet) hakkı veren bir Karta Pobytu varsa. Bu hakkı standart TRC (iş, işletme, aile birleşimi gerekçeli), daimi ikamet, Karta Polaka ve AB uzun dönem mukim statüsü verir. Şu durumlar açma hakkı vermez: öğrenci TRC\'si, D vizesi, vizesiz giriş. AB / EFTA vatandaşları TRC olmadan JDG açabilir.' },
+      { q: 'Hangi vergi rejimi avantajlı?', a: 'İş türünüze ve gelirinize bağlıdır. Skala (%12 - 120k\'a kadar, %32 - üzeri) - çocuklu aileler için (ulga - vergi indirimi). Liniowy (lineer) %19 - 120-500k gelir için. Ryczałt (cirodan götürü) - giderleri düşük hizmetler için (cironun %3-17\'si). IP Box - yazılımcılar için (%5). Hesabı danışmanlıkta birlikte yapıyoruz.' },
+      { q: 'Ulga na start nasıl işliyor?', a: 'Ulga na start (başlangıç indirimi) - ilk 6 ay yalnızca składka zdrowotna (sağlık primi, ~314 PLN/ay) ödenir. Sosyal primler (emekli, malullük, hastalık primleri) yoktur. İlk kayıtta otomatik uygulanır. Son 60 ayda JDG\'niz olduysa Ulga hakkınız kalmaz.' },
+      { q: '6 aydan sonra ne oluyor?', a: 'Mały ZUS Plus (küçük ZUS+) - geçen yıl geliriniz 120.000 PLN altıysa 24 ay boyunca ~460 PLN/ay. Sonrasında tam ZUS ~1.700 PLN/ay. Bu aşamada birçok girişimci Sp. z o.o.\'ya geçer (2+ wspólnik durumunda Sp. z o.o.\'da ortağa ZUS yoktur).' },
+      { q: 'JDG ve umowa o pracę bir arada olabilir mi?', a: 'Evet. Çelişmiyorlar. JDG bağımsız działalność, umowa o pracę işverene bağlı çalışmadır. ZUS umowa o pracę\'den ödenir (zarobek - kazanç asgari ücret üzeriyse), JDG sosyal primlerden muaf olur (yalnızca sağlık primi kalır).' },
+      { q: 'Sp. z o.o.\'ya ne zaman geçilmeli?', a: 'Yıllık geliriniz 300.000 PLN üzeriyken, yatırımcı dahil ediyorsanız, AB kurumsal müşterilerle çalışıyorsanız (sıklıkla Sp. z o.o. talep ederler), kişisel sorumluluk riskiniz varsa (kişisel mal varlığı yalnızca Sp. z o.o.\'da korunur). Hesabı danışmanlıkta yapıyoruz.' },
+      { q: 'JDG\'de IP Box ne durumda?', a: 'JDG liniowy (lineer) %19 + IP Box, yazılım fikri mülkiyeti gelirinde (kwalifikowane prawo do oprogramowania - korumalı yazılım hakkı) %5 oran sağlar. Şartlar: IP gelirleri için ayrı muhasebe, umowa przeniesienia praw (hak devir sözleşmesi), interpretacja indywidualna (bireysel vergi yorumu). Efektif vergi %5-6\'dır.' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'podatki-ksiegowosc', 'karta-pobytu'],
+    ctaTitle: 'JDG 1 günde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: TRC kontrolü yaparız, vergi rejimini hesaplarız, 3-5 günde anahtar teslim açarız.'
   }
 };
 

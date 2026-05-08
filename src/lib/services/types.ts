@@ -1,4 +1,4 @@
-export type ServiceLocale = 'ru' | 'pl' | 'en';
+export type ServiceLocale = 'ru' | 'pl' | 'en' | 'tr';
 
 export type ServiceGroup =
   | 'immigration'

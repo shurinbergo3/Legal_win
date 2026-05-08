@@ -264,6 +264,94 @@ const aktyStanuCywilnego: ServiceEntry = {
     related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],
     ctaTitle: 'USC certificates handled end-to-end',
     ctaSubtitle: 'Free consultation: identify act type, issuing country, purpose. From USC filing to apostilled Polish odpis - typically 2-3 weeks.'
+  },
+  tr: {
+    slug: 'akty-stanu-cywilnego',
+    group: 'documents',
+    icon: 'landmark',
+    badge: 'USC · BUSC · Umiejscowienie',
+    title: 'Nüfus kayıt işlemleri',
+    subtitle: 'Polonya\'da doğum, evlilik ve ölüm belgeleri',
+    lead: 'Akty stanu cywilnego (nüfus kayıt akitleri), Polonya USC tarafından düzenlenen doğum, evlilik ve ölüm belgeleridir. Yabancılar bunlara PESEL almak, AB vatandaşıyla evlenmek, yabancı belgeyi Polonya\'da tanıtmak (umiejscowienie), Polonya\'da doğan çocuğu kaydetmek ve TRC, daimi ikamet veya vatandaşlık başvurusu için ihtiyaç duyar. USC ve BUSC ile doğrudan çalışıyoruz - odpis (kayıt çıktısı) çıkartıyor, apostille düzenletiyor ve yeminli tercüme yaptırıyoruz.',
+    facts: [
+      { label: 'Verilme süresi', value: '7 gün', note: 'standart · 30 güne kadar' },
+      { label: 'Resmi harç', value: '22-39 PLN', note: 'odpis skrócony / zupełny' },
+      { label: 'Umiejscowienie', value: '50 PLN', note: 'yabancı akdin tescili' },
+      { label: 'Yer', value: 'USC + BUSC', note: 'yerel veya merkezi' }
+    ],
+    grounds: {
+      title: 'Hangi akitleri düzenliyoruz',
+      subtitle: 'USC üç tür sicil tutar - hepsiyle çalışıyoruz.',
+      items: [
+        { title: 'Akt urodzenia (doğum)', desc: 'Polonya\'da doğan çocuğun kaydı; yabancı vatandaş için odpis; yurt dışı doğum belgesinin umiejscowienie\'si (Polonya siciline tescili).' },
+        { title: 'Akt małżeństwa (evlilik)', desc: 'Polonyalı veya başka yabancı ile USC\'de evlenme; yurt dışı evlilik belgesinin umiejscowienie\'si.' },
+        { title: 'Akt zgonu (ölüm)', desc: 'Polonya\'da ölümün kaydı; yurt dışı ölüm belgesinin umiejscowienie\'si; miras için odpis.' },
+        { title: 'Yabancı akdin umiejscowienie\'si', desc: 'Yabancı belgenin Polonya USC siciline tescili. Boşanma, miras, ikinci evlilik, soyad değişikliği için zorunludur.' },
+        { title: 'Sprostowanie ve uzupełnienie', desc: 'Akitlerdeki hataların düzeltilmesi: tarih, soyad, doğum yeri. USC postanowienie\'si veya sąd cywilny (medeni mahkeme) yoluyla.' },
+        { title: 'Ad / soyad değişikliği', desc: 'Yabancının ad / soyad değişikliği - haklı gerekçeyle USC üzerinden, 30-60 gün sürer.' },
+        { title: 'Polonya akitlerine apostille', desc: 'Wojewoda, Polonya USC belgelerine yurt dışı kullanımı için apostille düzenler.' },
+        { title: 'Akdin yeniden oluşturulması (odtworzenie)', desc: 'Kayıp akdin (ör. savaşta kaybolan USC) yeniden oluşturulması - sąd cywilny kararıyla.' }
+      ]
+    },
+    timeline: {
+      title: 'Akit süreci',
+      subtitle: 'Umiejscowienie + apostille\'li odpis için standart döngü 2-3 hafta.',
+      steps: [
+        { title: 'Danışmanlık', duration: '30 dk', desc: 'Akit türünü, kullanım amacını ve yabancı belgenin verildiği ülkeyi netleştiriyoruz.' },
+        { title: 'Belge derlemesi', duration: '3-7 gün', desc: 'Verildiği ülkeden orijinalleri alıyor, gerekirse apostille bastırıyor, Lehçeye yeminli tercüme yaptırıyoruz.' },
+        { title: 'Wniosek o umiejscowienie', duration: '1 gün', desc: 'Seçilen USC\'ye (genelde en hızlı işleyen Warszawa-Śródmieście) wniosek sunuyoruz.' },
+        { title: 'USC süreci', duration: '7-30 gün', desc: 'Kierownik USC (USC müdürü) belgeleri inceler, akdi Polonya siciline tescil eder ve polski odpis düzenler.' },
+        { title: 'Odpis\'in alınması', duration: '1 gün', desc: 'Skrócony (22 PLN) - çoğu amaç için yeterlidir; zupełny (33 PLN) - noter işlemleri için.' },
+        { title: 'Apostille / tercüme', duration: '3-5 gün', desc: 'Gerekirse - Polonya odpis\'ine wojewoda apostille\'i ve hedef ülke diline yeminli tercüme.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Net liste akit türüne ve verildiği ülkeye göredir.',
+      items: [
+        'Pasaport (orijinal + fotokopiler)',
+        'PESEL (varsa)',
+        'Yabancı doğum / evlilik / ölüm belgesi (orijinal)',
+        'Yabancı belgede apostille veya legalizasyon',
+        'Yabancı akdin Lehçeye yeminli tercümesi (biz hazırlıyoruz)',
+        'Boşanma / eşin ölüm belgesi - evliliğin umiejscowienie\'si için',
+        'Eşin onayı - evlilikten sonra soyad değişikliği için',
+        'Doldurulmuş wniosek - biz hazırlıyoruz'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Sabit ücret. USC harçları fiilen ayrıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · durum değerlendirmesi' },
+        { label: 'Odpis alımı', value: '250 PLN\'den', note: 'Wniosek, USC, kurye gönderimi' },
+        { label: 'Akdin umiejscowienie\'si', value: '700 PLN\'den', note: 'Yabancı akdin tescil için tam döngü' },
+        { label: 'Apostille + odpis tercümesi', value: '350 PLN\'den', note: 'Wojewoda + yeminli tercüman' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Resmi harçlar (22 PLN odpis skrócony, 33 PLN zupełny, 50 PLN umiejscowienie, 60 PLN apostille) ve yeminli tercüme (~80 PLN/belge) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 28 listopada 2014 r. - Prawo o aktach stanu cywilnego (Nüfus Kayıt Kanunu)',
+        'İçişleri Bakanlığı (MSWiA) USC odpis örneği yönetmeliği',
+        '5 Ekim 1961 Lahey Sözleşmesi (apostille)',
+        'Ustawa z dnia 16 listopada 2006 r. o opłacie skarbowej (Damga Vergisi Kanunu)',
+        '(AB) 2016/1191 Tüzüğü (AB içi legalizasyonun kaldırılması)'
+      ]
+    },
+    faq: [
+      { q: 'Umiejscowienie aktu nedir?', a: 'Yabancı doğum / evlilik / ölüm belgesinin Polonya USC (Urząd Stanu Cywilnego - nüfus müdürlüğü) siciline tescili (umiejscowienie). Tescilden sonra elinize tüm Polonya kurumlarının tercümesiz kabul ettiği polski odpis geçer. İkinci evlilik, miras, soyad değişikliği için zorunludur.' },
+      { q: 'Umiejscowienie ne kadar sürer?', a: '7 günden (Warszawa-Śródmieście, AB belgeleri) 30 güne kadar (diğer eyaletler, AB dışı ülke belgeleri). Belge eski veya Lahey Sözleşmesi dışı bir ülkeden geliyorsa - ek talepler nedeniyle 60 güne kadar uzayabilir.' },
+      { q: 'TRC başvurusu için umiejscowienie zorunlu mu?', a: 'Hayır - TRC için yabancı belgenin orijinali apostille ve yeminli tercümeyle yeterlidir. Umiejscowienie, Polonya\'da ikinci evlilik, vatandaşlık ve miras davaları için zorunludur.' },
+      { q: 'Apostille nedir, ne zaman gerekir?', a: 'Apostille - 1961 Lahey Sözleşmesi ülkeleri arasında belgelerin basitleştirilmiş onaylanmasıdır. Polonya, Sözleşme ülkelerinden (Türkiye, BDT, ABD, Birleşik Krallık vb.) gelen tüm yabancı kamusal belgelere apostille ister. AB içinde 2019\'dan beri 2016/1191 Tüzüğü gereği apostille gerekmez.' },
+      { q: 'Umiejscowienie nerede daha hızlı - Varşova mı bölgeler mi?', a: 'USC Warszawa-Śródmieście en hızlı işliyor - 7-14 gün. Bölgesel USC\'ler 14-30 gün. Başka şehirde yaşıyor olsanız da Varşova üzerinden başvuruyoruz - kanun izin veriyor.' },
+      { q: 'Akit odpis\'ini çevrimiçi alabilir miyim?', a: 'Evet, ePUAP (e-devlet platformu) veya mObywatel (mobil "Vatandaş" uygulaması) üzerinden - PESEL ve profil zaufany sahipleri için. Süresi 7 gün, fiyat aynıdır. Müvekkillerimiz için kendi e-platformumuzla yapıyoruz.' },
+      { q: 'AB dışı bir ülkede gerçekleşen boşanma ne yapılmalı?', a: 'Evliliğin Polonya\'da umiejscowienie\'si için: yabancı boşanma belgesi apostille ve yeminli tercümeyle. Evlilik Polonya\'da yapılmışsa - wpis o rozwiązaniu (boşanma kaydı) wniosek üzerine veya mahkeme kararıyla otomatik eklenir. Karmaşık dosyalar için ayrıca yabancı boşanma kararının uznanie zagranicznego wyroku rozwodowego (yabancı boşanma kararının tanınması) prosedürü işletilir.' }
+    ],
+    related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],
+    ctaTitle: 'USC belgeleri anahtar teslim',
+    ctaSubtitle: 'Ücretsiz danışmanlık: akit türü, verildiği ülke ve kullanım amacını netleştiririz. USC başvurusundan apostille\'li polski odpis\'e genelde 2-3 hafta.'
   }
 };
 

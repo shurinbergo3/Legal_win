@@ -264,6 +264,94 @@ const przedstawicielstwa: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'apostille'],
     ctaTitle: 'Polish branch turnkey',
     ctaSubtitle: 'Free form selection. From 4,800 PLN turnkey.'
+  },
+  tr: {
+    slug: 'przedstawicielstwa',
+    group: 'business',
+    icon: 'landmark',
+    badge: 'Oddział · Przedstawicielstwo · Şube',
+    title: 'Yabancı şirket temsilcilikleri',
+    subtitle: 'Polonya\'da yabancı şirket için oddział (şube) ve przedstawicielstwo (temsilcilik)',
+    lead: 'Yabancı bir şirket Polonya\'da oddział (şube) veya przedstawicielstwo (temsilcilik) üzerinden faaliyet gösterebilir. Oddział, ana şirket adına tam ticari faaliyet yürüten ve KRS\'ye tescil edilen yapıdır. Przedstawicielstwo yalnızca pazarlama, reklam ve pazar araştırması yapar (satış yasaktır), Rejestr Przedstawicielstw siciline kayıtlıdır. Formu birlikte belirler, kuruluşu 4-8 haftada tamamlarız.',
+    facts: [
+      { label: 'KRS\'de oddział', value: '4-8 hafta', note: 'tam ticari faaliyet' },
+      { label: 'Przedstawicielstwo', value: '6-10 hafta', note: 'yalnızca pazarlama' },
+      { label: 'Przedstawicielstwo süresi', value: '2 yıl', note: 'uzatılabilir' },
+      { label: 'Oddziału\'nun CIT\'i', value: '%19', note: 'Polonya kaynaklı gelir üzerinden' }
+    ],
+    grounds: {
+      title: 'Bu form ne zaman gerekir',
+      subtitle: 'Sp. z o.o.\'ya alternatif - yurt dışında olgun bir şirket varken Polonya\'da varlık göstermek gerektiğinde.',
+      items: [
+        { title: 'Oddział - ticari faaliyet', desc: 'Polonya\'da depo, dağıtım, servis merkezi veya satış faaliyetinin ana şirket adına yürütülmesi. KRS, NIP, VAT ve vergi oddział üzerinden işler.' },
+        { title: 'Przedstawicielstwo - yalnızca pazarlama', desc: 'Reklam, pazar araştırması, marka tanıtımı, ortak arayışı. Satış ve üretim yasaktır. Pazar testi için idealdir.' },
+        { title: 'Büyük kurumsal şirket', desc: 'Holdingler Polonya işini hukuki olarak ayırmak istemediğinde oddział kullanır - tüm yükümlülükler ana şirkette kalır.' },
+        { title: 'Devlet temsilciliği', desc: 'Resmi ticaret temsilcilikleri, ihracat ajansları, kültürel misyonlar - przedstawicielstwo köprü görevi görür.' },
+        { title: 'Sermayesiz tescil', desc: 'Oddział için kapitał zakładowy gerekmez. Yalnızca ana şirketin yurt dışında faaliyet gösterdiğinin kanıtı yeterlidir.' },
+        { title: 'Marka koruma', desc: 'Polonya\'da varlık + tescilli marka, kopyalanmaya karşı koruma sağlar. Przedstawicielstwo, AB\'de aktif marka korumasını ispatlar.' }
+      ]
+    },
+    timeline: {
+      title: 'Tescil aşamaları',
+      subtitle: 'Ana şirkette belge hazırlığından sicile tescile - 4-10 hafta.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'Faaliyet planınıza göre oddział veya przedstawicielstwo seçimi. CIT, VAT ve muhasebe yükümlülüklerini birlikte değerlendiriyoruz.' },
+        { title: 'Ana şirket belgeleri', duration: '1-2 hafta', desc: 'KRS / Companies House / Türkiye Ticaret Sicil Gazetesi çıktısı, statut / esas sözleşme, temsilcilik kuruluş kararı, oddział başkanı için vekaletname - hepsine apostille. Yeminli tercüme bizden.' },
+        { title: 'Temsilcinin atanması', duration: '1 hafta', desc: 'Osoba upoważniona - Polonya vatandaşı veya ikamet hakkına sahip yabancı. PESEL, Polonya\'da adresi ve KRK belgesi olmalı.' },
+        { title: 'Merkez adresi', duration: '1 gün', desc: 'Varşova\'da veya başka şehirde adres - bizim adresimiz fiyata dahil veya kendi adresiniz. Umowa najmu (kira sözleşmesi) zorunludur.' },
+        { title: 'KRS / Rejestr\'e wniosek', duration: '4-6 hafta', desc: 'Oddział için KRS-ZAR, NIP-2, REGON. Przedstawicielstwo için Ministerstwo Rozwoju i Technologii\'ye wniosek. Resmi harçlar: KRS 500 PLN, MRiT 1.000 PLN.' },
+        { title: 'US, ZUS\'ta tescil', duration: '2 hafta', desc: 'Oddział CIT mükellefi olur, US\'ye ve (çalışan olacaksa) ZUS\'a tescil edilir. Przedstawicielstwo yalnızca NIP alır.' },
+        { title: 'Banka hesabı açılışı', duration: '1-2 hafta', desc: 'Polonya bankasında konto firmowe. Ana şirket belgeleri + apostille + tłumaczenie ile.' }
+      ]
+    },
+    documents: {
+      title: 'Ana şirket belgeleri',
+      subtitle: 'Tüm yabancı belgeler apostille ve yeminli tercümeyle.',
+      items: [
+        'Güncel sicil çıktısı (KRS / Companies House / Türkiye TTSG / Handelsregister vb.)',
+        'Statut / esas sözleşme (tercümesiyle)',
+        'Ortaklar kurulunun veya yönetim kurulunun temsilcilik açma kararı',
+        'Oddział başkanı / kierownik przedstawicielstwa için vekaletname',
+        'Ana şirketin son yıl sprawozdanie finansowe (mali tablo) ile faaliyet kanıtı',
+        'Her belgeye apostille (Lahey Sözleşmesi)',
+        'Tüm belgelerin Lehçeye yeminli tercümesi - bizden',
+        'Kierownik\'in pasaportu, adresi, PESEL\'i',
+        'Kierownik\'in son 5 yıl ikamet ettiği tüm ülkelerden KRK (adli sicil)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Forma (oddział vs przedstawicielstwo) ve belge sayısına göre değişir.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · form seçimi' },
+        { label: 'Przedstawicielstwo', value: '4.800 PLN\'den', note: 'Wniosek + tercüme + adres' },
+        { label: 'Anahtar teslim oddział', value: '8.500 PLN\'den', note: 'KRS + NIP + VAT + banka' },
+        { label: 'Premium (karmaşık tescil)', value: '12.000 PLN\'den', note: 'Karmaşık yapılar, itirazlar' }
+      ],
+      note: 'Resmi harçlar: KRS 500 PLN + MSiG 100 PLN (oddział). MRiT 1.000 PLN (przedstawicielstwo). Apostille menşe ülkede. Yeminli tercüme sayfa başı 50-100 PLN.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 6 marca 2018 r. o zasadach uczestnictwa przedsiębiorców zagranicznych (Yabancı Girişimcilerin Katılım İlkeleri Kanunu - bölüm 4 oddziały, bölüm 5 przedstawicielstwa)',
+        'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych (madde 27 KSH - oddział)',
+        'Ustawa z dnia 20 sierpnia 1997 r. o KRS (bölüm 3 - oddział tescili)',
+        '1961 Lahey Apostille Sözleşmesi',
+        'Ustawa z dnia 15 lutego 1992 r. o CIT (oddział - çifte vergilendirmeyi önleme anlaşmaları kapsamında işyeri)'
+      ]
+    },
+    faq: [
+      { q: 'Oddział ile Sp. z o.o. arasındaki fark nedir?', a: 'Oddział ana şirketin yapısal birimidir, ayrı tüzel kişiliği yoktur. Tüm yükümlülükler, varlıklar ve gelirler ana şirkete aittir. Sp. z o.o. ise kendi sermayesi ve sorumluluğu olan ayrı bir tüzel kişiliktir. Holding için oddział daha basittir, Polonyalı ortaklarla yeni iş için Sp. z o.o. daha uygundur.' },
+      { q: 'Przedstawicielstwo fatura kesebilir mi?', a: 'Hayır. Przedstawicielstwo (temsilcilik) yalnızca pazarlama, reklam, pazar araştırması, tanıtım ve ortak arayışına yetkilidir. Satış, hizmet ve üretim yasaktır. Bunlar gerekiyorsa - przedstawicielstwo\'yu kapatıp oddział veya Sp. z o.o. açmak gerekir.' },
+      { q: 'Oddział hangi vergileri öder?', a: 'Polonya kaynaklı gelirde (oddziału\'na atfedilen gelirde) %19 CIT. Çifte vergilendirmeyi önleme anlaşması varsa - vergi Polonya\'da ödenir. VAT %23 ciro vergisi olarak. Türkiye-Polonya ÇVÖA bu çerçevede uygulanır - ana şirketin Türkiye\'deki vergileri ayrıdır.' },
+      { q: 'Przedstawicielstwo ne kadar geçerli?', a: '2 yıldır, uzatma imkanıyla. Süre dolmadan 30 gün önce wniosek o przedłużenie sunulur. Uzatılmazsa otomatik olarak kapanır.' },
+      { q: 'Polonyalı kierownik şart mı?', a: 'Hayır. Oddział veya przedstawicielstwo kierownik\'i (yöneticisi) yabancı olabilir. Önemli olan PESEL\'inin ve Polonya\'da yasal ikamet hakkının olmasıdır. Aksi halde KRS tescili ve ePUAP üzerinden başvurular yapılamaz.' },
+      { q: 'Ana şirket kapanırsa ne olur?', a: 'Oddział ve przedstawicielstwo otomatik olarak son bulur. Kapanış işlemleri için akty (akitler) ve KRS / MRiT\'e wnioski (başvurular) gerekir - tüm yükümlülüklerin tasfiyesiyle 1-3 ay sürer.' },
+      { q: 'Oddziału Sp. z o.o.\'ya çevirebilir miyim?', a: 'Doğrudan değil. Oddział kapatılır, Sp. z o.o. tescil edilir, varlıklar (sözleşmeler, depo, çalışanlar) devredilir - bu, ana şirket ile Sp. z o.o. arasında KDV/CIT sonuçları olan bir işlemdir. Anahtar teslim yapıyoruz.' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'apostille'],
+    ctaTitle: 'Polonya temsilciliği anahtar teslim',
+    ctaSubtitle: 'Form seçimi ücretsiz (oddział veya przedstawicielstwo). Anahtar teslim 4.800 PLN\'den.'
   }
 };
 

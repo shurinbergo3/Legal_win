@@ -267,6 +267,95 @@ const odbiorZLotniska: ServiceEntry = {
     related: ['wyszukiwanie-mieszkania', 'tlumacz-na-wizyty', 'zaproszenia'],
     ctaTitle: 'Meet you on arrival day',
     ctaSubtitle: 'Free planning: send your flight - confirmation within an hour. We wait with a sign past customs.'
+  },
+  tr: {
+    slug: 'odbior-z-lotniska',
+    group: 'relocation',
+    icon: 'home',
+    badge: 'Chopin · Modlin · Krakow-Balice · Wrocław',
+    title: 'Havalimanından karşılama',
+    subtitle: 'Chopin / Modlin / Krakow-Balice transferi',
+    lead: 'Tanımadığınız bir ülkeye iniş - stres demektir. Lehçe bilmeden, çocukla, valizlerle ve yerel düzeni tanımadan. LegalWin geliş kapısında LegalWin tabelasıyla sizi karşılar, yeni EES (Entry/Exit System) kuralları altında pasaport kontrolünden geçmenize yardım eder, business veya aile sınıfı transfer organize eder ve ilk gün - yerleşim, SIM kart, market, ulaşım ödemeleri brifingi sunar. Bu sıradan bir taksi değil, Polonya\'daki ilk gününüze profesyonel eşliktir.',
+    facts: [
+      { label: 'Çalıştığımız havalimanları', value: '6 havalimanı', note: 'Chopin, Modlin, Krakow, Gdansk, Wrocław, Poznań' },
+      { label: 'Bekleme süresi', value: '90 dakikaya kadar', note: 'ücretsiz, sonrası +50 PLN/saat' },
+      { label: 'EES kontrolü', value: '2025\'ten beri', note: 'biyometri + 90/180 kuralı' },
+      { label: 'Ücret', value: '250 PLN\'den', note: 'sedan · sabit fiyat · 1-4 yolcu' }
+    ],
+    grounds: {
+      title: 'Karşılamada neler yapıyoruz',
+      subtitle: 'Paket ihtiyaçlarınıza göre özelleştirilir - basit taksiden tam günlük eşliğe kadar.',
+      items: [
+        { title: 'Tabelalı karşılama', desc: 'Personelimiz LegalWin tabelasıyla geliş kapısında bekler. EES pasaport kontrolünde, sınır görevlilerinin sorularının çevirisinde ve bavul aramada yardımcı olur.' },
+        { title: 'EES - yeni biyometrik kurallar', desc: 'Ekim 2025\'ten itibaren AB dışı vatandaşlar için girişte parmak izi ve fotoğraf. 90/180 kuralını anlatıyor, geçişlerde sorun yaşamamanıza yardımcı oluyoruz.' },
+        { title: 'Konuta transfer', desc: '1-4 yolcu için Mercedes E veya Skoda Superb sedan; 5-8 yolcu için Vito minivan. Talep üzerine çocuk koltuğu ücretsiz.' },
+        { title: 'Daireye yerleşim', desc: 'Mülk sahibiyle buluşma, envanter kontrolü, umowy najmu imzası (önceden imzalanmadıysa), durumun fotoğrafla belgelenmesi.' },
+        { title: 'Geliş günü SIM kart', desc: 'Plus / Play / T-Mobile - 50 GB ve Polonya numarası. Pasaportla havalimanında veya ilk mağazada hazırlıyoruz.' },
+        { title: 'İlk hafta rehberi', desc: '15 sayfalık kılavuz: ulaşım ödemesi (mObywatel + Jakdojade), bankamatik, Lidl-Biedronka, eczane, parklar - ilk hafta için gereken her şey.' },
+        { title: 'İlk belgelerin imzası', desc: 'Umowy najmu imzasında, Pekao / mBank\'ta hesap açılışında, KOMPLEKS prepaid kart işleminde - tek günde - eşlik ediyoruz.' },
+        { title: 'Çocuklar için eşlik', desc: 'Çocuklarınız varsa - ayrı zameldowanie wniosku ve konutunuza yakın klasy powitalne (uyum sınıfı) okul listesi.' }
+      ]
+    },
+    timeline: {
+      title: 'Karşılama akışı',
+      subtitle: 'Uçuş bilgisi içeren ilk e-postadan sakin akşama yeni dairenizde.',
+      steps: [
+        { title: 'Rezervasyon', duration: '5 dk', desc: 'Uçuş ve tarih bilgisini gönderiyorsunuz. Fiyat ve şoför bilgisini iniş öncesi 24 saatte teyit ediyoruz.' },
+        { title: 'Uçuş takibi', duration: 'otomatik', desc: 'Uçuşu FlightAware üzerinden izliyoruz. Gecikme olursa - şoför yeni saatte gelir, ek ücret yok.' },
+        { title: 'Karşılama', duration: '15 dk', desc: 'Personelimiz pasaport kontrolü çıkışında tabelayla bekler. Gerekirse kahve, valiz arabası yardımı.' },
+        { title: 'EES ve sınır görevlileri', duration: '20-60 dk', desc: 'Sınır görevlilerinin sorularını çeviriyor, geliş formunu doldurmaya yardım ediyoruz. Küçük çocuklarla seyahatte çok değerli.' },
+        { title: 'Konuta yolculuk', duration: '30-90 dk', desc: 'Havalimanına bağlı: Chopin → merkez 25 dk, Modlin → merkez 60 dk, Wrocław → merkez 20 dk.' },
+        { title: 'Yerleşim', duration: '30-60 dk', desc: 'Mülk sahibiyle buluşma, anahtar teslimi, umowa najmu eklerinin imzası, ısıtma ve su kontrolü.' },
+        { title: 'Temel konfor', duration: '60 dk', desc: 'İlk 2 günün alışverişi için Lidl, gerekirse eczane. Şifreli kilidin ve Wi-Fi\'nin nasıl çalıştığını anlatıyoruz.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Asgari - uçuş bilgileri. Geri kalanı rezervasyon sırasında toplanır.',
+      items: [
+        'Uçuş numarası ve geliş tarihi',
+        'Pasaport (fotoğraf veya tarama) - tabela ve kontrol için',
+        'Yerleşim adresi ve mülk sahibi / acente iletişim bilgisi',
+        'Yolcu ve bavul sayısı (araç seçimi için)',
+        'Çocukların yaşı (çocuk koltuğu için)',
+        'WhatsApp iletişim numarası',
+        'İlk gün görev listesi (SIM, banka, eczane, IKEA)',
+        'Otel rezervasyon numarası (geçici konaklama varsa)'
+      ]
+    },
+    pricing: {
+      title: 'Paket fiyatları',
+      subtitle: 'Sabit ücret. Süre için ek ödeme yok (90 dakika bekleme dahil).',
+      items: [
+        { label: 'Yalnızca transfer (sedan)', value: '250 PLN\'den', note: '1-4 yolcu · Chopin → Varşova merkez' },
+        { label: 'Transfer + yerleşim', value: '450 PLN\'den', note: 'Konuta kadar personel eşliği' },
+        { label: 'Tam ilk gün paketi', value: '850 PLN\'den', note: 'Havalimanı + konut + SIM + banka + Lidl' },
+        { label: 'Aile paketi (5+ kişi)', value: '1.200 PLN\'den', note: 'Minivan + çocuk koltukları + ek bavul' }
+      ],
+      note: 'Belirtilen tarifeler Warszawa-Chopin için temel fiyatlardır. Modlin → merkez +50 PLN, gece tarifesi (00:00-06:00) +%30, hafta sonu / bayramlarda ek ücret yok.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        '(AB) 2017/2226 sayılı Tüzük - EES (Entry/Exit System)',
+        'Schengen Anlaşması Uygulama Sözleşmesi (90/180 günlük kural)',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (Yabancılar Kanunu)',
+        'Ustawa z dnia 6 września 2001 r. o transporcie drogowym (Karayolu Taşımacılığı Kanunu - yolcu taşımacılığı)',
+        'AB Vize Kodeksi (810/2009 Tüzüğü)'
+      ]
+    },
+    faq: [
+      { q: 'EES nedir, geliş için ne değişiyor?', a: 'Entry/Exit System (Giriş / Çıkış Sistemi) - AB çapında biyometrik giriş/çıkış sistemi. 12 Ekim 2025\'ten itibaren tüm AB dışı vatandaşlar ilk girişte parmak izi ve fotoğraf veriyor. Sınır geçişi 30 saniyeden 5-10 dakikaya çıktı. Sizi prosedüre hazırlıyor, pasaport kontrolünden birlikte geçiyoruz.' },
+      { q: 'Modlin\'den veya Wrocław\'dan karşılama yapılır mı?', a: 'Evet, Polonya\'nın tüm havalimanlarıyla çalışıyoruz: Warszawa-Chopin (WAW), Warszawa-Modlin (WMI), Krakow-Balice (KRK), Gdansk (GDN), Wrocław (WRO), Poznań (POZ), Katowice (KTW). Modlin → Varşova merkez - 60 dk (350 PLN), Wrocław havalimanı → merkez - 20 dk (180 PLN).' },
+      { q: 'Uçuş gecikirse veya iptal olursa?', a: 'Rezervasyon anından itibaren FlightAware üzerinden uçuşu izliyoruz. 6 saate kadar gecikme - ek ücret yok, şoför yeni saatte yola çıkar. İptal durumunda - karşılamayı yeni uçuşa erteliyor veya ödemenin %80\'ini iade ediyoruz.' },
+      { q: 'Tek başına seyahat eden çocuğu (UMNR) alabilir misiniz?', a: 'Evet. Havayolları (LOT, Ryanair, Wizz Air) tarafından akredite, UMNR (refakatsiz çocuk) karşılayabilen personelimiz var. Önceden hazırlanmış ebeveyn vekaletnamesi ve pasaport kopyaları gerekir.' },
+      { q: '"Tam ilk gün paketi" neyi içeriyor?', a: 'Havalimanında karşılama + EES rehberliği + sedanla konuta transfer + mülk sahibiyle yerleşim + Plus 50 GB SIM kart + bankada 30 dakikalık ziyaret (Pekao / mBank) ve hesap açılışı + Lidl\'de 200 PLN\'lik market alışverişi + 15 sayfalık rehber. Geliş günü toplam 5-6 saat.' },
+      { q: 'Kartla ödeme kabul ediyor musunuz?', a: 'Evet. Visa, Mastercard, Apple Pay, Google Pay, BLIK. İş seyahatleri için Sp. z o.o. adına %23 VAT\'lı fatura kesebiliyoruz. Ödeme rezervasyonda %50, transfer sonrası %50.' },
+      { q: 'Sadece taksi istiyorum, eşlik gerekli değil', a: 'Tabii. 1-4 yolcu için temel sedan transfer Chopin\'den 250 PLN\'den başlar. Bu, yoğun saatlerde Bolt/Uber\'den %30-40 daha ucuz ve iptal riski yok. 5-8 yolcu için minivan 380 PLN\'den.' }
+    ],
+    related: ['wyszukiwanie-mieszkania', 'tlumacz-na-wizyty', 'zaproszenia'],
+    ctaTitle: 'Geliş gününde karşılıyoruz',
+    ctaSubtitle: 'Ücretsiz planlama: uçuş bilginizi gönderin - 1 saat içinde saat ve fiyatı teyit ediyoruz. Geliş kapısında tabelayla bekliyoruz.'
   }
 };
 

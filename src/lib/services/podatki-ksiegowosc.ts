@@ -276,6 +276,98 @@ const podatkiKsiegowosc: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Tax and accounting turnkey',
     ctaSubtitle: 'Free form audit and savings calc. From 250 PLN/month.'
+  },
+  tr: {
+    slug: 'podatki-ksiegowosc',
+    group: 'business',
+    icon: 'scale',
+    badge: 'CIT · VAT · PIT · Estonyan CIT · IP Box',
+    title: 'Vergi ve muhasebe',
+    subtitle: 'Polonya vergi optimizasyonu: %9 CIT, Estonyan CIT, %5 IP Box, VAT-UE',
+    lead: 'Polonya vergi sistemi AB\'nin en karmaşıklarından biridir: CIT %9/%19, ertelenmiş Estonyan CIT, %5 IP Box, %23/%8/%5/%0 VAT (KDV), aylık JPK_V7, 2026\'dan itibaren KSeF, binlerce Polski Ład değişikliği. İşinize uygun rejimi seçer, muhasebenizi (anlaşmalı muhasebe ağıyla) yürütür, beyannameleri hazırlar ve vergi denetimlerinde yanınızda oluruz. Sp. z o.o., JDG, oddziały ve fundacja rodzinna ile çalışıyoruz.',
+    facts: [
+      { label: 'Küçük mükellef CIT', value: '%9', note: 'yıllık ciro < 2 mln EUR' },
+      { label: 'Estonyan CIT', value: '%0 / %20', note: 'temettü dağıtımına kadar' },
+      { label: 'IP Box', value: '%5', note: 'fikri mülkiyet gelirinde' },
+      { label: 'VAT (KDV)', value: '%23 / %8 / %5 / %0', note: 'genel ve indirimli oranlar' }
+    ],
+    grounds: {
+      title: 'Hizmet kapsamı',
+      subtitle: 'Tescilden yıllık beyannameye tam döngü. Modüler de alınabilir.',
+      items: [
+        { title: 'Vergi rejiminin seçimi', desc: 'Skala (%12/%32) vs liniowy %19 vs ryczałt vs Estonyan CIT vs IP Box. 1-2 yıllık gelir-giderinizi modelliyor, gerekirse rejimi değiştiriyoruz.' },
+        { title: 'Aylık muhasebe', desc: 'İşlem kayıtları (księga handlowa veya KPiR), bordro, ZUS, JPK_V7, JPK_KR, amortisman, vergiler. Belgeler müvekkil panelinden iletilir.' },
+        { title: 'VAT ve JPK', desc: 'Aylık veya üç aylık JPK_V7 (VAT + ewidencja birleşik beyanı). AB işlemleri için VAT-UE. 2026\'dan itibaren KSeF (Krajowy System e-Faktur) - geçişi sizin için yapıyoruz.' },
+        { title: 'Yıllık beyannameler', desc: 'Sp. z o.o. için CIT-8, JDG için PIT-36/36L/28, KRS\'ye sprawozdanie finansowe. ePUAP üzerinden sunma. Süreler: 31 Mart (CIT), 30 Nisan (PIT).' },
+        { title: 'Estonyan CIT', desc: 'Ertelenmiş CIT\'e geçiş - kâr yatırıma dönerken vergi %0, temettü dağıtılınca %20. Şartlar: 2+ wspólnik, pasif gelirler %50\'yi aşmaz, en az 3 çalışan. Tam yürütme.' },
+        { title: 'IP Box', desc: 'Yazılım fikri mülkiyetinden gelirde indirimli %5 oranı. Hazırlığı yapıyoruz: ewidencja IP, Krajowa Informacja Skarbowa\'ya (KIS) interpretacja indywidualna talebi, eklemli yıllık PIT/CIT beyannamesi.' },
+        { title: 'Vergi denetimleri', desc: 'Kontrola celno-skarbowa süreçlerinde yanınızdayız. Yanıtların hazırlanması, US\'de temsil, hatalı karar halinde WSA / NSA itirazları.' },
+        { title: 'Transfer fiyatlandırması', desc: 'Yurt dışındaki podmioty powiązane (ilişkili taraflar) ile çalışan Sp. z o.o.\'lar için ceny transferowe dokümantasyonu. Karşılaştırılabilir kontrolsüz fiyat veya net işlem marjı yöntemi.' }
+      ]
+    },
+    timeline: {
+      title: 'Hizmete başlama',
+      subtitle: 'Yeni müvekkilin sisteme alınması genelde 1-2 hafta.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '60 dk', desc: 'Mevcut muhasebenizin denetimi (varsa), vergi rejiminizin değerlendirilmesi, optimal rejime geçişte tasarruf hesabı.' },
+        { title: 'Sözleşme ve pełnomocnictwo', duration: '1 gün', desc: 'Umowa o usługi księgowe ve UPL-1 (US önünde temsil yetkisi). Beyannameleri hemen sizin adınıza sunmaya başlıyoruz.' },
+        { title: 'Veri devri', duration: '3-5 gün', desc: 'Mevcut księgi (başka muhasebeciden geliyorsanız) içe aktarımı, VAT sicilleri, ewidencja środków trwałych. Streamsoft, Comarch, Symfonia ile çalışıyoruz.' },
+        { title: 'İlk ay denetimi', duration: '1 hafta', desc: 'Son 3 ayın beyannamelerini hata için kontrol ediyoruz. Sıkça VAT fazla ödemesi buluyor, korektę sunarak iade alıyoruz.' },
+        { title: 'Aylık rejim', duration: 'sürekli', desc: 'Belgeleri portala yüklüyor veya e-postayla gönderiyorsunuz. Muhasebeci işler, 25\'ine kadar JPK_V7\'yi hazırlar. Klient panel durumunu gösterir.' },
+        { title: 'Üç aylık değerlendirmeler', duration: 'yılda 4 kez', desc: 'Księgowy ile görüşme: göstergeler, sonraki çeyreğin vergi optimizasyonu, planlama. Optimizasyon için her zaman alan vardır.' },
+        { title: 'Yıl sonu kapanışı', duration: 'Ocak-Nisan', desc: 'Sprawozdanie finansowe, CIT-8 / PIT-36, KRS\'ye sprawozdanie, badanie biegłego rewidenta (gerekirse). Yılda bir kez.' }
+      ]
+    },
+    documents: {
+      title: 'Aylık olarak ileteceğiniz belgeler',
+      subtitle: 'Asgari belge - maksimum otomasyon. Tarama veya fotoğraf yeterlidir.',
+      items: [
+        'Faktury sprzedaży (müşterilerinize kestiğiniz faturalar)',
+        'Faktury zakupu (tedarikçi, kira, hizmet faturaları)',
+        'Wyciągi bankowe (tüm hesapların ekstreleri)',
+        'Listy płac (çalışanlar ve umowa zlecenie için bordro)',
+        'Kira, leasing ve kredi sözleşmeleri',
+        'İhracat / ithalat belgeleri (faktury celne, CMR)',
+        'Inwentaryzacja (księga handlowa için yılda bir)',
+        'Yurt dışı ilişkili taraflarla yapılan sözleşmeler',
+        'Sabit kıymet hareketleri (alım / çıkış)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet ücretimiz',
+      subtitle: 'İşlem hacmine göre tarifeler. Tek seferlik işler (beyanname, optimizasyon) ayrıdır.',
+      items: [
+        { label: 'JDG · ryczałt', value: '250 PLN/aydan', note: '30 işleme kadar · JPK_V7' },
+        { label: 'JDG · KPiR + VAT', value: '450 PLN/aydan', note: '50 işleme kadar' },
+        { label: 'Sp. z o.o. · księga handlowa', value: '950 PLN/aydan', note: '50 işleme kadar · sprawozdanie' },
+        { label: 'Sp. z o.o. · kompleks', value: '1.800 PLN/aydan', note: 'IP Box / Estonyan CIT / TP' }
+      ],
+      note: 'Belirtilen tarifeler küçük ölçek içindir. Orta ölçekli işletme (aylık 100+ işlem) için bireysel hesap. Sprawozdanie roczne ayrıca 600-1.800 PLN. Vergi denetimi ve yeni rejime geçiş 1.500-4.000 PLN.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 15 lutego 1992 r. o CIT (Polski Ład 2.0 ve 3.0 değişiklikleriyle)',
+        'Ustawa z dnia 26 lipca 1991 r. o PIT (skala, liniowy, ryczałt)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (2026\'dan itibaren KSeF)',
+        'Ustawa z dnia 29 września 1994 r. o rachunkowości (Muhasebe Kanunu - księgi handlowe)',
+        'Ordynacja podatkowa z dnia 29 sierpnia 1997 r. (Vergi Usul Kanunu)',
+        'JPK_V7, JPK_KR, JPK_FA hakkında Maliye Bakanlığı yönetmelikleri',
+        'Ustawa z dnia 26 maja 2023 r. o KSeF (Ulusal e-Fatura Sistemi Kanunu)'
+      ]
+    },
+    faq: [
+      { q: 'Estonyan CIT kime uygun?', a: '2+ wspólnik\'i (gerçek kişi ortağı) olan Sp. z o.o., pasif kaynak gelirleri %50\'nin altında, en az 3 çalışan umowa o pracę ile (veya wspólnicy bizzat). Yatırıma çevrilen kâr - %0 vergi. Temettü dağıtımı - %20 CIT + %19 PIT (efektif ~%25). Kârını yatırıma çeviren büyüme aşamasındaki şirketler için idealdir.' },
+      { q: 'IP Box hangi yazılımcılara uygun?', a: 'Kwalifikowane prawa do programów komputerowych (kendi yazılımı; başkasının yazılımını devreden değil) yaratan JDG veya Sp. z o.o. Şartlar: ayrı muhasebe, umowa przeniesienia praw (hak devir sözleşmesi), KIS\'ten interpretacja indywidualna. IP gelirinde efektif vergi %5. Setup maliyeti 1-2 ay içinde geri kazanılır.' },
+      { q: 'KSeF nedir, geçiş ne zaman?', a: 'KSeF - Krajowy System e-Faktur (Ulusal Elektronik Fatura Sistemi). 1 Şubat 2026\'dan itibaren tüm VAT mükellefleri için zorunludur. Tüm faktury KSeF üzerinden çevrimiçi düzenlenir, her birinin benzersiz KSeF ID\'si olur. Yazılımınızın (Comarch, iFirma, Subiekt, Symfonia) KSeF ile entegrasyonunu yapıyor, çalışanlarınızı eğitiyoruz.' },
+      { q: 'JDG\'den Sp. z o.o.\'ya nasıl geçilir?', a: 'Doğrudan "dönüşüm" değildir, iki ayrı işlemdir: JDG\'nin CEIDG\'den kapatılması + Sp. z o.o.\'nun tescili + varlık devri. Varlık geçişi - apport (sermayeye katkı, işletmenin tamamı sermaye olarak konursa VAT muafiyeti) veya sprzedaż (satış, normal VAT ve PIT). Anahtar teslim 4-6 hafta, 4.500-7.500 PLN.' },
+      { q: 'Vergi denetiminde ne yapmalı?', a: 'Vergi danışmanı olmadan müfettişle iletişime geçmeyin. Zawiadomienie o kontroli (denetim bildirimi) aldıktan sonra hazırlık için 7 gününüz vardır. Ne denetlendiğini hızlı analiz eder, belgeleri hazırlar, çıkarlarınızı temsil ederiz. Olumsuz karar riski varsa - önceden porozumienie i wyjaśnienia (uzlaşma ve açıklama) yoluna gidiyoruz. Sonrasında: Dyrektor Izby Administracji Skarbowej\'a (Vergi İdaresi Odası Müdürü) ve WSA\'ya itiraz.' },
+      { q: 'Sp. z o.o. muhasebesi gerçekte ne tutar?', a: 'JDG ryczałt 250 PLN/ay, JDG KPiR (gelir-gider defteri) 450 PLN/ay, Sp. z o.o. tam księga 950 PLN/ay, IP Box\'lı Sp. z o.o. 1.800 PLN/ay. Bu küçük işletmeler içindir (ayda 50 işleme kadar). Sprawozdanie roczne ayrıca 600-1.800 PLN. Aktif Sp. z o.o. için gerçek yıllık maliyet 12-25 bin PLN (yıllık rapor dahil).' },
+      { q: 'Beyanname süreleri nedir?', a: 'JPK_V7 (elektronik VAT beyannamesi + sicil) - takip eden ayın 25\'ine kadar. CIT-8 - 31 Mart (önceki yıl için). PIT-36/36L - 30 Nisan. Sprawozdanie finansowe - mali yıl bitiminden sonra 6 ay içinde (Sp. z o.o. için 30 Haziran). Geç sunma - 720 dziennej stawki (günlük asgari ücret) cezasına kadar (~50.000 PLN).' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
+    ctaTitle: 'Vergi ve muhasebe anahtar teslim',
+    ctaSubtitle: 'Mevcut rejiminizi ücretsiz analiz eder, optimal forma geçişte tasarrufu hesaplarız. 250 PLN/aydan başlar.'
   }
 };
 

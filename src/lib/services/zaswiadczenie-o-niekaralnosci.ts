@@ -264,6 +264,94 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
     ctaTitle: 'KRK in 1-7 days',
     ctaSubtitle: 'Free consultation: purpose, format, apostille need. From PoA signing to pickup - typically 1-7 working days.'
+  },
+  tr: {
+    slug: 'zaswiadczenie-o-niekaralnosci',
+    group: 'documents',
+    icon: 'shield',
+    badge: 'KRK · e-KRK · Adalet Bakanlığı',
+    title: 'Adli sicil belgesi',
+    subtitle: 'Krajowy Rejestr Karny (KRK) zaświadczenie\'si',
+    lead: 'Adli sicil belgesi (zaświadczenie z KRK), Polonya Ulusal Sabıka Sicili\'nden çıkartılan bir özettir. Polonya vatandaşlığı, MOL lisansları, Karta Stałego Pobytu (daimi oturum kartı), çocuklarla çalışma ve kamu ihaleleri için zorunludur. 7 günde alıyoruz - e-KRK üzerinden çevrimiçi veya Adalet Bakanlığı ile mahkemelerden bizzat. Aynı zamanda menşe ülke adli sicil belgelerini de çıkarttırıyoruz.',
+    facts: [
+      { label: 'Verilme süresi', value: '7 gün', note: 'standart · e-KRK için 1 gün' },
+      { label: 'Resmi harç', value: '20-30 PLN', note: 'e-KRK / kağıt form' },
+      { label: 'Yer', value: 'Adalet Bakanlığı (MS)', note: 'veya bölge mahkemeleri' },
+      { label: 'Geçerlilik', value: '6 ay', note: 'çoğu amaç için' }
+    ],
+    grounds: {
+      title: 'Adli sicil belgesi ne zaman gerekir',
+      subtitle: 'KRK onlarca Polonya prosedüründe istenir. Yabancılarda en sık karşılaşılanlar:',
+      items: [
+        { title: 'Polonya vatandaşlığı', desc: 'Cumhurbaşkanı\'na yapılan vatandaşlık başvurusu (nadanie obywatelstwa) ve uznanie za obywatela polskiego (vatandaşlığa kabul) için zorunludur. Sunum anında 3 ay geçerli olmalı.' },
+        { title: 'Karta Stałego Pobytu', desc: 'Daimi ikamet için wojewoda KRK ister - olmadan wniosek kabul edilmez. Ek olarak menşe ülkenizden apostille\'li KRK belgesi de gerekir.' },
+        { title: 'Lisans ve imtiyazlar', desc: 'MOL lisansı (taşımacılık), güvenlik (ochrona), dedektif, sigorta brokeri, prokurist, biegły rewident (yeminli mali müşavir).' },
+        { title: 'Çocuklarla çalışma', desc: 'Okullar, anaokulları, eğitim, özel ders, antrenörlük. 2024\'ten itibaren Centralny Rejestr Sprawców (Merkezi Suçlular Sicili) üzerinden zorunlu kontrol.' },
+        { title: 'Kamu hizmeti', desc: 'Tüm administracja rządowa ve samorządowa (merkezi ve yerel idare) görevleri, polis, hakim, savcı, ABW, askeri görevler.' },
+        { title: 'İhale ve kamu alımları', desc: 'Tryb zamówień publicznych (kamu alımları usulü) çerçevesinde teklif vermek - şirket için (KRS\'den) ve her yönetim kurulu üyesi için KRK gerekir.' },
+        { title: 'Bankacılık ve finans', desc: 'Banka, SKOK (kredi-yatırım kooperatifleri), KNF denetimi, sigorta şirketlerinde görev. KRK + çalışılan ülkelerden KRK.' },
+        { title: 'Yurt dışı vize veya oturum izni', desc: 'ABD (O, EB), Kanada (PR), Birleşik Krallık (skilled worker), BAE - hepsi apostille\'li ve tercüme edilmiş KRK ister.' }
+      ]
+    },
+    timeline: {
+      title: 'KRK süreci',
+      subtitle: 'Standart döngü - e-KRK üzerinden veya Adalet Bakanlığı\'nda bizzat 1-7 gün.',
+      steps: [
+        { title: 'Danışmanlık', duration: '15 dk', desc: 'Amaç, format (elektronik / kağıt), apostille ve tercüme gereksinimini netleştiriyoruz. En uygun başvuru yöntemini seçiyoruz.' },
+        { title: 'Vekaletname', duration: '1 gün', desc: 'Pełnomocnictwo imzalanır (17 PLN damga vergisi). ePUAP üzerinden kağıt olmadan ücretsiz.' },
+        { title: 'Wniosku sunma', duration: '1 gün', desc: 'e-KRK (profil zaufany ile) - 20 PLN, 1 günde verilir. Kağıt wniosek Adalet Bakanlığı veya Sąd Okręgowy\'de (bölge mahkemesi) - 30 PLN, 7 gün.' },
+        { title: 'Belgenin teslimi', duration: '1-7 gün', desc: 'Elektronik - e-posta veya ePUAP\'a Adalet Bakanlığı elektronik imzasıyla. Kağıt - bizzat alır veya kuryeyle gönderiyoruz.' },
+        { title: 'Apostille (gerekirse)', duration: '3-5 gün', desc: 'Yurt dışı kullanım için MSZ\'den apostille (60 PLN). AB ülkeleri için 2019\'dan beri apostille gerekmiyor.' },
+        { title: 'Yeminli tercüme', duration: '2-3 gün', desc: 'Hedef ülkenin diline çeviri (İngilizce, Almanca, İspanyolca, Arapça vb. - güvenilir tercümanlarımız var).' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Wniosek için asgari paket.',
+      items: [
+        'Pasaport (fotoğraflı sayfa fotokopisi)',
+        'PESEL (varsa; yoksa kağıt wniosek üzerinden başvuru)',
+        'Karta pobytu veya başka yasal ikamet belgesi',
+        'LegalWin\'e pełnomocnictwo (17 PLN damga vergisi veya ePUAP üzerinden ücretsiz)',
+        'ePUAP / profil zaufany erişimi (e-KRK için)',
+        'Kızlık soyadı (değiştirildiyse) - tüm kayıtlarda kontrol için',
+        'Kayıtlı olduğunuz tüm ad ve soyadlar',
+        'Kullanım amacı - wniosku\'nun formatını belirler (osoba prywatna / w celu zatrudnienia)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Belge başına 200 PLN\'den. Resmi harçlar ayrıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '15 dakika · amaç netleştirme' },
+        { label: 'Anahtar teslim KRK', value: '200 PLN\'den', note: 'Wniosek, vekaletname, teslim · 7 gün' },
+        { label: 'Acil KRK (1 gün)', value: '350 PLN\'den', note: 'Öncelikli e-KRK işlem' },
+        { label: 'KRK + apostille + tercüme', value: '480 PLN\'den', note: 'Yurt dışı kullanım için' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Resmi harçlar (20 PLN e-KRK, 30 PLN kağıt, 17 PLN pełnomocnictwo, 60 PLN apostille) ve yeminli tercüme (~80 PLN/belge) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym (Ulusal Sabıka Sicili Kanunu)',
+        'Adalet Bakanlığı KRK zaświadczenie örnek yönetmeliği',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (Yabancılar Kanunu - TRC ve daimi ikamette KRK)',
+        'Ustawa z dnia 13 maja 2016 r. o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym (Cinsel Suç Tehditleriyle Mücadele Kanunu)',
+        '5 Ekim 1961 Lahey Sözleşmesi (apostille)'
+      ]
+    },
+    faq: [
+      { q: 'Özel kişi KRK\'sı ile işveren amaçlı KRK arasındaki fark nedir?', a: '"Osoba prywatna" wniosku (özel kişi başvurusu) - silinmiş kayıtlar dahil tüm sabıka kayıtlarını içerir. "Do celów zatrudnienia" wniosku (istihdam amaçlı başvuru) - yalnızca belirli bir göreve ilişkin kayıtları içerir (örneğin çocuklarla çalışma için yalnızca cinsel suç maddeleri). Göçmenlik amaçları için her zaman özel kişi KRK\'sı kullanılır.' },
+      { q: 'KRK belgesi ne kadar geçerli?', a: 'KRK (Krajowy Rejestr Karny - Ulusal Sabıka Sicili) standart olarak verildiği tarihten itibaren 6 ay geçerlidir. Polonya vatandaşlığı için 3 ay. Kamu ihaleleri için genelde 3 ay. Belgeyi başvuru tarihinize mümkün olduğunca yakın çıkarttırın.' },
+      { q: 'Polonya\'ya gelmeden KRK alabilir miyim?', a: 'Evet. ePUAP profil zaufany\'siyle e-KRK (KRK elektronik servisi) üzerinden tamamen çevrimiçi alınır. ePUAP\'ınız yoksa - ikamet ülkenizdeki Polonya konsolosunda vekaletname imzalatıyoruz. Elektronik belgeyi 1-3 günde temin ediyoruz.' },
+      { q: 'Menşe ülkeden KRK belgesini nasıl alabilirim?', a: 'Polonya\'daki konsolosluk üzerinden veya yerel ortağımız aracılığıyla. Türkiye, Ukrayna, Belarus, Rusya, Kazakistan, Gürcistan, Moldova ve Ermenistan\'da ortaklarımız var. Süre 14-30 gün, ücretimiz 250-500 PLN + konsolosluk harçları.' },
+      { q: 'KRK\'nın apostille\'i nereye yapılır?', a: 'Apostille\'i MSZ Varşova 3-5 günde basar. Acil ihtiyaçta - express tarife (1 gün, +%50). AB ülkeleri için apostille gerekmez (2016/1191 Tüzüğü), belge ve yeminli tercüme yeterlidir.' },
+      { q: 'Sabıkam vardı ama silindi (zatarta) - ne olur?', a: '"Do celów zatrudnienia" belgesinde zatarte kayıtlar görünmez. Özel kişi belgesinde "skazany - wyrok zatarty" (mahkum - hüküm silindi) ibaresiyle yer alabilir. Polonya vatandaşlığı için Cumhurbaşkanı silinmiş dahil tüm kayıtları değerlendirir. Şansınızı değerlendirip wyjaśnienia (açıklama) hazırlamanıza yardımcı oluyoruz.' },
+      { q: 'KRK ile mahkeme adli sicil belgesi farklı mı?', a: 'KRK\'yı Adalet Bakanlığı (Ministerstwo Sprawiedliwości) verir - tüm kayıtların merkezi sicilidir. Mahkeme belgesi yalnızca o mahkemenin dosyalarını kapsar. "Adli sicil belgesi" diyen her yerde KRK gerekir. Mahkeme belgeleri çok dar prosedürler için kullanılır.' }
+    ],
+    related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Adli sicil (KRK) belgesi 1-7 günde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: amacı, formatı, apostille gereksinimini netleştiririz. Vekaletname imzasından teslime genelde 1-7 iş günü.'
   }
 };
 

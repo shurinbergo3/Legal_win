@@ -234,6 +234,84 @@ const kartaStalegoPobytu: ServiceEntry = {
     related: ['karta-pobytu', 'obywatelstwo', 'karta-polaka'],
     ctaTitle: 'Ready to move from TRC to PR?',
     ctaSubtitle: 'Free consultation - we\'ll map the grounds and timelines to your specific case.'
+  },
+  tr: {
+    slug: 'karta-stalego-pobytu',
+    group: 'immigration',
+    icon: 'home',
+    badge: 'Daimi ikamet',
+    title: 'Karta Stałego Pobytu',
+    subtitle: 'Polonya daimi oturum kartı',
+    lead: 'Polonya daimi oturum hakkı (pobyt stały) süresiz olarak verilir, fiziksel kart 10 yıl geçerlidir ve sonrasında yenilenir. Oy kullanma ve kamu görevleri dışında neredeyse tüm vatandaşlık haklarını sağlar.',
+    facts: [
+      { label: 'Statü', value: 'süresiz', note: 'kart 10 yılda bir yenilenir' },
+      { label: 'Resmi harçlar', value: '640 + 100 PLN', note: 'başvuru + kart' },
+      { label: 'Karar süresi', value: '3-6 ay', note: 'yasal süre 180 güne kadar' },
+      { label: 'Sonuç', value: 'vatandaşa yakın haklar', note: 'oy kullanma hariç' }
+    ],
+    grounds: {
+      title: 'Daimi ikamet hakkını kim alabilir',
+      items: [
+        { title: 'Polonya vatandaşlarının eşleri', desc: '3 yıllık evlilik ve 2 yıl kesintisiz TRC (geçici oturum) ikametinden sonra.' },
+        { title: 'Polonya kökenli kişiler', desc: 'Polonya köken kanıtıyla (anne-baba / büyükanne-büyükbaba) ve kalıcı yerleşim niyetiyle.' },
+        { title: 'Karta Polaka (Polonyalı Kartı) sahipleri', desc: 'Karta Polaka ile, önceden TRC olmadan doğrudan daimi ikamet başvurusu yapılabilir.' },
+        { title: 'Mülteciler ve insani statü sahipleri', desc: '5 yıllık mülteci statüsü veya koruma sonrasında.' },
+        { title: 'Polonya\'da doğan çocuklar', desc: 'Polonya\'da doğan, daimi ikamet sahibi ebeveynlerin reşit olmayan çocukları.' },
+        { title: 'İnsan ticareti mağdurları', desc: 'Özel koşullarda insani ikamet veya tamamlayıcı koruma kapsamında.' }
+      ]
+    },
+    timeline: {
+      title: 'Süreç nasıl işliyor',
+      steps: [
+        { title: 'Gerekçe değerlendirmesi', duration: '30 dk', desc: 'Dosyanızın daimi ikamet gerekçelerinden hangisine uygun olduğunu değerlendiririz.' },
+        { title: 'Belgelerin derlenmesi', duration: '2-4 hafta', desc: 'Nüfus kayıtları, tercümeler, gerekiyorsa Polonya köken kanıtı.' },
+        { title: 'MOS v2.0\'a yükleme', duration: '1 gün', desc: 'Başvuruyu yükleriz, 640 PLN opłata skarbowa (damga vergisi) öderiz.' },
+        { title: 'Biyometri', duration: '1 ziyaret', desc: 'Voivoda nezdinde parmak izi ve fotoğraf.' },
+        { title: 'İnceleme', duration: '3-6 ay', desc: 'eDoręczenia üzerinden gelen taleplere yanıt veririz.' },
+        { title: 'Kartın teslimi', duration: '7 gün', desc: 'Kart blanketi için +100 PLN. Daimi ikametten sonra 3 yıl içinde vatandaşlık başvurusu yapılabilir.' }
+      ]
+    },
+    documents: {
+      title: 'Daimi ikamet için belgeler',
+      items: [
+        'Wniosek o udzielenie zezwolenia na pobyt stały (daimi ikamet izni başvurusu) - biz hazırlıyoruz',
+        'Pasaport + tüm yerel kimlik belgeleri',
+        '4 adet biyometrik fotoğraf 35×45 mm',
+        'Gerekçeyi kanıtlayan belge (evlilik cüzdanı, Karta Polaka, mülteci kararı vb.)',
+        'Polonya köken kanıtı - ilgili gerekçe için (arşiv kayıtları, atalara ait akty urodzenia / doğum belgeleri)',
+        'Son 2 yılın gelir kaynakları (PIT, banka ekstresi)',
+        'Umowa najmu (kira sözleşmesi) veya zameldowanie (ikamet beyanı)',
+        'Sağlık sigortası',
+        '640 PLN ödeme dekontu'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: 'Gerekçe değerlendirmesi' },
+        { label: 'Anahtar teslim daimi ikamet takibi', value: '3.500 PLN\'den', note: 'Tam paket' },
+        { label: 'Polonya kökenin tespiti', value: '2.000 PLN\'den', note: 'Arşiv araştırması ayrı fatura' }
+      ],
+      note: 'Resmi harçlar 640 + 100 PLN ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa o cudzoziemcach (Yabancılar Kanunu) - Bölüm IV (daimi ikamet)',
+        'Ustawa o Karcie Polaka z 7 września 2007 r. (7 Eylül 2007 tarihli Karta Polaka Kanunu)',
+        '1951 tarihli Cenevre Mülteci Sözleşmesi'
+      ]
+    },
+    faq: [
+      { q: 'Daimi ikamet için B1 seviyesinde Lehçe gerekli mi?', a: 'Hayır - yalnızca natüralizasyon (vatandaşlık) için zorunludur. Evlilik veya Karta Polaka üzerinden daimi ikamette dil sınavı şartı yoktur.' },
+      { q: 'TRC almadan doğrudan daimi ikamet başvurusu yapabilir miyim?', a: 'Evet - Karta Polaka sahibiyseniz, Polonya vatandaşıyla 3 yıl evli ve 2 yıl ikamet etmişseniz veya 5 yıllık mülteci statünüz varsa.' },
+      { q: 'Kartın süresi dolarsa ama statü süresizse ne olur?', a: 'Statünüz devam eder. Yalnızca kartı yenilemeniz gerekir - 100 PLN harç, başvuru sürenin dolmasından bir ay önce yapılır.' },
+      { q: 'Daimi ikametten sonra ne zaman vatandaşlık başvurusu yapabilirim?', a: '3 yıl kesintisiz daimi ikamet + B1 seviyesinde Lehçe + istikrarlı gelir + konut. Özel durumlarda (örneğin eş statüsü) süre kısalır.' },
+      { q: 'Önceki vatandaşlığımı kaybeder miyim?', a: 'Polonya çifte vatandaşlığa izin verir. Türkiye-Polonya çifte vatandaşlığı tanınır. Türk vatandaşları Polonya vatandaşlığı aldıktan sonra Türk vatandaşlığını koruyabilir; bunun için Türkiye\'nin "Çıkma izniyle vatandaşlığı muhafaza" düzenlemelerini incelemenizi öneririz.' }
+    ],
+    related: ['karta-pobytu', 'obywatelstwo', 'karta-polaka'],
+    ctaTitle: 'TRC\'den daimi ikamete geçmeye hazır mısınız?',
+    ctaSubtitle: 'Ücretsiz danışmanlıkta gerekçenizi ve sürelerinizi sizin durumunuza göre netleştiririz.'
   }
 };
 

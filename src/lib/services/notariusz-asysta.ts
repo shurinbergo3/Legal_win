@@ -270,6 +270,96 @@ const notariuszAsysta: ServiceEntry = {
     related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Real-estate specialist at the notary',
     ctaSubtitle: 'Free consultation. From 2,800 PLN. Remote via PoA available.'
+  },
+  tr: {
+    slug: 'notariusz-asysta',
+    group: 'realestate',
+    icon: 'gavel',
+    badge: 'Akt notarialny · vekaletname · 1 gün',
+    title: 'Noter işlemlerinde eşlik',
+    subtitle: 'Tapu satış aktında gayrimenkul uzmanının eşlik etmesi',
+    lead: 'Akt notarialny - Polonya\'da gayrimenkul alımının son aşamasıdır. Noter umowa\'yı (sözleşmeyi) onaylar, ancak alıcıyı korumaz - tarafsızdır. Gayrimenkul uzmanımız akt\'ı imzadan önce okur, her klauzulę kontrol eder, satıcıyla değişiklikleri müzakere eder, paranın ve anahtarların geçişini denetler. 800.000 PLN\'lik bir alımda danışmanlık ücretimiz tek bir maddenin düzeltilmesiyle geri kazanılır. Polonya\'da değilseniz - pełnomocnictwo notarialne (noter onaylı vekaletname) ile sizi tamamen temsil ediyoruz.',
+    facts: [
+      { label: 'Akt süresi', value: '1-2 saat', note: 'noterde · okuma + imza' },
+      { label: 'Hazırlık', value: '5-7 gün', note: 'projekt aktu + düzeltmeler' },
+      { label: 'Polonya\'ya gelmeden', value: 'opsiyonel', note: 'pełnomocnictwo ile' },
+      { label: 'Resmi harç', value: '%2 PCC', note: 'ikinci el piyasada' }
+    ],
+    grounds: {
+      title: 'Uzmanımızın akt\'ta katkısı',
+      subtitle: 'Noter tarafsızdır. Biz alıcının yanındayız.',
+      items: [
+        { title: 'Aktın projesinin önceden okunması', desc: 'Noter projekt aktu\'yu imzadan 1-7 gün önce gönderir. Standart ifadelerin arkasında saklı nüanslar olur. Her klauzulę analiz eder, düzeltme öneriyoruz.' },
+        { title: 'Klauzul müzakeresi', desc: 'Standart tartışmalı noktalar: mülkiyetin geçiş anı (imzayla mı, ödemeyle mi?), PCC\'yi ve noter ücretini kim öder, depozyt notarialny, satıcının taşınana kadar oturma hakkı, anahtar teslim süreleri.' },
+        { title: 'Para akışının kontrolü', desc: 'Güvenli ödeme şeması: noter rachunek powierniczy\'si veya banka escrow\'u. Alıcı parayı hesaba yatırır, noter denetler ve KW\'ye wpis\'ten sonra satıcıya aktarır. Her iki tarafı da korur.' },
+        { title: 'Satış temelinin kontrolü', desc: 'Akt\'tan önce kontrol ediyoruz: satıcının pełnomocnictwa\'sı (şahsen değilse), takyidat olmaması (haciz, ipotek, intifa), zgoda małżonka (Polonyalı sahip evliyse), zgoda spadkobierców (miras yoluyla edinmişse).' },
+        { title: 'Sizden vekaletname', desc: 'Polonya\'da değilseniz - ikamet ülkenizdeki Polonya konsolosunda (veya noterde apostille ile) pełnomocnictwo notarialne düzenliyoruz. Akt\'ı sizin adınıza imzalıyoruz. Anahtarları ve mülkiyet hakkını uzaktan ediniyorsunuz.' },
+        { title: 'Akt\'tan sonra teslim', desc: 'Akt imzası ≠ anahtar teslim. Akt sonrası protokol zdawczo-odbiorczy düzenliyoruz: durum fotoğrafları, sayaç değerleri (su, gaz, elektrik), anahtar ve kullanım kılavuzları (alarm, ısıtma, pencereler) teslimi.' },
+        { title: 'KW\'ye wpis (tescil)', desc: 'Noter, yeni mülkiyetin księga wieczysta\'ya wpis\'i için wniosek sunar. KW 1-4 hafta içinde güncellenir. Süreci takip ediyor, wpis sonrası müvekkili bilgilendiriyoruz.' }
+      ]
+    },
+    timeline: {
+      title: 'Akt notarialny aşamaları',
+      subtitle: 'Noter seçiminden KW tescile tam hazırlık genelde 2-4 hafta.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'İşlem bilgilerini topluyoruz: fiyat, ödeme şekli, MSWiA, due diligence. Pełnomocnictwo gerekip gerekmediğini belirleriz.' },
+        { title: 'Noter seçimi', duration: '1 gün', desc: 'Yabancılarla deneyimli, itibarlı bir Varşova noteri seçiyoruz. Genelde 5 güvenilir noter arasından. Taksa\'yı (negocjowalna) müzakere ediyoruz.' },
+        { title: 'Projekt aktu', duration: '5-7 gün', desc: 'Noter alıcı, satıcı ve gayrimenkul bilgileriyle projeyi hazırlar. PDF\'i alır, analiz eder, düzeltme öneriyoruz.' },
+        { title: 'Klauzul müzakeresi', duration: '2-5 gün', desc: 'Satıcı ve temsilcisiyle düzeltmeler. Final metne kadar genelde 2-4 iterasyon.' },
+        { title: 'Pełnomocnictwo (opsiyonel)', duration: '5-7 gün', desc: 'Polonya\'da değilseniz - konsoloslukta veya apostille ile pełnomocnictwo notarialne. Orijinali alıyoruz.' },
+        { title: 'Akt notarialny', duration: '1-2 saat', desc: 'Noterde. Akdin yüksek sesle okunması, görüşme, imza. Para depozyt notarialny üzerinden geçer.' },
+        { title: 'KW\'ye wpis', duration: '7-14 gün', desc: 'Noter KW\'ye wniosek sunar. Wpis\'i denetliyor, hazır olunca müvekkili bilgilendiriyoruz.' },
+        { title: 'Gayrimenkul teslimi', duration: 'akit gereği', desc: 'Protokol zdawczo-odbiorczy: fotoğraflar, sayaç değerleri, anahtarlar. Bazen akit hemen sonra, bazen 7-30 gün sonra (satıcı oturuyorsa).' }
+      ]
+    },
+    documents: {
+      title: 'Akt için gerekenler',
+      subtitle: 'Çoğu noter ve satıcıdadır. Sizden istenen pasaport ve pełnomocnictwo.',
+      items: [
+        'Alıcı pasaportu + varsa karta pobytu',
+        'PESEL (noterde pasaportla mümkün, ama PESEL KW tescilini hızlandırır)',
+        'NIP - Sp. z o.o. üzerinden alımda',
+        'Noter onaylı pełnomocnictwo (Polonya\'da değilseniz)',
+        'Zezwolenie MSWiA (AB dışı vatandaşa gerekiyorsa)',
+        'Para kaynağı kanıtı (AML için banka transferi)',
+        'Satıcının akt notarialny belgeleri - kendisi sunar (KW, ewidencja, PIT)',
+        'Sigorta poliçesi (kredi varsa banka talep eder)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Eşlik ve pełnomocnictwo, taksa notarialna\'dan ayrıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · işlemin değerlendirmesi' },
+        { label: 'Akt eşliği', value: '2.800 PLN\'den', note: 'Okuma + müzakere + akt' },
+        { label: 'Eşlik + DD', value: '5.500 PLN\'den', note: 'DD ile birlikte paket' },
+        { label: 'Tam pełnomocnictwo', value: '4.500 PLN\'den', note: 'Akit\'te alıcının yerine geçiyoruz' }
+      ],
+      note: 'Taksa notarialna ayrı (gayrimenkul fiyatına göre, 1 mln PLN\'ye kadar yaklaşık 1.500-6.000 PLN). PCC %2 (yeni piyasada VAT) zorunlu harç. KW wpis\'i 200 PLN.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 14 lutego 1991 r. - Prawo o notariacie (Noterlik Kanunu)',
+        'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (Medeni Kanun - bölüm III kısım II, mülkiyetin devri)',
+        'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece',
+        'Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych (PCC %2)',
+        'Adalet Bakanlığı taksa notarialna yönetmeliği',
+        '1 Mart 2018 tarihli Aklama ile Mücadele Kanunu (akt anında KYC)'
+      ]
+    },
+    faq: [
+      { q: 'Noter varken neden uzman gerekli?', a: 'Noter tarafsız üçüncü taraftır, "obie strony" (iki tarafı) eşit korumakla yükümlüdür. Bir ikilem doğduğunda (örn. mülkiyetin geçiş anına dair ifade veya o terminie wykonania - ifa süresi konusunda) noter genelde satıcıya daha uygun "tarafsız" varyantı seçer. Gayrimenkul uzmanımız ise alıcının yanındadır: her riski görür, her klauzulę için pazarlık eder.' },
+      { q: 'Akt metni değiştirilebilir mi?', a: 'Evet, imzaya kadar. Noter projeyi hazırlar ve iki taraftan da düzeltme alır. Standart 2-4 iterasyon. İmzadan sonra - hayır, akt notarialny dokumentem haline gelir. Bu nedenle uzmanımızın metni noter buluşmasından önce okuması kritiktir.' },
+      { q: 'Alımda para nasıl transfer ediliyor?', a: 'En güvenli yol depozyt notarialny\'dir: bedeli akt\'tan önce noter rachunek\'ine yatırırsınız. Noter ödemeyi satıcıya teyit eder, akt imzalanır. KW\'ye wpis\'ten sonra noter parayı satıcıya aktarır. Bir aksilik olursa para iade edilir. Bedelin %0,3-0,5\'i kadar maliyeti vardır.' },
+      { q: 'Pełnomocnictwo nasıl işliyor?', a: 'Pełnomocnictwo (vekaletname) - Polonya\'da bir günlüğüne geliyorsanız Varşova\'da noterde, gelmiyorsanız ikamet ülkenizdeki Polonya konsolosunda veya yerel noterde apostille ile düzenliyoruz. Pełnomocnictwo ile akt\'ı sizin adınıza imzalıyor, parayı yatırıyor, anahtarları alıyoruz. Polonya\'ya gelmeden mülk sahibi oluyorsunuz.' },
+      { q: 'Taksa notarialna\'yı kim öder?', a: 'Standartta iki taraf eşit paylaşır ama bu kural değildir - pazarlık edilebilir. Genelde satıcı kendi yarısını (1/2), alıcı kendi yarısını + PCC\'yi öder. Bazen alıcı tamamını öder (satıcı pazarı varsa). Umowa przedwstępna\'nın bir koşulu olabilir.' },
+      { q: 'PCC nedir, kim öder?', a: 'PCC (podatek od czynności cywilnoprawnych - medeni hukuk işlem vergisi) ikinci el piyasada gayrimenkul fiyatının %2\'sidir. Alıcı akt\'tan sonra 14 gün içinde Urząd Skarbowy\'ye PCC-3 ile öder. Birinci el piyasada (geliştiriciden) ise %8 VAT fiyata dahildir, PCC ödenmez.' },
+      { q: 'Protokol zdawczo-odbiorczy neden gerekli?', a: 'Protokół zdawczo-odbiorczy (teslim-tesellüm tutanağı), giriş anında alıcıyı "sürprizlere" karşı korur. Teslim günündeki durumu belgeliyoruz: her odanın fotoğrafı, sayaç değerleri, çalışmayan ev aletleri. Bir ay sonra satıcının dolabı götürdüğü veya kapıyı kırdığı ortaya çıkarsa - elinizde düzeltme veya tazminat talep etmek için belgeniz olur.' }
+    ],
+    related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Noter aktında uzmanımız yanınızda',
+    ctaSubtitle: 'İşlemi ücretsiz görüşür, noteri ücretsiz seçeriz. Anahtar teslim 2.800 PLN\'den. Uzaktan - pełnomocnictwo ile.'
   }
 };
 

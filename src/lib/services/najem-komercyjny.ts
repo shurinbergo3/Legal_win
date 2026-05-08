@@ -270,6 +270,96 @@ const najemKomercyjny: ServiceEntry = {
     related: ['mswia-zezwolenie', 'rejestracja-sp-z-oo', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Commercial lease turnkey',
     ctaSubtitle: 'Free 30-minute lease analysis. We guarantee 15%+ TCO savings.'
+  },
+  tr: {
+    slug: 'najem-komercyjny',
+    group: 'realestate',
+    icon: 'home',
+    badge: 'Office · Retail · Warehouse',
+    title: 'Ticari kira',
+    subtitle: 'Polonya\'da işletmeler için ofis, mağaza ve depo kira sözleşmeleri',
+    lead: 'Polonya\'da arendodawca\'nın (kiraya verenin) standart şablonu 30+ sayfadır ve %80\'i kiraya vereni korur; çıkışta kiracıya 50.000 PLN\'den fazlaya mal olur. Umowę\'yi analiz ediyor, her klauzulę için pazarlık ediyoruz: indeksacja czynszu, fit-out maliyeti, klauzula konkurencji, sözleşmenin ihlali nedeniyle uygulanacak cezalar, banka teminatı. 50 m²\'den 5.000 m²\'ye ofislerle, alışveriş merkezindeki mağazalarla ve Varşova çevresindeki depolarla çalışıyoruz.',
+    facts: [
+      { label: 'Standart süre', value: '3-10 yıl', note: 'ofiste tipik 5 yıl' },
+      { label: 'Tasarrufumuz', value: '%15-30', note: '5 yıllık toplam maliyetten' },
+      { label: 'Müzakere edilen madde', value: '20-30', note: 'standart şablondan' },
+      { label: 'İnceleme süresi', value: '5-10 gün', note: 'taslaktan imzaya' }
+    ],
+    grounds: {
+      title: 'Müzakere ettiğimiz konular',
+      subtitle: 'Standart şablonda her risk kaldıracı saklıdır. Nereye bakacağımızı biliyoruz.',
+      items: [
+        { title: 'Czynsz ve indeksacja', desc: 'Temel czynsz + endeksleme (Polonya CPI, Eurostat EUR, sabit). Endeksleme cap\'ı (yılda max %4-5), ilk ücretsiz dönem (rent-free 1-3 ay), uzun süreli sözleşmede indirim için pazarlık.' },
+        { title: 'Fit-out ve katkı', desc: 'Wynajemca genelde m² başına 50-250 EUR hazırlık maliyetini (tadilat, bölme, mobilya) karşılar. Yeni kiracı için pazarlık konusu. Temel stan veya "turn-key" - 200 m² ofiste 200 bin PLN\'lik fark olabilir.' },
+        { title: 'Erken fesih klozu', desc: 'Standart - erken fesih hakkı yok, kalan tüm czynsz\'lerin %100\'ü ceza. Pazarlık: 3 yıldan sonra 6 aylık czynsz cezasıyla fesih hakkı veya wynajemcy\'nin onayı olmadan alt kiraya verme.' },
+        { title: 'Service charge', desc: 'Genel giderler (kapıcı, güvenlik, koridor ısıtması, temizlik) ücreti. Sıkça gizli maliyettir - başta "tipik 8 EUR/m²" denir, yıl sonu raporunda 15. Cap (max 12 EUR/m²/yıl) ve zorunlu yıllık denetim için pazarlık.' },
+        { title: 'Klauzula konkurencji', desc: 'Wynajemca, kiracılara aynı sektörde kiracı kabul etmemeyi vaad eder. Örneğin galeria handlowa\'da - 50 m yarıçapta aynı kategoride mağaza alınmaz. İşinizi korur. Açıkça müzakere ediyoruz.' },
+        { title: 'Banka teminatı veya depozit', desc: 'Standart - 3-6 aylık czynsz, Polonya bankası gwarancja\'sı veya nakit depozit. Startup\'lar için pahalıdır. Pazarlık: daha düşük gwarancja (3 ay), bankowa yerine ana şirket teminatı veya uzun sürede teminatsız.' },
+        { title: 'Tadilat ve dewastacja', desc: 'Çıkışta "asıl haline" veya "bir sonraki kiracı için uygun hale" getirme yükümlülüğü. Belirsiz tanım = on binlerce PLN tadilat. Pazarlık: girişte fotoğraf belgesi, çıkışa kadar yapılacak değişikliklerin somut listesi.' },
+        { title: 'Klauzula pandemiczna', desc: 'Covid sonrası standart hale geldi: lockdown, mücbir sebep, çalışma kısıtlamalarında - czynsz indirilir veya askıya alınır. Wynajemcy isteksizdir, ama standart sözleşmelerde %30-70 indirim alıyoruz.' }
+      ]
+    },
+    timeline: {
+      title: 'Müzakere süreci',
+      subtitle: 'İlk analizden imzaya genelde 2-4 hafta. Karmaşık sözleşmeler (1000+ m² veya zincir) - 2 aya kadar.',
+      steps: [
+        { title: 'Ücretsiz değerlendirme', duration: '30 dk', desc: 'Plan: iş türü, alan, ilgi bölgeleri, bütçe. Paket öneriyoruz (review / negocjacje / tam eşlik).' },
+        { title: 'Taslağın alınması', duration: '1 hafta', desc: 'Wynajemca kendi şablon umowy\'sini gönderir. Genelde 30-50 sayfa. Analiz sistemimize yüklüyoruz.' },
+        { title: 'Analiz', duration: '3-5 gün', desc: 'Her klauzula risk açısından kontrol edilir. Mark-up - poprawkili sözleşme versiyonunu hazırlıyoruz.' },
+        { title: 'Müzakere', duration: '5-10 gün', desc: 'Wynajemcy\'nin hukuk birimiyle e-posta veya görüşme. 3-5 iterasyon. Wynajemca genelde 5-7 kilit maddede direnç gösterir - ana mücadele orada.' },
+        { title: 'Son inceleme', duration: '1 gün', desc: 'Eklenen düzeltmelerle son sürüm. Hiçbir maddenin şablona "geri dönmediğini" kontrol ediyoruz.' },
+        { title: 'İmza', duration: '1 gün', desc: 'Elektronik (ePodpis) veya bizzat. Kurumsal işlemde bazen noter onaylı imza.' },
+        { title: 'İmza sonrası', duration: 'sürekli', desc: 'Fit-out maliyetlerinin kaydı, czynsz vouchen\'ları, gwarancja, sigorta. İlk 3 aylık eşlik dahil.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Sizden iş planı, wynajemcy\'den taslak.',
+      items: [
+        'İş planı: hangi iş, neden bu obje, süre',
+        'Kiracı KRS\'si (Sp. z o.o.) veya CEIDG (JDG)',
+        '12 aylık sprawozdania finansowe (wynajemcy\'nin karlılık değerlendirmesi için)',
+        'Gayrimenkulden beklentiler listesi (alan, konum, altyapı)',
+        'Wynajemcy\'den taslak umowa',
+        'Mekân planlama (ofis için açık ofis mi, kabin mi?)',
+        'Önerilen fit-out (standart dışıysa)',
+        'Ana şirket bilgisi (kurumsal gwarancja istenirse)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Alana ve sözleşmenin karmaşıklığına göre değişir.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · planın incelemesi' },
+        { label: 'Review + tavsiye', value: '1.800 PLN\'den', note: 'Analiz + risk listesi + öneriler' },
+        { label: 'Anahtar teslim müzakere', value: '4.500 PLN\'den', note: 'Mark-up + wynajemcą ile görüşmeler' },
+        { label: 'Karmaşık sözleşme', value: '8.500 PLN\'den', note: '> 1.000 m² · zincir umowy · multi-site' }
+      ],
+      note: 'Tam eşlikle 5 yıllık toplam maliyetten %15+ tasarruf garantisi (sağlanmazsa danışmanlık ücretini iade ediyoruz). Startup\'lara ilk umowa\'da %30 indirim.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (najem ve najem lokalu mieszkalnego i użytkowego bölümleri)',
+        'Ustawa z dnia 21 czerwca 2001 r. o ochronie praw lokatorów (Kiracı Hakları Kanunu - kısmen geçerli)',
+        'Ustawa z dnia 17 maja 1989 r. - Prawo budowlane (kullanımın yapıyla uyumu)',
+        'Ustawa z dnia 9 września 2000 r. o PCC (çok yıllı kiralarda %0,5-2 PCC)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (ticari czynsz\'da %23 VAT)',
+        'Ustawa z dnia 23 marca 2017 r. o kredycie hipotecznym (ticari ipotek kredileri için)'
+      ]
+    },
+    faq: [
+      { q: 'Sadece ofis kiralayacağım, neden uzman?', a: 'Polonya\'da wynajemcy (kiraya verenin) standart şablonu 30-50 sayfadır, %80\'i kiraya vereni korur. Örneğin: "klauzula wcześniejszego rozwiązania" (erken fesih klozu) çoğu zaman uydurma "küçük ihlaller" üzerinden 3 ayda umowa\'yı bitirmeye izin verir; "service charge" yılda %50 artabilir; "klauzula konkurencji" (rekabet yasağı) gelişmenizi kısıtlayabilir. Kira uzmanımız 100.000 PLN\'lik her sözleşmede 2.000 PLN\'lik kazanç sağlar.' },
+      { q: 'Varşova\'da ofis ne kadar?', a: '2024: A sınıfı merkez (Mokotów, Wola, Centrum) 18-25 EUR/m²/ay. B sınıfı çevre 11-16 EUR. Coworking - sıra başı 800-1.500 PLN/ay. Service charge +4-8 EUR/m²/ay. Çevrede B sınıfı 100 m² ofis genelde aylık 7.000-12.000 PLN.' },
+      { q: 'Rent-free period nedir?', a: 'Umowa\'nın başında ücretsiz dönem - genelde 1-3 ay. Tadilat ve taşınma için kullanılır. 200+ m² ofiste 2-3 ay, daha küçük alanlarda 1 ay için pazarlık ediyoruz. Kiracı pazarında (2023-24\'te boş alan oranı yüksekken) 3-6 ay alınabiliyor.' },
+      { q: 'Erken fesih mümkün mü?', a: 'Özel klauzula olmadan - hayır, kalan tüm czynsz\'i ödersiniz. "Outerly window" üzerinde anlaşıyoruz - örneğin 3 yıldan sonra 6 aylık czynsz cezasıyla fesih. Ofisler için standart. Magazyn ve galeriler - daha zor, genelde 5+ yıl bağlayıcı.' },
+      { q: 'Lockdown\'larda ne oluyor?', a: 'Covid sonrası her umowa\'ya "klauzula pandemiczna" (pandemi klozu) yazıyoruz: kullanım kısıtlandığında (lockdown, sağlık tedbirleri) - czynsz sıfırlanır veya %50 düşer. Wynajemcy direnç gösterir ama %70\'i pazarlık sonrası kabul eder.' },
+      { q: 'Banka teminatı mı, depozit mi?', a: 'Gwarancja bankowa - wynajemcy tercih eder, banka ödemeyi garanti eder. Kiracıya yıllık %1-2 maliyetli (banka komisyonu). Depozit - 3-6 aylık czynsz wynajemcy hesabında 5 yıl bekler, faiz kaybı doğurur. Nakit akışı önemliyse bankowa, fonunuz varsa depozit avantajlı.' },
+      { q: 'Najem\'de PCC?', a: 'PCC %0,5 - 1 yıldan uzun belirli süreli sözleşmelerde umowa değerinin (dönemdeki tüm czynsz\'lerin toplamı) yüzdesi. Kiracı öder. Daha kısa veya belirsiz süreli umowy\'de PCC yoktur.' }
+    ],
+    related: ['mswia-zezwolenie', 'rejestracja-sp-z-oo', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Anahtar teslim ticari kira',
+    ctaSubtitle: 'Sözleşmenizi 30 dakikada ücretsiz analiz ediyoruz. Toplam maliyetten %15+ tasarruf garantisi.'
   }
 };
 

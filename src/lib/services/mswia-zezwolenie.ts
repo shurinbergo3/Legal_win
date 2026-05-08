@@ -267,6 +267,95 @@ const mswiaZezwolenie: ServiceEntry = {
     related: ['due-diligence-nieruchomosci', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'MSWiA permit turnkey',
     ctaSubtitle: 'Free check whether you need it. Turnkey from 4,800 PLN.'
+  },
+  tr: {
+    slug: 'mswia-zezwolenie',
+    group: 'realestate',
+    icon: 'home',
+    badge: 'MSWiA · zezwolenie · AB dışı',
+    title: 'MSWiA gayrimenkul izni',
+    subtitle: 'AB / EFTA dışı yabancılar için Polonya İçişleri Bakanlığı izni',
+    lead: 'AB / EFTA dışı vatandaşlar Polonya\'da gayrimenkul almadan önce zezwolenie MSWiA (Ministerstwo Spraw Wewnętrznych i Administracji - İçişleri Bakanlığı izni) almak zorundadır. İzin olmadan satış akdi başından geçersizdir. Belgeleri ve "Polonya ile bağ" (więź z Polską) gerekçesini hazırlıyor, Departament Zezwoleń\'de süreci yürütüyoruz. Süre 60-180 gün. Muafiyetler: daire (ev değil), Karta Polaka, 5+ yıl Polonyalıyla evlilik, 5+ yıl daimi ikamet.',
+    facts: [
+      { label: 'İnceleme süresi', value: '60-180 gün', note: 'MSWiA · standart' },
+      { label: 'Geçerlilik', value: '2 yıl', note: 'belirli bir gayrimenkule' },
+      { label: 'Resmi harç', value: '1.570 PLN', note: 'opłata skarbowa' },
+      { label: 'Alan limiti', value: '0,5-1 ha', note: 'konut + arsa' }
+    ],
+    grounds: {
+      title: 'İzin ne zaman gerekir',
+      subtitle: 'Her alımda izin gerekmez. Birçok yabancı MSWiA olmadan alım yapar - istisnaları bilmek önemlidir.',
+      items: [
+        { title: 'AB dışı vatandaş için ev veya arsa', desc: 'Ev (arsayla birlikte), tek başına arsa veya arsalı ev alımı - mutlaka zezwolenie gerekir. Olmadan akt notarialny mümkün değildir.' },
+        { title: 'Gayrimenkul sahibi Sp. z o.o.\'da kontrol payı', desc: 'Gayrimenkul sahibi Sp. z o.o.\'da > %50 udziałów alımı - dolaylı edinim sayılır ve MSWiA kapsamına girer.' },
+        { title: 'Muafiyet - bağımsız daire', desc: 'Lokal mieszkalny (daire) ve miejsce parkingowe (otopark) - strefa nadgraniczna (sınır bölgesi) hariç zezwolenie gerektirmez. En büyük muafiyettir.' },
+        { title: 'Muafiyet - Karta Polaka', desc: 'Karta Polaka sahipleri zezwolenie olmadan alabilir (strefa nadgraniczna ve > 1 ha alan hariç).' },
+        { title: 'Muafiyet - Polonyalıyla evlilik', desc: 'En az 5 yıl Polonya vatandaşıyla evlilik + Polonya\'da ikamet = zezwolenie\'den muafiyet.' },
+        { title: 'Muafiyet - 5+ yıl daimi ikamet', desc: 'Karta Stałego Pobytu veya AB Uzun Dönem Mukim statüsü zezwolenie\'siz alım hakkı verir. Karta Czasowego Pobytu (geçici) - vermez.' }
+      ]
+    },
+    timeline: {
+      title: 'İzin süreci',
+      subtitle: 'Umowa przedwstępna\'dan (ön sözleşme) zezwolenie\'nin verilmesine genelde 3-6 ay. Sonrasında nihai akt notarialny.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'Vatandaşlığınız ve hedef gayrimenkul için zezwolenie gerekip gerekmediğini kontrol ediyoruz. Sıkça gerekmediği ortaya çıkıyor - müvekkile 6 ay ve 5.000 PLN tasarruf sağlıyoruz.' },
+        { title: 'Umowa przedwstępna', duration: '1 hafta', desc: 'Satıcıyla ön sözleşme - fiyat ve süreler sabitlenir. Geciktirici şart yazılır: zawarcie aktu po wydaniu zezwolenia (izin verildikten sonra akt). Kapora %5-10.' },
+        { title: 'Wniosku hazırlığı', duration: '2-3 hafta', desc: 'Wniosek o wydanie zezwolenia + więź z Polską gerekçesi: iş sözleşmesi, ziyaret geçmişi, akrabalık bağları, Polonya\'daki işletme, eğitim, Lehçe bilgisi.' },
+        { title: 'MSWiA\'ya sunma', duration: '1 gün', desc: 'ePUAP üzerinden veya bizzat Departament Zezwoleń, ul. Stefana Batorego 5, Varşova adresine. Resmi harç 1.570 PLN. Belgeler Lehçe ve yeminli tercümeli.' },
+        { title: 'MSWiA incelemesi', duration: '60-180 gün', desc: 'MSWiA inceler: menşe ülke, fon kaynağı, alım amacı, Polonya bağı, devlet güvenliği. Ek belge isteyebilir (14 gün içinde yanıt veriyoruz).' },
+        { title: 'Zezwolenie\'nin verilmesi', duration: '1 gün', desc: 'Decyzja posta veya ePUAP üzerinden gelir. Belirli gayrimenkulde 2 yıl geçerlidir. Süre bitiminden 30 gün önce uzatılabilir.' },
+        { title: 'Akt notarialny', duration: '1 gün', desc: 'Alıcı ve satıcıyla noter huzurunda. Mülkiyetin geçişi, ödeme, księga wieczysta\'ya tescil. Standart prosedür, izinle birlikte uygulanır.' }
+      ]
+    },
+    documents: {
+      title: 'Wniosku için gerekenler',
+      subtitle: 'MSWiA belgelerin tamlığına ve więź gerekçesinin gücüne bakar.',
+      items: [
+        'Wniosek o wydanie zezwolenia (biz hazırlıyoruz)',
+        'Pasaport + varsa karta pobytu kopyası (yeminli tercümeyle)',
+        'Umowa przedwstępna sprzedaży nieruchomości',
+        'KW (księga wieczysta) çıktısı',
+        'Mapa ewidencyjna ve wypis z rejestru gruntów',
+        'Fon kaynağı kanıtı: 12 aylık banka ekstresi, iş sözleşmeleri, şirket sprawozdanie\'si',
+        'Polonya bağı belgeleri: 3 yıllık PIT/CIT, umowa najmu / o pracę, kendi şirketinizin KRS\'i, akrabalık nüfus belgeleri',
+        'Tüm yabancı belgelere apostille',
+        'Tüm belgelerin yeminli tercümesi',
+        'LegalWin\'e MSWiA önünde temsil yetkisi (pełnomocnictwo)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'İlk danışmanlıktan zezwolenie\'nin teslimine anahtar teslim.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · zezwolenie gerekli mi' },
+        { label: 'Wniosek o zezwolenie', value: '4.800 PLN\'den', note: 'Belgeler + sunma + temsil' },
+        { label: 'Yeminli tercümelerle', value: '6.500 PLN\'den', note: '+ apostille' },
+        { label: 'Karmaşık dosya', value: '9.800 PLN\'den', note: 'Strefa nadgraniczna · zayıf więź' }
+      ],
+      note: 'MSWiA harcı 1.570 PLN ayrıdır. Menşe ülkede apostille ayrıdır. Yeminli tercüme sayfa başı ~50-100 PLN (pakete dahil değilse).'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (Yabancıların Gayrimenkul Edinimi Kanunu)',
+        '17 Ocak 2017 tarihli MSWiA gayrimenkul izni başvuru belgeleri yönetmeliği',
+        'Polonya Cumhuriyeti Anayasası - madde 32 (vatandaş ve yabancılar arasında eşitlik)',
+        '16 Nisan 2003 AB Katılım Antlaşması (AB / EFTA vatandaşlarına muafiyet)',
+        '1961 Lahey Apostille Sözleşmesi'
+      ]
+    },
+    faq: [
+      { q: 'Hangi daireler zezwolenie\'siz alınabilir?', a: 'Lokal mieszkalny (oturulan dairenin księga wieczysta\'sı bulunan bağımsız bölüm) - zezwolenie\'siz, dünyanın her vatandaşı için. Ancak: strefa nadgraniczna (sınır bölgesi - Belarus, Rusya, Ukrayna, Litvanya sınırının 15 km içi) hariç tutulur, orada her zaman zezwolenie gerekir. Arsasıyla ev nieruchomość gruntowa (arsalı gayrimenkul) kategorisindedir, zezwolenie ister.' },
+      { q: 'Polonya ile więź nasıl kanıtlanır?', a: 'Belgeyle. Güçlü kanıtlardan örnekler: 1) karta pobytu veya Karta Polaka; 2) Polonyalı işverenle 1+ yıl iş sözleşmesi; 3) Polonya\'da gerçek cirolu Sp. z o.o.; 4) Polonyalıyla evlilik (5 yıldan az olsa bile kısmi więź); 5) Polonya okulunda eğitim alan çocuklar; 6) Polonya üniversitesinde öğrenim; 7) Polonyalı atalar (büyükanne / büyükbaba dahil). Ne kadar çok - o kadar güçlü.' },
+      { q: 'Ret aldıysanız ne yapmalı?', a: 'Odmowa (ret) - 14 gün içinde Bakanlığa wniosek o ponowne rozpatrzenie sprawy (yeniden inceleme talebi). Tekrar reddedilirse - 30 gün içinde Wojewódzki Sąd Administracyjny\'ye skarga (dava). Sıkça neden zayıf więź olur. Kanıtları güçlendirir, yeniden sunarız. İkinci başvuruda %80+ başarımız var.' },
+      { q: 'Polonyalı Sp. z o.o. üzerinden alabilir miyim?', a: 'Evet, bazen daha kullanışlıdır. Sp. z o.o. Polonya tüzel kişiliğidir, %51+ AB mukimi veya Polonya vatandaşı sahipliğindeyse zezwolenie olmadan alabilir. Yabancı kontrollü (%50+ AB dışı) Sp. z o.o. üzerinden ev alımında kontrol payına yine zezwolenie gerekir.' },
+      { q: 'Strefa nadgraniczna nedir?', a: 'Sınır bölgesi - haritada devlet sınırından 15 km uzaklık. Polonya\'da Belarus, Rusya (Kaliningrad), Ukrayna ve Litvanya sınırlarını kapsar (Litvanya\'da yalnızca dar bir şerit). Strefa\'da AB vatandaşları dahil tüm yabancılar zezwolenie\'ye tabidir. Sınıra yakın büyük şehirler (Białystok, Lublin, Rzeszów) genelde strefa dışındadır.' },
+      { q: 'Zezwolenie ne kadar geçerli?', a: 'Verildiği tarihten itibaren 2 yıl. Belirli bir gayrimenkule (KW ve adres bilgisiyle) bağlıdır. Sürenin bitiminden 30 gün önce 1 kez uzatılabilir. Başka bir mülk için yeniden zezwolenie gerekir.' },
+      { q: 'AB / EFTA vatandaşları için zezwolenie gerekli mi?', a: 'Hayır. AB ve EFTA (Norveç, İzlanda, Liechtenstein) + İsviçre vatandaşları zezwolenie\'siz alır (tarım arsalarında AB katılımının ardından geçiş dönemleri 2009/2014\'te bitti). Yalnızca strefa nadgraniczna\'da kısıtlamalar olabilir.' }
+    ],
+    related: ['due-diligence-nieruchomosci', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Anahtar teslim MSWiA izni',
+    ctaSubtitle: 'İzin gerekip gerekmediğini ücretsiz kontrol ediyoruz. Wniosku\'dan akit\'e kadar 4.800 PLN\'den anahtar teslim.'
   }
 };
 

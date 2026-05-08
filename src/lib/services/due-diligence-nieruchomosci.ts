@@ -276,6 +276,98 @@ const dueDiligenceNieruchomosci: ServiceEntry = {
     related: ['mswia-zezwolenie', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Pre-purchase due diligence',
     ctaSubtitle: 'Free 15-minute assessment. From 1,800 PLN.'
+  },
+  tr: {
+    slug: 'due-diligence-nieruchomosci',
+    group: 'realestate',
+    icon: 'shield',
+    badge: 'Due diligence · KW · takyidat',
+    title: 'Gayrimenkul due diligence (hukuki inceleme)',
+    subtitle: 'Alımdan önce gayrimenkulün hukuki incelemesi: KW, takyidat, geçmiş',
+    lead: 'Akt notarialny\'nın imzalanmasından önce gayrimenkulü gizli sorunlara karşı kontrol ediyoruz: ödenmemiş ipotek, haciz, hatalı KW kayıtları, mahkemedeki ihtilaflar, kaçak yapılaşma, ZUS / emlak vergisi borçları. İkinci el piyasasındaki "harika" tekliflerin %70\'inde gizli sorun çıkıyor. Raporumuz alımı koruyor ve satış bedelinin %0,5-1\'i kadar tutuyor. 500.000 PLN\'lik daire için de 50 milyon PLN\'lik ticari mülk için de uygundur.',
+    facts: [
+      { label: 'İnceleme süresi', value: '5-10 gün', note: 'standart · büyük objeler daha uzun' },
+      { label: 'Rapor hacmi', value: '15-40 sayfa', note: 'PDF + risk-rating' },
+      { label: 'Kontrol kaynağı sayısı', value: '12+', note: 'KW, KRS, Geoportal, US, ZUS' },
+      { label: 'Garanti', value: '%100', note: 'kaçırılan riskten doğan zararı tazmin ediyoruz' }
+    ],
+    grounds: {
+      title: 'Neyi kontrol ediyoruz',
+      subtitle: 'Her kategori, alım sonrası on binlerce PLN\'ye mal olabilecek ayrı bir risktir.',
+      items: [
+        { title: 'Księga wieczysta - kayıtlar ve takyidat', desc: 'Banka ipoteği, służebności (intifa hakları), użytkowanie wieczyste, dożywocie (ölünceye kadar bakma), prawo pierwokupu (ön alım hakkı). Her takyidat alımda gayrimenkulle birlikte geçer. Bazen satıcı ipoteği "hatırlamaz".' },
+        { title: 'Mülkiyet geçmişi', desc: 'KW\'deki son 20+ yılın tüm wpisy\'lerini analiz ediyoruz. Spadki (miras), darowizny (bağış), satışlar, haciz kararları. Eski sahiplerin veya mirasçılarının dava açma riskinin değerlendirilmesi.' },
+        { title: 'Gayrimenkulün belgelerle uyumu', desc: 'Mapa ewidencyjna, projekty budowlane (yapı projeleri), pozwolenie na budowę (yapı izni) kararlarını karşılaştırıyoruz. Kaçak yapılaşmayı buluyoruz (legalizasyon 50.000 PLN\'ye mal olabilir).' },
+        { title: 'ZUS / US / vergi borçları', desc: 'Satıcının zaległości\'lerini (borç birikimleri) kontrol ediyoruz - hipoteka przymusowa (zorunlu ipotek) yoluyla sizin sorununuza dönüşebilirler. Satıcının vekaletnamesiyle ZUS ve US\'ye sorulur.' },
+        { title: 'Mahkeme ihtilafları', desc: 'Adresle mahkeme repertoria\'sını taratıyoruz - mülkiyet, sınır, służebność konusunda aktif dava var mı? KSEG ve karar arşivi üzerinden.' },
+        { title: 'Plan miejscowy ve altyapı', desc: '5 yıl sonra çevrede ne olacak? Plan zagospodarowania przestrzennego (mekânsal planlama planı), planlanan yollar, okullar, fabrikalar. Her arsa için ve ticari gayrimenkul için kritik.' },
+        { title: 'Umowa najmu (kira sözleşmeleri)', desc: 'Satıcı kiracısıysa - kiracılar size geçer. Şartları, süreleri, depozito ve regulowanie\'yi (kira ödeme düzenini) kontrol ediyoruz. Sadık kiracılı karmaşık sözleşmeler piyasa değerini %10-20 düşürebilir.' },
+        { title: 'Wspólnota mieszkaniowa (kat malikleri)', desc: 'Daireler için - wspólnota uchwały\'lerini (kararlarını), fundusz remontowy\'yi (tadilat fonu), planlanan tadilatları kontrol ediyoruz. Kimi zaman wspólnota 100.000 PLN tadilat planlar - bu pay oranınızda size yansır.' }
+      ]
+    },
+    timeline: {
+      title: 'DD aşamaları',
+      subtitle: 'Standart 5-10 gün. Acil (3 gün) +%50. Karmaşık objeler (büyük arsa, ticari faaliyet) - 3 haftaya kadar.',
+      steps: [
+        { title: 'Ücretsiz değerlendirme', duration: '15 dk', desc: 'Adres ve obje türü. Pakketi (basic / standard / premium) seçer ve risk seviyesini belirleriz.' },
+        { title: 'Sözleşme ve pełnomocnictwo', duration: '1 gün', desc: 'Umowa o due diligence + pełnomocnictwo (US, ZUS sorguları için sizden) ve satıcıdan (kayıt kuruluşlarından belge için).' },
+        { title: 'Sorgular - aşama 1', duration: '1-2 gün', desc: 'Wyciąg z KW, wypis z rejestru gruntów, wyrys z mapy ewidencyjnej. Kamuya açık siciller anında alınır.' },
+        { title: 'Sorgular - aşama 2', duration: '3-5 gün', desc: 'ZUS, US ve urząd miasta\'dan zaległości belgeleri, wspólnota mieszkaniowa\'dan uchwały ve fundusz. Satıcının vekaletnamesiyle.' },
+        { title: 'Satıcı belgelerinin analizi', duration: '1-2 gün', desc: 'Tytuł prawny (mülkiyet temeli), pozwolenia na budowę, certyfikaty energetyczne, decyzje administracyjne. Gerçeklikle karşılaştırma.' },
+        { title: 'Yerinde keşif', duration: '1 gün', desc: 'Premium paketlerde opsiyonel. Geodeta (kadastrocu) ve rzeczoznawca (eksper) gerçek durumu, sınırları ve kaçak yapılaşmayı kontrol eder.' },
+        { title: 'DD raporu', duration: '1 gün', desc: '15-40 sayfalık PDF rapor: bulgular, risk-rating (yeşil/sarı/kırmızı), tavsiyeler. İşlem ekonomisinde son söz veya yeniden müzakere önerisi.' },
+        { title: 'Sunum ve görüşme', duration: '30 dk', desc: 'Görüntülü görüşme veya yüz yüze - bulguları açıklar, stratejiyi belirleriz: devam etmek, fiyat indirimi talep etmek, vazgeçmek veya umowa\'da garanti talep etmek.' }
+      ]
+    },
+    documents: {
+      title: 'DD için gerekenler',
+      subtitle: 'Asgari - adres ve numer KW. Geri kalanını biz sorguluyoruz.',
+      items: [
+        'Gayrimenkul adresi ve księga wieczysta numarası',
+        'Numer ewidencyjny działki (arsalar için)',
+        'Mevcut umowa przedwstępna veya satıcı teklifi',
+        'Sizden pełnomocnictwo (US, ZUS, urząd sorguları için)',
+        'Satıcıdan pełnomocnictwo (kişisel kayıtlarına yönelik sorgular için)',
+        'Alım bedeli ve ödeme şartları',
+        'Finansman bilgisi (kredi - banka için ek incelemeler)',
+        'Satıcının sunduğu belgeler (önceki akt, projeler, sertifikalar)'
+      ]
+    },
+    pricing: {
+      title: 'DD bedeli',
+      subtitle: 'Gayrimenkul türü ve incelemenin karmaşıklığına göre değişir.',
+      items: [
+        { label: 'Basic - daire', value: '1.800 PLN', note: 'KW + ewidencja + ZUS / US' },
+        { label: 'Standard - daire', value: '2.800 PLN', note: '+ wspólnota, plan miejscowy, mahkeme' },
+        { label: 'Standard - ev', value: '4.500 PLN', note: '+ yapı yasallığı, sınırlar' },
+        { label: 'Premium - ticari', value: '8.500 PLN\'den', note: 'Tam paket + yerinde keşif' }
+      ],
+      note: 'Arsalar, sanayi parselleri ve ofis binaları için bireysel hesap. Acil (3 gün) +%50. Geodeta gerekirse ~1.500 PLN ayrıdır. Genelde gayrimenkul fiyatının %0,5-1\'ine denk gelir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece (Tapu Sicili ve İpotek Kanunu)',
+        'Ustawa z dnia 17 maja 1989 r. - Prawo geodezyjne i kartograficzne (Jeodezi ve Kartografya Hukuku)',
+        'Ustawa z dnia 21 sierpnia 1997 r. o gospodarce nieruchomościami (Gayrimenkul Yönetimi Kanunu)',
+        'Ustawa z dnia 27 marca 2003 r. o planowaniu i zagospodarowaniu przestrzennym (Mekânsal Planlama Kanunu)',
+        'Ustawa z dnia 7 lipca 1994 r. - Prawo budowlane (İmar Kanunu - yapı yasallığı)',
+        'Ustawa z dnia 24 czerwca 1994 r. o własności lokali (Kat Mülkiyeti Kanunu)',
+        'Kodeks cywilny - bölüm III kısım II (Medeni Kanun, mülkiyet hukuku)'
+      ]
+    },
+    faq: [
+      { q: 'Noter varken DD neden gerekli?', a: 'Noter imza anında KW ve dokumenty\'leri kontrol eder ama derinleşmez. ZUS / US sorgusu yapmaz, geçmişi analiz etmez, kaçak yapılaşmayı incelemez, plany miejscowe (mekânsal plan) okumaz. Noter yalnızca masasında olan akty\'lerden sorumludur. DD ise yalnızca özel bir ajansın yapabileceği toplu derlemeyi sunar. Akt notarialny imzalandıktan bir yıl sonra 200.000 PLN\'lik ipoteğin çıktığı dosyalar gördük.' },
+      { q: 'Olumsuz DD sonrasında alımdan vazgeçilebilir mi?', a: 'Evet, eğer umowa przedwstępna\'da "wykonanie umowy uzależnione od pozytywnego due diligence prawnego" (sözleşmenin ifası olumlu hukuki due diligence şartına bağlıdır) ibaresi varsa. Yoksa zaliczka\'yı (kapora, %5-10) kaybedersiniz. Bu nedenle müvekkillerimizin her umowa przedwstępna\'sına bu klozu ekliyoruz. Karşı taraf kabul etmiyorsa - bu zaten bir red flag.' },
+      { q: 'En sık görülen DD bulguları?', a: '2024 yılı top 5: 1) Ödenmemiş veya düzensiz ödenen hipoteka (vakaların %30\'u); 2) Kaçak yapılaşma (przybudówka, veranda, ek kat - %25); 3) Sınırların ewidencja\'ya uymaması (%15); 4) Mahkemede aktif dava (%10); 5) Gayrimenkul üzerinde vergi borçları (%10). Her biri 30.000+ PLN\'ye mal olabilir.' },
+      { q: 'Alımda hipoteka varsa ne yapılır?', a: 'Standart şema: satıcı, alım bedelinden hipoteği ödeyeceğini garanti eder, banka wniosek o wykreślenie hipoteki (ipotek terkin başvurusu) hazırlayıp notere iletir. Akt notarialny "hipoteka silindikten sonra" şartıyla imzalanır. Alıcının parası rachunek powierniczy\'ye (escrow) yatırılır. Hipoteka silinince - para satıcıya geçer. Süreci anahtar teslim yönetiyoruz.' },
+      { q: 'Yalnızca KW\'yi kendim kontrol edebilir miyim?', a: 'KW\'yi - evet, ekw.ms.gov.pl üzerinden anında ve ücretsiz. Ancak KW yalnızca "tescilli" sorunları gösterir. Şunları göstermez: satıcının zaległości\'leri, mahkemedeki sporów, kaçak yapılaşma, plany miejscowe, wspólnota sorunları. KW tüm risklerin %30\'u, DD ise %100\'üdür.' },
+      { q: 'Olumlu DD\'den sonra akt notarialny ne kadar sürer?', a: 'Tüm papiery zaten noterdeyse - raporumuzdan 1-3 gün sonra. MSWiA wniosek\'i veya ipotek terkini bekleniyorsa - 2-8 hafta. Süreci danışmanlıkta planlıyoruz.' },
+      { q: 'DD\'de bir şeyin atlanmayacağına dair garanti?', a: 'Sözleşmemizde garanti maddesi var: standart kaynaklardan bir şey atlandı ve ilk 12 ay içinde sorun olduysa - danışmanlık ücretimizin %100\'üne kadar zarar tazmini. Pratikte kendimizi güvenceye alıyoruz - her raporu 2 uzman kontrol ediyor.' }
+    ],
+    related: ['mswia-zezwolenie', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Alımdan önce due diligence',
+    ctaSubtitle: 'Objeyi 15 dakikada ücretsiz değerlendiriyor, paket öneriyoruz. Alımı 1.800 PLN\'den koruyoruz.'
   }
 };
 

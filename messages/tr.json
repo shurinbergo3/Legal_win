@@ -1,0 +1,536 @@
+{
+  "Meta": {
+    "title": "Polonya oturum kartı ve göçmenlik danışmanlığı - LegalWin Varşova 2026",
+    "description": "Polonya'da Karta Pobytu (oturum kartı), vatandaşlık, ret kararlarına itiraz, ehliyet değişimi, Kod 95, Sp. z o.o. (limited şirket) kuruluşu. Varşova'da 2019'dan beri çalışan göçmenlik ekibi - 4.9 yıldız, 312 yorum, yılda 500'den fazla dosya.",
+    "keywords": "Polonya oturum kartı, Karta Pobytu, Polonya'da oturum izni, Polonya vatandaşlığı, Polonya pasaportu, göçmenlik danışmanlığı Varşova, Polonya'da ehliyet değişimi, Kod 95, Polonya'da şirket kurmak, Sp. z o.o., PESEL nasıl alınır, Polonya oturum izni reddi itiraz, yabancılar için hukuk Polonya, LegalWin"
+  },
+  "Nav": {
+    "services": "Hizmetler",
+    "pricing": "Fiyatlar",
+    "cases": "Dosyalar",
+    "team": "Ekip",
+    "process": "Süreç",
+    "faq": "S.S.S.",
+    "contact": "İletişim",
+    "consultation": "Danışmanlık",
+    "blog": "Blog"
+  },
+  "NotFound": {
+    "folio": "Dosya kaydı · No 404 · Kayıt dışı",
+    "stamp": "Dosya kapatıldı",
+    "title": "Bu sayfa dosyamızda yok",
+    "lede": "Belge ya geri çekildi ya da hiç başvurusu yapılmadı. Ama sizi nereye yönlendireceğimizi biliyoruz - yılda 500'den fazla aktif dosya yürütüyoruz.",
+    "popularLabel": "Popüler hizmetler",
+    "popular": {
+      "kartaTitle": "Karta Pobytu",
+      "kartaDesc": "Geçici ve daimi oturum izni, anahtar teslim",
+      "obywTitle": "Vatandaşlık",
+      "obywDesc": "Polonya pasaportu ve Karta Polaka",
+      "spolkaTitle": "Sp. z o.o.",
+      "spolkaDesc": "Şirket kuruluşu ve vergi"
+    },
+    "ctaHome": "Ana sayfaya dön",
+    "ctaContact": "Danışmanla iletişime geç",
+    "footnote": "E-postadan veya aramadan geldiyseniz - bize yazın, bağlantıyı düzeltelim"
+  },
+  "Hero": {
+    "imageAlt": "LegalWin göçmenlik danışmanları, Varşova - Polonya oturum kartı ve vatandaşlık",
+    "eyebrow": "Varşova · 2019'dan beri",
+    "titleLine1": "Karta Pobytu, Polonya oturum ve daimi ikamet kartı.",
+    "titleLine2": "Varşova'da göçmenlik danışmanlığı.",
+    "subtitle": "Karta Pobytu (Polonya oturum kartı), vatandaşlık, ehliyet değişimi, Kod 95, belge ve resmi yazışma. LegalWin ekibi Varşova'da 2019'dan beri - 4.9 yıldız, 312 yorum.",
+    "ctaPrimary": "Ücretsiz danışmanlık",
+    "ctaSecondary": "Tüm hizmetler",
+    "availableNow": "1 saat içinde dönüş yapıyoruz",
+    "hoursToday": "Bugün 19:00'a kadar açığız",
+    "socialProofLabel": "yorum · Google"
+  },
+  "Marquee": {
+    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
+  },
+  "Stats": {
+    "title": "Bizi anlatan rakamlar",
+    "subtitle": "Varşova merkezli ofisimiz 2019'da kuruldu. Dört dilde çalışıyor, dosyaları ilk danışmanlıktan belge teslimine kadar baştan sona biz yürütüyoruz.",
+    "stat1Value": "500",
+    "stat1Suffix": "+",
+    "stat1Label": "yıllık karta pobytu dosyası",
+    "stat2Value": "5",
+    "stat2Label": "uzmanlık alanı",
+    "stat3Value": "5",
+    "stat3Suffix": "+",
+    "stat3Label": "yıldır piyasada",
+    "stat4Value": "4",
+    "stat4Label": "çalışma dili",
+    "stat1Note": "Ortalama alım süresi 6-8 ay",
+    "stat2Note": "Göçmenlik, ticaret, vergi, belge, taşınma",
+    "stat3Note": "2019'dan beri Varşova'da",
+    "stat4Note": "PL · RU · UA · EN"
+  },
+  "Services": {
+    "eyebrow": "Uzmanlık alanları",
+    "title": "Polonya'daki yabancılar için ihtiyacınız olan her şey",
+    "subtitle": "Beş alan, tek ekip. Her dosyayı kendi konusunun uzmanı yürütür - belgeleri dış kaynaklara devretmiyoruz.",
+    "tag": "/ tam liste",
+    "cta": "Talep et",
+    "groups": {
+      "immigration": {
+        "number": "01",
+        "title": "Göçmenlik",
+        "lead": "Polonya'da yasal statü - sıfırdan ya da uzatma, ret almadan.",
+        "items": [
+          {
+            "name": "Karta Czasowego Pobytu (geçici oturum kartı)",
+            "desc": "İş, ticaret, eğitim, AB Mavi Kartı, aile birleşimi, insani gerekçe"
+          },
+          {
+            "name": "Karta Stałego Pobytu (daimi oturum kartı)",
+            "desc": "Evlilik, Polonya kökeni, Karta Polaka, sığınma, mülteci statüsü"
+          },
+          {
+            "name": "Polonya vatandaşlığı",
+            "desc": "Vatandaşlığa kabul (uznanie), tanınma, köken kanıtı"
+          },
+          {
+            "name": "Karta Polaka",
+            "desc": "Mülakat hazırlığı, Polonya kökenine dair belge derlemesi"
+          },
+          {
+            "name": "Uluslararası koruma",
+            "desc": "Mülteci statüsü, insani gerekçe, müsaadeli ikamet"
+          },
+          {
+            "name": "İtirazlar",
+            "desc": "Urząd do Spraw Cudzoziemców (Yabancılar İdaresi) ret kararlarının mahkemede iptali"
+          }
+        ]
+      },
+      "documents": {
+        "number": "02",
+        "title": "Belgeler",
+        "lead": "Resmi yazışma ve evrak işleri - sizi sıraya sokmadan.",
+        "items": [
+          {
+            "name": "PESEL",
+            "desc": "Tüm işlemler için kişisel kimlik numarasının çıkarılması"
+          },
+          {
+            "name": "Meldunek",
+            "desc": "İkamet adresinin beyanı (geçici ve daimi)"
+          },
+          {
+            "name": "Nüfus kayıt belgeleri",
+            "desc": "Doğum, evlilik, ölüm belgeleri - alımı ve tanınması"
+          },
+          {
+            "name": "Apostille ve resmi onay",
+            "desc": "Yurt dışında kullanılacak belgelere apostille uygulanması"
+          },
+          {
+            "name": "Ehliyet değişimi",
+            "desc": "BDT, Türkiye ve ABD ehliyetlerinin Polonya ehliyetine çevrilmesi: yeminli tercüme, badania lekarskie (sağlık raporu), psikoteknik, WORD'a kayıt ve eşlik"
+          },
+          {
+            "name": "Kod 95 (sürücü mesleki yeterliliği)",
+            "desc": "C/CE/D/DE kategorileri için profesyonel yeterlilik: kwalifikacja wstępna (başlangıç eğitimi) veya 5 yılda 35 saatlik szkolenie okresowe (dönemsel eğitim). OSK seçimi, belgeler, WORD'da sınav"
+          },
+          {
+            "name": "ZUS / US belgeleri",
+            "desc": "Sosyal güvenlik kurumu ve vergi dairesinden belge alımı"
+          },
+          {
+            "name": "Adli sicil belgeleri",
+            "desc": "Polonya KRK ve menşe ülke sabıka kayıtları"
+          },
+          {
+            "name": "Yeminli tercüme",
+            "desc": "Tłumaczenia przysięgłe - her tür belgenin Lehçeden veya Lehçeye yeminli tercümesi"
+          }
+        ]
+      },
+      "business": {
+        "number": "03",
+        "title": "Ticaret",
+        "lead": "Fikirden Sp. z o.o.'ya 10 iş gününde.",
+        "items": [
+          {
+            "name": "Sp. z o.o. (limited şirket) kuruluşu",
+            "desc": "S24 sistemi veya noterli kuruluş - tam paket. Varşova'da kayıtlı adres dahil"
+          },
+          {
+            "name": "Hazır şirketler",
+            "desc": "Geçmişi ve banka hesabı olan raf şirketleri - 24 saatte aktif"
+          },
+          {
+            "name": "Jednoosobowa działalność gospodarcza (JDG, şahıs şirketi)",
+            "desc": "TRC (geçici oturum kartı) sahipleri için bireysel ticari faaliyet"
+          },
+          {
+            "name": "Yabancı şirket temsilcilikleri",
+            "desc": "Polonya'da oddział (şube) ve przedstawicielstwo (temsilcilik) açılışı"
+          },
+          {
+            "name": "Vergi ve muhasebe",
+            "desc": "CIT (kurumlar vergisi), VAT (KDV), PIT (gelir vergisi), Estonyan CIT, IP Box. Anlaşmalı muhasebe hizmeti"
+          },
+          {
+            "name": "Tasfiye ve satış",
+            "desc": "Şirket kapanışı veya M&A sürecinin baştan sona yürütülmesi"
+          }
+        ]
+      },
+      "realestate": {
+        "number": "04",
+        "title": "Gayrimenkul",
+        "lead": "Yabancıların Polonya'da yasal ve hızlı konut alımı.",
+        "items": [
+          {
+            "name": "MSWiA (İçişleri Bakanlığı) izni",
+            "desc": "AB dışı vatandaşların gayrimenkul alımı için bakanlık izni"
+          },
+          {
+            "name": "Tapu ve sözleşme due diligence",
+            "desc": "Tapu sicili, ipotek, geçmişe yönelik takyidat kontrolü"
+          },
+          {
+            "name": "Noter işlemlerinde eşlik",
+            "desc": "Tapu satış aktında gayrimenkul uzmanının eşlik etmesi"
+          },
+          {
+            "name": "Ticari kira",
+            "desc": "İşyeri ve mağaza kira sözleşmelerinin hazırlanması"
+          }
+        ]
+      },
+      "relocation": {
+        "number": "05",
+        "title": "Taşınma",
+        "lead": "Polonya'ya yumuşak iniş - inişten ilk maaşa kadar.",
+        "items": [
+          {
+            "name": "Elektronik davetiye",
+            "desc": "Schengen ve ulusal vize için zaproszenie (resmi davetiye)"
+          },
+          {
+            "name": "Havalimanından karşılama",
+            "desc": "Chopin / Modlin / Krakow-Balice transferi"
+          },
+          {
+            "name": "Konut arama",
+            "desc": "Uzun süreli kira ve satın alma - daireden müstakil eve"
+          },
+          {
+            "name": "Ofis ziyaretlerinde tercüman",
+            "desc": "Urząd (resmi daire), banka, okul ve hastane randevularında eşlik"
+          },
+          {
+            "name": "İşe yerleşmede destek",
+            "desc": "Polonya standartlarında özgeçmiş, zezwolenie na pracę (çalışma izni)"
+          },
+          {
+            "name": "Çocukların okula kaydı",
+            "desc": "Obowiązek szkolny (zorunlu eğitim) ve klasa powitalna (uyum sınıfı) kaydı"
+          }
+        ]
+      }
+    }
+  },
+  "About": {
+    "eyebrow": "LegalWin hakkında",
+    "title": "Sizinle aynı dili konuşan uzmanlar",
+    "paragraph1": "LegalWin - Varşova merkezli, yasal işlemler, ticaret ve gayrimenkul konusunda uzmanlaşmış bir ekiptir. Türkiye, Rusya, Ukrayna, Belarus, Kazakistan ve AB'den müvekkillerle 2019'dan beri çalışıyoruz.",
+    "paragraph2": "Urząd do Spraw Cudzoziemców (Yabancılar İdaresi), ZUS (Sosyal Güvenlik Kurumu), US (vergi dairesi) ve KRS (Ulusal Mahkeme Sicili) nezdinde dosya yürütüyoruz. Müvekkillerimiz girişimciler, BT uzmanları, yatırımcılar ve Polonya'ya taşınan ailelerdir.",
+    "point1": "Şeffaf fiyatlandırma - aşama başına sabit ücret",
+    "point2": "Her dosyaya özel kişisel danışman",
+    "point3": "Müvekkil portalı üzerinden gerçek zamanlı raporlama",
+    "point4": "Lehçe, Rusça, Ukraynaca ve İngilizce çalışma"
+  },
+  "Cases": {
+    "eyebrow": "Dosyalar",
+    "title": "Gerçek dosyalar, gerçek süreler",
+    "subtitle": "Süslememeden gösteriyoruz: ne yaptık, ne kadar zamanda, hangi sonuçla. İsimler müvekkil talebi üzerine değiştirilmiştir.",
+    "items": [
+      {
+        "tag": "Karta Pobytu · iş",
+        "title": "Belaruslu BT uzmanı",
+        "duration": "38 gün",
+        "outcome": "3 yıllık oturum",
+        "desc": "İlk başvuru cuma günü, dosya teslimi bir hafta sonra cuma. Mazowiecki Urząd standart 90 gün yerine 38 günde karar verdi."
+      },
+      {
+        "tag": "Sp. z o.o. · BT danışmanlığı",
+        "title": "Sıfırdan Sp. z o.o. kuruluşu",
+        "duration": "7 gün",
+        "outcome": "KRS + banka hesabı + VAT",
+        "desc": "Kazakistanlı iki kurucu. S24, ortaklar kurulu, mBank hesabı, VAT kaydı, sözleşmeler - bir iş haftasında tamamlandı."
+      },
+      {
+        "tag": "İtiraz · daimi oturum",
+        "title": "Karta Stałego Pobytu reddinin iptali",
+        "duration": "4 ay",
+        "outcome": "Daimi oturum verildi",
+        "desc": "Müvekkilin daimi oturum başvurusu şekli gerekçeyle reddedildi. Wojewódzki Sąd Administracyjny'a (Eyalet İdare Mahkemesi) skarga (dava) açtık - mahkeme reddi iptal etti, voivoda kartı verdi."
+      }
+    ]
+  },
+  "Testimonials": {
+    "eyebrow": "Yorumlar",
+    "title": "Müvekkillerimiz ne diyor",
+    "items": [
+      {
+        "text": "Karta pobytu'yu 40 günde aldım. Urzęd'lere kendim gitmek ve yazışmalarla uğraşmak zorunda kalmadım - her şeyi LegalWin yaptı, ben sadece imzaladım.",
+        "author": "Olga M.",
+        "role": "tasarımcı, Kiev'den taşındı"
+      },
+      {
+        "text": "Sp. z o.o.'yu bir haftada kurduk, KDV ve banka hesabıyla birlikte. Sohbette anında yanıt veriyorlar, açıklamaları net - bürokrasi karmaşası yaşatmadan.",
+        "author": "Dmitry K.",
+        "role": "CTO, SaaS girişimi"
+      },
+      {
+        "text": "Daimi oturum reddinin ardından itirazda yardım ettiler. Başvurduğum ikinci ekiptiler - ve davayı gerçekten zafere taşıyan tek ekip oldular.",
+        "author": "Anna S.",
+        "role": "doktor, Varşova"
+      },
+      {
+        "text": "Tam paket: havalimanı karşılaması, daire, PESEL, çocuklar için okul, Sp. z o.o. kuruluşu. Bir buçuk ayda Polonya bürokrasisinin tüm aşamalarını geçtik.",
+        "author": "Sergey ve Irina L.",
+        "role": "iki çocuklu aile"
+      }
+    ]
+  },
+  "Pricing": {
+    "eyebrow": "Fiyatlar",
+    "title": "Sürpriz çıkmayan, şeffaf fiyatlar",
+    "subtitle": "Ücretimiz aşama başına sabittir. Damga vergileri ve tercümeler ayrı ödenir. Tam dökümü her hizmet sayfasında bulabilirsiniz.",
+    "consultationCta": "İlk danışmanlık ücretsiz · 30-60 dk",
+    "items": [
+      { "slug": "karta-pobytu", "name": "Karta Pobytu (geçici oturum)", "value": "2.500 PLN'den başlar", "note": "Anahtar teslim: belge derlemesinden alıma kadar - ortalama 6-8 ay" },
+      { "slug": "karta-stalego-pobytu", "name": "Karta Stałego Pobytu (daimi oturum)", "value": "3.500 PLN'den başlar", "note": "Anahtar teslim. 640 + 100 PLN damga vergisi ayrıca" },
+      { "slug": "obywatelstwo", "name": "Polonya vatandaşlığı", "value": "4.500 PLN'den başlar", "note": "Uznanie (tanınma) - tam paket. Vatandaşlığa kabul (natüralizasyon) - 6.000 PLN'den" },
+      { "slug": "apelacje", "name": "Ret kararına itiraz", "value": "1.800 PLN'den başlar", "note": "Karar analizi 48 saat - 500 PLN, ana ücretten düşülür" },
+      { "slug": "kod-95", "name": "Sürücüler için Kod 95", "value": "1.200 PLN'den başlar", "note": "OSK, belgeler, sağlık raporu, WORD sınavı" },
+      { "slug": "wymiana-prawa-jazdy", "name": "Ehliyet değişimi", "value": "600 PLN'den başlar", "note": "Tercümeler, badania lekarskie (sağlık raporu), starostwo işlemleri" }
+    ],
+    "footnote": "Tüm fiyatlar danışmanlık ücretimizdir. Damga vergileri (opłata skarbowa) ve yeminli tercümeler ayrı ödenir. Ücretsiz danışmanlığın ardından kesin fiyatı sözleşmede sabitleriz.",
+    "ctaDetails": "Tam döküm"
+  },
+  "Team": {
+    "eyebrow": "Ekip",
+    "title": "Konunun uzmanı. Tek başvuru noktası.",
+    "subtitle": "Her alanın kendi uzmanı var. Kişisel danışmanınız çalışmalarını koordine eder.",
+    "members": [
+      {
+        "initials": "AK",
+        "name": "Anna Kowalska",
+        "role": "Göçmenlik danışmanı"
+      },
+      {
+        "initials": "PN",
+        "name": "Paweł Nowak",
+        "role": "Ticaret danışmanı"
+      },
+      {
+        "initials": "MV",
+        "name": "Maria Wiśniewska",
+        "role": "Göçmenlik danışmanı"
+      },
+      {
+        "initials": "TL",
+        "name": "Tomasz Lewandowski",
+        "role": "İtiraz uzmanı"
+      },
+      {
+        "initials": "KZ",
+        "name": "Katarzyna Zielińska",
+        "role": "Vergi danışmanı"
+      },
+      {
+        "initials": "JM",
+        "name": "Jakub Mazur",
+        "role": "Gayrimenkul uzmanı"
+      },
+      {
+        "initials": "ND",
+        "name": "Natalia Dąbrowska",
+        "role": "Taşınma ve belgeler"
+      },
+      {
+        "initials": "RS",
+        "name": "Rafał Sawicki",
+        "role": "Kıdemli danışman"
+      }
+    ]
+  },
+  "Process": {
+    "eyebrow": "Nasıl çalışıyoruz",
+    "title": "Çözüme dört adım",
+    "step1Title": "Danışmanlık",
+    "step1Desc": "30-60 dakika ücretsiz. Durumu inceler, şansları değerlendirir, strateji öneririz.",
+    "step2Title": "Sözleşme ve avans",
+    "step2Desc": "İş kapsamı ve ücret yazılı sözleşmede sabitlenir. Faturada sürpriz olmaz.",
+    "step3Title": "Dosya yönetimi",
+    "step3Desc": "Belgeleri hazırlar, başvuruyu yapar, süreci yürütürüz. Her aşamadaki durumu e-postayla ve müvekkil panelinde görürsünüz.",
+    "step4Title": "Sonuç",
+    "step4Desc": "Kararı alırız. Asıllarını teslim eder, sonraki adımları anlatır, sürekli müvekkillerimize avantajlar sunarız."
+  },
+  "Faq": {
+    "eyebrow": "Sorular",
+    "title": "En çok sorulanlar",
+    "items": [
+      {
+        "q": "Danışmanlık ücreti ne kadar?",
+        "a": "İlk 30 dakikalık danışmanlık ücretsizdir. Belgelerin derinlemesine incelemesi gerekiyorsa sonraki görüşmeler karmaşıklığa göre 200 PLN'den başlar."
+      },
+      {
+        "q": "Karta Pobytu kaç ayda alınıyor?",
+        "a": "Ortalama alım süresi 6-8 aydır. Yasal olarak voivoda (wojewoda, eyalet valisi) 90 gün içinde karar vermek zorundadır, ancak 2026'da Mazowiecki Urząd Wojewódzki (Mazowiecki Eyalet İdaresi) kararı 6-14 ayda veriyor. MOS v2.0 (yabancılar için yeni e-başvuru sistemi) üzerinden doğru başvuru ve eksiksiz dosyayla süre alt sınıra yaklaşır. Gerektiğinde ponaglenie (acil değerlendirme talebi) ve skarga na bezczynność (idari ihmal şikayeti) ile WSA'da süreci hızlandırıyoruz."
+      },
+      {
+        "q": "Uzaktan çalışıyor musunuz?",
+        "a": "Evet. Polonya'nın diğer şehirlerindeki ve yurt dışındaki müvekkiller dosyalarını tamamen çevrimiçi yürütüyor. Noter onaylı vekaletname, danışmanla doğrudan iletişim ve süreç takibi için müvekkil paneli sunuyoruz."
+      },
+      {
+        "q": "Ya başvurum reddedilirse?",
+        "a": "Ret gerekçelerini inceler ve 14 gün içinde itiraz başvurusunda bulunuruz. Geçici oturum, daimi oturum, vatandaşlık ve uluslararası koruma dosyalarında - Wojewódzki Sąd Administracyjny (Eyalet İdare Mahkemesi) dahil - başarılı itiraz dosyalarımız mevcut."
+      },
+      {
+        "q": "Sp. z o.o. (Polonya limited şirketi) uzaktan kurulabilir mi?",
+        "a": "Evet, S24 (KRS çevrimiçi portalı) üzerinden ePUAP / ePodpis (Polonya elektronik kimlik) ile, ya da noter onaylı vekaletnameyle. Kuruluş 5-10 iş günü sürer."
+      },
+      {
+        "q": "Hangi dillerde çalışıyorsunuz?",
+        "a": "Lehçe, Rusça, Ukraynaca ve İngilizce. Tüm belgeleri kendi dilinizdeki tercümeyle teslim alırsınız."
+      }
+    ]
+  },
+  "Contact": {
+    "eyebrow": "Bize yazın",
+    "title": "Durumunuzu kısaca anlatın",
+    "subtitle": "Mesajınızı bırakın - mesai saatlerinde 1 saat içinde danışmanımız döner. İlk danışmanlık ücretsizdir.",
+    "name": "Ad Soyad",
+    "namePlaceholder": "Mehmet Yılmaz",
+    "email": "E-posta",
+    "emailPlaceholder": "ornek@example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+48 600 000 000",
+    "service": "Hizmet",
+    "servicePlaceholder": "Hizmeti seçin",
+    "serviceTrc": "Karta Pobytu (oturum/daimi ikamet)",
+    "serviceDriver": "Ehliyet değişimi / Kod 95",
+    "serviceCitizenship": "Vatandaşlık / Karta Polaka",
+    "serviceBusiness": "Şirket (Sp. z o.o.)",
+    "serviceTax": "Vergi ve muhasebe",
+    "serviceOther": "Diğer",
+    "message": "Mesaj",
+    "messagePlaceholder": "Durumu kısaca anlatın - vatandaşlığınız, mevcut ikamet temeliniz, süreler",
+    "submit": "Mesajı gönder",
+    "submitting": "Gönderiliyor…",
+    "successTitle": "Mesajınız alındı",
+    "successMessage": "Danışmanımız mesai saatleri içinde 1 saat içinde dönüş yapacak (Pzt-Cum 08:30-19:00).",
+    "errorTitle": "Mesaj iletilmedi",
+    "errorMessage": "Tekrar deneyin veya legalwin.warszawa@gmail.com adresine yazın",
+    "hours": "Pzt-Cum · 08:30 - 19:00",
+    "phoneLine": "+48 506 55 07 21",
+    "emailLine": "legalwin.warszawa@gmail.com",
+    "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
+    "validation": {
+      "nameMin": "En az 2 karakter",
+      "emailInvalid": "Geçersiz e-posta",
+      "phoneInvalid": "Geçersiz telefon numarası",
+      "messageMin": "En az 10 karakter",
+      "serviceRequired": "Bir hizmet seçin"
+    }
+  },
+  "Footer": {
+    "tagline": "Varşova'da yasal işlemler, ticaret ve gayrimenkul uzmanları. 2019'dan beri.",
+    "servicesTitle": "Hizmetler",
+    "companyTitle": "Kurumsal",
+    "contactTitle": "İletişim",
+    "legalTitle": "Hukuk",
+    "sourcesTitle": "Resmi kaynaklar",
+    "sourcesIntro": "Çalışmalarımızda dayandığımız resmi kaynaklar. Lehçe açılır.",
+    "rights": "Tüm hakları saklıdır",
+    "privacy": "Gizlilik politikası",
+    "cookies": "Çerez politikası",
+    "manageCookies": "Çerez ayarları"
+  },
+  "Cookies": {
+    "bannerTitle": "Çerez kullanıyoruz",
+    "bannerIntro": "Teknik çerezler sitenin çalışması için gereklidir. Analitik ve pazarlama çerezleri yalnızca onayınızla kullanılır. Tercihinizi istediğiniz zaman değiştirebilirsiniz.",
+    "readMore": "Detaylar",
+    "settings": "Ayarlar",
+    "necessaryOnly": "Yalnızca gerekli olanlar",
+    "acceptAll": "Tümünü kabul et",
+    "saveChoice": "Seçimi kaydet",
+    "settingsTitle": "Çerez ayarları",
+    "settingsIntro": "İzin vermek istediğiniz çerez kategorilerini seçin. Teknik çerezler her zaman açıktır - onlarsız site çalışmaz.",
+    "close": "Kapat",
+    "catNecessaryTitle": "Gerekli",
+    "catNecessaryDesc": "Oturum, dil seçimi, temel güvenlik. PKE Madde 11'e göre onay gerektirmez.",
+    "catFunctionalTitle": "Fonksiyonel",
+    "catFunctionalDesc": "Tekrar ziyaretlerde rahatınız için ayarlarınızı ve tercihlerinizi hatırlar.",
+    "catAnalyticalTitle": "Analitik",
+    "catAnalyticalDesc": "Anonim ziyaret istatistikleri: hangi sayfalar popüler, ziyaretçiler nerede ayrılıyor. Siteyi geliştirmemize yardımcı olur.",
+    "catMarketingTitle": "Pazarlama",
+    "catMarketingDesc": "Reklamların kişiselleştirilmesi ve partner platformlarda etkinliğinin ölçülmesi."
+  },
+  "ConsentForm": {
+    "headerLabel": "RODO onayı",
+    "requiredBadge": "Zorunlu",
+    "label": "Bu başvurunun işlenmesi amacıyla kişisel verilerimin LegalWin (veri sorumlusu) tarafından <policy>Gizlilik Politikası</policy>'na uygun olarak işlenmesine onay veriyorum. Onayımı her zaman geri çekebileceğimi anlıyorum.",
+    "required": "Mesajı göndermek için veri işleme onayı gerekmektedir"
+  },
+  "ServiceDetail": {
+    "documentsEyebrow": "/ belgeler",
+    "popular": "En sık seçilen",
+    "faqEyebrow": "/ sorular",
+    "faqTitle": "Sık sorulan sorular",
+    "relatedTitle": "İlgili hizmetler",
+    "ctaSubmit": "Mesaj bırak"
+  },
+  "Chat": {
+    "title": "Mila · LegalWin",
+    "subtitle": "Genelde 1 dakika içinde dönüş yapıyorum",
+    "operatorName": "Mila",
+    "operatorRole": "LegalWin müşteri temsilcisi",
+    "placeholder": "Sorunuzu yazın…",
+    "send": "Gönder",
+    "greeting": "Merhaba! Ben Mila, LegalWin ekibindenim. Size nasıl yardımcı olabilirim - karta pobytu, ehliyet değişimi, Kod 95, vatandaşlık?",
+    "teaseGreeting": "Merhaba! Ben LegalWin'den Mila - karta pobytu, ehliyet değişimi veya Kod 95 konusunda yardımcı olabilirim. Hangi konuyu merak ediyorsunuz?",
+    "teaseCta": "Mila'ya yaz",
+    "disclaimer": "Dosyanıza özel kesin süre ve ücreti danışmanımız ücretsiz görüşmede teyit eder.",
+    "consentTitle": "Başlamadan önce",
+    "consentText": "İletişim bilgilerinizi bırakırsanız, GDPR / RODO gerekliliklerine göre başvurunuzun işlenmesi için LegalWin ekibine iletilecektir.",
+    "consentCheckbox": "Kişisel verilerin işlenmesini kabul ediyorum",
+    "consentPrivacy": "Gizlilik politikası",
+    "consentStart": "Sohbete başla"
+  },
+  "Legal": {
+    "back": "Ana sayfaya dön",
+    "updated": "Güncelleme",
+    "updatedAt": "10 Nisan 2026"
+  },
+  "BlogTeaser": {
+    "eyebrow": "Dergi",
+    "title": "Göçmenler için güncel rehberler",
+    "subtitle": "Karta pobytu, vatandaşlık ve ehliyet değişimine dair pratik talimatlar. Gerçek fiyatlar ve Polonya urzęd'lerine bağlantılarla.",
+    "ctaAll": "Tüm yazılar"
+  },
+  "Blog": {
+    "eyebrow": "/ Dergi",
+    "title": "LegalWin Blogu",
+    "intro": "Polonya'da yasal süreçlere dair pratik rehberler - karta pobytu, ehliyet değişimi, Kod 95, vatandaşlık. Özden uzaklaşmadan, Polonya urzęd'lerine bağlantılar ve 2026 fiyatlarıyla.",
+    "empty": "İlk yazılar yakında yayınlanacak.",
+    "readingTime": "dk okuma",
+    "back": "Tüm yazılar",
+    "publishedOn": "Yayın tarihi",
+    "related": "İlgili içerikler",
+    "searchPlaceholder": "Yazı, konu veya anahtar kelime arayın",
+    "allCategories": "Tüm konular",
+    "noResults": "Aramanızla eşleşen sonuç yok. Farklı anahtar kelimeler deneyin veya filtreleri sıfırlayın.",
+    "counterOne": "yazı",
+    "counterMany": "yazı",
+    "faqEyebrow": "/ sorular",
+    "faqTitle": "Konuyla ilgili sık sorulan sorular"
+  }
+}

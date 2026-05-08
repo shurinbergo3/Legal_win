@@ -255,6 +255,91 @@ const gotoweFirmy: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'jdg', 'podatki-ksiegowosc'],
     ctaTitle: 'Shelf Sp. z o.o. in 24 hours',
     ctaSubtitle: 'Catalog of 30+ companies. Free matching to your business.'
+  },
+  tr: {
+    slug: 'gotowe-firmy',
+    group: 'business',
+    icon: 'landmark',
+    badge: 'Shelf company · 24 saatte aktif',
+    title: 'Hazır şirketler (shelf company)',
+    subtitle: 'Geçmişi ve banka hesabı olan Sp. z o.o. - 24 saatte operasyona başlayın',
+    lead: 'Hazır şirket (shelf company), önceden kurulmuş, banka KYC\'sinden geçmiş, hesabı açık ve hiçbir borcu olmayan bir Sp. z o.o.\'dur. Pay devrini alır almaz sözleşme imzalar, fatura keser, ihalelere girersiniz. Tüm şirketlerimiz "temizdir": faaliyet yok, yükümlülük yok, VAT aktif. 7-10 gün beklemenin mümkün olmadığı ideal çözümdür.',
+    facts: [
+      { label: 'Operasyon başlangıcı', value: '24 saat', note: 'imzadan operasyona' },
+      { label: 'Şirket geçmişi', value: '1-24 ay', note: 'KRS tescil tarihi' },
+      { label: 'VAT statüsü', value: 'aktif', note: 'czynny VAT için bekleme yok' },
+      { label: 'Banka hesabı', value: 'açık', note: 'mBank / ING / Santander' }
+    ],
+    grounds: {
+      title: 'Hazır Sp. z o.o. ne zaman gerekir',
+      subtitle: 'Hazır şirket sıfırdan kuruluştan daha pahalıdır ama hız ve geçmiş kazandırır - ihaleler, bankalar ve kurumsal müşteriler için kritiktir.',
+      items: [
+        { title: 'Acil sözleşme', desc: 'Müşteri çarşamba imzaya hazır - sıfırdan Sp. z o.o. 7-10 gün alır. Hazır şirketle aynı gün NIP\'i sözleşmeye yazıyorsunuz.' },
+        { title: 'Geçmiş gerektiren ihale', desc: 'Birçok zamówienie publiczne 6+ veya 12+ aylık doświadczenie (deneyim) gerektirir. Doğru tarihli hazır şirket bu eşiği geçer.' },
+        { title: 'Sıkı banka hesabı açılışı', desc: 'Pekao, Citi, BNP Paribas yeni Sp. z o.o.\'lara isteksizce hesap açar. Hazır şirket KYC\'den geçmiş - hesap çalışıyor.' },
+        { title: 'Kredi veya leasing', desc: 'Bankalar ve leasing şirketleri 12 aydan genç firmalara finansman vermiyor. Geçmişi olan hazır Sp. z o.o. oyunun kurallarını değiştirir.' },
+        { title: 'Pazaryerlerine kayıt', desc: 'Allegro, Empik, Amazon Marketplace aktif VAT ve geçmiş ister. Hazır şirket kayıt sürecini bir günde tamamlar.' },
+        { title: 'Kurucuda PESEL yok', desc: 'Sıfırdan Sp. z o.o. kuruluşu için yönetim kurulu üyesinde PESEL şarttır. Hazır şirket zaten tescilli - PESEL alındıktan sonra yönetim kurulu değiştirilebilir.' }
+      ]
+    },
+    timeline: {
+      title: 'Hazır şirketin satın alımı',
+      subtitle: 'İlk görüşmeden ilk faturaya genelde 1-2 iş günü.',
+      steps: [
+        { title: 'Katalog', duration: '5 dk', desc: 'Müsait şirketleri gösteriyoruz: tescil tarihi, PKD, VAT durumu, banka, adres. Sektörünüze göre seçim yapıyoruz.' },
+        { title: 'Rezervasyon', duration: '24 saat', desc: 'Şirketi rezerv ediyoruz - başkasına teklif yapılmıyor. Alıcı KYC: pasaport, fon kaynağı, gerçek faydalanıcı.' },
+        { title: 'Pay devir sözleşmesi', duration: '1 gün', desc: 'Umowa zbycia udziałów Varşova\'da noter huzurunda. Başka şehirdeyseniz - konsolosluk üzerinden pełnomocnictwo.' },
+        { title: 'Yönetim kurulu değişikliği', duration: '1 gün', desc: 'Yeni członek zarządu (yönetim kurulu üyesi) atanır, eski çıkar. KRS\'ye wniosek sunulur.' },
+        { title: 'Banka hesabı devri', duration: '1-2 gün', desc: 'Eski yetkililerin imza yetkilerinin iptali, yenilerin eklenmesi. Eski hesap saklanabilir veya yenisi açılabilir.' },
+        { title: 'CRBR güncellemesi', duration: '7 gün', desc: 'Yeni gerçek faydalanıcının Centralny Rejestr Beneficjentów Rzeczywistych\'e kaydı. Sizin için yapıyoruz.' },
+        { title: 'KRS güncellemesi', duration: '7-14 gün', desc: 'KRS değişiklikleri yansıtır. Ancak NIP, VAT ve banka hemen çalışır - KRS çıktıları otomatik güncellenir.' }
+      ]
+    },
+    documents: {
+      title: 'Alıcıdan istenenler',
+      subtitle: 'Asgari belge - KYC ve imzalar.',
+      items: [
+        'Yeni wspólnik (ortak) ve członek zarządu (yönetim kurulu üyesi) pasaportu',
+        'Yönetim kurulu üyesinin PESEL\'i (yoksa 7-14 günde çıkartıyoruz)',
+        'Yönetim kurulu üyelerinin ev adresleri (CRBR için)',
+        'KYC için fon kaynağı kanıtı (banka)',
+        'Pełnomocnictwo notarialne - şahsen gelmeyecekseniz (ikamet ülkenizde apostille)',
+        'Yönetim kurulu değişikliği onayı (eski üyeden - biz hazırlıyoruz)',
+        'NIP ve REGON - şirkette hâlihazırda mevcut'
+      ]
+    },
+    pricing: {
+      title: 'Hazır şirket fiyatları',
+      subtitle: 'Fiyat şirket yaşına, VAT durumuna, banka düzeyine ve geçmişine göre değişir. KRS harçları ve noter ayrıdır.',
+      items: [
+        { label: '1-3 aylık şirket', value: '6.500 PLN\'den', note: 'Temel: KRS + NIP + banka' },
+        { label: '6-12 aylık şirket', value: '9.800 PLN\'den', note: 'Aktif VAT, geçmiş' },
+        { label: '12+ aylık şirket', value: '14.500 PLN\'den', note: 'İhale ve kredi için' },
+        { label: 'Premium - A/A+ banka hesabı', value: '18.000 PLN\'den', note: 'Pekao, Citi, BNP - hesap dahil' }
+      ],
+      note: 'Fiyat danışmanlık ücretimizi ve şirket sermayesini (5.000 PLN) içerir. KRS harcı 250 PLN, noter 1.200-2.500 PLN, CRBR fiyata dahildir. 24 saatte acil işlem +%30.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych (Ticari Şirketler Kanunu - madde 180, pay devri)',
+        'Ustawa z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy (Aklama ile Mücadele Kanunu - KYC, CRBR)',
+        'Ustawa z dnia 20 sierpnia 1997 r. o KRS (kayıt değişiklikleri)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (VAT mükellefiyetinin geçişi)'
+      ]
+    },
+    faq: [
+      { q: 'Hazır Sp. z o.o. satın almak güvenli mi?', a: 'Güvenilir bir sağlayıcıdan alınırsa - evet. Tüm şirketlerimiz: sıfır faaliyet (yalnızca tescil), sıfır yükümlülük, temiz muhasebe, güncel sprawozdanie finansowe. Satıştan önce due diligence yapıyoruz: KRS (Ticaret Sicil), ZUS, US (vergi dairesi), KRD (borçlu sicili), tüm dönemler için sprawozdania (raporlar). Belgeler şirketle birlikte teslim edilir.' },
+      { q: 'Geçmiş yükümlülükler ne olur?', a: 'Hazır şirketin hiçbir faaliyeti olmamıştır - sözleşme, müşteri, kredi, ZUS borcu yoktur. Ek olarak garanti veriyoruz: "geçmiş" bir şey çıkarsa zarar tazmin edilir. Sözleşmede yazılıdır.' },
+      { q: 'Adı ve PKD\'yi değiştirebilir miyim?', a: 'Evet. Uchwała wspólników (ortaklar kararı) ile nazwa (ad), PKD, siedziba (merkez adresi) ve kapitał (sermaye) değiştirilir. Noter ziyareti veya KRS başvurusu gerekir. 7-14 günde yapıyoruz. Ücret 700-1.500 PLN.' },
+      { q: 'Sahip değişikliğinde VAT numarası korunur mu?', a: 'Evet. NIP ve VAT şirkete aittir, ortağa değil (tüzel kişiye ait özelliklerdir). Önemli olan, członek zarządu değişikliğinden sonra Urząd Skarbowy\'deki bilgileri VAT-Z formuyla güncellemektir.' },
+      { q: 'Banka hesabı ne olur?', a: 'Bankaya bağlı. mBank, ING, Santander imzacı değişikliğinden sonra hesabı genelde korur (yeni KYC ile). Pekao, Citi yeni hesap kaydı isteyebilir. Satıştan önce kontrol eder, bilgi veririz.' },
+      { q: 'Şirket kaç yaşında "aktif" sayılır?', a: 'Amaca bağlı. Pazaryerleri için 1+ ay yeterli. İhaleler için genelde 12+ ay. Büyük krediler için 24+ ay. Sitede her şirketin hangi amaca uygun olduğu yazılıdır.' },
+      { q: 'Fiili cirosu ve vergi raporları olan şirket alabilir miyim?', a: 'Yalnızca sıfır faaliyetli şirketlerimiz vardır - çünkü gerçek geçmişli şirket alımı yüksek risk taşır (gizli yükümlülükler, vergi anlaşmazlıkları). Gerçek geçmiş gerekiyorsa kendi adınıza Sp. z o.o. tescil ettirip aktif çalışmanızı öneririz - uzun vadede daha güvenlidir.' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'jdg', 'podatki-ksiegowosc'],
+    ctaTitle: 'Hazır Sp. z o.o. 24 saatte',
+    ctaSubtitle: 'Farklı geçmişlere ve bankalara sahip 30\'dan fazla şirketin kataloğu. İşinize ve hedeflerinize göre ücretsiz seçim.'
   }
 };
 

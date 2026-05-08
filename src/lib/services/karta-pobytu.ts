@@ -258,6 +258,92 @@ const kartaPobytu: ServiceEntry = {
     related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],
     ctaTitle: 'Let\'s review your case in 30 minutes',
     ctaSubtitle: 'First consultation is free. You\'ll walk away with a document list tailored to your ground and a realistic timeline.'
+  },
+  tr: {
+    slug: 'karta-pobytu',
+    group: 'immigration',
+    icon: 'id-card',
+    badge: '2026 · MOS v2.0',
+    title: 'Karta Czasowego Pobytu',
+    subtitle: 'Polonya geçici oturum kartı',
+    lead: 'Karta Pobytu (Polonya oturum kartı), yabancılara Polonya\'da 3 yıla kadar yasal ikamet hakkı veren biyometrik bir belgedir. 2026 itibarıyla başvurular yalnızca MOS v2.0 (yabancılar için yeni e-başvuru sistemi) üzerinden yapılır, wojewoda (eyalet valisi) ile yazışmalar eDoręczenia (resmi elektronik yazışma) sistemi üzerinden yürütülür.',
+    facts: [
+      { label: 'Geçerlilik', value: '3 yıla kadar', note: 'uzatılabilir' },
+      { label: 'Resmi harçlar', value: '340 + 100 PLN', note: 'başvuru + kart' },
+      { label: 'Alım süresi', value: '6-8 ay', note: 'Mazowieckie\'de · yasal süre 90 gün' },
+      { label: 'Başvuru kanalı', value: 'MOS v2.0', note: 'ikamet ettiğiniz eyalete göre' }
+    ],
+    grounds: {
+      title: 'Başvuru gerekçeleri',
+      subtitle: 'Ustawa o cudzoziemcach (Yabancılar Kanunu) kapsamında sekiz tipik gerekçe.',
+      items: [
+        { title: 'Polonyalı işverende çalışma', desc: 'Umowa o pracę (iş sözleşmesi) veya zlecenie (hizmet sözleşmesi), 2026 asgari ücreti 4.806 PLN brüt. zezwolenie na pracę (çalışma izni) ile birlikte yürütülür.' },
+        { title: 'AB Mavi Kartı (yüksek nitelikli)', desc: 'Yüksek öğrenim, ülke ortalamasının 1,5 katı maaş, en az 1 yıllık sözleşme. Ayrıca hızlandırılmış prosedür.' },
+        { title: 'Kendi şirketi', desc: 'Geliri ortalama maaşın 12 katı veya 2 tam zamanlı çalışanı olan Sp. z o.o. (limited şirket), ya da JDG (şahıs şirketi).' },
+        { title: 'Akredite üniversitede eğitim', desc: 'Dziekanat (dekanlık) belgesi, geçim kanıtı (≥ 721 PLN/ay), konaklama, sağlık sigortası.' },
+        { title: 'Aile birleşimi', desc: 'Polonya vatandaşlarının veya daimi ikamet / AB uzun dönem oturum sahiplerinin eşleri ve çocukları için.' },
+        { title: 'Polonya kökeni', desc: 'Polonya kökeniniz onaylandıysa - doğrudan daimi ikamete; henüz değilse - önce TRC üzerinden.' },
+        { title: 'İnsani gerekçeler', desc: 'Sizin elinizde olmayan nedenlerden dolayı dönüşün mümkün olmadığı durumlarda ikamet.' },
+        { title: 'Diğer gerekçeler', desc: 'İnsan ticareti mağduru, staj, gönüllülük, dini faaliyet, bilimsel çalışma vb.' }
+      ]
+    },
+    timeline: {
+      title: 'Süreç nasıl işliyor',
+      subtitle: 'İlk görüşmeden kartın teslimine altı adım.',
+      steps: [
+        { title: 'Danışmanlık', duration: '30-60 dk', desc: 'Gerekçenizi inceler, şansları değerlendirir, belge listesini çıkarırız.' },
+        { title: 'Belge derlemesi', duration: '5-14 gün', desc: 'Belgeleri toplar, yeminli tercüme yaptırır, gerekirse ZUS (Sosyal Güvenlik Kurumu) / US (vergi dairesi) / meldunek (ikamet beyanı) işlemlerini hallederiz.' },
+        { title: 'MOS v2.0\'a yükleme', duration: '1 gün', desc: 'Başvuruyu ve ekleri devlet sistemine yükler, 340 PLN opłata skarbowa (damga vergisi) öderiz.' },
+        { title: 'Biyometrik veri', duration: '1 ziyaret', desc: 'Tek zorunlu fiziki ziyaret - voivoda nezdinde parmak izi ve fotoğraf. Göçmenlik danışmanımız eşlik eder.' },
+        { title: 'Bekleme ve ek talep', duration: '30-60 gün', desc: 'eDoręczenia üzerinden gelen uzupełnienia (ek belge taleplerine) yanıt veririz. Süreci müvekkil panelinden takip edersiniz.' },
+        { title: 'Kartın teslimi', duration: '7 gün', desc: 'Olumlu karar sonrası kart blanketi için +100 PLN, hazır olduğuna dair bildirim, voivoda nezdinde teslim.' }
+      ]
+    },
+    documents: {
+      title: 'Tipik belge listesi',
+      subtitle: 'Net liste başvuru gerekçenize bağlıdır. Sizin dosyanıza göre uyarlarız.',
+      items: [
+        'Doldurulmuş wniosek (7 sayfalık başvuru formu) - biz hazırlıyoruz',
+        'Pasaport + tüm sayfaların fotokopisi',
+        '4 adet renkli biyometrik fotoğraf 35×45 mm',
+        'Gelir kaynağı kanıtı (umowa, PIT-11, banka ekstresi)',
+        'Kira sözleşmesi veya zameldowanie - Polonya\'da konaklama kanıtı',
+        'En az 30.000 € teminatlı sağlık sigortası (ZUS veya özel)',
+        '340 PLN opłata skarbowa ödeme dekontu',
+        'Gerekçeye özel belgeler (umowa o pracę, evlilik cüzdanı, üniversite belgesi vb.)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Aşama başına sabit ücret. Başlamadan önce sözleşme imzalanır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30-60 dakika · şans değerlendirmesi' },
+        { label: 'Anahtar teslim TRC takibi', value: '2.500 PLN\'den', note: 'Tüm aşamalar: belge derlemesinden teslime' },
+        { label: 'Ret kararına itiraz', value: '1.800 PLN\'den', note: 'İtiraz için ayrı sözleşme' }
+      ],
+      note: 'Belirtilen ücretler bizim danışmanlık bedelimizdir. Resmi harçlar (340 + 100 PLN) ve yeminli tercümeler ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (12 Aralık 2013 Yabancılar Kanunu)',
+        'Rozporządzenie MSWiA w sprawie wniosków o udzielenie zezwolenia na pobyt (İçişleri Bakanlığı oturum başvuruları yönetmeliği)',
+        'Kodeks postępowania administracyjnego (KPA - İdari Yargılama Usul Kanunu)',
+        'Direktif 2003/86/AT (aile birleşimi)',
+        'Direktif 2009/50/AT (Mavi Kart)'
+      ]
+    },
+    faq: [
+      { q: 'Polonya dışında olduğum sırada başvuru yapabilir miyim?', a: 'Hayır. wniosek (başvuru) Polonya\'da bizzat yapılır - başvuru anında yasal ikamet temeliniz (vize veya vizesiz giriş hakkı) geçerli olmalıdır. Ancak tüm dosyayı uzaktan hazırlayıp başvuru günü sizi havalimanında karşılayabiliriz.' },
+      { q: 'Pasaporta vurulan stempel (mühür) ne işe yarar?', a: 'stempel (mühür) - başvurunun doğru yapılmasından sonra pasaporta tüm karar sürecini kapsayacak şekilde bir mühür vurulur ve viza süreniz dolmuş olsa bile ikametinizi yasallaştırır. Bu mühürle yaşamaya ve çalışmaya devam edebilirsiniz, ancak Polonya\'dan çıkış yapmak risklidir.' },
+      { q: 'Bekleme sürecinde çalışabilir miyim?', a: 'Evet, başvurunuz iş gerekçesine dayanıyorsa ve başvuru anında zezwolenie na pracę (çalışma izniniz) hazırsa. Diğer durumlarda - bir önceki ikamet izninizin kuralları geçerlidir.' },
+      { q: '2026\'da neler değişiyor?', a: 'Tüm başvurular yalnızca MOS v2.0 üzerinden yapılır, wojewoda ile yazışmalar eDoręczenia üzerinden yürütülür (ePUAP - e-devlet portalı veya kwalifikowany podpis - nitelikli elektronik imza gerekir). Voivoda ofisleri artık kağıt başvuru kabul etmez.' },
+      { q: 'Reddedilirsem ne yapmalıyım?', a: 'Odwołanie (itiraz) için Szef UdSC\'ye (Yabancılar İdaresi Başkanı) 14 gününüz vardır. İkinci ret durumunda - Wojewódzki Sąd Administracyjny\'ye (Eyalet İdare Mahkemesi) skarga (dava) açmak için 30 gün. Tüm süreci biz yürütürüz.' },
+      { q: 'Lehçe sınavına girmem gerekiyor mu?', a: 'TRC için hayır. B1 seviyesinde Lehçe yalnızca vatandaşlığa kabul (natüralizasyon) ve bazı daimi ikamet vakalarında zorunludur.' }
+    ],
+    related: ['karta-stalego-pobytu', 'kod-95', 'apelacje'],
+    ctaTitle: 'Dosyanızı 30 dakikada birlikte inceleyelim',
+    ctaSubtitle: 'İlk danışmanlık ücretsizdir. Görüşme sonrasında gerekçenize özel belge listesi ve tahmini süre alırsınız.'
   }
 };
 

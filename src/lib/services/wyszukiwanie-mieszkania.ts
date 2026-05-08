@@ -267,6 +267,95 @@ const wyszukiwanieMieszkania: ServiceEntry = {
     related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
     ctaTitle: 'Housing in 7-21 days',
     ctaSubtitle: 'Free consultation: brief and a 3-5 top-options list within 48h. Full sourcing and negotiation - 7-21 days.'
+  },
+  tr: {
+    slug: 'wyszukiwanie-mieszkania',
+    group: 'relocation',
+    icon: 'home',
+    badge: 'Najem · Zakup · Krajowy Rejestr Zadłużonych',
+    title: 'Konut arama',
+    subtitle: 'Uzun süreli kira ve satın alma - daireden müstakil eve',
+    lead: 'Polonya\'da yabancı için konut araması mayın tarlasıdır: meldunek\'siz kira, gri sözleşmeler, mülk sahibinin daireyi geri alamama (okupacja) riski, gizli 800 PLN/ay\'lık czynsz administracyjny, kredi geçmişine dayalı redler. LegalWin bütçenize ve ihtiyacınıza uygun konutu seçer, księga wieczysta\'yı ve takyidatı kontrol eder, Lehçe görüşmeleri yürütür, alımda noter sürecine eşlik eder. Müvekkillerimizin yaşadığı 5 büyük şehirde - Varşova, Wrocław, Krakov, Gdansk, Poznań - çalışıyoruz.',
+    facts: [
+      { label: 'Seçim süresi', value: '7-21 gün', note: 'kira · standart · alım 90 güne kadar' },
+      { label: 'Kira hizmet bedeli', value: '1.200 PLN\'den', note: 'veya 0,5 czynszu' },
+      { label: 'Alım hizmet bedeli', value: '%1,5-2,5', note: 'işlem değerinden' },
+      { label: 'Şehirler', value: 'WAW · WRO · KRK · GDN · POZ', note: 'Polonya\'nın en büyük 5 şehri' }
+    ],
+    grounds: {
+      title: 'Hangi konutu seçiyoruz',
+      subtitle: 'Tek kişilik BT uzmanı stüdyosundan çocuklu aile için 250 m² eve.',
+      items: [
+        { title: 'Uzun süreli kira (12+ ay)', desc: 'Varşova merkezde stüdyolar (2.800 PLN\'den), Mokotów\'da 2 odalı (4.200 PLN\'den), Wilanów / Bemowo\'da 3 odalı aile dairesi (5.500 PLN\'den). Meldunek hakkıyla.' },
+        { title: 'Kısa süreli - 1 ila 6 ay', desc: 'Apartmenty: temizlik, çamaşır servisi, hazır mutfaklı - uzun süreli daire ararken ilk 1-3 ay için. Varşova\'da 4.500 PLN/aydan.' },
+        { title: 'Daire alımı', desc: 'Księga wieczysta\'ya göre seçim, due diligence, satıcıyla müzakere, noter, KW. Bedel %1,5-2,5.' },
+        { title: 'Müstakil ev veya arsa alımı', desc: 'Anahtar teslim: seçim, geodeta, plan miejscowy kontrolü, AB dışı vatandaşlar için MSWiA izni, akit. %2,0\'den.' },
+        { title: 'AB dışı yabancılar için alım', desc: 'AB dışı alıcıların şehir dışı gayrimenkul alımı için zezwolenie MSWiA zorunludur. İzinle birlikte tam döngü 2.800 PLN\'den ek.' },
+        { title: 'Ticari gayrimenkul', desc: 'Sp. z o.o. için ofis, mağaza, depo, restoran. VAT, plan zagospodarowania ve mevcut kiracı sözleşmeleri dikkate alınır.' },
+        { title: 'Öğrenci yurdu', desc: 'Akademik / özel dormitorium - akredite üniversite öğrencileri için aylık 800-1.800 PLN. Akademik yıl başlangıcından 2-3 ay önce kayıt.' },
+        { title: 'İş yeri için adres', desc: 'KRS / CEIDG için yasal adres - aylık 250 PLN\'den. İkamet olmadan. Sp. z o.o., JDG ve temsilcilikler için.' }
+      ]
+    },
+    timeline: {
+      title: 'Kira süreci',
+      subtitle: 'Standart döngü 7-21 gün. Alım için 30-90 gün.',
+      steps: [
+        { title: 'Brif', duration: '30 dk', desc: 'Bütçe, lokasyon, alan, özellikler (balkon, otopark, mobilyalı / boş mu), meldunek, evcil hayvan.' },
+        { title: 'Obje seçimi', duration: '3-7 gün', desc: 'Otodom, Domiporta, Olx ve doğrudan mülk sahipleriyle iletişim. Uygunsuzun %90\'ını eler, en iyi 5-8 seçeneği listeleriz.' },
+        { title: 'Görüntülemeler', duration: '1-3 gün', desc: '1-3 günde 5-8 görüntüleme yapıyoruz. Acentemiz dairenin durumunu, asansör, ses yalıtımı ve ısıtmayı kontrol eder.' },
+        { title: 'Mülk sahibiyle müzakere', duration: '1-3 gün', desc: 'Fiyat indirimi için gerekçe sunuyoruz (kötü fotoğraflar, uzun ilanda kalma, soğuyan piyasa). Ortalama %5-15 indirim sağlıyoruz.' },
+        { title: 'KW ve mülkiyet kontrolü', duration: '1 gün', desc: 'Çevrimiçi księga wieczysta - mülk sahibi, takyidat, ipotek, rakip kira sözleşmeleri. Mülk sahibinden BIK zaświadczenie.' },
+        { title: 'Kira sözleşmesi', duration: '1-2 gün', desc: 'Standart sözleşmeyi uyarlıyoruz: meldunek hakkı maddesi, czynsz artış koşulları (CPI), kauzja iadesi, ekip için subleasing imkanı.' },
+        { title: 'İmza ve yerleşim', duration: '1 gün', desc: 'Premium opsiyonda noter, normalde tanık huzurunda. Anahtar teslim, foto-protokol, sayaç ölçümleri. 30 gün içinde meldunek yapılır.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler (kira)',
+      subtitle: 'Çoğu mülk sahibi için asgari paket. Premium objeler ZUS RMUA\'yı ek olarak ister.',
+      items: [
+        'Pasaport + kopyası (varsa PESEL)',
+        'Yasal ikamet belgesi (vize, karta pobytu)',
+        'İş kanıtı - umowa o pracę veya kendi şirketinizin KRS\'i',
+        '3 aylık gelir - banka ekstresi veya PIT-37',
+        'Önceki kiraya verenlerin iletişim bilgileri (referans için)',
+        'Kauzja tutarı (1-2 czynsz) ve 1 aylık ön ödeme',
+        'Wniosek o zameldowanie için aile / oda arkadaşı listesi',
+        'Müzakere için LegalWin\'e vekaletname'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Kirada sabit ücret. Alımda işlemden % alıyoruz.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · brif' },
+        { label: 'Kira seçimi', value: '1.200 PLN\'den', note: '7-21 gün · 5-8 obje · sözleşme' },
+        { label: 'Daire alımı', value: '%1,5-2,5', note: 'Değerinden · tam döngü' },
+        { label: 'AB dışı için MSWiA', value: '2.800 PLN\'den', note: 'Alıma ek' }
+      ],
+      note: 'Kira: bedel sabittir, czynsz tutarına bağlı değildir. Alım: işlemden yüzde, asgari 6.000 PLN. PCC %2 ve noter (%1-1,5) tarifeye göre ayrı, biz almıyoruz.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Kodeks cywilny (madde 659-692 najem; madde 535-581 sprzedaż)',
+        'Ustawa z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców',
+        'Ustawa z dnia 21 czerwca 2001 r. o ochronie praw lokatorów (Kiracı Hakları Kanunu)',
+        'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece',
+        'Yabancı gayrimenkul izinleri hakkında MSWiA yönetmeliği'
+      ]
+    },
+    faq: [
+      { q: '2026\'da Varşova\'da kira gerçekten ne kadar?', a: 'Merkezde (Śródmieście, Wola) stüdyo - 2.800-4.200 PLN/ay + opłaty (yan giderler) 400-800 PLN. Mokotów / Ursynów\'da 2 odalı - 4.500-6.500 PLN + opłaty. Wilanów / Bemowo\'da 3 odalı aile dairesi - 6.000-9.000 PLN + opłaty. Bu rakamlar mediach (medya - elektrik ~150-300 PLN, gaz ~80-200 PLN, internet ~70 PLN) hariçtir.' },
+      { q: 'Opłata administracyjna nedir, neden ayrı?', a: 'Opłata administracyjna - kooperatif veya wspólnota mieszkaniowa\'ya (kat malikleri kuruluşuna) merdiven, asansör, kapıcı, çöp toplama hizmetleri için ödenen bedeldir. Genelde m² başına 8-15 PLN. 60 m²\'lik dairede czynsz\'in üstüne aylık 500-900 PLN\'dir. Birçok ilan "czynsz 4.500 PLN" yazıp opłata\'yı gizler. Önceden açıklığa kavuşturuyoruz.' },
+      { q: 'Polonya\'da işim olmadan kira tutabilir miyim?', a: 'Zordur. Mülk sahiplerinin %70\'i umowa o pracę veya 6+ aylık kira tutarında banka ekstresi ister. Alternatifler: 6-12 ay peşin ödeme, Polonyalı kefil, yüksek depozit (3 czynsz) veya yabancılara odaklı acentelerle çalışmak. Üç yöntem de yapılır.' },
+      { q: 'Meldunek konusunda mülk sahipleri itiraz ediyor, ne yapmalı?', a: 'Polonya hukuku gereği meldunek kiracının yükümlülüğüdür ve mülk sahibi yasal gerekçe olmadan reddedemez. Sözleşmeye baştan "z prawem do zameldowania" (meldunek hakkıyla) maddesi koyuyoruz - %90 anlaşmazlığı çözer. Mülk sahibi diretirse - başka obje arıyoruz.' },
+      { q: 'Sahte ilan dolandırıcılığından nasıl korunulur?', a: 'Şahsen görüntülemeden hiçbir ödeme yapmayız. Księga wieczysta\'yı kontrol ediyoruz - kamuya açık sicil, gerçek mülk sahibi 14 PLN\'ye görülebilir. KW\'de farklı soyad varsa, obje haciz altındaysa veya hipoteka değerin %80\'iyse - vazgeçiyoruz.' },
+      { q: 'Varşova\'da 60 m² daire almak gerçekten ne tutar?', a: '2026: Mokotów\'da 60 m² - 850.000-1.200.000 PLN, merkezde - 1.100.000-1.500.000 PLN. Fiyata + %2 PCC + %1-1,5 noter + %0,5 KW wpis + %1,5-2,5 danışmanlık ücretimiz = alıcı tarafında %5-7. Plus tadilat m² başına 2.000-4.000 PLN.' },
+      { q: 'AB dışı alıcı için MSWiA izni gerekli mi?', a: 'Şehirde daire için - hayır. Müstakil ev, yazlık, 0,4 ha üzeri arsa için - evet. Şehir dışı ticari gayrimenkulde de - evet. Zezwolenie verilme süresi 60-90 gün, MSWiA harcı 1.570 PLN. Anahtar teslim 2.800 PLN danışmanlık + resmi harç.' }
+    ],
+    related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
+    ctaTitle: 'Konutu 7-21 günde buluyoruz',
+    ctaSubtitle: 'Ücretsiz danışmanlık: ihtiyaç ve bütçenizi dinler, 48 saat içinde 3-5 en iyi seçeneği listeleriz. Seçim ve müzakere 7-21 gün.'
   }
 };
 

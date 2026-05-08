@@ -25,7 +25,7 @@ export const OG_IMAGE_HEIGHT = 900;
 export const REVIEW_RATING_VALUE = '4.9';
 export const REVIEW_COUNT = 312;
 
-export type SeoLocale = 'ru' | 'pl' | 'en';
+export type SeoLocale = 'ru' | 'pl' | 'en' | 'tr';
 
 export function languagesAlternate(
   basePath: (locale: SeoLocale) => string
@@ -71,8 +71,8 @@ export function organizationLd() {
       { '@type': 'Country', name: 'Poland' },
       { '@type': 'AdministrativeArea', name: 'European Union' }
     ],
-    availableLanguage: ['pl', 'ru', 'uk', 'en'],
-    knowsLanguage: ['pl', 'ru', 'uk', 'en'],
+    availableLanguage: ['pl', 'ru', 'uk', 'en', 'tr'],
+    knowsLanguage: ['pl', 'ru', 'uk', 'en', 'tr'],
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',

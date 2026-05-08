@@ -264,6 +264,94 @@ const tlumaczNaWizyty: ServiceEntry = {
     related: ['pomoc-w-zatrudnieniu', 'zapis-dzieci-do-szkoly', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Specialist at urząd in 24 hours',
     ctaSubtitle: 'Free consultation: specialist selection, question prep, procedure brief. Minimum booking - 2 hours.'
+  },
+  tr: {
+    slug: 'tlumacz-na-wizyty',
+    group: 'relocation',
+    icon: 'scale',
+    badge: 'Urząd · Banka · NFZ · Mahkeme · USC',
+    title: 'Ofis ziyaretlerinde tercüman',
+    subtitle: 'Urząd, banka, okul ve hastane randevularında eşlik',
+    lead: 'Polonyalı urzędnik İngilizce konuşmak zorunda değildir; POZ veya USC\'de neredeyse hiç kimse konuşmaz. LegalWin, sadece çeviri yapmayan, prosedürü de anlayan uzman tercümanlar gönderir: ZUS müfettişinin hangi soruları soracağını, kierownik USC\'nin hangi belgeleri isteyeceğini, zor durumda nasıl yanıt verileceğini bilir. Bu, "tercüman" buzzword\'ü değil, uzman eşliktir.',
+    facts: [
+      { label: 'Ücret', value: '250 PLN/saatten', note: 'asgari 2 saat · ru/uk/be/en' },
+      { label: 'Rezervasyon süresi', value: '24 saat', note: 'standart · acil 4 saatten' },
+      { label: 'Şehirler', value: 'WAW · WRO · KRK · GDN · POZ', note: 'bölgeye gidiş +%50' },
+      { label: 'Diller', value: 'PL ↔ TR/RU/UK/BE/EN', note: 'diğerleri için yeminli tercüman' }
+    ],
+    grounds: {
+      title: 'Nerelerde eşlik ediyoruz',
+      subtitle: 'Prosedürü bilen uzman - sokaktan tercüman değil. Karmaşık dosyalarda kritik fark.',
+      items: [
+        { title: 'Urząd Wojewódzki', desc: 'TRC, daimi ikamet, Karta Polaka, vatandaşlığa kabul başvurusu. Karmaşık prosedür - sıradan tercüman değil, uzman gerekir.' },
+        { title: 'ZUS / Urząd Skarbowy', desc: 'İşveren tescili, A1, niezaleganie, NIP-7, VAT kaydı - vergi hukuku bilgisiyle.' },
+        { title: 'USC - evlilik akdi', desc: 'Wniosek o ślub, evlilik aktının imzası. Ayrıca - umiejscowienie aktu zagranicznego.' },
+        { title: 'NFZ / doktor / hastane', desc: 'POZ ziyareti, uzman, tanı, yatış, Medicover / Lux Med özel sağlık merkezleri.' },
+        { title: 'Okul / anaokulu', desc: 'Çocuk kaydı, klasa powitalna (uyum sınıfı), orzeczeń specjalistycznych\'in (uzman raporları) değerlendirilmesi, pedagogiem szkolnym (okul psikoloğu) ile görüşme.' },
+        { title: 'Banka - hesap açılışı', desc: 'Pekao, mBank, Santander, ING\'de KYC formları. Özellikle karta pobytu sahibi gayrimukimler için.' },
+        { title: 'Notariusz - işlemler ve vekaletname', desc: 'Konut alımına dair akt notarialny, vekaletnameler, evlilik sözleşmeleri - tercüme hatasına yer olmayan yerler.' },
+        { title: 'Sąd / polis / savcılık', desc: 'Sorgular, beyanlar, hukuk davaları, boşanma. Burada zorunlu olarak yeminli tercümanla çalışıyoruz.' }
+      ]
+    },
+    timeline: {
+      title: 'Eşlik süreci',
+      subtitle: 'Talepten urząd\'tan sonuçla çıkana kadar.',
+      steps: [
+        { title: 'Rezervasyon', duration: '5 dk', desc: 'Tarih, saat, urząd, ziyaret amacı. Onay ve uzman iletişim bilgisini alıyorsunuz.' },
+        { title: 'Hazırlık', duration: '30-60 dk', desc: 'Uzman durumunuzu inceler: belge türü, gerekçe, geçmiş işlemler. Soru ve belge listesi hazırlar.' },
+        { title: 'Ziyaret öncesi buluşma', duration: '15 dk', desc: 'Urząd öncesi (kafede veya girişte) - son koordinasyon: ne söyleneceği, ne gösterileceği, hangi soruların gelebileceği.' },
+        { title: 'Urząd\'da eşlik', duration: '1-3 saat', desc: 'Uzman gişeye sizinle gelir, urzędnika\'nın sorularını çevirir, formuları doldurmanıza yardım eder, uzupełnienia\'lara yanıt verir.' },
+        { title: 'Sonuç belgelerinin teslimi', duration: '15 dk', desc: 'İmzalı protokoły / pisma / zaświadczenia\'yı alıyorsunuz. Uzman içeriği ve sonraki adımları açıklar.' },
+        { title: 'Posta sonrası takip', duration: 'otomatik', desc: 'Urząd ziyaret sonrası pisma gönderirse - çevirir ve açıklarız, yanıtları hazırlarız. İlk ziyaret ücretine dahildir (30 güne kadar).' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Hazırlık için asgari paket. Bireysel olarak belirlenir.',
+      items: [
+        'Pasaport ve kopyası (varsa PESEL)',
+        'Karta pobytu veya başka ikamet belgesi',
+        'Ziyaret amacı (TRC, ZUS, USC, evlilik, sağlık)',
+        'Bu dosyaya ilişkin urząd\'tan gelen tüm pisma / formuları',
+        'Urzędnika iletişim bilgisi (varsa)',
+        'LegalWin\'e vekaletname (urząd\'da imzalar için)',
+        'Sormak istediğiniz sorular listesi',
+        'Tarih, saat, urząd adresi (sokak + biliyorsanız okienko)'
+      ]
+    },
+    pricing: {
+      title: 'Ücret',
+      subtitle: 'Saatlik ücret. Asgari 2 saat.',
+      items: [
+        { label: 'Ziyarete hazırlık görüşmesi', value: 'Ücretsiz', note: '15 dakika · brif' },
+        { label: 'Urząd\'da eşlik', value: '250 PLN/saatten', note: 'Asgari 2 saat · uzman tercüman' },
+        { label: 'Acil (24 saat)', value: '+%30', note: 'Rezervasyon 24 saatten kısa süre öncesinde yapıldıysa' },
+        { label: 'Sąd / savcılık', value: '350 PLN/saatten', note: 'Gerekirse yeminli tercüman' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Şehir içi ulaşım dahildir. Şehir dışı +%50. Mahkeme için yeminli sözlü tercüman MS tarifelerine göre ayrıdır.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Kodeks postępowania administracyjnego - madde 5 (Lehçe dil zorunluluğu)',
+        'Ustawa z dnia 25 listopada 2004 r. o zawodzie tłumacza przysięgłego (Yeminli Tercüman Mesleği Kanunu)',
+        'Ustawa z dnia 6 lipca 1982 r. o radcach prawnych (Hukuk Müşaviri Kanunu - hukuki eşlik)',
+        'Ustawa z dnia 26 maja 1982 r. - Prawo o adwokaturze (Avukatlık Kanunu)',
+        'Polonya Cumhuriyeti Anayasası - madde 27 (resmi dil: Lehçe)'
+      ]
+    },
+    faq: [
+      { q: 'Uzman-tercüman ile sıradan sözlü tercümanın farkı nedir?', a: 'Sıradan tercüman kelime çevirir. Uzman-tercüman prosedürü anlar: urzędnika\'nın hangi cevabı beklediğini bilir, ret riskini en aza indirmenin yolunu bulur, hangi belgenin eklenmesi gerektiğini söyler. Karmaşık dosyalarda (TRC, naturalizacja, sąd) "alındı" ile "reddedildi" arasındaki fark, tercüman değil uzmandır.' },
+      { q: 'Urząd her tercümanı kabul eder mi?', a: 'İdari prosedürlerde - evet, müvekkilin seçtiği herkes uygundur. Ama sąd, prokuratura ve polis süreçlerinde - MS sicilinden yeminli tercüman zorunludur. Prosedür gerektirirse onu çağırıyoruz.' },
+      { q: 'Uzmanı bensiz gönderebilir misiniz?', a: 'Yalnızca pełnomocnictwo varsa. Kira sözleşmesi imzası, vekaletnameler, karta pobytu teslimi, hesap açılışı - evet, pełnomocnictwo ile yapıyoruz. Ama evlilik akdi, TRC biyometri ve vatandaşlık sınavı için kişisel huzur şarttır.' },
+      { q: 'Gerçekte kaç saat gerekir?', a: 'Basit ZUS ziyareti - 1-2 saat. Biyometrili TRC sunma - 2-3 saat. USC\'de evlilik töreni - 1 saat tören + 30 dakika başvuru. Noterde daire alımı - 2-4 saat. Sąd\'da - 4 saatten. Her ihtimale karşı +1 saat rezerve ediyoruz.' },
+      { q: 'Ziyaret aynı gün iptal olursa?', a: 'İptal bizim hatamızsa (uzman hastalandı, gecikti) - %100 iade. İptal sizden 24 saatten kısa sürede gelirse - rezervasyonun %50\'si. Urząd kapalıysa veya sistem çöktüyse - ek ücret olmadan erteliyoruz.' },
+      { q: 'Uzmanı dosyama göre nasıl seçiyorsunuz?', a: 'Farklı uzmanlık alanlarımız var. Göçmenlik uzmanı - TRC/daimi ikamet için. Kurumsal - KRS/USC/Notar için. Aile - evlilik/boşanma/çocuk için. Sąd ve prokuratura için yeminli tercümanla çalışıyoruz. Brif sonrası bir saat içinde uzmanı belirliyoruz.' },
+      { q: 'Hizmeti uzaktan alabilir miyim?', a: 'Kısmen. Bankaya görüntülü görüşme, ePUAP üzerinden uzaktan başvuru, urząd ile yazışma - evet, yapıyoruz. TRC biyometri, evlilik töreni, sąd - yalnızca yüz yüze. Uzaktan çalışmanın ücreti normal tarifenin %50\'sidir.' }
+    ],
+    related: ['pomoc-w-zatrudnieniu', 'zapis-dzieci-do-szkoly', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Urząd\'a uzman 24 saatte',
+    ctaSubtitle: 'Ücretsiz danışmanlık: ziyarete uygun uzmanın seçimi, sorular hazırlığı, prosedür brifi. Asgari rezervasyon 2 saattir.'
   }
 };
 

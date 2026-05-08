@@ -267,6 +267,95 @@ const pomocWZatrudnieniu: ServiceEntry = {
     related: ['zaproszenia', 'meldunek', 'pesel'],
     ctaTitle: 'CV → contract in 6-8 weeks',
     ctaSubtitle: 'Free consultation: profile review, 2026 salary calc, optimal path (employment, B2B, Blue Card).'
+  },
+  tr: {
+    slug: 'pomoc-w-zatrudnieniu',
+    group: 'relocation',
+    icon: 'fingerprint',
+    badge: 'Zezwolenie na pracę · Mavi Kart · Lehçe CV',
+    title: 'İşe yerleşmede destek',
+    subtitle: 'Polonya standartlarında özgeçmiş, zezwolenie na pracę (çalışma izni)',
+    lead: 'Polonya iş piyasası yabancıdan yalnızca İngilizce değil, yerel iş kültürünü anlamayı da bekler: özgeçmiş formatı, mülakat beklentileri, doğru umowa türünün seçimi, çalışma için yasal dayanaklar. LegalWin, özgeçmişinizi Polonya ATS sistemleri için (Talent Place, Pracuj.pl) hazırlar, işveren tarafında zezwolenie na pracę başvurusunu yürütür, BT ve mühendislik uzmanları için Mavi Kart işlemlerini yapar, umowa o pracę müzakerelerini sizin yerinize yönetir.',
+    facts: [
+      { label: 'Zezwolenie süresi', value: '14-60 gün', note: 'wojewoda · standart' },
+      { label: 'Zezwolenie harcı', value: '100 PLN', note: 'her zezwolenie için opłata skarbowa' },
+      { label: 'Asgari brüt ücret 2026', value: '4.806 PLN', note: 'tam zamanlı çalışma' },
+      { label: 'Mavi Kart - maaş', value: '≥ 1,5×', note: '~10.500 PLN brüt/ay' }
+    ],
+    grounds: {
+      title: 'Sunduğumuz hizmetler',
+      subtitle: 'CV hazırlığından umowa imzasına kadar tam paket.',
+      items: [
+        { title: 'Polonya standardında CV', desc: 'Pracuj.pl / LinkedIn / Talent Place için uyarlama: format, hacim, fotoğraf, RODO klozu, CEFR seviyeleri. Lehçeye yeminli tercüme.' },
+        { title: 'Mülakat hazırlığı', desc: 'Native öğretmenle Lehçe mock interview, Polonya HR\'ında tipik sorular, maaş müzakeresi (2026 piyasa verileri), kültürel nüanslar.' },
+        { title: 'Zezwolenie na pracę tip A', desc: 'Standart - Polonyalı işverenle umowa o pracę için. MOS üzerinden 14-30 gün. Başvuruyu işveren yapar, biz hazırlarız.' },
+        { title: 'Zezwolenie tip B/C/D/E', desc: 'Yönetim kurulu üyeleri için (tip B), oddelegowanie - geçici görevlendirilen çalışanlar (C), danışmanlar (D), 30 günü aşan hizmetler (E).' },
+        { title: 'Oświadczenie o powierzeniu pracy', desc: 'UA, BY, RU, MD, GE, AM vatandaşları için basitleştirilmiş prosedür - 24 aya kadar çalışma. Powiatowy Urząd Pracy\'ye (Bölge İş Kurumu) 7 gün içinde başvuru.' },
+        { title: 'BT ve mühendislere AB Mavi Kartı', desc: 'Yüksek maaş (≥ 1,5× ülke ortalaması), en az 1 yıllık umowa, yüksek öğrenim - 3 yıllık TRC sağlar ve 18 ay sonra AB içi geçiş hakkı verir.' },
+        { title: 'İş sözleşmesi incelemesi', desc: 'Sunulan umowa\'nın analizi: kar umowny (cezai şart), klauzule konkurencji (rekabet yasağı), okres wypowiedzenia (ihbar süresi), niedyskryminacja (ayrımcılık yasağı), prim, izin.' },
+        { title: 'JDG / B2B alternatifi', desc: 'Yazılımcılar ve danışmanlar için samozatrudnienie açılışı: yurt dışı müşterilerle B2B sözleşmeleri, IP Box (%5 vergi), zezwolenie gerekmiyor.' }
+      ]
+    },
+    timeline: {
+      title: 'CV\'den umowa\'ya tam döngü',
+      subtitle: 'İlk danışmanlıktan imzaya kadar standart süre 2-8 hafta.',
+      steps: [
+        { title: 'Danışmanlık', duration: '30 dk', desc: 'Profilinizi, hedeflerinizi, bütçenizi ve zezwolenie durumunuzu değerlendiririz. En uygun yolu öneririz: istihdam, B2B, Mavi Kart, JDG.' },
+        { title: 'CV ve LinkedIn', duration: '3-5 gün', desc: 'CV\'yi Polonya ATS sistemlerine uyarlarız. Paralel olarak LinkedIn profilinizi Polonya işe alım uzmanlarına göre optimize ederiz.' },
+        { title: 'İş ilanı arama', duration: '7-21 gün', desc: 'Pracuj.pl, NoFluffJobs (BT), JustJoinIT, Solid.Jobs üzerinden başvurularda yardım. İşe alım uzmanlarına direct-outreach.' },
+        { title: 'Mülakatlar', duration: '2-4 hafta', desc: 'Mock interview, takvim koordinasyonu, follow-up e-postalar. Kritik final görüşmelerinde eşlik.' },
+        { title: 'Teklif ve müzakere', duration: '3-7 gün', desc: 'Teklif analizi, pazarlık önerileri (maaş, prim, uzaktan çalışma), umowa düzeltmeleri.' },
+        { title: 'Zezwolenie na pracę', duration: '14-60 gün', desc: 'Teklifle paralel - işverenin tip A zezwolenie (veya Mavi Kart) wniosek\'ini sunarız. Decyzja\'ya kadar süreci yürütürüz.' },
+        { title: 'Umowa imzası', duration: '1 gün', desc: 'Sözleşmenin son okuması, işverenle uzlaşma, tanık veya noter huzurunda imza.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Temel paket - net liste danışmanlık sonrası belirlenir.',
+      items: [
+        'Pasaport + karta pobytu (veya başka ikamet belgesi)',
+        'Tüm diplomalar, sertifikalar, certyfikaty językowe (dil sertifikaları)',
+        'Mevcut CV (herhangi bir dilde)',
+        'Son 5-10 yıllık iş tecrübesi - rol ve proje açıklamalarıyla',
+        'LinkedIn profili (veya açma onayı)',
+        'Hedef maaş (net veya brüt)',
+        'Lokasyon: yalnızca Varşova, uzaktan çalışma uygun, taşınmaya açık',
+        'Zezwolenie için belgeler: PESEL, meldunek, niteliklerin kanıtı'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Paket başına sabit ücret. Ödeme aşamalara bağlıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · profil değerlendirmesi' },
+        { label: 'CV + LinkedIn optimizasyonu', value: '600 PLN\'den', note: 'Polonya pazarına uyarlama + yeminli tercüme' },
+        { label: 'Anahtar teslim iş arama', value: '2.500 PLN\'den', note: 'CV + 5 başvuru + mülakatlar + müzakere' },
+        { label: 'Zezwolenie na pracę', value: '1.500 PLN\'den', note: 'İşveren tarafında başvuru · 14-60 gün' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Zezwolenie damga vergisi (100 PLN), oświadczenie (90 PLN), Mavi Kart için MSZ (Dışişleri Bakanlığı) yeterlilik incelemesi (100 PLN), diplomaların yeminli tercümesi (~80 PLN/belge) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 20 kwietnia 2004 r. o promocji zatrudnienia i instytucjach rynku pracy (İstihdam Teşviki ve İşgücü Piyasası Kurumları Kanunu)',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (Yabancılar Kanunu - işten kaynaklı oturum izni)',
+        'Rozporządzenie MRPiPS w sprawie wydawania zezwoleń na pracę (Çalışma Bakanlığı zezwolenie yönetmeliği)',
+        '2009/50/AT Direktifi - AB Mavi Kartı',
+        'Kodeks pracy (İş Kanunu - umowa o pracę, izin, fesih)'
+      ]
+    },
+    faq: [
+      { q: '2026\'da Polonya\'da BT alanında yabancılar için ortalama maaş?', a: 'Junior yazılımcı - 8.000-12.000 PLN brüt/ay. Mid (3-5 yıl deneyim) - 13.000-20.000 PLN. Senior - 20.000-32.000 PLN. Lead / Architect - 30.000-45.000 PLN. Bu rakamlar umowa o pracę (iş sözleşmesi) içindir. B2B\'de (JDG - şahıs şirketi) IP Box ve düşük vergi sayesinde aynı netteki gelir için %30-40 daha yüksek brüt görülür.' },
+      { q: 'Umowa o pracę mi yoksa B2B mi avantajlı?', a: 'Maaşa ve deneyime bağlıdır. 12.000 PLN brüt altı - umowa o pracę (iş sözleşmesi: ZUS avantajları, izin, çalışma hakları). 15.000 PLN üzeri - JDG ve IP Box, gelirin %70\'inden fazlasında %5 vergi sağlar. Sizin durumunuzu danışmanlıkta birebir hesaplıyoruz.' },
+      { q: '2026\'da zezwolenie na pracę ne kadar sürede çıkıyor?', a: 'Zezwolenie na pracę MOS v2.0 üzerinden tipik olarak 14-30 günde çıkar. Mazowieckie\'de yüksek yoğunluk nedeniyle 60 güne kadar uzayabilir. Öncelikli kategoriler için (BT, mühendislik, sağlık) hızlı süreç 7-14 gündür. Daha hızlı prosedür yalnızca smart-citizenship için mevcuttur.' },
+      { q: 'Zezwolenie olmadan çalışılabilir mi?', a: 'Yalnızca istisnai durumlarda: Polonya öğrenci vizesiyle gelen öğrenciler, AB / EFTA / İsviçre vatandaşları, çalışma hakkı içeren TRC sahipleri, "özel" prosedür altındaki UA vatandaşları, Polonya vatandaşlarının aile bireyleri. Diğer durumlarda zezwolenie\'siz çalışmanın cezası işverene 30.000 PLN\'ye kadar, yabancıya 5 yıla kadar zakaz wjazdu (giriş yasağı) olarak kesilir.' },
+      { q: 'Oświadczenie o powierzeniu pracy nedir?', a: 'Oświadczenie o powierzeniu pracy (işin emanet edilmesine dair beyan) - UA, BY, RU, MD, GE, AM vatandaşları için basitleştirilmiş prosedürdür. İşveren Powiatowy Urząd Pracy\'ye (Bölge İş Kurumu) 7 gün içinde 60 PLN ile oświadczenie kaydı yaptırır ve yabancı, son 36 ay içinde 24 aya kadar çalışabilir. Sonrasında zezwolenie na pracę veya TRC gerekir. En hızlı yoldur.' },
+      { q: 'AB Mavi Kartı bana uygun mu?', a: 'Niebieska Karta UE şu koşullar varsa size uygundur: 1) yüksek öğrenim (lisans+); 2) en az 12 aylık sözleşme; 3) Polonya ortalama maaşının 1,5 katı maaş (2026\'da ~10.500 PLN brüt/ay); 4) Polonyalı işverenle umowa. Avantajlar: 3 yıllık TRC, 18 ay sonra AB içi geçiş, basitleştirilmiş aile birleşimi, daimi ikamete hızlandırılmış yol.' },
+      { q: '3 ayda iş bulamadım, ne yapacaksınız?', a: 'Sebepleri analiz ediyoruz: CV, profil, maaş beklentisi, lokasyon. Stratejiyi düzeltiyoruz. Premium "Anahtar teslim iş arama" paketimizde 6 ay içinde iş garantisi vardır - bulamazsak ücretin %50\'sini iade ediyoruz.' }
+    ],
+    related: ['zaproszenia', 'meldunek', 'pesel'],
+    ctaTitle: 'CV\'den umowa\'ya 6-8 hafta',
+    ctaSubtitle: 'Ücretsiz danışmanlık: profilinizi inceler, 2026 piyasasında maaş hesabı yapar, en uygun yolu seçeriz (umowa o pracę, B2B, Mavi Kart).'
   }
 };
 

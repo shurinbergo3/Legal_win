@@ -234,6 +234,84 @@ const apelacje: ServiceEntry = {
     related: ['karta-pobytu', 'ochrona-miedzynarodowa', 'obywatelstwo'],
     ctaTitle: 'Got a denial - call today',
     ctaSubtitle: 'Every day brings the deadline closer. In 48 hours we\'ll review the decision and give a realistic prognosis.'
+  },
+  tr: {
+    slug: 'apelacje',
+    group: 'immigration',
+    icon: 'gavel',
+    badge: '14 + 30 + 30 gün',
+    title: 'İtiraz ve idare mahkemesi',
+    subtitle: 'Urząd do Spraw Cudzoziemców (Yabancılar İdaresi) kararlarına itiraz',
+    lead: 'Ret kararı son söz değildir. Üç aşamalı bir mekanizma vardır: UdSC Başkanı\'na (Szef UdSC) yapılan odwołanie (idari itiraz), Wojewódzki Sąd Administracyjny\'ye (WSA - Eyalet İdare Mahkemesi) skarga (dava), ve Naczelny Sąd Administracyjny\'ye (NSA - Yüksek İdare Mahkemesi) skarga kasacyjna (temyiz). Sürelerin kaçırılması dosyanın ölümü demektir.',
+    facts: [
+      { label: 'Odwołanie (idari itiraz)', value: '14 gün', note: 'kararın tebliğ tarihinden itibaren' },
+      { label: 'WSA\'ya skarga (dava)', value: '30 gün', note: 'II. derece kararından itibaren' },
+      { label: 'Skarga kasacyjna (temyiz)', value: '30 gün', note: 'Naczelny Sąd Administracyjny\'ye' },
+      { label: 'Mahkeme harcı', value: '200 PLN\'den', note: 'WSA · zwolnienie (muafiyet) talep edilebilir' }
+    ],
+    grounds: {
+      title: 'Hangi kararlara itiraz ediyoruz',
+      items: [
+        { title: 'TRC / daimi ikamet reddi', desc: 'En sık görülen kategori. Tipik gerekçeler: "amaç uyumsuzluğu", "yetersiz gelir", "eksik dosya", "yükümlülük ihlali".' },
+        { title: 'Vatandaşlık reddi', desc: 'Wojewoda kararı (uznanie) veya Cumhurbaşkanı kararı (nadanie - itiraz edilemez ama yeniden başvurulabilir).' },
+        { title: 'Uluslararası koruma reddi', desc: 'Rada do Spraw Uchodźców\'a (Mülteciler Kurulu) odwołanie, ardından WSA ve NSA.' },
+        { title: 'Kartın iptali', desc: 'Urząd, ihlal nedeniyle TRC/daimi ikameti iptal edebilir. Acil itiraz gerekir.' },
+        { title: 'Sınır dışı (geri dönüş) kararı', desc: 'Zobowiązanie do powrotu. AB\'ye girişi yıllarca kısıtlar - itiraz hayati öneme sahiptir.' },
+        { title: 'Giriş yasağı (SIS)', desc: 'Schengen Information System\'a kayıt. İtiraz prosedürü karmaşıktır ancak mümkündür.' }
+      ]
+    },
+    timeline: {
+      title: 'İtiraz aşamaları',
+      steps: [
+        { title: 'Kararın tebliği', duration: '0. gün', desc: 'Karar eDoręczenia üzerinden gelir. Süre tebliğden itibaren işlemeye başlar. Gözden kaçırmayın!' },
+        { title: 'Hızlı analiz', duration: '1-3 gün', desc: 'Ret gerekçesini inceler, hukuki ve maddi hataları tespit eder, yeni kanıtları toplarız.' },
+        { title: 'Odwołanie (idari itiraz)', duration: '3.-14. gün', desc: 'İtirazı kararı veren makamın kendisine sunarız. Makam dosyayı II. dereceye iletir.' },
+        { title: 'II. derece incelemesi', duration: '1-3 ay', desc: 'UdSC Başkanı (veya Mülteciler Kurulu) yeni karar verir veya kararı onaylar.' },
+        { title: 'WSA\'ya skarga (dava)', duration: '+30 gün', desc: 'II. derece red verirse - mahkemeye 30 gün. İnceleme 6-18 ay.' },
+        { title: 'NSA\'ya kasacja (temyiz)', duration: 'WSA\'dan 30 gün', desc: 'Son derece. Maddi veya usul hukuku ihlallerini inceler.' }
+      ]
+    },
+    documents: {
+      title: 'İtiraz için gerekenler',
+      items: [
+        'İtiraza konu kararın orijinali',
+        'İlk başvuru dosyasının tüm belgeleri (başvuru kopyası, ekler, ek talep yazışmaları)',
+        'Kararın hatalı olduğunu kanıtlayan belgeler (yeni belgeler, uzman görüşleri)',
+        'Makamla yapılan yazışmalar (eDoręczenia dahil)',
+        'Skarga (dava) harcının ödendiğine dair belge (WSA için 200 PLN) veya wniosek o zwolnienie (muafiyet talebi)',
+        'Avukat / temsilci için pełnomocnictwo (vekaletname)'
+      ]
+    },
+    pricing: {
+      title: 'Bedel',
+      items: [
+        { label: 'Karar hızlı analizi', value: '500 PLN', note: 'Şansları 48 saatte değerlendiririz. Süreci yürütmemiz halinde bu tutar ana ücretten düşülür.' },
+        { label: 'Odwołanie (II. derece itiraz)', value: '1.800 PLN\'den', note: 'Hazırlık + sunma' },
+        { label: 'WSA\'ya skarga', value: '3.500 PLN\'den', note: 'Tam mahkeme temsili' },
+        { label: 'NSA\'ya skarga kasacyjna', value: '4.500 PLN\'den', note: 'Yalnızca karmaşık dosyalar' }
+      ],
+      note: 'WSA\'da kazanılırsa karşı taraf yargılama giderlerinin bir kısmını öder (zwrot kosztów postępowania).'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 14 czerwca 1960 r. - Kodeks postępowania administracyjnego (KPA - İdari Yargılama Usul Kanunu)',
+        'Ustawa z dnia 30 sierpnia 2002 r. - Prawo o postępowaniu przed sądami administracyjnymi (İdare Mahkemeleri Önündeki Yargılama Kanunu)',
+        'Ustawa o cudzoziemcach - madde 156 (itirazlar)',
+        '2013/32/AB Direktifi - madde 46 (etkili başvuru hakkı)'
+      ]
+    },
+    faq: [
+      { q: 'Odwołanie süresi kaçırılırsa ne olur?', a: 'Decyzja\'nın (kararın) tebliğinden itibaren 14 gün katı bir süredir. Süre kaçırılırsa karar kesinleşir, dosya kapanır. Süre, yalnızca istisnai durumlarda (hastalık, kanıtlı mücbir sebep) wniosek o przywrócenie terminu (sürenin yeniden açılması talebi) ile yeniden açılabilir.' },
+      { q: 'Apelacja sürecinde Polonya\'da kalabilir miyim?', a: 'Evet. Odwołanie (idari itiraz) süresi boyunca ikametiniz yasallaşır - karar kesinleşmez. Ancak ikinci karar da olumsuzsa ve WSA\'ya (Eyalet İdare Mahkemesi) skarga (dava) açıldıysa ikamet otomatik yasallaşmaz; wstrzymanie wykonania decyzji (kararın icrasının durdurulması) talep edilmesi gerekir.' },
+      { q: 'Başarı şansı ne kadar?', a: 'TRC / daimi ikamet dosyalarında - odwołanie aşamasında %30-40, WSA aşamasında %15-25. Ret kararı somut hatalar (usul ihlali, normun yanlış yorumlanması, kanıtların göz ardı edilmesi) içerdiğinde şans çok daha yüksektir. Yalnızca gerçek şansı olan dosyaları alıyoruz.' },
+      { q: 'NSA\'ya kadar tüm süreç ne kadar sürer?', a: 'Toplam 1,5-3 yıl. Odwołanie - 3 aya kadar, WSA - 6-18 ay, NSA - 12-24 ay. Vakaların %80\'i ilk iki derecede çözülür.' },
+      { q: 'İtiraz yerine yeniden başvuru yapabilir miyim?', a: 'Evet, ancak farklı bir prosedürdür. Ret kararı maddi hatalar içeriyorsa (siz tespit ettiyseniz) - apelacja daha etkilidir. Koşullarınız değiştiyse (yeni iş, evlilik) - yeniden başvurmak daha pratik olabilir.' },
+      { q: 'Sınır dışı kararına karşı apelacja işe yarar mı?', a: 'Hayati önem taşır. İtiraz süresi boyunca sınır dışı kararı askıya alınır. Acil dosyalarda uzmanız - 24 saat içinde itiraz hazırlayabiliyoruz.' }
+    ],
+    related: ['karta-pobytu', 'ochrona-miedzynarodowa', 'obywatelstwo'],
+    ctaTitle: 'Ret kararı aldıysanız - bugün arayın',
+    ctaSubtitle: 'Her gün son tarihi yaklaştırıyor. 48 saat içinde kararınızı analiz eder, derecelerdeki şansınız hakkında gerçekçi bir tahmin veririz.'
   }
 };
 

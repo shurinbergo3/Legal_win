@@ -264,6 +264,94 @@ const apostille: ServiceEntry = {
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
     ctaTitle: 'Apostille in 3-5 days',
     ctaSubtitle: 'Free consultation: document, destination, form of legalisation. Standard cycle - 3-5 working days.'
+  },
+  tr: {
+    slug: 'apostille',
+    group: 'documents',
+    icon: 'landmark',
+    badge: '1961 Lahey Sözleşmesi · MSZ',
+    title: 'Apostille ve resmi onay',
+    subtitle: 'Yurt dışında kullanılacak belgelerin apostille ve legalizasyonu',
+    lead: 'Apostille, 1961 Lahey Sözleşmesi\'ne taraf devletler arasında belgelerin basitleştirilmiş uluslararası onayıdır. Polonya belgesinin yurt dışında (veya yabancı belgenin Polonya\'da) kullanılması için üzerinde apostille bulunması zorunludur. USC nüfus belgelerine, noter senetlerine, KRS çıktılarına, diplomalara ve mahkeme kararlarına apostille çıkartıyoruz. Sözleşme dışı ülkeler (Türkiye dahil değildir - Türkiye Lahey üyesidir) için MSZ ve konsolosluk üzerinden tam legalizasyon yürütüyoruz.',
+    facts: [
+      { label: 'Süre', value: '3-5 gün', note: 'MSZ apostille · standart' },
+      { label: 'Resmi harç', value: '60 PLN', note: 'her bir apostille için' },
+      { label: 'Yer', value: 'MSZ Varşova', note: 'USC için ayrıca wojewoda' },
+      { label: 'Geçerlilik', value: 'süresiz', note: 'süresiz belgeler için' }
+    ],
+    grounds: {
+      title: 'Hangi belgelere apostille çıkartılır',
+      subtitle: '1961 Lahey Sözleşmesi gereği kamusal belgelere. Ticari belgeler için önce noter onayı gereklidir.',
+      items: [
+        { title: 'USC nüfus belgeleri', desc: 'Akt urodzenia (doğum), małżeństwa (evlilik), zgonu (ölüm) belgeleri - apostille\'i belgenin verildiği yerin wojewoda\'sı düzenler.' },
+        { title: 'Noter senetleri', desc: 'Akt notarialny, pełnomocnictwo (vekaletname), oświadczenie (beyan) - izba notarialna (noterler birliği) onayının ardından MSZ apostille\'i.' },
+        { title: 'KRS / CEIDG çıktıları', desc: 'Yurt dışında şirket kuruluşu, hesap açma veya işlem yapmak için tam sicil çıktıları.' },
+        { title: 'Adli sicil belgeleri (KRK)', desc: 'Krajowy Rejestr Karny zaświadczenie\'si - yurt dışı çalışma vizesi, vatandaşlık, oturum izni başvuruları için.' },
+        { title: 'Diplomalar ve sertifikalar', desc: 'Eğitim ve Bilim Bakanlığı (MEiN) apostille\'i - Türkiye, ABD, AB, BDT\'de diploma denkliği için.' },
+        { title: 'Mahkeme kararları', desc: 'Wyroki sądów - yurt dışı icra, evlilik / boşanma tanınması, miras davaları için.' },
+        { title: 'Yabancı belgelere apostille', desc: 'Belgenin verildiği ülkenin konsolosluğu veya yerel ortağımız aracılığıyla apostille temin etmenize yardımcı oluyoruz.' },
+        { title: 'Tam legalizasyon (Sözleşme dışı ülkeler)', desc: 'Çin, BAE gibi ülkeler için tam zincir: noter → MSZ → hedef ülkenin konsolosluğu. 4 haftaya kadar.' }
+      ]
+    },
+    timeline: {
+      title: 'Apostille süreci',
+      subtitle: 'Belge teslimden apostille\'ye standart döngü - 3-5 iş günü.',
+      steps: [
+        { title: 'Danışmanlık', duration: '20 dk', desc: 'Belge türü, kullanılacak ülke, ön onay durumu (notariusz, izba notarialna) hakkında konuşuyoruz.' },
+        { title: 'Belge hazırlığı', duration: '1-2 gün', desc: 'Güncel odpis (USC, KRS, KRK için) alıyor, gerekiyorsa tercüme veya kopya için noter onayı yaptırıyoruz.' },
+        { title: 'MSZ veya wojewoda\'ya başvuru', duration: '1 gün', desc: 'e-Apostille MSZ üzerinden çevrimiçi veya Varşova ul. Krucza 38/42 adresine bizzat. USC için belgenin verildiği yerin wojewoda\'sı.' },
+        { title: 'Apostille düzenlenmesi', duration: '3-5 gün', desc: 'MSZ, çevrimiçi sorgulanabilir benzersiz numarayla apostille basar. Acil işlem için express tarife (+%50, 1 gün).' },
+        { title: 'Kurye teslimatı', duration: '1-2 gün', desc: 'Orijinali DHL Express ile dünya çapında gönderiyor veya Varşova\'da bizzat teslim ediyoruz.' },
+        { title: 'Tercüme (gerekirse)', duration: '2-3 gün', desc: 'Apostille ve belgenin hedef ülke diline yeminli tercümesi.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Asgari paket. Net liste belge türüne göre belirlenir.',
+      items: [
+        'Belgenin orijinali (USC odpis, KRS çıktı, diploma, noter senedi)',
+        'Belge güncel olmalıdır - KRS / KRK için 6 aydan eski olmamalı',
+        'Belge sahibinin pasaportu (başvuru kaydı için)',
+        'Hedef ülke adresi ve tercüme dili',
+        'Kullanım amacı - doğru apostille formu için',
+        'LegalWin\'e vekaletname (belge size ait değilse)',
+        'Doldurulmuş wniosek - biz hazırlıyoruz',
+        'Legalizasyon için - hedef konsolosluğun bilgileri'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'MSZ apostille\'i belge başına 60 PLN, wojewoda\'da da 60 PLN. Express %50 fazla.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '20 dakika · durum değerlendirmesi' },
+        { label: 'Anahtar teslim apostille', value: '250 PLN\'den', note: 'MSZ + kurye · 3-5 gün' },
+        { label: 'Apostille + yeminli tercüme', value: '380 PLN\'den', note: 'Hedef ülke diline tercümeyle' },
+        { label: 'Tam legalizasyon', value: '750 PLN\'den', note: 'Noter → MSZ → konsolosluk · 2-4 hafta' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Resmi harçlar (60 PLN apostille, 26 PLN izba notarialna, ~30-200 EUR konsolosluk) ve yeminli tercüme (~80 PLN/belge) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        '5 Ekim 1961 Lahey Sözleşmesi (apostille)',
+        'Ustawa z dnia 14 czerwca 1960 r. - Kodeks postępowania administracyjnego (KPA)',
+        'Dışişleri Bakanlığı (MSZ) apostille örneği yönetmeliği',
+        '1963 Konsolosluk İlişkileri Viyana Sözleşmesi',
+        'Ustawa z dnia 14 lutego 1991 r. - Prawo o notariacie (Noterlik Kanunu)'
+      ]
+    },
+    faq: [
+      { q: 'Apostille legalizasyonu hangi ülkelerde geçerlidir?', a: 'Tüm 1961 Lahey Sözleşmesi ülkelerinde - yaklaşık 130 devlet: Türkiye, AB, ABD, Kanada (2024\'ten), Birleşik Krallık, Rusya, Ukrayna (2003\'ten), Belarus, Kazakistan, Japonya, Kore, Brezilya vb. Bu ülkeler arasında bir apostille yeterlidir.' },
+      { q: 'Sözleşme dışı ülkeler (Çin, BAE, 2024 öncesi Kanada) için ne yapılmalı?', a: 'Tam legalizasyon: 1) noter onayı → 2) izba notarialna (noterlik aktları için) → 3) MSZ (Polonya Dışişleri) → 4) Polonya\'daki hedef ülke konsolosluğu. Süreç 2-4 hafta, danışmanlığımız 750+ PLN ve konsolosluk harçları ayrıca.' },
+      { q: 'Polonya\'da apostille gerçekte ne kadara mal olur?', a: 'MSZ damga vergisi - belge başına 60 PLN. Belge bir noter senediyse önce izba notarialna (noterler birliği) onayı (26 PLN) gerekir. Anahtar teslim danışmanlığımız 250 PLN\'den başlar. USC için apostille\'i wojewoda düzenler - aynı 60 PLN.' },
+      { q: 'Fotokopiye apostille yapılabilir mi?', a: 'Hayır - yalnızca orijinale veya noter onaylı suretine. İade edilemeyecek belgeler (diploma, doğum belgesinin orijinali) için noter onaylı kopya çıkartır ve ona apostille basarız.' },
+      { q: 'Apostille\'in süresi var mı?', a: 'Hayır, apostille\'in kendisinin süresi yoktur. Ancak altındaki belgenin süresi olabilir: KRS çıktısı 3 ay, KRK 6 ay. Apostille\'i taze odpis aldıktan hemen sonra düzenletin.' },
+      { q: 'Apostille\'in gerçekliği nasıl doğrulanır?', a: 'MSZ\'nin apostille.gov.pl sitesinde numara ve tarihle. Polonya\'dan tüm belgeler için bunu öneriyoruz. Diğer Sözleşme ülkelerinde de e-Apostille register üzerinden.' },
+      { q: 'Apostille\'in tercümesi gerekli mi?', a: 'Apostille\'in kendisi iki dilli (Lehçe + İngilizce/Fransızca) düzenlenir, tercümeye gerek yoktur. Altındaki belgenin hedef ülke diline yeminli tercümesi gerekir.' }
+    ],
+    related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
+    ctaTitle: 'Apostille 3-5 günde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: belgeyi, kullanılacağı ülkeyi ve legalizasyon biçimini netleştiririz. Standart döngü 3-5 iş günüdür.'
   }
 };
 

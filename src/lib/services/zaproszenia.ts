@@ -267,6 +267,95 @@ const zaproszenia: ServiceEntry = {
     related: ['odbior-z-lotniska', 'pomoc-w-zatrudnieniu', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Zaproszenie in 7-14 days',
     ctaSubtitle: 'Free consultation: financial review, full pack. From signing to register entry - typically 7-14 working days.'
+  },
+  tr: {
+    slug: 'zaproszenia',
+    group: 'relocation',
+    icon: 'fingerprint',
+    badge: 'Zaproszenie · D vizesi · Schengen',
+    title: 'Elektronik davetiye',
+    subtitle: 'Schengen ve ulusal vizeler için zaproszenia',
+    lead: 'Zaproszenie - Polonya gerçek veya tüzel kişisi tarafından düzenlenen, Urząd Wojewódzki nezdinde tescil edilen resmi davetiye belgesidir. Yurt dışı Polonya konsolosluğunda Schengen C veya ulusal D vizesi başvurusu için, başvuranın işveren daveti veya turistik rezervasyonu yoksa kullanılır. Davet eden taraf olarak çalışıyoruz: 7-14 gün içinde zaproszenie\'yi tescil ediyor, orijinali kuryeyle gönderiyor ve vize sürecinde eşlik ediyoruz.',
+    facts: [
+      { label: 'Tescil süresi', value: '7-14 gün', note: 'wojewoda · standart' },
+      { label: 'Resmi harç', value: '27 PLN', note: 'zaproszenie için opłata skarbowa' },
+      { label: 'Geçerlilik', value: '12 ay', note: 'sicile kaydedildiği tarihten itibaren' },
+      { label: 'Tescil yeri', value: 'Urząd Wojewódzki', note: 'davet edenin ikamet ettiği yere göre' }
+    ],
+    grounds: {
+      title: 'Zaproszenie ne zaman gerekir',
+      subtitle: 'Zaproszenie olmadan, başvuranın başka bir gerekçesi (umowa o pracę, şirket gwarancja\'sı, otel rezervasyonu) yoksa konsolosluk reddeder.',
+      items: [
+        { title: 'Uzun süreli D vizesi', desc: 'Aile birleşimi, akrabaya bakım, partner ziyareti için 365 güne kadar ulusal vize. Polonya mukimi tarafından zaproszenie ile.' },
+        { title: 'Schengen C - turistik vize', desc: '90 güne kadar kısa süreli. Başvuranın otel rezervasyonu yoksa - Polonya\'daki akraba veya arkadaş zaproszenie düzenler.' },
+        { title: 'İş ortağı için ticari vize', desc: 'Sp. z o.o. veya JDG, BDT veya Türkiye\'den iş ortağını - tedarikçiyi, müşteriyi, partneri - davet eder. Şirket adına tescil edilir.' },
+        { title: 'Eğitim ziyareti / staj', desc: 'Üniversite veya işveren, 6 aya kadar staj için davet eder - ayrı zezwolenie na pracę gerekmez.' },
+        { title: 'Aile ziyareti', desc: 'Polonya\'daki akraba ailesini - anne-babası, çocukları, eşi, büyükanne-büyükbabası - uzun süreli ziyaret için davet eder.' },
+        { title: 'Ağır hasta yakına ziyaret', desc: 'Acil ziyaret - sağlık raporuyla 3-5 günde express zaproszenie.' },
+        { title: 'Dini veya kültürel ziyaret', desc: 'Din görevlileri, sanatçılar, sporcular için - wniosek veya wzór С üzerinden tescil.' },
+        { title: 'Polonya\'da evlilik', desc: 'Damadın / gelinin partnerini USC\'de evlenmek için davet etmesi - genelde zaproszenie ile D vizesi.' }
+      ]
+    },
+    timeline: {
+      title: 'Zaproszenie süreci',
+      subtitle: 'İlk görüşmeden başvuranın vizeyi alımına - genelde 4-8 hafta.',
+      steps: [
+        { title: 'Danışmanlık', duration: '30 dk', desc: 'Ziyaret amacı, akrabalık derecesi, vize türü (C/D), süreler. Davet edenin mali yeterliliğini kontrol ediyoruz.' },
+        { title: 'Wniosek o zaproszenie', duration: '1 gün', desc: 'Wniosek\'i ek belgelerle dolduruyoruz: tytuł prawny do mieszkania, banka ekstreleri, geçen yıl PIT-37, şirket için KRS.' },
+        { title: 'Urząd Wojewódzki\'ye sunma', duration: '1 gün', desc: 'MOS v2.0 üzerinden veya bizzat. Opłata skarbowa 27 PLN ve pełnomocnictwo 17 PLN.' },
+        { title: 'Wojewoda incelemesi', duration: '7-14 gün', desc: 'Wojewoda davet edenin mali yeterliliğini kontrol eder (misafir başına ayda en az 515 PLN + konaklama).' },
+        { title: 'Sicile kaydetme', duration: '1 gün', desc: 'Zaproszenie benzersiz bir numara alır ve konsolosluklara açık merkezi zaproszeń sicilinde görüntülenir.' },
+        { title: 'Orijinalin gönderimi', duration: '3-7 gün', desc: 'Başvuranın bulunduğu ülkeye DHL veya Poczta Polska ile orijinali gönderiyoruz. Elektronik kopya - aynı anda e-posta ile.' },
+        { title: 'Vize başvurusu', duration: '14-30 gün', desc: 'Başvuran zaproszenie\'yle birlikte Polonya konsolosluğuna form ve belgelerle gider. Belge listesi danışmanlığı bizden.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler (davet eden)',
+      subtitle: 'Başvurandan ayrı bir paket konsoloslukta talep edilir.',
+      items: [
+        'Davet edenin pasaportu (PESEL zorunludur)',
+        'Konaklama hakkı belgesi: akt notarialny / umowa najmu / zaświadczenie o zameldowaniu',
+        'Gelir kanıtı: geçen yıl PIT-37, ZUS RMUA, son 3 ayın banka ekstresi',
+        'Asgari tutar - misafir başına ayda 515 PLN (~200 EUR · belgelenmesi şart)',
+        'Davet edilenin dönüş masraflarını üstlenme taahhüdü',
+        'Şirket KRS çıktısı (şirket davet ediyorsa) + statut + członek zarządu KRK\'sı',
+        'Davet edilenler listesi - pasaport bilgisi ve akrabalık derecesiyle',
+        'Doldurulmuş wniosek o zaproszenie - biz hazırlıyoruz'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Zaproszenie başına sabit fiyat. Resmi harçlar ayrıdır.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · şans değerlendirmesi' },
+        { label: 'Anahtar teslim zaproszenie', value: '600 PLN\'den', note: 'Belgeler, wniosek, urząd, kurye' },
+        { label: 'Acil (3-5 gün)', value: '950 PLN\'den', note: 'Urząd\'da express tarife' },
+        { label: 'Zaproszenie + vize eşliği', value: '1.200 PLN\'den', note: 'Başvurana danışmanlık dahil' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Resmi harç 27 PLN, pełnomocnictwo 17 PLN, DHL kurye ~120 PLN ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (Yabancılar Kanunu - bölüm 4, zaproszenia)',
+        'İçişleri Bakanlığı (MSWiA) zaproszenie örnek formu ve sicile kayıt yönetmeliği',
+        'AB Vize Kodeksi (810/2009 sayılı Tüzük)',
+        'Schengen Anlaşması Uygulama Sözleşmesi (ek III - geçim kanıtı şartı)',
+        'Ustawa z dnia 16 listopada 2006 r. o opłacie skarbowej (Damga Vergisi Kanunu)'
+      ]
+    },
+    faq: [
+      { q: 'Hesapta ne kadar para göstermek gerekir?', a: 'Misafir başına ayda asgari 515 PLN + dönüş için 200 PLN. 1 ay 3 kişilik aile - yaklaşık 1.850 PLN. Wojewodów çoğu 3 aylık banka ekstresinde hesaplanan tutarın üstünde istikrarlı bakiye ister.' },
+      { q: 'Cirosuz Sp. z o.o. zaproszenie düzenleyebilir mi?', a: 'Zordur. Wojewoda şirketin gerçekliğini kontrol eder - KRS, ZUS cirosu, bilans olup olmadığı. VAT-7 deklaracji ve çalışanı olmayan yeni şirket - genelde reddedilir. Gerçek kişi üzerinden veya köklü bir şirket üzerinden hazırlamak daha sağlıklıdır.' },
+      { q: 'Akraba Türkiye / Rusya\'daysa - oradan zaproszenie mümkün mü?', a: 'Hayır. Zaproszenie\'yi yalnızca Polonya urzędı düzenler ve davet edenin Polonya\'da yasal ikameti olmalıdır (PESEL, karta pobytu, vatandaşlık). Türkiye\'den olsa olsa oświadczenie o zaproszeniu (turistik vize için davet beyanı) düzenlenebilir, o farklı bir belgedir.' },
+      { q: 'Akrabalık olmadan davet edilebilir mi?', a: 'Evet - arkadaş, partner, meslektaş, iş ortağı. Önemli olan ziyaret amacının (kişisel tanışma, iş görüşmesi, etkinlik) belgelenmesidir. Net bir amaç olmadan wojewoda reddedebilir.' },
+      { q: 'Zaproszenie ne kadar geçerli?', a: 'Sicile kaydedildiği tarihten itibaren 12 ay. Başvuran bu süre içinde vize başvurusu yapmalıdır. D vizesi en fazla 365 gün için verilir. Schengen C - zaproszenie\'nin izin verdiği süre kadar.' },
+      { q: 'Ret kararı çıkarsa ne yapılır?', a: 'Szef UdSC\'ye 14 gün içinde odwołanie. Sıkça red gerekçeleri: yetersiz mali yeterlik veya ziyaret amacında şüphe. İtirazın görüşülmesi 30-60 gün sürer. Anahtar teslim yürütüyoruz.' },
+      { q: 'Zaproszenie ile alınan vize çalışma hakkı veriyor mu?', a: 'Hayır. Zaproszenie ≠ zezwolenie na pracę. Çalışmak için wojewoda\'dan veya Powiatowy Urząd Pracy\'den ayrı bir izin gerekir. Zaproszenie\'li D vizesi - yalnızca ikamet için, çalışma için değil.' }
+    ],
+    related: ['odbior-z-lotniska', 'pomoc-w-zatrudnieniu', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Zaproszenie 7-14 günde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: mali durumu kontrol eder, paketi hazırlarız. Sözleşmeden zaproszenie\'nin sicile girişine genelde 7-14 iş günü.'
   }
 };
 

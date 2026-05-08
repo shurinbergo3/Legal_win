@@ -264,6 +264,94 @@ const kartaPolaka: ServiceEntry = {
     related: ['karta-stalego-pobytu', 'obywatelstwo', 'apostille'],
     ctaTitle: 'Karta Polaka - your shortest way home',
     ctaSubtitle: 'Free 2-day genealogy review. Archives, prep, application - turnkey to card.'
+  },
+  tr: {
+    slug: 'karta-polaka',
+    group: 'immigration',
+    icon: 'fingerprint',
+    badge: 'Karta Polaka · daimi ikamete kısa yol',
+    title: 'Karta Polaka',
+    subtitle: 'Polonya kökeninin tanınması ve daimi ikamet ile vatandaşlığa hızlandırılmış yol',
+    lead: 'Karta Polaka (Polonyalı Kartı), Polonya Ulusu\'na (Naród Polski) aidiyeti onaylayan belgedir. Kartın kendisi ikamet hakkı vermez, ancak bekleme süresi olmadan Karta Stałego Pobytu (daimi oturum kartı) ve 3 yıllık ikamet bekleme süresi olmadan vatandaşlık yolunu açar. Konsolosluğa veya wojewoda\'ya başvuru için sizi hazırlıyoruz: soyağacı doğrulaması, Polonya köken kanıtlarının derlenmesi, Lehçe seviyesinin mülakata yetecek hale getirilmesi ve başvurunun yürütülmesi.',
+    facts: [
+      { label: 'Karar süresi', value: '60-180 gün', note: 'konsolos · wojewoda' },
+      { label: 'Geçerlilik', value: '10 yıl', note: 'süresiz uzatılabilir' },
+      { label: 'Başvuru', value: 'ücretsiz', note: 'damga vergisi alınmaz' },
+      { label: 'Karta Polaka sonrası', value: '2-3 ayda daimi ikamet', note: '4 yıllık TRC süresi olmadan' }
+    ],
+    grounds: {
+      title: 'Karta Polaka kimlere verilir',
+      subtitle: 'Belge eski Polonya vatandaşlığı için değil, Polonya Ulusu\'na aidiyet için verilir. Üç düzey kanıt gerekir: köken, dil, kültürel bağ.',
+      items: [
+        { title: 'Anne veya baba üzerinden köken', desc: 'Anne, baba veya evlat edinen ebeveynlerden biri Polonyalı olmalı veya Karta Polaka sahibi olmalıdır. Doğum belgeleri ve Polonya milliyetinin teyidi gerekir.' },
+        { title: 'Büyükanne / büyükbaba üzerinden köken', desc: 'Dört büyük ebeveynden ikisi Polonyalı olmalıdır. En sık görülen temel: Galicja, Kresy ve Wileńszczyzna bölgelerinden, "narodowość polska" (Polonya milliyeti) kaydı içeren nüfus belgeleri.' },
+        { title: 'Bir Polonyalı büyük büyük ebeveyn', desc: 'Üçüncü kuşakta bir Polonyalı atanız varsa ve aktif bir Polonya kimliğiniz varsa - Polonia okulu, sosyal aktivite, Polonia Aktywna gibi belgelenebilir kanıtlar.' },
+        { title: 'Polonya diaspora kuruluşlarında etkinlik', desc: 'En az 3 yıl Polonyalı (polonijne) kuruluşlarda aktif katılım - Związek Polaków, Stowarzyszenie, kilise yanı okulları. Kuruluşun zaświadczenie\'siyle (yazılı belge) kanıtlanır.' },
+        { title: 'Lehçe ve kültür bilgisi', desc: 'Konuşma seviyesinde. Konsolos mülakatta sınar: aile, bayramlar, Polonya tarihi ve coğrafyası. Sıfırdan 3-4 ayda hazırlıyoruz.' },
+        { title: 'Ulusa aidiyet beyanı', desc: 'Konsolos veya wojewoda önünde Polonya Ulusu\'na aidiyetinize dair yazılı oświadczenie (beyanname). Zorlama yoktur - gönüllü öz tanımlamadır.' }
+      ]
+    },
+    timeline: {
+      title: 'Karta Polaka süreci',
+      subtitle: 'Ana darboğazlar arşiv araştırması ve dildir. Başvuruya kadar genelde 6-12 ay sürer.',
+      steps: [
+        { title: 'Ücretsiz danışmanlık', duration: '30 dk', desc: 'Soyağacınızı inceler, şansları değerlendirir, başvuru yerini birlikte belirleriz - ikamet ülkenizdeki konsolos veya (Polonya\'da TRC sahibiyseniz) wojewoda.' },
+        { title: 'Arşiv araştırması', duration: '2-6 ay', desc: 'Polonya devlet arşivlerine, Litvanya / Belarus / Ukrayna nüfus dairelerine talepler. USC kayıtları, kilise (parafialne) kayıtları, akta hipoteczne (tapu kayıtları), sürgün listeleri - "narodowość polska" kanıtı olabilecek tüm belgeler.' },
+        { title: 'Dil hazırlığı', duration: '3-6 ay', desc: 'Sıfır seviyedeyseniz native öğretmenle kurs, mülakat konularına çalışma: rodzina (aile), święta (bayramlar), historia, geografia. En az A2-B1 konuşma seviyesi.' },
+        { title: 'Karta Polaka başvurusu', duration: '1 hafta', desc: 'Wniosek\'i doldururuz, paketi oluştururuz: nüfus kayıtları, fotoğraflar, oświadczenia (beyanlar), aktivite kanıtları. Gerekli yerlere yeminli tercüme.' },
+        { title: 'Randevu ve mülakat', duration: '2-6 ay bekleme', desc: 'Polonya konsolosluğunda veya eyalet idaresinde sıra. Mülakatta konsolos 30-60 dakika soru sorar. Hazırlık sürecinde size eşlik ederiz.' },
+        { title: 'Karar', duration: '60-90 gün', desc: 'Konsolos plastik kartı verir. Bu kartla Polonya\'ya vize gerekmez, eğitim ücretsizdir, çalışma izni (zezwolenie) olmadan çalışabilirsiniz.' },
+        { title: 'Kartı kullanma', duration: 'opsiyonel', desc: 'Karta Polaka ile 4 yıllık TRC süresi olmadan Karta Stałego Pobytu (daimi oturum) başvurusu yapılır. Daimi ikametten 1 yıl sonra vatandaşlık. Her iki aşamayı da biz yürütüyoruz.' }
+      ]
+    },
+    documents: {
+      title: 'Polonya kökeninin kanıtları',
+      subtitle: 'Ne kadar çok belge - o kadar güçlü dosya. Bazen 2 nüfus kaydı yeterli, bazen 8+ kaynak gerekir.',
+      items: [
+        'Başvuru sahibinin doğum belgesi + tercümeler',
+        'Anne, baba ve dede-ninelerin doğum belgeleri (narodowość polska kaydıyla)',
+        'Ataların evlilik belgeleri (genelde milliyet bilgisi içerir)',
+        'Soyad değişikliği belgeleri (soyad polonizasyona / ruslaştırmaya uğradıysa)',
+        'Arşiv çıktıları: USC, kilise kayıtları, devlet arşivi, akty hipoteczne (tapu kayıtları)',
+        'Polonyalı diaspora kuruluşlarından (en az 3 yıllık) aktivite zaświadczenia\'sı',
+        'Kilise yanı okulları, Lehçe kurslarından sertifikalar',
+        'Aile fotoğrafları, Lehçe yazılmış mektup ve günlükler - destekleyici kanıtlar',
+        'Baskı/sürgün belgeleri (sürgün listeleri, NKVD kayıtları, kamp listeleri) - güçlü kanıt'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Devlet harcı yoktur. Yalnızca bizim emek ve arşiv araştırması bedeli ödersiniz.',
+      items: [
+        { label: 'Danışmanlık ve değerlendirme', value: 'Ücretsiz', note: '30 dakika · şans analizi' },
+        { label: 'Arşiv araştırması', value: '800 PLN\'den', note: 'Bir ata için · 2-4 arşiv' },
+        { label: 'Karta Polaka anahtar teslim', value: '4.500 PLN\'den', note: 'Arşivden kart teslimine kadar' },
+        { label: 'Mülakat hazırlığı', value: '2.500 PLN\'den', note: 'Native öğretmenle · 30 saat' }
+      ],
+      note: 'Karmaşık dosyalar (yıkılmış arşivler, tartışmalı milliyet, ilk başvuruda ret) için ayrı fiyatlandırma. İtirazda kazanılırsa ödemenin bir kısmı iade edilir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 7 września 2007 r. o Karcie Polaka (7 Eylül 2007 Karta Polaka Kanunu, kons. metin Dz.U. 2023 sayfa 192)',
+        'Rozporządzenie MSZ ws. wzoru wniosku o przyznanie Karty Polaka (Dışişleri Bakanlığı başvuru formu yönetmeliği)',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach - madde 195/1/9 (Karta Polaka temelinde daimi ikamet)',
+        'Polonya Vatandaşlık Kanunu - madde 30/1/7 (Karta Polaka + daimi ikamet sonrası 1 yılda uznanie)',
+        'Polonya Cumhuriyeti Anayasası - madde 52/5 (etnik Polonyalıların geri dönüş hakkı)'
+      ]
+    },
+    faq: [
+      { q: 'Kaç kuşak ata kanıtlanmalı?', a: 'En az dede-nine seviyesine kadar (2 kuşak geri) - dört büyük ebeveynden ikisi Polonyalı olmalıdır. Yalnızca büyük büyük ebeveyn (3. kuşak) varsa, aktif Polonya kimliğine dair ek kanıtlar gerekir (Polonia kuruluşları, Lehçe okul, dernek).' },
+      { q: 'Polonya\'da mı yoksa ikamet ülkesinde mi başvurulur?', a: 'Polonya\'da TRC veya daimi ikamet sahibiyseniz - wojewoda\'ya başvurursunuz. Menşe ülkenizde yaşıyorsanız - konsolosa. Konsolos genelde daha hızlıdır (Mazowiecki Urząd Wojewódzki kuyruğu yoktur), ancak mülakat tarihleri 6-12 ay öncesinden alınır.' },
+      { q: 'Hangi seviyede Lehçe gerekli?', a: 'B2 değil, Polonca Filolojisi de değil - A2-B1 konuşma seviyesi. Konsolos günlük temalar sorar: rodzina (aile), święta (bayramlar), polska kuchnia (Polonya mutfağı), kısaca tarih, coğrafya. Önemli olan, Türkçe veya İngilizce değil, Lehçe yanıt vermenizdir.' },
+      { q: 'Karar ne kadar sürer?', a: 'Yasal süre 60 gün, pratikte 90-180 gün. Konsolosluk komisyonu ayda bir toplanır. Belgeler kusursuzsa mülakatın hemen ardından kart verilebilir.' },
+      { q: 'Karta Polaka ne kazandırır?', a: 'Ücretsiz D vizesi (iş ve eğitim için kullanılan tip), zezwolenie olmadan çalışma hakkı, devlet üniversitelerinde ücretsiz eğitim, ulaşımda indirim, 4 yıllık TRC bekleme süresi olmadan daimi ikamet, daimi ikametten 1 yıl sonra vatandaşlık.' },
+      { q: 'Atalarım Volhynia / Lviv / Vilnius / Grodno bölgesinden ise?', a: 'İdeal durum - Karta Polaka\'nın en yaygın temelidir. Kresy Wschodnie (Doğu Sınırları - günümüzde Litvanya, Belarus, Ukrayna) bölgelerinden nüfus kayıtları geçerlidir; arşivlerde bulunması yeterlidir. Grodno, Lviv, Vilnius\'ta araştırmacı ağımız vardır.' },
+      { q: 'Atalarımın soyadı ruslaştırılmışsa (örn. Polski → Polskij)?', a: 'Engel değildir. Polonyalı soyadlarının Rus İmparatorluğu ve Sovyet döneminde polonizasyona uğraması veya tersine ruslaştırılması standart bir uygulamadır. Bu dönemden önceki nüfus kayıtları veya soyad değişikliği belgeleri konuyu çözer.' }
+    ],
+    related: ['karta-stalego-pobytu', 'obywatelstwo', 'apostille'],
+    ctaTitle: 'Karta Polaka - eve giden kısa yol',
+    ctaSubtitle: 'Soyağacınızı ve şanslarınızı 2 iş günü içinde ücretsiz değerlendiriyoruz. Arşiv toplama, mülakat hazırlığı ve karta kadar tüm süreci yürütüyoruz.'
   }
 };
 

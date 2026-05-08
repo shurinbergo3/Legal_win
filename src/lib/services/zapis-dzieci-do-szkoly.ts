@@ -267,6 +267,95 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
     related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'School enrolment in 7-14 days',
     ctaSubtitle: 'Free consultation: school options for your district and needs, document review, accompaniment to the director. Welcome class available everywhere.'
+  },
+  tr: {
+    slug: 'zapis-dzieci-do-szkoly',
+    group: 'relocation',
+    icon: 'home',
+    badge: 'Klasa powitalna · Obowiązek szkolny · Anaokulu',
+    title: 'Çocukların okula kaydı',
+    subtitle: 'Obowiązek szkolny ve klasa powitalna kaydı',
+    lead: 'Polonya hukukuna göre Polonya\'da yaşayan 7-18 yaş arası her çocuk eğitime devam etmek zorundadır - bu obowiązek szkolny vatandaşlıktan bağımsızdır. Okula kaydı yapılmazsa - ebeveynlere 5.000 PLN\'ye kadar idari para cezası kesilir; daha önemlisi - çocuk eğitim yıllarını kaybeder. LegalWin yabancı çocukları klasa powitalna\'ya (yabancı dil olarak Lehçe ile uyum sınıfına), Polonya devlet okuluna veya özel uluslararası okula (Akademeia, BISC, ISW) kaydeder. Anahtar teslim: meldunek, belgeler, müdürle görüşme, diploma tercümesi.',
+    facts: [
+      { label: 'Kayıt süresi', value: '7-14 gün', note: 'devlet · standart · özelde 30+' },
+      { label: 'Devlet okul ücreti', value: '0 PLN', note: 'eğitim tüm çocuklar için ücretsiz' },
+      { label: 'Klasa powitalna', value: '1 yıl', note: 'bir yılda B1 Lehçe · istisnai 2 yıl' },
+      { label: 'Yaş', value: '7-18', note: 'obowiązek szkolny · anaokulu 3 yaştan' }
+    ],
+    grounds: {
+      title: 'Çocukları nereye kaydediyoruz',
+      subtitle: 'Polonya sistemi üç kademelidir: przedszkole (3-7), szkoła podstawowa (7-15), szkoła średnia (15-18).',
+      items: [
+        { title: 'Klasa powitalna (uyum sınıfı)', desc: 'Bir yıl boyunca native öğretmenle Lehçeye geçiş sınıfı. Grupta 15 öğrenciye kadar. Müfredat: dil + standart dersler. Sonra normal sınıfa geçiş.' },
+        { title: 'Szkoła podstawowa (7-15 yaş)', desc: '8 yıllık temel eğitim. Tüm çocuklara ücretsiz. Zameldowanie adresine göre kayıt. Çoğu okulda yemek ve ders kitapları ücretsiz.' },
+        { title: 'Liceum / Technikum / Branżowa', desc: '8. sınıftan sonra ortaöğretim (15+). 4 yıl liceum (genel lise), 5 yıl technikum (mesleki), 3 yıl branżowa.' },
+        { title: 'Przedszkole (3-7 yaş)', desc: 'Anaokulu. Devlet anaokulu ücretsizdir ama rekabet yoğundur. Özel - aylık 1.200-3.500 PLN. Eylül için martta kayıt.' },
+        { title: 'Uluslararası okul', desc: 'Akademeia HES, British International School (BISC), International School of Warsaw (ISW), Canadian School of Warsaw - yıllık 60.000-120.000 PLN. IB / Cambridge müfredatı.' },
+        { title: 'Społeczne / niepubliczne (özel)', desc: 'Polonyalı özel okul - yıllık 8.000-25.000 PLN. Daha küçük sınıflar (15-20), daha çok ilgi, çoğu zaman daha iyi pedagoglar. Polonya müfredatı.' },
+        { title: 'Edukacja domowa (ev eğitimi)', desc: 'Yıl ortasında taşındıysanız veya çocuk Lehçeye hazır değilse - resmi olarak edukacja domowa düzenliyoruz. Yılda bir kez okulda sınav.' },
+        { title: 'Yabancı eğitimin tanınması', desc: 'Menşe ülkenin okul belgesi - Polonya\'da doğru sınıfa yerleştirme için tanınma süreci. Kuratorium oświaty üzerinden.' }
+      ]
+    },
+    timeline: {
+      title: 'Çocuğu nasıl kaydediyoruz',
+      subtitle: 'İlk görüşmeden derslerin başlamasına - genelde 7-14 gün.',
+      steps: [
+        { title: 'Danışmanlık', duration: '30 dk', desc: 'Yaş, mevcut Lehçe seviyesi, önceki okul ülkesi, ikamet bölgesi. 2-3 okul seçeneği öneriyoruz.' },
+        { title: 'Belge derlemesi', duration: '3-7 gün', desc: 'Doğum belgesi (yeminli tercüme), önceki okuldan diploma / belge, sağlık kartı, fotoğraflar. Orzeczenie psychologiczne varsa eklenir.' },
+        { title: 'Meldunek (henüz yoksa)', duration: '1-2 gün', desc: 'Okul, çocukları zameldowanie\'ye göre alır. Yoksa - ebeveynin meldunek\'iyle birlikte çocuğun pobyt czasowy\'sini düzenliyoruz.' },
+        { title: 'Okula wniosek', duration: '1 gün', desc: 'Wniosek o przyjęcie do klasy powitalnej / klasy I-VIII. ePUAP üzerinden veya bizzat okul kanselarisi\'ne.' },
+        { title: 'Dyrektor szkoły\'nin kararı', duration: '3-7 gün', desc: 'Dyrektor (müdür) zameldowanie, yaş ve seviye temelinde karar verir. Bazen ebeveynle kısa bir interview yapılır.' },
+        { title: 'Tescil', duration: '1 gün', desc: 'Okul üzerinden kuratorium\'a sunma. Legitymacja szkolna (öğrenci kimliği - ulaşımda ücretsiz) alımı.' },
+        { title: 'İlk gün', duration: '1 gün', desc: 'Ebeveyne ilk veli toplantısında (zebrań) eşlik. Wychowawca\'yla (sınıf öğretmeni), pedagogiem szkolnym\'la (okul psikoloğu) ve sınıf arkadaşlarıyla tanışma.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Asgari paket - net liste okula göre değişir.',
+      items: [
+        'Çocuğun pasaportu + fotoğraflı sayfa fotokopisi',
+        'En az bir ebeveynin pasaportu',
+        'Doğum belgesi (Lehçeye yeminli tercümeli)',
+        'Önceki okuldan diploma / belge (tercümesiyle)',
+        'Sağlık kartı veya karta zdrowia (veya Polonya\'da düzenleme onayı)',
+        'Legitymacja için 2 adet 30×42 mm fotoğraf',
+        'Çocuğun PESEL\'i (veya ikamet kanıtı)',
+        'Zaświadczenie o zameldowaniu (devlet okulu için zorunlu)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Kayıt başına bedel. Devlet okulları ücretsiz - özel hariç.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · okul seçimi' },
+        { label: 'Devlet okuluna kayıt', value: '600 PLN\'den', note: 'Tek çocuk · belgeler + meldunek + okul' },
+        { label: 'Özel / uluslararası kayıt', value: '950 PLN\'den', note: 'Admission interview ve wniosek dahil' },
+        { label: 'Aile paketi (2+ çocuk)', value: '1.100 PLN\'den', note: 'Birden fazla çocuk için indirim' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Meldunek harcı 0 PLN, yeminli tercüme (~80 PLN/belge), özel okul yıllık ücreti (8.000-120.000 PLN) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 14 grudnia 2016 r. - Prawo oświatowe (Eğitim Hukuku Kanunu - bölüm 4, obowiązek szkolny)',
+        'Rozporządzenie MEN z dnia 23 sierpnia 2017 r. ws. kształcenia osób niebędących obywatelami polskimi (Polonya vatandaşı olmayan kişilerin eğitimi yönetmeliği)',
+        'Rozporządzenie MEN ws. organizacji kształcenia osób niebędących obywatelami polskimi (klasa powitalna düzenlemesi)',
+        'BM Çocuk Hakları Sözleşmesi (20 Kasım 1989 - madde 28, eğitim hakkı)',
+        'Kodeks postępowania administracyjnego (KPA - dyrektor kararına itirazlar)'
+      ]
+    },
+    faq: [
+      { q: 'Klasa powitalna nedir, kime uygundur?', a: 'Klasa powitalna - Lehçe bilmeyen yabancı çocuklara yönelik 1 yıllık uyum sınıfıdır. Sınıfta 15 öğrenciye kadar. Native öğretmenle Lehçe (haftada 10 saat) + standart dersler. Hedef: bir yılda B1 seviyesinde Lehçe sağlayıp normal sınıfa geçiş. 1.-8. sınıfta mevcuttur. Yakın zamanda gelmiş veya Lehçe öğrenmemiş çocuklar için uygundur.' },
+      { q: 'Devlet okulu mu özel okul mu daha iyi?', a: 'Devlet okulu: ücretsiz, kapsamlı müfredat, sınıfta 28 öğrenciye kadar. Büyük şehirlerde (Varşova, Wrocław) yeterince kalitelidir. Niepubliczna (özel): yıllık 8.000-25.000 PLN, sınıfta 20\'ye kadar, bireysel yaklaşım, çoğu zaman daha iyi pedagoglar. Międzynarodowa (uluslararası): yıllık 60.000-120.000 PLN, İngilizce müfredat, IB - menşe ülkeye dönmeyi planlayanlar için. Seçim bütçeye ve uzun vadeli plana göredir.' },
+      { q: 'Çocuğun PESEL\'i yoksa ne yapılır?', a: 'PESEL olmadan kayıt mümkündür - okul pasaportu ve ikamet belgesini kabul eder. Ancak legitymacja szkolna, eDziennik ve ulaşım indirimleri için PESEL gereklidir. Okul kaydıyla birlikte çocuğun PESEL\'ini de çıkartıyoruz.' },
+      { q: 'Kayıt zamanı - okul yılı eylülde başlıyor mu?', a: 'Standart kayıt mart-nisan\'da bir sonraki yıl için olur. Ancak okullar yer varsa yıl boyunca öğrenci alır - özellikle klasa powitalna sınıflarına. Yıl ortasında taşındıysanız 7-14 günde kayıt yapıyoruz.' },
+      { q: 'Çocuk üst sınıfta ve Lehçe bilmiyorsa?', a: 'Daha zordur: liceum / technikum egzamin ósmoklasisty puanlarıyla rekrutacja sürecine alır. Alternatifler: 1) szkoła podstawowa\'da klasa powitalna (yaş ≤ 15 ise); 2) uyum programlı niepubliczne liceum; 3) İngilizce uluslararası okul; 4) yılda bir kez sınavlı edukacja domowa.' },
+      { q: 'Okulda ücretsiz yemek var mı?', a: 'Çoğu szkoła podstawowa\'da - evet, geliri kişi başı 600 PLN/ay altındaki aileler için MOPS\'a wniosek yapılarak. Aksi halde - öğün başına 6-12 PLN, ayda bir ödeme. MOPS başvurusunu hazırlamada yardım ediyoruz.' },
+      { q: 'Başka bölgedeki okula kayıt mümkün mü?', a: 'Szkoła podstawowa\'lar bölgeye (rejon) göre öğrenci alır. Başka bir bölgeye gitmek isterseniz - eylül için nisan-mayısta elektronik rekrutacja\'ya başvurursunuz. Sonrasında - yalnızca her iki okul müdürünün onayıyla. Liceum / technikum puanlara göre serbest seçim sunar.' }
+    ],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
+    ctaTitle: 'Çocuğunuzu okula 7-14 günde kaydediyoruz',
+    ctaSubtitle: 'Ücretsiz danışmanlık: bölgenize ve ihtiyacınıza uygun okulu seçer, belgeleri kontrol eder, dyrektor görüşmesinde eşlik ederiz. Klasa powitalna her yerde mevcuttur.'
   }
 };
 

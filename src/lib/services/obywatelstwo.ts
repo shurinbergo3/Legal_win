@@ -228,6 +228,82 @@ const obywatelstwo: ServiceEntry = {
     related: ['karta-stalego-pobytu', 'karta-polaka', 'apelacje'],
     ctaTitle: 'Which route is right for you?',
     ctaSubtitle: 'In 30 minutes we\'ll review your roots, residence history and documents - and map out what\'s realistic.'
+  },
+  tr: {
+    slug: 'obywatelstwo',
+    group: 'immigration',
+    icon: 'landmark',
+    badge: 'Tam AB hakları',
+    title: 'Polonya vatandaşlığı',
+    subtitle: 'Obywatelstwo Polskie - AB pasaportu',
+    lead: 'Polonya pasaportuna üç yol vardır: vatandaşlığın teyidi (potwierdzenie - Polonya kökeni varsa), vatandaşlığa kabul (uznanie - 10 yıl ikametten sonra) ve Cumhurbaşkanı kararıyla vatandaşlık verme (nadanie).',
+    facts: [
+      { label: 'Süreç', value: '24 aya kadar', note: 'yola göre değişir' },
+      { label: 'Çifte vatandaşlık', value: 'serbest', note: 'Polonya tarafından kabul edilir' },
+      { label: 'Pasaport', value: 'AB', note: 'Schengen serbest dolaşımı' },
+      { label: 'Siyasi haklar', value: 'tam', note: 'oy hakkı dahil' }
+    ],
+    grounds: {
+      title: 'Vatandaşlığa üç yol',
+      items: [
+        { title: 'Vatandaşlığın teyidi (potwierdzenie)', desc: 'Siz veya atanız doğum yoluyla Polonya vatandaşıysanız ve vatandaşlık kaybedilmemişse. Karar wojewoda (eyalet valisi) tarafından verilir.' },
+        { title: 'Vatandaşlığa kabul (uznanie)', desc: '10 yıl kesintisiz Polonya ikameti + daimi ikamet kartı + istikrarlı gelir + B1 seviyesinde Lehçe.' },
+        { title: 'Vatandaşlığa kabul (nadanie)', desc: 'Polonya Cumhurbaşkanı kararıyla. Şartlar: 3 yıl daimi ikamet + entegrasyon. Yasal değerlendirme süresi yoktur.' },
+        { title: 'Hızlandırılmış vatandaşlığa kabul', desc: 'Mülteciler için (2 yıl daimi ikametten sonra), vatansızlar, Polonya vatandaşının eşleri için (3 yıllık evlilik + 2 yıl daimi ikamet).' }
+      ]
+    },
+    timeline: {
+      title: 'Uznanie (vatandaşlığa kabul) süreci',
+      steps: [
+        { title: 'Yol değerlendirmesi', duration: '1 saat', desc: 'En uygun yolu belirleriz: teyit, kabul veya cumhurbaşkanı kararı.' },
+        { title: 'B1 sertifikası', duration: '0-6 ay', desc: 'Devlet Lehçe dil sınavına gireriz veya muafiyet kanıtı sunarız.' },
+        { title: 'Belge derlemesi', duration: '4-8 hafta', desc: 'Arşiv belgeleri, gelir, konut ve sosyal entegrasyon kanıtları.' },
+        { title: 'Voivoda\'ya başvuru', duration: '1 gün', desc: 'opłata skarbowa (damga vergisi): 219 PLN (uznanie) veya 20 EUR (nadanie).' },
+        { title: 'İnceleme', duration: '6-18 ay', desc: 'Uznanie için voivoda. Nadanie için voivoda incelemesinin ardından Cumhurbaşkanlığı Ofisi.' },
+        { title: 'Yemin ve pasaport', duration: '1 ay', desc: 'Karar → ślubowanie (vatandaşlık yemini) → yeni kimlik kartı ve pasaportun düzenlenmesi.' }
+      ]
+    },
+    documents: {
+      title: 'Belgeler',
+      items: [
+        'Wniosek o uznanie za obywatela polskiego (vatandaşlığa kabul başvurusu) veya o nadanie obywatelstwa (vatandaşlığa kabul talebi)',
+        'Lehçe yazılmış autobiografia (özyaşam öyküsü)',
+        'Lehçe dil sertifikası (en az B1 - egzamin certyfikatowy)',
+        'Daimi ikamet kararı',
+        'Son 3 yılın gelir belgeleri (PIT, ZUS)',
+        'Konut kanıtı (tapu, kira sözleşmesi, zameldowanie)',
+        'Polonya ve menşe ülkeden adli sicil belgeleri',
+        'Doğum, evlilik ve ata belgeleri - köken doğrulama yolu için'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      items: [
+        { label: 'Yol değerlendirmesi', value: 'Ücretsiz', note: 'İlk danışmanlık' },
+        { label: 'Uznanie (vatandaşlığa kabul)', value: '4.500 PLN\'den', note: 'Anahtar teslim' },
+        { label: 'Nadanie (Cumhurbaşkanı kararıyla)', value: '6.000 PLN\'den', note: 'Cumhurbaşkanlığı süreci ayrıca' },
+        { label: 'Köken teyidi', value: '3.500 PLN\'den', note: '+ arşiv araştırması' }
+      ],
+      note: 'opłata skarbowa 219 PLN (uznanie) veya 20 EUR (nadanie) müvekkil tarafından ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 2 kwietnia 2009 r. o obywatelstwie polskim (2 Nisan 2009 tarihli Polonya Vatandaşlık Kanunu)',
+        'Polonya Cumhuriyeti Anayasası - madde 34 (vatandaşlığın kazanılması)',
+        'İçişleri Bakanlığı (MSWiA) ve Başbakanlık yönetmelikleri'
+      ]
+    },
+    faq: [
+      { q: 'Hangi seviyede Lehçe gerekli?', a: 'B1 seviyesi - devlet sertifika sınavı (egzamin certyfikatowy z języka polskiego jako obcego), Polonya okul diploması, Polonya üniversitesi diploması veya seviyenizi kanıtlayan başka bir belgeyle teyit edilir.' },
+      { q: 'Atam 1918\'den önce göç ettiyse?', a: 'Polonya bir devlet olarak 1918\'de yeniden kuruldu - bu tarihten önce atalarınız Polonya vatandaşı sayılmıyordu, dolayısıyla "vatandaşlığın teyidi" yolu işlemez. Geriye uznanie veya nadanie yolu kalır.' },
+      { q: 'Türk vatandaşlığımı koruyabilir miyim?', a: 'Polonya çifte vatandaşlığa izin veriyor. Türkiye-Polonya çifte vatandaşlığı tanınır - Türk vatandaşları, Türkiye\'nin "Çıkma izniyle vatandaşlığı muhafaza" düzenlemeleri çerçevesinde Türk vatandaşlıklarını koruyabilirler. Bu konuyu ayrıca Türk konsolosluğu ile teyit etmenizi öneririz.' },
+      { q: 'Vatandaşlık için kota var mı?', a: 'Hayır. Ancak nadanie (Cumhurbaşkanı kararı) takdire bağlı bir karardır - gerekçe gösterilmeden reddedilebilir.' },
+      { q: 'Çocuklara ne olur?', a: '18 yaş altı çocuklar ebeveynle birlikte vatandaşlık alabilir (nabycie pochodne - türev kazanım). 16 yaşından itibaren çocuğun kendi onayı gerekir.' }
+    ],
+    related: ['karta-stalego-pobytu', 'karta-polaka', 'apelacje'],
+    ctaTitle: 'Pasaporta hangi yol size uygun?',
+    ctaSubtitle: '30 dakikada köken, ikamet süresi ve belgelerinizi inceler, gerçekçi senaryoyu birlikte ortaya koyarız.'
   }
 };
 

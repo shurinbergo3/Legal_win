@@ -264,6 +264,94 @@ const meldunek: ServiceEntry = {
     related: ['pesel', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Meldunek done in a day',
     ctaSubtitle: 'Free consultation: review your case, secure owner consent, file with the urząd. From first call to certificate - typically 1-2 working days.'
+  },
+  tr: {
+    slug: 'meldunek',
+    group: 'documents',
+    icon: 'home',
+    badge: 'Pobyt czasowy / stały · USC',
+    title: 'Meldunek (adres beyanı)',
+    subtitle: 'Polonya\'da yabancılar için ikamet adresi kaydı',
+    lead: 'Zameldowanie (meldunek), gerçek ikamet adresinin PESEL siciline kaydedilmesidir. Polonya\'da uzun süreli kalan yabancılar PESEL, okul kaydı, araç tescili, yerel seçimlerde oy verme ve MOS v2.0 üzerinden TRC başvurusu için meldunek\'e ihtiyaç duyar. Pobyt czasowy (3 yıla kadar geçici) veya stały (süresiz daimi) zameldowanie hizmeti veriyor; urząd, banka veya işveren için zaświadczenie o zameldowaniu (ikamet belgesi) düzenliyoruz.',
+    facts: [
+      { label: 'Verilme süresi', value: '1 gün', note: 'urząd gminy\'de başvuruda' },
+      { label: 'Resmi harç', value: '0 PLN', note: 'temel zameldowanie ücretsizdir' },
+      { label: 'Zaświadczenie', value: '17 PLN', note: 'banka / urząd için ikamet belgesi' },
+      { label: 'Türleri', value: 'Czasowy / Stały', note: '3 yıla kadar veya süresiz' }
+    ],
+    grounds: {
+      title: 'Meldunek ne zaman gerekir',
+      subtitle: 'Polonya hukuku gereği yabancı, 30 günü aşan ikametlerde 30 gün içinde adres beyanı yapmak zorundadır.',
+      items: [
+        { title: 'Pobyt czasowy (3 yıla kadar)', desc: 'TRC, D vizesi, vizesiz giriş, öğrenci vizesiyle gelen yabancılar için standart zameldowanie. Süre - ikamet belgesinin geçerlilik süresi kadardır.' },
+        { title: 'Pobyt stały', desc: 'Yalnızca karta stałego pobytu, AB uzun dönem mukim statüsü veya Polonya vatandaşlığı sahipleri için. Süresizdir.' },
+        { title: 'MOS v2.0 üzerinden TRC başvurusu', desc: '2026\'dan itibaren zameldowanie zorunludur - aksi halde MOS sistemi wniosek\'i otomatik reddeder. TRC paketiyle paralel olarak hazırlıyoruz.' },
+        { title: 'Çocuğun okula kaydı', desc: 'Obowiązek szkolny (zorunlu eğitim) - okullar çocukları zameldowanie adresine göre kabul eder. Olmazsa kabul reddedilir veya çocuk başka okulun klasa powitalna\'sına (uyum sınıfı) yönlendirilir.' },
+        { title: 'Araç tescili', desc: 'Wydział komunikacji starostwa (taşımacılık dairesi) ruhsat sahibinin zameldowanie\'sini ister. Olmadan tescil yapılmaz.' },
+        { title: 'Şirket banka hesabı açılışı', desc: 'Bankalar KYC çerçevesinde zaświadczenie o zameldowaniu veya umowa najmu (kira sözleşmesi) ister - meldunek her iki şartı da karşılar.' },
+        { title: 'Wybory samorządowe (yerel seçimler)', desc: 'AB vatandaşı, en az 1 yıllık meldunek\'e sahipse yerel seçimlerde oy hakkına sahiptir.' },
+        { title: 'NFZ ve sağlık kuruluşları', desc: 'POZ\'a (birinci basamak sağlık kuruluşu) bağlanma zameldowanie adresine göre yapılır. Olmadan ayrı bir oświadczenie pacjenta (hasta beyanı) gerekir.' }
+      ]
+    },
+    timeline: {
+      title: 'Meldunek\'i nasıl yapıyoruz',
+      subtitle: 'Sözleşme imzasından zameldowanie belgesine kadar - 1-2 iş günü.',
+      steps: [
+        { title: 'Danışmanlık', duration: '20 dk', desc: 'İkamet türünüzü, meldunek tipini (czasowy / stały) ve ev sahibinin onayının olup olmadığını netleştiririz.' },
+        { title: 'Wniosku hazırlığı', duration: '1 gün', desc: 'Zgłoszenie pobytu czasowego cudzoziemca (yabancılar için adres beyan formu) veya Polonya vatandaşları için standart formu doldururuz.' },
+        { title: 'Ev sahibinin onayı', duration: '1 gün', desc: 'Właściciel\'in (mülk sahibinin) imzasını forma alırız veya noter onaylı upoważnienie (yetki belgesi) düzenleriz. Kira durumunda umowa najmu eklenir.' },
+        { title: 'Urząd gminy\'ye başvuru', duration: '1 ziyaret', desc: 'Urząd dzielnicy\'ye sizinle birlikte gideriz. Başvuru bizzat yapılır - pasaport ve ikamet belgesiyle. Çocuğu ebeveyn kaydeder.' },
+        { title: 'Zameldowanie\'nin tamamlanması', duration: '1 gün', desc: 'Kayıt başvuru günü PESEL siciline işlenir. Zaświadczenie o zameldowaniu - talep üzerine 17 PLN karşılığında.' },
+        { title: 'Urząd / banka için belgeler', duration: '1 gün', desc: 'KRS, US, ZUS, banka ve MOS v2.0 için zaświadczenia hazırlarız - taleplere göre.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Asgari paket. Net liste danışmanlık sonrası belirlenir.',
+      items: [
+        'Pasaport (orijinal)',
+        'Yasal ikamet belgesi: D vizesi, karta pobytu, vizesiz giriş kanıtı',
+        'Umowa najmu veya podnajmu (mülk sahibiyle, emlakçı ile değil) ya da akt własności (tapu)',
+        'Zgłoszenie formuna właściciel imzası (urząd\'da bizzat veya noter onaylı upoważnienie ile)',
+        'PESEL (varsa; yoksa - paralel olarak çıkartıyoruz)',
+        'Yeminli tercümeli doğum belgesi (çocuklar için)',
+        'Doldurulmuş wniosek - biz hazırlıyoruz',
+        'Ev sahibi şahsen gelmiyorsa - vekaletname'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Zameldowanie\'nin kendisinde resmi harç yoktur (0 PLN). Yalnızca zaświadczenie 17 PLN.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '20 dakika · durum değerlendirmesi' },
+        { label: 'Anahtar teslim meldunek', value: '350 PLN\'den', note: 'Wniosek, ev sahibi onayı, urząd' },
+        { label: 'Meldunek + zaświadczenie + tercüme', value: '500 PLN\'den', note: 'Banka / urząd için hazır belgeyle' },
+        { label: 'LegalWin\'den iş yeri adresi', value: '250 PLN/aydan', note: 'KRS / CEIDG için yasal adres' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Ev sahibi urząd\'a gelmiyorsa noterden upoważnienie (~150 PLN) ayrıca ödenir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 24 września 2010 r. o ewidencji ludności (Nüfus Kayıt Kanunu - bölüm 3, meldunek)',
+        'Rozporządzenie MSWiA w sprawie wzorów zgłoszeń pobytu (adres beyan formları yönetmeliği)',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (Yabancılar Kanunu - madde 199, meldunek ve TRC)',
+        'Ustawa z dnia 16 listopada 2006 r. o opłacie skarbowej (Damga Vergisi Kanunu - zaświadczenia 17 PLN)',
+        'Kodeks postępowania administracyjnego (KPA)'
+      ]
+    },
+    faq: [
+      { q: 'Ev sahibinin onayı olmadan meldunek yapılabilir mi?', a: 'Hayır. Właściciel\'in (mülk sahibinin) form üzerinde imzası şarttır. Onay vermiyorsa - sąd cywilny (medeni mahkeme) yoluyla powództwo o ustalenie zameldowania (zameldowanie\'nin tespiti davası) açılabilir (umowa najmu ve fiili ikamet varsa). Pratikte nadiren karşılaşılır - genelde mülk sahibinden imza ya da noter onaylı upoważnienie alarak hallediyoruz.' },
+      { q: 'Ev sahibi meldunek\'i kabul etmiyorsa?', a: 'Kira sözleşmesini meldunek onayı klozuyla birlikte hazırlıyoruz veya meldunek\'e açık ev sahipleri buluyoruz. Alternatif - işverende, akrabada meldunek veya işletme sahipleri için LegalWin adresi.' },
+      { q: 'TRC başvurusu için meldunek zorunlu mu?', a: '2026\'dan itibaren MOS v2.0 üzerinden - fiilen evet. Sistem PESEL sicilinden adresi otomatik çeker. Zameldowanie olmadan ek olarak umowa najmu ve oświadczenie właściciela (ev sahibi beyanı) eklemeniz gerekir, bu da şekli gerekçeyle ret riskini artırır.' },
+      { q: 'Hangi süre için meldunek yapılmalı?', a: 'Pobyt czasowy - ikamet belgenizin (TRC, vize, vizesiz giriş) süresi kadar. Yeni karta pobytu alındığında meldunek de uzatılmalıdır.' },
+      { q: 'Birden fazla meldunek olabilir mi?', a: 'Yalnızca bir pobyt stały (daimi). Pobyt czasowy paralel olabilir (örneğin ailenizde stały, Varşova\'da iş için czasowy). Yabancılar için yalnızca tek meldunek mümkündür.' },
+      { q: 'Adres değişikliğinde ne yapılmalı?', a: '30 gün içinde eski adresten wymeldowanie (kayıt silme) ve yeni adresten zameldowanie. Genelde eski silme, yeniye kaydolurken otomatik yapılır. Tek ziyarette hallediyoruz.' },
+      { q: 'Meldunek gerçekte ne kadara mal olur?', a: 'Zameldowanie\'nin kendisi 0 PLN. Zaświadczenie 17 PLN. Kiralık dairede ev sahibi genelde urząd\'a geliş için +50-100 PLN ya da noter onaylı upoważnienie için +150 PLN ister. Bizim danışmanlık ücretimiz 350 PLN\'den başlar.' }
+    ],
+    related: ['pesel', 'apostille', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Meldunek\'i 1 günde halledelim',
+    ctaSubtitle: 'Ücretsiz danışmanlık: durumunuzu inceler, ev sahibiyle anlaşırız, urząd\'a sunarız. İlk görüşmeden zaświadczenie\'ye genelde 1-2 iş günü.'
   }
 };
 

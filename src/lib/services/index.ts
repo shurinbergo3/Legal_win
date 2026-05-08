@@ -70,7 +70,7 @@ export const serviceSlugs = Object.keys(services);
 export function getService(slug: string, locale: string) {
   const entry = services[slug];
   if (!entry) return null;
-  const safeLocale: ServiceLocale = (['ru', 'pl', 'en'] as const).includes(
+  const safeLocale: ServiceLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
     locale as ServiceLocale
   )
     ? (locale as ServiceLocale)

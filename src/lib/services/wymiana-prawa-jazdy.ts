@@ -273,6 +273,98 @@ const wymianaPrawaJazdy: ServiceEntry = {
     related: ['kod-95', 'pesel', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Licence exchange in 30 days',
     ctaSubtitle: 'Free consultation: country, category, status. From first visit to Polish licence - typically 30-45 days. With WORD theory - up to 60.'
+  },
+  tr: {
+    slug: 'wymiana-prawa-jazdy',
+    group: 'documents',
+    icon: 'id-card',
+    badge: 'Starostwo · WORD · 185 gün',
+    title: 'Ehliyet değişimi',
+    subtitle: 'Türkiye, BDT ve AB dışı ehliyetlerin Polonya ehliyetine çevrilmesi',
+    lead: 'Polonya hukukuna göre, Polonya\'da 185 günü aşkın süredir ikamet eden yabancı, yabancı ehliyetini Polonya ehliyetine çevirmek zorundadır. 6 ay sonra değişim yapılmazsa eski ehliyetle araç kullanma hakkı düşer. Türkiye, Ukrayna, Belarus, Rusya, Kazakistan, Gürcistan, Moldova ve diğer ülke ehliyetlerini değiştiriyoruz - yeminli tercüme, badania lekarskie (sağlık raporu), psikoteknik, starostwo başvurusu ve gerektiğinde WORD\'da teorik sınava hazırlık dahildir.',
+    facts: [
+      { label: 'Verilme süresi', value: '14-30 gün', note: 'starostwo · eyalete göre' },
+      { label: 'Resmi harç', value: '100,50 PLN', note: 'opłata za blankiet (kart bedeli)' },
+      { label: 'Yer', value: 'Starostwo + WORD', note: 'müdürlük + gerekirse teorik sınav' },
+      { label: 'Geçerlilik', value: '15 yıla kadar', note: 'B / B+E · C, D için daha kısa' }
+    ],
+    grounds: {
+      title: 'Hangi ehliyetleri değiştiriyoruz',
+      subtitle: 'Polonya, ikili anlaşmalar ve 1968 Viyana Sözleşmesi çerçevesinde işlem yapar. Her kategori ve ülke otomatik değişmez.',
+      items: [
+        { title: 'Türkiye (B, BE)', desc: '1968 Viyana Sözleşmesi kapsamında doğrudan değişim. C, CE, D, DE - WORD teorik sınavı genelde zorunludur. 30 gün.' },
+        { title: 'Ukrayna (B, BE)', desc: 'Sınavsız doğrudan değişim. C, CE, D, DE kategorileri - WORD teori sınavı. Süre 30 gün.' },
+        { title: 'Belarus (B, BE)', desc: '2003 ikili anlaşmasıyla doğrudan değişim. Kamyon ve otobüs kategorilerinde teori sınavı.' },
+        { title: 'Rusya (B, BE)', desc: 'Viyana Sözleşmesi kapsamında değişim. C/D - Lehçe, Ukraynaca veya İngilizce WORD teori sınavı zorunlu.' },
+        { title: 'Kazakistan, Kırgızistan, Özbekistan', desc: 'Viyana Sözleşmesi. Genelde teori istenir. Eyalete göre netleştiriyoruz.' },
+        { title: 'Moldova, Gürcistan, Ermenistan, Azerbaycan', desc: 'Viyana Sözleşmesi veya ikili anlaşmalar. C/D her zaman teori, B genelde doğrudan değişim.' },
+        { title: 'Birleşik Krallık (Brexit sonrası)', desc: 'Polonya\'da ikametin ilk 5 yılı içinde doğrudan değişim. Sonrasında teori ve uygulama yeniden alınır.' },
+        { title: 'ABD, Kanada', desc: 'Yalnızca B ikili anlaşmayla doğrudan değişir. C/D için tam kurs zorunludur.' },
+        { title: 'Suriye, Irak, Afganistan, Yemen', desc: 'Değişim yok - sıfırdan tam OSK kursu. OSK\'yı Türkçe / Arapça eğitmenle ve WORD\'la birlikte hallediyoruz.' }
+      ]
+    },
+    timeline: {
+      title: 'Değişim sürecimiz',
+      subtitle: 'Standart döngü 30-45 gün. WORD teorik sınavıyla birlikte 60 güne kadar uzar.',
+      steps: [
+        { title: 'Danışmanlık', duration: '20 dk', desc: 'Ehliyet ülkesi ve kategorisini, statünüzü (TRC, D vizesi, vizesiz giriş) ve teori gerekliliğini kontrol eder, net plan çıkarırız.' },
+        { title: 'Yeminli tercüme', duration: '2-3 gün', desc: 'Tłumacz przysięgły yabancı ehliyetin iki yüzünü tercüme eder - starostwo zorunlu kılar.' },
+        { title: 'Badania lekarskie', duration: '1-2 gün', desc: 'Akredite tıp merkezine (uprawniony lekarz - yetkili doktor) randevu - 200 PLN, 30 dakika. Kategori 1 (B) veya 2 (C/D).' },
+        { title: 'Psikoteknik testi', duration: '1 gün', desc: 'Yalnızca C/D veya özel istek halinde. Psychotechnika - 200 PLN, 1 saat.' },
+        { title: 'Starostwo\'ya wniosek', duration: '1 gün', desc: 'İkamet adresinize göre wydział komunikacji starostwa\'ya başvuru. 100,50 PLN ödeme.' },
+        { title: 'Gerekiyorsa WORD teorik sınavı', duration: '1-14 gün', desc: 'Lehçe, Ukraynaca veya İngilizce egzamin teoretyczny. 30 sorudan 68/74 başarı oranı.' },
+        { title: 'Polonya ehliyetinin teslimi', duration: '14-30 gün', desc: 'Starosta polskie prawo jazdy verir, yabancı ehliyetin orijinaline el koyar. Yabancı ehliyet veren ülkeye iade edilir.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Asgari paket. Net liste danışmanlık sonrası belirlenir.',
+      items: [
+        'Yabancı ehliyet (orijinal + iki yüzünün fotokopisi)',
+        'Yeminli tercüme (Lehçeye)',
+        'Pasaport (orijinal + fotoğraflı sayfa fotokopisi)',
+        'PESEL ve meldunek (veya 185 günden uzun ikamet kanıtı)',
+        'Karta pobytu veya başka yasal ikamet belgesi',
+        'Kategori 1 (B) veya 2 (C/D) orzeczenie lekarskie',
+        'Orzeczenie psychologiczne (yalnızca C/D veya tıbbi gerekçeyle)',
+        'Renkli biyometrik 35×45 mm fotoğraf (beyaz fon)',
+        'Doldurulmuş wniosek o wydanie prawa jazdy - biz hazırlıyoruz',
+        '100,50 PLN ödeme dekontu'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Aşama başına sabit ücret. Resmi harçlar ve sağlık raporu fiilen ayrıca ödenir.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '20 dakika · durum değerlendirmesi' },
+        { label: 'Anahtar teslim ehliyet değişimi', value: '600 PLN\'den', note: 'Tercüme, sağlık raporu, starostwo' },
+        { label: 'Değişim + WORD teori', value: '950 PLN\'den', note: 'Hazırlık ve eşlik dahil' },
+        { label: 'Sıfırdan tam OSK kursu', value: '1.800 PLN\'den', note: 'B kategorisi · değişim mümkün değilse' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Damga vergisi (100,50 PLN), badania lekarskie (~200 PLN), psikoteknik (~200 PLN), yeminli tercüme (~80 PLN), WORD sınavı (50 PLN/kategori) ayrıca ödenir. OSK kursu (1.800-4.500 PLN) sağlayıcı tarifesine göredir.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 5 stycznia 2011 r. o kierujących pojazdami (Sürücüler Kanunu)',
+        'Rozporządzenie Ministra Infrastruktury z 24 listopada 2022 r. ws. wymiany praw jazdy wydanych za granicą (Yabancı ehliyet değişimi yönetmeliği)',
+        '8 Kasım 1968 tarihli Karayolu Trafiği Viyana Sözleşmesi',
+        '1973 PRL-SSCB karşılıklı tanıma anlaşması (hâlâ yürürlükte)',
+        'Ukrayna (2003), Belarus (2004), Moldova (2014) ile ikili anlaşmalar'
+      ]
+    },
+    faq: [
+      { q: 'Ehliyet değişimi gerçekte ne kadar sürer?', a: 'Standart süre - ilk ziyaretten Polonya ehliyetine 30-45 gün. WORD\'da teorik sınav (Wojewódzki Ośrodek Ruchu Drogowego - eyalet trafik merkezi) varsa 60 güne kadar. Acil durumlarda (ehliyetiniz dolmak üzereyse) - aynı gün tercümesiz başvuru yapar, tercümeyi paralel hallederiz.' },
+      { q: 'Türk / Ukrayna / Belarus ehliyetiyle Polonya\'da araç kullanabilir miyim?', a: 'Evet, ikametinizin ilk 185 gününde. Sonrasında değişim zorunludur. 2024\'ten itibaren ITD (Inspekcja Transportu Drogowego - Karayolu Taşımacılığı Müfettişliği) PESEL, meldunek ve vize üzerinden gerçek ikamet süresini aktif olarak kontrol ediyor. Süresi dolmuş ehliyetle araç kullanmanın cezası 500 PLN + iptal riskidir.' },
+      { q: 'C/D kategorisi - teori sınavı gerekli mi?', a: 'Neredeyse her zaman, evet. Birçok eyalet AB dışı profesyonel kategoriler için WORD egzamin teoretyczny zorunlu kılar. Polonya KGM kurallarına hazırlık veriyor, Ukraynaca veya İngilizce sınav sunan WORD\'u seçiyoruz (eyalete göre değişir).' },
+      { q: 'Ehliyetim süresi dolmuş veya kayıpsa?', a: 'Süresi dolmuş yabancı ehliyetler değiştirilemez. Önce ehliyetin verildiği ülkede yenilenmesi gerekir (konsolosluk veya çevrimiçi), ardından Polonya\'da değişim. Her iki adımı da anahtar teslim yürütüyoruz.' },
+      { q: 'Yabancı ehliyetin orijinali nereye gider?', a: 'Starostwo (starostat - bölge müdürlüğü), orijinali ehliyeti veren ülkeye gönderir (MSZ veya konsolosluk üzerinden). "Çift ehliyet sahipliğini" engellemek için standart prosedürdür. Geri alınamaz.' },
+      { q: 'Türkiye\'de C/D kategorim yoktu, yine de alabilir miyim?', a: 'Hayır - değişim yalnızca eşdeğer kategorilerde mümkündür. Sıfırdan C/D istiyorsanız tam OSK kursu (ośrodek szkolenia kierowców - sürücü kursu) + Kod 95 (kwalifikacja zawodowa - profesyonel sürücü yeterliliği) gerekir. "Kod 95" hizmetimize bakınız.' },
+      { q: 'Değişim yapmadan araç kullanmanın cezası nedir?', a: '185 gün sonrası değişimi yapılmamış yabancı ehliyetle araç kullanmak Karayolu Trafiği Kanunu madde 94 ihlalidir. 500 PLN para cezası + 6 ceza puanı. Polis, PESEL ve meldunek üzerinden giriş tarihini doğrular - aldatmak mümkün değildir.' }
+    ],
+    related: ['kod-95', 'pesel', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Ehliyet değişimi 30 günde',
+    ctaSubtitle: 'Ücretsiz danışmanlık: ülke, kategori ve statünüzü kontrol ederiz. İlk ziyaretten Polonya prawa jazdy\'sına genelde 30-45 gün, WORD teori sınavıyla 60 güne kadar.'
   }
 };
 

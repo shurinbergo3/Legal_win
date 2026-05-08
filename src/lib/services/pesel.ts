@@ -264,6 +264,94 @@ const pesel: ServiceEntry = {
     related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'PESEL in 1 day',
     ctaSubtitle: 'Free consultation: identify the purpose, gather documents, book the urząd. From first call to PESEL certificate - typically 1-3 working days.'
+  },
+  tr: {
+    slug: 'pesel',
+    group: 'documents',
+    icon: 'id-card',
+    badge: '11 hane · ZUS · US · ePUAP',
+    title: 'Yabancılar için PESEL',
+    subtitle: 'Polonya\'da kişisel kimlik numarası - ZUS, banka ve ePUAP\'ın temeli',
+    lead: 'PESEL (Powszechny Elektroniczny System Ewidencji Ludności - kişisel kimlik numarası), Polonya\'da kira sözleşmesi imzalamak, banka hesabı açmak, NFZ üzerinden doktora gitmek, ePUAP açmak veya vergi beyannamesi vermek için zorunlu olan 11 haneli bir numaradır. 2022\'den itibaren yabancı bu numarayı belirli bir amaç (cel) için alır - örneğin istihdam (cel: zatrudnienie), öğrenim veya işletme. Başvuruyu hazırlar, ePUAP\'a bağlar ve mObywatel\'i etkinleştiriyoruz.',
+    facts: [
+      { label: 'Verilme süresi', value: '1 gün', note: 'urząd gminy\'de başvuruda' },
+      { label: 'Resmi harç', value: '0 PLN', note: 'verilmesi ücretsizdir' },
+      { label: 'Bağlantı', value: 'ePUAP + mObywatel', note: 'elektronik imza ve e-devlet' },
+      { label: 'Geçerlilik', value: 'süresiz', note: 'ömür boyu tek numara' }
+    ],
+    grounds: {
+      title: 'PESEL ne zaman gerekir',
+      subtitle: 'Amaç başvuruda belirtilir ve urząd gminy\'nin (belediye) hangi belgeleri isteyeceğini belirler.',
+      items: [
+        { title: 'Cel: zatrudnienie (istihdam)', desc: 'PESEL olmadan işveren sizi ZUS\'a tescil edemez, maaşı banka hesabına yatıramaz ve gelir vergisi kesemez. Umowa o pracę veya zlecenie ile birlikte hazırlıyoruz.' },
+        { title: 'Cel: prowadzenie działalności (işletme)', desc: 'KRS\'ye Sp. z o.o., CEIDG\'ye JDG kaydı, şirket banka hesabı açılışı ve VAT tescili için zorunludur.' },
+        { title: 'Cel: nauka (öğrenim)', desc: 'Okula ve üniversiteye kayıt, legitymacja studencka (öğrenci kimliği) düzenleme ve burs için.' },
+        { title: 'Cel: świadczenia społeczne (sosyal yardım)', desc: '800+, becikowe (yenidoğan ödeneği), ZUS yardımları, NFZ kartı ve eRecepta (elektronik reçete) için.' },
+        { title: 'Cel: rozliczenie podatku (vergi beyanı)', desc: 'PIT ve VAT beyannameleri, Urząd Skarbowy\'ye (vergi dairesi) kayıt, e-Urząd Skarbowy ve Twój e-PIT erişimi için.' },
+        { title: 'Cel: ochrona czasowa (UKR - geçici koruma)', desc: 'UKR statüsündeki Ukrayna vatandaşları PESEL\'i otomatik alır - PESEL UKR başvurusunu hazırlıyoruz.' },
+        { title: 'Cel: nabycie nieruchomości (gayrimenkul edinimi)', desc: 'Daire alımı, KW (księga wieczysta - tapu sicili) tescili, PCC-3 vergisinin ödenmesi.' },
+        { title: 'Inne cele (diğer amaçlar)', desc: 'USC\'de evlilik, araç tescili, ehliyet, BDT ve Türkiye ehliyetinin Polonya ehliyetine çevrilmesi, sağlık kartı.' }
+      ]
+    },
+    timeline: {
+      title: 'Anahtar teslim PESEL süreci',
+      subtitle: 'İlk görüşmeden PESEL belgesine ve bağlı ePUAP\'a kadar - genelde 1-3 iş günü.',
+      steps: [
+        { title: 'Danışmanlık', duration: '20 dk', desc: 'Amacınızı netleştirir, gerekçeleri kontrol eder, durumunuza özel asgari belge listesini çıkartırız.' },
+        { title: 'Wniosku hazırlığı', duration: '1 gün', desc: 'Wniosek o nadanie numeru PESEL\'i (MSWiA - İçişleri Bakanlığı yönetmeliğine uygun başvuru formu) doldurur, gerekiyorsa belgelerinizi yeminli olarak Lehçeye çevirtiriz.' },
+        { title: 'Urząd gminy\'ye başvuru', duration: '1 ziyaret', desc: 'İkamet adresinize bağlı urząd gminy / dzielnicy\'ye sizinle birlikte gideriz. Başvuru bizzat yapılır, formu vezne önünde imzalarsınız. UKR statüsünde ziyaretsiz, mObywatel üzerinden hallederiz.' },
+        { title: 'PESEL\'in alınması', duration: '1 gün', desc: 'Numara aynı gün veya bir sonraki iş günü verilir (zaświadczenie o nadaniu PESEL - PESEL belgesi ücretsizdir).' },
+        { title: 'ePUAP\'a bağlama', duration: '30 dk', desc: 'ePUAP\'ta profil zaufany (e-devlet kimliği) açarız - resmi dairelere ziyaretsiz başvuru yapmanızı sağlayan devlet elektronik imzasıdır.' },
+        { title: 'mObywatel kurulumu', duration: '15 dk', desc: 'mObywatel uygulamasını kurarız: dijital pasaport, mPrawo Jazdy (dijital ehliyet), mLegitymacja (dijital öğrenci kimliği), eRecepta (elektronik reçeteler).' }
+      ]
+    },
+    documents: {
+      title: 'Sizden istenenler',
+      subtitle: 'Asgari belge listesi. Net liste başvuru amacına bağlıdır.',
+      items: [
+        'Pasaport (orijinal + tüm dolu sayfalarının fotokopisi)',
+        'Yasal ikamet belgesi: vize, mühür, karta pobytu, vizesiz giriş hakkı kanıtı',
+        'Amaç kanıtı: umowa o pracę, KRS Sp. z o.o. çıktısı, üniversite belgesi vb.',
+        'Polonya\'da adres kanıtı: kira sözleşmesi, zameldowanie veya ev sahibi onayı',
+        'Lehçeye yeminli tercümeli doğum belgesi',
+        'Yeminli tercümeli evlilik cüzdanı (soyadı değişikliği varsa)',
+        'Doldurulmuş wniosek o nadanie numeru PESEL - biz hazırlıyoruz',
+        'Çocuklar için: her iki ebeveyn pasaportlarıyla urząd\'da ve diğer ebeveynin onayıyla'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Sabit hizmet ücreti. Devlet harcı yoktur - PESEL ücretsiz verilir.',
+      items: [
+        { label: 'Danışmanlık', value: 'Ücretsiz', note: '20 dakika · amaç netleştirme' },
+        { label: 'Anahtar teslim PESEL', value: '450 PLN\'den', note: 'Wniosek, tercüme, urząd\'da eşlik' },
+        { label: 'PESEL + ePUAP + mObywatel', value: '600 PLN\'den', note: 'Tam dijital altyapı' },
+        { label: 'Aile PESEL (3+ kişi)', value: '1.200 PLN\'den', note: 'Tüm aile için ortak başvuruda indirim' }
+      ],
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Belgelerin yeminli tercümesi ayrıca faturalanır (~80 PLN/belge).'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 24 września 2010 r. o ewidencji ludności (24 Eylül 2010 tarihli Nüfus Kayıt Kanunu)',
+        'Rozporządzenie MSWiA z dnia 21 stycznia 2022 r. w sprawie wniosku o nadanie numeru PESEL (PESEL başvuru yönetmeliği)',
+        'Ustawa z dnia 12 marca 2022 r. o pomocy obywatelom Ukrainy (Ukrayna vatandaşlarına yardım kanunu - PESEL UKR)',
+        'Rozporządzenie Rady Ministrów w sprawie sposobu nadawania numeru PESEL (Bakanlar Kurulu PESEL atama yönetmeliği)',
+        'Ustawa z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne (ePUAP - e-devlet kanunu)'
+      ]
+    },
+    faq: [
+      { q: 'Karta pobytu olmadan PESEL alınabilir mi?', a: 'Evet. 2022\'den itibaren PESEL belirli bir amaç için verilir - umowa o pracę (iş sözleşmesi), şirket kuruluşu, öğrenim veya gayrimenkul edinimi temelinde. Karta pobytu zorunlu değildir. Yasal ikamet (vize, vizesiz giriş, oturum başvurusu mührü) yeterlidir.' },
+      { q: 'Numara ne kadar sürede verilir?', a: 'Tam belgeyle başvuruda - aynı gün. Büyük şehirlerde (Varşova, Wrocław, Krakov) yoğunluk varsa 3 iş gününe kadar sürebilir. UKR statüsünde - mObywatel uygulaması üzerinden ziyaretsiz 1 günde verilir.' },
+      { q: 'PESEL çalışma hakkı veriyor mu?', a: 'Hayır. PESEL bir kimlik numarasıdır, çalışma izni değildir. Yabancının çalışabilmesi için zezwolenie na pracę (çalışma izni) veya çalışma hakkı veren karta pobytu gerekir. PESEL gerekli ama yeterli değildir.' },
+      { q: 'ePUAP nedir ve neden gerekli?', a: 'ePUAP (devlet e-platformu) - resmi elektronik imza platformudur. Profil zaufany (e-devlet kimliği) ile ZUS, US, KRS, urząd gminy, mahkemelere ziyaretsiz başvuru yapabilirsiniz. 2026\'dan itibaren TRC (MOS v2.0) ve birçok e-devlet hizmeti için zorunludur.' },
+      { q: 'PESEL değiştirilebilir mi?', a: 'Yalnızca istisnai durumlarda: cinsiyet değişikliği, doğum tarihinde hata, tanık koruma. MSWiA (İçişleri Bakanlığı) üzerinden başvuruyla. Genelde - hayır.' },
+      { q: 'PESEL belgesini kaybettim, ne yapmalıyım?', a: 'Belgenin kendisi gerekli değil - PESEL, talep eden kurumlar tarafından doğrudan PESEL sicilinden çekilir. Duplikat herhangi bir urząd gminy\'den 1 günde ücretsiz alınır.' },
+      { q: 'Yabancı çocuklara PESEL alabilir miyim?', a: 'Evet. 18 yaş altı çocuklara PESEL ebeveyn tarafından çıkartılır - yeminli tercümeli doğum belgesi, ebeveynlerin pasaportları, çocuğun Polonya\'da ikametine dair belgeler gerekir. Yetişkin PESEL\'iyle birlikte aynı anda yapıyoruz - zaman ve ücretten tasarruf sağlar.' }
+    ],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'PESEL\'i 1 günde alalım',
+    ctaSubtitle: 'Ücretsiz danışmanlık: amacı netleştirir, belgeleri toplar, urząd\'a randevu alırız. İlk görüşmeden PESEL belgesine genelde 1-3 iş günü sürer.'
   }
 };
 

@@ -264,6 +264,94 @@ const tlumaczeniaPrzysiegle: ServiceEntry = {
     related: ['apostille', 'akty-stanu-cywilnego', 'pesel'],
     ctaTitle: 'Sworn translation in 1-3 days',
     ctaSubtitle: 'Free quote: send a scan and get a price within an hour. From hand-off to stamped translation - 1-3 working days.'
+  },
+  tr: {
+    slug: 'tlumaczenia-przysiegle',
+    group: 'documents',
+    icon: 'scale',
+    badge: 'TEPIS · Adalet Bakanlığı · 35+ dil',
+    title: 'Yeminli tercüme',
+    subtitle: 'Polonya urzędleri, mahkemeler ve bankalar için yeminli tercüme',
+    lead: 'Tłumacze przysięgli (yeminli tercümanlar), Polonya Adalet Bakanlığı tarafından akredite edilmiş, urzęd, mahkeme, KRS, USC ve bankalar için resmi belge tercümesine yetkili tercümanlardır. Yeminli tercüme olmadan yabancı belgeleriniz - sıradan bir tercüman tarafından mükemmel tercüme edilmiş olsa dahi - kabul edilmez. 35\'ten fazla dilde çalışıyoruz: Türkçe, Ukraynaca, Rusça, Belarusça, İngilizce, Almanca, İspanyolca, Gürcüce, Ermenice, Arapça, İbranice ve daha fazlası.',
+    facts: [
+      { label: 'Süre', value: '1-3 gün', note: 'standart · acil 24 sa' },
+      { label: 'Ücret', value: '~80 PLN', note: '1.125 karakter / Lehçeye veya Lehçeden' },
+      { label: 'Diller', value: '35+', note: 'BDT, AB, Türkçe ve Asya dilleri' },
+      { label: 'Kabul yerleri', value: 'Tüm urzędler', note: 'mahkemeler, bankalar, USC, ZUS, KRS' }
+    ],
+    grounds: {
+      title: 'Hangi belgeleri tercüme ediyoruz',
+      subtitle: 'Tam liste TEPIS sitesinde. Yabancılar için en sık talep edilenler:',
+      items: [
+        { title: 'USC nüfus belgeleri', desc: 'Doğum, evlilik, boşanma, ölüm belgeleri - umiejscowienie (tanıma), vatandaşlık, miras için. Sayfa başına 80 PLN.' },
+        { title: 'Diplomalar ve sertifikalar', desc: 'Yüksek öğrenim diploması, lise diploması, mesleki sertifikalar - Polonya\'da denklik (nostryfikacja) için.' },
+        { title: 'TRC / daimi ikamet belgeleri', desc: 'İş sözleşmeleri, gelir belgeleri, banka ekstreleri, kira sözleşmeleri - tüm yabancı dilli paketi anahtar teslim çeviriyoruz.' },
+        { title: 'Sürücü belgesi', desc: 'Türkiye / BDT ehliyetinin Polonya\'ya çevrilmesi - iki yüzü de yeminli tercüme şartıdır. 80-120 PLN.' },
+        { title: 'KRK / adli sicil belgeleri', desc: 'Menşe ülkenizden alınan adli sicil - karta pobytu, vatandaşlık, lisans başvuruları için.' },
+        { title: 'Kurumsal belgeler', desc: 'KRS çıktıları, esas sözleşmeler, kurul tutanakları, bilançolar - şirket kuruluşu veya işlem için.' },
+        { title: 'Mahkeme kararları', desc: 'Boşanma, nafaka, miras kararları - Polonya\'da icra veya tanıma için.' },
+        { title: 'Sağlık belgeleri', desc: 'Hastalık öyküsü, reçete, aşı kartı, organ bağışı belgeleri - NFZ veya iş başvurusu için.' }
+      ]
+    },
+    timeline: {
+      title: 'Yeminli tercüme süreci',
+      subtitle: 'Belgeyi teslim almaktan damgalı tercümeyi vermeye - 1-3 iş günü.',
+      steps: [
+        { title: 'Belgenin gönderilmesi', duration: '5 dk', desc: 'E-postaya tarama / fotoğraf / PDF gönderiyor veya orijinali bizzat getiriyorsunuz. Okunabilirlik şarttır - kaynak ne kadar net olursa tercüme o kadar isabetli olur.' },
+        { title: 'Fiyatlandırma', duration: '15 dk', desc: 'Standart sayfa (Lehçe metinde boşluklarla 1.125 karakter) sayısını hesaplıyor, 1 saat içinde net teklif veriyoruz.' },
+        { title: 'Sipariş onayı', duration: '5 dk', desc: 'Süreyi ve ücreti onaylıyor, %50 ön ödeme veya teslim sonrası ödeme yapıyorsunuz (sürekli müvekkillere).' },
+        { title: 'Tercüme', duration: '1-3 gün', desc: 'Yeminli tercüman tercüme yapar, imza, mühür ve "tercüme orijinaline uygundur" formülüyle onaylar. Her sayfa numaralandırılır.' },
+        { title: 'Tercümenin teslimi', duration: '15 dk', desc: 'Kağıt versiyon - ofiste veya kurye ile. Elektronik versiyon - ePUAP üzerinde nitelikli imzayla. Urzędler her iki formatı da kabul eder.' },
+        { title: 'Apostille (opsiyonel)', duration: '3-5 gün', desc: 'Tercüme yurt dışında kullanılacaksa - Polonya orijinaline ve yeminli tercümeye birlikte MSZ apostille\'i basıyoruz.' }
+      ]
+    },
+    documents: {
+      title: 'Sizden gerekenler',
+      subtitle: 'Fiyat ve süre hesabı için asgari paket.',
+      items: [
+        'Belgenin yüksek çözünürlüklü taraması veya fotoğrafı (≥ 300 dpi)',
+        'Belgenin orijinali - karşılaştırma veya yüz yüze teslim için',
+        'Tüm mühür, kaşe ve imzalar okunabilir olmalı',
+        'Özel adların doğru yazımı (adınız, soyadınız)',
+        'Apostille veya legalizasyon (varsa - birlikte tercüme ediyoruz)',
+        'Kullanım amacı (urząd, mahkeme, ZUS, USC) - format buna göre belirlenir',
+        'Aciliyet - standart (1-3 gün) veya express (24 sa, +%50)',
+        'Alıcı bilgileri (QES içeren elektronik versiyon gerekiyorsa)'
+      ]
+    },
+    pricing: {
+      title: 'Hizmet bedelimiz',
+      subtitle: 'Standart Lehçe sayfa (boşluklarla 1.125 karakter) başına ücret.',
+      items: [
+        { label: 'Lehçeye / Lehçeden (Türkçe, Ukraynaca, Rusça)', value: '70 PLN\'den', note: 'Sayfa başına 1.125 karakter' },
+        { label: 'Lehçeye / Lehçeden (İngilizce, Almanca)', value: '80 PLN\'den', note: 'Adalet Bakanlığı tarifesi' },
+        { label: 'Nadir diller (Gürcüce, Ermenice)', value: '100 PLN\'den', note: 'Arapça, İbranice, Farsça dahil' },
+        { label: 'Acil (24 saat)', value: '+%50', note: 'Çoğu dil için müsait' }
+      ],
+      note: 'Belirtilen ücretler sayfa başı temel tarifelerdir. Nihai ücret hacme (orijinale değil tercüme sonrası sayfaya), dile ve aciliyete göredir. Asgari sipariş 1 sayfadır. Tüzel kişi ve sürekli müvekkillere indirim uygulanır.'
+    },
+    legalBase: {
+      title: 'Yasal dayanak',
+      items: [
+        'Ustawa z dnia 25 listopada 2004 r. o zawodzie tłumacza przysięgłego (Yeminli Tercüman Mesleği Kanunu)',
+        'Adalet Bakanlığı yeminli tercüman ücret yönetmeliği (standart tarifeler)',
+        'Yeminli tercüman listesi - Adalet Bakanlığı (kamuya açık sicil)',
+        '(AB) 2016/1191 Tüzüğü (AB içi legalizasyonun kaldırılması, tercüme şartlarını da basitleştirir)',
+        'Kodeks postępowania administracyjnego - madde 5 (Lehçe dil zorunluluğu)'
+      ]
+    },
+    faq: [
+      { q: 'Yeminli tercüme ile sıradan tercümenin farkı nedir?', a: 'Yeminli tercüme hukuki bir bağlayıcılığa sahiptir - noter onayı seviyesindedir. Tłumacz przysięgły, devlet sınavından geçmiş ve Adalet Bakanlığı sicilinde kayıtlı uzmandır; tercümesi urzędler, mahkemeler, bankalar ve USC tarafından kabul edilir. Sıradan tercüman - mükemmel olsa dahi - bu statüye sahip değildir. Resmi belgeler için yalnızca yeminli tercüme geçerlidir.' },
+      { q: 'Bir nüfus belgesinin tercümesi ne kadar?', a: 'Doğum/evlilik belgesi (1 sayfa) - 70-80 PLN. Diploma + transkript (3-5 sayfa) - 250-400 PLN. İş sözleşmesi (4-8 sayfa) - 320-650 PLN. Net fiyat 1 saat içinde verilir.' },
+      { q: 'Tercümeyi elektronik olarak alabilir miyim?', a: 'Evet. 2018\'den beri yeminli tercüman QES (qualified electronic signature - nitelikli elektronik imza) ile tercümeyi onaylayabiliyor. Elektronik versiyon kağıt sürümle aynı hukuki bağlayıcılığa sahiptir. ePUAP / MOS v2.0 / e-Urząd Skarbowy üzerinden başvuruda ideal formattır.' },
+      { q: 'Yeminli tercüme ne kadar geçerli?', a: 'Tercümenin kendisi süresizdir. Ancak altındaki belgenin süresi olabilir: KRK 6 ay, KRS çıktısı 3 ay. Taze orijinali aldıktan hemen sonra tercüme yaptırın - aksi halde belge başvurudan önce eskimiş olur.' },
+      { q: 'Tercümeden önce apostille gerekli mi?', a: 'Amaca bağlı. Polonya\'da kullanım için apostille gerekmez (Türkiye dahil 1961 Lahey Sözleşmesi ülkeleri belgeleri için). Yurt dışı kullanım için apostille orijinale basılır, sonra orijinal ve apostille birlikte tercüme edilir. Bazı prosedürlerde iki apostille gerekir - biri orijinale, biri tercümeye. Hedef kuruma sorarak netleştiriyoruz.' },
+      { q: 'Belge el yazısıyla yazılmış veya kötü okunuyorsa?', a: 'Yeminli tercüman, okunamayan yerlere "nieczytelne" (okunamıyor) ibaresi koyabilir veya tercümeyi reddedebilir. Bu da belgenin kabul şansını azaltır. İyi ışıkta ≥ 300 dpi tarama yapın.' },
+      { q: 'Kendi yaptığım tercümeyi onaylatabilir miyim?', a: 'Hayır. Yeminli tercüman yalnızca kendi yaptığı veya kendi denetiminde yapılan tercümeyi onaylar. Bu kural katıdır - ihlali lisans iptaline yol açar. Hazır tercümeniz varsa "doğrulama" olarak alınır - ücret aynıdır.' }
+    ],
+    related: ['apostille', 'akty-stanu-cywilnego', 'pesel'],
+    ctaTitle: 'Yeminli tercüme 1-3 günde',
+    ctaSubtitle: 'Ücretsiz fiyatlandırma: belgenin taramasını gönderin - 1 saat içinde fiyat ve süre verelim. Teslim aldıktan damgalı tercümeyi vermeye 1-3 iş günü.'
   }
 };
 
