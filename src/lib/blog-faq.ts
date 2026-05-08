@@ -35,6 +35,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Can I work while my Karta Pobytu (residence card) is being processed?', a: 'Yes, if your grounds are work-based and you already had a work permit when filing. The UPO certificate legalises stay but does not automatically grant a work right.' },
       { q: 'What is the minimum salary for the "work" basis in 2026?', a: 'PLN 4,806 gross per month (the minimum wage from 1 January 2026). Older contracts at lower amounts need an amendment (aneks). EU Blue Card (Niebieska Karta UE) requires 1.5× the national average.' },
       { q: 'Can I apply for Karta Pobytu from outside Poland?', a: 'No. The application is filed in person in Poland - you must have a valid stay basis (D-visa or visa-free) at the moment of filing. We can prepare the file remotely and meet you on arrival.' }
+    ],
+    tr: [
+      { q: 'Polonya oturum kartı için 2026\'da hangi belgeler gereklidir?', a: 'MOS v2.0 sistemindeki yeni format wniosek, pasaport, 35x45 mm 4 biyometrik fotoğraf, gerekçe belgesi (umowa o pracę, Sp. z o.o. ortaklığı veya üniversite kayıt belgesi), konut belgesi ve meldunek, en az 30.000 € teminatlı sağlık sigortası, 340 PLN opłata skarbowa makbuzu. Belge listesi gerekçeye göre değişir.' },
+      { q: 'Mazowiecki eyaletinde Karta Pobytu kararı kaç ay sürer?', a: 'Yasal süre 90 güne kadardır. Mazowiecki Urząd Wojewódzki\'de 2026 yılındaki gerçek süre 8-14 ay arasındadır. MOS v2.0 üzerinden doğru başvuru ve eksik belge talebi olmaması durumunda ilk aşama (przyjęcie wniosku - başvurunun kabulü) 3-6 hafta sürer.' },
+      { q: 'MOS v2.0 nedir ve başvuru zorunlu olarak bu sistem üzerinden mi yapılır?', a: 'MOS v2.0 yabancılar için yeni devlet elektronik başvuru sistemidir. Aralık 2025\'te inPOL\'un yerini almıştır. 2026\'dan itibaren karta czasowego pobytu wniosek başvuruları için tek kanaldır. Kâğıt başvurular eyalet valiliklerince artık kabul edilmez.' },
+      { q: 'Karta Pobytu değerlendirmesi sırasında çalışmak mümkün mü?', a: 'Evet, başvuru iş gerekçesiyle yapıldıysa ve teslim sırasında zezwolenie na pracę mevcutsa. Diğer durumlarda önceki ikamet izninizin kuralları geçerlidir. UPO (elektronik teslim belgesi) ikametinizi yasallaştırır ancak otomatik olarak çalışma hakkı vermez.' },
+      { q: '2026\'da iş gerekçesi için asgari maaş ne kadar?', a: '1 Ocak 2026\'dan itibaren aylık 4.806 PLN brüttür. 2025\'te daha düşük tutarla imzalanan sözleşmelerin Aneks ile güncellenmesi gerekir. Niebieska Karta UE için Polonya geneli ortalama maaşının 1,5 katı (yaklaşık 11.200 PLN brüt) gereklidir.' },
+      { q: 'Karta Pobytu başvurusu yurt dışından yapılabilir mi?', a: 'Hayır. Wniosek Polonya\'da bizzat verilir. Teslim anında yasal ikamet gerekçeniz (D vizesi veya vize muafiyeti) bulunmalıdır. Belge paketi uzaktan hazırlanabilir, Polonya\'ya geliş gününüzde teslim yapılabilir.' }
     ]
   },
 
@@ -56,6 +64,12 @@ export const BLOG_FAQ: Map = {
       { q: 'How much does a residence card cost for a child?', a: 'PLN 340 stamp duty plus PLN 100 for the card. Children under 16 are exempt from part of the fees on family-reunification (łączenie rodzin) grounds. The wojewoda (regional governor) confirms the amount on filing.' },
       { q: 'Can a child get a TRC if the parents only hold D-visas?', a: 'Only if a parent files for a TRC at the same time or has already filed. Without a parental basis the child has no own ground. Exception: Polish heritage or second-parent citizenship.' },
       { q: 'How long is a residence card issued to a child?', a: 'Up to the parent\'s card expiry, capped at three years. After 18 the child files independently - usually on student or employment grounds.' }
+    ],
+    tr: [
+      { q: '2026 yılında yabancı bir çocuk için Karta Pobytu başvurusunu kim yapar?', a: 'Wniosek (başvuru), her iki yasal temsilci tarafından yapılır - genellikle anne ve baba. Tek ebeveyn varsa, diğer ebeveynin haklarını sınırlayan mahkeme kararı veya yazılı muvafakat (apostilli) gereklidir. Başvuru, MOS v2.0 (yabancılar için yeni e-başvuru sistemi) üzerinden çocuk adına yapılır.' },
+      { q: 'Çocuk için Karta Pobytu ücreti ne kadar?', a: 'Wniosek için 340 PLN opłata skarbowa (damga vergisi) + plastik kart için 100 PLN. 16 yaş altı çocuklar, łączenie rodzin (aile birleşimi) gerekçesinde harcın bir kısmından muaftır. Kesin tutarı wojewoda (eyalet valisi) başvuruda doğrular.' },
+      { q: 'Ebeveynler yalnızca D vizesi sahibiyse çocuk Karta Pobytu alabilir mi?', a: 'Yalnızca ebeveyn aynı anda Karta Czasowego Pobytu başvurusu yaptıysa veya zaten yaptıysa. Ebeveynde gerekçe yoksa çocuğun da kendi gerekçesi olmaz. İstisna: ikinci ebeveynin Polonya kökü veya vatandaşlığı.' },
+      { q: 'Çocuğa Karta Pobytu hangi süreyle verilir?', a: 'Karta sahibi ebeveynin kartı geçerli olduğu süre kadar, ancak en fazla 3 yıl. 18 yaşından sonra çocuk başvuruyu kendi adına yapar - genellikle öğrenci veya iş gerekçesiyle.' }
     ]
   },
 
@@ -77,6 +91,12 @@ export const BLOG_FAQ: Map = {
       { q: 'What to do after losing a job on a residence card?', a: 'You have 30 days from termination (ustanie zatrudnienia) to notify the wojewoda (regional governor) in writing. The card stays valid, but if you don\'t find new work within 90 days (TRC) or 30 days (EU Blue Card), the wojewoda can revoke the decyzja (decision).' },
       { q: 'How many days do I have to find new employment?', a: 'On a standard TRC: 30 days to notify the wojewoda (regional governor) and up to 90 days without work cumulatively. On an EU Blue Card: the same 30 days, with up to 6 months unemployment cumulative.' },
       { q: 'Do I need a new card when I change employer?', a: 'The card itself is not reissued, but you must file an application for change of permit (zmiana zezwolenia). Fee: PLN 220, no new biometrics. Decision typically 30-60 days.' }
+    ],
+    tr: [
+      { q: 'Polonya oturum kartı belirli bir işverene mi bağlıdır?', a: 'Evet, praca (çalışma) gerekçesiyle verilen Karta Czasowego Pobytu somut bir işverene, pozisyona ve maaşa bağlıdır. Bu unsurlardan herhangi biri değişirse 15 iş günü içinde zmiana zezwolenia (izin değişikliği) başvurusu yapılmalıdır.' },
+      { q: 'Karta Pobytu sahibiyken işten çıkarılırsam ne yapmalıyım?', a: 'İş ilişkisinin sona ermesinden itibaren 30 gün içinde wojewoda\'yı yazılı olarak bilgilendirmek zorundasınız. Karta geçerli kalır, ancak 90 gün içinde (sıradan TRC) ya da 30 gün içinde (Niebieska Karta UE) yeni iş bulunmazsa izin geri alınabilir.' },
+      { q: 'Karta Pobytu ile yeni iş bulmak için kaç gün vardır?', a: 'Sıradan Karta Czasowego Pobytu\'da işten çıkarıldıktan sonra wojewoda\'ya bildirim için 30 gün ve karta\'nın geçerlilik süresi içinde toplam 90 güne kadar işsizlik. Niebieska Karta UE (AB Mavi Kartı)\'da 30 gün bildirim, toplamda 6 aya kadar işsizlik.' },
+      { q: 'İşveren değişikliğinde Karta Pobytu yenilenir mi?', a: 'Plastik kart yenilenmez, ancak zmiana zezwolenia başvurusu yapılır - yeni wnioskten daha basittir. Harç 220 PLN\'dir, biyometri tekrar alınmaz. Karar genellikle 30-60 günde verilir.' }
     ]
   },
 
@@ -101,6 +121,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Is Polish language required for permanent residence?', a: 'No - neither for the 5-year nor the marriage basis. A Polish B1 certificate is required only for citizenship (uznanie / nadanie - recognition / grant).' },
       { q: 'How long does the permanent-residence decision take in 2026?', a: 'Statutory limit: 60 days. In Mazowieckie Voivodeship: 12-18 months in practice. Acceleration is possible via a ponaglenie (urgency motion) to the Szef UdSC (Head of the Office for Foreigners) and a skarga na bezczynność (complaint about inaction) to the WSA (Voivodeship Administrative Court).' },
       { q: 'Can I work without a permit on a Karta Stałego Pobytu?', a: 'Yes. Permanent residence grants the unconditional right to work for any employer without a zezwolenie na pracę (work permit) and without notifying the wojewoda (regional governor) of changes.' }
+    ],
+    tr: [
+      { q: '2026\'da Karta Stałego Pobytu kimler alabilir?', a: 'Daimi oturum 5 temel gerekçeyle alınır: 5 yıl kesintisiz ikamet, Polonya vatandaşıyla 3 yıldan uzun evlilik, Polonya kökü, mülteci statüsü ile 5 yıl ikamet ve Polonya vatandaşlarının çocukları. Her gerekçenin kendi belge paketi vardır.' },
+      { q: 'Daimi oturum için 5 yılın hesabında öğrenci vizesi süresi sayılır mı?', a: 'Yalnızca yarı oranında - Ustawa o cudzoziemcach (Yabancılar Kanunu) art. 65 fıkra 2 uyarınca. 4 yıl öğrenci Karta Pobytu\'su, Karta Stałego Pobytu için 5 yıllık sürede 2 yıl olarak sayılır.' },
+      { q: 'Karta Stałego Pobytu için Lehçe gerekli midir?', a: 'Hayır - 5 yıllık ikamet ya da evlilik gerekçesiyle dil sınavı şartı yoktur. Lehçe B1 yalnızca obywatelstwo (Polonya vatandaşlığı) için, uznanie/nadanie (tanıma/verme) yoluyla istenir.' },
+      { q: '2026\'da Mazowieckie Urząd Wojewódzki\'de Karta Stałego Pobytu kararı ne kadar sürer?', a: 'Yasal süre 60 gündür. Pratikte Mazowieckie Urząd Wojewódzki (Mazowiecki Eyalet İdaresi)\'nde 12-18 ay sürer. Süreç Szef UdSC (Yabancılar Dairesi Başkanı)\'na ponaglenie (acele talebi) ve WSA (Eyalet İdare Mahkemesi)\'ne skarga na bezczynność (eylemsizlik şikayeti) ile hızlandırılabilir.' },
+      { q: 'Karta Stałego Pobytu ile zezwolenie olmadan çalışılabilir mi?', a: 'Evet. Karta Stałego Pobytu (daimi oturum kartı), herhangi bir işverende zezwolenie na pracę (çalışma izni) olmadan ve iş değişikliğini wojewoda\'ya bildirme yükümlülüğü olmadan çalışma hakkı verir.' }
     ]
   },
 
@@ -119,6 +146,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What is the difference between Karta Stałego Pobytu and an EU long-term resident card?', a: 'Karta Stałego Pobytu is valid only in Poland and granted for ties with Poland (marriage, heritage, long stay). The EU long-term resident card under Directive 2003/109/EC grants mobility - you can live and work in another EU state after 12 months there.' },
       { q: 'Which is better - Polish PR or EU long-term resident status?', a: 'For someone planning to stay in Poland, PR is faster and has more bases. For someone considering Germany, France or the Netherlands, the EU status offers mobility.' },
       { q: 'Can you hold both cards at the same time?', a: 'No - they are two different cards and the EU status replaces PR. Foreigners pick one based on their plans.' }
+    ],
+    tr: [
+      { q: 'Karta Stałego Pobytu ile AB Uzun Süreli Mukim kartı arasındaki fark nedir?', a: 'Karta Stałego Pobytu yalnızca Polonya\'da geçerlidir; Polonya ile bağ (evlilik, köken, uzun ikamet) gerekçesiyle verilir. Karta Rezydenta Długoterminowego UE ise 2003/109/EC sayılı Direktife dayalı AB statüsüdür ve yeni AB ülkesinde 12 ay sonra orada yaşama ve çalışma hakkı verir.' },
+      { q: 'Hangisi daha avantajlı: daimi oturum mu, AB uzun süreli mukim statüsü mü?', a: 'Yalnızca Polonya\'da yaşamayı planlıyorsanız Karta Stałego Pobytu daha hızlı verilir ve daha çok gerekçesi vardır. Almanya, Fransa veya başka bir AB ülkesine geçiş düşünülüyorsa AB uzun süreli mukim kartı mobilite sağlar.' },
+      { q: 'Aynı anda hem Karta Stałego Pobytu hem AB uzun süreli mukim kartı tutulabilir mi?', a: 'Hayır. Polonya hukukunda bunlar farklı kartlardır ve AB mukim statüsü daimi oturumun yerine geçer. Pratikte yabancıların çoğu, kendi senaryolarına göre iki karttan birini seçer.' }
     ]
   },
 
@@ -140,6 +172,12 @@ export const BLOG_FAQ: Map = {
       { q: 'What to do when MOS v2.0 rejects documents?', a: 'Check the format (PDF/A or JPG up to 5 MB), the signature (ePUAP or a qualified e-signature), and that the data on the application matches the attachments. Common errors: oversized scans and date-of-birth mismatches.' },
       { q: 'Can I file via MOS v2.0 without PESEL?', a: 'Yes, but the form requires a reason and a passport copy with the entry stamp. Most applicants obtain PESEL in parallel - without it, meldunek (address registration) and health insurance are difficult.' },
       { q: 'How do I track the status of a MOS v2.0 application?', a: 'Inside the MOS v2.0 cabinet, in "Status sprawy" (Case status). Notifications also arrive via eDoręczenia. Phone calls to the voivodeship are no longer effective - all communication is through the platform.' }
+    ],
+    tr: [
+      { q: 'MOS v2.0 sistemine nasıl giriş yapılır?', a: 'Giriş Profil Zaufany (güvenilir profil), login.gov.pl, e-dowód veya mDowód üzerinden yapılır. Bu kimlik doğrulayıcılardan biri olmadan sisteme girilemez. Profil Zaufany Polonya bankaları (mBank, PKO, ING) üzerinden veya PESEL ile urząd gminy (belediye ofisi)\'nde açılır.' },
+      { q: 'MOS v2.0 belgeleri kabul etmiyorsa ne yapılmalı?', a: 'Format (PDF/A veya dosya başına 5 MB\'a kadar JPG), imza doğruluğu (ePUAP / kalifiye imza) ve wniosku ile załącznikler arasında veri uyumu kontrol edilmelidir. En sık hatalar: çok büyük taramalar ve uyumsuz doğum tarihleri.' },
+      { q: 'MOS v2.0\'da PESEL olmadan başvuru yapılabilir mi?', a: 'Yapılabilir, ancak başvuruda PESEL\'in olmama nedeni belirtilmeli ve giriş damgalı pasaport kopyası eklenmelidir. PESEL genelde paralel olarak alınır - bunsuz zameldowanie (adres kaydı) ve sağlık sigortası işlemleri zorlaşır.' },
+      { q: 'MOS v2.0\'da başvuru durumu nasıl takip edilir?', a: 'MOS v2.0 panelinde \'Status sprawy\' (dosya durumu) bölümünde takip edilir. Bildirimler eDoręczenia\'ya da gelir. Wojewoda\'ya telefon etmek ya da biuro podawcze (kayıt ofisi) üzerinden iletişim artık geçerli değildir - tüm yazışmalar sistem üzerinden yürür.' }
     ]
   },
 
@@ -161,6 +199,12 @@ export const BLOG_FAQ: Map = {
       { q: 'What salary is needed for the EU Blue Card in Poland in 2026?', a: 'At least 1.5× the national average - about PLN 12,750 gross in 2026. For shortage occupations (IT, engineering) it drops to 1.2×. The number is published by GUS.' },
       { q: 'Can I work in Germany or the Netherlands with a Polish Blue Card?', a: 'Yes - after 12 months in Poland on the Blue Card, you can apply in another EU state under a simplified procedure. That mobility is the main advantage over a national residence card.' },
       { q: 'How long and how much for an EU Blue Card?', a: 'Fee: PLN 440. Statutory deadline 60 days for the Blue Card; realistically 3-5 months in Mazowieckie. Faster than a standard TRC.' }
+    ],
+    tr: [
+      { q: 'AB Mavi Kartı ile Karta Pobytu arasındaki fark nedir?', a: 'AB Mavi Kartı (Niebieska Karta UE), yüksek nitelikli yabancılar için Polonya\'nın ekonomik ortalamasına bağlı bir maaş eşiği ve diploma veya 5 yıl deneyim şartı içeren AB seviyesinde bir karttır. Standart Karta czasowego pobytu (Polonya geçici oturum kartı) ise eğitim şartı olmayan ulusal bir belgedir. Mavi Kart, başka AB ülkelerinde 90 güne kadar çalışma hakkı tanır.' },
+      { q: '2026\'da Polonya AB Mavi Kartı için hangi maaş şartı vardır?', a: 'Polonya, direktifin alt sınırı olan 1,0 katı uygular - 2026 yılında yaklaşık 11.700 PLN brüt aylık maaş. Maaşın iş sözleşmesi üzerinden ödendiğinden ve bonus veya prim olarak parçalanmadığından emin olun, aksi takdirde wojewoda yalnızca temel kısmı dikkate alır.' },
+      { q: 'Polonya AB Mavi Kartı ile Almanya veya Hollanda\'da çalışılabilir mi?', a: 'Evet. Mavi Kart sahibi, ek izin gerekmeden 180 günde 90 güne kadar başka bir AB ülkesinde çalışabilir. Daha uzun süreler için 12 ayın ardından hedef ülkede kolaylaştırılmış prosedürle Mavi Kart başvurusu yapılabilir. Bu hareketlilik standart Karta Pobytu\'da bulunmaz.' },
+      { q: 'Polonya\'da AB Mavi Kartı ne kadar sürer ve ne kadara mal olur?', a: 'Devlet harcı 440 PLN, kart plastiği 100 PLN\'dir. Yasal süre 60 gündür, gerçek süre Mazowieckie eyaletinde 4-8 aydır. Bu, standart Karta czasowego pobytu için geçerli olan 8-14 aylık süreden belirgin biçimde kısadır.' }
     ]
   },
 
@@ -182,6 +226,12 @@ export const BLOG_FAQ: Map = {
       { q: 'What are the most common reasons for refusal in 2026?', a: 'Salary below the minimum or below 1.5× the national average for the Blue Card, mismatch between the work basis and the actual contract, meldunek (address registration) errors, missing ZUS or insurance certificates, and failed verification interviews.' },
       { q: 'How much does an appeal cost?', a: 'The odwołanie (appeal) itself is free. Consultant services run PLN 1,800-4,500. A WSA (Voivodeship Administrative Court) complaint adds a PLN 200 court fee.' },
       { q: 'Can I stay in Poland during the appeal?', a: 'Yes. A timely odwołanie (appeal) extends your right of residence until the Szef UdSC (Head of the Office for Foreigners) rules. The UPO remains valid, but the work right is lost the moment of the negative decision if the basis was employment.' }
+    ],
+    tr: [
+      { q: 'Karta Pobytu reddedilirse ne yapmalı?', a: 'eDoręczenia (elektronik resmi yazışma sistemi) üzerinden tebligatın yapıldığı andan itibaren 14 gün içinde Szef Urzędu do Spraw Cudzoziemców\'e (Yabancılar Dairesi Başkanlığı\'na) odwołanie (itiraz) sunmanız gerekir. Süre kesindir, kaçırılırsa karar prawomocna (kesin) hâle gelir. Aynı zamanda Polonya\'dan ayrılmayı erteleyin.' },
+      { q: '2026\'da Karta Pobytu için en sık ret nedenleri nelerdir?', a: 'Yetersiz gelir (asgari ücretin altı veya Mavi Kart eşiğinin altı), iş esasının fiili sözleşme ile uyumsuzluğu, meldunek (adres kaydı) hataları, ZUS ve sigorta belgelerinin eksikliği, doğrulama görüşmesinin başarısız olması ve obejście prawa (hukuku dolanma) şüphesi.' },
+      { q: 'Karta Pobytu itirazı ne kadara mal olur?', a: 'Odwołanie sunumu ücretsizdir. Avukatla destek 1.500-2.500 PLN aralığındadır. WSA\'ya skarga aşamasında 200 PLN mahkeme harcı eklenir, avukat ücreti 3.000-5.000 PLN\'dir. Avukatla birlikte UDSC\'de kazanma oranı %60-70\'tir, bireysel başvuruda %25-30\'dur.' },
+      { q: 'İtiraz sürecinde Polonya\'da kalabilir miyim?', a: 'Evet. Süresi içinde sunulan odwołanie, Şefin kararına kadar yasal ikametinizi otomatik olarak uzatır - vizeniz veya eski kartınız sona ermiş olsa bile UPO geçerlidir. Ancak çalışma hakkı ret kararıyla birlikte sona erer (esas iş ise). Polonya dışına uzun süre çıkış riskli olabilir.' }
     ]
   },
 
@@ -200,6 +250,11 @@ export const BLOG_FAQ: Map = {
       { q: 'How can I accelerate a residence-card decision?', a: 'After the statutory deadline (60 or 90 days), file a ponaglenie (urgency motion) to the Szef UdSC (Head of the Office for Foreigners). If that fails, file a skarga na bezczynność (complaint about inaction) with the WSA (Voivodeship Administrative Court) - the court can order the wojewoda (regional governor) to decide within 14-30 days.' },
       { q: 'What is a ponaglenie and when do you file it?', a: 'A ponaglenie (urgency motion) is a formal complaint about the authority\'s inaction. It is filed through the same wojewoda and addressed to the Szef UdSC (Head of the Office for Foreigners) after the statutory deadline expires.' },
       { q: 'How much does a WSA complaint cost?', a: 'A flat court fee of PLN 200. Legal representation from PLN 1,500. If you win, the court refunds the fee and part of the representation cost.' }
+    ],
+    tr: [
+      { q: 'Karta Pobytu süreci nasıl hızlandırılır?', a: 'Wojewoda yasal süreyi (60 veya 90 gün) aştıysa Szef UDSC\'ye ponaglenie (resmi hatırlatma) sunun. Ponaglenie sonuç vermezse Wojewódzki Sąd Administracyjny\'a (Eyalet İdare Mahkemesi WSA) skarga na bezczynność (eylemsizlik şikâyeti) sunulur. Mahkeme, wojewoda\'yı 14-30 gün içinde karar vermeye zorlayabilir ve gecikme için tazminata hükmedebilir.' },
+      { q: 'Ponaglenie nedir ve ne zaman sunulur?', a: 'Ponaglenie, dosyayı yürüten organın eylemsizliğine karşı sunulan resmi bir hatırlatmadır. Mevcut wojewoda üzerinden Szef UDSC\'ye iletilir. Yasal süre (60 veya 90 gün) dolduğunda anlamlıdır. Doğru kronoloji ve KPA madde 35\'e atıf gereklidir; internetten alınan şablonlar genelde reddedilir.' },
+      { q: 'WSA\'ya skarga ne kadara mal olur?', a: 'Mahkeme harcı sabittir: 100 PLN. Avukatlık hizmeti 1.800 PLN\'den başlar. Davayı kazanırsanız mahkeme harcı iade edilir ve gecikmenin her ayı için ortalama 1.000-5.000 PLN tazminat ödenir. Mazowieckie\'de skarga davalarının yaklaşık %78\'i başvurucu lehine sonuçlanmaktadır.' }
     ]
   },
 
@@ -218,6 +273,11 @@ export const BLOG_FAQ: Map = {
       { q: 'How does a Ukrainian switch from UKR status to a work-based residence card?', a: 'Find a Polish employer, obtain a type-A work permit or a powiadomienie (notification) filing, and submit a residence-card application via MOS v2.0 while the UKR status is still valid. UKR is extended to 4 March 2026.' },
       { q: 'When does UKR status end in Poland?', a: 'The current version of the Ukrainian Assistance Act extends UKR status to 4 March 2026. Further extensions depend on EU and Polish government decisions.' },
       { q: 'Can I apply for a TRC while still on UKR?', a: 'Yes, and it is recommended. Filing in MOS v2.0 does not cancel UKR status - the two statuses run in parallel until the decision.' }
+    ],
+    tr: [
+      { q: 'Ukrayna vatandaşı PESEL UKR\'den iş esaslı Karta Pobytu\'ya nasıl geçer?', a: 'Polonyalı bir işveren bulun, A tipi zezwolenie na pracę (çalışma izni) veya powiadomienie (bildirim, UKR ile çalışma için) düzenletin ve UKR statüsü geçerliyken MOS v2.0 üzerinden başvuru sunun. Karta alındığında PESEL UKR statüsü tüm avantajlarıyla otomatik olarak sona erer.' },
+      { q: 'Polonya\'da PESEL UKR statüsü ne zaman sona eriyor?', a: 'Mevcut Ustawa o pomocy obywatelom Ukrainy hükmüne göre PESEL UKR 4 Mart 2027\'ye kadar geçerlidir. Sonraki uzatmalar AB ve Polonya hükümetinin kararlarına bağlıdır. 4 Mayıs 2026 - 4 Mart 2027 arasında 3 yıllık Karta CUKR alternatif olarak sunulmaktadır.' },
+      { q: 'UKR statüsünü koruyarak Karta Pobytu başvurusu yapılabilir mi?', a: 'Hayır - başvuru sürecinde UKR otomatik olarak askıya alınabilir. Standart Karta Pobytu alındığında UKR\'nin tüm özel avantajları sona erer. Yine UKR\'de kalmak isteyenler için CUKR daha güvenli bir seçenektir, çünkü 4 Mayıs 2026\'dan itibaren paralel olarak başvurulabilir.' }
     ]
   },
 
@@ -236,6 +296,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Can I switch from a student visa to a residence card in Poland?', a: 'Yes. You can file a MOS v2.0 application any time while your student visa or student residence card is valid. Grounds: continued study, employment, business, marriage.' },
       { q: 'Does student time count toward permanent residence?', a: 'Only at half-rate, per Article 65(2). Four years of student status counts as two toward the 5-year permanent-residence requirement.' },
       { q: 'Can I work on a student residence card?', a: 'Yes - without a separate work permit, on employment contracts, mandate contracts, specific-task contracts, or a sole proprietorship (JDG). But the card is granted on study grounds - being expelled triggers withdrawal.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da öğrenci vizesinden Karta Pobytu\'ya geçilebilir mi?', a: 'Evet. Öğrenci vizeniz veya öğrenci Karta Pobytu süreniz geçerliyken MOS v2.0 üzerinden başvuru sunabilirsiniz. Gerekçe seçenekleri: eğitime devam, iş, işletme veya evlilik. Vize bitmeden başvurmanız gerekir, aksi halde kayıt dışı ikamet başlar.' },
+      { q: 'Öğrencilik dönemi daimi oturum süresine sayılır mı?', a: 'Yalnızca yarısı sayılır - Ustawa o cudzoziemcach madde 65 fıkra 2 uyarınca. Yani öğrenci Karta Pobytu\'da 4 yıl, Karta stałego pobytu (daimi oturum kartı) için gereken 5 yıllık sürenin yalnızca 2 yılına denk gelir. İş esaslı süre ise tam sayılır.' },
+      { q: 'Öğrenci Karta Pobytu ile Polonya\'da çalışılabilir mi?', a: 'Evet, zezwolenie na pracę gerekmeden - umowa o pracę (iş sözleşmesi), umowa zlecenie (hizmet sözleşmesi), umowa o dzieło (eser sözleşmesi) veya kart sahipleri için JDG (şahıs şirketi) açılabilir. Ancak kartın esası eğitimdir - okuldan çıkarılma kartın iptaline yol açar.' }
     ]
   },
 
@@ -257,6 +322,12 @@ export const BLOG_FAQ: Map = {
       { q: 'How long does the family-reunification decision take?', a: 'Statutory: 6 months under Directive 2003/86/EC. In Mazowieckie in practice: 8-14 months. Acceleration through a ponaglenie (urgency motion) + WSA (Voivodeship Administrative Court) complaint is available.' },
       { q: 'Is Polish required for the spouse?', a: 'No. Polish B1 is not required for the family-reunification TRC or for permanent residence on the marriage basis (3+ years of marriage to a Polish citizen).' },
       { q: 'Can the spouse work after receiving the card?', a: 'Yes. A family-reunification TRC carries an unlimited right to work - no work permit needed and no change of basis when switching employers.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da aile birleşimine kimler başvurabilir?', a: 'Łączenie rodzin (aile birleşimi) şu kişilerin eşlerine, reşit olmayan çocuklarına ve bağımlı ebeveynlerine sunulur: Polonya vatandaşları, karta stałego pobytu (daimi oturum kartı) sahipleri, AB uzun süreli mukimleri, uluslararası koruma yararlanıcıları ve 2 yıldan fazla geçerli TRC sahipleri.' },
+      { q: 'Aile birleşimi başvurusu kaç ay sürer?', a: 'Łączenie rodzin için yasal süre 6 aydır (2003/86/EC Direktifi). Pratikte Mazowieckie eyaletinde 8-14 ay sürer. Ponaglenie (acele talebi) ve WSA (Voyvodalık İdare Mahkemesi) şikâyetiyle hızlandırılabilir.' },
+      { q: 'Aile birleşimi başvurusunda eşin Polonyaca bilmesi şart mıdır?', a: 'Hayır. Łączenie rodzin temelli TRC veya 3+ yıl evlilikten sonra Polonya vatandaşı eş için karta stałego pobytu başvurusunda Polonyaca B1 zorunlu değildir.' },
+      { q: 'Aile birleşimi karta pobytu eşe çalışma hakkı verir mi?', a: 'Evet. Łączenie rodzin temelli TRC, sınırsız çalışma hakkı taşır - zezwolenie na pracę (çalışma izni) gerekmez ve işveren değiştirildiğinde temel değişikliği gerekmez.' }
     ]
   },
 
@@ -275,6 +346,11 @@ export const BLOG_FAQ: Map = {
       { q: 'How quickly must I notify the wojewoda (regional governor) about a change of employer?', a: '15 working days from signing the new contract - via MOS v2.0 as a zmiana zezwolenia (change of permit decision). Late notification can void the card.' },
       { q: 'What happens if I don\'t report the job change?', a: 'The wojewoda (regional governor) can revoke the permit. Enforcement is selective - typically during checks 6-18 months after the change. Filing the change is the safe path.' },
       { q: 'How much does the change-of-permit application cost?', a: 'PLN 220. No new biometrics. Decision usually within 30-90 days. The plastic card is not reissued.' }
+    ],
+    tr: [
+      { q: 'Karta pobytu sahibi yabancı işveren değişikliğini wojewoda\'ya kaç gün içinde bildirmelidir?', a: 'Yeni iş sözleşmesinin imzalanmasından itibaren 15 iş günü. Bildirim MOS v2.0 üzerinden "zmiana decyzji w sprawie zezwolenia na pobyt" (oturma izni kararının değiştirilmesi) formatında sunulur. Geç bildirim karta pobytu\'nun kaybedilmesi riskini doğurur.' },
+      { q: 'İşveren değişikliği karta pobytu üzerinde bildirilmezse ne olur?', a: 'Wojewoda (eyalet valisi) karta pobytu kararını geri alma yetkisine sahiptir. Pratikte seçici uygulanır - değişiklikten 6-18 ay sonra status quo doğrulamasında. Riski önlemek için zmianę (değişiklik başvurusu) sunun.' },
+      { q: 'İş değişikliği sonrası zmiana zezwolenia (izin değişikliği) ne kadar tutar?', a: 'Opłata skarbowa (devlet harcı) 220 PLN. Biyometri gerekmez. Karar genellikle 30-90 günde gelir. Karta plastiği yenilenmez.' }
     ]
   },
 
@@ -300,6 +376,13 @@ export const BLOG_FAQ: Map = {
       { q: 'What is the Karta Polaka interview like?', a: '30-60 minutes with a consul, in Polish at A2 level. Topics: personal data, family history, Polish culture (three kings, three poets, main holidays), motivation. Simple questions - but in Polish.' },
       { q: 'How long does the Karta Polaka decision take?', a: 'Statutory: 60 days from filing at the consulate. Realistically 3-9 months. Issuance of the physical card after a positive decision: usually 4-8 weeks.' },
       { q: 'Does Karta Polaka grant Polish citizenship?', a: 'Not directly, but it shortens the path: holders can apply for permanent residence on arrival (no 5-year wait) and for citizenship one year later.' }
+    ],
+    tr: [
+      { q: 'Karta Polaka için kimler başvurabilir?', a: 'En az bir ebeveyni, büyükanne/büyükbabası veya büyük büyükannesi/büyük büyükbabası Polonya milliyetinden olan kişiler (vatandaşlık ile karıştırılmamalıdır). Ek olarak temel düzey Lehçe (en az A2 sözlü), Polonya kültürüyle aktif bağ ve Polonya milletine mensubiyet beyannamesi gereklidir.' },
+      { q: 'Karta Polaka için hangi belgeler gereklidir?', a: 'Polonya milliyetinden ataların metrika belgeleri (doğum, evlilik), arşiv kayıtları, narodowość "polska" ("Polonya" milliyeti) ifadeli okul/askerlik belgeleri, pasaportunuz, 35×45 mm fotoğraf, biografia (1-2 sayfa), konsolosluk wniosek formu.' },
+      { q: 'Karta Polaka mülakatı nasıl geçer?', a: 'Konsolosla görüşme 30-60 dakika sürer ve A2 düzeyinde Lehçe yapılır. Konular: kişisel veriler, aile geçmişi, Polonya kültürü (3 kral, 3 şair, başlıca bayramlar), başvuru gerekçesi. Sorular basittir, ancak Lehçe olmadan geçilmez.' },
+      { q: 'Karta Polaka kararı ne kadar sürede çıkar?', a: 'Yasal süre konsolosluğa sunumdan itibaren 60 gündür. Pratikte sıraya bağlı olarak 3-9 ay. Olumlu karar sonrası kart teslimi genellikle 4-8 hafta.' },
+      { q: 'Karta Polaka Polonya vatandaşlığı verir mi?', a: 'Hayır, ancak hızlı yol sağlar: Karta Polaka sahibi Polonya\'ya taşındıktan sonra doğrudan karta stałego pobytu\'ya (5 yıl beklemeden daimi oturum kartı) başvurur, 1 yıl sonra ise nadanie obywatelstwa polskiego (Polonya vatandaşlığı tahsisi) için başvuru yapar.' }
     ]
   },
 
@@ -318,6 +401,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What is the CUKR card in Poland?', a: 'A new TRC format specifically for Ukrainian citizens, replacing UKR status from 4 March 2026. Filed via MOS v2.0 in a simplified procedure with no minimum-salary check in the first year.' },
       { q: 'How does CUKR differ from a standard residence card?', a: 'Issued only to Ukrainians, simpler procedure, no employment requirement in year one. After 12 months you transfer to a standard TRC.' },
       { q: 'When does UKR status end and CUKR begin?', a: 'UKR runs until 4 March 2026. After that date, only CUKR applications via MOS v2.0. The transition is not automatic - a new application is required.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da karta CUKR nedir?', a: '4 Mart 2026\'dan itibaren UKR statüsünün yerini alan, Ukrayna vatandaşlarına özel yeni TRC formatıdır. Başvuru MOS v2.0 üzerinden yapılır, ilk yıl asgari maaş kontrolü olmadan basitleştirilmiş prosedürle ilerler.' },
+      { q: 'Karta CUKR standart karta pobytu\'dan nasıl ayrılır?', a: 'Karta CUKR yalnızca Ukraynalılara verilir, basitleştirilmiş prosedüre tabidir ve ilk yıl istihdam koşulu aranmaz. 12 aydan sonra çalışma veya başka gerekçeyle standart TRC\'ye geçilir.' },
+      { q: 'UKR statüsü ne zaman biter ve karta CUKR ne zaman başlar?', a: 'UKR 4 Mart 2026\'ya kadar geçerlidir. Bu tarihten itibaren başvuru yalnızca MOS v2.0 üzerinden karta CUKR için yapılır. Geçiş otomatik değildir - yeni bir wniosek (başvuru) sunmak gerekir.' }
     ]
   },
 
@@ -337,6 +425,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What documents are needed for a marriage with a Polish citizen?', a: 'Birth certificate with apostille and a sworn translation, a zaświadczenie o zdolności prawnej do zawarcia małżeństwa (certificate of legal capacity to marry) not older than 6 months, passport, and if applicable a divorce decree.' },
       { q: 'How long after marriage until you get a residence card?', a: 'You can file the family-reunification (łączenie rodzin) TRC immediately after the wedding via MOS v2.0. Decision in Mazowieckie: 8-14 months. After 3 years of marriage you can apply for permanent residence.' },
       { q: 'Can I apply for citizenship right after marriage?', a: 'No. Marriage alone does not grant citizenship. After 3 years of marriage and 2 years of permanent residence, you can apply for recognition as a Polish citizen (uznanie za obywatela polskiego) - the shortest path through marriage.' }
+    ],
+    tr: [
+      { q: 'Polonya vatandaşı ile evlilik tescili için hangi belgeler gereklidir?', a: 'Apostille ve yeminli tercümeli doğum belgesi, 6 aydan eski olmayan zaświadczenie o zdolności prawnej do zawarcia małżeństwa (evlenme ehliyet belgesi), pasaport ve gerekirse önceki evliliğin sona erdiğini gösteren mahkeme kararı.' },
+      { q: 'Nikahtan karta pobytu\'ya kadar ne kadar beklenir?', a: 'Łączeniu rodzin (aile birleşimi) gerekçeli TRC için wniosek (başvuru) nikah hemen ardından MOS v2.0 üzerinden sunulabilir. Mazowieckim UW (Mazowiecki eyalet idaresi) kararı 8-14 ay sürer. 3 yıllık evlilikten sonra karta stałego pobytu yolu açılır.' },
+      { q: 'Nikahtan hemen sonra vatandaşlık başvurusu yapılabilir mi?', a: 'Hayır. Evlilik doğrudan vatandaşlık vermez. Polonya vatandaşıyla 3 yıl evlilik ve karta stałego pobytu üzerinde 2 yıl ikametten sonra uznanie za obywatela polskiego (Polonya vatandaşı olarak tanınma) başvurusu yapılabilir - bu, evlilik yoluyla Polonya pasaportuna en kısa yoldur.' }
     ]
   },
 
@@ -359,6 +452,12 @@ export const BLOG_FAQ: Map = {
       { q: 'What are the three routes to Code 95 in Poland?', a: 'Initial qualification 280 hours (from 18 yrs), accelerated initial qualification 140 hours (from 23 for C, 21 for D), or periodic training 35 hours every 5 years for drivers who already hold Code 95.' },
       { q: 'How much does Code 95 cost in Poland in 2026?', a: 'Full initial qualification: from PLN 4,500. Accelerated: from PLN 2,500. Periodic training: from PLN 1,200. Plus medical/psychological tests (~PLN 600) and the state exam at WORD (regional driving-test centre, PLN 50).' },
       { q: 'Can I get Code 95 without a Polish licence?', a: 'No. First exchange your foreign licence to a Polish one (C, CE, D or DE), then take the qualification or periodic training. EU-issued CPCs are recognised automatically.' }
+    ],
+    tr: [
+      { q: 'Kod 95 nedir ve kimler için zorunludur?', a: 'Kod 95, ehliyette yer alan ve profesyonel sürücü olarak çalışma hakkını (C/CE kamyon ve D/DE otobüs) onaylayan bir kayıttır. 2018\'den beri AB\'deki tüm ücretli taşımacılık için zorunludur. Onsuz Polonya\'da uluslararası nakliyede sürücü olarak çalışılamaz.' },
+      { q: 'Polonya\'da Kod 95 alımının üç yolu nedir?', a: 'Kwalifikacja wstępna (başlangıç yeterliliği) 280 saat (18 yaş üstü yeni başlayanlar için), kwalifikacja wstępna przyspieszona (hızlandırılmış başlangıç yeterliliği) 140 saat (C için 23, D için 21 yaş üstü), veya 5 yılda bir szkolenie okresowe (periyodik eğitim) 35 saat (Kod 95\'i halihazırda olanlar için).' },
+      { q: '2026\'da Polonya\'da Kod 95 ne kadar tutar?', a: 'Kwalifikacja wstępna pełna (tam başlangıç yeterliliği) 4.500 PLN\'den, przyspieszona (hızlandırılmış) 2.500 PLN\'den, szkolenie okresowe (periyodik eğitim) 1.200 PLN\'den başlar. Ek olarak badania lekarskie i psychologiczne (tıbbi ve psikolojik muayeneler, yaklaşık 600 PLN) ve WORD\'de (Eyalet Trafik Merkezi) devlet sınavı (50 PLN).' },
+      { q: 'Polonya ehliyeti olmadan Kod 95 alınabilir mi?', a: 'Hayır. Önce yabancı ehliyet Polonya ehliyetine (C, CE, D veya DE kategorisi) değiştirilmelidir, sonra kwalifikacja (yeterlilik) veya szkolenie okresowe (periyodik eğitim) yapılır. AB\'den gelen yabancı CPC otomatik olarak tanınır.' }
     ]
   },
 
@@ -377,6 +476,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What\'s the difference between initial qualification and periodic training?', a: 'Initial qualification is for new Code 95 holders (280 or 140 hours plus state exam). Periodic training renews an existing Code 95 every 5 years (35 hours, no exam).' },
       { q: 'How often is periodic training required?', a: 'Every 5 years from the last completion. The licence is updated with a new Code 95 expiry. Missing the deadline blocks professional driving until renewal.' },
       { q: 'Can periodic training replace initial qualification?', a: 'No. If Code 95 has been expired for over a year, a fresh initial qualification is required - periodic training is not enough.' }
+    ],
+    tr: [
+      { q: 'Kwalifikacja wstępna ile szkolenie okresowe arasındaki fark nedir?', a: 'Kwalifikacja wstępna (başlangıç yeterlilik kursu), Kod 95\'i ilk kez alacaklar içindir: 280 veya 140 saat teori artı uygulama ve devlet sınavı. Szkolenie okresowe (periyodik eğitim), mevcut Kod 95\'in her 5 yılda bir uzatılmasıdır: 35 saat teori, sınavsız.' },
+      { q: 'Polonya\'da szkolenie okresowe (periyodik eğitim) ne sıklıkla yapılır?', a: 'Son tamamlamadan itibaren her 5 yılda bir. Eğitim sonrası ehliyete yeni Kod 95 geçerlilik tarihi işlenir. Süreyi geçirmek, eğitimi tamamlayana kadar profesyonel sürücülük hakkının kaybı anlamına gelir.' },
+      { q: 'Kwalifikacja wstępna yerine szkolenie okresowe yapılabilir mi?', a: 'Hayır. Bunlar farklı süreçlerdir. Kod 95 bir yıldan fazla süredir geçersiz ise yeniden kwalifikacja wstępna (başlangıç yeterlilik kursu) tamamlanmalıdır - szkolenie okresowe yeterli değildir.' }
     ]
   },
 
@@ -398,6 +502,12 @@ export const BLOG_FAQ: Map = {
       { q: 'How much does exchanging a driving licence cost?', a: 'Starostwo (county office) fee PLN 100.50. Sworn translation PLN 50-150. Medical exam PLN 200. WORD (regional driving-test centre) theory test if required: PLN 50. Total: PLN 350-500.' },
       { q: 'Which countries can exchange without a test in 2026?', a: 'No test: Ukraine (Vienna 1968), Belarus, Georgia, Armenia, Moldova, Uzbekistan, Kazakhstan, Kyrgyzstan, and EEA states. Russia: case-by-case.' },
       { q: 'Which countries require a WORD theory exam?', a: 'USA, UK, India, Australia, UAE, Turkey. The full list is in the Regulation of the Minister of Infrastructure of 24 February 2016.' }
+    ],
+    tr: [
+      { q: '2026\'da Polonya\'da ehliyet değişimi kimler için zorunludur?', a: 'TRC, karta stałego pobytu veya Karta Polaka sahibi yabancılar için 185 gün ikametten sonra zorunludur. Vizesiz giriş ve UKR statüsü, Ukrayna ve Moldova ehliyetlerinin geçici kullanımına izin verir, ancak uzun süreli kalış için değişim yapılmalıdır.' },
+      { q: 'Polonya\'da ehliyet değişimi ücreti ne kadardır?', a: 'Starostwo (il/ilçe idaresi) harcı 100,50 PLN. Yeminli tercüme 50-150 PLN. Sağlık raporu (badania lekarskie) 200 PLN. Gerekirse WORD (Voyvodalık Sürücü Sınav Merkezi) teorik sınav harcı 50 PLN. Toplam 350-500 PLN.' },
+      { q: 'Hangi ülkelerin ehliyetleri 2026\'da sınavsız değiştirilir?', a: 'Sınavsız değişim: Ukrayna (1968 Viyana Sözleşmesi), Beyaz Rusya, Gürcistan, Ermenistan, Moldova, Özbekistan, Kazakistan, Kırgızistan ve AEA üyesi devletler. Rusya - duruma göre (bazı starostwa teorik sınav ister).' },
+      { q: 'Türk ehliyetinde Polonya WORD teorik sınavı zorunlu mudur?', a: 'Evet. Türkiye Viyana Sözleşmesi\'ni sınavsız değişim için tam onaylamadığından B kategorisi için bile WORD teorik sınavı zorunludur (50 PLN). C, CE, D, DE kategorileri için teorik + pratik sınav istenir. ABD, Birleşik Krallık, Hindistan, Avustralya ve BAE de WORD teorik sınavı gerektirir. Tam liste 24 Şubat 2016 tarihli Altyapı Bakanlığı Yönetmeliği\'ndedir.' }
     ]
   },
 
@@ -416,6 +526,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Can an Azerbaijani driving licence be exchanged without an exam?', a: 'Yes. Azerbaijan is a party to the 1968 Vienna Convention, so categories A and B are exchanged without theory or practical tests. Exchange at the local starostwo (county office) costs PLN 100.50.' },
       { q: 'What documents are needed?', a: 'Original licence, sworn translation, passport, residence card or PESEL, 35×45 mm photo, medical exam (~PLN 200), and the starostwo (county office) application form.' },
       { q: 'Are C and D categories exchangeable?', a: 'With a WORD (regional driving-test centre) theory exam. In practice many starostwo offices require an exam even under the Vienna Convention.' }
+    ],
+    tr: [
+      { q: 'Azerbaycan ehliyeti Polonya\'da sınavsız değiştirilebilir mi?', a: 'Evet. Azerbaycan, 1968 Viyana Sözleşmesi\'ni imzaladığı için A ve B sınıfı belgeler teorik ve uygulamalı sınav olmadan değiştirilir. Değişim, ikamet yerinizdeki starostwo (eyalet alt birimi) üzerinden 100,50 PLN karşılığında yapılır.' },
+      { q: 'Azerbaycan ehliyetinin değiştirilmesi için hangi belgeler gereklidir?', a: 'Sürücü belgesinin orijinali, yeminli tercüme, pasaport, karta pobytu veya PESEL, 35×45 mm fotoğraf, badania lekarskie (sağlık raporu, yaklaşık 200 PLN) ve starostwo başvuru formu (wniosek).' },
+      { q: 'Azerbaycan\'dan C ve D sınıfı belgeler değiştirilebilir mi?', a: 'C ve D sınıfları WORD (Eyalet Trafik Eğitim Merkezi) teorik sınavıyla değiştirilir. Pratikte birçok starostwo, Viyana Sözleşmesi\'ne rağmen C, CE, D ve DE sınıfları için sınav talep eder.' }
     ]
   },
 
@@ -431,6 +546,10 @@ export const BLOG_FAQ: Map = {
     en: [
       { q: 'How does Turkish licence exchange work in 2026?', a: 'Turkey is not a Vienna Convention party for exchange without exams. Category B requires the WORD (regional driving-test centre) theory test (PLN 50). Categories C, CE, D, DE require theory plus a practical exam.' },
       { q: 'How much does it cost to exchange a Turkish licence?', a: 'Starostwo (county office) PLN 100.50, sworn translation PLN 50-150, medical exam PLN 200, WORD (regional driving-test centre) theory PLN 50. Category B total: PLN 400-500. With practical exam, up to PLN 700.' }
+    ],
+    tr: [
+      { q: 'Türk ehliyetinin Polonya\'da 2026\'da hangi koşullarda değiştirilir?', a: 'Türkiye 2013\'te Viyana Sözleşmesi\'ni onayladığı için 2016 sonrası \'yeni tip\' belgelerle A ve B sınıfı değişimi sınavsız yapılır. Süreç 45-90 gün, devlet harcı 100,50 PLN, yeminli tercüme 80-130 PLN. 2016 öncesi \'eski tip\' belgelerde apostille veya konsolosluk onayı zorunludur.' },
+      { q: 'Türk ehliyeti değişimi ne kadar tutar?', a: 'Yeni tip A/B için toplam 180-230 PLN: opłata komunikacyjna 100,50 PLN, yeminli tercüme 80-130 PLN. Eski tip için apostille 60-80 PLN ek olarak gelir. C ve D sınıflarında sağlık raporu (180-250 PLN) ve psikoteknik (130-180 PLN) ile toplam 490-740 PLN\'ye çıkar.' }
     ]
   },
 
@@ -449,6 +568,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Do US, UK or Indian licences require a WORD exam?', a: 'Yes. The US, UK and India are not in the automatic-exchange list. Category B requires the WORD (regional driving-test centre) theory test (30 questions, 75% pass). Practical not usually required for B; required for C and D.' },
       { q: 'How much does the WORD theory exam cost?', a: 'PLN 50. Booking is online via the regional WORD (driving-test centre) site. The queue is 2-6 weeks in Warsaw. The exam is available in Polish, English, Russian, Ukrainian or German.' },
       { q: 'Can I get an international driving permit in Poland?', a: 'Yes - once your foreign licence is exchanged for a Polish one, you can get an IDP at the starostwo (county office) for PLN 35. Valid 3 years (Vienna) or 1 year (Geneva). Required for non-EU travel.' }
+    ],
+    tr: [
+      { q: 'ABD, İngiltere ve Hindistan ehliyetlerinin değişiminde WORD sınavı zorunlu mu?', a: 'Evet. ABD, Brexit sonrası İngiltere ve Hindistan, otomatik değişim listesinde yer almaz. B sınıfı için WORD\'de teorik sınav zorunludur (30 soru, 74 üzerinden 68 puan ile geçilir). Pratik sınav genellikle B için aranmaz; C ve D için zorunludur.' },
+      { q: 'WORD\'de teorik sınav ücreti ne kadar?', a: 'Sınav 50 PLN\'dir. Kayıt info-car.pl üzerinden çevrimiçi yapılır. Varşova\'da bekleme süresi 2-6 haftadır. Sınav Lehçe veya İngilizce verilir; Mazowieckim\'de İngilizce dil seçeneği rutin olarak sunulur.' },
+      { q: 'Polonya\'dan uluslararası ehliyet alınabilir mi?', a: 'Evet. Yabancı ehliyetinizi Polonya ehliyetine çevirdikten sonra starostwo\'da 35 PLN karşılığında uluslararası ehliyet alınır. Geçerlilik 3 yıl (Viyana) veya 1 yıl (Cenevre); AB dışına seyahatlerde gereklidir.' }
     ]
   },
 
@@ -467,6 +591,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What is the 185-day rule for driving licences in Poland?', a: 'Under Polish law, a foreigner who has lived in Poland for more than 185 days in a calendar year is obliged to exchange the foreign licence for a Polish one. Driving without the exchange counts as driving without authorisation.' },
       { q: 'What\'s the fine for driving without a Polish licence past 185 days?', a: 'ITD (road transport inspection) fine PLN 1,500-5,000; for repeat offences, court fines up to PLN 30,000 or restriction of liberty. The vehicle can be towed to a police impound lot.' },
       { q: 'How does ITD verify 185 days of residence?', a: 'Through passport stamps, the MOS v2.0 database, meldunek (address registration) records, ZUS, and border-guard logs. Inspectors can request proof of address and employment.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da ehliyet için 185 gün kuralı nedir?', a: 'Polonya hukukuna göre yılda 185 günden fazla Polonya\'da ikamet eden yabancı, ulusal ehliyetini Polonya ehliyetine çevirmek zorundadır. Değişim olmadan araç kullanmak prowadzenie pojazdu bez uprawnień (ehliyetsiz araç kullanma) olarak değerlendirilir.' },
+      { q: '185 gün sonrası Polonya ehliyetsiz araç kullanmanın cezası ne kadar?', a: 'ITD (Karayolu Ulaşım Müfettişliği) tarafından 1.500-5.000 PLN para cezası kesilir. Tekerrür durumunda mahkeme yoluyla 30.000 PLN\'ye kadar ceza veya özgürlük kısıtlaması uygulanabilir. Yol kontrolünde araç polis otoparkına çekilebilir.' },
+      { q: 'ITD 185 günlük ikamet süresini nasıl doğrular?', a: 'Pasaport damgaları, MOS v2.0 sistemi, meldunek (adres kaydı), ZUS kayıtları ve sınır verilerinden doğrular. 2026 itibarıyla başlangıç tarihi ilk karta pobytu\'nun verildiği tarihtir; bu bilgi otomatik olarak ITD veri tabanında görünür. Kontrol sırasında müfettiş adres ve iş kanıtı isteyebilir.' }
     ]
   },
 
@@ -485,6 +614,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What ITD and BAG fines apply to truck drivers in 2026?', a: 'ITD (Polish road inspection) issues fines up to PLN 12,000 per offence. BAG (German Federal Office for Goods Transport) fines cover tachograph violations, MiLoG minimum wage, and EES.' },
       { q: 'Which tachograph violations carry the highest fines?', a: 'Tachograph manipulation: PLN 12,000 per driver + PLN 12,000 per company. Missing driver card: PLN 2,000. Driving-time overrun: PLN 100-500 per hour.' },
       { q: 'What\'s the penalty for breaching German MiLoG?', a: 'BAG fines companies up to EUR 500,000 for unpaid German minimum wage on deliveries to Germany. Plus a ban on public contracts in Germany.' }
+    ],
+    tr: [
+      { q: 'ITD ve BAG cezaları 2026\'da Türk şoförler için ne kadar?', a: 'ITD (Inspekcja Transportu Drogowego - Polonya Karayolu Taşımacılığı Müfettişliği) tek bir ihlal için 12.000 PLN\'ye kadar idari para cezası verebilir. BAG (Bundesamt für Logistik und Mobilität - Almanya Federal Lojistik ve Mobilite Dairesi), takograf, MiLoG asgari ücret ve EES uyumsuzluklarında Almanya\'ya teslimat yapan firmalara ceza keser. Türk uluslararası nakliye firmaları için her iki kurum da yüksek risk taşır.' },
+      { q: 'Hangi takograf ihlalleri en yüksek ceza ile sonuçlanır?', a: 'Takograf manipülasyonu (manipulacja tachografem) - şoföre 12.000 PLN + şirkete 12.000 PLN. Şoför kartının (karta kierowcy) eksik olması - 2.000 PLN. Sürüş süresinin aşılması - saat başı 100-500 PLN. Başkasının kartını kullanmak en ciddi ihlal kategorisinde (NN) sayılır ve 3 ay ehliyet alıkoyma riski getirir.' },
+      { q: 'Almanya\'da MiLoG (asgari ücret) ihlalinde ne olur?', a: 'BAG, Almanya\'ya teslimat yapan şoföre Alman asgari ücretini ödemeyen firmaya 500.000 EUR\'ya kadar ceza verir. Buna ek olarak Almanya\'da kamu ihalelerinden men edilme riski doğar. Türk merkezli nakliye firmaları için MiLoG uyumu zorunludur.' }
     ]
   },
 
@@ -507,6 +641,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Who issues apostilles in Poland?', a: 'MSZ (Ministry of Foreign Affairs) for USC (civil registry) and court records. MEiN (Education Ministry) for diplomas. KRK (criminal record) certificates are apostilled by MSZ. Consular documents go through the MSZ of the issuing country.' },
       { q: 'How much does an apostille cost in Poland in 2026?', a: 'PLN 60 stamp duty per document at MSZ. Express (24-48 hours): +50%. Consultant service from PLN 250. Courier PLN 25-60.' },
       { q: 'How long does an apostille take at MSZ?', a: 'Standard 5-7 working days when filed in person or by post. Express 24-48 hours with extra fee. Full online filing is not yet available - the original document is required.' }
+    ],
+    tr: [
+      { q: 'Apostille nedir ve neden gereklidir?', a: 'Apostille, 1961 Lahey Sözleşmesi\'ne göre kamuya açık belgelerin uluslararası basitleştirilmiş legalizasyonudur. Polonya belgelerinin yurtdışında ve yabancı belgelerin Polonya\'da kullanılması için gereklidir - vatandaşlık, evlilik, iş, çalışma izni süreçlerinde. Türk vatandaşları için Türkiye\'de düzenlenen belgenin Polonya\'da geçerli olması için apostil zorunludur.' },
+      { q: 'Türk belgelerinde apostili kim verir?', a: 'Türkiye\'de düzenlenen belgelerde apostili Valilik (il valiliği) verir. Medeni hal belgeleri (doğum, evlilik), adli sicil ve diplomalar için Valilik yetkilidir. Bazı idari belgeler için Kaymakamlık da apostille basabilir. Polonya\'da düzenlenen belgelerin apostili ise MSZ (Polonya Dışişleri Bakanlığı) tarafından verilir.' },
+      { q: 'Polonya\'da apostille 2026\'da ne kadara mal olur?', a: 'Polonya\'da MSZ apostili belge başına 60 PLN damga vergisidir. Hızlandırılmış işlem (24-48 saat) +%50. Danışman hizmeti belge başına 250 PLN\'den başlar. Kurye 25-60 PLN. Türkiye\'de Valilik üzerinden apostille genellikle ücretsiz veya damga vergisi karşılığında yapılır.' },
+      { q: 'Polonya\'da MSZ apostili kaç gün sürer?', a: 'Standart süre, şahsen veya posta yoluyla başvuruda 5-7 iş günüdür. Hızlandırılmış işlem 24-48 saat (ek ücretle). Tam çevrimiçi başvuru henüz mümkün değil - belgenin orijinali şarttır. Türk belgeleri için apostille Türkiye\'de Valilik üzerinden alınmalıdır, Polonya\'da değil.' }
     ]
   },
 
@@ -525,6 +665,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What\'s the difference between apostille, nostrification and sworn translation?', a: 'An apostille legalises a stamp or signature. Nostrification is a Polish university\'s recognition of a foreign degree. A sworn translation is a TEPIS-certified rendering of the text. They are often required together for diplomas.' },
       { q: 'When does a sworn translation with apostille become necessary?', a: 'When the document is issued by a non-Hague state or when the Polish urząd (office) explicitly requires tłumaczenie przysięgłe (sworn translation). The apostille legalises the original; the translation makes it usable.' },
       { q: 'How much does a Polish nostrification of a diploma cost?', a: 'University fee - 50% of the minimum wage (~PLN 2,400 in 2026). Term 90-180 days. Often requires extra documents from the issuing country.' }
+    ],
+    tr: [
+      { q: 'Apostille, nostryfikacja (diploma denkliği) ve yeminli tercüme arasındaki fark nedir?', a: 'Apostille, mührün/imzanın uluslararası legalizasyonudur. Nostryfikacja, yabancı diplomanın bir Polonya üniversitesi veya NAWA tarafından tanınmasıdır. Yeminli tercüme (tłumaczenie przysięgłe) ise metnin TEPIS yetkili tercüman tarafından onaylı çevirisidir. Türk diplomaları için üçü çoğu zaman birlikte gerekir - özellikle düzenlenmiş mesleklerde.' },
+      { q: 'Apostilli belgeye yeminli tercüme ne zaman gereklidir?', a: 'Belge Lahey Sözleşmesi\'ne taraf olmayan bir ülkeden geldiğinde ya da Polonya urząd\'ı (resmi dairesi) açıkça yeminli tercüme talep ettiğinde gereklidir. Apostille orijinal belgeyi legalize eder, tercüme metni Polonya yetkilisi için anlaşılır kılar. Türk belgeleri için tercüme mutlaka Polonya\'da kayıtlı tłumacz przysięgły z j. tureckiego (Türkçeden yeminli tercüman) tarafından yapılmalıdır.' },
+      { q: 'Polonya\'da diploma nostryfikacji (denkliği) ne kadara mal olur?', a: 'Üniversite ücreti asgari ücretin %50\'si kadardır (2026\'da yaklaşık 2.400 PLN). NAWA üzerinden yapıldığında inceleme süresi 90-180 gün arasıdır. Sıkça düzenlendiği ülkeden ek belgeler istenir. Yazılım, pazarlama, tasarım gibi düzenlenmemiş meslekler için nostryfikacja gerekmez - apostille + tercüme yeterlidir.' }
     ]
   },
 
@@ -543,6 +688,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Where do I start legalising my stay in Warsaw in 2026?', a: 'First choose the basis (work, business, study, marriage), then file in MOS v2.0, register meldunek (address registration), get PESEL, sort ZUS or insurance. In parallel: exchange the driving licence, sign a contract, open a bank account.' },
       { q: 'How much does full legalisation in Poland cost?', a: 'State fees about PLN 800-1,200 (TRC + meldunek (address registration) + PESEL + licence). Consultant fees from PLN 2,500 for TRC. A turnkey package usually runs PLN 4,000-7,000.' },
       { q: 'Where do foreigners start in Warsaw?', a: 'A legal consultation to identify the right basis. Without it the MOS v2.0 filing risks refusal, and the 14-day appeal window is unforgiving.' }
+    ],
+    tr: [
+      { q: 'Türk vatandaşı 2026\'da Varşova\'da legalizasyona nereden başlamalı?', a: 'Önce dayanağı seçin (iş, şirket kuruluşu, eğitim, evlilik). Ardından MOS v2.0 sistemi üzerinden wniosek (başvuru) sunun, meldunek (adres kaydı), PESEL ve ZUS / sağlık sigortası işlemlerini halledin. Paralel olarak ehliyet değişimi, iş sözleşmesi ve banka hesabı açılışı yürütülür.' },
+      { q: 'Polonya\'da tam legalizasyon ne kadar tutar?', a: 'Devlet harçları yaklaşık 800-1.200 PLN (TRC + meldunek + PESEL + ehliyet). TRC için danışman ücreti 2.500 PLN\'den başlar. PESEL, ehliyet ve ZUS dahil tam paket genellikle 4.000-7.000 PLN tutar. Türkçe yeminli tercüme ve apostille hizmetleri ek olarak hesaplanır.' },
+      { q: 'Türk vatandaşları için Varşova\'da legalizasyona nereden başlamak en doğrusu?', a: 'İlk olarak göç danışmanı ile randevu alın ve dayanağı belirleyin. Yanlış dayanak seçimi MOS v2.0 başvurusunun reddine yol açar; itiraz için yalnızca 14 gün vardır ve bu süre kesindir. Türkiye-Polonya çifte vatandaşlık gibi avantajlı yolları erken aşamada planlamak süreci hızlandırır.' }
     ]
   },
 
@@ -562,6 +712,11 @@ export const BLOG_FAQ: Map = {
       { q: 'How do I get PESEL after the residence card?', a: 'At the gmina (municipal) office with a valid Karta Pobytu, passport, and proof of purpose (employment, taxes, bank). Free, issued in 1-3 working days.' },
       { q: 'What is Profil Zaufany and how do you set it up?', a: 'Profil Zaufany (Trusted Profile) is the Polish digital ID. You can set it up via a Polish bank (mBank, PKO, ING, Pekao) online in 5 minutes, or at a gmina (municipal) office with PESEL and passport.' },
       { q: 'How does mDowód differ from the dowód osobisty?', a: 'mDowód is the mobile version of the Polish ID (dowód osobisty) inside the mObywatel app. Available only to Polish citizens and Karta Stałego Pobytu holders. TRC foreigners use Profil Zaufany (Trusted Profile) instead.' }
+    ],
+    tr: [
+      { q: 'Karta Pobytu sonrası PESEL nasıl alınır?', a: 'PESEL Urząd Gminy\'de geçerli Karta Pobytu, pasaport ve amaç belgesi (maaş, vergi, banka) ile alınır. İşlem ücretsizdir, 1-3 iş gününde yerinde verilir.' },
+      { q: 'Profil Zaufany nedir ve nasıl açılır?', a: 'Profil Zaufany Polonya\'nın dijital kimlik aracıdır. Banka aracılığıyla (mBank, PKO, ING, Pekao) aktif Polonya hesabıyla 5 dakikada çevrimiçi alınabilir. PESEL ve pasaportla Urząd Gminy\'de de açılabilir.' },
+      { q: 'mDowód, dowód osobisty\'den nasıl ayrılır?', a: 'mDowód mObywatel uygulamasındaki Polonya kimliğinin mobil sürümüdür. Yalnızca Polonya vatandaşları ve Karta Stałego Pobytu sahipleri için açıktır. TRC sahibi yabancılar için mDowód şimdilik kullanılabilir değildir, bunun yerine Profil Zaufany kullanılır.' }
     ]
   },
 
@@ -580,6 +735,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What needs doing in the first 30 days in Poland?', a: 'Meldunek (address registration, mandatory if staying > 30 days), PESEL, opening a bank account, filing TRC via MOS v2.0 (if on D-visa), health insurance, SIM card, ZUS registration if employed.' },
       { q: 'What documents does a newcomer need?', a: 'Passport with valid visa or stamp, lease or landlord consent for meldunek (address registration), 35×45 mm photos, insurance covering at least €30,000, employment contract if applicable.' },
       { q: 'Where should a newcomer start in Poland?', a: 'Meldunek (address registration) and PESEL - without them banking, healthcare and taxes are difficult. They take 1-3 working days at the gmina (municipal) office. File the TRC in parallel.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da ilk 30 günde Türk vatandaşı ne yapmalı?', a: 'Gminada (belediye) meldunek (30 günden uzun kalışta zorunlu adres kaydı), PESEL, banka hesabı açılışı, D vizesi ile geldiyseniz MOS v2.0 üzerinden TRC başvurusu, sağlık sigortası bağlanması, SIM kart ve iş başlanmışsa ZUS kaydı yapılmalı. Türkiye\'den getirilen belgeler Valilik apostili ile birlikte olmalı.' },
+      { q: 'Polonya\'ya yeni gelen Türk vatandaşına hangi belgeler gerekli?', a: 'Geçerli vize/damga ile pasaport, kira sözleşmesi veya ev sahibinin meldunek için onayı, PESEL ve karta pobytu için 35×45 mm fotoğraf, en az 30.000 € kapsamlı sağlık sigortası, varsa iş sözleşmesi. Türkiye\'den Valilik apostilli doğum, evlilik, adli sicil belgeleri ve diploma gerekli.' },
+      { q: 'Türk vatandaşı Polonya\'ya geldiğinde nereden başlamalı?', a: 'Meldunek (adres kaydı) ve PESEL temeldir. Bunlar olmadan banka, sağlık ve vergi işlemleri zordur. Urząd Dzielnicy\'de (ilçe belediyesi) 1-3 iş gününde alınır. Paralel olarak TRC başvurusu yapılmalı - vize bitimini kaçırmamak için.' }
     ]
   },
 
@@ -598,6 +758,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What is the EU EES system?', a: 'The Entry/Exit System is the EU\'s single electronic register for third-country nationals on short stays. Live since 12 October 2025. It replaces passport stamps with biometric data.' },
       { q: 'Does EES apply to residence-card holders?', a: 'No. EES covers short stays only (up to 90 / 180 days). TRC, PR and Karta Polaka holders cross the border as residents - no EES scan.' },
       { q: 'What data does EES store on entry?', a: 'Biometrics - face and fingerprints. Retained for 3 years, then auto-deleted. Shared between Schengen states to enforce the 90-day limit.' }
+    ],
+    tr: [
+      { q: 'EES sistemi nedir ve Türk vatandaşlarını nasıl etkiler?', a: 'EES (Entry/Exit System), AB\'nin kısa süreli vize veya vizesiz rejimle giren üçüncü ülke vatandaşlarının Schengen sınırı geçişlerini izlediği elektronik bir kayıt sistemidir. 12 Ekim 2024\'ten itibaren aşamalı olarak devreye girdi. Pasaport mühürlerinin yerini biyometrik veriler (yüz + 4 parmak izi) aldı. Türkiye\'den Schengen\'e kısa süreli vizeyle giren Türk vatandaşları sistem tarafından kayıt altına alınır.' },
+      { q: 'EES Karta Pobytu sahiplerini de etkiler mi?', a: 'Hayır. EES yalnızca kısa süreli kalışlar (180 günde 90 gün) için çalışır. Karta czasowego pobytu, Karta stałego pobytu veya geçerli ulusal D vizesi sahibi yabancılar Schengen sınırını AB sakini gibi geçer - EES taraması yapılmaz. Ancak normal pasaportla çıkış yaparsanız tekrar girişte sistem devreye girer.' },
+      { q: 'EES giriş sırasında hangi verileri saklar ve ne kadar süreyle?', a: 'Yüz fotoğrafı ve 4 parmak izi biyometrik verisi kaydedilir. Veriler son giriş tarihinden itibaren 3 yıl boyunca saklanır, ardından otomatik olarak silinir. Tüm Schengen ülkeleri arasında paylaşılır ve 180 günde 90 gün kuralının takibinde kullanılır. 12 yaşın altındaki çocuklar parmak izi vermekten muaftır.' }
     ]
   },
 
@@ -620,6 +785,12 @@ export const BLOG_FAQ: Map = {
       { q: 'How long does Sp. z o.o. (LLC) registration take?', a: 'Via S24 online - 1 working day with a clean application. Paper filing 7-14 days. NIP and REGON assigned automatically. VAT registration separately, 7-30 days.' },
       { q: 'Can a non-resident open a Sp. z o.o. in Poland?', a: 'Yes. Unlike JDG (sole proprietorship), Sp. z o.o. (LLC) does not require a residence card - a non-resident can be a founder. To work in the company you\'ll need a work permit or TRC. Management can be remote.' },
       { q: 'What taxes does a Sp. z o.o. pay in 2026?', a: 'CIT 9% up to EUR 2M, 19% above. Estonian CIT (deferred CIT regime) from 10% on dividend distribution. VAT 23%, with 8% and 5% reduced rates. PIT 19% on dividends.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da Sp. z o.o. kuruluşu 2026\'da ne kadara mal olur?', a: 'KRS S24 (çevrimiçi şirket kuruluş portalı) üzerinden 250 PLN, kâğıt başvuruyla 500 PLN. Asgari sermaye 5.000 PLN\'dir (hesaba yatırılır). Anahtar teslim danışmanlık 1.800 PLN\'den başlar. Polonya\'da banka hesabı açılışı ücretsizdir.' },
+      { q: 'Sp. z o.o. tescili kaç gün sürer?', a: 'KRS S24 üzerinden doğru hazırlanmış bir wniosek ile 1 iş gününde tamamlanır. Kâğıt başvuruyla 7-14 gün sürer. NIP ve REGON otomatik atanır. VAT kaydı ayrı bir süreçtir, 7-30 gün alır.' },
+      { q: 'Karta Pobytu olmadan yabancı bir Türk vatandaşı Sp. z o.o. açabilir mi?', a: 'Evet. JDG\'nin aksine Sp. z o.o. için Karta Pobytu gerekmez - yerleşik olmayan bir kişi de kurucu olabilir. Şirket içinde Polonya\'da çalışmak için zezwolenie na pracę veya Karta Pobytu gerekir. Yönetim uzaktan yapılabilir.' },
+      { q: 'Sp. z o.o. 2026\'da hangi vergileri öder?', a: '2 milyon EUR\'a kadar gelir için CIT %9, üzeri için %19\'dur. Estonian CIT (temettü dağıtımında %10\'dan başlar) yeniden yatırım yapan KOBİ\'ler için uygundur. VAT %23 (bazı kategorilerde %8 ve %5). Temettüler üzerinde %19 PIT alınır.' }
     ]
   },
 
@@ -638,6 +809,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Can a foreigner open a JDG (sole proprietorship) in Poland?', a: 'Only those with a TRC on work or business basis, PR, EU long-term resident, or Karta Polaka. Not available on a student card. CEIDG (business register) registration is online via ePUAP and takes one day.' },
       { q: 'What tax breaks does JDG offer in 2026?', a: 'Ulga na start (start-up relief): 6-month ZUS exemption. Mały ZUS Plus (Small ZUS Plus): reduced contributions up to PLN 120,000 income. IP Box: 5% PIT for software developers. Linear 19% or progressive 12/32% scale.' },
       { q: 'What does running a JDG cost annually?', a: 'ZUS PLN 500-1,700 per month depending on option. Accounting from PLN 200/month. Health-ZUS 9% of income (min. ~PLN 370). With zero income, ~PLN 6,000 per year minimum.' }
+    ],
+    tr: [
+      { q: 'Yabancı bir Türk vatandaşı Polonya\'da JDG açabilir mi?', a: 'Yalnızca iş veya iş kurma gerekçesiyle Karta Pobytu, Karta Stałego Pobytu, AB uzun süreli ikamet sahibi ya da Karta Polaka sahipleri JDG açabilir. Öğrenci kartıyla JDG açılamaz. Kayıt CEIDG (Merkezi İşletme Sicili) üzerinden ePUAP ile çevrimiçi yapılır ve 1 gün sürer.' },
+      { q: 'JDG için 2026\'da hangi vergi avantajları vardır?', a: 'Ulga na start (başlangıç indirimi) 6 ay ZUS muafiyeti sağlar. Mały ZUS Plus, yıllık 120.000 PLN\'e kadar gelir için indirimli prim sunar. IP Box yazılım geliştiricileri için %5 PIT oranı sağlar. Vergi türü olarak doğrusal %19 veya 12/32 dilimi seçilebilir.' },
+      { q: 'JDG yıllık ne kadara mal olur?', a: 'ZUS seçilen modele göre aylık 500-1.700 PLN tutar. Muhasebe aylık 200 PLN\'den başlar. ZUS zdrowotny (sağlık primi) gelirin %9\'u kadardır (asgari yaklaşık 370 PLN). Sıfır gelirde bile yıllık asgari 6.000 PLN civarındadır.' }
     ]
   },
 
@@ -656,6 +832,11 @@ export const BLOG_FAQ: Map = {
       { q: 'How long does liquidating a Polish Sp. z o.o. take?', a: 'Minimum 6 months under Article 286 of the Commercial Code. Full cycle 9-18 months. Includes KRS (National Court Register) notice, MSiG (Polish Court & Commercial Gazette) publication, 3-month creditor wait, accounting reports.' },
       { q: 'What\'s cheaper - liquidation or sale?', a: 'A share sale takes 2-4 weeks and starts at PLN 800. Liquidation takes 6+ months and starts at PLN 5,000. Sale fits where there\'s a buyer and no debts. Liquidation is required with ZUS / US debt.' },
       { q: 'What taxes apply during Sp. z o.o. liquidation?', a: 'CIT on undistributed profit (9% or 19%). PIT 19% on distributions. PCC 0.5%. VAT - final return before deregistration.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da Sp. z o.o. tasfiyesi ne kadar sürer?', a: 'Minimum 6 ay (Ticaret Şirketleri Kanunu - KSH madde 286). Tam süreç 6-8 ay, karmaşık durumlarda 9-18 aydır. KRS bildirimi, Monitor Sądowy i Gospodarczy ilanı, alacaklılar için 3 aylık bekleme süresi ve muhasebe raporlamasını kapsar.' },
+      { q: 'Sp. z o.o. tasfiyesi mi yoksa satışı mı daha avantajlıdır?', a: 'Hisse satışı 2-4 hafta sürer ve 1.500 PLN\'den başlar. Tasfiye 6 aydan fazla sürer ve 5.000 PLN\'den başlar. Borçsuz ve alıcısı bulunan şirketler için satış mantıklıdır. ZUS veya US borcu olan şirketler için tasfiye zorunlu yoldur.' },
+      { q: 'Sp. z o.o. tasfiyesinde hangi vergiler ödenir?', a: 'Dağıtılmamış kâr üzerinden CIT (%9 veya %19). Ortaklara yapılan tasfiye ödemelerinde %19 PIT. Tasfiye paylaşımının net tutarı üzerinden %0,5 PCC. KRS\'den silinmeden önce nihai VAT beyannamesi sunulur.' }
     ]
   },
 
@@ -674,6 +855,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What is Estonian CIT in Poland?', a: 'A tax regime where corporate tax is paid only on dividend distribution (10% for small, 20% otherwise), not on annual profit. Suits SMEs that reinvest earnings.' },
       { q: 'Who benefits from the 5% IP Box in Poland?', a: 'Software developers, patents, and other qualifying IP rights. Reduces PIT/CIT from 19% to 5% on licence/IP-sale income. Requires R&D records and a nexus calculation.' },
       { q: 'Can IP Box and Estonian CIT be combined?', a: 'No. Estonian CIT excludes IP Box, R&D relief and other reliefs. You choose: tax deferral (Estonian) or lower IP rate (IP Box).' }
+    ],
+    tr: [
+      { q: 'Polonya\'da Estonian CIT nedir?', a: 'Estonian CIT (ryczałt od dochodów spółek), kurumlar vergisinin yıllık kâr üzerinden değil, yalnızca temettü dağıtımı sırasında ödendiği bir rejimdir. Küçük mükellefler için %10, diğerleri için %20 oran uygulanır. Yeniden yatırım yapan KOBİ\'ler için uygundur. JDG için kullanılamaz.' },
+      { q: 'Polonya\'da %5 IP Box rejimi kimler için uygundur?', a: 'IP Box yazılım geliştiricileri, patent sahipleri ve diğer nitelikli fikri mülkiyet haklarına sahip mükellefler içindir. Lisans ve IP satış gelirinde PIT/CIT\'i %19\'dan %5\'e indirir. Ar-Ge kayıtları ve nexus hesaplaması zorunludur. Sipariş üzerine yazılım geliştiren JDG\'ler için en yaygın rejimdir.' },
+      { q: 'IP Box ile Estonian CIT birlikte kullanılabilir mi?', a: 'Hayır. Estonian CIT, IP Box, B+R muafiyeti ve diğer indirimleri devre dışı bırakır. Strateji seçimi yapılmalıdır: ya vergi ertelemesi (Estonian) ya da IP gelirinde indirimli oran (IP Box). İki rejim aynı anda uygulanamaz.' }
     ]
   },
 
@@ -692,6 +878,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What is the 183-day rule for Polish tax residency?', a: 'Under Article 3(1a) of the PIT Act, you are a Polish tax resident if you live in Poland for more than 183 days a year or your centre of vital interests is in Poland - regardless of visa status.' },
       { q: 'What taxes does a Polish tax resident pay?', a: 'PIT on the 12/32% scale or 19% flat (JDG). Worldwide income is taxed. Dividends 19%. ZUS when employed. PIT-37 or PIT-36 filed by 30 April.' },
       { q: 'How do I avoid double taxation with Russia or Ukraine?', a: 'Poland has DTAs with most CIS states (the one with Russia has been suspended since 2024). Pro-rata or exemption method applies depending on income type. File PIT-ZG annex.' }
+    ],
+    tr: [
+      { q: 'Polonya vergi mukimliği için 183 gün kuralı nedir?', a: 'PIT Yasası madde 3/1a uyarınca, bir takvim yılında Polonya\'da 183 günden fazla yaşıyorsanız veya hayati menfaat merkeziniz Polonya\'da ise vergi mukimi sayılırsınız. Vize statüsünden bağımsızdır. Mukim olarak dünya genelindeki tüm gelirlerinizi Polonya\'da beyan etmekle yükümlüsünüz.' },
+      { q: 'Polonya vergi mukimi olan Türk vatandaşı hangi vergileri öder?', a: '12/32% artan oranlı PIT veya JDG için %19 sabit oran. Tüm dünya geliri vergiye tabidir. Temettü %19, ZUS çalışırken zorunludur. Beyanname (PIT-37 veya PIT-36) izleyen yılın 30 Nisan tarihine kadar verilir. 1993\'ten beri yürürlükteki Türkiye-Polonya ÇVÖA çifte vergilendirmeyi önler.' },
+      { q: 'Türkiye-Polonya çifte vergilendirme nasıl önlenir?', a: 'Türkiye-Polonya ÇVÖA *(çifte vergilendirmeyi önleme anlaşması)* 1993\'ten beri yürürlüktedir. Her iki ülke de mukim sayarsa anlaşmanın tiebreaker kuralları sırayla uygulanır: daimi konut, hayati menfaat merkezi, kalış süresi, vatandaşlık. Yurt dışı gelir için PIT-36\'ya załącznik ZG eklenir. Türkiye\'de ödenen vergi orantılı mahsup yöntemi ile düşülür.' }
     ]
   },
 
@@ -710,6 +901,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Can foreigners reclaim PIT in Poland?', a: 'Yes. Any Polish tax resident whose income had PIT withheld can file PIT-37 or PIT-36 and obtain a refund. The base tax-free allowance is PLN 30,000 a year.' },
       { q: 'What is PIT-11 and why does it matter?', a: 'PIT-11 is the employer\'s certificate of salary and PIT withheld last year. Issued by 28 February. PIT-37 is built on it; without PIT-11 the refund is not possible.' },
       { q: 'Which 2026 PIT reliefs can I claim?', a: 'Child relief (PLN 1,112.04 per child), internet relief, thermal-modernisation, rehabilitation, youth relief (under 26), joint filing with spouse.' }
+    ],
+    tr: [
+      { q: 'Yabancılar Polonya\'da PIT iadesi alabilir mi?', a: 'Evet. PIT kesintisi yapılmış geliri olan her Polonya vergi mukimi PIT-37 veya PIT-36 verip zwrot (iade) alabilir. Temel kwota wolna (vergiden muaf tutar) yıllık 30.000 PLN\'dir (bu tutar için PIT %0).' },
+      { q: 'PIT-11 nedir ve ne işe yarar?', a: 'PIT-11, işverenin bir önceki yıl içinde ödediği maaş ve kestiği PIT\'i bildiren belgedir. 28 Şubat\'a kadar düzenlenir. PIT-37, PIT-11 üzerine kurulur; PIT-11 olmadan iade alınmaz.' },
+      { q: '2026\'da PIT\'te hangi indirimler kullanılabilir?', a: 'Ulga prorodzinna (çocuk indirimi, çocuk başına 1.112,04 PLN), ulga na internet (internet indirimi), ulga termomodernizacyjna (ısı yalıtımı indirimi), ulga rehabilitacyjna (rehabilitasyon indirimi), ulga dla młodych (26 yaş altı için PIT %0), wspólne rozliczenie z małżonkiem (eşle ortak beyan).' }
     ]
   },
 
@@ -728,6 +924,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Which Polish bank should a foreigner pick in 2026?', a: 'mBank, PKO BP, ING, Pekao, and Santander accept foreigners with a residence card or PESEL. Revolut and WIO are digital alternatives. The best choice depends on the service language and international-transfer fees.' },
       { q: 'What documents are needed to open a Polish account?', a: 'Passport, residence card or D-visa or PESEL, proof of address (lease or meldunek - address registration), proof of income (employment contract, company turnover). Sometimes a Polish phone number for SMS.' },
       { q: 'Can I open a Polish bank account remotely?', a: 'Few banks allow fully remote onboarding - most require a branch visit. Revolut, ZEN and WIO open through the app with passport verification and video.' }
+    ],
+    tr: [
+      { q: 'Yabancılar için 2026\'da hangi Polonya bankası en uygundur?', a: 'mBank, PKO BP, ING, Pekao SA ve Santander, karta pobytu veya PESEL sahibi yabancıları kabul eder. Revolut ve WIO dijital alternatifler olarak çalışır. En iyi seçim hizmet diline ve uluslararası havale ücretlerine bağlıdır.' },
+      { q: 'Polonya\'da hesap açmak için hangi belgeler gereklidir?', a: 'Pasaport, karta pobytu / D-vize / PESEL, adres kanıtı (kira sözleşmesi veya meldunek - adres kaydı), gelir kanıtı (umowa o pracę - iş sözleşmesi, şirket cirosu). Bazen SMS kodu için Polonya cep telefonu numarası istenir.' },
+      { q: 'Polonya\'da banka hesabını uzaktan açmak mümkün müdür?', a: 'Az sayıda banka tamamen uzaktan açılışa izin verir; çoğunluğu şube ziyareti ister. Revolut, ZEN ve WIO uygulama üzerinden pasaport doğrulaması ve görüntülü görüşmeyle hesap açar.' }
     ]
   },
 
@@ -746,6 +947,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What\'s the fine for illegal foreign employment in Poland?', a: 'PIP (State Labour Inspectorate) fines employers PLN 1,000-30,000 per illegally employed foreigner. Repeat offences: up to PLN 60,000. Criminal liability under Articles 218-219 of the Penal Code is possible.' },
       { q: 'What counts as illegal employment of a foreigner?', a: 'Work without a zezwolenie na pracę (work permit), expired or mismatched permit, employment outside the visa basis, missing contract. Sham JDG (sole proprietorship) to hide employment also qualifies.' },
       { q: 'Who checks the legality of foreign employment?', a: 'PIP (State Labour Inspectorate) is the main authority. ZUS for contributions. Straż Graniczna (Border Guard) at roads and sites. Urząd Skarbowy (tax office) for PIT. They can check in parallel.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da yabancıyı yasadışı çalıştıran işverenin cezası nedir?', a: 'PIP (Devlet İş Müfettişliği) yasadışı çalıştırılan her yabancı için 3.000 PLN\'den 30.000 PLN\'ye kadar idari para cezası verir. Tekrarlanan ihlallerde 5 yıla kadar yabancı çalıştırma yasağı uygulanır. Ayrıca işveren işçinin sınır dışı maliyetini 4.200 PLN\'ye kadar karşılamak zorundadır.' },
+      { q: 'Yabancının yasadışı istihdamı sayılan durumlar nelerdir?', a: 'Zezwolenie na pracę olmadan çalışma, süresi dolmuş veya gerçek pozisyona uymayan zezwolenie, vize temelinin izin vermediği iş, sözleşme eksikliği. Aynı zamanda gerçek istihdamı gizlemek için kullanılan paravan JDG düzenlemeleri ve beyan edilenden düşük maaş ödemeleri de ihlal sayılır.' },
+      { q: 'Yabancı istihdamının yasallığını hangi kurumlar denetler?', a: 'PIP (Devlet İş Müfettişliği) ana denetim kurumudur. ZUS prim ödemelerini denetler. Straż Graniczna (sınır muhafızı) inşaat, lojistik ve depolarda çalışma yasallığını kontrol eder. Urząd Skarbowy (vergi dairesi) PIT beyanlarını denetler. Dört kurum aynı anda denetim yapabilir ve 2025\'ten beri MOS v2.0 üzerinden veri paylaşır.' }
     ]
   },
 
@@ -764,6 +970,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What should I do if my Polish employer hasn\'t paid the wage?', a: 'File a skarga (complaint) with PIP (State Labour Inspectorate) online or in person. PIP can audit the employer, issue a fine, and demand payment. In parallel: file a labour-court (sąd pracy) suit with damages plus 0.12% per day of delay.' },
       { q: 'What\'s the deadline for a wage suit?', a: '3 years from the date the wage was due (Article 291 §1 of the Kodeks pracy - Labour Code). After that, the claim is barred.' },
       { q: 'Can I recover wages without Polish?', a: 'Yes. PIP (State Labour Inspectorate) services are free and interpreters are available (Ukrainian, Russian, English). Legal services from PLN 1,500. In sąd pracy (labour court), Polish or an attorney is essential.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da işveren maaş ödemiyorsa ne yapmalı?', a: 'PIP *(Państwowa Inspekcja Pracy - Polonya Devlet İş Müfettişliği)*\'e çevrimiçi veya elden skarga *(şikayet)* sunun. PIP, işvereni denetleyebilir, mandat *(para cezası)* kesebilir ve ödeme yapılmasını talep edebilir. Paralel olarak - sąd pracy *(iş mahkemesi)*\'ne her gecikme günü için %0,12 faizle birlikte pozew *(dava)* açın.' },
+      { q: 'Polonya\'da ödenmemiş maaş için dava süresi ne kadar?', a: 'Maaşın ödenmesi gerektiği günden itibaren 3 yıl (Kodeks pracy *(İş Kanunu)* madde 291 § 1). Bu süreden sonra talep przedawniona *(zamanaşımına uğramış)* sayılır. Geciktirmeyin - hemen başvurun.' },
+      { q: 'Polonyaca bilmeden ücret alabilir miyim?', a: 'Evet. PIP hizmetleri ücretsizdir ve Türkçe, Ukraynaca, Rusça, İngilizce tercüman bulunmaktadır. Karmaşık dosya için hukuki destek 1.500 PLN\'den başlar. Sąd pracy aşamasında - Lehçe veya avukat zorunludur.' }
     ]
   },
 
@@ -783,6 +994,11 @@ export const BLOG_FAQ: Map = {
       { q: 'When is MSWiA (Ministry of Interior) permission required to buy property in Poland?', a: 'Almost always for non-EU/EEA buyers. Exceptions: an apartment in a condominium without its own land register, marriage to a Polish citizen with 2+ years of residence, Karta Polaka, inheritance, or buying shares in a Polish Sp. z o.o. (LLC).' },
       { q: 'How long does the MSWiA decision take?', a: 'Statutory 2 months. Realistically 3-6 months. Complex cases (large plots, strefa nadgraniczna - border zone) up to 12 months.' },
       { q: 'How much does an MSWiA permit cost?', a: 'PLN 1,570 stamp duty. Consultant fees from PLN 3,500. Country-of-citizenship documents, translations, apostilles are extra. Border zone requires ABW (Internal Security Agency) consultation.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da yabancılar için MSWiA *(İçişleri Bakanlığı)* izni ne zaman gereklidir?', a: 'AB/AEA dışı vatandaşlar (Türk vatandaşları dahil) için neredeyse her zaman gereklidir. İstisnalar: ortak bir kondominyumdaki kendi księga wieczysta *(tapu sicili)*\'ı olmayan daire, Polonya vatandaşıyla evlilik + 2+ yıl ikamet, Karta Polaka *(Polonyalı Kartı)*, miras, Polonya yönetimine sahip Sp. z o.o. *(limited şirket)* hisselerinin alımı.' },
+      { q: 'MSWiA kararı için ne kadar beklenir?', a: 'Yasal süre - 2 ay. Pratikte - 3-6 ay. Karmaşık dosyalar (büyük arsa, strefa nadgraniczna *(sınır bölgesi)*) - 12 aya kadar. Belgeler ePUAP üzerinden veya yazılı olarak sunulur.' },
+      { q: 'MSWiA izni ne kadara mal olur?', a: 'Damga vergisi - 1.570 PLN. Danışman ücreti - 3.500 PLN\'den başlar. Vatandaşlık ülkesinden belgeler, çeviriler ve apostille ayrıca. Strefa nadgraniczna - ABW *(Polonya İç Güvenlik Ajansı)* danışmanlığı zorunlu.' }
     ]
   },
 
@@ -801,6 +1017,11 @@ export const BLOG_FAQ: Map = {
       { q: 'What are the risks of commercial leasing in Warsaw?', a: 'Service charge with no cap, non-compete clauses, auto-renewal, exit penalty (up to 12 months\' rent), GUS-index escalation, tenant-funded fit-out.' },
       { q: 'How much does an office lease cost in central Warsaw in 2026?', a: 'Class A: EUR 22-28/m²/month plus service charge EUR 5-7. Class B: EUR 14-18. Mokotów / Bemowo: EUR 16-20. Periphery from EUR 10. Contracts in EUR, paid in PLN at NBP rate.' },
       { q: 'Can a commercial lease be terminated early?', a: 'Only on grounds in the contract: notice period 3-6 months, fault-based termination by landlord. Otherwise an exit penalty up to 12 months\' rent applies.' }
+    ],
+    tr: [
+      { q: 'Varşova\'da ticari kira riskleri nelerdir?', a: 'Üst sınırı olmayan service charge (czynsz *(kira)*\'ın %5-25\'i), klauzula konkurencji *(rekabet yasağı)*, automatyczne przedłużenie umowy *(otomatik sözleşme uzatma)*, erken çıkış için kara umowna *(cezai şart)* - 12 aya kadar kira, GUS *(Polonya İstatistik Kurumu)* endeksiyle artış, fit-out yükümlülüğü kiracıda.' },
+      { q: '2026\'da Varşova merkezde ofis kirası ne kadar?', a: 'A sınıfı - aylık 22-28 EUR/m² + service charge 5-7 EUR/m². B sınıfı - 14-18 EUR. Bemowo, Mokotów - 16-20 EUR. Çevre semtler - 10 EUR\'dan. Sözleşmeler EUR cinsinden, ödeme NBP *(Polonya Merkez Bankası)* kuruyla PLN olarak yapılır.' },
+      { q: 'Ticari kira sözleşmesi erken feshedilebilir mi?', a: 'Yalnızca sözleşmedeki gerekçelerle: 3-6 ay bildirim süresiyle wypowiedzenie *(fesih)*, kiraya verenin kusurlu eyleminden dolayı wypowiedzenie z winy wynajmującego *(kiraya verenin kusuruyla fesih)*. Diğer durumlarda - 12 aylık kira tutarına kadar kara umowna uygulanır.' }
     ]
   },
 
@@ -826,6 +1047,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Can I leave Poland with an expired residence card?', a: 'Technically yes, but it\'s the worst choice. At the border the Straż Graniczna (Border Guard) records unlawful stay in SIS, and the next entry attempt into any Schengen state will be denied. Ban - usually 1-3 years.' },
       { q: 'How much does an emergency new filing cost?', a: 'State fees are the same as standard: PLN 340 for the application + PLN 100 for the card. LegalWin emergency-legalisation service from PLN 3,500, including filing within 24 hours and odwołanie (appeal) preparation.' },
       { q: 'What counts as a valid reason for the delay?', a: 'Wojewody (regional governors) and the Szef UdSC (Head of the Office for Foreigners) accept: hospitalisation, serious illness, surgery (with discharge papers), employer delay with the work permit, lost documents with a police report, MOS v2.0 outages with screenshots. Not accepted: "I forgot", "I thought I had time", "I was abroad".' }
+    ],
+    tr: [
+      { q: '2026\'da karta pobytu süresi dolduğunda ne yapmalı?', a: 'İlk 7-14 gün içinde - MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* üzerinden gecikme nedenini açıklayan pisemne uzasadnienie *(yazılı gerekçe)* ile yeni karta pobytu için wniosek *(başvuru)* sunun. Konu çözülene kadar Polonya\'dan çıkmayın. Wniosek sunmak, Ustawa o cudzoziemcach *(Yabancılar Kanunu)* madde 305 fıkra 1 uyarınca sınır dışı işlemini durdurur. 14 günden sonra zobowiązanie do powrotu *(geri dönüş yükümlülüğü)* alma ve 1-3 yıl Schengen yasağı riski keskin biçimde artar.' },
+      { q: 'Süresi dolmuş karta pobytu ile sınır dışı edilme riski var mı?', a: 'İlk 7 gün içinde aktif yeni wniosek başvurusu yapıldığında - neredeyse yok (LegalWin pratiğine göre, bu pencerede 87 müşteriden yalnızca 3\'ünde sınır dışı edilme yaşandı). 14 günden sonra eylemsiz kalanlarda - vakaların %31\'i. Asıl belirleyici, gecikmenin kendisi değil sonraki davranıştır.' },
+      { q: 'Süresi dolmuş karta pobytu ile Polonya\'dan çıkılabilir mi?', a: 'Teknik olarak evet, ancak bu en kötü seçimdir. Sınırda Straż Graniczna *(Sınır Muhafaza)* nielegalny pobyt *(kayıt dışı ikamet)*\'i SIS *(Schengen Bilgi Sistemi)*\'de kayda alır ve bir sonraki Schengen ülkesine giriş girişiminde reddedilirsiniz. Yasak genellikle 1-3 yıldır.' },
+      { q: 'Acil yeni wniosek sunmak ne kadara mal olur?', a: 'Devlet harçları standart başvurudaki ile aynı: wniosek için 340 PLN + kart için 100 PLN. LegalWin\'de acil yasallaştırma hizmeti - 24 saat içinde başvuru ve odwołanie *(itiraz)* hazırlığı dahil 3.500 PLN\'den başlar.' },
+      { q: 'Gecikme için geçerli neden sayılan durumlar nelerdir?', a: 'Wojewody *(eyalet valileri)* ve Szef UdSC *(Yabancılar Dairesi Başkanı)* şu durumları kabul eder: hastane yatışı, ağır hastalık, ameliyat (wypisy ze szpitala *(taburcu raporu)* ile), işverenin zezwolenie na pracę *(çalışma izni)*\'de gecikmesi, polise zayi başvurusuyla belge kaybı, ekran görüntüleriyle MOS v2.0 teknik arızaları. Kabul edilmeyenler: \'unuttum\', \'vakit var sandım\', \'memlekete gittim\'.' }
     ]
   },
 
@@ -850,6 +1078,13 @@ export const BLOG_FAQ: Map = {
       { q: 'What changes for Sp. z o.o. (LLC) from 2026?', a: 'The 9% rate on zarząd (board) member remuneration is unchanged. But from 2026 ZUS has KSeF access and automatically detects payments without an uchwała (appointment resolution). The contribution is reassessed with a 20% penalty. Tip: have a resolution appointing yourself with even a minimal PLN 500/month salary.' },
       { q: 'Does Estonian CIT exempt me from the health contribution?', a: 'Yes. During reinvestment - PLN 0 contribution. Only on dywidenda (dividend) payouts - 10% (small taxpayers) or 20%. For a single-shareholder Sp. z o.o. with PLN 200,000 profit, savings vs classic CIT are around PLN 56,000/year.' },
       { q: 'When and where is the health contribution paid?', a: 'Monthly via PUE ZUS (ZUS e-services platform) by the 20th of the following month. The 2026 calculation is based on the previous year\'s income (for new JDGs - on the minimum). The annual ZUS DRA return is filed by 30 April 2027 for fiscal 2026.' }
+    ],
+    tr: [
+      { q: 'JDG *(şahıs şirketi)* için składka zdrowotna *(sağlık primi)* 1 Ocak 2026\'dan itibaren nasıl değişti?', a: 'Asgari ücretin %75\'inin %9\'u oranında sabit asgari prim getirildi - 2026\'da 324,40 PLN/ay (yıllık 3.893 PLN). Ayrıca aşamalı tavan: doğrusal %19 vergide yaklaşık 1.500 PLN/ay. Düşük gelirli JDG\'ler biraz daha fazla, yüksek gelirliler keskin biçimde daha az ödüyor. Denge noktası - yıllık yaklaşık 240.000 PLN dochód *(gelir)*.' },
+      { q: '2026\'da ryczałt %12 *(götürü vergi)* üzerinden JDG ne kadar öder?', a: '60.000 PLN ciroya kadar - 324 PLN/ay (yeni asgari, önceden 419 PLN\'di). 60.000 - 300.000 PLN - 698 PLN/ay. 300.000 PLN üzeri - 1.256 PLN/ay. Asıl tasarruf en düşük gelir seviyesinde (-95 PLN/ay).' },
+      { q: 'Sp. z o.o. *(limited şirket)* için 2026\'dan itibaren ne değişiyor?', a: 'Członek zarządu *(yönetim kurulu üyesi)* ücretinin %9 oranı değişmedi. Ancak 2026\'dan itibaren ZUS, KSeF *(Polonya elektronik fatura sistemi)* verilerine erişim kazandı ve uchwała o powołaniu *(atama kararı)* olmadan członkowi zarządu yapılan ödemeleri otomatik olarak tespit ediyor. Składka *(prim)* %20 cezayla birlikte ek tahakkuk ediliyor. Tavsiye: uchwałę o powołaniu z wynagrodzeniem (asgari 500 PLN/ay bile olsa) çıkarın.' },
+      { q: 'Estonya CIT *(CIT estoński)* składka zdrowotna\'dan muaf tutar mı?', a: 'Evet. Reinwestycja *(yeniden yatırım)* aşamasında - 0 PLN składka. Yalnızca dywidendy *(temettü)* dağıtımında - %10 (mali podatnicy *(küçük mükellefler)*) veya %20 vergi. Yıllık 200.000 PLN kârlı tek ortaklı Sp. z o.o. için klasyczny CIT\'e *(klasik CIT)* karşı yıllık tasarruf yaklaşık 56.000 PLN\'dir.' },
+      { q: 'Składka zdrowotna ne zaman ve nereye ödenir?', a: 'PUE ZUS *(ZUS elektronik hizmet platformu)* üzerinden takip eden ayın 20\'sine kadar aylık olarak. 2026 hesabı bir önceki yılın dochód\'una dayalıdır (yeni JDG için - asgari üzerinden). Yıllık ZUS DRA beyannamesi 2026 yılı için 30 Nisan 2027\'ye kadar verilir.' }
     ]
   },
 
@@ -874,6 +1109,13 @@ export const BLOG_FAQ: Map = {
       { q: 'What are the penalties for not issuing an invoice via KSeF?', a: 'Up to 100% of the VAT amount on the invoice for non-issuance. Up to PLN 18,000 per paper B2B invoice. Up to PLN 7,000 for failure to register. Up to PLN 5,000 for incorrect format. From 1 April 2026 - automated audits reconcile JPK_VAT with KSeF in real time.' },
       { q: 'How can a foreigner connect to KSeF?', a: '4 steps: 1) Profil Zaufany (Trusted Profile) via a Polish bank or a qualified e-signature (from PLN 200/year); 2) ZAW-FA in e-Urząd Skarbowy (online tax office) with authorised persons; 3) accounting-software integration (iFirma, wFirma, Comarch - already integrated); 4) team training on the new XML structure. Connection by 31 January 2026.' },
       { q: 'What changes for invoices from EU counterparties?', a: 'EU counterparties aren\'t in KSeF, so EU-invoice templates are needed separately. Most Polish ERPs (Comarch, Subiekt) generate EU invoices separately. Invoices received from the EU remain in standard PDF/electronic format.' }
+    ],
+    tr: [
+      { q: 'Polonya\'da KSeF zorunluluğu hangi tarihte başlıyor?', a: '1 Şubat 2026 tarihinden itibaren Polonya\'daki tüm B2B faturalar yalnızca KSeF (Krajowy System e-Faktur) *(Polonya elektronik fatura sistemi)* üzerinden düzenlenir. Bu zorunluluk tüm Sp. z o.o. *(limited şirket)*, VAT mükellefi JDG *(şahıs şirketi)*, spółki komandytowe *(komandit ortaklık)*, jawne *(kollektif ortaklık)* ve Polonya\'da stałe miejsce prowadzenia działalności *(daimi iş yeri)* bulunan yabancı şirketleri kapsar. Kağıt veya posta yoluyla PDF faturalar artık geçerli belge sayılmaz.' },
+      { q: 'KSeF zorunluluğundan şimdilik kimler muaf?', a: '2026 sonuna kadar muaf olanlar: VAT\'tan muaf JDG\'ler (zwolnienie z VAT - VAT kaydı olmayan saf ryczałt *(götürü vergi)* mükellefleri), B2C tedarikçileri (gerçek kişi son tüketiciye satış yapanlar) ve kasa fiş makinelerinden düzenlenen faktury z kas fiskalnych (paragony) *(yazar kasa fişleri)*. Bu kategoriler 2027\'den itibaren yükümlülüğe alınacaktır.' },
+      { q: 'KSeF üzerinden fatura düzenlememenin cezası ne kadar?', a: 'Fatura başına VAT *(KDV)* tutarının %100\'üne kadar para cezası uygulanır. B2B\'de kağıt fatura kullanımı olay başına 18.000 PLN\'ye kadar, KSeF\'e kayıt yaptırmamak 7.000 PLN\'ye kadar, yanlış formatta fatura ise 5.000 PLN\'ye kadar cezalandırılır. 1 Nisan 2026\'dan itibaren otomatik denetim, JPK_VAT *(VAT tek kayıt dosyası)* ile KSeF kayıtlarını gerçek zamanlı karşılaştırır.' },
+      { q: 'Türk girişimci KSeF\'e nasıl bağlanır?', a: '4 adım: 1) Polonya bankası üzerinden Profil Zaufany *(güvenilir profil)* veya nitelikli elektronik imza (200 PLN/yıldan başlayan) edinin; 2) e-Urząd Skarbowy *(elektronik vergi dairesi)* üzerinden ZAW-FA formu doldurun ve uprawnione osoby *(yetkili kişiler)* atayın; 3) muhasebe yazılımınızı entegre edin (iFirma, wFirma, Comarch hâlihazırda entegredir); 4) ekibinizi yeni XML fatura yapısı konusunda eğitin. Tüm bağlantı 31 Ocak 2026\'ya kadar tamamlanmalıdır.' },
+      { q: 'AB\'deki müşterilerden gelen faturalar için ne değişiyor?', a: 'Diğer AB ülkelerindeki iş ortakları KSeF\'te yer almaz; bu nedenle UE-faktur *(AB faturaları)* için ayrı şablonlara ihtiyaç vardır. Polonya\'daki ERP sistemlerinin çoğu (Comarch, Subiekt) AB faturalarını ayrı olarak otomatik üretir. AB\'den alınan faturalar standart PDF veya elektronik formatta kalmaya devam eder.' }
     ]
   },
 
@@ -898,6 +1140,13 @@ export const BLOG_FAQ: Map = {
       { q: 'How much does the B1 exam cost in 2026?', a: 'EUR 150 (~PLN 640) for registration. A written certificate copy - PLN 60, with MSZ apostille +PLN 60. Express issuance +50%. A resit after failing costs the full EUR 150 again.' },
       { q: 'When is the B1 exam in 2026?', a: 'Three sessions: 16-17 May, 8-9 August, 7-8 November 2026. Registration opens 3 months before and closes 6 weeks before. Slots fill 1-2 weeks earlier. Polish centres - 8 (Warsaw, Kraków, Poznań, Gdańsk, Wrocław, Lublin, Łódź, Katowice) plus 23 foreign ones.' },
       { q: 'Can a Polish university degree substitute for B1?', a: 'Yes - a completed bachelor\'s, master\'s or postgraduate degree in Polish substitutes for B1. Polish-language matura, C1 or C2 certificate from the State Commission also count. Karta Polaka does NOT substitute B1 - a common misconception.' }
+    ],
+    tr: [
+      { q: 'Polonya vatandaşlığı için B1 sertifikası kimler için zorunludur?', a: 'Państwowa Komisja tarafından verilen B1 sertifikası uznanie za obywatela polskiego (2 yıl PMŻ veya 3 yıl TRC sonrası vatandaşlık) ve nadanie obywatelstwa przez Prezydenta RP süreçlerinde zorunludur. Karta Stałego Pobytu için (yalnızca bazı gerekçelerde) zorunlu değildir, Karta Polaka için de gerekli değildir (orada konsoloslukla A2 sözlü sınav yapılır).' },
+      { q: 'B1 sınavı kaç bölümden oluşur ve ne kadar sürer?', a: 'Sınav tek günde yaklaşık 5 saat sürer ve 4 bölümden oluşur: rozumienie ze słuchu (dinleme, 30 dk), rozumienie tekstów pisanych (okuma, 45 dk), poprawność gramatyczna (dilbilgisi, 60 dk), pisanie + mówienie (yazma + konuşma, 90 dk + 15 dk). Türkçe konuşanlar için en zor bölüm dilbilgisidir, özellikle miejscownik (bulunma hali) ve fiil görünüşleri.' },
+      { q: 'B1 sınavı 2026\'da ne kadar?', a: 'Kayıt ücreti 150 € (yaklaşık 640 PLN). Sertifikanın yazılı kopyası 60 PLN, MSZ apostille ile +60 PLN. Acil çıkartmada %50 ek ücret alınır. Niezdaniu (başarısız olma) sonrası yeniden sınava giriş tam 150 € olarak ödenir.' },
+      { q: 'B1 sınavı 2026\'da ne zaman yapılacak?', a: 'Yıl içinde 3 oturum vardır: 16-17 Mayıs, 8-9 Ağustos ve 7-8 Kasım 2026. Kayıt 3 ay önce açılır ve 6 hafta önce kapanır. Yerler 1-2 hafta öncesinden tükenir. Polonya\'da 8 merkez (Varşova, Krakov, Poznań, Gdańsk, Wrocław, Lublin, Łódź, Katowice) ve 23 yurt dışı merkezi vardır. Türk vatandaşları için en yakın merkez İstanbul\'dur.' },
+      { q: 'Polonya üniversitesi diploması B1 yerine geçer mi?', a: 'Evet. Lehçe tamamlanmış licencjat (lisans), magister (yüksek lisans) veya studia podyplomowe (yüksek lisans sonrası eğitim) diploması B1\'in yerine geçer. Lehçe matura, Państwowa Komisja\'dan C1 veya C2 sertifikası da geçerlidir. Karta Polaka B1\'in yerini TUTMAZ - bu yaygın bir yanlış anlamadır.' }
     ]
   },
 
@@ -922,6 +1171,13 @@ export const BLOG_FAQ: Map = {
       { q: 'How much does voluntary NFZ insurance cost?', a: 'In 2026: PLN 720/month base. Break under 3 months - no penalty. Break 3-12 months - +20% penalty (PLN 864/month). Break over 12 months - +50% (PLN 1,080/month). For most foreigners, private insurance (PZU, Allianz, Medicover) is cheaper - PLN 200-500/month.' },
       { q: 'What are NFZ specialist waiting times in 2026?', a: 'POZ (primary care) - up to 1 week. Dermatology - 4-8 weeks. Gynaecology screening - 1-2 months. Cardiology, neurology - 3-8 months. Endocrinology, orthopedics, psychiatry - 6-14 months. Urgent cases - POZ pilne skierowanie (urgent referral, 1-4 weeks) or SOR (emergency department). Booking via mObywatel or IKP (Internet Patient Account).' },
       { q: 'What is IKP and how do you connect it?', a: 'IKP (Internetowe Konto Pacjenta - Internet Patient Account) is the patient panel at pacjent.gov.pl. Login via Profil Zaufany (Trusted Profile) or mObywatel. IKP holds e-skierowania (e-referrals), e-recepty (e-prescriptions), visit history, lab results and NFZ status. From 2026 it\'s integrated with mObywatel - prescriptions and referrals in the app.' }
+    ],
+    tr: [
+      { q: 'Yabancı 2026\'da NFZ\'ye nasıl kayıt olur?', a: '5 adım: 1) PESEL *(kişisel kimlik numarası)* ve Karta Pobytu *(Polonya oturum kartı)* edinin; 2) ZUS *(Polonya Sosyal Güvenlik Kurumu)* sistemine umowa o pracę *(iş sözleşmesi)*, JDG *(şahıs şirketi)* veya isteğe bağlı sigorta sözleşmesi yoluyla bağlanın; 3) statünüzü mObywatel veya pacjent.gov.pl üzerinden eWUŚ *(hak sahipliği doğrulama sistemi)* ile kontrol edin; 4) POZ *(birinci basamak)* hekiminizi seçin ve poliklinikte deklaracja *(seçim beyannamesi)* doldurun; 5) IKP *(internet hasta hesabı)* hesabınızı aktive edin. Kayıt ücretsizdir.' },
+      { q: 'NFZ ücretsiz sağlık hizmetinden kimler yararlanabilir?', a: 'ZUS kayıtlı umowa o pracę veya umowa zlecenie *(hizmet sözleşmesi)* ile çalışanlar, składka zdrowotna *(sağlık katkı payı)* ödeyen JDG sahipleri, üniversite tarafından sigortası yatırılan tam zamanlı öğrenciler, sigortalı bir aile üyesinin yakını (DRA-2 formu ile), UKR statüsündeki Ukraynalılar, Karta Polaka *(Polonyalı Kartı)* sahipleri ve isteğe bağlı sigortalananlar (yaklaşık 720 PLN/ay). Turistler ve kısa süreli ziyaretçiler kapsam dışıdır.' },
+      { q: 'İsteğe bağlı NFZ sigortası ne kadar?', a: '2026 yılında temel tarife ayda 720 PLN\'dir. 3 aydan kısa sigorta kesintisinde ek ücret yoktur. 3-12 ay arası kesintide %20 ceza eklenir (864 PLN/ay). 12 aydan uzun kesintide %50 ceza uygulanır (1.080 PLN/ay). Çoğu yabancı için özel sağlık sigortası (PZU, Allianz, Medicover) daha uygundur - aylık 200-500 PLN arası.' },
+      { q: 'NFZ\'de uzman hekim bekleme süreleri 2026\'da ne kadar?', a: 'POZ *(birinci basamak)* için 1 haftaya kadar. Dermatolog 4-8 hafta. Jinekolog koruyucu muayene 1-2 ay. Kardiyolog ve nörolog 3-8 ay. Endokrinolog, ortopedist ve psikiyatrist 6-14 ay. Acil durumlarda POZ hekiminin pilne skierowanie *(acil sevk)* yetkisi süreyi 1-4 haftaya indirir; akut vakalar için SOR *(hastane acil servisi)* ücretsizdir. Randevular mObywatel veya IKP üzerinden alınır.' },
+      { q: 'IKP nedir ve nasıl bağlanır?', a: 'IKP (Internetowe Konto Pacjenta) *(internet hasta hesabı)*, pacjent.gov.pl üzerindeki kişisel hasta panelidir. Giriş Profil Zaufany veya mObywatel uygulaması ile yapılır. IKP\'de e-skierowania *(elektronik sevkler)*, e-recepty *(elektronik reçeteler)*, ziyaret geçmişi, tahlil sonuçları ve NFZ statüsü bulunur. 2026 itibarıyla mObywatel ile entegredir; reçete ve sevkler doğrudan uygulamadan görüntülenir.' }
     ]
   },
 
@@ -941,6 +1197,11 @@ export const BLOG_FAQ: Map = {
       { q: 'How do I enrol a foreign child in a Polish school?', a: 'At the gmina (municipal) office or directly in the catchment school. Required: meldunek (address registration) or proof of address, the child\'s passport, birth certificate with translation, vaccination record, and previous school grades if available.' },
       { q: 'What is a klasa powitalna?', a: 'A klasa powitalna (welcome class) - an adaptation class for foreign children without Polish. Up to a year of intensive Polish, then integration into a regular class. Includes social support and a psychologist.' },
       { q: 'Can I enrol a child who doesn\'t speak Polish?', a: 'Yes. Compulsory schooling applies to all children aged 7-18 in Poland regardless of language. The school must accept and provide additional Polish lessons (at least 4 hours weekly).' }
+    ],
+    tr: [
+      { q: 'Yabancı bir çocuğu Polonya okuluna nasıl kaydederim?', a: 'Belediyenin urząd gminy biriminde veya bölge okulunda (rejon okulu) wniosek (başvuru) sunarsınız. Belgeler: meldunek (adres kaydı) veya adres kanıtı, çocuğun pasaportu, doğum belgesi (yeminli tercüme + Türkiye için apostille), aşı kartı, varsa önceki okulun karnesi.' },
+      { q: 'Klasa powitalna nedir?', a: 'Klasa powitalna, Polonyaca bilmeyen yabancı çocuklar için açılan adaptasyon sınıfıdır. Bir yıla kadar yoğun Polonyaca eğitimi verilir, ardından çocuk olağan sınıfa geçer. Sosyal destek ve psikolog hizmeti pakettedir.' },
+      { q: 'Çocuğum Polonyaca bilmiyorsa okula kaydolabilir mi?', a: 'Evet. Obowiązek szkolny (zorunlu eğitim) Polonya\'daki 7-18 yaş tüm çocukları kapsar; dil koşulu yoktur. Okul kabul etmek ve haftada en az 4 saat ek Polonyaca dersi vermek zorundadır.' }
     ]
   }
 };
