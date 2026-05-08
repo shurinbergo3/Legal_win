@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Karta Pobytu (TRC) Poland — LegalWin immigration consultants · Warsaw 2026",
-    "description": "Polish residence cards (TRC/PR), citizenship, appeals against voivode denials, driving-licence exchange, Code 95, Sp. z o.o. registration. Warsaw immigration consultants since 2019 — 4.9★ from 312 clients, 500+ cases a year.",
+    "title": "Karta Pobytu (TRC) Poland - LegalWin immigration consultants · Warsaw 2026",
+    "description": "Polish residence cards (TRC/PR), citizenship, appeals against voivode denials, driving-licence exchange, Code 95, Sp. z o.o. registration. Warsaw immigration consultants since 2019 - 4.9★ from 312 clients, 500+ cases a year.",
     "keywords": "Karta Pobytu, temporary residence card Poland, permanent residence Poland, Polish citizenship, immigration consultant Warsaw, Polish residence permit, EU Blue Card Poland, driving licence exchange Poland, Code 95, driver CPC Poland, register company in Poland, Sp. z o.o., appeal residence permit denial, MOS v2.0, LegalWin"
   },
   "Nav": {
@@ -19,7 +19,7 @@
     "folio": "Docket · Case No. 404 · Not in record",
     "stamp": "Case dismissed",
     "title": "This page is not on file",
-    "lede": "The document was either withdrawn or never submitted. But we know where to direct you — we run 500+ active matters a year.",
+    "lede": "The document was either withdrawn or never submitted. But we know where to direct you - we run 500+ active matters a year.",
     "popularLabel": "Most-requested matters",
     "popular": {
       "kartaTitle": "Residence permit",
@@ -31,14 +31,14 @@
     },
     "ctaHome": "Back to home",
     "ctaContact": "Talk to our team",
-    "footnote": "If you came from an email link or search result — let us know and we'll fix it"
+    "footnote": "If you came from an email link or search result - let us know and we'll fix it"
   },
   "Hero": {
-    "imageAlt": "LegalWin in Warsaw — immigration consultants helping foreigners with Karta Pobytu and Polish citizenship",
+    "imageAlt": "LegalWin in Warsaw - immigration consultants helping foreigners with Karta Pobytu and Polish citizenship",
     "eyebrow": "Warsaw · Since 2019",
     "titleLine1": "Karta Pobytu, TRC and PR in Poland.",
     "titleLine2": "Immigration consultants · Warsaw.",
-    "subtitle": "Residence cards, Polish citizenship, driving-licence exchange, Code 95, documents and legalisation. LegalWin team in Warsaw since 2019 — 4.9★ from 312 clients.",
+    "subtitle": "Residence cards, Polish citizenship, driving-licence exchange, Code 95, documents and legalisation. LegalWin team in Warsaw since 2019 - 4.9★ from 312 clients.",
     "ctaPrimary": "Free consultation",
     "ctaSecondary": "All services",
     "availableNow": "Reply within an hour",
@@ -61,7 +61,7 @@
     "stat3Label": "years in the market",
     "stat4Value": "4",
     "stat4Label": "working languages",
-    "stat1Note": "Average issue time — 6–8 months",
+    "stat1Note": "Average issue time - 6-8 months",
     "stat2Note": "Immigration, business, tax, documents, relocation",
     "stat3Note": "Since 2019 in Warsaw",
     "stat4Note": "PL · RU · UA · EN"
@@ -69,7 +69,7 @@
   "Services": {
     "eyebrow": "Practices",
     "title": "Everything a foreigner needs in Poland",
-    "subtitle": "Five practice areas, one team. Each case is led by a dedicated specialist — we don't outsource documents.",
+    "subtitle": "Five practice areas, one team. Each case is led by a dedicated specialist - we don't outsource documents.",
     "tag": "/ full scope",
     "cta": "Enquire",
     "groups": {
@@ -119,7 +119,7 @@
           },
           {
             "name": "Civil status records",
-            "desc": "Birth, marriage, death certificates — obtain and recognize"
+            "desc": "Birth, marriage, death certificates - obtain and recognize"
           },
           {
             "name": "Apostille & legalization",
@@ -158,7 +158,7 @@
           },
           {
             "name": "Ready-made companies",
-            "desc": "Shelf companies with history and account — live in 24 hours"
+            "desc": "Shelf companies with history and account - live in 24 hours"
           },
           {
             "name": "Sole proprietorship",
@@ -181,7 +181,7 @@
       "realestate": {
         "number": "04",
         "title": "Real estate",
-        "lead": "Property purchase by a foreigner — legal and fast.",
+        "lead": "Property purchase by a foreigner - legal and fast.",
         "items": [
           {
             "name": "MSWiA permit",
@@ -204,7 +204,7 @@
       "relocation": {
         "number": "05",
         "title": "Relocation",
-        "lead": "Soft landing in Poland — from the jetway to your first payslip.",
+        "lead": "Soft landing in Poland - from the jetway to your first payslip.",
         "items": [
           {
             "name": "Electronic invitations",
@@ -216,7 +216,7 @@
           },
           {
             "name": "Housing search",
-            "desc": "Long-term rental and purchase — flat to house"
+            "desc": "Long-term rental and purchase - flat to house"
           },
           {
             "name": "Translator for visits",
@@ -239,7 +239,7 @@
     "title": "Specialists who speak your language",
     "paragraph1": "LegalWin is a Warsaw-based team of immigration, business and real-estate specialists working with clients from Russia, Ukraine, Belarus, Kazakhstan and the EU since 2019.",
     "paragraph2": "We handle cases at the Office for Foreigners, ZUS, tax authorities and KRS. Our clients are entrepreneurs, IT professionals, investors and families relocating to Poland.",
-    "point1": "Transparent pricing — fixed fee per stage",
+    "point1": "Transparent pricing - fixed fee per stage",
     "point2": "Dedicated case manager for every matter",
     "point3": "Real-time reporting via client portal",
     "point4": "Service in Polish, Russian, Ukrainian and English"
@@ -254,21 +254,21 @@
         "title": "IT specialist from Belarus",
         "duration": "38 days",
         "outcome": "3-year TRC",
-        "desc": "First contact Friday — filing the next Friday. Mazowiecki voivodeship decided in 38 days vs standard 90."
+        "desc": "First contact Friday - filing the next Friday. Mazowiecki voivodeship decided in 38 days vs standard 90."
       },
       {
         "tag": "Company · IT consulting",
         "title": "Sp. z o.o. from scratch",
         "duration": "7 days",
         "outcome": "KRS + account + VAT",
-        "desc": "Two founders from Kazakhstan. S24, members' resolution, mBank account, VAT registration, contracts — done in a week."
+        "desc": "Two founders from Kazakhstan. S24, members' resolution, mBank account, VAT registration, contracts - done in a week."
       },
       {
         "tag": "Appeal · permanent residence",
         "title": "Overturning a PR denial",
         "duration": "4 months",
         "outcome": "PR granted",
-        "desc": "Client was denied PR on formal grounds. We filed a complaint to the Voivodeship Administrative Court — it quashed the denial, the voivode issued the card."
+        "desc": "Client was denied PR on formal grounds. We filed a complaint to the Voivodeship Administrative Court - it quashed the denial, the voivode issued the card."
       }
     ]
   },
@@ -277,17 +277,17 @@
     "title": "What clients say",
     "items": [
       {
-        "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress — the LegalWin team did everything, I just signed.",
+        "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress - the LegalWin team did everything, I just signed.",
         "author": "Olga M.",
         "role": "designer, moved from Kyiv"
       },
       {
-        "text": "Set up our company in a week, with VAT and bank account. They reply on chat instantly, explain things clearly — no legalese soup.",
+        "text": "Set up our company in a week, with VAT and bank account. They reply on chat instantly, explain things clearly - no legalese soup.",
         "author": "Dmitry K.",
         "role": "CTO, SaaS startup"
       },
       {
-        "text": "Helped with an appeal after my PR denial. Second team I tried — and the only one who actually got it over the line.",
+        "text": "Helped with an appeal after my PR denial. Second team I tried - and the only one who actually got it over the line.",
         "author": "Anna S.",
         "role": "doctor, Warsaw"
       },
@@ -302,12 +302,12 @@
     "eyebrow": "Pricing",
     "title": "Transparent fees, no surprises",
     "subtitle": "Our fees are fixed per stage. Official fees and sworn translations are billed separately. Full breakdown lives on each service page.",
-    "consultationCta": "First consultation free · 30–60 min",
+    "consultationCta": "First consultation free · 30-60 min",
     "items": [
-      { "slug": "karta-pobytu", "name": "Karta Pobytu (TRC)", "value": "from 2,500 PLN", "note": "Turnkey, from filing to card · ~6–8 months average" },
+      { "slug": "karta-pobytu", "name": "Karta Pobytu (TRC)", "value": "from 2,500 PLN", "note": "Turnkey, from filing to card · ~6-8 months average" },
       { "slug": "karta-stalego-pobytu", "name": "Permanent residence (PR)", "value": "from 3,500 PLN", "note": "Turnkey. Official fees 640 + 100 PLN separate" },
-      { "slug": "obywatelstwo", "name": "Polish citizenship", "value": "from 4,500 PLN", "note": "Recognition — turnkey. Naturalisation from 6,000 PLN" },
-      { "slug": "apelacje", "name": "Appeal on a denial", "value": "from 1,800 PLN", "note": "48-hour express decision review — 500 PLN, credited" },
+      { "slug": "obywatelstwo", "name": "Polish citizenship", "value": "from 4,500 PLN", "note": "Recognition - turnkey. Naturalisation from 6,000 PLN" },
+      { "slug": "apelacje", "name": "Appeal on a denial", "value": "from 1,800 PLN", "note": "48-hour express decision review - 500 PLN, credited" },
       { "slug": "kod-95", "name": "Code 95 for drivers", "value": "from 1,200 PLN", "note": "OSK, paperwork, medicals, WORD exam" },
       { "slug": "wymiana-prawa-jazdy", "name": "Driving licence exchange", "value": "from 600 PLN", "note": "Translations, badania lekarskie, starostwo" }
     ],
@@ -365,7 +365,7 @@
     "eyebrow": "How we work",
     "title": "Four steps to resolution",
     "step1Title": "Consultation",
-    "step1Desc": "30–60 minutes free. We analyse the situation, assess chances, propose a strategy.",
+    "step1Desc": "30-60 minutes free. We analyse the situation, assess chances, propose a strategy.",
     "step2Title": "Agreement & retainer",
     "step2Desc": "We fix scope and fee in a written agreement. No surprises on the invoice.",
     "step3Title": "Case handling",
@@ -383,7 +383,7 @@
       },
       {
         "q": "How long does a residence permit take?",
-        "a": "Average time to receive the card — 6–8 months. The statutory deadline for the wojewoda (regional governor) is 90 days, but in Mazowieckie Voivodeship in 2026 decisions realistically take 6–14 months. A clean MOS v2.0 filing with the full document pack lands closer to the lower bound. We accelerate through a ponaglenie (motion to expedite) and, if needed, a skarga na bezczynność (complaint of inaction) to the Voivodeship Administrative Court."
+        "a": "Average time to receive the card - 6-8 months. The statutory deadline for the wojewoda (regional governor) is 90 days, but in Mazowieckie Voivodeship in 2026 decisions realistically take 6-14 months. A clean MOS v2.0 filing with the full document pack lands closer to the lower bound. We accelerate through a ponaglenie (motion to expedite) and, if needed, a skarga na bezczynność (complaint of inaction) to the Voivodeship Administrative Court."
       },
       {
         "q": "Do you work remotely?",
@@ -391,11 +391,11 @@
       },
       {
         "q": "What if I get denied?",
-        "a": "We analyse the grounds and file an appeal within 14 days. We have successful appeals on TRC, PR, citizenship and international protection — including through the Voivodeship Administrative Court."
+        "a": "We analyse the grounds and file an appeal within 14 days. We have successful appeals on TRC, PR, citizenship and international protection - including through the Voivodeship Administrative Court."
       },
       {
         "q": "Can I register a company remotely?",
-        "a": "Yes, via S24 (the online KRS portal) with a qualified e-signature (ePUAP / ePodpis — Poland's national e-ID) or by notarial power of attorney. Registration takes 5–10 business days."
+        "a": "Yes, via S24 (the online KRS portal) with a qualified e-signature (ePUAP / ePodpis - Poland's national e-ID) or by notarial power of attorney. Registration takes 5-10 business days."
       },
       {
         "q": "What languages do you work in?",
@@ -406,7 +406,7 @@
   "Contact": {
     "eyebrow": "Get in touch",
     "title": "Tell us about your case",
-    "subtitle": "Leave a request — our specialist replies within an hour during business hours. First consultation is free.",
+    "subtitle": "Leave a request - our specialist replies within an hour during business hours. First consultation is free.",
     "name": "Name",
     "namePlaceholder": "John Smith",
     "email": "Email",
@@ -422,14 +422,14 @@
     "serviceTax": "Tax & accounting",
     "serviceOther": "Other",
     "message": "Message",
-    "messagePlaceholder": "Briefly describe the situation — nationality, residence basis, timelines",
+    "messagePlaceholder": "Briefly describe the situation - nationality, residence basis, timelines",
     "submit": "Send request",
     "submitting": "Sending…",
     "successTitle": "Request received",
-    "successMessage": "Our specialist will reply within an hour during business hours (Mon–Fri 8:30–19:00).",
+    "successMessage": "Our specialist will reply within an hour during business hours (Mon-Fri 8:30-19:00).",
     "errorTitle": "Could not send",
     "errorMessage": "Please retry or email legalwin.warszawa@gmail.com",
-    "hours": "Mon–Fri · 8:30 – 19:00",
+    "hours": "Mon-Fri · 8:30 - 19:00",
     "phoneLine": "+48 506 55 07 21",
     "emailLine": "legalwin.warszawa@gmail.com",
     "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
@@ -456,14 +456,14 @@
   },
   "Cookies": {
     "bannerTitle": "We use cookies",
-    "bannerIntro": "Necessary cookies keep the site running. Analytics and marketing cookies — only with your consent. You can change your choice any time.",
+    "bannerIntro": "Necessary cookies keep the site running. Analytics and marketing cookies - only with your consent. You can change your choice any time.",
     "readMore": "Learn more",
     "settings": "Settings",
     "necessaryOnly": "Necessary only",
     "acceptAll": "Accept all",
     "saveChoice": "Save choices",
     "settingsTitle": "Cookie settings",
-    "settingsIntro": "Pick the cookie categories you allow. Necessary cookies are always on — the site can't run without them.",
+    "settingsIntro": "Pick the cookie categories you allow. Necessary cookies are always on - the site can't run without them.",
     "close": "Close",
     "catNecessaryTitle": "Necessary",
     "catNecessaryDesc": "Session, language preference, basic security. No consent needed under PKE Art. 11.",
@@ -495,8 +495,8 @@
     "operatorRole": "LegalWin manager",
     "placeholder": "Ask a question…",
     "send": "Send",
-    "greeting": "Hi! I'm Mila from LegalWin — what can I help you with? Residence card, driving licence exchange, Code 95, citizenship?",
-    "teaseGreeting": "Hi! I'm Mila from LegalWin — happy to help with Karta Pobytu, driving licence exchange or Code 95. What's your question?",
+    "greeting": "Hi! I'm Mila from LegalWin - what can I help you with? Residence card, driving licence exchange, Code 95, citizenship?",
+    "teaseGreeting": "Hi! I'm Mila from LegalWin - happy to help with Karta Pobytu, driving licence exchange or Code 95. What's your question?",
     "teaseCta": "Message Mila",
     "disclaimer": "Exact timelines and pricing for your case will be confirmed by our specialist on the free consultation.",
     "consentTitle": "Before we start",
@@ -519,7 +519,7 @@
   "Blog": {
     "eyebrow": "/ Journal",
     "title": "LegalWin Blog",
-    "intro": "Practical guides on legalisation in Poland — residence cards, driving licence exchange, Code 95, Polish citizenship. No filler, with links to Polish urzędy and real 2026 prices.",
+    "intro": "Practical guides on legalisation in Poland - residence cards, driving licence exchange, Code 95, Polish citizenship. No filler, with links to Polish urzędy and real 2026 prices.",
     "empty": "First articles will appear here soon.",
     "readingTime": "min read",
     "back": "All articles",

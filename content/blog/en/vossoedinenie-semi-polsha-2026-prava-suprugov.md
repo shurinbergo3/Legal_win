@@ -20,13 +20,13 @@ schema: Article
 
 # Family Reunification in Poland 2026: Does the Spouse's Karta Pobytu Grant the Right to Work?
 
-Short version: in family reunification (połączenie z rodziną), the determining question is not "what documents to file" but "what status does the sponsor hold". If the sponsor holds a karta stałego pobytu, EU long-term resident status, EU Blue Card, or karta CUKR, the spouse and children receive a karta pobytu with the annotation "dostęp do rynku pracy" — i.e., the right to work without a separate permit. If the sponsor holds an ordinary karta czasowego pobytu (work or study), the spouse receives a karta pobytu — but **without** automatic work rights. In monthly terms, that gap is 2,500–4,800 PLN of family budget.
+Short version: in family reunification (połączenie z rodziną), the determining question is not "what documents to file" but "what status does the sponsor hold". If the sponsor holds a karta stałego pobytu, EU long-term resident status, EU Blue Card, or karta CUKR, the spouse and children receive a karta pobytu with the annotation "dostęp do rynku pracy" - i.e., the right to work without a separate permit. If the sponsor holds an ordinary karta czasowego pobytu (work or study), the spouse receives a karta pobytu - but **without** automatic work rights. In monthly terms, that gap is 2,500-4,800 PLN of family budget.
 
 This article covers who qualifies for "dostęp do rynku pracy", what income and housing the sponsor must show in 2026, how children are filed, and where applications most often fail.
 
 ## What Połączenie z Rodziną Is in Law
 
-Połączenie z rodziną is a separate basis for the karta czasowego pobytu, set out in Articles 159–162 of the Ustawa o cudzoziemcach. It differs from a "regular" work or study karta in that:
+Połączenie z rodziną is a separate basis for the karta czasowego pobytu, set out in Articles 159-162 of the Ustawa o cudzoziemcach. It differs from a "regular" work or study karta in that:
 
 - the sponsor files a **separate wniosek** for reunification with named family members;
 - the family members may apply from outside Poland (through the consulate) or from inside (via MOS v2.0);
@@ -45,8 +45,8 @@ Note: same-sex partnerships are not recognised in Poland, nor is de facto cohabi
 
 This is the financial heart. A spouse's card carries one of two annotations:
 
-- **"dostęp do rynku pracy"** — work without a permit on any contract, no limits;
-- without the annotation — standard procedure: oświadczenie or zezwolenie typu A through an employer.
+- **"dostęp do rynku pracy"** - work without a permit on any contract, no limits;
+- without the annotation - standard procedure: oświadczenie or zezwolenie typu A through an employer.
 
 The annotation is granted automatically when the sponsor holds:
 
@@ -66,13 +66,13 @@ In 2026 the Blue Card 2.0 reform tightened the rule further: spouses receive the
 
 For reunification to succeed, the sponsor must demonstrate:
 
-**1. Stable and regular source of income.** No fixed amount in the act, but voivodeship practice: after housing and obligatory payments, the family must retain at least **701 PLN per person per month** in 2026 (the social-assistance threshold). A family of four — 2,804 PLN/month after rent. In practice, in Mazowieckie, the sponsor must earn at least 8,000 PLN gross for a three-person family. Income is evidenced by PIT-11, ZUS RCA for three months, and bank statements.
+**1. Stable and regular source of income.** No fixed amount in the act, but voivodeship practice: after housing and obligatory payments, the family must retain at least **701 PLN per person per month** in 2026 (the social-assistance threshold). A family of four - 2,804 PLN/month after rent. In practice, in Mazowieckie, the sponsor must earn at least 8,000 PLN gross for a three-person family. Income is evidenced by PIT-11, ZUS RCA for three months, and bank statements.
 
 **2. Housing meeting sanitary-technical norms.** Minimum 5 m² per person. Lease (or proof of ownership) plus meldunek for every family member. Mazowieckie often requests written confirmation from the landlord that all named family members may live there.
 
 **3. Health insurance for all family members.** If the sponsor works, dependants are covered through ZUS / NFZ at no extra cost. On a zlecenie or JDG, a private policy with at least €30,000 coverage is required.
 
-**4. Prior residence period.** For most statuses (other than Blue Card, EU resident, and stałego), the sponsor must have lived in Poland continuously for at least 2 years before applying. Blue Card, stały, and EU long-term — no waiting period.
+**4. Prior residence period.** For most statuses (other than Blue Card, EU resident, and stałego), the sponsor must have lived in Poland continuously for at least 2 years before applying. Blue Card, stały, and EU long-term - no waiting period.
 
 ## How the Application Is Filed
 
@@ -82,8 +82,8 @@ Path depends on where the spouse is.
 
 1. Sponsor prepares the documents on status, income, and housing.
 2. Spouse files the wniosek o kartę czasowego pobytu in MOS v2.0 on the basis of Article 159 (połączenie z rodziną), attaching: marriage certificate (apostille + sworn translation), sponsor documents, income evidence, lease agreement.
-3. UPO is issued the next day; biometrics in 30–60 days.
-4. Processing — 6–10 months in Mazowieckie in 2026.
+3. UPO is issued the next day; biometrics in 30-60 days.
+4. Processing - 6-10 months in Mazowieckie in 2026.
 
 **Spouse abroad:**
 
@@ -91,28 +91,28 @@ Path depends on where the spouse is.
 2. On approval, the sponsor sends the spouse a copy; the spouse files for a D visa on the basis of family reunification at a Polish consulate.
 3. After arrival, the spouse files for the karta pobytu.
 
-**Sponsor on Blue Card** — accelerated procedure: simultaneous filing for sponsor and family, issuance within 90 days, "dostęp do rynku pracy" annotation from day one.
+**Sponsor on Blue Card** - accelerated procedure: simultaneous filing for sponsor and family, issuance within 90 days, "dostęp do rynku pracy" annotation from day one.
 
 ## Children Before and After 18
 
 A separate application is filed for each child:
 
 - birth certificate (apostille + sworn translation);
-- if the child is not from both spouses — consent from the other parent or a custody decision;
-- for children over 6 — confirmation of school enrolment (obowiązek szkolny);
-- for children over 18 — university confirmation of full-time study and proof of financial dependence on the sponsor.
+- if the child is not from both spouses - consent from the other parent or a custody decision;
+- for children over 6 - confirmation of school enrolment (obowiązek szkolny);
+- for children over 18 - university confirmation of full-time study and proof of financial dependence on the sponsor.
 
 Children under 18 receive a karta pobytu with the same expiry date as the sponsor's. After 18, a separate application is required and automatic extension stops.
 
 ## Where Applications Fail
 
-**1. Marriage of convenience.** The voivode may refuse if the marriage appears to have been entered into solely to obtain a karta pobytu. Indicators: 30+ year age gap, no shared language, no shared life, marriage concluded in a third country one or two months before filing. In Mazowieckie 2024–2025 — about 8 % of reunification refusals are on this basis.
+**1. Marriage of convenience.** The voivode may refuse if the marriage appears to have been entered into solely to obtain a karta pobytu. Indicators: 30+ year age gap, no shared language, no shared life, marriage concluded in a third country one or two months before filing. In Mazowieckie 2024-2025 - about 8 % of reunification refusals are on this basis.
 
 **2. Insufficient income.** Particularly for sponsors on minimum wage. Calculation: after rent (1,800 PLN in Warsaw for a one-bed), the family of three must retain at least 2,100 PLN. A 4,806 PLN gross salary (≈ 3,600 PLN net) does not clear that threshold.
 
-**3. Housing too small.** 5 m² per person is strict. Family of four in a 25 m² studio — refusal.
+**3. Housing too small.** 5 m² per person is strict. Family of four in a 25 m² studio - refusal.
 
-**4. Marriage certificate without apostille.** Certificates from Russia, Belarus, Ukraine require apostille (or MFA endorsement for non-Hague countries). Filing without leads to a uzupełnienie braki request and 4–6 weeks lost.
+**4. Marriage certificate without apostille.** Certificates from Russia, Belarus, Ukraine require apostille (or MFA endorsement for non-Hague countries). Filing without leads to a uzupełnienie braki request and 4-6 weeks lost.
 
 **5. Stale marriage certificate.** It must be no more than 6 months old at the time of filing.
 
@@ -123,12 +123,12 @@ Self-handling works if: sponsor already has karta stałego or Blue Card, income 
 Engage a lawyer if:
 
 - sponsor is on an ordinary karta czasowego pobytu (the dostęp question is decided separately);
-- marriage in a third country (Turkey, UAE, US) — recognition assessment;
+- marriage in a third country (Turkey, UAE, US) - recognition assessment;
 - children from a previous marriage (consent or court order needed);
 - sponsor on zlecenie or JDG (income evidence is heavy);
 - previous reunification attempt was refused.
 
-LegalWin's reunification fee — from 3,200 PLN per family + 1,200 PLN per child. Includes sponsor-status diagnostics, document apostille in the country of issue, and end-to-end follow-up.
+LegalWin's reunification fee - from 3,200 PLN per family + 1,200 PLN per child. Includes sponsor-status diagnostics, document apostille in the country of issue, and end-to-end follow-up.
 
 [Book a family reunification consultation →](/en/uslugi/karta-pobytu)
 

@@ -84,7 +84,7 @@ export function LegalPage({
         </div>
       </section>
 
-      {/* Body — TOC + content */}
+      {/* Body - TOC + content */}
       <section className="relative py-16 sm:py-20 lg:py-24">
         <div className="mx-auto max-w-4xl px-6 lg:px-10">
           <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-x-12">
@@ -139,7 +139,7 @@ export function LegalPage({
                             <ul
                               key={idx}
                               className="flex flex-col gap-2 pl-5"
-                              style={{ listStyleType: '"— "' }}
+                              style={{ listStyleType: '"- "' }}
                             >
                               {b.list.map((item) => (
                                 <li key={item} className="text-ink-200">

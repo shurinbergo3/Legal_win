@@ -38,7 +38,7 @@ const sourceSerif = Source_Serif_4({
   axes: ['opsz']
 });
 
-// Cormorant Garamond — used by the brand mark for the italic LW
+// Cormorant Garamond - used by the brand mark for the italic LW
 // monogram and the LEGAL · WIN / WARSZAWA caps inside the badge.
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -147,7 +147,7 @@ export async function generateMetadata({
         'msvalidate.01': '4A779CC4B436CFC5EE17C01C4DF302C7'
       }
     },
-    // Bump the `?v=` query whenever favicon.svg changes — browsers cache
+    // Bump the `?v=` query whenever favicon.svg changes - browsers cache
     // favicons aggressively and won't refetch on a hard reload otherwise.
     icons: {
       icon: [

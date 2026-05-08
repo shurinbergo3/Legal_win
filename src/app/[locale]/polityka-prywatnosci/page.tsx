@@ -18,7 +18,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const doc = getLegalDoc('privacy', locale);
   return {
-    title: `${doc.title} — LegalWin`,
+    title: `${doc.title} - LegalWin`,
     description: doc.intro.slice(0, 160),
     alternates: {
       canonical: `/${locale}/polityka-prywatnosci`,

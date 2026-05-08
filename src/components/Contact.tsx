@@ -59,7 +59,7 @@ export function Contact({ locale }: { locale: string }) {
 
       <div className="relative mx-auto max-w-[1280px] px-6 lg:px-10">
         <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-14">
-          {/* LEFT — heading + contact details */}
+          {/* LEFT - heading + contact details */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +88,7 @@ export function Contact({ locale }: { locale: string }) {
             </ul>
           </motion.div>
 
-          {/* RIGHT — premium form card */}
+          {/* RIGHT - premium form card */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -124,7 +124,7 @@ function FormCard({ children }: { children: React.ReactNode }) {
       <div className="relative rounded-[22px] border hairline-gold bg-ink-900/40 p-px shadow-[0_0_0_1px_rgba(212,166,71,0.08),0_24px_90px_-36px_rgba(212,166,71,0.28)] backdrop-blur-xl transition-shadow duration-500 hover:shadow-[0_0_0_1px_rgba(212,166,71,0.14),0_28px_110px_-32px_rgba(212,166,71,0.38)]">
         {/* Inner gradient background */}
         <div className="relative overflow-hidden rounded-[21px] bg-gradient-to-br from-ink-900/80 via-ink-950/95 to-ink-950">
-          {/* Corner brackets — decorative */}
+          {/* Corner brackets - decorative */}
           <CornerBracket position="tl" />
           <CornerBracket position="tr" />
           <CornerBracket position="bl" />
@@ -303,7 +303,7 @@ function ContactForm({
         />
       </motion.div>
 
-      {/* GDPR consent — required */}
+      {/* GDPR consent - required */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}

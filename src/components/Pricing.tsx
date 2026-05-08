@@ -23,7 +23,7 @@ export function Pricing() {
       id="pricing"
       className="relative isolate overflow-hidden border-t hairline bg-ink-900/30 py-20 sm:py-24 lg:py-32"
     >
-      {/* Ambient gold accent — left side, mirrors Process's centred glow */}
+      {/* Ambient gold accent - left side, mirrors Process's centred glow */}
       <div
         aria-hidden
         className="pointer-events-none absolute -bottom-32 left-[-10%] h-[480px] w-[640px] rounded-full bg-gold-500/[0.05] blur-[140px]"
@@ -49,7 +49,7 @@ export function Pricing() {
           </p>
         </div>
 
-        {/* Free consultation highlight — sits above the table as the headline anchor */}
+        {/* Free consultation highlight - sits above the table as the headline anchor */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -72,7 +72,7 @@ export function Pricing() {
           </Link>
         </motion.div>
 
-        {/* Pricing list — editorial table with hairline rows.
+        {/* Pricing list - editorial table with hairline rows.
             Each row links to the full service page where the detailed
             breakdown lives, so the home page stays a snapshot. */}
         <ul className="overflow-hidden rounded-3xl border hairline bg-ink-950">

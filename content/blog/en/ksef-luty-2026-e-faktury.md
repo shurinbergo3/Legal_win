@@ -1,6 +1,6 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: "KSeF — mandatory Polish e-invoices from February 2026"
+title: "KSeF - mandatory Polish e-invoices from February 2026"
 description: "From 1 February 2026 all B2B invoices in Poland are issued exclusively through KSeF. How a foreign entrepreneur can connect, penalties for non-compliance, what Sp. z o.o. and JDG need to do."
 locale: en
 publishDate: 2026-05-04
@@ -20,9 +20,9 @@ relatedServices:
 schema: Article
 ---
 
-# KSeF — mandatory Polish e-invoices from February 2026
+# KSeF - mandatory Polish e-invoices from February 2026
 
-From 1 February 2026, every Polish business — JDG, Sp. z o.o., spółki komandytowe — must issue B2B invoices exclusively through **KSeF (Krajowy System e-Faktur)**. Paper invoices and PDF-by-email no longer count as legal purchase documents for VAT and CIT. The penalty for non-compliance reaches 100% of the VAT amount on a single invoice. For a foreign entrepreneur this means: connect to KSeF before 31 January 2026, or your contracting parties cannot book your invoices.
+From 1 February 2026, every Polish business - JDG, Sp. z o.o., spółki komandytowe - must issue B2B invoices exclusively through **KSeF (Krajowy System e-Faktur)**. Paper invoices and PDF-by-email no longer count as legal purchase documents for VAT and CIT. The penalty for non-compliance reaches 100% of the VAT amount on a single invoice. For a foreign entrepreneur this means: connect to KSeF before 31 January 2026, or your contracting parties cannot book your invoices.
 
 ## What KSeF is
 
@@ -49,32 +49,32 @@ These groups will be covered from 2027.
 
 ## How a foreign entrepreneur connects
 
-Connection steps — required before 31 January 2026:
+Connection steps - required before 31 January 2026:
 
 ### 1. Get a qualified e-signature or Profil Zaufany
 
 To authenticate in KSeF you need one of:
 
-- **Profil Zaufany** — free via Polish banks (mBank, PKO, ING) or a gmina office
-- **Qualified e-signature** — paid e-signature from KIR, Certum, EuroCert (from PLN 200/year)
-- **Qualified seal** — for Sp. z o.o. (from PLN 350/year)
-- **KSeF token** — software token issued by MF (free, via e-Urząd Skarbowy)
+- **Profil Zaufany** - free via Polish banks (mBank, PKO, ING) or a gmina office
+- **Qualified e-signature** - paid e-signature from KIR, Certum, EuroCert (from PLN 200/year)
+- **Qualified seal** - for Sp. z o.o. (from PLN 350/year)
+- **KSeF token** - software token issued by MF (free, via e-Urząd Skarbowy)
 
 For most foreign entrepreneurs, Profil Zaufany via a Polish bank is optimal (with PESEL and a residence card).
 
 ### 2. Designate authorised persons
 
-KSeF requires explicit designation of who in the company can issue invoices. This is filed via the **ZAW-FA** form in e-Urząd Skarbowy. Without it, no one — not even a Sp. z o.o. owner — can act in KSeF.
+KSeF requires explicit designation of who in the company can issue invoices. This is filed via the **ZAW-FA** form in e-Urząd Skarbowy. Without it, no one - not even a Sp. z o.o. owner - can act in KSeF.
 
 Standard authorisations:
 
-- **Issuing invoices** — primary right
-- **Receiving invoices** — incoming
-- **Viewing invoices** — view-only (for the accountant)
+- **Issuing invoices** - primary right
+- **Receiving invoices** - incoming
+- **Viewing invoices** - view-only (for the accountant)
 
 ### 3. Integrate accounting software
 
-Most Polish accounting platforms (iFirma, wFirma, Comarch ERP, Subiekt, inFakt) are already KSeF-integrated. Configuration takes 30–60 minutes.
+Most Polish accounting platforms (iFirma, wFirma, Comarch ERP, Subiekt, inFakt) are already KSeF-integrated. Configuration takes 30-60 minutes.
 
 If you run your own ERP/CRM, integration goes via the KSeF API. Documentation lives at podatki.gov.pl and the MF site lists certified integrators.
 
@@ -82,7 +82,7 @@ If you run your own ERP/CRM, integration goes via the KSeF API. Documentation li
 
 The main user-facing change: invoices are issued in a new structure (XML). Old templates do not work. You move to UTF-8 with fields including NIP nabywcy, JPK_FA(2), country code, etc.
 
-MF training is free at podatki.gov.pl. Duration: 4–8 hours for the basic level.
+MF training is free at podatki.gov.pl. Duration: 4-8 hours for the basic level.
 
 ## Penalties for non-compliance
 
@@ -96,7 +96,7 @@ From 1 February 2026:
 | Missing authorised persons | Up to PLN 3,500/month |
 | Invoice in wrong format | Up to PLN 5,000 per invoice |
 
-From 1 April 2026, **automated KSeF audits** kick in — the system reconciles JPK_VAT with KSeF invoices and flags mismatches automatically. Previously this required a tax inspection — now it's real-time.
+From 1 April 2026, **automated KSeF audits** kick in - the system reconciles JPK_VAT with KSeF invoices and flags mismatches automatically. Previously this required a tax inspection - now it's real-time.
 
 ## What this changes for foreign-owned business in Poland
 
@@ -104,14 +104,14 @@ Practical impact for JDG and Sp. z o.o. with foreign management:
 
 **Pros:**
 
-- Cost invoices stop disappearing — KSeF archives them for 10 years
+- Cost invoices stop disappearing - KSeF archives them for 10 years
 - VAT refund accelerates from 60 to 25 days
-- Clients no longer need PDF copies — the invoice is already in their KSeF
+- Clients no longer need PDF copies - the invoice is already in their KSeF
 - Your accountant sees all invoices in real time
 
 **Cons:**
 
-- EU clients aren't in KSeF — separate templates for UE invoices
+- EU clients aren't in KSeF - separate templates for UE invoices
 - A Polish fixed place of business is mandatory to connect
 - No internet = no invoicing capability (a 24-hour offline mode exists)
 
@@ -119,16 +119,16 @@ Practical impact for JDG and Sp. z o.o. with foreign management:
 
 Steps before 31 January 2026:
 
-1. **Today:** verify your registration in e-Urząd Skarbowy via PUE — must be active.
+1. **Today:** verify your registration in e-Urząd Skarbowy via PUE - must be active.
 2. **This week:** set up Profil Zaufany or a qualified e-signature.
 3. **Within a month:** file ZAW-FA and register authorised persons in KSeF.
-4. **January 2026:** configure your accounting software integration and test 5–10 invoices via the KSeF sandbox.
+4. **January 2026:** configure your accounting software integration and test 5-10 invoices via the KSeF sandbox.
 5. **1 February:** switch fully to KSeF.
 
-LegalWin onboarded over 150 clients to KSeF in Q4 2025. Standard onboarding service from PLN 800 — includes ZAW-FA, software setup and testing. [Get in touch](/en/uslugi/podatki-ksiegowosc) — there's still time to make 1 February 2026.
+LegalWin onboarded over 150 clients to KSeF in Q4 2025. Standard onboarding service from PLN 800 - includes ZAW-FA, software setup and testing. [Get in touch](/en/uslugi/podatki-ksiegowosc) - there's still time to make 1 February 2026.
 
 **Related articles:**
-- [Polish health contribution 2026 — reform for JDG and Sp. z o.o.](/en/blog/skladka-zdrowotna-2026-reforma)
+- [Polish health contribution 2026 - reform for JDG and Sp. z o.o.](/en/blog/skladka-zdrowotna-2026-reforma)
 - [Polish tax breaks: Estonian CIT and IP Box](/en/blog/nalogovye-lgoty-estonian-cit-ip-box)
 - [JDG for foreigners in Poland](/en/blog/jdg-dlya-inostrancev-v-polshe)
 - Service: [Tax & accounting](/en/uslugi/podatki-ksiegowosc)

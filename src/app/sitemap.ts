@@ -43,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
   );
 
-  // Legal pages — privacy policy, cookie policy
+  // Legal pages - privacy policy, cookie policy
   const legalSlugs = ['polityka-prywatnosci', 'polityka-cookies'] as const;
   const legalPages: MetadataRoute.Sitemap = routing.locales.flatMap((locale) =>
     legalSlugs.map((slug) => ({

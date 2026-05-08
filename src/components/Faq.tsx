@@ -26,7 +26,7 @@ export function Faq() {
 
   return (
     <section id="faq" className="relative isolate overflow-clip border-t hairline bg-ink-900/30 py-28 lg:py-36">
-      {/* Editorial giant "?" watermark — pair to the “ glyph in Testimonials */}
+      {/* Editorial giant "?" watermark - pair to the “ glyph in Testimonials */}
       <div
         aria-hidden
         className="pointer-events-none absolute -top-10 right-2 select-none font-display text-[clamp(12rem,26vw,26rem)] font-semibold leading-none text-gold-500/[0.06] sm:right-8"

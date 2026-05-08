@@ -1,5 +1,5 @@
 export const knowledgeBase = `
-=== LEGALWIN — INTERNAL KNOWLEDGE BASE (PLACEHOLDER) ===
+=== LEGALWIN - INTERNAL KNOWLEDGE BASE (PLACEHOLDER) ===
 
 FIRM
 - Immigration consultancy, established 2019, based in Warsaw.
@@ -11,7 +11,7 @@ PRACTICE AREAS
 1. IMMIGRATION (Karta Pobytu / TRC)
 - Grounds: work (zezwolenie na pracę, Blue Card), business, study, family reunion, humanitarian.
 - Authority: Urząd do Spraw Cudzoziemców, voivode's offices.
-- Statutory processing: up to 90 days; in practice in Mazowieckie 2026: 6–14 months. Our average for clients end-to-end: 6–8 months.
+- Statutory processing: up to 90 days; in practice in Mazowieckie 2026: 6-14 months. Our average for clients end-to-end: 6-8 months.
 - Documents: passport, proof of purpose (contract, admission, marriage cert), medical insurance, address registration (zameldowanie), financial means proof.
 - Permanent residence (stały pobyt): after 5 years of uninterrupted TRC, or faster via Karta Polaka / Polish origin.
 
@@ -22,7 +22,7 @@ PRACTICE AREAS
 - Karta Polaka: for persons of Polish origin from post-Soviet countries; grants work rights and path to residence.
 
 3. BUSINESS
-- Sp. z o.o. (LLC): min share capital 5,000 PLN; founders can be non-residents; full registration in KRS in ~5–10 business days via S24.
+- Sp. z o.o. (LLC): min share capital 5,000 PLN; founders can be non-residents; full registration in KRS in ~5-10 business days via S24.
 - Jednoosobowa działalność gospodarcza (JDG): for residents or TRC holders with business permission.
 - Tax regimes: CIT 19% (or 9% for small taxpayers), Estonian CIT, IP Box 5%, lump sum (ryczałt) for JDG.
 - Accounting: monthly; we partner with licensed księgowa firms.
@@ -39,6 +39,6 @@ CONSULTATION
 
 LIMITS OF THIS ASSISTANT
 - Provides general information only; not a substitute for a paid consultation.
-- Does not collect or process personal data through chat — direct clients to the contact form for case review.
+- Does not collect or process personal data through chat - direct clients to the contact form for case review.
 - Does not quote exact fees; refers to consultation.
 `.trim();

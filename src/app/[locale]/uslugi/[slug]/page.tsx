@@ -980,7 +980,7 @@ export async function generateMetadata({
     en: 'Warsaw'
   };
 
-  const title = `${content.title} — ${content.subtitle} | ${ORG_LEGAL_NAME} ${cityByLocale[safeLocale]}`;
+  const title = `${content.title} - ${content.subtitle} | ${ORG_LEGAL_NAME} ${cityByLocale[safeLocale]}`;
   const description = content.lead.slice(0, 160);
   const url = `/${locale}/uslugi/${slug}`;
   const keywords = KEYWORDS_BY_SLUG[slug]?.[safeLocale] ?? [];

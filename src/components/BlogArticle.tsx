@@ -78,9 +78,9 @@ export function BlogArticle({ post, related, labels }: Props) {
 
   return (
     <div className="relative">
-      {/* === Hero — editorial codex === */}
+      {/* === Hero - editorial codex === */}
       <section className="hero-gradient relative isolate overflow-hidden pt-28 pb-14 sm:pt-36 sm:pb-20 lg:pt-44 lg:pb-24">
-        {/* Photo background — solid ink-950 underneath so the area never goes
+        {/* Photo background - solid ink-950 underneath so the area never goes
             blank; the dark overlay above already covers ~85% of the photo. */}
         {post.coverImage && (
           <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-ink-950">
@@ -137,7 +137,7 @@ export function BlogArticle({ post, related, labels }: Props) {
             {labels.back}
           </Link>
 
-          {/* Folio rail — issue / category strip */}
+          {/* Folio rail - issue / category strip */}
           <div className="hero-in hero-in-d2 folio-rail mb-12">
             <span>
               {post.category ? (
@@ -160,7 +160,7 @@ export function BlogArticle({ post, related, labels }: Props) {
             </span>
           </div>
 
-          {/* Title block — asymmetric grid: prose left, date stamp right */}
+          {/* Title block - asymmetric grid: prose left, date stamp right */}
           <div className="relative grid items-start gap-y-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-x-14">
             <div className="relative">
               <h1 className="hero-in hero-in-d3 font-display text-balance text-[2.5rem] font-semibold leading-[1.02] tracking-[-0.025em] text-ink-50 sm:text-[3.5rem] lg:text-[4.5rem] xl:text-[5.25rem]">
@@ -171,7 +171,7 @@ export function BlogArticle({ post, related, labels }: Props) {
               </p>
             </div>
 
-            {/* Vertical Roman date stamp — desktop only, sits to the right of the title */}
+            {/* Vertical Roman date stamp - desktop only, sits to the right of the title */}
             {stamp && (
               <div className="hero-in hero-in-d3 hidden lg:block">
                 <div className="folio-stamp pt-2">
@@ -196,11 +196,11 @@ export function BlogArticle({ post, related, labels }: Props) {
                 <span>
                   <strong>{post.author}</strong>
                 </span>
-                <span className="sep" aria-hidden>—</span>
+                <span className="sep" aria-hidden>-</span>
               </>
             )}
             <span>{labels.publishedOn} {formatDate(post.publishDate, post.locale)}</span>
-            <span className="sep" aria-hidden>—</span>
+            <span className="sep" aria-hidden>-</span>
             <span className="reading-seal">
               {post.readingMinutes} {labels.readingTime}
             </span>
@@ -253,7 +253,7 @@ export function BlogArticle({ post, related, labels }: Props) {
                 ul: ({ children }) => (
                   <ul
                     className="flex flex-col gap-2 pl-5 marker:text-gold-400"
-                    style={{ listStyleType: '"— "' }}
+                    style={{ listStyleType: '"- "' }}
                   >
                     {children}
                   </ul>

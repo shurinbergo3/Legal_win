@@ -68,7 +68,7 @@ export function TrustBar() {
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:items-end lg:justify-between lg:py-12">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
               <span className="inline-block h-px w-8 bg-gold-500/70" />
-              2019 — 2026
+              2019 - 2026
             </div>
             <h2 className="font-display text-2xl font-semibold text-ink-50 sm:text-3xl lg:text-4xl">
               {t('title')}
@@ -99,12 +99,12 @@ export function TrustBar() {
                 className="pointer-events-none absolute -right-24 -top-24 h-56 w-56 rounded-full bg-gold-500/[0.06] opacity-0 blur-[80px] transition-opacity duration-700 group-hover:opacity-100"
               />
 
-              {/* Index — top left */}
+              {/* Index - top left */}
               <span className="mb-4 font-mono text-[10px] text-ink-600 sm:mb-6 lg:mb-8">
                 / 0{i + 1}
               </span>
 
-              {/* Number — typographically dominant */}
+              {/* Number - typographically dominant */}
               <div
                 className="flex items-baseline gap-1 font-display font-semibold leading-[0.9] tracking-tight text-ink-50 transition-colors duration-500 group-hover:text-white"
                 style={{ fontSize: 'clamp(2.5rem, 9vw, 8rem)' }}
@@ -122,7 +122,7 @@ export function TrustBar() {
                 {s.label}
               </div>
 
-              {/* Note — anchored to bottom */}
+              {/* Note - anchored to bottom */}
               <div className="mt-auto border-t hairline pt-5 text-[11px] leading-relaxed text-ink-500">
                 {s.note}
               </div>

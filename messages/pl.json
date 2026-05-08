@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Karta pobytu w Polsce — konsultanci imigracyjni LegalWin · Warszawa 2026",
-    "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Konsultanci imigracyjni w Warszawie od 2019 — 4.9★ od 312 klientów, 500+ spraw rocznie.",
+    "title": "Karta pobytu w Polsce - konsultanci imigracyjni LegalWin · Warszawa 2026",
+    "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Konsultanci imigracyjni w Warszawie od 2019 - 4.9★ od 312 klientów, 500+ spraw rocznie.",
     "keywords": "karta pobytu, karta czasowego pobytu, karta stałego pobytu, TRC Polska, obywatelstwo polskie, konsultant imigracyjny Warszawa, pomoc dla cudzoziemców Warszawa, wymiana prawa jazdy w Polsce, Kod 95, kwalifikacja wstępna, szkolenie okresowe, rejestracja Sp. z o.o., odwołanie od decyzji wojewody, MOS v2.0, eDoręczenia, LegalWin"
   },
   "Nav": {
@@ -19,7 +19,7 @@
     "folio": "Akta · Sprawa nr 404 · Not in record",
     "stamp": "Case dismissed",
     "title": "Ta strona nie została dołączona do akt",
-    "lede": "Dokument został wycofany albo nigdy nie był złożony. Ale wiemy, dokąd Państwa skierować — prowadzimy 500+ spraw rocznie.",
+    "lede": "Dokument został wycofany albo nigdy nie był złożony. Ale wiemy, dokąd Państwa skierować - prowadzimy 500+ spraw rocznie.",
     "popularLabel": "Najczęstsze sprawy",
     "popular": {
       "kartaTitle": "Karta pobytu",
@@ -31,14 +31,14 @@
     },
     "ctaHome": "Na stronę główną",
     "ctaContact": "Napisz do nas",
-    "footnote": "Jeśli weszli Państwo z linku w mailu lub w wyszukiwarce — dajcie znać, naprawimy"
+    "footnote": "Jeśli weszli Państwo z linku w mailu lub w wyszukiwarce - dajcie znać, naprawimy"
   },
   "Hero": {
-    "imageAlt": "LegalWin w Warszawie — konsultanci imigracyjni: karta pobytu, obywatelstwo polskie",
+    "imageAlt": "LegalWin w Warszawie - konsultanci imigracyjni: karta pobytu, obywatelstwo polskie",
     "eyebrow": "Warszawa · Od 2019",
     "titleLine1": "Karta pobytu, TRC i pobyt stały w Polsce.",
     "titleLine2": "Konsultanci imigracyjni · Warszawa.",
-    "subtitle": "Karta pobytu, obywatelstwo, wymiana prawa jazdy, Kod 95, dokumenty i legalizacja. Zespół LegalWin w Warszawie od 2019 — 4.9★ od 312 klientów.",
+    "subtitle": "Karta pobytu, obywatelstwo, wymiana prawa jazdy, Kod 95, dokumenty i legalizacja. Zespół LegalWin w Warszawie od 2019 - 4.9★ od 312 klientów.",
     "ctaPrimary": "Bezpłatna konsultacja",
     "ctaSecondary": "Wszystkie usługi",
     "availableNow": "Odpowiadamy w ciągu godziny",
@@ -61,7 +61,7 @@
     "stat3Label": "lat na rynku",
     "stat4Value": "4",
     "stat4Label": "języki robocze",
-    "stat1Note": "Średni czas uzyskania — 6–8 miesięcy",
+    "stat1Note": "Średni czas uzyskania - 6-8 miesięcy",
     "stat2Note": "Imigracja, biznes, podatki, dokumenty, relokacja",
     "stat3Note": "Od 2019 roku w Warszawie",
     "stat4Note": "PL · RU · UA · EN"
@@ -69,7 +69,7 @@
   "Services": {
     "eyebrow": "Praktyki",
     "title": "Wszystko, czego potrzebuje cudzoziemiec w Polsce",
-    "subtitle": "Pięć obszarów, jeden zespół. Każdą sprawą kieruje dedykowany specjalista — nie zlecamy dokumentów na zewnątrz.",
+    "subtitle": "Pięć obszarów, jeden zespół. Każdą sprawą kieruje dedykowany specjalista - nie zlecamy dokumentów na zewnątrz.",
     "tag": "/ pełny zakres",
     "cta": "Zapytaj",
     "groups": {
@@ -115,11 +115,11 @@
           },
           {
             "name": "Meldunek",
-            "desc": "Zameldowanie — czasowe i stałe"
+            "desc": "Zameldowanie - czasowe i stałe"
           },
           {
             "name": "Akty stanu cywilnego",
-            "desc": "Akt urodzenia, małżeństwa, zgonu — uzyskanie i uznanie"
+            "desc": "Akt urodzenia, małżeństwa, zgonu - uzyskanie i uznanie"
           },
           {
             "name": "Apostille i legalizacja",
@@ -158,7 +158,7 @@
           },
           {
             "name": "Gotowe spółki",
-            "desc": "Spółki z historią i rachunkiem — start w 24 godziny"
+            "desc": "Spółki z historią i rachunkiem - start w 24 godziny"
           },
           {
             "name": "Jednoosobowa działalność gospodarcza",
@@ -181,7 +181,7 @@
       "realestate": {
         "number": "04",
         "title": "Nieruchomości",
-        "lead": "Zakup mieszkania przez cudzoziemca — legalnie i szybko.",
+        "lead": "Zakup mieszkania przez cudzoziemca - legalnie i szybko.",
         "items": [
           {
             "name": "Zezwolenie MSWiA",
@@ -204,7 +204,7 @@
       "relocation": {
         "number": "05",
         "title": "Relokacja",
-        "lead": "Miękkie lądowanie w Polsce — od trapu do pierwszej wypłaty.",
+        "lead": "Miękkie lądowanie w Polsce - od trapu do pierwszej wypłaty.",
         "items": [
           {
             "name": "Zaproszenia elektroniczne",
@@ -216,7 +216,7 @@
           },
           {
             "name": "Wyszukiwanie mieszkania",
-            "desc": "Najem długoterminowy i zakup — od mieszkania do domu"
+            "desc": "Najem długoterminowy i zakup - od mieszkania do domu"
           },
           {
             "name": "Tłumacz na wizyty",
@@ -239,7 +239,7 @@
     "title": "Specjaliści, którzy mówią twoim językiem",
     "paragraph1": "LegalWin to warszawski zespół specjalistów ds. legalizacji, biznesu i nieruchomości. Pracujemy z klientami z Rosji, Ukrainy, Białorusi, Kazachstanu i UE od 2019 roku.",
     "paragraph2": "Prowadzimy sprawy w Urzędzie do Spraw Cudzoziemców, ZUS, US i KRS. Nasi klienci to przedsiębiorcy, specjaliści IT, inwestorzy i rodziny przeprowadzające się do Polski.",
-    "point1": "Przejrzyste ceny — stała cena za etap",
+    "point1": "Przejrzyste ceny - stała cena za etap",
     "point2": "Dedykowany opiekun sprawy dla każdego klienta",
     "point3": "Raporty w czasie rzeczywistym przez portal klienta",
     "point4": "Obsługa w języku polskim, rosyjskim, ukraińskim i angielskim"
@@ -254,21 +254,21 @@
         "title": "Specjalista IT z Białorusi",
         "duration": "38 dni",
         "outcome": "TRC na 3 lata",
-        "desc": "Pierwszy kontakt w piątek — wniosek w piątek następnego tygodnia. Urząd Mazowiecki wydał decyzję w 38 dni zamiast standardowych 90."
+        "desc": "Pierwszy kontakt w piątek - wniosek w piątek następnego tygodnia. Urząd Mazowiecki wydał decyzję w 38 dni zamiast standardowych 90."
       },
       {
         "tag": "Spółka · konsulting IT",
         "title": "Rejestracja Sp. z o.o. od zera",
         "duration": "7 dni",
         "outcome": "KRS + konto + VAT",
-        "desc": "Dwóch założycieli z Kazachstanu. S24, uchwała wspólników, konto w mBanku, rejestracja VAT, umowy — gotowe w tydzień roboczy."
+        "desc": "Dwóch założycieli z Kazachstanu. S24, uchwała wspólników, konto w mBanku, rejestracja VAT, umowy - gotowe w tydzień roboczy."
       },
       {
         "tag": "Apelacja · stały pobyt",
         "title": "Uchylenie odmowy w Karcie Stałego Pobytu",
         "duration": "4 miesiące",
         "outcome": "PR uzyskany",
-        "desc": "Klientce odmówiono PR z powodów formalnych. Złożyliśmy skargę do WSA — sąd uchylił odmowę, wojewoda wydał kartę."
+        "desc": "Klientce odmówiono PR z powodów formalnych. Złożyliśmy skargę do WSA - sąd uchylił odmowę, wojewoda wydał kartę."
       }
     ]
   },
@@ -277,17 +277,17 @@
     "title": "Co mówią klienci",
     "items": [
       {
-        "text": "Kartę pobytu dostałam w 40 dni. Bez moich wizyt w urzędzie i nerwów przy korespondencji — wszystko robili prawnicy, ja tylko podpisywałam.",
+        "text": "Kartę pobytu dostałam w 40 dni. Bez moich wizyt w urzędzie i nerwów przy korespondencji - wszystko robili prawnicy, ja tylko podpisywałam.",
         "author": "Olga M.",
         "role": "projektantka, przeprowadziła się z Kijowa"
       },
       {
-        "text": "Otworzyliśmy spółkę w tydzień, od razu z VAT i rachunkiem. Zespół LegalWin odpowiada na czacie natychmiast, tłumaczą jasno — bez biurokratycznej kaszy.",
+        "text": "Otworzyliśmy spółkę w tydzień, od razu z VAT i rachunkiem. Zespół LegalWin odpowiada na czacie natychmiast, tłumaczą jasno - bez biurokratycznej kaszy.",
         "author": "Dymitr K.",
         "role": "CTO, startup SaaS"
       },
       {
-        "text": "Pomogli z apelacją po odmowie PR. Drugi zespół, do którego trafiłam — i jedyny, który naprawdę doprowadził sprawę do zwycięstwa.",
+        "text": "Pomogli z apelacją po odmowie PR. Drugi zespół, do którego trafiłam - i jedyny, który naprawdę doprowadził sprawę do zwycięstwa.",
         "author": "Anna S.",
         "role": "lekarka, Warszawa"
       },
@@ -301,13 +301,13 @@
   "Pricing": {
     "eyebrow": "Ceny",
     "title": "Przejrzyste ceny bez niespodzianek",
-    "subtitle": "Nasze honorarium — stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład — na stronie każdej usługi.",
-    "consultationCta": "Pierwsza konsultacja gratis · 30–60 min",
+    "subtitle": "Nasze honorarium - stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład - na stronie każdej usługi.",
+    "consultationCta": "Pierwsza konsultacja gratis · 30-60 min",
     "items": [
-      { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 6–8 miesięcy" },
+      { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 6-8 miesięcy" },
       { "slug": "karta-stalego-pobytu", "name": "Karta stałego pobytu (PR)", "value": "od 3 500 PLN", "note": "Pod klucz. Opłaty 640 + 100 PLN osobno" },
-      { "slug": "obywatelstwo", "name": "Obywatelstwo polskie", "value": "od 4 500 PLN", "note": "Uznanie — pod klucz. Nadanie — od 6 000 PLN" },
-      { "slug": "apelacje", "name": "Apelacja od decyzji", "value": "od 1 800 PLN", "note": "Ekspres-analiza decyzji 48 h — 500 PLN, zalicza się" },
+      { "slug": "obywatelstwo", "name": "Obywatelstwo polskie", "value": "od 4 500 PLN", "note": "Uznanie - pod klucz. Nadanie - od 6 000 PLN" },
+      { "slug": "apelacje", "name": "Apelacja od decyzji", "value": "od 1 800 PLN", "note": "Ekspres-analiza decyzji 48 h - 500 PLN, zalicza się" },
       { "slug": "kod-95", "name": "Kod 95 dla kierowców", "value": "od 1 200 PLN", "note": "OSK, dokumenty, badania, egzamin w WORD" },
       { "slug": "wymiana-prawa-jazdy", "name": "Wymiana prawa jazdy", "value": "od 600 PLN", "note": "Tłumaczenia, badania lekarskie, starostwo" }
     ],
@@ -365,7 +365,7 @@
     "eyebrow": "Jak pracujemy",
     "title": "Cztery kroki do rozwiązania",
     "step1Title": "Konsultacja",
-    "step1Desc": "30–60 minut gratis. Analizujemy sytuację, oceniamy szanse, proponujemy strategię.",
+    "step1Desc": "30-60 minut gratis. Analizujemy sytuację, oceniamy szanse, proponujemy strategię.",
     "step2Title": "Umowa i zaliczka",
     "step2Desc": "Ustalamy zakres prac i koszty w pisemnej umowie. Żadnych niespodzianek na fakturze.",
     "step3Title": "Prowadzenie sprawy",
@@ -379,11 +379,11 @@
     "items": [
       {
         "q": "Ile kosztuje konsultacja?",
-        "a": "Pierwsza 30-minutowa konsultacja — gratis. Jeśli potrzebna jest głęboka analiza dokumentów, kolejne spotkania kosztują od 200 PLN w zależności od złożoności."
+        "a": "Pierwsza 30-minutowa konsultacja - gratis. Jeśli potrzebna jest głęboka analiza dokumentów, kolejne spotkania kosztują od 200 PLN w zależności od złożoności."
       },
       {
         "q": "Ile trwa otrzymanie karty pobytu?",
-        "a": "Średni czas uzyskania karty to 6–8 miesięcy. Ustawowo wojewoda ma do 90 dni, ale w Mazowieckim Urzędzie Wojewódzkim w 2026 r. decyzja zapada realnie po 6–14 miesiącach. Przy prawidłowym złożeniu przez MOS v2.0 i pełnym pakiecie — bliżej dolnej granicy. Przyspieszamy przez ponaglenie i, w razie potrzeby, skargę na bezczynność do WSA."
+        "a": "Średni czas uzyskania karty to 6-8 miesięcy. Ustawowo wojewoda ma do 90 dni, ale w Mazowieckim Urzędzie Wojewódzkim w 2026 r. decyzja zapada realnie po 6-14 miesiącach. Przy prawidłowym złożeniu przez MOS v2.0 i pełnym pakiecie - bliżej dolnej granicy. Przyspieszamy przez ponaglenie i, w razie potrzeby, skargę na bezczynność do WSA."
       },
       {
         "q": "Czy pracujecie zdalnie?",
@@ -391,11 +391,11 @@
       },
       {
         "q": "Co jeśli otrzymam odmowę?",
-        "a": "Przeanalizujemy przyczyny odmowy i złożymy apelację w ciągu 14 dni. Mamy skuteczne apelacje w sprawach TRC, PR, obywatelstwa i ochrony międzynarodowej — w tym przez Wojewódzki Sąd Administracyjny."
+        "a": "Przeanalizujemy przyczyny odmowy i złożymy apelację w ciągu 14 dni. Mamy skuteczne apelacje w sprawach TRC, PR, obywatelstwa i ochrony międzynarodowej - w tym przez Wojewódzki Sąd Administracyjny."
       },
       {
         "q": "Czy można otworzyć spółkę zdalnie?",
-        "a": "Tak, przez S24 z kwalifikowanym podpisem elektronicznym (ePUAP / ePodpis) lub przez pełnomocnictwo notarialne. Rejestracja trwa 5–10 dni roboczych."
+        "a": "Tak, przez S24 z kwalifikowanym podpisem elektronicznym (ePUAP / ePodpis) lub przez pełnomocnictwo notarialne. Rejestracja trwa 5-10 dni roboczych."
       },
       {
         "q": "Jakie języki w pracy?",
@@ -406,7 +406,7 @@
   "Contact": {
     "eyebrow": "Kontakt",
     "title": "Opowiedz nam o swojej sprawie",
-    "subtitle": "Zostaw zgłoszenie — nasz specjalista odpowie w ciągu godziny w godzinach pracy. Pierwsza konsultacja gratis.",
+    "subtitle": "Zostaw zgłoszenie - nasz specjalista odpowie w ciągu godziny w godzinach pracy. Pierwsza konsultacja gratis.",
     "name": "Imię",
     "namePlaceholder": "Jan Kowalski",
     "email": "Email",
@@ -422,14 +422,14 @@
     "serviceTax": "Podatki i księgowość",
     "serviceOther": "Inne",
     "message": "Wiadomość",
-    "messagePlaceholder": "Krótko opisz sytuację — obywatelstwo, podstawa pobytu, terminy",
+    "messagePlaceholder": "Krótko opisz sytuację - obywatelstwo, podstawa pobytu, terminy",
     "submit": "Wyślij zgłoszenie",
     "submitting": "Wysyłanie…",
     "successTitle": "Zgłoszenie przyjęte",
-    "successMessage": "Nasz specjalista odpowie w ciągu godziny w godzinach pracy (pn–pt 8:30–19:00).",
+    "successMessage": "Nasz specjalista odpowie w ciągu godziny w godzinach pracy (pn-pt 8:30-19:00).",
     "errorTitle": "Nie udało się wysłać",
     "errorMessage": "Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
-    "hours": "Pn–Pt · 8:30 – 19:00",
+    "hours": "Pn-Pt · 8:30 - 19:00",
     "phoneLine": "+48 506 55 07 21",
     "emailLine": "legalwin.warszawa@gmail.com",
     "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
@@ -456,14 +456,14 @@
   },
   "Cookies": {
     "bannerTitle": "Używamy plików cookies",
-    "bannerIntro": "Cookies techniczne są niezbędne do działania serwisu. Analityczne i marketingowe — tylko za Twoją zgodą. Decyzję możesz zmienić w dowolnym momencie.",
+    "bannerIntro": "Cookies techniczne są niezbędne do działania serwisu. Analityczne i marketingowe - tylko za Twoją zgodą. Decyzję możesz zmienić w dowolnym momencie.",
     "readMore": "Dowiedz się więcej",
     "settings": "Ustawienia",
     "necessaryOnly": "Tylko niezbędne",
     "acceptAll": "Akceptuj wszystkie",
     "saveChoice": "Zapisz wybór",
     "settingsTitle": "Ustawienia plików cookies",
-    "settingsIntro": "Wybierz kategorie cookies, na które wyrażasz zgodę. Cookies techniczne są zawsze włączone — bez nich strona nie działa.",
+    "settingsIntro": "Wybierz kategorie cookies, na które wyrażasz zgodę. Cookies techniczne są zawsze włączone - bez nich strona nie działa.",
     "close": "Zamknij",
     "catNecessaryTitle": "Niezbędne",
     "catNecessaryDesc": "Sesja, wybór języka, podstawowe bezpieczeństwo. Nie wymagają zgody zgodnie z PKE Art. 11.",
@@ -495,8 +495,8 @@
     "operatorRole": "menedżer LegalWin",
     "placeholder": "Zadaj pytanie…",
     "send": "Wyślij",
-    "greeting": "Dzień dobry! Nazywam się Mila, jestem z LegalWin. W czym mogę pomóc — karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo?",
-    "teaseGreeting": "Dzień dobry! Jestem Mila z LegalWin — pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Co Pana/Panią interesuje?",
+    "greeting": "Dzień dobry! Nazywam się Mila, jestem z LegalWin. W czym mogę pomóc - karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo?",
+    "teaseGreeting": "Dzień dobry! Jestem Mila z LegalWin - pomogę z kartą pobytu, wymianą prawa jazdy lub Kod 95. Co Pana/Panią interesuje?",
     "teaseCta": "Napisz do Mili",
     "disclaimer": "Dokładne terminy i ceny dla Pana/Pani sprawy potwierdzi nasz specjalista na bezpłatnej konsultacji.",
     "consentTitle": "Zanim zaczniemy",
@@ -519,7 +519,7 @@
   "Blog": {
     "eyebrow": "/ Dziennik",
     "title": "Blog LegalWin",
-    "intro": "Praktyczne przewodniki dotyczące legalizacji w Polsce — karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo. Bez lania wody, z linkami do polskich urzędów i realnymi cenami na 2026 rok.",
+    "intro": "Praktyczne przewodniki dotyczące legalizacji w Polsce - karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo. Bez lania wody, z linkami do polskich urzędów i realnymi cenami na 2026 rok.",
     "empty": "Wkrótce pojawią się tutaj pierwsze artykuły.",
     "readingTime": "min czytania",
     "back": "Wszystkie artykuły",

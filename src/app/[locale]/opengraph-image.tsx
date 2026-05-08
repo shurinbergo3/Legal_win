@@ -7,11 +7,11 @@ import { REVIEW_COUNT, REVIEW_RATING_VALUE } from '@/lib/seo';
 export const runtime = 'nodejs';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
-export const alt = 'LegalWin — иммиграционные консультанты · Варшава';
+export const alt = 'LegalWin - иммиграционные консультанты · Варшава';
 
 // Source Serif 4 has full Cyrillic + matching italic. Without a desktop
 // User-Agent, Google Fonts serves a single unsegmented TTF per weight that
-// covers Latin + Latin-ext + Cyrillic — exactly what Satori needs.
+// covers Latin + Latin-ext + Cyrillic - exactly what Satori needs.
 async function loadFont(weight: number, italic = false): Promise<ArrayBuffer> {
   const axes = italic ? `ital,wght@1,${weight}` : `wght@${weight}`;
   const cssUrl = `https://fonts.googleapis.com/css2?family=Source+Serif+4:${axes}&display=swap`;
@@ -34,7 +34,7 @@ export default async function OpengraphImage({
   const eyebrow = t('eyebrow');
   const reviewLabel = t('socialProofLabel');
 
-  // Satori chokes on webp data URLs in current next/og — use the pre-baked
+  // Satori chokes on webp data URLs in current next/og - use the pre-baked
   // jpeg copy generated from staruwka.webp (see scripts/build-og-bg.ts).
   const [bg, fontRegular, fontBold, fontItalic] = await Promise.all([
     readFile(join(process.cwd(), 'public/hero/staruwka-og.jpg')),

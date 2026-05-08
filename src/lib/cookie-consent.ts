@@ -1,5 +1,5 @@
 /**
- * Cookie consent state — GDPR / RODO / PKE compliant.
+ * Cookie consent state - GDPR / RODO / PKE compliant.
  *
  * - Stored in localStorage with timestamp.
  * - Re-asked after CONSENT_TTL_MS. 12 months is the de-facto industry standard
@@ -11,7 +11,7 @@
  *
  * Consumers (analytics scripts, pixels, etc.) should subscribe to
  * `legalwin-consent-change` events and load themselves only after the
- * relevant flag becomes true. None are loaded today — wire this up
+ * relevant flag becomes true. None are loaded today - wire this up
  * if/when you add Google Analytics, Meta Pixel, Hotjar, etc.
  */
 

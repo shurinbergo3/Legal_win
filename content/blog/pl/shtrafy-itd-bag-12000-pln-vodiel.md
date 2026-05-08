@@ -20,7 +20,7 @@ schema: Article
 
 # Kary BAG i ITD 2026: kierowca i przewoźnik mogą stracić do 12 000 PLN za jedno naruszenie
 
-W skrócie: w 2026 polska Inspekcja Transportu Drogowego (ITD) i niemiecki Bundesamt für Logistik und Mobilität (BAG) prowadzą bezprecedensową kontrolę czasu pracy i tachografów. Najważniejsze nowe sankcje: **natychmiastowe zatrzymanie prawa jazdy na 3 miesiące na drodze** za poważne naruszenia; **kary do 12 000 PLN dla przewoźnika** za jeden epizod (cudza karta tachografu, magnesy, brak Kodu 95). Zmienia to ekonomię małych i średnich firm — jedno naruszenie może zamknąć biznes.
+W skrócie: w 2026 polska Inspekcja Transportu Drogowego (ITD) i niemiecki Bundesamt für Logistik und Mobilität (BAG) prowadzą bezprecedensową kontrolę czasu pracy i tachografów. Najważniejsze nowe sankcje: **natychmiastowe zatrzymanie prawa jazdy na 3 miesiące na drodze** za poważne naruszenia; **kary do 12 000 PLN dla przewoźnika** za jeden epizod (cudza karta tachografu, magnesy, brak Kodu 95). Zmienia to ekonomię małych i średnich firm - jedno naruszenie może zamknąć biznes.
 
 ## Co się zmieniło w 2026
 
@@ -28,10 +28,10 @@ EC Mobility Package III (czerwiec 2025) zaostrzył klasyfikację naruszeń. Dyre
 
 - klasyfikować naruszenia jako „najpoważniejsze" (NN);
 - natychmiast zatrzymywać prawa jazdy kat. C/CE na drodze za NN;
-- zwiększyć kary dla przewoźników o 100–300 %;
+- zwiększyć kary dla przewoźników o 100-300 %;
 - przekazywać dane NN do unijnego rejestru ERRU.
 
-Polska i Niemcy — najaktywniejsi egzekutorzy 2026.
+Polska i Niemcy - najaktywniejsi egzekutorzy 2026.
 
 ## Najpoważniejsze naruszenia (NN)
 
@@ -48,7 +48,7 @@ Aktualizacja 2024 w załączniku III dyrektywy 2006/22/WE:
 | Jazda z wygasłym badaniem lekarskim | NN | 2 000 PLN | 800 PLN | Brak |
 | Manipulacja danymi tachografu | NN | do 30 000 PLN | do 5 000 PLN | 3 mies. + ściganie karne |
 
-„Bardzo poważne" (BP) — tabele 2–8× niższe.
+„Bardzo poważne" (BP) - tabele 2-8× niższe.
 
 ## Zatrzymanie prawa jazdy na 3 miesiące
 
@@ -94,32 +94,32 @@ Standardowa kontrola ITD (ok. 30 minut):
 ## Ochrona kierowcy i firmy
 
 **Poziom kierowcy:**
-- karta tachografu — tylko własna; cudza = NN;
-- bez magnesów, podkładek, fałszerstw — odpowiedzialność karna;
+- karta tachografu - tylko własna; cudza = NN;
+- bez magnesów, podkładek, fałszerstw - odpowiedzialność karna;
 - znajomość czasu pracy; szkolenie okresowe (Kod 95);
 - karta aktualna i nieuszkodzona;
 - oryginały w kabinie, kopie w chmurze.
 
 **Poziom firmy:**
-- **System compliance** — Tacholiga, Webfleet, Kogena;
-- **Regularne pobierania tachografu** — co 28 dni z mocy prawa, w praktyce co tydzień;
-- **Audyty wewnętrzne** — kwartalne wyrywkowe próbki;
-- **Umowy z klauzulą odpowiedzialności** — kierowca odpowiada za naruszenia, regres firmy (z zastrzeżeniami);
-- **Prawnik on-call** — szybka reakcja na kontrolę.
+- **System compliance** - Tacholiga, Webfleet, Kogena;
+- **Regularne pobierania tachografu** - co 28 dni z mocy prawa, w praktyce co tydzień;
+- **Audyty wewnętrzne** - kwartalne wyrywkowe próbki;
+- **Umowy z klauzulą odpowiedzialności** - kierowca odpowiada za naruszenia, regres firmy (z zastrzeżeniami);
+- **Prawnik on-call** - szybka reakcja na kontrolę.
 
 ## Co robić przy zatrzymaniu
 
 **Na miejscu:**
 1. Bez polemik. Tylko żądane dokumenty.
 2. Bez wyjaśnień ustnych. Wszystko w protokole pisemnie.
-3. Brak czegoś — „sprawdzę i prześlę w 7 dni".
+3. Brak czegoś - „sprawdzę i prześlę w 7 dni".
 4. Kopia protokołu kontrolnego.
 5. Telefon do dyspozytora / biura.
 
 **Pierwsze 7 dni:**
 1. Analiza protokołu z prawnikiem.
-2. Zastrzeżenia do protokołu — 7 dni.
-3. Zatrzymanie prawa — pilny wniosek do WORD o wstrzymanie wykonania.
+2. Zastrzeżenia do protokołu - 7 dni.
+3. Zatrzymanie prawa - pilny wniosek do WORD o wstrzymanie wykonania.
 
 **Pierwsze 14 dni:**
 1. Odwołanie od kary.
@@ -129,14 +129,14 @@ Standardowa kontrola ITD (ok. 30 minut):
 
 Wiele kar ITD skutecznie kwestionowanych. Częste podstawy:
 
-- **Wady proceduralne protokołu** — brak podpisu, świadków, konkretnego naruszenia;
-- **Wątpliwości zapisu tachografu** — zakłócenie zasilania, wymiana karty w serwisie;
-- **Błędna klasyfikacja** — NN tam, gdzie powinno być BP;
-- **Siła wyższa** — wypadek, choroba, awaria.
+- **Wady proceduralne protokołu** - brak podpisu, świadków, konkretnego naruszenia;
+- **Wątpliwości zapisu tachografu** - zakłócenie zasilania, wymiana karty w serwisie;
+- **Błędna klasyfikacja** - NN tam, gdzie powinno być BP;
+- **Siła wyższa** - wypadek, choroba, awaria.
 
-W mazowieckim 2024–2025 ok. 35 % odwołań kierowców i firm wygrywa w całości lub części. Z prawnikiem — wyżej.
+W mazowieckim 2024-2025 ok. 35 % odwołań kierowców i firm wygrywa w całości lub części. Z prawnikiem - wyżej.
 
-Stawka LegalWin za reprezentację w sprawie kar ITD/BAG — od 2 800 PLN. Skarga do WSA przy odmowie odwołania — od 1 800 PLN.
+Stawka LegalWin za reprezentację w sprawie kar ITD/BAG - od 2 800 PLN. Skarga do WSA przy odmowie odwołania - od 1 800 PLN.
 
 ## Kiedy potrzebny prawnik
 
@@ -151,7 +151,7 @@ Prawnik potrzebny przy:
 - ryzyku blokady wpisu do rejestru (firma);
 - równoległym roszczeniu pracodawcy o regres.
 
-Dla firm — rekomendowana subskrypcja legal advisory: monitorowanie ryzyk, gotowość do kontroli, higiena compliance. Stawka LegalWin dla firm transportowych — od 2 500 PLN/m-c z szybką reakcją.
+Dla firm - rekomendowana subskrypcja legal advisory: monitorowanie ryzyk, gotowość do kontroli, higiena compliance. Stawka LegalWin dla firm transportowych - od 2 500 PLN/m-c z szybką reakcją.
 
 [Umów konsultację transportową →](/pl/uslugi/kod-95)
 

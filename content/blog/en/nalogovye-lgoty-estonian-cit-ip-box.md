@@ -20,7 +20,7 @@ schema: Article
 
 # Polish Tax Incentives 2026: Estonian CIT, 9% CIT and IP Box
 
-Short version: Polish business in 2026, structured as a sp. z o.o., has three serious tax regimes that — combined correctly — bring the effective tax rate from the baseline 19 % down to 5 % (IP Box) or 0 % until dividend distribution (Estonian CIT). The biggest mistake foreign founders make is choosing a regime without an activity audit. Estonian CIT is wrong for a business that distributes dividends every quarter. IP Box only fits companies with real intellectual property. 9 % CIT applies to all small payers but has a 2 M € revenue cap.
+Short version: Polish business in 2026, structured as a sp. z o.o., has three serious tax regimes that - combined correctly - bring the effective tax rate from the baseline 19 % down to 5 % (IP Box) or 0 % until dividend distribution (Estonian CIT). The biggest mistake foreign founders make is choosing a regime without an activity audit. Estonian CIT is wrong for a business that distributes dividends every quarter. IP Box only fits companies with real intellectual property. 9 % CIT applies to all small payers but has a 2 M € revenue cap.
 
 This article covers who fits which regime, how to combine them, the year-one pitfalls, and why online calculators are not a substitute for advice.
 
@@ -28,18 +28,18 @@ This article covers who fits which regime, how to combine them, the year-one pit
 
 In 2026 Poland operates two main corporate-income-tax (CIT) rates:
 
-- **19 %** — standard for sp. z o.o., spółka akcyjna, and CIT-rated spółka komandytowa.
-- **9 %** — preferential for "mały podatnik" (small taxpayer).
+- **19 %** - standard for sp. z o.o., spółka akcyjna, and CIT-rated spółka komandytowa.
+- **9 %** - preferential for "mały podatnik" (small taxpayer).
 
-A small taxpayer in 2026 has **revenue up to €2 million (≈9.2 M PLN) in the prior year**. PLN 9 M in 2025 — pay 9 % in 2026. PLN 9.3 M — pay 19 %.
+A small taxpayer in 2026 has **revenue up to €2 million (≈9.2 M PLN) in the prior year**. PLN 9 M in 2025 - pay 9 % in 2026. PLN 9.3 M - pay 19 %.
 
 On top of CIT, shareholders pay 19 % tax on dividends. Classic "double taxation": company pays CIT on profit, owner pays 19 % on the rest.
 
 The three regimes below all reduce that combined burden.
 
-## Estonian CIT — What and Who
+## Estonian CIT - What and Who
 
-Estonian CIT (formally "ryczałt od dochodów spółek") is an alternative regime where CIT is **not paid until profit is distributed**. Profit can accumulate, be reinvested, finance growth — at 0 % CIT. Tax appears only on distribution.
+Estonian CIT (formally "ryczałt od dochodów spółek") is an alternative regime where CIT is **not paid until profit is distributed**. Profit can accumulate, be reinvested, finance growth - at 0 % CIT. Tax appears only on distribution.
 
 Distribution rates depend on company size:
 
@@ -48,7 +48,7 @@ Distribution rates depend on company size:
 | Mały podatnik (≤ €2 M revenue) | 10 % |
 | Larger taxpayer | 20 % |
 
-Plus 19 % shareholder tax on dividends — but with partial credit at the small-payer level, the combined load is **about 20 %** vs ~34 % under the standard scheme. For larger payers, ~25 %.
+Plus 19 % shareholder tax on dividends - but with partial credit at the small-payer level, the combined load is **about 20 %** vs ~34 % under the standard scheme. For larger payers, ~25 %.
 
 **Fits:**
 - Businesses growing and reinvesting (IT startups, scaling e-commerce).
@@ -70,15 +70,15 @@ Entry conditions:
 
 Estonian CIT runs for at least 4 years; afterwards, stay or revert.
 
-## 9 % CIT — the Simple Tool
+## 9 % CIT - the Simple Tool
 
-Where Estonian CIT does not fit (e.g., regular dividend distributions) but revenue is under €2 M — 9 % CIT applies by default. Automatic; just file CIT-8 correctly.
+Where Estonian CIT does not fit (e.g., regular dividend distributions) but revenue is under €2 M - 9 % CIT applies by default. Automatic; just file CIT-8 correctly.
 
 Conditions:
 
-- "Mały podatnik" status — revenue ≤ €2 M in the prior year.
+- "Mały podatnik" status - revenue ≤ €2 M in the prior year.
 - Not first-year status if formed via restructuring (przekształcenie, połączenie).
-- Income from related-party transactions — separate scrutiny.
+- Income from related-party transactions - separate scrutiny.
 
 Effective load for a small payer:
 - 9 % CIT on profit;
@@ -87,9 +87,9 @@ Effective load for a small payer:
 
 Less savings than Estonian CIT, but no employee minimum and no 4-year lock.
 
-## IP Box — 5 % on IP-Linked Income
+## IP Box - 5 % on IP-Linked Income
 
-IP Box ("preferencyjne opodatkowanie dochodów z kwalifikowanych praw własności intelektualnej") is a relief on **income from commercialising qualified intellectual property rights**. Rate — **5 %** instead of 19 %.
+IP Box ("preferencyjne opodatkowanie dochodów z kwalifikowanych praw własności intelektualnej") is a relief on **income from commercialising qualified intellectual property rights**. Rate - **5 %** instead of 19 %.
 
 Qualifying rights:
 
@@ -108,7 +108,7 @@ Conditions:
 3. R&D costs tied to it are documented.
 4. PIT/IP or CIT/IP attachment to the annual return.
 
-**Pitfall**: IP Box does not apply to a programmer's salary if rights have not been transferred to the employer. An IT freelancer on JDG who invoices a client and transfers IP — IP Box works. A zlecenie at a large company where IP belongs to the employer — does not.
+**Pitfall**: IP Box does not apply to a programmer's salary if rights have not been transferred to the employer. An IT freelancer on JDG who invoices a client and transfers IP - IP Box works. A zlecenie at a large company where IP belongs to the employer - does not.
 
 Effective load for an IT JDG with IP Box:
 - 5 % PIT on IP income;
@@ -122,19 +122,19 @@ Combining is allowed and often optimal:
 
 **Sp. z o.o. + Estonian CIT + IP Box.** Company on Estonian CIT does not pay CIT until distribution; the IP Box attachment can reduce the future distribution base. Strategy for an IT startup that reinvests.
 
-**JDG + IP Box.** The most common path for IT freelancers in Warsaw and Kraków. Effective rate 5–10 %, with documentation duties.
+**JDG + IP Box.** The most common path for IT freelancers in Warsaw and Kraków. Effective rate 5-10 %, with documentation duties.
 
 **Small sp. z o.o. + 9 % CIT + IP Box.** Baseline mix for IT companies under €2 M. 9 % CIT on non-IP income + 5 % CIT on IP income via the CIT/IP attachment.
 
 ## Common Mistakes
 
-**1. Premature switch to Estonian CIT.** A startup switches in year one, then realises it needs regular cash distributions — and triggers full taxation on exit.
+**1. Premature switch to Estonian CIT.** A startup switches in year one, then realises it needs regular cash distributions - and triggers full taxation on exit.
 
-**2. IP Box without R&D documentation.** PLN 100,000 of licence income reported, but on urząd request no R&D documentation — refusal + assessment + interest.
+**2. IP Box without R&D documentation.** PLN 100,000 of licence income reported, but on urząd request no R&D documentation - refusal + assessment + interest.
 
-**3. Crossing the €2 M threshold.** December income spike, revenue exceeds €2 M, and the company fails to recompute CIT from the start of the year — underpayment + penalties.
+**3. Crossing the €2 M threshold.** December income spike, revenue exceeds €2 M, and the company fails to recompute CIT from the start of the year - underpayment + penalties.
 
-**4. IP Box continued after contract change.** Programmer moves from JDG to umowa o pracę — IP Box stops the moment the structure changes.
+**4. IP Box continued after contract change.** Programmer moves from JDG to umowa o pracę - IP Box stops the moment the structure changes.
 
 **5. Estonian CIT and foreign shareholders.** A non-resident shareholder still owes tax in their home country. Always check via the treaty before opting in.
 
@@ -151,7 +151,7 @@ Engage an adviser when:
 - revenue near the €2 M threshold;
 - prior refusals or comments from the urząd.
 
-LegalWin's tax-strategy fee — from 1,800 PLN for diagnostics + from 800 PLN/month for bookkeeping under the chosen regime.
+LegalWin's tax-strategy fee - from 1,800 PLN for diagnostics + from 800 PLN/month for bookkeeping under the chosen regime.
 
 [Book a tax consultation →](/en/uslugi/podatki-ksiegowosc)
 

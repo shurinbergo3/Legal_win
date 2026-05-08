@@ -1,6 +1,6 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Zawarcie małżeństwa z obywatelem Polski — przewodnik 2026"
+title: "Zawarcie małżeństwa z obywatelem Polski - przewodnik 2026"
 description: "Jak zarejestrować małżeństwo z obywatelem Polski w 2026 roku. Dokumenty, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, tłumaczenia. Wpływ małżeństwa na kartę pobytu i obywatelstwo."
 locale: pl
 publishDate: 2025-12-29
@@ -19,25 +19,25 @@ relatedServices:
 schema: Article
 ---
 
-# Zawarcie małżeństwa z obywatelem Polski — przewodnik 2026
+# Zawarcie małżeństwa z obywatelem Polski - przewodnik 2026
 
-Małżeństwo z obywatelem Polski to jedna z najszybszych i najbardziej przejrzystych dróg legalizacji w kraju. Po 3 latach od zawarcia można złożyć wniosek o obywatelstwo polskie, po 2 — o kartę stałego pobytu bez certyfikatu B1. Sama procedura rejestracji małżeństwa dla cudzoziemca różni się jednak od polskiej: konieczny jest dodatkowy dokument — zaświadczenie o zdolności do zawarcia małżeństwa (CNI), wydawane w kraju obywatelstwa.
+Małżeństwo z obywatelem Polski to jedna z najszybszych i najbardziej przejrzystych dróg legalizacji w kraju. Po 3 latach od zawarcia można złożyć wniosek o obywatelstwo polskie, po 2 - o kartę stałego pobytu bez certyfikatu B1. Sama procedura rejestracji małżeństwa dla cudzoziemca różni się jednak od polskiej: konieczny jest dodatkowy dokument - zaświadczenie o zdolności do zawarcia małżeństwa (CNI), wydawane w kraju obywatelstwa.
 
 ## Jakie dokumenty są potrzebne cudzoziemcowi
 
 Do rejestracji małżeństwa w polskim Urzędzie Stanu Cywilnego (USC):
 
-- **Paszport** — oryginał + kopia strony ze zdjęciem oraz strony z aktualną wizą/kartą pobytu
-- **Akt urodzenia** — z apostille + tłumaczenie przysięgłe
-- **Zaświadczenie o zdolności do zawarcia małżeństwa** (Certificate of No Impediment, CNI) — wydane w kraju obywatelstwa
-- **Akt rozwodu lub zgonu małżonka** (jeśli wcześniej w związku) — z apostille + tłumaczeniem
+- **Paszport** - oryginał + kopia strony ze zdjęciem oraz strony z aktualną wizą/kartą pobytu
+- **Akt urodzenia** - z apostille + tłumaczenie przysięgłe
+- **Zaświadczenie o zdolności do zawarcia małżeństwa** (Certificate of No Impediment, CNI) - wydane w kraju obywatelstwa
+- **Akt rozwodu lub zgonu małżonka** (jeśli wcześniej w związku) - z apostille + tłumaczeniem
 - **Aktualne zameldowanie** w Polsce (jeśli posiadasz)
 - **Zaświadczenie zdrowotne** (jeśli wymaga konsulat)
-- **PESEL** — wskazany (upraszcza procedurę USC)
+- **PESEL** - wskazany (upraszcza procedurę USC)
 
 Polski obywatel ze swojej strony przynosi tylko polski dowód osobisty + skrócony akt urodzenia (bezpłatnie z USC).
 
-## CNI — najtrudniejszy dokument
+## CNI - najtrudniejszy dokument
 
 CNI to oficjalne potwierdzenie od Twoich władz, że nie istnieją przeszkody do zawarcia małżeństwa (nie jesteś obecnie w związku małżeńskim, osiągnąłeś wiek matrymonialny, nie jesteś w bliskim pokrewieństwie z przyszłym małżonkiem).
 
@@ -45,45 +45,45 @@ Procedura zależy od kraju:
 
 | Kraj | Gdzie | Czas |
 |---|---|---|
-| Ukraina | USC w miejscu zameldowania lub konsulat w Warszawie | 1–3 miesiące |
-| Białoruś | USC lub Ministerstwo Sprawiedliwości w Mińsku | 2–4 miesiące |
-| Rosja | konsulat RU w Warszawie (politycznie utrudnione) | 3–6 miesięcy |
-| Kazachstan | Ministerstwo Sprawiedliwości w Astanie | 2–4 miesiące |
-| Gruzja | HAUS (House of Justice) w Tbilisi | 1–2 miesiące |
+| Ukraina | USC w miejscu zameldowania lub konsulat w Warszawie | 1-3 miesiące |
+| Białoruś | USC lub Ministerstwo Sprawiedliwości w Mińsku | 2-4 miesiące |
+| Rosja | konsulat RU w Warszawie (politycznie utrudnione) | 3-6 miesięcy |
+| Kazachstan | Ministerstwo Sprawiedliwości w Astanie | 2-4 miesiące |
+| Gruzja | HAUS (House of Justice) w Tbilisi | 1-2 miesiące |
 
-Po otrzymaniu CNI — **apostille** w kraju wydania i **tłumaczenie przysięgłe** na polski w Polsce.
+Po otrzymaniu CNI - **apostille** w kraju wydania i **tłumaczenie przysięgłe** na polski w Polsce.
 
-CNI ma ograniczoną ważność — zwykle 3–6 miesięcy. Dlatego najpierw umawiasz w USC datę rejestracji, potem rozpoczynasz uzyskiwanie CNI.
+CNI ma ograniczoną ważność - zwykle 3-6 miesięcy. Dlatego najpierw umawiasz w USC datę rejestracji, potem rozpoczynasz uzyskiwanie CNI.
 
 ## Zapis w USC i terminy
 
 W Warszawie rejestracja małżeństwa odbywa się w Urzędzie Stanu Cywilnego odpowiedniej dzielnicy:
 
-- **Śródmieście** — pl. Bankowy 2
-- **Mokotów** — ul. Rakowiecka 25/27
-- **Ursynów** — al. Komisji Edukacji Narodowej 61
+- **Śródmieście** - pl. Bankowy 2
+- **Mokotów** - ul. Rakowiecka 25/27
+- **Ursynów** - al. Komisji Edukacji Narodowej 61
 
-Rezerwacja ceremonii przez warszawa19115.pl. **Co najmniej 31 dni przed datą rejestracji** USC musi przyjąć Twój pakiet dokumentów do sprawdzenia. Sama ceremonia trwa 30–45 minut.
+Rezerwacja ceremonii przez warszawa19115.pl. **Co najmniej 31 dni przed datą rejestracji** USC musi przyjąć Twój pakiet dokumentów do sprawdzenia. Sama ceremonia trwa 30-45 minut.
 
 ## Opłata skarbowa
 
-- Opłata skarbowa za sporządzenie aktu małżeństwa — 84 PLN
-- Opłata za odpis aktu — 22 PLN (pełna wersja) lub bezpłatnie (skrócona)
-- Tłumaczenia przysięgłe wszystkich dokumentów — 50–200 PLN za dokument
-- Apostille w kraju wydania — 50–100 PLN ekwiwalentu
+- Opłata skarbowa za sporządzenie aktu małżeństwa - 84 PLN
+- Opłata za odpis aktu - 22 PLN (pełna wersja) lub bezpłatnie (skrócona)
+- Tłumaczenia przysięgłe wszystkich dokumentów - 50-200 PLN za dokument
+- Apostille w kraju wydania - 50-100 PLN ekwiwalentu
 
-Łączny koszt — 250–450 PLN w zależności od liczby dokumentów i tłumaczeń.
+Łączny koszt - 250-450 PLN w zależności od liczby dokumentów i tłumaczeń.
 
-## Ślub konkordatowy — kościelny + cywilny
+## Ślub konkordatowy - kościelny + cywilny
 
 Jeśli chcesz ceremonii w kościele katolickim, która jednocześnie rejestruje małżeństwo cywilne (ślub konkordatowy):
 
 - Otrzymujesz w USC **zaświadczenie do ślubu konkordatowego** (zamiast zwykłej rejestracji)
 - Idziesz do parafii, ceremonia z księdzem
 - Ksiądz przesyła do USC dokument o ceremonii
-- Po 5 dniach roboczych — wydany akt małżeństwa
+- Po 5 dniach roboczych - wydany akt małżeństwa
 
-Dodatkowo — nauka przedmałżeńska w parafii (10 spotkań po 1–2 godziny) i świadectwo bierzmowania dla katolików.
+Dodatkowo - nauka przedmałżeńska w parafii (10 spotkań po 1-2 godziny) i świadectwo bierzmowania dla katolików.
 
 ## Wpływ małżeństwa na legalizację
 
@@ -95,11 +95,11 @@ Po zawarciu małżeństwa z obywatelem Polski lub posiadaczem pobytu stałego ot
 | Karta stałego pobytu | 5 lat czasowej + B1 | 2 lata małżeństwa + 3 lata czasowego = szybciej |
 | Obywatelstwo | minimum 5+3=8 lat | 3 lata małżeństwa + 1 rok stałego = 4 lata |
 
-Jednak! USC i wojewoda mają procedurę wykrywania **„fikcyjnych małżeństw"** — związków zawartych wyłącznie ze względu na kartę pobytu. Jeśli wojewoda ma wątpliwości, zarządzane jest przesłuchanie obu małżonków osobno, sprawdzane wspólne życie, zdjęcia, korespondencja, konta bankowe. Wskaźnik odmów przy podejrzeniu fikcyjności — 40–60 %.
+Jednak! USC i wojewoda mają procedurę wykrywania **„fikcyjnych małżeństw"** - związków zawartych wyłącznie ze względu na kartę pobytu. Jeśli wojewoda ma wątpliwości, zarządzane jest przesłuchanie obu małżonków osobno, sprawdzane wspólne życie, zdjęcia, korespondencja, konta bankowe. Wskaźnik odmów przy podejrzeniu fikcyjności - 40-60 %.
 
 ## Procedura krok po kroku
 
-**Krok 1.** Uzgadniasz z polskim partnerem ślub, wybierasz USC i datę (zwykle 2–6 miesięcy wcześniej).
+**Krok 1.** Uzgadniasz z polskim partnerem ślub, wybierasz USC i datę (zwykle 2-6 miesięcy wcześniej).
 
 **Krok 2.** Wnioskujesz o CNI w swoim kraju przez konsulat lub rodzinę. Równolegle uzyskujesz apostille na akcie urodzenia.
 
@@ -107,7 +107,7 @@ Jednak! USC i wojewoda mają procedurę wykrywania **„fikcyjnych małżeństw"
 
 **Krok 4.** Składasz pakiet w USC co najmniej 31 dni przed ceremonią. USC sprawdza formalną kompletność.
 
-**Krok 5.** Jeśli wszystko OK — przychodzi potwierdzenie daty. Jeśli nie — termin uzupełnienia.
+**Krok 5.** Jeśli wszystko OK - przychodzi potwierdzenie daty. Jeśli nie - termin uzupełnienia.
 
 **Krok 6.** Ceremonia w USC: 2 świadków (znajomi w porządku), ślubowanie, wymiana obrączek.
 
@@ -117,11 +117,11 @@ Jednak! USC i wojewoda mają procedurę wykrywania **„fikcyjnych małżeństw"
 
 ## Najczęstsze błędy
 
-1. **CNI z wygasłą ważnością** — niektóre kraje wydają 3-miesięczne CNI, a USC wymaga „aktualne". Zamawiaj CNI bliżej daty rejestracji.
-2. **Bez apostille lub tylko ksero** — apostille jest obowiązkowy. USC nie przyjmuje zwykłych kserokopii.
-3. **Przeterminowane tłumaczenia** — tłumaczenia starsze niż 6 miesięcy mogą nie być akceptowane.
-4. **Niezgodność imion** — imiona w paszporcie zagranicznym mogą się różnie transliterować. USC akceptuje tylko jedną formę.
-5. **Polski partner nieprzygotowany** — czasami Polacy nie zdają sobie sprawy, że również potrzebują zameldowania i podpisów na dodatkowych dokumentach.
+1. **CNI z wygasłą ważnością** - niektóre kraje wydają 3-miesięczne CNI, a USC wymaga „aktualne". Zamawiaj CNI bliżej daty rejestracji.
+2. **Bez apostille lub tylko ksero** - apostille jest obowiązkowy. USC nie przyjmuje zwykłych kserokopii.
+3. **Przeterminowane tłumaczenia** - tłumaczenia starsze niż 6 miesięcy mogą nie być akceptowane.
+4. **Niezgodność imion** - imiona w paszporcie zagranicznym mogą się różnie transliterować. USC akceptuje tylko jedną formę.
+5. **Polski partner nieprzygotowany** - czasami Polacy nie zdają sobie sprawy, że również potrzebują zameldowania i podpisów na dodatkowych dokumentach.
 
 ## Kiedy potrzebujesz prawnika
 
@@ -129,12 +129,12 @@ Samodzielnie da się, gdy:
 
 - CNI i apostille w kraju wydania przebiegają bez problemów
 - Polski partner ma działający dowód osobisty i meldunek
-- Czas — 4–6 miesięcy na zbieranie dokumentów
+- Czas - 4-6 miesięcy na zbieranie dokumentów
 
 Prawnik ma sens, gdy:
 
 - Trudności z uzyskaniem CNI (zaginiony paszport, ograniczenia polityczne RU)
-- Wcześniejszy rozwód za granicą z osobą nie-polską — dodatkowe dokumenty
+- Wcześniejszy rozwód za granicą z osobą nie-polską - dodatkowe dokumenty
 - Podejrzenie USC o fikcyjność
 - Równolegle składany wniosek o kartę pobytu lub obywatelstwo
 
@@ -148,6 +148,6 @@ Niniejszy artykuł ma charakter informacyjny. Konkretne terminy i decyzje zależ
 
 **Powiązane artykuły:**
 - [Karta czasowego pobytu w Polsce 2026: instrukcja krok po kroku](/pl/blog/karta-pobytu-2026-poshagovaya-instrukciya)
-- [Karta stałego pobytu — pobyt stały w Polsce 2026](/pl/blog/karta-stalego-pobytu-pmzh-polsha-2026)
-- [Apostille w Polsce — czym jest i kiedy potrzebny](/pl/blog/apostille-v-polshe)
+- [Karta stałego pobytu - pobyt stały w Polsce 2026](/pl/blog/karta-stalego-pobytu-pmzh-polsha-2026)
+- [Apostille w Polsce - czym jest i kiedy potrzebny](/pl/blog/apostille-v-polshe)
 - Usługa: [akty stanu cywilnego i USC](/pl/uslugi/akty-stanu-cywilnego)

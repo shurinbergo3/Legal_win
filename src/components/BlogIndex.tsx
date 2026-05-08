@@ -123,7 +123,7 @@ export function BlogIndex({ posts, labels }: Props) {
         </div>
       </section>
 
-      {/* Toolbar — search + category filter */}
+      {/* Toolbar - search + category filter */}
       <section className="relative border-b hairline bg-ink-950/40 backdrop-blur">
         <div className="mx-auto max-w-5xl px-6 py-6 lg:px-10">
           <div className="flex flex-col gap-5">
@@ -212,7 +212,7 @@ export function BlogIndex({ posts, labels }: Props) {
                       href={`/blog/${post.slug}`}
                       className="group relative flex h-full flex-col overflow-hidden rounded-2xl border hairline bg-ink-900/40 transition-all hover:border-gold-500/30 hover:shadow-elite"
                     >
-                      {/* Photo background — heavily darkened, editorial feel */}
+                      {/* Photo background - heavily darkened, editorial feel */}
                       <div
                         aria-hidden
                         className="pointer-events-none absolute inset-0 -z-10 bg-ink-950"

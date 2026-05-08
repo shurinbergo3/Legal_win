@@ -1,9 +1,9 @@
 /**
- * Telegram bot subscribers — chat IDs that receive contact-form requests.
+ * Telegram bot subscribers - chat IDs that receive contact-form requests.
  *
  * Storage strategy:
  *   1. Vercel KV (Upstash Redis) when KV_REST_API_URL + KV_REST_API_TOKEN are set.
- *      This is the production path — survives deploys, works on serverless.
+ *      This is the production path - survives deploys, works on serverless.
  *   2. Local JSON file at <repo>/data/subscribers.json otherwise.
  *      Fine for `npm run dev` without a KV connection.
  *
@@ -144,13 +144,13 @@ export async function listSubscribersWithMeta(): Promise<SubscriberMeta[]> {
 
   for (const id of ops) {
     if (!result.find((m) => m.chatId === id)) {
-      result.push({ chatId: id, name: `ID ${id}`, addedAt: '—' });
+      result.push({ chatId: id, name: `ID ${id}`, addedAt: '-' });
     }
   }
 
   for (const id of data.chatIds) {
     if (!result.find((m) => m.chatId === id)) {
-      result.push({ chatId: id, name: `ID ${id}`, addedAt: '—' });
+      result.push({ chatId: id, name: `ID ${id}`, addedAt: '-' });
     }
   }
 

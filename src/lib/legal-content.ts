@@ -30,7 +30,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
               { term: 'Телефон', def: '+48 506 55 07 21' }
             ]
           },
-          'Контактным лицом по вопросам персональных данных является администратор. Инспектор по защите данных (DPO) не назначен — для нашей деятельности это не обязательно по ст. 37 GDPR.'
+          'Контактным лицом по вопросам персональных данных является администратор. Инспектор по защите данных (DPO) не назначен - для нашей деятельности это не обязательно по ст. 37 GDPR.'
         ]
       },
       {
@@ -40,10 +40,10 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Мы обрабатываем ваши данные исключительно для законных целей, перечисленных ниже:',
           {
             dl: [
-              { term: 'Art. 6(1)(a) GDPR', def: 'Согласие — обработка заявок через форму или AI-чат, отправка ответа специалиста.' },
+              { term: 'Art. 6(1)(a) GDPR', def: 'Согласие - обработка заявок через форму или AI-чат, отправка ответа специалиста.' },
               { term: 'Art. 6(1)(b) GDPR', def: 'Заключение и исполнение договора об оказании юридических услуг.' },
-              { term: 'Art. 6(1)(c) GDPR', def: 'Исполнение правовых обязательств — ведение бухгалтерской и налоговой документации.' },
-              { term: 'Art. 6(1)(f) GDPR', def: 'Законный интерес — защита фирмы от мошенничества, обеспечение безопасности сайта.' }
+              { term: 'Art. 6(1)(c) GDPR', def: 'Исполнение правовых обязательств - ведение бухгалтерской и налоговой документации.' },
+              { term: 'Art. 6(1)(f) GDPR', def: 'Законный интерес - защита фирмы от мошенничества, обеспечение безопасности сайта.' }
             ]
           }
         ]
@@ -55,11 +55,11 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Ваши данные могут быть переданы следующим обработчикам, действующим по нашему поручению:',
           {
             list: [
-              'Бухгалтерская фирма-партнёр (Польша) — для ведения учёта, ст. 28 GDPR.',
-              'Хостинг-провайдер Vercel Inc. (США) — стандартные договорные положения ЕС, IDTA.',
-              'Telegram Messenger LLP (UK/EU) — отправка уведомлений о заявках в наш закрытый чат.',
-              'Groq Inc. (США) — обработка обращений в AI-чате, не сохраняет содержание (zero-retention).',
-              'Польские государственные органы — только при официальном законном запросе.'
+              'Бухгалтерская фирма-партнёр (Польша) - для ведения учёта, ст. 28 GDPR.',
+              'Хостинг-провайдер Vercel Inc. (США) - стандартные договорные положения ЕС, IDTA.',
+              'Telegram Messenger LLP (UK/EU) - отправка уведомлений о заявках в наш закрытый чат.',
+              'Groq Inc. (США) - обработка обращений в AI-чате, не сохраняет содержание (zero-retention).',
+              'Польские государственные органы - только при официальном законном запросе.'
             ]
           }
         ]
@@ -87,15 +87,15 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
             list: [
               'Право доступа к своим данным (ст. 15 GDPR).',
               'Право на исправление неточных данных (ст. 16 GDPR).',
-              'Право на удаление — «право быть забытым» (ст. 17 GDPR).',
+              'Право на удаление - «право быть забытым» (ст. 17 GDPR).',
               'Право на ограничение обработки (ст. 18 GDPR).',
               'Право на переносимость данных (ст. 20 GDPR).',
               'Право возражать против обработки на основании законного интереса (ст. 21 GDPR).',
-              'Право отозвать согласие в любой момент — без последствий для обработки до отзыва.',
-              'Право подать жалобу в надзорный орган — Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+              'Право отозвать согласие в любой момент - без последствий для обработки до отзыва.',
+              'Право подать жалобу в надзорный орган - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'Для реализации любого из прав достаточно письма на legalwin.warszawa@gmail.com — мы ответим в течение 30 дней.'
+          'Для реализации любого из прав достаточно письма на legalwin.warszawa@gmail.com - мы ответим в течение 30 дней.'
         ]
       },
       {
@@ -109,14 +109,14 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
         id: 'profilowanie',
         title: 'Автоматизированное принятие решений',
         blocks: [
-          'Мы не принимаем юридически значимых решений на основании автоматической обработки. AI-чат — справочный инструмент, его ответы не заменяют консультацию специалиста и не являются юридическим заключением.'
+          'Мы не принимаем юридически значимых решений на основании автоматической обработки. AI-чат - справочный инструмент, его ответы не заменяют консультацию специалиста и не являются юридическим заключением.'
         ]
       },
       {
         id: 'cookies',
         title: 'Cookies',
         blocks: [
-          'Подробнее об используемых cookies, способах изменения настроек и категориях — см. отдельную страницу Политика cookies.'
+          'Подробнее об используемых cookies, способах изменения настроек и категориях - см. отдельную страницу Политика cookies.'
         ]
       },
       {
@@ -146,7 +146,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
               { term: 'Telefon', def: '+48 506 55 07 21' }
             ]
           },
-          'Osobą do kontaktu w sprawach danych osobowych jest administrator. Inspektor Ochrony Danych (IOD) nie został wyznaczony — dla naszej działalności nie jest to obowiązkowe (art. 37 RODO).'
+          'Osobą do kontaktu w sprawach danych osobowych jest administrator. Inspektor Ochrony Danych (IOD) nie został wyznaczony - dla naszej działalności nie jest to obowiązkowe (art. 37 RODO).'
         ]
       },
       {
@@ -156,10 +156,10 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Przetwarzamy Twoje dane wyłącznie w zgodnych z prawem celach wymienionych poniżej:',
           {
             dl: [
-              { term: 'Art. 6 ust. 1 lit. a RODO', def: 'Zgoda — obsługa zgłoszeń z formularza lub AI-czatu, przesłanie odpowiedzi specjalisty.' },
+              { term: 'Art. 6 ust. 1 lit. a RODO', def: 'Zgoda - obsługa zgłoszeń z formularza lub AI-czatu, przesłanie odpowiedzi specjalisty.' },
               { term: 'Art. 6 ust. 1 lit. b RODO', def: 'Zawarcie i wykonanie umowy o świadczenie usług prawnych.' },
-              { term: 'Art. 6 ust. 1 lit. c RODO', def: 'Wypełnienie obowiązków prawnych — prowadzenie dokumentacji księgowej i podatkowej.' },
-              { term: 'Art. 6 ust. 1 lit. f RODO', def: 'Prawnie uzasadniony interes — ochrona kancelarii przed nadużyciami, bezpieczeństwo serwisu.' }
+              { term: 'Art. 6 ust. 1 lit. c RODO', def: 'Wypełnienie obowiązków prawnych - prowadzenie dokumentacji księgowej i podatkowej.' },
+              { term: 'Art. 6 ust. 1 lit. f RODO', def: 'Prawnie uzasadniony interes - ochrona kancelarii przed nadużyciami, bezpieczeństwo serwisu.' }
             ]
           }
         ]
@@ -171,11 +171,11 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Twoje dane mogą zostać udostępnione następującym podmiotom przetwarzającym działającym na nasze zlecenie:',
           {
             list: [
-              'Kancelaria księgowa-partner (Polska) — w celu prowadzenia księgowości, art. 28 RODO.',
-              'Hostingodawca Vercel Inc. (USA) — Standardowe Klauzule Umowne KE, IDTA.',
-              'Telegram Messenger LLP (UK/EU) — wysyłka powiadomień o zgłoszeniach na nasz zamknięty kanał.',
-              'Groq Inc. (USA) — przetwarzanie zapytań w AI-czacie, brak retencji treści.',
-              'Polskie organy państwowe — wyłącznie na podstawie zgodnego z prawem wniosku.'
+              'Kancelaria księgowa-partner (Polska) - w celu prowadzenia księgowości, art. 28 RODO.',
+              'Hostingodawca Vercel Inc. (USA) - Standardowe Klauzule Umowne KE, IDTA.',
+              'Telegram Messenger LLP (UK/EU) - wysyłka powiadomień o zgłoszeniach na nasz zamknięty kanał.',
+              'Groq Inc. (USA) - przetwarzanie zapytań w AI-czacie, brak retencji treści.',
+              'Polskie organy państwowe - wyłącznie na podstawie zgodnego z prawem wniosku.'
             ]
           }
         ]
@@ -203,15 +203,15 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
             list: [
               'Prawo dostępu do swoich danych (art. 15 RODO).',
               'Prawo do sprostowania (art. 16 RODO).',
-              'Prawo do usunięcia — „prawo do bycia zapomnianym" (art. 17 RODO).',
+              'Prawo do usunięcia - „prawo do bycia zapomnianym" (art. 17 RODO).',
               'Prawo do ograniczenia przetwarzania (art. 18 RODO).',
               'Prawo do przenoszenia danych (art. 20 RODO).',
               'Prawo sprzeciwu wobec przetwarzania na podstawie prawnie uzasadnionego interesu (art. 21 RODO).',
-              'Prawo do cofnięcia zgody w dowolnym momencie — bez wpływu na zgodność z prawem przetwarzania przed cofnięciem.',
-              'Prawo wniesienia skargi do organu nadzorczego — Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+              'Prawo do cofnięcia zgody w dowolnym momencie - bez wpływu na zgodność z prawem przetwarzania przed cofnięciem.',
+              'Prawo wniesienia skargi do organu nadzorczego - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'Aby skorzystać z któregokolwiek z praw, wystarczy wiadomość na legalwin.warszawa@gmail.com — odpowiemy w ciągu 30 dni.'
+          'Aby skorzystać z któregokolwiek z praw, wystarczy wiadomość na legalwin.warszawa@gmail.com - odpowiemy w ciągu 30 dni.'
         ]
       },
       {
@@ -225,14 +225,14 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
         id: 'profilowanie',
         title: 'Zautomatyzowane podejmowanie decyzji',
         blocks: [
-          'Nie podejmujemy decyzji wywołujących skutki prawne na podstawie wyłącznie zautomatyzowanego przetwarzania. AI-czat to narzędzie pomocnicze — jego odpowiedzi nie zastępują konsultacji ze specjalistą ani nie stanowią opinii prawnej.'
+          'Nie podejmujemy decyzji wywołujących skutki prawne na podstawie wyłącznie zautomatyzowanego przetwarzania. AI-czat to narzędzie pomocnicze - jego odpowiedzi nie zastępują konsultacji ze specjalistą ani nie stanowią opinii prawnej.'
         ]
       },
       {
         id: 'cookies',
         title: 'Pliki cookies',
         blocks: [
-          'Szczegóły dotyczące używanych cookies, sposobu zmiany ustawień i kategorii — zobacz odrębną stronę Polityka cookies.'
+          'Szczegóły dotyczące używanych cookies, sposobu zmiany ustawień i kategorii - zobacz odrębną stronę Polityka cookies.'
         ]
       },
       {
@@ -262,7 +262,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
               { term: 'Phone', def: '+48 506 55 07 21' }
             ]
           },
-          'Contact for data protection matters is the controller. A Data Protection Officer (DPO) has not been appointed — not required for our activity under Art. 37 GDPR.'
+          'Contact for data protection matters is the controller. A Data Protection Officer (DPO) has not been appointed - not required for our activity under Art. 37 GDPR.'
         ]
       },
       {
@@ -272,10 +272,10 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'We process your data only for the lawful purposes listed below:',
           {
             dl: [
-              { term: 'Art. 6(1)(a) GDPR', def: 'Consent — handling form and AI-chat enquiries, sending the specialist\'s reply.' },
+              { term: 'Art. 6(1)(a) GDPR', def: 'Consent - handling form and AI-chat enquiries, sending the specialist\'s reply.' },
               { term: 'Art. 6(1)(b) GDPR', def: 'Performance of a legal-services contract.' },
-              { term: 'Art. 6(1)(c) GDPR', def: 'Compliance with legal obligations — accounting and tax records.' },
-              { term: 'Art. 6(1)(f) GDPR', def: 'Legitimate interests — fraud prevention, site security.' }
+              { term: 'Art. 6(1)(c) GDPR', def: 'Compliance with legal obligations - accounting and tax records.' },
+              { term: 'Art. 6(1)(f) GDPR', def: 'Legitimate interests - fraud prevention, site security.' }
             ]
           }
         ]
@@ -287,11 +287,11 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
           'Your data may be shared with the following processors acting on our behalf:',
           {
             list: [
-              'Partner accounting firm (Poland) — bookkeeping, Art. 28 GDPR.',
-              'Hosting provider Vercel Inc. (USA) — EU Standard Contractual Clauses, IDTA.',
-              'Telegram Messenger LLP (UK/EU) — enquiry notifications to our private channel.',
-              'Groq Inc. (USA) — AI-chat processing, zero retention of content.',
-              'Polish public authorities — only on lawful request.'
+              'Partner accounting firm (Poland) - bookkeeping, Art. 28 GDPR.',
+              'Hosting provider Vercel Inc. (USA) - EU Standard Contractual Clauses, IDTA.',
+              'Telegram Messenger LLP (UK/EU) - enquiry notifications to our private channel.',
+              'Groq Inc. (USA) - AI-chat processing, zero retention of content.',
+              'Polish public authorities - only on lawful request.'
             ]
           }
         ]
@@ -319,15 +319,15 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
             list: [
               'Right of access (Art. 15 GDPR).',
               'Right to rectification (Art. 16 GDPR).',
-              'Right to erasure — "right to be forgotten" (Art. 17 GDPR).',
+              'Right to erasure - "right to be forgotten" (Art. 17 GDPR).',
               'Right to restriction of processing (Art. 18 GDPR).',
               'Right to data portability (Art. 20 GDPR).',
               'Right to object to processing based on legitimate interest (Art. 21 GDPR).',
-              'Right to withdraw consent at any time — without affecting lawfulness of processing before withdrawal.',
-              'Right to lodge a complaint with the supervisory authority — Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+              'Right to withdraw consent at any time - without affecting lawfulness of processing before withdrawal.',
+              'Right to lodge a complaint with the supervisory authority - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'To exercise any right, email legalwin.warszawa@gmail.com — we reply within 30 days.'
+          'To exercise any right, email legalwin.warszawa@gmail.com - we reply within 30 days.'
         ]
       },
       {
@@ -341,14 +341,14 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
         id: 'profilowanie',
         title: 'Automated decision-making',
         blocks: [
-          'We do not take decisions producing legal effects based solely on automated processing. The AI chat is a helper tool — its answers are not legal advice and don\'t substitute a consultation.'
+          'We do not take decisions producing legal effects based solely on automated processing. The AI chat is a helper tool - its answers are not legal advice and don\'t substitute a consultation.'
         ]
       },
       {
         id: 'cookies',
         title: 'Cookies',
         blocks: [
-          'For details on the cookies we use, how to change settings and the categories — see the separate Cookie Policy page.'
+          'For details on the cookies we use, how to change settings and the categories - see the separate Cookie Policy page.'
         ]
       },
       {
@@ -369,7 +369,7 @@ export const COOKIES: Record<Locale, LegalDoc> = {
     eyebrow: '/ право',
     title: 'Политика cookies',
     intro:
-      'Cookies — небольшие текстовые файлы, которые браузер автоматически сохраняет на вашем устройстве при посещении сайта. Они нужны для работы сервиса, безопасности и улучшения удобства.',
+      'Cookies - небольшие текстовые файлы, которые браузер автоматически сохраняет на вашем устройстве при посещении сайта. Они нужны для работы сервиса, безопасности и улучшения удобства.',
     sections: [
       {
         id: 'administrator',
@@ -385,9 +385,9 @@ export const COOKIES: Record<Locale, LegalDoc> = {
           {
             dl: [
               { term: 'Необходимые', def: 'Сессия, выбор языка, базовая безопасность (CSRF-токен). Не требуют согласия по PKE Art. 11.' },
-              { term: 'Функциональные', def: 'Запоминают ваши предпочтения — например, последний выбранный фильтр или автозаполнение формы.' },
-              { term: 'Аналитические', def: 'Анонимная статистика посещений: какие страницы популярны, как пользователи перемещаются по сайту. В будущем — Google Analytics, Hotjar.' },
-              { term: 'Маркетинговые', def: 'Персонализация рекламы на сторонних площадках. В будущем — Meta Pixel, Google Ads.' }
+              { term: 'Функциональные', def: 'Запоминают ваши предпочтения - например, последний выбранный фильтр или автозаполнение формы.' },
+              { term: 'Аналитические', def: 'Анонимная статистика посещений: какие страницы популярны, как пользователи перемещаются по сайту. В будущем - Google Analytics, Hotjar.' },
+              { term: 'Маркетинговые', def: 'Персонализация рекламы на сторонних площадках. В будущем - Meta Pixel, Google Ads.' }
             ]
           }
         ]
@@ -398,8 +398,8 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         blocks: [
           {
             list: [
-              'Сессионные — удаляются при закрытии браузера.',
-              'Постоянные — сохраняются на устройстве до момента удаления вручную или истечения срока, заданного в файле (макс. 12 месяцев).'
+              'Сессионные - удаляются при закрытии браузера.',
+              'Постоянные - сохраняются на устройстве до момента удаления вручную или истечения срока, заданного в файле (макс. 12 месяцев).'
             ]
           }
         ]
@@ -425,7 +425,7 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         title: 'Как изменить или отозвать согласие',
         blocks: [
           'Вы в любой момент можете изменить настройки через нашу панель «Настройки cookies» в футере сайта.',
-          'Дополнительно — отключить cookies в браузере:',
+          'Дополнительно - отключить cookies в браузере:',
           {
             list: [
               'Chrome: chrome://settings/cookies',
@@ -442,7 +442,7 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         title: 'Контакты и право жалобы',
         blocks: [
           'Вопросы по обработке данных: legalwin.warszawa@gmail.com.',
-          'В случае нарушения у вас есть право подать жалобу в Prezes Urzędu Ochrony Danych Osobowych — ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+          'В случае нарушения у вас есть право подать жалобу в Prezes Urzędu Ochrony Danych Osobowych - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
     ]
@@ -467,9 +467,9 @@ export const COOKIES: Record<Locale, LegalDoc> = {
           {
             dl: [
               { term: 'Niezbędne', def: 'Sesja, wybór języka, podstawowe bezpieczeństwo (token CSRF). Nie wymagają zgody zgodnie z PKE Art. 11.' },
-              { term: 'Funkcjonalne', def: 'Zapamiętują Twoje preferencje — np. ostatnio wybrany filtr lub automatyczne uzupełnianie formularza.' },
-              { term: 'Analityczne', def: 'Anonimowe statystyki odwiedzin: które strony są popularne, jak użytkownicy poruszają się po serwisie. W przyszłości — Google Analytics, Hotjar.' },
-              { term: 'Marketingowe', def: 'Personalizacja reklam na zewnętrznych platformach. W przyszłości — Meta Pixel, Google Ads.' }
+              { term: 'Funkcjonalne', def: 'Zapamiętują Twoje preferencje - np. ostatnio wybrany filtr lub automatyczne uzupełnianie formularza.' },
+              { term: 'Analityczne', def: 'Anonimowe statystyki odwiedzin: które strony są popularne, jak użytkownicy poruszają się po serwisie. W przyszłości - Google Analytics, Hotjar.' },
+              { term: 'Marketingowe', def: 'Personalizacja reklam na zewnętrznych platformach. W przyszłości - Meta Pixel, Google Ads.' }
             ]
           }
         ]
@@ -480,8 +480,8 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         blocks: [
           {
             list: [
-              'Sesyjne — są usuwane po zamknięciu przeglądarki.',
-              'Stałe — są przechowywane na urządzeniu do momentu ich ręcznego usunięcia lub wygaśnięcia określonego w samym pliku (maks. 12 miesięcy).'
+              'Sesyjne - są usuwane po zamknięciu przeglądarki.',
+              'Stałe - są przechowywane na urządzeniu do momentu ich ręcznego usunięcia lub wygaśnięcia określonego w samym pliku (maks. 12 miesięcy).'
             ]
           }
         ]
@@ -507,7 +507,7 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         title: 'Jak zmienić lub cofnąć zgodę',
         blocks: [
           'W każdej chwili możesz zmienić ustawienia poprzez naszą zakładkę „Ustawienia cookies" w stopce serwisu.',
-          'Dodatkowo — wyłączyć cookies w ustawieniach przeglądarki:',
+          'Dodatkowo - wyłączyć cookies w ustawieniach przeglądarki:',
           {
             list: [
               'Chrome: chrome://settings/cookies',
@@ -524,7 +524,7 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         title: 'Kontakt i prawo skargi',
         blocks: [
           'Pytania dotyczące przetwarzania danych: legalwin.warszawa@gmail.com.',
-          'W razie naruszenia masz prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych — ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+          'W razie naruszenia masz prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
     ]
@@ -549,9 +549,9 @@ export const COOKIES: Record<Locale, LegalDoc> = {
           {
             dl: [
               { term: 'Necessary', def: 'Session, language preference, basic security (CSRF token). No consent needed under PKE Art. 11.' },
-              { term: 'Functional', def: 'Remember your preferences — last selected filter or form autofill.' },
-              { term: 'Analytics', def: 'Anonymous visit statistics: which pages are popular, how users navigate. In the future — Google Analytics, Hotjar.' },
-              { term: 'Marketing', def: 'Personalised advertising on third-party platforms. In the future — Meta Pixel, Google Ads.' }
+              { term: 'Functional', def: 'Remember your preferences - last selected filter or form autofill.' },
+              { term: 'Analytics', def: 'Anonymous visit statistics: which pages are popular, how users navigate. In the future - Google Analytics, Hotjar.' },
+              { term: 'Marketing', def: 'Personalised advertising on third-party platforms. In the future - Meta Pixel, Google Ads.' }
             ]
           }
         ]
@@ -562,8 +562,8 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         blocks: [
           {
             list: [
-              'Session — deleted when the browser is closed.',
-              'Persistent — stored on the device until manually deleted or until the expiry set in the file (max. 12 months).'
+              'Session - deleted when the browser is closed.',
+              'Persistent - stored on the device until manually deleted or until the expiry set in the file (max. 12 months).'
             ]
           }
         ]
@@ -606,7 +606,7 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         title: 'Contact and right to complain',
         blocks: [
           'Data-protection questions: legalwin.warszawa@gmail.com.',
-          'In case of a violation you may lodge a complaint with the President of the Polish Data Protection Authority — ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+          'In case of a violation you may lodge a complaint with the President of the Polish Data Protection Authority - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
     ]

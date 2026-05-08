@@ -43,7 +43,7 @@ export function Services() {
 
   return (
     <section id="services" className="relative isolate overflow-clip py-28 lg:py-40">
-      {/* Editorial giant "§" watermark — the legal section sign as a quiet authority mark */}
+      {/* Editorial giant "§" watermark - the legal section sign as a quiet authority mark */}
       <div
         aria-hidden
         className="pointer-events-none absolute -top-12 right-2 select-none font-display text-[clamp(12rem,26vw,26rem)] font-semibold leading-none text-gold-500/[0.05] sm:right-8"
@@ -93,7 +93,7 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
   const lead = t('lead');
   const items = t.raw('items') as ServiceItem[];
 
-  // Scroll-driven progress through this specific group — drives the gold
+  // Scroll-driven progress through this specific group - drives the gold
   // hairline in the sticky left column so the eye gets a quiet read on how
   // far through the list the reader has scrolled.
   const groupRef = useRef<HTMLDivElement>(null);
@@ -114,7 +114,7 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
       transition={{ duration: 0.8, ease, delay: (index % 3) * 0.05 }}
       className="group relative border-t hairline py-14 lg:py-20"
     >
-      {/* Layer 1: always-visible ambient — anchored left, not centered */}
+      {/* Layer 1: always-visible ambient - anchored left, not centered */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-56"
@@ -123,7 +123,7 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
         }}
       />
 
-      {/* Layer 2: hover — luminous hairline along the border-top, peaks left-of-center */}
+      {/* Layer 2: hover - luminous hairline along the border-top, peaks left-of-center */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-px opacity-0 transition-opacity duration-500 group-hover:opacity-100"
@@ -138,7 +138,7 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
         }}
       />
 
-      {/* Layer 3: hover — elliptical spot light, anchored at the left content column */}
+      {/* Layer 3: hover - elliptical spot light, anchored at the left content column */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-80 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
@@ -151,7 +151,7 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
       />
 
       <div className="relative grid grid-cols-12 gap-x-6 gap-y-10">
-        {/* Left: number + icon + heading — sticks during the group's scroll range */}
+        {/* Left: number + icon + heading - sticks during the group's scroll range */}
         <motion.div
           style={{ opacity: itemOpacity }}
           className="col-span-12 flex flex-col gap-6 lg:col-span-5 lg:sticky lg:top-28 lg:self-start"

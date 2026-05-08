@@ -7,8 +7,8 @@ const ochrona: ServiceEntry = {
     icon: 'shield',
     badge: 'TZTC · статус беженца',
     title: 'Международная защита',
-    subtitle: 'Ochrona Międzynarodowa — убежище в Польше',
-    lead: 'Если возвращение в страну происхождения угрожает жизни, свободе или здоровью — вы имеете право на защиту Польши. Есть два вида: статус беженца (по Женевской конвенции 1951 г.) и дополнительная защита.',
+    subtitle: 'Ochrona Międzynarodowa - убежище в Польше',
+    lead: 'Если возвращение в страну происхождения угрожает жизни, свободе или здоровью - вы имеете право на защиту Польши. Есть два вида: статус беженца (по Женевской конвенции 1951 г.) и дополнительная защита.',
     facts: [
       { label: 'Заявление', value: 'в день пересечения границы', note: 'Straż Graniczna или UdSC' },
       { label: 'TZTC', value: '30 дней', note: 'временное удостоверение' },
@@ -28,11 +28,11 @@ const ochrona: ServiceEntry = {
       title: 'Порядок процедуры',
       steps: [
         { title: 'Заявление', duration: 'день 1', desc: 'Подаётся лично в Straży Granicznej или в воеводстве. Мы готовим вас к рассказу о вашей истории.' },
-        { title: 'Выдача TZTC', duration: 'день 1–30', desc: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca — легализует пребывание на время процедуры.' },
-        { title: 'Размещение', duration: 'срок процедуры', desc: 'Ośrodek dla Cudzoziemców или вне — с финансовой помощью 750 PLN/мес. Мы помогаем выбрать.' },
-        { title: 'Медицинский осмотр', duration: '14 дней', desc: 'Обязательное обследование у врача — свидетельство здоровья.' },
-        { title: 'Интервью', duration: '1–4 мес', desc: 'Собеседование с urzędnikiem. Присутствует наш иммиграционный консультант. Записываем протокол.' },
-        { title: 'Решение', duration: '3–6 мес', desc: 'Шеф Urzędu do Spraw Cudzoziemców. Отказ — есть odwołanie к Radzie do Spraw Uchodźców.' }
+        { title: 'Выдача TZTC', duration: 'день 1-30', desc: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca - легализует пребывание на время процедуры.' },
+        { title: 'Размещение', duration: 'срок процедуры', desc: 'Ośrodek dla Cudzoziemców или вне - с финансовой помощью 750 PLN/мес. Мы помогаем выбрать.' },
+        { title: 'Медицинский осмотр', duration: '14 дней', desc: 'Обязательное обследование у врача - свидетельство здоровья.' },
+        { title: 'Интервью', duration: '1-4 мес', desc: 'Собеседование с urzędnikiem. Присутствует наш иммиграционный консультант. Записываем протокол.' },
+        { title: 'Решение', duration: '3-6 мес', desc: 'Шеф Urzędu do Spraw Cudzoziemców. Отказ - есть odwołanie к Radzie do Spraw Uchodźców.' }
       ]
     },
     documents: {
@@ -40,7 +40,7 @@ const ochrona: ServiceEntry = {
       items: [
         'Документы, удостоверяющие личность (паспорт, ID, свидетельство о рождении)',
         'Доказательства преследования: фото, медицинские справки о травмах, свидетельские показания, публикации СМИ',
-        'Документы о членстве в партии, религиозной общине, социальной группе — если применимо',
+        'Документы о членстве в партии, религиозной общине, социальной группе - если применимо',
         'Справки о политической ситуации в стране (доклады Amnesty, Human Rights Watch, UNHCR)',
         'Документы о членах семьи, уже находящихся в ЕС',
         'Медицинская документация (при наличии ПТСР, травм)',
@@ -55,7 +55,7 @@ const ochrona: ServiceEntry = {
         { label: 'Обжалование отказа', value: 'от 2 500 PLN', note: 'Rada do Spraw Uchodźców' },
         { label: 'Skarga в WSA', value: 'от 3 500 PLN', note: 'Судебная стадия' }
       ],
-      note: 'Процедура международной защиты освобождена от госпошлин. Юридическая помощь у нас — платная; при отсутствии средств есть pomoc prawna z urzędu.'
+      note: 'Процедура международной защиты освобождена от госпошлин. Юридическая помощь у нас - платная; при отсутствии средств есть pomoc prawna z urzędu.'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -68,15 +68,15 @@ const ochrona: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Что даёт TZTC?', a: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca (Временное удостоверение личности иностранца) легализует ваше пребывание в Польше на срок процедуры и даёт право на размещение и медицинскую помощь. Через 6 месяцев без решения — можно получить доступ к рынку труда.' },
-      { q: 'Могу ли я выезжать из Польши?', a: 'Нет. Во время процедуры международной защиты вы не можете покидать Польшу — это может привести к прекращению процедуры и возврату в страну происхождения (по правилу Dublin III).' },
+      { q: 'Что даёт TZTC?', a: 'Tymczasowe Zaświadczenie Tożsamości Cudzoziemca (Временное удостоверение личности иностранца) легализует ваше пребывание в Польше на срок процедуры и даёт право на размещение и медицинскую помощь. Через 6 месяцев без решения - можно получить доступ к рынку труда.' },
+      { q: 'Могу ли я выезжать из Польши?', a: 'Нет. Во время процедуры международной защиты вы не можете покидать Польшу - это может привести к прекращению процедуры и возврату в страну происхождения (по правилу Dublin III).' },
       { q: 'Что такое «безопасная страна»?', a: 'Если ваша страна происхождения или страна первого въезда считается «безопасной», процедура может быть ускоренной (до 30 дней) и шансы на отказ выше. Список безопасных стран ведёт UdSC.' },
-      { q: 'Разрешат ли мне работать?', a: 'Если решение не вынесено через 6 месяцев не по вашей вине — да, вы получаете свидетельство tożsamości с правом работы. До этого — нет.' },
-      { q: 'Что с детьми?', a: 'Дети — часть семейного заявления родителя. Если статус присвоен родителю, дети получают его автоматически. Несопровождаемые несовершеннолетние получают особые гарантии защиты.' },
-      { q: 'Чем отличается от гуманитарной визы?', a: 'Международная защита — процедура внутри ЕС после въезда. Гуманитарная виза выдаётся посольством за границей — это отдельный инструмент.' }
+      { q: 'Разрешат ли мне работать?', a: 'Если решение не вынесено через 6 месяцев не по вашей вине - да, вы получаете свидетельство tożsamości с правом работы. До этого - нет.' },
+      { q: 'Что с детьми?', a: 'Дети - часть семейного заявления родителя. Если статус присвоен родителю, дети получают его автоматически. Несопровождаемые несовершеннолетние получают особые гарантии защиты.' },
+      { q: 'Чем отличается от гуманитарной визы?', a: 'Международная защита - процедура внутри ЕС после въезда. Гуманитарная виза выдаётся посольством за границей - это отдельный инструмент.' }
     ],
     related: ['karta-pobytu', 'apelacje', 'karta-stalego-pobytu'],
-    ctaTitle: 'Нужна защита в Польше — начнём сегодня',
+    ctaTitle: 'Нужна защита в Польше - начнём сегодня',
     ctaSubtitle: 'Подготовим стратегию и подадим заявление в течение 24 часов. Каждый день в статусе нелегального пребывания уменьшает шансы.'
   },
   pl: {
@@ -86,7 +86,7 @@ const ochrona: ServiceEntry = {
     badge: 'TZTC · status uchodźcy',
     title: 'Ochrona Międzynarodowa',
     subtitle: 'Azyl i ochrona uzupełniająca w Polsce',
-    lead: 'Jeżeli powrót do kraju pochodzenia zagraża życiu, wolności lub zdrowiu — masz prawo do ochrony RP. Dwa rodzaje: status uchodźcy (Konwencja Genewska 1951) oraz ochrona uzupełniająca.',
+    lead: 'Jeżeli powrót do kraju pochodzenia zagraża życiu, wolności lub zdrowiu - masz prawo do ochrony RP. Dwa rodzaje: status uchodźcy (Konwencja Genewska 1951) oraz ochrona uzupełniająca.',
     facts: [
       { label: 'Zgłoszenie', value: 'w dniu przekroczenia granicy', note: 'SG lub UdSC' },
       { label: 'TZTC', value: '30 dni', note: 'tymczasowe zaświadczenie' },
@@ -106,11 +106,11 @@ const ochrona: ServiceEntry = {
       title: 'Przebieg procedury',
       steps: [
         { title: 'Zgłoszenie', duration: 'dzień 1', desc: 'Osobiście w SG lub województwie. Przygotowujemy do opowieści życia.' },
-        { title: 'Wydanie TZTC', duration: 'dzień 1–30', desc: 'Legalizuje pobyt na czas procedury.' },
+        { title: 'Wydanie TZTC', duration: 'dzień 1-30', desc: 'Legalizuje pobyt na czas procedury.' },
         { title: 'Zakwaterowanie', duration: 'czas procedury', desc: 'Ośrodek lub poza ośrodkiem z pomocą 750 PLN/mies.' },
-        { title: 'Badanie lekarskie', duration: '14 dni', desc: 'Obowiązkowe — świadectwo zdrowia.' },
-        { title: 'Wywiad', duration: '1–4 mies', desc: 'Z urzędnikiem UdSC. Nasz konsultant imigracyjny obecny. Protokół.' },
-        { title: 'Decyzja', duration: '3–6 mies', desc: 'Szef UdSC. Odmowa — odwołanie do Rady do Spraw Uchodźców.' }
+        { title: 'Badanie lekarskie', duration: '14 dni', desc: 'Obowiązkowe - świadectwo zdrowia.' },
+        { title: 'Wywiad', duration: '1-4 mies', desc: 'Z urzędnikiem UdSC. Nasz konsultant imigracyjny obecny. Protokół.' },
+        { title: 'Decyzja', duration: '3-6 mies', desc: 'Szef UdSC. Odmowa - odwołanie do Rady do Spraw Uchodźców.' }
       ]
     },
     documents: {
@@ -133,7 +133,7 @@ const ochrona: ServiceEntry = {
         { label: 'Odwołanie', value: 'od 2 500 PLN', note: 'Rada do Spraw Uchodźców' },
         { label: 'Skarga do WSA', value: 'od 3 500 PLN', note: 'Etap sądowy' }
       ],
-      note: 'Procedura ochrony międzynarodowej — bez opłat urzędowych. Nasze honorarium — płatne; przy braku środków dostępna pomoc prawna z urzędu.'
+      note: 'Procedura ochrony międzynarodowej - bez opłat urzędowych. Nasze honorarium - płatne; przy braku środków dostępna pomoc prawna z urzędu.'
     },
     legalBase: {
       title: 'Podstawa prawna',
@@ -146,15 +146,15 @@ const ochrona: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Co daje TZTC?', a: 'Legalizuje pobyt na czas procedury, daje prawo do zakwaterowania i opieki medycznej. Po 6 miesiącach bez decyzji — dostęp do rynku pracy.' },
+      { q: 'Co daje TZTC?', a: 'Legalizuje pobyt na czas procedury, daje prawo do zakwaterowania i opieki medycznej. Po 6 miesiącach bez decyzji - dostęp do rynku pracy.' },
       { q: 'Czy mogę wyjeżdżać z Polski?', a: 'Nie. W trakcie procedury opuszczenie Polski może skutkować jej umorzeniem i powrotem do kraju pochodzenia (Dublin III).' },
       { q: 'Co to „kraj bezpieczny"?', a: 'Jeśli kraj pochodzenia lub tranzytu jest „bezpieczny", procedura może być przyspieszona (do 30 dni), a szanse odmowy wyższe. Lista UdSC.' },
-      { q: 'Czy będę mógł pracować?', a: 'Jeśli brak decyzji po 6 miesiącach nie z Twojej winy — tak, otrzymasz zaświadczenie tożsamości z prawem do pracy.' },
-      { q: 'Co z dziećmi?', a: 'Dzieci są częścią wniosku rodzinnego rodzica. Status automatyczny. Dzieci bez opieki — szczególne gwarancje.' },
-      { q: 'Czym różni się od wizy humanitarnej?', a: 'Ochrona międzynarodowa — procedura w UE po wjeździe. Wiza humanitarna — wydawana przez konsula z zagranicy.' }
+      { q: 'Czy będę mógł pracować?', a: 'Jeśli brak decyzji po 6 miesiącach nie z Twojej winy - tak, otrzymasz zaświadczenie tożsamości z prawem do pracy.' },
+      { q: 'Co z dziećmi?', a: 'Dzieci są częścią wniosku rodzinnego rodzica. Status automatyczny. Dzieci bez opieki - szczególne gwarancje.' },
+      { q: 'Czym różni się od wizy humanitarnej?', a: 'Ochrona międzynarodowa - procedura w UE po wjeździe. Wiza humanitarna - wydawana przez konsula z zagranicy.' }
     ],
     related: ['karta-pobytu', 'apelacje', 'karta-stalego-pobytu'],
-    ctaTitle: 'Potrzebujesz ochrony w Polsce — zaczynamy dziś',
+    ctaTitle: 'Potrzebujesz ochrony w Polsce - zaczynamy dziś',
     ctaSubtitle: 'Strategia i wniosek w 24 godziny. Każdy dzień w nielegalnym pobycie zmniejsza szanse.'
   },
   en: {
@@ -184,11 +184,11 @@ const ochrona: ServiceEntry = {
       title: 'Procedure timeline',
       steps: [
         { title: 'Application', duration: 'day 1', desc: 'Filed in person with Border Guard or voivodeship. We prep you for the life-story interview.' },
-        { title: 'TZTC issued', duration: 'day 1–30', desc: 'Legalises stay throughout the procedure.' },
+        { title: 'TZTC issued', duration: 'day 1-30', desc: 'Legalises stay throughout the procedure.' },
         { title: 'Accommodation', duration: 'procedure', desc: 'Reception centre or off-site with PLN 750/month aid.' },
-        { title: 'Medical exam', duration: '14 days', desc: 'Mandatory — health certificate.' },
-        { title: 'Interview', duration: '1–4 months', desc: 'With UdSC officer. Our immigration consultant present. Transcript kept.' },
-        { title: 'Decision', duration: '3–6 months', desc: 'UdSC Head. Denial — appeal to Refugee Board.' }
+        { title: 'Medical exam', duration: '14 days', desc: 'Mandatory - health certificate.' },
+        { title: 'Interview', duration: '1-4 months', desc: 'With UdSC officer. Our immigration consultant present. Transcript kept.' },
+        { title: 'Decision', duration: '3-6 months', desc: 'UdSC Head. Denial - appeal to Refugee Board.' }
       ]
     },
     documents: {
@@ -224,15 +224,15 @@ const ochrona: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'What does TZTC give me?', a: 'TZTC (Tymczasowe Zaświadczenie Tożsamości Cudzoziemca — Temporary Foreigner ID Certificate) legalises your stay during the procedure and entitles you to accommodation and medical care. After 6 months without a decision — labour market access.' },
+      { q: 'What does TZTC give me?', a: 'TZTC (Tymczasowe Zaświadczenie Tożsamości Cudzoziemca - Temporary Foreigner ID Certificate) legalises your stay during the procedure and entitles you to accommodation and medical care. After 6 months without a decision - labour market access.' },
       { q: 'Can I leave Poland?', a: 'No. Leaving Poland during the procedure may end it and trigger return to country of origin (Dublin III).' },
       { q: 'What is a "safe country"?', a: 'If your country of origin or transit is "safe", the procedure can be fast-tracked (up to 30 days) and denials more likely. UdSC maintains the list.' },
-      { q: 'Will I be allowed to work?', a: 'If no decision is issued within 6 months through no fault of yours — yes, you receive an ID certificate with the right to work.' },
+      { q: 'Will I be allowed to work?', a: 'If no decision is issued within 6 months through no fault of yours - yes, you receive an ID certificate with the right to work.' },
       { q: 'What about children?', a: 'Children are part of the parent\'s family application. Status flows automatically. Unaccompanied minors get special protection.' },
-      { q: 'How is it different from a humanitarian visa?', a: 'International protection is an in-EU procedure after entry. A humanitarian visa is issued by a consulate abroad — a separate tool.' }
+      { q: 'How is it different from a humanitarian visa?', a: 'International protection is an in-EU procedure after entry. A humanitarian visa is issued by a consulate abroad - a separate tool.' }
     ],
     related: ['karta-pobytu', 'apelacje', 'karta-stalego-pobytu'],
-    ctaTitle: 'Need protection in Poland — we start today',
+    ctaTitle: 'Need protection in Poland - we start today',
     ctaSubtitle: 'Strategy and filing in 24 hours. Every day of irregular stay reduces your chances.'
   }
 };

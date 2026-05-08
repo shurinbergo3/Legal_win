@@ -8,7 +8,7 @@ const podatkiKsiegowosc: ServiceEntry = {
     badge: 'CIT · VAT · PIT · Estonian CIT · IP Box',
     title: 'Налоги и бухгалтерия',
     subtitle: 'Польская налоговая оптимизация: CIT 9%, Estonian CIT, IP Box 5%, VAT-UE',
-    lead: 'Польская система налогообложения — одна из самых сложных в ЕС: CIT 9/19%, Estonian CIT (отложенный), IP Box 5%, VAT 23/8/5/0%, JPK_V7 ежемесячно, KSeF с 2026, polski ład с тысячами поправок. Мы подбираем форму под ваш бизнес, ведём бухгалтерию (партнёрская сеть księgowych), готовим декларации и сопровождаем налоговые проверки. Работаем с Sp. z o.o., JDG, oddziałami, fundacjami rodzinnymi.',
+    lead: 'Польская система налогообложения - одна из самых сложных в ЕС: CIT 9/19%, Estonian CIT (отложенный), IP Box 5%, VAT 23/8/5/0%, JPK_V7 ежемесячно, KSeF с 2026, polski ład с тысячами поправок. Мы подбираем форму под ваш бизнес, ведём бухгалтерию (партнёрская сеть księgowych), готовим декларации и сопровождаем налоговые проверки. Работаем с Sp. z o.o., JDG, oddziałami, fundacjami rodzinnymi.',
     facts: [
       { label: 'CIT малых', value: '9%', note: 'оборот < 2 млн EUR/год' },
       { label: 'Estonian CIT', value: '0% / 20%', note: 'до выплаты дивидендов' },
@@ -19,11 +19,11 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Что включает обслуживание',
       subtitle: 'Полный цикл от регистрации до годовой декларации. Можно брать модулями.',
       items: [
-        { title: 'Подбор формы налогообложения', desc: 'Skala (12/32%) vs liniowy 19% vs ryczałt vs Estoński CIT vs IP Box. Считаем под ваши доходы и расходы за 1–2 года вперёд. Меняем при необходимости.' },
-        { title: 'Месячная бухгалтерия', desc: 'Учёт операций (księga handlowa или KPiR), заrаботная плата, ZUS, JPK_V7, JPK_KR, амортизация, налоги. Документы — через klienta панель.' },
-        { title: 'VAT и JPK', desc: 'Месячная или квартальная JPK_V7 (комбинированная декларация VAT + ewidencja). VAT-UE для ЕС-операций. KSeF (Krajowy System e-Faktur) с 2026 — переход за вас.' },
+        { title: 'Подбор формы налогообложения', desc: 'Skala (12/32%) vs liniowy 19% vs ryczałt vs Estoński CIT vs IP Box. Считаем под ваши доходы и расходы за 1-2 года вперёд. Меняем при необходимости.' },
+        { title: 'Месячная бухгалтерия', desc: 'Учёт операций (księga handlowa или KPiR), заrаботная плата, ZUS, JPK_V7, JPK_KR, амортизация, налоги. Документы - через klienta панель.' },
+        { title: 'VAT и JPK', desc: 'Месячная или квартальная JPK_V7 (комбинированная декларация VAT + ewidencja). VAT-UE для ЕС-операций. KSeF (Krajowy System e-Faktur) с 2026 - переход за вас.' },
         { title: 'Декларации годовые', desc: 'CIT-8 для Sp. z o.o., PIT-36/36L/28 для JDG, sprawozdanie finansowe в KRS. Подача через ePUAP. Сроки: 31 марта (CIT), 30 апреля (PIT).' },
-        { title: 'Estonian CIT', desc: 'Переход на отложенный CIT — налог 0% пока прибыль реинвестируется, 20% при выплате дивидендов. Условия: 2+ wspólnika, не более 50% доходов с пасивных источников. Полный сопровождение.' },
+        { title: 'Estonian CIT', desc: 'Переход на отложенный CIT - налог 0% пока прибыль реинвестируется, 20% при выплате дивидендов. Условия: 2+ wspólnika, не более 50% доходов с пасивных источников. Полный сопровождение.' },
         { title: 'IP Box', desc: 'Льготная ставка 5% на доходы от kwalifikowanego prawa do ИС (программистская). Готовим: ewidencja IP, interpretacja indywidualna в Krajowej Informacji Skarbowej, годовая декларация PIT/CIT с aneksem.' },
         { title: 'Налоговые проверки', desc: 'Сопровождение kontroli celno-skarbowej. Подготовка ответов, представительство в US, апелляции в WSA / NSA при otrzymaniu nieprawidłowej decyzji.' },
         { title: 'Транзит-цены', desc: 'Документация cen transferowych для Sp. z o.o. с зарубежными podmiotami powiązanymi. Метод porównywalnej ceny niekontrolowanej, marży transakcyjnej netto.' }
@@ -31,12 +31,12 @@ const podatkiKsiegowosc: ServiceEntry = {
     },
     timeline: {
       title: 'Как стартует обслуживание',
-      subtitle: 'Подключение нового клиента — обычно 1–2 недели.',
+      subtitle: 'Подключение нового клиента - обычно 1-2 недели.',
       steps: [
         { title: 'Бесплатная консультация', duration: '60 мин', desc: 'Аудит текущей бухгалтерии (если есть), оценка налоговой формы, расчёт сэкономленных сумм при переходе на оптимальную форму.' },
         { title: 'Договор и pełnomocnictwo', duration: '1 день', desc: 'Umowa o usługi księgowe и UPL-1 (полномочие представлять перед US). Сразу можем подавать декларации от вашего имени.' },
-        { title: 'Передача bazy', duration: '3–5 дней', desc: 'Импорт текущей księgi (если переходите от другого buchaltera), реестры VAT, ewidencja środków trwałych. Используем Streamsoft, Comarch, Symfonia.' },
-        { title: 'Audit pierwszego miesiąca', duration: '1 неделя', desc: 'Проверяем последние 3 mies. ваших declaracji на ошибки. Часто находим переплаты VAT — подаём korektę и возвращаем.' },
+        { title: 'Передача bazy', duration: '3-5 дней', desc: 'Импорт текущей księgi (если переходите от другого buchaltera), реестры VAT, ewidencja środków trwałych. Используем Streamsoft, Comarch, Symfonia.' },
+        { title: 'Audit pierwszego miesiąca', duration: '1 неделя', desc: 'Проверяем последние 3 mies. ваших declaracji на ошибки. Часто находим переплаты VAT - подаём korektę и возвращаем.' },
         { title: 'Месячный режим', duration: 'постоянно', desc: 'Документы загружаете через portal или присылаете на email. Бухгалтер обрабатывает, готовит JPK_V7 к 25 числу. Klient panel показывает статус.' },
         { title: 'Квартальные обзоры', duration: '4 раза в год', desc: 'Встреча с księgowym: разбор показателей, оптимизация налогов на следующий квартал, planowanie. Всегда есть пространство для оптимизации.' },
         { title: 'Годовое закрытие', duration: 'январь-апрель', desc: 'Sprawozdanie finansowe, CIT-8/PIT-36, sprawozdanie do KRS, badanie biegłego rewidenta (если требуется). Один раз в год.' }
@@ -44,7 +44,7 @@ const podatkiKsiegowosc: ServiceEntry = {
     },
     documents: {
       title: 'Что вы передаёте каждый месяц',
-      subtitle: 'Минимум документов — максимум автоматизации. Сканы или фото — достаточно.',
+      subtitle: 'Минимум документов - максимум автоматизации. Сканы или фото - достаточно.',
       items: [
         'Faktury sprzedaży (счета на ваших клиентов)',
         'Faktury zakupu (счета от поставщиков, аренда, услуги)',
@@ -59,14 +59,14 @@ const podatkiKsiegowosc: ServiceEntry = {
     },
     pricing: {
       title: 'Стоимость обслуживания',
-      subtitle: 'Тарифы по объёму операций. Разовые задачи (декларации, оптимизация) — отдельно.',
+      subtitle: 'Тарифы по объёму операций. Разовые задачи (декларации, оптимизация) - отдельно.',
       items: [
         { label: 'JDG · ryczałt', value: 'от 250 PLN/мес', note: 'до 30 операций · JPK_V7' },
         { label: 'JDG · KPiR + VAT', value: 'от 450 PLN/мес', note: 'до 50 операций' },
         { label: 'Sp. z o.o. · księga handlowa', value: 'от 950 PLN/мес', note: 'до 50 операций · sprawozdanie' },
         { label: 'Sp. z o.o. · комплекс', value: 'от 1 800 PLN/мес', note: 'IP Box / Estoński CIT / TP' }
       ],
-      note: 'Тарифы для małej skali. Для среднего бизнеса (100+ операций/мес) — индивидуальный расчёт. Sprawozdanie roczne — отдельно (600–1 800 PLN). Налоговый аудит и переход на новую форму — 1 500–4 000 PLN.'
+      note: 'Тарифы для małej skali. Для среднего бизнеса (100+ операций/мес) - индивидуальный расчёт. Sprawozdanie roczne - отдельно (600-1 800 PLN). Налоговый аудит и переход на новую форму - 1 500-4 000 PLN.'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -81,13 +81,13 @@ const podatkiKsiegowosc: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Estonian CIT — кому подходит?', a: 'Sp. z o.o. с 2+ wspólnikami (участниками — физлицами), доход с пассивных источников < 50%, минимум 3 сотрудника на umowę o pracę (трудовом договоре) (или wspólnicy сами). Реинвестируемая прибыль — 0% налог. Дивиденды — 20% CIT + 19% PIT (effective ~25%). Идеально для растущих фирм, которые реинвестируют прибыль.' },
-      { q: 'IP Box — для каких программистов?', a: 'JDG или Sp. z o.o., создающие kwalifikowane prawa do programów komputerowych (квалифицированные права на компьютерные программы — своё ПО, не передающие чужое ПО). Условия: ведёте раздельный учёт, имеете umowę przeniesienia praw (договор передачи прав), готовите interpretację indywidualną (индивидуальную налоговую интерпретацию) в KIS (Krajowa Informacja Skarbowa — Национальная налоговая информация). Effective налог 5% на доход от ИС. Окупаемость setupa за 1–2 месяца.' },
-      { q: 'Что такое KSeF и когда переход?', a: 'KSeF — Krajowy System e-Faktur (Национальная система электронных фактур). С 1 февраля 2026 — обязательный для всех VAT podatników (плательщиков НДС). Все faktury (счета-фактуры) выставляются через KSeF онлайн, каждая с уникальным KSeF ID. Подготавливаем интеграцию вашего софта (Comarch, iFirma, Subiekt, Symfonia) с KSeF, обучаем сотрудников.' },
-      { q: 'JDG → Sp. z o.o. — как переходить?', a: 'Не «преобразование», а две операции: закрытие JDG (CEIDG — реестр индивидуальных предпринимателей) + регистрация Sp. z o.o. + transfer активов. Транзит активов — apport (вклад в капитал, освобождение от VAT при apporcie przedsiębiorstwa — внесении предприятия как вклада) или sprzedaż (продажа, обычный VAT и PIT). Под ключ за 4–6 недель, 4 500–7 500 PLN.' },
-      { q: 'Налоговая проверка — что делать?', a: 'Не общайтесь с inspektorem (инспектором) без налогового консультанта. Получив zawiadomienie o kontroli (уведомление о проверке), у вас есть 7 дней на подготовку. Делаем экспресс-аудит того, что проверяют, готовим документы, представляем интересы. При risiku negatywnej decyzji (риске негативного решения) — заранее идём на porozumienie i wyjaśnienia (соглашение и пояснения). После: апелляция в Dyrektora Izby Administracji Skarbowej (Директору налоговой палаты) и WSA (Воеводский админсуд).' },
-      { q: 'Сколько стоит content бухгалтерия для Sp. z o.o.?', a: 'JDG ryczałt — 250 PLN/мес, JDG KPiR (книга доходов и расходов) — 450, Sp. z o.o. księga (полная книга учёта) — 950, Sp. z o.o. с IP Box — 1 800. Это для малого бизнеса (до 50 операций/мес). Sprawozdanie roczne (годовой отчёт) — отдельно 600–1 800 PLN. Реальная стоимость для активной Sp. z o.o. — 12–25 тыс. PLN/год вкл. sprawozdanie.' },
-      { q: 'Сроки подачи деклараций?', a: 'JPK_V7 (электронная декларация НДС + регистр) — до 25 числа следующего месяца. CIT-8 — 31 марта (за прошлый год). PIT-36/36L — 30 апреля. Sprawozdanie finansowe (финансовый отчёт) — 6 месяцев после końca roku obrotowego (конца финансового года, для Sp. z o.o. — 30 czerwca). За опоздание — kary do 720 stawek dziennych (штрафы до 720 дневных ставок, ~50 000 PLN).' }
+      { q: 'Estonian CIT - кому подходит?', a: 'Sp. z o.o. с 2+ wspólnikami (участниками - физлицами), доход с пассивных источников < 50%, минимум 3 сотрудника на umowę o pracę (трудовом договоре) (или wspólnicy сами). Реинвестируемая прибыль - 0% налог. Дивиденды - 20% CIT + 19% PIT (effective ~25%). Идеально для растущих фирм, которые реинвестируют прибыль.' },
+      { q: 'IP Box - для каких программистов?', a: 'JDG или Sp. z o.o., создающие kwalifikowane prawa do programów komputerowych (квалифицированные права на компьютерные программы - своё ПО, не передающие чужое ПО). Условия: ведёте раздельный учёт, имеете umowę przeniesienia praw (договор передачи прав), готовите interpretację indywidualną (индивидуальную налоговую интерпретацию) в KIS (Krajowa Informacja Skarbowa - Национальная налоговая информация). Effective налог 5% на доход от ИС. Окупаемость setupa за 1-2 месяца.' },
+      { q: 'Что такое KSeF и когда переход?', a: 'KSeF - Krajowy System e-Faktur (Национальная система электронных фактур). С 1 февраля 2026 - обязательный для всех VAT podatników (плательщиков НДС). Все faktury (счета-фактуры) выставляются через KSeF онлайн, каждая с уникальным KSeF ID. Подготавливаем интеграцию вашего софта (Comarch, iFirma, Subiekt, Symfonia) с KSeF, обучаем сотрудников.' },
+      { q: 'JDG → Sp. z o.o. - как переходить?', a: 'Не «преобразование», а две операции: закрытие JDG (CEIDG - реестр индивидуальных предпринимателей) + регистрация Sp. z o.o. + transfer активов. Транзит активов - apport (вклад в капитал, освобождение от VAT при apporcie przedsiębiorstwa - внесении предприятия как вклада) или sprzedaż (продажа, обычный VAT и PIT). Под ключ за 4-6 недель, 4 500-7 500 PLN.' },
+      { q: 'Налоговая проверка - что делать?', a: 'Не общайтесь с inspektorem (инспектором) без налогового консультанта. Получив zawiadomienie o kontroli (уведомление о проверке), у вас есть 7 дней на подготовку. Делаем экспресс-аудит того, что проверяют, готовим документы, представляем интересы. При risiku negatywnej decyzji (риске негативного решения) - заранее идём на porozumienie i wyjaśnienia (соглашение и пояснения). После: апелляция в Dyrektora Izby Administracji Skarbowej (Директору налоговой палаты) и WSA (Воеводский админсуд).' },
+      { q: 'Сколько стоит content бухгалтерия для Sp. z o.o.?', a: 'JDG ryczałt - 250 PLN/мес, JDG KPiR (книга доходов и расходов) - 450, Sp. z o.o. księga (полная книга учёта) - 950, Sp. z o.o. с IP Box - 1 800. Это для малого бизнеса (до 50 операций/мес). Sprawozdanie roczne (годовой отчёт) - отдельно 600-1 800 PLN. Реальная стоимость для активной Sp. z o.o. - 12-25 тыс. PLN/год вкл. sprawozdanie.' },
+      { q: 'Сроки подачи деклараций?', a: 'JPK_V7 (электронная декларация НДС + регистр) - до 25 числа следующего месяца. CIT-8 - 31 марта (за прошлый год). PIT-36/36L - 30 апреля. Sprawozdanie finansowe (финансовый отчёт) - 6 месяцев после końca roku obrotowego (конца финансового года, для Sp. z o.o. - 30 czerwca). За опоздание - kary do 720 stawek dziennych (штрафы до 720 дневных ставок, ~50 000 PLN).' }
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Налоги и бухгалтерия под ключ',
@@ -111,7 +111,7 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Co zawiera obsługa',
       subtitle: 'Pełen cykl od rejestracji do rocznej deklaracji. Modułowo.',
       items: [
-        { title: 'Forma podatkowa', desc: 'Skala (12/32%) vs liniowy vs ryczałt vs Estoński CIT vs IP Box. Liczymy 1–2 lata naprzód.' },
+        { title: 'Forma podatkowa', desc: 'Skala (12/32%) vs liniowy vs ryczałt vs Estoński CIT vs IP Box. Liczymy 1-2 lata naprzód.' },
         { title: 'Księgowość miesięczna', desc: 'Księga handlowa lub KPiR, płace, ZUS, JPK_V7, JPK_KR, amortyzacja.' },
         { title: 'VAT i JPK', desc: 'JPK_V7 (VAT + ewidencja). VAT-UE. KSeF od 2026.' },
         { title: 'Deklaracje roczne', desc: 'CIT-8, PIT-36/36L/28, sprawozdanie do KRS.' },
@@ -123,12 +123,12 @@ const podatkiKsiegowosc: ServiceEntry = {
     },
     timeline: {
       title: 'Start obsługi',
-      subtitle: '1–2 tygodnie do pełnego onboarding.',
+      subtitle: '1-2 tygodnie do pełnego onboarding.',
       steps: [
         { title: 'Konsultacja', duration: '60 min', desc: 'Audyt aktualnej księgowości, ocena formy, kalkulacja oszczędności.' },
         { title: 'Umowa + UPL-1', duration: '1 dzień', desc: 'Pełnomocnictwo przed US.' },
-        { title: 'Przekazanie bazy', duration: '3–5 dni', desc: 'Import księgi, rejestrów VAT. Streamsoft, Comarch, Symfonia.' },
-        { title: 'Audyt pierwszego miesiąca', duration: '1 tydz.', desc: 'Sprawdzenie ostatnich 3 mies. — często znajdujemy przepłaty VAT.' },
+        { title: 'Przekazanie bazy', duration: '3-5 dni', desc: 'Import księgi, rejestrów VAT. Streamsoft, Comarch, Symfonia.' },
+        { title: 'Audyt pierwszego miesiąca', duration: '1 tydz.', desc: 'Sprawdzenie ostatnich 3 mies. - często znajdujemy przepłaty VAT.' },
         { title: 'Tryb miesięczny', duration: 'stale', desc: 'Dokumenty przez portal. JPK_V7 do 25-go.' },
         { title: 'Przeglądy kwartalne', duration: '4×/rok', desc: 'Spotkanie z księgowym, optymalizacja.' },
         { title: 'Zamknięcie roczne', duration: 'sty-kwi', desc: 'Sprawozdanie finansowe, CIT/PIT, KRS, badanie biegłego.' }
@@ -158,7 +158,7 @@ const podatkiKsiegowosc: ServiceEntry = {
         { label: 'Sp. z o.o. księga handlowa', value: 'od 950 PLN/mies.', note: 'do 50 operacji' },
         { label: 'Sp. z o.o. kompleks', value: 'od 1 800 PLN/mies.', note: 'IP Box / Estoński / TP' }
       ],
-      note: 'Mała skala. Sprawozdanie roczne osobno (600–1 800 PLN). Średni biznes — kalkulacja indywidualna.'
+      note: 'Mała skala. Sprawozdanie roczne osobno (600-1 800 PLN). Średni biznes - kalkulacja indywidualna.'
     },
     legalBase: {
       title: 'Podstawa prawna',
@@ -173,12 +173,12 @@ const podatkiKsiegowosc: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Estoński CIT — dla kogo?', a: 'Sp. z o.o. z 2+ wspólnikami (osobami fiz.), pasywne dochody < 50%, min. 3 pracowników. Reinwestowanie — 0%. Dywidenda — 20% CIT + 19% PIT.' },
+      { q: 'Estoński CIT - dla kogo?', a: 'Sp. z o.o. z 2+ wspólnikami (osobami fiz.), pasywne dochody < 50%, min. 3 pracowników. Reinwestowanie - 0%. Dywidenda - 20% CIT + 19% PIT.' },
       { q: 'IP Box dla programistów?', a: 'JDG/Sp. z o.o. tworzące kwalifikowane prawa do programów. Rozdzielona księgowość, umowa przeniesienia praw, interpretacja KIS. Efektywnie 5%.' },
       { q: 'KSeF kiedy?', a: 'Od 1 lutego 2026 obowiązkowy. Każda faktura przez KSeF z unikalnym ID. Robimy integrację.' },
-      { q: 'JDG → Sp. z o.o.?', a: 'Zamknięcie JDG + rejestracja Sp. z o.o. + transfer (apport zwolniony z VAT). 4–6 tygodni, 4 500–7 500 PLN.' },
-      { q: 'Kontrola podatkowa?', a: 'Zawiadomienie — 7 dni na przygotowanie. Audyt, dokumenty, reprezentacja. Apelacja w IAS i WSA.' },
-      { q: 'Koszt księgowości Sp. z o.o.?', a: 'Mała Sp. z o.o. — 12–25 tys. PLN/rok wraz ze sprawozdaniem.' },
+      { q: 'JDG → Sp. z o.o.?', a: 'Zamknięcie JDG + rejestracja Sp. z o.o. + transfer (apport zwolniony z VAT). 4-6 tygodni, 4 500-7 500 PLN.' },
+      { q: 'Kontrola podatkowa?', a: 'Zawiadomienie - 7 dni na przygotowanie. Audyt, dokumenty, reprezentacja. Apelacja w IAS i WSA.' },
+      { q: 'Koszt księgowości Sp. z o.o.?', a: 'Mała Sp. z o.o. - 12-25 tys. PLN/rok wraz ze sprawozdaniem.' },
       { q: 'Terminy?', a: 'JPK_V7 do 25-go. CIT-8 do 31 marca. PIT do 30 kwietnia. Sprawozdanie do 30 czerwca.' }
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
@@ -203,7 +203,7 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'What we cover',
       subtitle: 'Full cycle from registration to annual returns. Modular.',
       items: [
-        { title: 'Tax form selection', desc: 'Progressive (12/32%) vs flat 19% vs lump sum vs Estonian CIT vs IP Box. Modeled 1–2 years ahead.' },
+        { title: 'Tax form selection', desc: 'Progressive (12/32%) vs flat 19% vs lump sum vs Estonian CIT vs IP Box. Modeled 1-2 years ahead.' },
         { title: 'Monthly bookkeeping', desc: 'Full ledger or simplified KPiR, payroll, ZUS, JPK_V7, JPK_KR, depreciation.' },
         { title: 'VAT and JPK', desc: 'Combined VAT + ledger via JPK_V7. VAT-UE. KSeF from 2026.' },
         { title: 'Annual returns', desc: 'CIT-8 for Sp. z o.o., PIT-36/36L/28 for JDG, financial statements to KRS.' },
@@ -215,15 +215,15 @@ const podatkiKsiegowosc: ServiceEntry = {
     },
     timeline: {
       title: 'Onboarding',
-      subtitle: 'New client setup typically 1–2 weeks.',
+      subtitle: 'New client setup typically 1-2 weeks.',
       steps: [
         { title: 'Free consultation', duration: '60 min', desc: 'Current bookkeeping audit, form review, savings calc.' },
         { title: 'Engagement + UPL-1', duration: '1 day', desc: 'Service contract and tax-office representation power.' },
-        { title: 'Data handover', duration: '3–5 days', desc: 'Import existing books, VAT registers. Streamsoft, Comarch, Symfonia.' },
-        { title: 'First-month audit', duration: '1 week', desc: 'Last 3 months reviewed for errors — often find VAT overpayments and refile.' },
+        { title: 'Data handover', duration: '3-5 days', desc: 'Import existing books, VAT registers. Streamsoft, Comarch, Symfonia.' },
+        { title: 'First-month audit', duration: '1 week', desc: 'Last 3 months reviewed for errors - often find VAT overpayments and refile.' },
         { title: 'Monthly mode', duration: 'ongoing', desc: 'Documents via portal. JPK_V7 by 25th of next month.' },
         { title: 'Quarterly reviews', duration: '4×/year', desc: 'Bookkeeper meeting, optimization, planning.' },
-        { title: 'Year-end close', duration: 'Jan–Apr', desc: 'Financial statements, CIT-8/PIT-36, KRS filing, audit if required.' }
+        { title: 'Year-end close', duration: 'Jan-Apr', desc: 'Financial statements, CIT-8/PIT-36, KRS filing, audit if required.' }
       ]
     },
     documents: {
@@ -250,7 +250,7 @@ const podatkiKsiegowosc: ServiceEntry = {
         { label: 'Sp. z o.o. · full ledger', value: 'from 950 PLN/mo', note: 'up to 50 ops · statements' },
         { label: 'Sp. z o.o. · complex', value: 'from 1,800 PLN/mo', note: 'IP Box / Estonian / TP' }
       ],
-      note: 'Small-scale tariffs. Annual statements separate (600–1,800 PLN). Mid-size businesses (100+ ops/month) — custom quote.'
+      note: 'Small-scale tariffs. Annual statements separate (600-1,800 PLN). Mid-size businesses (100+ ops/month) - custom quote.'
     },
     legalBase: {
       title: 'Legal basis',
@@ -265,13 +265,13 @@ const podatkiKsiegowosc: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Estonian CIT — who fits?', a: 'Sp. z o.o. with 2+ individual shareholders, passive income < 50%, minimum 3 employees. 0% on retained profits, 20% CIT + 19% PIT on dividends (~25% effective). Ideal for growth-stage reinvesting companies.' },
-      { q: 'IP Box for which devs?', a: 'JDG or Sp. z o.o. creating qualified IP rights to software. Need separated IP accounting, IP transfer agreement, individual ruling from KIS (Krajowa Informacja Skarbowa — National Tax Information). ~5% effective on IP income.' },
-      { q: 'KSeF — when?', a: 'KSeF (Krajowy System e-Faktur — National e-Invoicing System) — mandatory from 1 February 2026 for all VAT taxpayers. Every faktura (invoice) goes through KSeF with a unique ID. We integrate your accounting software (Comarch, iFirma, Subiekt, Symfonia).' },
-      { q: 'JDG → Sp. z o.o. migration?', a: "Not a true conversion — close JDG + register Sp. z o.o. + transfer assets (apport — contribution in kind, VAT-exempt for going-concern). Turnkey 4–6 weeks, 4,500–7,500 PLN." },
-      { q: 'Tax audit?', a: "Don't speak to the inspector without counsel. After zawiadomienie o kontroli (audit notice) you have 7 days to prepare. We audit what they're checking, prepare documents, represent. Appeal route: IAS (Izba Administracji Skarbowej — Tax Administration Chamber) Director, then WSA." },
-      { q: 'Real cost for Sp. z o.o. bookkeeping?', a: 'Small Sp. z o.o. — 12–25k PLN/year including annual statements. JDG lump sum — under 4,000 PLN/year.' },
-      { q: 'Filing deadlines?', a: 'JPK_V7 by 25th of next month. CIT-8 by March 31. PIT by April 30. Financial statements 6 months after fiscal year end (Sp. z o.o. — June 30). Late filing — fines up to ~50,000 PLN.' }
+      { q: 'Estonian CIT - who fits?', a: 'Sp. z o.o. with 2+ individual shareholders, passive income < 50%, minimum 3 employees. 0% on retained profits, 20% CIT + 19% PIT on dividends (~25% effective). Ideal for growth-stage reinvesting companies.' },
+      { q: 'IP Box for which devs?', a: 'JDG or Sp. z o.o. creating qualified IP rights to software. Need separated IP accounting, IP transfer agreement, individual ruling from KIS (Krajowa Informacja Skarbowa - National Tax Information). ~5% effective on IP income.' },
+      { q: 'KSeF - when?', a: 'KSeF (Krajowy System e-Faktur - National e-Invoicing System) - mandatory from 1 February 2026 for all VAT taxpayers. Every faktura (invoice) goes through KSeF with a unique ID. We integrate your accounting software (Comarch, iFirma, Subiekt, Symfonia).' },
+      { q: 'JDG → Sp. z o.o. migration?', a: "Not a true conversion - close JDG + register Sp. z o.o. + transfer assets (apport - contribution in kind, VAT-exempt for going-concern). Turnkey 4-6 weeks, 4,500-7,500 PLN." },
+      { q: 'Tax audit?', a: "Don't speak to the inspector without counsel. After zawiadomienie o kontroli (audit notice) you have 7 days to prepare. We audit what they're checking, prepare documents, represent. Appeal route: IAS (Izba Administracji Skarbowej - Tax Administration Chamber) Director, then WSA." },
+      { q: 'Real cost for Sp. z o.o. bookkeeping?', a: 'Small Sp. z o.o. - 12-25k PLN/year including annual statements. JDG lump sum - under 4,000 PLN/year.' },
+      { q: 'Filing deadlines?', a: 'JPK_V7 by 25th of next month. CIT-8 by March 31. PIT by April 30. Financial statements 6 months after fiscal year end (Sp. z o.o. - June 30). Late filing - fines up to ~50,000 PLN.' }
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Tax and accounting turnkey',

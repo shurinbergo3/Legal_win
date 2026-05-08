@@ -1,8 +1,8 @@
 /**
- * LegalWin brand mark — gold shield with LW monogram + LEGALWIN wordmark.
+ * LegalWin brand mark - gold shield with LW monogram + LEGALWIN wordmark.
  *
- *   <LogoBadge size={32} compact />  // favicon-tier — shield only
- *   <LogoBadge size={108} />         // header — shield + wordmark + tagline
+ *   <LogoBadge size={32} compact />  // favicon-tier - shield only
+ *   <LogoBadge size={108} />         // header - shield + wordmark + tagline
  *   <LogoBadge size={168} />         // footer / hero
  *
  * The L and W on the shield share an identical cap height (rendered in a
@@ -62,7 +62,7 @@ function Shield({ ids }: { ids: GradientIds }) {
         strokeWidth="0.9"
         opacity="0.85"
       />
-      {/* Themis silhouette behind the LW monogram — thin, gold, ~22% opacity so
+      {/* Themis silhouette behind the LW monogram - thin, gold, ~22% opacity so
           it reads like an embossed watermark rather than a competing element.
           Paths are scaled to fit the inner shield bounds (54-266 × 40-273). */}
       <g

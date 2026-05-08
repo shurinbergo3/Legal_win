@@ -1,5 +1,5 @@
 // Maps blog post slugs to existing service webp covers.
-// Images intentionally repeat across posts — see CLAUDE.md and product brief.
+// Images intentionally repeat across posts - see CLAUDE.md and product brief.
 // The matcher reads as: "which service practice does this article most align with".
 
 const SLUG_TO_IMAGE: Record<string, string> = {
@@ -25,7 +25,7 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'pesel-profil-zaufany-mdowod-posle-karty-pobytu': '/services/pesel.webp',
   'zapis-detei-v-polskuyu-shkolu': '/services/zapis-dzieci-do-szkoly.webp',
 
-  // New series — 22 articles
+  // New series - 22 articles
   'razreshenie-mswia-pokupka-nedvizhimosti-inostrancem': '/services/warszawa-tramwaj.webp',
   'nalogovoye-rezidentstvo-polsha-183-dnya': '/services/warszawa-spire.webp',
   'vozvrat-nalogov-pit-37-pit-11-inostrancam': '/services/zaswiadczenia-zus-us.webp',
@@ -49,7 +49,7 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'shtrafy-itd-bag-12000-pln-vodiel': '/services/kod-95.webp',
   'kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe': '/services/kod-95.webp',
 
-  // 2026-Q2 series — 5 new articles
+  // 2026-Q2 series - 5 new articles
   'karta-pobytu-wygasla-co-delat': '/services/apelacje.webp',
   'skladka-zdrowotna-2026-reforma': '/services/warszawa-spire.webp',
   'ksef-luty-2026-e-faktury': '/services/warszawa-spire.webp',

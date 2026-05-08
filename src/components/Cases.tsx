@@ -25,7 +25,7 @@ export function Cases() {
         aria-hidden
         className="pointer-events-none absolute -bottom-20 right-[-10%] h-[480px] w-[640px] rounded-full bg-gold-500/[0.05] blur-[140px]"
       />
-      {/* Editorial giant "№" watermark — case-number glyph as a quiet editorial mark */}
+      {/* Editorial giant "№" watermark - case-number glyph as a quiet editorial mark */}
       <div
         aria-hidden
         className="pointer-events-none absolute -top-8 left-2 select-none font-display text-[clamp(11rem,24vw,24rem)] font-semibold leading-none text-gold-500/[0.06] sm:left-6"

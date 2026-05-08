@@ -20,7 +20,7 @@ schema: Article
 
 # BAG and ITD Fines 2026: Drivers and Carriers Face Up to 12,000 PLN per Breach
 
-Short version: in 2026 the Polish Inspekcja Transportu Drogowego (ITD) and Germany's Bundesamt für Logistik und Mobilität (BAG) apply unprecedented enforcement on driver hours and tachograph rules. The headline new sanctions: **on-the-spot retention of the driving licence for 3 months** for serious breaches; **fines up to 12,000 PLN on the carrier** for a single episode (use of someone else's tachograph card, magnets, missing Code 95). This rewrites the economics of small and mid-size carriers — one breach can sink a business.
+Short version: in 2026 the Polish Inspekcja Transportu Drogowego (ITD) and Germany's Bundesamt für Logistik und Mobilität (BAG) apply unprecedented enforcement on driver hours and tachograph rules. The headline new sanctions: **on-the-spot retention of the driving licence for 3 months** for serious breaches; **fines up to 12,000 PLN on the carrier** for a single episode (use of someone else's tachograph card, magnets, missing Code 95). This rewrites the economics of small and mid-size carriers - one breach can sink a business.
 
 ## What Changed in 2026
 
@@ -28,7 +28,7 @@ EC Mobility Package III (June 2025) tightened breach grading. The new directive 
 
 - classify breaches as "most serious" (NN);
 - retain category C/CE licences on the spot for NN;
-- raise carrier fines for NN by 100–300 %;
+- raise carrier fines for NN by 100-300 %;
 - transmit NN data to the EU-wide ERRU register, opening trans-EU licence blocks.
 
 Poland and Germany are 2026's most active enforcers.
@@ -48,7 +48,7 @@ Updated in 2024 in Annex III of Directive 2006/22/WE:
 | Driving with expired medical | NN | 2,000 PLN | 800 PLN | None |
 | Tachograph data manipulation | NN | up to 30,000 PLN | up to 5,000 PLN | 3 months + criminal |
 
-"Very serious" breaches (BP) sit at 2–8× lower tariffs.
+"Very serious" breaches (BP) sit at 2-8× lower tariffs.
 
 ## On-the-Spot 3-Month Licence Retention
 
@@ -94,32 +94,32 @@ A standard ITD roadside check (around 30 minutes):
 ## Defending the Driver and Carrier
 
 **Driver level:**
-- Tachograph card — your own only. No swaps, no "borrow temporarily". Using someone else's is NN.
+- Tachograph card - your own only. No swaps, no "borrow temporarily". Using someone else's is NN.
 - No magnets, no shims, no falsified records. Criminal liability.
 - Learn the hours rules. Regular Szkolenie Okresowe (Code 95).
 - Card up-to-date and undamaged.
 - Original documents in the cab; cloud copies as backup.
 
 **Carrier level:**
-- **Compliance system** — Tacholiga, Webfleet, Kogena for real-time hours monitoring.
-- **Regular tachograph downloads** — every 28 days by rule, weekly in practice.
-- **Internal audits** — quarterly random sampling.
-- **Employment contracts with liability clauses** — driver is liable for breaches; the employer can regress fines (with carve-outs).
-- **Lawyer on call** — fast response to inspections.
+- **Compliance system** - Tacholiga, Webfleet, Kogena for real-time hours monitoring.
+- **Regular tachograph downloads** - every 28 days by rule, weekly in practice.
+- **Internal audits** - quarterly random sampling.
+- **Employment contracts with liability clauses** - driver is liable for breaches; the employer can regress fines (with carve-outs).
+- **Lawyer on call** - fast response to inspections.
 
 ## What to Do When Stopped
 
 **On site:**
 1. Do not argue. Provide only requested documents.
-2. No oral explanations. All statements — in writing on the protocol.
-3. Missing items? "I will check and provide within 7 days" — do not improvise.
+2. No oral explanations. All statements - in writing on the protocol.
+3. Missing items? "I will check and provide within 7 days" - do not improvise.
 4. Get a copy of the inspection protocol.
 5. Call dispatch / the office immediately.
 
 **First 7 days:**
 1. Lawyer-led protocol analysis.
-2. Objections (zastrzeżenia) to the protocol — 7-day window.
-3. If licence retained — urgent application to WORD to suspend execution.
+2. Objections (zastrzeżenia) to the protocol - 7-day window.
+3. If licence retained - urgent application to WORD to suspend execution.
 
 **First 14 days:**
 1. Appeal (odwołanie) the fine if any.
@@ -129,14 +129,14 @@ A standard ITD roadside check (around 30 minutes):
 
 Many ITD fines are successfully contested. Common grounds:
 
-- **Procedural protocol errors** — missing signatures, witnesses, specific breach reference.
-- **Tachograph record doubts** — record may have been distorted by a power glitch or service-centre card swap.
-- **Wrong classification** — NN where the new rules call for BP.
-- **Force majeure** — accident, illness, emergencies.
+- **Procedural protocol errors** - missing signatures, witnesses, specific breach reference.
+- **Tachograph record doubts** - record may have been distorted by a power glitch or service-centre card swap.
+- **Wrong classification** - NN where the new rules call for BP.
+- **Force majeure** - accident, illness, emergencies.
 
-Around 35 % of driver and carrier appeals win in part or in full in Mazowieckie 2024–2025. Higher with a lawyer.
+Around 35 % of driver and carrier appeals win in part or in full in Mazowieckie 2024-2025. Higher with a lawyer.
 
-LegalWin's ITD/BAG fine representation — from 2,800 PLN. Skarga to WSA on a refused appeal — from 1,800 PLN additional.
+LegalWin's ITD/BAG fine representation - from 2,800 PLN. Skarga to WSA on a refused appeal - from 1,800 PLN additional.
 
 ## When to Engage a Lawyer
 
@@ -151,7 +151,7 @@ Engage a lawyer if:
 - risk of registration block (carriers);
 - parallel employer claim for fine regress.
 
-For carriers — a retainer subscription for legal advisory: risk monitoring, inspection readiness, compliance hygiene. LegalWin's transport-company retainer — from 2,500 PLN/month with rapid response.
+For carriers - a retainer subscription for legal advisory: risk monitoring, inspection readiness, compliance hygiene. LegalWin's transport-company retainer - from 2,500 PLN/month with rapid response.
 
 [Book a transport-law consultation →](/en/uslugi/kod-95)
 

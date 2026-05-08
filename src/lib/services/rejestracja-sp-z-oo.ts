@@ -5,72 +5,72 @@ const rejestracjaSpZOo: ServiceEntry = {
     slug: 'rejestracja-sp-z-oo',
     group: 'business',
     icon: 'landmark',
-    badge: 'Sp. z o.o. · 7–10 рабочих дней под ключ',
+    badge: 'Sp. z o.o. · 7-10 рабочих дней под ключ',
     title: 'Регистрация Sp. z o.o.',
-    subtitle: 'Польская ООО за 7–10 рабочих дней — KRS, NIP, REGON, VAT, банковский счёт',
-    lead: 'Sp. z o.o. (spółka z ograniczoną odpowiedzialnością) — польский аналог ООО. Минимальный капитал 5 000 PLN, ответственность ограничена вкладом, подходит и иностранцу без TRC. Регистрируем через S24 за 24 часа или нотариально с расширенным статутом за 5–7 дней. Включаем юридический адрес в Варшаве, открытие счёта в mBanku, ING или PKO BP, регистрацию VAT и постановку на учёт в ZUS.',
+    subtitle: 'Польская ООО за 7-10 рабочих дней - KRS, NIP, REGON, VAT, банковский счёт',
+    lead: 'Sp. z o.o. (spółka z ograniczoną odpowiedzialnością) - польский аналог ООО. Минимальный капитал 5 000 PLN, ответственность ограничена вкладом, подходит и иностранцу без TRC. Регистрируем через S24 за 24 часа или нотариально с расширенным статутом за 5-7 дней. Включаем юридический адрес в Варшаве, открытие счёта в mBanku, ING или PKO BP, регистрацию VAT и постановку на учёт в ZUS.',
     facts: [
       { label: 'Минимальный капитал', value: '5 000 PLN', note: 'kapitał zakładowy' },
-      { label: 'KRS — S24', value: '24–48 ч', note: 'онлайн через ePUAP' },
-      { label: 'KRS — нотариально', value: '5–7 дней', note: 'свобода в статуте' },
-      { label: 'CIT', value: '9% / 19%', note: '9% — малые до 2 млн EUR оборота' }
+      { label: 'KRS - S24', value: '24-48 ч', note: 'онлайн через ePUAP' },
+      { label: 'KRS - нотариально', value: '5-7 дней', note: 'свобода в статуте' },
+      { label: 'CIT', value: '9% / 19%', note: '9% - малые до 2 млн EUR оборота' }
     ],
     grounds: {
       title: 'Когда выбирают Sp. z o.o.',
-      subtitle: 'Sp. z o.o. — самая популярная форма для иностранцев. Не требует TRC, можно вести из-за границы, защищает личное имущество.',
+      subtitle: 'Sp. z o.o. - самая популярная форма для иностранцев. Не требует TRC, можно вести из-за границы, защищает личное имущество.',
       items: [
-        { title: 'Иностранец без TRC', desc: 'JDG требует ВНЖ с правом на бизнес. Sp. z o.o. — нет. Регистрируется на любого нерезидента, даже находящегося за рубежом.' },
-        { title: 'Защита личного имущества', desc: 'Ответственность ограничена вкладом в капитал. При банкротстве долги фирмы не переходят на учредителя — только обязательства члена правления при злоупотреблениях.' },
+        { title: 'Иностранец без TRC', desc: 'JDG требует ВНЖ с правом на бизнес. Sp. z o.o. - нет. Регистрируется на любого нерезидента, даже находящегося за рубежом.' },
+        { title: 'Защита личного имущества', desc: 'Ответственность ограничена вкладом в капитал. При банкротстве долги фирмы не переходят на учредителя - только обязательства члена правления при злоупотреблениях.' },
         { title: 'Работа с инвесторами', desc: 'Раздел капитала по udziałach (долях), возможность ввести соинвестора, сделать esop, создать классы udziałów с разными правами голоса и дивидендов.' },
         { title: 'Работа с EU-клиентами', desc: 'EU VAT-номер, доступ к OSS / IOSS, возможность работать с крупными корпоративными клиентами, для которых JDG неприемлем.' },
-        { title: 'IP Box и Estonian CIT', desc: 'Льготная ставка 5% на доходы от ИС (программисты), отложенный CIT до выплаты дивидендов — только Sp. z o.o.' },
-        { title: 'Подача на ВНЖ через бизнес', desc: 'Активная деятельность Sp. z o.o. (доход, наём 2+ сотрудников) — основание для karty pobytu по бизнесу или dla samozatrudnionych.' }
+        { title: 'IP Box и Estonian CIT', desc: 'Льготная ставка 5% на доходы от ИС (программисты), отложенный CIT до выплаты дивидендов - только Sp. z o.o.' },
+        { title: 'Подача на ВНЖ через бизнес', desc: 'Активная деятельность Sp. z o.o. (доход, наём 2+ сотрудников) - основание для karty pobytu по бизнесу или dla samozatrudnionych.' }
       ]
     },
     timeline: {
       title: 'Этапы регистрации Sp. z o.o.',
-      subtitle: 'От первого звонка до полного запуска (KRS + банк + VAT + бухгалтер) — 7–14 рабочих дней.',
+      subtitle: 'От первого звонка до полного запуска (KRS + банк + VAT + бухгалтер) - 7-14 рабочих дней.',
       steps: [
         { title: 'Бесплатная консультация', duration: '30 мин', desc: 'Структура учредителей, налоговая форма (CIT/Estonian CIT/IP Box), вид деятельности (PKD коды). Решаем S24 или nota­rial.' },
-        { title: 'Подготовка статута', duration: '1–2 дня', desc: 'Umowa spółki: PKD коды, доли, члены правления, sposób reprezentacji, дивидендная политика. S24 — шаблон, нотариально — индивидуально.' },
-        { title: 'Подписание', duration: '1 день', desc: 'S24 — электронные подписи через profil zaufany / kwalifikowany. Нотариально — у нотариуса в Варшаве (можем дистанционно через pełnomocnika).' },
-        { title: 'Подача в KRS', duration: '24 ч (S24) / 5–7 дней', desc: 'Электронно через Portal S24 или PRS. KRS присваивает номер, NIP, REGON автоматически. Сообщаем klient.' },
+        { title: 'Подготовка статута', duration: '1-2 дня', desc: 'Umowa spółki: PKD коды, доли, члены правления, sposób reprezentacji, дивидендная политика. S24 - шаблон, нотариально - индивидуально.' },
+        { title: 'Подписание', duration: '1 день', desc: 'S24 - электронные подписи через profil zaufany / kwalifikowany. Нотариально - у нотариуса в Варшаве (можем дистанционно через pełnomocnika).' },
+        { title: 'Подача в KRS', duration: '24 ч (S24) / 5-7 дней', desc: 'Электронно через Portal S24 или PRS. KRS присваивает номер, NIP, REGON автоматически. Сообщаем klient.' },
         { title: 'CRBR (UBO)', duration: '7 дней от регистрации', desc: 'Обязательная регистрация бенефициаров в Centralnym Rejestrze Beneficjentów Rzeczywistych. Штраф 1 млн PLN за пропуск.' },
-        { title: 'Банковский счёт', duration: '3–7 дней', desc: 'Открываем в mBanku, ING, PKO BP, Bank Pekao или Santander. KYC процедура: документы, видеоверификация, заполнение анкеты.' },
-        { title: 'VAT регистрация', duration: '7–30 дней', desc: 'Wniosek VAT-R. При обороте < 200 000 PLN — освобождение, можно отказаться. Для услуг ЕС — обязательно VAT-UE.' },
+        { title: 'Банковский счёт', duration: '3-7 дней', desc: 'Открываем в mBanku, ING, PKO BP, Bank Pekao или Santander. KYC процедура: документы, видеоверификация, заполнение анкеты.' },
+        { title: 'VAT регистрация', duration: '7-30 дней', desc: 'Wniosek VAT-R. При обороте < 200 000 PLN - освобождение, можно отказаться. Для услуг ЕС - обязательно VAT-UE.' },
         { title: 'ZUS постановка', duration: '7 дней', desc: 'Регистрация работодателя при найме первого сотрудника / контракта B2B. ZUS-ZPA, ZUS-ZUA для каждого работника.' }
       ]
     },
     documents: {
       title: 'Что нужно для регистрации',
-      subtitle: 'Большая часть готовится у нас. От учредителя — паспорта, адрес, согласия.',
+      subtitle: 'Большая часть готовится у нас. От учредителя - паспорта, адрес, согласия.',
       items: [
         'Скан паспорта учредителя(-ей) и членов правления',
-        'PESEL — обязательно для члена правления (оформляем отдельно если нет)',
+        'PESEL - обязательно для члена правления (оформляем отдельно если нет)',
         'Адрес учредителя и членов правления (для CRBR)',
         'Название фирмы (3 варианта на случай дублей в KRS)',
-        'PKD коды (виды деятельности — выбираем по плану бизнеса)',
+        'PKD коды (виды деятельности - выбираем по плану бизнеса)',
         'Структура долей (% udziałów каждого wspólnika)',
         'Sposób reprezentacji (одиночный / совместный для членов правления)',
-        'Юридический адрес — наш в Варшаве в цене или ваш',
+        'Юридический адрес - наш в Варшаве в цене или ваш',
         'Профиль zaufany / kwalifikowany подпись для S24 (помогаем оформить)'
       ]
     },
     pricing: {
       title: 'Стоимость работы',
-      subtitle: 'Фиксированная цена под ключ. Госпошлины и нотариус — отдельно.',
+      subtitle: 'Фиксированная цена под ключ. Госпошлины и нотариус - отдельно.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '30 минут · структура и налоги' },
         { label: 'Sp. z o.o. через S24', value: 'от 1 800 PLN', note: 'KRS + NIP + адрес 12 мес' },
         { label: 'Sp. z o.o. нотариально', value: 'от 3 500 PLN', note: 'Индивидуальный статут' },
         { label: 'Под ключ + банк + VAT', value: 'от 4 800 PLN', note: 'KRS + банк + VAT-R + бухгалтер' }
       ],
-      note: 'Госпошлины: KRS 250 PLN (S24) или 500 PLN (нотариально), Monitor Sądowy 100 PLN, нотариус ~700–1 200 PLN при 5 000 PLN капитале. Юридический адрес после первого года — 200 PLN/мес.'
+      note: 'Госпошлины: KRS 250 PLN (S24) или 500 PLN (нотариально), Monitor Sądowy 100 PLN, нотариус ~700-1 200 PLN при 5 000 PLN капитале. Юридический адрес после первого года - 200 PLN/мес.'
     },
     legalBase: {
       title: 'Нормативная база',
       items: [
-        'Ustawa z dnia 15 września 2000 r. — Kodeks spółek handlowych (rozdz. III — Spółka z o.o.)',
+        'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych (rozdz. III - Spółka z o.o.)',
         'Ustawa z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym',
         'Ustawa z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy (CRBR)',
         'Ustawa z dnia 11 marca 2004 r. o podatku VAT',
@@ -78,56 +78,56 @@ const rejestracjaSpZOo: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Можно ли зарегистрировать без приезда в Польшу?', a: 'Да. Через S24 — нужен профиль zaufany или kwalifikowany podpis (оформляется удалённо за 1–2 дня через ProfilZaufany.pl или KIR). Нотариально — через pełnomocnictwo: вы подписываете доверенность у польского консула или с apostille, мы регистрируем за вас.' },
-      { q: 'Какой PESEL нужен?', a: 'Для члена правления (członek zarządu) — обязательный PESEL для подачи finansowych sprawozdań в KRS электронно. Для wspólnika (учредителя) — необязателен, можно паспортные данные. Делаем PESEL за 7–14 дней.' },
-      { q: 'S24 или нотариально — что лучше?', a: 'S24 — быстрее (24 ч), дешевле (250 PLN), но статут шаблонный, без индивидуальных правил. Нотариально — медленнее (5–7 дней), дороже (700+ PLN), но позволяет: классы udziałów, asymmetric voting, esop, особые условия выхода wspólników, передачи в наследство. Для крупных проектов — нотариально.' },
-      { q: 'Какой CIT платит Sp. z o.o.?', a: '9% — для małych podatników (оборот < 2 млн EUR в год) на первый год + год превышения. 19% — стандартный. Estonian CIT (рekonstrukcja CIT) — отложенный налог до выплаты дивидендов, 0% если реинвестируете. IP Box — 5% на доходы от программистской ИС.' },
-      { q: 'Можно ли иностранцу быть единственным учредителем и членом правления?', a: 'Да, если у него есть PESEL. Ограничений по гражданству нет — Sp. z o.o. может быть 100% иностранной. Но 1 учредитель = 1 wspólnik, и тогда фирма платит ZUS как самозанятый — это удорожает. Решается добавлением 2-го wspólnika с минимальной долей.' },
-      { q: 'Сколько стоит содержание Sp. z o.o.?', a: 'Бухгалтерия — от 800 PLN/мес для малой фирмы (5 операций), 1 500–3 000 PLN/мес для среднего бизнеса. Юридический адрес — 200–400 PLN/мес. Sprawozdanie finansowe в KRS — 600–1 200 PLN/год. Минимум — 12 000–15 000 PLN/год без ZUS.' },
-      { q: 'Что с ZUS у учредителя?', a: 'Если в Sp. z o.o. 1 wspólnik — он платит ZUS как jednoosobowy przedsiębiorca (~1 700 PLN/мес). Если 2+ wspólnika — ZUS не платят (только при найме сотрудников или B2B контракте). Это критическое решение — обсуждаем на консультации.' }
+      { q: 'Можно ли зарегистрировать без приезда в Польшу?', a: 'Да. Через S24 - нужен профиль zaufany или kwalifikowany podpis (оформляется удалённо за 1-2 дня через ProfilZaufany.pl или KIR). Нотариально - через pełnomocnictwo: вы подписываете доверенность у польского консула или с apostille, мы регистрируем за вас.' },
+      { q: 'Какой PESEL нужен?', a: 'Для члена правления (członek zarządu) - обязательный PESEL для подачи finansowych sprawozdań в KRS электронно. Для wspólnika (учредителя) - необязателен, можно паспортные данные. Делаем PESEL за 7-14 дней.' },
+      { q: 'S24 или нотариально - что лучше?', a: 'S24 - быстрее (24 ч), дешевле (250 PLN), но статут шаблонный, без индивидуальных правил. Нотариально - медленнее (5-7 дней), дороже (700+ PLN), но позволяет: классы udziałów, asymmetric voting, esop, особые условия выхода wspólników, передачи в наследство. Для крупных проектов - нотариально.' },
+      { q: 'Какой CIT платит Sp. z o.o.?', a: '9% - для małych podatników (оборот < 2 млн EUR в год) на первый год + год превышения. 19% - стандартный. Estonian CIT (рekonstrukcja CIT) - отложенный налог до выплаты дивидендов, 0% если реинвестируете. IP Box - 5% на доходы от программистской ИС.' },
+      { q: 'Можно ли иностранцу быть единственным учредителем и членом правления?', a: 'Да, если у него есть PESEL. Ограничений по гражданству нет - Sp. z o.o. может быть 100% иностранной. Но 1 учредитель = 1 wspólnik, и тогда фирма платит ZUS как самозанятый - это удорожает. Решается добавлением 2-го wspólnika с минимальной долей.' },
+      { q: 'Сколько стоит содержание Sp. z o.o.?', a: 'Бухгалтерия - от 800 PLN/мес для малой фирмы (5 операций), 1 500-3 000 PLN/мес для среднего бизнеса. Юридический адрес - 200-400 PLN/мес. Sprawozdanie finansowe в KRS - 600-1 200 PLN/год. Минимум - 12 000-15 000 PLN/год без ZUS.' },
+      { q: 'Что с ZUS у учредителя?', a: 'Если в Sp. z o.o. 1 wspólnik - он платит ZUS как jednoosobowy przedsiębiorca (~1 700 PLN/мес). Если 2+ wspólnika - ZUS не платят (только при найме сотрудников или B2B контракте). Это критическое решение - обсуждаем на консультации.' }
     ],
     related: ['gotowe-firmy', 'jdg', 'podatki-ksiegowosc'],
     ctaTitle: 'Sp. z o.o. за 7 рабочих дней',
-    ctaSubtitle: 'Бесплатная консультация: оптимизируем структуру под ваш бизнес. Под ключ — от 4 800 PLN, готовые компании за 24 часа — от 6 500 PLN.'
+    ctaSubtitle: 'Бесплатная консультация: оптимизируем структуру под ваш бизнес. Под ключ - от 4 800 PLN, готовые компании за 24 часа - от 6 500 PLN.'
   },
   pl: {
     slug: 'rejestracja-sp-z-oo',
     group: 'business',
     icon: 'landmark',
-    badge: 'Sp. z o.o. · 7–10 dni roboczych pod klucz',
+    badge: 'Sp. z o.o. · 7-10 dni roboczych pod klucz',
     title: 'Rejestracja Sp. z o.o.',
-    subtitle: 'Spółka z o.o. w 7–10 dni — KRS, NIP, REGON, VAT, konto bankowe',
-    lead: 'Sp. z o.o. — najpopularniejsza forma dla cudzoziemców. Minimalny kapitał 5 000 PLN, odpowiedzialność ograniczona do wkładu, dostępna bez TRC. Rejestrujemy przez S24 w 24 godziny lub notarialnie w 5–7 dni. W cenie adres siedziby w Warszawie, otwarcie konta w mBanku/ING/PKO, rejestracja VAT i wpis ZUS.',
+    subtitle: 'Spółka z o.o. w 7-10 dni - KRS, NIP, REGON, VAT, konto bankowe',
+    lead: 'Sp. z o.o. - najpopularniejsza forma dla cudzoziemców. Minimalny kapitał 5 000 PLN, odpowiedzialność ograniczona do wkładu, dostępna bez TRC. Rejestrujemy przez S24 w 24 godziny lub notarialnie w 5-7 dni. W cenie adres siedziby w Warszawie, otwarcie konta w mBanku/ING/PKO, rejestracja VAT i wpis ZUS.',
     facts: [
       { label: 'Kapitał minimalny', value: '5 000 PLN', note: 'kapitał zakładowy' },
-      { label: 'KRS — S24', value: '24–48 h', note: 'online ePUAP' },
-      { label: 'KRS — notarialnie', value: '5–7 dni', note: 'swoboda w umowie' },
-      { label: 'CIT', value: '9% / 19%', note: '9% — mali (do 2 mln €)' }
+      { label: 'KRS - S24', value: '24-48 h', note: 'online ePUAP' },
+      { label: 'KRS - notarialnie', value: '5-7 dni', note: 'swoboda w umowie' },
+      { label: 'CIT', value: '9% / 19%', note: '9% - mali (do 2 mln €)' }
     ],
     grounds: {
       title: 'Kiedy wybrać Sp. z o.o.',
       subtitle: 'Najpopularniejsza forma dla cudzoziemców. Bez TRC, można prowadzić z zagranicy, chroni majątek osobisty.',
       items: [
-        { title: 'Cudzoziemiec bez TRC', desc: 'JDG wymaga karty pobytu z prawem do prowadzenia. Sp. z o.o. — nie. Może być 100% nierezydencka.' },
+        { title: 'Cudzoziemiec bez TRC', desc: 'JDG wymaga karty pobytu z prawem do prowadzenia. Sp. z o.o. - nie. Może być 100% nierezydencka.' },
         { title: 'Ochrona majątku', desc: 'Odpowiedzialność do wkładu. Długi spółki nie obciążają wspólnika (poza zarządem przy zaniedbaniach).' },
         { title: 'Inwestorzy', desc: 'Podział kapitału, klasy udziałów, ESOP, różne prawa głosu i dywidendy.' },
         { title: 'Klienci UE', desc: 'EU VAT, OSS/IOSS, akceptacja przez korporacje.' },
-        { title: 'IP Box i Estoński CIT', desc: '5% IP Box dla programistów, odroczony CIT do wypłaty dywidendy — tylko Sp. z o.o.' },
-        { title: 'Karta pobytu przez biznes', desc: 'Aktywna spółka (przychód, 2+ pracowników) — podstawa karty pobytu dla samozatrudnionych.' }
+        { title: 'IP Box i Estoński CIT', desc: '5% IP Box dla programistów, odroczony CIT do wypłaty dywidendy - tylko Sp. z o.o.' },
+        { title: 'Karta pobytu przez biznes', desc: 'Aktywna spółka (przychód, 2+ pracowników) - podstawa karty pobytu dla samozatrudnionych.' }
       ]
     },
     timeline: {
       title: 'Etapy rejestracji',
-      subtitle: 'Od pierwszego kontaktu do pełnego startu — 7–14 dni roboczych.',
+      subtitle: 'Od pierwszego kontaktu do pełnego startu - 7-14 dni roboczych.',
       steps: [
         { title: 'Bezpłatna konsultacja', duration: '30 min', desc: 'Struktura, podatki (CIT/Estoński/IP Box), PKD. S24 czy notarialnie.' },
-        { title: 'Umowa spółki', duration: '1–2 dni', desc: 'PKD, udziały, zarząd, sposób reprezentacji, dywidendy.' },
-        { title: 'Podpisanie', duration: '1 dzień', desc: 'S24 — profil zaufany / podpis kwalifikowany. Notarialnie — w kancelarii.' },
-        { title: 'Wpis do KRS', duration: '24 h (S24) / 5–7 dni', desc: 'KRS nadaje numer, NIP i REGON automatycznie.' },
+        { title: 'Umowa spółki', duration: '1-2 dni', desc: 'PKD, udziały, zarząd, sposób reprezentacji, dywidendy.' },
+        { title: 'Podpisanie', duration: '1 dzień', desc: 'S24 - profil zaufany / podpis kwalifikowany. Notarialnie - w kancelarii.' },
+        { title: 'Wpis do KRS', duration: '24 h (S24) / 5-7 dni', desc: 'KRS nadaje numer, NIP i REGON automatycznie.' },
         { title: 'CRBR (UBO)', duration: '7 dni', desc: 'Centralny Rejestr Beneficjentów. Kara do 1 mln PLN za zwłokę.' },
-        { title: 'Konto bankowe', duration: '3–7 dni', desc: 'mBank, ING, PKO, Pekao, Santander. KYC, weryfikacja wideo.' },
-        { title: 'Rejestracja VAT', duration: '7–30 dni', desc: 'VAT-R. Zwolnienie do 200 000 PLN. UE — VAT-UE obowiązkowo.' },
-        { title: 'ZUS', duration: '7 dni', desc: 'Przy zatrudnieniu — ZUS-ZPA i ZUS-ZUA dla pracowników.' }
+        { title: 'Konto bankowe', duration: '3-7 dni', desc: 'mBank, ING, PKO, Pekao, Santander. KYC, weryfikacja wideo.' },
+        { title: 'Rejestracja VAT', duration: '7-30 dni', desc: 'VAT-R. Zwolnienie do 200 000 PLN. UE - VAT-UE obowiązkowo.' },
+        { title: 'ZUS', duration: '7 dni', desc: 'Przy zatrudnieniu - ZUS-ZPA i ZUS-ZUA dla pracowników.' }
       ]
     },
     documents: {
@@ -135,13 +135,13 @@ const rejestracjaSpZOo: ServiceEntry = {
       subtitle: 'Większość przygotowujemy my.',
       items: [
         'Skany paszportów wspólników i zarządu',
-        'PESEL członka zarządu (jeśli brak — załatwiamy)',
+        'PESEL członka zarządu (jeśli brak - załatwiamy)',
         'Adresy wspólników i zarządu (CRBR)',
         '3 propozycje nazwy firmy',
         'Kody PKD',
         'Struktura udziałów',
         'Sposób reprezentacji (jednoosobowa / łączna)',
-        'Adres siedziby — nasz w Warszawie w cenie',
+        'Adres siedziby - nasz w Warszawie w cenie',
         'Profil zaufany / podpis kwalifikowany'
       ]
     },
@@ -154,12 +154,12 @@ const rejestracjaSpZOo: ServiceEntry = {
         { label: 'Notarialnie', value: 'od 3 500 PLN', note: 'Indywidualna umowa' },
         { label: 'Pod klucz + bank + VAT', value: 'od 4 800 PLN', note: 'KRS + bank + VAT-R + księgowość' }
       ],
-      note: 'Opłaty: KRS 250 (S24) / 500 (notarialnie), MSiG 100 PLN, notariusz 700–1 200 PLN przy kapitale 5 000 PLN.'
+      note: 'Opłaty: KRS 250 (S24) / 500 (notarialnie), MSiG 100 PLN, notariusz 700-1 200 PLN przy kapitale 5 000 PLN.'
     },
     legalBase: {
       title: 'Podstawa prawna',
       items: [
-        'Ustawa z 15 września 2000 r. — Kodeks spółek handlowych (rozdz. III)',
+        'Ustawa z 15 września 2000 r. - Kodeks spółek handlowych (rozdz. III)',
         'Ustawa z 20 sierpnia 1997 r. o KRS',
         'Ustawa z 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy (CRBR)',
         'Ustawa z 11 marca 2004 r. o VAT',
@@ -167,31 +167,31 @@ const rejestracjaSpZOo: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Bez przyjazdu do Polski?', a: 'Tak. S24 — profil zaufany lub podpis kwalifikowany (online 1–2 dni). Notarialnie — pełnomocnictwo z apostille u konsula.' },
-      { q: 'Czy potrzebny PESEL?', a: 'Dla członka zarządu — tak (sprawozdania w KRS). Dla wspólnika — nie. Załatwiamy PESEL w 7–14 dni.' },
-      { q: 'S24 czy notarialnie?', a: 'S24 — szybciej (24 h), taniej (250 PLN), szablonowa umowa. Notarialnie — wolniej, drożej, ale klasy udziałów, ESOP, asymetria głosów.' },
-      { q: 'Jaki CIT?', a: '9% dla małych (< 2 mln €) — pierwszy rok + rok przekroczenia. 19% standard. Estoński — odroczony do dywidendy. IP Box — 5%.' },
-      { q: 'Jednoosobowa Sp. z o.o.?', a: 'Tak, ale 1-os. wspólnik płaci ZUS jak samozatrudniony (~1 700 PLN/mies.). Rozwiązanie — 2-go wspólnika z minimalnym udziałem.' },
-      { q: 'Koszt utrzymania?', a: 'Księgowość 800–3 000 PLN/mies., adres 200–400 PLN/mies., sprawozdanie 600–1 200 PLN/rok. Minimum 12 000–15 000 PLN/rok.' },
-      { q: 'ZUS u wspólnika?', a: '1 wspólnik = ZUS jak samozatrudniony. 2+ wspólników — bez ZUS (oprócz pracowników i B2B).' }
+      { q: 'Bez przyjazdu do Polski?', a: 'Tak. S24 - profil zaufany lub podpis kwalifikowany (online 1-2 dni). Notarialnie - pełnomocnictwo z apostille u konsula.' },
+      { q: 'Czy potrzebny PESEL?', a: 'Dla członka zarządu - tak (sprawozdania w KRS). Dla wspólnika - nie. Załatwiamy PESEL w 7-14 dni.' },
+      { q: 'S24 czy notarialnie?', a: 'S24 - szybciej (24 h), taniej (250 PLN), szablonowa umowa. Notarialnie - wolniej, drożej, ale klasy udziałów, ESOP, asymetria głosów.' },
+      { q: 'Jaki CIT?', a: '9% dla małych (< 2 mln €) - pierwszy rok + rok przekroczenia. 19% standard. Estoński - odroczony do dywidendy. IP Box - 5%.' },
+      { q: 'Jednoosobowa Sp. z o.o.?', a: 'Tak, ale 1-os. wspólnik płaci ZUS jak samozatrudniony (~1 700 PLN/mies.). Rozwiązanie - 2-go wspólnika z minimalnym udziałem.' },
+      { q: 'Koszt utrzymania?', a: 'Księgowość 800-3 000 PLN/mies., adres 200-400 PLN/mies., sprawozdanie 600-1 200 PLN/rok. Minimum 12 000-15 000 PLN/rok.' },
+      { q: 'ZUS u wspólnika?', a: '1 wspólnik = ZUS jak samozatrudniony. 2+ wspólników - bez ZUS (oprócz pracowników i B2B).' }
     ],
     related: ['gotowe-firmy', 'jdg', 'podatki-ksiegowosc'],
     ctaTitle: 'Sp. z o.o. w 7 dni roboczych',
-    ctaSubtitle: 'Bezpłatna konsultacja, optymalizacja struktury. Pod klucz — od 4 800 PLN.'
+    ctaSubtitle: 'Bezpłatna konsultacja, optymalizacja struktury. Pod klucz - od 4 800 PLN.'
   },
   en: {
     slug: 'rejestracja-sp-z-oo',
     group: 'business',
     icon: 'landmark',
-    badge: 'Sp. z o.o. · 7–10 business days turnkey',
+    badge: 'Sp. z o.o. · 7-10 business days turnkey',
     title: 'Sp. z o.o. registration',
-    subtitle: 'Polish LLC in 7–10 days — KRS, NIP, REGON, VAT, bank account',
-    lead: 'Sp. z o.o. (limited liability company) is the most popular Polish company form for foreign founders. Minimum capital 5,000 PLN, liability capped at the contribution, available without a residence card. We register via S24 in 24 hours or via notary in 5–7 days. Includes Warsaw registered office, account opening at mBank/ING/PKO, VAT registration and ZUS setup.',
+    subtitle: 'Polish LLC in 7-10 days - KRS, NIP, REGON, VAT, bank account',
+    lead: 'Sp. z o.o. (limited liability company) is the most popular Polish company form for foreign founders. Minimum capital 5,000 PLN, liability capped at the contribution, available without a residence card. We register via S24 in 24 hours or via notary in 5-7 days. Includes Warsaw registered office, account opening at mBank/ING/PKO, VAT registration and ZUS setup.',
     facts: [
       { label: 'Min. capital', value: '5,000 PLN', note: 'kapitał zakładowy' },
-      { label: 'KRS — S24', value: '24–48 h', note: 'online via ePUAP' },
-      { label: 'KRS — notary', value: '5–7 days', note: 'tailored articles' },
-      { label: 'CIT', value: '9% / 19%', note: '9% — small (under 2M EUR)' }
+      { label: 'KRS - S24', value: '24-48 h', note: 'online via ePUAP' },
+      { label: 'KRS - notary', value: '5-7 days', note: 'tailored articles' },
+      { label: 'CIT', value: '9% / 19%', note: '9% - small (under 2M EUR)' }
     ],
     grounds: {
       title: 'When to choose Sp. z o.o.',
@@ -201,22 +201,22 @@ const rejestracjaSpZOo: ServiceEntry = {
         { title: 'Personal asset protection', desc: 'Liability limited to capital contribution. Company debts don\'t cascade to shareholders (except board liability for negligence).' },
         { title: 'Investor-ready', desc: 'Share classes, voting asymmetry, ESOP plans, special exit / inheritance terms.' },
         { title: 'EU clients', desc: 'EU VAT number, OSS/IOSS, accepted by enterprise procurement.' },
-        { title: 'IP Box and Estonian CIT', desc: '5% IP Box for software IP. Estonian CIT defers tax until dividend payout — Sp. z o.o. only.' },
-        { title: 'Residence permit through business', desc: 'Active Sp. z o.o. (revenue, 2+ employees) — basis for self-employed residence permit.' }
+        { title: 'IP Box and Estonian CIT', desc: '5% IP Box for software IP. Estonian CIT defers tax until dividend payout - Sp. z o.o. only.' },
+        { title: 'Residence permit through business', desc: 'Active Sp. z o.o. (revenue, 2+ employees) - basis for self-employed residence permit.' }
       ]
     },
     timeline: {
       title: 'Registration steps',
-      subtitle: 'From first call to full operations — 7–14 business days.',
+      subtitle: 'From first call to full operations - 7-14 business days.',
       steps: [
         { title: 'Free consultation', duration: '30 min', desc: 'Structure, taxes (CIT / Estonian / IP Box), PKD codes. S24 vs notary.' },
-        { title: 'Articles of association', duration: '1–2 days', desc: 'PKD, shares, board, representation, dividend policy.' },
-        { title: 'Signing', duration: '1 day', desc: 'S24 — Polish trusted profile or qualified e-signature. Notary — in person or by power of attorney.' },
-        { title: 'KRS filing', duration: '24 h (S24) / 5–7 days', desc: 'KRS issues number, NIP, REGON automatically.' },
+        { title: 'Articles of association', duration: '1-2 days', desc: 'PKD, shares, board, representation, dividend policy.' },
+        { title: 'Signing', duration: '1 day', desc: 'S24 - Polish trusted profile or qualified e-signature. Notary - in person or by power of attorney.' },
+        { title: 'KRS filing', duration: '24 h (S24) / 5-7 days', desc: 'KRS issues number, NIP, REGON automatically.' },
         { title: 'CRBR (UBO)', duration: '7 days', desc: 'Beneficial owner register. Up to 1M PLN fine for late filing.' },
-        { title: 'Bank account', duration: '3–7 days', desc: 'mBank, ING, PKO, Pekao, Santander. KYC, video verification.' },
-        { title: 'VAT registration', duration: '7–30 days', desc: 'VAT-R. Exemption up to 200k PLN. EU — VAT-UE mandatory.' },
-        { title: 'ZUS setup', duration: '7 days', desc: 'When hiring — ZUS-ZPA and ZUS-ZUA per employee.' }
+        { title: 'Bank account', duration: '3-7 days', desc: 'mBank, ING, PKO, Pekao, Santander. KYC, video verification.' },
+        { title: 'VAT registration', duration: '7-30 days', desc: 'VAT-R. Exemption up to 200k PLN. EU - VAT-UE mandatory.' },
+        { title: 'ZUS setup', duration: '7 days', desc: 'When hiring - ZUS-ZPA and ZUS-ZUA per employee.' }
       ]
     },
     documents: {
@@ -230,7 +230,7 @@ const rejestracjaSpZOo: ServiceEntry = {
         'PKD codes',
         'Share structure',
         'Representation (single / joint)',
-        'Registered office — ours in Warsaw included',
+        'Registered office - ours in Warsaw included',
         'Trusted profile / qualified e-signature'
       ]
     },
@@ -243,12 +243,12 @@ const rejestracjaSpZOo: ServiceEntry = {
         { label: 'Notary', value: 'from 3,500 PLN', note: 'Custom articles' },
         { label: 'Turnkey + bank + VAT', value: 'from 4,800 PLN', note: 'KRS + bank + VAT-R + bookkeeping' }
       ],
-      note: 'State fees: KRS 250 PLN (S24) or 500 PLN (notary), MSiG 100 PLN, notary fees 700–1,200 PLN at 5,000 PLN capital.'
+      note: 'State fees: KRS 250 PLN (S24) or 500 PLN (notary), MSiG 100 PLN, notary fees 700-1,200 PLN at 5,000 PLN capital.'
     },
     legalBase: {
       title: 'Legal basis',
       items: [
-        'Commercial Companies Code of 15 September 2000 — Chapter III (Sp. z o.o.)',
+        'Commercial Companies Code of 15 September 2000 - Chapter III (Sp. z o.o.)',
         'KRS Act of 20 August 1997',
         'AML Act of 1 March 2018 (CRBR beneficial owner register)',
         'VAT Act of 11 March 2004',
@@ -256,13 +256,13 @@ const rejestracjaSpZOo: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Without coming to Poland?', a: 'Yes. S24 — Polish trusted profile or qualified signature (issued remotely in 1–2 days). Notary — power of attorney signed before a Polish consul or notarized + apostille.' },
-      { q: 'Need PESEL?', a: 'Board member — yes (electronic financial filings to KRS). Shareholder — no, passport is enough. We obtain PESEL in 7–14 days.' },
-      { q: 'S24 or notary?', a: 'S24 — fast (24 h), cheap (250 PLN), boilerplate articles. Notary — slower, pricier, allows share classes, voting asymmetry, ESOP, custom exit / inheritance rules. Larger projects — notary.' },
-      { q: 'CIT rate?', a: '9% for small (< 2M EUR) — first year + crossover year. 19% standard. Estonian CIT — deferred until dividend. IP Box — 5% on software IP.' },
+      { q: 'Without coming to Poland?', a: 'Yes. S24 - Polish trusted profile or qualified signature (issued remotely in 1-2 days). Notary - power of attorney signed before a Polish consul or notarized + apostille.' },
+      { q: 'Need PESEL?', a: 'Board member - yes (electronic financial filings to KRS). Shareholder - no, passport is enough. We obtain PESEL in 7-14 days.' },
+      { q: 'S24 or notary?', a: 'S24 - fast (24 h), cheap (250 PLN), boilerplate articles. Notary - slower, pricier, allows share classes, voting asymmetry, ESOP, custom exit / inheritance rules. Larger projects - notary.' },
+      { q: 'CIT rate?', a: '9% for small (< 2M EUR) - first year + crossover year. 19% standard. Estonian CIT - deferred until dividend. IP Box - 5% on software IP.' },
       { q: 'Single-shareholder Sp. z o.o.?', a: 'Allowed. But the sole shareholder pays ZUS as self-employed (~1,700 PLN/month). Solution: add a second shareholder with a token share.' },
-      { q: 'Running cost?', a: 'Bookkeeping 800–3,000 PLN/month, registered office 200–400 PLN/month, annual filings 600–1,200 PLN. Minimum 12,000–15,000 PLN/year.' },
-      { q: 'ZUS for shareholders?', a: '1 shareholder = ZUS as self-employed. 2+ — no ZUS (except for employees or B2B contracts).' }
+      { q: 'Running cost?', a: 'Bookkeeping 800-3,000 PLN/month, registered office 200-400 PLN/month, annual filings 600-1,200 PLN. Minimum 12,000-15,000 PLN/year.' },
+      { q: 'ZUS for shareholders?', a: '1 shareholder = ZUS as self-employed. 2+ - no ZUS (except for employees or B2B contracts).' }
     ],
     related: ['gotowe-firmy', 'jdg', 'podatki-ksiegowosc'],
     ctaTitle: 'Sp. z o.o. in 7 business days',

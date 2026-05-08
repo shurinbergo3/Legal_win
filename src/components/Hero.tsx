@@ -113,7 +113,7 @@ export function Hero() {
         className="pointer-events-none absolute -top-40 right-[-12%] h-[520px] w-[520px] rounded-full bg-gold-500/15 blur-[140px] blob-1"
       />
 
-      {/* Themis watermark — large, behind headline, right side */}
+      {/* Themis watermark - large, behind headline, right side */}
       <motion.div
         aria-hidden
         style={{ y: themisY }}
@@ -121,7 +121,7 @@ export function Hero() {
       >
         <ThemisScales className="h-full w-full" />
       </motion.div>
-      {/* Mobile Themis — smaller, top-right */}
+      {/* Mobile Themis - smaller, top-right */}
       <div
         aria-hidden
         className="pointer-events-none absolute right-2 top-24 h-40 w-40 text-gold-400/[0.10] sm:right-6 sm:top-28 sm:h-56 sm:w-56 lg:hidden"
@@ -129,7 +129,7 @@ export function Hero() {
         <ThemisScales className="h-full w-full" />
       </div>
 
-      {/* Text content — parallax wrapper only, entrance via CSS so LCP isn't blocked by JS */}
+      {/* Text content - parallax wrapper only, entrance via CSS so LCP isn't blocked by JS */}
       <motion.div
         style={{ y: textY, opacity: textOpacity }}
         className="relative mx-auto grid max-w-[1400px] grid-cols-12 gap-x-6 gap-y-10 px-6 lg:px-10"
@@ -158,12 +158,12 @@ export function Hero() {
           </span>
         </h1>
 
-        {/* Subtitle — LCP element, rendered visible immediately via CSS */}
+        {/* Subtitle - LCP element, rendered visible immediately via CSS */}
         <p className="hero-in hero-in-d3 col-span-12 max-w-2xl text-pretty text-lg leading-relaxed text-ink-200 lg:col-span-7 lg:text-xl [text-shadow:0_1px_18px_rgba(5,9,26,0.65)]">
           {t('subtitle')}
         </p>
 
-        {/* Social proof — public rating from Testimonials section */}
+        {/* Social proof - public rating from Testimonials section */}
         <div className="hero-in hero-in-d4 col-span-12 -mt-2 flex flex-wrap items-center gap-x-3 gap-y-2">
           <div className="flex items-center gap-1.5 rounded-full border hairline-gold bg-ink-950/55 px-3 py-1.5 backdrop-blur-md">
             <span className="flex items-center gap-0.5" aria-hidden>
@@ -212,7 +212,7 @@ export function Hero() {
         </div>
       </motion.div>
 
-      {/* Editorial photo caption — bottom left */}
+      {/* Editorial photo caption - bottom left */}
       <div className="hero-in hero-in-d6 pointer-events-none absolute bottom-6 left-6 z-10 hidden flex-col gap-1 font-mono text-[10px] uppercase tracking-[0.32em] text-ink-300/80 sm:left-10 sm:flex">
         <span className="text-gold-400/80">52.2297° N · 21.0122° E</span>
         <span>Pałac Kultury · Warszawa</span>

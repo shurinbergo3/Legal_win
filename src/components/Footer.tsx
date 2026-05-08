@@ -11,7 +11,7 @@ import { LogoBadge } from './Logo';
 const govSources: { name: string; url: string; note: string }[] = [
   { name: 'udsc.gov.pl', url: 'https://udsc.gov.pl', note: 'Urząd do Spraw Cudzoziemców' },
   { name: 'mazowieckie.uw.gov.pl', url: 'https://www.mazowieckie.pl', note: 'Mazowiecki Urząd Wojewódzki' },
-  { name: 'gov.pl/web/mswia', url: 'https://www.gov.pl/web/mswia', note: 'MSWiA — zezwolenie na nieruchomość' },
+  { name: 'gov.pl/web/mswia', url: 'https://www.gov.pl/web/mswia', note: 'MSWiA - zezwolenie na nieruchomość' },
   { name: 'biznes.gov.pl', url: 'https://www.biznes.gov.pl', note: 'Sp. z o.o., JDG, S24' }
 ];
 
@@ -55,7 +55,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid grid-cols-12 gap-x-0 gap-y-10">
           <div className="col-span-12 flex flex-col gap-5 lg:col-span-5">
-            {/* Full badge — at this size LW + LEGAL · WIN + WARSZAWA all read */}
+            {/* Full badge - at this size LW + LEGAL · WIN + WARSZAWA all read */}
             <Link href="/" aria-label="LegalWin" className="inline-block w-fit">
               <LogoBadge
                 size={168}
@@ -113,7 +113,7 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Government sources — outbound links to authoritative .gov.pl domains.
+        {/* Government sources - outbound links to authoritative .gov.pl domains.
             Located between the main column grid and the privacy/cookies bar so
             the editorial layout stays unchanged on tablet & desktop. */}
         <div className="mt-14 grid grid-cols-12 gap-x-6 gap-y-4 border-t hairline pt-8">

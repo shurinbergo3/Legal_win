@@ -1,7 +1,7 @@
 ---
 slug: apostille-v-polshe
-title: "Apostille w Polsce — czym jest i kiedy jest potrzebny w 2026"
-description: "Czym jest apostille w Polsce, jak i gdzie go uzyskać, na które dokumenty potrzebny. Konwencja Haska 1961, MSZ Polska, ul. Krucza 38/42, opłata 60 PLN, terminy 1–3 tygodnie. Alternatywa — legalizacja konsularna."
+title: "Apostille w Polsce - czym jest i kiedy jest potrzebny w 2026"
+description: "Czym jest apostille w Polsce, jak i gdzie go uzyskać, na które dokumenty potrzebny. Konwencja Haska 1961, MSZ Polska, ul. Krucza 38/42, opłata 60 PLN, terminy 1-3 tygodnie. Alternatywa - legalizacja konsularna."
 locale: pl
 publishDate: 2025-12-18
 author: LegalWin
@@ -19,11 +19,11 @@ relatedServices:
 schema: Article
 ---
 
-# Apostille w Polsce — czym jest i kiedy jest potrzebny w 2026
+# Apostille w Polsce - czym jest i kiedy jest potrzebny w 2026
 
-Apostille to uproszczona forma legalizacji dokumentów urzędowych pomiędzy państwami będącymi stronami **Konwencji Haskiej z 1961 roku**. Polska przystąpiła do konwencji w 2005 roku i od tego czasu apostille zastąpił długą procedurę legalizacji konsularnej dla dokumentów wystawianych do użytku w ponad 120 krajach. W Polsce apostille wydaje **Ministerstwo Spraw Zagranicznych (MSZ)** przy ul. Kruczej 38/42 w Warszawie. Koszt — 60 PLN za dokument, czas — 1–3 tygodnie zależnie od typu.
+Apostille to uproszczona forma legalizacji dokumentów urzędowych pomiędzy państwami będącymi stronami **Konwencji Haskiej z 1961 roku**. Polska przystąpiła do konwencji w 2005 roku i od tego czasu apostille zastąpił długą procedurę legalizacji konsularnej dla dokumentów wystawianych do użytku w ponad 120 krajach. W Polsce apostille wydaje **Ministerstwo Spraw Zagranicznych (MSZ)** przy ul. Kruczej 38/42 w Warszawie. Koszt - 60 PLN za dokument, czas - 1-3 tygodnie zależnie od typu.
 
-## Czym jest apostille — krótkie wyjaśnienie
+## Czym jest apostille - krótkie wyjaśnienie
 
 Apostille to specjalny stempel lub naklejka na dokumencie, który potwierdza:
 
@@ -33,9 +33,9 @@ Apostille to specjalny stempel lub naklejka na dokumencie, który potwierdza:
 
 Po nałożeniu apostille dokument jest automatycznie akceptowany w każdym państwie strony Konwencji Haskiej bez dodatkowych działań.
 
-W Polsce apostille **nie jest wymagany** dla dokumentów przekazywanych **do państw UE** — Rozporządzenie (UE) 2016/1191 znosi apostille dla podstawowych dokumentów stanu cywilnego w UE.
+W Polsce apostille **nie jest wymagany** dla dokumentów przekazywanych **do państw UE** - Rozporządzenie (UE) 2016/1191 znosi apostille dla podstawowych dokumentów stanu cywilnego w UE.
 
-## Kiedy apostille jest potrzebny — przypadki praktyczne
+## Kiedy apostille jest potrzebny - przypadki praktyczne
 
 W Polsce apostille jest wnioskowany dla dokumentów do użytku **za granicą** (czyli wydanych w Polsce i używanych w państwach pozaeuropejskich):
 
@@ -47,7 +47,7 @@ W Polsce apostille jest wnioskowany dla dokumentów do użytku **za granicą** (
 | Praca medyczna w Turcji | Dyplom lekarski | Tureckie Stowarzyszenie Lekarzy |
 | Ekspat w ZEA | Karta karna, akt urodzenia | Konsulat ZEA |
 
-Apostille jest też potrzebny dla **dokumentów zagranicznych przywiezionych do Polski** — ale w takim przypadku apostille jest nakładane w kraju wydania, a w Polsce dokument jest po prostu tłumaczony (patrz [przewodnik o ślubie z Polakiem](/pl/blog/brak-s-polyakom-registratsiya)).
+Apostille jest też potrzebny dla **dokumentów zagranicznych przywiezionych do Polski** - ale w takim przypadku apostille jest nakładane w kraju wydania, a w Polsce dokument jest po prostu tłumaczony (patrz [przewodnik o ślubie z Polakiem](/pl/blog/brak-s-polyakom-registratsiya)).
 
 ## Jak uzyskać apostille w Polsce
 
@@ -55,25 +55,25 @@ Apostille jest też potrzebny dla **dokumentów zagranicznych przywiezionych do 
 
 **Krok 2.** Jeśli dokument to kopia (np. notarialna), apostille jest na poświadczeniu notarialnym, nie na samym dokumencie. Uzgodnij to z notariuszem przed poświadczeniem.
 
-**Krok 3.** Umów się w MSZ. Rezerwacja przez msz.gov.pl lub mailowo na rejestracja.apostille@msz.gov.pl. Czas oczekiwania — 1–3 tygodnie.
+**Krok 3.** Umów się w MSZ. Rezerwacja przez msz.gov.pl lub mailowo na rejestracja.apostille@msz.gov.pl. Czas oczekiwania - 1-3 tygodnie.
 
 **Krok 4.** Opłacenie 60 PLN na konto MSZ. Dane na stronie msz.gov.pl. Potwierdzenie wpłaty wymagane przy złożeniu.
 
-**Krok 5.** Przynieś oryginał dokumentu do MSZ (Krucza 38/42, II piętro). Złożenie zajmuje 5–10 minut.
+**Krok 5.** Przynieś oryginał dokumentu do MSZ (Krucza 38/42, II piętro). Złożenie zajmuje 5-10 minut.
 
-**Krok 6.** Odbierz dokument po 7–21 dniach. Dwie opcje:
+**Krok 6.** Odbierz dokument po 7-21 dniach. Dwie opcje:
 - Osobiście w MSZ (bez konieczności zapisu na odbiór)
-- Kurierem (zamówienie przy złożeniu) — dodatkowe 30–50 PLN
+- Kurierem (zamówienie przy złożeniu) - dodatkowe 30-50 PLN
 
-## Alternatywa — legalizacja konsularna
+## Alternatywa - legalizacja konsularna
 
 Jeśli kraj docelowy **nie przystąpił** do Konwencji Haskiej, wymagana jest pełna legalizacja konsularna w trzech etapach:
 
-1. Potwierdzenie autentyczności podpisu w polskim MSZ — 60 PLN
-2. Tłumaczenie na język kraju docelowego przez tłumacza przysięgłego — 100–300 PLN
-3. Legalizacja w konsulacie kraju docelowego w Warszawie — 50–300 PLN
+1. Potwierdzenie autentyczności podpisu w polskim MSZ - 60 PLN
+2. Tłumaczenie na język kraju docelowego przez tłumacza przysięgłego - 100-300 PLN
+3. Legalizacja w konsulacie kraju docelowego w Warszawie - 50-300 PLN
 
-Czas — 4–8 tygodni wobec 2–3 tygodni dla apostille.
+Czas - 4-8 tygodni wobec 2-3 tygodni dla apostille.
 
 Kraje wymagające legalizacji konsularnej (nie apostille):
 
@@ -85,7 +85,7 @@ Kraje wymagające legalizacji konsularnej (nie apostille):
 
 Jeśli dokumenty są wydane **w kraju pochodzenia** i potrzebne w Polsce, apostille nakładane jest w kraju wydania, nie w Polsce. Następnie:
 
-1. Tłumaczenie przysięgłe na polski (50–200 PLN)
+1. Tłumaczenie przysięgłe na polski (50-200 PLN)
 2. Dokument gotowy do użytku w polskich urzędach
 
 Lista organów wydających apostille w wybranych krajach:
@@ -100,7 +100,7 @@ Lista organów wydających apostille w wybranych krajach:
 | Azerbejdżan | MSZ (Baku) |
 | Rosja | MSZ Rosji (Moskwa) lub oddziały regionalne |
 
-W krajach WNP apostille zwykle kosztuje 30–100 USD ekwiwalentu i realizowany jest w 1–3 tygodnie.
+W krajach WNP apostille zwykle kosztuje 30-100 USD ekwiwalentu i realizowany jest w 1-3 tygodnie.
 
 ## Dokumenty, dla których apostille jest najczęściej potrzebny
 
@@ -116,7 +116,7 @@ W krajach WNP apostille zwykle kosztuje 30–100 USD ekwiwalentu i realizowany j
 | Świadectwo chrztu / ślubu | ślub konkordatowy |
 | Książeczka wojskowa | rzadko, do emerytur |
 
-## Koszt — typowy pakiet
+## Koszt - typowy pakiet
 
 Dla typowej karty pobytu z rodziny cudzoziemiec przywozi:
 
@@ -128,7 +128,7 @@ Dla typowej karty pobytu z rodziny cudzoziemiec przywozi:
 | Dyplom uczelni | 60 PLN ekw. | 200 PLN | 260 PLN |
 | **Razem** | | | **680 PLN** |
 
-Do tego doliczane są koszty podróży do kraju wydania lub zdalnej obsługi przez znajomych (50–200 USD dodatkowo).
+Do tego doliczane są koszty podróży do kraju wydania lub zdalnej obsługi przez znajomych (50-200 USD dodatkowo).
 
 ## Najczęstsze błędy
 
@@ -140,14 +140,14 @@ Do tego doliczane są koszty podróży do kraju wydania lub zdalnej obsługi prz
 
 **4. Tłumaczenie przed apostille.** Apostille musi być nałożone **przed** tłumaczeniem. W przeciwnym razie tłumaczenie trzeba ponowić po apostille (włącznie z tekstem samego stempla).
 
-**5. Spóźnienie z rezerwacją w MSZ.** Rezerwacja na 1–3 tygodnie wcześniej. Pilne potrzeby — spróbuj alternatywnych urzędów w Krakowie lub Wrocławiu (czas może być krótszy).
+**5. Spóźnienie z rezerwacją w MSZ.** Rezerwacja na 1-3 tygodnie wcześniej. Pilne potrzeby - spróbuj alternatywnych urzędów w Krakowie lub Wrocławiu (czas może być krótszy).
 
 ## Kiedy potrzebujesz prawnika
 
 Samodzielne apostille ma sens dla pojedynczego prostego dokumentu. Prawnik ma sens, gdy:
 
 - Apostille potrzebny dla 5+ dokumentów (logistyka)
-- Dokumenty z kraju o ograniczonej współpracy (RU w 2024–2026)
+- Dokumenty z kraju o ograniczonej współpracy (RU w 2024-2026)
 - Zbieranie dokumentów równolegle z procesami karty pobytu lub USC
 - Wcześniejsza odmowa MSZ lub pilna procedura
 - Sprawy złożone (dokumenty 30+ lat, nieistniejące urzędy)
@@ -163,5 +163,5 @@ Niniejszy artykuł ma charakter informacyjny. Konkretne terminy i decyzje zależ
 **Powiązane artykuły:**
 - [Zawarcie małżeństwa z obywatelem Polski](/pl/blog/brak-s-polyakom-registratsiya)
 - [Karta czasowego pobytu w Polsce 2026: instrukcja krok po kroku](/pl/blog/karta-pobytu-2026-poshagovaya-instrukciya)
-- [Karta Polaka — jak ją uzyskać](/pl/blog/karta-polaka-kak-poluchit)
+- [Karta Polaka - jak ją uzyskać](/pl/blog/karta-polaka-kak-poluchit)
 - Usługa: [apostille dokumentów](/pl/uslugi/apostille)

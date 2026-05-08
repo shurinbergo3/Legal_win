@@ -8,10 +8,10 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     badge: 'KRK · e-KRK · Ministerstwo Sprawiedliwości',
     title: 'Справка о несудимости',
     subtitle: 'Zaświadczenie z Krajowego Rejestru Karnego (KRK)',
-    lead: 'Справка о несудимости (zaświadczenie z KRK) — выписка из Польского национального реестра судимостей. Обязательна при оформлении гражданства Польши, лицензий MOL, Karty stałego pobytu, работе с детьми и тендерах. Получаем за 7 дней — онлайн через e-KRK или физически в Министерстве Юстиции и судах. Параллельно оформляем справки KRK из стран происхождения.',
+    lead: 'Справка о несудимости (zaświadczenie z KRK) - выписка из Польского национального реестра судимостей. Обязательна при оформлении гражданства Польши, лицензий MOL, Karty stałego pobytu, работе с детьми и тендерах. Получаем за 7 дней - онлайн через e-KRK или физически в Министерстве Юстиции и судах. Параллельно оформляем справки KRK из стран происхождения.',
     facts: [
       { label: 'Срок выдачи', value: '7 дней', note: 'standard · 1 день e-KRK' },
-      { label: 'Госпошлина', value: '20–30 PLN', note: 'e-KRK / форма papierowa' },
+      { label: 'Госпошлина', value: '20-30 PLN', note: 'e-KRK / форма papierowa' },
       { label: 'Где', value: 'Ministerstwo Sprawiedliwości', note: 'или сечения окружных судов' },
       { label: 'Действует', value: '6 месяцев', note: 'для большинства целей' }
     ],
@@ -19,26 +19,26 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
       title: 'Когда нужна справка о несудимости',
       subtitle: 'KRK требуют десятки польских процедур. Самые востребованные у иностранцев:',
       items: [
-        { title: 'Гражданство Польши', desc: 'Обязательно для wniosku do Prezydenta RP (nadanie obywatelstwa) и uznania za obywatela polskiego. Срок действия — 3 месяца на момент подачи.' },
-        { title: 'Karta Stałego Pobytu', desc: 'Воевода требует справку KRK для подачи на ПМЖ — без неё wniosek не принимается. Также — KRK из страны происхождения с apostille.' },
+        { title: 'Гражданство Польши', desc: 'Обязательно для wniosku do Prezydenta RP (nadanie obywatelstwa) и uznania za obywatela polskiego. Срок действия - 3 месяца на момент подачи.' },
+        { title: 'Karta Stałego Pobytu', desc: 'Воевода требует справку KRK для подачи на ПМЖ - без неё wniosek не принимается. Также - KRK из страны происхождения с apostille.' },
         { title: 'Лицензии и концессии', desc: 'Лицензия MOL (перевозки), охранная (ochrona), детектив, broker ubezpieczeniowy, прокурист, biegły rewident.' },
-        { title: 'Работа с детьми', desc: 'Школы, детские сады, обучение, репетиторство, тренеры. С 2024 — обязательная проверка через системы Centralnego Rejestru Sprawców.' },
+        { title: 'Работа с детьми', desc: 'Школы, детские сады, обучение, репетиторство, тренеры. С 2024 - обязательная проверка через системы Centralnego Rejestru Sprawców.' },
         { title: 'Государственная служба', desc: 'Все позиции в administracji rządowej и samorządowej, polиция, судьи, прокуроры, ABW, военные.' },
-        { title: 'Тендеры и публичные закупки', desc: 'Подача предложения в trybie zamówień publicznych — справка KRK на фирму (z KRS) и на каждого члена zarządu.' },
+        { title: 'Тендеры и публичные закупки', desc: 'Подача предложения в trybie zamówień publicznych - справка KRK на фирму (z KRS) и на каждого члена zarządu.' },
         { title: 'Banking и финансы', desc: 'Должности w bankach, СRK, KNF-надзор, страховых компаниях. KRK + KRK z państw, gdzie pracował.' },
-        { title: 'Виза или ВНЖ за рубежом', desc: 'США (виза O, EB), Канада (PR), Великобритания (skilled worker), ОАЭ — все требуют KRK с apostille и переводом.' }
+        { title: 'Виза или ВНЖ за рубежом', desc: 'США (виза O, EB), Канада (PR), Великобритания (skilled worker), ОАЭ - все требуют KRK с apostille и переводом.' }
       ]
     },
     timeline: {
       title: 'Как мы получаем справку',
-      subtitle: 'Стандартный цикл — 1–7 дней через e-KRK или физически в Министерстве Юстиции.',
+      subtitle: 'Стандартный цикл - 1-7 дней через e-KRK или физически в Министерстве Юстиции.',
       steps: [
         { title: 'Консультация', duration: '15 мин', desc: 'Уточняем цель, формат (электронная/бумажная), нужен ли apostille и перевод. Подбираем оптимальный способ подачи.' },
-        { title: 'Доверенность', duration: '1 день', desc: 'Подписываем pełnomocnictwo (17 PLN госпошлина). Через ePUAP — без бумажной волокиты.' },
-        { title: 'Подача wniosku', duration: '1 день', desc: 'e-KRK (через профиль zaufany) — 20 PLN, выдача за 1 день. Бумажный wniosek в Ministerstwie Sprawiedliwości или Sądzie Okręgowym — 30 PLN, 7 дней.' },
-        { title: 'Получение справки', duration: '1–7 дней', desc: 'Электронная — на e-mail или ePUAP с электронной подписью МС. Бумажная — забираем лично или отправляем курьером.' },
-        { title: 'Apostille (если нужно)', duration: '3–5 дней', desc: 'Для использования за рубежом — apostille от MSZ (60 PLN). Для стран ЕС — apostille не нужно с 2019 г.' },
-        { title: 'Присяжный перевод', duration: '2–3 дня', desc: 'Перевод на язык целевой страны (английский, немецкий, испанский, арабский — у нас есть проверенные присяжные).' }
+        { title: 'Доверенность', duration: '1 день', desc: 'Подписываем pełnomocnictwo (17 PLN госпошлина). Через ePUAP - без бумажной волокиты.' },
+        { title: 'Подача wniosku', duration: '1 день', desc: 'e-KRK (через профиль zaufany) - 20 PLN, выдача за 1 день. Бумажный wniosek в Ministerstwie Sprawiedliwości или Sądzie Okręgowym - 30 PLN, 7 дней.' },
+        { title: 'Получение справки', duration: '1-7 дней', desc: 'Электронная - на e-mail или ePUAP с электронной подписью МС. Бумажная - забираем лично или отправляем курьером.' },
+        { title: 'Apostille (если нужно)', duration: '3-5 дней', desc: 'Для использования за рубежом - apostille от MSZ (60 PLN). Для стран ЕС - apostille не нужно с 2019 г.' },
+        { title: 'Присяжный перевод', duration: '2-3 дня', desc: 'Перевод на язык целевой страны (английский, немецкий, испанский, арабский - у нас есть проверенные присяжные).' }
       ]
     },
     documents: {
@@ -50,21 +50,21 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
         'Karta pobytu или иной документ легального пребывания',
         'Pełnomocnictwo dla LegalWin (17 PLN госпошлина или ePUAP бесплатно)',
         'Доступ к ePUAP / profil zaufany (для e-KRK)',
-        'Девичья фамилия (если меняли) — для проверки во всех записях',
+        'Девичья фамилия (если меняли) - для проверки во всех записях',
         'Все имена и фамилии, под которыми вы были зарегистрированы',
-        'Цель использования — определяет форму wniosku (osoba prywatna / w celu zatrudnienia)'
+        'Цель использования - определяет форму wniosku (osoba prywatna / w celu zatrudnienia)'
       ]
     },
     pricing: {
       title: 'Стоимость работы',
-      subtitle: 'Гонорар за справку — от 200 PLN. Госпошлины — отдельно.',
+      subtitle: 'Гонорар за справку - от 200 PLN. Госпошлины - отдельно.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '15 минут · уточнение цели' },
         { label: 'KRK под ключ', value: 'от 200 PLN', note: 'Wniosek, доверенность, выдача · 7 дней' },
         { label: 'KRK срочно (1 день)', value: 'от 350 PLN', note: 'e-KRK с приоритетной обработкой' },
         { label: 'KRK + apostille + перевод', value: 'от 480 PLN', note: 'Для использования за рубежом' }
       ],
-      note: 'Указаны гонорары LegalWin. Госпошлины (20 PLN e-KRK, 30 PLN bumażna, 17 PLN pełnomocnictwo, 60 PLN apostille) и присяжный перевод (~80 PLN/документ) — отдельно.'
+      note: 'Указаны гонорары LegalWin. Госпошлины (20 PLN e-KRK, 30 PLN bumażna, 17 PLN pełnomocnictwo, 60 PLN apostille) и присяжный перевод (~80 PLN/документ) - отдельно.'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -77,17 +77,17 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Чем отличается KRK для частного лица и для работодателя?', a: 'Wniosek "osoba prywatna" (заявление от частного лица) — содержит все записи о судимости, включая снятые. Wniosek "do celów zatrudnienia" (заявление для целей трудоустройства) — только относящиеся к конкретной должности (например, для работы с детьми — только статьи против половой неприкосновенности). Для иммиграционных целей всегда — частный.' },
-      { q: 'Сколько действует справка KRK?', a: 'KRK (Krajowy Rejestr Karny — Государственный реестр судимостей) — стандарт 6 месяцев от даты выдачи. Для гражданства Польши — 3 месяца. Для тендеров — обычно 3 месяца. Делайте справку максимально близко к дате подачи.' },
-      { q: 'Можно ли получить KRK без визита в Польшу?', a: 'Да. Через e-KRK (электронный сервис KRK) с profil zaufany ePUAP (доверенным профилем) — полностью онлайн. Если ePUAP нет — оформляем доверенность у польского консула в стране проживания. Получим электронную справку за 1–3 дня.' },
-      { q: 'Как получить справку KRK из страны происхождения?', a: 'Через консульство страны в Польше или через местного партнёра. Помогаем — у нас партнёры в Украине, Беларуси, России, Казахстане, Грузии, Молдове, Армении. Срок — 14–30 дней. Стоимость — 250–500 PLN наших + консульские сборы.' },
-      { q: 'KRK с apostille — куда подаётся?', a: 'Apostille ставит MSZ Warszawa за 3–5 дней. Если нужно срочно — express tariff (1 день, +50%). Для стран ЕС — apostille не нужно (Регламент 2016/1191), достаточно справки и присяжного перевода.' },
-      { q: 'Что если у меня была судимость, но снятая (zatarta)?', a: 'В справке "do celów zatrudnienia" zatarte записи не показываются. В частной справке — могут быть указаны "skazany — wyrok zatarty". Для гражданства Польши Президент рассматривает все записи, включая снятые. Помогаем оценить шансы и подготовить wyjaśnienia.' },
-      { q: 'Есть ли разница между KRK и справкой о несудимости из суда?', a: 'KRK выдаёт Ministerstwo Sprawiedliwości — это центральный реестр всех записей. Справка из суда — только по делам конкретного суда. Везде, где написано «справка о несудимости», нужна KRK. Sądowe справки — для очень узких процедур.' }
+      { q: 'Чем отличается KRK для частного лица и для работодателя?', a: 'Wniosek "osoba prywatna" (заявление от частного лица) - содержит все записи о судимости, включая снятые. Wniosek "do celów zatrudnienia" (заявление для целей трудоустройства) - только относящиеся к конкретной должности (например, для работы с детьми - только статьи против половой неприкосновенности). Для иммиграционных целей всегда - частный.' },
+      { q: 'Сколько действует справка KRK?', a: 'KRK (Krajowy Rejestr Karny - Государственный реестр судимостей) - стандарт 6 месяцев от даты выдачи. Для гражданства Польши - 3 месяца. Для тендеров - обычно 3 месяца. Делайте справку максимально близко к дате подачи.' },
+      { q: 'Можно ли получить KRK без визита в Польшу?', a: 'Да. Через e-KRK (электронный сервис KRK) с profil zaufany ePUAP (доверенным профилем) - полностью онлайн. Если ePUAP нет - оформляем доверенность у польского консула в стране проживания. Получим электронную справку за 1-3 дня.' },
+      { q: 'Как получить справку KRK из страны происхождения?', a: 'Через консульство страны в Польше или через местного партнёра. Помогаем - у нас партнёры в Украине, Беларуси, России, Казахстане, Грузии, Молдове, Армении. Срок - 14-30 дней. Стоимость - 250-500 PLN наших + консульские сборы.' },
+      { q: 'KRK с apostille - куда подаётся?', a: 'Apostille ставит MSZ Warszawa за 3-5 дней. Если нужно срочно - express tariff (1 день, +50%). Для стран ЕС - apostille не нужно (Регламент 2016/1191), достаточно справки и присяжного перевода.' },
+      { q: 'Что если у меня была судимость, но снятая (zatarta)?', a: 'В справке "do celów zatrudnienia" zatarte записи не показываются. В частной справке - могут быть указаны "skazany - wyrok zatarty". Для гражданства Польши Президент рассматривает все записи, включая снятые. Помогаем оценить шансы и подготовить wyjaśnienia.' },
+      { q: 'Есть ли разница между KRK и справкой о несудимости из суда?', a: 'KRK выдаёт Ministerstwo Sprawiedliwości - это центральный реестр всех записей. Справка из суда - только по делам конкретного суда. Везде, где написано «справка о несудимости», нужна KRK. Sądowe справки - для очень узких процедур.' }
     ],
     related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'Справка KRK за 1–7 дней',
-    ctaSubtitle: 'Бесплатная консультация: уточним цель, формат, нужен ли apostille. От подписания доверенности до получения — обычно 1–7 рабочих дней.'
+    ctaTitle: 'Справка KRK за 1-7 дней',
+    ctaSubtitle: 'Бесплатная консультация: уточним цель, формат, нужен ли apostille. От подписания доверенности до получения - обычно 1-7 рабочих дней.'
   },
   pl: {
     slug: 'zaswiadczenie-o-niekaralnosci',
@@ -96,10 +96,10 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     badge: 'KRK · e-KRK · Ministerstwo Sprawiedliwości',
     title: 'Zaświadczenie o niekaralności',
     subtitle: 'Zaświadczenie z Krajowego Rejestru Karnego (KRK)',
-    lead: 'Zaświadczenie z KRK to wypis z Krajowego Rejestru Karnego. Wymagane do obywatelstwa polskiego, licencji MOL, karty stałego pobytu, pracy z dziećmi i przetargów. Wydanie 1–7 dni — przez e-KRK online lub w Ministerstwie Sprawiedliwości.',
+    lead: 'Zaświadczenie z KRK to wypis z Krajowego Rejestru Karnego. Wymagane do obywatelstwa polskiego, licencji MOL, karty stałego pobytu, pracy z dziećmi i przetargów. Wydanie 1-7 dni - przez e-KRK online lub w Ministerstwie Sprawiedliwości.',
     facts: [
       { label: 'Termin', value: '7 dni', note: 'standard · 1 dzień e-KRK' },
-      { label: 'Opłata', value: '20–30 PLN', note: 'e-KRK / forma papierowa' },
+      { label: 'Opłata', value: '20-30 PLN', note: 'e-KRK / forma papierowa' },
       { label: 'Gdzie', value: 'Ministerstwo Sprawiedliwości', note: 'lub sądy okręgowe' },
       { label: 'Ważność', value: '6 miesięcy', note: 'do większości celów' }
     ],
@@ -108,25 +108,25 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
       subtitle: 'Najczęściej u cudzoziemców:',
       items: [
         { title: 'Obywatelstwo polskie', desc: 'Konieczne do wniosku do Prezydenta RP i uznania za obywatela. 3 miesiące ważności.' },
-        { title: 'Karta Stałego Pobytu', desc: 'Wojewoda wymaga KRK do PR — bez niej wniosek nie przyjęty. Plus KRK z kraju pochodzenia z apostille.' },
+        { title: 'Karta Stałego Pobytu', desc: 'Wojewoda wymaga KRK do PR - bez niej wniosek nie przyjęty. Plus KRK z kraju pochodzenia z apostille.' },
         { title: 'Licencje i koncesje', desc: 'MOL (przewozy), ochrona, detektyw, broker ubezpieczeniowy, prokurent, biegły rewident.' },
-        { title: 'Praca z dziećmi', desc: 'Szkoły, przedszkola, korepetycje, trenerzy. Od 2024 — obowiązkowa weryfikacja w Centralnym Rejestrze Sprawców.' },
+        { title: 'Praca z dziećmi', desc: 'Szkoły, przedszkola, korepetycje, trenerzy. Od 2024 - obowiązkowa weryfikacja w Centralnym Rejestrze Sprawców.' },
         { title: 'Służba publiczna', desc: 'Administracja rządowa i samorządowa, policja, sędziowie, prokuratorzy, ABW, wojsko.' },
         { title: 'Przetargi i zamówienia publiczne', desc: 'KRK firmy i każdego członka zarządu.' },
         { title: 'Bankowość i finanse', desc: 'Stanowiska w bankach, SKOK, nadzór KNF, ubezpieczenia.' },
-        { title: 'Wizy i pobyt zagraniczny', desc: 'USA (O, EB), Kanada (PR), UK (skilled worker), ZEA — wszystkie wymagają KRK z apostille i tłumaczeniem.' }
+        { title: 'Wizy i pobyt zagraniczny', desc: 'USA (O, EB), Kanada (PR), UK (skilled worker), ZEA - wszystkie wymagają KRK z apostille i tłumaczeniem.' }
       ]
     },
     timeline: {
       title: 'Przebieg sprawy',
-      subtitle: '1–7 dni przez e-KRK lub w MS / sądzie.',
+      subtitle: '1-7 dni przez e-KRK lub w MS / sądzie.',
       steps: [
         { title: 'Konsultacja', duration: '15 min', desc: 'Cel, format, potrzeba apostille / tłumaczenia.' },
         { title: 'Pełnomocnictwo', duration: '1 dzień', desc: '17 PLN lub ePUAP gratis.' },
         { title: 'Wniosek', duration: '1 dzień', desc: 'e-KRK (20 PLN, 1 dzień) lub papier (30 PLN, 7 dni).' },
-        { title: 'Odbiór', duration: '1–7 dni', desc: 'Elektroniczna na e-mail/ePUAP z podpisem MS lub odbiór osobisty.' },
-        { title: 'Apostille', duration: '3–5 dni', desc: 'MSZ — 60 PLN. UE — bez apostille (Rozp. 2016/1191).' },
-        { title: 'Tłumaczenie przysięgłe', duration: '2–3 dni', desc: 'EN, DE, ES, AR i inne.' }
+        { title: 'Odbiór', duration: '1-7 dni', desc: 'Elektroniczna na e-mail/ePUAP z podpisem MS lub odbiór osobisty.' },
+        { title: 'Apostille', duration: '3-5 dni', desc: 'MSZ - 60 PLN. UE - bez apostille (Rozp. 2016/1191).' },
+        { title: 'Tłumaczenie przysięgłe', duration: '2-3 dni', desc: 'EN, DE, ES, AR i inne.' }
       ]
     },
     documents: {
@@ -140,7 +140,7 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
         'Dostęp do ePUAP',
         'Nazwisko panieńskie (jeśli zmieniane)',
         'Wszystkie używane imiona i nazwiska',
-        'Cel — wpływa na formę wniosku'
+        'Cel - wpływa na formę wniosku'
       ]
     },
     pricing: {
@@ -152,7 +152,7 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
         { label: 'KRK pilne (1 dzień)', value: 'od 350 PLN', note: 'e-KRK priorytet' },
         { label: 'KRK + apostille + tłumaczenie', value: 'od 480 PLN', note: 'Do użytku zagranicznego' }
       ],
-      note: 'Powyżej honoraria LegalWin. Opłaty (20/30 PLN, 17 PLN pełn., 60 PLN apostille) i tłumaczenia (~80 PLN) — osobno.'
+      note: 'Powyżej honoraria LegalWin. Opłaty (20/30 PLN, 17 PLN pełn., 60 PLN apostille) i tłumaczenia (~80 PLN) - osobno.'
     },
     legalBase: {
       title: 'Podstawa prawna',
@@ -165,17 +165,17 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Różnica między KRK osoby prywatnej a do zatrudnienia?', a: 'Prywatna — wszystkie wpisy. Do zatrudnienia — tylko właściwe stanowisku (np. praca z dziećmi — przestępstwa seksualne). Do TRC/PR/obywatelstwa — zawsze prywatna.' },
-      { q: 'Ważność KRK?', a: '6 miesięcy. Obywatelstwo — 3 mies. Przetargi — 3 mies. Składaj jak najbliżej daty wniosku.' },
-      { q: 'KRK bez wizyty?', a: 'Tak — e-KRK z profilem zaufanym ePUAP. Bez ePUAP — pełnomocnictwo u konsula RP w kraju zamieszkania.' },
-      { q: 'KRK z kraju pochodzenia?', a: 'Przez konsulat w Polsce lub lokalnego partnera. Mamy partnerów w UA, BY, RU, KZ, GE, MD, AM. 14–30 dni, 250–500 PLN naszych + konsulat.' },
-      { q: 'KRK z apostille?', a: 'MSZ Warszawa — 3–5 dni. Express +50% (1 dzień). UE — bez apostille (Rozp. 2016/1191).' },
-      { q: 'Zatarte skazania?', a: 'W "do zatrudnienia" — niewidoczne. W prywatnej — mogą być z adnotacją "wyrok zatarty". Prezydent przy obywatelstwie ocenia wszystko.' },
-      { q: 'KRK vs zaświadczenie z sądu?', a: 'KRK — centralny rejestr (MS). Sąd — tylko sprawy danego sądu. Wszędzie gdzie "zaświadczenie o niekaralności" — KRK.' }
+      { q: 'Różnica między KRK osoby prywatnej a do zatrudnienia?', a: 'Prywatna - wszystkie wpisy. Do zatrudnienia - tylko właściwe stanowisku (np. praca z dziećmi - przestępstwa seksualne). Do TRC/PR/obywatelstwa - zawsze prywatna.' },
+      { q: 'Ważność KRK?', a: '6 miesięcy. Obywatelstwo - 3 mies. Przetargi - 3 mies. Składaj jak najbliżej daty wniosku.' },
+      { q: 'KRK bez wizyty?', a: 'Tak - e-KRK z profilem zaufanym ePUAP. Bez ePUAP - pełnomocnictwo u konsula RP w kraju zamieszkania.' },
+      { q: 'KRK z kraju pochodzenia?', a: 'Przez konsulat w Polsce lub lokalnego partnera. Mamy partnerów w UA, BY, RU, KZ, GE, MD, AM. 14-30 dni, 250-500 PLN naszych + konsulat.' },
+      { q: 'KRK z apostille?', a: 'MSZ Warszawa - 3-5 dni. Express +50% (1 dzień). UE - bez apostille (Rozp. 2016/1191).' },
+      { q: 'Zatarte skazania?', a: 'W "do zatrudnienia" - niewidoczne. W prywatnej - mogą być z adnotacją "wyrok zatarty". Prezydent przy obywatelstwie ocenia wszystko.' },
+      { q: 'KRK vs zaświadczenie z sądu?', a: 'KRK - centralny rejestr (MS). Sąd - tylko sprawy danego sądu. Wszędzie gdzie "zaświadczenie o niekaralności" - KRK.' }
     ],
     related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'KRK w 1–7 dni',
-    ctaSubtitle: 'Bezpłatna konsultacja: cel, format, apostille. Od pełnomocnictwa do odbioru — 1–7 dni roboczych.'
+    ctaTitle: 'KRK w 1-7 dni',
+    ctaSubtitle: 'Bezpłatna konsultacja: cel, format, apostille. Od pełnomocnictwa do odbioru - 1-7 dni roboczych.'
   },
   en: {
     slug: 'zaswiadczenie-o-niekaralnosci',
@@ -184,10 +184,10 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     badge: 'KRK · e-KRK · Ministry of Justice',
     title: 'Criminal record certificate',
     subtitle: 'Polish KRK certificate (Krajowy Rejestr Karny)',
-    lead: 'A KRK certificate is an extract from the Polish National Criminal Register. It\'s required for Polish citizenship, MOL transport licences, permanent residence cards, working with children and public-procurement bids. We obtain it in 1–7 days — online via e-KRK or in person at the Ministry of Justice and district courts. We also arrange equivalent certificates from your country of origin.',
+    lead: 'A KRK certificate is an extract from the Polish National Criminal Register. It\'s required for Polish citizenship, MOL transport licences, permanent residence cards, working with children and public-procurement bids. We obtain it in 1-7 days - online via e-KRK or in person at the Ministry of Justice and district courts. We also arrange equivalent certificates from your country of origin.',
     facts: [
       { label: 'Turnaround', value: '7 days', note: 'standard · 1 day via e-KRK' },
-      { label: 'State fee', value: '20–30 PLN', note: 'e-KRK / paper form' },
+      { label: 'State fee', value: '20-30 PLN', note: 'e-KRK / paper form' },
       { label: 'Where', value: 'Ministry of Justice', note: 'or district courts' },
       { label: 'Validity', value: '6 months', note: 'for most uses' }
     ],
@@ -196,25 +196,25 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
       subtitle: 'Most common foreigner uses:',
       items: [
         { title: 'Polish citizenship', desc: 'Required for the application to the President and recognition as a Polish citizen. 3-month validity at filing.' },
-        { title: 'Permanent residence card', desc: 'Voivode requires KRK for PR — without it the application is rejected. Plus origin-country KRK with apostille.' },
+        { title: 'Permanent residence card', desc: 'Voivode requires KRK for PR - without it the application is rejected. Plus origin-country KRK with apostille.' },
         { title: 'Licences & concessions', desc: 'MOL transport, security, detective, insurance broker, prokurent, statutory auditor.' },
-        { title: 'Working with children', desc: 'Schools, kindergartens, tutoring, coaches. Since 2024 — mandatory check via Central Sex-Offenders Register.' },
+        { title: 'Working with children', desc: 'Schools, kindergartens, tutoring, coaches. Since 2024 - mandatory check via Central Sex-Offenders Register.' },
         { title: 'Public service', desc: 'All government and local-government roles, police, judges, prosecutors, ABW, military.' },
         { title: 'Public procurement', desc: 'KRK on the company (from KRS) and each board member.' },
         { title: 'Banking & finance', desc: 'Roles in banks, SKOK, KNF supervision, insurance.' },
-        { title: 'Foreign visa or residence', desc: 'US (O, EB), Canada (PR), UK (skilled worker), UAE — all require KRK with apostille and translation.' }
+        { title: 'Foreign visa or residence', desc: 'US (O, EB), Canada (PR), UK (skilled worker), UAE - all require KRK with apostille and translation.' }
       ]
     },
     timeline: {
       title: 'How we run it',
-      subtitle: 'Standard cycle 1–7 days via e-KRK or in person.',
+      subtitle: 'Standard cycle 1-7 days via e-KRK or in person.',
       steps: [
         { title: 'Consultation', duration: '15 min', desc: 'Purpose, format, apostille and translation needs.' },
-        { title: 'Power of attorney', duration: '1 day', desc: '17 PLN state fee — or via ePUAP for free.' },
+        { title: 'Power of attorney', duration: '1 day', desc: '17 PLN state fee - or via ePUAP for free.' },
         { title: 'Application', duration: '1 day', desc: 'e-KRK (20 PLN, 1 day) or paper (30 PLN, 7 days).' },
-        { title: 'Pickup', duration: '1–7 days', desc: 'Electronic to email/ePUAP with MoJ signature, or in-person collection.' },
-        { title: 'Apostille', duration: '3–5 days', desc: 'MSZ — 60 PLN. EU states — no apostille needed (Reg. 2016/1191).' },
-        { title: 'Sworn translation', duration: '2–3 days', desc: 'EN, DE, ES, AR and other languages.' }
+        { title: 'Pickup', duration: '1-7 days', desc: 'Electronic to email/ePUAP with MoJ signature, or in-person collection.' },
+        { title: 'Apostille', duration: '3-5 days', desc: 'MSZ - 60 PLN. EU states - no apostille needed (Reg. 2016/1191).' },
+        { title: 'Sworn translation', duration: '2-3 days', desc: 'EN, DE, ES, AR and other languages.' }
       ]
     },
     documents: {
@@ -228,7 +228,7 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
         'ePUAP access',
         'Maiden name (if changed)',
         'All names and surnames previously used',
-        'Purpose — drives the form choice (private vs. employment)'
+        'Purpose - drives the form choice (private vs. employment)'
       ]
     },
     pricing: {
@@ -253,17 +253,17 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
       ]
     },
     faq: [
-      { q: 'Private KRK vs. employment KRK?', a: 'Private — all entries. Employment — only entries relevant to a specific role (e.g. working with children — sex-offence convictions). For TRC/PR/citizenship — always private.' },
-      { q: 'How long is KRK valid?', a: '6 months standard. Citizenship — 3 months. Public procurement — 3 months. File close to your application date.' },
-      { q: 'Can I get KRK without visiting Poland?', a: 'Yes — e-KRK with profil zaufany ePUAP, fully online. No ePUAP — sign PoA at the Polish consulate in your country. Electronic certificate in 1–3 days.' },
-      { q: 'Origin-country KRK?', a: "Through the country's consulate in Poland or a local partner on the ground. We have partners in Ukraine, Belarus, Russia, Kazakhstan, Georgia, Moldova, Armenia. 14–30 days, 250–500 PLN of our fee plus consular charges." },
-      { q: 'KRK with apostille — where?', a: "MSZ Warsaw issues apostille in 3–5 days. Express +50% (1 day). EU states don't need apostille (Reg. 2016/1191) — certificate plus sworn translation is enough." },
-      { q: 'Spent (zatarta) convictions?', a: "Don't appear in employment-purpose KRK. May appear in private KRK with 'wyrok zatarty' annotation. The President considers all records when granting citizenship — we help assess odds and prepare explanations." },
-      { q: 'KRK vs. court certificate?', a: 'KRK comes from the Ministry of Justice — central register of all entries. Court certificates cover only that court\'s cases. "Certificate of no convictions" always means KRK.' }
+      { q: 'Private KRK vs. employment KRK?', a: 'Private - all entries. Employment - only entries relevant to a specific role (e.g. working with children - sex-offence convictions). For TRC/PR/citizenship - always private.' },
+      { q: 'How long is KRK valid?', a: '6 months standard. Citizenship - 3 months. Public procurement - 3 months. File close to your application date.' },
+      { q: 'Can I get KRK without visiting Poland?', a: 'Yes - e-KRK with profil zaufany ePUAP, fully online. No ePUAP - sign PoA at the Polish consulate in your country. Electronic certificate in 1-3 days.' },
+      { q: 'Origin-country KRK?', a: "Through the country's consulate in Poland or a local partner on the ground. We have partners in Ukraine, Belarus, Russia, Kazakhstan, Georgia, Moldova, Armenia. 14-30 days, 250-500 PLN of our fee plus consular charges." },
+      { q: 'KRK with apostille - where?', a: "MSZ Warsaw issues apostille in 3-5 days. Express +50% (1 day). EU states don't need apostille (Reg. 2016/1191) - certificate plus sworn translation is enough." },
+      { q: 'Spent (zatarta) convictions?', a: "Don't appear in employment-purpose KRK. May appear in private KRK with 'wyrok zatarty' annotation. The President considers all records when granting citizenship - we help assess odds and prepare explanations." },
+      { q: 'KRK vs. court certificate?', a: 'KRK comes from the Ministry of Justice - central register of all entries. Court certificates cover only that court\'s cases. "Certificate of no convictions" always means KRK.' }
     ],
     related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'KRK in 1–7 days',
-    ctaSubtitle: 'Free consultation: purpose, format, apostille need. From PoA signing to pickup — typically 1–7 working days.'
+    ctaTitle: 'KRK in 1-7 days',
+    ctaSubtitle: 'Free consultation: purpose, format, apostille need. From PoA signing to pickup - typically 1-7 working days.'
   }
 };
 

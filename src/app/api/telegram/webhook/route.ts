@@ -208,7 +208,7 @@ export async function POST(req: NextRequest) {
     if (data === 'admin:add_help') {
       const text =
         '➕ <b>Добавить подписчика:</b>\n\n' +
-        'Попросите нового пользователя написать боту /myid — он получит свой Chat ID.\n\n' +
+        'Попросите нового пользователя написать боту /myid - он получит свой Chat ID.\n\n' +
         'Затем отправьте мне:\n<code>/adduser 123456789</code>';
       const backBtn: InlineKeyboard = {
         inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]]
@@ -235,15 +235,15 @@ export async function POST(req: NextRequest) {
       const text =
         '📋 <b>Все команды бота:</b>\n\n' +
         '<b>Для всех:</b>\n' +
-        '/start — приветствие и подписка\n' +
-        '/myid — ваш Telegram Chat ID\n' +
-        '/status — статус подписки\n' +
-        '/stop — отписаться\n\n' +
+        '/start - приветствие и подписка\n' +
+        '/myid - ваш Telegram Chat ID\n' +
+        '/status - статус подписки\n' +
+        '/stop - отписаться\n\n' +
         '<b>Только для администраторов:</b>\n' +
-        '/admin — панель управления\n' +
-        '/listusers — список подписчиков\n' +
-        '/adduser &lt;id&gt; — добавить подписчика\n' +
-        '/removeuser &lt;id&gt; — удалить подписчика';
+        '/admin - панель управления\n' +
+        '/listusers - список подписчиков\n' +
+        '/adduser &lt;id&gt; - добавить подписчика\n' +
+        '/removeuser &lt;id&gt; - удалить подписчика';
       const backBtn: InlineKeyboard = {
         inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]]
       };
@@ -371,7 +371,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true });
   }
 
-  // 🆔 Мой ID — keyboard button
+  // 🆔 Мой ID - keyboard button
   if (text === '🆔 Мой ID') {
     await tgSend(
       chatId,
@@ -388,7 +388,7 @@ export async function POST(req: NextRequest) {
       if (admin) {
         await tgSend(
           chatId,
-          `👋 Здравствуйте, ${greeting}!\n\nВы подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n👑 Вы — администратор.`,
+          `👋 Здравствуйте, ${greeting}!\n\nВы подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n👑 Вы - администратор.`,
           { reply_markup: adminReplyKeyboard() }
         );
       } else {
@@ -401,7 +401,7 @@ export async function POST(req: NextRequest) {
     } else {
       await tgSend(
         chatId,
-        `👋 Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы получать заявки, передайте администратору ваш Chat ID:\n<code>${chatId}</code>\n\n/myid — показать ID ещё раз`
+        `👋 Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы получать заявки, передайте администратору ваш Chat ID:\n<code>${chatId}</code>\n\n/myid - показать ID ещё раз`
       );
     }
     return NextResponse.json({ ok: true });

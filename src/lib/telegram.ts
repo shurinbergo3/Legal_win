@@ -32,10 +32,10 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
 
   const subscribers = await listSubscribers();
   if (subscribers.length === 0) {
-    // Don't fail the form — the user successfully submitted. Log and return
+    // Don't fail the form - the user successfully submitted. Log and return
     // so an operator can investigate why no one is subscribed yet.
     console.warn(
-      '[telegram] form submission received but no subscribers — request not delivered to anyone'
+      '[telegram] form submission received but no subscribers - request not delivered to anyone'
     );
     return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
   }
@@ -46,7 +46,7 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
   const hasMessage = Boolean(data.message && data.message.trim());
 
   const text = [
-    '🔔 <b>Новая заявка — LegalWin</b>',
+    '🔔 <b>Новая заявка - LegalWin</b>',
     '',
     hasName ? `<b>Имя:</b> ${escapeHtml(data.name!)}` : null,
     `<b>Телефон:</b> <a href="tel:${escapeHtml(data.phone.replace(/\s/g, ''))}">${escapeHtml(data.phone)}</a>`,
@@ -135,7 +135,7 @@ export async function sendChatLeadToTelegram(lead: ChatLead): Promise<DeliveryRe
 
   const subscribers = await listSubscribers();
   if (subscribers.length === 0) {
-    console.warn('[telegram] chat lead received but no subscribers — request not delivered');
+    console.warn('[telegram] chat lead received but no subscribers - request not delivered');
     return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
   }
 
@@ -144,7 +144,7 @@ export async function sendChatLeadToTelegram(lead: ChatLead): Promise<DeliveryRe
 
   const header = lead.topic
     ? `💬 <b>${urgency} | ${escapeHtml(lead.topic)}</b>`
-    : `💬 <b>${urgency} | Лид из чата — LegalWin</b>`;
+    : `💬 <b>${urgency} | Лид из чата - LegalWin</b>`;
 
   const lines = [
     header,

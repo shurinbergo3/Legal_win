@@ -27,7 +27,7 @@ export function UserAvatar({
       aria-label={ariaLabel ?? 'User avatar'}
       className={cn('shrink-0', className)}
     >
-      {/* Background circle — muted ink, matches the dark theme */}
+      {/* Background circle - muted ink, matches the dark theme */}
       <circle cx="20" cy="20" r="20" fill="var(--color-ink-700)" />
 
       {/* Inner ring for a subtle bezel effect */}
@@ -43,7 +43,7 @@ export function UserAvatar({
       {/* Head */}
       <circle cx="20" cy="15.5" r="5.5" fill="var(--color-ink-300)" />
 
-      {/* Shoulders / torso — soft trapezoid like Google's anonymous icon */}
+      {/* Shoulders / torso - soft trapezoid like Google's anonymous icon */}
       <path
         d="M 8.5 32.5 C 9.5 25.5 13.5 22.5 20 22.5 C 26.5 22.5 30.5 25.5 31.5 32.5 L 31.5 40 L 8.5 40 Z"
         fill="var(--color-ink-300)"

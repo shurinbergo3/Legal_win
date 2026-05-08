@@ -15,8 +15,8 @@ const steps: {
   day: string;
 }[] = [
   { key: 'step1', Icon: Phone, day: 'D0' },
-  { key: 'step2', Icon: FileSignature, day: 'D1–3' },
-  { key: 'step3', Icon: Briefcase, day: 'D3–38' },
+  { key: 'step2', Icon: FileSignature, day: 'D1-3' },
+  { key: 'step3', Icon: Briefcase, day: 'D3-38' },
   { key: 'step4', Icon: Award, day: '≈ D42' }
 ];
 
@@ -79,7 +79,7 @@ export function Process() {
                     <Icon className="h-4 w-4 text-gold-400" strokeWidth={1.5} aria-hidden />
                   </span>
                 </div>
-                {/* Day badge — quick visual of where this step sits on the 42-day average timeline */}
+                {/* Day badge - quick visual of where this step sits on the 42-day average timeline */}
                 <span className="inline-flex w-fit items-center gap-2 rounded-full border hairline-gold bg-gold-500/[0.05] px-3 py-1 font-mono text-[10px] uppercase tracking-[0.22em] text-gold-300">
                   <span className="h-1 w-1 rounded-full bg-gold-400" />
                   {day}

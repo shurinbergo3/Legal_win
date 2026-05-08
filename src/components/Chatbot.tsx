@@ -9,28 +9,28 @@ import { Send, X, ShieldCheck } from 'lucide-react';
 import { cn } from '@/lib/cn';
 import ReactMarkdown from 'react-markdown';
 
-// Operator portrait — drop the photo at public/chatbot/operator.jpg.
+// Operator portrait - drop the photo at public/chatbot/operator.jpg.
 // Used in the floating toggle, the panel header, and beside each
 // assistant message for a "live operator" feel.
 const OPERATOR_AVATAR = '/chatbot/operator.webp';
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
-/* Tease popup tuning — based on Drift / Intercom / HubSpot benchmarks.
+/* Tease popup tuning - based on Drift / Intercom / HubSpot benchmarks.
  *
  * Two triggers race; whichever fires first wins:
- *   1) TEASE_DELAY_MS — 35s on the page (sweet spot for content sites)
- *   2) TEASE_SCROLL_RATIO — user scrolls past 55% of the page
+ *   1) TEASE_DELAY_MS - 35s on the page (sweet spot for content sites)
+ *   2) TEASE_SCROLL_RATIO - user scrolls past 55% of the page
  *      (signals genuine engagement, more qualified than a timer)
  *
  * Once shown OR explicitly dismissed, suppressed for TEASE_TTL_MS.
- * 7 days in localStorage — short enough that returning prospects still
+ * 7 days in localStorage - short enough that returning prospects still
  * see it within their decision window, long enough that the user isn't
  * pestered every visit.
  *
  * Suppressed entirely when:
- *   • Contact section is in viewport — they're already on the form
- *   • prefers-reduced-motion — respect accessibility preference */
+ *   • Contact section is in viewport - they're already on the form
+ *   • prefers-reduced-motion - respect accessibility preference */
 const TEASE_DELAY_MS = 35_000;
 const TEASE_SCROLL_RATIO = 0.55;
 const TEASE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
@@ -72,7 +72,7 @@ function markTeaseShown() {
   try {
     window.localStorage.setItem(TEASE_KEY, String(Date.now()));
   } catch {
-    /* localStorage disabled — tease will re-show on next visit, acceptable */
+    /* localStorage disabled - tease will re-show on next visit, acceptable */
   }
 }
 
@@ -215,7 +215,7 @@ export function Chatbot() {
     <>
       {/* === Floating toggle === */}
       <div className="fixed bottom-5 right-5 z-40 sm:bottom-8 sm:right-8">
-        {/* Pulsing halo — only when closed and no reduced-motion */}
+        {/* Pulsing halo - only when closed and no reduced-motion */}
         {!open && !reduce && (
           <>
             <motion.span
@@ -463,7 +463,7 @@ export function Chatbot() {
                     >
                       legalwin.warszawa@gmail.com
                     </a>{' '}
-                    или оставьте заявку через форму на сайте — наш специалист ответит в течение часа.
+                    или оставьте заявку через форму на сайте - наш специалист ответит в течение часа.
                   </p>
                 </div>
               )}

@@ -1,5 +1,5 @@
 /**
- * Themis scales — line-art silhouette used as a decorative watermark.
+ * Themis scales - line-art silhouette used as a decorative watermark.
  *
  *   <ThemisScales className="text-gold-400/[0.10] h-full w-full" />     (standalone)
  *   <g transform="translate(...) scale(...)"><ThemisScalesPaths /></g>  (nested)
