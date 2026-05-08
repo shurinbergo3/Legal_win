@@ -1,0 +1,46 @@
+{
+  "ksef-luty-2026-e-faktury": [
+    {
+      "q": "Polonya'da KSeF zorunluluğu hangi tarihte başlıyor?",
+      "a": "1 Şubat 2026 tarihinden itibaren Polonya'daki tüm B2B faturalar yalnızca KSeF (Krajowy System e-Faktur) *(Polonya elektronik fatura sistemi)* üzerinden düzenlenir. Bu zorunluluk tüm Sp. z o.o. *(limited şirket)*, VAT mükellefi JDG *(şahıs şirketi)*, spółki komandytowe *(komandit ortaklık)*, jawne *(kollektif ortaklık)* ve Polonya'da stałe miejsce prowadzenia działalności *(daimi iş yeri)* bulunan yabancı şirketleri kapsar. Kağıt veya posta yoluyla PDF faturalar artık geçerli belge sayılmaz."
+    },
+    {
+      "q": "KSeF zorunluluğundan şimdilik kimler muaf?",
+      "a": "2026 sonuna kadar muaf olanlar: VAT'tan muaf JDG'ler (zwolnienie z VAT - VAT kaydı olmayan saf ryczałt *(götürü vergi)* mükellefleri), B2C tedarikçileri (gerçek kişi son tüketiciye satış yapanlar) ve kasa fiş makinelerinden düzenlenen faktury z kas fiskalnych (paragony) *(yazar kasa fişleri)*. Bu kategoriler 2027'den itibaren yükümlülüğe alınacaktır."
+    },
+    {
+      "q": "KSeF üzerinden fatura düzenlememenin cezası ne kadar?",
+      "a": "Fatura başına VAT *(KDV)* tutarının %100'üne kadar para cezası uygulanır. B2B'de kağıt fatura kullanımı olay başına 18.000 PLN'ye kadar, KSeF'e kayıt yaptırmamak 7.000 PLN'ye kadar, yanlış formatta fatura ise 5.000 PLN'ye kadar cezalandırılır. 1 Nisan 2026'dan itibaren otomatik denetim, JPK_VAT *(VAT tek kayıt dosyası)* ile KSeF kayıtlarını gerçek zamanlı karşılaştırır."
+    },
+    {
+      "q": "Türk girişimci KSeF'e nasıl bağlanır?",
+      "a": "4 adım: 1) Polonya bankası üzerinden Profil Zaufany *(güvenilir profil)* veya nitelikli elektronik imza (200 PLN/yıldan başlayan) edinin; 2) e-Urząd Skarbowy *(elektronik vergi dairesi)* üzerinden ZAW-FA formu doldurun ve uprawnione osoby *(yetkili kişiler)* atayın; 3) muhasebe yazılımınızı entegre edin (iFirma, wFirma, Comarch hâlihazırda entegredir); 4) ekibinizi yeni XML fatura yapısı konusunda eğitin. Tüm bağlantı 31 Ocak 2026'ya kadar tamamlanmalıdır."
+    },
+    {
+      "q": "AB'deki müşterilerden gelen faturalar için ne değişiyor?",
+      "a": "Diğer AB ülkelerindeki iş ortakları KSeF'te yer almaz; bu nedenle UE-faktur *(AB faturaları)* için ayrı şablonlara ihtiyaç vardır. Polonya'daki ERP sistemlerinin çoğu (Comarch, Subiekt) AB faturalarını ayrı olarak otomatik üretir. AB'den alınan faturalar standart PDF veya elektronik formatta kalmaya devam eder."
+    }
+  ],
+  "nfz-dla-cudzoziemca-2026": [
+    {
+      "q": "Yabancı 2026'da NFZ'ye nasıl kayıt olur?",
+      "a": "5 adım: 1) PESEL *(kişisel kimlik numarası)* ve Karta Pobytu *(Polonya oturum kartı)* edinin; 2) ZUS *(Polonya Sosyal Güvenlik Kurumu)* sistemine umowa o pracę *(iş sözleşmesi)*, JDG *(şahıs şirketi)* veya isteğe bağlı sigorta sözleşmesi yoluyla bağlanın; 3) statünüzü mObywatel veya pacjent.gov.pl üzerinden eWUŚ *(hak sahipliği doğrulama sistemi)* ile kontrol edin; 4) POZ *(birinci basamak)* hekiminizi seçin ve poliklinikte deklaracja *(seçim beyannamesi)* doldurun; 5) IKP *(internet hasta hesabı)* hesabınızı aktive edin. Kayıt ücretsizdir."
+    },
+    {
+      "q": "NFZ ücretsiz sağlık hizmetinden kimler yararlanabilir?",
+      "a": "ZUS kayıtlı umowa o pracę veya umowa zlecenie *(hizmet sözleşmesi)* ile çalışanlar, składka zdrowotna *(sağlık katkı payı)* ödeyen JDG sahipleri, üniversite tarafından sigortası yatırılan tam zamanlı öğrenciler, sigortalı bir aile üyesinin yakını (DRA-2 formu ile), UKR statüsündeki Ukraynalılar, Karta Polaka *(Polonyalı Kartı)* sahipleri ve isteğe bağlı sigortalananlar (yaklaşık 720 PLN/ay). Turistler ve kısa süreli ziyaretçiler kapsam dışıdır."
+    },
+    {
+      "q": "İsteğe bağlı NFZ sigortası ne kadar?",
+      "a": "2026 yılında temel tarife ayda 720 PLN'dir. 3 aydan kısa sigorta kesintisinde ek ücret yoktur. 3-12 ay arası kesintide %20 ceza eklenir (864 PLN/ay). 12 aydan uzun kesintide %50 ceza uygulanır (1.080 PLN/ay). Çoğu yabancı için özel sağlık sigortası (PZU, Allianz, Medicover) daha uygundur - aylık 200-500 PLN arası."
+    },
+    {
+      "q": "NFZ'de uzman hekim bekleme süreleri 2026'da ne kadar?",
+      "a": "POZ *(birinci basamak)* için 1 haftaya kadar. Dermatolog 4-8 hafta. Jinekolog koruyucu muayene 1-2 ay. Kardiyolog ve nörolog 3-8 ay. Endokrinolog, ortopedist ve psikiyatrist 6-14 ay. Acil durumlarda POZ hekiminin pilne skierowanie *(acil sevk)* yetkisi süreyi 1-4 haftaya indirir; akut vakalar için SOR *(hastane acil servisi)* ücretsizdir. Randevular mObywatel veya IKP üzerinden alınır."
+    },
+    {
+      "q": "IKP nedir ve nasıl bağlanır?",
+      "a": "IKP (Internetowe Konto Pacjenta) *(internet hasta hesabı)*, pacjent.gov.pl üzerindeki kişisel hasta panelidir. Giriş Profil Zaufany veya mObywatel uygulaması ile yapılır. IKP'de e-skierowania *(elektronik sevkler)*, e-recepty *(elektronik reçeteler)*, ziyaret geçmişi, tahlil sonuçları ve NFZ statüsü bulunur. 2026 itibarıyla mObywatel ile entegredir; reçete ve sevkler doğrudan uygulamadan görüntülenir."
+    }
+  ]
+}
