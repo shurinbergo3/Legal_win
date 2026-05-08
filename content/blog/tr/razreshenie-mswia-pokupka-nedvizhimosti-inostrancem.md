@@ -1,9 +1,11 @@
 ---
 slug: razreshenie-mswia-pokupka-nedvizhimosti-inostrancem
-title: "Yabancılar için Polonya'da gayrimenkul satın alma 2026: MSWiA izni ne zaman gerekir"
-description: "Türk vatandaşları ve diğer AB dışı alıcılar için Polonya'da daire, ev veya arsa alımında MSWiA *(İçişleri Bakanlığı)* izni gerektiren durumlar, Polonya bağlantısının nasıl belgeleneceği, bekleme süreleri ve sözleşme bürokrasi nedeniyle nasıl bozulmaz. Türkiye, ABD ve Birleşik Krallık vatandaşları için rehber."
+title: 'Polonya''da gayrimenkul alımı 2026: MSWiA izni'
+description: >-
+  Daire, ev veya arsa alımında MSWiA izni gerektiren durumlar, Polonya
+  bağlantısının belgelenmesi, süreler. Türk, ABD, UK alıcılar için.
 locale: tr
-publishDate: 2026-01-12
+publishDate: 2026-01-12T00:00:00.000Z
 author: LegalWin
 category: Gayrimenkul
 keywords:

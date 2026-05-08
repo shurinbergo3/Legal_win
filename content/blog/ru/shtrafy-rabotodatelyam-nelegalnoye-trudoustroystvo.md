@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-rabotodatelyam-nelegalnoye-trudoustroystvo
-title: "Штрафы работодателю за нелегальное трудоустройство иностранцев 2026: 3 000 PLN за случай и репатриация за счёт фирмы"
-description: "Новые правила 2026 года для польских работодателей: обязательное уведомление до начала работы иностранца, штраф 3 000 PLN за каждый случай, проверки PIP и Straży Granicznej, ответственность за zwrot kosztów repatriacji. Как HR-команде защитить компанию."
+title: Штрафы работодателю за нелегального иностранца 2026
+description: >-
+  Новые правила: предуведомление до начала работы, штраф 3 000 PLN за случай,
+  проверки PIP и Straży Granicznej, zwrot kosztów репатриации.
 locale: ru
-publishDate: 2026-03-29
+publishDate: 2026-03-29T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

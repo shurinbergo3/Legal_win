@@ -1,9 +1,11 @@
 ---
 slug: obmen-prav-na-polskie-2026
-title: "Wymiana ukraińskiego i białoruskiego prawa jazdy na polskie 2026"
-description: "Jak wymienić prawo jazdy na polskie w 2026 roku - dokumenty, koszty (od 160 PLN), terminy (30-90 dni), Wydział Komunikacji w województwie mazowieckim."
+title: Wymiana ukraińskiego/białoruskiego prawa jazdy 2026
+description: >-
+  Dokumenty, opłaty od 160 PLN, terminy 30-90 dni, Wydział Komunikacji w
+  mazowieckim, wymagania egzaminów i tłumaczenia przysięgłe.
 locale: pl
-publishDate: 2025-11-19
+publishDate: 2025-11-19T00:00:00.000Z
 author: LegalWin
 category: Dokumenty
 keywords:

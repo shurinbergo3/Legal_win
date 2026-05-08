@@ -1,9 +1,11 @@
 ---
 slug: perehod-so-studencheskoy-vizy-na-kartu-pobytu
-title: "Öğrenci Vizesinden Karta Pobytu'ya Geçiş 2026: Mezunlar İçin Yeni Sınırlamalar"
-description: "Temmuz 2025'ten itibaren Polonya üniversite mezunları için zezwolenie na pracę muafiyeti yalnızca bakanlık listesindeki üniversiteler için geçerlidir. Üniversitenizin durumu nasıl kontrol edilir, 3.000 PLN ceza nasıl önlenir, mezuniyet sonrası MOS v2.0'a hangi belgeler sunulmalıdır."
+title: Öğrenci vizesinden Karta Pobytu'ya 2026
+description: >-
+  Temmuz 2025'ten beri zezwolenie na pracę muafiyeti yalnızca bakanlık
+  listesindeki üniversiteler için. Kontrol, 3.000 PLN ceza, MOS v2.0.
 locale: tr
-publishDate: 2026-02-26
+publishDate: 2026-02-26T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

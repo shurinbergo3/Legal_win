@@ -1,9 +1,11 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: "Składka zdrowotna 2026 - reforma dla JDG i Sp. z o.o."
-description: "Reforma składki zdrowotnej od 1 stycznia 2026 w Polsce: stała składka dla JDG, nowe stawki dla Sp. z o.o. i CIT estońskiego, jak zmieni się obciążenie przedsiębiorcy-cudzoziemca."
+title: 'Składka zdrowotna 2026: reforma JDG i Sp. z o.o.'
+description: >-
+  Od 1 stycznia 2026: stała składka dla JDG, nowe stawki dla Sp. z o.o. i CIT
+  estońskiego, jak zmieni się obciążenie przedsiębiorcy.
 locale: pl
-publishDate: 2026-05-02
+publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
 category: Podatki i księgowość
 keywords:

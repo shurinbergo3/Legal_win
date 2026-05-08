@@ -1,9 +1,11 @@
 ---
 slug: perehod-s-ukr-na-rabochuyu-kartu-pobytu
-title: "Z PESEL UKR na zwykłą kartę pobytu w 2026: kiedy to się Ukraińcowi opłaca"
-description: "Strategia przejścia z ochrony tymczasowej PESEL UKR na standardową kartę czasowego pobytu pracowniczą lub na działalność: plusy, minusy, liczenie 5 lat do rezydenta UE, ryzyko utraty przywilejów UKR. Alternatywa - karta CUKR na 3 lata."
+title: Z PESEL UKR na zwykłą kartę pobytu 2026
+description: >-
+  Przejście z ochrony tymczasowej na kartę czasowego pobytu pracowniczą: plusy,
+  minusy, liczenie 5 lat, ryzyko utraty UKR. Alternatywa - karta CUKR.
 locale: pl
-publishDate: 2026-04-30
+publishDate: 2026-04-30T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

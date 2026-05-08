@@ -1,9 +1,11 @@
 ---
 slug: karta-stalego-pobytu-pmzh-polsha-2026
-title: "Permanent Residence Card in Poland 2026: Who Can Apply and How"
-description: "Who qualifies for a karta stałego pobytu in Poland in 2026, what documents are required, how long the process takes in Mazowieckie voivodeship, and what permanent residence actually changes compared to a temporary permit."
+title: 'Permanent Residence Card Poland 2026: Eligibility'
+description: >-
+  Who qualifies for karta stałego pobytu in 2026, required documents,
+  Mazowieckie processing time, what PR changes vs a temporary permit.
 locale: en
-publishDate: 2026-02-21
+publishDate: 2026-02-21T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

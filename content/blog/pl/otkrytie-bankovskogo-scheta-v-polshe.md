@@ -1,9 +1,11 @@
 ---
 slug: otkrytie-bankovskogo-scheta-v-polshe
-title: "Otwarcie konta bankowego w Polsce dla cudzoziemców - 2026"
-description: "Jak otworzyć konto bankowe w Polsce jako cudzoziemiec w 2026. Porównanie PKO BP, Santander, mBank, Pekao, ING - dokumenty, czas otwarcia, opłaty. Z PESEL i bez, osobiście i online."
+title: Konto bankowe w Polsce dla cudzoziemców 2026
+description: >-
+  Konto bankowe dla cudzoziemca: PKO BP, Santander, mBank, Pekao, ING -
+  dokumenty, czas otwarcia, opłaty. Z PESEL i bez, osobiście i online.
 locale: pl
-publishDate: 2026-02-04
+publishDate: 2026-02-04T00:00:00.000Z
 author: LegalWin
 category: Finanse
 keywords:

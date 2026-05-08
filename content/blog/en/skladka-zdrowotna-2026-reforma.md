@@ -1,9 +1,11 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: "Polish health contribution 2026 - reform for JDG and Sp. z o.o."
-description: "Polish health contribution (składka zdrowotna) reform from 1 January 2026: fixed contribution for JDG, new rates for Sp. z o.o. and Estonian CIT, how the total burden on a foreign entrepreneur changes."
+title: 'Składka Zdrowotna 2026: Reform for JDG, Sp. z o.o.'
+description: >-
+  From 1 January 2026: flat health contribution for JDG, new rates for Sp. z
+  o.o. and Estonian CIT, how the foreign entrepreneur's burden shifts.
 locale: en
-publishDate: 2026-05-02
+publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
 category: Tax & accounting
 keywords:

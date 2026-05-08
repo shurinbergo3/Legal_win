@@ -1,9 +1,11 @@
 ---
 slug: polski-b1-egzamin-do-obywatelstwa
-title: "Polski egzamin B1 do obywatelstwa - struktura egzaminu i przygotowanie 2026"
-description: "Certyfikat polskiego B1 z Państwowej Komisji Poświadczania Znajomości Języka Polskiego - obowiązkowy do nadania obywatelstwa polskiego. Struktura egzaminu, ceny, terminy, wskazówki przygotowania."
+title: 'Polski B1 do obywatelstwa 2026: egzamin i przygotowanie'
+description: >-
+  Certyfikat B1 z Państwowej Komisji - warunek obywatelstwa polskiego. Struktura
+  egzaminu, ceny, terminy i wskazówki przygotowania.
 locale: pl
-publishDate: 2026-05-05
+publishDate: 2026-05-05T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

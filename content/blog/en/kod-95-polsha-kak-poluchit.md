@@ -1,9 +1,11 @@
 ---
 slug: kod-95-polsha-kak-poluchit
-title: "Code 95 in Poland: Who Needs It and How to Get It in 3 Months"
-description: "Code 95 for drivers of categories C, D, C+E, D+E in Poland - who needs it, two pathways (KWP for 2800 PLN or Szkolenie Okresowe for 900 PLN), timelines, documents for foreign nationals from CIS countries."
+title: 'Code 95 in Poland 2026: Who Needs It and How'
+description: >-
+  Code 95 for C, D, C+E, D+E drivers: KWP at 2,800 PLN or Szkolenie Okresowe at
+  900 PLN, 3 months, documents for foreigners from CIS.
 locale: en
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

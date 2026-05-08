@@ -1,9 +1,11 @@
 ---
 slug: obmen-tureckih-prav-na-polskie
-title: "Türk Ehliyetinin Polonya Ehliyetine Çevrilmesi 2026: Şartlar, Belgeler ve Süreç"
-description: "Türk ehliyetini Polonya ehliyetine 2026'da nasıl çevirirsiniz: Viyana Sözleşmesi, gerekli belgeler, harçlar 200 PLN'den, süre 45-90 gün. Eski tip belgeler, yeminli tercüme ve Wydział Komunikacji adımları."
+title: Türk ehliyetinin Polonya ehliyetine çevrilmesi 2026
+description: >-
+  Viyana Sözleşmesi, belgeler, ücret 200 PLN'den, süre 45-90 gün. 2016 öncesi
+  tip belgeler, yeminli tercüme, Wydział Komunikacji adımları.
 locale: tr
-publishDate: 2026-01-17
+publishDate: 2026-01-17T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

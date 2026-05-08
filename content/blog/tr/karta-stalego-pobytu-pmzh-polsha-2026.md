@@ -1,9 +1,11 @@
 ---
 slug: karta-stalego-pobytu-pmzh-polsha-2026
-title: "Karta Stałego Pobytu (Daimi Oturum) Polonya 2026: Şartlar ve Başvuru"
-description: "2026'da Polonya'da Karta Stałego Pobytu kimler alabilir, hangi belgeler gerekir, Mazowieckie eyaletinde karar süresi ne kadar ve daimi oturum geçici karta göre ne avantajlar sunar."
+title: Karta Stałego Pobytu (Daimi Oturum) 2026
+description: >-
+  2026'da Polonya'da Karta Stałego Pobytu kimler alabilir, gerekli belgeler,
+  Mazowieckie'de süre ve geçici karta göre avantajları.
 locale: tr
-publishDate: 2026-02-21
+publishDate: 2026-02-21T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

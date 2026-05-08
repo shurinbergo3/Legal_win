@@ -1,9 +1,11 @@
 ---
 slug: apostille-nostryfikacja-tlumaczenia-przysiegle
-title: "Apostille, нострификация диплома и присяжный перевод в Польше 2026: что это и в каком порядке делать"
-description: "Полный гайд по легализации иностранных документов в Польше: apostille в стране выдачи, tłumaczenie przysięgłe, nostryfikacja диплома через NAWA для регулируемых профессий (врачи, инженеры, архитекторы). Сроки и стоимость."
+title: 'Apostille, нострификация и присяжный перевод в Польше 2026'
+description: >-
+  Легализация иностранных документов: apostille, tłumaczenie przysięgłe,
+  нострификация диплома через NAWA для врачей и инженеров. Сроки и цены.
 locale: ru
-publishDate: 2026-01-30
+publishDate: 2026-01-30T00:00:00.000Z
 author: LegalWin
 category: Документы
 keywords:

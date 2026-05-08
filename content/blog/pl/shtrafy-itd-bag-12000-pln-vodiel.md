@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-itd-bag-12000-pln-vodiel
-title: "Kary BAG i ITD 2026: kierowca i przewoźnik mogą stracić do 12 000 PLN za jedno naruszenie"
-description: "W 2026 ITD i niemiecki BAG stosują bezprecedensową kontrolę czasu pracy i tachografów. Zatrzymanie prawa jazdy na 3 miesiące na drodze, kary do 12 000 PLN dla przewoźnika za cudzą kartę kierowcy, brak Kodu 95 lub naruszenie odpoczynku."
+title: 'Kary BAG i ITD 2026: do 12 000 PLN za naruszenie'
+description: >-
+  ITD i niemiecki BAG w 2026: zatrzymanie prawa jazdy na 3 miesiące, kara 12 000
+  PLN za cudzą kartę kierowcy, brak Kodu 95, naruszenie odpoczynku.
 locale: pl
-publishDate: 2026-04-13
+publishDate: 2026-04-13T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

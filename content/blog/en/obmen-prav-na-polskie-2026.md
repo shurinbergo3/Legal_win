@@ -1,9 +1,11 @@
 ---
 slug: obmen-prav-na-polskie-2026
-title: "Exchanging Ukrainian and Belarusian Driving Licences for Polish in 2026"
-description: "How to exchange your driving licence for a Polish one in 2026 - documents, costs (from 160 PLN), timelines (30-90 days), Wydział Komunikacji in Mazowieckie voivodeship."
+title: Ukrainian/Belarusian Driving Licence Exchange 2026
+description: >-
+  Documents, fees from 160 PLN, timelines 30-90 days, Wydział Komunikacji in
+  Mazowieckie, exam requirements and sworn translation rules.
 locale: en
-publishDate: 2025-11-19
+publishDate: 2025-11-19T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

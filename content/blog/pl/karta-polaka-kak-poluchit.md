@@ -1,9 +1,11 @@
 ---
 slug: karta-polaka-kak-poluchit
-title: "Karta Polaka - jak ją uzyskać w 2026: dokumenty, egzamin, terminy"
-description: "Jak uzyskać Kartę Polaka w 2026 - dla osób polskiego pochodzenia z Białorusi, Ukrainy, Rosji, Kazachstanu i innych krajów. Dokumenty pokrewieństwa, egzamin językowo-kulturowy, konsulat, przywileje."
+title: 'Karta Polaka 2026: dokumenty, egzamin, terminy'
+description: >-
+  Jak uzyskać Kartę Polaka w 2026 - dla osób polskiego pochodzenia. Dokumenty
+  pokrewieństwa, egzamin językowo-kulturowy, konsulat, przywileje.
 locale: pl
-publishDate: 2025-12-03
+publishDate: 2025-12-03T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

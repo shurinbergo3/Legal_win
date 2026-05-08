@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-wygasla-co-delat
-title: "Карта побыту истекла - что делать в 2026"
-description: "Истёк срок karty pobytu в Польше - что делать в 2026 году? Грозит ли депортация, можно ли выехать, как срочно подать новую заявку через MOS v2.0, штрафы и сроки восстановления статуса."
+title: Karta pobytu истекла - что делать в 2026
+description: >-
+  Истёк срок karty pobytu в Польше: грозит ли депортация, можно ли выехать, как
+  срочно подать новый wniosek через MOS v2.0, штрафы и сроки.
 locale: ru
-publishDate: 2026-04-28
+publishDate: 2026-04-28T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

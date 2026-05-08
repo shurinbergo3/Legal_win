@@ -1,9 +1,11 @@
 ---
 slug: vossoedinenie-semi-polsha-2026-prava-suprugov
-title: "Воссоединение семьи в Польше 2026: даёт ли ВНЖ супруга право на работу"
-description: "Połączenie z rodziną в 2026 году: какая karta pobytu даёт супругу автоматический dostęp do rynku pracy, какие условия по доходу и жилью применяются, как подаются дети до и после 18 лет, и почему статус спонсора важнее всего."
+title: 'Воссоединение семьи в Польше 2026: права супругов'
+description: >-
+  Какая karta pobytu даёт супругу dostęp do rynku pracy, требования к доходу и
+  жилью, подача детей до и после 18 лет, статус спонсора.
 locale: ru
-publishDate: 2026-03-19
+publishDate: 2026-03-19T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

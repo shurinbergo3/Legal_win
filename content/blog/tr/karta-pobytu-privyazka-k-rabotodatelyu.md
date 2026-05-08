@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-privyazka-k-rabotodatelyu
-title: "Polonya'da İşverene Bağlı Karta Pobytu - 2026"
-description: "Polonya'da Karta Czasowego Pobytu'nun işverene bağlanması 2026'da nasıl çalışır. İşveren değişikliğinde 15 günlük süre, Załącznik nr 1, MOS v2.0 üzerinden powiadomienie ve karta iptaline karşı itiraz yolları."
+title: İşverene bağlı Karta Pobytu 2026 rehberi
+description: >-
+  Karta Czasowego Pobytu işverene bağlandığında: 15 günlük süre, Załącznik nr 1,
+  MOS v2.0 powiadomienie ve karta iptaline itiraz yolları.
 locale: tr
-publishDate: 2026-04-15
+publishDate: 2026-04-15T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

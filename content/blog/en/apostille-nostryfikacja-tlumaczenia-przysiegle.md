@@ -1,9 +1,11 @@
 ---
 slug: apostille-nostryfikacja-tlumaczenia-przysiegle
-title: "Apostille, Diploma Nostrification and Sworn Translation in Poland 2026: What and In What Order"
-description: "Full guide to legalising foreign documents in Poland: apostille in the country of issue, sworn translation, NAWA nostrification for regulated professions (doctors, engineers, architects). Timelines and prices."
+title: 'Apostille, Nostrification, Sworn Translation in Poland 2026'
+description: >-
+  Legalising foreign documents in Poland: apostille, sworn translation, NAWA
+  diploma nostrification for doctors and engineers. Costs and timelines.
 locale: en
-publishDate: 2026-01-30
+publishDate: 2026-01-30T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

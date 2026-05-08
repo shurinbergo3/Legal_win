@@ -1,9 +1,11 @@
 ---
 slug: kod-95-polsha-kak-poluchit
-title: "Kod 95 в Польше: кому нужен и как получить за 3 месяца"
-description: "Kod 95 для водителей категорий C, D, C+E, D+E в Польше - кому нужен, два пути получения (KWP за 2800 PLN или Szkolenie Okresowe за 900 PLN), сроки, документы для иностранцев из СНГ. Гайд от LegalWin Warszawa."
+title: 'Kod 95 в Польше 2026: кому нужен и как получить'
+description: >-
+  Kod 95 для категорий C, D, C+E, D+E: KWP за 2800 PLN или Szkolenie Okresowe за
+  900 PLN, сроки 3 мес., документы для иностранцев.
 locale: ru
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Документы
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-itd-bag-12000-pln-vodiel
-title: "BAG and ITD Fines 2026: Drivers and Carriers Face Up to 12,000 PLN per Breach"
-description: "In 2026 ITD and Germany's BAG run unprecedented enforcement of driver hours and tachograph rules. On-spot 3-month licence retention, fines up to 12,000 PLN on a carrier for someone else's tachograph card, missing Code 95, or rest-period breaches."
+title: 'BAG and ITD Fines 2026: Up to 12,000 PLN per Breach'
+description: >-
+  ITD and Germany's BAG in 2026: 3-month licence retention on the spot, 12,000
+  PLN on a carrier for someone else's tachograph card, missing Code 95.
 locale: en
-publishDate: 2026-04-13
+publishDate: 2026-04-13T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: vossoedinenie-semi-polsha-2026-prava-suprugov
-title: "Łączenie rodzin w Polsce 2026: czy karta pobytu małżonka daje prawo do pracy"
-description: "Połączenie z rodziną w 2026: która karta pobytu daje małżonkowi automatyczny dostęp do rynku pracy, jakie warunki dochodowe i mieszkaniowe obowiązują, jak wnioskuje się o dzieci do i po 18 r.ż. oraz dlaczego status sponsora jest najważniejszy."
+title: 'Łączenie rodzin w Polsce 2026: prawa małżonków'
+description: >-
+  Która karta pobytu daje małżonkowi dostęp do rynku pracy, wymogi dochodowe i
+  mieszkaniowe, dzieci do i po 18 r.ż., status sponsora.
 locale: pl
-publishDate: 2026-03-19
+publishDate: 2026-03-19T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

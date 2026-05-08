@@ -1,9 +1,11 @@
 ---
 slug: otkrytie-sp-z-o-o-polsha-instrukciya
-title: "Setting Up a sp. z o.o. in Poland: A Practical Guide for Foreign Founders"
-description: "How immigrants and foreign nationals can register a spółka z o.o. in Poland in 2026 - S24 vs notary, costs, NIP, ZUS, bank accounts. No residence card required."
+title: 'Set Up Sp. z o.o. in Poland 2026: Foreigner''s Guide'
+description: >-
+  Spółka z o.o. for foreigners: S24 vs notary, costs, documents, NIP, ZUS, bank
+  account. No residence card required to register.
 locale: en
-publishDate: 2026-01-24
+publishDate: 2026-01-24T00:00:00.000Z
 author: LegalWin
 category: Business
 keywords:

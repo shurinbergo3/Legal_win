@@ -1,9 +1,11 @@
 ---
 slug: apostille-v-polshe
-title: "Polonya'da apostille - 2026 itibarıyla ne için ve nereden alınır"
-description: "Polonya'da apostille nedir, nereden ve nasıl alınır, hangi belgelerde gereklidir. 1961 Lahey Sözleşmesi, MSZ Polonya, ul. Krucza 38/42, ücreti 60 PLN, süresi 1-3 hafta. Türk vatandaşları için Valilik üzerinden apostil ve Polonya'da yeminli tercüme akışı."
+title: 'Polonya''da apostille 2026: nereden alınır, ücret'
+description: >-
+  MSZ Polonya, ul. Krucza 38/42'de apostille: hangi belgeler için, ücret 60 PLN,
+  süre 1-3 hafta. Alternatif - legalizacja konsularna.
 locale: tr
-publishDate: 2025-12-18
+publishDate: 2025-12-18T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

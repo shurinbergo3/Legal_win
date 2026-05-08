@@ -1,9 +1,11 @@
 ---
 slug: apostille-v-polshe
-title: "Apostille in Poland - What It Is and When You Need It in 2026"
-description: "What an apostille is in Poland, how and where to obtain one, which documents need it. Hague Convention 1961, MSZ Polska, ul. Krucza 38/42, fees of 60 PLN, timelines 1-3 weeks. Alternative - legalizacja konsularna."
+title: 'Apostille in Poland 2026: Where to Get It and Costs'
+description: >-
+  Apostille at MSZ Polska, ul. Krucza 38/42: which documents need it, fee 60
+  PLN, timeline 1-3 weeks. Alternative - legalizacja konsularna.
 locale: en
-publishDate: 2025-12-18
+publishDate: 2025-12-18T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

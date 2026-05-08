@@ -1,9 +1,11 @@
 ---
 slug: eu-blue-card-vs-karta-pobytu-2026
-title: "Karta Błękitna UE vs karta czasowego pobytu 2026: co opłaca się specjaliście"
-description: "Reforma Karty Błękitnej UE w Polsce 2026: umowa od 6 miesięcy, próg 11 700 PLN, mobilność w UE 90 dni bez wiz, uproszczona zmiana pracodawcy. Porównanie ze standardową kartą czasowego pobytu."
+title: 'Karta Błękitna UE vs karta pobytu 2026: co wybrać'
+description: >-
+  Karta Błękitna UE 2026: umowa od 6 miesięcy, próg 11 700 PLN, mobilność 90 dni
+  w UE. Porównanie ze standardową kartą czasowego pobytu.
 locale: pl
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

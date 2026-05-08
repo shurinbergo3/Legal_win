@@ -1,9 +1,11 @@
 ---
 slug: kak-podat-zayavlenie-mos-2-0
-title: "MOS 2.0 Üzerinden Polonya'da Başvuru Nasıl Yapılır - 2026 Rehberi"
-description: "2026'da MOS v2.0 üzerinden Karta Pobytu başvurusunun adım adım rehberi. Hesap açma, Profil Zaufany, wniosek doldurma, Załącznik nr 1, biyometri ve sık hatalar. Mazowieckie eyaletinde gerçek takvim."
+title: MOS 2.0 ile Polonya'da başvuru 2026 rehberi
+description: >-
+  Karta Pobytu başvurusu MOS v2.0 üzerinden: hesap, Profil Zaufany, wniosek,
+  Załącznik nr 1, biyometri, sık hatalar. Mazowieckie takvimi.
 locale: tr
-publishDate: 2026-04-26
+publishDate: 2026-04-26T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

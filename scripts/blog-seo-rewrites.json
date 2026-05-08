@@ -1,0 +1,848 @@
+{
+  "apostille-nostryfikacja-tlumaczenia-przysiegle": {
+    "ru": {
+      "t": "Apostille, нострификация и присяжный перевод в Польше 2026",
+      "d": "Легализация иностранных документов: apostille, tłumaczenie przysięgłe, нострификация диплома через NAWA для врачей и инженеров. Сроки и цены."
+    },
+    "en": {
+      "t": "Apostille, Nostrification, Sworn Translation in Poland 2026",
+      "d": "Legalising foreign documents in Poland: apostille, sworn translation, NAWA diploma nostrification for doctors and engineers. Costs and timelines."
+    },
+    "pl": {
+      "t": "Apostille, nostryfikacja, tłumaczenie przysięgłe Polska 2026",
+      "d": "Legalizacja dokumentów zagranicznych: apostille, tłumaczenie przysięgłe, nostryfikacja przez NAWA dla zawodów regulowanych. Terminy i ceny."
+    },
+    "tr": {
+      "t": "Apostille, diploma denkliği, yeminli tercüme Polonya 2026",
+      "d": "Polonya'da yabancı belge legalizasyonu: apostille, yeminli tercüme, NAWA üzerinden diploma denkliği. Türkler için süreler ve ücretler."
+    }
+  },
+  "apostille-v-polshe": {
+    "ru": {
+      "t": "Apostille в Польше 2026: где получить и сколько стоит",
+      "d": "Apostille в MSZ Polska на ul. Krucza 38/42: для каких документов нужен, цена 60 PLN, срок 1-3 недели. Альтернатива - legalizacja konsularna."
+    },
+    "en": {
+      "t": "Apostille in Poland 2026: Where to Get It and Costs",
+      "d": "Apostille at MSZ Polska, ul. Krucza 38/42: which documents need it, fee 60 PLN, timeline 1-3 weeks. Alternative - legalizacja konsularna."
+    },
+    "pl": {
+      "t": "Apostille w Polsce 2026: gdzie i ile kosztuje",
+      "d": "Apostille w MSZ przy ul. Kruczej 38/42: na jakie dokumenty, opłata 60 PLN, termin 1-3 tygodnie. Alternatywa - legalizacja konsularna."
+    },
+    "tr": {
+      "t": "Polonya'da apostille 2026: nereden alınır, ücret",
+      "d": "MSZ Polonya, ul. Krucza 38/42'de apostille: hangi belgeler için, ücret 60 PLN, süre 1-3 hafta. Alternatif - legalizacja konsularna."
+    }
+  },
+  "arenda-kommercheskoy-nedvizhimosti-varshava": {
+    "ru": {
+      "t": "Аренда коммерческой недвижимости в Варшаве 2026",
+      "d": "Подводные камни umowy najmu lokalu użytkowego: индексация чинша, эксплуатационные расходы, штрафы, art. 777 KPC. Гайд для иностранных предпринимателей."
+    },
+    "en": {
+      "t": "Commercial Lease in Warsaw 2026: What to Check",
+      "d": "Pitfalls of an umowa najmu lokalu użytkowego: rent indexation, service charges, penalties, Article 777 KPC declaration. A guide for foreign founders."
+    },
+    "pl": {
+      "t": "Najem komercyjny w Warszawie 2026: co sprawdzić",
+      "d": "Pułapki umowy najmu lokalu użytkowego: indeksacja czynszu, koszty eksploatacyjne, kary, art. 777 KPC. Przewodnik dla cudzoziemców-przedsiębiorców."
+    },
+    "tr": {
+      "t": "Varşova'da ticari kira 2026: imzadan önce kontrol",
+      "d": "Umowa najmu lokalu użytkowego'nun tuzakları: kira endeksleme, işletme giderleri, cezalar, KPC madde 777. Yabancı girişimciler için rehber."
+    }
+  },
+  "brak-s-polyakom-registratsiya": {
+    "ru": {
+      "t": "Регистрация брака с поляком в Польше 2026",
+      "d": "USC, zaświadczenie o zdolności do zawarcia małżeństwa, апостили, переводы. Влияние брака на karta pobytu и польское гражданство."
+    },
+    "en": {
+      "t": "Marriage to a Polish Citizen 2026: USC Guide",
+      "d": "USC procedure, zaświadczenie o zdolności do zawarcia małżeństwa, apostilles, sworn translations. Impact on karta pobytu and Polish citizenship."
+    },
+    "pl": {
+      "t": "Małżeństwo z obywatelem Polski 2026: USC krok po kroku",
+      "d": "Procedura w USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, tłumaczenia. Wpływ na kartę pobytu i obywatelstwo polskie."
+    },
+    "tr": {
+      "t": "Polonya vatandaşı ile evlilik 2026: USC rehberi",
+      "d": "USC süreci, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, yeminli tercümeler. Karta pobytu ve vatandaşlığa etkisi."
+    }
+  },
+  "cheklist-novopribyvshih-v-polshu": {
+    "ru": {
+      "t": "Чек-лист переезда в Польшу 2026: первые 90 дней",
+      "d": "PESEL, meldunek, Profil Zaufany, банковский счёт, NFZ, школа, karta pobytu - что и когда сделать в первые 30, 60 и 90 дней после приезда."
+    },
+    "en": {
+      "t": "Newcomer Checklist for Poland 2026: First 90 Days",
+      "d": "PESEL, meldunek, Profil Zaufany, bank account, NFZ, school, karta pobytu - what to do in the first 30, 60 and 90 days after arrival."
+    },
+    "pl": {
+      "t": "Lista nowego mieszkańca Polski 2026: pierwsze 90 dni",
+      "d": "PESEL, meldunek, Profil Zaufany, konto bankowe, NFZ, szkoła, karta pobytu - co zrobić w pierwszych 30, 60 i 90 dniach po przyjeździe."
+    },
+    "tr": {
+      "t": "Polonya'ya yeni gelenler için kontrol listesi 2026",
+      "d": "PESEL, meldunek, Profil Zaufany, banka hesabı, NFZ, okul, karta pobytu - ilk 30, 60 ve 90 günde Türk göçmenler için yapılacaklar."
+    }
+  },
+  "ees-system-vyezd-vyezd-evrosoyuz": {
+    "ru": {
+      "t": "Entry/Exit System (EES) 2026: что значит для иностранцев",
+      "d": "EES заменяет штампы биометрией на границах Шенгена. Что значит для karta pobytu, как считаются 90/180 дней, проверки Straży Granicznej."
+    },
+    "en": {
+      "t": "EU Entry/Exit System (EES) 2026: Impact on Foreigners",
+      "d": "EES replaces passport stamps with biometrics at Schengen borders. What it means for karta pobytu holders, how 90/180 days now counts, Border Guard checks."
+    },
+    "pl": {
+      "t": "Entry/Exit System (EES) 2026: jak wpływa na cudzoziemców",
+      "d": "EES zastępuje pieczątki biometrycznym skanem na granicach Schengen. Co oznacza dla kart pobytu, liczenie 90/180 dni, kontrole Straży Granicznej."
+    },
+    "tr": {
+      "t": "EES sistemi 2026: yabancılar için ne değişiyor?",
+      "d": "EES, Schengen sınırlarında pasaport mührünü biyometriyle değiştiriyor. Karta pobytu sahipleri, 90/180 kuralı ve Straż Graniczna denetimleri."
+    }
+  },
+  "eu-blue-card-vs-karta-pobytu-2026": {
+    "ru": {
+      "t": "EU Blue Card vs Karta Pobytu 2026: что выбрать",
+      "d": "Голубая Карта ЕС в Польше 2026: контракт от 6 мес., зарплата 11 700 PLN, мобильность 90 дней по ЕС. Сравнение с karta czasowego pobytu."
+    },
+    "en": {
+      "t": "EU Blue Card vs Karta Pobytu 2026: Which to Pick",
+      "d": "EU Blue Card 2026 in Poland: contract from 6 months, 11,700 PLN salary, 90-day EU mobility, easy job change. Compared to standard karta czasowego pobytu."
+    },
+    "pl": {
+      "t": "Karta Błękitna UE vs karta pobytu 2026: co wybrać",
+      "d": "Karta Błękitna UE 2026: umowa od 6 miesięcy, próg 11 700 PLN, mobilność 90 dni w UE. Porównanie ze standardową kartą czasowego pobytu."
+    },
+    "tr": {
+      "t": "AB Mavi Kartı mı Karta Pobytu mu 2026?",
+      "d": "AB Mavi Kartı 2026: 6 aydan sözleşme, 11.700 PLN maaş eşiği, AB içinde 90 gün mobilite. Standart Karta Pobytu ile karşılaştırma."
+    }
+  },
+  "jdg-dlya-inostrancev-v-polshe": {
+    "ru": {
+      "t": "JDG для иностранцев 2026: открытие ИП в Польше",
+      "d": "Jednoosobowa działalność gospodarcza для иностранца: кто имеет право, CEIDG, ZUS, ryczałt vs zasady ogólne. Преимущества для karta pobytu."
+    },
+    "en": {
+      "t": "JDG for Foreigners 2026: Sole Proprietorship in Poland",
+      "d": "Jednoosobowa działalność gospodarcza for foreigners: eligibility, CEIDG, ZUS, ryczałt vs zasady ogólne. Advantages for karta pobytu applications."
+    },
+    "pl": {
+      "t": "JDG dla cudzoziemców 2026: jak otworzyć działalność",
+      "d": "Jednoosobowa działalność gospodarcza dla cudzoziemca: kto może, CEIDG, ZUS, ryczałt vs zasady ogólne. Korzyści przy karcie pobytu."
+    },
+    "tr": {
+      "t": "Yabancılar için JDG 2026: Polonya'da şahıs şirketi",
+      "d": "JDG (jednoosobowa działalność gospodarcza) Türk vatandaşı için: kuruluş şartları, CEIDG, ZUS, ryczałt vs zasady ogólne. Karta Pobytu avantajı."
+    }
+  },
+  "kak-podat-zayavlenie-mos-2-0": {
+    "ru": {
+      "t": "MOS 2.0 в Польше 2026: как подать заявление онлайн",
+      "d": "Подача karta pobytu через MOS v2.0: регистрация, Profil Zaufany, wniosek, Załącznik nr 1, биометрия, частые ошибки. Таймлайн в Mazowieckim."
+    },
+    "en": {
+      "t": "MOS 2.0 in Poland 2026: How to Submit Online",
+      "d": "Filing karta pobytu through MOS v2.0: account, Profil Zaufany, wniosek, Załącznik nr 1, biometrics, common errors. Real timeline in Mazowieckie."
+    },
+    "pl": {
+      "t": "MOS 2.0 w Polsce 2026: jak złożyć wniosek online",
+      "d": "Wniosek o kartę pobytu przez MOS v2.0: konto, Profil Zaufany, wniosek, Załącznik nr 1, biometria, częste błędy. Harmonogram w Mazowieckim."
+    },
+    "tr": {
+      "t": "MOS 2.0 ile Polonya'da başvuru 2026 rehberi",
+      "d": "Karta Pobytu başvurusu MOS v2.0 üzerinden: hesap, Profil Zaufany, wniosek, Załącznik nr 1, biyometri, sık hatalar. Mazowieckie takvimi."
+    }
+  },
+  "karta-cukr-dlya-ukraincev": {
+    "ru": {
+      "t": "Карта CUKR для украинцев 2026: полный гайд",
+      "d": "Karta CUKR - отдельный тип karty pobytu для граждан Украины с PESEL UKR. Документы, сроки, цены, отличия от стандартной karty czasowego pobytu."
+    },
+    "en": {
+      "t": "Karta CUKR for Ukrainians 2026: Full Guide",
+      "d": "Karta CUKR - a special residence permit for Ukrainians with PESEL UKR. Application, timelines, costs, differences from standard karta czasowego pobytu."
+    },
+    "pl": {
+      "t": "Karta CUKR dla Ukraińców 2026: kompletny przewodnik",
+      "d": "Karta CUKR - specjalne zezwolenie dla Ukraińców z PESEL UKR. Wniosek, terminy, koszty, różnice od standardowej karty czasowego pobytu."
+    },
+    "tr": {
+      "t": "Ukraynalılar için Karta CUKR 2026: tam rehber",
+      "d": "Karta CUKR - PESEL UKR sahibi Ukraynalılar için özel oturum kartı. Başvuru, süreler, ücretler ve standart karta czasowego pobytu'dan farkları."
+    }
+  },
+  "karta-pobytu-2026-poshagovaya-instrukciya": {
+    "ru": {
+      "t": "Карта побыту в Польше 2026: пошаговая инструкция",
+      "d": "Karta czasowego pobytu через MOS v2.0, без штампа в паспорте, минимальная зарплата 4806 PLN. Документы, цены, что делать при odmowie."
+    },
+    "en": {
+      "t": "Temporary Residence Card Poland 2026: Step-by-Step",
+      "d": "Karta czasowego pobytu via MOS v2.0, no passport stamp, minimum salary 4,806 PLN. Documents, costs, timelines and what to do after a refusal."
+    },
+    "pl": {
+      "t": "Karta czasowego pobytu 2026: instrukcja krok po kroku",
+      "d": "Karta czasowego pobytu przez MOS v2.0, bez pieczątki w paszporcie, minimum 4 806 PLN. Dokumenty, koszty, terminy i co przy odmowie."
+    },
+    "tr": {
+      "t": "Polonya oturum kartı 2026: adım adım rehber",
+      "d": "Karta Pobytu MOS v2.0 üzerinden, pasaporta kaşe yok, asgari ücret 4.806 PLN. Belgeler, harçlar, süreler ve ret kararı sonrası adımlar."
+    }
+  },
+  "karta-pobytu-dlya-detey-2026": {
+    "ru": {
+      "t": "Karta pobytu для детей 2026: документы и школа",
+      "d": "Karta pobytu для несовершеннолетних: расчёт прожиточного минимума, медстраховка через ZUS родителя, obowiązek szkolny, выплаты 800+."
+    },
+    "en": {
+      "t": "Karta Pobytu for Children 2026: Documents and School",
+      "d": "Karta pobytu for minor foreigners: per-person income calc, ZUS health coverage through a parent, obowiązek szkolny, the 800+ benefit link."
+    },
+    "pl": {
+      "t": "Karta pobytu dla dzieci 2026: dokumenty i szkoła",
+      "d": "Karta pobytu dla nieletniego cudzoziemca: minimum egzystencji, ubezpieczenie przez ZUS rodzica, obowiązek szkolny, świadczenie 800+."
+    },
+    "tr": {
+      "t": "Çocuklar için Karta Pobytu 2026: belgeler ve okul",
+      "d": "Reşit olmayan çocuklar için Karta Pobytu: aile başına gelir, ebeveyn ZUS sağlık sigortası, obowiązek szkolny ve 800+ sosyal yardımı."
+    }
+  },
+  "karta-pobytu-privyazka-k-rabotodatelyu": {
+    "ru": {
+      "t": "Karta pobytu с привязкой к работодателю 2026",
+      "d": "Когда karta czasowego pobytu привязана к pracodawcy, что писать в Załączniku nr 1, как сменить работу без потери ВНЖ. Аннулирование, апелляции."
+    },
+    "en": {
+      "t": "Employer-Tied Karta Pobytu in Poland 2026",
+      "d": "When your karta czasowego pobytu is locked to one employer, what goes in Załącznik nr 1, how to switch jobs without losing the permit. Annulment, appeals."
+    },
+    "pl": {
+      "t": "Karta pobytu przypisana do pracodawcy 2026",
+      "d": "Kiedy karta czasowego pobytu jest przypisana do pracodawcy, co wpisać w Załączniku nr 1, jak zmienić pracę bez utraty zezwolenia. Unieważnienie, odwołania."
+    },
+    "tr": {
+      "t": "İşverene bağlı Karta Pobytu 2026 rehberi",
+      "d": "Karta Czasowego Pobytu işverene bağlandığında: 15 günlük süre, Załącznik nr 1, MOS v2.0 powiadomienie ve karta iptaline itiraz yolları."
+    }
+  },
+  "karta-pobytu-wygasla-co-delat": {
+    "ru": {
+      "t": "Karta pobytu истекла - что делать в 2026",
+      "d": "Истёк срок karty pobytu в Польше: грозит ли депортация, можно ли выехать, как срочно подать новый wniosek через MOS v2.0, штрафы и сроки."
+    },
+    "en": {
+      "t": "Karta Pobytu Expired - What to Do in 2026",
+      "d": "Your karta pobytu expired in Poland: deportation risk, whether you can leave, how to file a new MOS v2.0 application urgently, fines and timelines."
+    },
+    "pl": {
+      "t": "Karta pobytu wygasła - co robić w 2026",
+      "d": "Wygasł termin karty pobytu w Polsce: czy grozi deportacja, czy można wyjechać, jak pilnie złożyć wniosek przez MOS v2.0, kary i terminy."
+    },
+    "tr": {
+      "t": "Karta Pobytu süresi doldu - 2026'da ne yapmalı?",
+      "d": "Polonya'da karta pobytu süresi doldu: sınır dışı riski, çıkış imkânı, MOS v2.0 ile acil yeni başvuru, para cezaları ve statünün geri kazanımı."
+    }
+  },
+  "karta-polaka-kak-poluchit": {
+    "ru": {
+      "t": "Karta Polaka 2026: документы, экзамен, сроки",
+      "d": "Как получить Karta Polaka в 2026 - для лиц с польскими корнями. Документы родства, экзамен по польскому, консулат, привилегии при въезде в РП."
+    },
+    "en": {
+      "t": "Karta Polaka 2026: Documents, Exam, Timelines",
+      "d": "How to obtain a Karta Polaka in 2026 - for people with Polish ancestry. Ancestry documents, language and culture exam, consulate, the privileges granted."
+    },
+    "pl": {
+      "t": "Karta Polaka 2026: dokumenty, egzamin, terminy",
+      "d": "Jak uzyskać Kartę Polaka w 2026 - dla osób polskiego pochodzenia. Dokumenty pokrewieństwa, egzamin językowo-kulturowy, konsulat, przywileje."
+    },
+    "tr": {
+      "t": "Karta Polaka 2026: belgeler, sınav, süreler",
+      "d": "Polonya kökenli kişiler için Karta Polaka 2026: soy belgeleri, Lehçe ve kültür mülakatı, konsolosluk süreci ve sağladığı haklar."
+    }
+  },
+  "karta-stalego-pobytu-pmzh-polsha-2026": {
+    "ru": {
+      "t": "Карта сталего побыту (ПМЖ) в Польше 2026",
+      "d": "Кто может получить karta stałego pobytu в 2026: документы, сроки в Mazowieckim, что даёт ПМЖ по сравнению с временной картой."
+    },
+    "en": {
+      "t": "Permanent Residence Card Poland 2026: Eligibility",
+      "d": "Who qualifies for karta stałego pobytu in 2026, required documents, Mazowieckie processing time, what PR changes vs a temporary permit."
+    },
+    "pl": {
+      "t": "Karta stałego pobytu w Polsce 2026: kto i jak",
+      "d": "Kto może uzyskać kartę stałego pobytu w 2026, jakie dokumenty, ile trwa w Mazowieckim, co zmienia stały pobyt względem czasowego."
+    },
+    "tr": {
+      "t": "Karta Stałego Pobytu (Daimi Oturum) 2026",
+      "d": "2026'da Polonya'da Karta Stałego Pobytu kimler alabilir, gerekli belgeler, Mazowieckie'de süre ve geçici karta göre avantajları."
+    }
+  },
+  "karta-stalego-pobytu-vs-rezident-eu": {
+    "ru": {
+      "t": "Karta stałego pobytu vs резидент ЕС 2026",
+      "d": "Сравнение: karta stałego pobytu (корни, брак, защита) и karta rezydenta UE (5 лет + B1). Подсчёт стажа, требования B1, мобильность по ЕС."
+    },
+    "en": {
+      "t": "Karta Stałego Pobytu vs EU Long-Term Resident 2026",
+      "d": "Poland's two PR statuses: karta stałego pobytu (descent, marriage) vs karta rezydenta UE (5 years + B1). Counting years, B1, EU mobility."
+    },
+    "pl": {
+      "t": "Karta stałego pobytu vs rezydent długoterminowy UE 2026",
+      "d": "Porównanie: karta stałego pobytu (pochodzenie, małżeństwo, ochrona) vs karta rezydenta UE (5 lat + B1). Liczenie lat, wymóg B1, mobilność w UE."
+    },
+    "tr": {
+      "t": "Karta Stałego Pobytu mu, AB uzun mukimi mi 2026?",
+      "d": "Polonya'da iki daimi ikamet karşılaştırması: Karta Stałego Pobytu (köken, evlilik) ve AB Uzun Mukimi (5 yıl + B1). Süre, B1, AB içinde mobilite."
+    }
+  },
+  "kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe": {
+    "ru": {
+      "t": "Kod 95 в Польше 2026: длинный курс vs короткий",
+      "d": "Kwalifikacja Wstępna (140 ч., 2 800 PLN, госэкзамен) vs Szkolenie Okresowe (35 ч., 900 PLN). Выбор зависит от даты выдачи прав категории C."
+    },
+    "en": {
+      "t": "Code 95 in Poland 2026: Long vs Short Course",
+      "d": "Kwalifikacja Wstępna (140 h, 2,800 PLN, state exam) vs Szkolenie Okresowe (35 h, 900 PLN). Choice depends on the issue date of category C licence."
+    },
+    "pl": {
+      "t": "Kod 95 w Polsce 2026: kurs długi vs krótki",
+      "d": "Kwalifikacja Wstępna (140 h, 2 800 PLN, egzamin państwowy) vs Szkolenie Okresowe (35 h, 900 PLN). Wybór zależy od daty wydania kat. C."
+    },
+    "tr": {
+      "t": "Polonya'da Kod 95 2026: uzun kurs mu, kısa mı?",
+      "d": "Kwalifikacja Wstępna (140 saat, 2.800 PLN, devlet sınavı) ile Szkolenie Okresowe (35 saat, 900 PLN). C sınıfı belge tarihine göre seçim."
+    }
+  },
+  "kod-95-polsha-kak-poluchit": {
+    "ru": {
+      "t": "Kod 95 в Польше 2026: кому нужен и как получить",
+      "d": "Kod 95 для категорий C, D, C+E, D+E: KWP за 2800 PLN или Szkolenie Okresowe за 900 PLN, сроки 3 мес., документы для иностранцев."
+    },
+    "en": {
+      "t": "Code 95 in Poland 2026: Who Needs It and How",
+      "d": "Code 95 for C, D, C+E, D+E drivers: KWP at 2,800 PLN or Szkolenie Okresowe at 900 PLN, 3 months, documents for foreigners from CIS."
+    },
+    "pl": {
+      "t": "Kod 95 w Polsce 2026: dla kogo i jak uzyskać",
+      "d": "Kod 95 dla kat. C, D, C+E, D+E: KWP za 2 800 PLN lub Szkolenie Okresowe za 900 PLN, 3 miesiące, dokumenty dla cudzoziemców z WNP."
+    },
+    "tr": {
+      "t": "Polonya'da Kod 95 2026: kimler ve nasıl alır?",
+      "d": "C, D, C+E, D+E sürücüleri için Kod 95: KWP 2.800 PLN veya Szkolenie Okresowe 900 PLN, 3 ay, yabancılar için belgeler."
+    }
+  },
+  "ksef-luty-2026-e-faktury": {
+    "ru": {
+      "t": "KSeF 2026: обязательные e-фактуры в Польше",
+      "d": "С 1 февраля 2026 все B2B-фактуры в Польше идут через KSeF. Подключение для иностранцев, штрафы, что делать Sp. z o.o. и JDG."
+    },
+    "en": {
+      "t": "KSeF 2026: Mandatory Polish E-Invoices",
+      "d": "From 1 February 2026 all B2B invoices in Poland go through KSeF. How a foreign entrepreneur connects, penalties, steps for Sp. z o.o. and JDG."
+    },
+    "pl": {
+      "t": "KSeF 2026: obowiązkowe e-faktury w Polsce",
+      "d": "Od 1 lutego 2026 wszystkie faktury B2B w Polsce wystawiane są przez KSeF. Podłączenie dla cudzoziemców, kary, kroki dla Sp. z o.o. i JDG."
+    },
+    "tr": {
+      "t": "KSeF 2026: Polonya'da zorunlu e-fatura sistemi",
+      "d": "1 Şubat 2026'dan itibaren Polonya'daki tüm B2B faturalar KSeF üzerinden. Türk girişimci için bağlanma, cezalar, Sp. z o.o. ve JDG adımları."
+    }
+  },
+  "legalizacja-w-polshe-warszawa": {
+    "ru": {
+      "t": "Легализация в Варшаве 2026: пути для иностранцев",
+      "d": "Visa D, karta czasowego pobytu, karta stałego pobytu, CUKR, гражданство. Сроки в Mazowieckim Urzędzie Wojewódzkim, цены и реальные ожидания."
+    },
+    "en": {
+      "t": "Legalisation in Warsaw 2026: Paths for Foreigners",
+      "d": "Visa D, karta czasowego pobytu, karta stałego pobytu, CUKR, citizenship. Real timelines at Mazowieckie Voivodeship Office, costs, what to expect."
+    },
+    "pl": {
+      "t": "Legalizacja w Warszawie 2026: ścieżki dla cudzoziemców",
+      "d": "Wiza D, karta czasowego pobytu, karta stałego pobytu, CUKR, obywatelstwo. Realne terminy w Mazowieckim Urzędzie Wojewódzkim, koszty, oczekiwania."
+    },
+    "tr": {
+      "t": "Varşova'da legalizasyon 2026: Türkler için yollar",
+      "d": "D vizesi, karta czasowego pobytu, karta stałego pobytu, vatandaşlık. Mazowiecki Urząd Wojewódzki süreleri, ücretler ve gerçek beklentiler."
+    }
+  },
+  "likvidaciya-sp-z-oo-instrukciya": {
+    "ru": {
+      "t": "Ликвидация Sp. z o.o. в Польше 2026: пошагово",
+      "d": "Этапы: uchwała, ликвидатор, MSiG, призыв кредиторов, отчёт. Срок 6-8 месяцев, цены и альтернатива - продажа компании. Риски ст. 299 KSH."
+    },
+    "en": {
+      "t": "Sp. z o.o. Liquidation in Poland 2026: Step-by-Step",
+      "d": "Stages: shareholders' resolution, liquidator, MSiG, creditor call, final report. 6-8 months, costs, the alternative of selling. Article 299 KSH risks."
+    },
+    "pl": {
+      "t": "Likwidacja sp. z o.o. w Polsce 2026: krok po kroku",
+      "d": "Etapy: uchwała, likwidator, MSiG, wezwanie wierzycieli, sprawozdanie. 6-8 miesięcy, koszty, alternatywa - sprzedaż. Ryzyka art. 299 KSH."
+    },
+    "tr": {
+      "t": "Polonya'da Sp. z o.o. tasfiyesi 2026: adım adım",
+      "d": "Aşamalar: uchwała, likwidator, MSiG ilanı, alacaklı çağrısı, rapor. 6-8 ay, maliyetler, hazır şirket satışı alternatifi. Art. 299 KSH riskleri."
+    }
+  },
+  "nalogovoye-rezidentstvo-polsha-183-dnya": {
+    "ru": {
+      "t": "Налоговое резидентство Польши 2026: правило 183 дней",
+      "d": "Когда иностранец становится польским резидентом, зачем сертификат CFR-1, как работает соглашение об избежании двойного налогообложения и PIT-36 ZG."
+    },
+    "en": {
+      "t": "Polish Tax Residency 2026: The 183-Day Rule",
+      "d": "When a foreigner becomes a Polish tax resident, the role of CFR-1, how the double-taxation treaty works, why PIT-36 ZG matters for remote workers."
+    },
+    "pl": {
+      "t": "Polska rezydencja podatkowa 2026: zasada 183 dni",
+      "d": "Kiedy cudzoziemiec staje się polskim rezydentem, po co certyfikat CFR-1, jak działa UPO i dlaczego PIT-36 ZG jest konieczny przy pracy zdalnej."
+    },
+    "tr": {
+      "t": "Polonya'da vergi mukimliği 2026: 183 gün kuralı",
+      "d": "Yabancı ne zaman Polonya vergi mukimi olur, CFR-1 sertifikası neden gerekir, çifte vergilendirme anlaşması ve PIT-36 ZG'nin önemi."
+    }
+  },
+  "nalogovye-lgoty-estonian-cit-ip-box": {
+    "ru": {
+      "t": "Налоговые льготы Польша 2026: Estonian CIT и IP Box",
+      "d": "Три инструмента для sp. z o.o. и JDG: Estonian CIT (0% до дивидендов), 9% CIT для малых, IP Box 5% на доходы от прав. Условия и риски."
+    },
+    "en": {
+      "t": "Polish Tax Incentives 2026: Estonian CIT, IP Box",
+      "d": "Three tools for sp. z o.o. and JDG: Estonian CIT (0% until dividends), 9% CIT for small payers, IP Box 5% on IP income. Conditions and risks."
+    },
+    "pl": {
+      "t": "Ulgi podatkowe 2026: Estoński CIT, 9% CIT, IP Box",
+      "d": "Trzy narzędzia dla sp. z o.o. i JDG: Estoński CIT (0% do dywidend), 9% CIT dla małych, IP Box 5% od przychodów IP. Warunki i ryzyka."
+    },
+    "tr": {
+      "t": "Polonya'da vergi avantajları 2026: Estonian CIT, IP Box",
+      "d": "Sp. z o.o. ve JDG için üç araç: Estonian CIT (kâr dağıtımına kadar %0), küçükler için %9 CIT, IP Box %5. Şartlar ve riskler."
+    }
+  },
+  "nevyplata-zarplaty-zaschita-prav-inostranca-pip": {
+    "ru": {
+      "t": "Не платят зарплату в Польше 2026: защита иностранца",
+      "d": "Невыплата зарплаты по umowie o pracę, zlecenie, B2B: жалоба в PIP, иск в Sąd Pracy, нюансы зарубежного работодателя, art. 88g(1a)."
+    },
+    "en": {
+      "t": "Unpaid Wages in Poland 2026: Foreigner's Protection",
+      "d": "Recovering unpaid wages on umowa o pracę, zlecenie, B2B: PIP complaint, Sąd Pracy claim, US/UK remote employers, the art. 88g(1a) trap."
+    },
+    "pl": {
+      "t": "Niewypłacone wynagrodzenie 2026: ochrona cudzoziemca",
+      "d": "Odzyskanie wynagrodzenia z umowy o pracę, zlecenia, B2B: skarga do PIP, pozew w Sądzie Pracy, pracodawca z USA/UK, pułapka art. 88g ust. 1a."
+    },
+    "tr": {
+      "t": "Polonya'da maaş ödenmiyor 2026: yabancı hakları",
+      "d": "Ödenmeyen maaş için umowa o pracę, zlecenie, B2B: PIP şikayeti, Sąd Pracy davası, ABD/UK işverenleri ve art. 88g(1a) tuzağı."
+    }
+  },
+  "nfz-dla-cudzoziemca-2026": {
+    "ru": {
+      "t": "NFZ для иностранца 2026: как зарегистрироваться",
+      "d": "Регистрация в NFZ с karta pobytu, JDG или umową o pracę: ZUS, ZZA, добровольные взносы, IKP и mObywatel - пошаговая инструкция."
+    },
+    "en": {
+      "t": "NFZ for Foreigners 2026: How to Register in Poland",
+      "d": "Registering with NFZ with karta pobytu, JDG or umowa o pracę: ZUS, ZZA, voluntary contributions, IKP and mObywatel - step-by-step."
+    },
+    "pl": {
+      "t": "NFZ dla cudzoziemca 2026: jak się zarejestrować",
+      "d": "Rejestracja w NFZ z kartą pobytu, JDG lub umową o pracę: ZUS, ZZA, dobrowolne ubezpieczenie, IKP i mObywatel - krok po kroku."
+    },
+    "tr": {
+      "t": "Yabancı için NFZ 2026: sağlık sigortasına kayıt",
+      "d": "Karta pobytu, JDG veya umowa o pracę ile NFZ kaydı: ZUS, ZZA, isteğe bağlı katkı, IKP ve mObywatel - Türk vatandaşları için adım adım."
+    }
+  },
+  "obmen-azerbajdzhanskih-prav-na-polskie": {
+    "ru": {
+      "t": "Обмен азербайджанских прав на польские 2026",
+      "d": "Венская конвенция, экзамены, апостиль, переводы. Сроки 60-120 дней, цены от 220 PLN, нюансы для прав образца до 2017 года."
+    },
+    "en": {
+      "t": "Azerbaijani to Polish Driving Licence Exchange 2026",
+      "d": "Vienna Convention, exam exemptions, apostille, sworn translation. Timelines 60-120 days, costs from 220 PLN, special rules for pre-2017 licences."
+    },
+    "pl": {
+      "t": "Wymiana azerskiego prawa jazdy na polskie 2026",
+      "d": "Konwencja Wiedeńska, zwolnienie z egzaminów, apostille, tłumaczenie. Terminy 60-120 dni, koszty od 220 PLN, niuanse praw sprzed 2017 r."
+    },
+    "tr": {
+      "t": "Azerbaycan ehliyetinin Polonya'ya çevrilmesi 2026",
+      "d": "Viyana Sözleşmesi, sınav muafiyeti, apostille, yeminli tercüme. Süre 60-120 gün, ücret 220 PLN'den, 2017 öncesi belgeler için kurallar."
+    }
+  },
+  "obmen-prav-na-polskie-2026": {
+    "ru": {
+      "t": "Обмен украинских и беларусских прав на польские 2026",
+      "d": "Документы, цены от 160 PLN, сроки 30-90 дней, Wydział Komunikacji в Mazowieckim, нужны ли экзамены и присяжный перевод."
+    },
+    "en": {
+      "t": "Ukrainian/Belarusian Driving Licence Exchange 2026",
+      "d": "Documents, fees from 160 PLN, timelines 30-90 days, Wydział Komunikacji in Mazowieckie, exam requirements and sworn translation rules."
+    },
+    "pl": {
+      "t": "Wymiana ukraińskiego/białoruskiego prawa jazdy 2026",
+      "d": "Dokumenty, opłaty od 160 PLN, terminy 30-90 dni, Wydział Komunikacji w mazowieckim, wymagania egzaminów i tłumaczenia przysięgłe."
+    },
+    "tr": {
+      "t": "Türk ehliyetinin Polonya'ya çevrilmesi 2026",
+      "d": "Türk, Ukrayna, Beyaz Rusya ehliyetleri: belgeler, ücretler, süreler, Wydział Komunikacji süreci, WORD teorik sınav koşulu."
+    }
+  },
+  "obmen-tureckih-prav-na-polskie": {
+    "ru": {
+      "t": "Обмен турецких прав на польские в Польше 2026",
+      "d": "Венская конвенция, документы, цены от 200 PLN, сроки 45-90 дней. Особенности для прав до 2016, перевод с турецкого, Wydział Komunikacji."
+    },
+    "en": {
+      "t": "Turkish Driving Licence Exchange in Poland 2026",
+      "d": "Vienna Convention, documents, costs from 200 PLN, timelines 45-90 days. Pre-2016 licence rules, sworn translation from Turkish, Wydział Komunikacji."
+    },
+    "pl": {
+      "t": "Wymiana tureckiego prawa jazdy na polskie 2026",
+      "d": "Konwencja Wiedeńska, dokumenty, koszty od 200 PLN, terminy 45-90 dni. Niuanse dla praw sprzed 2016, tłumaczenie z tureckiego, Wydział Komunikacji."
+    },
+    "tr": {
+      "t": "Türk ehliyetinin Polonya ehliyetine çevrilmesi 2026",
+      "d": "Viyana Sözleşmesi, belgeler, ücret 200 PLN'den, süre 45-90 gün. 2016 öncesi tip belgeler, yeminli tercüme, Wydział Komunikacji adımları."
+    }
+  },
+  "otkaz-po-karte-pobytu": {
+    "ru": {
+      "t": "Отказ по karcie pobytu в Польше 2026: что делать",
+      "d": "Decyzja odmowna по karta pobytu: сроки апелляции, причины отказов в Mazowieckim, как составить odwołanie do Szefa UDSC и skargę do WSA."
+    },
+    "en": {
+      "t": "Karta Pobytu Refusal in Poland 2026: What to Do",
+      "d": "Decyzja odmowna on karta pobytu: appeal deadlines, common refusal reasons in Mazowieckie, how to draft an odwołanie to Szef UDSC and a skarga to WSA."
+    },
+    "pl": {
+      "t": "Odmowa karty pobytu 2026: co robić po decyzji",
+      "d": "Decyzja odmowna w sprawie karty pobytu: terminy odwołania, przyczyny odmów w Mazowieckim, jak sporządzić odwołanie do Szefa UDSC i skargę do WSA."
+    },
+    "tr": {
+      "t": "Karta Pobytu reddi 2026: Polonya'da ne yapmalı?",
+      "d": "Decyzja odmowna sonrası: itiraz süreleri, Mazowieckie'de ret nedenleri, Szef UDSC'ye odwołanie ve WSA'ya skarga nasıl hazırlanır."
+    }
+  },
+  "otkrytie-bankovskogo-scheta-v-polshe": {
+    "ru": {
+      "t": "Банковский счёт в Польше для иностранцев 2026",
+      "d": "Konto bankowe для иностранца: PKO BP, Santander, mBank, Pekao, ING - документы, время открытия, тарифы. С PESEL и без, лично и онлайн."
+    },
+    "en": {
+      "t": "Polish Bank Account for Foreigners 2026",
+      "d": "Konto bankowe as a foreigner: PKO BP, Santander, mBank, Pekao, ING - documents, opening time, fees. With and without PESEL, in branch and online."
+    },
+    "pl": {
+      "t": "Konto bankowe w Polsce dla cudzoziemców 2026",
+      "d": "Konto bankowe dla cudzoziemca: PKO BP, Santander, mBank, Pekao, ING - dokumenty, czas otwarcia, opłaty. Z PESEL i bez, osobiście i online."
+    },
+    "tr": {
+      "t": "Polonya'da yabancı için banka hesabı 2026",
+      "d": "Konto bankowe açma: PKO BP, Santander, mBank, Pekao, ING karşılaştırması - belgeler, süreler, ücretler. PESEL ile/PESEL'siz, şube ve online."
+    }
+  },
+  "otkrytie-sp-z-o-o-polsha-instrukciya": {
+    "ru": {
+      "t": "Открытие Sp. z o.o. в Польше 2026: пошагово",
+      "d": "Spółka z o.o. для иностранца: S24 или нотариус, цены, документы, NIP, ZUS, банковский счёт. Без обязательной karty pobytu."
+    },
+    "en": {
+      "t": "Set Up Sp. z o.o. in Poland 2026: Foreigner's Guide",
+      "d": "Spółka z o.o. for foreigners: S24 vs notary, costs, documents, NIP, ZUS, bank account. No residence card required to register."
+    },
+    "pl": {
+      "t": "Założenie sp. z o.o. w Polsce 2026: krok po kroku",
+      "d": "Spółka z o.o. dla cudzoziemca: S24 czy notariusz, koszty, dokumenty, NIP, ZUS, konto bankowe. Bez wymogu karty pobytu."
+    },
+    "tr": {
+      "t": "Polonya'da Sp. z o.o. kuruluşu 2026: Türk rehberi",
+      "d": "Türk girişimci için Sp. z o.o. (limited şirket): S24 mü noter mi, maliyet, belgeler, NIP, ZUS, banka hesabı. Karta pobytu zorunlu değil."
+    }
+  },
+  "perehod-s-ukr-na-rabochuyu-kartu-pobytu": {
+    "ru": {
+      "t": "С PESEL UKR на рабочую karta pobytu 2026",
+      "d": "Переход с временной защиты на karta czasowego pobytu по работе или бизнесу: плюсы, минусы, стаж для ПМЖ, риск потери UKR. Альтернатива - CUKR."
+    },
+    "en": {
+      "t": "PESEL UKR to Work Karta Pobytu 2026: Strategy",
+      "d": "Moving from temporary protection to a work karta czasowego pobytu: pros, cons, EU resident counting, UKR risks. Alternative - karta CUKR."
+    },
+    "pl": {
+      "t": "Z PESEL UKR na zwykłą kartę pobytu 2026",
+      "d": "Przejście z ochrony tymczasowej na kartę czasowego pobytu pracowniczą: plusy, minusy, liczenie 5 lat, ryzyko utraty UKR. Alternatywa - karta CUKR."
+    },
+    "tr": {
+      "t": "PESEL UKR'den çalışma Karta Pobytu'ya 2026",
+      "d": "Geçici korumadan iş esaslı standart Karta Pobytu'ya geçiş: artılar, eksiler, daimi oturum süresi, UKR avantaj kaybı. Alternatif: 3 yıllık CUKR."
+    }
+  },
+  "perehod-so-studencheskoy-vizy-na-kartu-pobytu": {
+    "ru": {
+      "t": "Со студенческой визы на karta pobytu 2026",
+      "d": "С июля 2025 zezwolenie na pracę не нужно только для вузов из списка министерства. Как проверить вуз, штраф 3000 PLN и MOS v2.0 после защиты."
+    },
+    "en": {
+      "t": "Student Visa to Karta Pobytu 2026: New Rules",
+      "d": "Since July 2025, work-permit exemption applies only to ministry-listed universities. How to check yours, the 3,000 PLN fine, MOS v2.0 after defense."
+    },
+    "pl": {
+      "t": "Z wizy studenckiej na kartę pobytu 2026",
+      "d": "Od lipca 2025 zwolnienie z zezwolenia na pracę tylko dla uczelni z Wykazu MNiSW. Jak sprawdzić, kara 3 000 PLN, MOS v2.0 po obronie dyplomu."
+    },
+    "tr": {
+      "t": "Öğrenci vizesinden Karta Pobytu'ya 2026",
+      "d": "Temmuz 2025'ten beri zezwolenie na pracę muafiyeti yalnızca bakanlık listesindeki üniversiteler için. Kontrol, 3.000 PLN ceza, MOS v2.0."
+    }
+  },
+  "pesel-profil-zaufany-mdowod-posle-karty-pobytu": {
+    "ru": {
+      "t": "PESEL, Profil Zaufany, mDowód после karty pobytu",
+      "d": "Что оформить после получения karty pobytu: PESEL, Profil Zaufany, mDowód, eDoręczenia. Документы, сроки, типичные ошибки в 2026."
+    },
+    "en": {
+      "t": "PESEL, Profil Zaufany, mDowód After Residence Card",
+      "d": "What to set up after getting your karta pobytu: PESEL, Profil Zaufany, mDowód, eDoręczenia. Documents, timelines and common mistakes in 2026."
+    },
+    "pl": {
+      "t": "PESEL, Profil Zaufany, mDowód po karcie pobytu",
+      "d": "Co załatwić po otrzymaniu karty pobytu: PESEL, Profil Zaufany, mDowód, eDoręczenia. Dokumenty, terminy i częste błędy w 2026."
+    },
+    "tr": {
+      "t": "Karta Pobytu sonrası PESEL, Profil Zaufany, mDowód",
+      "d": "Karta pobytu aldıktan sonra: PESEL, Profil Zaufany, mDowód, eDoręczenia. 2026 için belgeler, süreler ve sık yapılan hatalar."
+    }
+  },
+  "polski-b1-egzamin-do-obywatelstwa": {
+    "ru": {
+      "t": "Польский B1 для гражданства 2026: экзамен и подготовка",
+      "d": "Сертификат B1 от Państwowej Komisji - условие для гражданства Польши. Структура экзамена, цены, сроки и советы по подготовке."
+    },
+    "en": {
+      "t": "Polish B1 for Citizenship 2026: Exam and Prep",
+      "d": "Polish B1 certificate from Państwowa Komisja - mandatory for Polish citizenship. Exam structure, prices, dates and preparation tips."
+    },
+    "pl": {
+      "t": "Polski B1 do obywatelstwa 2026: egzamin i przygotowanie",
+      "d": "Certyfikat B1 z Państwowej Komisji - warunek obywatelstwa polskiego. Struktura egzaminu, ceny, terminy i wskazówki przygotowania."
+    },
+    "tr": {
+      "t": "Vatandaşlık için Lehçe B1 sınavı 2026: yapı ve hazırlık",
+      "d": "Państwowa Komisja Lehçe B1 sertifikası, Polonya vatandaşlığı için tek geçerli belge. Sınav yapısı, ücret, tarihler ve hazırlık ipuçları."
+    }
+  },
+  "pravilo-185-dney-itd-shtrafy": {
+    "ru": {
+      "t": "Правило 185 дней в Польше 2026: штрафы ITD",
+      "d": "С 2026 ITD считает 185 дней с даты первой karty pobytu. Штраф 1500 PLN, регресс OC после ДТП. Как поменять права вовремя."
+    },
+    "en": {
+      "t": "185-Day Rule Poland 2026: Why ITD Fines Foreigners",
+      "d": "From 2026, ITD counts 185 days from the first karta pobytu, not entry. Foreign licences become illegal. Fine 1,500 PLN, OC regress after crashes."
+    },
+    "pl": {
+      "t": "Zasada 185 dni 2026: dlaczego ITD karze cudzoziemców",
+      "d": "Od 2026 ITD liczy 185 dni od pierwszej karty pobytu. Zagraniczne prawa jazdy stają się nielegalne. Mandat 1 500 PLN, regres OC po wypadku."
+    },
+    "tr": {
+      "t": "Polonya'da 185 gün kuralı 2026: ITD cezaları",
+      "d": "2026'dan itibaren ITD, 185 günü ilk Karta Pobytu tarihinden sayıyor. Yabancı ehliyet geçersiz. Ceza 1.500 PLN, kazada OC rücu davası."
+    }
+  },
+  "razreshenie-mswia-pokupka-nedvizhimosti-inostrancem": {
+    "ru": {
+      "t": "Покупка недвижимости в Польше 2026: разрешение MSWiA",
+      "d": "Когда нужно zezwolenie MSWiA на квартиру, дом или землю, как доказать связи с Польшей, сроки рассмотрения. Гайд для США, UK и СНГ."
+    },
+    "en": {
+      "t": "Buying Property in Poland 2026: MSWiA Permit Rules",
+      "d": "When buying a flat, house or land needs an MSWiA permit, how to prove ties to Poland, processing times. A guide for US, UK and CIS buyers."
+    },
+    "pl": {
+      "t": "Zakup nieruchomości w Polsce 2026: zezwolenie MSWiA",
+      "d": "Kiedy zakup mieszkania, domu lub działki wymaga zezwolenia MSWiA, jak udokumentować więzi z Polską, terminy. Przewodnik USA, UK, WNP."
+    },
+    "tr": {
+      "t": "Polonya'da gayrimenkul alımı 2026: MSWiA izni",
+      "d": "Daire, ev veya arsa alımında MSWiA izni gerektiren durumlar, Polonya bağlantısının belgelenmesi, süreler. Türk, ABD, UK alıcılar için."
+    }
+  },
+  "shtrafy-itd-bag-12000-pln-vodiel": {
+    "ru": {
+      "t": "Штрафы BAG и ITD 2026: до 12 000 PLN за нарушение",
+      "d": "ITD и немецкая BAG в 2026: изъятие прав на 3 мес., штраф 12 000 PLN на компанию за чужую тахо-карту, отсутствие Кода 95, нарушение режима."
+    },
+    "en": {
+      "t": "BAG and ITD Fines 2026: Up to 12,000 PLN per Breach",
+      "d": "ITD and Germany's BAG in 2026: 3-month licence retention on the spot, 12,000 PLN on a carrier for someone else's tachograph card, missing Code 95."
+    },
+    "pl": {
+      "t": "Kary BAG i ITD 2026: do 12 000 PLN za naruszenie",
+      "d": "ITD i niemiecki BAG w 2026: zatrzymanie prawa jazdy na 3 miesiące, kara 12 000 PLN za cudzą kartę kierowcy, brak Kodu 95, naruszenie odpoczynku."
+    },
+    "tr": {
+      "t": "ITD ve BAG cezaları 2026: 12.000 PLN'ye varan riskler",
+      "d": "Polonya ITD ve Alman BAG 2026: yolda 3 ay ehliyet alıkoyma, başkasının takograf kartına 12.000 PLN ceza, Kod 95 eksikliği, dinlenme ihlalleri."
+    }
+  },
+  "shtrafy-rabotodatelyam-nelegalnoye-trudoustroystvo": {
+    "ru": {
+      "t": "Штрафы работодателю за нелегального иностранца 2026",
+      "d": "Новые правила: предуведомление до начала работы, штраф 3 000 PLN за случай, проверки PIP и Straży Granicznej, zwrot kosztów репатриации."
+    },
+    "en": {
+      "t": "Fines for Illegal Foreign Employment Poland 2026",
+      "d": "New 2026 rules: pre-employment notification, 3,000 PLN fine per case, PIP and Border Guard inspections, liability for repatriation costs."
+    },
+    "pl": {
+      "t": "Kary za nielegalnego cudzoziemca 2026: pracodawca",
+      "d": "Nowe zasady 2026: powiadomienie przed pracą, kara 3 000 PLN za przypadek, kontrole PIP i Straży Granicznej, zwrot kosztów repatriacji."
+    },
+    "tr": {
+      "t": "Yabancıyı kaçak çalıştırmaya işveren cezaları 2026",
+      "d": "2026 yeni kurallar: işe başlamadan önce bildirim, olay başına 3.000 PLN ceza, PIP ve Straż Graniczna denetimleri, sınır dışı maliyeti."
+    }
+  },
+  "skladka-zdrowotna-2026-reforma": {
+    "ru": {
+      "t": "Składka zdrowotna 2026: реформа JDG и Sp. z o.o.",
+      "d": "С 1 января 2026: фиксированная składka для JDG, новые ставки для Sp. z o.o. и Estonian CIT, как изменится нагрузка на предпринимателя."
+    },
+    "en": {
+      "t": "Składka Zdrowotna 2026: Reform for JDG, Sp. z o.o.",
+      "d": "From 1 January 2026: flat health contribution for JDG, new rates for Sp. z o.o. and Estonian CIT, how the foreign entrepreneur's burden shifts."
+    },
+    "pl": {
+      "t": "Składka zdrowotna 2026: reforma JDG i Sp. z o.o.",
+      "d": "Od 1 stycznia 2026: stała składka dla JDG, nowe stawki dla Sp. z o.o. i CIT estońskiego, jak zmieni się obciążenie przedsiębiorcy."
+    },
+    "tr": {
+      "t": "Składka zdrowotna 2026: JDG ve Sp. z o.o. reformu",
+      "d": "1 Ocak 2026: JDG için sabit prim, Sp. z o.o. ve Estonian CIT için yeni oranlar. Yabancı girişimcinin toplam yükü nasıl değişiyor?"
+    }
+  },
+  "smena-rabotodatelya-15-30-dney": {
+    "ru": {
+      "t": "Смена работодателя на karcie pobytu 2026",
+      "d": "Правило 15/30 дней: уведомление воеводы за 15 дней, новая работа за 30. Zmiana decyzji vs nowy wniosek - где можно работать сразу."
+    },
+    "en": {
+      "t": "Changing Employer on Karta Pobytu 2026",
+      "d": "The 15/30-day rule: 15 days to notify the voivode, 30 days for a new role. Zmiana decyzji vs new application - where you can work immediately."
+    },
+    "pl": {
+      "t": "Zmiana pracodawcy z kartą pobytu 2026",
+      "d": "Zasada 15/30 dni: 15 dni na powiadomienie wojewody, 30 dni na nową pracę. Zmiana decyzji vs nowy wniosek - gdzie można pracować od razu."
+    },
+    "tr": {
+      "t": "Karta Pobytu'da işveren değişikliği 2026",
+      "d": "15/30 gün kuralı: wojewoda'ya 15 günde bildirim, 30 günde yeni iş. Zmiana decyzji ile nowy wniosek - hangi durumda hemen çalışılır."
+    }
+  },
+  "uskorenie-karty-pobytu-ponaglenie-wsa": {
+    "ru": {
+      "t": "Ускорение karty pobytu 2026: Ponaglenie и WSA",
+      "d": "Дело лежит в Mazowieckim 14+ месяцев? Ponaglenie по KPA и skarga na bezczynność в WSA с компенсацией за волокиту. Шаблоны и тарифы."
+    },
+    "en": {
+      "t": "Speeding Up Karta Pobytu 2026: Ponaglenie and WSA",
+      "d": "Case stuck in Mazowieckie 14+ months? Ponaglenie under KPA and a skarga na bezczynność at WSA, with compensation for delay. Templates and fees."
+    },
+    "pl": {
+      "t": "Przyspieszenie karty pobytu 2026: Ponaglenie i WSA",
+      "d": "Sprawa leży w mazowieckim 14+ miesięcy? Ponaglenie z KPA i skarga na bezczynność do WSA z odszkodowaniem. Szablony i stawki."
+    },
+    "tr": {
+      "t": "Karta Pobytu hızlandırma 2026: Ponaglenie ve WSA",
+      "d": "Dosya Mazowieckie'de 14+ aydır mı? KPA ponaglenie ve WSA'da skarga na bezczynność, gecikme tazminatı. Şablonlar ve ücretler."
+    }
+  },
+  "vossoedinenie-semi-polsha-2026-prava-suprugov": {
+    "ru": {
+      "t": "Воссоединение семьи в Польше 2026: права супругов",
+      "d": "Какая karta pobytu даёт супругу dostęp do rynku pracy, требования к доходу и жилью, подача детей до и после 18 лет, статус спонсора."
+    },
+    "en": {
+      "t": "Family Reunification in Poland 2026: Spouse Rights",
+      "d": "Which karta pobytu grants spouses dostęp do rynku pracy, income and housing thresholds, filing for children pre/post 18, sponsor status."
+    },
+    "pl": {
+      "t": "Łączenie rodzin w Polsce 2026: prawa małżonków",
+      "d": "Która karta pobytu daje małżonkowi dostęp do rynku pracy, wymogi dochodowe i mieszkaniowe, dzieci do i po 18 r.ż., status sponsora."
+    },
+    "tr": {
+      "t": "Polonya'da aile birleşimi 2026: eş hakları",
+      "d": "Hangi karta pobytu eşe dostęp do rynku pracy hakkı verir, gelir ve konut şartları, 18 öncesi/sonrası çocuklar, sponsor statüsü."
+    }
+  },
+  "vozvrat-nalogov-pit-37-pit-11-inostrancam": {
+    "ru": {
+      "t": "Возврат налогов 2026: PIT-37 для иностранцев",
+      "d": "PIT-11 vs PIT-37, подача через Twój e-PIT, какие льготы реально вернут переплату, совместный расчёт супругов экономит до 3 600 PLN."
+    },
+    "en": {
+      "t": "Polish Tax Refund 2026: PIT-37 for Foreigners",
+      "d": "PIT-11 vs PIT-37, filing via Twój e-PIT as a foreigner, which reliefs actually return money, joint spousal filing saves up to 3,600 PLN."
+    },
+    "pl": {
+      "t": "Zwrot podatku 2026: PIT-37 dla cudzoziemców",
+      "d": "PIT-11 vs PIT-37, składanie przez Twój e-PIT, które ulgi naprawdę dają zwrot, wspólne rozliczenie małżonków daje do 3 600 PLN oszczędności."
+    },
+    "tr": {
+      "t": "Polonya'da vergi iadesi 2026: yabancılar için PIT-37",
+      "d": "PIT-11 ve PIT-37 farkı, Twój e-PIT ile beyan, hangi indirimler iade getirir, eşler için ortak beyan 3.600 PLN'ye kadar tasarruf."
+    }
+  },
+  "zamena-prav-ssha-uk-india-word-ekzamen": {
+    "ru": {
+      "t": "Обмен прав США, UK и Индии в Польше 2026: WORD",
+      "d": "Граждане США, UK после Brexit, Индии, ОАЭ сдают теорию в WORD на польском или английском. 50 PLN, 30 вопросов, проходной 68 баллов."
+    },
+    "en": {
+      "t": "US/UK/India Driving Licence Exchange Poland 2026",
+      "d": "US, post-Brexit UK, India, UAE citizens take a WORD theory exam in Polish or English. 50 PLN, 30 questions, pass mark 68. Mazowieckie procedure."
+    },
+    "pl": {
+      "t": "Wymiana prawa jazdy z USA, UK, Indii 2026: WORD",
+      "d": "Obywatele USA, UK po Brexicie, Indii, ZEA zdają egzamin teoretyczny w WORD po polsku lub angielsku. 50 PLN, 30 pytań, próg 68 pkt."
+    },
+    "tr": {
+      "t": "ABD, UK, Hindistan ehliyeti değişimi 2026: WORD",
+      "d": "ABD, Brexit sonrası UK, Hindistan, BAE vatandaşları WORD'de Lehçe veya İngilizce teorik sınava girer. 50 PLN, 30 soru, geçme barajı 68."
+    }
+  },
+  "zapis-detei-v-polskuyu-shkolu": {
+    "ru": {
+      "t": "Запись ребёнка в польскую школу 2026 для иностранцев",
+      "d": "Документы, языковые курсы, бесплатное обучение, podstawówka, liceum, technikum. Особенности для украинских и беларусских детей, доп. часы польского."
+    },
+    "en": {
+      "t": "Enrolling Children in a Polish School 2026",
+      "d": "Documents, language classes, free education, podstawówka, liceum, technikum. Arrangements for Ukrainian/Belarusian kids, extra Polish hours."
+    },
+    "pl": {
+      "t": "Zapis dziecka do polskiej szkoły 2026: cudzoziemcy",
+      "d": "Dokumenty, lekcje języka, bezpłatna nauka, podstawówka, liceum, technikum. Rozwiązania dla dzieci ukraińskich i białoruskich, dodatkowe godziny polskiego."
+    },
+    "tr": {
+      "t": "Çocuğunuzu Polonya okuluna kaydetme 2026",
+      "d": "Belgeler, ek Lehçe dersleri, ücretsiz eğitim, szkoła podstawowa, liceum, technikum. Türk aileler için asystent kulturowy ve oddziały przygotowawcze."
+    }
+  }
+}

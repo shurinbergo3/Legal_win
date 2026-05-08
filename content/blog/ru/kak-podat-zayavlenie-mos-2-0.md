@@ -1,9 +1,11 @@
 ---
 slug: kak-podat-zayavlenie-mos-2-0
-title: "Как подать заявление через MOS 2.0 в Польше - гайд 2026"
-description: "Пошаговая инструкция по подаче заявления на karta pobytu через MOS v2.0 в 2026 году. Регистрация, Profil Zaufany, заполнение wniosku, Załącznik nr 1, биометрия, частые ошибки. Реальный таймлайн в Mazowieckim."
+title: 'MOS 2.0 в Польше 2026: как подать заявление онлайн'
+description: >-
+  Подача karta pobytu через MOS v2.0: регистрация, Profil Zaufany, wniosek,
+  Załącznik nr 1, биометрия, частые ошибки. Таймлайн в Mazowieckim.
 locale: ru
-publishDate: 2026-04-26
+publishDate: 2026-04-26T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

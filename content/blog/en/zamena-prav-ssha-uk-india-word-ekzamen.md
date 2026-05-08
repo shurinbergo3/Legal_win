@@ -1,9 +1,11 @@
 ---
 slug: zamena-prav-ssha-uk-india-word-ekzamen
-title: "Driving Licence Exchange for US, UK and Indian Nationals in Poland: Sitting the WORD Theory Exam"
-description: "Citizens of the US, post-Brexit UK, India, the UAE must pass a theory exam at WORD (in Polish or English) to obtain a Polish prawo jazdy. 50 PLN, 30 questions, pass mark 68. Full procedure in Mazowieckie."
+title: US/UK/India Driving Licence Exchange Poland 2026
+description: >-
+  US, post-Brexit UK, India, UAE citizens take a WORD theory exam in Polish or
+  English. 50 PLN, 30 questions, pass mark 68. Mazowieckie procedure.
 locale: en
-publishDate: 2026-04-03
+publishDate: 2026-04-03T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

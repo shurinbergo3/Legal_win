@@ -1,9 +1,11 @@
 ---
 slug: otkaz-po-karte-pobytu
-title: "Polonya'da Karta Pobytu Reddi: 2026'da Ne Yapmalı?"
-description: "Polonya'da 2026'da Karta Pobytu için decyzja odmowna *(ret kararı)* aldığınızda ne yapacaksınız. İtiraz süreleri, Mazowieckie'deki ret nedenleri, Szef UDSC'ye odwołanie ve WSA'ya skarga nasıl hazırlanır. Başarı oranları."
+title: 'Karta Pobytu reddi 2026: Polonya''da ne yapmalı?'
+description: >-
+  Decyzja odmowna sonrası: itiraz süreleri, Mazowieckie'de ret nedenleri, Szef
+  UDSC'ye odwołanie ve WSA'ya skarga nasıl hazırlanır.
 locale: tr
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: ees-system-vyezd-vyezd-evrosoyuz
-title: "Entry/Exit System (EES) 2026: jak nowy biometryczny system UE wpływa na cudzoziemców w Polsce"
-description: "EES zastępuje papierowe pieczątki ewidencją biometryczną - skan twarzy i odcisków na granicach Schengen. Co to oznacza dla cudzoziemców z kartą pobytu, jak teraz liczy się 90/180 dni i jak Straż Graniczna sprawdza legalność pobytu."
+title: 'Entry/Exit System (EES) 2026: jak wpływa na cudzoziemców'
+description: >-
+  EES zastępuje pieczątki biometrycznym skanem na granicach Schengen. Co oznacza
+  dla kart pobytu, liczenie 90/180 dni, kontrole Straży Granicznej.
 locale: pl
-publishDate: 2026-04-15
+publishDate: 2026-04-15T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

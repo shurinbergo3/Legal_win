@@ -1,9 +1,11 @@
 ---
 slug: nevyplata-zarplaty-zaschita-prav-inostranca-pip
-title: "Polish or Foreign Employer Not Paying Wages: How a Foreigner Defends Their Rights in 2026"
-description: "How a foreigner in Poland recovers unpaid wages on umowa o pracę, zlecenie, and B2B contracts. PIP complaints, Sąd Pracy claims, the special case of US/UK remote employers, and the trap of Article 88g(1a)."
+title: 'Unpaid Wages in Poland 2026: Foreigner''s Protection'
+description: >-
+  Recovering unpaid wages on umowa o pracę, zlecenie, B2B: PIP complaint, Sąd
+  Pracy claim, US/UK remote employers, the art. 88g(1a) trap.
 locale: en
-publishDate: 2026-03-09
+publishDate: 2026-03-09T00:00:00.000Z
 author: LegalWin
 category: Employment Law
 keywords:

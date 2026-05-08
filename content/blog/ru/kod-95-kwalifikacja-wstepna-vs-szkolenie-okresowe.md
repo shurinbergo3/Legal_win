@@ -1,9 +1,11 @@
 ---
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
-title: "Kod 95 в Польше 2026: длинный курс (Kwalifikacja Wstępna) vs короткий (Szkolenie Okresowe)"
-description: "Как иностранцу выбрать правильный курс на Kod 95: 35 часов Szkolenia Okresowego за 900 PLN или 140 часов Kwalifikacji Wstępnej за 2 800 PLN с государственным экзаменом. Зависит от даты выдачи прав категории C."
+title: 'Kod 95 в Польше 2026: длинный курс vs короткий'
+description: >-
+  Kwalifikacja Wstępna (140 ч., 2 800 PLN, госэкзамен) vs Szkolenie Okresowe (35
+  ч., 900 PLN). Выбор зависит от даты выдачи прав категории C.
 locale: ru
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Транспорт
 keywords:

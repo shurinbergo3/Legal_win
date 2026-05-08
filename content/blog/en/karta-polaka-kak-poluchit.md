@@ -1,9 +1,12 @@
 ---
 slug: karta-polaka-kak-poluchit
-title: "Karta Polaka - How to Obtain It in 2026: Documents, Exam, Timelines"
-description: "How to obtain a Karta Polaka in 2026 - for people with Polish ancestry from Belarus, Ukraine, Russia, Kazakhstan, and other countries. Ancestry documents, the language and culture exam, consulate procedures, the privileges it grants."
+title: 'Karta Polaka 2026: Documents, Exam, Timelines'
+description: >-
+  How to obtain a Karta Polaka in 2026 - for people with Polish ancestry.
+  Ancestry documents, language and culture exam, consulate, the privileges
+  granted.
 locale: en
-publishDate: 2025-12-03
+publishDate: 2025-12-03T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

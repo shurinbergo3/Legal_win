@@ -1,9 +1,11 @@
 ---
 slug: zapis-detei-v-polskuyu-shkolu
-title: "Enrolling Children in a Polish School - 2026 Guide for Foreigners"
-description: "How to enrol your child in a Polish school in 2026. Documents, language classes, free education, podstawówka, liceum, technikum. Special arrangements for Ukrainian and Belarusian children, additional Polish-language hours."
+title: Enrolling Children in a Polish School 2026
+description: >-
+  Documents, language classes, free education, podstawówka, liceum, technikum.
+  Arrangements for Ukrainian/Belarusian kids, extra Polish hours.
 locale: en
-publishDate: 2026-01-09
+publishDate: 2026-01-09T00:00:00.000Z
 author: LegalWin
 category: Family
 keywords:

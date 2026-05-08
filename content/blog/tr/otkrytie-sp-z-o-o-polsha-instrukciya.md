@@ -1,9 +1,11 @@
 ---
 slug: otkrytie-sp-z-o-o-polsha-instrukciya
-title: "Polonya'da Sp. z o.o. nasıl kurulur: Türk girişimciler için adım adım rehber"
-description: "Türk vatandaşı olarak Polonya'da 2026 yılında Sp. z o.o. (limited şirket) nasıl kurulur. S24 mü noter mi, maliyetler, oturum kartı olmadan kuruluş, NIP, ZUS, banka hesabı."
+title: 'Polonya''da Sp. z o.o. kuruluşu 2026: Türk rehberi'
+description: >-
+  Türk girişimci için Sp. z o.o. (limited şirket): S24 mü noter mi, maliyet,
+  belgeler, NIP, ZUS, banka hesabı. Karta pobytu zorunlu değil.
 locale: tr
-publishDate: 2026-01-24
+publishDate: 2026-01-24T00:00:00.000Z
 author: LegalWin
 category: İş
 keywords:

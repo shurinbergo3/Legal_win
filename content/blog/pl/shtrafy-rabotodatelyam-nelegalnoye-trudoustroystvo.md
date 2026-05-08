@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-rabotodatelyam-nelegalnoye-trudoustroystvo
-title: "Kary dla pracodawcy za nielegalne zatrudnienie cudzoziemców 2026: 3 000 PLN za przypadek i koszty repatriacji"
-description: "Nowe zasady 2026 dla polskich pracodawców: obowiązkowe powiadomienie przed rozpoczęciem pracy cudzoziemca, kara 3 000 PLN za każdy przypadek, kontrole PIP i Straży Granicznej, obowiązek zwrotu kosztów repatriacji. Jak zespół HR zabezpieczy firmę."
+title: 'Kary za nielegalnego cudzoziemca 2026: pracodawca'
+description: >-
+  Nowe zasady 2026: powiadomienie przed pracą, kara 3 000 PLN za przypadek,
+  kontrole PIP i Straży Granicznej, zwrot kosztów repatriacji.
 locale: pl
-publishDate: 2026-03-29
+publishDate: 2026-03-29T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: obmen-azerbajdzhanskih-prav-na-polskie
-title: "Wymiana azerbejdżańskiego prawa jazdy na polskie w 2026 roku"
-description: "Jak wymienić azerbejdżańskie prawo jazdy na polskie w 2026 - Konwencja Wiedeńska, zwolnienie z egzaminów, apostille, tłumaczenie przysięgłe. Terminy 60-120 dni, koszty od 220 PLN, niuanse dla praw sprzed 2017 roku."
+title: Wymiana azerskiego prawa jazdy na polskie 2026
+description: >-
+  Konwencja Wiedeńska, zwolnienie z egzaminów, apostille, tłumaczenie. Terminy
+  60-120 dni, koszty od 220 PLN, niuanse praw sprzed 2017 r.
 locale: pl
-publishDate: 2025-12-12
+publishDate: 2025-12-12T00:00:00.000Z
 author: LegalWin
 category: Dokumenty
 keywords:

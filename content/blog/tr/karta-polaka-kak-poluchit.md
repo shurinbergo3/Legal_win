@@ -1,9 +1,11 @@
 ---
 slug: karta-polaka-kak-poluchit
-title: "Karta Polaka 2026'da nasıl alınır: belgeler, sınav, süreler"
-description: "Karta Polaka 2026: Polonya kökenli kişiler için başvuru rehberi. Soy belgeleri, Lehçe ve kültür mülakatı, konsolosluk süreci, sağladığı haklar. LegalWin Varşova hukuk bürosu."
+title: 'Karta Polaka 2026: belgeler, sınav, süreler'
+description: >-
+  Polonya kökenli kişiler için Karta Polaka 2026: soy belgeleri, Lehçe ve kültür
+  mülakatı, konsolosluk süreci ve sağladığı haklar.
 locale: tr
-publishDate: 2025-12-03
+publishDate: 2025-12-03T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: zamena-prav-ssha-uk-india-word-ekzamen
-title: "ABD, İngiltere ve Hindistan Ehliyetlerinin Polonya'da Değişimi: WORD Sınavı Nasıl Verilir?"
-description: "ABD, Brexit sonrası İngiltere, Hindistan ve BAE vatandaşları, Polonya prawa jazdy alabilmek için WORD'de Lehçe (veya İngilizce) teorik sınava girmek zorundadır. Ücret 50 PLN, 30 soru, geçme barajı 68. Mazowieckim'de tüm süreç."
+title: 'ABD, UK, Hindistan ehliyeti değişimi 2026: WORD'
+description: >-
+  ABD, Brexit sonrası UK, Hindistan, BAE vatandaşları WORD'de Lehçe veya
+  İngilizce teorik sınava girer. 50 PLN, 30 soru, geçme barajı 68.
 locale: tr
-publishDate: 2026-04-03
+publishDate: 2026-04-03T00:00:00.000Z
 author: LegalWin
 category: Ulaşım
 keywords:

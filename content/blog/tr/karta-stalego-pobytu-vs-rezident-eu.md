@@ -1,9 +1,11 @@
 ---
 slug: karta-stalego-pobytu-vs-rezident-eu
-title: "Karta Stałego Pobytu mu, AB Uzun Süreli Mukimi mi: 2026'da Hangisi"
-description: "Polonya'daki iki daimi ikamet statüsünün karşılaştırması: Karta Stałego Pobytu (Polonya kökü, evlilik, koruma) ve Karta Rezydenta Długoterminowego UE (5 yıl ikamet + B1 sertifikası). Süre hesabı, B1 koşulu, AB içinde mobilite."
+title: 'Karta Stałego Pobytu mu, AB uzun mukimi mi 2026?'
+description: >-
+  Polonya'da iki daimi ikamet karşılaştırması: Karta Stałego Pobytu (köken,
+  evlilik) ve AB Uzun Mukimi (5 yıl + B1). Süre, B1, AB içinde mobilite.
 locale: tr
-publishDate: 2026-04-08
+publishDate: 2026-04-08T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

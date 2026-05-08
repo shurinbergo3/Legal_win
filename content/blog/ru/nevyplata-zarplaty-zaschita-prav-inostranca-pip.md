@@ -1,9 +1,11 @@
 ---
 slug: nevyplata-zarplaty-zaschita-prav-inostranca-pip
-title: "Не платит зарплату польский или зарубежный работодатель: как защитить иностранцу права в 2026 году"
-description: "Как иностранцу в Польше получить невыплаченную зарплату по umowie o pracę, zlecenie и B2B. Жалоба в PIP, иск в Sąd Pracy, тонкости с зарубежным работодателем (США, UK) и ст. 88g(1) Ustawy o promocji zatrudnienia."
+title: 'Не платят зарплату в Польше 2026: защита иностранца'
+description: >-
+  Невыплата зарплаты по umowie o pracę, zlecenie, B2B: жалоба в PIP, иск в Sąd
+  Pracy, нюансы зарубежного работодателя, art. 88g(1a).
 locale: ru
-publishDate: 2026-03-09
+publishDate: 2026-03-09T00:00:00.000Z
 author: LegalWin
 category: Трудовое право
 keywords:

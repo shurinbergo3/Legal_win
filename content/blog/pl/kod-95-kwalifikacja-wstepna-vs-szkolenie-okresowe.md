@@ -1,9 +1,11 @@
 ---
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
-title: "Kod 95 w Polsce 2026: Kwalifikacja Wstępna vs Szkolenie Okresowe"
-description: "Jak cudzoziemiec wybiera właściwy kurs Kodu 95: 35-godzinne Szkolenie Okresowe za 900 PLN albo 140-godzinna Kwalifikacja Wstępna za 2 800 PLN z egzaminem państwowym. Wybór zależy od daty wydania prawa jazdy kategorii C."
+title: 'Kod 95 w Polsce 2026: kurs długi vs krótki'
+description: >-
+  Kwalifikacja Wstępna (140 h, 2 800 PLN, egzamin państwowy) vs Szkolenie
+  Okresowe (35 h, 900 PLN). Wybór zależy od daty wydania kat. C.
 locale: pl
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

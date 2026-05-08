@@ -1,9 +1,11 @@
 ---
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
-title: "Polonya'da Kod 95 (2026): Uzun Kurs (Kwalifikacja Wstępna) ile Kısa Kurs (Szkolenie Okresowe) Karşılaştırması"
-description: "Yabancı sürücüler Kod 95 için doğru kursu nasıl seçer: 35 saatlik Szkolenie Okresowe (900 PLN) mı, devlet sınavlı 140 saatlik Kwalifikacja Wstępna (2.800 PLN) mi? C sınıfı belgesinin veriliş tarihine göre belirlenir."
+title: 'Polonya''da Kod 95 2026: uzun kurs mu, kısa mı?'
+description: >-
+  Kwalifikacja Wstępna (140 saat, 2.800 PLN, devlet sınavı) ile Szkolenie
+  Okresowe (35 saat, 900 PLN). C sınıfı belge tarihine göre seçim.
 locale: tr
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Ulaşım
 keywords:

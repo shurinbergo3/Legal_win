@@ -1,9 +1,11 @@
 ---
 slug: jdg-dlya-inostrancev-v-polshe
-title: "JDG dla cudzoziemców w Polsce - otwarcie działalności w 2026"
-description: "Jak otworzyć jednoosobową działalność gospodarczą (JDG) w Polsce jako cudzoziemiec w 2026. Kto ma prawo, dokumenty, CEIDG, ZUS, podatki - ryczałt vs zasady ogólne. Korzyści dla karty pobytu."
+title: 'JDG dla cudzoziemców 2026: jak otworzyć działalność'
+description: >-
+  Jednoosobowa działalność gospodarcza dla cudzoziemca: kto może, CEIDG, ZUS,
+  ryczałt vs zasady ogólne. Korzyści przy karcie pobytu.
 locale: pl
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: Biznes
 keywords:

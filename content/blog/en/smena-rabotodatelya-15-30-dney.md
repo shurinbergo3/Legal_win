@@ -1,9 +1,11 @@
 ---
 slug: smena-rabotodatelya-15-30-dney
-title: "Changing Employer with Karta Pobytu in 2026: The 15/30-Day Rule and Zmiana Decyzji"
-description: "How a foreigner with a karta czasowego pobytu legally changes jobs: 15 days to notify the voivode, 30 days to find a new role, and the difference between zmiana decyzji and a fresh application. Where you may work immediately and where you must wait for a new permit."
+title: Changing Employer on Karta Pobytu 2026
+description: >-
+  The 15/30-day rule: 15 days to notify the voivode, 30 days for a new role.
+  Zmiana decyzji vs new application - where you can work immediately.
 locale: en
-publishDate: 2026-03-13
+publishDate: 2026-03-13T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

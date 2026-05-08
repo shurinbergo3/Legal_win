@@ -1,9 +1,11 @@
 ---
 slug: legalizacja-w-polshe-warszawa
-title: "Legalisation in Poland: Pathways for Foreigners in Warsaw 2026"
-description: "Complete guide to legalising your stay in Warsaw in 2026 - visa D, karta czasowego pobytu, karta stałego pobytu, CUKR, citizenship. Real timelines at the Mazowieckie Voivodeship Office, costs, and what to expect."
+title: 'Legalisation in Warsaw 2026: Paths for Foreigners'
+description: >-
+  Visa D, karta czasowego pobytu, karta stałego pobytu, CUKR, citizenship. Real
+  timelines at Mazowieckie Voivodeship Office, costs, what to expect.
 locale: en
-publishDate: 2025-11-08
+publishDate: 2025-11-08T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

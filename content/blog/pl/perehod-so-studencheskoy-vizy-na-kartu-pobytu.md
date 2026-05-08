@@ -1,9 +1,11 @@
 ---
 slug: perehod-so-studencheskoy-vizy-na-kartu-pobytu
-title: "Z wizy studenckiej na kartę pobytu 2026: nowe ograniczenia dla absolwentów"
-description: "Od lipca 2025 zwolnienie z zezwolenia na pracę dla absolwentów polskich uczelni działa tylko dla szkół z Wykazu MNiSW. Jak sprawdzić swoją uczelnię, jak uniknąć kary 3 000 PLN i co składa się w MOS v2.0 po obronie dyplomu."
+title: Z wizy studenckiej na kartę pobytu 2026
+description: >-
+  Od lipca 2025 zwolnienie z zezwolenia na pracę tylko dla uczelni z Wykazu
+  MNiSW. Jak sprawdzić, kara 3 000 PLN, MOS v2.0 po obronie dyplomu.
 locale: pl
-publishDate: 2026-02-26
+publishDate: 2026-02-26T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: "KSeF - obowiązkowe e-faktury w Polsce od lutego 2026"
-description: "Od 1 lutego 2026 wszystkie faktury B2B w Polsce wystawiane są wyłącznie przez KSeF. Jak cudzoziemiec-przedsiębiorca może się podłączyć, jakie kary za niezgodność, co zrobić Sp. z o.o. i JDG."
+title: 'KSeF 2026: obowiązkowe e-faktury w Polsce'
+description: >-
+  Od 1 lutego 2026 wszystkie faktury B2B w Polsce wystawiane są przez KSeF.
+  Podłączenie dla cudzoziemców, kary, kroki dla Sp. z o.o. i JDG.
 locale: pl
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Podatki i księgowość
 keywords:

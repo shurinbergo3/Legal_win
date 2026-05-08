@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-rabotodatelyam-nelegalnoye-trudoustroystvo
-title: "Yabancıları yasadışı çalıştıran işverenlere cezalar 2026: olay başına 3.000 PLN ve şirket hesabından sınır dışı maliyeti"
-description: "Polonyalı işverenler için 2026 yeni kuralları: yabancı işe başlamadan önce zorunlu bildirim, olay başına 3.000 PLN ceza, PIP ve Straż Graniczna denetimleri, sınır dışı maliyetlerini karşılama sorumluluğu. HR ekibi şirketini nasıl korur?"
+title: Yabancıyı kaçak çalıştırmaya işveren cezaları 2026
+description: >-
+  2026 yeni kurallar: işe başlamadan önce bildirim, olay başına 3.000 PLN ceza,
+  PIP ve Straż Graniczna denetimleri, sınır dışı maliyeti.
 locale: tr
-publishDate: 2026-03-29
+publishDate: 2026-03-29T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

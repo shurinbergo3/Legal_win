@@ -1,9 +1,11 @@
 ---
 slug: nalogovye-lgoty-estonian-cit-ip-box
-title: "Polish Tax Incentives 2026: Estonian CIT, 9% CIT and IP Box"
-description: "Three legal-optimisation tools for sp. z o.o. and JDG in Poland: Estonian CIT (0% until dividend distribution), preferential 9% CIT for small payers, and IP Box at 5% on income from intellectual property. Conditions, risks, and choosing the right strategy."
+title: 'Polish Tax Incentives 2026: Estonian CIT, IP Box'
+description: >-
+  Three tools for sp. z o.o. and JDG: Estonian CIT (0% until dividends), 9% CIT
+  for small payers, IP Box 5% on IP income. Conditions and risks.
 locale: en
-publishDate: 2026-04-22
+publishDate: 2026-04-22T00:00:00.000Z
 author: LegalWin
 category: Tax
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: uskorenie-karty-pobytu-ponaglenie-wsa
-title: "Karta Pobytu Sürecini Hızlandırma 2026: Ponaglenie ve WSA'da Wojewoda'ya Karşı Dava"
-description: "Karta Pobytu dosyanız Mazowieckie'de 14 aydır mı bekliyor? Hızlandırmanın yasal yolları: KPA gereği ponaglenie, WSA'da skarga na bezczynność, idari gecikme için tazminat. Şablonlar ve ücretler dâhil rehber."
+title: 'Karta Pobytu hızlandırma 2026: Ponaglenie ve WSA'
+description: >-
+  Dosya Mazowieckie'de 14+ aydır mı? KPA ponaglenie ve WSA'da skarga na
+  bezczynność, gecikme tazminatı. Şablonlar ve ücretler.
 locale: tr
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

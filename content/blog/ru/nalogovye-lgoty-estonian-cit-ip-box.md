@@ -1,9 +1,11 @@
 ---
 slug: nalogovye-lgoty-estonian-cit-ip-box
-title: "Налоговые льготы для бизнеса в Польше 2026: Estonian CIT, 9% CIT и IP Box"
-description: "Три инструмента легальной налоговой оптимизации для sp. z o.o. и JDG в Польше: Estonian CIT (0% налога до распределения дивидендов), льготный 9% CIT для малых, и IP Box со ставкой 5% на доходы от IP-прав. Условия, риски, выбор стратегии."
+title: 'Налоговые льготы Польша 2026: Estonian CIT и IP Box'
+description: >-
+  Три инструмента для sp. z o.o. и JDG: Estonian CIT (0% до дивидендов), 9% CIT
+  для малых, IP Box 5% на доходы от прав. Условия и риски.
 locale: ru
-publishDate: 2026-04-22
+publishDate: 2026-04-22T00:00:00.000Z
 author: LegalWin
 category: Налоги
 keywords:

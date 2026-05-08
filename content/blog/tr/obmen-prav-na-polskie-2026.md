@@ -1,9 +1,11 @@
 ---
 slug: obmen-prav-na-polskie-2026
-title: "Türk ehliyetini Polonya ehliyetine 2026'da nasıl çevirirsiniz?"
-description: "Türk, Ukrayna ve Beyaz Rusya ehliyetlerini 2026'da Polonya ehliyetine değiştirme rehberi: belgeler, ücretler, süreler, Wydział Komunikacji'da süreç, Türk ehliyeti için WORD teorik sınav şartı."
+title: Türk ehliyetinin Polonya'ya çevrilmesi 2026
+description: >-
+  Türk, Ukrayna, Beyaz Rusya ehliyetleri: belgeler, ücretler, süreler, Wydział
+  Komunikacji süreci, WORD teorik sınav koşulu.
 locale: tr
-publishDate: 2025-11-19
+publishDate: 2025-11-19T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

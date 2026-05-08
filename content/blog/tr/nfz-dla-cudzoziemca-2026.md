@@ -1,9 +1,11 @@
 ---
 slug: nfz-dla-cudzoziemca-2026
-title: "Yabancı için NFZ - 2026'da Polonya devlet sağlık sigortasına nasıl kayıt olunur"
-description: "Karta pobytu, JDG veya umowa o pracę sahibi yabancılar Polonya'da ücretsiz sağlık hizmetinden yararlanmak için NFZ'ye nasıl kayıt olur. ZUS, ZZA, isteğe bağlı katkı, IKP ve mObywatel - adım adım rehber."
+title: 'Yabancı için NFZ 2026: sağlık sigortasına kayıt'
+description: >-
+  Karta pobytu, JDG veya umowa o pracę ile NFZ kaydı: ZUS, ZZA, isteğe bağlı
+  katkı, IKP ve mObywatel - Türk vatandaşları için adım adım.
 locale: tr
-publishDate: 2026-05-06
+publishDate: 2026-05-06T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

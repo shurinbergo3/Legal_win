@@ -1,9 +1,11 @@
 ---
 slug: uskorenie-karty-pobytu-ponaglenie-wsa
-title: "Speeding Up Karta Pobytu in 2026: Ponaglenie and Court Action Against the Voivode"
-description: "Has your karta pobytu case been sitting in Mazowieckie for 14 months? Two legal levers to accelerate: ponaglenie under KPA, and a skarga na bezczynność at the WSA, with financial compensation for delay. A practical guide with templates and fees."
+title: 'Speeding Up Karta Pobytu 2026: Ponaglenie and WSA'
+description: >-
+  Case stuck in Mazowieckie 14+ months? Ponaglenie under KPA and a skarga na
+  bezczynność at WSA, with compensation for delay. Templates and fees.
 locale: en
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

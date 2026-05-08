@@ -1,9 +1,11 @@
 ---
 slug: karta-stalego-pobytu-vs-rezident-eu
-title: "Karta stałego pobytu vs rezydent długoterminowy UE w Polsce: co wybrać w 2026"
-description: "Porównanie dwóch form stałego pobytu w Polsce: karta stałego pobytu (polskie pochodzenie, małżeństwo, ochrona) i karta rezydenta długoterminowego UE (po 5 latach pobytu + B1 polskiego). Liczenie 5 lat, wymogi B1, mobilność po UE."
+title: Karta stałego pobytu vs rezydent długoterminowy UE 2026
+description: >-
+  Porównanie: karta stałego pobytu (pochodzenie, małżeństwo, ochrona) vs karta
+  rezydenta UE (5 lat + B1). Liczenie lat, wymóg B1, mobilność w UE.
 locale: pl
-publishDate: 2026-04-08
+publishDate: 2026-04-08T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

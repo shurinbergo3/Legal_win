@@ -1,9 +1,11 @@
 ---
 slug: arenda-kommercheskoy-nedvizhimosti-varshava
-title: "Commercial Real-Estate Lease in Warsaw 2026: What to Verify Before Signing"
-description: "The pitfalls of an umowa najmu lokalu użytkowego in Poland: rent indexation, service charges, early-termination penalties, and the notarial declaration of voluntary submission to enforcement under Article 777 KPC. A guide for foreign founders."
+title: 'Commercial Lease in Warsaw 2026: What to Check'
+description: >-
+  Pitfalls of an umowa najmu lokalu użytkowego: rent indexation, service
+  charges, penalties, Article 777 KPC declaration. A guide for foreign founders.
 locale: en
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00.000Z
 author: LegalWin
 category: Real Estate
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: otkaz-po-karte-pobytu
-title: "Karta Pobytu Refusal in Poland - What to Do in 2026"
-description: "What to do if you receive a decyzja odmowna on your karta pobytu in Poland in 2026. Appeal deadlines, common refusal reasons in Mazowieckie, how to draft an odwołanie to the Szef UDSC and a skarga to the WSA. Real success rates."
+title: 'Karta Pobytu Refusal in Poland 2026: What to Do'
+description: >-
+  Decyzja odmowna on karta pobytu: appeal deadlines, common refusal reasons in
+  Mazowieckie, how to draft an odwołanie to Szef UDSC and a skarga to WSA.
 locale: en
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

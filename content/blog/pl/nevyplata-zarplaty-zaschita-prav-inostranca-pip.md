@@ -1,9 +1,11 @@
 ---
 slug: nevyplata-zarplaty-zaschita-prav-inostranca-pip
-title: "Polski lub zagraniczny pracodawca nie wypłaca wynagrodzenia: jak cudzoziemiec broni swoich praw 2026"
-description: "Jak cudzoziemiec w Polsce odzyskuje zaległe wynagrodzenie z umowy o pracę, zlecenia i B2B. Skarga do PIP, pozew w Sądzie Pracy, niuanse zagranicznego pracodawcy (USA, UK) i pułapka art. 88g ust. 1a Ustawy o promocji zatrudnienia."
+title: 'Niewypłacone wynagrodzenie 2026: ochrona cudzoziemca'
+description: >-
+  Odzyskanie wynagrodzenia z umowy o pracę, zlecenia, B2B: skarga do PIP, pozew
+  w Sądzie Pracy, pracodawca z USA/UK, pułapka art. 88g ust. 1a.
 locale: pl
-publishDate: 2026-03-09
+publishDate: 2026-03-09T00:00:00.000Z
 author: LegalWin
 category: Prawo pracy
 keywords:

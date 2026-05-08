@@ -1,9 +1,11 @@
 ---
 slug: nfz-dla-cudzoziemca-2026
-title: "NFZ dla cudzoziemca - jak zarejestrować się w 2026"
-description: "Jak cudzoziemiec z kartą pobytu, JDG lub umową o pracę może zarejestrować się w NFZ na bezpłatną medycynę w Polsce. ZUS, ZZA, dobrowolne ubezpieczenie, IKP i mObywatel - przewodnik krok po kroku."
+title: 'NFZ dla cudzoziemca 2026: jak się zarejestrować'
+description: >-
+  Rejestracja w NFZ z kartą pobytu, JDG lub umową o pracę: ZUS, ZZA, dobrowolne
+  ubezpieczenie, IKP i mObywatel - krok po kroku.
 locale: pl
-publishDate: 2026-05-06
+publishDate: 2026-05-06T00:00:00.000Z
 author: LegalWin
 category: Dokumenty
 keywords:

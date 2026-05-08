@@ -1,9 +1,11 @@
 ---
 slug: vozvrat-nalogov-pit-37-pit-11-inostrancam
-title: "Tax Refund in Poland 2026: PIT-37 for Foreigners Step by Step"
-description: "Difference between PIT-11 and PIT-37, how to file through Twój e-PIT as a foreigner, which reliefs actually return money to your account, and why joint spousal filing saves up to 3,600 PLN in 2026."
+title: 'Polish Tax Refund 2026: PIT-37 for Foreigners'
+description: >-
+  PIT-11 vs PIT-37, filing via Twój e-PIT as a foreigner, which reliefs actually
+  return money, joint spousal filing saves up to 3,600 PLN.
 locale: en
-publishDate: 2026-02-03
+publishDate: 2026-02-03T00:00:00.000Z
 author: LegalWin
 category: Tax
 keywords:

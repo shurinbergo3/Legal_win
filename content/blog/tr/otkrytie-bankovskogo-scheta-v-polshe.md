@@ -1,9 +1,11 @@
 ---
 slug: otkrytie-bankovskogo-scheta-v-polshe
-title: "Polonya'da yabancı için banka hesabı nasıl açılır? - 2026 rehberi"
-description: "2026'da Polonya'da yabancılar için konto bankowe *(banka hesabı)* açma rehberi. PKO BP, Santander, mBank, Pekao, ING karşılaştırması: belgeler, açılış süreleri, ücretler. PESEL ile ve PESEL'siz, şubeden ve çevrimiçi açılış."
+title: Polonya'da yabancı için banka hesabı 2026
+description: >-
+  Konto bankowe açma: PKO BP, Santander, mBank, Pekao, ING karşılaştırması -
+  belgeler, süreler, ücretler. PESEL ile/PESEL'siz, şube ve online.
 locale: tr
-publishDate: 2026-02-04
+publishDate: 2026-02-04T00:00:00.000Z
 author: LegalWin
 category: Finans
 keywords:

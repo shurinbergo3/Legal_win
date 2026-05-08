@@ -1,9 +1,11 @@
 ---
 slug: kod-95-polsha-kak-poluchit
-title: "Polonya'da Kod 95: kimler için zorunludur ve 3 ayda nasıl alınır"
-description: "C, D, C+E, D+E kategorisi sürücüler için Polonya'da Kod 95 - kimler için zorunlu, iki yol (KWP 2.800 PLN'den veya Szkolenie Okresowe 900 PLN'den), süreler, yabancılar için belgeler. LegalWin Varşova hukuk bürosu rehberi."
+title: 'Polonya''da Kod 95 2026: kimler ve nasıl alır?'
+description: >-
+  C, D, C+E, D+E sürücüleri için Kod 95: KWP 2.800 PLN veya Szkolenie Okresowe
+  900 PLN, 3 ay, yabancılar için belgeler.
 locale: tr
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

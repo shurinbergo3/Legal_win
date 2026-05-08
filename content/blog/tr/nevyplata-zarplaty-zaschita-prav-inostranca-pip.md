@@ -1,9 +1,11 @@
 ---
 slug: nevyplata-zarplaty-zaschita-prav-inostranca-pip
-title: "Polonyalı veya yabancı işveren maaş ödemiyor: yabancıların 2026'da haklarını koruma rehberi"
-description: "Polonya'da umowa o pracę, zlecenie ve B2B üzerinden ödenmemiş maaşı yabancı olarak nasıl tahsil edersiniz. PIP şikayeti, Sąd Pracy davası, ABD/Birleşik Krallık işverenleriyle uzaktan çalışma ve Ustawa o promocji zatrudnienia 88g(1) maddesinin tuzakları."
+title: 'Polonya''da maaş ödenmiyor 2026: yabancı hakları'
+description: >-
+  Ödenmeyen maaş için umowa o pracę, zlecenie, B2B: PIP şikayeti, Sąd Pracy
+  davası, ABD/UK işverenleri ve art. 88g(1a) tuzağı.
 locale: tr
-publishDate: 2026-03-09
+publishDate: 2026-03-09T00:00:00.000Z
 author: LegalWin
 category: İş Hukuku
 keywords:

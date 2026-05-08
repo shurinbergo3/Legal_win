@@ -1,9 +1,11 @@
 ---
 slug: vossoedinenie-semi-polsha-2026-prava-suprugov
-title: "Family Reunification in Poland 2026: Does the Spouse's Karta Pobytu Grant the Right to Work?"
-description: "Połączenie z rodziną in 2026: which karta pobytu grants spouses automatic dostęp do rynku pracy, what income and housing requirements apply, how children are filed before and after 18, and why the sponsor's status determines everything."
+title: 'Family Reunification in Poland 2026: Spouse Rights'
+description: >-
+  Which karta pobytu grants spouses dostęp do rynku pracy, income and housing
+  thresholds, filing for children pre/post 18, sponsor status.
 locale: en
-publishDate: 2026-03-19
+publishDate: 2026-03-19T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

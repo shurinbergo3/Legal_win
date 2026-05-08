@@ -1,9 +1,11 @@
 ---
 slug: uskorenie-karty-pobytu-ponaglenie-wsa
-title: "Jak przyspieszyć wydanie karty pobytu w 2026: ponaglenie i skarga na bezczynność do WSA"
-description: "Sprawa o kartę pobytu leży w mazowieckim 14 miesięcy? Dwa legalne narzędzia: ponaglenie (KPA) i skarga na bezczynność do WSA z odszkodowaniem za przewlekłość. Przewodnik z szablonami i stawkami."
+title: 'Przyspieszenie karty pobytu 2026: Ponaglenie i WSA'
+description: >-
+  Sprawa leży w mazowieckim 14+ miesięcy? Ponaglenie z KPA i skarga na
+  bezczynność do WSA z odszkodowaniem. Szablony i stawki.
 locale: pl
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

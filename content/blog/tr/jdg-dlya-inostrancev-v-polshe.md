@@ -1,9 +1,11 @@
 ---
 slug: jdg-dlya-inostrancev-v-polshe
-title: "Yabancılar için JDG: Polonya'da şahıs şirketi açma 2026"
-description: "JDG (jednoosobowa działalność gospodarcza) Polonya'da şahıs şirketi formudur. Yabancılar için kuruluş şartları, CEIDG kaydı, ZUS, vergi seçenekleri (ryczałt, podatek liniowy, zasady ogólne) ve Karta Pobytu avantajları."
+title: 'Yabancılar için JDG 2026: Polonya''da şahıs şirketi'
+description: >-
+  JDG (jednoosobowa działalność gospodarcza) Türk vatandaşı için: kuruluş
+  şartları, CEIDG, ZUS, ryczałt vs zasady ogólne. Karta Pobytu avantajı.
 locale: tr
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: İş
 keywords:

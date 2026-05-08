@@ -1,9 +1,11 @@
 ---
 slug: pesel-profil-zaufany-mdowod-posle-karty-pobytu
-title: "PESEL, Profil Zaufany ve mDowód: Karta Pobytu sonrası yapılacaklar"
-description: "Polonya'da Karta Pobytu aldıktan sonra PESEL, Profil Zaufany, mDowód ve eDoręczenia nasıl alınır. 2026 için adım adım rehber: belgeler, süreler, sık yapılan hatalar."
+title: 'Karta Pobytu sonrası PESEL, Profil Zaufany, mDowód'
+description: >-
+  Karta pobytu aldıktan sonra: PESEL, Profil Zaufany, mDowód, eDoręczenia. 2026
+  için belgeler, süreler ve sık yapılan hatalar.
 locale: tr
-publishDate: 2026-03-12
+publishDate: 2026-03-12T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

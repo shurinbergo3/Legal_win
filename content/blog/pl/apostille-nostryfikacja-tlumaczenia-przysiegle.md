@@ -1,9 +1,11 @@
 ---
 slug: apostille-nostryfikacja-tlumaczenia-przysiegle
-title: "Apostille, nostryfikacja dyplomu i tłumaczenie przysięgłe w Polsce 2026: co i w jakiej kolejności"
-description: "Pełny przewodnik po legalizacji dokumentów zagranicznych w Polsce: apostille w kraju wydania, tłumaczenie przysięgłe, nostryfikacja przez NAWA dla zawodów regulowanych (lekarze, inżynierowie, architekci). Terminy i ceny."
+title: 'Apostille, nostryfikacja, tłumaczenie przysięgłe Polska 2026'
+description: >-
+  Legalizacja dokumentów zagranicznych: apostille, tłumaczenie przysięgłe,
+  nostryfikacja przez NAWA dla zawodów regulowanych. Terminy i ceny.
 locale: pl
-publishDate: 2026-01-30
+publishDate: 2026-01-30T00:00:00.000Z
 author: LegalWin
 category: Dokumenty
 keywords:

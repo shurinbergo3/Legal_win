@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-dlya-detey-2026
-title: "Karta Pobytu for Children in Poland 2026: Documents, School, Insurance"
-description: "How to file for a karta czasowego pobytu for a minor foreigner in Poland: per-person income calculation, ZUS health coverage through a parent, mandatory school enrolment confirmation (obowiązek szkolny), and the link to the 800+ benefit."
+title: 'Karta Pobytu for Children 2026: Documents and School'
+description: >-
+  Karta pobytu for minor foreigners: per-person income calc, ZUS health coverage
+  through a parent, obowiązek szkolny, the 800+ benefit link.
 locale: en
-publishDate: 2026-04-26
+publishDate: 2026-04-26T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

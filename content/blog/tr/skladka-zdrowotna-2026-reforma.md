@@ -1,9 +1,11 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: "Składka zdrowotna 2026 - JDG ve Sp. z o.o. için sağlık primi reformu"
-description: "1 Ocak 2026'dan itibaren Polonya'da składka zdrowotna *(sağlık primi)* reformu: JDG için sabit prim, Sp. z o.o. ve Estonya CIT için yeni oranlar. Yabancı girişimcinin toplam yükü nasıl değişiyor?"
+title: 'Składka zdrowotna 2026: JDG ve Sp. z o.o. reformu'
+description: >-
+  1 Ocak 2026: JDG için sabit prim, Sp. z o.o. ve Estonian CIT için yeni
+  oranlar. Yabancı girişimcinin toplam yükü nasıl değişiyor?
 locale: tr
-publishDate: 2026-05-02
+publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
 category: Vergi ve Muhasebe
 keywords:

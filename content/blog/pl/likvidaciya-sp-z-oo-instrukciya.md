@@ -1,9 +1,11 @@
 ---
 slug: likvidaciya-sp-z-oo-instrukciya
-title: "Likwidacja sp. z o.o. w Polsce 2026: krok po kroku do bezpiecznego zamknięcia spółki"
-description: "Etapy likwidacji sp. z o.o.: uchwała o rozwiązaniu, likwidator, publikacje w MSiG, wezwanie wierzycieli, sprawozdanie likwidacyjne. 6-8 miesięcy, koszty oraz alternatywa w postaci sprzedaży gotowej spółki. Ryzyka art. 299 KSH."
+title: 'Likwidacja sp. z o.o. w Polsce 2026: krok po kroku'
+description: >-
+  Etapy: uchwała, likwidator, MSiG, wezwanie wierzycieli, sprawozdanie. 6-8
+  miesięcy, koszty, alternatywa - sprzedaż. Ryzyka art. 299 KSH.
 locale: pl
-publishDate: 2026-02-08
+publishDate: 2026-02-08T00:00:00.000Z
 author: LegalWin
 category: Biznes
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: legalizacja-w-polshe-warszawa
-title: "Polonya'da legalizasyon: Türk vatandaşları için Varşova rehberi 2026"
-description: "Türk vatandaşları için 2026'da Varşova'da legalizasyon süreci - D vizesi, karta czasowego pobytu, karta stałego pobytu, vatandaşlık. Mazowiecki Urząd Wojewódzki süreleri, ücretler, gerçek beklentiler."
+title: 'Varşova''da legalizasyon 2026: Türkler için yollar'
+description: >-
+  D vizesi, karta czasowego pobytu, karta stałego pobytu, vatandaşlık.
+  Mazowiecki Urząd Wojewódzki süreleri, ücretler ve gerçek beklentiler.
 locale: tr
-publishDate: 2025-11-08
+publishDate: 2025-11-08T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

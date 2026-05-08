@@ -1,9 +1,11 @@
 ---
 slug: polski-b1-egzamin-do-obywatelstwa
-title: "Польский B1 для гражданства - структура экзамена и подготовка 2026"
-description: "Сертификат польского языка B1 от Państwowej Komisji Poświadczania Znajomości Języka Polskiego - обязательное условие для получения польского гражданства. Структура экзамена, цены, сроки, советы по подготовке."
+title: 'Польский B1 для гражданства 2026: экзамен и подготовка'
+description: >-
+  Сертификат B1 от Państwowej Komisji - условие для гражданства Польши.
+  Структура экзамена, цены, сроки и советы по подготовке.
 locale: ru
-publishDate: 2026-05-05
+publishDate: 2026-05-05T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

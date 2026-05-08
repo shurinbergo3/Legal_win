@@ -1,9 +1,11 @@
 ---
 slug: legalizacja-w-polshe-warszawa
-title: "Legalizacja pobytu w Polsce: ścieżki dla cudzoziemców w Warszawie 2026"
-description: "Kompletny przewodnik po legalizacji pobytu w Warszawie w 2026 roku - wiza D, karta czasowego pobytu, karta stałego pobytu, CUKR, obywatelstwo. Realne terminy w Mazowieckim Urzędzie Wojewódzkim, koszty, czego się spodziewać."
+title: 'Legalizacja w Warszawie 2026: ścieżki dla cudzoziemców'
+description: >-
+  Wiza D, karta czasowego pobytu, karta stałego pobytu, CUKR, obywatelstwo.
+  Realne terminy w Mazowieckim Urzędzie Wojewódzkim, koszty, oczekiwania.
 locale: pl
-publishDate: 2025-11-08
+publishDate: 2025-11-08T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

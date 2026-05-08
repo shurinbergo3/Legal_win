@@ -1,9 +1,11 @@
 ---
 slug: nalogovoye-rezidentstvo-polsha-183-dnya
-title: "Polonya'da vergi mukimliği 2026: 183 gün kuralı ve çifte vergilendirmeden nasıl kaçınılır?"
-description: "Bir yabancı Polonya'da nasıl vergi mukimi olur, neden CFR-1 sertifikası gerekir, çifte vergilendirmeyi önleme anlaşması nasıl işler ve yabancı işverene uzaktan çalışırken neden PIT-36 ZG zorunludur?"
+title: 'Polonya''da vergi mukimliği 2026: 183 gün kuralı'
+description: >-
+  Yabancı ne zaman Polonya vergi mukimi olur, CFR-1 sertifikası neden gerekir,
+  çifte vergilendirme anlaşması ve PIT-36 ZG'nin önemi.
 locale: tr
-publishDate: 2026-01-22
+publishDate: 2026-01-22T00:00:00.000Z
 author: LegalWin
 category: Vergi
 keywords:

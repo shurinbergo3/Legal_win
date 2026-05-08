@@ -1,9 +1,11 @@
 ---
 slug: nalogovoye-rezidentstvo-polsha-183-dnya
-title: "Polska rezydencja podatkowa 2026: zasada 183 dni i jak uniknąć podwójnego opodatkowania"
-description: "Kiedy cudzoziemiec staje się polskim rezydentem podatkowym, do czego potrzebny certyfikat CFR-1, jak działa umowa o unikaniu podwójnego opodatkowania (UPO) i dlaczego PIT-36 ZG jest konieczny przy pracy zdalnej dla zagranicznego pracodawcy."
+title: 'Polska rezydencja podatkowa 2026: zasada 183 dni'
+description: >-
+  Kiedy cudzoziemiec staje się polskim rezydentem, po co certyfikat CFR-1, jak
+  działa UPO i dlaczego PIT-36 ZG jest konieczny przy pracy zdalnej.
 locale: pl
-publishDate: 2026-01-22
+publishDate: 2026-01-22T00:00:00.000Z
 author: LegalWin
 category: Podatki
 keywords:

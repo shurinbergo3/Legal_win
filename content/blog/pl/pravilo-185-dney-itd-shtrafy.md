@@ -1,9 +1,11 @@
 ---
 slug: pravilo-185-dney-itd-shtrafy
-title: "Zasada 185 dni w Polsce 2026: dlaczego ITD masowo karze cudzoziemców-kierowców"
-description: "Od 2026 ITD odlicza 185 dni nie od wjazdu do Polski, lecz od daty wydania pierwszej karty pobytu. Zagraniczne prawa po tym terminie - nielegalne. Mandat 1 500 PLN, regres OC po wypadku. Jak wymienić prawo jazdy na czas."
+title: 'Zasada 185 dni 2026: dlaczego ITD karze cudzoziemców'
+description: >-
+  Od 2026 ITD liczy 185 dni od pierwszej karty pobytu. Zagraniczne prawa jazdy
+  stają się nielegalne. Mandat 1 500 PLN, regres OC po wypadku.
 locale: pl
-publishDate: 2026-03-23
+publishDate: 2026-03-23T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

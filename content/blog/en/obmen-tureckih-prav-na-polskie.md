@@ -1,9 +1,11 @@
 ---
 slug: obmen-tureckih-prav-na-polskie
-title: "Exchanging a Turkish Driving Licence for a Polish One in 2026"
-description: "How to exchange your Turkish driving licence for a Polish one in 2026 - Vienna Convention, documents, costs from 200 PLN, timelines 45-90 days. Special rules for licences issued before 2016, sworn translation from Turkish, Wydział Komunikacji."
+title: Turkish Driving Licence Exchange in Poland 2026
+description: >-
+  Vienna Convention, documents, costs from 200 PLN, timelines 45-90 days.
+  Pre-2016 licence rules, sworn translation from Turkish, Wydział Komunikacji.
 locale: en
-publishDate: 2026-01-17
+publishDate: 2026-01-17T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

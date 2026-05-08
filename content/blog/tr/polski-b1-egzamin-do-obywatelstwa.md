@@ -1,9 +1,11 @@
 ---
 slug: polski-b1-egzamin-do-obywatelstwa
-title: "Polonya vatandaşlığı için Lehçe B1 sınavı: yapı ve hazırlık 2026"
-description: "Państwowa Komisja tarafından verilen Lehçe B1 sertifikası, Polonya vatandaşlığı başvurusu için tek geçerli belgedir. 2026 sınav yapısı, ücretler, tarihler, hazırlık süresi ve sık yapılan hatalar."
+title: 'Vatandaşlık için Lehçe B1 sınavı 2026: yapı ve hazırlık'
+description: >-
+  Państwowa Komisja Lehçe B1 sertifikası, Polonya vatandaşlığı için tek geçerli
+  belge. Sınav yapısı, ücret, tarihler ve hazırlık ipuçları.
 locale: tr
-publishDate: 2026-05-05
+publishDate: 2026-05-05T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

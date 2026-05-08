@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-wygasla-co-delat
-title: "Karta pobytu wygasła - co robić w 2026"
-description: "Wygasł termin ważności karty pobytu w Polsce - co robić w 2026? Czy grozi deportacja, czy można wyjechać, jak pilnie złożyć nowy wniosek przez MOS v2.0, kary i terminy odzyskania statusu."
+title: Karta pobytu wygasła - co robić w 2026
+description: >-
+  Wygasł termin karty pobytu w Polsce: czy grozi deportacja, czy można wyjechać,
+  jak pilnie złożyć wniosek przez MOS v2.0, kary i terminy.
 locale: pl
-publishDate: 2026-04-28
+publishDate: 2026-04-28T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

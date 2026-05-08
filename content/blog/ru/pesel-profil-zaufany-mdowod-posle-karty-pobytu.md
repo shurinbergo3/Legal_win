@@ -1,9 +1,11 @@
 ---
 slug: pesel-profil-zaufany-mdowod-posle-karty-pobytu
-title: "PESEL, Profil Zaufany и mDowód: что сделать после получения карты побыту"
-description: "Пошаговый гайд по оформлению PESEL, Profil Zaufany, mDowód и eDoręczenia после получения карты побыту в Польше в 2026 году. Документы, сроки, типичные ошибки."
+title: 'PESEL, Profil Zaufany, mDowód после karty pobytu'
+description: >-
+  Что оформить после получения karty pobytu: PESEL, Profil Zaufany, mDowód,
+  eDoręczenia. Документы, сроки, типичные ошибки в 2026.
 locale: ru
-publishDate: 2026-03-12
+publishDate: 2026-03-12T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

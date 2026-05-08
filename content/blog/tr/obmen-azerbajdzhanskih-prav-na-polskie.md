@@ -1,9 +1,11 @@
 ---
 slug: obmen-azerbajdzhanskih-prav-na-polskie
-title: "Azerbaycan Ehliyetinin Polonya Ehliyetine Çevrilmesi 2026"
-description: "Azerbaycan ehliyetini 2026'da Polonya ehliyetine nasıl çevirirsiniz - Viyana Sözleşmesi, sınav, apostille, tercüme. Süre 60-120 gün, ücretler 220 PLN'den. 2017 öncesi belgeler için ayrıntılar."
+title: Azerbaycan ehliyetinin Polonya'ya çevrilmesi 2026
+description: >-
+  Viyana Sözleşmesi, sınav muafiyeti, apostille, yeminli tercüme. Süre 60-120
+  gün, ücret 220 PLN'den, 2017 öncesi belgeler için kurallar.
 locale: tr
-publishDate: 2025-12-12
+publishDate: 2025-12-12T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

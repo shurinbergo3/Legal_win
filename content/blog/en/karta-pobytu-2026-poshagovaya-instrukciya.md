@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-2026-poshagovaya-instrukciya
-title: "Temporary Residence Card in Poland 2026: Step-by-Step Guide"
-description: "How to apply for a karta czasowego pobytu in Poland in 2026 - through MOS v2.0, without a passport stamp, with a minimum salary of 4806 PLN. Timelines, documents, costs, and what to do if you receive a refusal."
+title: 'Temporary Residence Card Poland 2026: Step-by-Step'
+description: >-
+  Karta czasowego pobytu via MOS v2.0, no passport stamp, minimum salary 4,806
+  PLN. Documents, costs, timelines and what to do after a refusal.
 locale: en
-publishDate: 2026-03-22
+publishDate: 2026-03-22T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

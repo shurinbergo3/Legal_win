@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-wygasla-co-delat
-title: "Polish residence card expired - what to do in 2026"
-description: "Your Karta Pobytu has expired in Poland - what to do in 2026? Risk of deportation, whether you can leave, how to urgently file a new MOS v2.0 application, fines and timelines for restoring legal status."
+title: Karta Pobytu Expired - What to Do in 2026
+description: >-
+  Your karta pobytu expired in Poland: deportation risk, whether you can leave,
+  how to file a new MOS v2.0 application urgently, fines and timelines.
 locale: en
-publishDate: 2026-04-28
+publishDate: 2026-04-28T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

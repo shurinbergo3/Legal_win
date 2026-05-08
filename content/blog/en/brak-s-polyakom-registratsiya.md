@@ -1,9 +1,11 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Marriage to a Polish Citizen in Poland - 2026 Guide"
-description: "How to register a marriage with a Polish citizen in 2026. Documents, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostilles, translations. Effect of marriage on karta pobytu and citizenship."
+title: 'Marriage to a Polish Citizen 2026: USC Guide'
+description: >-
+  USC procedure, zaświadczenie o zdolności do zawarcia małżeństwa, apostilles,
+  sworn translations. Impact on karta pobytu and Polish citizenship.
 locale: en
-publishDate: 2025-12-29
+publishDate: 2025-12-29T00:00:00.000Z
 author: LegalWin
 category: Family
 keywords:

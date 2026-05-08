@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-dlya-detey-2026
-title: "Karta pobytu dla dzieci w Polsce 2026: dokumenty, szkoła, ubezpieczenie"
-description: "Jak złożyć wniosek o kartę czasowego pobytu dla nieletniego cudzoziemca w Polsce: kalkulacja minimum egzystencji na osobę, ubezpieczenie zdrowotne przez ZUS rodzica, obowiązek szkolny i powiązanie ze świadczeniem 800+."
+title: 'Karta pobytu dla dzieci 2026: dokumenty i szkoła'
+description: >-
+  Karta pobytu dla nieletniego cudzoziemca: minimum egzystencji, ubezpieczenie
+  przez ZUS rodzica, obowiązek szkolny, świadczenie 800+.
 locale: pl
-publishDate: 2026-04-26
+publishDate: 2026-04-26T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

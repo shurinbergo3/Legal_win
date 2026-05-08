@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-wygasla-co-delat
-title: "Karta Pobytu *(Polonya oturum kartı)* süresi doldu - ne yapmalı? 2026 rehberi"
-description: "Polonya'da karta pobytu süresi doldu - 2026'da ne yapmalı? Sınır dışı edilme riski, yurt dışına çıkış, MOS v2.0 üzerinden acil yeni başvuru, para cezaları ve statünün geri kazanılma süreleri."
+title: Karta Pobytu süresi doldu - 2026'da ne yapmalı?
+description: >-
+  Polonya'da karta pobytu süresi doldu: sınır dışı riski, çıkış imkânı, MOS v2.0
+  ile acil yeni başvuru, para cezaları ve statünün geri kazanımı.
 locale: tr
-publishDate: 2026-04-28
+publishDate: 2026-04-28T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

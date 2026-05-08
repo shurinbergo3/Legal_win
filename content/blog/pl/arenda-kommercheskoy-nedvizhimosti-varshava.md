@@ -1,9 +1,12 @@
 ---
 slug: arenda-kommercheskoy-nedvizhimosti-varshava
-title: "Najem komercyjny w Warszawie 2026: co sprawdzić w umowie przed podpisaniem"
-description: "Pułapki umowy najmu lokalu użytkowego w Polsce: indeksacja czynszu, koszty eksploatacyjne, kary za wcześniejsze rozwiązanie, rygor egzekucji z art. 777 KPC. Przewodnik dla cudzoziemskich przedsiębiorców."
+title: 'Najem komercyjny w Warszawie 2026: co sprawdzić'
+description: >-
+  Pułapki umowy najmu lokalu użytkowego: indeksacja czynszu, koszty
+  eksploatacyjne, kary, art. 777 KPC. Przewodnik dla
+  cudzoziemców-przedsiębiorców.
 locale: pl
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00.000Z
 author: LegalWin
 category: Nieruchomości
 keywords:

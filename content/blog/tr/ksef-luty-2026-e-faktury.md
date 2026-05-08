@@ -1,9 +1,11 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: "KSeF - Polonya'da Şubat 2026'dan itibaren zorunlu e-fatura"
-description: "1 Şubat 2026'dan itibaren Polonya'daki tüm B2B faturalar yalnızca KSeF üzerinden düzenleniyor. Türk girişimcinin sisteme nasıl bağlanacağı, cezalar, Sp. z o.o. ve JDG için adımlar."
+title: 'KSeF 2026: Polonya''da zorunlu e-fatura sistemi'
+description: >-
+  1 Şubat 2026'dan itibaren Polonya'daki tüm B2B faturalar KSeF üzerinden. Türk
+  girişimci için bağlanma, cezalar, Sp. z o.o. ve JDG adımları.
 locale: tr
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Vergi ve muhasebe
 keywords:

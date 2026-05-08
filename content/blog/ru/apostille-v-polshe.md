@@ -1,9 +1,11 @@
 ---
 slug: apostille-v-polshe
-title: "Apostille в Польше - что это и когда нужен в 2026"
-description: "Что такое apostille в Польше, как и где получить, для каких документов нужен. Гаагская конвенция 1961, MSZ Polska, ul. Krucza 38/42, цены 60 PLN, сроки 1-3 недели. Альтернатива - legalizacja konsularna."
+title: 'Apostille в Польше 2026: где получить и сколько стоит'
+description: >-
+  Apostille в MSZ Polska на ul. Krucza 38/42: для каких документов нужен, цена
+  60 PLN, срок 1-3 недели. Альтернатива - legalizacja konsularna.
 locale: ru
-publishDate: 2025-12-18
+publishDate: 2025-12-18T00:00:00.000Z
 author: LegalWin
 category: Документы
 keywords:

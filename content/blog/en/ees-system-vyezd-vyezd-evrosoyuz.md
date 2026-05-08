@@ -1,9 +1,12 @@
 ---
 slug: ees-system-vyezd-vyezd-evrosoyuz
-title: "EU Entry/Exit System (EES) in 2026: How the New Biometric Border Affects Foreigners in Poland"
-description: "EES replaces paper passport stamps with biometric records - face and fingerprint scans at Schengen borders. What it means for foreigners with karta pobytu, how 90/180 days is now counted, and how Border Guard checks lawful stay."
+title: 'EU Entry/Exit System (EES) 2026: Impact on Foreigners'
+description: >-
+  EES replaces passport stamps with biometrics at Schengen borders. What it
+  means for karta pobytu holders, how 90/180 days now counts, Border Guard
+  checks.
 locale: en
-publishDate: 2026-04-15
+publishDate: 2026-04-15T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

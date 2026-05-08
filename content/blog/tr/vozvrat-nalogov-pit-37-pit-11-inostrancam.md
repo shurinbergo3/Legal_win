@@ -1,9 +1,11 @@
 ---
 slug: vozvrat-nalogov-pit-37-pit-11-inostrancam
-title: "Polonya'da vergi iadesi 2026: yabancılar için PIT-37 adım adım"
-description: "PIT-11 ve PIT-37 farkı, Twój e-PIT üzerinden beyanname nasıl gönderilir, hangi indirimler iadeyi banka hesabınıza yansıtır ve eşler için ortak beyan 2026'da neden 3.600 PLN'ye kadar tasarruf sağlar."
+title: 'Polonya''da vergi iadesi 2026: yabancılar için PIT-37'
+description: >-
+  PIT-11 ve PIT-37 farkı, Twój e-PIT ile beyan, hangi indirimler iade getirir,
+  eşler için ortak beyan 3.600 PLN'ye kadar tasarruf.
 locale: tr
-publishDate: 2026-02-03
+publishDate: 2026-02-03T00:00:00.000Z
 author: LegalWin
 category: Vergi
 keywords:

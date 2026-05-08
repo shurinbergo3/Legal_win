@@ -1,9 +1,11 @@
 ---
 slug: perehod-s-ukr-na-rabochuyu-kartu-pobytu
-title: "From PESEL UKR to a Standard Work Karta Pobytu in 2026: When It Pays for Ukrainians"
-description: "Strategy for moving from temporary protection (PESEL UKR) to a standard karta czasowego pobytu on work or business: pros, cons, the 5-year EU resident calculation, the risk of losing UKR benefits. Alternative - karta CUKR for 3 years."
+title: 'PESEL UKR to Work Karta Pobytu 2026: Strategy'
+description: >-
+  Moving from temporary protection to a work karta czasowego pobytu: pros, cons,
+  EU resident counting, UKR risks. Alternative - karta CUKR.
 locale: en
-publishDate: 2026-04-30
+publishDate: 2026-04-30T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

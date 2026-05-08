@@ -1,17 +1,19 @@
 ---
 slug: nalogovye-lgoty-estonian-cit-ip-box
-title: "Polonya'da iş için vergi avantajları 2026: Estonian CIT, %9 CIT ve IP Box"
-description: "Polonya'da Sp. z o.o. ve JDG için üç yasal vergi optimizasyon aracı: Estonian CIT (kâr dağıtımına kadar %0 vergi), küçük işletmeler için indirimli %9 CIT ve IP haklarından elde edilen gelir için %5 oranlı IP Box. Şartlar, riskler, strateji seçimi."
+title: 'Polonya''da vergi avantajları 2026: Estonian CIT, IP Box'
+description: >-
+  Sp. z o.o. ve JDG için üç araç: Estonian CIT (kâr dağıtımına kadar %0),
+  küçükler için %9 CIT, IP Box %5. Şartlar ve riskler.
 locale: tr
-publishDate: 2026-04-22
+publishDate: 2026-04-22T00:00:00.000Z
 author: LegalWin
 category: Vergi
 keywords:
-  - "Estonian CIT Polonya"
-  - "%9 CIT küçük mükellef"
-  - "IP Box Polonya BT"
-  - "Sp z o o vergi avantajları"
-  - "Polonya vergi optimizasyonu"
+  - Estonian CIT Polonya
+  - '%9 CIT küçük mükellef'
+  - IP Box Polonya BT
+  - Sp z o o vergi avantajları
+  - Polonya vergi optimizasyonu
 relatedServices:
   - /tr/uslugi/podatki-ksiegowosc
   - /tr/uslugi/rejestracja-sp-z-oo

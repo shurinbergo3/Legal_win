@@ -1,9 +1,12 @@
 ---
 slug: arenda-kommercheskoy-nedvizhimosti-varshava
-title: "Аренда коммерческой недвижимости в Варшаве 2026: что проверить в umowie до подписи"
-description: "Подводные камни umowy najmu lokalu użytkowego в Польше: индексация чинша, эксплуатационные расходы, штрафные санкции, нотариальное заявление о добровольном выселении из art. 777 KPC. Гайд для иностранных предпринимателей."
+title: Аренда коммерческой недвижимости в Варшаве 2026
+description: >-
+  Подводные камни umowy najmu lokalu użytkowego: индексация чинша,
+  эксплуатационные расходы, штрафы, art. 777 KPC. Гайд для иностранных
+  предпринимателей.
 locale: ru
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00.000Z
 author: LegalWin
 category: Недвижимость
 keywords:

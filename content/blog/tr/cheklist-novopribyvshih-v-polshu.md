@@ -1,9 +1,11 @@
 ---
 slug: cheklist-novopribyvshih-v-polshu
-title: "Polonya'ya yeni gelen Türk vatandaşları için kontrol listesi - ilk 90 gün"
-description: "2026'da Polonya'ya yeni taşınan Türk vatandaşları için tam kontrol listesi. PESEL, meldunek, Profil Zaufany, banka hesabı, NFZ, okul, iş, karta pobytu - ilk 30, 60 ve 90 günde ne, ne zaman yapılmalı."
+title: Polonya'ya yeni gelenler için kontrol listesi 2026
+description: >-
+  PESEL, meldunek, Profil Zaufany, banka hesabı, NFZ, okul, karta pobytu - ilk
+  30, 60 ve 90 günde Türk göçmenler için yapılacaklar.
 locale: tr
-publishDate: 2025-11-25
+publishDate: 2025-11-25T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

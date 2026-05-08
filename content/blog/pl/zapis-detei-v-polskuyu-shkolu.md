@@ -1,9 +1,12 @@
 ---
 slug: zapis-detei-v-polskuyu-shkolu
-title: "Zapisanie dzieci do polskiej szkoły - przewodnik dla cudzoziemców 2026"
-description: "Jak zapisać dziecko do polskiej szkoły w 2026 roku. Dokumenty, lekcje języka, bezpłatna nauka, podstawówka, liceum, technikum. Specjalne rozwiązania dla dzieci ukraińskich i białoruskich, dodatkowe godziny polskiego."
+title: 'Zapis dziecka do polskiej szkoły 2026: cudzoziemcy'
+description: >-
+  Dokumenty, lekcje języka, bezpłatna nauka, podstawówka, liceum, technikum.
+  Rozwiązania dla dzieci ukraińskich i białoruskich, dodatkowe godziny
+  polskiego.
 locale: pl
-publishDate: 2026-01-09
+publishDate: 2026-01-09T00:00:00.000Z
 author: LegalWin
 category: Rodzina
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Регистрация брака с поляком/полькой в Польше - гайд 2026"
-description: "Как зарегистрировать брак с гражданином Польши в 2026 году. Документы, USC, zaświadczenie o zdolności do zawarcia małżeństwa, апостили, переводы. Влияние брака на karta pobytu и гражданство."
+title: Регистрация брака с поляком в Польше 2026
+description: >-
+  USC, zaświadczenie o zdolności do zawarcia małżeństwa, апостили, переводы.
+  Влияние брака на karta pobytu и польское гражданство.
 locale: ru
-publishDate: 2025-12-29
+publishDate: 2025-12-29T00:00:00.000Z
 author: LegalWin
 category: Семья
 keywords:

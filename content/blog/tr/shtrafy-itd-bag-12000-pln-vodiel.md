@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-itd-bag-12000-pln-vodiel
-title: "ITD ve BAG cezaları 2026: Türk şoförler ve nakliye şirketleri için 12.000 PLN'ye varan riskler"
-description: "2026'da Polonya ITD ve Alman BAG, sürüş ve dinlenme rejimi denetimlerini sıkılaştırdı. Yol kenarında 3 ay ehliyet alıkoyma, başkasının takograf kartını kullanmaya 12.000 PLN şirket cezası, Kod 95 eksikliği ve takograf manipülasyonu için ağır yaptırımlar. Türk nakliye firmaları ve uluslararası tır şoförleri için 2026 rehberi."
+title: 'ITD ve BAG cezaları 2026: 12.000 PLN''ye varan riskler'
+description: >-
+  Polonya ITD ve Alman BAG 2026: yolda 3 ay ehliyet alıkoyma, başkasının
+  takograf kartına 12.000 PLN ceza, Kod 95 eksikliği, dinlenme ihlalleri.
 locale: tr
-publishDate: 2026-04-13
+publishDate: 2026-04-13T00:00:00.000Z
 author: LegalWin
 category: Taşımacılık
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: eu-blue-card-vs-karta-pobytu-2026
-title: "AB Mavi Kartı ile Karta Pobytu Karşılaştırması 2026: Yüksek Nitelikli Çalışan İçin Hangisi Daha Avantajlı?"
-description: "Polonya'da 2026 AB Mavi Kartı reformu: 6 aydan başlayan sözleşme, 11.700 PLN brüt maaş eşiği, AB içinde 90 günlük çalışma hakkı ve kolaylaşan işveren değişikliği. Standart Karta Pobytu ile karşılaştırma."
+title: AB Mavi Kartı mı Karta Pobytu mu 2026?
+description: >-
+  AB Mavi Kartı 2026: 6 aydan sözleşme, 11.700 PLN maaş eşiği, AB içinde 90 gün
+  mobilite. Standart Karta Pobytu ile karşılaştırma.
 locale: tr
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

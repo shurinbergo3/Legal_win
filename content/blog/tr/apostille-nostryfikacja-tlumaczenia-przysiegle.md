@@ -1,9 +1,11 @@
 ---
 slug: apostille-nostryfikacja-tlumaczenia-przysiegle
-title: "Apostille, diploma denkliği ve yeminli tercüme Polonya 2026: nedir ve hangi sırayla yapılır"
-description: "Polonya'da yabancı belgelerin legalizasyonu için tam rehber: belgenin düzenlendiği ülkede apostille, Polonya'da Türkçeden yeminli tercüme, regüle mesleklerde NAWA üzerinden diploma denkliği (hekimler, mühendisler, mimarlar). Türk vatandaşları için Valilik akışı, süreler ve maliyetler."
+title: 'Apostille, diploma denkliği, yeminli tercüme Polonya 2026'
+description: >-
+  Polonya'da yabancı belge legalizasyonu: apostille, yeminli tercüme, NAWA
+  üzerinden diploma denkliği. Türkler için süreler ve ücretler.
 locale: tr
-publishDate: 2026-01-30
+publishDate: 2026-01-30T00:00:00.000Z
 author: LegalWin
 category: Belgeler
 keywords:

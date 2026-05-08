@@ -1,9 +1,11 @@
 ---
 slug: karta-cukr-dlya-ukraincev
-title: "Карта CUKR в Польше для украинцев - полный гайд 2026"
-description: "Что такое karta CUKR в Польше - отдельный тип karty pobytu для граждан Украины с PESEL UKR. Как получить, сроки, документы, цены, отличия от обычной karty czasowego pobytu. Срок 3 года, без минимальной зарплаты."
+title: 'Карта CUKR для украинцев 2026: полный гайд'
+description: >-
+  Karta CUKR - отдельный тип karty pobytu для граждан Украины с PESEL UKR.
+  Документы, сроки, цены, отличия от стандартной karty czasowego pobytu.
 locale: ru
-publishDate: 2026-04-01
+publishDate: 2026-04-01T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

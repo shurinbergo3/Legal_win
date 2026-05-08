@@ -1,9 +1,11 @@
 ---
 slug: shtrafy-rabotodatelyam-nelegalnoye-trudoustroystvo
-title: "Employer Fines for Illegal Foreign Employment in Poland 2026: 3,000 PLN Per Case and Repatriation Costs"
-description: "New 2026 rules for Polish employers: mandatory pre-employment notification, 3,000 PLN fine per case, PIP and Border Guard inspections, liability for repatriation costs. How HR teams protect the company."
+title: Fines for Illegal Foreign Employment Poland 2026
+description: >-
+  New 2026 rules: pre-employment notification, 3,000 PLN fine per case, PIP and
+  Border Guard inspections, liability for repatriation costs.
 locale: en
-publishDate: 2026-03-29
+publishDate: 2026-03-29T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

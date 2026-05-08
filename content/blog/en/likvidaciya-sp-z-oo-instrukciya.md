@@ -1,9 +1,11 @@
 ---
 slug: likvidaciya-sp-z-oo-instrukciya
-title: "Liquidating a Sp. z o.o. in Poland 2026: Step-by-Step Guide to a Safe Wind-Down"
-description: "Liquidation stages: shareholders' resolution, liquidator, MSiG publications, creditor call, liquidation report. 6-8 months, costs, and the alternative of selling a clean company. The risks of Article 299 KSH."
+title: 'Sp. z o.o. Liquidation in Poland 2026: Step-by-Step'
+description: >-
+  Stages: shareholders' resolution, liquidator, MSiG, creditor call, final
+  report. 6-8 months, costs, the alternative of selling. Article 299 KSH risks.
 locale: en
-publishDate: 2026-02-08
+publishDate: 2026-02-08T00:00:00.000Z
 author: LegalWin
 category: Business
 keywords:

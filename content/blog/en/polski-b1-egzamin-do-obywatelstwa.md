@@ -1,9 +1,11 @@
 ---
 slug: polski-b1-egzamin-do-obywatelstwa
-title: "Polish B1 exam for citizenship - structure and preparation 2026"
-description: "The Polish B1 certificate from the State Commission for Certifying the Knowledge of Polish - mandatory for Polish citizenship. Exam structure, prices, dates, preparation tips."
+title: 'Polish B1 for Citizenship 2026: Exam and Prep'
+description: >-
+  Polish B1 certificate from Państwowa Komisja - mandatory for Polish
+  citizenship. Exam structure, prices, dates and preparation tips.
 locale: en
-publishDate: 2026-05-05
+publishDate: 2026-05-05T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

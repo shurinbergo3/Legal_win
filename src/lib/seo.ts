@@ -51,7 +51,7 @@ export function organizationLd() {
     telephone: ORG_PHONE,
     email: ORG_EMAIL,
     foundingDate: ORG_FOUNDED,
-    priceRange: 'PLN',
+    priceRange: 'PLN 200-3000',
     description:
       'Polish law firm in Warsaw helping foreigners with residence permits (Karta Pobytu), Polish citizenship, business setup (Sp. z o.o., JDG), tax compliance, driving licence exchange and Code 95 since 2019.',
     address: {

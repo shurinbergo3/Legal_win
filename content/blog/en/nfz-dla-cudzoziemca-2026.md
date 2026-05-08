@@ -1,9 +1,11 @@
 ---
 slug: nfz-dla-cudzoziemca-2026
-title: "NFZ for foreigners - how to register in Poland in 2026"
-description: "How a foreigner with a residence card, JDG or employment contract registers with NFZ for free Polish healthcare. ZUS, ZZA, voluntary insurance, IKP and mObywatel - step-by-step guide."
+title: 'NFZ for Foreigners 2026: How to Register in Poland'
+description: >-
+  Registering with NFZ with karta pobytu, JDG or umowa o pracę: ZUS, ZZA,
+  voluntary contributions, IKP and mObywatel - step-by-step.
 locale: en
-publishDate: 2026-05-06
+publishDate: 2026-05-06T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

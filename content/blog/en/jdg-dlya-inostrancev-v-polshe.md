@@ -1,9 +1,11 @@
 ---
 slug: jdg-dlya-inostrancev-v-polshe
-title: "JDG for Foreigners in Poland - Opening a Sole Proprietorship in 2026"
-description: "How to open a jednoosobowa działalność gospodarcza (JDG) in Poland as a foreigner in 2026. Eligibility, documents, CEIDG, ZUS, taxes - ryczałt vs zasady ogólne. Advantages for karta pobytu."
+title: 'JDG for Foreigners 2026: Sole Proprietorship in Poland'
+description: >-
+  Jednoosobowa działalność gospodarcza for foreigners: eligibility, CEIDG, ZUS,
+  ryczałt vs zasady ogólne. Advantages for karta pobytu applications.
 locale: en
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: Business
 keywords:

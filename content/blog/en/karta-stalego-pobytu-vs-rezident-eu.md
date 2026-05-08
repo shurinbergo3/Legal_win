@@ -1,9 +1,11 @@
 ---
 slug: karta-stalego-pobytu-vs-rezident-eu
-title: "Karta Stałego Pobytu vs EU Long-Term Resident in Poland: Which to Choose in 2026"
-description: "Compare Poland's two permanent-residence statuses: karta stałego pobytu (Polish descent, marriage, protection) and karta rezydenta długoterminowego UE (after 5 years + Polish B1 certificate). Counting the 5 years, B1 requirements, EU mobility."
+title: Karta Stałego Pobytu vs EU Long-Term Resident 2026
+description: >-
+  Poland's two PR statuses: karta stałego pobytu (descent, marriage) vs karta
+  rezydenta UE (5 years + B1). Counting years, B1, EU mobility.
 locale: en
-publishDate: 2026-04-08
+publishDate: 2026-04-08T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

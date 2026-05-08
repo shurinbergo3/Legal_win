@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-2026-poshagovaya-instrukciya
-title: "Polonya oturum kartı 2026: adım adım rehber"
-description: "Karta Pobytu (Polonya geçici oturum kartı) 2026 yılında MOS v2.0 üzerinden nasıl alınır. Pasaporta vurulan kaşe kaldırıldı, asgari ücret 4.806 PLN. Süreler, belgeler, harçlar ve ret durumunda yapılacaklar."
+title: 'Polonya oturum kartı 2026: adım adım rehber'
+description: >-
+  Karta Pobytu MOS v2.0 üzerinden, pasaporta kaşe yok, asgari ücret 4.806 PLN.
+  Belgeler, harçlar, süreler ve ret kararı sonrası adımlar.
 locale: tr
-publishDate: 2026-03-22
+publishDate: 2026-03-22T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-dlya-detey-2026
-title: "Çocuklar için Karta Pobytu 2026: Belgeler, Okul, Sigorta"
-description: "Reşit olmayan yabancı çocuklar için Karta Czasowego Pobytu nasıl alınır: aile başına geçim eşiği hesabı, ebeveyn ZUS'u üzerinden sağlık sigortası, okul kaydının zorunluluğu (obowiązek szkolny) ve 800+ sosyal yardımı ile bağlantı."
+title: 'Çocuklar için Karta Pobytu 2026: belgeler ve okul'
+description: >-
+  Reşit olmayan çocuklar için Karta Pobytu: aile başına gelir, ebeveyn ZUS
+  sağlık sigortası, obowiązek szkolny ve 800+ sosyal yardımı.
 locale: tr
-publishDate: 2026-04-26
+publishDate: 2026-04-26T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

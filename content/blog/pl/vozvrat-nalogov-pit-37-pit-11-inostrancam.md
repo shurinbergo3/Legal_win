@@ -1,9 +1,11 @@
 ---
 slug: vozvrat-nalogov-pit-37-pit-11-inostrancam
-title: "Zwrot podatku w Polsce 2026: PIT-37 dla cudzoziemców krok po kroku"
-description: "Czym różni się PIT-11 od PIT-37, jak cudzoziemiec składa zeznanie przez Twój e-PIT, które ulgi naprawdę przynoszą zwrot na konto i dlaczego wspólne rozliczenie z małżonkiem daje do 3 600 PLN oszczędności w 2026 roku."
+title: 'Zwrot podatku 2026: PIT-37 dla cudzoziemców'
+description: >-
+  PIT-11 vs PIT-37, składanie przez Twój e-PIT, które ulgi naprawdę dają zwrot,
+  wspólne rozliczenie małżonków daje do 3 600 PLN oszczędności.
 locale: pl
-publishDate: 2026-02-03
+publishDate: 2026-02-03T00:00:00.000Z
 author: LegalWin
 category: Podatki
 keywords:

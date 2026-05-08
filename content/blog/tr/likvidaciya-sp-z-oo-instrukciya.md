@@ -1,9 +1,11 @@
 ---
 slug: likvidaciya-sp-z-oo-instrukciya
-title: "Polonya'da Sp. z o.o. tasfiyesi 2026: şirket kapatmanın güvenli adım adım rehberi"
-description: "Sp. z o.o. tasfiyesinin aşamaları: tasfiye uchwała'sı, likwidator, MSiG'de ilanlar, alacaklı çağrısı, tasfiye raporu. 6-8 aylık süreç, maliyetler ve hazır şirket satışı alternatifi. Art. 299 KSH riskleri."
+title: 'Polonya''da Sp. z o.o. tasfiyesi 2026: adım adım'
+description: >-
+  Aşamalar: uchwała, likwidator, MSiG ilanı, alacaklı çağrısı, rapor. 6-8 ay,
+  maliyetler, hazır şirket satışı alternatifi. Art. 299 KSH riskleri.
 locale: tr
-publishDate: 2026-02-08
+publishDate: 2026-02-08T00:00:00.000Z
 author: LegalWin
 category: İş
 keywords:

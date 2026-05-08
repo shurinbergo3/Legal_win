@@ -1,9 +1,11 @@
 ---
 slug: perehod-s-ukr-na-rabochuyu-kartu-pobytu
-title: "PESEL UKR Statüsünden Çalışma Esaslı Karta Pobytu'ya Geçiş 2026: Ukrayna Vatandaşları İçin Hangi Durumda Avantajlıdır"
-description: "PESEL UKR geçici koruma statüsünden iş veya işletme esaslı standart Karta czasowego pobytu'ya geçiş stratejisi: artılar, eksiler, daimi oturum için süre hesabı, UKR avantajlarının kaybedilme riski. Alternatif: 3 yıllık CUKR kartı."
+title: PESEL UKR'den çalışma Karta Pobytu'ya 2026
+description: >-
+  Geçici korumadan iş esaslı standart Karta Pobytu'ya geçiş: artılar, eksiler,
+  daimi oturum süresi, UKR avantaj kaybı. Alternatif: 3 yıllık CUKR.
 locale: tr
-publishDate: 2026-04-30
+publishDate: 2026-04-30T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

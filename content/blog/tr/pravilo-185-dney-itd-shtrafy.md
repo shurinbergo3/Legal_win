@@ -1,9 +1,11 @@
 ---
 slug: pravilo-185-dney-itd-shtrafy
-title: "Polonya'da 185 Gün Kuralı 2026: ITD Yabancı Sürücülere Neden Yoğun Ceza Kesiyor?"
-description: "2026'dan itibaren ITD, 185 günlük süreyi Polonya'ya girişten değil, ilk Karta Pobytu'nun verildiği tarihten saymaya başladı. Yabancı ehliyet bu süre sonrasında geçersizdir. Ceza 1.500 PLN, kazadan sonra OC sigortasının rücu davası. Ehliyeti zamanında nasıl değiştirirsiniz?"
+title: 'Polonya''da 185 gün kuralı 2026: ITD cezaları'
+description: >-
+  2026'dan itibaren ITD, 185 günü ilk Karta Pobytu tarihinden sayıyor. Yabancı
+  ehliyet geçersiz. Ceza 1.500 PLN, kazada OC rücu davası.
 locale: tr
-publishDate: 2026-03-23
+publishDate: 2026-03-23T00:00:00.000Z
 author: LegalWin
 category: Ulaşım
 keywords:

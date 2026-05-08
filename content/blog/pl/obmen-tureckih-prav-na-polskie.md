@@ -1,9 +1,11 @@
 ---
 slug: obmen-tureckih-prav-na-polskie
-title: "Wymiana tureckiego prawa jazdy na polskie w 2026 roku"
-description: "Jak wymienić tureckie prawo jazdy na polskie w 2026 - Konwencja Wiedeńska, dokumenty, koszty od 200 PLN, terminy 45-90 dni. Niuanse dla praw sprzed 2016, tłumaczenie z tureckiego, Wydział Komunikacji."
+title: Wymiana tureckiego prawa jazdy na polskie 2026
+description: >-
+  Konwencja Wiedeńska, dokumenty, koszty od 200 PLN, terminy 45-90 dni. Niuanse
+  dla praw sprzed 2016, tłumaczenie z tureckiego, Wydział Komunikacji.
 locale: pl
-publishDate: 2026-01-17
+publishDate: 2026-01-17T00:00:00.000Z
 author: LegalWin
 category: Dokumenty
 keywords:

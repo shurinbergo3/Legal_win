@@ -1,9 +1,11 @@
 ---
 slug: perehod-so-studencheskoy-vizy-na-kartu-pobytu
-title: "From Student Visa to Karta Pobytu in 2026: New Restrictions for Graduates"
-description: "Since July 2025, exemption from the work permit (zezwolenie na pracę) for graduates of Polish universities applies only to schools listed by the ministry. How to check whether your university is on the list, how to avoid the 3,000 PLN fine, and what to file in MOS v2.0 after defending the diploma."
+title: 'Student Visa to Karta Pobytu 2026: New Rules'
+description: >-
+  Since July 2025, work-permit exemption applies only to ministry-listed
+  universities. How to check yours, the 3,000 PLN fine, MOS v2.0 after defense.
 locale: en
-publishDate: 2026-02-26
+publishDate: 2026-02-26T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: ees-system-vyezd-vyezd-evrosoyuz
-title: "Entry/Exit System (EES) в 2026: как новая биометрическая система ЕС повлияет на экспатов в Польше"
-description: "EES заменяет бумажные штампы биометрическим учётом: сканирование лица и отпечатков на границах Шенгена. Что значит для иностранцев с karta pobytu, как считаются 90/180 дней и как Straż Graniczna теперь проверяет легальность пребывания."
+title: 'Entry/Exit System (EES) 2026: что значит для иностранцев'
+description: >-
+  EES заменяет штампы биометрией на границах Шенгена. Что значит для karta
+  pobytu, как считаются 90/180 дней, проверки Straży Granicznej.
 locale: ru
-publishDate: 2026-04-15
+publishDate: 2026-04-15T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

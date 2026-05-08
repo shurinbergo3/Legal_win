@@ -1,9 +1,11 @@
 ---
 slug: cheklist-novopribyvshih-v-polshu
-title: "Чек-лист для новоприбывших в Польшу - что сделать в первые 90 дней"
-description: "Полный чек-лист для иностранцев, переехавших в Польшу в 2026. PESEL, meldunek, Profil Zaufany, банковский счёт, NFZ, школа, работа, karta pobytu - что и когда нужно сделать в первые 30, 60 и 90 дней."
+title: 'Чек-лист переезда в Польшу 2026: первые 90 дней'
+description: >-
+  PESEL, meldunek, Profil Zaufany, банковский счёт, NFZ, школа, karta pobytu -
+  что и когда сделать в первые 30, 60 и 90 дней после приезда.
 locale: ru
-publishDate: 2025-11-25
+publishDate: 2025-11-25T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

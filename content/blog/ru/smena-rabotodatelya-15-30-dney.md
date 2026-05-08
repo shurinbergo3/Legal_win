@@ -1,9 +1,11 @@
 ---
 slug: smena-rabotodatelya-15-30-dney
-title: "Смена работодателя с Картой Побыту в 2026: правило 15/30 дней и процедура zmiany decyzji"
-description: "Как иностранцу с karta czasowego pobytu легально сменить работу: 15 дней на уведомление воеводы, 30 дней на новую работу, разница между zmianą decyzji и nowym wnioskiem. Где можно работать сразу, а где нужно дождаться нового zezwolenia."
+title: Смена работодателя на karcie pobytu 2026
+description: >-
+  Правило 15/30 дней: уведомление воеводы за 15 дней, новая работа за 30. Zmiana
+  decyzji vs nowy wniosek - где можно работать сразу.
 locale: ru
-publishDate: 2026-03-13
+publishDate: 2026-03-13T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

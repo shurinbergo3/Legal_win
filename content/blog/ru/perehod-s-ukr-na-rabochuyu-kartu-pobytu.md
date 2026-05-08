@@ -1,9 +1,11 @@
 ---
 slug: perehod-s-ukr-na-rabochuyu-kartu-pobytu
-title: "Со статуса PESEL UKR на рабочую Карту Побыту в 2026: когда это выгодно украинцу"
-description: "Стратегия перехода с временной защиты PESEL UKR на стандартную karta czasowego pobytu по работе или бизнесу: плюсы, минусы, расчёт стажа для ПМЖ, риск потери UKR-льгот. Альтернатива - карта CUKR на 3 года."
+title: С PESEL UKR на рабочую karta pobytu 2026
+description: >-
+  Переход с временной защиты на karta czasowego pobytu по работе или бизнесу:
+  плюсы, минусы, стаж для ПМЖ, риск потери UKR. Альтернатива - CUKR.
 locale: ru
-publishDate: 2026-04-30
+publishDate: 2026-04-30T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

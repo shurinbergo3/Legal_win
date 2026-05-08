@@ -1,9 +1,11 @@
 ---
 slug: zamena-prav-ssha-uk-india-word-ekzamen
-title: "Wymiana prawa jazdy z USA, Wielkiej Brytanii i Indii w Polsce: jak zdać egzamin w WORD"
-description: "Obywatele USA, UK po Brexicie, Indii, ZEA muszą zdać egzamin teoretyczny w WORD (po polsku lub angielsku) na polskie prawo jazdy. 50 PLN, 30 pytań, próg 68 pkt. Pełna procedura w mazowieckim."
+title: 'Wymiana prawa jazdy z USA, UK, Indii 2026: WORD'
+description: >-
+  Obywatele USA, UK po Brexicie, Indii, ZEA zdają egzamin teoretyczny w WORD po
+  polsku lub angielsku. 50 PLN, 30 pytań, próg 68 pkt.
 locale: pl
-publishDate: 2026-04-03
+publishDate: 2026-04-03T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-dlya-detey-2026
-title: "Karta pobytu для детей в Польше 2026: документы, школа, страховка"
-description: "Как оформить karta czasowego pobytu для несовершеннолетних иностранцев в Польше: расчёт прожиточного минимума на семью, медстраховка через ZUS родителя, обязательное подтверждение записи в школу (obowiązek szkolny) и связь с социальными выплатами 800+."
+title: 'Karta pobytu для детей 2026: документы и школа'
+description: >-
+  Karta pobytu для несовершеннолетних: расчёт прожиточного минимума,
+  медстраховка через ZUS родителя, obowiązek szkolny, выплаты 800+.
 locale: ru
-publishDate: 2026-04-26
+publishDate: 2026-04-26T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

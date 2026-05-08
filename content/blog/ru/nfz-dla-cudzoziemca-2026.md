@@ -1,9 +1,11 @@
 ---
 slug: nfz-dla-cudzoziemca-2026
-title: "NFZ для иностранца - как зарегистрироваться в 2026"
-description: "Как иностранцу с karta pobytu, JDG или umową o pracę зарегистрироваться в NFZ для бесплатной медицины в Польше. ZUS, ZZA, добровольные взносы, IKP и mObywatel - пошаговая инструкция."
+title: 'NFZ для иностранца 2026: как зарегистрироваться'
+description: >-
+  Регистрация в NFZ с karta pobytu, JDG или umową o pracę: ZUS, ZZA,
+  добровольные взносы, IKP и mObywatel - пошаговая инструкция.
 locale: ru
-publishDate: 2026-05-06
+publishDate: 2026-05-06T00:00:00.000Z
 author: LegalWin
 category: Документы
 keywords:

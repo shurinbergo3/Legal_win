@@ -1,9 +1,11 @@
 ---
 slug: eu-blue-card-vs-karta-pobytu-2026
-title: "EU Blue Card vs Karta Pobytu 2026: Which Status Suits a Highly Qualified Specialist"
-description: "The 2026 reform of the EU Blue Card in Poland: contract from 6 months, 11,700 PLN salary threshold, 90-day intra-EU mobility, simplified employer change. A side-by-side with the standard karta czasowego pobytu."
+title: 'EU Blue Card vs Karta Pobytu 2026: Which to Pick'
+description: >-
+  EU Blue Card 2026 in Poland: contract from 6 months, 11,700 PLN salary, 90-day
+  EU mobility, easy job change. Compared to standard karta czasowego pobytu.
 locale: en
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: Immigration
 keywords:

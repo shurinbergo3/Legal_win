@@ -1,9 +1,11 @@
 ---
 slug: karta-pobytu-2026-poshagovaya-instrukciya
-title: "Karta czasowego pobytu w Polsce 2026: instrukcja krok po kroku"
-description: "Jak złożyć wniosek o kartę czasowego pobytu w Polsce w 2026 roku - przez MOS v2.0, bez pieczątki w paszporcie, z minimalnym wynagrodzeniem 4806 PLN. Terminy, dokumenty, koszty i co zrobić przy odmowie."
+title: 'Karta czasowego pobytu 2026: instrukcja krok po kroku'
+description: >-
+  Karta czasowego pobytu przez MOS v2.0, bez pieczątki w paszporcie, minimum 4
+  806 PLN. Dokumenty, koszty, terminy i co przy odmowie.
 locale: pl
-publishDate: 2026-03-22
+publishDate: 2026-03-22T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

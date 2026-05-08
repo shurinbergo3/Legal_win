@@ -1,9 +1,11 @@
 ---
 slug: pravilo-185-dney-itd-shtrafy
-title: "The 185-Day Rule in Poland 2026: Why ITD Now Fines Foreign Drivers en Masse"
-description: "From 2026, ITD counts the 185 days not from entry to Poland but from the date of the first karta pobytu. Foreign licences after that - illegal. 1,500 PLN fine, regress claims from OC insurers after accidents. How to swap on time."
+title: '185-Day Rule Poland 2026: Why ITD Fines Foreigners'
+description: >-
+  From 2026, ITD counts 185 days from the first karta pobytu, not entry. Foreign
+  licences become illegal. Fine 1,500 PLN, OC regress after crashes.
 locale: en
-publishDate: 2026-03-23
+publishDate: 2026-03-23T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

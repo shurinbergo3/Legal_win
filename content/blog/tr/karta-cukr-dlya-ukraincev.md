@@ -1,9 +1,11 @@
 ---
 slug: karta-cukr-dlya-ukraincev
-title: "Polonya'da Ukraynalılar için CUKR Kartı - 2026 Tam Rehberi"
-description: "Karta CUKR nedir: PESEL UKR sahibi Ukrayna vatandaşlarına özel karta pobytu türü. Başvuru süreci, süreler, belgeler, ücretler ve standart karta czasowego pobytu'dan farkları. 3 yıl geçerli, asgari ücret koşulu yok."
+title: 'Ukraynalılar için Karta CUKR 2026: tam rehber'
+description: >-
+  Karta CUKR - PESEL UKR sahibi Ukraynalılar için özel oturum kartı. Başvuru,
+  süreler, ücretler ve standart karta czasowego pobytu'dan farkları.
 locale: tr
-publishDate: 2026-04-01
+publishDate: 2026-04-01T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

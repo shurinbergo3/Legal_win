@@ -1,9 +1,11 @@
 ---
 slug: eu-blue-card-vs-karta-pobytu-2026
-title: "EU Blue Card vs Karta Pobytu 2026: что выгоднее для высококвалифицированного специалиста"
-description: "Реформа Голубой Карты ЕС в Польше 2026: контракт от 6 месяцев, порог зарплаты 11 700 PLN, мобильность по ЕС 90 дней без виз, упрощённая смена работодателя. Сравнение с обычной karta czasowego pobytu."
+title: 'EU Blue Card vs Karta Pobytu 2026: что выбрать'
+description: >-
+  Голубая Карта ЕС в Польше 2026: контракт от 6 мес., зарплата 11 700 PLN,
+  мобильность 90 дней по ЕС. Сравнение с karta czasowego pobytu.
 locale: ru
-publishDate: 2026-02-13
+publishDate: 2026-02-13T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

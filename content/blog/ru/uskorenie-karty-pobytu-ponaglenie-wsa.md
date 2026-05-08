@@ -1,9 +1,11 @@
 ---
 slug: uskorenie-karty-pobytu-ponaglenie-wsa
-title: "Как ускорить выдачу Karty Pobytu в 2026: Ponaglenie и иск в WSA против воеводы"
-description: "Дело по karta pobytu лежит в Mazowieckim уже 14 месяцев? Легальные инструменты для ускорения: ponaglenie на основании KPA, skarga na bezczynność в WSA, финансовая компенсация за волокиту. Гайд с шаблонами и тарифами."
+title: 'Ускорение karty pobytu 2026: Ponaglenie и WSA'
+description: >-
+  Дело лежит в Mazowieckim 14+ месяцев? Ponaglenie по KPA и skarga na
+  bezczynność в WSA с компенсацией за волокиту. Шаблоны и тарифы.
 locale: ru
-publishDate: 2026-03-02
+publishDate: 2026-03-02T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

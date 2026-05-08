@@ -1,9 +1,11 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: "Składka zdrowotna 2026 - реформа для JDG и Sp. z o.o."
-description: "Реформа składki zdrowotnej с 1 января 2026 года в Польше: фиксированный взнос для JDG, новые ставки для Sp. z o.o. и Estonian CIT, как изменится итоговая нагрузка на предпринимателя-иностранца."
+title: 'Składka zdrowotna 2026: реформа JDG и Sp. z o.o.'
+description: >-
+  С 1 января 2026: фиксированная składka для JDG, новые ставки для Sp. z o.o. и
+  Estonian CIT, как изменится нагрузка на предпринимателя.
 locale: ru
-publishDate: 2026-05-02
+publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
 category: Налоги и бухгалтерия
 keywords:

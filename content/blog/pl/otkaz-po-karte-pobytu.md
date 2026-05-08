@@ -1,9 +1,11 @@
 ---
 slug: otkaz-po-karte-pobytu
-title: "Odmowa karty pobytu w Polsce - co robić w 2026"
-description: "Co zrobić w przypadku decyzji odmownej dotyczącej karty pobytu w Polsce w 2026 roku. Terminy odwołania, najczęstsze przyczyny odmów w Mazowieckim, jak sporządzić odwołanie do Szefa UDSC i skargę do WSA. Realne szanse powodzenia."
+title: 'Odmowa karty pobytu 2026: co robić po decyzji'
+description: >-
+  Decyzja odmowna w sprawie karty pobytu: terminy odwołania, przyczyny odmów w
+  Mazowieckim, jak sporządzić odwołanie do Szefa UDSC i skargę do WSA.
 locale: pl
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

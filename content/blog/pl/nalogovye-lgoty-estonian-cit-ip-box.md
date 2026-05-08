@@ -1,9 +1,11 @@
 ---
 slug: nalogovye-lgoty-estonian-cit-ip-box
-title: "Ulgi podatkowe dla biznesu w Polsce 2026: Estoński CIT, 9% CIT i IP Box"
-description: "Trzy narzędzia legalnej optymalizacji podatkowej dla sp. z o.o. i JDG: Estoński CIT (0% do wypłaty dywidend), preferencyjny 9% CIT dla małych i IP Box ze stawką 5% od dochodów z IP. Warunki, ryzyka, dobór strategii."
+title: 'Ulgi podatkowe 2026: Estoński CIT, 9% CIT, IP Box'
+description: >-
+  Trzy narzędzia dla sp. z o.o. i JDG: Estoński CIT (0% do dywidend), 9% CIT dla
+  małych, IP Box 5% od przychodów IP. Warunki i ryzyka.
 locale: pl
-publishDate: 2026-04-22
+publishDate: 2026-04-22T00:00:00.000Z
 author: LegalWin
 category: Podatki
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
-title: "Code 95 in Poland 2026: Long Course (Kwalifikacja Wstępna) vs Short Course (Szkolenie Okresowe)"
-description: "How a foreign driver picks the right Code 95 path: 35-hour Szkolenie Okresowe at 900 PLN, or 140-hour Kwalifikacja Wstępna at 2,800 PLN with state exam. Depends purely on the issue date of category C licence."
+title: 'Code 95 in Poland 2026: Long vs Short Course'
+description: >-
+  Kwalifikacja Wstępna (140 h, 2,800 PLN, state exam) vs Szkolenie Okresowe (35
+  h, 900 PLN). Choice depends on the issue date of category C licence.
 locale: en
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Transport
 keywords:

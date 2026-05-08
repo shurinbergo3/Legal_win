@@ -1,9 +1,11 @@
 ---
 slug: arenda-kommercheskoy-nedvizhimosti-varshava
-title: "Varşova'da ticari gayrimenkul kiralama 2026: imzadan önce sözleşmede neler kontrol edilmeli"
-description: "Polonya'da umowa najmu lokalu użytkowego *(ticari kira sözleşmesi)*'nin tuzakları: kira endeksleme, işletme giderleri, cezai şartlar, KPC madde 777 uyarınca gönüllü tahliye noter beyanı. Yabancı girişimciler için rehber."
+title: 'Varşova''da ticari kira 2026: imzadan önce kontrol'
+description: >-
+  Umowa najmu lokalu użytkowego'nun tuzakları: kira endeksleme, işletme
+  giderleri, cezalar, KPC madde 777. Yabancı girişimciler için rehber.
 locale: tr
-publishDate: 2026-02-19
+publishDate: 2026-02-19T00:00:00.000Z
 author: LegalWin
 category: Gayrimenkul
 keywords:

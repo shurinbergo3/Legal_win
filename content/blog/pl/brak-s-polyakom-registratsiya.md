@@ -1,9 +1,11 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Zawarcie małżeństwa z obywatelem Polski - przewodnik 2026"
-description: "Jak zarejestrować małżeństwo z obywatelem Polski w 2026 roku. Dokumenty, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, tłumaczenia. Wpływ małżeństwa na kartę pobytu i obywatelstwo."
+title: 'Małżeństwo z obywatelem Polski 2026: USC krok po kroku'
+description: >-
+  Procedura w USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille,
+  tłumaczenia. Wpływ na kartę pobytu i obywatelstwo polskie.
 locale: pl
-publishDate: 2025-12-29
+publishDate: 2025-12-29T00:00:00.000Z
 author: LegalWin
 category: Rodzina
 keywords:

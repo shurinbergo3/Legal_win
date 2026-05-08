@@ -1,9 +1,11 @@
 ---
 slug: smena-rabotodatelya-15-30-dney
-title: "Zmiana pracodawcy z kartą pobytu 2026: zasada 15/30 dni i procedura zmiany decyzji"
-description: "Jak cudzoziemiec z kartą czasowego pobytu legalnie zmienia pracę: 15 dni na powiadomienie wojewody, 30 dni na nową pracę, różnica między zmianą decyzji a nowym wnioskiem. Gdzie można pracować od razu, a gdzie trzeba czekać na nowe zezwolenie."
+title: Zmiana pracodawcy z kartą pobytu 2026
+description: >-
+  Zasada 15/30 dni: 15 dni na powiadomienie wojewody, 30 dni na nową pracę.
+  Zmiana decyzji vs nowy wniosek - gdzie można pracować od razu.
 locale: pl
-publishDate: 2026-03-13
+publishDate: 2026-03-13T00:00:00.000Z
 author: LegalWin
 category: Imigracja
 keywords:

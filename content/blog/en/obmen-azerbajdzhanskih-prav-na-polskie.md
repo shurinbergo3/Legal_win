@@ -1,9 +1,11 @@
 ---
 slug: obmen-azerbajdzhanskih-prav-na-polskie
-title: "Exchanging an Azerbaijani Driving Licence for a Polish One in 2026"
-description: "How to exchange your Azerbaijani driving licence for a Polish one in 2026 - Vienna Convention, exam exemptions, apostille, sworn translation. Timelines 60-120 days, costs from 220 PLN, special rules for licences issued before 2017."
+title: Azerbaijani to Polish Driving Licence Exchange 2026
+description: >-
+  Vienna Convention, exam exemptions, apostille, sworn translation. Timelines
+  60-120 days, costs from 220 PLN, special rules for pre-2017 licences.
 locale: en
-publishDate: 2025-12-12
+publishDate: 2025-12-12T00:00:00.000Z
 author: LegalWin
 category: Documents
 keywords:

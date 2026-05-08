@@ -1,9 +1,11 @@
 ---
 slug: zapis-detei-v-polskuyu-shkolu
-title: "Çocuğunuzu Polonya okuluna nasıl kaydedersiniz - yabancılar için 2026 rehberi"
-description: "Çocuğunuzu 2026'da Polonya'da bir okula nasıl kaydedersiniz: gerekli belgeler, ek Polonyaca dersleri, ücretsiz eğitim, szkoła podstawowa, liceum, technikum. Türk aileler için pratik ipuçları, asystent kulturowy ve oddziały przygotowawcze."
+title: Çocuğunuzu Polonya okuluna kaydetme 2026
+description: >-
+  Belgeler, ek Lehçe dersleri, ücretsiz eğitim, szkoła podstawowa, liceum,
+  technikum. Türk aileler için asystent kulturowy ve oddziały przygotowawcze.
 locale: tr
-publishDate: 2026-01-09
+publishDate: 2026-01-09T00:00:00.000Z
 author: LegalWin
 category: Aile
 keywords:

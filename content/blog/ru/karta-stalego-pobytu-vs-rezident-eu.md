@@ -1,9 +1,11 @@
 ---
 slug: karta-stalego-pobytu-vs-rezident-eu
-title: "Karta stałego pobytu vs резидент ЕС в Польше: что выбрать в 2026 году"
-description: "Сравнение двух статусов постоянного проживания в Польше: karta stałego pobytu (по польским корням, браку, защите) и karta rezydenta długoterminowego UE (через 5 лет проживания + B1). Подсчёт стажа, требования B1, мобильность по ЕС."
+title: Karta stałego pobytu vs резидент ЕС 2026
+description: >-
+  Сравнение: karta stałego pobytu (корни, брак, защита) и karta rezydenta UE (5
+  лет + B1). Подсчёт стажа, требования B1, мобильность по ЕС.
 locale: ru
-publishDate: 2026-04-08
+publishDate: 2026-04-08T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:

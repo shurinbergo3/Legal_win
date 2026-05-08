@@ -1,9 +1,11 @@
 ---
 slug: vossoedinenie-semi-polsha-2026-prava-suprugov
-title: "Polonya'da aile birleşimi 2026: eşin oturum kartı çalışma hakkı verir mi?"
-description: "Połączenie z rodziną *(aile birleşimi)* 2026 yılında: hangi karta pobytu eşe otomatik *dostęp do rynku pracy* hakkı verir, gelir ve konut şartları nelerdir, çocuklar 18 yaş öncesi ve sonrası nasıl başvurur ve neden sponsor statüsü her şeyden önemlidir."
+title: 'Polonya''da aile birleşimi 2026: eş hakları'
+description: >-
+  Hangi karta pobytu eşe dostęp do rynku pracy hakkı verir, gelir ve konut
+  şartları, 18 öncesi/sonrası çocuklar, sponsor statüsü.
 locale: tr
-publishDate: 2026-03-19
+publishDate: 2026-03-19T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

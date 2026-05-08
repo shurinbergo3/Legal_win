@@ -1,9 +1,11 @@
 ---
 slug: ees-system-vyezd-vyezd-evrosoyuz
-title: "EES sistemi 2026: AB'nin yeni biyometrik giriş-çıkış sistemi Polonya'daki yabancıları nasıl etkiliyor?"
-description: "EES, pasaport mühürlerinin yerini biyometrik kayıtla alıyor: Schengen sınırlarında yüz ve parmak izi taraması. Karta Pobytu sahipleri için ne anlama geldiği, 90/180 kuralının nasıl hesaplandığı ve Straż Graniczna'nın artık ikamet yasallığını nasıl kontrol ettiği."
+title: 'EES sistemi 2026: yabancılar için ne değişiyor?'
+description: >-
+  EES, Schengen sınırlarında pasaport mührünü biyometriyle değiştiriyor. Karta
+  pobytu sahipleri, 90/180 kuralı ve Straż Graniczna denetimleri.
 locale: tr
-publishDate: 2026-04-15
+publishDate: 2026-04-15T00:00:00.000Z
 author: LegalWin
 category: Göç
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: smena-rabotodatelya-15-30-dney
-title: "Karta Pobytu ile İşveren Değişikliği 2026: 15/30 Gün Kuralı ve Zmiana Decyzji Süreci"
-description: "Karta czasowego pobytu sahibi yabancı için işveren değişikliği: wojewoda'ya 15 günde bildirim, yeni iş için 30 gün, zmiana decyzji ile nowy wniosek arasındaki fark. Hangi durumda hemen çalışabilirsiniz, hangisinde yeni izni beklemeniz gerekir."
+title: Karta Pobytu'da işveren değişikliği 2026
+description: >-
+  15/30 gün kuralı: wojewoda'ya 15 günde bildirim, 30 günde yeni iş. Zmiana
+  decyzji ile nowy wniosek - hangi durumda hemen çalışılır.
 locale: tr
-publishDate: 2026-03-13
+publishDate: 2026-03-13T00:00:00.000Z
 author: LegalWin
 category: Göçmenlik
 keywords:

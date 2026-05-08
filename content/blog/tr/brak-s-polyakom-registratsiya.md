@@ -1,9 +1,11 @@
 ---
 slug: brak-s-polyakom-registratsiya
-title: "Polonya vatandaşı ile evlilik - Polonya'da tescil rehberi 2026"
-description: "2026 yılında Polonya vatandaşı ile Polonya'da evliliğin tescili. Belgeler, USC, zaświadczenie o zdolności do zawarcia małżeństwa, apostille, yeminli tercümeler. Evliliğin karta pobytu ve vatandaşlık üzerindeki etkisi."
+title: 'Polonya vatandaşı ile evlilik 2026: USC rehberi'
+description: >-
+  USC süreci, zaświadczenie o zdolności do zawarcia małżeństwa, apostille,
+  yeminli tercümeler. Karta pobytu ve vatandaşlığa etkisi.
 locale: tr
-publishDate: 2025-12-29
+publishDate: 2025-12-29T00:00:00.000Z
 author: LegalWin
 category: Aile
 keywords:

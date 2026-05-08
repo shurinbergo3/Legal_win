@@ -1,9 +1,11 @@
 ---
 slug: otkrytie-bankovskogo-scheta-v-polshe
-title: "Opening a Bank Account in Poland for Foreigners - 2026"
-description: "How to open a konto bankowe in Poland as a foreigner in 2026. Comparison of PKO BP, Santander, mBank, Pekao, ING - documents, opening time, fees. With and without PESEL, in-person and online."
+title: Polish Bank Account for Foreigners 2026
+description: >-
+  Konto bankowe as a foreigner: PKO BP, Santander, mBank, Pekao, ING -
+  documents, opening time, fees. With and without PESEL, in branch and online.
 locale: en
-publishDate: 2026-02-04
+publishDate: 2026-02-04T00:00:00.000Z
 author: LegalWin
 category: Finance
 keywords:

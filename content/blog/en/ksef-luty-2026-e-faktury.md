@@ -1,9 +1,11 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: "KSeF - mandatory Polish e-invoices from February 2026"
-description: "From 1 February 2026 all B2B invoices in Poland are issued exclusively through KSeF. How a foreign entrepreneur can connect, penalties for non-compliance, what Sp. z o.o. and JDG need to do."
+title: 'KSeF 2026: Mandatory Polish E-Invoices'
+description: >-
+  From 1 February 2026 all B2B invoices in Poland go through KSeF. How a foreign
+  entrepreneur connects, penalties, steps for Sp. z o.o. and JDG.
 locale: en
-publishDate: 2026-05-04
+publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
 category: Tax & accounting
 keywords:

@@ -1,9 +1,11 @@
 ---
 slug: perehod-so-studencheskoy-vizy-na-kartu-pobytu
-title: "Со студенческой визы на Карту Побыту 2026: новые ограничения для выпускников"
-description: "С июля 2025 освобождение от zezwolenia na pracę для выпускников польских вузов работает только для университетов из списка министерства. Как проверить свой вуз, как избежать штрафа 3000 PLN и что подавать в MOS v2.0 после защиты диплома."
+title: Со студенческой визы на karta pobytu 2026
+description: >-
+  С июля 2025 zezwolenie na pracę не нужно только для вузов из списка
+  министерства. Как проверить вуз, штраф 3000 PLN и MOS v2.0 после защиты.
 locale: ru
-publishDate: 2026-02-26
+publishDate: 2026-02-26T00:00:00.000Z
 author: LegalWin
 category: Иммиграция
 keywords:
