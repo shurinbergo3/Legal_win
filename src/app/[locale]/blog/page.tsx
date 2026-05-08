@@ -27,7 +27,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Blog' });
-  const safeLocale: SeoLocale = (['ru', 'pl', 'en'] as const).includes(
+  const safeLocale: SeoLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
     locale as SeoLocale
   )
     ? (locale as SeoLocale)
@@ -87,7 +87,7 @@ export default async function BlogIndexPage({
   const t = await getTranslations({ locale, namespace: 'Blog' });
   const posts = getAllPosts(locale);
 
-  const safeLocale: SeoLocale = (['ru', 'pl', 'en'] as const).includes(
+  const safeLocale: SeoLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
     locale as SeoLocale
   )
     ? (locale as SeoLocale)

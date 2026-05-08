@@ -40,7 +40,7 @@ export async function generateMetadata({
   const post = getPost(locale, slug);
   if (!post) return {};
 
-  const safeLocale: SeoLocale = (['ru', 'pl', 'en'] as const).includes(
+  const safeLocale: SeoLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
     locale as SeoLocale
   )
     ? (locale as SeoLocale)
@@ -117,7 +117,7 @@ export default async function BlogPostPage({
   const post = getPost(locale, slug);
   if (!post) notFound();
 
-  const safeLocale: SeoLocale = (['ru', 'pl', 'en'] as const).includes(
+  const safeLocale: SeoLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
     locale as SeoLocale
   )
     ? (locale as SeoLocale)

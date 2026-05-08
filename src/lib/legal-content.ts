@@ -1,6 +1,6 @@
 import type { LegalSection } from '@/components/LegalPage';
 
-type Locale = 'ru' | 'pl' | 'en';
+type Locale = 'ru' | 'pl' | 'en' | 'tr';
 
 type LegalDoc = {
   eyebrow: string;
@@ -359,6 +359,122 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
         ]
       }
     ]
+  },
+  tr: {
+    eyebrow: '/ hukuki',
+    title: 'Gizlilik Politikası',
+    intro:
+      'Bu politika, LegalWin\'in kişisel verilerinizi GDPR, Polonya Kişisel Verilerin Korunması Kanunu (RODO) ve Elektronik Haberleşme Kanunu (PKE 2024) uyarınca nasıl işlediğini açıklar.',
+    sections: [
+      {
+        id: 'administrator',
+        title: 'Veri sorumlusu',
+        blocks: [
+          {
+            dl: [
+              { term: 'Unvan', def: 'LegalWin sp. z o.o.' },
+              { term: 'Adres', def: 'ul. Świętokrzyska 30/63, 00-116 Warszawa, Polonya' },
+              { term: 'E-posta', def: 'legalwin.warszawa@gmail.com' },
+              { term: 'Telefon', def: '+48 506 55 07 21' }
+            ]
+          },
+          'Kişisel veri konularında iletişim noktası, veri sorumlusudur. Veri Koruma Görevlisi (DPO) atanmamıştır - GDPR Madde 37 kapsamında faaliyetlerimiz için zorunlu değildir.'
+        ]
+      },
+      {
+        id: 'cele',
+        title: 'Amaçlar ve hukuki dayanaklar',
+        blocks: [
+          'Verilerinizi yalnızca aşağıda sıralanan hukuka uygun amaçlarla işliyoruz:',
+          {
+            dl: [
+              { term: 'GDPR Madde 6(1)(a)', def: 'Açık rıza - form veya AI sohbet üzerinden gelen başvurunun ele alınması ve uzman yanıtının iletilmesi.' },
+              { term: 'GDPR Madde 6(1)(b)', def: 'Hukuki hizmet sözleşmesinin kurulması ve ifası.' },
+              { term: 'GDPR Madde 6(1)(c)', def: 'Yasal yükümlülüklerin yerine getirilmesi - muhasebe ve vergi kayıtlarının tutulması.' },
+              { term: 'GDPR Madde 6(1)(f)', def: 'Meşru menfaat - büromuzun dolandırıcılığa karşı korunması, site güvenliği.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'kategorie',
+        title: 'Veri alıcısı kategorileri',
+        blocks: [
+          'Verileriniz, adımıza hareket eden aşağıdaki veri işleyenlerle paylaşılabilir:',
+          {
+            list: [
+              'Partner muhasebe firması (Polonya) - defter tutma, GDPR Madde 28.',
+              'Hosting sağlayıcı Vercel Inc. (ABD) - AB Standart Sözleşme Maddeleri, IDTA.',
+              'Telegram Messenger LLP (UK/AB) - başvuru bildirimlerinin iç kanalımıza iletilmesi.',
+              'Groq Inc. (ABD) - AI sohbet işlemleri, içerik saklanmaz (zero-retention).',
+              'Polonya kamu kurumları - yalnızca hukuka uygun resmi talep üzerine.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'okres',
+        title: 'Saklama süresi',
+        blocks: [
+          {
+            dl: [
+              { term: 'Başvurular ve yazışmalar', def: 'son temas tarihinden itibaren 24 aya kadar veya rızanın geri çekilmesine kadar.' },
+              { term: 'Sözleşmeler ve faturalar', def: 'vergi yılı sonundan itibaren 5 yıl (Polonya Vergi Usul Kanunu Madde 86 § 1).' },
+              { term: 'Gizli dosya yazışmaları', def: 'son dosya temasından itibaren 10 yıl.' },
+              { term: 'AI sohbetleri', def: 'sunucularımızda saklanmaz; yalnızca açık rıza ile Telegram\'a iletilir.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'prawa',
+        title: 'Haklarınız',
+        blocks: [
+          'GDPR ve Polonya RODO kapsamında aşağıdaki haklara sahipsiniz:',
+          {
+            list: [
+              'Verilere erişim hakkı (GDPR Madde 15).',
+              'Hatalı verilerin düzeltilmesi hakkı (GDPR Madde 16).',
+              'Silme hakkı - "unutulma hakkı" (GDPR Madde 17).',
+              'İşlemenin kısıtlanması hakkı (GDPR Madde 18).',
+              'Veri taşınabilirliği hakkı (GDPR Madde 20).',
+              'Meşru menfaate dayalı işlemeye itiraz hakkı (GDPR Madde 21).',
+              'Açık rızayı her zaman geri çekme hakkı - geri çekme öncesi işlemenin hukuka uygunluğunu etkilemez.',
+              'Denetim makamına şikayet hakkı - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+            ]
+          },
+          'Haklarınızdan herhangi birini kullanmak için legalwin.warszawa@gmail.com adresine yazmanız yeterlidir - 30 gün içinde yanıt veriyoruz.'
+        ]
+      },
+      {
+        id: 'transfer',
+        title: 'Üçüncü ülkelere veri aktarımı',
+        blocks: [
+          'Veri işleyenlerimizin bir kısmı (Vercel, Groq) ABD merkezlidir. Aktarım, AB Standart Sözleşme Maddeleri (Komisyon Kararı 2021/914) ve Aktarım Etki Değerlendirmesi temelinde yapılır. Yeterli koruma kararı bulunmayan ülkelere veri aktarımı yapmıyoruz.'
+        ]
+      },
+      {
+        id: 'profilowanie',
+        title: 'Otomatik karar verme',
+        blocks: [
+          'Yalnızca otomatik işlemeye dayanarak hukuki sonuç doğuran karar almıyoruz. AI sohbet yardımcı bir araçtır - yanıtları uzman danışmanlığının yerine geçmez ve hukuki görüş niteliği taşımaz.'
+        ]
+      },
+      {
+        id: 'cookies',
+        title: 'Çerezler',
+        blocks: [
+          'Kullandığımız çerezler, ayar değişiklikleri ve kategoriler hakkında ayrıntılar için ayrı Çerez Politikası sayfasına bakın.'
+        ]
+      },
+      {
+        id: 'zmiany',
+        title: 'Politika değişiklikleri',
+        blocks: [
+          'Bu politikayı güncelleme hakkımız saklıdır. Son güncelleme tarihi sayfanın üst kısmında belirtilir. Önemli değişiklikler ayrıca site üzerinde bir banner ile duyurulur.'
+        ]
+      }
+    ]
   }
 };
 
@@ -610,6 +726,88 @@ export const COOKIES: Record<Locale, LegalDoc> = {
         ]
       }
     ]
+  },
+  tr: {
+    eyebrow: '/ hukuki',
+    title: 'Çerez politikası',
+    intro:
+      'Çerezler (cookies), bir web sitesini ziyaret ettiğinizde tarayıcınızın cihazınıza otomatik olarak kaydettiği küçük metin dosyalarıdır. Hizmetin doğru çalışması, güvenlik ve kullanım kolaylığının iyileştirilmesi için kullanılır.',
+    sections: [
+      {
+        id: 'administrator',
+        title: 'Veri sorumlusu',
+        blocks: [
+          'Çerezler aracılığıyla işlenen kişisel verilerin sorumlusu LegalWin sp. z o.o., ul. Świętokrzyska 30/63, 00-116 Warszawa, Polonya\'dır.'
+        ]
+      },
+      {
+        id: 'rodzaje',
+        title: 'Kullanılan çerez kategorileri',
+        blocks: [
+          {
+            dl: [
+              { term: 'Gerekli', def: 'Oturum, dil tercihi, temel güvenlik (CSRF token). PKE madde 11 gereği onay gerekmez.' },
+              { term: 'Fonksiyonel', def: 'Tercihlerinizi hatırlar - en son seçilen filtre veya form otomatik doldurma.' },
+              { term: 'Analitik', def: 'Anonim ziyaret istatistikleri: hangi sayfalar popüler, kullanıcılar nasıl gezinir. İleride - Google Analytics, Hotjar.' },
+              { term: 'Pazarlama', def: 'Üçüncü taraf platformlarda kişiselleştirilmiş reklam. İleride - Meta Pixel, Google Ads.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'czas',
+        title: 'Çerez ömrü',
+        blocks: [
+          {
+            list: [
+              'Oturum - tarayıcı kapatıldığında silinir.',
+              'Kalıcı - manuel olarak silinene veya dosyada belirlenen son kullanma tarihine kadar (en fazla 12 ay) cihazda saklanır.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'zakres',
+        title: 'Toplanan veriler',
+        blocks: [
+          'Çerezler aracılığıyla aşağıdaki teknik veriler işlenebilir:',
+          {
+            list: [
+              'Cihaz IP adresi (analitik için anonimleştirilmiş).',
+              'Cihaz türü, işletim sistemi, tarayıcı sürümü.',
+              'Sitede geçirilen süre.',
+              'Ziyaret edilen sayfalar ve gezinme sırası.',
+              'Bağlantının yapıldığı bölge (ülke düzeyi).'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'cofnac',
+        title: 'Onayı nasıl değiştirir veya geri çekersiniz',
+        blocks: [
+          'Sitenin alt kısmındaki "Çerez ayarları" panelinden seçimlerinizi istediğiniz zaman değiştirebilirsiniz.',
+          'Ayrıca tarayıcı ayarlarınızdan çerezleri devre dışı bırakabilirsiniz:',
+          {
+            list: [
+              'Chrome: chrome://settings/cookies',
+              'Firefox: about:preferences#privacy',
+              'Safari: Tercihler → Gizlilik → Çerezler',
+              'Edge: edge://settings/content/cookies'
+            ]
+          },
+          'Çerezlerin devre dışı bırakılması siteye erişimi engellemez ancak bazı işlevleri kısıtlayabilir (bazı formlar çalışmayı durdurabilir).'
+        ]
+      },
+      {
+        id: 'kontakt',
+        title: 'İletişim ve şikayet hakkı',
+        blocks: [
+          'Veri koruma soruları: legalwin.warszawa@gmail.com.',
+          'İhlal durumunda Polonya Veri Koruma Kurumu Başkanı\'na şikayette bulunabilirsiniz - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
+        ]
+      }
+    ]
   }
 };
 
@@ -617,7 +815,7 @@ export function getLegalDoc(
   doc: 'privacy' | 'cookies',
   locale: string
 ): LegalDoc {
-  const safeLocale: Locale = (['ru', 'pl', 'en'] as const).includes(
+  const safeLocale: Locale = (['ru', 'pl', 'en', 'tr'] as const).includes(
     locale as Locale
   )
     ? (locale as Locale)

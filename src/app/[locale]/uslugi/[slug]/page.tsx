@@ -20,7 +20,7 @@ import {
   type SeoLocale
 } from '@/lib/seo';
 
-const KEYWORDS_BY_SLUG: Record<string, Record<SeoLocale, string[]>> = {
+const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
   'karta-pobytu': {
     ru: [
       'карта побыту',
@@ -970,14 +970,15 @@ export async function generateMetadata({
   const content = getService(slug, locale);
   if (!content) return {};
 
-  const safeLocale = (['ru', 'pl', 'en'] as const).includes(locale as SeoLocale)
+  const safeLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(locale as SeoLocale)
     ? (locale as SeoLocale)
     : 'ru';
 
   const cityByLocale: Record<SeoLocale, string> = {
     ru: 'Варшава',
     pl: 'Warszawa',
-    en: 'Warsaw'
+    en: 'Warsaw',
+    tr: 'Varşova'
   };
 
   const title = `${content.title} - ${content.subtitle} | ${ORG_LEGAL_NAME} ${cityByLocale[safeLocale]}`;
@@ -1053,7 +1054,7 @@ export default async function ServicePage({
   const content = getService(slug, locale);
   if (!content) notFound();
 
-  const safeLocale = (['ru', 'pl', 'en'] as const).includes(locale as SeoLocale)
+  const safeLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(locale as SeoLocale)
     ? (locale as SeoLocale)
     : 'ru';
 

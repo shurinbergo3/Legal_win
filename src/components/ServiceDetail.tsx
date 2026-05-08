@@ -648,10 +648,10 @@ function Related({
   allServicesLabel: string;
   relatedLabel: string;
 }) {
-  const safeLocale: 'ru' | 'pl' | 'en' = (['ru', 'pl', 'en'] as const).includes(
-    locale as 'ru' | 'pl' | 'en'
+  const safeLocale: 'ru' | 'pl' | 'en' | 'tr' = (['ru', 'pl', 'en', 'tr'] as const).includes(
+    locale as 'ru' | 'pl' | 'en' | 'tr'
   )
-    ? (locale as 'ru' | 'pl' | 'en')
+    ? (locale as 'ru' | 'pl' | 'en' | 'tr')
     : 'ru';
 
   const entries = slugs
