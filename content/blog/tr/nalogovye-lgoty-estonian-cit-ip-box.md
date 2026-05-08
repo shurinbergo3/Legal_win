@@ -7,11 +7,11 @@ publishDate: 2026-04-22
 author: LegalWin
 category: Vergi
 keywords:
-  - Estonian CIT Polonya
-  - %9 CIT küçük mükellef
-  - IP Box Polonya BT
-  - Sp z o o vergi avantajları
-  - Polonya vergi optimizasyonu
+  - "Estonian CIT Polonya"
+  - "%9 CIT küçük mükellef"
+  - "IP Box Polonya BT"
+  - "Sp z o o vergi avantajları"
+  - "Polonya vergi optimizasyonu"
 relatedServices:
   - /tr/uslugi/podatki-ksiegowosc
   - /tr/uslugi/rejestracja-sp-z-oo

@@ -16,3 +16,6 @@ Image/
 
 # Runtime data (telegram subscriber chat-ids, etc.)
 data/
+
+# Working files for blog FAQ batches (not consumed by build)
+content/blog/*/_faq-batch-*.json
