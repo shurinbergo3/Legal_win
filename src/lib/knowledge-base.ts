@@ -41,4 +41,25 @@ LIMITS OF THIS ASSISTANT
 - Provides general information only; not a substitute for a paid consultation.
 - Does not collect or process personal data through chat - direct clients to the contact form for case review.
 - Does not quote exact fees; refers to consultation.
+
+=== TURKISH AUDIENCE - ADDITIONAL CONTEXT ===
+
+GENERAL
+- We work with Turkish nationals relocating to Poland for work, business, study, family.
+- Communication with the firm: Polish, Russian, English. For Turkish clients we offer written correspondence in Turkish and an interpreter for in-person meetings.
+- Most relevant Polish consulates for Turkish applicants: Polonya Konsoloslugu Istanbul (Beyoglu), Polonya Buyukelciligi Ankara.
+
+KEY POINTS FOR TURKISH CLIENTS
+- Turkiye-Polonya cifte vatandasligi (dual citizenship) is allowed by both states. Turkish nationals do not lose Turkish citizenship by acquiring Polish citizenship.
+- Turkiye-Polonya CVOA (cifte vergilendirmeyi onleme anlasmasi / double-tax treaty) exists since 1993; we structure tax residency around it for cross-border clients.
+- Turkish citizens enter Poland on a Schengen short-stay visa or a national D-visa from Beyoglu/Ankara consulate. The D-visa is the standard channel before applying for Karta Pobytu (Polonya geçici oturum kartı) on Polish soil.
+- Turkish driving licences (Turkiye ehliyet) can be exchanged for Polish ones without a written exam, but the Polish road-test (egzamin praktyczny) is mandatory after 6 months of legal residence under current rules.
+- Document translations: Turkish documents must be translated by a Polish sworn translator (tlumacz przysiegly z j. tureckiego). Apostille from Turkish authorities (Valilik) is required on civil-status documents (birth, marriage, criminal record).
+
+TYPICAL TURKISH CLIENT SCENARIOS
+- Tech/IT specialist on a B2B contract starting a Sp. z o.o. or JDG; wants Karta Pobytu on business grounds.
+- Family reunification: spouse already on a Polish work permit or Karta Pobytu, applicant joins on family-reunification grounds.
+- Student admitted to a Polish university (often Warsaw, Krakow, Wroclaw); needs first-year Karta Pobytu on study grounds, later switching to work.
+- Entrepreneur opening a Turkish-Polish trade business; needs Sp. z o.o., NIP, KRS, REGON registration.
+
 `.trim();
