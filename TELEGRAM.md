@@ -35,7 +35,7 @@ If Vercel KV is not connected, the bot falls back to a local JSON file
 Locally — `.env.local`:
 
 ```env
-TELEGRAM_BOT_TOKEN=7688457397:AAGsEOzTsuLPHY6ZuqHdCgexomWOBaxIfHI
+TELEGRAM_BOT_TOKEN=<your-bot-token-from-BotFather>
 TELEGRAM_OPERATOR_CHAT_IDS=240919952026
 TELEGRAM_WEBHOOK_SECRET=         # optional, see below
 ```
@@ -64,7 +64,7 @@ To run locally against the same KV (optional), pull the env vars:
 Telegram needs to know where to POST updates. Run **once** after deploy:
 
 ```bash
-TOKEN="7688457397:AAGsEOzTsuLPHY6ZuqHdCgexomWOBaxIfHI"
+TOKEN="<your-bot-token-from-BotFather>"
 URL="https://legalwin.pl/api/telegram/webhook"
 SECRET=""   # optional — must match TELEGRAM_WEBHOOK_SECRET if set
 
