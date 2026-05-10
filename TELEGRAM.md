@@ -8,6 +8,28 @@ Recipients are:
 2. **Subscribers** — added at runtime via `/adduser` (admin command) or
    the admin panel inline button. Stored in Vercel KV.
 
+> ## ⚠️ After rotating the bot token
+>
+> When you `/revoke` the token in @BotFather (or generate a new one for any
+> reason), Telegram **automatically detaches the webhook** from the new
+> token. The bot will silently stop responding to `/start`, `/admin`, and
+> every other inline command — incoming messages just queue up on
+> Telegram's side (`pending_update_count` grows in `getWebhookInfo`).
+>
+> Always run these three steps after any token change:
+>
+> 1. Update `TELEGRAM_BOT_TOKEN` in Vercel (Settings → Environment
+>    Variables). The field is **Sensitive**, so the edit dialog shows
+>    empty — you must paste the full new token, no leading/trailing
+>    whitespace.
+> 2. **Redeploy** the project (Deployments → `···` → Redeploy on the
+>    latest deployment). Without redeploy, the running functions keep
+>    using the old token and Telegram API calls return `404 Not Found`.
+> 3. Open `https://legalwin.pl/api/telegram/setup` (add
+>    `?secret=<TELEGRAM_WEBHOOK_SECRET>` if that env var is set). This
+>    re-registers the webhook and the slash-command lists in one shot.
+>    Verify with `getWebhookInfo` — the `url` field must be non-empty.
+
 ## How it works
 
 ```
@@ -148,6 +170,8 @@ leads.
 | Problem | Check |
 |---------|-------|
 | Bot doesn't respond to `/start` | `getWebhookInfo` — webhook URL set? `last_error_message` non-empty? |
+| Bot silent, `getWebhookInfo` returns `url: ""` and `pending_update_count > 0` | Token was rotated but webhook never re-registered. See "After rotating the bot token" above. |
+| `/api/telegram/setup` returns `404 Not Found` for every Telegram call | Token in Vercel doesn't match a real bot. Either paste mistake, or env var was updated without a redeploy (running functions still see the old value). |
 | `getWebhookInfo` shows errors | URL must be HTTPS, must respond 200 to POST, must accept JSON |
 | Form says "success" but nothing arrives | `TELEGRAM_OPERATOR_CHAT_IDS` is empty AND no subscribers in KV |
 | `/adduser` says "хостинг не сохраняет подписки" | Vercel KV is not connected — see step 1b above |
