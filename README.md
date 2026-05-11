@@ -184,7 +184,6 @@ The git-history lookup lives in [src/lib/git-mtime.ts](src/lib/git-mtime.ts) and
 |---|---|---|
 | **Bing** | IndexNow API | ✅ Automatic on every deploy |
 | **Google** | `sitemap.xml` + manual URL Inspection | Sitemap is auto-crawled (1–3 days); use GSC → URL Inspection → Request Indexing to expedite specific pages (10/day limit) |
-| **Yandex** | — | Intentionally excluded (no Russian-search targeting) |
 
 ### Required setup
 
