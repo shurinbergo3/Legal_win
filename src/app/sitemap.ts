@@ -5,8 +5,20 @@ import { getAllPosts, getAvailableLocalesForSlug } from '@/lib/blog';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
 
+// Bump when service content is meaningfully updated (e.g. quarterly review).
+const SERVICES_LAST_MODIFIED = new Date('2026-04-15');
+// Bump when polityka-prywatnosci / polityka-cookies text changes.
+const LEGAL_LAST_MODIFIED = new Date('2025-04-10');
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Latest blog post date — drives lastmod for the homepage and /blog index,
+  // because both surface the most recent posts.
+  const latestPostDate = routing.locales
+    .flatMap((locale) => getAllPosts(locale).map((p) => p.publishDate))
+    .reduce<string | null>((max, d) => (max === null || d > max ? d : max), null);
+  const homepageLastModified = latestPostDate
+    ? new Date(latestPostDate)
+    : SERVICES_LAST_MODIFIED;
 
   const homeLanguages: Record<string, string> = Object.fromEntries(
     routing.locales.map((l) => [l, `${SITE_URL}/${l}`])
@@ -15,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const home: MetadataRoute.Sitemap = routing.locales.map((locale) => ({
     url: `${SITE_URL}/${locale}`,
-    lastModified: now,
+    lastModified: homepageLastModified,
     changeFrequency: 'weekly',
     priority: locale === routing.defaultLocale ? 1 : 0.9,
     alternates: { languages: homeLanguages }
@@ -35,7 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         }
         return {
           url: `${SITE_URL}/${locale}/uslugi/${slug}`,
-          lastModified: now,
+          lastModified: SERVICES_LAST_MODIFIED,
           changeFrequency: 'monthly' as const,
           priority: 0.8,
           alternates: { languages }
@@ -48,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const legalPages: MetadataRoute.Sitemap = routing.locales.flatMap((locale) =>
     legalSlugs.map((slug) => ({
       url: `${SITE_URL}/${locale}/${slug}`,
-      lastModified: now,
+      lastModified: LEGAL_LAST_MODIFIED,
       changeFrequency: 'yearly' as const,
       priority: 0.4,
       alternates: {
@@ -62,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog index per locale
   const blogIndex: MetadataRoute.Sitemap = routing.locales.map((locale) => ({
     url: `${SITE_URL}/${locale}/blog`,
-    lastModified: now,
+    lastModified: homepageLastModified,
     changeFrequency: 'weekly' as const,
     priority: 0.7,
     alternates: {
