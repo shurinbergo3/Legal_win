@@ -77,7 +77,7 @@ LegalWin is the marketing site for a Warsaw-based law firm serving CIS, EU, Turk
 - **Multilingual content** — RU (default) · PL · EN · TR, served from `/ru`, `/pl`, `/en`, `/tr` with locale-scoped Server Actions.
 - **Contact form → Telegram** — Server Action validates with Zod, delivers to all subscribed Telegram operators.
 - **AI consultant with lead scoring** — floating chat widget; every captured lead is qualified before delivery (see below).
-- **SEO** — `robots.ts` + `sitemap.ts` with `hreflang` for 4 locales, canonical URLs, and `lastmod` derived from git commit history. Bing IndexNow pinged automatically on every production deploy (see [SEO & Indexing](#seo--indexing)).
+- **SEO & AI discovery** — `robots.ts` + `sitemap.ts` with `hreflang` for 4 locales, canonical URLs, and `lastmod` derived from git commit history. Dynamic `/llms.txt` ([llmstxt.org](https://llmstxt.org)) generated from the same service catalogue so LLM crawlers get a curated site map. Bing IndexNow pinged automatically on every production deploy (see [SEO & Indexing](#seo--indexing)).
 - **Cookie consent** — GDPR-compliant banner.
 
 ---
@@ -178,12 +178,13 @@ The script only fires when `VERCEL_ENV=production`. Local builds and preview dep
 
 The git-history lookup lives in [src/lib/git-mtime.ts](src/lib/git-mtime.ts) and falls back to hardcoded constants if git isn't available (shallow clone, non-git host).
 
-### Search engine coverage
+### Search engine & LLM coverage
 
-| Engine | Channel | Automation |
+| Channel | What | Automation |
 |---|---|---|
 | **Bing** | IndexNow API | ✅ Automatic on every deploy |
 | **Google** | `sitemap.xml` + manual URL Inspection | Sitemap is auto-crawled (1–3 days); use GSC → URL Inspection → Request Indexing to expedite specific pages (10/day limit) |
+| **LLM crawlers** (ChatGPT, Perplexity, Claude, Copilot) | `/llms.txt` + rich JSON-LD on every page | ✅ Auto-generated from the same source as `sitemap.xml`; lists all services and recent articles in the llmstxt.org format so LLM agents get a curated, structured site map instead of having to parse the whole DOM |
 
 ### Required setup
 
