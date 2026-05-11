@@ -4,7 +4,7 @@
 
 **Marketing site for a Polish law firm — immigration, citizenship, business & tax in Poland.**
 
-Trilingual (RU · PL · EN) · AI legal consultant with lead qualification · Telegram intake.
+Multilingual (RU · PL · EN · TR) · AI legal consultant with lead qualification · Telegram intake · automatic Bing IndexNow submission on every deploy.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=000)](https://react.dev)
@@ -26,6 +26,7 @@ Trilingual (RU · PL · EN) · AI legal consultant with lead qualification · Te
 - [Features](#features)
 - [AI Consultant](#ai-consultant)
 - [Telegram Bot](#telegram-bot)
+- [SEO & Indexing](#seo--indexing)
 - [Quick Start](#quick-start)
 - [Environment Variables](#environment-variables)
 - [Scripts](#scripts)
@@ -38,7 +39,7 @@ Trilingual (RU · PL · EN) · AI legal consultant with lead qualification · Te
 
 ## Overview
 
-LegalWin is the marketing site for a Warsaw-based law firm serving CIS, EU and local Polish clients. The site combines an editorial visual design (deep navy + gold, Fraunces display) with a streaming AI consultant grounded in the firm's own knowledge base, and routes every contact request directly into Telegram with automatic lead qualification.
+LegalWin is the marketing site for a Warsaw-based law firm serving CIS, EU, Turkish and local Polish clients. The site combines an editorial visual design (deep navy + gold, Fraunces display) with a streaming AI consultant grounded in the firm's own knowledge base, and routes every contact request directly into Telegram with automatic lead qualification.
 
 **Practice areas covered:**
 
@@ -73,10 +74,10 @@ LegalWin is the marketing site for a Warsaw-based law firm serving CIS, EU and l
 - **Editorial landing** — deep navy (`#05091a`) on gold (`#e9c269`), oversized Fraunces headlines with Inter body, glassmorphism helpers.
 - **Service detail pages** — dedicated pages for each practice area under `/uslugi/[slug]`.
 - **Blog** — multilingual editorial blog under `/blog/[slug]`.
-- **Trilingual content** — RU (default) · PL · EN, served from `/ru`, `/pl`, `/en` with locale-scoped Server Actions.
+- **Multilingual content** — RU (default) · PL · EN · TR, served from `/ru`, `/pl`, `/en`, `/tr` with locale-scoped Server Actions.
 - **Contact form → Telegram** — Server Action validates with Zod, delivers to all subscribed Telegram operators.
 - **AI consultant with lead scoring** — floating chat widget; every captured lead is qualified before delivery (see below).
-- **SEO** — `robots.ts` + `sitemap.ts` with `hreflang` and canonical URLs across all locales.
+- **SEO** — `robots.ts` + `sitemap.ts` with `hreflang` for 4 locales, canonical URLs, and `lastmod` derived from git commit history. Bing IndexNow pinged automatically on every production deploy (see [SEO & Indexing](#seo--indexing)).
 - **Cookie consent** — GDPR-compliant banner.
 
 ---
@@ -144,6 +145,62 @@ Admins and subscribers are listed in `TELEGRAM_OPERATOR_CHAT_IDS` (comma-separat
 
 ---
 
+## SEO & Indexing
+
+The site auto-submits its URLs to **Bing** through IndexNow on every production deploy. No manual ping needed — push a new blog post and within hours it shows up in Bing's index.
+
+### What happens on each deploy
+
+```
+git push → Vercel builds → next build completes
+                                 ↓
+            postbuild hook → scripts/notify-indexnow.mjs
+                                 ↓
+        reads .next/server/app/sitemap.xml.body for URL list
+                                 ↓
+       POSTs to api.indexnow.org with the host key for verification
+                                 ↓
+            Bing fetches /{KEY}.txt and queues URLs for crawl
+```
+
+The script only fires when `VERCEL_ENV=production`. Local builds and preview deploys are skipped. Failures are logged but never break the build.
+
+### Sitemap `lastmod` is real
+
+`src/app/sitemap.ts` no longer uses `new Date()` (which makes every page look "modified today" and erodes Google's trust). Instead `lastmod` is derived from real signals:
+
+| Page group | `lastmod` source |
+|---|---|
+| Blog posts | `publishDate` frontmatter field |
+| Services | `git log -1` on `src/lib/services/` |
+| Legal pages | `git log -1` on `src/lib/legal-content.ts` |
+| Homepage & `/blog` | Date of the latest blog post |
+
+The git-history lookup lives in [src/lib/git-mtime.ts](src/lib/git-mtime.ts) and falls back to hardcoded constants if git isn't available (shallow clone, non-git host).
+
+### Search engine coverage
+
+| Engine | Channel | Automation |
+|---|---|---|
+| **Bing** | IndexNow API | ✅ Automatic on every deploy |
+| **Google** | `sitemap.xml` + manual URL Inspection | Sitemap is auto-crawled (1–3 days); use GSC → URL Inspection → Request Indexing to expedite specific pages (10/day limit) |
+| **Yandex** | — | Intentionally excluded (no Russian-search targeting) |
+
+### Required setup
+
+1. Generate a random hex key (any string, 8–128 chars). The one currently in use is `6a3df9a7bf693cef3bcbab1763505657`.
+2. Add the key as `INDEXNOW_KEY` in Vercel env vars (Production + Preview).
+3. Place a file at `public/{KEY}.txt` containing the same key — Bing verifies ownership through it. **Do not delete this file.** If you rotate the key, create a new file and keep the old one for ~7 days while Bing re-verifies.
+4. Make sure `NEXT_PUBLIC_SITE_URL=https://legalwin.pl` (no `www`). The non-www host is canonical; `www.legalwin.pl` is configured to 308-redirect to it through Vercel domain settings.
+
+### Where to monitor
+
+- **Bing Webmaster Tools** → IndexNow section: shows submitted keys, URLs and per-URL status. https://www.bing.com/webmasters
+- **Google Search Console** → Indexing → Pages: coverage and reasons for non-indexed pages. https://search.google.com/search-console
+- **Vercel Build Logs** → last deploy → Build Logs: look for `[indexnow] ✓ Accepted (200)` near the end.
+
+---
+
 ## Quick Start
 
 **Prerequisites:** Node.js 20+ and npm.
@@ -168,7 +225,8 @@ npm run dev                     # http://localhost:3000/ru
 | `GROQ_API_KEY` | ✅ | AI chatbot via Groq (`llama-3.3-70b-versatile`) |
 | `TELEGRAM_BOT_TOKEN` | ✅ | Telegram Bot API token |
 | `TELEGRAM_OPERATOR_CHAT_IDS` | ✅ | Comma-separated admin Chat IDs — always receive leads, grant admin rights |
-| `NEXT_PUBLIC_SITE_URL` | ✅ | Canonical URL for sitemap and OG tags (`https://legalwin.pl` in prod) |
+| `NEXT_PUBLIC_SITE_URL` | ✅ | Canonical URL for sitemap and OG tags (`https://legalwin.pl` in prod — no `www`) |
+| `INDEXNOW_KEY` | ✅ | Hex key for Bing IndexNow submission. Must match the contents of `public/{KEY}.txt`. See [SEO & Indexing](#seo--indexing). |
 | `TELEGRAM_WEBHOOK_SECRET` | — | Secret token to validate Telegram webhook requests |
 
 Bot setup and webhook registration are documented in [TELEGRAM.md](./TELEGRAM.md).
@@ -180,7 +238,8 @@ Bot setup and webhook registration are documented in [TELEGRAM.md](./TELEGRAM.md
 | Command | What it does |
 |---|---|
 | `npm run dev` | Start the dev server with hot reload |
-| `npm run build` | Production build |
+| `npm run build` | Production build (triggers `postbuild` automatically) |
+| `npm run postbuild` | Runs `scripts/notify-indexnow.mjs` — pings Bing IndexNow with current sitemap URLs. Auto-invoked by `npm run build`. Skipped outside `VERCEL_ENV=production`. |
 | `npm start` | Run the production build |
 | `npm run typecheck` | `tsc --noEmit` — strict TypeScript check |
 | `npm run lint` | `next lint` |
@@ -206,7 +265,7 @@ src/
 │   │       └── setup/route.ts      ← register bot commands with Telegram
 │   ├── globals.css                 ← design tokens (@theme), glass helpers
 │   ├── robots.ts
-│   └── sitemap.ts
+│   └── sitemap.ts                  ← hreflang × 4 locales, lastmod from git
 ├── components/                     ← Hero, Services, Contact, Chatbot, Header, …
 └── lib/
     ├── knowledge-base.ts           ← AI knowledge corpus
@@ -214,8 +273,13 @@ src/
     ├── subscribers.ts              ← subscriber list management
     ├── schemas.ts                  ← Zod form schemas
     ├── services/                   ← practice-area content modules
+    ├── git-mtime.ts                ← `git log` → sitemap lastmod
     └── cn.ts
-messages/                           ← ru.json · pl.json · en.json
+scripts/
+└── notify-indexnow.mjs             ← postbuild: pings Bing IndexNow
+messages/                           ← ru.json · pl.json · en.json · tr.json
+public/
+└── {INDEXNOW_KEY}.txt              ← Bing ownership-verification file
 ```
 
 ---
@@ -227,8 +291,9 @@ messages/                           ← ru.json · pl.json · en.json
 | 🇷🇺 Russian | `/ru` | **Default** |
 | 🇵🇱 Polish | `/pl` | Full |
 | 🇬🇧 English | `/en` | Full |
+| 🇹🇷 Turkish | `/tr` | Full |
 
-Routing is handled by `next-intl` middleware; copy lives in `messages/{locale}.json`. **Any new user-facing string must land in all three files** to keep parity. The AI chatbot additionally supports Ukrainian (UA) — detected from the user's message, no static translation needed.
+Routing is handled by `next-intl` middleware; copy lives in `messages/{locale}.json`. **Any new user-facing string must land in all four files** to keep parity. Polish legal terms (`Karta Pobytu`, `Sp. z o.o.`, `PESEL`, `wojewoda`, …) stay untranslated but get a parenthetical gloss on first use in each locale (e.g. `Karta Pobytu (карта побыту)` in `ru.json`, `Karta Pobytu (Polonya oturma izni kartı)` in `tr.json`). The AI chatbot additionally supports Ukrainian (UA) — detected from the user's message, no static translation needed.
 
 ---
 
@@ -237,9 +302,10 @@ Routing is handled by `next-intl` middleware; copy lives in `messages/{locale}.j
 The project deploys to **Vercel**:
 
 1. Connect the repository.
-2. Add the environment variables from the table above.
-3. Bind the production domain (`legalwin.pl`).
+2. Add the environment variables from the table above (including `INDEXNOW_KEY` and `NEXT_PUBLIC_SITE_URL=https://legalwin.pl`).
+3. Bind the production domain (`legalwin.pl`). In Vercel → Domains, set `www.legalwin.pl` to **308 Permanent Redirect** → `legalwin.pl` so the non-www host stays canonical.
 4. Register the Telegram webhook: `GET /api/telegram/setup` after deploy.
+5. Confirm the IndexNow integration: open the latest deploy's Build Logs and look for `[indexnow] ✓ Accepted (200)`. Then add `https://legalwin.pl/` as a property in [Bing Webmaster Tools](https://www.bing.com/webmasters) (import from Google Search Console for fastest setup) so the IndexNow stats are visible.
 
 ---
 
