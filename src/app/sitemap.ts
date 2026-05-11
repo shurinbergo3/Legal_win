@@ -2,13 +2,19 @@ import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import { serviceSlugs, services } from '@/lib/services';
 import { getAllPosts, getAvailableLocalesForSlug } from '@/lib/blog';
+import { getGitLastModified } from '@/lib/git-mtime';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
 
-// Bump when service content is meaningfully updated (e.g. quarterly review).
-const SERVICES_LAST_MODIFIED = new Date('2026-04-15');
-// Bump when polityka-prywatnosci / polityka-cookies text changes.
-const LEGAL_LAST_MODIFIED = new Date('2025-04-10');
+// Derived from the last git commit that touched each section, so editing
+// a service file is enough to refresh its lastmod. Fallback constants
+// apply when git history isn't available (e.g. shallow clone).
+const SERVICES_LAST_MODIFIED =
+  getGitLastModified(['src/lib/services', 'src/components/ServiceDetail.tsx']) ??
+  new Date('2026-04-15');
+const LEGAL_LAST_MODIFIED =
+  getGitLastModified(['src/lib/legal-content.ts', 'src/components/LegalPage.tsx']) ??
+  new Date('2025-04-10');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Latest blog post date — drives lastmod for the homepage and /blog index,
