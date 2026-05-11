@@ -22,7 +22,12 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: '/eng', destination: '/en', permanent: true },
-      { source: '/eng/:path*', destination: '/en/:path*', permanent: true }
+      { source: '/eng/:path*', destination: '/en/:path*', permanent: true },
+      {
+        source: '/apple-touch-icon-precomposed.png',
+        destination: '/apple-touch-icon.png',
+        permanent: true
+      }
     ];
   }
 };
