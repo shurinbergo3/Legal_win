@@ -36,7 +36,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
         { title: 'Консультация', duration: '30 мин', desc: 'Возраст, текущий уровень польского, страна предыдущей школы, район проживания. Подбираем 2-3 варианта школ.' },
         { title: 'Сбор документов', duration: '3-7 дней', desc: 'Свидетельство о рождении (присяжный перевод), школьный аттестат / справка из последней школы, медкарта, фото. Если есть orzeczenie psychologiczne - приложением.' },
         { title: 'Meldunek (если ещё нет)', duration: '1-2 дня', desc: 'Школа берёт детей по zameldowaniu. Если нет - оформляем pobyt czasowy ребёнка вместе с meldunkiem родителя.' },
-        { title: 'Wniosek в школу', duration: '1 день', desc: 'Подаём wniosek o przyjęcie do klasy powitalnej / klasy I-VIII. Подача через ePUAP или физически в kanchelarii школы.' },
+        { title: 'Wniosek в школу', duration: '1 день', desc: 'Подаём wniosek o przyjęcie do klasy powitalnej / klasy I-VIII. Подача через ePUAP или физически в kancelarii школы.' },
         { title: 'Решение dyrektora', duration: '3-7 дней', desc: 'Dyrektor szkoły принимает на основании zameldowania, возраста, уровня. Иногда - короткое interview родителей.' },
         { title: 'Постановка на учёт', duration: '1 день', desc: 'Подача в kuratorium через школу. Получение legitymacji szkolnej (бесплатные проезды).' },
         { title: 'Первый день', duration: '1 день', desc: 'Сопровождаем родителя на первое родительское собрание (zebrań). Знакомство с учителем (wychowawca), pedagogiem szkolnym, classmates.' }
@@ -70,7 +70,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
     legalBase: {
       title: 'Нормативная база',
       items: [
-        'Ustawa z dnia 14 grudnia 2016 r. - Prawo oświatowe (rozdz. 4 - обovязок шкіllowy)',
+        'Ustawa z dnia 14 grudnia 2016 r. - Prawo oświatowe (rozdz. 4 - obowiązek szkolny)',
         'Rozporządzenie MEN z dnia 23 sierpnia 2017 r. ws. kształcenia osób niebędących obywatelami polskimi',
         'Rozporządzenie MEN ws. organizacji kształcenia osób niebędących obywatelami polskimi (klasa powitalna)',
         'Konwencja o prawach dziecka ONZ z 20 listopada 1989 r. (art. 28 - prawo do edukacji)',

@@ -22,7 +22,7 @@ const notariuszAsysta: ServiceEntry = {
         { title: 'Чтение projektu aktu заранее', desc: 'Нотариус показывает projekt aktu за 1-7 дней до подписания. Многие нюансы скрыты в стандартных формулировках. Анализируем каждую klauzulę и предлагаем поправки.' },
         { title: 'Negotiacje klauzul', desc: 'Стандартные точки споров: момент перехода собственности (z chwilą podpisania или z chwilą zapłaty?), кто оплачивает PCC и нотариуса, depozyt notarialny, право пользования до выезда продавца, сроки передачи ключей.' },
         { title: 'Контроль передачи денег', desc: 'Schemat безопасной оплаты: rachunek powierniczy notariusza или банковский escrow. Покупатель платит на rachunek, нотариус контролирует и переводит продавцу после wpisu в KW. Защищает obie strony.' },
-        { title: 'Проверка podstawы продажи', desc: 'Перед aktem проверяем: pełnomocnictwa продавца (если он не лично), brak ograniczeń (areszt, hipoteka, służebność), zgody małżonka (если поляк-собственник в браке), zgoda spadkobierców (если унаследовано).' },
+        { title: 'Проверка podstawy продажи', desc: 'Перед aktem проверяем: pełnomocnictwa продавца (если он не лично), brak ograniczeń (areszt, hipoteka, służebność), zgody małżonka (если поляк-собственник в браке), zgoda spadkobierców (если унаследовано).' },
         { title: 'Pełnomocnictwo от вас', desc: 'Если вы не в Польше - оформляем pełnomocnictwo notarialne у польского консула в стране проживания (или с apostille). Мы подписываем akt от вашего имени. Вы получаете keys и право собственности удалённо.' },
         { title: 'Передача недвижимости после aktu', desc: 'Подписание aktu ≠ передача keys. После aktu организуем protokol zdawczo-odbiorczy с фото состояния, snyczyciel показателями (вода, газ, прąд), передачей keys и инструкций (alarm, отопление, окна).' },
         { title: 'Wpis do KW', desc: 'Нотариус подаёт wniosek о wpisie новой собственности в księgę wieczystą. KW обновляется за 1-4 недели. Контролируем процесс, после wpisu - confirmation klientu.' }
@@ -33,7 +33,7 @@ const notariuszAsysta: ServiceEntry = {
       subtitle: 'Полная подготовка от выбора нотариуса до wpisu в KW - обычно 2-4 недели.',
       steps: [
         { title: 'Бесплатная консультация', duration: '30 мин', desc: 'Собираем info о сделке: цена, форма оплаты, MSWiA, due diligence. Решаем - нужно ли pełnomocnictwo (если не в Польше).' },
-        { title: 'Выбор нотариуса', duration: '1 день', desc: 'Подбираем нотариуса в Варшаве с reputация и опытом сделок с иностранцами. Часто один из 5 доверенных. Договариваемся о таксе (negocjowalna).' },
+        { title: 'Выбор нотариуса', duration: '1 день', desc: 'Подбираем нотариуса в Варшаве с репутацией и опытом сделок с иностранцами. Часто один из 5 доверенных. Договариваемся о таксе (negocjowalna).' },
         { title: 'Projekt aktu', duration: '5-7 дней', desc: 'Нотариус готовит projekt с данными покупателя, продавца, недвижимости. Мы получаем PDF, анализируем, предлагаем поправки.' },
         { title: 'Negociacje klauzul', duration: '2-5 дней', desc: 'Корректировки с продавцом и его представителем. Часто 2-4 итерации до финального текста.' },
         { title: 'Pełnomocnictwo (опция)', duration: '5-7 дней', desc: 'Если вы не в Польше - pełnomocnictwo nositarne у консула или с apostille. Мы получаем оригинал.' },
@@ -65,7 +65,7 @@ const notariuszAsysta: ServiceEntry = {
         { label: 'Сопровождение + DD', value: 'от 5 500 PLN', note: 'Бандл с DD' },
         { label: 'Pełne pełnomocnictwo', value: 'от 4 500 PLN', note: 'Замена покупателя на акте' }
       ],
-      note: 'Taksa notarialna - отдельно (рассчитывается по cенi nieruchomości, ~1 500-6 000 PLN до 1 млн PLN cенi). PCC 2% (или VAT для нового rynku) - обязательная госпошлина. Wpis do KW - 200 PLN.'
+      note: 'Taksa notarialna - отдельно (рассчитывается по cenie nieruchomości, ~1 500-6 000 PLN до 1 млн PLN ceny). PCC 2% (или VAT для нового rynku) - обязательная госпошлина. Wpis do KW - 200 PLN.'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -75,7 +75,7 @@ const notariuszAsysta: ServiceEntry = {
         'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece',
         'Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych (PCC 2%)',
         'Rozporządzenie MS ws. taksy notarialnej',
-        'Ustawa o przeciwdziałaniu praniu pieniędzy z 1 marca 2018 r. (KYC при aktiе)'
+        'Ustawa o przeciwdziałaniu praniu pieniędzy z 1 marca 2018 r. (KYC при akcie)'
       ]
     },
     faq: [

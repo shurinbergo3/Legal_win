@@ -7,7 +7,7 @@ import { REVIEW_COUNT, REVIEW_RATING_VALUE } from '@/lib/seo';
 export const runtime = 'nodejs';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
-export const alt = 'LegalWin - иммиграционные консультанты · Варшава';
+export const alt = 'LegalWin - immigration consultants · Warsaw, Poland';
 
 // Source Serif 4 has full Cyrillic + matching italic. Without a desktop
 // User-Agent, Google Fonts serves a single unsegmented TTF per weight that

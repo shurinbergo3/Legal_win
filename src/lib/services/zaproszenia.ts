@@ -25,7 +25,7 @@ const zaproszenia: ServiceEntry = {
         { title: 'Учебный визит / стажировка', desc: 'ВУЗ или работодатель приглашает на стажировку до 6 месяцев - без отдельного zezwolenie na pracę.' },
         { title: 'Семейный визит', desc: 'Родственник в Польше приглашает родителей, детей, супруга, бабушку - для длительного пребывания.' },
         { title: 'Посещение тяжелобольного', desc: 'Срочный визит к больному родственнику - экспресс-zaproszenie за 3-5 дней с медсправкой.' },
-        { title: 'Религиозный или культурный визит', desc: 'Для священнослужителей, артистов, спортсменов - регистрация через wniosek или wzór С.' },
+        { title: 'Религиозный или культурный визит', desc: 'Для священнослужителей, артистов, спортсменов - регистрация через wniosek или wzór C.' },
         { title: 'Свадьба в Польше', desc: 'Жених/невеста приглашает партнёра для регистрации брака в USC - обычно D-виза с zaproszeniem.' }
       ]
     },
@@ -114,7 +114,7 @@ const zaproszenia: ServiceEntry = {
         { title: 'Wizyta studyjna / staż', desc: 'Uczelnia lub pracodawca zaprasza na staż do 6 miesięcy bez osobnego zezwolenia na pracę.' },
         { title: 'Wizyta rodzinna', desc: 'Krewny w Polsce zaprasza rodziców, dzieci, małżonka, dziadków.' },
         { title: 'Wizyta przy ciężkiej chorobie', desc: 'Pilna wizyta - zaproszenie ekspresowe w 3-5 dni z dokumentem medycznym.' },
-        { title: 'Wizyta religijna lub kulturalna', desc: 'Dla duchownych, artystów, sportowców - wzór С.' },
+        { title: 'Wizyta religijna lub kulturalna', desc: 'Dla duchownych, artystów, sportowców - wzór C.' },
         { title: 'Ślub w Polsce', desc: 'Narzeczony zaprasza partnera do ślubu w USC - zwykle wiza D.' }
       ]
     },
@@ -203,7 +203,7 @@ const zaproszenia: ServiceEntry = {
         { title: 'Study/internship visit', desc: 'University or employer invites for ≤ 6-month internship without separate work permit.' },
         { title: 'Family visit', desc: 'Polish-resident relative invites parents, children, spouse, grandparents.' },
         { title: 'Critical-illness visit', desc: 'Urgent visit - express zaproszenie in 3-5 days with medical certificate.' },
-        { title: 'Religious or cultural visit', desc: 'Clergy, artists, athletes - Form С.' },
+        { title: 'Religious or cultural visit', desc: 'Clergy, artists, athletes - Form C.' },
         { title: 'Wedding in Poland', desc: 'Fiancé invites partner for marriage at USC - usually D-visa.' }
       ]
     },
@@ -292,7 +292,7 @@ const zaproszenia: ServiceEntry = {
         { title: 'Eğitim ziyareti / staj', desc: 'Üniversite veya işveren, 6 aya kadar staj için davet eder - ayrı zezwolenie na pracę gerekmez.' },
         { title: 'Aile ziyareti', desc: 'Polonya\'daki akraba ailesini - anne-babası, çocukları, eşi, büyükanne-büyükbabası - uzun süreli ziyaret için davet eder.' },
         { title: 'Ağır hasta yakına ziyaret', desc: 'Acil ziyaret - sağlık raporuyla 3-5 günde express zaproszenie.' },
-        { title: 'Dini veya kültürel ziyaret', desc: 'Din görevlileri, sanatçılar, sporcular için - wniosek veya wzór С üzerinden tescil.' },
+        { title: 'Dini veya kültürel ziyaret', desc: 'Din görevlileri, sanatçılar, sporcular için - wniosek veya wzór C üzerinden tescil.' },
         { title: 'Polonya\'da evlilik', desc: 'Damadın / gelinin partnerini USC\'de evlenmek için davet etmesi - genelde zaproszenie ile D vizesi.' }
       ]
     },

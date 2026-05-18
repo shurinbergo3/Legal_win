@@ -126,6 +126,7 @@ export default async function BlogIndexPage({
             readingTime: t('readingTime'),
             empty: t('empty'),
             searchPlaceholder: t('searchPlaceholder'),
+            clearSearch: t('clearSearch'),
             allCategories: t('allCategories'),
             noResults: t('noResults'),
             counterOne: t('counterOne'),

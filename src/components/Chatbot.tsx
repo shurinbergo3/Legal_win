@@ -247,7 +247,7 @@ export function Chatbot() {
         <motion.button
           type="button"
           onClick={() => (open ? setOpen(false) : openChat())}
-          aria-label={open ? 'Close chat' : 'Open chat'}
+          aria-label={open ? t('closeChat') : t('openChat')}
           aria-expanded={open}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -326,7 +326,7 @@ export function Chatbot() {
               <button
                 type="button"
                 onClick={dismissTease}
-                aria-label="Dismiss"
+                aria-label={t('dismiss')}
                 className="absolute right-2 top-2 z-10 inline-flex h-6 w-6 items-center justify-center rounded-full bg-ink-950/70 text-ink-300 transition-colors hover:bg-ink-900 hover:text-ink-50"
               >
                 <X className="h-3 w-3" strokeWidth={2} aria-hidden />
@@ -454,16 +454,16 @@ export function Chatbot() {
                   role="alert"
                   className="mr-auto max-w-[85%] rounded-2xl rounded-bl-sm border hairline bg-ink-900/70 px-4 py-3 text-sm text-ink-200"
                 >
-                  <p className="font-medium text-ink-50">Чат временно недоступен</p>
+                  <p className="font-medium text-ink-50">{t('errorTitle')}</p>
                   <p className="mt-1 text-xs leading-relaxed text-ink-300">
-                    Напишите нам на{' '}
+                    {t('errorBefore')}
                     <a
                       href="mailto:legalwin.warszawa@gmail.com"
                       className="text-gold-400 underline-offset-2 hover:underline"
                     >
                       legalwin.warszawa@gmail.com
-                    </a>{' '}
-                    или оставьте заявку через форму на сайте - наш специалист ответит в течение часа.
+                    </a>
+                    {t('errorAfter')}
                   </p>
                 </div>
               )}

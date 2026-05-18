@@ -28,7 +28,7 @@ export function About() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
               <Image
                 src="/about/rondo.webp"
-                alt="Варшава, Польша"
+                alt={t('imageAlt')}
                 fill
                 placeholder="blur"
                 blurDataURL={blur.rondo}

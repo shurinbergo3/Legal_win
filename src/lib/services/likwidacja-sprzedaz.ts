@@ -37,7 +37,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
         { title: 'Регулирование обязательств', duration: '2-6 месяцев', desc: 'Ликвидатор продаёт активы, погашает долги, увольняет сотрудников. Нерегулированные требования - депонируются у нотариуса.' },
         { title: 'Bilans likwidacyjny', duration: '1 месяц', desc: 'Sporządzenie bilansu na początku и на конец likwidacji. Подача в KRS и US.' },
         { title: 'Podział majątku', duration: '6 месяцев от ogłoszenia', desc: 'Распределение оставшихся активов между wspólnikami пропорционально udziałom. После 6 месяцев со ogłoszenia - раньше нельзя.' },
-        { title: 'Wykreślenie из KRS', duration: '1-3 месяца', desc: 'Wniosek о окончании likwidacji. KRS вычёркивает фирму. Сохраняем dокументы 5+ лет в архиве.' },
+        { title: 'Wykreślenie из KRS', duration: '1-3 месяца', desc: 'Wniosek о окончании likwidacji. KRS вычёркивает фирму. Сохраняем документы 5+ лет в архиве.' },
         { title: 'Закрытие в US, ZUS', duration: '1 месяц', desc: 'Wniosek o wykreślenie z VAT, NIP. Закрытие kont в ZUS. Сохраняем dokumenty kadrowe 50 лет.' }
       ]
     },
@@ -65,7 +65,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
         { label: 'Likwidacja Sp. z o.o.', value: 'от 6 500 PLN', note: 'Полный цикл 6+ месяцев' },
         { label: 'M&A полный цикл', value: 'от 15 000 PLN', note: 'Due diligence + договор + закрытие' }
       ],
-      note: 'Likwidacja: + ogłoszenia MSiG ~600 PLN, нотариус 1 200-2 500 PLN, KRS 350 PLN. M&A: + бухгалтерский due diligence 5 000-15 000 PLN. Если есть кредиты, sponsorzy, sporne роzracji - отдельная смета.'
+      note: 'Likwidacja: + ogłoszenia MSiG ~600 PLN, нотариус 1 200-2 500 PLN, KRS 350 PLN. M&A: + бухгалтерский due diligence 5 000-15 000 PLN. Если есть кредиты, sponsorzy, спорные расчёты - отдельная смета.'
     },
     legalBase: {
       title: 'Нормативная база',

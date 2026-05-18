@@ -21,7 +21,8 @@ export function LegalPage({
   updatedAt,
   intro,
   sections,
-  backLabel
+  backLabel,
+  sectionsLabel
 }: {
   eyebrow: string;
   title: string;
@@ -30,6 +31,7 @@ export function LegalPage({
   intro?: string;
   sections: LegalSection[];
   backLabel: string;
+  sectionsLabel: string;
 }) {
   return (
     <div className="relative">
@@ -94,7 +96,7 @@ export function LegalPage({
                 <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.28em] text-ink-500">
                   /
                 </p>
-                <nav aria-label="Sections" className="flex flex-col gap-2.5 border-l border-ink-800 pl-5">
+                <nav aria-label={sectionsLabel} className="flex flex-col gap-2.5 border-l border-ink-800 pl-5">
                   {sections.map((s, i) => (
                     <a
                       key={s.id}

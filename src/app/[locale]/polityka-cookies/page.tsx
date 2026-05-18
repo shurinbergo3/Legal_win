@@ -53,6 +53,7 @@ export default async function CookiesPolicyPage({
           updatedLabel={t('updated')}
           updatedAt={t('updatedAt')}
           backLabel={t('back')}
+          sectionsLabel={t('sections')}
         />
       </main>
       <Footer />

@@ -8,7 +8,7 @@ const jdg: ServiceEntry = {
     badge: 'JDG · CEIDG · 1 день',
     title: 'Jednoosobowa działalność gospodarcza (JDG)',
     subtitle: 'Индивидуальное предпринимательство в Польше для держателей TRC',
-    lead: 'JDG - польский ИП. Открытие через CEIDG занимает 1 день, налоги - 12% / 19% / podatek liniowy / Estonian - выбираете под доход. Иностранец может открыть JDG только при наличии karty pobytu с правом на прowadzenie działalności (стандартная TRC даёт это право, кроме студенческой). Ведём от выбора формы налогообложения до первой деклаrации VAT-7.',
+    lead: 'JDG - польский ИП. Открытие через CEIDG занимает 1 день, налоги - 12% / 19% / podatek liniowy / Estonian - выбираете под доход. Иностранец может открыть JDG только при наличии karty pobytu с правом на prowadzenie działalności (стандартная TRC даёт это право, кроме студенческой). Ведём от выбора формы налогообложения до первой декларации VAT-7.',
     facts: [
       { label: 'CEIDG регистрация', value: '1 день', note: 'онлайн через mObywatel' },
       { label: 'Стартовый ZUS', value: '0 PLN', note: 'pierwsze 6 mies. - Ulga na start' },

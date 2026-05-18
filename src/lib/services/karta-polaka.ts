@@ -96,7 +96,7 @@ const kartaPolaka: ServiceEntry = {
     badge: 'Karta Polaka · szybka ścieżka do PR',
     title: 'Karta Polaka',
     subtitle: 'Uznanie polskiego pochodzenia i przyspieszona droga do PR i obywatelstwa',
-    lead: 'Karta Polaka potwierdza przynależność do Narodu Polskiego. Sama karta nie daje pobytu, ale otwiera drogę do Karty Stałego Pobytu bez 4-letniego ВНЖ i do obywatelstwa po 1 roku PR. Przygotowujemy do konsula lub wojewody: weryfikujemy genealogię, zbieramy dowody polskiego pochodzenia, doprowadzamy poziom polskiego do rozmowy i prowadzimy sprawę.',
+    lead: 'Karta Polaka potwierdza przynależność do Narodu Polskiego. Sama karta nie daje pobytu, ale otwiera drogę do Karty Stałego Pobytu bez 4-letniego pobytu czasowego (TRC) i do obywatelstwa po 1 roku PR. Przygotowujemy do konsula lub wojewody: weryfikujemy genealogię, zbieramy dowody polskiego pochodzenia, doprowadzamy poziom polskiego do rozmowy i prowadzimy sprawę.',
     facts: [
       { label: 'Termin rozpatrzenia', value: '60-180 dni', note: 'konsul · wojewoda' },
       { label: 'Ważność', value: '10 lat', note: 'odnawialna bezterminowo' },

@@ -14,7 +14,7 @@ keywords:
   - e-фактуры Польша 2026
   - obowiązkowy KSeF
   - faktura ustrukturyzowana
-  - VAT iностранец Польша 2026
+  - VAT иностранец Польша 2026
 relatedServices:
   - /ru/uslugi/podatki-ksiegowosc
   - /ru/uslugi/rejestracja-sp-z-oo

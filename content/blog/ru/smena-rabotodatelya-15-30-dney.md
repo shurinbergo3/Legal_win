@@ -83,7 +83,7 @@ schema: Article
 - Załącznik nr 1 от нового работодателя.
 - Новая umowa o pracę.
 - Подтверждение даты прекращения предыдущей umowy.
-- Опłата skarbowa - 50 PLN (а не 340 как при nowy wnioseк).
+- Opłata skarbowa - 50 PLN (а не 340 как при nowym wniosku).
 
 **Срок выдачи:** 1-3 месяца в Mazowieckim в 2026.
 
@@ -102,7 +102,7 @@ schema: Article
 
 **Документы:**
 - Полный пакет как при первичной подаче.
-- Опłата skarbowa - 340 PLN.
+- Opłata skarbowa - 340 PLN.
 
 **Срок:** 6-10 месяцев в Mazowieckim.
 

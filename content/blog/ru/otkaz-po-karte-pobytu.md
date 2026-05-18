@@ -22,7 +22,7 @@ schema: Article
 
 # Отказ по карте побыта в Польше - что делать в 2026
 
-Decyzja odmowna по karta pobytu - не приговор. Польская правовая система предусматривает три уровня обжалования: odwołanie do Szefa UDSC, skarga do Wojewódzkiego Sądu Administracyjnego и (теоретически) skarga kasacyjna do Naczelnego Sądu Administracyjnego. На практике большинство дел заканчиваются на втором уровне - но 60-70% грамотно составленных апелляций отменяют первоначальный отказ. Главное - не потерять сроки и понимать, что именно urzędnik посчитал niewystarczające.
+Decyzja odmowna по karta pobytu - не приговор. Польская правовая система предусматривает три уровня обжалования: odwołanie do Szefa UDSC, skarga do Wojewódzkiego Sądu Administracyjnego (жалоба в Воеводский административный суд) и (теоретически) skarga kasacyjna do Naczelnego Sądu Administracyjnego (кассационная жалоба в Высший административный суд). На практике большинство дел заканчиваются на втором уровне - но 60-70% грамотно составленных апелляций отменяют первоначальный отказ. Главное - не потерять сроки и понимать, что именно urzędnik посчитал niewystarczające.
 
 ## Сроки - ключевая критическая информация
 
@@ -36,7 +36,7 @@ Decyzja odmowna по karta pobytu - не приговор. Польская пр
 
 Просрочили odwołanie на день - decyzja становится prawomocna, и karta pobytu окончательно отказана.
 
-## Причины отказов - что стоит за formulářью «niespełnienie warunków»
+## Причины отказов - что стоит за формулировкой «niespełnienie warunków»
 
 Decyzja odmowna содержит формальные ссылки на artykuły Ustawy o cudzoziemcach и обоснование. По нашему анализу 200+ дел в Mazowieckim в 2024-2026, основные категории отказов:
 

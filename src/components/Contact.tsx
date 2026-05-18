@@ -343,11 +343,7 @@ function ContactForm({
             </p>
           ) : (
             <span className="text-xs text-ink-400 sm:max-w-[260px]">
-              {t('submit') === 'Отправить заявку'
-                ? 'Наш специалист свяжется в течение часа.'
-                : t('submit') === 'Wyślij zgłoszenie'
-                ? 'Nasz specjalista odpowie w ciągu godziny.'
-                : 'Our specialist will reply within the hour.'}
+              {t('submitHint')}
             </span>
           )}
 

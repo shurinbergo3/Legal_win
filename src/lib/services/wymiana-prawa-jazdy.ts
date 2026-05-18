@@ -39,7 +39,7 @@ const wymianaPrawaJazdy: ServiceEntry = {
         { title: 'Психологический тест', duration: '1 день', desc: 'Только для C/D или при особых требованиях. Psychotechnika - 200 PLN, 1 час.' },
         { title: 'Wniosek в starostwo', duration: '1 день', desc: 'Подача документов в wydział komunikacji starostwa по адресу проживания. Оплата 100,50 PLN.' },
         { title: 'Теория в WORD (при необходимости)', duration: '1-14 дней', desc: 'Запись на egzamin teoretyczny на польском, украинском или английском. 30 вопросов, проходной балл 68/74.' },
-        { title: 'Получение польских прав', duration: '14-30 дней', desc: 'Старостa выдаёт polskie prawo jazdy и забирает оригинал иностранных. Иностранные отправляются в страну выдачи.' }
+        { title: 'Получение польских прав', duration: '14-30 дней', desc: 'Староста выдаёт polskie prawo jazdy и забирает оригинал иностранных. Иностранные отправляются в страну выдачи.' }
       ]
     },
     documents: {

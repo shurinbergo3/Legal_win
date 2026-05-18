@@ -68,6 +68,7 @@ export function ServiceDetail({
         Icon={Icon}
         servicesEyebrow={tServices('eyebrow')}
         backLabel={tNav('services')}
+        breadcrumbLabel={tLabels('breadcrumb')}
       />
 
       {content.facts && <FactsBar facts={content.facts} />}
@@ -149,12 +150,14 @@ function DetailHero({
   content,
   Icon,
   servicesEyebrow,
-  backLabel
+  backLabel,
+  breadcrumbLabel
 }: {
   content: ServiceContent;
   Icon: React.ComponentType<{ className?: string; strokeWidth?: number; 'aria-hidden'?: boolean }>;
   servicesEyebrow: string;
   backLabel: string;
+  breadcrumbLabel: string;
 }) {
   const photo = servicePhotos[content.slug] ?? '/services/karta-pobytu.webp';
 
@@ -205,7 +208,7 @@ function DetailHero({
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease }}
-          aria-label="Breadcrumb"
+          aria-label={breadcrumbLabel}
           className="mb-10 flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-ink-400"
         >
           <Link href="/" className="transition-colors hover:text-gold-400">

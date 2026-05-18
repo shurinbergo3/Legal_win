@@ -71,7 +71,7 @@ schema: Article
 
 Członek zarządu Sp. z o.o. платит składkę zdrowotną только если он назначен по uchwale wspólników z wynagrodzeniem (не только z umowy zlecenie или umowy o pracę). Сама ставка - 9% от kwoty wynagrodzenia członka zarządu. Это не изменилось.
 
-**Что новое:** с 2026 года ZUS получил доступ к данным KSeF (krajowego systemu e-Faktur). Если фирма выплачивает członkowi zarządu zryczałtowane wynagrodzenie без uchwały - ZUS теперь видит это автоматически и доначисляет składkę с pieni karą 20% от niedopłaconej kwoty. Раньше для контроля нужно было отдельное postępowanie - теперь автоматика.
+**Что новое:** с 2026 года ZUS получил доступ к данным KSeF (krajowego systemu e-Faktur). Если фирма выплачивает członkowi zarządu zryczałtowane wynagrodzenie без uchwały - ZUS теперь видит это автоматически и доначисляет składkę z karą pieniężną 20% от niedopłaconej kwoty. Раньше для контроля нужно было отдельное postępowanie - теперь автоматика.
 
 Совет: если вы единственный wspólnik и zarządca своей Sp. z o.o., в 2026 году обязательно оформите uchwałę o powołaniu z wynagrodzeniem (даже минимальным - например 500 PLN/мес) и платите składkę zdrowotną с этой суммы. Иначе риск доначислений за 5 лет назад.
 
@@ -98,7 +98,7 @@ Estonian CIT (CIT estoński) остаётся главным козырем дл
 
 1. **Если вы на JDG линейном 19% и зарабатываете больше 240 000 PLN/год** - никаких действий. Автоматически экономите.
 2. **Если вы на JDG скале (12/32%) с доходом до 60 000 PLN/год** - рассмотрите переход на ryczałt 12% (если профиль деятельности позволяет). Минимум на ryczałcie - 324 PLN, но налог рассчитывается от выручки, не дохода.
-3. **Если у вас Sp. z o.o. без uchwały o powołaniu** - оформите её до 31 марта 2026, чтобы избежать pieni doliczeń от ZUS.
+3. **Если у вас Sp. z o.o. без uchwały o powołaniu** - оформите её до 31 марта 2026, чтобы избежать kar pieniężnych от ZUS.
 4. **Если у вас прибыльная одноосновная Sp. z o.o.** - рассчитайте Estonian CIT. До 80% наших клиентов на Sp. z o.o. экономят минимум 30 000 PLN/год при переходе.
 
 ## Сроки и платежи

@@ -4,6 +4,10 @@
     "description": "Polish residence cards (TRC/PR), citizenship, appeals against voivode denials, driving-licence exchange, Code 95, Sp. z o.o. registration. Warsaw immigration consultants since 2019 - 4.9★ from 312 clients, 500+ cases a year.",
     "keywords": "Karta Pobytu, temporary residence card Poland, permanent residence Poland, Polish citizenship, immigration consultant Warsaw, Polish residence permit, EU Blue Card Poland, driving licence exchange Poland, Code 95, driver CPC Poland, register company in Poland, Sp. z o.o., appeal residence permit denial, MOS v2.0, LegalWin"
   },
+  "Common": {
+    "scrollTop": "Back to top",
+    "language": "Language"
+  },
   "Nav": {
     "services": "Services",
     "pricing": "Pricing",
@@ -235,6 +239,7 @@
     }
   },
   "About": {
+    "imageAlt": "Warsaw, Poland",
     "eyebrow": "About LegalWin",
     "title": "Specialists who speak your language",
     "paragraph1": "LegalWin is a Warsaw-based team of immigration, business and real-estate specialists working with clients from Russia, Ukraine, Belarus, Kazakhstan and the EU since 2019.",
@@ -275,6 +280,7 @@
   "Testimonials": {
     "eyebrow": "Testimonials",
     "title": "What clients say",
+    "starsLabel": "5 of 5 stars",
     "items": [
       {
         "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress - the LegalWin team did everything, I just signed.",
@@ -425,6 +431,7 @@
     "messagePlaceholder": "Briefly describe the situation - nationality, residence basis, timelines",
     "submit": "Send request",
     "submitting": "Sending…",
+    "submitHint": "Our specialist will reply within the hour.",
     "successTitle": "Request received",
     "successMessage": "Our specialist will reply within an hour during business hours (Mon-Fri 8:30-19:00).",
     "errorTitle": "Could not send",
@@ -481,6 +488,7 @@
     "required": "To send the request you must consent to data processing"
   },
   "ServiceDetail": {
+    "breadcrumb": "Breadcrumb",
     "documentsEyebrow": "/ documents",
     "popular": "Popular",
     "faqEyebrow": "/ questions",
@@ -503,12 +511,19 @@
     "consentText": "If you share your contact details, they will be passed to the LegalWin team to handle your enquiry in accordance with GDPR requirements.",
     "consentCheckbox": "I consent to the processing of my personal data",
     "consentPrivacy": "Privacy Policy",
-    "consentStart": "Start chat"
+    "consentStart": "Start chat",
+    "errorTitle": "Chat is temporarily unavailable",
+    "errorBefore": "Email us at ",
+    "errorAfter": " or send a request through the form on the site - our specialist will reply within the hour.",
+    "closeChat": "Close chat",
+    "openChat": "Open chat",
+    "dismiss": "Dismiss"
   },
   "Legal": {
     "back": "Home",
     "updated": "Updated",
-    "updatedAt": "10 April 2026"
+    "updatedAt": "10 April 2026",
+    "sections": "Sections"
   },
   "BlogTeaser": {
     "eyebrow": "Journal",
@@ -526,6 +541,7 @@
     "publishedOn": "Published",
     "related": "Related reading",
     "searchPlaceholder": "Search articles, topics, keywords",
+    "clearSearch": "Clear search",
     "allCategories": "All topics",
     "noResults": "No articles match your query. Try different keywords or clear the filters.",
     "counterOne": "article",

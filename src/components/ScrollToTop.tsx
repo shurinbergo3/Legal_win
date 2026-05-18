@@ -1,6 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import { ArrowUp } from 'lucide-react';
 
@@ -17,6 +18,7 @@ const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 export function ScrollToTop() {
   const [visible, setVisible] = useState(false);
   const reduce = useReducedMotion();
+  const t = useTranslations('Common');
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -43,7 +45,7 @@ export function ScrollToTop() {
           key="scroll-top"
           type="button"
           onClick={handleClick}
-          aria-label="Наверх"
+          aria-label={t('scrollTop')}
           initial={{ opacity: 0, y: 12, scale: 0.9 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 12, scale: 0.9 }}

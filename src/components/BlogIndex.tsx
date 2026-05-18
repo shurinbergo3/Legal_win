@@ -16,6 +16,7 @@ type Props = {
     readingTime: string;
     empty: string;
     searchPlaceholder: string;
+    clearSearch: string;
     allCategories: string;
     noResults: string;
     counterOne: string;
@@ -146,7 +147,7 @@ export function BlogIndex({ posts, labels }: Props) {
                 <button
                   type="button"
                   onClick={() => setQuery('')}
-                  aria-label="Clear search"
+                  aria-label={labels.clearSearch}
                   className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md p-1 text-ink-400 transition-colors hover:bg-ink-800/60 hover:text-ink-200"
                 >
                   <X className="h-4 w-4" strokeWidth={1.6} />

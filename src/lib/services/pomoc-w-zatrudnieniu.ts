@@ -19,13 +19,13 @@ const pomocWZatrudnieniu: ServiceEntry = {
       title: 'Какие услуги предоставляем',
       subtitle: 'От подготовки CV до подписания umowy - полный цикл.',
       items: [
-        { title: 'CV по польским стандартам', desc: 'Адаптация под Pracuj.pl / LinkedIn / Talent Place: формат, объём, фото, GDPR-классаz, language proficiency CEFR. Перевод на польский присяжно.' },
+        { title: 'CV по польским стандартам', desc: 'Адаптация под Pracuj.pl / LinkedIn / Talent Place: формат, объём, фото, GDPR-клаузула, language proficiency CEFR. Перевод на польский присяжно.' },
         { title: 'Подготовка к собеседованию', desc: 'Mock interview на польском с native speaker, типовые вопросы HR в Польше, переговоры о зарплате (рынок 2026), культурные нюансы.' },
         { title: 'Zezwolenie na pracę typ A', desc: 'Базовое - для umowy o pracę с польским работодателем. 14-30 дней через MOS. Подаём со стороны работодателя.' },
         { title: 'Zezwolenie typ B/C/D/E', desc: 'Для членов zarządu (typ B), сотрудников с oddelegowania (C), консультантов (D), услуг поверх 30 дней (E).' },
         { title: 'Oświadczenie o powierzeniu pracy', desc: 'Упрощённая процедура для UA, BY, RU, MD, GE, AM - до 24 месяцев работы. Подача в Powiatowy Urząd Pracy за 7 дней.' },
         { title: 'Blue Card UE для IT и инженеров', desc: 'Высокая зарплата (≥ 1,5× средней), umowa ≥ 1 год, высшее образование - даёт TRC на 3 года + право на переезд по ЕС после 18 мес.' },
-        { title: 'Trudовая umowa - ревизия', desc: 'Анализ предложенной umowy: kar umowny, klauzule konkurencji, okres wypowiedzenia, niedyskryminacja, premia, urlop.' },
+        { title: 'Трудовая umowa - ревизия', desc: 'Анализ предложенной umowy: kar umowny, klauzule konkurencji, okres wypowiedzenia, niedyskryminacja, premia, urlop.' },
         { title: 'JDG / B2B как альтернатива', desc: 'Открытие самозанятости для разработчиков и консультантов: B2B-контракты с зарубежными клиентами, IP Box (5% налог), без zezwolenia.' }
       ]
     },
@@ -33,11 +33,11 @@ const pomocWZatrudnieniu: ServiceEntry = {
       title: 'Полный цикл от CV до umowy',
       subtitle: 'Стандартное время от первой консультации до подписания - 2-8 недель.',
       steps: [
-        { title: 'Консультация', duration: '30 мин', desc: 'Оцениваем ваш профиль, цели, бюджет, наличие zezwolenia. Предлагаем оптимальный путь: trudoустройство, B2B, Blue Card, JDG.' },
+        { title: 'Консультация', duration: '30 мин', desc: 'Оцениваем ваш профиль, цели, бюджет, наличие zezwolenia. Предлагаем оптимальный путь: трудоустройство, B2B, Blue Card, JDG.' },
         { title: 'CV и LinkedIn', duration: '3-5 дней', desc: 'Готовим CV под польские ATS. Параллельно - оптимизация LinkedIn-профиля под рекрутеров в Польше.' },
         { title: 'Поиск вакансий', duration: '7-21 день', desc: 'Помогаем с откликами на Pracuj.pl, NoFluffJobs (IT), JustJoinIT, Solid.Jobs. Direct-outreach к рекрутерам.' },
         { title: 'Собеседования', duration: '2-4 недели', desc: 'Mock interviews, координация графиков, follow-up emails. Сопровождение на сложных финальных встречах.' },
-        { title: 'Оффер и переговоры', duration: '3-7 дней', desc: 'Анализ предложения, рекомендации по торгу (зарплата, бонусы, удалёнка), правка trudовой umowy.' },
+        { title: 'Оффер и переговоры', duration: '3-7 дней', desc: 'Анализ предложения, рекомендации по торгу (зарплата, бонусы, удалёнка), правка трудовой umowy.' },
         { title: 'Zezwolenie na pracę', duration: '14-60 дней', desc: 'Параллельно с оффером - подаём wniosek работодателя на zezwolenie typ A (или Blue Card). Сопровождение до выдачи decyzji.' },
         { title: 'Подписание umowy', duration: '1 день', desc: 'Финальная вычитка контракта, согласование с работодателем, подписание с witnessem или notarialnie.' }
       ]
@@ -49,7 +49,7 @@ const pomocWZatrudnieniu: ServiceEntry = {
         'Паспорт + karta pobytu (или другой документ пребывания)',
         'Все дипломы, сертификаты, certyfikaty językowe',
         'Текущее CV (на любом языке)',
-        'Trudовой опыт за 5-10 лет с описанием ролей и проектов',
+        'Трудовой опыт за 5-10 лет с описанием ролей и проектов',
         'LinkedIn-профиль (или согласие создать его)',
         'Желаемая зарплата (нетто или брутто)',
         'Локация: только Warszawa, удалёнка ОК, готовность переезда',

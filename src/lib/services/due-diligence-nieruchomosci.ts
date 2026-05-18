@@ -21,12 +21,12 @@ const dueDiligenceNieruchomosci: ServiceEntry = {
       items: [
         { title: 'Księga wieczysta - wpisy и obciążenia', desc: 'Hipoteka на банк, służebności, użytkowanie wieczyste, dożywocie, prawo pierwokupu. Каждое обременение остаётся с недвижимостью при покупке. Иногда продавец «не помнит» о hipotece.' },
         { title: 'История собственности', desc: 'Anali­ujemy все wpisy в KW за 20+ лет. Spadki, darowizny, sprzedaży, постановки об аресте. Оценка risiku skarg от прежних собственников или их наследников.' },
-        { title: 'Соответствие nieruchomości документам', desc: 'Сравниваем мapę ewidencyjną, projekty budowlane, decyzje о pozwoleniu na budowę. Обнаруживаем нелегальные пристройки (legalizacja может стоить 50 тыс.).' },
+        { title: 'Соответствие nieruchomości документам', desc: 'Сравниваем mapę ewidencyjną, projekty budowlane, decyzje о pozwoleniu na budowę. Обнаруживаем нелегальные пристройки (legalizacja может стоить 50 тыс.).' },
         { title: 'Долги ZUS / US / podatków', desc: 'Sprawdzamy zaległości продавца - могут стать вашей проблемой при wpisie hipoteki przymusowej. Через wniosek do ZUS i US (с pełnomocnictwem продавца).' },
-        { title: 'Sądowe споры', desc: 'Проверяем repertoria sądów по адресу - есть ли активные дела о собственности, грaнicach, służebnościach. Через KSEG и репозиторий orzeczeń.' },
+        { title: 'Sądowe споры', desc: 'Проверяем repertoria sądów по адресу - есть ли активные дела о собственности, granicach, służebnościach. Через KSEG и репозиторий orzeczeń.' },
         { title: 'Plan miejscowy и infrastructura', desc: 'Что будет вокруг через 5 лет? Plan zagospodarowania przestrzennego, плановые дороги, школы, заводы. Проверяем для каждого участка land и для коммерческой недвижимости - критично.' },
-        { title: 'Договоры najmu', desc: 'Если продавец сдаёт - переходят к вам. Проверяем условия, сроки, депозит, regulowanie. Skomplikowane договоры с лояльными arендaторами могут уменьшить рыночную стоимость на 10-20%.' },
-        { title: 'Wspólnota mieszkaniowa', desc: 'Для квартир - проверяем uchwały wspólnoty, fundusz remontowy, planowane remonty. Sometimes wspólnota planирует 100k PLN remont - это становится вашей частью пропорционально udziałowi.' }
+        { title: 'Договоры najmu', desc: 'Если продавец сдаёт - переходят к вам. Проверяем условия, сроки, депозит, regulowanie. Skomplikowane договоры с лояльными арендаторами могут уменьшить рыночную стоимость на 10-20%.' },
+        { title: 'Wspólnota mieszkaniowa', desc: 'Для квартир - проверяем uchwały wspólnoty, fundusz remontowy, planowane remonty. Иногда wspólnota planuje 100k PLN remont - это становится вашей частью пропорционально udziałowi.' }
       ]
     },
     timeline: {
@@ -35,10 +35,10 @@ const dueDiligenceNieruchomosci: ServiceEntry = {
       steps: [
         { title: 'Бесплатная оценка', duration: '15 мин', desc: 'Адрес и тип объекта. Подбираем pakiet (basic / standard / premium) и оцениваем risk-уровень.' },
         { title: 'Договор и pełnomocnictwo', duration: '1 день', desc: 'Umowa o due diligence + pełnomocnictwo от вас (для запросов до US, ZUS) и от продавца (для документов с регистрационных органов).' },
-        { title: 'Запросы - этап 1', duration: '1-2 дня', desc: 'Wyciąg z KW (księga wieczysta), wypis z rejestru gruntów, wyrys z mapy ewidencyjnej. Все publiczne реestrы - мгновенно.' },
+        { title: 'Запросы - этап 1', duration: '1-2 дня', desc: 'Wyciąg z KW (księga wieczysta), wypis z rejestru gruntów, wyrys z mapy ewidencyjnej. Все publiczne rejestry - мгновенно.' },
         { title: 'Запросы - этап 2', duration: '3-5 дней', desc: 'Zaświadczenia z ZUS, US, urząd miasta (zaległości), wspólnota mieszkaniowa (uchwały, fundusz). Через pełnomocnictwo продавца.' },
         { title: 'Анализ документации продавца', duration: '1-2 дня', desc: 'Изучаем: titul prawny (akt poprzedni), pozwolenia на budowę, certyficaty energetyczne, decyzje administracyjne. Сравниваем с rzeczywistością.' },
-        { title: 'Inspekcja na miejscu', duration: '1 день', desc: 'Опционально для премиум pакетов. Геодезист и rzeczoznawca проверяют реальное состояние, granice, нелегальные пристройки.' },
+        { title: 'Inspekcja na miejscu', duration: '1 день', desc: 'Опционально для премиум пакетов. Геодезист и rzeczoznawca проверяют реальное состояние, granice, нелегальные пристройки.' },
         { title: 'Raport DD', duration: '1 день', desc: 'PDF-отчёт 15-40 страниц с findings, risk-rating (зелёный/жёлтый/красный), рекомендациями. Ставим точки в ekonomice сделки или предлагаем negotiacje.' },
         { title: 'Презентация и обсуждение', duration: '30 мин', desc: 'Видео-встреча или личная - объясняем findings, предлагаем стратегию: продолжать, требовать снижения цены, отказываться, требовать гарантий в umowie.' }
       ]
@@ -83,15 +83,15 @@ const dueDiligenceNieruchomosci: ServiceEntry = {
     faq: [
       { q: 'Зачем DD, если есть нотариус?', a: 'Нотариус проверяет KW (księga wieczysta - поземельная книга) и dokumenty (документы) при подписании, но не углубляется. Не запрашивает ZUS/US, не анализирует историю, не проверяет нелегальные пристройки, не смотрит plany miejscowe (план застройки территории). Нотариус несёт ответственность только за то, что есть в aktach (актах) у него на столе. DD проверяет, что показала только prywatna агрегация. Видели сделки, где akt notarialny (нотариальный акт) прошёл, а через год пришла hipoteka (ипотека) на 200к.' },
       { q: 'Можно ли отказаться от сделки после negativnogo DD?', a: 'Да, если в umowie przedwstępnej (предварительном договоре) есть условие «wykonanie umowy uzależnione od pozytywnego due diligence prawnego» (исполнение договора зависит от положительной юридической проверки). Если такого пункта нет - потеряете zaliczkę (задаток, 5-10%). Поэтому пишем в каждой umowie przedwstępnej от наших клиентов. Если другая сторона не согласна - это уже red flag.' },
-      { q: 'Какие самые частые «находки» DD?', a: 'Топ-5 находок за 2024: 1) Hipoteka (ипотека) не выплаченная или нерегулярно регулярная (30% случаев); 2) Нелегальные пристройки (przybudówka, веранда, дополнительный этаж - 25%); 3) Грaнicy не соответствуют ewidencji (кадастру, 15%); 4) Активные споры в суде (10%); 5) Долги podatków (налогов) от nieruchomości (недвижимости, 10%). Каждая может стоить 30 000+ PLN.' },
+      { q: 'Какие самые частые «находки» DD?', a: 'Топ-5 находок за 2024: 1) Hipoteka (ипотека) не выплаченная или нерегулярно регулярная (30% случаев); 2) Нелегальные пристройки (przybudówka, веранда, дополнительный этаж - 25%); 3) Границы не соответствуют ewidencji (кадастру, 15%); 4) Активные споры в суде (10%); 5) Долги podatków (налогов) от nieruchomości (недвижимости, 10%). Каждая может стоить 30 000+ PLN.' },
       { q: 'Что делать с hipoteką при покупке?', a: 'Стандартная схема: продавец гарантирует выплату hipoteki (ипотеки) из cены покупки, банк готовит wniosek o wykreślenie hipoteki (заявление о снятии ипотеки) и передаёт нотариусу. Akt notarialny (нотариальный акт) подписывается с условием «после wykreślenia hipoteki» (после снятия ипотеки). Деньги покупателя депонируются на rachunek powierniczy (эскроу-счёт). После wykreślenia hipoteki - деньги переходят продавцу. Контролируем процесс под ключ.' },
       { q: 'Можно ли проверить только KW самому?', a: 'KW (księga wieczysta - поземельная книга) - да, мгновенно через ekw.ms.gov.pl за 0 PLN. Но KW показывает только «зарегистрированные» проблемы. Не показывает: zaległości (задолженности) у продавца, sporów w sądzie (судебных споров), нелегальных пристроек, planów miejscowych (планов застройки), problemów z wspólnotą (проблем с товариществом собственников). KW - 30% всех risiков. DD - 100%.' },
       { q: 'Сколько времени до aktu после positiv­nogo DD?', a: 'Если все papiery (документы) уже у нотариуса - 1-3 дня после нашего raportu (отчёта). Если нужно ещё mwait wniosek MSWiA (заявление в МВД) или wykreślenie hipoteki (снятие ипотеки) - 2-8 недель. План на консультации.' },
-      { q: 'Гарантия что в DD не пропустят что-то?', a: 'У нас в umowie (договоре) - гарантия: если что-то пропустим из standardowych (стандартных) источников и это станет проблемой в первые 12 месяцев - компенсируем убытки до 100% наших гонораров. На практике мы strаchujem себя и каждый отчёт проверяет 2 специалиста.' }
+      { q: 'Гарантия что в DD не пропустят что-то?', a: 'У нас в umowie (договоре) - гарантия: если что-то пропустим из standardowych (стандартных) источников и это станет проблемой в первые 12 месяцев - компенсируем убытки до 100% наших гонораров. На практике мы страхуем себя, и каждый отчёт проверяет 2 специалиста.' }
     ],
     related: ['mswia-zezwolenie', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Due diligence перед покупкой',
-    ctaSubtitle: 'Бесплатно оцениваем objet и подбираем pакет за 15 минут. Защищаем покупку от 1 800 PLN.'
+    ctaSubtitle: 'Бесплатно оцениваем объект и подбираем пакет за 15 минут. Защищаем покупку от 1 800 PLN.'
   },
   pl: {
     slug: 'due-diligence-nieruchomosci',

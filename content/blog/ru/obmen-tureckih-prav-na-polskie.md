@@ -97,7 +97,7 @@ schema: Article
 
 ## Где менять в Варшаве
 
-Wymiana turcji prawa jazdy в Варшаве происходит в Wydziale Komunikacji того Urzędu Dzielnicy, к которому относится ваш meldunek:
+Wymiana tureckiego prawa jazdy в Варшаве происходит в Wydziale Komunikacji того Urzędu Dzielnicy, к которому относится ваш meldunek:
 
 - Śródmieście - ul. Nowogrodzka 43 (самая активная локация для иностранцев)
 - Mokotów - ul. Rakowiecka 25/27

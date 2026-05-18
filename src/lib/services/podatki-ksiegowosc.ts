@@ -20,7 +20,7 @@ const podatkiKsiegowosc: ServiceEntry = {
       subtitle: 'Полный цикл от регистрации до годовой декларации. Можно брать модулями.',
       items: [
         { title: 'Подбор формы налогообложения', desc: 'Skala (12/32%) vs liniowy 19% vs ryczałt vs Estoński CIT vs IP Box. Считаем под ваши доходы и расходы за 1-2 года вперёд. Меняем при необходимости.' },
-        { title: 'Месячная бухгалтерия', desc: 'Учёт операций (księga handlowa или KPiR), заrаботная плата, ZUS, JPK_V7, JPK_KR, амортизация, налоги. Документы - через klienta панель.' },
+        { title: 'Месячная бухгалтерия', desc: 'Учёт операций (księga handlowa или KPiR), заработная плата, ZUS, JPK_V7, JPK_KR, амортизация, налоги. Документы - через klienta панель.' },
         { title: 'VAT и JPK', desc: 'Месячная или квартальная JPK_V7 (комбинированная декларация VAT + ewidencja). VAT-UE для ЕС-операций. KSeF (Krajowy System e-Faktur) с 2026 - переход за вас.' },
         { title: 'Декларации годовые', desc: 'CIT-8 для Sp. z o.o., PIT-36/36L/28 для JDG, sprawozdanie finansowe в KRS. Подача через ePUAP. Сроки: 31 марта (CIT), 30 апреля (PIT).' },
         { title: 'Estonian CIT', desc: 'Переход на отложенный CIT - налог 0% пока прибыль реинвестируется, 20% при выплате дивидендов. Условия: 2+ wspólnika, не более 50% доходов с пасивных источников. Полный сопровождение.' },
@@ -53,7 +53,7 @@ const podatkiKsiegowosc: ServiceEntry = {
         'Umowy najmu, leasing, кредитные umowy',
         'Документы об импорте/экспорте (faktury celne, CMR)',
         'Inwentaryzacja (раз в год для księgi handlowej)',
-        'Списки умenia za granicą (для Sp. z o.o. с зарубежными podmiotami)',
+        'Списки umów za granicą (для Sp. z o.o. с зарубежными podmiotami)',
         'Stan środków trwałych (приобретение/выбытие)'
       ]
     },

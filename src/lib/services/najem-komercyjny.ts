@@ -19,14 +19,14 @@ const najemKomercyjny: ServiceEntry = {
       title: 'Что договариваемся',
       subtitle: 'В стандартном шаблоне wynajemcy скрыт каждый риск-рычаг. Мы знаем, где искать.',
       items: [
-        { title: 'Czynsz и indeksacja', desc: 'Базовый czynsz + indeksacja (CPI Polska, EUR Eurostat, fixed). Negotiуем cap на indeksację (max 4-5%/год), pierwszy bezpłatny rok (rent-free period 1-3 мес обычно), discounty при долгом сроке.' },
-        { title: 'Fit-out и contribution', desc: 'Wynajemca часто покрывает 50-250 EUR/м² costsa подготовки (ремонт, перегородки, мебель). Negotiу­емum для нового арендатора. Бывает базовый stan, бывает «turn-key» - ключевая разница до 200к за офис 200 м².' },
-        { title: 'Klauzula wcześniejszego rozwiązania', desc: 'Стандартно - нет права досрочного расторжения, kary 100% pozostałych czynszów. Negotiу­емum: prawo do rozwiązania po 3 латах с karą 6 мес czynszu, или сублизация без согласия wynajemcy.' },
-        { title: 'Service charge', desc: 'Плата за общие расходы (сon­серж, охрана, отопление в коридорах, уборка). Часто скрытые расходы - изначально показывают «typically 8 EUR/m²», а в отчётах год - 15. Negotiу­ем cap (max 12 EUR/m²/год) и обязательное rocznictwo.' },
-        { title: 'Klauzula konkurencji', desc: 'Wynajemca запрещает arendaторам похожие услуги. Например, в galerie handlowej - нельзя брать арендатора, продающего ту же категорию товаров в radiusu 50 m. Это защищает ваш бизнес. Negotiу­ем экспlicитно.' },
-        { title: 'Gwarancja bankowa или depozyt', desc: 'Стандарт - 3-6 мес czynszu в виде gwarancji bankowej от польского банка или kasу depozyta. Дорого для startupа. Negotiу­ем: меньшая gwarancja (3 мес), parents company guarantee вместо bankowej, или нет gwarancji при долгом сроке.' },
-        { title: 'Ремонт и dewастация', desc: 'При выезде - обязательство вернуть в «исходное состояние» или «пригодное для следующего арендатора». Размытое определение = десятки тысяч ремонта. Negotiу­емum: фотодокументация при wjeździe, конкретный список изменений до сдачи.' },
-        { title: 'Klauzula pandemiczna', desc: 'После Covid стандартно negotiу­ется: что если будут lockdownы, force majeure, ограничения работы - czynsz уменьшается или приостанавливается. Wynajemcy неохотно соглашаются, но мы получаем 30-70% rabatu в стандартных kontraktach.' }
+        { title: 'Czynsz и indeksacja', desc: 'Базовый czynsz + indeksacja (CPI Polska, EUR Eurostat, fixed). Договариваемся о cap на indeksację (max 4-5%/год), pierwszy bezpłatny rok (rent-free period 1-3 мес обычно), discounty при долгом сроке.' },
+        { title: 'Fit-out и contribution', desc: 'Wynajemca часто покрывает 50-250 EUR/м² расходов на подготовку (ремонт, перегородки, мебель). Согласовываем для нового арендатора. Бывает базовый stan, бывает «turn-key» - ключевая разница до 200к за офис 200 м².' },
+        { title: 'Klauzula wcześniejszego rozwiązania', desc: 'Стандартно - нет права досрочного расторжения, kary 100% pozostałych czynszów. Договариваемся: prawo do rozwiązania po 3 latach с karą 6 мес czynszu, или сублизация без согласия wynajemcy.' },
+        { title: 'Service charge', desc: 'Плата за общие расходы (консьерж, охрана, отопление в коридорах, уборка). Часто скрытые расходы - изначально показывают «typically 8 EUR/m²», а в отчётах год - 15. Согласовываем cap (max 12 EUR/m²/год) и обязательное rocznictwo.' },
+        { title: 'Klauzula konkurencji', desc: 'Wynajemca запрещает арендаторам похожие услуги. Например, в galerii handlowej - нельзя брать арендатора, продающего ту же категорию товаров в radiusie 50 m. Это защищает ваш бизнес. Согласовываем эксплицитно.' },
+        { title: 'Gwarancja bankowa или depozyt', desc: 'Стандарт - 3-6 мес czynszu в виде gwarancji bankowej от польского банка или депозита. Дорого для стартапа. Согласовываем: меньшая gwarancja (3 мес), parents company guarantee вместо bankowej, или нет gwarancji при долгом сроке.' },
+        { title: 'Ремонт и dewastacja', desc: 'При выезде - обязательство вернуть в «исходное состояние» или «пригодное для следующего арендатора». Размытое определение = десятки тысяч ремонта. Согласовываем: фотодокументация при wjeździe, конкретный список изменений до сдачи.' },
+        { title: 'Klauzula pandemiczna', desc: 'После Covid стандартно согласовывается: что если будут lockdownы, force majeure, ограничения работы - czynsz уменьшается или приостанавливается. Wynajemcy неохотно соглашаются, но мы получаем 30-70% rabatu в стандартных kontraktach.' }
       ]
     },
     timeline: {
@@ -47,7 +47,7 @@ const najemKomercyjny: ServiceEntry = {
       subtitle: 'От вас - план бизнеса. От wynajemcy - draft umowy.',
       items: [
         'Бизнес-план: какой бизнес, почему этот объект, длительность',
-        'KRS arendaторa (Sp. z o.o.) или CEIDG (JDG)',
+        'KRS арендатора (Sp. z o.o.) или CEIDG (JDG)',
         'Sprawozdania finansowe za 12 мес (для wynajemcy ocena rentowności)',
         'Lista wymagań do nieruchomości (площадь, расположение, инфраструктура)',
         'Draft umowy от wynajemcy',
@@ -58,7 +58,7 @@ const najemKomercyjny: ServiceEntry = {
     },
     pricing: {
       title: 'Стоимость работы',
-      subtitle: 'Зависит от объёма площади и сложности kontraktу.',
+      subtitle: 'Зависит от объёма площади и сложности kontraktu.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '30 минут · обзор плана' },
         { label: 'Review + advice', value: 'от 1 800 PLN', note: 'Анализ + перечень рисков + рекомендации' },

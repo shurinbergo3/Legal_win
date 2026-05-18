@@ -92,7 +92,7 @@ export function Testimonials() {
                       <span className="text-xs text-ink-400">{it.role}</span>
                     </div>
                   </div>
-                  <div className="flex items-center gap-0.5" aria-label="5 of 5 stars">
+                  <div className="flex items-center gap-0.5" aria-label={t('starsLabel')}>
                     {Array.from({ length: 5 }).map((_, s) => (
                       <Star
                         key={s}

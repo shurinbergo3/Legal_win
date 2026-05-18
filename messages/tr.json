@@ -4,6 +4,10 @@
     "description": "Polonya'da Karta Pobytu (oturum kartı), vatandaşlık, ret kararlarına itiraz, ehliyet değişimi, Kod 95, Sp. z o.o. (limited şirket) kuruluşu. Varşova'da 2019'dan beri çalışan göçmenlik ekibi - 4.9 yıldız, 312 yorum, yılda 500'den fazla dosya.",
     "keywords": "Polonya oturum kartı, Karta Pobytu, Polonya'da oturum izni, Polonya vatandaşlığı, Polonya pasaportu, göçmenlik danışmanlığı Varşova, Polonya'da ehliyet değişimi, Kod 95, Polonya'da şirket kurmak, Sp. z o.o., PESEL nasıl alınır, Polonya oturum izni reddi itiraz, yabancılar için hukuk Polonya, LegalWin"
   },
+  "Common": {
+    "scrollTop": "Yukarı çık",
+    "language": "Dil"
+  },
   "Nav": {
     "services": "Hizmetler",
     "pricing": "Fiyatlar",
@@ -235,6 +239,7 @@
     }
   },
   "About": {
+    "imageAlt": "Varşova, Polonya",
     "eyebrow": "LegalWin hakkında",
     "title": "Sizinle aynı dili konuşan uzmanlar",
     "paragraph1": "LegalWin - Varşova merkezli, yasal işlemler, ticaret ve gayrimenkul konusunda uzmanlaşmış bir ekiptir. Türkiye, Rusya, Ukrayna, Belarus, Kazakistan ve AB'den müvekkillerle 2019'dan beri çalışıyoruz.",
@@ -275,6 +280,7 @@
   "Testimonials": {
     "eyebrow": "Yorumlar",
     "title": "Müvekkillerimiz ne diyor",
+    "starsLabel": "5 üzerinden 5 yıldız",
     "items": [
       {
         "text": "Karta pobytu'yu 40 günde aldım. Urzęd'lere kendim gitmek ve yazışmalarla uğraşmak zorunda kalmadım - her şeyi LegalWin yaptı, ben sadece imzaladım.",
@@ -425,6 +431,7 @@
     "messagePlaceholder": "Durumu kısaca anlatın - vatandaşlığınız, mevcut ikamet temeliniz, süreler",
     "submit": "Mesajı gönder",
     "submitting": "Gönderiliyor…",
+    "submitHint": "Uzmanımız bir saat içinde sizinle iletişime geçecek.",
     "successTitle": "Mesajınız alındı",
     "successMessage": "Danışmanımız mesai saatleri içinde 1 saat içinde dönüş yapacak (Pzt-Cum 08:30-19:00).",
     "errorTitle": "Mesaj iletilmedi",
@@ -481,6 +488,7 @@
     "required": "Mesajı göndermek için veri işleme onayı gerekmektedir"
   },
   "ServiceDetail": {
+    "breadcrumb": "Gezinme yolu",
     "documentsEyebrow": "/ belgeler",
     "popular": "En sık seçilen",
     "faqEyebrow": "/ sorular",
@@ -503,12 +511,19 @@
     "consentText": "İletişim bilgilerinizi bırakırsanız, GDPR / RODO gerekliliklerine göre başvurunuzun işlenmesi için LegalWin ekibine iletilecektir.",
     "consentCheckbox": "Kişisel verilerin işlenmesini kabul ediyorum",
     "consentPrivacy": "Gizlilik politikası",
-    "consentStart": "Sohbete başla"
+    "consentStart": "Sohbete başla",
+    "errorTitle": "Sohbet geçici olarak kullanılamıyor",
+    "errorBefore": "Bize ",
+    "errorAfter": " adresinden e-posta gönderin veya sitedeki formu kullanın - uzmanımız bir saat içinde yanıt verecektir.",
+    "closeChat": "Sohbeti kapat",
+    "openChat": "Sohbeti aç",
+    "dismiss": "Kapat"
   },
   "Legal": {
     "back": "Ana sayfaya dön",
     "updated": "Güncelleme",
-    "updatedAt": "10 Nisan 2026"
+    "updatedAt": "10 Nisan 2026",
+    "sections": "Bölümler"
   },
   "BlogTeaser": {
     "eyebrow": "Dergi",
@@ -526,6 +541,7 @@
     "publishedOn": "Yayın tarihi",
     "related": "İlgili içerikler",
     "searchPlaceholder": "Yazı, konu veya anahtar kelime arayın",
+    "clearSearch": "Aramayı temizle",
     "allCategories": "Tüm konular",
     "noResults": "Aramanızla eşleşen sonuç yok. Farklı anahtar kelimeler deneyin veya filtreleri sıfırlayın.",
     "counterOne": "yazı",

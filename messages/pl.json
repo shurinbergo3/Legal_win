@@ -4,6 +4,10 @@
     "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Konsultanci imigracyjni w Warszawie od 2019 - 4.9★ od 312 klientów, 500+ spraw rocznie.",
     "keywords": "karta pobytu, karta czasowego pobytu, karta stałego pobytu, TRC Polska, obywatelstwo polskie, konsultant imigracyjny Warszawa, pomoc dla cudzoziemców Warszawa, wymiana prawa jazdy w Polsce, Kod 95, kwalifikacja wstępna, szkolenie okresowe, rejestracja Sp. z o.o., odwołanie od decyzji wojewody, MOS v2.0, eDoręczenia, LegalWin"
   },
+  "Common": {
+    "scrollTop": "Do góry",
+    "language": "Język"
+  },
   "Nav": {
     "services": "Usługi",
     "pricing": "Ceny",
@@ -235,6 +239,7 @@
     }
   },
   "About": {
+    "imageAlt": "Warszawa, Polska",
     "eyebrow": "O LegalWin",
     "title": "Specjaliści, którzy mówią twoim językiem",
     "paragraph1": "LegalWin to warszawski zespół specjalistów ds. legalizacji, biznesu i nieruchomości. Pracujemy z klientami z Rosji, Ukrainy, Białorusi, Kazachstanu i UE od 2019 roku.",
@@ -275,6 +280,7 @@
   "Testimonials": {
     "eyebrow": "Opinie",
     "title": "Co mówią klienci",
+    "starsLabel": "5 na 5 gwiazdek",
     "items": [
       {
         "text": "Kartę pobytu dostałam w 40 dni. Bez moich wizyt w urzędzie i nerwów przy korespondencji - wszystko robili prawnicy, ja tylko podpisywałam.",
@@ -425,6 +431,7 @@
     "messagePlaceholder": "Krótko opisz sytuację - obywatelstwo, podstawa pobytu, terminy",
     "submit": "Wyślij zgłoszenie",
     "submitting": "Wysyłanie…",
+    "submitHint": "Nasz specjalista odpowie w ciągu godziny.",
     "successTitle": "Zgłoszenie przyjęte",
     "successMessage": "Nasz specjalista odpowie w ciągu godziny w godzinach pracy (pn-pt 8:30-19:00).",
     "errorTitle": "Nie udało się wysłać",
@@ -481,6 +488,7 @@
     "required": "Aby wysłać zgłoszenie, musisz wyrazić zgodę na przetwarzanie danych"
   },
   "ServiceDetail": {
+    "breadcrumb": "Ścieżka nawigacji",
     "documentsEyebrow": "/ dokumenty",
     "popular": "Popularne",
     "faqEyebrow": "/ pytania",
@@ -503,12 +511,19 @@
     "consentText": "Jeśli zostawi Pan/Pani dane kontaktowe, zostaną przekazane zespołowi LegalWin w celu obsługi zgłoszenia zgodnie z wymogami RODO.",
     "consentCheckbox": "Wyrażam zgodę na przetwarzanie danych osobowych",
     "consentPrivacy": "Polityka prywatności",
-    "consentStart": "Rozpocznij czat"
+    "consentStart": "Rozpocznij czat",
+    "errorTitle": "Czat jest chwilowo niedostępny",
+    "errorBefore": "Napisz do nas na ",
+    "errorAfter": " lub zostaw zgłoszenie przez formularz na stronie - nasz specjalista odpowie w ciągu godziny.",
+    "closeChat": "Zamknij czat",
+    "openChat": "Otwórz czat",
+    "dismiss": "Zamknij"
   },
   "Legal": {
     "back": "Strona główna",
     "updated": "Zaktualizowano",
-    "updatedAt": "10 kwietnia 2026"
+    "updatedAt": "10 kwietnia 2026",
+    "sections": "Sekcje"
   },
   "BlogTeaser": {
     "eyebrow": "Dziennik",
@@ -526,6 +541,7 @@
     "publishedOn": "Opublikowano",
     "related": "Powiązane materiały",
     "searchPlaceholder": "Szukaj w artykułach, tematach, słowach kluczowych",
+    "clearSearch": "Wyczyść wyszukiwanie",
     "allCategories": "Wszystkie tematy",
     "noResults": "Nic nie pasuje do Twojego zapytania. Spróbuj innych słów lub wyczyść filtry.",
     "counterOne": "artykuł",
