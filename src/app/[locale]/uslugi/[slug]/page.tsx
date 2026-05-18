@@ -84,7 +84,7 @@ const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
       'натурализация Польша',
       'признание гражданина Польши',
       'польский паспорт',
-      'обязательно полски язык B1',
+      'обязательно польский язык B1',
       'иммиграционный консультант гражданство Варшава'
     ],
     pl: [
@@ -511,7 +511,7 @@ const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
       'аренда квартиры Варшава',
       'покупка квартиры в Польше иностранцем',
       'MSWiA разрешение покупка недвижимости',
-      'аренда без meldunkу',
+      'аренда без meldunku',
       'риелтор для иностранцев Варшава',
       'квартира в Польше для экспата',
       'księga wieczysta проверка'
@@ -801,7 +801,7 @@ const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
       'sprzedaż udziałów',
       'M&A Польша',
       'wykreślenie z KRS',
-      'упадлошчь',
+      'банкротство',
       'likwidator Sp. z o.o.'
     ],
     pl: [

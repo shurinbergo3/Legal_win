@@ -35,7 +35,7 @@ const zaproszenia: ServiceEntry = {
       steps: [
         { title: 'Консультация', duration: '30 мин', desc: 'Уточняем цель визита, степень родства, тип визы (C/D), сроки. Проверяем платёжеспособность приглашающего.' },
         { title: 'Wniosek o zaproszenie', duration: '1 день', desc: 'Заполняем wniosek с приложениями: titel prawny do mieszkania, выписки счёта, PIT-37 за прошлый год, KRS (для фирмы).' },
-        { title: 'Подача в Urząd Wojewódzki', duration: '1 день', desc: 'Подаём через MOS v2.0 или физически. Опłата skarbowa 27 PLN с pełnomocnictwem 17 PLN.' },
+        { title: 'Подача в Urząd Wojewódzki', duration: '1 день', desc: 'Подаём через MOS v2.0 или физически. Opłata skarbowa 27 PLN с pełnomocnictwem 17 PLN.' },
         { title: 'Postępowanie wojewody', duration: '7-14 дней', desc: 'Wojewoda проверяет финансы приглашающего (минимум 515 PLN на гостя в месяц + жильё).' },
         { title: 'Внесение в реестр', duration: '1 день', desc: 'Zaproszenie получает уникальный номер и вносится в централизованный реестр zaproszeń (видим консулам).' },
         { title: 'Передача оригинала', duration: '3-7 дней', desc: 'Отправляем оригинал курьером DHL / Pocztą Polską в страну заявителя. Электронная копия - на email одновременно.' },

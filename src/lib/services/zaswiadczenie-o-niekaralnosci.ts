@@ -23,9 +23,9 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
         { title: 'Karta Stałego Pobytu', desc: 'Воевода требует справку KRK для подачи на ПМЖ - без неё wniosek не принимается. Также - KRK из страны происхождения с apostille.' },
         { title: 'Лицензии и концессии', desc: 'Лицензия MOL (перевозки), охранная (ochrona), детектив, broker ubezpieczeniowy, прокурист, biegły rewident.' },
         { title: 'Работа с детьми', desc: 'Школы, детские сады, обучение, репетиторство, тренеры. С 2024 - обязательная проверка через системы Centralnego Rejestru Sprawców.' },
-        { title: 'Государственная служба', desc: 'Все позиции в administracji rządowej и samorządowej, polиция, судьи, прокуроры, ABW, военные.' },
+        { title: 'Государственная служба', desc: 'Все позиции в administracji rządowej и samorządowej, полиция, судьи, прокуроры, ABW, военные.' },
         { title: 'Тендеры и публичные закупки', desc: 'Подача предложения в trybie zamówień publicznych - справка KRK на фирму (z KRS) и на каждого члена zarządu.' },
-        { title: 'Banking и финансы', desc: 'Должности w bankach, СRK, KNF-надзор, страховых компаниях. KRK + KRK z państw, gdzie pracował.' },
+        { title: 'Banking и финансы', desc: 'Должности w bankach, CRK, KNF-надзор, страховых компаниях. KRK + KRK z państw, gdzie pracował.' },
         { title: 'Виза или ВНЖ за рубежом', desc: 'США (виза O, EB), Канада (PR), Великобритания (skilled worker), ОАЭ - все требуют KRK с apostille и переводом.' }
       ]
     },
