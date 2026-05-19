@@ -1,11 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 type PricingItem = {
   slug: string;
@@ -35,28 +33,20 @@ export function Pricing() {
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}
           </div>
-          <motion.h2
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8, ease }}
+          <Reveal
+            as="h2"
+            margin="-100px"
             className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-9"
           >
             {t('title')}
-          </motion.h2>
+          </Reveal>
           <p className="col-span-12 max-w-md self-end text-base text-ink-300 lg:col-span-3 lg:text-right">
             {t('subtitle')}
           </p>
         </div>
 
         {/* Free consultation highlight - sits above the table as the headline anchor */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.7, ease }}
-          className="mb-8 flex flex-wrap items-center gap-3 rounded-full border hairline-gold bg-gradient-to-r from-gold-500/[0.08] via-transparent to-transparent px-5 py-3 lg:mb-10"
-        >
+        <Reveal className="mb-8 flex flex-wrap items-center gap-3 rounded-full border hairline-gold bg-gradient-to-r from-gold-500/[0.08] via-transparent to-transparent px-5 py-3 lg:mb-10">
           <span className="font-mono text-[10px] uppercase tracking-[0.28em] text-gold-300">
             / 00
           </span>
@@ -70,19 +60,18 @@ export function Pricing() {
             <span className="gold-underline">{t('ctaDetails')}</span>
             <ArrowUpRight className="h-4 w-4" strokeWidth={1.6} aria-hidden />
           </Link>
-        </motion.div>
+        </Reveal>
 
         {/* Pricing list - editorial table with hairline rows.
             Each row links to the full service page where the detailed
             breakdown lives, so the home page stays a snapshot. */}
         <ul className="overflow-hidden rounded-3xl border hairline bg-ink-950">
           {items.map((it, i) => (
-            <motion.li
+            <Reveal
+              as="li"
               key={`${it.slug}-${it.name}`}
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-40px' }}
-              transition={{ duration: 0.55, ease, delay: (i % 6) * 0.05 }}
+              margin="-40px"
+              delay={(i % 6) * 50}
               className="border-t hairline first:border-t-0"
             >
               <Link
@@ -122,7 +111,7 @@ export function Pricing() {
                   />
                 </div>
               </Link>
-            </motion.li>
+            </Reveal>
           ))}
         </ul>
 

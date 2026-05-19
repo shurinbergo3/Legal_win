@@ -1,11 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Star } from 'lucide-react';
 import { UserAvatar } from './UserAvatar';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 type Testimonial = { text: string; author: string; role: string };
 
@@ -37,15 +35,13 @@ export function Testimonials() {
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}
           </div>
-          <motion.h2
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8, ease }}
+          <Reveal
+            as="h2"
+            margin="-100px"
             className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-9"
           >
             {t('title')}
-          </motion.h2>
+          </Reveal>
           <p className="col-span-12 self-end font-mono text-[11px] uppercase tracking-[0.28em] text-ink-400 lg:col-span-3 lg:text-right">
             / 4.9 ★ avg · 312 reviews
           </p>
@@ -53,12 +49,11 @@ export function Testimonials() {
 
         <div className="grid grid-cols-12 gap-5">
           {items.map((it, i) => (
-            <motion.figure
+            <Reveal
+              as="figure"
               key={it.author}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.7, ease, delay: i * 0.06 }}
+              margin="-60px"
+              delay={i * 60}
               className="group relative col-span-12 flex flex-col gap-6 sm:col-span-6 lg:col-span-6"
             >
               <div className="glass relative flex h-full flex-col gap-6 overflow-hidden rounded-3xl p-7 transition-all duration-500 group-hover:border-gold-500/40 sm:p-8 lg:p-10">
@@ -103,7 +98,7 @@ export function Testimonials() {
                   </div>
                 </figcaption>
               </div>
-            </motion.figure>
+            </Reveal>
           ))}
         </div>
       </div>

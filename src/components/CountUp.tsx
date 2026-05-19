@@ -1,7 +1,12 @@
 'use client';
 
-import { animate, useInView, useMotionValue, useTransform } from 'framer-motion';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+
+// Same easing as the previous framer-motion implementation
+// ([0.16, 1, 0.3, 1] cubic-bezier).
+function easeOutExpo(t: number) {
+  return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+}
 
 export function CountUp({
   to,
@@ -13,25 +18,60 @@ export function CountUp({
   className?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: '-80px' });
-  const count = useMotionValue(0);
-  const rounded = useTransform(count, (v) => Math.round(v).toString());
+  const [started, setStarted] = useState(false);
 
   useEffect(() => {
-    if (!inView) return;
-    const controls = animate(count, to, {
-      duration,
-      ease: [0.16, 1, 0.3, 1]
-    });
-    return () => controls.stop();
-  }, [count, duration, inView, to]);
+    const el = ref.current;
+    if (!el) return;
+    if (typeof IntersectionObserver === 'undefined') {
+      setStarted(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            setStarted(true);
+            io.disconnect();
+          }
+        }
+      },
+      { rootMargin: '-80px' }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   useEffect(() => {
-    const unsub = rounded.on('change', (v) => {
-      if (ref.current) ref.current.textContent = v;
-    });
-    return () => unsub();
-  }, [rounded]);
+    if (!started) return;
+    const el = ref.current;
+    if (!el) return;
 
-  return <span ref={ref} className={className}>0</span>;
+    const reduce =
+      typeof window !== 'undefined' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) {
+      el.textContent = String(to);
+      return;
+    }
+
+    const startTs = performance.now();
+    const durMs = duration * 1000;
+    let raf = 0;
+
+    const tick = (now: number) => {
+      const p = Math.min(1, (now - startTs) / durMs);
+      const v = Math.round(easeOutExpo(p) * to);
+      el.textContent = String(v);
+      if (p < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [started, to, duration]);
+
+  return (
+    <span ref={ref} className={className}>
+      0
+    </span>
+  );
 }

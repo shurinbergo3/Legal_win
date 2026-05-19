@@ -5,7 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { JsonLd } from '@/components/JsonLd';
-import { CookieConsent } from '@/components/CookieConsent';
+import { CookieConsentLoader } from '@/components/CookieConsentLoader';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { YandexMetrika } from '@/components/YandexMetrika';
 import {
@@ -167,7 +167,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <ScrollToTop />
-          <CookieConsent />
+          <CookieConsentLoader />
           <YandexMetrika />
         </NextIntlClientProvider>
       </body>

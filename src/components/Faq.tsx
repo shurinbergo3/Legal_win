@@ -1,12 +1,10 @@
 'use client';
 
-import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { Plus } from 'lucide-react';
 import { cn } from '@/lib/cn';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 type FaqItem = { q: string; a: string };
 
@@ -26,7 +24,7 @@ export function Faq() {
 
   return (
     <section id="faq" className="relative isolate overflow-clip border-t hairline bg-ink-900/30 py-28 lg:py-36">
-      {/* Editorial giant "?" watermark - pair to the “ glyph in Testimonials */}
+      {/* Editorial giant "?" watermark */}
       <div
         aria-hidden
         className="pointer-events-none absolute -top-10 right-2 select-none font-display text-[clamp(12rem,26vw,26rem)] font-semibold leading-none text-gold-500/[0.06] sm:right-8"
@@ -36,11 +34,8 @@ export function Faq() {
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid grid-cols-12 gap-x-0 gap-y-10 lg:gap-16">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.7, ease }}
+          <Reveal
+            margin="-100px"
             className="col-span-12 flex flex-col gap-4 lg:sticky lg:top-28 lg:col-span-5 lg:self-start lg:pr-8"
           >
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
@@ -50,7 +45,7 @@ export function Faq() {
             <h2 className="font-display display-size font-semibold text-balance text-ink-50">
               {t('title')}
             </h2>
-          </motion.div>
+          </Reveal>
 
           <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] border-t border-b hairline lg:col-span-7">
             {items.map((it, i) => {
@@ -71,36 +66,31 @@ export function Faq() {
                         {it.q}
                       </h3>
                     </div>
-                    <motion.span
-                      animate={{ rotate: isOpen ? 45 : 0 }}
-                      transition={{ duration: 0.3, ease }}
+                    <span
                       className={cn(
-                        'mt-1 inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border transition-colors',
+                        'mt-1 inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border transition-[transform,colors] duration-300 ease-out',
                         isOpen
-                          ? 'border-gold-500/60 bg-gold-400/10 text-gold-400'
-                          : 'hairline text-ink-300'
+                          ? 'rotate-45 border-gold-500/60 bg-gold-400/10 text-gold-400'
+                          : 'rotate-0 hairline text-ink-300'
                       )}
                     >
                       <Plus className="h-4 w-4" strokeWidth={1.6} aria-hidden />
-                    </motion.span>
+                    </span>
                   </button>
 
-                  <AnimatePresence initial={false}>
-                    {isOpen && (
-                      <motion.div
-                        key="content"
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.35, ease }}
-                        className="overflow-hidden"
-                      >
-                        <p className="max-w-2xl pb-6 pl-10 pr-12 text-base leading-relaxed text-ink-300 lg:pb-8">
-                          {it.a}
-                        </p>
-                      </motion.div>
+                  {/* CSS-only collapsible: grid-template-rows 0fr → 1fr animates intrinsic height */}
+                  <div
+                    className={cn(
+                      'grid overflow-hidden transition-[grid-template-rows,opacity] duration-300 ease-out',
+                      isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
                     )}
-                  </AnimatePresence>
+                  >
+                    <div className="min-h-0">
+                      <p className="max-w-2xl pb-6 pl-10 pr-12 text-base leading-relaxed text-ink-300 lg:pb-8">
+                        {it.a}
+                      </p>
+                    </div>
+                  </div>
                 </li>
               );
             })}

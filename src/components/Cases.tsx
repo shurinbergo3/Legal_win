@@ -1,10 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { ArrowUpRight, Check } from 'lucide-react';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 type Case = {
   tag: string;
@@ -39,15 +37,13 @@ export function Cases() {
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}
           </div>
-          <motion.h2
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8, ease }}
+          <Reveal
+            as="h2"
+            margin="-100px"
             className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-9"
           >
             {t('title')}
-          </motion.h2>
+          </Reveal>
           <p className="col-span-12 max-w-md self-end text-base text-ink-300 lg:col-span-3 lg:text-right">
             {t('subtitle')}
           </p>
@@ -55,12 +51,11 @@ export function Cases() {
 
         <div className="grid grid-cols-12 gap-5">
           {items.map((c, i) => (
-            <motion.article
+            <Reveal
+              as="article"
               key={c.title}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
-              transition={{ duration: 0.7, ease, delay: i * 0.08 }}
+              margin="-80px"
+              delay={i * 80}
               className="group relative col-span-12 flex flex-col gap-6 overflow-hidden rounded-3xl border hairline bg-ink-950 p-7 edge-glow transition-all duration-500 hover:border-gold-500/40 hover:-translate-y-1 sm:p-8 lg:col-span-4 lg:p-9"
             >
               {/* Hover gold glow */}
@@ -105,7 +100,7 @@ export function Cases() {
                   </div>
                 </div>
               </div>
-            </motion.article>
+            </Reveal>
           ))}
         </div>
       </div>

@@ -1,11 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Phone, FileSignature, Briefcase, Award } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 // Day labels reflect the 42-day average from the Cases section ("38 дней" for the
 // flagship TRC case + buffer). Using D-notation keeps them locale-neutral.
@@ -37,15 +35,13 @@ export function Process() {
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}
           </div>
-          <motion.h2
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8, ease }}
+          <Reveal
+            as="h2"
+            margin="-100px"
             className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-9"
           >
             {t('title')}
-          </motion.h2>
+          </Reveal>
           <p className="col-span-12 max-w-md self-end font-mono text-[11px] uppercase tracking-[0.28em] text-ink-400 lg:col-span-3 lg:text-right">
             / 4 steps · from call to outcome
           </p>
@@ -57,12 +53,11 @@ export function Process() {
 
           <ol className="relative grid grid-cols-1 gap-px overflow-hidden rounded-3xl border hairline bg-[color-mix(in_oklab,var(--color-ink-50)_10%,transparent)] sm:grid-cols-2 lg:grid-cols-4">
             {steps.map(({ key, Icon, day }, i) => (
-              <motion.li
+              <Reveal
+                as="li"
                 key={key}
-                initial={{ opacity: 0, y: 18 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.7, ease, delay: i * 0.1 }}
+                margin="-60px"
+                delay={i * 100}
                 className="group relative flex h-full flex-col gap-5 bg-ink-950 p-7 transition-colors duration-500 hover:bg-ink-900 lg:p-8"
               >
                 {/* Hover gold halo */}
@@ -96,7 +91,7 @@ export function Process() {
                 <span className="mt-auto pt-2 font-mono text-[10px] uppercase tracking-[0.28em] text-ink-500">
                   / 0{i + 1} / 04
                 </span>
-              </motion.li>
+              </Reveal>
             ))}
           </ol>
         </div>

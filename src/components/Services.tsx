@@ -1,14 +1,11 @@
 'use client';
 
-import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { useRef } from 'react';
 import { ArrowUpRight, Fingerprint, FileText, Building2, Home, Plane } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { slugFromName } from '@/lib/services/slug-map';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 type GroupKey = 'immigration' | 'documents' | 'business' | 'realestate' | 'relocation';
 
@@ -58,15 +55,13 @@ export function Services() {
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}
           </div>
-          <motion.h2
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8, ease }}
+          <Reveal
+            as="h2"
+            margin="-100px"
             className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-9"
           >
             {t('title')}
-          </motion.h2>
+          </Reveal>
           <p className="col-span-12 max-w-lg self-end text-base text-ink-300 lg:col-span-3 lg:text-right">
             {t('subtitle')}
           </p>
@@ -93,25 +88,10 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
   const lead = t('lead');
   const items = t.raw('items') as ServiceItem[];
 
-  // Scroll-driven progress through this specific group - drives the gold
-  // hairline in the sticky left column so the eye gets a quiet read on how
-  // far through the list the reader has scrolled.
-  const groupRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: groupRef,
-    offset: ['start 60%', 'end 60%']
-  });
-  const smooth = useSpring(scrollYProgress, { stiffness: 120, damping: 30, mass: 0.4 });
-  const progressScale = useTransform(smooth, [0, 1], [0, 1]);
-  const itemOpacity = useTransform(smooth, [0, 0.05, 0.95, 1], [0.55, 1, 1, 0.55]);
-
   return (
-    <motion.div
-      ref={groupRef}
-      initial={{ opacity: 0, y: 28 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-80px' }}
-      transition={{ duration: 0.8, ease, delay: (index % 3) * 0.05 }}
+    <Reveal
+      margin="-80px"
+      delay={(index % 3) * 50}
       className="group relative border-t hairline py-14 lg:py-20"
     >
       {/* Layer 1: always-visible ambient - anchored left, not centered */}
@@ -152,24 +132,22 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
 
       <div className="relative grid grid-cols-12 gap-x-6 gap-y-10">
         {/* Left: number + icon + heading - sticks during the group's scroll range */}
-        <motion.div
-          style={{ opacity: itemOpacity }}
-          className="col-span-12 flex flex-col gap-6 lg:col-span-5 lg:sticky lg:top-28 lg:self-start"
-        >
+        <div className="col-span-12 flex flex-col gap-6 lg:col-span-5 lg:sticky lg:top-28 lg:self-start">
           <div className="flex items-center gap-4">
             <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-ink-400">
               / {number}
             </span>
-            {/* Scroll-driven gold progress hairline */}
-            <span className="relative h-px flex-1 overflow-hidden bg-ink-800">
-              <motion.span
+            {/* Static accent hairline */}
+            <span
+              aria-hidden
+              className="relative h-px flex-1 overflow-hidden bg-ink-800"
+            >
+              <span
                 aria-hidden
+                className="absolute inset-0 block opacity-60"
                 style={{
-                  scaleX: progressScale,
-                  transformOrigin: '0% 50%',
-                  background: `linear-gradient(90deg, rgba(${rgb}, 0) 0%, rgba(${rgb}, 0.9) 35%, rgba(${rgb}, 1) 100%)`
+                  background: `linear-gradient(90deg, rgba(${rgb}, 0) 0%, rgba(${rgb}, ${lineOpacity * 0.5}) 50%, rgba(${rgb}, ${lineOpacity * 0.8}) 100%)`
                 }}
-                className="absolute inset-0 block"
               />
             </span>
             <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border hairline bg-ink-950">
@@ -187,27 +165,26 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
             <span className="gold-underline">{tRoot('cta')}</span>
             <ArrowUpRight className="h-4 w-4" strokeWidth={1.6} aria-hidden />
           </a>
-        </motion.div>
+        </div>
 
         {/* Right: items list */}
         <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_8%,transparent)] lg:col-span-7">
           {items.map((it, idx) => {
             const slug = slugFromName(it.name);
             return (
-              <motion.li
+              <Reveal
+                as="li"
                 key={it.name}
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.5, ease, delay: idx * 0.04 }}
+                margin="-40px"
+                delay={idx * 40}
               >
                 <ServiceItemRow item={it} index={idx} slug={slug} />
-              </motion.li>
+              </Reveal>
             );
           })}
         </ul>
       </div>
-    </motion.div>
+    </Reveal>
   );
 }
 

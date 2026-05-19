@@ -1,10 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { CountUp } from './CountUp';
-
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { Reveal } from './Reveal';
 
 export function TrustBar() {
   const t = useTranslations('Stats');
@@ -57,13 +55,7 @@ export function TrustBar() {
       />
 
       {/* ── Header strip ── */}
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-80px' }}
-        transition={{ duration: 0.65, ease }}
-        className="relative border-b hairline"
-      >
+      <Reveal className="relative border-b hairline">
         <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
           <div className="flex flex-col gap-5 py-10 lg:flex-row lg:items-end lg:justify-between lg:py-12">
             <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
@@ -78,19 +70,17 @@ export function TrustBar() {
             </p>
           </div>
         </div>
-      </motion.div>
+      </Reveal>
 
       {/* ── Stats grid ── */}
       <div className="relative mx-auto max-w-[1400px]">
         {/* gap-px + parent bg = hairline dividers between cells */}
         <div className="grid grid-cols-2 gap-px bg-[color-mix(in_oklab,var(--color-ink-50)_7%,transparent)] lg:grid-cols-4">
           {stats.map((s, i) => (
-            <motion.div
+            <Reveal
               key={s.label}
-              initial={{ opacity: 0, y: 32 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-50px' }}
-              transition={{ duration: 0.7, ease, delay: i * 0.1 }}
+              margin="-50px"
+              delay={i * 100}
               className="group relative flex flex-col bg-ink-950 px-5 py-10 transition-colors duration-500 hover:bg-[color-mix(in_oklab,var(--color-ink-900)_50%,var(--color-ink-950))] sm:px-7 sm:py-12 lg:px-10 lg:py-16"
             >
               {/* Ambient gold halo on hover */}
@@ -126,7 +116,7 @@ export function TrustBar() {
               <div className="mt-auto border-t hairline pt-5 text-[11px] leading-relaxed text-ink-500">
                 {s.note}
               </div>
-            </motion.div>
+            </Reveal>
           ))}
         </div>
       </div>

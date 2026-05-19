@@ -1,25 +1,37 @@
 'use client';
 
-import { AnimatePresence, motion, useMotionValueEvent, useScroll } from 'framer-motion';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { LogoBadge } from './Logo';
 import { cn } from '@/lib/cn';
 
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 const sections = ['services', 'pricing', 'cases', 'process', 'faq', 'contact'] as const;
 
 export function Header() {
   const t = useTranslations('Nav');
   const pathname = usePathname();
   const isHome = pathname === '/';
-  const { scrollY } = useScroll();
   const [shrunk, setShrunk] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  useMotionValueEvent(scrollY, 'change', (y) => setShrunk(y > 24));
+  useEffect(() => {
+    let raf = 0;
+    const onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        setShrunk(window.scrollY > 24);
+        raf = 0;
+      });
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, []);
 
   function handleLogoClick(e: React.MouseEvent) {
     if (isHome) {
@@ -35,15 +47,10 @@ export function Header() {
 
   return (
     <>
-      <motion.header
-        initial={false}
-        animate={{
-          paddingTop: shrunk ? 6 : 12,
-          paddingBottom: shrunk ? 6 : 12
-        }}
-        transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+      <header
         className={cn(
-          'fixed inset-x-0 top-0 z-50 transition-[background,box-shadow,border-color] duration-300',
+          'fixed inset-x-0 top-0 z-50 transition-[padding,background,box-shadow,border-color] duration-300',
+          shrunk ? 'py-[6px]' : 'py-3',
           shrunk || mobileOpen
             ? 'glass-strong border-b hairline'
             : 'bg-transparent border-b border-transparent'
@@ -99,103 +106,94 @@ export function Header() {
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={mobileOpen}
             >
-              <motion.span
-                animate={mobileOpen ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }}
-                transition={{ duration: 0.25, ease }}
-                className="block h-px w-6 bg-ink-50 origin-center"
+              <span
+                className={cn(
+                  'block h-px w-6 bg-ink-50 origin-center transition-transform duration-300 ease-out',
+                  mobileOpen ? 'translate-y-[5px] rotate-45' : ''
+                )}
               />
-              <motion.span
-                animate={mobileOpen ? { opacity: 0, scaleX: 0 } : { opacity: 1, scaleX: 1 }}
-                transition={{ duration: 0.2 }}
-                className="block h-px w-6 bg-ink-50"
+              <span
+                className={cn(
+                  'block h-px w-6 bg-ink-50 transition-[opacity,transform] duration-200',
+                  mobileOpen ? 'opacity-0 scale-x-0' : 'opacity-100 scale-x-100'
+                )}
               />
-              <motion.span
-                animate={mobileOpen ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }}
-                transition={{ duration: 0.25, ease }}
-                className="block h-px w-6 bg-ink-50 origin-center"
+              <span
+                className={cn(
+                  'block h-px w-6 bg-ink-50 origin-center transition-transform duration-300 ease-out',
+                  mobileOpen ? '-translate-y-[5px] -rotate-45' : ''
+                )}
               />
             </button>
           </div>
         </div>
-      </motion.header>
+      </header>
 
       {/* Mobile menu overlay */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            key="mobile-menu"
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.3, ease }}
-            className="fixed inset-x-0 top-0 z-40 flex min-h-[100svh] flex-col bg-ink-950/98 pt-24 pb-10 backdrop-blur-xl lg:hidden"
-          >
-            {/* Subtle gold line at top */}
-            <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/50 to-transparent" />
+      {mobileOpen && (
+        <div
+          key="mobile-menu"
+          className="mobile-menu-enter fixed inset-x-0 top-0 z-40 flex min-h-[100svh] flex-col bg-ink-950/98 pt-24 pb-10 backdrop-blur-xl lg:hidden"
+        >
+          {/* Subtle gold line at top */}
+          <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/50 to-transparent" />
 
-            <nav className="flex flex-1 flex-col px-8">
-              {/* Section links */}
-              <ul className="flex flex-col divide-y divide-ink-800/60">
-                {sections.map((s, i) => (
-                  <motion.li
-                    key={s}
-                    initial={{ opacity: 0, x: -16 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.35, ease, delay: 0.05 + i * 0.06 }}
-                  >
-                    <Link
-                      href={`/#${s}`}
-                      onClick={closeMobile}
-                      className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
-                    >
-                      {t(s)}
-                      <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
-                        <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </Link>
-                  </motion.li>
-                ))}
-                <motion.li
-                  initial={{ opacity: 0, x: -16 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.35, ease, delay: 0.05 + sections.length * 0.06 }}
+          <nav className="flex flex-1 flex-col px-8">
+            <ul className="flex flex-col divide-y divide-ink-800/60">
+              {sections.map((s, i) => (
+                <li
+                  key={s}
+                  className="mobile-menu-item"
+                  style={{ animationDelay: `${50 + i * 60}ms` }}
                 >
                   <Link
-                    href="/blog"
+                    href={`/#${s}`}
                     onClick={closeMobile}
                     className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
                   >
-                    {t('blog')}
+                    {t(s)}
                     <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
                       <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </Link>
-                </motion.li>
-              </ul>
-
-              {/* Bottom actions */}
-              <motion.div
-                initial={{ opacity: 0, y: 12 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, ease, delay: 0.4 }}
-                className="mt-auto flex flex-col gap-4 pt-10"
+                </li>
+              ))}
+              <li
+                className="mobile-menu-item"
+                style={{ animationDelay: `${50 + sections.length * 60}ms` }}
               >
-                <LocaleSwitcher className="self-start" />
                 <Link
-                  href="/#contact"
+                  href="/blog"
                   onClick={closeMobile}
-                  className="group flex items-center justify-center gap-2 rounded-full bg-gold-400 px-6 py-4 text-base font-medium text-ink-950 transition-all duration-200 hover:bg-gold-300"
+                  className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
                 >
-                  {t('consultation')}
-                  <svg className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 16 16" fill="none" aria-hidden>
-                    <path d="M3 8h10m-4-4 4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                  {t('blog')}
+                  <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
+                    <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </Link>
-              </motion.div>
-            </nav>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              </li>
+            </ul>
+
+            <div
+              className="mobile-menu-cta mt-auto flex flex-col gap-4 pt-10"
+              style={{ animationDelay: '400ms' }}
+            >
+              <LocaleSwitcher className="self-start" />
+              <Link
+                href="/#contact"
+                onClick={closeMobile}
+                className="group flex items-center justify-center gap-2 rounded-full bg-gold-400 px-6 py-4 text-base font-medium text-ink-950 transition-all duration-200 hover:bg-gold-300"
+              >
+                {t('consultation')}
+                <svg className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 16 16" fill="none" aria-hidden>
+                  <path d="M3 8h10m-4-4 4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+            </div>
+          </nav>
+        </div>
+      )}
     </>
   );
 }
