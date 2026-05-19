@@ -14,7 +14,7 @@ import { cn } from '@/lib/cn';
 import { ThemisScalesPaths } from './ThemisScales';
 
 const FONT_STACK =
-  "var(--font-fraunces), var(--font-source-serif), 'Fraunces', 'Cormorant Garamond', Georgia, 'Times New Roman', serif";
+  "var(--font-fraunces), var(--font-source-serif), 'Fraunces', Georgia, 'Times New Roman', serif";
 
 type GradientIds = {
   rim: string;

@@ -4,7 +4,7 @@
   /* Per-glyph cascade: Fraunces (Latin/Wonky) → Source Serif 4 (Cyrillic). */
   --font-display: var(--font-fraunces), var(--font-source-serif), Georgia, serif;
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-mono), ui-monospace, monospace;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 
   --color-ink-50: #f5f7fb;
   --color-ink-100: #e7ebf3;
@@ -211,6 +211,15 @@ body::before {
 .hero-in-d4 { animation-delay: 0.34s; }
 .hero-in-d5 { animation-delay: 0.42s; }
 .hero-in-d6 { animation-delay: 0.50s; }
+
+@keyframes scroll-cue {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(6px); }
+}
+.scroll-cue { animation: scroll-cue 2.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .scroll-cue { animation: none; }
+}
 
 /* Slow background shift */
 @keyframes bg-shift {

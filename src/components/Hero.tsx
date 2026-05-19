@@ -1,49 +1,17 @@
-'use client';
-
-import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
-import { useTranslations } from 'next-intl';
-import { useEffect, useRef, useState } from 'react';
+import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import { ArrowRight, Phone, Star } from 'lucide-react';
 import { blur } from '@/lib/image-blur';
 import { REVIEW_COUNT, REVIEW_RATING_VALUE } from '@/lib/seo';
 import { ThemisScales } from './ThemisScales';
 
-const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
-
-export function Hero() {
-  const t = useTranslations('Hero');
-  const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
-  const [isMobile, setIsMobile] = useState(true);
-  useEffect(() => {
-    setIsMobile(window.matchMedia('(max-width: 1023px)').matches);
-  }, []);
-
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ['start start', 'end start']
-  });
-
-  const skip = reduce || isMobile;
-  const photoY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, 140]);
-  const photoScale = useTransform(scrollYProgress, [0, 1], skip ? [1, 1] : [1.05, 1.12]);
-  const orbY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, 200]);
-  const themisY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, -120]);
-  const textY = useTransform(scrollYProgress, [0, 1], skip ? [0, 0] : [0, -50]);
-  const textOpacity = useTransform(scrollYProgress, [0, 0.85], skip ? [1, 1] : [1, 0.2]);
+export async function Hero() {
+  const t = await getTranslations('Hero');
 
   return (
-    <section
-      ref={ref}
-      className="relative isolate overflow-hidden pt-36 pb-24 sm:pt-44 lg:pt-52 lg:pb-32 min-h-[100svh]"
-    >
+    <section className="relative isolate overflow-hidden pt-36 pb-24 sm:pt-44 lg:pt-52 lg:pb-32 min-h-[100svh]">
       {/* Cinematic photo background */}
-      <motion.div
-        aria-hidden
-        style={{ y: photoY, scale: photoScale }}
-        className="pointer-events-none absolute inset-0 -z-10"
-      >
+      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <Image
           src="/hero/staruwka.webp"
           alt={t('imageAlt')}
@@ -54,7 +22,7 @@ export function Hero() {
           sizes="100vw"
           className="object-cover object-[50%_38%]"
         />
-      </motion.div>
+      </div>
 
       {/* Photo treatment: cinematic dark gradient + brand wash */}
       <div
@@ -106,22 +74,20 @@ export function Hero() {
         }}
       />
 
-      {/* Ambient parallax orb (kept subtle on top of photo) */}
-      <motion.div
+      {/* Ambient orb */}
+      <div
         aria-hidden
-        style={{ y: orbY }}
         className="pointer-events-none absolute -top-40 right-[-12%] h-[520px] w-[520px] rounded-full bg-gold-500/15 blur-[140px] blob-1"
       />
 
-      {/* Themis watermark - large, behind headline, right side */}
-      <motion.div
+      {/* Themis watermark - desktop */}
+      <div
         aria-hidden
-        style={{ y: themisY }}
         className="pointer-events-none absolute right-[-4%] top-[14%] hidden h-[78%] w-[42%] text-gold-400/[0.14] lg:block"
       >
         <ThemisScales className="h-full w-full" />
-      </motion.div>
-      {/* Mobile Themis - smaller, top-right */}
+      </div>
+      {/* Mobile Themis */}
       <div
         aria-hidden
         className="pointer-events-none absolute right-2 top-24 h-40 w-40 text-gold-400/[0.10] sm:right-6 sm:top-28 sm:h-56 sm:w-56 lg:hidden"
@@ -129,11 +95,8 @@ export function Hero() {
         <ThemisScales className="h-full w-full" />
       </div>
 
-      {/* Text content - parallax wrapper only, entrance via CSS so LCP isn't blocked by JS */}
-      <motion.div
-        style={{ y: textY, opacity: textOpacity }}
-        className="relative mx-auto grid max-w-[1400px] grid-cols-12 gap-x-6 gap-y-10 px-6 lg:px-10"
-      >
+      {/* Text content */}
+      <div className="relative mx-auto grid max-w-[1400px] grid-cols-12 gap-x-6 gap-y-10 px-6 lg:px-10">
         {/* Status strip */}
         <div className="hero-in hero-in-d1 col-span-12 flex flex-wrap items-center justify-between gap-5">
           <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.32em] text-gold-300">
@@ -158,20 +121,21 @@ export function Hero() {
           </span>
         </h1>
 
-        {/* Subtitle - LCP element, rendered visible immediately via CSS */}
+        {/* Subtitle */}
         <p className="hero-in hero-in-d3 col-span-12 max-w-2xl text-pretty text-lg leading-relaxed text-ink-200 lg:col-span-7 lg:text-xl [text-shadow:0_1px_18px_rgba(5,9,26,0.65)]">
           {t('subtitle')}
         </p>
 
-        {/* Social proof - public rating from Testimonials section */}
+        {/* Social proof */}
         <div className="hero-in hero-in-d4 col-span-12 -mt-2 flex flex-wrap items-center gap-x-3 gap-y-2">
           <div className="flex items-center gap-1.5 rounded-full border hairline-gold bg-ink-950/55 px-3 py-1.5 backdrop-blur-md">
-            <span className="flex items-center gap-0.5" aria-hidden>
+            <span className="flex items-center gap-0.5" role="img" aria-label={`${REVIEW_RATING_VALUE} of 5 stars`}>
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star
                   key={i}
                   className="h-3.5 w-3.5 fill-gold-400 text-gold-400"
                   strokeWidth={1.4}
+                  aria-hidden
                 />
               ))}
             </span>
@@ -210,9 +174,9 @@ export function Hero() {
             +48 506 55 07 21
           </a>
         </div>
-      </motion.div>
+      </div>
 
-      {/* Editorial photo caption - bottom left */}
+      {/* Editorial photo caption */}
       <div className="hero-in hero-in-d6 pointer-events-none absolute bottom-6 left-6 z-10 hidden flex-col gap-1 font-mono text-[10px] uppercase tracking-[0.32em] text-ink-300/80 sm:left-10 sm:flex">
         <span className="text-gold-400/80">52.2297° N · 21.0122° E</span>
         <span>Pałac Kultury · Warszawa</span>
@@ -220,12 +184,7 @@ export function Hero() {
 
       {/* Bottom scroll cue */}
       <div className="pointer-events-none absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-[10px] uppercase tracking-[0.4em] text-ink-300/80">
-        <motion.div
-          animate={{ y: [0, 6, 0] }}
-          transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          scroll
-        </motion.div>
+        <span className="scroll-cue inline-block">scroll</span>
       </div>
     </section>
   );
