@@ -7,155 +7,155 @@ const kartaStalegoPobytu: ServiceEntry = {
     icon: 'home',
     badge: 'ПМЖ',
     title: 'Karta Stałego Pobytu',
-    subtitle: 'Постоянный вид на жительство в Польше',
-    lead: 'ПМЖ в Польше (pobyt stały) даётся бессрочно, сама карта - на 10 лет с продлением. Открывает доступ к почти всем правам граждан, кроме выборов и госслужбы.',
+    subtitle: 'Постоянный вид на жительство в Польше для граждан СНГ',
+    lead: "Если вы из Украины, Беларуси, Казахстана или России и уже прожили в Польше 5 лет на временных картах - пора переходить на pobyt stały. Статус бессрочный, пластик меняется раз в 10 лет, а с Кartą Polaka можно зайти напрямую, минуя пятилетку.",
     facts: [
-      { label: 'Статус', value: 'бессрочно', note: 'карта перевыпускается каждые 10 лет' },
-      { label: 'Госпошлина', value: '640 + 100 PLN', note: 'заявление + карта' },
-      { label: 'Решение', value: '3-6 мес', note: 'по закону до 180 дней' },
-      { label: 'Результат', value: 'права как у граждан', note: 'кроме голосования' }
+      { label: 'Срок ожидания', value: '3-6 мес', note: 'Mazowiecki Urząd Wojewódzki - до 8 мес в пиковые периоды' },
+      { label: 'Сборы', value: '640 + 100 PLN', note: 'wniosek + бланк карты' },
+      { label: 'Статус', value: 'бессрочно', note: 'карта - каждые 10 лет' },
+      { label: 'Что даёт', value: 'почти как у поляков', note: 'кроме выборов и службы в полиции' }
     ],
     grounds: {
-      title: 'Кто может получить ПМЖ',
+      title: 'На каком основании можно подавать',
       items: [
-        { title: 'Супруги граждан Польши', desc: 'После 3 лет в браке и 2 лет непрерывного пребывания в Польше на ВНЖ.' },
-        { title: 'Лица польского происхождения', desc: 'С доказательством польских корней (родители / прародители) и намерением постоянного проживания.' },
-        { title: 'Обладатели Karty Polaka', desc: 'По Karcie Polaka можно подать на ПМЖ сразу, без предварительного ВНЖ.' },
-        { title: 'Беженцы и лица с гуманитарным статусом', desc: 'После 5 лет пребывания в статусе беженца или лица с защитой.' },
-        { title: 'Дети, рождённые в Польше', desc: 'Несовершеннолетние дети обладателей ПМЖ, родившиеся в Польше.' },
-        { title: 'Жертвы торговли людьми', desc: 'С гуманитарным пребыванием или дополнительной защитой на особых условиях.' }
+        { title: 'Karta Polaka - самый быстрый путь', desc: 'Если у вас на руках Карта поляка, ВНЖ вообще не нужен - идёте прямо на pobyt stały. Львовяне, гродненцы, жители Бреста и Винницы пользуются этим основанием чаще всего.' },
+        { title: 'Польские корни (pochodzenie polskie)', desc: 'Прадед родился во Львове до 1939-го? Бабушка из Гродно? Архивные wypisy из львовских, виленских и брестских ЗАГСов дают право подавать сразу - без 5 лет ожидания.' },
+        { title: 'Супруг(а) гражданина Польши', desc: '3 года официального брака + 2 года непрерывного pobyt czasowy. Развод до решения - основание сгорает.' },
+        { title: '5 лет на ВНЖ в Польше', desc: 'Для украинцев на UKR и beneficjentów ochrony czasowej - срок UKR в стаж не идёт. Считаем только karta pobytu czasowego.' },
+        { title: 'Статус беженца / ochrona uzupełniająca', desc: 'После 5 лет с момента подачи на международную защиту, не с момента получения статуса.' },
+        { title: 'Ребёнок родился в Польше у родителя с ПМЖ', desc: 'Если на момент рождения хотя бы один родитель уже держал pobyt stały - подаём отдельный wniosek на ребёнка.' }
       ]
     },
     timeline: {
-      title: 'Процесс получения',
+      title: 'Как идёт дело по шагам',
       steps: [
-        { title: 'Оценка основания', duration: '30 мин', desc: 'Разбираем, подходит ли ваш случай под какое-то из оснований ПМЖ.' },
-        { title: 'Сбор документов', duration: '2-4 недели', desc: 'Свидетельства, переводы, доказательства польских корней (при необходимости).' },
-        { title: 'Подача в MOS v2.0', duration: '1 день', desc: 'Загружаем заявление, оплачиваем opłatę skarbową 640 PLN.' },
-        { title: 'Биометрия', duration: '1 визит', desc: 'Сдача отпечатков и фото у воеводы.' },
-        { title: 'Рассмотрение', duration: '3-6 мес', desc: 'Отвечаем на запросы через eDoręczenia.' },
-        { title: 'Выдача карты', duration: '7 дней', desc: '+100 PLN за бланк. После этого - можно подавать на гражданство через 3 года.' }
+        { title: 'Разбор основания', duration: '30 мин', desc: 'На бесплатной встрече смотрим, по какому из шести оснований вы реально проходите. Часто работодатель в Варшаве уже дал 5-летнюю карту - значит основание созрело.' },
+        { title: 'Сбор бумаг', duration: '2-4 недели', desc: 'Заказ wypisów из украинских и белорусских архивов идёт через консульство - закладывайте время.' },
+        { title: 'Запись на pl. Bankowy 3/5', duration: '1 день', desc: 'Подача через MOS v2.0 + оплата 640 PLN на счёт Mazowieckiego Urzędu Wojewódzkiego.' },
+        { title: 'Отпечатки и подпись', duration: '1 визит', desc: 'Биометрия проходит на Wojska Polskiego 17 - корпус Wydziału Spraw Cudzoziemców. По записи, без живой очереди.' },
+        { title: 'Stempel в паспорт', duration: 'в день подачи', desc: 'Печать о подаче (stempel) даёт легальное право работать и выезжать в Шенген до решения.' },
+        { title: 'Карта на руки', duration: '7-14 дней после решения', desc: '+100 PLN за пластик. Через 3 года pobytu stałego открывается путь на obywatelstwo polskie.' }
       ]
     },
     documents: {
-      title: 'Документы для ПМЖ',
+      title: 'Что собирать на pobyt stały',
       items: [
-        'Wniosek o udzielenie zezwolenia na pobyt stały (заполняем мы)',
-        'Загранпаспорт + все внутренние документы',
-        '4 биометрических фото 35×45 мм',
-        'Документ, подтверждающий основание (свидетельство о браке, Karta Polaka, решение о беженстве и т.д.)',
-        'Доказательства польских корней - для соответствующего основания (архивные выписки, akty urodzenia предков)',
-        'Источники дохода за последние 2 года (PIT, выписки)',
-        'Umowa najmu или zameldowanie',
-        'Медицинская страховка',
-        'Подтверждение уплаты 640 PLN'
+        'Загранпаспорт + копии всех страниц с печатями',
+        'Wniosek o udzielenie zezwolenia na pobyt stały - заполняем мы на польском',
+        '4 фото 35×45 мм со светлым фоном, не старше 6 мес',
+        'Документ под основание - akt małżeństwa с апостилем, Karta Polaka, decyzja uchodźcza',
+        'Архивные wypisy на польских предков - чаще всего из ЗАГСов Львова, Гродно, Бреста, Винницы',
+        'Tytuł prawny do mieszkania - umowa najmu okazjonalnego или zameldowanie czasowe',
+        'PIT-37 или PIT-11 за последние 2 года + умова о працы',
+        'Ubezpieczenie zdrowotne - ZUS RMUA либо приватная страховка',
+        'Dowód wpłaty 640 PLN на счёт воеводства'
       ]
     },
     pricing: {
-      title: 'Стоимость работы',
+      title: 'Сколько стоит вести дело',
       items: [
-        { label: 'Консультация', value: 'Бесплатно', note: 'Оценка основания' },
-        { label: 'Сопровождение ПМЖ', value: 'от 3 500 PLN', note: 'Под ключ' },
-        { label: 'Подтверждение польских корней', value: 'от 2 000 PLN', note: 'Архивная работа отдельно' }
+        { label: 'Первая встреча', value: 'Бесплатно', note: 'Разбираем основание и сроки' },
+        { label: 'Полное ведение pobytu stałego', value: 'от 3 500 PLN', note: 'От wniosku до получения карты' },
+        { label: 'Подтверждение польских корней', value: 'от 2 000 PLN', note: 'Работа с архивами Львова, Гродно, Вильнюса' }
       ],
-      note: 'Госпошлины 640 + 100 PLN оплачиваются отдельно.'
+      note: 'Госпошлины 640 + 100 PLN платите напрямую воеводству.'
     },
     legalBase: {
-      title: 'Нормативная база',
+      title: 'На что мы опираемся',
       items: [
-        'Ustawa o cudzoziemcach - Dział IV (pobyt stały)',
-        'Ustawa o Karcie Polaka z 7 września 2007 r.',
-        'Konwencja Genewska z 1951 r. o statusie uchodźców'
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach - Dział IV',
+        'Ustawa z dnia 7 września 2007 r. o Karcie Polaka',
+        'Konwencja Genewska 1951 r. - dla uchodźców'
       ]
     },
     faq: [
-      { q: 'Нужен ли мне польский B1 для ПМЖ?', a: 'Только для отдельных оснований (натурализация) - для базового ПМЖ по браку или Karcie Polaka экзамен не требуется.' },
-      { q: 'Могу ли я сразу подать на ПМЖ, минуя ВНЖ?', a: 'Да, если у вас Karta Polaka, вы супруг(а) гражданина Польши после 3 лет брака и 2 лет пребывания, или беженец после 5 лет статуса.' },
-      { q: 'Что будет, если истекает карта, а статус бессрочный?', a: 'Статус остаётся. Нужно только перевыпустить карту - госпошлина 100 PLN, заявление подаётся за месяц до истечения срока.' },
-      { q: 'Когда можно подавать на гражданство после ПМЖ?', a: 'Через 3 года непрерывного пребывания на ПМЖ + польский B1 + стабильный доход + жильё. В особых случаях (супруги) быстрее.' },
-      { q: 'Теряю ли я первое гражданство?', a: 'Польша допускает двойное гражданство. Но ваша страна может требовать отказа - это надо уточнять отдельно.' }
+      { q: 'У меня карта Polaka - реально не нужно жить 5 лет до подачи?', a: 'Реально. Karta Polaka - это самостоятельное основание по Art. 195 ust. 1 pkt 9 ustawy o cudzoziemcach. Хоть на следующий день после переезда из Минска или Львова - можно подавать на pobyt stały напрямую.' },
+      { q: 'Время по UKR засчитывается в 5 лет для ПМЖ?', a: 'Нет. Пребывание по защите UKR в стаж pobytu stałego не идёт. Срок начинает идти только с первой karty pobytu czasowego - это важно для украинцев, которые приехали после февраля 2022-го.' },
+      { q: 'Нужен ли мне польский B1?', a: 'Для самой pobyt stały - нет, языкового экзамена нет ни на одном основании. B1 потребуется позже, через 3 года, когда подаёте на гражданство.' },
+      { q: 'Что если карта закончилась, а решения о pobyt stały ещё нет?', a: 'Если подали wniosek до окончания предыдущей карты - получаете stempel в паспорт, и он легализует пребывание до момента решения. Главное - подать заранее, минимум за 45 дней.' },
+      { q: 'Сохраню ли украинское / белорусское гражданство?', a: 'С точки зрения Польши - да, она допускает множественное гражданство. По линии вашей страны: Украина формально требует отказа при принятии нового гражданства, Беларусь - аналогично. На этапе ПМЖ это пока не критично - вопрос встаёт только при obywatelstwie polskim.' }
     ],
     related: ['karta-pobytu', 'obywatelstwo', 'karta-polaka'],
-    ctaTitle: 'Готовы перейти с ВНЖ на ПМЖ?',
-    ctaSubtitle: 'Бесплатная консультация - оценим основания и сроки под ваш случай.'
+    ctaTitle: 'Пять лет уже в Польше? Пора на ПМЖ',
+    ctaSubtitle: 'На бесплатной встрече разберём ваше основание, проверим стаж и скажем, по какому пути идти быстрее.'
   },
   pl: {
     slug: 'karta-stalego-pobytu',
     group: 'immigration',
     icon: 'home',
-    badge: 'PR',
+    badge: 'Pobyt stały',
     title: 'Karta Stałego Pobytu',
-    subtitle: 'Zezwolenie na pobyt stały w Polsce',
-    lead: 'Pobyt stały w Polsce wydawany jest bezterminowo, a sama karta - na 10 lat z możliwością wymiany. Daje prawa niemal jak obywatelom, z wyjątkiem wyborów i służby cywilnej.',
+    subtitle: 'Zezwolenie na pobyt stały oraz status rezydenta długoterminowego UE',
+    lead: "Zezwolenie na pobyt stały, udzielane na podstawie art. 195 ustawy o cudzoziemcach, ma charakter bezterminowy. Karta pobytu - jako dokument materialny - jest wymieniana co 10 lat. Status zbliża się charakterem do statusu rezydenta długoterminowego UE w rozumieniu Dyrektywy 2003/109/WE i otwiera ścieżkę do obywatelstwa polskiego po trzech latach.",
     facts: [
-      { label: 'Status', value: 'bezterminowo', note: 'karta wymieniana co 10 lat' },
-      { label: 'Opłata', value: '640 + 100 PLN', note: 'wniosek + karta' },
-      { label: 'Decyzja', value: '3-6 mies', note: 'ustawowo do 180 dni' },
-      { label: 'Rezultat', value: 'prawa jak obywateli', note: 'bez prawa głosu' }
+      { label: 'Podstawa prawna', value: 'art. 195 u.o.c.', note: 'ustawa z 12.12.2013 r. o cudzoziemcach' },
+      { label: 'Charakter', value: 'bezterminowy', note: 'karta wymieniana w cyklu 10-letnim' },
+      { label: 'Opłaty urzędowe', value: '640 + 100 PLN', note: 'opłata skarbowa za wniosek + opłata za kartę' },
+      { label: 'Termin ustawowy', value: 'do 180 dni', note: 'art. 35 k.p.a. - faktycznie 3-6 miesięcy' }
     ],
     grounds: {
-      title: 'Kto może otrzymać pobyt stały',
+      title: 'Przesłanki udzielenia zezwolenia (art. 195 u.o.c.)',
       items: [
-        { title: 'Małżonkowie obywateli Polski', desc: 'Po 3 latach małżeństwa i 2 latach nieprzerwanego pobytu na TRC.' },
-        { title: 'Osoby polskiego pochodzenia', desc: 'Z dowodem polskich korzeni (rodzice / dziadkowie) i zamiarem stałego osiedlenia.' },
-        { title: 'Posiadacze Karty Polaka', desc: 'Z Kartą Polaka można złożyć wniosek od razu, bez wcześniejszego TRC.' },
-        { title: 'Uchodźcy i osoby z ochroną humanitarną', desc: 'Po 5 latach pobytu ze statusem uchodźcy lub ochroną.' },
-        { title: 'Dzieci urodzone w Polsce', desc: 'Małoletnie dzieci posiadaczy PR urodzone w Polsce.' },
-        { title: 'Ofiary handlu ludźmi', desc: 'Z pobytem humanitarnym lub ochroną uzupełniającą na szczególnych warunkach.' }
+        { title: 'Małżonek obywatela RP - art. 195 ust. 1 pkt 4', desc: 'Wymagane: pozostawanie w związku małżeńskim z obywatelem polskim przez co najmniej 3 lata przed złożeniem wniosku oraz bezpośrednio przed nim co najmniej 2 lata nieprzerwanego pobytu na podstawie zezwolenia na pobyt czasowy.' },
+        { title: 'Osoba polskiego pochodzenia - art. 195 ust. 1 pkt 3', desc: 'Konieczne wykazanie polskiej narodowości co najmniej jednego z rodziców, dziadków lub dwojga pradziadków, łącznie z zamiarem osiedlenia się na stałe na terytorium Rzeczypospolitej.' },
+        { title: 'Posiadacz Karty Polaka - art. 195 ust. 1 pkt 9', desc: 'Cudzoziemiec posiadający ważną Kartę Polaka może wnioskować o pobyt stały z zamiarem osiedlenia się w Polsce, bez konieczności uprzedniego zezwolenia na pobyt czasowy.' },
+        { title: 'Status uchodźcy lub ochrona uzupełniająca - art. 195 ust. 1 pkt 6-7', desc: 'Cudzoziemiec, któremu udzielono ochrony, po 5 latach nieprzerwanego pobytu w Polsce, liczonym od dnia złożenia wniosku o ochronę międzynarodową.' },
+        { title: 'Małoletnie dziecko posiadacza pobytu stałego', desc: 'Dziecko cudzoziemca posiadającego zezwolenie na pobyt stały, urodzone już po uzyskaniu przez rodzica tego zezwolenia - wniosek składa przedstawiciel ustawowy.' },
+        { title: 'Ofiara handlu ludźmi - art. 195 ust. 1 pkt 5', desc: 'Cudzoziemiec spełniający przesłanki przewidziane w przepisach o pobycie humanitarnym lub ochronie uzupełniającej, w warunkach szczególnych przewidzianych ustawą.' }
       ]
     },
     timeline: {
-      title: 'Jak przebiega sprawa',
+      title: 'Etapy postępowania administracyjnego',
       steps: [
-        { title: 'Ocena podstawy', duration: '30 min', desc: 'Sprawdzamy, czy Twój przypadek kwalifikuje się na PR.' },
-        { title: 'Zbiór dokumentów', duration: '2-4 tyg', desc: 'Akty, tłumaczenia, dowody polskich korzeni.' },
-        { title: 'Złożenie w MOS v2.0', duration: '1 dzień', desc: 'Wniosek + 640 PLN opłaty.' },
-        { title: 'Odciski palców', duration: '1 wizyta', desc: 'Biometria u wojewody.' },
-        { title: 'Rozpatrzenie', duration: '3-6 mies', desc: 'Odpowiadamy na wezwania przez eDoręczenia.' },
-        { title: 'Wydanie karty', duration: '7 dni', desc: '+100 PLN. Po PR - wniosek o obywatelstwo za 3 lata.' }
+        { title: 'Analiza przesłanek', duration: '30 min', desc: 'Bezpłatna konsultacja - weryfikujemy, którą z przesłanek art. 195 u.o.c. Państwo spełniają oraz czy spełniony jest wymóg integracji ze społeczeństwem polskim.' },
+        { title: 'Kompletowanie dokumentacji', duration: '2-4 tygodnie', desc: 'Tłumaczenia przysięgłe, apostille na aktach zagranicznych, kwerendy archiwalne przy przesłance pochodzenia.' },
+        { title: 'Złożenie wniosku w MOS v2.0', duration: '1 dzień', desc: 'Wniosek składa się do wojewody właściwego ze względu na miejsce pobytu. Uiszczamy 640 PLN opłaty skarbowej na rachunek właściwego urzędu wojewódzkiego.' },
+        { title: 'Czynności biometryczne', duration: '1 wizyta', desc: 'Pobranie odcisków linii papilarnych i podpisu cudzoziemca - obowiązek z art. 9 u.o.c.' },
+        { title: 'Postępowanie wyjaśniające', duration: '3-6 miesięcy', desc: 'Korespondencja przez system eDoręczeń, odpowiedzi na wezwania wojewody, ewentualne przesłuchanie cudzoziemca.' },
+        { title: 'Decyzja i wydanie karty', duration: '7-14 dni od decyzji', desc: 'Po uzyskaniu decyzji pozytywnej - opłata 100 PLN za wydanie karty pobytu. Otwiera to drogę do wniosku o obywatelstwo polskie po 3 latach (art. 30 ustawy o obywatelstwie polskim).' }
       ]
     },
     documents: {
-      title: 'Dokumenty do pobytu stałego',
+      title: 'Wymagane dokumenty - załączniki do wniosku',
       items: [
-        'Wniosek o udzielenie zezwolenia na pobyt stały',
-        'Paszport + dokumenty krajowe',
-        '4 zdjęcia biometryczne 35×45 mm',
-        'Dokument potwierdzający podstawę (akt ślubu, Karta Polaka, decyzja o uchodźstwie)',
-        'Dowody polskich korzeni - dla odpowiedniej podstawy (akty archiwalne, akty urodzenia przodków)',
-        'Źródła dochodu za ostatnie 2 lata (PIT, wyciągi)',
-        'Umowa najmu lub zameldowanie',
-        'Ubezpieczenie zdrowotne',
-        'Potwierdzenie opłaty 640 PLN'
+        'Wniosek o udzielenie zezwolenia na pobyt stały (3 egzemplarze), wypełniony w języku polskim',
+        'Cztery aktualne fotografie spełniające wymogi rozporządzenia (35×45 mm)',
+        'Kserokopia ważnego dokumentu podróży wraz z okazaniem oryginału',
+        'Dokumenty potwierdzające przesłankę (akt małżeństwa z apostille, Karta Polaka, decyzja o nadaniu statusu uchodźcy)',
+        'Akty stanu cywilnego potwierdzające polskie pochodzenie - dla przesłanki z art. 195 ust. 1 pkt 3',
+        'Dokumenty potwierdzające źródła dochodu (PIT-37, PIT-11 za ostatnie 2 lata, zaświadczenie o zatrudnieniu)',
+        'Tytuł prawny do zajmowania lokalu mieszkalnego (umowa najmu, akt notarialny, zameldowanie)',
+        'Dokument potwierdzający posiadanie ubezpieczenia zdrowotnego (NFZ lub prywatne)',
+        'Dowód uiszczenia opłaty skarbowej w wysokości 640 PLN'
       ]
     },
     pricing: {
-      title: 'Nasze honorarium',
+      title: 'Wynagrodzenie kancelarii',
       items: [
-        { label: 'Konsultacja', value: 'Gratis', note: 'Ocena podstawy' },
-        { label: 'Prowadzenie PR', value: 'od 3 500 PLN', note: 'Pod klucz' },
-        { label: 'Potwierdzenie pochodzenia', value: 'od 2 000 PLN', note: 'Praca archiwalna osobno' }
+        { label: 'Kompleksowe prowadzenie sprawy', value: 'od 3 500 PLN', note: 'Od analizy do odbioru karty - obsługa korespondencji urzędowej' },
+        { label: 'Postępowanie w sprawie polskiego pochodzenia', value: 'od 2 000 PLN', note: 'Kwerendy archiwalne rozliczane odrębnie' },
+        { label: 'Konsultacja wstępna', value: 'Bezpłatnie', note: 'Ocena przesłanek z art. 195 u.o.c.' }
       ],
-      note: 'Opłaty urzędowe 640 + 100 PLN - osobno.'
+      note: 'Opłaty publicznoprawne 640 + 100 PLN uiszcza Klient bezpośrednio na rachunek urzędu wojewódzkiego.'
     },
     legalBase: {
-      title: 'Podstawa prawna',
+      title: 'Akty prawne mające zastosowanie',
       items: [
-        'Ustawa o cudzoziemcach - Dział IV (pobyt stały)',
-        'Ustawa o Karcie Polaka z 7 września 2007 r.',
-        'Konwencja Genewska z 1951 r. o statusie uchodźców'
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (Dz.U. 2013 poz. 1650 ze zm.) - Dział IV',
+        'Dyrektywa Rady 2003/109/WE w sprawie statusu obywateli państw trzecich będących rezydentami długoterminowymi',
+        'Ustawa z dnia 7 września 2007 r. o Karcie Polaka (Dz.U. 2007 nr 180 poz. 1280)'
       ]
     },
     faq: [
-      { q: 'Czy potrzebuję polskiego B1?', a: 'Tylko przy naturalizacji - do PR po małżeństwie lub Karcie Polaka egzamin nie jest wymagany.' },
-      { q: 'Czy mogę od razu PR, z pominięciem TRC?', a: 'Tak, jeśli masz Kartę Polaka, jesteś małżonkiem obywatela po 3 latach małżeństwa i 2 latach pobytu, lub uchodźcą po 5 latach statusu.' },
-      { q: 'Co się stanie, gdy karta wygaśnie, a status jest bezterminowy?', a: 'Status pozostaje. Trzeba tylko wymienić kartę - opłata 100 PLN, wniosek na miesiąc przed końcem ważności.' },
-      { q: 'Kiedy można się ubiegać o obywatelstwo po PR?', a: 'Po 3 latach nieprzerwanego pobytu na PR + polski B1 + stabilny dochód + mieszkanie. W przypadkach szczególnych szybciej.' },
-      { q: 'Czy stracę pierwsze obywatelstwo?', a: 'Polska dopuszcza podwójne obywatelstwo. Ale Twój kraj może wymagać zrzeczenia - trzeba to sprawdzić osobno.' }
+      { q: 'Czym różni się zezwolenie na pobyt stały od statusu rezydenta długoterminowego UE?', a: 'Oba zezwolenia są bezterminowe i wynikają z różnych przesłanek. Pobyt stały (art. 195 u.o.c.) opiera się głównie na więzach z Polską - małżeństwo, pochodzenie, Karta Polaka. Status rezydenta długoterminowego UE (art. 211 u.o.c., implementacja Dyrektywy 2003/109/WE) wymaga 5 lat nieprzerwanego pobytu, znajomości języka polskiego na poziomie co najmniej B1 oraz stabilnego dochodu. Daje natomiast prawo przeniesienia pobytu do innego państwa członkowskiego UE.' },
+      { q: 'Czy wymagana jest znajomość języka polskiego na poziomie B1?', a: 'W przypadku pobytu stałego (art. 195 u.o.c.) ustawa nie wymaga zdania egzaminu certyfikatowego - znajomość języka oceniana jest w kontekście wymogu integracji. Egzamin B1 (certyfikat państwowy) jest natomiast obligatoryjny przy ubieganiu się o obywatelstwo polskie oraz przy statusie rezydenta długoterminowego UE.' },
+      { q: 'W jaki sposób spełnić wymóg integracji ze społeczeństwem polskim?', a: 'Wymóg integracji oceniany jest łącznie - na podstawie znajomości języka, stabilności zatrudnienia, posiadania miejsca zamieszkania, więzi rodzinnych oraz długości i charakteru pobytu. W postępowaniu pomocne są: świadectwo pracy, umowy o pracę, zaświadczenia o nauce dzieci w polskich szkołach, certyfikaty językowe.' },
+      { q: 'Co się dzieje, gdy karta wygasa, a status pozostaje bezterminowy?', a: 'Zgodnie z art. 244 u.o.c. status zezwolenia na pobyt stały nie wygasa wraz z dokumentem materialnym. Konieczne jest złożenie wniosku o wymianę karty pobytu nie później niż na 30 dni przed upływem terminu ważności - opłata wynosi 100 PLN, bez ponownego badania przesłanek.' },
+      { q: 'Po jakim czasie można ubiegać się o obywatelstwo polskie?', a: 'Po 3 latach nieprzerwanego pobytu na podstawie zezwolenia na pobyt stały, łącznie ze spełnieniem wymogów art. 30 ust. 1 ustawy o obywatelstwie polskim - certyfikat języka polskiego na poziomie B1, ustabilizowane i regularne źródło dochodu oraz tytuł prawny do lokalu mieszkalnego.' }
     ],
     related: ['karta-pobytu', 'obywatelstwo', 'karta-polaka'],
-    ctaTitle: 'Gotów przejść z TRC na PR?',
-    ctaSubtitle: 'Bezpłatna konsultacja - ocenimy podstawy i terminy pod Twoją sprawę.'
+    ctaTitle: 'Zezwolenie na pobyt stały - poprowadzimy Państwa sprawę',
+    ctaSubtitle: 'Bezpłatna analiza przesłanek z art. 195 ustawy o cudzoziemcach i ocena perspektyw uzyskania decyzji pozytywnej.'
   },
   en: {
     slug: 'karta-stalego-pobytu',

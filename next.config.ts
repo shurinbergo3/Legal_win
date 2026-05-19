@@ -27,7 +27,13 @@ const nextConfig: NextConfig = {
         source: '/apple-touch-icon-precomposed.png',
         destination: '/apple-touch-icon.png',
         permanent: true
-      }
+      },
+      {
+        source: '/files/policy_20250410151644.pdf',
+        destination: '/ru/polityka-prywatnosci',
+        permanent: true
+      },
+      { source: '/tr/uslugi/business', destination: '/tr', permanent: true }
     ];
   }
 };

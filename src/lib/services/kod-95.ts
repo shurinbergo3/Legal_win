@@ -251,121 +251,121 @@ const kod95: ServiceEntry = {
     icon: 'id-card',
     badge: 'C/CE/D/DE · EU CPC',
     title: 'Code 95',
-    subtitle: 'Driver Certificate of Professional Competence (Polish Kod 95)',
-    lead: 'Kod 95 - the "95" entry on the back of a Polish prawo jazdy - certifies a driver\'s professional competence under EU Directive 2003/59/EC. It\'s mandatory for everyone driving HGVs above 3.5 t (categories C, CE) and buses (D, DE) commercially. Without it: fines up to 8,000 PLN for the driver and 12,000 PLN for the operator.',
+    subtitle: "Driver CPC for Poland (the Polish kod 95 entry)",
+    lead: "Code 95 is the small \"95\" code on the back of your Polish licence next to category C, CE, D or DE. It proves you've cleared the Driver CPC training required by EU Directive 2003/59/EC. Same legal regime as the UK and Irish Driver CPC, with one twist: post-Brexit, UK CPC cards no longer work in the EU, and a US CDL gives you nothing at all. Drive an HGV or coach commercially in Poland without kod 95 and ITD will fine you up to 8,000 PLN on the spot. The operator catches a separate 12,000 PLN bill.",
     facts: [
-      { label: 'Validity', value: '5 years', note: 'renewed via szkolenie okresowe' },
-      { label: 'Categories', value: 'C / CE / D / DE', note: 'HGVs >3.5 t and buses' },
-      { label: 'Minimum hours', value: '35 h', note: 'periodic training · every 5 years' },
-      { label: 'Where', value: 'OSK + WORD', note: 'accredited training centre + state exam' }
+      { label: 'Validity', value: '5 years', note: 'renewed by szkolenie okresowe' },
+      { label: 'Categories', value: 'C / CE / D / DE', note: 'HGV (LGV) and coach' },
+      { label: 'Periodic training', value: '35 hours', note: 'every 5 years, same as UK CPC' },
+      { label: 'Where it happens', value: 'OSK + WORD', note: 'accredited school + state exam' }
     ],
     grounds: {
-      title: 'Three paths to Kod 95',
-      subtitle: 'Which one fits depends on your age, experience, and whether you already held a CPC in another EU country.',
+      title: 'Four routes onto your licence',
+      subtitle: "Which one you take depends on age, whether you've held an EU CPC before, and what licence you're driving on today.",
       items: [
         {
           title: 'Kwalifikacja wstępna (full) - 280 hours',
-          desc: 'For those who never held a Kod 95 and want to drive C from age 18 or D from age 21. 260 h theory + practice + 20 h driving. Ends with a state exam at WORD.'
+          desc: "The long route. For drivers who never held an EU CPC and want a head start: category C from 18, D from 21. 260 hours of theory plus 20 hours behind the wheel, finished with a state test at WORD (the regional traffic exam centre). Most lorry drivers don't need this one."
         },
         {
           title: 'Kwalifikacja wstępna przyspieszona - 140 hours',
-          desc: 'Accelerated route for drivers who reached 21 (C, CE) or 23 (D, DE). 130 h theory + 10 h driving. Same WORD exam.'
+          desc: 'The accelerated route, and the one most adults end up on. Open from 21 (C/CE) or 23 (D/DE). 130 hours of theory, 10 hours of driving, same WORD test at the end. Roughly half the length of the UK Initial CPC, but the syllabus is recognisably the same.'
         },
         {
           title: 'Szkolenie okresowe - 35 hours',
-          desc: 'Periodic training every 5 years for those whose Kod 95 already exists and is expiring. No exam. Can be split into 7 h modules across the full five-year window.'
+          desc: "Periodic training, every 5 years. If you already hold kod 95 and just need to renew, this is your route. No exam, no WORD visit, no panic. You can split it into five 7-hour modules across the whole 5-year window - useful if you're juggling international runs."
         },
         {
-          title: 'Recognition of foreign CPC',
-          desc: 'Kod 95 / CPC issued in another EU/EEA state is recognised in Poland automatically. CPCs from Ukraine, Belarus, Russia or Kazakhstan are not officially recognised - you have to take kwalifikację wstępną from scratch.'
+          title: 'Recognition of a foreign CPC',
+          desc: "Hold a German, Lithuanian, Irish or any other EU/EEA Driver CPC card? Polish operators will accept it without paperwork. UK DQC cards issued before Brexit work until they expire, but renewals must happen in Poland. Ukrainian, Belarusian, Russian or Kazakh CPCs aren't recognised at all - you start fresh on kwalifikacja wstępna przyspieszona."
         }
       ]
     },
     timeline: {
-      title: 'How we run it end-to-end',
-      subtitle: 'From first call to the new "95" entry in your licence. We need your passport, your licence, and your willingness to drive.',
+      title: 'How the whole thing actually runs',
+      subtitle: 'From the first WhatsApp message to a new "95" stamped on your licence. You bring a passport, your current licence and time. We do everything else.',
       steps: [
-        { title: 'Diagnosis', duration: '30 min', desc: 'In the free consultation we identify your route: szkolenie okresowe, accelerated initial qualification or the full one.' },
-        { title: 'Foreign licence exchange', duration: '14-30 days', desc: 'If you hold a CIS licence - we organise the swap to a Polish one (sworn translations, medical exam, application to starostwo).' },
-        { title: 'Medical & psych exams', duration: '1-2 days', desc: 'We book badania lekarskie cat. 2 (professional drivers) and psychotechnika with an accredited psychologist.' },
-        { title: 'OSK enrolment', duration: '1-7 days', desc: 'We pick a training centre with classes in your preferred language (Russian-speaking instructors are common) and a schedule that fits your work.' },
-        { title: 'Training', duration: '35-280 h', desc: 'Periodic training is usually 5 days × 7 h or modular. Initial qualification spans several weeks with breaks for work.' },
-        { title: 'WORD exam', duration: '1 day', desc: 'Initial qualification only. 30-question test, pass mark 16. We attend with a consultant; on a fail - retake support.' },
-        { title: 'Code 95 entry into the licence', duration: '14 days', desc: 'We file with starostwo, pay the 100 PLN opłata. The "95" appears on the back of your prawo jazdy with a 5-year expiry.' }
+        { title: 'Free diagnosis', duration: '30 min', desc: "We work out which route you're on (renewal vs. full vs. accelerated) and whether your current licence even qualifies for exchange. About 20% of UK and Irish drivers we see have surprises in their paperwork." },
+        { title: 'Licence exchange (if needed)', duration: '14-30 days', desc: "If you're driving on a Ukrainian, Belarusian or non-EU licence, we swap it for a Polish prawo jazdy first. Sworn translation, badania lekarskie, application to starostwo. UK Photocard licences exchange directly without a retest under the bilateral arrangement; we handle that filing too." },
+        { title: 'Medical + psychotechnika', duration: '1-2 days', desc: "Cat. 2 medical with a doctor licensed for professional drivers (around 250 PLN), and a psychotechnical assessment with an accredited psychologist (around 200 PLN). Both required, both valid 5 years. We book both for the same morning." },
+        { title: 'OSK enrolment', duration: '1-7 days', desc: "We pick an OSK (ośrodek szkolenia kierowców - the licensed driver school) with the right language for you. English-only OSKs are rare; mixed Polish-Russian classes with materials in English do exist in Warsaw, Wrocław and Gdańsk. We've vetted the ones that actually deliver." },
+        { title: 'The training itself', duration: '35-280 hours', desc: "Periodic training: usually five 7-hour days, sometimes spread over weekends if you're still driving. Full or accelerated initial qualification runs three to six weeks with built-in breaks. The 2024 update added 2.5 hours of mandatory practical per 35-hour block." },
+        { title: 'WORD state exam', duration: '1 day', desc: "Only for initial qualification (not renewal). 30 multiple-choice questions, 16 right to pass. Available in English in most voivodeships, though Mazowieckie and Małopolska have the widest slots. Fail and you retake; the consultant who came with you the first time comes again." },
+        { title: 'Kod 95 entered on your licence', duration: '14 days', desc: "We file the wniosek at starostwo and pay the 100 PLN opłata skarbowa. Your new licence (printed at PWPW, the state security printer) arrives with \"95\" on the back next to each professional category, with a fresh 5-year date." }
       ]
     },
     documents: {
-      title: 'What we need from you',
-      subtitle: 'Base set. Exact list adjusted to your route.',
+      title: 'What you bring to the table',
+      subtitle: 'Starting list. We adjust it once we know your route and which country issued your current licence.',
       items: [
-        'Polish prawo jazdy cat. C/CE/D/DE (or your foreign licence to exchange)',
-        'PESEL and karta pobytu (or another document proving legal residence)',
-        'Passport + photo-page copy',
-        'Orzeczenie lekarskie (medical exam for professional drivers, valid 5 years)',
-        'Orzeczenie psychologiczne (psychotechnika) - valid 5 years',
-        'If you hold an EU Kod 95 - original + sworn translation',
-        'If a course was taken in the EU - CPC certificate + translation',
-        '2 recent 35×45 mm photos (for licence exchange)'
+        'Current driving licence: Polish prawo jazdy in cat. C/CE/D/DE, or your UK, Irish, EU, Ukrainian or other licence for exchange',
+        'PESEL and karta pobytu (or any document proving legal residence - D-visa, EU registration certificate, etc.)',
+        'Passport with the photo page copied',
+        'Orzeczenie lekarskie - the medical certificate for professional drivers, valid 5 years (we book the doctor)',
+        'Orzeczenie psychologiczne from a psychotechnika exam, also 5 years',
+        'Existing EU CPC card or DQC, plus a sworn Polish translation if not already in EU format',
+        "Świadectwo kwalifikacji or course completion certificate from any EU CPC training you've already done",
+        'Two 35×45 mm biometric photos for the licence reprint at PWPW'
       ]
     },
     pricing: {
-      title: 'Our fees',
-      subtitle: 'Transparent, fixed honoraria. Contract signed before we start.',
+      title: 'Our fees, on the table',
+      subtitle: "Fixed retainers. We sign a contract before any work starts so there's no \"oh by the way\" later.",
       items: [
-        { label: 'Consultation & route mapping', value: 'Free', note: '30 minutes · case assessment' },
-        { label: 'Full Kod 95 turnkey', value: 'from 1,200 PLN', note: 'OSK, paperwork, exams, WORD' },
-        { label: 'Licence exchange only', value: 'from 600 PLN', note: 'Translations, medicals, starostwo' },
-        { label: 'Appeal against starosta refusal', value: 'from 1,200 PLN', note: 'Separate retainer for the challenge' }
+        { label: 'Diagnosis call', value: 'Free', note: '30 minutes, route decided' },
+        { label: 'Full kod 95 turnkey', value: 'from 1,200 PLN', note: 'OSK, medicals, exam, starostwo filing' },
+        { label: 'Licence exchange only', value: 'from 600 PLN', note: 'Translations, medicals, starostwo wniosek' },
+        { label: 'Appeal after a starosta refusal', value: 'from 1,200 PLN', note: 'Separate retainer, separate scope' }
       ],
-      note: 'Above are LegalWin fees. OSK course fees (from 1,800 PLN for periodic training, from 5,500 PLN for accelerated initial qualification), medical exam (~250 PLN), psychotechnika (~200 PLN) and opłata skarbowa (100 PLN) are billed separately at provider rates.'
+      note: "Above is what LegalWin charges. Third-party costs run separately at the provider's rate: OSK course (from 1,800 PLN for szkolenie okresowe; from 5,500 PLN for kwalifikacja wstępna przyspieszona), badania lekarskie around 250 PLN, psychotechnika around 200 PLN, and 100 PLN opłata skarbowa at starostwo. Budget around 3,200-3,700 PLN all-in for a renewal."
     },
     legalBase: {
-      title: 'Legal basis',
+      title: 'The law behind it',
       items: [
-        'Act of 6 September 2001 on road transport (chapter 7a - professional qualification)',
-        'Act of 5 January 2011 on persons driving vehicles',
-        'Regulation of the Minister of Infrastructure on training of professional drivers',
-        'Directive 2003/59/EC of the European Parliament and Council (as amended by 2018/645)',
-        'Regulation of the Minister of Justice on the examination of driver licence candidates'
+        'Road Transport Act of 6 September 2001 (Ustawa o transporcie drogowym, chapter 7a on professional qualification)',
+        'Drivers Act of 5 January 2011 (Ustawa o kierujących pojazdami)',
+        "Minister of Infrastructure regulation on training drivers performing road transport - the syllabus rules",
+        'EU Directive 2003/59/EC, as amended by Directive 2018/645 (the EU-wide Driver CPC framework)',
+        "Minister of Justice regulation on driver examination at WORD"
       ]
     },
     faq: [
       {
-        q: 'What does Kod 95 actually cost in Poland?',
-        a: 'Periodic training (szkolenie okresowe, 35 h) turnkey runs about 3,200-3,700 PLN total: ~1,800 PLN for the course, ~250 PLN medical (badania lekarskie), ~200 PLN psych (psychotechnika), 100 PLN opłata skarbowa (state fee), plus our 1,200 PLN+ retainer. Accelerated initial qualification (kwalifikacja wstępna przyspieszona, 140 h) is 7,500-9,000 PLN; the full 280 h route - from 11,000 PLN.'
+        q: "I've held a UK Driver CPC for years. Does it still work in Poland?",
+        a: "Sort of. If your UK DQC card was issued before 1 January 2021 it stays valid in the EU until it expires - and you can drive on it in Poland as a UK national or anyone else. But you cannot renew a UK CPC for EU work post-Brexit. When it expires, you do szkolenie okresowe (35 hours) here in Poland and the new kod 95 lands on your Polish licence. We've seen drivers cut it too fine and lose a fortnight of work."
       },
       {
-        q: 'Can I take Kod 95 without speaking Polish?',
-        a: 'The course - yes; OSKs (ośrodek szkolenia kierowców - driver training centre) with Russian-speaking instructors and materials are common (especially in Warsaw, Wrocław, Gdańsk). The state WORD (Wojewódzki Ośrodek Ruchu Drogowego - voivodeship traffic centre) exam is in Polish, Ukrainian or English (varies by voivodeship). We pick the school and the WORD with the language that works for you.'
+        q: "I'm Irish, driving on an Irish licence with Irish CPC. Anything I need to do?",
+        a: "Nothing legally, while your Irish CPC is valid - Ireland is in the EU and the card works in Poland straight away. The moment you settle in Poland and exchange your Irish licence for a Polish one, you'll want kod 95 entered on the new card too. Otherwise you end up presenting two documents at every roadside check. We do the entry at starostwo for 200-300 PLN if you already hold a valid Irish CPC certificate."
       },
       {
-        q: 'Is Ukrainian or Belarusian CPC recognised?',
-        a: 'No. CPCs from non-EU/EEA countries are not formally recognised in Poland. Even with 20 years of experience you have to take the kwalifikacja wstępna przyspieszona (accelerated initial qualification) (if you\'re 21+ for C / 23+ for D). Foreign service years don\'t count, sadly.'
+        q: 'My CPC came from Ukraine (or Belarus, Russia, Kazakhstan). Does any of it count here?',
+        a: "Honestly, no. Polish law doesn't recognise CPCs from outside the EU/EEA, regardless of how many years you've been driving. You start on kwalifikacja wstępna przyspieszona (140 hours) if you're 21+ for C or 23+ for D. The good news: the accelerated route is far cheaper and shorter than the UK Initial CPC, and we'll match you to an OSK with a Russian-speaking instructor so the theory isn't a slog."
       },
       {
-        q: "What if I don't hold a Polish prawo jazdy?",
-        a: 'We exchange your foreign prawo jazdy (driving licence) for a Polish one first (or you sit a fresh test if your category cannot be swapped). That takes 14-30 days through starostwo (district authority). We do it as step one in parallel with course booking - saves time.'
+        q: 'What about a US CDL?',
+        a: "US Commercial Driver's Licenses don't transfer to Poland at all - the EU has no recognition treaty with any US state. You'd start from scratch: convert to a Polish category B licence first, sit your category C theory and practical at WORD, then take kwalifikacja wstępna przyspieszona for the Driver CPC. Realistic timeline 6-9 months. Most Americans we see end up not bothering and hire local drivers for their Polish operations instead."
       },
       {
-        q: 'What if I have a Code 95 from Germany, Lithuania, Czechia?',
-        a: 'Recognised automatically - Code 95 issued in any EU/EEA state is valid across the EU. Just present it during transports. If it\'s expiring, periodic training can be done in Poland or in the issuing country.'
+        q: "Can I do the course in English? My Polish is basic.",
+        a: "The course itself, yes - English-language OSKs exist in Warsaw, and a couple in Kraków and Gdańsk. They're not advertised loudly, which is why most drivers default to Russian-speaking schools. The WORD state exam (Wojewódzki Ośrodek Ruchu Drogowego, the regional traffic authority) is available in English, Polish or Ukrainian. We file your exam application with the language preference and book a slot at a WORD where English isn't a six-week wait."
       },
       {
-        q: 'What is the fine for working without Kod 95?',
-        a: 'Up to 8,000 PLN for the driver and 12,000 PLN for the carrier per offence. ITD (Inspekcja Transportu Drogowego - Road Transport Inspectorate) checks at roadside and at firms. Insurers also refuse pay-outs after accidents if CPC is invalid.'
+        q: 'What does it actually cost end-to-end?',
+        a: "For a renewal (szkolenie okresowe, 35 hours): around 3,200-3,700 PLN total - 1,800 PLN course, 250 PLN medical, 200 PLN psychotechnika, 100 PLN state fee, 1,200 PLN+ our retainer. Accelerated initial qualification (140 hours): 7,500-9,000 PLN all-in. Full initial qualification (280 hours): 11,000 PLN and up. Cheaper than a UK CPC course of equivalent length, and the WORD exam fee is built into the OSK package."
       },
       {
-        q: 'Can I drive while my old Kod 95 has just expired and the new one is pending?',
-        a: 'No. From the expiry date you cannot drive commercially - even after enrolling in periodic training. Start 2-3 months before expiry. We track expiry dates six months ahead - a frequent service for fleet operators.'
+        q: 'What happens if I keep driving after kod 95 expires?',
+        a: "Don't. ITD (Inspekcja Transportu Drogowego, the Polish road transport inspectorate) runs spot checks at every motorway weighbridge and at depot gates. Driver fine: up to 8,000 PLN. Operator fine: up to 12,000 PLN. The bigger problem is insurance - if you have an accident with an expired CPC, your OC insurer pays the third party then turns around and recovers the full sum from you. We start tracking expiry dates 6 months out for fleet clients to avoid exactly this."
       },
       {
-        q: 'How often does Kod 95 legislation change?',
-        a: 'Big changes came in 2020 (Directive 2018/645) - new modules on ecology, safety and digital tachographs. Since 2024 - mandatory practical sessions of 2.5 h per every 35 h. We track the current syllabus and pick OSKs with up-to-date licences.'
+        q: "How much has the syllabus changed lately, and what's coming?",
+        a: "The 2018/645 amendments landed in Poland in 2020: new modules on ecology, road safety, digital tachographs (the new Smart Tachograph 2 generation, in particular). From 2024, every 35-hour block must include at least 2.5 hours of practical driving - no more pure-classroom courses. The European Commission has consulted on adding alternative-fuel and ADAS modules from 2027; we'll know more by mid-2026. We pick OSKs whose licence and syllabus are already aligned with the latest update."
       }
     ],
     related: ['karta-pobytu', 'apelacje', 'karta-stalego-pobytu'],
-    ctaTitle: 'Sort Kod 95 without paperwork chases',
-    ctaSubtitle: 'Free 30-minute diagnosis: we map the optimal route, calculate the exact budget and lay out the schedule. From first call to a fresh "95" on your licence - 6-10 weeks.'
+    ctaTitle: "Get kod 95 sorted without losing a week to paperwork",
+    ctaSubtitle: "Free 30-minute call. We map your route, price the whole thing, and lay out the calendar. From first call to a new \"95\" on your licence: typically 6-10 weeks for a renewal, longer if exchange or initial qualification is in the mix."
   },
   tr: {
     slug: 'kod-95',

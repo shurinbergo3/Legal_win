@@ -182,88 +182,88 @@ const meldunek: ServiceEntry = {
     group: 'documents',
     icon: 'home',
     badge: 'Temporary / Permanent · USC',
-    title: 'Meldunek (residence registration)',
-    subtitle: 'Polish residence registration for foreigners',
-    lead: 'Zameldowanie is the registration of your actual address in the PESEL register. Foreigners on long-term stay need it for PESEL, school enrolment, vehicle registration, local-government voting and TRC filings via MOS v2.0. We arrange temporary (up to 3 years) or permanent zameldowanie and issue zaświadczenia for the urząd, your bank or employer.',
+    title: 'Meldunek (address registration)',
+    subtitle: 'Register your Polish address, with or without your landlord',
+    lead: "You can't open a corporate bank account, enrol a child in district school, register a car, or file a TRC through MOS v2.0 without an address logged in the PESEL register. That's what zameldowanie does. Most foreigners trip on it because the landlord won't sign the form, or signs it for the wrong period. We handle the wniosek, secure owner consent (or a notarised authorisation if they refuse to show up at urząd), and walk you through the filing. Usually one working day.",
     facts: [
-      { label: 'Issuance', value: '1 day', note: 'after filing at urząd gminy' },
+      { label: 'Registration', value: '1 day', note: 'on-site at urząd dzielnicy' },
       { label: 'State fee', value: '0 PLN', note: 'registration itself is free' },
-      { label: 'Certificate', value: '17 PLN', note: 'wypis for bank/urząd' },
-      { label: 'Types', value: 'Temporary / Permanent', note: 'up to 3 years or indefinite' }
+      { label: 'Certificate', value: '17 PLN', note: 'one wypis for bank or urząd' },
+      { label: 'Types', value: 'Temporary / Permanent', note: 'up to 3 years vs indefinite' }
     ],
     grounds: {
-      title: 'When you need a meldunek',
-      subtitle: 'Polish law obliges foreigners to register within 30 days for stays exceeding 30 days.',
+      title: 'When meldunek actually matters',
+      subtitle: 'Polish law gives foreigners 30 days to register if their stay exceeds 30 days. Here is where the rule bites in practice.',
       items: [
-        { title: 'Temporary residence (up to 3 years)', desc: 'Standard for TRC, D-visa, visa-free, student visa. Tied to your stay document.' },
-        { title: 'Permanent residence', desc: 'Only for PR card holders, EU long-term residents, or Polish citizens. Indefinite.' },
-        { title: 'Filing TRC via MOS v2.0', desc: 'From 2026 zameldowanie is mandatory - without it MOS rejects on formal grounds.' },
-        { title: 'School enrolment', desc: 'District schools enrol children by registered address.' },
-        { title: 'Vehicle registration', desc: 'Wydział komunikacji requires the owner\'s zameldowanie.' },
-        { title: 'Corporate bank account', desc: 'KYC requires either zaświadczenie o zameldowaniu or a tenancy agreement.' },
-        { title: 'Local elections', desc: 'EU foreigners with meldunek ≥ 1 year may vote in local elections.' },
-        { title: 'NFZ healthcare', desc: 'POZ assignment follows registered address.' }
+        { title: 'Filing TRC via MOS v2.0', desc: 'From 2026 the system reads your address straight from PESEL. No zameldowanie means MOS rejects on formal grounds before a clerk reads the case.' },
+        { title: 'Enrolling a child in district school', desc: 'Public schools allocate spots by registered address. Without meldunek you go on a waitlist for any free seat, typically a school across town.' },
+        { title: 'Opening a corporate bank account', desc: 'KYC officers want either zaświadczenie o zameldowaniu or a notarised tenancy. Santander and mBank refuse to onboard without one.' },
+        { title: 'Registering a car', desc: 'Wydział komunikacji needs the owner zameldowanie. Bought a car but not registered locally? Plates sit in limbo.' },
+        { title: 'Temporary residence, up to 3 years', desc: 'Default for TRC, D-visa, student visa, visa-free stays. Tied to the validity of your stay document.' },
+        { title: 'Permanent residence, indefinite', desc: 'Open only to PR cardholders, EU long-term residents, and Polish citizens.' },
+        { title: 'Voting in local elections', desc: 'EU foreigners with at least 12 months of meldunek can vote at commune level.' },
+        { title: 'NFZ healthcare and POZ assignment', desc: 'Your assigned primary-care clinic follows your registered address. Useful if you want a specific GP.' }
       ]
     },
     timeline: {
       title: 'How we run it',
-      subtitle: 'From signing the engagement to a zameldowanie certificate - 1-2 working days.',
+      subtitle: 'Engagement to certificate, typically 1 to 2 working days.',
       steps: [
-        { title: 'Consultation', duration: '20 min', desc: 'Verify stay form, meldunek type, owner consent.' },
-        { title: 'Application prep', duration: '1 day', desc: 'Fill the foreigner registration form or standard wniosek.' },
-        { title: 'Owner consent', duration: '1 day', desc: 'Owner signature on the form or a notarised authorisation. Tenancy attached.' },
-        { title: 'Filing at urząd', duration: '1 visit', desc: 'We escort you to urząd dzielnicy. In person with passport and stay document.' },
-        { title: 'Registration', duration: '1 day', desc: 'PESEL register entry on the spot. Certificate - 17 PLN on request.' },
-        { title: 'Certificates', duration: '1 day', desc: 'Wypisy for KRS, US, ZUS, bank, MOS - as needed.' }
+        { title: 'Free 20-min call', duration: '20 min', desc: 'We map stay form, type of meldunek, and whether the landlord will cooperate.' },
+        { title: 'Application prepared', duration: '1 day', desc: 'We fill the foreigner registration form (cudzoziemiec) or the standard wniosek and pack the supporting documents.' },
+        { title: 'Landlord consent', duration: '1 day', desc: "Signature on the form, or, if they won't come to urząd, a notarised authorisation around 150 PLN at any notariusz." },
+        { title: 'Filing at urząd dzielnicy', duration: '1 visit', desc: 'We meet you outside the building. In person with passport and stay document. The clerk runs the registration on the spot.' },
+        { title: 'PESEL register updated', duration: 'same day', desc: 'Entry is live immediately. Certificate (wypis) issued for 17 PLN when you need paper proof.' },
+        { title: 'Certificates for KRS, US, ZUS, MOS, bank', duration: '1 day', desc: 'We collect whichever zaświadczenia your downstream filings need.' }
       ]
     },
     documents: {
       title: 'What we need from you',
-      subtitle: 'Base set.',
+      subtitle: 'Minimum set.',
       items: [
-        'Passport (original)',
-        'Legal-stay document: D-visa, residence card, visa-free regime',
-        'Tenancy/sub-tenancy agreement (with owner) or title deed',
-        'Owner signature on the form (in person at urząd or notarised authorisation)',
-        'PESEL (if any; if not - done in parallel)',
-        "Child's birth certificate with sworn translation",
-        'Completed application - we prepare it',
-        "Owner's power of attorney if not present"
+        'Passport (original; the clerk verifies and returns it the same visit)',
+        'Stay document: D-visa, TRC card, or visa-free permit',
+        'Tenancy or sub-tenancy agreement signed by the actual owner (or title deed if you own)',
+        'Landlord signature on the form in person at urząd, or a notarised power of attorney',
+        'PESEL if you already have one (if not, we file in parallel)',
+        "Child's birth certificate with sworn translation (only when registering minors)",
+        'Completed wniosek that we prepare from the call',
+        'Owner notarised authorisation if there is any chance they cancel on the day'
       ]
     },
     pricing: {
       title: 'Our fee',
-      subtitle: 'No state fee for registration. Only the certificate is paid (17 PLN).',
+      subtitle: 'Registration is free at urząd. Certificate is 17 PLN. Our work is the only billable item.',
       items: [
-        { label: 'Consultation', value: 'Free', note: '20 minutes · case review' },
-        { label: 'Turnkey meldunek', value: 'from 350 PLN', note: 'Application, owner consent, urząd' },
-        { label: 'Meldunek + certificate + translation', value: 'from 500 PLN', note: 'Ready certificate for bank/urząd' },
-        { label: 'LegalWin business address', value: 'from 250 PLN/mo', note: 'Legal address for KRS / CEIDG' }
+        { label: 'Consultation', value: 'Free', note: '20 minutes · case review · go or no-go' },
+        { label: 'Turnkey meldunek', value: 'from 350 PLN', note: 'Application, landlord coordination, urząd visit' },
+        { label: 'Meldunek + certificate + sworn translation', value: 'from 500 PLN', note: 'For banks, MOS filings, employer onboarding' },
+        { label: 'LegalWin business address', value: 'from 250 PLN/mo', note: "Legal address for Sp. z o.o. or CEIDG when meldunek isn't possible" }
       ],
-      note: 'LegalWin fees. Notarised owner authorisation (~150 PLN) - separately.'
+      note: 'LegalWin fees only. A notarised landlord power of attorney runs around 150 PLN extra and goes straight to the notariusz.'
     },
     legalBase: {
       title: 'Legal basis',
       items: [
-        'Population Records Act of 24 September 2010 (Chapter 3)',
-        'MSWiA Regulation on registration form templates',
-        'Foreigners Act of 12 December 2013 (Article 199)',
-        'Stamp Duty Act of 16 November 2006',
-        'Code of Administrative Procedure (KPA)'
+        'Ustawa o ewidencji ludności of 24 September 2010, Chapter 3',
+        'MSWiA regulation on foreigner registration form templates',
+        'Ustawa o cudzoziemcach of 12 December 2013, Article 199',
+        'Stamp Duty Act of 16 November 2006 (the 17 PLN certificate fee)',
+        'Code of Administrative Procedure (KPA) for appeals'
       ]
     },
     faq: [
-      { q: 'Can I register without owner consent?', a: "No - the owner's signature is required. If they refuse, you can sue in civil court (action to establish registration) - rarely worth it. We typically arrange a signature or a notarised authorisation." },
-      { q: 'Landlord refuses meldunek - what now?', a: 'We draft tenancies with an explicit registration clause, source meldunek-friendly landlords, or use an employer/relative address. For entrepreneurs - a LegalWin business address.' },
-      { q: 'Is meldunek mandatory for TRC?', a: 'From 2026 (MOS v2.0) - effectively yes. The system pulls the address from PESEL. Without zameldowanie (registration) you must attach the umowa najmu (tenancy) and an owner statement, increasing the formal-rejection risk.' },
-      { q: 'What duration to register for?', a: 'Temporary - for the duration of your stay document. After a new TRC card the meldunek must be extended.' },
-      { q: 'Can I have several meldunki?', a: 'Only one permanent. Temporary can run alongside. Foreigners - one only.' },
-      { q: 'Address change?', a: 'Within 30 days - deregister from the old (often automatic) and register at the new. We handle both in one visit.' },
-      { q: 'What does it really cost?', a: 'Registration - 0 PLN. Certificate - 17 PLN. Owners often charge 50-100 PLN for the urząd visit or ~150 PLN for a notarised authorisation. Our fee - from 350 PLN.' }
+      { q: "My landlord won't register me. Can I still get meldunek?", a: 'Yes, but it costs a bit more. Either a notarised authorisation (~150 PLN, signed once and you go alone), or, if they actively refuse, a civil claim to establish registration (rare, slow, usually not worth it). What works in practice: a tenancy with an explicit registration clause, or a meldunek-friendly landlord we vet for you.' },
+      { q: 'Do I need meldunek for a TRC under MOS v2.0?', a: 'In 2026, effectively yes. MOS reads the address from PESEL. Without zameldowanie the system flags the case as formally incomplete and your TRC sits in limbo. Workaround: a notarised umowa najmu plus a written owner statement, but it raises rejection risk by an order of magnitude.' },
+      { q: 'How long should I register for?', a: 'For the duration of your current stay document. When you renew TRC, you renew meldunek. Permanent is reserved for PR cardholders.' },
+      { q: 'Can I hold several meldunki at once?', a: 'One permanent only. Multiple temporary registrations are legal for citizens, but foreigners are capped at one.' },
+      { q: "I'm moving across Warsaw. What do I do?", a: 'You have 30 days. We file the new registration at the new urząd dzielnicy and the old one closes automatically in PESEL. One visit, no separate deregistration form.' },
+      { q: 'What does it actually cost end-to-end?', a: 'Registration: 0 PLN. Certificate: 17 PLN. Landlord time: 50 to 100 PLN cash, or around 150 PLN for a notarised authorisation. Our fee from 350 PLN turnkey.' },
+      { q: 'Is the meldunek certificate good enough for my UK or US bank back home?', a: 'For most British and American institutions yes. The certificate with a sworn English translation passes proof-of-address checks at HMRC and IRS-facing banks alike.' }
     ],
     related: ['pesel', 'apostille', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'Meldunek done in a day',
-    ctaSubtitle: 'Free consultation: review your case, secure owner consent, file with the urząd. From first call to certificate - typically 1-2 working days.'
+    ctaTitle: 'Meldunek sorted in a day',
+    ctaSubtitle: 'Free 20-min consultation. We map the case, line up the landlord, and file at urząd. Typical turnaround is 1 to 2 working days from first call.'
   },
   tr: {
     slug: 'meldunek',

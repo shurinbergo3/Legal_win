@@ -181,89 +181,89 @@ const aktyStanuCywilnego: ServiceEntry = {
     slug: 'akty-stanu-cywilnego',
     group: 'documents',
     icon: 'landmark',
-    badge: 'USC · BUSC · Recognition',
-    title: 'Civil status acts (USC)',
-    subtitle: 'Polish birth, marriage and death certificates',
-    lead: 'Akty stanu cywilnego - Polish civil-status records issued by USC: birth, marriage and death certificates. Foreigners need them for PESEL, marrying an EU citizen, recognising a foreign certificate in Poland (umiejscowienie), registering a child born in Poland, and TRC, PR and citizenship applications. We work directly with USC and BUSC - collect odpisy, secure apostilles, arrange sworn translations.',
+    badge: 'USC · BUSC · Umiejscowienie',
+    title: 'Civil registry records (USC)',
+    subtitle: 'Polish birth, marriage and death certificates for foreigners',
+    lead: "If you were born in Boston, married in Vegas, or your father died in Manchester, none of those papers carry weight in Poland until USC enters them into the Polish register. That entry is called umiejscowienie. Without it you can't remarry here, claim an inheritance, or change your surname. We pull the originals from your home country, get the apostille, hire a sworn translator, and file at USC Warszawa-Śródmieście (the fastest desk in the country). Most cases close in 2 to 3 weeks.",
     facts: [
-      { label: 'Issuance', value: '7 days', note: 'standard · up to 30 days' },
-      { label: 'State fee', value: '22-39 PLN', note: 'short / full extract' },
-      { label: 'Recognition', value: '50 PLN', note: 'foreign-act recognition' },
-      { label: 'Where', value: 'USC + BUSC', note: 'local or centralised' }
+      { label: 'USC turnaround', value: '7 days', note: 'standard, up to 30 days in some boroughs' },
+      { label: 'State fee', value: '22 or 33 PLN', note: 'odpis skrócony / zupełny' },
+      { label: 'Umiejscowienie', value: '50 PLN', note: "filing fee for entering a foreign act" },
+      { label: 'Office hours', value: '08:00-16:00', note: 'a few districts open Saturday morning' }
     ],
     grounds: {
-      title: 'What we handle',
-      subtitle: 'USC keeps three types of registers - we work across all of them.',
+      title: 'What we actually do at USC',
+      subtitle: 'USC keeps three registers (births, marriages, deaths). Each one comes with its own quirks for foreigners.',
       items: [
-        { title: 'Birth certificate', desc: 'Registering a child born in Poland; odpis for a foreign national; recognition of a foreign birth certificate.' },
-        { title: 'Marriage certificate', desc: 'Marriage to a Polish citizen or another foreigner at USC; recognition of foreign marriage.' },
-        { title: 'Death certificate', desc: 'Registering a death in Poland; recognition of a foreign death certificate; odpis for inheritance.' },
-        { title: 'Foreign-act recognition (umiejscowienie)', desc: 'Entering a foreign certificate into the Polish USC register. Required for divorce, inheritance, second marriage, name change.' },
-        { title: 'Correction & supplementation', desc: 'Fixing errors: dates, names, places. Through USC or civil-court order.' },
-        { title: 'Name change', desc: 'Foreigner name/surname change via USC with justification - 30-60 days.' },
-        { title: 'Apostille on Polish acts', desc: 'Voivode issues apostille on Polish USC odpisy for foreign use.' },
-        { title: 'Act reconstruction', desc: 'Reconstruction of a lost act through civil-court ruling.' }
+        { title: 'Birth certificates from abroad', desc: 'US states issue short-form and long-form certificates. USC only accepts the long-form (full parentage). We get it pulled from vital records, apostilled by the Secretary of State, and sworn-translated into Polish.' },
+        { title: 'Polish marriage at USC', desc: "Marrying a Pole or another foreigner at USC. Civil ceremony only. Church marriages need a separate concordat filing if you want them on the Polish register." },
+        { title: 'Recognising foreign marriages', desc: "Las Vegas, Cyprus, Dominican Republic, Denmark - Poland recognises civil marriages that were valid where they happened. But you need the original certificate with apostille and a sworn translation before USC enters it. No entry, no second marriage here." },
+        { title: 'Death certificates and inheritance', desc: 'Registering a death that happened in Poland; entering a foreign death certificate so heirs can run probate at a Polish notary. Banks won\'t release funds without the Polish odpis.' },
+        { title: 'Umiejscowienie of foreign acts', desc: "Entering a foreign birth, marriage or death certificate into the Polish USC register. The trigger for second marriage, citizenship, inheritance, or any surname change. Skip it and you'll be stuck." },
+        { title: 'Fixing typos in your Polish records', desc: 'Wrong date, transliteration mismatch on your surname (Smith vs. Smyth), missing father\'s name. Corrected via USC postanowienie for clerical mistakes or civil court for anything substantive.' },
+        { title: 'Name and surname changes', desc: 'Polish USC will change a foreigner\'s name with a written justification. Common reasons: matching your spouse, restoring a family name, dropping a patronymic. Decision in 30 to 60 days.' },
+        { title: 'Multi-lingual EU certificates', desc: "Article 7 of Regulation (EU) 2016/1191 lets USC issue a multi-lingual standard form alongside the Polish odpis. Costs the same 22 PLN. Accepted across the EU without translation." }
       ]
     },
     timeline: {
-      title: 'Timeline',
-      subtitle: 'Standard recognition + apostilled odpis cycle - 2-3 weeks.',
+      title: 'How a typical case runs',
+      subtitle: 'Two to three weeks from first call to apostilled Polish odpis in your hand.',
       steps: [
-        { title: 'Consultation', duration: '30 min', desc: 'Identify act type, purpose, issuing country.' },
-        { title: 'Document gathering', duration: '3-7 days', desc: 'Collect originals from the issuing country, secure apostille, arrange sworn translation.' },
-        { title: 'Recognition application', duration: '1 day', desc: 'File with USC (often Warszawa-Śródmieście - fastest).' },
-        { title: 'USC review', duration: '7-30 days', desc: 'USC head verifies, enters the act into the Polish register, issues a Polish odpis.' },
-        { title: 'Odpis pickup', duration: '1 day', desc: 'Short (22 PLN) or full (33 PLN) extract.' },
-        { title: 'Apostille / translation', duration: '3-5 days', desc: 'Voivode apostille and sworn translation if needed.' }
+        { title: 'Intake call', duration: '30 min', desc: 'You tell us the act type, where it was issued, and what you need the Polish version for (marriage, citizenship, inheritance, PESEL).' },
+        { title: 'Getting the original', duration: '3-7 days', desc: 'We order a certified copy from the foreign vital-records office. US, UK and Australia ship it apostilled if we ask the right way. A sworn translator turns it into Polish.' },
+        { title: 'Filing at USC', duration: '1 day', desc: 'We file the wniosek at USC Warszawa-Śródmieście. You can use any USC nationally, but Śródmieście clears cases in roughly half the time of regional offices.' },
+        { title: 'USC review', duration: '7-30 days', desc: 'The Kierownik USC checks the foreign document against Polish formal requirements and writes the entry into the central rejestr stanu cywilnego.' },
+        { title: 'Same-day urgent issue', duration: '1 day', desc: "Need it tomorrow? Pay 22 PLN for an odpis skrócony or 33 PLN for an odpis zupełny and we pick it up the same afternoon, often before 16:00 close." },
+        { title: 'Apostille for use abroad', duration: '3-5 days', desc: 'If you need to use the Polish odpis outside Poland (US green card, UK home office, Turkish nüfus), the Voivode in Warsaw stamps an apostille for 60 PLN.' }
       ]
     },
     documents: {
-      title: 'What we need',
-      subtitle: 'Exact list depends on act type and issuing country.',
+      title: "What you'll need to send us",
+      subtitle: 'Specifics shift case by case, but this covers 90% of files.',
       items: [
-        'Passport (original + copies)',
-        'PESEL (if any)',
-        'Foreign birth/marriage/death certificate (original)',
-        'Apostille or legalisation on the foreign document',
-        'Sworn translation into Polish - we handle it',
-        'Divorce/spouse death certificate - for marriage recognition',
-        'Spouse consent - for surname change after marriage',
-        'Completed application - we prepare it'
+        'Your passport (scan first, original at filing)',
+        'PESEL number if you already have one',
+        'The foreign certificate, long-form version, original on official paper',
+        'Apostille on the foreign certificate (Secretary of State in the US; FCDO in the UK; DFAT in Australia)',
+        'Sworn Polish translation (we arrange it through a court-listed tłumacz przysięgły)',
+        'Divorce decree or late spouse\'s death certificate if you\'re remarrying',
+        "Notarised spouse consent if you want to change surname on the basis of the marriage",
+        'Signed wniosek - we draft it after the intake call'
       ]
     },
     pricing: {
-      title: 'Our fee',
-      subtitle: 'Fixed price. USC fees billed separately at actual rates.',
+      title: 'What we charge',
+      subtitle: 'Flat legal fee. USC charges and translation costs pass through at the real rate.',
       items: [
-        { label: 'Consultation', value: 'Free', note: '30 minutes · case review' },
-        { label: 'Odpis collection', value: 'from 250 PLN', note: 'Application, USC, courier' },
-        { label: 'Foreign-act recognition', value: 'from 700 PLN', note: 'Full umiejscowienie cycle' },
-        { label: 'Apostille + translation', value: 'from 350 PLN', note: 'Voivode + sworn translator' }
+        { label: 'Consultation', value: 'Free', note: '30 minutes, no obligation' },
+        { label: 'Odpis collection', value: 'from 250 PLN', note: 'Wniosek, USC visit, courier to you' },
+        { label: 'Full umiejscowienie', value: 'from 700 PLN', note: 'Foreign-act recognition from start to Polish odpis' },
+        { label: 'Apostille plus sworn translation', value: 'from 350 PLN', note: 'Voivode stamp and a court-listed translator' }
       ],
-      note: 'LegalWin fees. USC fees (22/33/50 PLN) and sworn translations (~80 PLN/doc) billed separately.'
+      note: 'Numbers above are LegalWin fees. Pass-throughs: 22 PLN for odpis skrócony, 33 PLN for odpis zupełny, 22 PLN for the multi-lingual form, 50 PLN for umiejscowienie, 60 PLN for the apostille, around 80 PLN per page for the sworn translation.'
     },
     legalBase: {
       title: 'Legal basis',
       items: [
-        'Civil Status Records Act of 28 November 2014',
-        'MSWiA Regulation on USC odpis templates',
-        'Hague Convention of 5 October 1961 (apostille)',
+        'Act of 28 November 2014 - Civil Status Records Law (Prawo o aktach stanu cywilnego)',
+        'MSWiA Regulation on the templates of USC odpisy',
+        'Hague Apostille Convention of 5 October 1961',
         'Stamp Duty Act of 16 November 2006',
-        'Regulation (EU) 2016/1191 (intra-EU legalisation removal)'
+        'Regulation (EU) 2016/1191 (multi-lingual forms, no apostille within the EU)'
       ]
     },
     faq: [
-      { q: 'What is umiejscowienie?', a: 'It\'s entering a foreign certificate into the Polish USC (civil registry office) register. After umiejscowienie (recognition entry) you receive a Polish odpis (extract) accepted by every Polish institution without translation. Required for second marriage, inheritance, name change, citizenship.' },
-      { q: 'How long does it take?', a: '7 days (Warszawa-Śródmieście, EU documents) to 30 days (other voivodeships, non-EU countries). Old acts or non-Hague countries can stretch to 60 days with extra inquiries.' },
-      { q: 'Do I need umiejscowienie for TRC?', a: 'No - TRC accepts the foreign original with apostille and sworn translation. Umiejscowienie (foreign-act recognition) is required for second marriage in Poland, citizenship, inheritance.' },
-      { q: 'What is apostille?', a: 'A simplified legalisation between Hague Convention 1961 states. Poland requires apostille on foreign public documents from convention states (CIS, US, UK). Within the EU - apostille no longer needed since 2019 (Regulation 2016/1191).' },
-      { q: 'Faster - Warsaw or regional?', a: 'USC (civil registry office) Warszawa-Śródmieście - 7-14 days. Regional USC - 14-30 days. We file via Warsaw even for clients in other cities - the law allows it.' },
-      { q: 'Can I get an odpis online?', a: 'Yes - via ePUAP (e-government platform) or mObywatel (Citizen mobile app) for people with PESEL and profil zaufany (trusted profile). 7 days, same price.' },
-      { q: 'Divorce from a non-EU country?', a: 'For Polish marriage recognition: foreign divorce certificate with apostille + sworn translation. If the marriage was in Poland - divorce note added by application or court. Complex cases - recognition of foreign divorce judgement.' }
+      { q: 'My US birth certificate is short-form. Will USC accept it?', a: "No. USC only takes the long-form, the one that lists both parents. The short-form (sometimes called a wallet card or certification of birth) skips parentage and gets rejected on the first review. We can request the long-form directly from the vital records office in your state, usually 5 to 10 business days plus the apostille from the Secretary of State." },
+      { q: "I got married in Las Vegas. Does Poland recognise it?", a: "Yes, as long as the marriage was civilly valid in Nevada (both parties of age, no existing marriages, properly licensed officiant). You'll need the certified Clark County certificate with an apostille from the Nevada Secretary of State, plus a sworn Polish translation. Once umiejscowienie goes through, you're married in the Polish register and can file taxes jointly, change your surname, or sponsor a spouse visa." },
+      { q: "We just live together in Poland - do we count as married like in the UK?", a: "No. Polish law has nothing equivalent to common-law marriage or civil partnership. If you haven't gone through USC, you're legally single. That blocks joint tax filing, automatic inheritance, and family reunification visas. There's no fix except an actual marriage at USC or recognition of a foreign one." },
+      { q: 'How much does an odpis cost and how fast can I get one?', a: 'Three flavours. Odpis skrócony (short extract) is 22 PLN, fine for most uses. Odpis zupełny (full extract) is 33 PLN, needed at notaries for property and inheritance. The multi-lingual EU form is also 22 PLN and skips translation across the EU. Same-day issue is possible if you arrive at USC before about 14:00.' },
+      { q: 'Do I actually need umiejscowienie for my TRC application?', a: "Not for TRC itself. The voivodeship office accepts your foreign certificate with apostille and sworn translation. You only need umiejscowienie when you want to do something in Poland that requires being on the register: remarry, claim an inheritance, change your surname, or apply for citizenship." },
+      { q: 'Where is fastest to file?', a: 'USC Warszawa-Śródmieście, by a margin. They clear straightforward cases in 7 to 14 days. Regional USCs in Kraków, Wrocław or smaller towns run 14 to 30 days, sometimes longer in summer. The law lets you file at any USC in Poland regardless of where you live, so we route everything through Warsaw.' },
+      { q: 'Office hours - when can I actually go?', a: "Standard USC hours are 08:00 to 16:00 Monday through Friday. Warszawa-Śródmieście opens until 18:00 on Tuesdays. A handful of district offices run a Saturday morning shift (08:00 to 13:00) for marriages but not for umiejscowienie. We can also file your wniosek through ePUAP with a profil zaufany if you'd rather skip the queue." }
     ],
     related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],
-    ctaTitle: 'USC certificates handled end-to-end',
-    ctaSubtitle: 'Free consultation: identify act type, issuing country, purpose. From USC filing to apostilled Polish odpis - typically 2-3 weeks.'
+    ctaTitle: 'USC sorted, certificate in hand',
+    ctaSubtitle: 'Free 30-minute consultation. We map the document chain, pull the foreign original, file at USC Warszawa-Śródmieście, and hand you the Polish odpis. Typical close is 2 to 3 weeks.'
   },
   tr: {
     slug: 'akty-stanu-cywilnego',

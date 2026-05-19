@@ -989,7 +989,8 @@ export async function generateMetadata({
   const ogLocaleMap: Record<string, string> = {
     ru: 'ru_RU',
     pl: 'pl_PL',
-    en: 'en_US'
+    en: 'en_US',
+    tr: 'tr_TR'
   };
   const ogLocale = ogLocaleMap[locale] ?? 'en_US';
 

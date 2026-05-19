@@ -183,87 +183,87 @@ const zaswiadczeniaZusUs: ServiceEntry = {
     icon: 'landmark',
     badge: 'PUE ZUS · e-Urząd Skarbowy',
     title: 'ZUS / US certificates',
-    subtitle: 'Polish social-security and tax-office certificates',
-    lead: 'ZUS (social-security) and Urząd Skarbowy (tax-office) zaświadczenia are critical for TRC, PR, mortgage, foreign visas, public-procurement bids. We obtain income certificates (PIT-11, ZUS RMUA), no-arrears certificates, A1 (posted-worker), S-1 contribution histories and dozens of others - via PUE ZUS, e-Urząd Skarbowy or in person.',
+    subtitle: 'Certificates from Polish social security (ZUS) and the tax office (US)',
+    lead: "ZUS is the Polish equivalent of UK NI or US Social Security. Urząd Skarbowy is the tax office. Sooner or later you need paper from one or both: a no-arrears letter for a KRS filing or a public tender, an A1 form because you live in Warsaw but your employer is still in London, a tax-residency certificate so the IRS honours the Poland-US treaty and stops withholding 30% on your dividends. In 2026 ZUS is fully digital through PUE ZUS and most US filings run through e-Urząd Skarbowy, but the forms are Polish-only and the validation rules trip up non-natives. We file on your behalf, pick up the paper, get it apostilled and translated if it's going abroad.",
     facts: [
-      { label: 'Turnaround', value: '1-7 days', note: 'standard · up to 14 in complex cases' },
-      { label: 'State fee', value: '0-21 PLN', note: 'most are free' },
-      { label: 'Where', value: 'PUE ZUS + EUS', note: 'online or in person' },
-      { label: 'Validity', value: '1-6 months', note: 'depends on type' }
+      { label: 'Turnaround', value: 'same day to 7 days', note: 'PUE same day · post 5 days · urząd same visit' },
+      { label: 'State fee', value: '0-21 PLN', note: 'most ZUS free · US no-arrears 21 PLN · CFR-1 17 PLN' },
+      { label: 'Channel', value: 'PUE ZUS · e-US · in person', note: 'profil zaufany speeds everything up' },
+      { label: 'Validity', value: '1-6 months', note: 'ZUS no-arrears 1 month · US 3 months' }
     ],
     grounds: {
-      title: 'Which certificates we obtain',
-      subtitle: 'Full list at biznes.gov.pl. The most-requested by foreigners:',
+      title: 'Which certificates we pull',
+      subtitle: 'The full list lives on biznes.gov.pl. These are the ones English-speaking clients actually ask for.',
       items: [
-        { title: 'No-arrears with ZUS', desc: 'No outstanding social-security debts. Required for TRC by business, public bids. 7 days, free.' },
-        { title: 'No-arrears with US', desc: 'No outstanding tax debts. 7 days, 21 PLN. For bids, mortgages, licences.' },
-        { title: 'Past-year PIT-11', desc: 'Duplicate annual employer settlement - TRC, PR, mortgages. From US if the employer is unresponsive.' },
-        { title: 'ZUS RMUA', desc: 'List of contributions and work periods - proves Polish service. Free via PUE.' },
-        { title: 'A1 certificate', desc: 'Posted-worker - confirms ZUS payment in Poland during foreign work. Mandatory for HGV drivers and IT freelancers.' },
-        { title: 'ZUS S-1 / U2', desc: 'Contribution periods for pension or benefits in EU states.' },
-        { title: 'Tax-account history', desc: 'All payments, overpayments, underpayments - for audits or reporting.' },
-        { title: 'Income certificate (US)', desc: 'Annual income - mortgages, scholarships, MOPS benefits, embassies.' }
+        { title: "Zaświadczenie o niezaleganiu (ZUS)", desc: "Proves you owe ZUS nothing. KRS filings, public-procurement bids, court cases and bank loans all demand it. 7 days standard, free. Banks usually want one no older than 30 days." },
+        { title: "Zaświadczenie o braku zaległości (US)", desc: "The tax-office twin. 7 days, 21 PLN. Needed for tenders, mortgages, licences, and any KRS change that touches share capital." },
+        { title: "A1 form for cross-border work", desc: "If you're British or Irish living in Warsaw but still employed by a UK or Dublin entity post-Brexit, A1 keeps your social contributions in Poland and stops HMRC from double-taxing. Mandatory for HGV drivers, IT contractors with EU clients, and anyone on a posting longer than 24 months." },
+        { title: "Certyfikat rezydencji podatkowej (CFR-1)", desc: "Polish tax-residency certificate. Costs 17 PLN. You'll need it the moment a US broker (Schwab, IBKR, Fidelity) asks for a W-8BEN treaty claim or the IRS questions your residency under the substantial-presence test." },
+        { title: "PIT-11 reissue", desc: "Lost the annual settlement your Polish employer sent? We pull a duplicate. Five days through US if the employer has gone quiet." },
+        { title: "ZUS RMUA contribution history", desc: "Itemised list of every złoty your employer paid into ZUS for you. Free on PUE. Proof of Polish work periods for permanent residence or a UK pension aggregation." },
+        { title: "ZUS S-1 / U2", desc: "Contribution-period certificates for moving your record to a pension in another EU state, or claiming unemployment benefits across the border under Regulation 883/2004." },
+        { title: "Income certificate (US)", desc: "Confirms your annual income to a Polish bank, a foreign embassy, a school scholarship board, or MOPS. Usually paired with a sworn translation if it's heading to London or New York." }
       ]
     },
     timeline: {
-      title: 'How we run it',
-      subtitle: 'Standard 1-7 working days via e-platforms or in person.',
+      title: "How we run it",
+      subtitle: "Same day if you've got profil zaufany. A week if we're doing it on paper.",
       steps: [
-        { title: 'Consultation', duration: '15 min', desc: 'Type, purpose, format, validity.' },
-        { title: 'Power of attorney', duration: '1 day', desc: 'UPL-1 (US) / ZUS-PEL - 17 PLN each. Via ePUAP - free.' },
-        { title: 'Application', duration: '1 day', desc: 'Filed via PUE ZUS, e-Urząd Skarbowy or in person.' },
-        { title: 'Payment', duration: '1 day', desc: '21 PLN for US, free for most ZUS.' },
-        { title: 'Pickup', duration: '1-7 days', desc: 'Electronic on PUE/EUS or in-person collection.' },
-        { title: 'Apostille / translation', duration: '3-7 days', desc: 'Apostille (60 PLN MSZ) + sworn translation.' }
+        { title: "Free 15-minute call", duration: "15 min", desc: "We pin down the certificate, the recipient (Polish bank, IRS, HMRC, court, KRS), the format (PDF vs paper with stamp), and the deadline. Different recipients want different stamps." },
+        { title: "Power of attorney", duration: "1 day", desc: "UPL-1 for US, ZUS-PEL for ZUS. 17 PLN stamp duty each on paper, or free if you sign through ePUAP with profil zaufany." },
+        { title: "Filing the wniosek", duration: "1 day", desc: "PUE ZUS for social security, e-Urząd Skarbowy for tax. Same-day filing once we have your PoA. Paper backup if the system flags an identity-validation error, which it does for about one in five foreigners." },
+        { title: "State fees paid", duration: "same day", desc: "21 PLN for a US no-arrears, 17 PLN for CFR-1 tax-residency, free for almost everything ZUS issues. We pay and bill it through." },
+        { title: "Pickup", duration: "same day to 5 days", desc: "PUE delivers electronic certificates instantly to your profile. Paper goes to Senatorska 38, Skierniewicka 6 or Mińska 25 in Warsaw depending on jurisdiction. We collect or have it couriered." },
+        { title: "Apostille and sworn translation", duration: "3-7 days", desc: "If the certificate is going to the IRS, HMRC, a German bank or the UAE, we add the MSZ apostille (60 PLN) and a sworn English translation. The IRS in particular rejects anything without an apostille." }
       ]
     },
     documents: {
-      title: 'What we need',
-      subtitle: 'Minimum for most certificates.',
+      title: "What we need from you",
+      subtitle: "Minimum set. We'll ask for more only if the certificate needs it.",
       items: [
-        'Passport (photo-page copy)',
-        'PESEL or NIP',
-        'Residence card',
-        'Power of attorney (UPL-1 / ZUS-PEL)',
-        'Company KRS (for Sp. z o.o.)',
-        'ePUAP access if available',
-        'Target institution (bank, urząd, embassy)',
-        'Period covered'
+        "Passport (photo-page scan; we verify on file)",
+        "PESEL, or NIP if you're filing for a company",
+        "Karta pobytu or another proof of legal stay",
+        "Signed power of attorney (UPL-1 for US, ZUS-PEL for ZUS)",
+        "Company KRS number, when the certificate is for a Sp. z o.o.",
+        "ePUAP / profil zaufany login if you've got one (cuts a day off)",
+        "Name of the recipient: bank, urząd, IRS, HMRC, embassy",
+        "The period the certificate should cover, e.g. 2023 income or current arrears status"
       ]
     },
     pricing: {
-      title: 'Our fee',
-      subtitle: 'From 150 PLN per certificate.',
+      title: "Our fee",
+      subtitle: "From 150 PLN per certificate. State fees and translations on top.",
       items: [
-        { label: 'Consultation', value: 'Free', note: '15 minutes · purpose review' },
-        { label: 'Single turnkey certificate', value: 'from 150 PLN', note: 'Application, PoA, pickup' },
-        { label: 'Bundle of 3+', value: 'from 350 PLN', note: 'Discount for joint filing' },
-        { label: 'Certificate + apostille + translation', value: 'from 480 PLN', note: 'For foreign use' }
+        { label: "Consultation", value: "Free", note: "15 minutes · we confirm which certificate you actually need" },
+        { label: "Single turnkey certificate", value: "from 150 PLN", note: "Wniosek, PoA, filing, pickup" },
+        { label: "Bundle of 3 or more", value: "from 350 PLN", note: "TRC packs and bank packs ship together" },
+        { label: "Certificate + apostille + sworn translation", value: "from 480 PLN", note: "For the IRS, HMRC, foreign banks, UAE residency" }
       ],
-      note: 'LegalWin fees. State fees (0-21 PLN/cert, 17 PLN PoA, 60 PLN apostille) and sworn translations (~80 PLN/doc) billed separately.'
+      note: "LegalWin fees only. State fees (0-21 PLN per certificate, 17 PLN per PoA on paper, 60 PLN apostille) and sworn translations (about 80 PLN per page) are passed through."
     },
     legalBase: {
-      title: 'Legal basis',
+      title: "Legal basis",
       items: [
-        'Social-Security System Act of 13 October 1998',
-        'Tax Ordinance Act of 29 August 1997 (Art. 306a - certificates)',
-        'MF Regulation on certificate-application templates',
-        'Stamp Duty Act of 16 November 2006',
-        'Regulation (EC) 883/2004 (coordination of social-security systems)'
+        "Social Security System Act of 13 October 1998",
+        "Tax Ordinance Act of 29 August 1997, Article 306a on certificates",
+        "Ministry of Finance regulation on certificate-application templates",
+        "Stamp Duty Act of 16 November 2006",
+        "Regulation (EC) 883/2004 on coordination of social-security systems"
       ]
     },
     faq: [
-      { q: 'Can I get a certificate without a visit?', a: 'Yes - most ZUS via PUE, most US via EUS. In-person visits only for apostille.' },
-      { q: 'How long are no-arrears valid?', a: 'ZUS - 1 month, US - 3 months. Banks and bids usually want ≤ 30 days. We file at the start of the process.' },
-      { q: 'What about outstanding debts?', a: "You can't get a 'no-arrears' until paid. We file instalment or write-off applications. Once cleared - same-day issuance." },
-      { q: 'RMUA vs PIT-11?', a: 'PIT-11 - annual employer settlement. RMUA - list of ZUS contributions. Both required for TRC.' },
-      { q: 'What is A1?', a: 'EU document confirming ZUS-only payment in Poland during foreign work. Mandatory for HGV drivers and IT freelancers with EU clients.' },
-      { q: 'Certificate for a foreign bank/embassy?', a: 'Certificate + apostille (if non-EU) + sworn translation. 7-14 days.' },
-      { q: 'Real cost for a TRC pack?', a: 'PIT-11 (free) + RMUA (free) + US no-arrears (21 PLN). Our fee - 350 PLN. Total 371 PLN. With apostille - 700-800.' }
+      { q: "Can I get all of this without setting foot in an urząd?", a: "Almost. If you have profil zaufany, ZUS issues most certificates same day through PUE and US through e-Urząd Skarbowy. No profil zaufany? Then we go in person on your behalf. The only thing that genuinely needs a counter visit is apostille at MSZ on Tęczowa." },
+      { q: "I'm British, working in Warsaw for a UK employer. Do I need A1?", a: "Yes, and post-Brexit this is the form HMRC and ZUS argue about most. A1 keeps your NI contributions flowing back to the UK and stops ZUS from claiming you. The UK-EU social-security protocol still recognises A1 issued by ZUS for periods of work in Poland up to 24 months. We file the ZUS-A1 with the right detachment grounds so HMRC doesn't reject it." },
+      { q: "What's the difference between Polish tax residency and US substantial presence?", a: "Poland uses a 183-day rule plus a centre-of-vital-interests test under Article 3 of the PIT Act. The IRS uses the substantial-presence formula in IRC §7701(b): days in the US this year plus a third of last year plus a sixth of the year before. You can technically be a tax resident of both at once. The Poland-US treaty tiebreaker decides. The CFR-1 we pull is what your US broker needs to honour the treaty rate." },
+      { q: "How fast can I actually get a no-arrears letter?", a: "Same day at the urząd counter if you're there in person. Same day on PUE if you've got profil zaufany. About 5 working days if it has to come by post. We default to PUE because it's fastest and the PDF is legally equivalent to the paper version." },
+      { q: "Which ZUS office in Warsaw handles my case?", a: "Depends on where you're registered. The main Warsaw branches are Senatorska 38 (central), Skierniewicka 6 (Wola), and Mińska 25 (Praga-Południe). For the tax office it's by registration address too. We check the jurisdiction before filing so the form lands at the right desk." },
+      { q: "I owe ZUS or US money. Can I still get a no-arrears certificate?", a: "Not until the debt is cleared. We can file a wniosek o rozłożenie na raty (instalment plan) or, in genuine hardship cases, umorzenie (write-off). Once the schedule is approved or the debt is paid, ZUS and US issue the certificate the same day." },
+      { q: "What does a full TRC pack actually cost?", a: "PIT-11 (free) plus ZUS RMUA (free) plus US no-arrears (21 PLN) plus ZUS no-arrears (free). Our fee for the bundle is 350 PLN. So 371 PLN end to end. Add apostille and sworn translation and you're at 700-800 PLN for an internationally usable pack." }
     ],
     related: ['zaswiadczenie-o-niekaralnosci', 'apostille', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'ZUS / US certificates in 1-7 days',
-    ctaSubtitle: 'Free consultation: certificate type, purpose, deadline. From PoA signing to pickup - typically 1-7 working days.'
+    ctaTitle: "ZUS and US certificates, sorted in 1-7 days",
+    ctaSubtitle: "Free 15-minute consultation. We confirm which certificate the recipient actually wants, file through PUE or e-US, and hand you the paper (or PDF) ready for the IRS, HMRC, a Polish bank, or a court."
   },
   tr: {
     slug: 'zaswiadczenia-zus-us',
