@@ -181,89 +181,89 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     slug: 'zaswiadczenie-o-niekaralnosci',
     group: 'documents',
     icon: 'shield',
-    badge: 'KRK · e-KRK · Ministry of Justice',
-    title: 'Criminal record certificate',
-    subtitle: 'Polish KRK certificate (Krajowy Rejestr Karny)',
-    lead: 'A KRK certificate is an extract from the Polish National Criminal Register. It\'s required for Polish citizenship, MOL transport licences, permanent residence cards, working with children and public-procurement bids. We obtain it in 1-7 days - online via e-KRK or in person at the Ministry of Justice and district courts. We also arrange equivalent certificates from your country of origin.',
+    badge: 'KRK · Czerniakowska 100 · ePUAP',
+    title: "Polish certificate of no criminal record",
+    subtitle: "Zaświadczenie z Krajowego Rejestru Karnego (KRK)",
+    lead: "HR asked for a \"police clearance from Poland\" and you found out it doesn't exist by that name. What you actually need is a zaświadczenie z KRK - an extract from the Krajowy Rejestr Karny held at ul. Czerniakowska 100 in Warsaw. Same-day at the counter, 30 PLN. Online via ePUAP if you have profil zaufany, 20 PLN, back in 1-3 days. We file it for you, add apostille from MSZ if it's going abroad, and arrange the sworn translation. One caveat: the KRK only covers convictions in Poland. If you're filing for a TRC or work permit, the voivode also wants a clearance from your country of origin.",
     facts: [
-      { label: 'Turnaround', value: '7 days', note: 'standard · 1 day via e-KRK' },
-      { label: 'State fee', value: '20-30 PLN', note: 'e-KRK / paper form' },
-      { label: 'Where', value: 'Ministry of Justice', note: 'or district courts' },
-      { label: 'Validity', value: '6 months', note: 'for most uses' }
+      { label: "Turnaround", value: "Same day", note: "at the counter · 1-3 days via ePUAP" },
+      { label: "State fee", value: "20 / 30 PLN", note: "ePUAP / paper" },
+      { label: "Where", value: "Czerniakowska 100", note: "central KRK office, Warsaw" },
+      { label: "Validity", value: "3-6 months", note: "depends on the receiving body" }
     ],
     grounds: {
-      title: 'When KRK is required',
-      subtitle: 'Most common foreigner uses:',
+      title: "When you'll need one",
+      subtitle: "The KRK extract gets asked for in more places than most foreigners expect. The common triggers:",
       items: [
-        { title: 'Polish citizenship', desc: 'Required for the application to the President and recognition as a Polish citizen. 3-month validity at filing.' },
-        { title: 'Permanent residence card', desc: 'Voivode requires KRK for PR - without it the application is rejected. Plus origin-country KRK with apostille.' },
-        { title: 'Licences & concessions', desc: 'MOL transport, security, detective, insurance broker, prokurent, statutory auditor.' },
-        { title: 'Working with children', desc: 'Schools, kindergartens, tutoring, coaches. Since 2024 - mandatory check via Central Sex-Offenders Register.' },
-        { title: 'Public service', desc: 'All government and local-government roles, police, judges, prosecutors, ABW, military.' },
-        { title: 'Public procurement', desc: 'KRK on the company (from KRS) and each board member.' },
-        { title: 'Banking & finance', desc: 'Roles in banks, SKOK, KNF supervision, insurance.' },
-        { title: 'Foreign visa or residence', desc: 'US (O, EB), Canada (PR), UK (skilled worker), UAE - all require KRK with apostille and translation.' }
+        { title: "TRC and visa renewals", desc: "Voivode asks for the Polish KRK plus a home-country police certificate, apostilled and sworn-translated into Polish. Both must be under six months old at filing." },
+        { title: "Job onboarding", desc: "Banks, KNF-supervised firms, public administration, schools and anything touching minors will request the certificate before contract signing. Most employers want the paper version." },
+        { title: "Sp. z o.o. director appointment", desc: "When you're being entered into KRS as a board member, the registry court checks the KRK to confirm you're not barred under Article 18 of the Commercial Companies Code." },
+        { title: "Polish bar exam and regulated professions", desc: "Aplikacja adwokacka, radcowska, notarialna, statutory auditor exams and real-estate broker licensing all gate on a clean KRK." },
+        { title: "Gun permit and security work", desc: "Pozwolenie na broń uses a separate form - zaświadczenie o niekaralności na potrzeby ZRSO - issued from the firearms registry side of KRK. Don't request the standard one by mistake." },
+        { title: "Adoption proceedings", desc: "Polish family courts request the KRK for both prospective parents, plus equivalent certificates from any country you've lived in for the past five years." },
+        { title: "US visa applications (O, EB, K)", desc: "Consulates want the KRK with apostille from MSZ and a sworn translation into English. We handle all three in one engagement." },
+        { title: "Public-procurement bids", desc: "Bidders submit a fresh KRK on the company (from KRS) and on every board member. Three-month validity window at tender opening." }
       ]
     },
     timeline: {
-      title: 'How we run it',
-      subtitle: 'Standard cycle 1-7 days via e-KRK or in person.',
+      title: "How the filing runs",
+      subtitle: "Same day at the counter on Czerniakowska, or 1-3 days through ePUAP if you have profil zaufany.",
       steps: [
-        { title: 'Consultation', duration: '15 min', desc: 'Purpose, format, apostille and translation needs.' },
-        { title: 'Power of attorney', duration: '1 day', desc: '17 PLN state fee - or via ePUAP for free.' },
-        { title: 'Application', duration: '1 day', desc: 'e-KRK (20 PLN, 1 day) or paper (30 PLN, 7 days).' },
-        { title: 'Pickup', duration: '1-7 days', desc: 'Electronic to email/ePUAP with MoJ signature, or in-person collection.' },
-        { title: 'Apostille', duration: '3-5 days', desc: 'MSZ - 60 PLN. EU states - no apostille needed (Reg. 2016/1191).' },
-        { title: 'Sworn translation', duration: '2-3 days', desc: 'EN, DE, ES, AR and other languages.' }
+        { title: "Free intake call", duration: "15 min", desc: "We confirm the purpose, the right form (private vs. employment vs. ZRSO), whether you need apostille, and which language for the translation." },
+        { title: "Power of attorney", duration: "1 day", desc: "Signed via ePUAP for free, or on paper with a 17 PLN stamp duty. ePUAP is faster when you have profil zaufany set up." },
+        { title: "Filing the wniosek", duration: "same day", desc: "Paper wniosek at Czerniakowska 100 in Warsaw or any sąd okręgowy: 30 PLN, issued same day. Electronic via ePUAP: 20 PLN, back in 1-3 days with a qualified ministerial signature." },
+        { title: "Collection", duration: "1-3 days", desc: "We pick up the paper original or download the signed PDF from ePUAP. Courier to your address if you're outside Warsaw." },
+        { title: "Apostille from MSZ (if needed)", duration: "3-5 days", desc: "60 PLN, processed at the legalisation desk in MSZ Warsaw. EU destinations skip this step under Regulation 2016/1191." },
+        { title: "Sworn translation", duration: "2-3 days", desc: "English, German, Spanish, Arabic, Turkish, Ukrainian - tłumacz przysięgły from the official MS list. About 80 PLN per page." }
       ]
     },
     documents: {
-      title: 'What we need',
-      subtitle: 'Minimum.',
+      title: "What we need from you",
+      subtitle: "Bare minimum to file.",
       items: [
-        'Passport (photo-page copy)',
-        'PESEL (if any)',
-        'Residence card',
-        'Power of attorney (17 PLN or via ePUAP)',
-        'ePUAP access',
-        'Maiden name (if changed)',
-        'All names and surnames previously used',
-        'Purpose - drives the form choice (private vs. employment)'
+        "Passport (clear photo of the bio page is fine)",
+        "PESEL if you have one (without it we file on paper using passport data)",
+        "Karta pobytu or proof of legal stay",
+        "Signed pełnomocnictwo (17 PLN stamp duty, or via ePUAP for free)",
+        "ePUAP profil zaufany credentials if going the electronic route",
+        "Maiden name and any prior surnames (the registry checks all aliases)",
+        "Confirmation of which receiving body wants the certificate",
+        "If going abroad: target country and language for apostille and translation"
       ]
     },
     pricing: {
-      title: 'Our fee',
-      subtitle: 'From 200 PLN. State fees billed separately.',
+      title: "Our fee",
+      subtitle: "From 200 PLN. State fees and translation billed separately.",
       items: [
-        { label: 'Consultation', value: 'Free', note: '15 minutes · purpose review' },
-        { label: 'Turnkey KRK', value: 'from 200 PLN', note: 'Application, PoA, pickup · 7 days' },
-        { label: 'KRK rush (1 day)', value: 'from 350 PLN', note: 'e-KRK with priority' },
-        { label: 'KRK + apostille + translation', value: 'from 480 PLN', note: 'For foreign use' }
+        { label: "Consultation", value: "Free", note: "15 minutes · we confirm the right form" },
+        { label: "Turnkey KRK", value: "from 200 PLN", note: "Wniosek, PoA, pickup · 1-3 days" },
+        { label: "Same-day rush", value: "from 350 PLN", note: "Filed at Czerniakowska, collected same day" },
+        { label: "KRK + apostille + sworn translation", value: "from 480 PLN", note: "Ready for foreign use" }
       ],
-      note: 'LegalWin fees. State fees (20 PLN e-KRK, 30 PLN paper, 17 PLN PoA, 60 PLN apostille) and sworn translation (~80 PLN/doc) billed separately.'
+      note: "LegalWin fees only. State fees (20 PLN ePUAP, 30 PLN paper, 17 PLN PoA, 60 PLN apostille) and sworn translation (~80 PLN per page) are billed at cost."
     },
     legalBase: {
-      title: 'Legal basis',
+      title: "Legal basis",
       items: [
-        'National Criminal Register Act of 24 May 2000',
-        'Minister of Justice Regulation on KRK certificate templates',
-        'Foreigners Act of 12 December 2013',
-        'Act of 13 May 2016 on combating sexual-offence threats',
-        'Hague Convention of 5 October 1961 (apostille)'
+        "National Criminal Register Act of 24 May 2000",
+        "Minister of Justice Regulation on KRK certificate templates",
+        "Foreigners Act of 12 December 2013 (KRK for TRC and PR)",
+        "Act of 13 May 2016 on combating sexual-offence threats",
+        "Hague Convention of 5 October 1961 (apostille)"
       ]
     },
     faq: [
-      { q: 'Private KRK vs. employment KRK?', a: 'Private - all entries. Employment - only entries relevant to a specific role (e.g. working with children - sex-offence convictions). For TRC/PR/citizenship - always private.' },
-      { q: 'How long is KRK valid?', a: '6 months standard. Citizenship - 3 months. Public procurement - 3 months. File close to your application date.' },
-      { q: 'Can I get KRK without visiting Poland?', a: 'Yes - e-KRK with profil zaufany ePUAP, fully online. No ePUAP - sign PoA at the Polish consulate in your country. Electronic certificate in 1-3 days.' },
-      { q: 'Origin-country KRK?', a: "Through the country's consulate in Poland or a local partner on the ground. We have partners in Ukraine, Belarus, Russia, Kazakhstan, Georgia, Moldova, Armenia. 14-30 days, 250-500 PLN of our fee plus consular charges." },
-      { q: 'KRK with apostille - where?', a: "MSZ Warsaw issues apostille in 3-5 days. Express +50% (1 day). EU states don't need apostille (Reg. 2016/1191) - certificate plus sworn translation is enough." },
-      { q: 'Spent (zatarta) convictions?', a: "Don't appear in employment-purpose KRK. May appear in private KRK with 'wyrok zatarty' annotation. The President considers all records when granting citizenship - we help assess odds and prepare explanations." },
-      { q: 'KRK vs. court certificate?', a: 'KRK comes from the Ministry of Justice - central register of all entries. Court certificates cover only that court\'s cases. "Certificate of no convictions" always means KRK.' }
+      { q: "Does my home country's police certificate count instead?", a: "No - they're not interchangeable. The Polish KRK only records convictions handed down by Polish courts. Your home-country certificate (FBI Identity History Summary for US citizens at about USD 18, UK ACRO at around GBP 55, AFP National Police Check in Australia at roughly AUD 42, RCMP check in Canada at about CAD 25) records convictions back home. For a TRC the voivode wants both: the Polish KRK plus your origin-country certificate apostilled and sworn-translated into Polish." },
+      { q: "How long does the certificate stay valid?", a: "There's no single statutory expiry - it depends on who's reading it. Voivodes accept up to six months from issue for residence cases. Public procurement and citizenship applications cap it at three months. Banks and employers usually want something issued in the last 30-90 days. Pull it close to your filing date and you'll avoid having to redo it." },
+      { q: "Can I get it without coming to Poland?", a: "Yes, two ways. With profil zaufany ePUAP you file through the e-KRK portal and get the signed PDF back in 1-3 days. Without ePUAP, sign a pełnomocnictwo at any Polish consulate abroad and we handle the rest in Warsaw. Paper original courier-shipped to your address if you need a wet-signed copy." },
+      { q: "What's the difference between the private form and the employment form?", a: "The private form (osoba prywatna) shows every entry, including spent convictions with a 'wyrok zatarty' annotation. The employment form (do celów zatrudnienia) filters down to convictions relevant to the specific role - so a school checking a teacher only sees sexual-offence and child-protection convictions, not unrelated matters. For TRC, PR and citizenship applications it's always the private form." },
+      { q: "I'm being asked for the certificate in the US. What does the chain look like?", a: "KRK from Czerniakowska, then apostille from MSZ at ul. Krucza 38/42 in Warsaw (60 PLN, 3-5 days, express +50% for next-day), then sworn translation into English by a tłumacz przysięgły. US consulates and USCIS accept this chain. We bundle all three steps for 480 PLN plus state fees." },
+      { q: "What about the gun permit version?", a: "Different form entirely. Pozwolenie na broń needs zaświadczenie o niekaralności na potrzeby ZRSO, issued through the firearms-registry side of KRK. If you file the standard private form by mistake the komendant wojewódzki policji will send you back. We check this on the intake call before anything gets filed." },
+      { q: "I have a spent conviction. Will it show up?", a: "On the employment form, no - zatarte convictions are filtered out by statute. On the private form they appear with a 'wyrok zatarty' note. The Polish President sees the full file when reviewing citizenship petitions, including spent convictions, so it's worth preparing wyjaśnienia in advance. We help draft them if it's relevant to your case." }
     ],
-    related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'KRK in 1-7 days',
-    ctaSubtitle: 'Free consultation: purpose, format, apostille need. From PoA signing to pickup - typically 1-7 working days.'
+    related: ["apostille", "zaswiadczenia-zus-us", "tlumaczenia-przysiegle"],
+    ctaTitle: "Polish KRK certificate, same day",
+    ctaSubtitle: "Free 15-minute consultation. We confirm the right form, file at Czerniakowska or via ePUAP, and add apostille plus sworn translation if you're sending it abroad."
   },
   tr: {
     slug: 'zaswiadczenie-o-niekaralnosci',

@@ -181,89 +181,89 @@ const tlumaczeniaPrzysiegle: ServiceEntry = {
     slug: 'tlumaczenia-przysiegle',
     group: 'documents',
     icon: 'scale',
-    badge: 'TEPIS · MoJ · 35+ languages',
-    title: 'Sworn translations',
-    subtitle: 'Polish sworn translations for urzędy, courts and banks',
-    lead: 'Tłumacze przysięgli are translators with state accreditation from the Polish Ministry of Justice, authorised to translate official documents for urzędy, courts, KRS, USC and banks. Without a sworn translation your foreign documents will be rejected - even if perfectly rendered by an ordinary translator. We work with 35+ languages: Ukrainian, Russian, Belarusian, English, German, Spanish, Georgian, Armenian, Arabic, Hebrew and more.',
+    badge: 'MoJ-certified · ~15 in-house translators',
+    title: 'Sworn translations in Warsaw',
+    subtitle: 'MoJ-certified translators for USC, courts, KRS, banks',
+    lead: "A tłumacz przysięgły is not the same animal as a US notarised translator. They sit a state exam, swear an oath before the Minister of Justice, and are listed in the public register at arch-bip.ms.gov.pl. Their stamp is the only translation a Polish urząd, USC, sąd, or KRS will actually accept on a foreign document. We work with a stable of around 15 sworn translators across the main EU languages and most of the rarer ones. Send a scan, we quote within the hour, and the standard turnaround is 1 to 3 working days.",
     facts: [
-      { label: 'Turnaround', value: '1-3 days', note: 'standard · rush - 24 h' },
-      { label: 'Price', value: '~80 PLN', note: 'per 1,125-character page · to/from Polish' },
-      { label: 'Languages', value: '35+', note: 'all CIS + EU + Asian' },
-      { label: 'Accepted by', value: 'All urzędy', note: 'courts, banks, USC, ZUS, KRS' }
+      { label: 'Turnaround', value: '1-3 days', note: 'rush 24 h adds 50-100%' },
+      { label: 'Polish page', value: '1,125 chars', note: 'with spaces, post-translation' },
+      { label: 'English page', value: '50-80 PLN', note: 'German 60-100, rare 80-150' },
+      { label: 'Accepted by', value: 'USC · sądy · KRS', note: 'banks, ZUS, US, urzędy' }
     ],
     grounds: {
-      title: 'What we translate',
-      subtitle: 'Full list on the TEPIS site. Most common for foreigners:',
+      title: 'When you need a sworn translation',
+      subtitle: 'These are the cases foreigners in Warsaw hit most often. Public register of every sworn translator lives at arch-bip.ms.gov.pl.',
       items: [
-        { title: 'USC certificates', desc: 'Birth, marriage, divorce, death - for recognition, citizenship, inheritance. 80 PLN/page.' },
-        { title: 'Diplomas and certificates', desc: 'University degrees, school certificates, professional certificates - for nostrification.' },
-        { title: 'TRC/PR documents', desc: 'Work contracts, income certificates, bank statements, leases - full-pack handling.' },
-        { title: 'Driving licences', desc: 'CIS-to-Polish exchange - both sides translated. 80-120 PLN.' },
-        { title: 'KRK / criminal records', desc: 'From your country of origin - for residence, citizenship, licences.' },
-        { title: 'Corporate documents', desc: 'KRS extracts, statutes, board minutes, balances - for company registration or transactions.' },
-        { title: 'Court rulings', desc: 'Divorce, alimony, inheritance - for enforcement in Poland or recognition.' },
-        { title: 'Medical documents', desc: 'Case histories, prescriptions, vaccinations - for NFZ or work.' }
+        { title: 'US birth certificate for USC', desc: "Long-form with seal. USC always wants it sworn-translated for umiejscowienie. The short certified copy without a seal will get bounced before the clerk reads the names." },
+        { title: 'UK FCDO-apostilled docs', desc: "If the original is already in English with a UK apostille, some urzędy dzielnicy in Warsaw accept it as-is. Others demand a sworn translation regardless. Ochota tends to ask, Wola usually doesn't. We check before you file." },
+        { title: 'Court hearings', desc: 'A sworn translator can also work live in court as tłumacz na rozprawie. Same registry, same oath. We book the same person for the document and the hearing so terminology stays consistent.' },
+        { title: 'Driving licence exchange', desc: 'Both sides of the foreign licence have to be sworn-translated for wymiana prawa jazdy. US, UK, Israeli, Ukrainian licences all need it. 60 to 100 PLN total in most cases.' },
+        { title: 'Diplomas for nostryfikacja', desc: 'University degrees and transcripts of records bound for a Polish university or NAWA recognition. Apostille goes on the original; the sworn translation is bound to that apostilled original.' },
+        { title: 'KRS and corporate filings', desc: "Foreign articles of association, board resolutions, parent-company KRS-equivalent extracts. For a Sp. z o.o. registration with a non-Polish founder the notariusz won't accept anything else." },
+        { title: 'KRK criminal record checks', desc: 'FBI Identity History Summary, UK ACRO, Bundeszentralregister, MVD certificates. For karta pobytu, citizenship, professional licences. KRK validity is 6 months, so translate fresh.' },
+        { title: 'Medical and insurance documents', desc: 'Vaccination records for school enrolment, GP histories for NFZ, accident reports for insurance claims. Sworn version is what NFZ and insurers archive.' }
       ]
     },
     timeline: {
-      title: 'How sworn translation works',
-      subtitle: 'From document hand-off to finished translation with stamp - 1-3 working days.',
+      title: 'How a sworn translation actually moves',
+      subtitle: 'Quote in the hour, finished stamped translation in 1 to 3 working days. Rush is doable but it costs.',
       steps: [
-        { title: 'Document submission', duration: '5 min', desc: 'Email scan/photo/PDF or hand over original. Legibility is critical.' },
-        { title: 'Quote', duration: '15 min', desc: 'We count standard pages (1,125 chars with spaces, in Polish). Exact quote within an hour.' },
-        { title: 'Engagement', duration: '5 min', desc: '50% advance or post-pay for repeat clients.' },
-        { title: 'Translation', duration: '1-3 days', desc: 'Sworn translator translates, signs, stamps and certifies. Pages numbered.' },
-        { title: 'Delivery', duration: '15 min', desc: 'Paper - pickup or courier. Electronic - QES via ePUAP.' },
-        { title: 'Apostille (optional)', duration: '3-5 days', desc: 'MSZ apostille on original and translation together.' }
+        { title: 'Send a scan', duration: '5 min', desc: 'Email the scan or PDF. 300 dpi minimum. If a stamp is unreadable the translator has to mark it nieczytelne, which weakens the document at the urząd.' },
+        { title: 'Hourly quote', duration: '1 hour', desc: "We count the page output, not the input. A one-page US birth certificate often comes out as 1.5 Polish pages because of how the seal text expands. You get a fixed number, not a range." },
+        { title: 'Translator assignment', duration: 'same day', desc: 'We match by language and document type. Spanish, Italian, Portuguese have fewer sworn translators in Warsaw, so plan ahead by a day or two. For English, German, Ukrainian, Russian we usually start the same day.' },
+        { title: 'Translation and certification', duration: '1-3 days', desc: "Translator does the work, signs with their personal stamp, adds the certification formula, and registers the job in their repertorium. Every page is numbered and the translator's MoJ number is on each one." },
+        { title: 'Delivery', duration: 'same day', desc: 'Paper copy bound to a printed scan of the original for office or courier pickup. Or a digitally signed PDF with a qualified electronic signature, valid the same way on paper. mObywatel-native digital sworn translations are slated for 2026 but no urząd accepts them yet.' },
+        { title: 'Apostille on the pair (optional)', duration: '3-5 days', desc: "If you need the translation valid abroad, MSZ apostilles the sworn translation itself. We file at Krucza 38 and pick up. The apostille on the foreign original is a separate step done in that country before we translate." }
       ]
     },
     documents: {
-      title: 'What we need',
-      subtitle: 'Minimum for quoting.',
+      title: 'What we need from you',
+      subtitle: 'Enough to quote and start. Originals come into play only if a clerk wants to compare.',
       items: [
-        'High-resolution scan or photo (≥ 300 dpi)',
-        'Original - for verification',
-        'All stamps and signatures legible',
-        'Proper-noun transliteration list (your name)',
-        'Apostille (if affixed - translated together)',
-        'Purpose (urząd, court, ZUS, USC) - affects format',
-        'Urgency - standard (1-3 days) or rush (24 h, +50%)',
-        'Recipient details (for QES electronic version)'
+        'High-resolution scan or photo, 300 dpi or better, every page',
+        'All stamps, apostille foils, seals, and signatures clearly readable',
+        'Your name as it appears on your passport, in Latin script',
+        'Spelling for any other proper nouns (place names, employer names)',
+        'Target use: USC, sąd, KRS, ZUS, bank, university — affects the certification wording',
+        'Apostille on the original (if your downstream filing requires one)',
+        'Standard or rush — rush is +50 to +100% depending on language and length',
+        'Delivery preference: paper to our office, courier, or QES-signed PDF'
       ]
     },
     pricing: {
       title: 'Pricing',
-      subtitle: 'Per standard Polish page (1,125 chars including spaces, post-translation).',
+      subtitle: 'Polish standard page = 1,125 characters with spaces, counted on the translated text. Not the same as a US or UK "page".',
       items: [
-        { label: 'To/from Polish (UA, RU)', value: 'from 70 PLN', note: 'Per 1,125-char page' },
-        { label: 'To/from English, German', value: 'from 80 PLN', note: 'MoJ rate' },
-        { label: 'Rare languages (KA, AM, AR)', value: 'from 100 PLN', note: 'Hebrew, Farsi included' },
-        { label: 'Rush (24 hours)', value: '+50%', note: 'Available for most languages' }
+        { label: 'English ↔ Polish', value: '50-80 PLN', note: 'per 1,125-char page' },
+        { label: 'German ↔ Polish', value: '60-100 PLN', note: 'per 1,125-char page' },
+        { label: 'Arabic, Chinese, Vietnamese', value: '80-150 PLN', note: 'fewer translators, higher rate' },
+        { label: 'Rush 24 h', value: '+50-100%', note: 'depends on language and length' }
       ],
-      note: 'Base rates per page. Final price depends on volume (post-translation), language, urgency. Minimum - 1 page. Discounts for corporates.'
+      note: "Final price depends on character count of the translation, language pair, and how fast you need it. Minimum charge is one page. Repeat clients and corporate accounts get a flat per-page rate negotiated up front. We don't bill for the quote itself."
     },
     legalBase: {
       title: 'Legal basis',
       items: [
-        'Sworn Translator Profession Act of 25 November 2004',
-        'MoJ Regulation on sworn-translator remuneration',
-        'Sworn Translator List - MoJ (public register)',
-        'Regulation (EU) 2016/1191',
-        'Code of Administrative Procedure (Art. 5 - Polish language)'
+        'Ustawa z 25 listopada 2004 r. o zawodzie tłumacza przysięgłego (the Sworn Translator Act)',
+        'Rozporządzenie MS w sprawie wynagrodzenia za czynności tłumacza przysięgłego (state-set rates)',
+        'Public register of sworn translators: arch-bip.ms.gov.pl/pl/rejestry-i-ewidencje/tlumacze-przysiegli',
+        "Regulation (EU) 2016/1191 (drops the legalisation requirement for some EU public documents)",
+        'Kodeks postępowania administracyjnego, art. 5 (Polish-language requirement before urzędy)'
       ]
     },
     faq: [
-      { q: 'Sworn vs. ordinary translation?', a: 'A sworn translation has legal force - comparable to notarised. The translator is in the MoJ register, accepted by urzędy, courts, banks. Ordinary translators - even excellent ones - lack that status. Official documents need sworn.' },
-      { q: 'Price per certificate?', a: 'Birth/marriage certificate (1 page) - 70-80 PLN. Diploma + transcript - 250-400 PLN. 4-8-page work contract - 320-650 PLN. Exact quote within an hour.' },
-      { q: 'Electronic version?', a: 'Yes, since 2018 - sworn translators can sign with QES. Same legal force. Ideal for ePUAP / MOS v2.0 / e-Urząd Skarbowy.' },
-      { q: 'Translation validity?', a: 'Indefinite. But documents have their own validity: KRK - 6 months, KRS - 3 months. Translate right after a fresh original.' },
-      { q: 'Apostille before translation?', a: "In Poland - no apostille needed (Hague countries). Abroad - apostille on the original first, then translate them together. Sometimes two apostilles. We confirm with the receiving institution." },
-      { q: 'Handwritten or illegible documents?', a: 'A sworn translator may decline or mark "nieczytelne" - which weakens acceptance. Use ≥ 300 dpi scans in good light.' },
-      { q: 'Self-translated text?', a: 'No - sworn translators only certify their own work. Your translation can be a "verification" baseline - same price.' }
+      { q: "Why won't the urząd accept my US-notarised translation?", a: "Because a US notary is not a sworn translator under Polish law. The notary in the States only confirms the translator signed in front of them — they don't verify the translation itself. Polish urzędy, USC, and sądy only accept work from a translator on the MoJ register, stamped and entered in their repertorium. Doesn't matter how good the US translation is. We redo it from scratch." },
+      { q: "I have a UK apostille on my English-language document. Do I still need a sworn translation?", a: "Depends on the urząd dzielnicy and what you're filing. For USC umiejscowienie, Ochota and Mokotów usually want a sworn Polish translation even with the apostille. Wola and Praga Południe sometimes wave it through. For ZUS or NFZ filings it's almost always required. Cheapest move is to call us with the document and target office and we check the same day." },
+      { q: "How is the price calculated?", a: 'On the translated Polish text, not the foreign source. A standard page is 1,125 characters with spaces (an MoJ-defined unit, different from the British or American "page"). A US birth certificate ends up as roughly 1 to 1.5 Polish pages. A diploma with transcript runs 4 to 7. We quote a fixed number, not a range, once we see the scan.' },
+      { q: "Can the same translator come to court for the hearing?", a: 'Yes. A tłumacz przysięgły is also authorised to interpret live as tłumacz na rozprawie. We book the same person for the document work and the hearing whenever the schedule allows. Continuity helps — they already know the terminology and the names. Court interpretation is billed hourly, not per page.' },
+      { q: "Apostille first, or translate first?", a: "Apostille goes on the original document, issued by the source country. The sworn translator then translates the original together with the apostille and binds the translation to the apostilled original. If the receiving institution wants an apostille on the translation itself (rare but it happens), we add a second one at MSZ on Krucza after the translation is done." },
+      { q: "What about digital sworn translations on mObywatel?", a: "There's a draft framework rolling out in 2026 that would put sworn translations into mObywatel as native digital documents. As of now no urząd in Warsaw accepts them. The closest live option is a QES-signed PDF — same legal weight as paper, accepted by ePUAP, e-Urząd Skarbowy, and most banks. We deliver that on request at no extra cost." },
+      { q: "Italian or Spanish — how long does that take?", a: "Spanish, Italian, Portuguese, Dutch — fewer sworn translators in Warsaw means we plan a day or two ahead of the English baseline. A short certificate still lands in 2 to 3 working days. A multi-page contract in Spanish is closer to 4 to 5. Rush is doable but the surcharge sits at the top of the 50 to 100% band." }
     ],
     related: ['apostille', 'akty-stanu-cywilnego', 'pesel'],
-    ctaTitle: 'Sworn translation in 1-3 days',
-    ctaSubtitle: 'Free quote: send a scan and get a price within an hour. From hand-off to stamped translation - 1-3 working days.'
+    ctaTitle: 'Sworn translation, stamped and accepted',
+    ctaSubtitle: 'Send a scan. We quote within the hour, hand it to one of about 15 MoJ-registered translators we work with, and deliver paper or QES-signed PDF in 1 to 3 working days.'
   },
   tr: {
     slug: 'tlumaczenia-przysiegle',

@@ -181,89 +181,89 @@ const apostille: ServiceEntry = {
     slug: 'apostille',
     group: 'documents',
     icon: 'landmark',
-    badge: '1961 Hague Convention · MSZ',
+    badge: '1961 Hague Convention · MSZ Warsaw',
     title: 'Apostille & legalisation',
-    subtitle: 'Apostille and legalisation of documents for foreign use',
-    lead: 'Apostille is a simplified international legalisation between 1961 Hague Convention states. For a Polish document to be used abroad - or a foreign one in Poland - it needs an apostille. We secure apostilles on USC certificates, notarial acts, KRS extracts, diplomas and court rulings. For non-Convention countries we run full legalisation via MSZ and the consulate.',
+    subtitle: 'Polish apostille for use in the UK, US, Australia and beyond',
+    lead: "If you need a Polish birth certificate, marriage record or KRS extract to land at HMRC, the IRS, a Texas court or Companies House, it has to carry an apostille. The 1961 Hague Convention covers 125+ countries (UK, US, Australia, Canada since 2024, and most of the EU), and a single apostille from MSZ in Warsaw is all the receiving authority needs. Polish documents are stamped at ul. Krucza 38/42 for 60 PLN, USC certificates go via the wojewoda. For Hague countries: one stamp. For non-Hague (still a short list: Saudi, UAE, Qatar, Vietnam), it's the full chain through MSZ and the destination embassy.",
     facts: [
-      { label: 'Turnaround', value: '3-5 days', note: 'MSZ apostille · standard' },
-      { label: 'State fee', value: '60 PLN', note: 'per apostille' },
-      { label: 'Where', value: 'MSZ Warsaw', note: '+ voivode for USC' },
-      { label: 'Validity', value: 'unlimited', note: 'for a document with no expiry' }
+      { label: 'Turnaround', value: '1-3 weeks', note: 'MSZ Warsaw · standard queue' },
+      { label: 'MSZ fee', value: '60 PLN', note: 'per apostille stamp' },
+      { label: 'Office', value: 'ul. Krucza 38/42', note: 'Warsaw · MSZ legalisation desk' },
+      { label: 'Hague reach', value: '125+ countries', note: 'UK, US, Australia, Canada, EU' }
     ],
     grounds: {
-      title: 'What documents take an apostille',
-      subtitle: 'Per Hague 1961 - public documents. Commercial documents need notarial pre-authentication.',
+      title: 'What we apostille (and where it actually goes)',
+      subtitle: "Hague 1961 covers public documents. We've sent stamped papers to all 50 US states, to Companies House, to Australian DFAT-recognising agencies, and to consulates for non-Hague jurisdictions. Each route is slightly different.",
       items: [
-        { title: 'USC certificates', desc: 'Birth, marriage, death - apostille issued by the voivode of the issuing place.' },
-        { title: 'Notarial acts', desc: 'Akt notarialny, power of attorney, declaration - MSZ apostille after notary chamber legalisation.' },
-        { title: 'KRS / CEIDG extracts', desc: 'Full extracts for foreign company registration, account opening or transactions.' },
-        { title: 'Criminal record (KRK)', desc: 'For work visas, citizenship, foreign residence applications.' },
-        { title: 'Diplomas & certificates', desc: 'Apostille from MEiN for diploma recognition in the US, EU, CIS.' },
-        { title: 'Court judgements', desc: 'For foreign enforcement, marriage/divorce recognition, inheritance cases.' },
-        { title: 'Apostille on foreign documents', desc: 'We help arrange apostille in the issuing country via consulate or local partner.' },
-        { title: 'Full legalisation (non-Convention)', desc: 'For Canada (pre-2024), China, UAE - full chain: notary → MSZ → consulate. Up to 4 weeks.' }
+        { title: 'USC certificates: birth, marriage, death', desc: "Issued by USC (urząd stanu cywilnego), apostille goes through the wojewoda of the issuing region. We pull a fresh odpis zupełny first. Your old certificate from 2015 won't pass at HMRC or an American county clerk." },
+        { title: 'Notarial acts and powers of attorney', desc: "Akt notarialny gets pre-authenticated at the regional izba notarialna (26 PLN), then MSZ apostille. We use this route weekly for clients selling property abroad or filing pełnomocnictwo with a UK conveyancer." },
+        { title: 'KRS and CEIDG extracts', desc: "Company extracts for opening a US bank account, registering a UK subsidiary, or contracting with Saudi state buyers. Fresh wypis only. KRS goes stale at 3 months and KYC officers do check." },
+        { title: 'KRK criminal record certificates', desc: "Zaświadczenie z KRK is the standard ask for UK Skilled Worker visas, US green cards, Australian 482 visas, and Canadian PR. KRK ages out at 6 months, so apostille it the day it's issued." },
+        { title: 'Diplomas and academic transcripts', desc: "Polish university diplomas need Ministerstwo Nauki sign-off before MSZ. We handle that pre-step. Recognised by ECCTIS in the UK, WES in Canada, and by every US state board we've encountered." },
+        { title: 'Court judgements and divorce decrees', desc: "Wyrok rozwodowy for remarrying in California, an inheritance ruling for probate in New York. Court documents need the court president's clause, then MSZ. Two-step, but routine." },
+        { title: 'Apostille on foreign documents (reverse case)', desc: "Got a US birth certificate, UK marriage cert, or Australian degree and need it to work in Poland? Each Hague country issues its own apostille. We coordinate with local partners (UK FCDO, US Secretary of State, DFAT Canberra)." },
+        { title: 'Full consular legalisation for non-Hague countries', desc: "Saudi Arabia, UAE, Qatar, Vietnam and a few others still want the full chain: MSZ apostille → embassy in Warsaw → ministry stamp in the destination country. Budget 3-4 weeks and 200-400 EUR in embassy fees." }
       ]
     },
     timeline: {
-      title: 'Timeline',
-      subtitle: 'Standard cycle from document to apostille - 3-5 working days.',
+      title: 'How the process actually runs',
+      subtitle: "Most cases are MSZ-only and close in 1-3 weeks. Express MSZ slots exist but they're booked out two weeks ahead, so we plan rather than rush.",
       steps: [
-        { title: 'Consultation', duration: '20 min', desc: 'Document type, country of use, pre-authentication needs.' },
-        { title: 'Document prep', duration: '1-2 days', desc: 'Fresh odpis (USC, KRS, KRK), notarial authentication when needed.' },
-        { title: 'Filing with MSZ / voivode', duration: '1 day', desc: 'Via e-Apostille MSZ (online) or in person at Warsaw, ul. Krucza 38/42. USC - voivode of issuing place.' },
-        { title: 'Apostille issued', duration: '3-5 days', desc: 'MSZ issues apostille with online-verifiable serial. Express +50% (1 day).' },
-        { title: 'Courier', duration: '1-2 days', desc: 'DHL Express worldwide or pickup in Warsaw.' },
-        { title: 'Translation', duration: '2-3 days', desc: 'Sworn translation of the document for the destination country.' }
+        { title: 'Free 20-min call', duration: '20 min', desc: "We confirm the document type, the receiving country, and which authority back home will see the stamp (court clerk, registrar, bank KYC, embassy). That dictates the chain. A divorce decree for the UK is one thing; the same decree for a Saudi court is another." },
+        { title: 'Source document refresh', duration: '1-7 days', desc: "Old certificates rarely fly. We order a fresh odpis from USC (24-48 hours in Warsaw, up to a week if the act is held in another voivodeship), or a current KRS wypis from the registration court." },
+        { title: 'Pre-authentication where needed', duration: '1-3 days', desc: "Notarial acts go through izba notarialna. Court papers get the president's clause. Diplomas go through Ministerstwo Nauki. Skip this step and MSZ rejects on the spot." },
+        { title: 'MSZ filing at ul. Krucza 38/42', duration: '1 day', desc: "We file in person at the Warsaw legalisation desk. 60 PLN per stamp, paid at the cashier. The e-Apostille online channel exists for some document classes but it's slower in practice. We use in-person." },
+        { title: 'Apostille issued', duration: '5-15 days', desc: "MSZ stamps with a serial that the receiving authority can verify at e-konsulat.gov.pl. Express is +50% and shaves about a week. Worth it if you're closing a property sale, not worth it for a green card filing." },
+        { title: 'Translation, courier, or embassy', duration: '2-5 days', desc: "Sworn translation into English (or the destination language) if needed. Apostille itself is bilingual, but the underlying document usually isn't. DHL Express to wherever, or onward to a Warsaw embassy for non-Hague legalisation." }
       ]
     },
     documents: {
-      title: 'What we need',
-      subtitle: 'Base set.',
+      title: 'What you send us',
+      subtitle: "Most cases need just the original plus an ID scan. The trip-ups are 'I only have a photocopy' or 'my certificate is from 2018'.",
       items: [
-        'Original document (USC odpis, KRS extract, diploma, notarial act)',
-        'Document must be current - no older than 6 months for KRS/KRK',
-        "Document holder's passport",
-        'Destination country and target translation language',
-        'Purpose - to pick the right apostille form',
-        "Power of attorney to LegalWin (if document isn't in your name)",
-        'Completed application - we prepare it',
-        'For legalisation - destination consulate details'
+        'Original document, or a fresh re-issue we order on your behalf (USC odpis, KRS wypis, KRK, diploma)',
+        "Photocopies do NOT take an apostille. Common mistake, USC and the receiving registrar both reject. Original or notarised copy only.",
+        "Passport scan of the document holder (we register the application in their name)",
+        "Destination country and the authority that'll receive the document (HMRC, NY Secretary of State, a specific embassy, a school district)",
+        "Target language for sworn translation (usually English, sometimes Arabic or Spanish for non-Hague routes)",
+        "Power of attorney to LegalWin if the document isn't in your name (we draft it; signed at any notariusz)",
+        "Wniosek to MSZ, which we prepare and sign on your behalf under the POA",
+        "For non-Hague routes: the destination embassy's current legalisation fee schedule (we pull it, but client pays direct)"
       ]
     },
     pricing: {
       title: 'Our fee',
-      subtitle: 'MSZ apostille - 60 PLN/doc, voivode - 60 PLN. Express +50%.',
+      subtitle: "MSZ stamp is 60 PLN, izba notarialna pre-auth is 26 PLN, embassy legalisation varies. Our handling fee covers the filing, the queue, and the courier.",
       items: [
-        { label: 'Consultation', value: 'Free', note: '20 minutes · case review' },
-        { label: 'Turnkey apostille', value: 'from 250 PLN', note: 'MSZ + courier · 3-5 days' },
-        { label: 'Apostille + sworn translation', value: 'from 380 PLN', note: 'Translated for destination' },
-        { label: 'Full legalisation', value: 'from 750 PLN', note: 'Notary → MSZ → consulate · 2-4 weeks' }
+        { label: 'Free consultation', value: 'Free', note: '20 min · we confirm the chain before you commit' },
+        { label: 'Turnkey apostille', value: 'from 250 PLN', note: 'MSZ filing + DHL courier · 1-3 weeks' },
+        { label: 'Apostille + sworn English translation', value: 'from 380 PLN', note: 'Most common combo for UK/US/AU use' },
+        { label: 'Full non-Hague legalisation', value: 'from 750 PLN', note: 'MSZ + embassy in Warsaw · 3-4 weeks' }
       ],
-      note: 'LegalWin fees. State fees (60 PLN apostille, 26 PLN notary chamber, ~30-200 EUR consulate) and sworn translations (~80 PLN/doc) billed separately.'
+      note: 'LegalWin fees only. State fees pass through at cost: 60 PLN MSZ apostille, 26 PLN izba notarialna pre-auth, sworn translation around 80 PLN per page, embassy legalisation 30-400 EUR depending on country (UAE and Saudi are at the top end).'
     },
     legalBase: {
       title: 'Legal basis',
       items: [
-        'Hague Convention of 5 October 1961 (apostille)',
-        'Code of Administrative Procedure of 14 June 1960',
-        'MSZ Regulation on apostille template',
-        'Vienna Convention on Consular Relations 1963',
-        'Notarial Law Act of 14 February 1991'
+        'Hague Convention of 5 October 1961 on apostille (Poland ratified 2005)',
+        'Code of Administrative Procedure of 14 June 1960 (KPA)',
+        'MSZ Regulation on the form and issuance of apostille',
+        'Vienna Convention on Consular Relations of 24 April 1963',
+        'Notarial Law Act of 14 February 1991 (pre-authentication chain)'
       ]
     },
     faq: [
-      { q: 'Which countries accept apostille?', a: 'All 1961 Hague Convention states - about 130: EU, US, Canada (since 2024), UK, Russia, Ukraine (since 2003), Belarus, Kazakhstan, Turkey, Japan, Korea, Brazil. A single apostille is enough.' },
-      { q: 'Non-Convention countries (China, UAE, Canada pre-2024)?', a: 'Full legalisation: notary → notary chamber (for notarial acts) → MSZ → destination consulate in Poland. 2-4 weeks, from 750 PLN + consular fees.' },
-      { q: 'Real cost?', a: 'MSZ - 60 PLN/doc. Notarial acts need notary-chamber authentication first (26 PLN). Our fee - from 250 PLN. USC - voivode 60 PLN.' },
-      { q: 'Apostille on a copy?', a: 'No - only on originals or notarised copies. For non-removable documents (diplomas), we apostille a notary copy.' },
-      { q: 'Is apostille open-ended?', a: 'Yes - the apostille has no expiry. But documents do: KRS (commercial register) - 3 months, KRK (criminal record) - 6 months. Apostille right after a fresh extract.' },
-      { q: 'How to verify?', a: 'apostille.gov.pl by serial and date. Other countries - via national e-Apostille register.' },
-      { q: 'Translation of apostille?', a: 'Apostille itself is bilingual (PL + EN/FR) - no translation needed. The underlying document needs sworn translation.' }
+      { q: "Where do I get an apostille on a UK or US document I need to use in Poland?", a: "Each Hague country issues its own. For the UK it's the FCDO Legalisation Office in Milton Keynes, around £30, two working days by post. For US documents it's the Secretary of State of the issuing state, not federal: New York SoS in Albany for a NY birth certificate, California SoS in Sacramento for a Californian one. Federal documents (FBI background checks, IRS forms) go through the US Department of State in DC. Australia routes through DFAT in Canberra. We coordinate with partners on each side." },
+      { q: "Canada: is it really Hague now?", a: "Yes since January 2024. Before that Canada was non-Hague and required full consular legalisation: Global Affairs Canada authentication in Ottawa, then Polish consular legalisation. If you have an old pre-2024 Canadian document with the chain already done, it's still valid. New Canadian documents now take a single apostille." },
+      { q: "What about Russia after 2023? Does Polish apostille still work there?", a: "Yes. Russia hasn't withdrawn from the Hague Convention, and Polish MSZ continues to apostille for Russian use. The practical bottleneck is consular service in Poland for any onward steps, not the apostille itself." },
+      { q: "Do I need apostille for an EU country?", a: "Often no. EU Regulation 2016/1191 abolished apostille for civil-status documents (birth, marriage, death) moving between EU member states. You can present a Polish odpis directly in Germany or France, sometimes with a free multilingual standard form attached. Apostille is still useful for non-civil-status documents (notarial acts, court rulings) and for non-EU Hague countries." },
+      { q: "Can I apostille a photocopy?", a: "No. This is the single most common mistake we see. MSZ stamps originals only, or notarised true copies. If you can't surrender the original (a university diploma, a one-off court order), we walk you to a notariusz, get a kopia poświadczona for around 20 PLN, and apostille that copy. The receiving authority abroad accepts the notarised copy + apostille combo." },
+      { q: "UAE, Saudi or Qatar: what's the chain?", a: "Hague apostille from MSZ first (yes, even though they're non-Hague; it's the standard Polish-side authentication), then consular legalisation at the destination embassy in Warsaw. UAE embassy charges around 150 EUR, Saudi around 200 EUR, Qatar around 100 EUR. Add 2-3 weeks on top of the MSZ timeline. We handle the embassy run." },
+      { q: "Does apostille expire?", a: "The apostille itself doesn't. The underlying document might: KRS is treated as stale after 3 months, KRK after 6 months by most receiving authorities. Apostille your document right after you collect a fresh original, not six months later when you're already mid-application." }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
-    ctaTitle: 'Apostille in 3-5 days',
-    ctaSubtitle: 'Free consultation: document, destination, form of legalisation. Standard cycle - 3-5 working days.'
+    ctaTitle: 'Apostille for UK, US, Australia or beyond',
+    ctaSubtitle: "Free 20-min consultation. We confirm the chain, file at MSZ in Warsaw, courier to your destination. Most cases close in 1-3 weeks."
   },
   tr: {
     slug: 'apostille',

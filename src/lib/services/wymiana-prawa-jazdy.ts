@@ -187,92 +187,92 @@ const wymianaPrawaJazdy: ServiceEntry = {
     slug: 'wymiana-prawa-jazdy',
     group: 'documents',
     icon: 'id-card',
-    badge: 'Starostwo · WORD · 185 days',
-    title: "Driving licence exchange",
-    subtitle: 'Swap CIS / non-EU driving licence for a Polish one',
-    lead: 'A foreigner residing in Poland for more than 185 days must swap their foreign driving licence for a Polish one - otherwise it loses validity for driving after 6 months. We exchange licences from Ukraine, Belarus, Russia, Kazakhstan, Georgia, Moldova and other countries - sworn translation, medical exam, psych test, application to starostwo and assistance with WORD theory exam where required.',
+    badge: 'Wydział Komunikacji · WORD · 185 days',
+    title: "Exchange a foreign driving licence for a Polish one",
+    subtitle: "Swap your UK, Irish, Ukrainian or other licence at Wydział Komunikacji - or sit the WORD exam if your country isn't on the treaty list",
+    lead: "Once you've held a TRC or PR card for 185 days, Poland stops recognising your home-country driving licence. After that, getting caught at the wheel on it costs you 500 PLN plus 6 penalty points, and your insurer will deny any claim. The rules around the swap are not consistent: post-Brexit UK licences exchange straight across with no exam, Irish ones swap automatically, Ukrainian and Belarusian licences swap under bilateral treaty, but every US state licence and every Australian or New Zealand licence forces you through the full WORD theory and practical. We sort the wniosek at Wydział Komunikacji on Aleje Jerozolimskie 28, book the medical, line up the sworn translation and, if your country isn't on the easy list, walk you through the English-language exam at WORD on Odlewnicza 8.",
     facts: [
-      { label: 'Issuance', value: '14-30 days', note: 'starostwo · varies by voivodeship' },
-      { label: 'State fee', value: '100.50 PLN', note: 'licence card fee' },
-      { label: 'Where', value: 'Starostwo + WORD', note: 'application + theory exam if needed' },
-      { label: 'Validity', value: 'up to 15 years', note: 'B / B+E · less for C, D' }
+      { label: 'Issuance', value: '14-30 days', note: 'Wydział Komunikacji · varies by district' },
+      { label: 'State fee', value: '100.50 PLN', note: 'card production fee' },
+      { label: 'Where', value: 'Wydział Komunikacji + WORD', note: "filing in Śródmieście; exam on Odlewnicza" },
+      { label: 'Validity', value: 'up to 15 years', note: 'B / BE · shorter for C, D' }
     ],
     grounds: {
-      title: 'Which licences we exchange',
-      subtitle: 'Poland operates under bilateral treaties and the 1968 Vienna Convention. Not every category swaps automatically.',
+      title: 'Which licences swap, which need the WORD exam',
+      subtitle: "Poland recognises some countries under bilateral treaty (no exam), some under the 1968 Vienna Convention (theory at minimum), and many under nothing at all (full theory plus practical). Here's where each one lands.",
       items: [
-        { title: 'Ukraine (B, BE)', desc: 'Direct swap, no exams. C/CE/D/DE - WORD theory required. 30 days.' },
-        { title: 'Belarus (B, BE)', desc: 'Direct swap under 2003 bilateral. HGV/bus categories - theory.' },
-        { title: 'Russia (B, BE)', desc: 'Vienna Convention swap. C/D - mandatory theory at WORD.' },
-        { title: 'Kazakhstan, Kyrgyzstan, Uzbekistan', desc: 'Vienna Convention. Often theory. Voivodeship-dependent.' },
-        { title: 'Moldova, Georgia, Armenia, Azerbaijan', desc: 'Vienna Convention or bilateral. C/D - theory always; B - usually direct swap.' },
-        { title: 'United Kingdom (post-Brexit)', desc: 'Direct swap within 5 years of Polish residency.' },
-        { title: 'USA, Canada', desc: 'B only - direct swap under bilateral. C/D - full course.' },
-        { title: 'Syria, Iraq, Afghanistan, Yemen', desc: 'No swap - full OSK course required.' }
+        { title: 'United Kingdom (post-Brexit)', desc: "Direct swap. Since the 2021 reciprocal DVLA arrangement, UK photocard licences in cat. B exchange for a Polish one with no theory and no practical. The exchange must happen within your first 5 years of Polish residency - after that the deal lapses and you sit the full WORD exam." },
+        { title: 'Ireland', desc: "Full EU recognition under the Third Driving Licence Directive. You can keep driving on the Irish card as long as it's valid; when you swap for cosmetic reasons or because you're settling in Poland, it's a desk-level transaction at Wydział Komunikacji. No exam in any category." },
+        { title: 'Ukraine, Belarus, Russia, Kazakhstan', desc: "Bilateral treaty cover. Category B exchanges directly with no exam. C, CE, D and DE need the WORD theory test - available in Polish, Ukrainian or English depending on the WORD location and slot." },
+        { title: 'United States (any state)', desc: "No treaty with the federal government and none with any individual state. Full WORD process: theory then practical, both in English if you book at the right WORD. About 140 PLN per attempt. Most American drivers we work with pass theory first try and practical on the second." },
+        { title: 'Australia, New Zealand', desc: "No reciprocal agreement. Full theory and practical at WORD, same as the US route. Australian drivers tend to find the Polish urban driving test harder than expected - narrow streets and tram priority catch people out." },
+        { title: 'Canada', desc: "Depends on the province. Ontario and Quebec have the strongest provincial-level recognition through informal practice at some Wydziały Komunikacji; expect theory only. Other provinces - full theory plus practical. We check the latest position at the Warsaw office before we file." },
+        { title: 'Moldova, Georgia, Armenia, Azerbaijan', desc: "Mixed. Vienna Convention or bilateral cover for cat. B - usually direct swap. C and D always require theory at WORD." },
+        { title: 'Syria, Iraq, Afghanistan, Yemen, most African states', desc: "No swap at all. You sit the full OSK course from zero, then theory and practical at WORD. We pair you with an OSK that teaches in Arabic or English when one's available in Warsaw." }
       ]
     },
     timeline: {
-      title: 'How we run it',
-      subtitle: 'Standard 30-45 days. With WORD theory - up to 60.',
+      title: 'How we run the swap',
+      subtitle: "Treaty countries: 30 to 45 days end to end. WORD exam route: 8 to 12 weeks because of slot availability in Warsaw.",
       steps: [
-        { title: 'Consultation', duration: '20 min', desc: 'Country, category, status, theory needs. Action plan.' },
-        { title: 'Sworn translation', duration: '2-3 days', desc: 'Both sides translated by sworn translator - starostwo requirement.' },
-        { title: 'Medical exam', duration: '1-2 days', desc: 'Authorised doctor - 200 PLN, 30 min. Cat. 1 (B) or 2 (C/D).' },
-        { title: 'Psych test', duration: '1 day', desc: 'C/D only or per doctor. ~200 PLN, 1 hour.' },
-        { title: 'Filing at starostwo', duration: '1 day', desc: 'Wydział komunikacji of your residence. Pay 100.50 PLN.' },
-        { title: 'WORD theory if required', duration: '1-14 days', desc: 'Polish, Ukrainian or English. 30 questions, pass 68/74.' },
-        { title: 'Polish licence pickup', duration: '14-30 days', desc: 'Starosta issues Polish, retains the foreign one (sent back to issuing country).' }
+        { title: 'Free 20-min call', duration: '20 min', desc: "We check your country, category, stay status (TRC and PR cards qualify; tourist or short-stay visas don't), and what's already in your hand. By the end we know whether you're on the direct-swap track or the WORD-exam track." },
+        { title: 'Sworn translation', duration: '2-3 days', desc: "A tłumacz przysięgły translates both sides of your licence into Polish. Around 80 PLN per side. Wydział Komunikacji rejects DIY translations and accepts only sworn ones registered with the Ministry of Justice." },
+        { title: 'Medical certificate', duration: '1-2 days', desc: "Cat. 1 (B) or cat. 2 (C/D) orzeczenie lekarskie from a doctor authorised under the Drivers Act. Around 150 to 200 PLN, takes 30 minutes. We book at clinics near Aleje Jerozolimskie so you can file the same morning." },
+        { title: 'Psychotechnika (if needed)', duration: '1 day', desc: "Required for C, CE, D, DE or when the medical doctor flags it. 150 PLN, one hour. Reaction tests, attention split, visual processing. We book this back-to-back with the medical when both are needed." },
+        { title: 'Filing at Wydział Komunikacji', duration: '1 visit', desc: "Aleje Jerozolimskie 28 in Śródmieście - the office most foreigners use. Bring originals, the translation, medical, photo. State fee 100.50 PLN paid on the spot or by transfer. We meet you outside and walk in together." },
+        { title: 'WORD exam (if your country requires it)', duration: '2-8 weeks', desc: "WORD Warsaw is on Odlewnicza 8 in Targówek. Theory: 32 questions in English, 68/74 to pass, 140 PLN. Practical (if your country doesn't have theory-only recognition): another 200 PLN. English slots book out 4 to 6 weeks ahead - we lock yours in the day after filing." },
+        { title: 'Pickup of the Polish licence', duration: '14-30 days', desc: "Wydział Komunikacji texts you when the card is ready. You collect in person; they keep your foreign original and send it back to the issuing authority (DVLA, Ukrainian Service for Transport Safety, etc.). You don't get the old one back." }
       ]
     },
     documents: {
-      title: 'What we need',
-      subtitle: 'Base set.',
+      title: 'What you bring',
+      subtitle: "Starting list. Once we know your country and category, we trim or add to it on the call.",
       items: [
-        'Foreign licence (original + copies of both sides)',
-        'Sworn translation into Polish',
-        'Passport (original + photo-page copy)',
-        'PESEL and meldunek (or proof of stay >185 days)',
-        'Residence card or other legal-stay document',
-        'Cat. 1 (B) or 2 (C/D) medical certificate',
-        'Psych certificate (C/D or on referral)',
-        'Biometric photo 35×45 mm',
-        'Completed application - we prepare it',
-        'Proof of 100.50 PLN payment'
+        'Your foreign driving licence (original plus copies of both sides)',
+        'Sworn Polish translation of the licence (we arrange this with a court-registered translator)',
+        'Passport (original plus a copy of the photo page)',
+        'PESEL number and meldunek confirmation, or another proof of stay over 185 days',
+        'TRC card or PR card - tourists and visa-free entrants are not eligible to exchange',
+        "Orzeczenie lekarskie - cat. 1 for B, cat. 2 for C/D, valid 5 years for professional categories",
+        'Orzeczenie psychologiczne from a psychotechnika exam (C/D, or when the medical doctor refers)',
+        'Biometric photo 35×45 mm to Polish standard - not the US passport 2×2 inch or the UK 35×45 with different head dimensions',
+        "Completed wniosek o wydanie prawa jazdy - we prepare and you sign at the counter",
+        'Proof of the 100.50 PLN state fee'
       ]
     },
     pricing: {
-      title: 'Our fee',
-      subtitle: 'Fixed price per stage. State fees and exams billed at actuals.',
+      title: 'Our fee, on the table',
+      subtitle: "Fixed retainer per stage. State fees, the medical and the WORD exam pass through at cost.",
       items: [
-        { label: 'Consultation', value: 'Free', note: '20 minutes · case review' },
-        { label: 'Turnkey exchange', value: 'from 600 PLN', note: 'Translation, medical, starostwo' },
-        { label: 'Exchange + WORD theory', value: 'from 950 PLN', note: 'Prep & assistance included' },
-        { label: 'Full OSK course', value: 'from 1,800 PLN', note: 'B · when no swap available' }
+        { label: 'Diagnosis call', value: 'Free', note: '20 minutes · case review · go or no-go' },
+        { label: 'Direct-swap turnkey', value: 'from 600 PLN', note: 'UK, Irish, Ukrainian, Belarusian and other treaty countries' },
+        { label: 'Swap with WORD exam', value: 'from 950 PLN', note: "US, Australia, NZ - prep, booking, on-the-day assistance" },
+        { label: 'Full OSK course route', value: 'from 1,800 PLN', note: 'For countries with no recognition - cat. B from zero' }
       ],
-      note: 'LegalWin fees. State fee (100.50 PLN), medical (~200), psych (~200), sworn translation (~80), WORD (50 PLN/category) - separate. OSK courses (1,800-4,500 PLN) at provider rates.'
+      note: "Above is what LegalWin charges. State fee 100.50 PLN, medical 150-200 PLN, psychotechnika 150 PLN, sworn translation around 80 PLN, WORD exam 140 PLN per attempt (theory) plus 200 PLN per attempt (practical). OSK courses run 1,800 to 4,500 PLN at the school's rate."
     },
     legalBase: {
-      title: 'Legal basis',
+      title: 'The law behind it',
       items: [
-        'Act on Driving Persons of 5 January 2011',
-        'Minister of Infrastructure Regulation of 24 November 2022 on foreign-licence exchange',
-        '1968 Vienna Convention on Road Traffic',
-        '1973 PRL-USSR mutual recognition treaty (still in force)',
-        'Bilateral treaties with Ukraine (2003), Belarus (2004), Moldova (2014)'
+        'Drivers Act of 5 January 2011 (Ustawa o kierujących pojazdami), Art. 14 on foreign licence exchange',
+        'Minister of Infrastructure regulation of 24 November 2022 on the exchange of foreign driving licences',
+        '1968 Vienna Convention on Road Traffic, Annex 6 - the framework for non-EU recognition',
+        'DVLA-Wydział Komunikacji reciprocal arrangement of 2021 (the post-Brexit UK swap path)',
+        'Bilateral treaties with Ukraine (2003), Belarus (2004), Moldova (2014); the 1973 PRL-USSR treaty still covers Russia and Kazakhstan'
       ]
     },
     faq: [
-      { q: 'How long does the exchange take?', a: 'Standard 30-45 days. With WORD theory - up to 60. Urgent (expiring licence) - we file without translation on day one and complete the translation in parallel.' },
-      { q: 'Can I drive on a Ukrainian / Belarusian licence?', a: 'Yes, for 185 days of residence. After that - exchange is mandatory. From 2024 ITD actively checks actual stay duration (PESEL, meldunek, visa). Driving past the deadline - 500 PLN fine plus risk of revocation.' },
-      { q: 'C/D - is theory required?', a: 'Almost always. Most voivodeships demand WORD theory for non-EU professional categories.' },
-      { q: 'Expired or lost licence?', a: 'Expired licences cannot be exchanged. First reissue in the issuing country (consulate or remote), then exchange. We handle both.' },
-      { q: 'Where do the originals go?', a: 'Starostwo sends the original back to the issuing country (via MSZ/embassy) - standard practice to prevent double possession.' },
-      { q: 'Can I get C/D if I never had it?', a: 'No - exchange is only for equivalent categories. New C/D requires full OSK course + Kod 95 (driver CPC).' },
-      { q: 'Penalties for not exchanging?', a: 'Driving past 185 days breaches Art. 94 of Road Traffic Act. 500 PLN fine + 6 penalty points. Police verify entry date via PESEL/meldunek.' }
+      { q: "I'm British. Do I really not need to retake the test?", a: "Correct, and most British drivers don't believe it the first time. The DVLA and Wydział Komunikacji signed a reciprocal arrangement in 2021 that lets UK photocard licences swap straight across in cat. B. No theory, no practical, no interview. The catch: you must exchange within your first 5 years of Polish residency. After that the door closes and you sit the full WORD test like an American." },
+      { q: "I have a New York / California / Texas licence. Why doesn't it count?", a: "Because the US never signed a federal recognition treaty with Poland or the EU, and no individual state has done it either. So a CDL from Texas or a regular driver's licence from New York gets you nothing here. You sit the WORD theory in English - 32 questions, 140 PLN - then the practical test in a Polish-spec car, also 200 PLN. We've put 40-plus Americans through this in the last two years; the practical is the harder of the two." },
+      { q: "Where exactly do I file and where exactly do I sit the WORD exam?", a: "Filing happens at Wydział Komunikacji at Aleje Jerozolimskie 28, Warsaw - the office most foreigners in Śródmieście and Mokotów use. The WORD exam centre is at Odlewnicza 8 in Targówek; that's a 25-minute drive from Centrum. We meet you outside both buildings the first time so you don't waste a morning on the wrong floor." },
+      { q: "Can I drive on my home licence while the swap is pending?", a: "Yes, until the 185-day clock from PESEL registration runs out. After that, you're driving illegally and the insurance won't cover an accident. If filing is in progress, keep your paperwork in the glove box: ITD officers can call Wydział Komunikacji to confirm. Doesn't always work, but it sometimes deflects the 500 PLN fine." },
+      { q: "I lost my old licence or it expired. Now what?", a: "Expired licences don't exchange. You first reissue in the country that issued it - DVLA does it online for UK drivers, US states require a consulate visit or a remote process that takes 6 to 10 weeks. We coordinate the reissue and the Polish exchange so they finish in the same window." },
+      { q: "I want category C and I've never held it. Can I get it through exchange?", a: "No. Exchange only mirrors the categories on your foreign licence. New C or D from zero in Poland means a full OSK course, theory and practical at WORD, then Kod 95 (the EU driver CPC) on top before you can drive commercially. Different service - see /en/uslugi/kod-95 for that route." },
+      { q: "Do I need a special photo, or will my passport photo work?", a: "Special photo. Polish licence photo standard is 35×45 mm with specific head-to-frame proportions that differ from the US 2×2 inch passport photo and even from the UK passport spec. Don't bring American photos - they bounce at the counter. Photo booths near Wydział Komunikacji do it correctly for around 25 PLN." }
     ],
     related: ['kod-95', 'pesel', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'Licence exchange in 30 days',
-    ctaSubtitle: 'Free consultation: country, category, status. From first visit to Polish licence - typically 30-45 days. With WORD theory - up to 60.'
+    ctaTitle: "Get your Polish driving licence without a wasted trip",
+    ctaSubtitle: "Free 20-minute call. We check your country, category and stay status, tell you whether you're on the direct-swap track or the WORD-exam track, and quote you a flat retainer. Treaty countries: 30 to 45 days. WORD route: 8 to 12 weeks."
   },
   tr: {
     slug: 'wymiana-prawa-jazdy',

@@ -183,87 +183,87 @@ const pesel: ServiceEntry = {
     icon: 'id-card',
     badge: '11 digits · ZUS · US · ePUAP',
     title: 'PESEL for foreigners',
-    subtitle: 'Polish national identification number',
-    lead: 'PESEL is the 11-digit Polish national ID number. Without it you cannot sign a tenancy agreement, open a bank account, register with NFZ healthcare, set up ePUAP or file a tax return. Since 2022 a foreigner gets PESEL "for a specific purpose" - employment, business, study. We file the application, link it to ePUAP and activate mObywatel.',
+    subtitle: "Poland's national ID number, your key to bank, NFZ, ZUS and every e-service",
+    lead: "PESEL is the 11-digit number Poland assigns to every resident. Think UK National Insurance number or US Social Security Number, except this one does more, it encodes your birthdate and gender right inside the digits. Without it you can't open a real bank account, register with NFZ, file PIT, set up profil zaufany, or rent a Bolt scooter for the afternoon. Since 2022 a foreigner gets PESEL with a stated cel: employment, study, business, property purchase. We draft the wniosek, walk you through the urząd dzielnicy filing, and tie the number to ePUAP and mObywatel so you can stop queuing for clerks.",
     facts: [
-      { label: 'Issuance', value: '1 day', note: 'when filed at urząd gminy' },
-      { label: 'State fee', value: '0 PLN', note: 'free of charge' },
-      { label: 'Linkage', value: 'ePUAP + mObywatel', note: 'e-signature & state e-services' },
-      { label: 'Validity', value: 'lifetime', note: 'one number forever' }
+      { label: 'Issuance', value: '1 day', note: 'same-day at urząd dzielnicy when paperwork is clean' },
+      { label: 'State fee', value: '0 PLN', note: 'the number itself is free' },
+      { label: 'Deadline', value: '30 days', note: 'same window as meldunek for stays over 30 days' },
+      { label: 'Validity', value: 'lifetime', note: 'one number, never reassigned, almost never changed' }
     ],
     grounds: {
-      title: 'When you need a PESEL',
-      subtitle: 'The purpose stated on the application drives the document set the urząd will require.',
+      title: 'What PESEL actually unlocks',
+      subtitle: "You can survive a week or two in Poland without it. Past that, every state and bank workflow asks for the 11 digits.",
       items: [
-        { title: 'Purpose: employment', desc: 'Without PESEL your employer cannot register you with ZUS, pay salary, or withhold tax. We file alongside the work contract.' },
-        { title: 'Purpose: business', desc: 'Required to register a Sp. z o.o. with KRS, a sole proprietorship in CEIDG, open a corporate account and register for VAT.' },
-        { title: 'Purpose: study', desc: 'For school/university enrolment, student ID, scholarships.' },
-        { title: 'Purpose: social benefits', desc: '800+ family benefit, becikowe, ZUS payouts, NFZ card, eRecepta.' },
-        { title: 'Purpose: tax filing', desc: 'PIT/VAT returns, registration with US, access to e-Urząd Skarbowy and Twój e-PIT.' },
-        { title: 'Purpose: temporary protection (UKR)', desc: 'Ukrainian nationals with UKR status get PESEL through mObywatel - no in-person visit.' },
-        { title: 'Purpose: real estate purchase', desc: 'Apartment buying, KW (land register) entry, PCC-3 tax.' },
-        { title: 'Other', desc: 'Marriage at USC, vehicle registration, driving licence, foreign-licence exchange, healthcare.' }
+        { title: 'Bank account upgrade', desc: "Santander, mBank, ING and Pekao open a basic passport-based account in 30 minutes, then push you to come back with PESEL. With the number they switch you to the full residential account, online banking included, no foreign-correspondent fees on PLN transfers." },
+        { title: 'profil zaufany and TRC under MOS v2.0', desc: 'profil zaufany, the state digital signature, requires PESEL. From 2026 you cannot file a TRC application through MOS v2.0 without it. No PESEL, no TRC. Full stop.' },
+        { title: 'NFZ healthcare and eRecepta', desc: "Your ZUS contributions buy NFZ coverage, but the clinic looks you up by PESEL. Prescriptions go to the eRecepta app keyed to your number. Specialists won't even open a chart without it." },
+        { title: 'Tax filing and ZUS', desc: 'PIT-37, PIT-36, VAT-7, JPK_V7M, the Twój e-PIT pre-filled return, e-Urząd Skarbowy login. All keyed to PESEL. Same for ZUS contributions if you run JDG or get hired on umowa o pracę.' },
+        { title: 'mObywatel app', desc: 'Digital ID card, mPrawoJazdy, mLegitymacja, eRecepta, vehicle data, and 800+ family benefit, all in one government app. Login is your PESEL plus profil zaufany.' },
+        { title: 'eDoręczenia, the official mail channel', desc: "From 2025 most state correspondence moves to eDoręczenia, Poland's e-delivery system. Your inbox is provisioned against your PESEL. Miss the registration, miss a tax notice." },
+        { title: 'Scooters, kids, marriage, cars', desc: "Bolt and Lime want a PESEL for scooter rentals over a certain power class. USC needs it for marriage. Wydział komunikacji needs it for vehicle registration. Schools allocate first-grade spots by it." },
+        { title: 'FATCA reporting for US citizens', desc: "PESEL doesn't replace your SSN, but Polish brokerages and banks running FATCA checks will ask for both. Without PESEL, the Polish side of the form stays blank and accounts stall in compliance review." }
       ]
     },
     timeline: {
-      title: 'How we run it end-to-end',
-      subtitle: 'From first call to the PESEL certificate and active ePUAP - usually 1-3 working days.',
+      title: 'How we run it',
+      subtitle: 'First call to PESEL certificate in PESEL register, typically 1 to 3 working days.',
       steps: [
-        { title: 'Consultation', duration: '20 min', desc: 'Identify the purpose, verify legal basis, draw up the minimum document set.' },
-        { title: 'Application prep', duration: '1 day', desc: 'Fill the wniosek o nadanie numeru PESEL, arrange sworn translations of your documents.' },
-        { title: 'Filing at urząd gminy', duration: '1 visit', desc: 'We escort you to the urząd. Application is signed at the desk. UKR status: no visit, via mObywatel.' },
-        { title: 'PESEL collection', duration: '1 day', desc: 'Number issued same day or next working day (certificate is free).' },
-        { title: 'ePUAP activation', duration: '30 min', desc: 'Set up profil zaufany - the state e-signature for all e-services.' },
-        { title: 'mObywatel', duration: '15 min', desc: 'Install the app: digital passport, mPrawoJazdy, mLegitymacja, eRecepta.' }
+        { title: 'Free 20-min call', duration: '20 min', desc: 'We pick the cel that fits your situation, check whether you already have meldunek, and flag any document gaps that would trigger a refusal.' },
+        { title: 'Wniosek prepared', duration: '1 day', desc: 'We fill the cudzoziemiec PESEL form per the 2022 MSWiA regulation and line up sworn translations of your birth and (if relevant) marriage certificate.' },
+        { title: 'Meldunek first, if needed', duration: '1 day', desc: "Urząd will refuse PESEL without an address logged in the register. Classic Catch-22 for new arrivals. We file meldunek in parallel so both go in on the same visit." },
+        { title: 'Filing at urząd dzielnicy', duration: '1 visit', desc: "In person, passport in hand. You sign the form at the clerk's desk. For UKR status, no visit, the application moves through mObywatel." },
+        { title: 'PESEL issued', duration: 'same day', desc: 'Clean files come back same day, zaświadczenie o nadaniu PESEL printed free of charge. Busy urzęds in Warsaw and Wrocław sometimes push to the next working day.' },
+        { title: 'profil zaufany + mObywatel', duration: '45 min', desc: 'We set up profil zaufany through your bank (mBank or Santander is fastest) and install mObywatel so your digital ID is ready before you leave the office.' }
       ]
     },
     documents: {
       title: 'What we need from you',
-      subtitle: 'Base set. Exact list depends on the purpose.',
+      subtitle: 'Base set. Exact list shifts with the cel you pick.',
       items: [
-        'Passport (original + copies of all used pages)',
-        'Proof of legal stay: visa, stamp, residence card, visa-free regime',
-        'Proof of purpose: work contract, KRS extract, study certificate, etc.',
-        'Polish address proof: tenancy, zameldowanie, owner statement',
-        'Birth certificate with sworn translation into Polish',
-        'Marriage certificate (if name change) with sworn translation',
-        'Completed application - we prepare it',
-        'For children: both parents at urząd with passports and consent'
+        'Passport, original plus a clean photocopy of every used page',
+        'Proof of legal stay: D-visa, TRC card, visa-free entry stamp, or the in-progress TRC submission receipt',
+        "Proof of cel: umowa o pracę, KRS extract for the Sp. z o.o., uczelnia enrolment letter, notarial deed for property",
+        'Address proof in Poland: tenancy plus owner ID, or zameldowanie if already registered',
+        'Birth certificate with sworn translation into Polish (every cel asks for this, no exceptions)',
+        'Marriage certificate with sworn translation if your current surname differs from the birth one',
+        'Completed wniosek that we draft from the call, you only sign at the desk',
+        'For children: both parents at urząd with passports, or a notarised consent from the absent parent'
       ]
     },
     pricing: {
       title: 'Our fee',
-      subtitle: 'Fixed price. No state fee - the PESEL itself is free.',
+      subtitle: 'Urząd charges nothing. Our work is the only billable line.',
       items: [
-        { label: 'Consultation', value: 'Free', note: '20 minutes · purpose review' },
-        { label: 'Turnkey PESEL', value: 'from 450 PLN', note: 'Application, translations, urząd visit' },
-        { label: 'PESEL + ePUAP + mObywatel', value: 'from 600 PLN', note: 'Full digital infrastructure' },
-        { label: 'Family PESEL (3+)', value: 'from 1,200 PLN', note: 'Discount for joint family filing' }
+        { label: 'Consultation', value: 'Free', note: '20 minutes · cel review · go or no-go' },
+        { label: 'Turnkey PESEL', value: 'from 450 PLN', note: 'Wniosek, sworn translations brokered, urząd visit with you' },
+        { label: 'PESEL + profil zaufany + mObywatel', value: 'from 600 PLN', note: 'Full digital stack live the same week' },
+        { label: 'Family PESEL, 3+ people', value: 'from 1,200 PLN', note: 'Joint filing for spouse and children, single visit' }
       ],
-      note: 'LegalWin fees. Sworn translations billed separately (~80 PLN/document).'
+      note: 'LegalWin fees only. Sworn translations run around 80 PLN per document and go straight to the translator.'
     },
     legalBase: {
       title: 'Legal basis',
       items: [
-        'Population Records Act of 24 September 2010',
-        'MSWiA Regulation of 21 January 2022 on the PESEL application',
-        'Act of 12 March 2022 on assistance to Ukrainian citizens (PESEL UKR)',
-        'Council of Ministers Regulation on PESEL assignment',
-        'Act of 17 February 2005 on informatisation (ePUAP)'
+        'Ustawa o ewidencji ludności of 24 September 2010',
+        'MSWiA regulation of 21 January 2022 on the PESEL application form',
+        'Ustawa of 12 March 2022 on aid to Ukrainian citizens (the PESEL UKR track)',
+        'Council of Ministers regulation on PESEL assignment procedure',
+        'Ustawa o informatyzacji of 17 February 2005 (ePUAP and profil zaufany)'
       ]
     },
     faq: [
-      { q: 'Can I get PESEL without a residence card?', a: 'Yes. Since 2022 PESEL is granted "for a stated purpose" - employment, business registration, study or property purchase. Residence card is not required - legal stay is enough (visa, visa-free, residence application stamp).' },
-      { q: 'How long does it take?', a: 'With a complete pack - same day. Big-city urzęds (Warsaw, Wrocław, Kraków) sometimes take up to 3 working days. UKR status: 1 day via mObywatel without visiting.' },
-      { q: 'Does PESEL grant the right to work?', a: 'No. PESEL is an ID number, not a work permit. To work you also need a work permit or a residence card with work rights. PESEL is necessary but not sufficient.' },
-      { q: 'What is ePUAP?', a: 'ePUAP (e-government platform) is the state e-signature platform. Profil zaufany (trusted profile) lets you file applications with ZUS, US (tax office), KRS (court register), courts and any urząd without in-person visits. Mandatory for MOS v2.0 (TRC) starting 2026.' },
-      { q: 'Can PESEL be changed?', a: 'Only in exceptional cases - gender change, date-of-birth error, witness protection. Application via MSWiA. Otherwise: never.' },
-      { q: 'Lost the PESEL certificate - what now?', a: 'The certificate isn\'t needed - institutions pull PESEL from the register. A duplicate is free at any urząd gminy and issued within a day.' },
-      { q: 'PESEL for children?', a: 'Yes - a parent applies. Birth certificate (sworn translation), parents\' passports, child\'s legal-stay proof. We file alongside the adult PESEL.' }
+      { q: 'Do I need a karta pobytu first?', a: 'No. Since the 2022 reform PESEL is granted on a stated cel, not on TRC status. A work contract, KRS extract, uczelnia letter, or notarial deed is enough, paired with any valid stay basis: D-visa, visa-free stamp, or the receipt for a pending TRC.' },
+      { q: "Urząd refused because I have no meldunek. What now?", a: "Classic Catch-22. The clerk wants an address in the register before they assign a PESEL, but most landlords drag their feet on meldunek. We solve it by filing both on the same visit, with a notarised owner authorisation if the landlord won't come along. Around 150 PLN at any notariusz." },
+      { q: 'How fast is fast?', a: "Same-day in Gdańsk, Łódź or Poznań when files are clean. Warsaw and Wrocław run 1 to 3 working days during peak loads, usually September and January. UKR status moves entirely through mObywatel, 24 hours start to finish, no visit." },
+      { q: 'Does PESEL let me work?', a: "No. PESEL is identification, not authorisation. To work you also need a zezwolenie na pracę, an oświadczenie o powierzeniu pracy, or a TRC with work rights baked in. PESEL is necessary but never sufficient on its own." },
+      { q: 'Why does my bank suddenly want PESEL?', a: "Polish banks open a passport-only account as a stopgap. Around day 30 their KYC system flags it and asks you to come back with PESEL. Once you do, they convert the account to a full residential one, enable BLIK, open online banking, and drop the foreign-correspondent fees on PLN transfers." },
+      { q: "I'm a US citizen. Does PESEL replace my SSN?", a: "No. The two coexist. You keep your SSN for IRS filing. The Polish side, FATCA forms at brokerages like XTB or Bossa, asks for PESEL. Without it the form is incomplete and the account sits in compliance review until you fix it." },
+      { q: 'Can PESEL be changed?', a: 'Almost never. Three legal grounds: gender reassignment, a confirmed date-of-birth error in the register, witness protection. Application through MSWiA, takes months. Plan as if the number is permanent.' }
     ],
     related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
-    ctaTitle: 'PESEL in 1 day',
-    ctaSubtitle: 'Free consultation: identify the purpose, gather documents, book the urząd. From first call to PESEL certificate - typically 1-3 working days.'
+    ctaTitle: 'PESEL sorted in a day',
+    ctaSubtitle: 'Free 20-min consultation. We pick the cel, line up meldunek if you need it, file at urząd dzielnicy, and link profil zaufany and mObywatel before you head home. Typical turnaround is 1 to 3 working days.'
   },
   tr: {
     slug: 'pesel',
