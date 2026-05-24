@@ -7,7 +7,16 @@ import { LocaleSwitcher } from './LocaleSwitcher';
 import { LogoBadge } from './Logo';
 import { cn } from '@/lib/cn';
 
-const sections = ['services', 'pricing', 'cases', 'process', 'faq', 'contact'] as const;
+type NavItem = { key: string; href: string };
+const navItems: NavItem[] = [
+  { key: 'services', href: '/#services' },
+  { key: 'pricing', href: '/#pricing' },
+  { key: 'cases', href: '/#cases' },
+  { key: 'process', href: '/#process' },
+  { key: 'faq', href: '/#faq' },
+  { key: 'blog', href: '/blog' },
+  { key: 'contact', href: '/#contact' },
+];
 
 export function Header() {
   const t = useTranslations('Nav');
@@ -75,14 +84,11 @@ export function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden items-center gap-8 text-sm text-ink-300 lg:flex">
-            {sections.map((s) => (
-              <Link key={s} href={`/#${s}`} className="relative transition-colors duration-200 hover:text-ink-50">
-                {t(s)}
+            {navItems.map((item) => (
+              <Link key={item.key} href={item.href} className="relative transition-colors duration-200 hover:text-ink-50">
+                {t(item.key)}
               </Link>
             ))}
-            <Link href="/blog" className="relative transition-colors duration-200 hover:text-ink-50">
-              {t('blog')}
-            </Link>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -140,39 +146,24 @@ export function Header() {
 
           <nav className="flex flex-1 flex-col px-8">
             <ul className="flex flex-col divide-y divide-ink-800/60">
-              {sections.map((s, i) => (
+              {navItems.map((item, i) => (
                 <li
-                  key={s}
+                  key={item.key}
                   className="mobile-menu-item"
                   style={{ animationDelay: `${50 + i * 60}ms` }}
                 >
                   <Link
-                    href={`/#${s}`}
+                    href={item.href}
                     onClick={closeMobile}
                     className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
                   >
-                    {t(s)}
+                    {t(item.key)}
                     <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
                       <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </Link>
                 </li>
               ))}
-              <li
-                className="mobile-menu-item"
-                style={{ animationDelay: `${50 + sections.length * 60}ms` }}
-              >
-                <Link
-                  href="/blog"
-                  onClick={closeMobile}
-                  className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
-                >
-                  {t('blog')}
-                  <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
-                    <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </Link>
-              </li>
             </ul>
 
             <div
