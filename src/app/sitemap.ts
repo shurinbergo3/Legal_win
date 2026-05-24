@@ -6,6 +6,12 @@ import { getGitLastModified } from '@/lib/git-mtime';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
 
+// IMPORTANT: lastModified values here must reflect real content changes, not
+// build time. scripts/notify-indexnow.mjs filters the sitemap by <lastmod>
+// (default 48h window) and only pings IndexNow for URLs that actually changed.
+// Using `new Date()` would mark every URL fresh on every deploy, defeating the
+// filter and getting the domain throttled by Bing as spam.
+
 // Derived from the last git commit that touched each section, so editing
 // a service file is enough to refresh its lastmod. Fallback constants
 // apply when git history isn't available (e.g. shallow clone).

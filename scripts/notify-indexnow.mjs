@@ -8,6 +8,7 @@ const ENDPOINT = 'https://api.indexnow.org/indexnow';
 
 const KEY = process.env.INDEXNOW_KEY;
 const VERCEL_ENV = process.env.VERCEL_ENV;
+const WINDOW_HOURS = Number(process.env.INDEXNOW_LASTMOD_WINDOW_HOURS) || 48;
 
 if (VERCEL_ENV && VERCEL_ENV !== 'production') {
   console.log(`[indexnow] Skipping — VERCEL_ENV=${VERCEL_ENV} (not production)`);
@@ -40,17 +41,51 @@ if (!xml) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     xml = await res.text();
   } catch (err) {
-    console.error(`[indexnow] Could not load sitemap: ${err.message}`);
+    console.log(`[indexnow] Could not load sitemap: ${err.message} — skipping`);
     process.exit(0);
   }
 }
 
-const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)]
-  .map((m) => m[1].trim())
-  .filter((u) => u.startsWith(SITE_URL));
+const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
+
+let fresh = 0;
+let stale = 0;
+let noLastmod = 0;
+const urls = [];
+
+// Parse by <url>…</url> blocks so each <loc> stays paired with its <lastmod>.
+// Two separate global regexes would desync on any block missing <lastmod>.
+for (const block of xml.matchAll(/<url\b[^>]*>([\s\S]*?)<\/url>/g)) {
+  const inner = block[1];
+  const locMatch = inner.match(/<loc>([^<]+)<\/loc>/);
+  if (!locMatch) continue;
+  const url = locMatch[1].trim();
+  if (!url.startsWith(SITE_URL)) continue;
+
+  const lastmodMatch = inner.match(/<lastmod>([^<]+)<\/lastmod>/);
+  if (!lastmodMatch) {
+    noLastmod++;
+    continue;
+  }
+  const ts = Date.parse(lastmodMatch[1].trim());
+  if (Number.isNaN(ts)) {
+    noLastmod++;
+    continue;
+  }
+  if (ts >= cutoff) {
+    fresh++;
+    urls.push(url);
+  } else {
+    stale++;
+  }
+}
+
+console.log(
+  `[indexnow] window=${WINDOW_HOURS}h fresh=${fresh} stale=${stale} no-lastmod=${noLastmod}`
+);
 
 if (urls.length === 0) {
-  console.log('[indexnow] No URLs found in sitemap, skipping');
+  console.log('[indexnow] nothing to submit');
   process.exit(0);
 }
 
