@@ -5,9 +5,7 @@
  *   - Vercel KV when KV_REST_API_URL + KV_REST_API_TOKEN are set.
  *   - Local JSON file at <repo>/data/leads.json otherwise.
  *
- * Capped at MAX_LEADS (most recent first). The cap is the de-facto retention
- * policy — older entries fall off automatically as new ones arrive, so we
- * don't accumulate personal data indefinitely.
+ * Unbounded - all leads are kept indefinitely (newest first).
  */
 
 import fs from 'node:fs/promises';
@@ -17,7 +15,6 @@ import type { ContactInput } from './schemas';
 
 const FILE = path.join(process.cwd(), 'data', 'leads.json');
 const KV_KEY = 'legalwin:leads';
-const MAX_LEADS = 500;
 
 const hasKV = Boolean(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
 
@@ -83,7 +80,7 @@ export async function storeLead(data: ContactInput): Promise<LeadRecord> {
     locale: data.locale
   };
   const store = await read();
-  store.items = [record, ...store.items].slice(0, MAX_LEADS);
+  store.items = [record, ...store.items];
   await write(store);
   return record;
 }

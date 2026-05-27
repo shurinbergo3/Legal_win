@@ -306,7 +306,7 @@ export async function POST(req: NextRequest) {
       const id = colon === -1 ? rest : rest.slice(0, colon);
       const returnOffset = colon === -1 ? 0 : Number(rest.slice(colon + 1)) || 0;
       const lead = await getLead(id);
-      const text = lead ? leadCard(lead) : '⚠️ Заявка не найдена (могла быть вытеснена при ротации).';
+      const text = lead ? leadCard(lead) : '⚠️ Заявка не найдена.';
       const keyboard: InlineKeyboard = {
         inline_keyboard: [
           [{ text: '← К списку', callback_data: `admin:leads:${returnOffset}` }],
@@ -325,8 +325,7 @@ export async function POST(req: NextRequest) {
         `Сегодня (UTC): <b>${s.today}</b>\n` +
         `За 7 дней: <b>${s.last7d}</b>\n` +
         `За 30 дней: <b>${s.last30d}</b>\n` +
-        `Всего в базе: <b>${s.total}</b> / 500\n\n` +
-        '<i>Хранятся последние 500 заявок, старые вытесняются автоматически.</i>';
+        `Всего в базе: <b>${s.total}</b>`;
       const keyboard: InlineKeyboard = {
         inline_keyboard: [[{ text: '← В меню', callback_data: 'admin:menu' }]]
       };
@@ -502,7 +501,7 @@ export async function POST(req: NextRequest) {
         `Сегодня (UTC): <b>${s.today}</b>\n` +
         `За 7 дней: <b>${s.last7d}</b>\n` +
         `За 30 дней: <b>${s.last30d}</b>\n` +
-        `Всего в базе: <b>${s.total}</b> / 500`
+        `Всего в базе: <b>${s.total}</b>`
     );
     return NextResponse.json({ ok: true });
   }
