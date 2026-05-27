@@ -359,7 +359,7 @@
     "errorBannerInvalid": "Yorum gönderilmedi. Lütfen düzeltin:",
     "validation": {
       "nameMin": "Ad - en az 2 karakter",
-      "textMin": "Yorum metni - en az 10 karakter",
+      "textMin": "Yorum metni - en az 2 karakter",
       "ratingRequired": "Yıldız puanı seçin",
       "consentRequired": "RODO onayı gereklidir"
     }

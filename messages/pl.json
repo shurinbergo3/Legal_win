@@ -359,7 +359,7 @@
     "errorBannerInvalid": "Opinia nie została wysłana. Popraw, proszę:",
     "validation": {
       "nameMin": "Imię - minimum 2 znaki",
-      "textMin": "Treść opinii - minimum 10 znaków",
+      "textMin": "Treść opinii - minimum 2 znaki",
       "ratingRequired": "Wystaw ocenę gwiazdkami",
       "consentRequired": "Zgoda RODO jest wymagana"
     }

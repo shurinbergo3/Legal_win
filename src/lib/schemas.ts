@@ -47,7 +47,7 @@ export const reviewSchema = z.object({
     z.string().trim().max(120).optional()
   ),
   rating: z.coerce.number().int().min(1).max(5),
-  text: z.string().trim().min(10).max(2000),
+  text: z.string().trim().min(2).max(2000),
   consent: z.literal('on', {
     errorMap: () => ({ message: 'consent_required' })
   }),

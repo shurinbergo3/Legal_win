@@ -359,7 +359,7 @@
     "errorBannerInvalid": "Review not sent. Please fix:",
     "validation": {
       "nameMin": "Name - at least 2 characters",
-      "textMin": "Review text - at least 10 characters",
+      "textMin": "Review text - at least 2 characters",
       "ratingRequired": "Pick a star rating",
       "consentRequired": "GDPR consent is required"
     }
