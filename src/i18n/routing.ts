@@ -10,6 +10,7 @@ export const routing = defineRouting({
 export type Locale = (typeof routing.locales)[number];
 
 // Locales whose content is translated and ready to surface in sitemap/hreflang.
-// 'uk' is excluded during Этап 0: routes resolve via fallback to ru content,
-// but we do not advertise the URLs until real translations land.
-export const INDEX_LOCALES: readonly Locale[] = ['ru', 'pl', 'en', 'tr'];
+// Sitemap filters per-page (services, blog posts) by actual locale presence —
+// untranslated services/articles still won't be advertised even though their
+// locale lives here.
+export const INDEX_LOCALES: readonly Locale[] = ['ru', 'pl', 'en', 'tr', 'uk'];
