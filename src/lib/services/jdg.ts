@@ -348,6 +348,93 @@ const jdg: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'podatki-ksiegowosc', 'karta-pobytu'],
     ctaTitle: 'JDG 1 günde',
     ctaSubtitle: 'Ücretsiz danışmanlık: TRC kontrolü yaparız, vergi rejimini hesaplarız, 3-5 günde anahtar teslim açarız.'
+  },
+  uk: {
+    slug: 'jdg',
+    group: 'business',
+    icon: 'landmark',
+    badge: 'JDG · CEIDG · 1 день',
+    title: 'Jednoosobowa działalność gospodarcza (JDG)',
+    subtitle: 'Індивідуальне підприємництво в Польщі для власників карти побуту',
+    lead: 'JDG — польський ФОП. Відкриття через CEIDG займає 1 день, податки — 12% / 19% / podatek liniowy / Estoński / IP Box — обираєте під дохід. Іноземець може відкрити JDG лише за наявності karty pobytu з правом на prowadzenie działalności (стандартна TRC дає це право, окрім студентської). Ведемо від вибору форми оподаткування до першої декларації JPK_V7.',
+    facts: [
+      { label: 'Реєстрація CEIDG', value: '1 день', note: 'онлайн через mObywatel' },
+      { label: 'Стартовий ZUS', value: '0 PLN', note: 'перші 6 міс. — Ulga na start' },
+      { label: 'Mały ZUS Plus', value: '~ 460 PLN/міс.', note: 'після Ulgi · дохід < 120 000 PLN' },
+      { label: 'Pełny ZUS', value: '~ 1 700 PLN/міс.', note: 'після 24+ місяців' }
+    ],
+    grounds: {
+      title: 'Кому підходить JDG',
+      subtitle: 'JDG простіша й дешевша в обслуговуванні, ніж Sp. z o.o., але потребує карти побуту й не захищає особисте майно.',
+      items: [
+        { title: 'IT-фрілансер з одним клієнтом', desc: 'Програміст за B2B-контрактом із польською чи закордонною фірмою. JDG + IP Box (5%) часто оптимальніший за Sp. z o.o.' },
+        { title: 'Самозайнятий фахівець', desc: 'Дизайнер, маркетолог, перекладач, репетитор, бізнес-консультант — JDG ідеальна: мінімум бюрократії, вибір форми податку.' },
+        { title: 'Малий магазин або сервіс', desc: 'Місцева перукарня, кав’ярня, авторемонт. До 5–10 співробітників — керується як JDG з upoważnieniem.' },
+        { title: 'Тестуємо нішу', desc: 'Запуск без зобов’язань. Закриття JDG — 1 день у CEIDG, на відміну від Sp. z o.o. (4–6 місяців і 4 000+ PLN).' },
+        { title: 'IT із правом на IP Box', desc: 'JDG на 19% liniowy + IP Box (5% на дохід від програмістської інтелектуальної власності) — оптимізує податки до 5–6% ефективної ставки.' },
+        { title: 'Подання на карту побуту через samozatrudnienie', desc: 'Активна JDG (6 міс.+) з регулярним доходом — підстава для karty pobytu для samozatrudnionych. Альтернатива роботі за umową o pracę.' }
+      ]
+    },
+    timeline: {
+      title: 'Як відкриваємо JDG',
+      subtitle: 'Від перевірки прав до першої umowy — зазвичай 3–5 робочих днів.',
+      steps: [
+        { title: 'Безкоштовна консультація', duration: '30 хв', desc: 'Перевіряємо основу TRC (потрібне право на działalność), обираємо форму податку: skala (12/32%), liniowy 19%, ryczałt, IP Box, Estoński CIT (лише для Sp. z o.o. — не підходить).' },
+        { title: 'PKD-коди і план', duration: '1 день', desc: 'Підбираємо PKD під ваші послуги/товари. Можна кілька кодів одночасно. Головний — визначає ставку ZUS.' },
+        { title: 'Реєстрація в CEIDG', duration: '1 день', desc: 'Wniosek через ePUAP, mObywatel або офлайн в Urzędzie Gminy. Отримуємо NIP, REGON, активацію VAT-R.' },
+        { title: 'ZUS і Ulga na start', duration: '7 днів', desc: 'Реєстрація в ZUS-ZUA. Активуємо Ulgę na start: 6 місяців без składek społecznych (лише zdrowotna ~314 PLN).' },
+        { title: 'Konto firmowe в банку', duration: '1–3 дні', desc: 'Відкриваємо konto firmowe в mBanku, ING, PKO BP. Зазвичай безкоштовно для JDG з мінімальним обігом.' },
+        { title: 'JPK_V7 і перша декларація', duration: 'щомісяця', desc: 'JPK_V7 (комбінований VAT + книга wydatków) до 25 числа наступного місяця. Бухгалтер робить за вас.' },
+        { title: 'Знижка ZUS', duration: 'через 6 міс.', desc: 'Після Ulgi — Mały ZUS Plus (якщо дохід < 120 000 PLN/рік): ~460 PLN/міс., 24 місяці. Потім pełny ZUS ~1 700 PLN/міс.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно для відкриття',
+      subtitle: 'Реєстрація швидка — головне, щоб була підстава (TRC з правом).',
+      items: [
+        'Паспорт + Karta Pobytu з правом на działalność gospodarczą',
+        'PESEL (обов’язковий для CEIDG)',
+        'Адреса проживання в Польщі (для CEIDG і Urzędu Skarbowego)',
+        'Адреса ведення бізнесу (може збігатися з домашньою)',
+        'PKD-коди — обираємо на консультації',
+        'Profil zaufany / kwalifikowany podpis (допомагаємо оформити)',
+        'Konto bankowe — особистий або одразу firmowe',
+        'Якщо не самостійно — pełnomocnictwo notarialne'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Відкриття JDG в державі безкоштовне. Платите лише за наш час і бухгалтерію.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · форма податку і PKD' },
+        { label: 'Відкриття JDG', value: 'від 600 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
+        { label: 'Бухгалтерія JDG', value: 'від 250 PLN/міс.', note: 'KPiR / ryczałt + JPK_V7' },
+        { label: 'JDG + карта побуту через бізнес', value: 'від 4 800 PLN', note: 'JDG + karta pobytu для samozatrudnionych' }
+      ],
+      note: 'Держмита немає — CEIDG і ZUS безкоштовні. ZUS-składki ~314 PLN/міс. (Ulga), ~460 PLN (Mały ZUS+), ~1 700 PLN (pełny). Податок — окремо за результатами.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 6 marca 2018 r. — Prawo przedsiębiorców',
+        'Ustawa z dnia 26 lipca 1991 r. o podatku PIT (skala, liniowy, ryczałt)',
+        'Ustawa z dnia 13 października 1998 r. o ZUS (Ulga na start, Mały ZUS Plus)',
+        'Ustawa z dnia 6 marca 2018 r. o CEIDG i Punkcie Informacji dla Przedsiębiorców',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (zwolnienie do 200 000 PLN)'
+      ]
+    },
+    faq: [
+      { q: 'Чи може іноземець відкрити JDG?', a: 'Лише за наявності karty pobytu (карти перебування) з правом на działalność gospodarczą (підприємницьку діяльність). Це право дає стандартна TRC за роботою / бізнесом / сім’єю, карта сталого побуту, Karta Polaka, статус резидента ЄС. Не дає: студентська TRC, віза D, безвізовий в’їзд. Громадянин ЄС/ЄЕЗ відкриває JDG без TRC.' },
+      { q: 'Яка форма податку вигідніша?', a: 'Залежить від типу бізнесу та доходу. Skala (шкала, 12% до 120к, 32% вище) — для сімей з дітьми (ulga — податковий вирахунок). Liniowy (лінійний) 19% — для доходу 120–500к. Ryczałt (фіксований податок з обороту) — для послуг із малими витратами (3–17% від обороту). IP Box — для програмістів (5% на доходи від ІС). Рахуємо на консультації.' },
+      { q: 'Як працює Ulga na start?', a: 'Ulga na start (пільга на старті) — перші 6 місяців — лише składka zdrowotna (внесок на медстраховку, ~314 PLN/міс.). Без składek społecznych (соцвнесків: emerytalnych — пенсійних, rentowych — на допомоги, chorobowych — лікарняних). Вмикається автоматично при першій реєстрації. Якщо у вас уже була JDG за останні 60 міс. — права на Ulgę немає.' },
+      { q: 'Що після 6 місяців?', a: 'Mały ZUS Plus (малий ZUS-плюс) — 24 місяці ~460 PLN/міс. (якщо торішній дохід < 120 000 PLN/рік). Потім pełny ZUS (повний ZUS) ~1 700 PLN/міс. На цій стадії багато переходять на Sp. z o.o. (немає ZUS у засновника при 2+ wspólnikach — учасниках).' },
+      { q: 'Чи можна мати JDG і umowę o pracę одночасно?', a: 'Так. Не суперечать. JDG — незалежна działalność (діяльність), umowa o pracę (трудовий договір) — робота на роботодавця. ZUS сплачується з umowy o pracę (якщо zarobek — заробіток > minimum krajowe — мінімальної зарплати), JDG звільняється від ZUS-składek społecznych (соцвнесків).' },
+      { q: 'Коли переходити на Sp. z o.o.?', a: 'При доході > 300 000 PLN/рік, при залученні інвесторів, при роботі з ЄС-корпораціями (часто вимагають Sp. z o.o.), при ризику відповідальності (особисте майно захищається лише у Sp. z o.o.). На консультації робимо розрахунок.' },
+      { q: 'Що з IP Box на JDG?', a: 'JDG на liniowy (лінійному) 19% + IP Box дає 5% на дохід від програмістської ІС (kwalifikowanego prawa do oprogramowania — кваліфікованого права на ПЗ). Умови: ведете окремий облік доходів від IP, маєте umowę przeniesienia praw (договір передачі прав), готуєте interpretację indywidualną (індивідуальну податкову інтерпретацію). Ефективний податок — 5–6%.' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'podatki-ksiegowosc', 'karta-pobytu'],
+    ctaTitle: 'JDG за 1 день',
+    ctaSubtitle: 'Безкоштовна консультація: перевіряємо TRC, рахуємо форму податку, відкриваємо за 3–5 днів під ключ.'
   }
 };
 

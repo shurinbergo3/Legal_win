@@ -658,8 +658,11 @@ function Related({
     ? (locale as Loc)
     : 'ru';
 
+  // Show related services only when translated for the current locale — no ru
+  // fallback here. Otherwise on partially-translated locales (e.g. uk during
+  // Этап 1) the related strip would render mixed-language content.
   const entries = slugs
-    .map((s) => services[s]?.[safeLocale] ?? services[s]?.ru)
+    .map((s) => services[s]?.[safeLocale])
     .filter(Boolean) as ServiceContent[];
 
   if (entries.length === 0) return null;

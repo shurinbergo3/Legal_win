@@ -352,6 +352,94 @@ const pesel: ServiceEntry = {
     related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'PESEL\'i 1 günde alalım',
     ctaSubtitle: 'Ücretsiz danışmanlık: amacı netleştirir, belgeleri toplar, urząd\'a randevu alırız. İlk görüşmeden PESEL belgesine genelde 1-3 iş günü sürer.'
+  },
+  uk: {
+    slug: 'pesel',
+    group: 'documents',
+    icon: 'id-card',
+    badge: '11 цифр · ZUS · US · ePUAP',
+    title: 'PESEL для іноземця',
+    subtitle: 'Ідентифікаційний номер у Польщі — основа для ZUS, банку та ePUAP',
+    lead: 'PESEL — це 11-значний ідентифікаційний номер, без якого в Польщі неможливо підписати договір оренди, відкрити рахунок у банку, звернутися до лікаря через NFZ, оформити ePUAP або подати податкову декларацію. З 2022 року іноземець отримує PESEL під конкретну ціль — наприклад, для працевлаштування (cel: zatrudnienie), навчання чи ведення бізнесу. Оформлюємо заяву, прив’язуємо до ePUAP і підключаємо mObywatel.',
+    facts: [
+      { label: 'Термін видачі', value: '1 день', note: 'при поданні в urząd gminy' },
+      { label: 'Держмито', value: '0 PLN', note: 'видача безкоштовна' },
+      { label: 'Прив’язка', value: 'ePUAP + mObywatel', note: 'електронний підпис і e-держпослуги' },
+      { label: 'Діє', value: 'безстроково', note: 'один номер на все життя' }
+    ],
+    grounds: {
+      title: 'Коли потрібен PESEL',
+      subtitle: 'Ціль зазначається в заяві та визначає, які документи вимагатиме urząd gminy.',
+      items: [
+        { title: 'Cel: zatrudnienie (працевлаштування)', desc: 'Без PESEL роботодавець не може зареєструвати вас у ZUS, виплатити зарплату на рахунок і утримати податок. Оформлюємо за umową o pracę або zlecenie.' },
+        { title: 'Cel: prowadzenie działalności (бізнес)', desc: 'Обов’язковий для реєстрації Sp. z o.o. в KRS, JDG в CEIDG, відкриття фірмового рахунку та постановки на VAT.' },
+        { title: 'Cel: nauka (навчання)', desc: 'Для зарахування до школи, ВНЗ, оформлення legitymacji studenckiej і стипендії.' },
+        { title: 'Cel: świadczenia społeczne', desc: 'Для отримання 800+, becikowego, виплат ZUS, NFZ-картки, рецептів на eRecepta.' },
+        { title: 'Cel: rozliczenie podatku', desc: 'PIT і VAT-декларації, реєстрація в Urzędzie Skarbowym, доступ до e-Urząd Skarbowy і Twój e-PIT.' },
+        { title: 'Cel: ochrona czasowa (UKR)', desc: 'Громадяни України зі статусом UKR отримують PESEL автоматично — оформлюємо через wniosek na PESEL UKR.' },
+        { title: 'Cel: nabycie nieruchomości', desc: 'Купівля квартири, реєстрація в KW (księga wieczysta — поземельна книга), сплата податку PCC-3.' },
+        { title: 'Inne cele', desc: 'Шлюб в USC, реєстрація автомобіля, водійські права, отримання NFZ-картки, обмін українських прав на польські.' }
+      ]
+    },
+    timeline: {
+      title: 'Як ми оформлюємо PESEL під ключ',
+      subtitle: 'Від першого дзвінка до zaświadczenia z PESEL і прив’язаного ePUAP — зазвичай 1–3 робочих дні.',
+      steps: [
+        { title: 'Консультація', duration: '20 хв', desc: 'Уточнюємо ціль оформлення, перевіряємо підстави, складаємо мінімальний пакет документів під вашу ситуацію.' },
+        { title: 'Підготовка wniosku', duration: '1 день', desc: 'Заповнюємо wniosek o nadanie numeru PESEL (форма zgodnie z rozporządzeniem MSWiA), за потреби перекладаємо ваші документи польською присяжно.' },
+        { title: 'Подання в urząd gminy', duration: '1 візит', desc: 'Супроводжуємо в urząd gminy / dzielnicy за адресою проживання. Подання — особисто, заява підписується біля касира. Для UKR — без візиту через mObywatel.' },
+        { title: 'Отримання PESEL', duration: '1 день', desc: 'Номер видається в день подання або наступного робочого дня (zaświadczenie o nadaniu PESEL — безкоштовно).' },
+        { title: 'Прив’язка до ePUAP', duration: '30 хв', desc: 'Створюємо profil zaufany в ePUAP — державний електронний підпис для подання документів у будь-які установи без візитів.' },
+        { title: 'Підключення mObywatel', duration: '15 хв', desc: 'Встановлюємо застосунок mObywatel — цифровий паспорт, mPrawo Jazdy, mLegitymacja, рецепти eRecepta.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно від вас',
+      subtitle: 'Мінімальний пакет. Точний перелік залежить від цілі оформлення.',
+      items: [
+        'Закордонний паспорт (оригінал + копії всіх заповнених сторінок)',
+        'Документ про легальне перебування: віза, штамп, karta pobytu, ruchu bezwizowego',
+        'Підтвердження цілі: umowa o pracę, KRS Sp. z o.o., zaświadczenie z uczelni тощо',
+        'Підтвердження адреси в Польщі: договір оренди, zameldowanie або лист власника',
+        'Свідоцтво про народження з присяжним перекладом польською',
+        'Свідоцтво про шлюб (якщо змінювали прізвище) з присяжним перекладом',
+        'Заповнений wniosek o nadanie numeru PESEL — готуємо ми',
+        'Для дітей: обоє батьків в urząd з паспортом і згодою другого з батьків'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Фіксована ціна за послугу. Урядового збору urząd не бере — PESEL видається безкоштовно.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '20 хвилин · уточнення цілі' },
+        { label: 'PESEL під ключ', value: 'від 450 PLN', note: 'Wniosek, переклад, супровід в urząd' },
+        { label: 'PESEL + ePUAP + mObywatel', value: 'від 600 PLN', note: 'Повна електронна інфраструктура' },
+        { label: 'PESEL для сім’ї (3+)', value: 'від 1 200 PLN', note: 'Знижка при поданні на всю сім’ю одночасно' }
+      ],
+      note: 'Зазначено гонорари LegalWin. Присяжний переклад свідоцтв — окремо (~80 PLN/документ).'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 24 września 2010 r. o ewidencji ludności',
+        'Rozporządzenie MSWiA z dnia 21 stycznia 2022 r. w sprawie wniosku o nadanie numeru PESEL',
+        'Ustawa z dnia 12 marca 2022 r. o pomocy obywatelom Ukrainy (PESEL UKR)',
+        'Rozporządzenie Rady Ministrów w sprawie sposobu nadawania numeru PESEL',
+        'Ustawa z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne (ePUAP)'
+      ]
+    },
+    faq: [
+      { q: 'Чи можна отримати PESEL без karta pobytu?', a: 'Так. З 2022 року PESEL оформлюється під конкретну ціль — на підставі umowy o pracę (трудового договору), реєстрації фірми, навчання або купівлі нерухомості. Karta pobytu (карта перебування) не обов’язкова. Достатньо легального перебування (віза, безвіз, штамп про подання на карту побуту).' },
+      { q: 'Скільки чекати отримання номера?', a: 'При поданні з повним пакетом — у день звернення. У великих воєводствах (Warszawa, Wrocław, Kraków) іноді до 3 робочих днів за великого завантаження. Для UKR-статусу — оформлення через mObywatel (мобільний застосунок «Громадянин») займає 1 день без візиту.' },
+      { q: 'Чи дає PESEL право працювати?', a: 'Ні. PESEL — це ідентифікаційний номер, а не дозвіл на роботу. Для працевлаштування іноземцю потрібно zezwolenie na pracę (дозвіл на роботу) або карта побуту з правом на роботу. PESEL — необхідна, але не достатня умова.' },
+      { q: 'Що таке ePUAP і навіщо він потрібен?', a: 'ePUAP (державна електронна платформа) — державна платформа електронного підпису. З profil zaufany (довіреним профілем) можна подати заяви до ZUS, US, KRS, urząd gminy (міського управління), судів без особистих візитів. Обов’язковий для подання на карту побуту з 2026 року (MOS v2.0) та для більшості e-держпослуг.' },
+      { q: 'Чи можна змінити PESEL?', a: 'Лише у виняткових випадках: зміна статі, помилка в даті народження, захист свідка. За заявою через MSWiA (МВС). Зазвичай — ні.' },
+      { q: 'Що робити, якщо загубив zaświadczenie o PESEL?', a: 'Саме zaświadczenie (довідка) не потрібна — PESEL запитується з реєстру PESEL на запит будь-якої установи. Дублікат можна безкоштовно отримати в будь-якому urząd gminy (міському управлінні) протягом 1 дня.' },
+      { q: 'Чи отримаю PESEL дітям іноземців?', a: 'Так. На дітей до 18 років PESEL оформлюється батьком/матір’ю — потрібне свідоцтво про народження (присяжний переклад), паспорти батьків, документи про перебування дитини в Польщі. Робимо одночасно з дорослим PESEL — економія часу та зборів.' }
+    ],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Отримаємо PESEL за 1 день',
+    ctaSubtitle: 'Безкоштовна консультація: уточнимо ціль оформлення, зберемо пакет документів і запишемо в urząd. Від першого дзвінка до zaświadczenia z PESEL — зазвичай 1–3 робочих дні.'
   }
 };
 
