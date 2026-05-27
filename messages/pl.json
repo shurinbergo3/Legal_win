@@ -356,10 +356,12 @@
     "successTitle": "Dziękujemy za opinię",
     "successMessage": "Otrzymaliśmy Twoją opinię. Po krótkiej moderacji pojawi się na stronie.",
     "errorMessage": "Nie udało się wysłać. Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
+    "errorBannerInvalid": "Opinia nie została wysłana. Popraw, proszę:",
     "validation": {
-      "nameMin": "Minimum 2 znaki",
-      "textMin": "Minimum 20 znaków",
-      "ratingRequired": "Wystaw ocenę"
+      "nameMin": "Imię - minimum 2 znaki",
+      "textMin": "Treść opinii - minimum 10 znaków",
+      "ratingRequired": "Wystaw ocenę gwiazdkami",
+      "consentRequired": "Zgoda RODO jest wymagana"
     }
   },
   "Pricing": {

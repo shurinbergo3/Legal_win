@@ -33,11 +33,8 @@ export function ReviewForm({
   const wrapperRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (state.status === 'success') {
-      onSuccess?.();
-      wrapperRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-    if (state.status === 'error') {
+    if (state.status === 'success' || state.status === 'error' || state.status === 'invalid') {
+      if (state.status === 'success') onSuccess?.();
       wrapperRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }, [state.status, onSuccess]);
@@ -110,10 +107,39 @@ function InnerForm({
   const fieldErrors =
     state.status === 'invalid' ? state.fieldErrors : ({} as Record<string, string[]>);
 
+  const errorMessages: string[] = [];
+  if (state.status === 'invalid') {
+    if (fieldErrors.name) errorMessages.push(t('validation.nameMin'));
+    if (fieldErrors.text) errorMessages.push(t('validation.textMin'));
+    if (fieldErrors.rating) errorMessages.push(t('validation.ratingRequired'));
+    if (fieldErrors.consent) errorMessages.push(t('validation.consentRequired'));
+  }
+
   return (
     <form action={action} className="flex flex-col gap-5" noValidate>
       <input type="hidden" name="locale" value={locale} />
       <input type="text" name="hp" autoComplete="off" tabIndex={-1} aria-hidden className="sr-only" />
+
+      {(state.status === 'invalid' || state.status === 'error') && (
+        <div
+          role="alert"
+          className="flex items-start gap-3 rounded-xl border border-red-500/50 bg-red-500/[0.08] p-4 text-red-200"
+        >
+          <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-red-400" strokeWidth={1.6} aria-hidden />
+          <div className="flex flex-col gap-1 text-sm">
+            <span className="font-medium text-red-100">
+              {state.status === 'invalid' ? t('errorBannerInvalid') : t('errorMessage')}
+            </span>
+            {errorMessages.length > 0 && (
+              <ul className="ml-4 list-disc space-y-0.5 text-red-200/90">
+                {errorMessages.map((m, i) => (
+                  <li key={i}>{m}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <Field
@@ -152,16 +178,9 @@ function InnerForm({
 
       <div className="flex flex-col gap-4 border-t hairline pt-5">
         <div className="flex flex-col-reverse items-stretch gap-4 sm:flex-row sm:items-center sm:justify-between">
-          {state.status === 'error' ? (
-            <p role="alert" className="flex items-center gap-2 text-sm text-red-400">
-              <AlertCircle className="h-4 w-4" strokeWidth={1.6} aria-hidden />
-              {t('errorMessage')}
-            </p>
-          ) : (
-            <span className="text-xs text-ink-400 sm:max-w-[320px]">
-              {t('subtitle')}
-            </span>
-          )}
+          <span className="text-xs text-ink-400 sm:max-w-[320px]">
+            {t('subtitle')}
+          </span>
 
           <button
             type="submit"

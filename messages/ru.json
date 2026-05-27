@@ -356,10 +356,12 @@
     "successTitle": "Спасибо за отзыв",
     "successMessage": "Мы получили ваш отзыв. После короткой модерации он появится на сайте.",
     "errorMessage": "Не удалось отправить. Попробуйте снова или напишите на legalwin.warszawa@gmail.com",
+    "errorBannerInvalid": "Отзыв не отправлен. Исправьте, пожалуйста:",
     "validation": {
-      "nameMin": "Минимум 2 символа",
-      "textMin": "Минимум 20 символов",
-      "ratingRequired": "Поставьте оценку"
+      "nameMin": "Имя - минимум 2 символа",
+      "textMin": "Текст отзыва - минимум 10 символов",
+      "ratingRequired": "Поставьте оценку звёздами",
+      "consentRequired": "Согласие RODO обязательно"
     }
   },
   "Pricing": {

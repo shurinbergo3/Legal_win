@@ -356,10 +356,12 @@
     "successTitle": "Дякуємо за відгук",
     "successMessage": "Ми отримали ваш відгук. Після короткої модерації він з'явиться на сайті.",
     "errorMessage": "Не вдалося надіслати. Спробуйте ще раз або напишіть на legalwin.warszawa@gmail.com",
+    "errorBannerInvalid": "Відгук не надіслано. Виправте, будь ласка:",
     "validation": {
-      "nameMin": "Мінімум 2 символи",
-      "textMin": "Мінімум 20 символів",
-      "ratingRequired": "Поставте оцінку"
+      "nameMin": "Ім'я - мінімум 2 символи",
+      "textMin": "Текст відгуку - мінімум 10 символів",
+      "ratingRequired": "Поставте оцінку зірками",
+      "consentRequired": "Згода RODO обов'язкова"
     }
   },
   "Pricing": {

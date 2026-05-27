@@ -356,10 +356,12 @@
     "successTitle": "Yorumunuz için teşekkürler",
     "successMessage": "Yorumunuzu aldık. Kısa bir moderasyonun ardından sitede yayınlanacak.",
     "errorMessage": "Gönderilemedi. Lütfen tekrar deneyin veya legalwin.warszawa@gmail.com adresine yazın",
+    "errorBannerInvalid": "Yorum gönderilmedi. Lütfen düzeltin:",
     "validation": {
-      "nameMin": "En az 2 karakter",
-      "textMin": "En az 20 karakter",
-      "ratingRequired": "Bir puan seçin"
+      "nameMin": "Ad - en az 2 karakter",
+      "textMin": "Yorum metni - en az 10 karakter",
+      "ratingRequired": "Yıldız puanı seçin",
+      "consentRequired": "RODO onayı gereklidir"
     }
   },
   "Pricing": {

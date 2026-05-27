@@ -356,10 +356,12 @@
     "successTitle": "Thanks for your review",
     "successMessage": "We've received your review. After a short moderation it will appear on the site.",
     "errorMessage": "Couldn't send. Please try again or email legalwin.warszawa@gmail.com",
+    "errorBannerInvalid": "Review not sent. Please fix:",
     "validation": {
-      "nameMin": "At least 2 characters",
-      "textMin": "At least 20 characters",
-      "ratingRequired": "Pick a rating"
+      "nameMin": "Name - at least 2 characters",
+      "textMin": "Review text - at least 10 characters",
+      "ratingRequired": "Pick a star rating",
+      "consentRequired": "GDPR consent is required"
     }
   },
   "Pricing": {
