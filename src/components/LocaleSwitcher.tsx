@@ -3,8 +3,12 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { useTransition } from 'react';
 import { usePathname, useRouter } from '@/i18n/navigation';
-import { routing } from '@/i18n/routing';
+import { routing, type Locale } from '@/i18n/routing';
 import { cn } from '@/lib/cn';
+
+// Display order in the header switcher. Decoupled from routing.locales so we
+// can surface uk before ru without touching SEO/middleware ordering.
+const SWITCHER_ORDER: readonly Locale[] = ['uk', 'ru', 'pl', 'en', 'tr'];
 
 export function LocaleSwitcher({ className }: { className?: string }) {
   const locale = useLocale();
@@ -22,7 +26,7 @@ export function LocaleSwitcher({ className }: { className?: string }) {
       role="group"
       aria-label={t('language')}
     >
-      {routing.locales.map((l) => {
+      {SWITCHER_ORDER.filter((l) => routing.locales.includes(l)).map((l) => {
         const active = l === locale;
         return (
           <button
@@ -33,14 +37,14 @@ export function LocaleSwitcher({ className }: { className?: string }) {
               startTransition(() => router.replace(pathname, { locale: l }))
             }
             className={cn(
-              'cursor-pointer rounded-full px-2.5 py-1 transition-colors duration-200',
+              'cursor-pointer rounded-full px-2.5 py-1 uppercase transition-colors duration-200',
               active
                 ? 'bg-ink-50 text-ink-950'
                 : 'hover:text-ink-50 disabled:opacity-60'
             )}
             aria-current={active ? 'true' : undefined}
           >
-            {l}
+            {l.toUpperCase()}
           </button>
         );
       })}
