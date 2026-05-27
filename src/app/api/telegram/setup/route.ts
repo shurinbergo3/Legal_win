@@ -45,6 +45,8 @@ export async function GET(req: NextRequest) {
   const adminCommands = [
     ...userCommands,
     { command: 'admin', description: '👑 Панель администратора' },
+    { command: 'leads', description: '📥 Последние заявки' },
+    { command: 'stats', description: '📊 Статистика заявок' },
     { command: 'listusers', description: 'Список всех подписчиков' },
     { command: 'adduser', description: 'Добавить подписчика по ID' },
     { command: 'removeuser', description: 'Удалить подписчика по ID' }

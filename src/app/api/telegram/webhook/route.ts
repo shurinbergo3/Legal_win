@@ -21,6 +21,7 @@ import {
   listSubscribersWithMeta,
   removeSubscriber
 } from '@/lib/subscribers';
+import { getLead, leadStats, listLeads, type LeadRecord } from '@/lib/leads-store';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -99,6 +100,10 @@ async function tgAnswer(callbackId: string, text?: string) {
 function adminInlineMenu(): InlineKeyboard {
   return {
     inline_keyboard: [
+      [
+        { text: '📥 Последние заявки', callback_data: 'admin:leads:0' },
+        { text: '📊 Статистика', callback_data: 'admin:stats' }
+      ],
       [{ text: '👥 Список подписчиков', callback_data: 'admin:list' }],
       [
         { text: '➕ Добавить по ID', callback_data: 'admin:add_help' },
@@ -145,6 +150,97 @@ function isAdmin(id: number): boolean {
 function displayName(chat: TgChat): string {
   const parts = [chat.first_name, chat.last_name].filter(Boolean).join(' ');
   return parts || chat.username || 'друг';
+}
+
+const LEADS_PAGE_SIZE = 5;
+
+const serviceLabels: Record<string, string> = {
+  trc: 'Карта побыту',
+  driver: 'Обмен прав / Kod 95',
+  citizenship: 'Гражданство / Karta Polaka',
+  business: 'Бизнес (Sp. z o.o.)',
+  tax: 'Налоги и бухгалтерия',
+  other: 'Другое'
+};
+
+function escapeHtml(v: string) {
+  return v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function fmtDate(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = String(d.getUTCMonth() + 1).padStart(2, '0');
+  const hh = String(d.getUTCHours()).padStart(2, '0');
+  const mm = String(d.getUTCMinutes()).padStart(2, '0');
+  return `${day}.${month} ${hh}:${mm} UTC`;
+}
+
+function leadSummary(l: LeadRecord, index: number): string {
+  const who = l.name ? escapeHtml(l.name) : '<i>без имени</i>';
+  const svc = l.service ? ` · ${escapeHtml(serviceLabels[l.service] ?? l.service)}` : '';
+  return `<b>${index}.</b> ${who}${svc}\n   <code>${escapeHtml(l.phone)}</code> · ${fmtDate(l.createdAt)}`;
+}
+
+function leadCard(l: LeadRecord): string {
+  const lines = [
+    '📥 <b>Заявка</b>',
+    `<i>${fmtDate(l.createdAt)}</i>`,
+    '',
+    l.name ? `<b>Имя:</b> ${escapeHtml(l.name)}` : null,
+    `<b>Телефон:</b> <a href="tel:${escapeHtml(l.phone.replace(/\s/g, ''))}">${escapeHtml(l.phone)}</a>`,
+    l.email ? `<b>Email:</b> <a href="mailto:${escapeHtml(l.email)}">${escapeHtml(l.email)}</a>` : null,
+    l.service ? `<b>Направление:</b> ${escapeHtml(serviceLabels[l.service] ?? l.service)}` : null,
+    l.locale ? `<b>Язык:</b> ${escapeHtml(l.locale.toUpperCase())}` : null,
+    l.message ? '' : null,
+    l.message ? '<b>Сообщение:</b>' : null,
+    l.message ? escapeHtml(l.message) : null
+  ].filter((s) => s !== null);
+  return lines.join('\n');
+}
+
+async function buildLeadsPage(offset: number): Promise<{ text: string; keyboard: InlineKeyboard }> {
+  const { items, total } = await listLeads({ offset, limit: LEADS_PAGE_SIZE });
+  if (total === 0) {
+    return {
+      text: '📭 <b>Пока нет заявок.</b>\n\nКогда кто-то отправит форму с сайта - она появится здесь.',
+      keyboard: { inline_keyboard: [[{ text: '← Назад', callback_data: 'admin:menu' }]] }
+    };
+  }
+
+  const start = offset + 1;
+  const end = offset + items.length;
+  const header = `📥 <b>Заявки ${start}-${end} из ${total}</b>\n\n`;
+  const body = items
+    .map((l, i) => leadSummary(l, offset + i + 1))
+    .join('\n\n');
+
+  // Numbered "open" buttons - tg inline keyboard width ~ 3-4 short labels per row
+  const openRow: InlineButton[] = items.map((l, i) => ({
+    text: String(offset + i + 1),
+    callback_data: `admin:lead:${l.id}:${offset}`
+  }));
+
+  const nav: InlineButton[] = [];
+  if (offset > 0) {
+    nav.push({
+      text: '← Предыдущие',
+      callback_data: `admin:leads:${Math.max(0, offset - LEADS_PAGE_SIZE)}`
+    });
+  }
+  if (offset + LEADS_PAGE_SIZE < total) {
+    nav.push({
+      text: 'Следующие →',
+      callback_data: `admin:leads:${offset + LEADS_PAGE_SIZE}`
+    });
+  }
+
+  const rows: InlineButton[][] = [openRow];
+  if (nav.length) rows.push(nav);
+  rows.push([{ text: '← В меню', callback_data: 'admin:menu' }]);
+
+  return { text: header + body, keyboard: { inline_keyboard: rows } };
 }
 
 async function buildSubscriberList(): Promise<string> {
@@ -195,6 +291,50 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: true });
     }
 
+    if (data.startsWith('admin:leads:')) {
+      const offset = Number(data.slice('admin:leads:'.length)) || 0;
+      const { text, keyboard } = await buildLeadsPage(offset);
+      if (msgId) await tgEdit(chatId, msgId, text, keyboard);
+      else await tgSend(chatId, text, { reply_markup: keyboard });
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data.startsWith('admin:lead:')) {
+      // admin:lead:<id>:<returnOffset>
+      const rest = data.slice('admin:lead:'.length);
+      const colon = rest.lastIndexOf(':');
+      const id = colon === -1 ? rest : rest.slice(0, colon);
+      const returnOffset = colon === -1 ? 0 : Number(rest.slice(colon + 1)) || 0;
+      const lead = await getLead(id);
+      const text = lead ? leadCard(lead) : '⚠️ Заявка не найдена (могла быть вытеснена при ротации).';
+      const keyboard: InlineKeyboard = {
+        inline_keyboard: [
+          [{ text: '← К списку', callback_data: `admin:leads:${returnOffset}` }],
+          [{ text: '← В меню', callback_data: 'admin:menu' }]
+        ]
+      };
+      if (msgId) await tgEdit(chatId, msgId, text, keyboard);
+      else await tgSend(chatId, text, { reply_markup: keyboard });
+      return NextResponse.json({ ok: true });
+    }
+
+    if (data === 'admin:stats') {
+      const s = await leadStats();
+      const text =
+        '📊 <b>Статистика заявок</b>\n\n' +
+        `Сегодня (UTC): <b>${s.today}</b>\n` +
+        `За 7 дней: <b>${s.last7d}</b>\n` +
+        `За 30 дней: <b>${s.last30d}</b>\n` +
+        `Всего в базе: <b>${s.total}</b> / 500\n\n` +
+        '<i>Хранятся последние 500 заявок, старые вытесняются автоматически.</i>';
+      const keyboard: InlineKeyboard = {
+        inline_keyboard: [[{ text: '← В меню', callback_data: 'admin:menu' }]]
+      };
+      if (msgId) await tgEdit(chatId, msgId, text, keyboard);
+      else await tgSend(chatId, text, { reply_markup: keyboard });
+      return NextResponse.json({ ok: true });
+    }
+
     if (data === 'admin:list') {
       const text = await buildSubscriberList();
       const backBtn: InlineKeyboard = {
@@ -241,6 +381,8 @@ export async function POST(req: NextRequest) {
         '/stop - отписаться\n\n' +
         '<b>Только для администраторов:</b>\n' +
         '/admin - панель управления\n' +
+        '/leads - последние заявки\n' +
+        '/stats - статистика заявок\n' +
         '/listusers - список подписчиков\n' +
         '/adduser &lt;id&gt; - добавить подписчика\n' +
         '/removeuser &lt;id&gt; - удалить подписчика';
@@ -332,6 +474,35 @@ export async function POST(req: NextRequest) {
       removed
         ? `✅ Пользователь <code>${targetId}</code> удалён из подписчиков.`
         : `ℹ️ Пользователь <code>${targetId}</code> не найден.`
+    );
+    return NextResponse.json({ ok: true });
+  }
+
+  // /leads
+  if (text === '/leads' || text === '📥 Заявки') {
+    if (!admin) {
+      await tgSend(chatId, '❌ У вас нет прав администратора.');
+      return NextResponse.json({ ok: true });
+    }
+    const { text: pageText, keyboard } = await buildLeadsPage(0);
+    await tgSend(chatId, pageText, { reply_markup: keyboard });
+    return NextResponse.json({ ok: true });
+  }
+
+  // /stats
+  if (text === '/stats') {
+    if (!admin) {
+      await tgSend(chatId, '❌ У вас нет прав администратора.');
+      return NextResponse.json({ ok: true });
+    }
+    const s = await leadStats();
+    await tgSend(
+      chatId,
+      '📊 <b>Статистика заявок</b>\n\n' +
+        `Сегодня (UTC): <b>${s.today}</b>\n` +
+        `За 7 дней: <b>${s.last7d}</b>\n` +
+        `За 30 дней: <b>${s.last30d}</b>\n` +
+        `Всего в базе: <b>${s.total}</b> / 500`
     );
     return NextResponse.json({ ok: true });
   }

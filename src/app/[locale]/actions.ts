@@ -2,6 +2,7 @@
 
 import { contactSchema, reviewSchema } from '@/lib/schemas';
 import { sendContactToTelegram, sendReviewToTelegram } from '@/lib/telegram';
+import { storeLead } from '@/lib/leads-store';
 
 export type ContactState =
   | { status: 'idle' }
@@ -25,6 +26,14 @@ export async function submitContact(
 
   if (parsed.data.hp) {
     return { status: 'success' };
+  }
+
+  // Persist first so the lead is recoverable from /admin even if Telegram
+  // delivery is flaky. Storage failure must not block the user submit.
+  try {
+    await storeLead(parsed.data);
+  } catch (err) {
+    console.error('[contact] lead store failed (non-fatal)', err);
   }
 
   try {
