@@ -45,25 +45,36 @@ export async function submitReview(
   _prev: ReviewState,
   formData: FormData
 ): Promise<ReviewState> {
-  const raw = Object.fromEntries(formData.entries());
-  const parsed = reviewSchema.safeParse(raw);
-
-  if (!parsed.success) {
-    return {
-      status: 'invalid',
-      fieldErrors: parsed.error.flatten().fieldErrors as Record<string, string[]>
-    };
-  }
-
-  if (parsed.data.hp) {
-    return { status: 'success' };
-  }
-
+  // Outer catch: useActionState silently keeps the previous state if a server
+  // action throws, which to the user looks like a vanishing form with no
+  // feedback. Convert any unexpected error into a visible 'error' state.
   try {
-    await sendReviewToTelegram(parsed.data);
+    const raw = Object.fromEntries(formData.entries());
+    console.log('[review] received', {
+      hasName: typeof raw.name === 'string' && raw.name.length > 0,
+      rating: raw.rating,
+      textLen: typeof raw.text === 'string' ? raw.text.length : 0,
+      consent: raw.consent,
+      locale: raw.locale
+    });
+
+    const parsed = reviewSchema.safeParse(raw);
+    if (!parsed.success) {
+      const fieldErrors = parsed.error.flatten().fieldErrors as Record<string, string[]>;
+      console.warn('[review] validation failed', fieldErrors);
+      return { status: 'invalid', fieldErrors };
+    }
+
+    if (parsed.data.hp) {
+      console.log('[review] honeypot tripped - silently dropping');
+      return { status: 'success' };
+    }
+
+    const report = await sendReviewToTelegram(parsed.data);
+    console.log('[review] delivery report', report);
     return { status: 'success' };
   } catch (err) {
-    console.error('[review] telegram failed', err);
+    console.error('[review] action failed', err);
     return {
       status: 'error',
       message: err instanceof Error ? err.message : 'Unknown error'

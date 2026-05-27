@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useActionState, useEffect, useId, useState } from 'react';
+import { useActionState, useEffect, useId, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import {
   CheckCircle2,
@@ -30,13 +30,21 @@ export function ReviewForm({
 }) {
   const t = useTranslations('ReviewForm');
   const [state, formAction, pending] = useActionState(submitReview, initialState);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (state.status === 'success') onSuccess?.();
+    if (state.status === 'success') {
+      onSuccess?.();
+      wrapperRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    if (state.status === 'error') {
+      wrapperRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }, [state.status, onSuccess]);
 
   return (
     <motion.div
+      ref={wrapperRef}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease }}
