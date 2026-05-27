@@ -1,15 +1,25 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Star } from 'lucide-react';
+import { Star, ChevronDown, ChevronUp, MessageSquarePlus } from 'lucide-react';
 import { UserAvatar } from './UserAvatar';
 import { Reveal } from './Reveal';
+import { ReviewForm } from './ReviewForm';
+import { cn } from '@/lib/cn';
 
 type Testimonial = { text: string; author: string; role: string };
 
-export function Testimonials() {
+const PREVIEW_COUNT = 4;
+
+export function Testimonials({ locale }: { locale: string }) {
   const t = useTranslations('Testimonials');
   const items = t.raw('items') as Testimonial[];
+  const [expanded, setExpanded] = useState(false);
+  const [showForm, setShowForm] = useState(false);
+
+  const visible = expanded ? items : items.slice(0, PREVIEW_COUNT);
+  const hiddenCount = Math.max(0, items.length - PREVIEW_COUNT);
 
   return (
     <section
@@ -43,15 +53,15 @@ export function Testimonials() {
             {t('title')}
           </Reveal>
           <p className="col-span-12 self-end font-mono text-[11px] uppercase tracking-[0.28em] text-ink-400 lg:col-span-3 lg:text-right">
-            / 4.9 ★ avg · 312 reviews
+            / {t('ratingLabel')}
           </p>
         </div>
 
         <div className="grid grid-cols-12 gap-5">
-          {items.map((it, i) => (
+          {visible.map((it, i) => (
             <Reveal
               as="figure"
-              key={it.author}
+              key={`${it.author}-${i}`}
               margin="-60px"
               delay={i * 60}
               className="group relative col-span-12 flex flex-col gap-6 sm:col-span-6 lg:col-span-6"
@@ -69,7 +79,7 @@ export function Testimonials() {
                     “
                   </span>
                   <span className="font-mono text-[10px] uppercase tracking-[0.28em] text-ink-500">
-                    / 0{i + 1}
+                    / {(i + 1).toString().padStart(2, '0')}
                   </span>
                 </div>
 
@@ -101,6 +111,54 @@ export function Testimonials() {
             </Reveal>
           ))}
         </div>
+
+        {/* Controls: expand / leave a review */}
+        <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
+          {hiddenCount > 0 && (
+            <button
+              type="button"
+              onClick={() => setExpanded((v) => !v)}
+              aria-expanded={expanded}
+              className={cn(
+                'inline-flex items-center gap-2 rounded-full border hairline-gold bg-ink-950/60 px-5 py-2.5 text-sm text-ink-100 backdrop-blur-md transition-all duration-200',
+                'hover:border-gold-500/60 hover:bg-ink-900/70 hover:text-gold-300 ring-gold'
+              )}
+            >
+              {expanded ? (
+                <>
+                  <ChevronUp className="h-4 w-4 text-gold-400" strokeWidth={1.6} aria-hidden />
+                  {t('collapse')}
+                </>
+              ) : (
+                <>
+                  <ChevronDown className="h-4 w-4 text-gold-400" strokeWidth={1.6} aria-hidden />
+                  {t('expand', { count: hiddenCount })}
+                </>
+              )}
+            </button>
+          )}
+
+          <button
+            type="button"
+            onClick={() => setShowForm((v) => !v)}
+            aria-expanded={showForm}
+            aria-controls="review-form-panel"
+            className={cn(
+              'inline-flex items-center gap-2 rounded-full px-6 py-2.5 text-sm font-medium text-ink-950 ring-gold transition-all duration-300',
+              'bg-gradient-to-br from-gold-300 via-gold-400 to-gold-600',
+              'shadow-[0_8px_24px_-10px_rgba(212,166,71,0.55)] hover:-translate-y-px hover:shadow-[0_14px_34px_-10px_rgba(212,166,71,0.75)]'
+            )}
+          >
+            <MessageSquarePlus className="h-4 w-4" strokeWidth={1.6} aria-hidden />
+            {showForm ? t('hideForm') : t('leaveReview')}
+          </button>
+        </div>
+
+        {showForm && (
+          <div id="review-form-panel" className="mt-10">
+            <ReviewForm locale={locale} onSuccess={() => { /* keep panel open with success state */ }} />
+          </div>
+        )}
       </div>
     </section>
   );

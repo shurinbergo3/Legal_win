@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 import { getTranslations } from 'next-intl/server';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { REVIEW_COUNT, REVIEW_RATING_VALUE } from '@/lib/seo';
+import { REVIEW_RATING_VALUE } from '@/lib/seo';
 
 export const runtime = 'nodejs';
 export const size = { width: 1200, height: 630 };
@@ -243,7 +243,7 @@ export default async function OpengraphImage({
                   color: 'rgba(245,242,234,0.8)'
                 }}
               >
-                / {REVIEW_COUNT} {reviewLabel}
+                / {reviewLabel}
               </div>
             </div>
             <div

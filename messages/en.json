@@ -47,7 +47,7 @@
     "ctaSecondary": "All services",
     "availableNow": "Reply within an hour",
     "hoursToday": "Open today until 7 PM",
-    "socialProofLabel": "reviews · Google"
+    "socialProofLabel": "client reviews · 5★"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
@@ -281,6 +281,11 @@
     "eyebrow": "Testimonials",
     "title": "What clients say",
     "starsLabel": "5 of 5 stars",
+    "ratingLabel": "5★ average client rating",
+    "expand": "Show {count} more",
+    "collapse": "Collapse reviews",
+    "leaveReview": "Leave a review",
+    "hideForm": "Hide form",
     "items": [
       {
         "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress - the LegalWin team did everything, I just signed.",
@@ -301,8 +306,61 @@
         "text": "Full package: airport pickup, apartment, PESEL, school for the kids, company set up. Cleared the whole Polish red-tape marathon in six weeks.",
         "author": "Sergey & Irina L.",
         "role": "family with two kids"
+      },
+      {
+        "text": "Swapped my Ukrainian licence for a Polish one in 6 weeks. They told me exactly what to bring to starostwo so I didn't have to come back twice. Booked the medical exam in advance - I didn't have to hunt for a clinic.",
+        "author": "Igor V.",
+        "role": "driver, Wrocław"
+      },
+      {
+        "text": "Opened my JDG with the right PKD for freelance work, explained the health contribution and the 8.5% ryczałt rate. First invoice within a month, and a year in I'm comfortably on preferential ZUS.",
+        "author": "Maria T.",
+        "role": "freelance copywriter"
+      },
+      {
+        "text": "Got my Code 95 in six weeks from zero, without speaking Polish. OSK course, medical, psychotest, WORD exam - all on their rails, I just showed up to the appointments.",
+        "author": "Vitaly P.",
+        "role": "long-haul truck driver"
+      },
+      {
+        "text": "They've handled my company for two years now. CIT at 9%, VAT, JPK - all closed on time. Urząd skarbowy came once with VAT questions - they sorted it out themselves, I didn't even know.",
+        "author": "Alexey M.",
+        "role": "Sp. z o.o. owner"
+      },
+      {
+        "text": "Got my Karta Polaka and immediately moved on to citizenship by recognition. They prepared documents for both procedures at once - no translating and legalising the same papers twice.",
+        "author": "Natalia K.",
+        "role": "teacher"
+      },
+      {
+        "text": "Bought a flat in Warsaw as a non-EU buyer - I needed MSWiA approval. They filed it together with due diligence on the property; three months later the permit was through. Without them I'd have lost the deposit.",
+        "author": "Viktor Sh.",
+        "role": "real-estate investor"
       }
     ]
+  },
+  "ReviewForm": {
+    "eyebrow": "Your review",
+    "title": "Share your experience",
+    "subtitle": "Tell us what we did and how it went. Your review goes to our team - after a short moderation it'll appear on the site.",
+    "name": "Name",
+    "namePlaceholder": "Olga M.",
+    "role": "Who you are (optional)",
+    "rolePlaceholder": "designer, moved from Kyiv",
+    "rating": "Rating",
+    "ratingHint": "Click a star",
+    "text": "Review",
+    "textPlaceholder": "What we did, how it went, what worked for you.",
+    "submit": "Send review",
+    "submitting": "Sending…",
+    "successTitle": "Thanks for your review",
+    "successMessage": "We've received your review. After a short moderation it will appear on the site.",
+    "errorMessage": "Couldn't send. Please try again or email legalwin.warszawa@gmail.com",
+    "validation": {
+      "nameMin": "At least 2 characters",
+      "textMin": "At least 20 characters",
+      "ratingRequired": "Pick a rating"
+    }
   },
   "Pricing": {
     "eyebrow": "Pricing",

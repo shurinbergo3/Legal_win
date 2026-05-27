@@ -47,7 +47,7 @@
     "ctaSecondary": "Tüm hizmetler",
     "availableNow": "1 saat içinde dönüş yapıyoruz",
     "hoursToday": "Bugün 19:00'a kadar açığız",
-    "socialProofLabel": "yorum · Google"
+    "socialProofLabel": "müşteri yorumu · 5★"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
@@ -281,6 +281,11 @@
     "eyebrow": "Yorumlar",
     "title": "Müvekkillerimiz ne diyor",
     "starsLabel": "5 üzerinden 5 yıldız",
+    "ratingLabel": "5★ ortalama müşteri puanı",
+    "expand": "{count} yorum daha göster",
+    "collapse": "Yorumları gizle",
+    "leaveReview": "Yorum bırak",
+    "hideForm": "Formu gizle",
     "items": [
       {
         "text": "Karta pobytu'yu 40 günde aldım. Urzęd'lere kendim gitmek ve yazışmalarla uğraşmak zorunda kalmadım - her şeyi LegalWin yaptı, ben sadece imzaladım.",
@@ -301,8 +306,61 @@
         "text": "Tam paket: havalimanı karşılaması, daire, PESEL, çocuklar için okul, Sp. z o.o. kuruluşu. Bir buçuk ayda Polonya bürokrasisinin tüm aşamalarını geçtik.",
         "author": "Sergey ve Irina L.",
         "role": "iki çocuklu aile"
+      },
+      {
+        "text": "Ukrayna ehliyetimi 6 haftada Polonya ehliyetiyle değiştirdim. Starostwo'ya hangi belgelerle gitmem gerektiğini önceden söylediler, ikinci kez gitmek zorunda kalmadım. Sağlık muayenesini önceden ayarladılar - klinik aramak zorunda kalmadım.",
+        "author": "Igor V.",
+        "role": "şoför, Wrocław"
+      },
+      {
+        "text": "JDG'mi serbest çalışmaya uygun doğru PKD ile açtılar, sağlık katkı payını ve %8.5 ryczałt'ı açıkladılar. Bir ay içinde ilk faturayı kestim, bir yıl sonra rahatça preferansiyel ZUS'tayım.",
+        "author": "Maria T.",
+        "role": "serbest çalışan metin yazarı"
+      },
+      {
+        "text": "Kod 95'i sıfırdan ve Lehçe bilmeden bir buçuk ayda aldım. OSK kursu, sağlık muayenesi, psikoteknik, WORD sınavı - hepsini onlar yönetti, ben sadece randevulara gittim.",
+        "author": "Vitaly P.",
+        "role": "uzun yol kamyon şoförü"
+      },
+      {
+        "text": "Şirketimi iki yıldır onlar üzerinden yönetiyorum. CIT %9, KDV, JPK - hepsi zamanında kapatılıyor. Bir kez urząd skarbowy KDV ile ilgili sorularla geldi - kendileri çözdüler, benim haberim bile olmadı.",
+        "author": "Alexey M.",
+        "role": "Sp. z o.o. sahibi"
+      },
+      {
+        "text": "Karta Polaka'yı aldım ve hemen uznanie yoluyla vatandaşlık başvurusu yaptım. Belgeleri her iki prosedür için aynı anda hazırladılar - aynı belgeleri iki kez çevirmek ve onaylatmak zorunda kalmadım.",
+        "author": "Natalia K.",
+        "role": "öğretmen"
+      },
+      {
+        "text": "AB dışı bir alıcı olarak Varşova'da bir daire aldım - MSWiA izni gerekiyordu. Daire için due diligence ile birlikte tek pakette sundular, 3 ay içinde onay geldi. Onlar olmasa kaporayı kaybedebilirdim.",
+        "author": "Viktor Sh.",
+        "role": "gayrimenkul yatırımcısı"
       }
     ]
+  },
+  "ReviewForm": {
+    "eyebrow": "Sizin yorumunuz",
+    "title": "Deneyiminizi paylaşın",
+    "subtitle": "Ne yaptığımızı ve nasıl gittiğini anlatın. Yorumunuz ekibimize ulaşacak - kısa bir moderasyonun ardından sitede yayınlanacak.",
+    "name": "Ad",
+    "namePlaceholder": "Olga M.",
+    "role": "Kim olduğunuz (isteğe bağlı)",
+    "rolePlaceholder": "tasarımcı, Kiev'den taşındı",
+    "rating": "Puan",
+    "ratingHint": "Bir yıldıza tıklayın",
+    "text": "Yorum",
+    "textPlaceholder": "Ne yaptık, nasıl gitti, ne işinize yaradı.",
+    "submit": "Yorumu gönder",
+    "submitting": "Gönderiliyor…",
+    "successTitle": "Yorumunuz için teşekkürler",
+    "successMessage": "Yorumunuzu aldık. Kısa bir moderasyonun ardından sitede yayınlanacak.",
+    "errorMessage": "Gönderilemedi. Lütfen tekrar deneyin veya legalwin.warszawa@gmail.com adresine yazın",
+    "validation": {
+      "nameMin": "En az 2 karakter",
+      "textMin": "En az 20 karakter",
+      "ratingRequired": "Bir puan seçin"
+    }
   },
   "Pricing": {
     "eyebrow": "Fiyatlar",

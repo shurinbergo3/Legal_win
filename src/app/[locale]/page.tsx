@@ -42,7 +42,7 @@ export default async function HomePage({
         <Services />
         <Pricing />
         <Cases />
-        <Testimonials />
+        <Testimonials locale={locale} />
         <Process />
         <Faq />
         <BlogTeaser locale={locale} />

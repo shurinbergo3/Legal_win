@@ -1,4 +1,4 @@
-import type { ContactInput } from './schemas';
+import type { ContactInput, ReviewInput } from './schemas';
 import { listSubscribers } from './subscribers';
 
 const labels: Record<NonNullable<ContactInput['service']>, string> = {
@@ -94,6 +94,81 @@ export async function sendContactToTelegram(data: ContactInput): Promise<Deliver
 
   if (errors.length) {
     console.error('[telegram] delivery errors:', errors);
+  }
+
+  return {
+    ok: delivered > 0,
+    attempted: subscribers.length,
+    delivered,
+    errors
+  };
+}
+
+// New testimonial submitted from the public site. Same Telegram channel as
+// the contact form, but labeled as a review so operators can route it into
+// moderation instead of treating it like a sales lead.
+export async function sendReviewToTelegram(data: ReviewInput): Promise<DeliveryReport> {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  if (!token) {
+    throw new Error('TELEGRAM_BOT_TOKEN is not configured');
+  }
+
+  const subscribers = await listSubscribers();
+  if (subscribers.length === 0) {
+    console.warn('[telegram] review received but no subscribers - not delivered');
+    return { ok: true, attempted: 0, delivered: 0, errors: ['no subscribers'] };
+  }
+
+  const stars = '⭐'.repeat(data.rating) + '☆'.repeat(5 - data.rating);
+
+  const text = [
+    '⭐ <b>Новый отзыв - LegalWin</b>',
+    `<b>Оценка:</b> ${stars} (${data.rating}/5)`,
+    '',
+    `<b>Имя:</b> ${escapeHtml(data.name)}`,
+    data.role ? `<b>Кто:</b> ${escapeHtml(data.role)}` : null,
+    data.locale ? `<b>Язык сайта:</b> ${data.locale.toUpperCase()}` : null,
+    `<b>RODO:</b> согласие получено ✓ (${new Date().toISOString()})`,
+    '',
+    '<b>Текст отзыва:</b>',
+    escapeHtml(data.text),
+    '',
+    '<i>Это отзыв с сайта, а не заявка. Перед публикацией - модерация.</i>'
+  ]
+    .filter((line) => line !== null)
+    .join('\n');
+
+  const results = await Promise.allSettled(
+    subscribers.map((chatId) =>
+      fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text,
+          parse_mode: 'HTML',
+          disable_web_page_preview: true
+        }),
+        cache: 'no-store'
+      }).then(async (r) => {
+        if (!r.ok) {
+          const body = await r.text().catch(() => '');
+          throw new Error(`chat ${chatId}: HTTP ${r.status} ${body}`);
+        }
+        return r.json() as Promise<{ ok: boolean }>;
+      })
+    )
+  );
+
+  const delivered = results.filter(
+    (r) => r.status === 'fulfilled' && r.value.ok
+  ).length;
+  const errors = results
+    .filter((r): r is PromiseRejectedResult => r.status === 'rejected')
+    .map((r) => String(r.reason));
+
+  if (errors.length) {
+    console.error('[telegram] review delivery errors:', errors);
   }
 
   return {

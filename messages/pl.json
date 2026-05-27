@@ -47,7 +47,7 @@
     "ctaSecondary": "Wszystkie usługi",
     "availableNow": "Odpowiadamy w ciągu godziny",
     "hoursToday": "Dziś do 19:00",
-    "socialProofLabel": "opinii · Google"
+    "socialProofLabel": "opinie klientów · 5★"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
@@ -281,6 +281,11 @@
     "eyebrow": "Opinie",
     "title": "Co mówią klienci",
     "starsLabel": "5 na 5 gwiazdek",
+    "ratingLabel": "5★ średnia ocena klientów",
+    "expand": "Pokaż jeszcze {count}",
+    "collapse": "Zwiń opinie",
+    "leaveReview": "Zostaw opinię",
+    "hideForm": "Ukryj formularz",
     "items": [
       {
         "text": "Kartę pobytu dostałam w 40 dni. Bez moich wizyt w urzędzie i nerwów przy korespondencji - wszystko robili prawnicy, ja tylko podpisywałam.",
@@ -301,8 +306,61 @@
         "text": "Pełen pakiet: odbiór z lotniska, mieszkanie, PESEL, szkoła dla dzieci, otwarli spółkę. W półtora miesiąca przeszliśmy wszystkie kręgi polskiego piekła.",
         "author": "Siergiej i Irena L.",
         "role": "rodzina z dwójką dzieci"
+      },
+      {
+        "text": "Wymieniłem ukraińskie prawo jazdy na polskie w 6 tygodni. Podpowiedzieli, z jakimi dokumentami iść do starostwa, żeby nie wracać drugi raz. Badania lekarskie umówili wcześniej - nie musiałem szukać kliniki.",
+        "author": "Igor W.",
+        "role": "kierowca, Wrocław"
+      },
+      {
+        "text": "Otworzyli mi JDG z właściwym PKD pod freelance, wyjaśnili składkę zdrowotną i ryczałt 8,5%. Po miesiącu pierwsza faktura, po roku spokojnie korzystam z ZUS preferencyjnego.",
+        "author": "Maria T.",
+        "role": "freelancerka, copywriting"
+      },
+      {
+        "text": "Kod 95 zrobiłem w półtora miesiąca od zera, bez znajomości polskiego. Kurs OSK, badania, psychotesty, egzamin w WORD - wszystko pod ich kontrolą, ja tylko stawiałem się według harmonogramu.",
+        "author": "Witalij P.",
+        "role": "kierowca ciężarówki"
+      },
+      {
+        "text": "Prowadzę firmę przez nich już dwa lata. CIT 9%, VAT, JPK - wszystko zamknięte w terminie. Raz urząd skarbowy przyszedł z pytaniami o VAT - sami wszystko zamknęli, ja nawet nie wiedziałem.",
+        "author": "Aleksiej M.",
+        "role": "właściciel spółki z o.o."
+      },
+      {
+        "text": "Dostałam Kartę Polaka i od razu złożyłam o obywatelstwo przez uznanie. Dokumenty przygotowali pod obie procedury jednocześnie - nie musiałam dwa razy tłumaczyć i legalizować.",
+        "author": "Natalia K.",
+        "role": "nauczycielka"
+      },
+      {
+        "text": "Kupiłem mieszkanie w Warszawie jako nierezydent UE - potrzebne było zezwolenie MSWiA. Złożyli w jednym pakiecie z due diligence mieszkania, po 3 miesiącach była zgoda. Bez nich straciłbym zadatek.",
+        "author": "Wiktor Sz.",
+        "role": "inwestor, nieruchomości"
       }
     ]
+  },
+  "ReviewForm": {
+    "eyebrow": "Twoja opinia",
+    "title": "Podziel się doświadczeniem",
+    "subtitle": "Opowiedz, jak Ci pomogliśmy. Opinia trafi do naszego specjalisty - po krótkiej moderacji dodamy ją na stronę.",
+    "name": "Imię",
+    "namePlaceholder": "Olga M.",
+    "role": "Kim jesteś (opcjonalnie)",
+    "rolePlaceholder": "projektantka, przeprowadziła się z Kijowa",
+    "rating": "Ocena",
+    "ratingHint": "Kliknij gwiazdkę",
+    "text": "Opinia",
+    "textPlaceholder": "Co robiliśmy, co się udało, co Ci się podobało.",
+    "submit": "Wyślij opinię",
+    "submitting": "Wysyłamy…",
+    "successTitle": "Dziękujemy za opinię",
+    "successMessage": "Otrzymaliśmy Twoją opinię. Po krótkiej moderacji pojawi się na stronie.",
+    "errorMessage": "Nie udało się wysłać. Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
+    "validation": {
+      "nameMin": "Minimum 2 znaki",
+      "textMin": "Minimum 20 znaków",
+      "ratingRequired": "Wystaw ocenę"
+    }
   },
   "Pricing": {
     "eyebrow": "Ceny",

@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import { ArrowRight, Phone, Star } from 'lucide-react';
 import { blur } from '@/lib/image-blur';
-import { REVIEW_COUNT, REVIEW_RATING_VALUE } from '@/lib/seo';
+import { REVIEW_RATING_VALUE } from '@/lib/seo';
 import { ThemisScales } from './ThemisScales';
 
 export async function Hero() {
@@ -144,7 +144,7 @@ export async function Hero() {
             </span>
           </div>
           <span className="font-mono text-[11px] uppercase tracking-[0.24em] text-ink-200">
-            / {REVIEW_COUNT} {t('socialProofLabel')}
+            / {t('socialProofLabel')}
           </span>
         </div>
 
