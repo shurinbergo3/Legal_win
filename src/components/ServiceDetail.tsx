@@ -651,10 +651,11 @@ function Related({
   allServicesLabel: string;
   relatedLabel: string;
 }) {
-  const safeLocale: 'ru' | 'pl' | 'en' | 'tr' = (['ru', 'pl', 'en', 'tr'] as const).includes(
-    locale as 'ru' | 'pl' | 'en' | 'tr'
+  type Loc = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
+  const safeLocale: Loc = (['ru', 'pl', 'en', 'tr', 'uk'] as const).includes(
+    locale as Loc
   )
-    ? (locale as 'ru' | 'pl' | 'en' | 'tr')
+    ? (locale as Loc)
     : 'ru';
 
   const entries = slugs

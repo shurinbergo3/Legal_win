@@ -1,4 +1,4 @@
-export type ServiceLocale = 'ru' | 'pl' | 'en' | 'tr';
+export type ServiceLocale = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
 export type ServiceGroup =
   | 'immigration'
@@ -55,4 +55,7 @@ export type ServiceContent = {
   ctaSubtitle: string;
 };
 
-export type ServiceEntry = Record<ServiceLocale, ServiceContent>;
+// Partial because not every locale ships every service (e.g. 'uk' content is
+// being translated incrementally — see [src/i18n/routing.ts] INDEX_LOCALES).
+// Lookups should fall back to 'ru' when a locale entry is missing.
+export type ServiceEntry = Partial<Record<ServiceLocale, ServiceContent>>;

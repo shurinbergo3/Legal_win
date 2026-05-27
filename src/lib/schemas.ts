@@ -32,7 +32,7 @@ export const contactSchema = z.object({
   consent: z.literal('on', {
     errorMap: () => ({ message: 'consent_required' })
   }),
-  locale: z.enum(['ru', 'pl', 'en', 'tr']).optional(),
+  locale: z.enum(['ru', 'pl', 'en', 'tr', 'uk']).optional(),
   hp: z.string().max(0).optional()
 });
 

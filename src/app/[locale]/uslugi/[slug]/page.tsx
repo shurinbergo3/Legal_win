@@ -7,7 +7,7 @@ import { Chatbot } from '@/components/Chatbot';
 import { ServiceDetail } from '@/components/ServiceDetail';
 import { JsonLd } from '@/components/JsonLd';
 import { getService, services, serviceSlugs } from '@/lib/services';
-import { routing } from '@/i18n/routing';
+import { INDEX_LOCALES, routing } from '@/i18n/routing';
 import {
   OG_IMAGE_HEIGHT,
   OG_IMAGE_PATH,
@@ -970,7 +970,9 @@ export async function generateMetadata({
   const content = getService(slug, locale);
   if (!content) return {};
 
-  const safeLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(locale as SeoLocale)
+  const safeLocale = (
+    ['ru', 'pl', 'en', 'tr', 'uk'] as const
+  ).includes(locale as SeoLocale)
     ? (locale as SeoLocale)
     : 'ru';
 
@@ -978,7 +980,8 @@ export async function generateMetadata({
     ru: 'Варшава',
     pl: 'Warszawa',
     en: 'Warsaw',
-    tr: 'Varşova'
+    tr: 'Varşova',
+    uk: 'Варшава'
   };
 
   const title = `${content.title} - ${content.subtitle} | ${ORG_LEGAL_NAME} ${cityByLocale[safeLocale]}`;
@@ -990,12 +993,14 @@ export async function generateMetadata({
     ru: 'ru_RU',
     pl: 'pl_PL',
     en: 'en_US',
-    tr: 'tr_TR'
+    tr: 'tr_TR',
+    uk: 'uk_UA'
   };
   const ogLocale = ogLocaleMap[locale] ?? 'en_US';
 
   const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
+  // Only advertise hreflang for locales whose content is translated.
+  for (const l of INDEX_LOCALES) {
     if (services[slug]?.[l as SeoLocale]) {
       languages[l] = `/${l}/uslugi/${slug}`;
     }
@@ -1055,7 +1060,9 @@ export default async function ServicePage({
   const content = getService(slug, locale);
   if (!content) notFound();
 
-  const safeLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(locale as SeoLocale)
+  const safeLocale = (
+    ['ru', 'pl', 'en', 'tr', 'uk'] as const
+  ).includes(locale as SeoLocale)
     ? (locale as SeoLocale)
     : 'ru';
 

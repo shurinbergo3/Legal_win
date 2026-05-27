@@ -40,9 +40,9 @@ export async function generateMetadata({
   const post = getPost(locale, slug);
   if (!post) return {};
 
-  const safeLocale: SeoLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
-    locale as SeoLocale
-  )
+  const safeLocale: SeoLocale = (
+    ['ru', 'pl', 'en', 'tr', 'uk'] as const
+  ).includes(locale as SeoLocale)
     ? (locale as SeoLocale)
     : 'ru';
 
@@ -51,7 +51,8 @@ export async function generateMetadata({
     ru: 'ru_RU',
     pl: 'pl_PL',
     en: 'en_US',
-    tr: 'tr_TR'
+    tr: 'tr_TR',
+    uk: 'uk_UA'
   };
 
   const availableLocales = getAvailableLocalesForSlug(slug);
@@ -118,9 +119,9 @@ export default async function BlogPostPage({
   const post = getPost(locale, slug);
   if (!post) notFound();
 
-  const safeLocale: SeoLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
-    locale as SeoLocale
-  )
+  const safeLocale: SeoLocale = (
+    ['ru', 'pl', 'en', 'tr', 'uk'] as const
+  ).includes(locale as SeoLocale)
     ? (locale as SeoLocale)
     : 'ru';
 

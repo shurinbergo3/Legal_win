@@ -1,4 +1,4 @@
-import { routing } from '@/i18n/routing';
+import { INDEX_LOCALES } from '@/i18n/routing';
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
@@ -25,13 +25,15 @@ export const OG_IMAGE_HEIGHT = 900;
 export const REVIEW_RATING_VALUE = '4.9';
 export const REVIEW_COUNT = 312;
 
-export type SeoLocale = 'ru' | 'pl' | 'en' | 'tr';
+export type SeoLocale = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
 export function languagesAlternate(
   basePath: (locale: SeoLocale) => string
 ): Record<string, string> {
   const out: Record<string, string> = {};
-  for (const l of routing.locales as readonly SeoLocale[]) {
+  // INDEX_LOCALES (not routing.locales) — only advertise locales whose content
+  // is actually translated. 'uk' is excluded until Этап 1 ships.
+  for (const l of INDEX_LOCALES as readonly SeoLocale[]) {
     out[l] = basePath(l);
   }
   out['x-default'] = basePath('ru');

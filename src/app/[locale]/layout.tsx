@@ -67,7 +67,8 @@ export async function generateMetadata({
     ru: 'ru_RU',
     pl: 'pl_PL',
     en: 'en_US',
-    tr: 'tr_TR'
+    tr: 'tr_TR',
+    uk: 'uk_UA'
   };
   const ogAlt = ogLocaleMap[locale] ?? 'en_US';
   const otherLocales = Object.values(ogLocaleMap).filter((l) => l !== ogAlt);

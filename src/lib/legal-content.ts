@@ -1,6 +1,6 @@
 import type { LegalSection } from '@/components/LegalPage';
 
-type Locale = 'ru' | 'pl' | 'en' | 'tr';
+type Locale = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
 type LegalDoc = {
   eyebrow: string;
@@ -11,7 +11,7 @@ type LegalDoc = {
 
 /* ──────────── PRIVACY POLICY ──────────── */
 
-export const PRIVACY: Record<Locale, LegalDoc> = {
+export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
   ru: {
     eyebrow: '/ право',
     title: 'Политика конфиденциальности',
@@ -480,7 +480,7 @@ export const PRIVACY: Record<Locale, LegalDoc> = {
 
 /* ──────────── COOKIE POLICY ──────────── */
 
-export const COOKIES: Record<Locale, LegalDoc> = {
+export const COOKIES: Partial<Record<Locale, LegalDoc>> = {
   ru: {
     eyebrow: '/ право',
     title: 'Политика cookies',
@@ -815,10 +815,13 @@ export function getLegalDoc(
   doc: 'privacy' | 'cookies',
   locale: string
 ): LegalDoc {
-  const safeLocale: Locale = (['ru', 'pl', 'en', 'tr'] as const).includes(
-    locale as Locale
-  )
+  const safeLocale: Locale = (
+    ['ru', 'pl', 'en', 'tr', 'uk'] as const
+  ).includes(locale as Locale)
     ? (locale as Locale)
     : 'ru';
-  return doc === 'privacy' ? PRIVACY[safeLocale] : COOKIES[safeLocale];
+  const source = doc === 'privacy' ? PRIVACY : COOKIES;
+  // Fall back to ru for locales without a translated copy (e.g. uk during Этап 0).
+  // PRIVACY/COOKIES.ru is guaranteed to exist.
+  return source[safeLocale] ?? (source.ru as LegalDoc);
 }

@@ -70,12 +70,14 @@ export const serviceSlugs = Object.keys(services);
 export function getService(slug: string, locale: string) {
   const entry = services[slug];
   if (!entry) return null;
-  const safeLocale: ServiceLocale = (['ru', 'pl', 'en', 'tr'] as const).includes(
-    locale as ServiceLocale
-  )
+  const safeLocale: ServiceLocale = (
+    ['ru', 'pl', 'en', 'tr', 'uk'] as const
+  ).includes(locale as ServiceLocale)
     ? (locale as ServiceLocale)
     : 'ru';
-  return entry[safeLocale];
+  // Fall back to ru when a locale's content has not been translated yet
+  // (currently uk during the staged rollout).
+  return entry[safeLocale] ?? entry.ru ?? null;
 }
 
 export type { ServiceContent } from './types';

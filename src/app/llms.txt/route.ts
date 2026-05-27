@@ -47,7 +47,7 @@ export function GET() {
     if (!slugs?.length) return [];
     const label = GROUP_LABEL[group];
     const lines = slugs.map((slug) => {
-      const en = services[slug]!.en;
+      const en = services[slug]!.en!;
       return `- [${en.title}](${SITE_URL}/en/uslugi/${slug}): ${en.subtitle}`;
     });
     return [`## ${label}`, ...lines, ''];

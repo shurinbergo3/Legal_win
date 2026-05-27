@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { routing } from '@/i18n/routing';
+import { INDEX_LOCALES, routing } from '@/i18n/routing';
 import { serviceSlugs, services } from '@/lib/services';
 import { getAllPosts, getAvailableLocalesForSlug } from '@/lib/blog';
 import { getGitLastModified } from '@/lib/git-mtime';
@@ -25,7 +25,7 @@ const LEGAL_LAST_MODIFIED =
 export default function sitemap(): MetadataRoute.Sitemap {
   // Latest blog post date — drives lastmod for the homepage and /blog index,
   // because both surface the most recent posts.
-  const latestPostDate = routing.locales
+  const latestPostDate = INDEX_LOCALES
     .flatMap((locale) => getAllPosts(locale).map((p) => p.publishDate))
     .reduce<string | null>((max, d) => (max === null || d > max ? d : max), null);
   const homepageLastModified = latestPostDate
@@ -33,11 +33,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     : SERVICES_LAST_MODIFIED;
 
   const homeLanguages: Record<string, string> = Object.fromEntries(
-    routing.locales.map((l) => [l, `${SITE_URL}/${l}`])
+    INDEX_LOCALES.map((l) => [l, `${SITE_URL}/${l}`])
   );
   homeLanguages['x-default'] = `${SITE_URL}/${routing.defaultLocale}`;
 
-  const home: MetadataRoute.Sitemap = routing.locales.map((locale) => ({
+  const home: MetadataRoute.Sitemap = INDEX_LOCALES.map((locale) => ({
     url: `${SITE_URL}/${locale}`,
     lastModified: homepageLastModified,
     changeFrequency: 'weekly',
@@ -45,12 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: { languages: homeLanguages }
   }));
 
-  const servicePages: MetadataRoute.Sitemap = routing.locales.flatMap((locale) =>
+  const servicePages: MetadataRoute.Sitemap = INDEX_LOCALES.flatMap((locale) =>
     serviceSlugs
       .filter((slug) => services[slug]?.[locale])
       .map((slug) => {
         const languages: Record<string, string> = Object.fromEntries(
-          routing.locales
+          INDEX_LOCALES
             .filter((l) => services[slug]?.[l])
             .map((l) => [l, `${SITE_URL}/${l}/uslugi/${slug}`])
         );
@@ -69,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Legal pages - privacy policy, cookie policy
   const legalSlugs = ['polityka-prywatnosci', 'polityka-cookies'] as const;
-  const legalPages: MetadataRoute.Sitemap = routing.locales.flatMap((locale) =>
+  const legalPages: MetadataRoute.Sitemap = INDEX_LOCALES.flatMap((locale) =>
     legalSlugs.map((slug) => ({
       url: `${SITE_URL}/${locale}/${slug}`,
       lastModified: LEGAL_LAST_MODIFIED,
@@ -77,27 +77,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.4,
       alternates: {
         languages: Object.fromEntries(
-          routing.locales.map((l) => [l, `${SITE_URL}/${l}/${slug}`])
+          INDEX_LOCALES.map((l) => [l, `${SITE_URL}/${l}/${slug}`])
         )
       }
     }))
   );
 
   // Blog index per locale
-  const blogIndex: MetadataRoute.Sitemap = routing.locales.map((locale) => ({
+  const blogIndex: MetadataRoute.Sitemap = INDEX_LOCALES.map((locale) => ({
     url: `${SITE_URL}/${locale}/blog`,
     lastModified: homepageLastModified,
     changeFrequency: 'weekly' as const,
     priority: 0.7,
     alternates: {
       languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `${SITE_URL}/${l}/blog`])
+        INDEX_LOCALES.map((l) => [l, `${SITE_URL}/${l}/blog`])
       )
     }
   }));
 
   // Blog posts per locale (only for locales where the post file exists)
-  const blogPosts: MetadataRoute.Sitemap = routing.locales.flatMap((locale) =>
+  const blogPosts: MetadataRoute.Sitemap = INDEX_LOCALES.flatMap((locale) =>
     getAllPosts(locale).map((post) => {
       const availableLocales = getAvailableLocalesForSlug(post.slug);
       const languages: Record<string, string> = Object.fromEntries(
