@@ -352,6 +352,94 @@ const przedstawicielstwa: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'apostille'],
     ctaTitle: 'Polonya temsilciliği anahtar teslim',
     ctaSubtitle: 'Form seçimi ücretsiz (oddział veya przedstawicielstwo). Anahtar teslim 4.800 PLN\'den.'
+  },
+  uk: {
+    slug: 'przedstawicielstwa',
+    group: 'business',
+    icon: 'landmark',
+    badge: 'Oddział · Przedstawicielstwo · Branch',
+    title: 'Представництва іноземної компанії',
+    subtitle: 'Oddział і przedstawicielstwo іноземної фірми в Польщі',
+    lead: 'Іноземна компанія може працювати в Польщі через філію (oddział) або представництво (przedstawicielstwo). Oddział — повноцінна комерційна діяльність від імені материнської фірми, реєструється в KRS. Przedstawicielstwo — лише маркетинг, реклама, дослідження ринку (без продажів), реєструється в Rejestrze Przedstawicielstw. Допомагаємо обрати форму і пройти реєстрацію за 4–8 тижнів.',
+    facts: [
+      { label: 'Oddział у KRS', value: '4–8 тижнів', note: 'повна комерція' },
+      { label: 'Przedstawicielstwo', value: '6–10 тижнів', note: 'лише маркетинг' },
+      { label: 'Строк Przedstawicielstwa', value: '2 роки', note: 'продовжується' },
+      { label: 'Податки Oddziału', value: 'CIT 19%', note: 'на польський дохід' }
+    ],
+    grounds: {
+      title: 'Коли потрібна форма представництва',
+      subtitle: 'Альтернативи реєстрації Sp. z o.o. — коли вже є зріла фірма за кордоном і потрібна присутність у Польщі.',
+      items: [
+        { title: 'Oddział — комерційна активність', desc: 'Відкриття складу, дистрибуції, сервісного центру, продажів у Польщі від імені материнської компанії. KRS, NIP, VAT, податки — на oddział.' },
+        { title: 'Przedstawicielstwo — лише маркетинг', desc: 'Reklama, badania rynku, promocja бренду, пошук партнерів. Заборонені продажі та виробництво. Ідеально для тестування ринку.' },
+        { title: 'Велика корпорація в Польщі', desc: 'Холдинги використовують oddział, коли не хочуть відокремлювати польський бізнес юридично — усі зобов’язання на материнській фірмі.' },
+        { title: 'Представництво країни', desc: 'Державні торгові представництва, експортні агентства, культурні місії — przedstawicielstwo як міст.' },
+        { title: 'Реєстрація без капіталу', desc: 'Oddział не потребує kapitału zakładowego. Лише підтвердження діяльності материнської компанії за кордоном.' },
+        { title: 'Захист бренду', desc: 'Реєстрація присутності в Польщі + торгової марки — захищає від копіювання. Через przedstawicielstwo доводиться активний захист бренду в ЄС.' }
+      ]
+    },
+    timeline: {
+      title: 'Етапи реєстрації',
+      subtitle: 'Від підготовки документів у материнській компанії до wpisu в реєстр — 4–10 тижнів.',
+      steps: [
+        { title: 'Безкоштовна консультація', duration: '30 хв', desc: 'Обираємо oddział чи przedstawicielstwo за планом діяльності. Враховуємо CIT, VAT, обов’язки бухгалтерії.' },
+        { title: 'Документи материнської компанії', duration: '1–2 тижні', desc: 'Apostille на: KRS / Companies House / витяг з реєстру, statut / articles, рішення про створення представництва, довіреність на главу oddziału. Присяжний переклад — у нас.' },
+        { title: 'Призначення представника', duration: '1 тиждень', desc: 'Osoba upoważniona — громадянин Польщі або іноземець з правом проживання. Має PESEL, адресу в Польщі, KRK.' },
+        { title: 'Юридична адреса', duration: '1 день', desc: 'Адреса у Варшаві або іншому місті — наша у ціні або ваша. Договір najmu обов’язковий.' },
+        { title: 'Wniosek у KRS / Rejestr', duration: '4–6 тижнів', desc: 'Oddział — KRS-ZAR, NIP-2, REGON. Przedstawicielstwo — wniosek do Ministerstwa Rozwoju i Technologii. Держмита: KRS 500 PLN, MRiT 1 тис. PLN.' },
+        { title: 'Реєстрація в US, ZUS', duration: '2 тижні', desc: 'Oddział — стає podatnikiem CIT, реєструється в US і ZUS (якщо будуть pracownicy). Przedstawicielstwo — лише NIP.' },
+        { title: 'Відкриття рахунку', duration: '1–2 тижні', desc: 'Konto firmowe у польському банку. Документи материнської фірми + apostille + tłumaczenie.' }
+      ]
+    },
+    documents: {
+      title: 'Документи материнської компанії',
+      subtitle: 'Усі іноземні документи — з apostille і присяжним перекладом.',
+      items: [
+        'Витяг з реєстру (KRS / Companies House / Handelsregister) актуальний',
+        'Statut / Articles of Association з перекладом',
+        'Рішення засновників або ради директорів про відкриття представництва',
+        'Довіреність на главу oddziału / kierownika przedstawicielstwa',
+        'Підтвердження діяльності материнської фірми (sprawozdanie finansowe за останній рік)',
+        'Apostille на кожен документ (Hague Convention)',
+        'Tłumaczenie przysięgłe всіх документів польською — у нас',
+        'Паспорт kierownika і його адреса/PESEL',
+        'KRK (довідка про несудимість) kierownika з усіх країн проживання за 5 років'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Залежить від форми (oddział vs przedstawicielstwo) і кількості документів.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · підбір форми' },
+        { label: 'Przedstawicielstwo', value: 'від 4 800 PLN', note: 'Wniosek + переклад + адреса' },
+        { label: 'Oddział під ключ', value: 'від 8 500 PLN', note: 'KRS + NIP + VAT + банк' },
+        { label: 'Преміум (зі спірним wpisem)', value: 'від 12 000 PLN', note: 'Складні структури, апеляції' }
+      ],
+      note: 'Держмита: KRS 500 PLN + MSiG 100 PLN (oddział). MRiT 1 000 PLN (przedstawicielstwo). Apostille — у країні походження. Переклад присяжний — 50–100 PLN/сторінка.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 6 marca 2018 r. o zasadach uczestnictwa przedsiębiorców zagranicznych (rozdz. 4 — oddziały, rozdz. 5 — przedstawicielstwa)',
+        'Ustawa z dnia 15 września 2000 r. — Kodeks spółek handlowych (art. 27 KSH — oddział)',
+        'Ustawa z dnia 20 sierpnia 1997 r. o KRS (rozdz. 3 — wpis oddziału)',
+        'Konwencja Haska 1961 r. o apostille',
+        'Ustawa z dnia 15 lutego 1992 r. o CIT (oddział jako zakład w rozumieniu umów o unikaniu podwójnego opodatkowania)'
+      ]
+    },
+    faq: [
+      { q: 'Чим oddział відрізняється від Sp. z o.o.?', a: 'Oddział (філія) — це структурний підрозділ материнської фірми, без окремої правосуб’єктності. Усі зобов’язання, активи, доходи — на материнській фірмі. Sp. z o.o. — окрема юрособа з власним капіталом і відповідальністю. Oddział простіший для холдингу, Sp. z o.o. — для нового бізнесу з польськими партнерами.' },
+      { q: 'Чи може przedstawicielstwo виставляти інвойси?', a: 'Ні. Przedstawicielstwo (представництво) має право лише на: маркетинг, рекламу, badania rynku (дослідження ринку), promocja, пошук партнерів. Продажі, послуги, виробництво — заборонені. Якщо потрібно — закриваєте przedstawicielstwo і відкриваєте oddział або Sp. z o.o.' },
+      { q: 'Які податки платить oddział?', a: 'CIT 19% на польський дохід (przypisany do oddziału — віднесений до філії). Якщо є umowa o unikaniu podwójnego opodatkowania (угода про уникнення подвійного оподаткування) — податок у Польщі. VAT — оборотний податок 23%. Податки материнської фірми за кордоном — окремо.' },
+      { q: 'Скільки діє przedstawicielstwo?', a: '2 роки з можливістю продовження. Перед закінченням строку подаєте wniosek o przedłużenie (заяву про продовження) за 30 днів. Якщо не продовжили — przedstawicielstwo автоматично закривається.' },
+      { q: 'Чи потрібен польський kierownik?', a: 'Ні. Kierownikiem (керівником) oddziału або przedstawicielstwa може бути іноземець. Головне — у нього має бути PESEL і право legalnego pobytu w Polsce (легального перебування в Польщі). Інакше неможлива реєстрація в KRS і подання документів через ePUAP.' },
+      { q: 'А якщо материнська фірма закривається?', a: 'Oddział і przedstawicielstwo автоматично припиняють існування. Закриття вимагає aktów (актів) і wniosków (заяв) у KRS/MRiT (Міністерство розвитку і технологій) — закриття триває 1–3 місяці з розрахунком усіх зобов’язань.' },
+      { q: 'Чи можна перетворити oddział на Sp. z o.o.?', a: 'Не безпосередньо. Закриваєте oddział, реєструєте Sp. z o.o., передаєте активи (контракти, склад, співробітники) — це угода між материнською фірмою і Sp. z o.o., з ПДВ / CIT наслідками. Робимо під ключ.' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'apostille'],
+    ctaTitle: 'Представництво в Польщі під ключ',
+    ctaSubtitle: 'Безкоштовно підбираємо форму (oddział або przedstawicielstwo). Від 4 800 PLN під ключ.'
   }
 };
 

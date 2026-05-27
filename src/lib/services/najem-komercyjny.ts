@@ -360,6 +360,96 @@ const najemKomercyjny: ServiceEntry = {
     related: ['mswia-zezwolenie', 'rejestracja-sp-z-oo', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Anahtar teslim ticari kira',
     ctaSubtitle: 'Sözleşmenizi 30 dakikada ücretsiz analiz ediyoruz. Toplam maliyetten %15+ tasarruf garantisi.'
+  },
+  uk: {
+    slug: 'najem-komercyjny',
+    group: 'realestate',
+    icon: 'home',
+    badge: 'Office · Retail · Warehouse',
+    title: 'Оренда комерційної нерухомості',
+    subtitle: 'Договори оренди офісу, магазину та складу для бізнесу в Польщі',
+    lead: 'Стандартний шаблон orendodawcy в Польщі — 30+ сторінок, 80% з яких захищають orendodawcę і коштують орендарю при wyjściu від 50 тис. PLN. Аналізуємо umowę, торгуємося за кожну klauzulę: indeksacja czynszu, fit-out coszt, klauzula konkurencji, kary za zerwanie, gwarancja bankowa. Працюємо з офісами від 50 м² до 5000 м², магазинами в galeriach handlowych і складами на околицях Варшави.',
+    facts: [
+      { label: 'Стандартний термін', value: '3–10 років', note: 'office · 5 років typowy' },
+      { label: 'Наша економія', value: '15–30%', note: 'від total cost за 5 років' },
+      { label: 'Negocjowane пункти', value: '20–30', note: 'зі стандартного template' },
+      { label: 'Термін review', value: '5–10 днів', note: 'від draft до підписання' }
+    ],
+    grounds: {
+      title: 'Що обговорюємо',
+      subtitle: 'У стандартному шаблоні wynajmującego прихований кожен ризик-важіль. Ми знаємо, де шукати.',
+      items: [
+        { title: 'Czynsz та indeksacja', desc: 'Базовий czynsz + indeksacja (CPI Polska, EUR Eurostat, fixed). Домовляємося про cap на indeksację (max 4–5%/рік), pierwszy bezpłatny rok (rent-free period 1–3 міс. зазвичай), знижки за тривалий термін.' },
+        { title: 'Fit-out та contribution', desc: 'Wynajmujący часто покриває 50–250 EUR/м² витрат на підготовку (ремонт, перегородки, меблі). Узгоджуємо для нового орендаря. Буває базовий stan, буває «turn-key» — ключова різниця до 200к за офіс 200 м².' },
+        { title: 'Klauzula wcześniejszego rozwiązania', desc: 'Стандартно — немає права дострокового розірвання, kary 100% pozostałych czynszów. Домовляємося: prawo do rozwiązania po 3 latach з karą 6 міс czynszu, або субліз без згоди wynajmującego.' },
+        { title: 'Service charge', desc: 'Плата за спільні витрати (консьєрж, охорона, опалення в коридорах, прибирання). Часто приховані витрати — спочатку показують «typically 8 EUR/m²», а у звітах за рік — 15. Узгоджуємо cap (max 12 EUR/m²/рік) і обов’язковий річний аудит.' },
+        { title: 'Klauzula konkurencji', desc: 'Wynajmujący забороняє орендарям схожі послуги. Наприклад, у galerii handlowej — не можна брати орендаря, який продає ту саму категорію товарів у радіусі 50 м. Це захищає ваш бізнес. Узгоджуємо експліцитно.' },
+        { title: 'Gwarancja bankowa або depozyt', desc: 'Стандарт — 3–6 міс czynszu у вигляді gwarancji bankowej від польського банку або депозиту. Дорого для стартапу. Узгоджуємо: менша gwarancja (3 міс), parent company guarantee замість bankowej, або без gwarancji при тривалому терміні.' },
+        { title: 'Ремонт і dewastacja', desc: 'При виїзді — обов’язок повернути у «вихідний стан» або «придатний для наступного орендаря». Розмите визначення = десятки тисяч ремонту. Узгоджуємо: фотодокументація при в’їзді, конкретний перелік змін до здачі.' },
+        { title: 'Klauzula pandemiczna', desc: 'Після Covid стандартно узгоджується: якщо будуть lockdownи, force majeure, обмеження роботи — czynsz зменшується або призупиняється. Wynajmujący неохоче погоджуються, але ми отримуємо 30–70% rabatu в стандартних контрактах.' }
+      ]
+    },
+    timeline: {
+      title: 'Етапи переговорів',
+      subtitle: 'Від первинного аналізу до підписання зазвичай 2–4 тижні. Складні контракти (від 1000 м² або мережеві) — до 2 місяців.',
+      steps: [
+        { title: 'Безкоштовна оцінка', duration: '30 хв', desc: 'Опис планів: тип бізнесу, площа, регіони інтересу, бюджет. Підбираємо pakiet (review / negocjacje / повний супровід).' },
+        { title: 'Отримання draftу', duration: '1 тиждень', desc: 'Wynajmujący надсилає свій template umowy. Часто 30–50 сторінок. Завантажуємо в наш аналіз.' },
+        { title: 'Аналіз', duration: '3–5 днів', desc: 'Кожна klauzula перевіряється на ризик. Готуємо mark-up — версію umowy з poprawkami по позиціях.' },
+        { title: 'Negocjacje', duration: '5–10 днів', desc: 'Email або зустрічі з правовим відділом wynajmującego. 3–5 ітерацій. Часто wynajmujący «упирається» в 5–7 ключових пунктах — там основна боротьба.' },
+        { title: 'Фінальне review', duration: '1 день', desc: 'Фінальна версія umowy з включеними poprawkami. Перевіряємо, що ніщо «не повернулося» до шаблону.' },
+        { title: 'Підписання', duration: '1 день', desc: 'Електронно (через ePodpis) або фізично. Якщо корпоративна угода — sometimes notarialne підписання.' },
+        { title: 'Обов’язки post-sign', duration: 'тривало', desc: 'Допомагаємо з реєстрацією fit-out коштів, vouchen czynszu, gwarancją, страхуванням. Супровід перших 3 місяців включено.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно',
+      subtitle: 'Від вас — план бізнесу. Від wynajmującego — draft umowy.',
+      items: [
+        'Бізнес-план: який бізнес, чому цей об’єкт, тривалість',
+        'KRS орендаря (Sp. z o.o.) або CEIDG (JDG)',
+        'Sprawozdania finansowe za 12 міс. (для wynajmującego — ocena rentowności)',
+        'Lista wymagań do nieruchomości (площа, розташування, інфраструктура)',
+        'Draft umowy від wynajmującego',
+        'Plan zagospodarowania nieruchomości (для офісу — open-space чи кабінети?)',
+        'Proponowana fit-out (якщо нестандартний)',
+        'Інформація про parent company (якщо просять корпоративну gwarancję)'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Залежить від обсягу площі та складності контракту.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · огляд плану' },
+        { label: 'Review + advice', value: 'від 1 800 PLN', note: 'Аналіз + перелік ризиків + рекомендації' },
+        { label: 'Negocjacje під ключ', value: 'від 4 500 PLN', note: 'Mark-up + переговори з wynajmującym' },
+        { label: 'Складний контракт', value: 'від 8 500 PLN', note: '> 1000 м² · мережеві umowy · multi-site' }
+      ],
+      note: 'При повному супроводі — гарантуємо економію 15%+ від total cost umowy за 5 років (якщо не вдалося — повертаємо гонорар). Для стартапів — discount 30% при першій umowie.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 23 kwietnia 1964 r. — Kodeks cywilny (rozdz. — najem, dział — najem lokalu mieszkalnego i użytkowego)',
+        'Ustawa z dnia 21 czerwca 2001 r. o ochronie praw lokatorów (najem mieszkaniowy — частково застосовна)',
+        'Ustawa z dnia 17 maja 1989 r. — Prawo budowlane (zgodność lokalu z funkcją)',
+        'Ustawa z dnia 9 września 2000 r. o PCC (PCC 0,5–2% przy umowach najmu wieloletnich)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (VAT 23% на czynsz komercyjny)',
+        'Ustawa z dnia 23 marca 2017 r. o kredycie hipotecznym (для commercial mortgage кредитів)'
+      ]
+    },
+    faq: [
+      { q: 'Навіщо фахівець, якщо просто орендую офіс?', a: 'Стандартний template wynajmującego (орендодавця) в Польщі — 30–50 сторінок, 80% захищають wynajmującego. Наприклад: «klauzula wcześniejszego rozwiązania» (стаття дострокового розірвання) дозволяє розірвати umowę (договір) за 3 міс, якщо є «непомітні» порушення (часто сфабриковані); «service charge» (плата за обслуговування) може зрости на 50% за рік; «klauzula konkurencji» (стаття про неконкуренцію) може обмежити ваш розвиток. Наш фахівець з оренди відпрацьовує 2 000 PLN на кожній 100 тис. PLN umowi.' },
+      { q: 'Скільки коштує офіс у Варшаві?', a: '2024 рік: клас A в центрі — 18–25 EUR/м²/міс (Mokotów, Wola, Centrum). Клас B на околицях — 11–16 EUR. Coworking — 800–1 500 PLN/міс за робоче місце. Service charge (плата за обслуговування) додає 4–8 EUR/м²/міс. Разом офіс 100 м² класу B на околицях — зазвичай 7 000–12 000 PLN/міс.' },
+      { q: 'Що таке rent-free period?', a: 'Безкоштовний період на початку umowy (договору) — 1–3 місяці зазвичай. Використовується на ремонт і переїзд. Виторговуємо 2–3 місяці для офісу 200+ м² або 1 місяць для менших площ. На ринку орендаря (коли vacancy високий — як у 2023–24) можна отримати 3–6 місяців.' },
+      { q: 'Чи можна розірвати достроково?', a: 'Без спеціальної klauzuli (статті) — ні, ви платите всі pozostałe czynsze (залишкові орендні платежі). Домовляємося про «exit window» — наприклад, після 3-го року можна розірвати з karą (штрафом) 6 міс czynszu (оренди). Це стандарт для офісів. Для magazynów (складів) і галерей — складніше, зазвичай 5+ років blocked.' },
+      { q: 'Що робити з lockdownами?', a: 'Після Covid у кожній umowie прописуємо «klauzulę pandemiczną» (пандемічну статтю): при обмеженні usage приміщення (lockdown, restrykcje sanitarne — санітарні обмеження) — czynsz (оренда) обнуляється або зменшується на 50%. Wynajmujący (орендодавці) опираються, але 70% погоджуються після переговорів.' },
+      { q: 'Gwarancja bankowa чи depozyt?', a: 'Gwarancja bankowa (банківська гарантія) — wynajmujący (орендодавці) надають перевагу, бо банк гарантує виплату. Коштує орендарю 1–2% suma rocznie (від суми на рік — provision bankowi — банківська комісія). Depozyt (депозит) — фактично 3–6 міс czynszu лежать на rachunku wynajmującego (рахунку орендодавця) 5 років — втрата відсотків. Якщо cashflow важливий — bankowa, якщо є гроші — depozyt.' },
+      { q: 'PCC при umowie najmu?', a: 'PCC 0,5% wartości umowy (вартості договору) для umów na czas określony powyżej 1 roku (договорів на визначений строк понад 1 рік, sumują wszystkie czynsze za okres — підсумовуються всі орендні платежі). Płaci орендар. Для umów krótszych або nieokreślonych (коротших або безстрокових) — bez PCC.' }
+    ],
+    related: ['mswia-zezwolenie', 'rejestracja-sp-z-oo', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Оренда комерції під ключ',
+    ctaSubtitle: 'Безкоштовно аналізуємо umowę за 30 хвилин. Гарантуємо економію 15%+ від total cost.'
   }
 };
 

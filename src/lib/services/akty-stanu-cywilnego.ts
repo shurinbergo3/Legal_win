@@ -352,6 +352,94 @@ const aktyStanuCywilnego: ServiceEntry = {
     related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],
     ctaTitle: 'USC belgeleri anahtar teslim',
     ctaSubtitle: 'Ücretsiz danışmanlık: akit türü, verildiği ülke ve kullanım amacını netleştiririz. USC başvurusundan apostille\'li polski odpis\'e genelde 2-3 hafta.'
+  },
+  uk: {
+    slug: 'akty-stanu-cywilnego',
+    group: 'documents',
+    icon: 'landmark',
+    badge: 'USC · BUSC · Umiejscowienie',
+    title: 'Акти цивільного стану',
+    subtitle: 'Свідоцтва про народження, шлюб і смерть у Польщі',
+    lead: 'Акти цивільного стану (akty stanu cywilnego) — свідоцтва про народження, шлюб і смерть, що видаються польським USC. Іноземцю вони потрібні для оформлення PESEL, укладення шлюбу з громадянином ЄС, визнання іноземного акта в Польщі (umiejscowienie), реєстрації дитини, народженої в Польщі, та при поданні на карту побуту, карту сталого побуту або громадянство. Працюємо з USC і BUSC напряму — забираємо odpis, ставимо apostille, робимо присяжний переклад.',
+    facts: [
+      { label: 'Термін видачі', value: '7 днів', note: 'standardowo · до 30 днів' },
+      { label: 'Держмито', value: '22–39 PLN', note: 'odpis skrócony / zupełny' },
+      { label: 'Umiejscowienie', value: '50 PLN', note: 'вписання іноземного акта' },
+      { label: 'Де', value: 'USC + BUSC', note: 'локально або централізовано' }
+    ],
+    grounds: {
+      title: 'Які акти оформлюємо',
+      subtitle: 'USC веде три типи реєстрів — ми працюємо з усіма.',
+      items: [
+        { title: 'Akt urodzenia (народження)', desc: 'Реєстрація дитини, народженої в Польщі; отримання odpisu для іноземного громадянина; umiejscowienie зарубіжного свідоцтва про народження.' },
+        { title: 'Akt małżeństwa (шлюб)', desc: 'Укладення шлюбу з польським громадянином або іншим іноземцем в USC; umiejscowienie зарубіжного свідоцтва про шлюб.' },
+        { title: 'Akt zgonu (смерть)', desc: 'Реєстрація смерті в Польщі; umiejscowienie зарубіжного свідоцтва про смерть; отримання odpisu для спадщини.' },
+        { title: 'Umiejscowienie aktu zagranicznego', desc: 'Вписання іноземного свідоцтва до польського реєстру USC. Обов’язково для розлучень, спадщини, другого шлюбу, зміни прізвища.' },
+        { title: 'Sprostowanie i uzupełnienie', desc: 'Виправлення помилок в актах: дати, прізвища, місця народження. Через postanowienie USC або sąd cywilny.' },
+        { title: 'Zmiana nazwiska / imienia', desc: 'Зміна імені/прізвища іноземця — через USC за поважної причини, займає 30–60 днів.' },
+        { title: 'Apostille на польські акти', desc: 'Wojewoda ставить apostille на польські свідоцтва USC для використання за кордоном.' },
+        { title: 'Odtworzenie aktu', desc: 'Відновлення втраченого акта (наприклад, втраченого USC під час війни) — через постанову sądu cywilnego.' }
+      ]
+    },
+    timeline: {
+      title: 'Як ми оформлюємо акт',
+      subtitle: 'Стандартний цикл umiejscowienia + odpis з apostille — 2–3 тижні.',
+      steps: [
+        { title: 'Консультація', duration: '30 хв', desc: 'Уточнюємо тип акта, мету використання, країну видачі іноземного документа.' },
+        { title: 'Збір документів', duration: '3–7 днів', desc: 'Отримуємо оригінали з країни видачі, робимо apostille (якщо потрібно), організовуємо присяжний переклад польською.' },
+        { title: 'Wniosek o umiejscowienie', duration: '1 день', desc: 'Подаємо wniosek до USC за обраною локалізацією (часто Warszawa-Śródmieście як найшвидший).' },
+        { title: 'Postępowanie USC', duration: '7–30 днів', desc: 'Kierownik USC перевіряє документи, вписує акт до польського реєстру, видає polski odpis.' },
+        { title: 'Отримання odpisu', duration: '1 день', desc: 'Skrócony (22 PLN) для більшості цілей або zupełny (33 PLN) для нотаріальних угод.' },
+        { title: 'Apostille / переклад', duration: '3–5 днів', desc: 'За потреби — apostille від wojewody на польський odpis і присяжний переклад мовою країни використання.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно від вас',
+      subtitle: 'Точний перелік залежить від типу акта та країни видачі.',
+      items: [
+        'Паспорт (оригінал + копії)',
+        'PESEL (якщо є)',
+        'Іноземне свідоцтво про народження/шлюб/смерть (оригінал)',
+        'Apostille або легалізація на іноземний документ',
+        'Присяжний переклад іноземного акта польською (робимо ми)',
+        'Документ про розлучення / смерть чоловіка чи дружини — для umiejscowienia шлюбу',
+        'Згода чоловіка/дружини — при зміні прізвища після шлюбу',
+        'Заповнений wniosek — готуємо ми'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Фіксований гонорар. Держмита USC — окремо за фактом.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · оцінка ситуації' },
+        { label: 'Отримання odpisu', value: 'від 250 PLN', note: 'Wniosek, USC, відправка кур’єром' },
+        { label: 'Umiejscowienie aktu', value: 'від 700 PLN', note: 'Повний цикл вписання іноземного акта' },
+        { label: 'Apostille + переклад odpisu', value: 'від 350 PLN', note: 'Wojewoda + присяжний перекладач' }
+      ],
+      note: 'Зазначено гонорари LegalWin. Держмита (22 PLN odpis skrócony, 33 PLN zupełny, 50 PLN umiejscowienie, 60 PLN apostille) і присяжний переклад (~80 PLN/документ) — окремо.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 28 listopada 2014 r. — Prawo o aktach stanu cywilnego',
+        'Rozporządzenie MSWiA w sprawie wzorów odpisów aktów stanu cywilnego',
+        'Konwencja haska z 5 października 1961 r. (apostille)',
+        'Ustawa z dnia 16 listopada 2006 r. o opłacie skarbowej',
+        'Rozporządzenie (UE) 2016/1191 (eliminacja legalizacji w UE)'
+      ]
+    },
+    faq: [
+      { q: 'Що таке umiejscowienie aktu?', a: 'Це вписання (umiejscowienie) іноземного свідоцтва про народження/шлюб/смерть до польського реєстру USC (управління актів цивільного стану). Після umiejscowienia ви отримуєте polski odpis (польську виписку), яку приймають усі польські установи без перекладу. Обов’язково для повторного шлюбу, спадщини, зміни прізвища.' },
+      { q: 'Скільки часу займає umiejscowienie?', a: 'Від 7 днів (Warszawa-Śródmieście, документи з ЄС) до 30 днів (інші воєводства, документи з не-ЄС країн). Якщо документ старий або з країни поза Гаазькою конвенцією (Konwencja Haska) — може бути до 60 днів з додатковими запитами.' },
+      { q: 'Чи потрібне umiejscowienie для подання на карту побуту?', a: 'Ні, для карти побуту достатньо оригіналу іноземного свідоцтва з apostille (апостилем) і присяжним перекладом. Umiejscowienie (вписання акта) обов’язкове для повторного шлюбу в Польщі, оформлення громадянства, спадкових справ.' },
+      { q: 'Що таке apostille і коли потрібен?', a: 'Apostille (апостиль) — спрощена легалізація документів між країнами Гаазької конвенції 1961 р. Польща вимагає apostille на всі іноземні публічні документи з країн Конвенції (Україна, США, Велика Британія тощо). У країнах ЄС — apostille не потрібен з 2019 року (Регламент 2016/1191).' },
+      { q: 'Де швидше зробити umiejscowienie — у Варшаві чи регіоні?', a: 'USC (управління актів цивільного стану) Warszawa-Śródmieście працює найшвидше — 7–14 днів. Регіональні USC — 14–30 днів. Подаємо через Warszawa, навіть якщо живете в іншому місті — закон це дозволяє.' },
+      { q: 'Чи можна отримати odpis aktu онлайн?', a: 'Так, через ePUAP (електронна платформа держпослуг) або mObywatel (мобільний застосунок «Громадянин») — для осіб з польським PESEL і profil zaufany (довіреним профілем). Термін — 7 днів, ціна та сама. Робимо для клієнтів через нашу e-platform.' },
+      { q: 'Що робити з розлученням з країни поза ЄС?', a: 'Для umiejscowienia (внесення до польського реєстру) шлюбу в Польщі потрібно: іноземне свідоцтво про розлучення з apostille (апостилем) + присяжний переклад. Якщо шлюб був у Польщі — wpis o rozwiązaniu (запис про розірвання) додається за wnioskiem (заявою) або automatycznie через sąd (суд). Для складних випадків — окрема процедура uznania zagranicznego wyroku rozwodowego (визнання іноземного рішення про розлучення).' }
+    ],
+    related: ['apostille', 'tlumaczenia-przysiegle', 'pesel'],
+    ctaTitle: 'Свідоцтва USC під ключ',
+    ctaSubtitle: 'Безкоштовна консультація: уточнимо тип акта, країну видачі, мету використання. Від подання в USC до polski odpis з apostille — зазвичай 2–3 тижні.'
   }
 };
 

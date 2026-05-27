@@ -368,6 +368,98 @@ const dueDiligenceNieruchomosci: ServiceEntry = {
     related: ['mswia-zezwolenie', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Alımdan önce due diligence',
     ctaSubtitle: 'Objeyi 15 dakikada ücretsiz değerlendiriyor, paket öneriyoruz. Alımı 1.800 PLN\'den koruyoruz.'
+  },
+  uk: {
+    slug: 'due-diligence-nieruchomosci',
+    group: 'realestate',
+    icon: 'shield',
+    badge: 'Due diligence · KW · obciążenia',
+    title: 'Перевірка чистоти угоди (Due Diligence)',
+    subtitle: 'Юридична перевірка нерухомості перед купівлею: KW, обтяження, історія',
+    lead: 'Перед підписанням aktu notarialnego перевіряємо нерухомість на приховані проблеми: невиплачені кредити, арешт, неправильні wpis у księgę wieczystą, спори в суді, нелегальні прибудови, борги ZUS / podatku від nieruchomości. 70% «чудових» пропозицій на вторинному ринку мають приховані проблеми. Наш raport захищає купівлю та коштує 1% від ціни купівлі. Підходить як для квартири за 500 тис., так і для комерційної за 50 млн.',
+    facts: [
+      { label: 'Термін перевірки', value: '5–10 днів', note: 'standard · великі об’єкти довше' },
+      { label: 'Обсяг звіту', value: '15–40 сторінок', note: 'PDF + risk-rating' },
+      { label: 'Джерел перевірки', value: '12+', note: 'KW, KRS, Geoportal, US, ZUS' },
+      { label: 'Гарантія', value: '100%', note: 'компенсуємо збитки від пропущених ризиків' }
+    ],
+    grounds: {
+      title: 'Що перевіряємо',
+      subtitle: 'Кожна категорія — окремий ризик, який може коштувати десятки тисяч PLN після купівлі.',
+      items: [
+        { title: 'Księga wieczysta — wpisy й obciążenia', desc: 'Hipoteka на банк, służebności, użytkowanie wieczyste, dożywocie, prawo pierwokupu. Кожне обтяження залишається з нерухомістю при купівлі. Іноді продавець «не пам’ятає» про hipotece.' },
+        { title: 'Історія власності', desc: 'Аналізуємо всі wpisy у KW за 20+ років. Spadki, darowizny, sprzedaży, постанови про арешт. Оцінка ризику skarg від колишніх власників або їхніх спадкоємців.' },
+        { title: 'Відповідність nieruchomości документам', desc: 'Порівнюємо mapę ewidencyjną, projekty budowlane, decyzje про pozwolenie na budowę. Виявляємо нелегальні прибудови (legalizacja може коштувати 50 тис.).' },
+        { title: 'Борги ZUS / US / podatków', desc: 'Перевіряємо zaległości продавця — можуть стати вашою проблемою при wpisie hipoteki przymusowej. Через wniosek do ZUS i US (з pełnomocnictwem продавця).' },
+        { title: 'Судові спори', desc: 'Перевіряємо repertoria sądów за адресою — чи є активні справи про власність, granicach, służebnościach. Через KSEG і репозиторій orzeczeń.' },
+        { title: 'Plan miejscowy й інфраструктура', desc: 'Що буде навколо через 5 років? Plan zagospodarowania przestrzennego, плановані дороги, школи, заводи. Перевіряємо для кожної ділянки землі та для комерційної нерухомості — критично.' },
+        { title: 'Договори najmu', desc: 'Якщо продавець здає — договори переходять до вас. Перевіряємо умови, строки, депозит, regulowanie. Складні договори з лояльними орендарями можуть зменшити ринкову вартість на 10–20%.' },
+        { title: 'Wspólnota mieszkaniowa', desc: 'Для квартир — перевіряємо uchwały wspólnoty, fundusz remontowy, planowane remonty. Іноді wspólnota planuje 100k PLN remont — це стає вашою частиною пропорційно udziałowi.' }
+      ]
+    },
+    timeline: {
+      title: 'Етапи due diligence',
+      subtitle: 'Стандарт — 5–10 днів. Терміново (3 дні) — +50%. Складні об’єкти (великі ділянки, działalność gospodarcza) — до 3 тижнів.',
+      steps: [
+        { title: 'Безкоштовна оцінка', duration: '15 хв', desc: 'Адреса і тип об’єкта. Підбираємо pakiet (basic / standard / premium) та оцінюємо рівень ризику.' },
+        { title: 'Договір і pełnomocnictwo', duration: '1 день', desc: 'Umowa o due diligence + pełnomocnictwo від вас (для запитів до US, ZUS) і від продавця (для документів із реєстраційних органів).' },
+        { title: 'Запити — етап 1', duration: '1–2 дні', desc: 'Wyciąg z KW (księga wieczysta), wypis z rejestru gruntów, wyrys z mapy ewidencyjnej. Усі publiczne rejestry — миттєво.' },
+        { title: 'Запити — етап 2', duration: '3–5 днів', desc: 'Zaświadczenia z ZUS, US, urząd miasta (zaległości), wspólnota mieszkaniowa (uchwały, fundusz). Через pełnomocnictwo продавця.' },
+        { title: 'Аналіз документації продавця', duration: '1–2 дні', desc: 'Вивчаємо: tytuł prawny (akt poprzedni), pozwolenia на budowę, certyfikaty energetyczne, decyzje administracyjne. Порівнюємо з реальністю.' },
+        { title: 'Inspekcja na miejscu', duration: '1 день', desc: 'Опційно для преміум-пакетів. Геодезист і rzeczoznawca перевіряють реальний стан, granice, нелегальні прибудови.' },
+        { title: 'Raport DD', duration: '1 день', desc: 'PDF-звіт 15–40 сторінок із findings, risk-rating (зелений/жовтий/червоний), рекомендаціями. Ставимо крапки в економіці угоди або пропонуємо negocjacje.' },
+        { title: 'Презентація та обговорення', duration: '30 хв', desc: 'Відеозустріч або особиста — пояснюємо findings, пропонуємо стратегію: продовжувати, вимагати зниження ціни, відмовлятися, вимагати гарантій в umowie.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно для DD',
+      subtitle: 'Мінімум — адреса і numer KW. Решту запитуємо самі.',
+      items: [
+        'Адреса нерухомості й numer księgi wieczystej',
+        'Номер ewidencyjny działki (для ділянок)',
+        'Поточна umowa przedwstępna або пропозиція від продавця',
+        'Pełnomocnictwo від вас (запити до US, ZUS, urząd)',
+        'Pełnomocnictwo від продавця (запити до його «персональних» rejestrów)',
+        'Ціна купівлі та умови оплати',
+        'Інформація про фінансування (кредит — окремі перевірки банку)',
+        'Документи продавця, якщо він надасть (попередній akt, plan, certyfikaty)'
+      ]
+    },
+    pricing: {
+      title: 'Вартість DD',
+      subtitle: 'Залежить від типу нерухомості та складності перевірки.',
+      items: [
+        { label: 'Basic — квартира', value: '1 800 PLN', note: 'KW + ewidencja + ZUS/US' },
+        { label: 'Standard — квартира', value: '2 800 PLN', note: '+ wspólnota, plan miejscowy, sąd' },
+        { label: 'Standard — будинок', value: '4 500 PLN', note: '+ legalność rozbudowy, granice' },
+        { label: 'Premium — комерційна', value: 'від 8 500 PLN', note: 'Повний пакет + on-site inspekcja' }
+      ],
+      note: 'Для ділянок, działek przemysłowych, budynków biurowych — індивідуальний розрахунок. Терміново (3 дні) +50%. Геодезист (якщо потрібен) ~1 500 PLN окремо. Ціна зазвичай дорівнює 0,5–1% від ціни нерухомості.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece',
+        'Ustawa z dnia 17 maja 1989 r. — Prawo geodezyjne i kartograficzne',
+        'Ustawa z dnia 21 sierpnia 1997 r. o gospodarce nieruchomościami',
+        'Ustawa z dnia 27 marca 2003 r. o planowaniu i zagospodarowaniu przestrzennym',
+        'Ustawa z dnia 7 lipca 1994 r. — Prawo budowlane (legalność budowli)',
+        'Ustawa z dnia 24 czerwca 1994 r. o własności lokali (wspólnota mieszkaniowa)',
+        'Kodeks cywilny — rozdz. III dział II (prawo własności)'
+      ]
+    },
+    faq: [
+      { q: 'Навіщо DD, якщо є нотаріус?', a: 'Нотаріус перевіряє KW (księga wieczysta — поземельна книга) і dokumenty (документи) при підписанні, але не заглиблюється. Не запитує ZUS/US, не аналізує історію, не перевіряє нелегальні прибудови, не дивиться plany miejscowe (план забудови території). Нотаріус несе відповідальність лише за те, що є в aktach (актах) у нього на столі. DD перевіряє те, що показала лише prywatna агрегація. Бачили угоди, де akt notarialny (нотаріальний акт) пройшов, а через рік прийшла hipoteka (іпотека) на 200к.' },
+      { q: 'Чи можна відмовитися від угоди після негативного DD?', a: 'Так, якщо в umowie przedwstępnej (попередньому договорі) є умова «wykonanie umowy uzależnione od pozytywnego due diligence prawnego» (виконання договору залежить від позитивної юридичної перевірки). Якщо такого пункту немає — втратите zaliczkę (завдаток, 5–10%). Тому прописуємо в кожній umowie przedwstępnej від наших клієнтів. Якщо інша сторона не погоджується — це вже red flag.' },
+      { q: 'Які найчастіші «знахідки» DD?', a: 'Топ-5 знахідок за 2024 рік: 1) Hipoteka (іпотека) не виплачена або нерегулярна (30% випадків); 2) Нелегальні прибудови (przybudówka, веранда, додатковий поверх — 25%); 3) Межі не відповідають ewidencji (кадастру, 15%); 4) Активні спори в суді (10%); 5) Борги podatków (податків) від nieruchomości (нерухомості, 10%). Кожна може коштувати 30 000+ PLN.' },
+      { q: 'Що робити з hipoteką при купівлі?', a: 'Стандартна схема: продавець гарантує виплату hipoteki (іпотеки) з ціни купівлі, банк готує wniosek o wykreślenie hipoteki (заяву про зняття іпотеки) та передає нотаріусу. Akt notarialny (нотаріальний акт) підписується з умовою «після wykreślenia hipoteki» (після зняття іпотеки). Гроші покупця депонуються на rachunek powierniczy (ескроу-рахунок). Після wykreślenia hipoteki — гроші переходять продавцю. Контролюємо процес під ключ.' },
+      { q: 'Чи можна перевірити лише KW самому?', a: 'KW (księga wieczysta — поземельна книга) — так, миттєво через ekw.ms.gov.pl за 0 PLN. Але KW показує лише «зареєстровані» проблеми. Не показує: zaległości (заборгованості) у продавця, sporów w sądzie (судових спорів), нелегальних прибудов, planów miejscowych (планів забудови), problemów z wspólnotą (проблем зі співвласниками). KW — 30% усіх ризиків. DD — 100%.' },
+      { q: 'Скільки часу до aktu після позитивного DD?', a: 'Якщо всі papiery (документи) вже в нотаріуса — 1–3 дні після нашого raportu (звіту). Якщо ще треба чекати wniosek MSWiA (заяву до МВС) або wykreślenie hipoteki (зняття іпотеки) — 2–8 тижнів. План — на консультації.' },
+      { q: 'Гарантія, що в DD не пропустять щось?', a: 'У нас в umowie (договорі) — гарантія: якщо щось пропустимо зі стандартних джерел і це стане проблемою в перші 12 місяців — компенсуємо збитки до 100% наших гонорарів. На практиці ми страхуємо себе, і кожен звіт перевіряють 2 спеціалісти.' }
+    ],
+    related: ['mswia-zezwolenie', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Due diligence перед купівлею',
+    ctaSubtitle: 'Безкоштовно оцінюємо об’єкт і підбираємо пакет за 15 хвилин. Захищаємо купівлю від 1 800 PLN.'
   }
 };
 

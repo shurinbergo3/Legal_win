@@ -352,6 +352,94 @@ const meldunek: ServiceEntry = {
     related: ['pesel', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Meldunek\'i 1 günde halledelim',
     ctaSubtitle: 'Ücretsiz danışmanlık: durumunuzu inceler, ev sahibiyle anlaşırız, urząd\'a sunarız. İlk görüşmeden zaświadczenie\'ye genelde 1-2 iş günü.'
+  },
+  uk: {
+    slug: 'meldunek',
+    group: 'documents',
+    icon: 'home',
+    badge: 'Pobyt czasowy / stały · USC',
+    title: 'Meldunek (прописка)',
+    subtitle: 'Реєстрація місця проживання іноземця в Польщі',
+    lead: 'Zameldowanie — це реєстрація фактичної адреси проживання в реєстрі PESEL. Іноземцю з довгостроковим перебуванням meldunek потрібен для оформлення PESEL, школи, реєстрації авто, голосування в самоврядуванні та при поданні на карту побуту через MOS v2.0. Оформлюємо zameldowanie на pobyt czasowy (до 3 років) або stały (без терміну), готуємо zaświadczenie o zameldowaniu для urząd, банку чи роботодавця.',
+    facts: [
+      { label: 'Термін видачі', value: '1 день', note: 'при поданні в urząd gminy' },
+      { label: 'Держмито', value: '0 PLN', note: 'базове zameldowanie безкоштовно' },
+      { label: 'Zaświadczenie', value: '17 PLN', note: 'довідка для банку/urząd' },
+      { label: 'Види', value: 'Czasowy / Stały', note: 'до 3 років або безстроково' }
+    ],
+    grounds: {
+      title: 'Коли потрібен meldunek',
+      subtitle: 'За польським правом іноземець зобов’язаний зареєструватися протягом 30 днів при перебуванні понад 30 днів.',
+      items: [
+        { title: 'Pobyt czasowy (до 3 років)', desc: 'Стандартне zameldowanie для іноземців з карткою побуту, візою D, безвізом, учнівською візою. Термін — на період дії документа перебування.' },
+        { title: 'Pobyt stały', desc: 'Лише для власників karty stałego pobytu, długoterminowego rezydenta UE або громадян Польщі. Безстроково.' },
+        { title: 'Подання на карту побуту через MOS v2.0', desc: 'З 2026 року zameldowanie обов’язкове — інакше MOS відхилить wniosek. Оформлюємо паралельно з пакетом на карту побуту.' },
+        { title: 'Зарахування дитини до школи', desc: 'Obowiązek szkolny — школи беруть дітей за адресою zameldowania. Без нього — відмова або klasa powitalna в іншій школі.' },
+        { title: 'Реєстрація автомобіля', desc: 'Wydział komunikacji starostwa вимагає zameldowanie власника. Без нього — відмова у реєстрації.' },
+        { title: 'Відкриття фірмового рахунку', desc: 'Банки для KYC вимагають zaświadczenie o zameldowaniu або umowę najmu — meldunek закриває обидві вимоги.' },
+        { title: 'Wybory samorządowe', desc: 'Іноземець з ЄС з meldunkiem ≥ 1 року має право голосувати на місцевих виборах.' },
+        { title: 'NFZ та медзаклади', desc: 'Прикріплення до POZ (поліклініки) — за адресою zameldowania. Без нього — потрібне окреме oświadczenie pacjenta.' }
+      ]
+    },
+    timeline: {
+      title: 'Як ми оформлюємо meldunek',
+      subtitle: 'Від підписання договору до довідки з zameldowaniem — 1–2 робочих дні.',
+      steps: [
+        { title: 'Консультація', duration: '20 хв', desc: 'Уточнюємо форму перебування, тип meldunkу (czasowy/stały), наявність згоди власника житла.' },
+        { title: 'Підготовка wniosku', duration: '1 день', desc: 'Заповнюємо zgłoszenie pobytu czasowego cudzoziemca (форма для іноземців) або форми dla obywatela polskiego.' },
+        { title: 'Згода власника', duration: '1 день', desc: 'Беремо підпис właściciela на формулі або нотаріальне upoważnienie. Якщо квартира орендована — umowa najmu йде додатком.' },
+        { title: 'Подання в urząd gminy', duration: '1 візит', desc: 'Супроводжуємо в urząd dzielnicy. Подання — особисто з паспортом і документом перебування. Дитину реєструє один із батьків.' },
+        { title: 'Отримання zameldowania', duration: '1 день', desc: 'Запис вноситься до реєстру PESEL у день подання. Zaświadczenie o zameldowaniu — за 17 PLN на запит.' },
+        { title: 'Довідки для urząd / банку', duration: '1 день', desc: 'Готуємо zaświadczenia для подання в KRS, US, ZUS, банк, MOS v2.0 — за фактичними запитами.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно від вас',
+      subtitle: 'Мінімальний пакет. Точний перелік — після консультації.',
+      items: [
+        'Закордонний паспорт (оригінал)',
+        'Документ легального перебування: віза D, karta pobytu, безвіз',
+        'Umowa najmu або podnajmu (з власником, не з ріелтором) чи akt własności',
+        'Підпис właściciela на формулі zgłoszenia (особисто в urząd або через нотаріальне upoważnienie)',
+        'PESEL (якщо є; якщо ні — оформлюємо паралельно)',
+        'Свідоцтво про народження (для дітей) із присяжним перекладом',
+        'Заповнений wniosek — готуємо ми',
+        'Довіреність власника, якщо він не приходить особисто'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Держмито за саме zameldowanie — 0 PLN. Сплачується лише zaświadczenie (17 PLN).',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '20 хвилин · оцінка ситуації' },
+        { label: 'Meldunek під ключ', value: 'від 350 PLN', note: 'Wniosek, згода власника, urząd' },
+        { label: 'Meldunek + zaświadczenie + переклад', value: 'від 500 PLN', note: 'З готовою довідкою для банку/urząd' },
+        { label: 'Адреса від LegalWin (для бізнесу)', value: 'від 250 PLN/міс', note: 'Юридична адреса для KRS / CEIDG' }
+      ],
+      note: 'Зазначено гонорари LegalWin. Якщо власник не йде в urząd — потрібен notarialny upoważnienie (~150 PLN у нотаріуса) — окремо.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 24 września 2010 r. o ewidencji ludności (rozdz. 3 — meldunek)',
+        'Rozporządzenie MSWiA w sprawie wzorów zgłoszeń pobytu',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (art. 199 — meldunek a TRC)',
+        'Ustawa z dnia 16 listopada 2006 r. o opłacie skarbowej (zaświadczenia — 17 PLN)',
+        'Kodeks postępowania administracyjnego (KPA)'
+      ]
+    },
+    faq: [
+      { q: 'Чи можна оформити meldunek без згоди власника?', a: 'Ні. Підпис właściciela (власника) на формулі — обов’язкова умова. Якщо він відмовляється — потрібно йти через sąd cywilny (цивільний суд) з powództwem o ustalenie zameldowania (позовом про встановлення реєстрації) (якщо є umowa najmu — договір оренди та фактичне проживання). На практиці це рідко — зазвичай домовляємося з власником про підпис або нотаріальне upoważnienie (довіреність).' },
+      { q: 'Що робити, якщо орендодавець відмовляється прописувати?', a: 'Ми допомагаємо скласти договір оренди з пунктом про згоду на zameldowanie (реєстрацію) або підбираємо власників, готових до meldunkу. Альтернатива — meldunek у роботодавця, родича чи через адресу LegalWin для підприємців.' },
+      { q: 'Чи обов’язковий meldunek для подання на карту побуту?', a: 'З 2026 року через MOS v2.0 — фактично так. Система автоматично підтягує адресу з реєстру PESEL. Без zameldowania (реєстрації) доведеться окремо додавати umowę najmu (договір оренди) та oświadczenie właściciela (заяву власника), що збільшує ризик відмови на формальній підставі.' },
+      { q: 'На який термін прописуватися?', a: 'Pobyt czasowy (тимчасове перебування) — на термін дії вашого документа перебування (карта побуту, віза, безвіз). При отриманні нової karty pobytu (карти побуту) meldunek треба продовжити.' },
+      { q: 'Чи можна мати декілька meldunków?', a: 'Лише один pobyt stały (постійна реєстрація). Pobyt czasowy (тимчасову) можна мати паралельно зі stałym — постійною (наприклад, прописка stała у батьків і czasowy у Варшаві на роботу). Іноземцю — лише один.' },
+      { q: 'Що робити при зміні адреси?', a: 'Протягом 30 днів — wymeldowanie (виписка) зі старої адреси (часто автоматично при zameldowaniu — реєстрації на нову) і zameldowanie на нову. Робимо за 1 візит.' },
+      { q: 'Скільки коштує meldunek у реальності?', a: 'Саме zameldowanie (реєстрація) — 0 PLN. Zaświadczenie (довідка) — 17 PLN. Якщо квартира орендована — зазвичай власник просить +50–100 PLN за візит в urząd (установу) або +150 PLN за нотаріальне upoważnienie (довіреність). Наш гонорар — від 350 PLN.' }
+    ],
+    related: ['pesel', 'apostille', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Оформимо meldunek за 1 день',
+    ctaSubtitle: 'Безкоштовна консультація: перевіримо вашу ситуацію, домовимося з власником, подамо в urząd. Від першого дзвінка до zaświadczenia — зазвичай 1–2 робочих дні.'
   }
 };
 

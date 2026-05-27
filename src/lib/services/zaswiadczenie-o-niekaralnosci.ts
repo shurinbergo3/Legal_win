@@ -352,6 +352,94 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Adli sicil (KRK) belgesi 1-7 günde',
     ctaSubtitle: 'Ücretsiz danışmanlık: amacı, formatı, apostille gereksinimini netleştiririz. Vekaletname imzasından teslime genelde 1-7 iş günü.'
+  },
+  uk: {
+    slug: 'zaswiadczenie-o-niekaralnosci',
+    group: 'documents',
+    icon: 'shield',
+    badge: 'KRK · e-KRK · Ministerstwo Sprawiedliwości',
+    title: 'Довідка про несудимість',
+    subtitle: 'Zaświadczenie z Krajowego Rejestru Karnego (KRK)',
+    lead: 'Довідка про несудимість (zaświadczenie z KRK) — виписка з Польського національного реєстру судимостей. Обов’язкова при оформленні громадянства Польщі, ліцензій MOL, Karty stałego pobytu, роботі з дітьми та тендерах. Отримуємо за 7 днів — онлайн через e-KRK або фізично в Міністерстві Юстиції та судах. Паралельно оформлюємо довідки KRK з країн походження.',
+    facts: [
+      { label: 'Термін видачі', value: '7 днів', note: 'standard · 1 день e-KRK' },
+      { label: 'Держмито', value: '20–30 PLN', note: 'e-KRK / форма papierowa' },
+      { label: 'Де', value: 'Ministerstwo Sprawiedliwości', note: 'або відділення окружних судів' },
+      { label: 'Діє', value: '6 місяців', note: 'для більшості цілей' }
+    ],
+    grounds: {
+      title: 'Коли потрібна довідка про несудимість',
+      subtitle: 'KRK вимагають десятки польських процедур. Найбільш затребувані в іноземців:',
+      items: [
+        { title: 'Громадянство Польщі', desc: 'Обов’язково для wniosku do Prezydenta RP (nadanie obywatelstwa) і uznania za obywatela polskiego. Термін дії — 3 місяці на момент подання.' },
+        { title: 'Karta Stałego Pobytu', desc: 'Воєвода вимагає довідку KRK для подання на карту сталого побуту — без неї wniosek не приймається. Також — KRK з країни походження з apostille.' },
+        { title: 'Ліцензії та концесії', desc: 'Ліцензія MOL (перевезення), охоронна (ochrona), детектив, broker ubezpieczeniowy, прокурист, biegły rewident.' },
+        { title: 'Робота з дітьми', desc: 'Школи, дитячі садки, навчання, репетиторство, тренери. З 2024 — обов’язкова перевірка через системи Centralnego Rejestru Sprawców.' },
+        { title: 'Державна служба', desc: 'Усі позиції в administracji rządowej та samorządowej, поліція, судді, прокурори, ABW, військові.' },
+        { title: 'Тендери і публічні закупівлі', desc: 'Подання пропозиції в trybie zamówień publicznych — довідка KRK на фірму (z KRS) і на кожного члена zarządu.' },
+        { title: 'Banking і фінанси', desc: 'Посади w bankach, SKOK, KNF-нагляд, страхових компаніях. KRK + KRK z państw, gdzie pracował.' },
+        { title: 'Віза або ВНЖ за кордоном', desc: 'США (віза O, EB), Канада (PR), Велика Британія (skilled worker), ОАЕ — усі вимагають KRK з apostille і перекладом.' }
+      ]
+    },
+    timeline: {
+      title: 'Як ми отримуємо довідку',
+      subtitle: 'Стандартний цикл — 1–7 днів через e-KRK або фізично в Міністерстві Юстиції.',
+      steps: [
+        { title: 'Консультація', duration: '15 хв', desc: 'Уточнюємо мету, формат (електронна/паперова), чи потрібен apostille і переклад. Підбираємо оптимальний спосіб подання.' },
+        { title: 'Довіреність', duration: '1 день', desc: 'Підписуємо pełnomocnictwo (17 PLN держмито). Через ePUAP — без паперової тяганини.' },
+        { title: 'Подання wniosku', duration: '1 день', desc: 'e-KRK (через профіль zaufany) — 20 PLN, видача за 1 день. Паперовий wniosek у Ministerstwie Sprawiedliwości або Sądzie Okręgowym — 30 PLN, 7 днів.' },
+        { title: 'Отримання довідки', duration: '1–7 днів', desc: 'Електронна — на e-mail або ePUAP з електронним підписом МС. Паперова — забираємо особисто або відправляємо кур’єром.' },
+        { title: 'Apostille (якщо потрібно)', duration: '3–5 днів', desc: 'Для використання за кордоном — apostille від MSZ (60 PLN). Для країн ЄС — apostille не потрібен з 2019 р.' },
+        { title: 'Присяжний переклад', duration: '2–3 дні', desc: 'Переклад мовою цільової країни (англійська, німецька, іспанська, арабська — у нас є перевірені присяжні).' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно від вас',
+      subtitle: 'Мінімум для подання wniosku.',
+      items: [
+        'Паспорт (копія сторінки з фото)',
+        'PESEL (якщо є; без PESEL подання через паперовий wniosek)',
+        'Karta pobytu або інший документ легального перебування',
+        'Pełnomocnictwo dla LegalWin (17 PLN держмито або ePUAP безкоштовно)',
+        'Доступ до ePUAP / profil zaufany (для e-KRK)',
+        'Дівоче прізвище (якщо змінювали) — для перевірки в усіх записах',
+        'Усі імена та прізвища, під якими ви були зареєстровані',
+        'Мета використання — визначає форму wniosku (osoba prywatna / w celu zatrudnienia)'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Гонорар за довідку — від 200 PLN. Держмита — окремо.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '15 хвилин · уточнення мети' },
+        { label: 'KRK під ключ', value: 'від 200 PLN', note: 'Wniosek, довіреність, видача · 7 днів' },
+        { label: 'KRK терміново (1 день)', value: 'від 350 PLN', note: 'e-KRK з пріоритетною обробкою' },
+        { label: 'KRK + apostille + переклад', value: 'від 480 PLN', note: 'Для використання за кордоном' }
+      ],
+      note: 'Зазначено гонорари LegalWin. Держмита (20 PLN e-KRK, 30 PLN паперова, 17 PLN pełnomocnictwo, 60 PLN apostille) і присяжний переклад (~80 PLN/документ) — окремо.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym',
+        'Rozporządzenie Ministra Sprawiedliwości w sprawie wzorów zaświadczeń z KRK',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (KRK do TRC i PMS)',
+        'Ustawa z dnia 13 maja 2016 r. o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym',
+        'Konwencja haska z 5 października 1961 r. (apostille)'
+      ]
+    },
+    faq: [
+      { q: 'Чим відрізняється KRK для приватної особи і для роботодавця?', a: 'Wniosek "osoba prywatna" (заява від приватної особи) — містить усі записи про судимість, включно зі знятими. Wniosek "do celów zatrudnienia" (заява для цілей працевлаштування) — лише ті, що стосуються конкретної посади (наприклад, для роботи з дітьми — лише статті проти статевої недоторканності). Для імміграційних цілей завжди — приватна.' },
+      { q: 'Скільки діє довідка KRK?', a: 'KRK (Krajowy Rejestr Karny — Державний реєстр судимостей) — стандарт 6 місяців від дати видачі. Для громадянства Польщі — 3 місяці. Для тендерів — зазвичай 3 місяці. Робіть довідку максимально близько до дати подання.' },
+      { q: 'Чи можна отримати KRK без візиту до Польщі?', a: 'Так. Через e-KRK (електронний сервіс KRK) з profil zaufany ePUAP (довіреним профілем) — повністю онлайн. Якщо ePUAP немає — оформлюємо довіреність у польського консула в країні проживання. Отримаємо електронну довідку за 1–3 дні.' },
+      { q: 'Як отримати довідку KRK з країни походження?', a: 'Через консульство країни в Польщі або через місцевого партнера. Допомагаємо — у нас партнери в Україні, Білорусі, Казахстані, Грузії, Молдові, Вірменії. Термін — 14–30 днів. Вартість — 250–500 PLN наших + консульські збори.' },
+      { q: 'KRK з apostille — куди подається?', a: 'Apostille ставить MSZ Warszawa за 3–5 днів. Якщо потрібно терміново — express tariff (1 день, +50%). Для країн ЄС — apostille не потрібен (Регламент 2016/1191), достатньо довідки та присяжного перекладу.' },
+      { q: 'Що якщо в мене була судимість, але знята (zatarta)?', a: 'У довідці "do celów zatrudnienia" zatarte записи не показуються. У приватній довідці — можуть бути зазначені "skazany — wyrok zatarty". Для громадянства Польщі Президент розглядає всі записи, включно зі знятими. Допомагаємо оцінити шанси і підготувати wyjaśnienia.' },
+      { q: 'Чи є різниця між KRK і довідкою про несудимість із суду?', a: 'KRK видає Ministerstwo Sprawiedliwości — це центральний реєстр усіх записів. Довідка із суду — лише за справами конкретного суду. Скрізь, де написано «довідка про несудимість», потрібна KRK. Sądowe довідки — для дуже вузьких процедур.' }
+    ],
+    related: ['apostille', 'zaswiadczenia-zus-us', 'tlumaczenia-przysiegle'],
+    ctaTitle: 'Довідка KRK за 1–7 днів',
+    ctaSubtitle: 'Безкоштовна консультація: уточнимо мету, формат, чи потрібен apostille. Від підписання довіреності до отримання — зазвичай 1–7 робочих днів.'
   }
 };
 

@@ -356,6 +356,95 @@ const pomocWZatrudnieniu: ServiceEntry = {
     related: ['zaproszenia', 'meldunek', 'pesel'],
     ctaTitle: 'CV\'den umowa\'ya 6-8 hafta',
     ctaSubtitle: 'Ücretsiz danışmanlık: profilinizi inceler, 2026 piyasasında maaş hesabı yapar, en uygun yolu seçeriz (umowa o pracę, B2B, Mavi Kart).'
+  },
+  uk: {
+    slug: 'pomoc-w-zatrudnieniu',
+    group: 'relocation',
+    icon: 'fingerprint',
+    badge: 'Zezwolenie na pracę · Blue Card · CV PL',
+    title: 'Допомога з працевлаштуванням',
+    subtitle: 'Резюме за польськими стандартами, zezwolenie na pracę',
+    lead: 'Польський ринок праці вимагає від іноземця не лише англійської, а й розуміння локальної специфіки: формат CV, очікування на співбесіді, правильний вибір umowy, законні підстави для роботи. LegalWin готує CV під польські ATS-системи (Talent Place, Pracuj.pl), організовує zezwolenie na pracę у роботодавця, оформлює Blue Card для спеціалістів IT та інженерів, веде переговори за umową o pracę.',
+    facts: [
+      { label: 'Термін zezwolenia', value: '14–60 днів', note: 'wojewoda · standard' },
+      { label: 'Держмито zezwolenia', value: '100 PLN', note: 'opłata skarbowa за кожне' },
+      { label: 'Мінімум зарплати', value: '4 806 PLN брутто', note: 'мінімальна брутто 2026' },
+      { label: 'Blue Card зарплата', value: '≥ 1,5×', note: '~10 500 PLN брутто/міс.' }
+    ],
+    grounds: {
+      title: 'Які послуги надаємо',
+      subtitle: 'Від підготовки CV до підписання umowy — повний цикл.',
+      items: [
+        { title: 'CV за польськими стандартами', desc: 'Адаптація під Pracuj.pl / LinkedIn / Talent Place: формат, обсяг, фото, GDPR-клаузула, language proficiency CEFR. Переклад польською присяжно.' },
+        { title: 'Підготовка до співбесіди', desc: 'Mock interview польською з native speaker, типові запитання HR у Польщі, переговори про зарплату (ринок 2026), культурні нюанси.' },
+        { title: 'Zezwolenie na pracę typ A', desc: 'Базове — для umowy o pracę з польським роботодавцем. 14–30 днів через MOS. Подаємо з боку роботодавця.' },
+        { title: 'Zezwolenie typ B/C/D/E', desc: 'Для членів zarządu (typ B), співробітників з oddelegowania (C), консультантів (D), послуг понад 30 днів (E).' },
+        { title: 'Oświadczenie o powierzeniu pracy', desc: 'Спрощена процедура для UA, BY, MD, GE, AM — до 24 місяців роботи. Подання в Powiatowy Urząd Pracy за 7 днів.' },
+        { title: 'Blue Card UE для IT та інженерів', desc: 'Висока зарплата (≥ 1,5× середньої), umowa ≥ 1 рік, вища освіта — дає карту побуту на 3 роки + право на переїзд по ЄС після 18 міс.' },
+        { title: 'Трудова umowa — ревізія', desc: 'Аналіз запропонованої umowy: kara umowna, klauzule konkurencji, okres wypowiedzenia, niedyskryminacja, премія, відпустка.' },
+        { title: 'JDG / B2B як альтернатива', desc: 'Відкриття самозайнятості для розробників і консультантів: B2B-контракти із закордонними клієнтами, IP Box (5% податок), без zezwolenia.' }
+      ]
+    },
+    timeline: {
+      title: 'Повний цикл від CV до umowy',
+      subtitle: 'Стандартний час від першої консультації до підписання — 2–8 тижнів.',
+      steps: [
+        { title: 'Консультація', duration: '30 хв', desc: 'Оцінюємо ваш профіль, цілі, бюджет, наявність zezwolenia. Пропонуємо оптимальний шлях: працевлаштування, B2B, Blue Card, JDG.' },
+        { title: 'CV і LinkedIn', duration: '3–5 днів', desc: 'Готуємо CV під польські ATS. Паралельно — оптимізація LinkedIn-профілю під рекрутерів у Польщі.' },
+        { title: 'Пошук вакансій', duration: '7–21 день', desc: 'Допомагаємо з відгуками на Pracuj.pl, NoFluffJobs (IT), JustJoinIT, Solid.Jobs. Direct-outreach до рекрутерів.' },
+        { title: 'Співбесіди', duration: '2–4 тижні', desc: 'Mock interviews, координація графіків, follow-up emails. Супровід на складних фінальних зустрічах.' },
+        { title: 'Офер і переговори', duration: '3–7 днів', desc: 'Аналіз пропозиції, рекомендації щодо торгу (зарплата, бонуси, віддалена робота), правка трудової umowy.' },
+        { title: 'Zezwolenie na pracę', duration: '14–60 днів', desc: 'Паралельно з офером — подаємо wniosek роботодавця на zezwolenie typ A (або Blue Card). Супровід до видачі decyzji.' },
+        { title: 'Підписання umowy', duration: '1 день', desc: 'Фінальна вичитка контракту, узгодження з роботодавцем, підписання зі свідком або notarialnie.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно від вас',
+      subtitle: 'Базовий пакет — точний список після консультації.',
+      items: [
+        'Паспорт + karta pobytu (або інший документ перебування)',
+        'Усі дипломи, сертифікати, certyfikaty językowe',
+        'Поточне CV (будь-якою мовою)',
+        'Трудовий досвід за 5–10 років з описом ролей і проєктів',
+        'LinkedIn-профіль (або згода створити його)',
+        'Бажана зарплата (нетто або брутто)',
+        'Локація: лише Warszawa, віддалена ОК, готовність до переїзду',
+        'Документи для zezwolenia: PESEL, meldunek, підтвердження кваліфікацій'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Фіксована ціна за пакет. Гонорар прив’язаний до етапів.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · оцінка профілю' },
+        { label: 'CV + LinkedIn оптимізація', value: 'від 600 PLN', note: 'Під польський ринок · присяжний переклад' },
+        { label: 'Пошук роботи під ключ', value: 'від 2 500 PLN', note: 'CV + 5 відгуків + інтерв’ю + переговори' },
+        { label: 'Zezwolenie na pracę', value: 'від 1 500 PLN', note: 'Подання з боку роботодавця · 14–60 днів' }
+      ],
+      note: 'Зазначено гонорари LegalWin. Держмито zezwolenia (100 PLN), oświadczenia (90 PLN), Blue Card MSZ-перевірка кваліфікацій (100 PLN), присяжний переклад дипломів (~80 PLN/документ) — окремо.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 20 kwietnia 2004 r. o promocji zatrudnienia i instytucjach rynku pracy',
+        'Ustawa z dnia 12 grudnia 2013 r. o cudzoziemcach (zezwolenie na pobyt z pracy)',
+        'Rozporządzenie MRPiPS w sprawie wydawania zezwoleń na pracę',
+        'Dyrektywa 2009/50/WE — Niebieska Karta UE',
+        'Kodeks pracy (umowa o pracę, urlop, wypowiedzenie)'
+      ]
+    },
+    faq: [
+      { q: 'Яка середня зарплата для іноземця в IT у Польщі 2026?', a: 'Junior розробник — 8 000–12 000 PLN brutto/міс. Mid (3–5 років) — 13 000–20 000 PLN. Senior — 20 000–32 000 PLN. Lead / Architect — 30 000–45 000 PLN. Це для umowy o pracę (трудового договору). На B2B (JDG — індивідуальне підприємництво) — на 30–40% вище при тій самій net-виплаті (за рахунок IP Box і низьких податків).' },
+      { q: 'Що вигідніше — umowa o pracę чи B2B?', a: 'Залежить від зарплати й досвіду. До 12 000 PLN brutto — umowa o pracę (трудовий договір: ZUS-пільги, відпустки, права). Понад 15 000 PLN — JDG з IP Box дає 5% податок на 70%+ доходу. Рахуємо під ваш конкретний кейс на консультації.' },
+      { q: 'Скільки чекати zezwolenie na pracę у 2026?', a: 'Zezwolenie na pracę (дозвіл на роботу) — типовий термін 14–30 днів через MOS v2.0. Високе навантаження на Mazowieckim — до 60 днів. Для пріоритетних категорій (IT, інженерія, медики) — fast-track 7–14 днів. Термінові процедури є лише для smart-citizenship.' },
+      { q: 'Чи можна працювати без zezwolenia?', a: 'Лише у виняткових випадках: студенти на польській візі, громадяни ЄС/ЄЕЗ/Швейцарії, власники карти побуту з правом на роботу, громадяни України за «спеціальною» процедурою, члени сімей громадян Польщі. В інших випадках робота без zezwolenia (дозволу) — штраф роботодавцю до 30 000 PLN, іноземцю — до 5 років zakazu wjazdu (заборони в’їзду).' },
+      { q: 'Що таке oświadczenie o powierzeniu pracy?', a: 'Oświadczenie o powierzeniu pracy (заява про доручення роботи) — спрощена процедура для UA, BY, MD, GE, AM. Роботодавець реєструє в Powiatowym Urzędzie Pracy (Районній службі зайнятості) oświadczenie за 7 днів (60 PLN), і іноземець може працювати до 24 місяців протягом останніх 36. Після — потрібне zezwolenie na pracę або карта побуту. Найшвидший шлях.' },
+      { q: 'Чи підходить мені Blue Card?', a: 'Niebieska Karta UE (Блакитна карта ЄС) — так, якщо: 1) вища освіта (бакалавр+); 2) контракт від 12 місяців; 3) зарплата ≥ 1,5× середньої по Польщі (~10 500 PLN brutto/міс. у 2026); 4) umowa з польським роботодавцем. Переваги: карта побуту на 3 роки, переїзд по ЄС після 18 міс., спрощене łączenie rodzin (возз’єднання сім’ї), пришвидшений шлях до ПМЖ.' },
+      { q: 'Що, якщо не знайшов роботу за 3 місяці?', a: 'Аналізуємо причини: CV, профіль, зарплатні очікування, локація. Коригуємо стратегію. Гарантія працевлаштування за 6 місяців — у нас у преміум-пакеті «Пошук роботи під ключ» — якщо не знаходимо, повертаємо 50% гонорару.' }
+    ],
+    related: ['zaproszenia', 'meldunek', 'pesel'],
+    ctaTitle: 'Від CV до umowy за 6–8 тижнів',
+    ctaSubtitle: 'Безкоштовна консультація: оцінимо профіль, розрахуємо зарплату на ринку 2026, виберемо оптимальний шлях (umowa o pracę, B2B, Blue Card).'
   }
 };
 

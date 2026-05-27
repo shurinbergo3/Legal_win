@@ -360,6 +360,96 @@ const notariuszAsysta: ServiceEntry = {
     related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Noter aktında uzmanımız yanınızda',
     ctaSubtitle: 'İşlemi ücretsiz görüşür, noteri ücretsiz seçeriz. Anahtar teslim 2.800 PLN\'den. Uzaktan - pełnomocnictwo ile.'
+  },
+  uk: {
+    slug: 'notariusz-asysta',
+    group: 'realestate',
+    icon: 'gavel',
+    badge: 'Akt notarialny · pełnomocnik · 1 dzień',
+    title: 'Супровід у нотаріуса',
+    subtitle: 'Супровід фахівця з нерухомості на акті купівлі-продажу',
+    lead: 'Akt notarialny — фінальна процедура купівлі нерухомості в Польщі. Нотаріус підтверджує umowę, але не захищає покупця — він нейтральний. Наш фахівець із нерухомості читає akt до підписання, перевіряє кожну klauzulę, домовляється про зміни з продавцем, контролює передачу грошей і ключів. На угоді за 800 тис. PLN наш гонорар окуповується однією поправкою. Якщо ви не в Польщі — pełnomocnictwo notarialne, і ми замінюємо вас повністю.',
+    facts: [
+      { label: 'Тривалість aktu', value: '1–2 години', note: 'у нотаріуса · читання + підписання' },
+      { label: 'Підготовка', value: '5–7 днів', note: 'projekt aktu · коригування' },
+      { label: 'Без приїзду', value: 'опція', note: 'через pełnomocnictwo' },
+      { label: 'Держмито', value: '2% PCC', note: 'на вторинному ринку' }
+    ],
+    grounds: {
+      title: 'Чим допомагає наш фахівець на акті',
+      subtitle: 'Нотаріус — нейтральний. Ми — на боці покупця.',
+      items: [
+        { title: 'Читання projektu aktu заздалегідь', desc: 'Нотаріус показує projekt aktu за 1–7 днів до підписання. Багато нюансів сховано в стандартних формулюваннях. Аналізуємо кожну klauzulę та пропонуємо поправки.' },
+        { title: 'Negocjacje klauzul', desc: 'Стандартні точки спорів: момент переходу власності (z chwilą podpisania чи z chwilą zapłaty?), хто оплачує PCC і нотаріуса, depozyt notarialny, право користування до виїзду продавця, строки передачі ключів.' },
+        { title: 'Контроль передачі грошей', desc: 'Схема безпечної оплати: rachunek powierniczy notariusza або банківський escrow. Покупець платить на rachunek, нотаріус контролює та переводить продавцю після wpisu в KW. Захищає обидві сторони.' },
+        { title: 'Перевірка підстави продажу', desc: 'Перед aktem перевіряємо: pełnomocnictwa продавця (якщо він не особисто), brak ograniczeń (арешт, hipoteka, służebność), zgody małżonka (якщо поляк-власник у шлюбі), zgoda spadkobierców (якщо успадковано).' },
+        { title: 'Pełnomocnictwo від вас', desc: 'Якщо ви не в Польщі — оформлюємо pełnomocnictwo notarialne в польського консула в країні проживання (або з apostille). Ми підписуємо akt від вашого імені. Ви отримуєте ключі та право власності дистанційно.' },
+        { title: 'Передача нерухомості після aktu', desc: 'Підписання aktu ≠ передача ключів. Після aktu організовуємо protokol zdawczo-odbiorczy з фото стану, показниками лічильників (вода, газ, prąd), передачею ключів та інструкцій (alarm, опалення, вікна).' },
+        { title: 'Wpis do KW', desc: 'Нотаріус подає wniosek про wpis нової власності в księgę wieczystą. KW оновлюється за 1–4 тижні. Контролюємо процес, після wpisu — повідомлення клієнту.' }
+      ]
+    },
+    timeline: {
+      title: 'Етапи aktu notarialnego',
+      subtitle: 'Повна підготовка від вибору нотаріуса до wpisu в KW — зазвичай 2–4 тижні.',
+      steps: [
+        { title: 'Безкоштовна консультація', duration: '30 хв', desc: 'Збираємо інформацію про угоду: ціна, форма оплати, MSWiA, due diligence. Вирішуємо — чи потрібне pełnomocnictwo (якщо не в Польщі).' },
+        { title: 'Вибір нотаріуса', duration: '1 день', desc: 'Підбираємо нотаріуса у Варшаві з репутацією та досвідом угод з іноземцями. Часто один з 5 довірених. Домовляємося про таксу (negocjowalna).' },
+        { title: 'Projekt aktu', duration: '5–7 днів', desc: 'Нотаріус готує projekt із даними покупця, продавця, нерухомості. Ми отримуємо PDF, аналізуємо, пропонуємо поправки.' },
+        { title: 'Negocjacje klauzul', duration: '2–5 днів', desc: 'Коригування з продавцем та його представником. Часто 2–4 ітерації до фінального тексту.' },
+        { title: 'Pełnomocnictwo (опція)', duration: '5–7 днів', desc: 'Якщо ви не в Польщі — pełnomocnictwo notarialne в консула або з apostille. Ми отримуємо оригінал.' },
+        { title: 'Akt notarialny', duration: '1–2 години', desc: 'У нотаріуса. Читання aktu вголос, обговорення, підписання. Передача грошей через depozyt notarialny.' },
+        { title: 'Wpis do KW', duration: '7–14 днів', desc: 'Нотаріус подає wniosek у KW. Контролюємо wpis, після wpisu повідомляємо клієнту про готовність.' },
+        { title: 'Передача нерухомості', duration: 'згідно з akt', desc: 'Protokol zdawczo-odbiorczy: фото, показники, ключі. Іноді одразу після aktu, іноді через 7–30 днів (якщо продавець мешкає).' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно для aktu',
+      subtitle: 'Більшість — у нотаріуса і продавця. Від вас — паспорт і pełnomocnictwo.',
+      items: [
+        'Паспорт покупця + карта побуту, якщо є',
+        'PESEL (у нотаріуса можна з паспортом, але PESEL пришвидшує KW)',
+        'NIP — якщо купівля через Sp. z o.o.',
+        'Pełnomocnictwo нотаріальне (якщо не в Польщі)',
+        'Zezwolenie MSWiA (якщо вимагається — для не-ЄС)',
+        'Підтвердження джерела грошей (для AML — банківський переказ)',
+        'Документи продавця для aktu — він надає (KW, ewidencja, PIT)',
+        'Polisa ubezpieczeniowa (якщо кредит — банк вимагає)'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Супровід і pełnomocnictwo — окремо від taksy notarialnej.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · огляд угоди' },
+        { label: 'Супровід aktu', value: 'від 2 800 PLN', note: 'Читання + переговори + akt' },
+        { label: 'Супровід + DD', value: 'від 5 500 PLN', note: 'Бандл із DD' },
+        { label: 'Повне pełnomocnictwo', value: 'від 4 500 PLN', note: 'Заміна покупця на акті' }
+      ],
+      note: 'Taksa notarialna — окремо (розраховується за ceną nieruchomości, ~1 500–6 000 PLN до 1 млн PLN ціни). PCC 2% (або VAT для нового ринку) — обов’язкове держмито. Wpis do KW — 200 PLN.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 14 lutego 1991 r. — Prawo o notariacie',
+        'Ustawa z dnia 23 kwietnia 1964 r. — Kodeks cywilny (rozdz. III dział II — przeniesienie własności)',
+        'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece',
+        'Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych (PCC 2%)',
+        'Rozporządzenie MS ws. taksy notarialnej',
+        'Ustawa o przeciwdziałaniu praniu pieniędzy z 1 marca 2018 r. (KYC при akcie)'
+      ]
+    },
+    faq: [
+      { q: 'Навіщо потрібен фахівець, якщо є нотаріус?', a: 'Нотаріус — нейтральна третя сторона, зобов’язаний захищати «obie strony» (обидві сторони) однаково. Коли виникає дилема (наприклад, формулювання про момент переходу власності або o terminie wykonania — про строк виконання) — нотаріус обирає «нейтральний» варіант, що часто вигідніший продавцю. Наш фахівець із нерухомості — на боці покупця: бачить кожен ризик, торгується за кожну klauzulę (статтю).' },
+      { q: 'Чи можна змінити tekst aktu?', a: 'Так, до підписання. Нотаріус готує projekt (проєкт) і приймає поправки від обох сторін. Стандартно 2–4 ітерації. Після підписання — ні, akt стає notarialnym dokumentem (нотаріальним документом). Тому критично, щоб наш фахівець прочитав tekst до зустрічі в нотаріуса.' },
+      { q: 'Як переказуються гроші при купівлі?', a: 'Найбезпечніший спосіб — depozyt notarialny (нотаріальний депозит): ви переказуєте cenę (ціну) на rachunek (рахунок) нотаріуса перед aktem. Нотаріус підтверджує płatność (платіж) продавцю, akt підписується. Після wpisu (запису) в KW (księga wieczysta — поземельну книгу) нотаріус переказує гроші продавцю. Якщо щось піде не так — гроші повертаються. Коштує +0,3–0,5% від ціни.' },
+      { q: 'Pełnomocnictwo — як працює?', a: 'Pełnomocnictwo (довіреність) — ви оформлюєте нотаріальну довіреність на нас у Польщі (якщо приїжджаєте на 1 день) або в польського консула в країні проживання (без приїзду), або в місцевого нотаріуса з apostille. З pełnomocnictwem ми підписуємо akt від вашого імені, вносимо гроші, отримуємо ключі. Ви стаєте власником без приїзду до Польщі.' },
+      { q: 'Хто платить taksę notarialną?', a: 'Taksa notarialna (нотаріальний збір) — за стандартом обидві сторони ділять навпіл, але це не закон — торгуємося. Часто продавець оплачує свою частину (1/2), а покупець — свою + PCC. Іноді покупець оплачує все (якщо ринок продавця). Може бути умовою umowy przedwstępnej (попереднього договору).' },
+      { q: 'Що таке PCC і хто платить?', a: 'PCC (podatek od czynności cywilnoprawnych — податок на цивільно-правові дії) — 2% від ціни nieruchomości (нерухомості) на вторинному ринку. Платить покупець упродовж 14 днів після aktu. Deklaracja PCC-3 в Urzędzie Skarbowym (податковій). На pierwszym rynku (первинному ринку від dewelopera) — VAT 8% включається в ціну, PCC не сплачується.' },
+      { q: 'Навіщо потрібен protokol zdawczo-odbiorczy?', a: 'Protokół zdawczo-odbiorczy (акт приймання-передачі) захищає покупця від «сюрпризів» у момент в’їзду. Документуємо стан на день передачі: фото кожної кімнати, показники лічильників, наявність несправної техніки. Якщо за місяць виявляється, що продавець виніс шафу або зламав двері — у вас є документація для вимоги виправлення чи компенсації.' }
+    ],
+    related: ['mswia-zezwolenie', 'due-diligence-nieruchomosci', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Наш фахівець на акті в нотаріуса',
+    ctaSubtitle: 'Безкоштовно обговорюємо угоду і підбираємо нотаріуса. Від 2 800 PLN під ключ. Дистанційно — через pełnomocnictwo.'
   }
 };
 

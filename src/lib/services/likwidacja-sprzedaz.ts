@@ -356,6 +356,95 @@ const likwidacjaSprzedaz: ServiceEntry = {
     related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'podatki-ksiegowosc'],
     ctaTitle: 'Şirket kapanışı veya satışı',
     ctaSubtitle: 'Yolu ve vergileri ücretsiz hesaplıyoruz. Pay devri 1.800 PLN\'den, anahtar teslim likwidacja 6.500 PLN\'den.'
+  },
+  uk: {
+    slug: 'likwidacja-sprzedaz',
+    group: 'business',
+    icon: 'gavel',
+    badge: 'Likwidacja · M&A · zbycie udziałów',
+    title: 'Ліквідація і продаж фірми',
+    subtitle: 'Закриття Sp. z o.o. або продаж бізнесу (M&A) під ключ',
+    lead: 'Закриття Sp. z o.o. у Польщі — формальна процедура: otwarcie likwidacji, ogłoszenia в Monitor Sądowym, регулювання зобов’язань, sprawozdanie likwidacyjne, wykreślenie з KRS. Мінімум 6 місяців між ogłoszeniem і wykreśleniem. Альтернатива — продаж бізнесу (M&A) або передача udziałów. Супроводжуємо обидва шляхи: ліквідація за відсутності покупця, M&A за наявності — вигідніше за податками і швидше.',
+    facts: [
+      { label: 'Likwidacja', value: '6–9 місяців', note: 'мінімум за KSH' },
+      { label: 'Sprzedaż udziałów', value: '2–4 тижні', note: 'у нотаріуса' },
+      { label: 'M&A з активами', value: '2–4 місяці', note: 'due diligence + sprzedaż' },
+      { label: 'Податок при sprzedaży', value: '19% PIT', note: 'на zysk wspólnika' }
+    ],
+    grounds: {
+      title: 'Коли що робити',
+      subtitle: 'Кожен сценарій — різні строки, податки і ризики. Вирішуємо на консультації.',
+      items: [
+        { title: 'Likwidacja — немає покупця', desc: 'Коли фірма не потрібна і немає покупця. Найдорожчий і найдовший шлях (6–9 міс.), але дає чисте закриття без зобов’язань у майбутньому.' },
+        { title: 'Sprzedaż udziałów — є покупець', desc: 'Передача 100% udziałów покупцю. Швидко (2–4 тижні), 19% PIT з zysku. Покупець приймає всі зобов’язання.' },
+        { title: 'M&A з активами (asset deal)', desc: 'Продаж окремих активів (контракти, співробітники, бренд) — без передачі юрособи. Зручно, коли частину бізнесу продають, частину — закривають.' },
+        { title: 'Slip-sale — злиття', desc: 'Об’єднання Sp. z o.o. з іншою фірмою (połączenie spółek). Звільнення від податків за виконання умов. Складно — лише для середнього бізнесу.' },
+        { title: 'Передача спадкоємцям', desc: 'Спадкування udziałów при смерті wspólnika. Готуємо testament, podział majątku, regulowanie z KRS. Податок на спадщину — окрема стаття.' },
+        { title: 'Підготовка до продажу', desc: 'Перш ніж продавати — наводимо лад: договори, ZUS, податки, sprawozdania. Подвоює price 2× порівняно з «as is».' }
+      ]
+    },
+    timeline: {
+      title: 'Етапи likwidacji Sp. z o.o.',
+      subtitle: 'Альтернатива (sprzedaż udziałów) займає 2–4 тижні. Likwidacja — обов’язково 6+ місяців.',
+      steps: [
+        { title: 'Безкоштовна консультація', duration: '30 хв', desc: 'Обираємо шлях: likwidacja vs sprzedaż vs połączenie. Рахуємо податкові наслідки.' },
+        { title: 'Uchwała wspólników', duration: '1 тиждень', desc: 'Рішення про відкриття likwidacji. Призначення likwidatora (зазвичай колишній członek zarządu). Подання в KRS.' },
+        { title: 'Ogłoszenie в MSiG', duration: '7–14 днів', desc: 'Оголошення в Monitorze Sądowym i Gospodarczym з запрошенням кредиторів повідомити про вимоги протягом 3 місяців. Держмито 100 PLN.' },
+        { title: 'Регулювання зобов’язань', duration: '2–6 місяців', desc: 'Ліквідатор продає активи, погашає борги, звільняє співробітників. Неврегульовані вимоги — депонуються у нотаріуса.' },
+        { title: 'Bilans likwidacyjny', duration: '1 місяць', desc: 'Sporządzenie bilansu на початку і на кінець likwidacji. Подання в KRS і US.' },
+        { title: 'Podział majątku', duration: '6 місяців від ogłoszenia', desc: 'Розподіл активів, що залишилися, між wspólnikami пропорційно udziałom. Після 6 місяців з ogłoszenia — раніше не можна.' },
+        { title: 'Wykreślenie з KRS', duration: '1–3 місяці', desc: 'Wniosek про закінчення likwidacji. KRS викреслює фірму. Зберігаємо документи 5+ років в архіві.' },
+        { title: 'Закриття в US, ZUS', duration: '1 місяць', desc: 'Wniosek o wykreślenie z VAT, NIP. Закриття kont у ZUS. Зберігаємо dokumenty kadrowe 50 років.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно для likwidacji або sprzedaży',
+      subtitle: 'Залежить від шляху. Базовий мінімум — установчі документи і фінансові звіти.',
+      items: [
+        'KRS-витяг актуальний (отримуємо ми)',
+        'Statut Sp. z o.o. в актуальній редакції',
+        'Sprawozdania finansowe за всі роки існування',
+        'Lista wspólników з PESEL / паспортами і частками',
+        'Wszystkie umowy з контрагентами (для оцінки obligaciji)',
+        'Wszystkie umowy o pracę і umowy zlecenia (для повідомлень)',
+        'Bilans i rachunek zysków на день likwidacji',
+        'Spis środków trwałych і stanu magazynów',
+        'Bankowa історія операцій за 12 місяців'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Likwidacja — fixed price. M&A — % від угоди.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · вибір шляху' },
+        { label: 'Sprzedaż udziałów', value: 'від 1 800 PLN', note: 'Umowa у нотаріуса + KRS' },
+        { label: 'Likwidacja Sp. z o.o.', value: 'від 6 500 PLN', note: 'Повний цикл 6+ місяців' },
+        { label: 'M&A повний цикл', value: 'від 15 000 PLN', note: 'Due diligence + договір + закриття' }
+      ],
+      note: 'Likwidacja: + ogłoszenia MSiG ~600 PLN, нотаріус 1 200–2 500 PLN, KRS 350 PLN. M&A: + бухгалтерський due diligence 5 000–15 000 PLN. Якщо є кредити, sponsorzy, спірні розрахунки — окремий кошторис.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 15 września 2000 r. — Kodeks spółek handlowych (rozdz. 6 — likwidacja Sp. z o.o., art. 270–290)',
+        'Ustawa z dnia 28 lutego 2003 r. — Prawo upadłościowe (jeśli niewypłacalność)',
+        'Ustawa z dnia 26 lipca 1991 r. o PIT (art. 17 — sprzedaż udziałów, 19% podatek)',
+        'Ustawa z dnia 11 marca 2004 r. o VAT (art. 6 pkt 1 — przedsiębiorstwo poza VAT)',
+        'Ustawa z dnia 23 kwietnia 1964 r. — Kodeks cywilny (rozdz. — sprzedaż przedsiębiorstwa)'
+      ]
+    },
+    faq: [
+      { q: 'Чи можна закрити Sp. z o.o. швидше за 6 місяців?', a: 'Ні, якщо робите likwidację (ліквідацію) — 6 місяців мінімум за KSH (Kodeks spółek handlowych — Кодекс торгових товариств) (термін dla wierzycieli — для кредиторів). Альтернативи: 1) Sprzedaż udziałów (продаж часток) покупцю — 2–4 тижні; 2) Połączenie (злиття) з іншою Sp. z o.o. (slip-sale) — 3–4 місяці з поглинанням; 3) Upadłość (банкрутство) — якщо фірма реально неплатоспроможна, теж 6+ місяців.' },
+      { q: 'Що вигідніше: likwidacja чи sprzedaż udziałów?', a: 'Sprzedaż udziałów (продаж часток) — швидше, дешевше, і часто вигідніше за податками. 19% PIT на zysk (прибуток = sprzedaż minus koszt nabycia udziałów — продажна ціна мінус вартість придбання часток). При likwidacji (ліквідації) — податок на podział majątku (поділ майна, 19% від залишку після боргів), плюс 6+ місяців служби і платимо ліквідатору та KRS-fee. Sprzedaż виграє у likwidacji у 80% випадків.' },
+      { q: 'Чи можна продати «оболонку» — фірму без бізнесу?', a: 'Так. Це ринок shelf-companies навпаки: ви продаєте свою стару Sp. z o.o. покупцю, який цінує вік фірми. Ціна зазвичай 5 000–15 000 PLN за фірму 12+ місяців. Головне — фірма має бути «чистою»: нуль боргів, нуль зобов’язань, перевірена due diligence-ом. Робимо продаж через брокерів.' },
+      { q: 'Що зі співробітниками при likwidacji?', a: 'Мають бути звільнені до podziału majątku (поділу майна). Likwidator (ліквідатор) повідомляє rzecznika pracy (інспектора праці) і кожного співробітника за 1–3 місяці (zależnie od staż — залежно від стажу). Płacicie odprawy (виплачуєте вихідну допомогу): 1 mies. zarobku (місяць зарплати) до 2 lat staż (стажу), 2 mies. до 8 lat, 3 mies. понад. PUP (Powiatowy Urząd Pracy — Районна служба зайнятості) платить resztę, якщо фірма bankrupt.' },
+      { q: 'Податки при sprzedaży udziałów?', a: '19% PIT на zysk wspólnika (прибуток учасника, PIT-38). Zysk = cena sprzedaży minus koszt nabycia udziałów (зазвичай kapitał zakładowy — статутний капітал при заснуванні). Декларується до 30 квітня наступного року. ESC можливий через pierwsze 6 mies. po sprzedaży на купівлю іншої фірми (rzadko stosowany — рідко застосовується).' },
+      { q: 'А якщо є борги ZUS / US?', a: 'При likwidacji (ліквідації) вони мають бути сплачені або депоновані. Якщо фірма не може — переходить в upadłość (банкрутство), а не в likwidację. Перед початком likwidacji отримуємо zaświadczenia o niezaleganiu (довідки про відсутність заборгованості) — це критично, без них KRS не викреслить.' },
+      { q: 'Що з CRBR при likwidacji?', a: 'Обов’язково оновити — вказати дату likwidacji. Після wykreślenia (виключення з реєстру) з KRS — автоматично закривається в CRBR. Не потребує окремого wniosku (заяви).' }
+    ],
+    related: ['rejestracja-sp-z-oo', 'gotowe-firmy', 'podatki-ksiegowosc'],
+    ctaTitle: 'Закриття або продаж фірми',
+    ctaSubtitle: 'Безкоштовно підбираємо шлях і рахуємо податки. Sprzedaż udziałów від 1 800 PLN, likwidacja під ключ від 6 500 PLN.'
   }
 };
 

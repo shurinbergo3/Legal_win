@@ -356,6 +356,95 @@ const mswiaZezwolenie: ServiceEntry = {
     related: ['due-diligence-nieruchomosci', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
     ctaTitle: 'Anahtar teslim MSWiA izni',
     ctaSubtitle: 'İzin gerekip gerekmediğini ücretsiz kontrol ediyoruz. Wniosku\'dan akit\'e kadar 4.800 PLN\'den anahtar teslim.'
+  },
+  uk: {
+    slug: 'mswia-zezwolenie',
+    group: 'realestate',
+    icon: 'home',
+    badge: 'MSWiA · zezwolenie · поза ЄС',
+    title: 'Дозвіл MSWiA на купівлю нерухомості',
+    subtitle: 'Згода МВС Польщі на купівлю нерухомості іноземцями поза ЄС/ЄЕП',
+    lead: 'Громадяни країн поза ЄС/ЄЕП зобов’язані отримати zezwolenie MSWiA (Ministerstwa Spraw Wewnętrznych i Administracji) перед купівлею нерухомості в Польщі. Без дозволу угода є нікчемною з моменту zawarcia. Готуємо документи та обґрунтування «зв’язку з Польщею» (więź z Polską), супроводжуємо розгляд у Departamencie Zezwoleń. Термін — 60–180 днів. Звільнення: квартири (не будинки), Karta Polaka, шлюб із поляком 5+ років, карта сталого побуту 5+ років.',
+    facts: [
+      { label: 'Термін розгляду', value: '60–180 днів', note: 'MSWiA · standard' },
+      { label: 'Діє', value: '2 роки', note: 'на конкретну nieruchomość' },
+      { label: 'Держмито', value: '1 570 PLN', note: 'opłata skarbowa' },
+      { label: 'Ліміт площі', value: '0,5–1 га', note: 'для житлового будинку + ділянка' }
+    ],
+    grounds: {
+      title: 'Коли потрібне zezwolenie',
+      subtitle: 'Не всі купівлі вимагають дозволу. Багато іноземців купують без MSWiA — треба знати винятки.',
+      items: [
+        { title: 'Будинок або земля для громадянина поза ЄС', desc: 'Купівля будинку (з ділянкою), окремої землі, будинку з ділянкою — обов’язково zezwolenie. Без нього akt notarialny неможливий.' },
+        { title: 'Контрольний пакет у Sp. z o.o. з нерухомістю', desc: 'Купівля > 50% udziałów у Sp. z o.o., що володіє нерухомістю — підпадає під MSWiA. Вважається непрямою купівлею.' },
+        { title: 'Звільнення — окрема квартира', desc: 'Lokal mieszkalny (квартира) і miejsce parkingowe — не вимагають zezwolenia, крім як у strefie nadgranicznej. Це найбільший виняток.' },
+        { title: 'Звільнення — Karta Polaka', desc: 'Власники Karty Polaka купують без zezwolenia (будь-яку нерухомість, окрім strefy nadgranicznej та площі > 1 га).' },
+        { title: 'Звільнення — шлюб із поляком', desc: 'Мінімум 5 років шлюбу з громадянином Польщі + проживання в Польщі = звільнення від zezwolenia.' },
+        { title: 'Звільнення — карта сталого побуту 5+ років', desc: 'Karta Stałego Pobytu або Pobyt Rezydenta Długoterminowego UE дає право купівлі без zezwolenia. Karta Czasowego Pobytu — НЕ дає.' }
+      ]
+    },
+    timeline: {
+      title: 'Етапи отримання zezwolenia',
+      subtitle: 'Від підписання umowy przedwstępnej до wydania zezwolenia — зазвичай 3–6 місяців. Лише потім — остаточний akt notarialny.',
+      steps: [
+        { title: 'Безкоштовна консультація', duration: '30 хв', desc: 'Перевіряємо, чи потрібне zezwolenie для вашого громадянства та для цієї нерухомості. Часто виявляється, що не потрібне — економимо клієнту 6 місяців і 5 000 PLN.' },
+        { title: 'Umowa przedwstępna', duration: '1 тиждень', desc: 'Підписання попереднього договору з продавцем — фіксуємо ціну та строки. Прописуємо відкладальну умову: zawarcie aktu po wydaniu zezwolenia. Завдаток 5–10%.' },
+        { title: 'Підготовка wniosku', duration: '2–3 тижні', desc: 'Wniosek o wydanie zezwolenia + обґрунтування więzi z Polską: umowa o pracę, історія візитів, родинні зв’язки, бізнес у Польщі, освіта, володіння польською.' },
+        { title: 'Подання в MSWiA', duration: '1 день', desc: 'Через ePUAP або фізично в Departament Zezwoleń, ul. Stefana Batorego 5, Варшава. Держмито 1 570 PLN. Документи — польською мовою з присяжним перекладом.' },
+        { title: 'Postępowanie MSWiA', duration: '60–180 днів', desc: 'MSWiA перевіряє: країну походження, джерело коштів, мету купівлі, зв’язок із Польщею, безпеку держави. Може вимагати додаткові документи (відповідаємо за 14 днів).' },
+        { title: 'Wydanie zezwolenia', duration: '1 день', desc: 'Decyzja надходить поштою або через ePUAP. Діє 2 роки на конкретну нерухомість. Можна продовжити за 30 днів до кінця терміну.' },
+        { title: 'Akt notarialny', duration: '1 день', desc: 'У нотаріуса з покупцем і продавцем. Передача власності, оплата, реєстрація в księdze wieczystej. Стандартна процедура, тепер уже з zezwoleniem.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно для wniosku',
+      subtitle: 'MSWiA дивиться на повноту документів та якість обґрунтування więzi z Polską.',
+      items: [
+        'Wniosek o wydanie zezwolenia (заповнюємо ми)',
+        'Закордонний паспорт + копія карти побуту, якщо є (присяжний переклад)',
+        'Umowa przedwstępna sprzedaży nieruchomości',
+        'KW (księga wieczysta) нерухомості — виписка',
+        'Mapa ewidencyjna i wypis z rejestru gruntów',
+        'Підтвердження джерела коштів: 12 місяців wyciąg bankowy, договори про роботу, sprawozdanie фірми',
+        'Документи про więź z Polską: PIT/CIT за 3 роки, договори najmu/o pracę, KRS своєї фірми, метрики родичів',
+        'Apostille на всіх іноземних документах',
+        'Tłumaczenia przysięgłe всіх документів',
+        'Pełnomocnictwo на нас (LegalWin) — перед MSWiA'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Під ключ від першої консультації до wydania zezwolenia.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · чи потрібне zezwolenie' },
+        { label: 'Wniosek o zezwolenie', value: 'від 4 800 PLN', note: 'Документи + подання + супровід' },
+        { label: 'З присяжними перекладами', value: 'від 6 500 PLN', note: '+ apostille' },
+        { label: 'Складний випадок', value: 'від 9 800 PLN', note: 'strefa nadgraniczna · слабка więź' }
+      ],
+      note: 'Держмито MSWiA — 1 570 PLN окремо. Apostille в країні походження — окремо. Tłumaczenia ~50–100 PLN/сторінка (якщо не входять у pakiet).'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców',
+        'Rozporządzenie MSWiA z dnia 17 stycznia 2017 r. ws. szczegółowych informacji oraz dokumentów',
+        'Konstytucja RP — art. 32 (równość obywateli i obcokrajowców)',
+        'Traktat akcesyjny z UE z 16 kwietnia 2003 r. (zwolnienie obywateli UE/EOG)',
+        'Konwencja Haska 1961 r. — apostille na dokumenty zagraniczne'
+      ]
+    },
+    faq: [
+      { q: 'Які квартири можна купувати без zezwolenia?', a: 'Будь-яка lokal mieszkalny (житлове приміщення, квартира з власною księgą wieczystą lokalu) — без zezwolenia (дозволу), для громадян усього світу. Але: лише не в strefie nadgranicznej (прикордонній зоні, 15 км від кордону з Україною, Білоруссю, Литвою — там zezwolenie потрібне завжди). І не будинок із ділянкою — це вже nieruchomość gruntowa (земельна нерухомість), вимагає zezwolenia.' },
+      { q: 'Як доводити więź z Polską?', a: 'Документально. Więź z Polską (зв’язок із Польщею) — кілька прикладів сильних доказів: 1) карта побуту або Karta Polaka; 2) договір про роботу в польського роботодавця 1+ рік; 3) Sp. z o.o. у Польщі з реальним оборотом; 4) шлюб із поляком (навіть < 5 років — часткова więź); 5) діти, які ходять до польської школи; 6) навчання в польському виші; 7) польські родичі — навіть бабусі/дідусі. Що більше — то сильніше.' },
+      { q: 'Що робити при odmowie?', a: 'Odmowa (відмова) — 14 днів на wniosek o ponowne rozpatrzenie sprawy (заяву про повторний розгляд справи) до Міністерства. Якщо знову відмова — skarga (скарга) до Wojewódzki Sąd Administracyjny (Воєводського адміністративного суду, 30 днів). Часто причина — слабка więź (зв’язок). Доповнюємо докази та подаємо повторно. У нас 80%+ успіху при повторному поданні.' },
+      { q: 'Чи можна купити через польську Sp. z o.o.?', a: 'Так, і подеколи це зручніше. Sp. z o.o. — польська юридична особа, може купувати без zezwolenia (якщо 51%+ належить резидентам ЄС або громадянам Польщі). Для купівлі будинків через Sp. z o.o. з іноземним контролем (>50% non-EU) — знову потрібне zezwolenie на купівлю контрольного пакета.' },
+      { q: 'Що таке strefa nadgraniczna?', a: 'Strefa nadgraniczna (прикордонна зона) — 15 км від державного кордону на карті. У Польщі це кордони з Україною, Білоруссю, Литвою (лише вузька смуга) та Калінінградською областю. У strefie zezwolenie потрібне ВСІМ іноземцям, включно з громадянами ЄС. Великі міста біля кордону (Białystok, Lublin, Rzeszów) — зазвичай поза strefą.' },
+      { q: 'Скільки діє zezwolenie?', a: '2 роки з дати wydania (видачі). На конкретну нерухомість (із зазначенням KW — поземельної книги та адреси). Якщо не встигли — продовження за 30 днів до кінця терміну (1 раз). Якщо продали іншу — потрібне нове zezwolenie на нову.' },
+      { q: 'Чи потрібне zezwolenie громадянам ЄС/ЄЕП?', a: 'Ні. Громадяни UE та EOG (ЄЕЗ — Norwegia, Islandia, Liechtenstein) + Швейцарія — купують без zezwolenia (з 2009/2014 років після перехідних періодів для сільгоспземель). Лише в strefie nadgranicznej (прикордонній зоні) можуть бути обмеження.' }
+    ],
+    related: ['due-diligence-nieruchomosci', 'notariusz-asysta', 'wyszukiwanie-mieszkania'],
+    ctaTitle: 'Zezwolenie MSWiA під ключ',
+    ctaSubtitle: 'Безкоштовно перевіряємо, чи потрібен дозвіл. Від wniosku до aktu — 4 800 PLN під ключ.'
   }
 };
 

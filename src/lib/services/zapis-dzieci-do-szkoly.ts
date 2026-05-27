@@ -356,6 +356,95 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
     related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'Çocuğunuzu okula 7-14 günde kaydediyoruz',
     ctaSubtitle: 'Ücretsiz danışmanlık: bölgenize ve ihtiyacınıza uygun okulu seçer, belgeleri kontrol eder, dyrektor görüşmesinde eşlik ederiz. Klasa powitalna her yerde mevcuttur.'
+  },
+  uk: {
+    slug: 'zapis-dzieci-do-szkoly',
+    group: 'relocation',
+    icon: 'home',
+    badge: 'Klasa powitalna · Obowiązek szkolny · Przedszkole',
+    title: 'Запис дітей до школи',
+    subtitle: 'Оформлення obowiązek szkolny і запис до klasy powitalnej',
+    lead: 'За польським правом кожна дитина 7–18 років, яка проживає в Польщі, зобов’язана вчитися — це obowiązek szkolny незалежно від громадянства. Без запису до школи — адміністративний штраф батькам до 5 000 PLN, а головне — дитина втрачає роки навчання. LegalWin записує дітей іноземців до klasy powitalnej (адаптаційного класу з польською як іноземною), польської публічної школи або приватної міжнародної (Akademeia, BISC, ISW). Робимо під ключ: meldunek, документи, директор, переклад dyplomu.',
+    facts: [
+      { label: 'Термін запису', value: '7–14 днів', note: 'standard у публічну · 30+ для приватних' },
+      { label: 'Вартість публічної', value: '0 PLN', note: 'навчання безкоштовне для всіх дітей' },
+      { label: 'Klasa powitalna', value: '1 рік', note: 'польська B1 за рік · до 2 років у винятках' },
+      { label: 'Вік', value: '7–18 років', note: 'obowiązek szkolny · przedszkole з 3' }
+    ],
+    grounds: {
+      title: 'Куди записуємо дітей',
+      subtitle: 'Польська система — три рівні: przedszkole (3–7), szkoła podstawowa (7–15), szkoła średnia (15–18).',
+      items: [
+        { title: 'Klasa powitalna (адаптаційна)', desc: 'Рік занурення в польську з native speaker. До 15 осіб у групі. Програма: мова + стандартні предмети. Після — звичайний клас за рівнем.' },
+        { title: 'Szkoła podstawowa (7–15 років)', desc: 'Базова 8-річна школа. Безкоштовна для всіх. Запис за адресою zameldowania. Безкоштовні обіди та підручники в більшості шкіл.' },
+        { title: 'Liceum / Technikum / Branżowa', desc: 'Szkoła średnia після 8-го класу (15+ років). 4 роки liceum (загальноосвітня), 5 років technikum (з професією), 3 роки branżowa.' },
+        { title: 'Przedszkole (3–7 років)', desc: 'Дитячий садок. Публічний — безкоштовний, але конкуренція велика. Приватний — 1 200–3 500 PLN/міс. Запис у березні на вересень.' },
+        { title: 'Szkoła międzynarodowa', desc: 'Akademeia HES, British International School (BISC), International School of Warsaw (ISW), Canadian School of Warsaw — 60 000–120 000 PLN/рік. IB / Cambridge.' },
+        { title: 'Społeczne / Niepubliczne', desc: 'Польська приватна школа — 8 000–25 000 PLN/рік. Менші класи (15–20), більше уваги, часто кращі педагоги. Польська програма.' },
+        { title: 'Edukacja domowa', desc: 'Якщо переїхали в середині року або дитина не готова до польської — офіційно оформлюємо edukację domową. Іспити раз на рік у школі.' },
+        { title: 'Визнання закордонної освіти', desc: 'Свідоцтво про школу з країни походження — umiejscowienie в Польщі для зарахування у правильний клас. Через kuratorium oświaty.' }
+      ]
+    },
+    timeline: {
+      title: 'Як записуємо дитину',
+      subtitle: 'Від першого візиту до початку занять — зазвичай 7–14 днів.',
+      steps: [
+        { title: 'Консультація', duration: '30 хв', desc: 'Вік, поточний рівень польської, країна попередньої школи, район проживання. Підбираємо 2–3 варіанти шкіл.' },
+        { title: 'Збір документів', duration: '3–7 днів', desc: 'Свідоцтво про народження (присяжний переклад), шкільний атестат / довідка з останньої школи, медкарта, фото. Якщо є orzeczenie psychologiczne — додатком.' },
+        { title: 'Meldunek (якщо ще немає)', duration: '1–2 дні', desc: 'Школа бере дітей за zameldowaniu. Якщо немає — оформлюємо pobyt czasowy дитини разом із meldunkiem батька/матері.' },
+        { title: 'Wniosek до школи', duration: '1 день', desc: 'Подаємо wniosek o przyjęcie do klasy powitalnej / klasy I–VIII. Подання через ePUAP або фізично в kancelarii школи.' },
+        { title: 'Рішення dyrektora', duration: '3–7 днів', desc: 'Dyrektor szkoły приймає на підставі zameldowania, віку, рівня. Іноді — коротке interview батьків.' },
+        { title: 'Постановка на облік', duration: '1 день', desc: 'Подання в kuratorium через школу. Отримання legitymacji szkolnej (безкоштовні проїзди).' },
+        { title: 'Перший день', duration: '1 день', desc: 'Супроводжуємо батька/матір на перші батьківські збори (zebrań). Знайомство з учителем (wychowawca), pedagogiem szkolnym, однокласниками.' }
+      ]
+    },
+    documents: {
+      title: 'Що потрібно від вас',
+      subtitle: 'Базовий пакет — точний список залежить від школи.',
+      items: [
+        'Паспорт дитини + копія сторінки з фото',
+        'Паспорт одного з батьків (мінімум одного)',
+        'Свідоцтво про народження (присяжний переклад польською)',
+        'Шкільний атестат / довідка з останньої школи (з перекладом)',
+        'Медкарта або karta zdrowia (або згода на її оформлення в Польщі)',
+        '2 фото 30×42 мм (для legitymacji)',
+        'PESEL дитини (або підтвердження перебування)',
+        'Zaświadczenie o zameldowaniu (для публічної школи — обов’язково)'
+      ]
+    },
+    pricing: {
+      title: 'Вартість роботи',
+      subtitle: 'Гонорар за запис. Школи безкоштовні — крім приватних.',
+      items: [
+        { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · добір шкіл' },
+        { label: 'Запис до публічної школи', value: 'від 600 PLN', note: 'Одна дитина · документи + meldunek + школа' },
+        { label: 'Запис до приватної / міжнародної', value: 'від 950 PLN', note: 'З admission interviews і поданням wniosków' },
+        { label: 'Сімейний пакет (2+ дітей)', value: 'від 1 100 PLN', note: 'Знижка при поданні на кількох дітей' }
+      ],
+      note: 'Зазначено гонорари LegalWin. Держмито за meldunek — 0 PLN, присяжний переклад (~80 PLN/документ), плата за приватну школу (8 000–120 000 PLN/рік) — окремо.'
+    },
+    legalBase: {
+      title: 'Нормативна база',
+      items: [
+        'Ustawa z dnia 14 grudnia 2016 r. — Prawo oświatowe (rozdz. 4 — obowiązek szkolny)',
+        'Rozporządzenie MEN z dnia 23 sierpnia 2017 r. ws. kształcenia osób niebędących obywatelami polskimi',
+        'Rozporządzenie MEN ws. organizacji kształcenia osób niebędących obywatelami polskimi (klasa powitalna)',
+        'Konwencja o prawach dziecka ONZ z 20 listopada 1989 r. (art. 28 — prawo do edukacji)',
+        'Kodeks postępowania administracyjnego (KPA — odwołania od decyzji dyrektora)'
+      ]
+    },
+    faq: [
+      { q: 'Що таке klasa powitalna і кому вона підходить?', a: 'Klasa powitalna (вітальний/адаптаційний клас) — це адаптаційний клас на 1 рік для дітей-іноземців, які не володіють польською. До 15 учнів. Вчать польську з native speaker (10 годин на тиждень) + стандартні предмети. Мета — за рік дати рівень B1 польської, щоб перейти у звичайний клас. Доступна з 1-го по 8-й клас. Підходить, якщо дитина приїхала нещодавно або не вчила польську.' },
+      { q: 'Яка школа краща — публічна чи приватна?', a: 'Публічна: безкоштовно, широка програма, до 28 учнів у класі. Достатньо якісна у великих містах (Warszawa, Wrocław). Приватна niepubliczna (недержавна): 8 000–25 000 PLN/рік, до 20 учнів, індивідуальний підхід, часто кращі педагоги. Międzynarodowa (міжнародна): 60 000–120 000 PLN/рік, англійська програма, IB, для тих, хто планує повертатися у свою країну. Вибір — за бюджетом і довгостроковими планами.' },
+      { q: 'Що робити, якщо в дитини немає PESEL?', a: 'Запис можливий без PESEL — школа приймає за паспортом і підтвердженням перебування. Але для legitymacji szkolnej, eDziennika, пільг на проїзд PESEL потрібен. Робимо PESEL дитини одночасно із записом до школи.' },
+      { q: 'Коли обов’язковий запис — шкільний рік починається у вересні?', a: 'Стандартний запис — березень-квітень на наступний навчальний рік. Але школи приймають дітей упродовж усього року, якщо є місця — особливо в klasy powitalne. Якщо переїхали в середині року — записуємо протягом 7–14 днів.' },
+      { q: 'Що, якщо дитина в середньому-старшому класі і не знає польської?', a: 'Складніше: liceum / technikum приймають через рекрутацію за балами з egzaminu ósmoklasisty. Альтернативи: 1) klasa powitalna в szkole podstawowej (якщо вік ≤ 15); 2) niepubliczne liceum з програмою адаптації; 3) міжнародна школа англійською; 4) edukacja domowa з іспитами раз на рік.' },
+      { q: 'Безкоштовні обіди в школі?', a: 'У більшості szkół podstawowych — так, за wnioskiem від MOPS для сімей із доходом ≤ 600 PLN/особу/міс. Інакше — 6–12 PLN/обід, оплата раз на місяць. Допомагаємо оформити wniosek у MOPS.' },
+      { q: 'Чи можна записати до школи в іншому районі?', a: 'Школи podstawowe беруть за zameldowaniu в районі (rejon). Якщо хочете в інший район — подання через rekrutację електронну в квітні-травні на вересень. Після — лише за zgodą dyrektora obu szkół. Liceum / technikum приймають вільно за балами.' }
+    ],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
+    ctaTitle: 'Запишемо дитину до школи за 7–14 днів',
+    ctaSubtitle: 'Безкоштовна консультація: добір шкіл під ваш район і потреби, перевірка документів, супровід до dyrektora. Klasa powitalna для тих, хто не говорить польською, доступна всюди.'
   }
 };
 
