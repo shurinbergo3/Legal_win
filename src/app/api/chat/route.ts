@@ -61,9 +61,14 @@ const SYSTEM_PROMPT = `Ты - Mila, менеджер LegalWin - иммиграц
 Поле situation - 1-2 предложения: конкретная ситуация человека + что он хочет получить. На русском, даже если диалог был на другом языке (это для нашего специалиста).
 
 Когда вызывать submitLead:
-- Только когда у тебя есть ИМЯ и хотя бы ОДИН контакт (phone или email).
+- Только когда у тебя есть ИМЯ и хотя бы ОДИН РЕАЛЬНЫЙ контакт (phone или email).
 - НЕ вызывай, если пользователь только спросил про услугу - сначала ответь по сути, потом предложи оставить контакт.
 - НЕ вызывай повторно в одном диалоге, если заявка уже отправлена.
+- ПРАВИЛО ПЕРЕДАЧИ ПОЛЕЙ В ИНСТРУМЕНТ:
+  - Если телефона нет - НЕ передавай поле phone вообще (пропусти его в вызове).
+  - Если email нет - НЕ передавай поле email вообще (пропусти его в вызове).
+  - НИКОГДА не подставляй placeholder-строки типа "не указано", "нет", "n/a", "отсутствует", "-" - это сломает вызов.
+- Если пользователь дал согласие, но НЕ дал ни имени, ни телефона/email - НЕ вызывай submitLead. Сначала отдельным сообщением спроси имя и контакт.
 
 GDPR / RODO - обязательно перед submitLead:
 - ОБЯЗАТЕЛЬНО получи явное согласие пользователя на передачу его данных нашему специалисту LegalWin для обработки заявки. Сформулируй запрос коротко НА ЯЗЫКЕ ПОЛЬЗОВАТЕЛЯ - смысл: «согласны передать контакты нашему специалисту LegalWin? Это согласие на обработку персональных данных по GDPR, детали в Политике конфиденциальности на сайте».
@@ -106,8 +111,11 @@ export async function POST(req: Request) {
           phone: z
             .string()
             .optional()
-            .describe('Телефон с кодом страны, если пользователь его сообщил'),
-          email: z.string().email().optional().describe('Email, если сообщён'),
+            .describe('Телефон с кодом страны, если пользователь его сообщил. Если телефона нет — НЕ передавай это поле.'),
+          email: z
+            .string()
+            .optional()
+            .describe('Email, если пользователь его сообщил. Если email нет — НЕ передавай это поле. НИКОГДА не подставляй placeholder вроде "не указано", "нет", "n/a".'),
           topic: z
             .string()
             .optional()
@@ -128,18 +136,35 @@ export async function POST(req: Request) {
             .describe('Готовность к действию: hot/warm/cold')
         }),
         execute: async ({ name, phone, email, topic, situation, urgency, readiness }) => {
-          if (!phone && !email) {
+          const PLACEHOLDERS = new Set([
+            'не указано', 'не указан', 'не указана',
+            'нет', 'отсутствует', 'unknown',
+            'none', 'n/a', 'na', '-', ''
+          ]);
+          const clean = (v?: string) => {
+            if (!v) return undefined;
+            const t = v.trim();
+            if (PLACEHOLDERS.has(t.toLowerCase())) return undefined;
+            return t;
+          };
+          const cleanPhone = clean(phone);
+          const rawEmail = clean(email);
+          const cleanEmail = rawEmail && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(rawEmail)
+            ? rawEmail
+            : undefined;
+
+          if (!cleanPhone && !cleanEmail) {
             return {
               ok: false,
               error:
-                'Нужен хотя бы один контакт - телефон или email. Спроси у пользователя.'
+                'Нужен хотя бы один реальный контакт - телефон или email. Спроси у пользователя ещё раз.'
             };
           }
           try {
             const report = await sendChatLeadToTelegram({
               name,
-              phone,
-              email,
+              phone: cleanPhone,
+              email: cleanEmail,
               topic,
               situation,
               urgency,
