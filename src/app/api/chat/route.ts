@@ -94,6 +94,9 @@ export async function POST(req: Request) {
     temperature: 0.4,
     maxTokens: 700,
     maxSteps: 3,
+    onError({ error }) {
+      console.error('[chat] streamText error:', error);
+    },
     tools: {
       submitLead: tool({
         description:
