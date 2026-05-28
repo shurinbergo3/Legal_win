@@ -64,16 +64,19 @@ ${knowledgeBase}
 </knowledge_base>`;
 
 function humanThinkingDelay(messages: UIMessage[]): number {
-  const last = messages[messages.length - 1];
-  const text =
-    typeof last?.content === 'string'
-      ? last.content
-      : Array.isArray(last?.content)
-        ? last.content
-            .filter((p): p is { type: 'text'; text: string } => p.type === 'text')
-            .map((p) => p.text)
-            .join(' ')
-        : '';
+  const last = messages[messages.length - 1] as
+    | { content?: unknown }
+    | undefined;
+  let text = '';
+  if (typeof last?.content === 'string') {
+    text = last.content;
+  } else if (Array.isArray(last?.content)) {
+    for (const part of last.content as Array<{ type?: string; text?: string }>) {
+      if (part?.type === 'text' && typeof part.text === 'string') {
+        text += part.text + ' ';
+      }
+    }
+  }
   const len = text.trim().length;
   // Чем длиннее вопрос - тем дольше «читает».
   const baseMs = 700 + Math.min(len * 12, 1800);
