@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.gitignore
+.env*
+!.env.example
+.vercel
+.DS_Store
+*.log
+README.md
+TELEGRAM.md
+PROJECT_MAP.md
+docs
+Image
+.claude
+.claude.md
+tsconfig.tsbuildinfo
