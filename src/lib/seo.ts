@@ -19,11 +19,11 @@ export const OG_IMAGE_PATH = '/hero/staruwka.webp';
 export const OG_IMAGE_WIDTH = 1600;
 export const OG_IMAGE_HEIGHT = 900;
 
-// Aggregate rating shown publicly in the Testimonials section.
-// Keep these in sync with what's visible on the page (currently 4.9 / 312 in
-// `messages/*.json` + Testimonials.tsx) so Google can verify the value.
+// Visible rating value used in the Hero badge and OG image. No reviewCount
+// counterpart - we deliberately don't expose a count number on the page, so
+// the organization JSON-LD no longer emits AggregateRating (Google requires
+// the count to be backed by visible review data on the page).
 export const REVIEW_RATING_VALUE = '4.9';
-export const REVIEW_COUNT = 312;
 
 export type SeoLocale = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
@@ -83,13 +83,6 @@ export function organizationLd() {
         closes: '19:00'
       }
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: REVIEW_RATING_VALUE,
-      reviewCount: REVIEW_COUNT,
-      bestRating: '5',
-      worstRating: '1'
-    },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Legal services for foreigners in Poland',
