@@ -22,6 +22,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.legalwin.pl' }],
+        destination: 'https://legalwin.pl/:path*',
+        permanent: true
+      },
       { source: '/eng', destination: '/en', permanent: true },
       { source: '/eng/:path*', destination: '/en/:path*', permanent: true },
       {
