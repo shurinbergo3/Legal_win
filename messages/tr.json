@@ -519,7 +519,8 @@
     "rights": "Tüm hakları saklıdır",
     "privacy": "Gizlilik politikası",
     "cookies": "Çerez politikası",
-    "manageCookies": "Çerez ayarları"
+    "manageCookies": "Çerez ayarları",
+    "builtBy": "Geliştiren"
   },
   "Cookies": {
     "bannerTitle": "Çerez kullanıyoruz",

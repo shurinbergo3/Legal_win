@@ -519,7 +519,8 @@
     "rights": "Усі права захищені",
     "privacy": "Політика конфіденційності",
     "cookies": "Політика cookies",
-    "manageCookies": "Налаштування cookies"
+    "manageCookies": "Налаштування cookies",
+    "builtBy": "Розробка"
   },
   "Cookies": {
     "bannerTitle": "Ми використовуємо cookies",

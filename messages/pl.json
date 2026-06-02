@@ -519,7 +519,8 @@
     "rights": "Wszystkie prawa zastrzeżone",
     "privacy": "Polityka prywatności",
     "cookies": "Polityka cookies",
-    "manageCookies": "Ustawienia cookies"
+    "manageCookies": "Ustawienia cookies",
+    "builtBy": "Realizacja"
   },
   "Cookies": {
     "bannerTitle": "Używamy plików cookies",

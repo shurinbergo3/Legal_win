@@ -519,7 +519,8 @@
     "rights": "All rights reserved",
     "privacy": "Privacy policy",
     "cookies": "Cookie policy",
-    "manageCookies": "Cookie settings"
+    "manageCookies": "Cookie settings",
+    "builtBy": "Built by"
   },
   "Cookies": {
     "bannerTitle": "We use cookies",

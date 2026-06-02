@@ -1,9 +1,10 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { LogoBadge } from './Logo';
+import { SiteCredit } from './SiteCredit';
 
 // Polish government sources we cite in service pages and blog posts.
 // Outbound links to authoritative .gov.pl domains help with topical authority
@@ -19,6 +20,7 @@ export function Footer() {
   const t = useTranslations('Footer');
   const tNav = useTranslations('Nav');
   const tContact = useTranslations('Contact');
+  const locale = useLocale();
   const year = new Date().getFullYear();
 
   const services = [
@@ -174,6 +176,10 @@ export function Footer() {
               {t('manageCookies')}
             </button>
           </div>
+        </div>
+
+        <div className="mt-8 flex justify-center sm:justify-end">
+          <SiteCredit label={t('builtBy')} locale={locale} />
         </div>
       </div>
     </footer>

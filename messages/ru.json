@@ -519,7 +519,8 @@
     "rights": "Все права защищены",
     "privacy": "Политика конфиденциальности",
     "cookies": "Политика cookies",
-    "manageCookies": "Настройки cookies"
+    "manageCookies": "Настройки cookies",
+    "builtBy": "Разработка"
   },
   "Cookies": {
     "bannerTitle": "Мы используем cookies",
