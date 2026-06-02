@@ -155,7 +155,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col-reverse items-start justify-between gap-4 border-t hairline pt-6 text-xs text-ink-500 sm:flex-row sm:items-center">
           <div>
-            © {year} LegalWin sp. z o.o. · {t('rights')}
+            © {year} LegalWin · {t('rights')}
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             <Link href="/polityka-prywatnosci" className="transition-colors hover:text-ink-200">
