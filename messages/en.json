@@ -355,7 +355,7 @@
     "submitting": "Sending…",
     "successTitle": "Thanks for your review",
     "successMessage": "We've received your review. After a short moderation it will appear on the site.",
-    "errorMessage": "Couldn't send. Please try again or email legalwin.warszawa@gmail.com",
+    "errorMessage": "Couldn't send. Please try again or email info@legalwin.pl",
     "errorBannerInvalid": "Review not sent. Please fix:",
     "validation": {
       "nameMin": "Name - at least 2 characters",
@@ -495,10 +495,10 @@
     "successTitle": "Request received",
     "successMessage": "Our specialist will reply within an hour during business hours (Mon-Fri 8:30-19:00).",
     "errorTitle": "Could not send",
-    "errorMessage": "Please retry or email legalwin.warszawa@gmail.com",
+    "errorMessage": "Please retry or email info@legalwin.pl",
     "hours": "Mon-Fri · 8:30 - 19:00",
     "phoneLine": "+48 506 55 07 21",
-    "emailLine": "legalwin.warszawa@gmail.com",
+    "emailLine": "info@legalwin.pl",
     "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
     "validation": {
       "nameMin": "At least 2 characters",

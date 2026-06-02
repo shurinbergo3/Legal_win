@@ -26,7 +26,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
             dl: [
               { term: 'Название', def: 'LegalWin sp. z o.o.' },
               { term: 'Адрес', def: 'ul. Świętokrzyska 30/63, 00-116 Warszawa, Polska' },
-              { term: 'Email', def: 'legalwin.warszawa@gmail.com' },
+              { term: 'Email', def: 'info@legalwin.pl' },
               { term: 'Телефон', def: '+48 506 55 07 21' }
             ]
           },
@@ -95,7 +95,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
               'Право подать жалобу в надзорный орган - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'Для реализации любого из прав достаточно письма на legalwin.warszawa@gmail.com - мы ответим в течение 30 дней.'
+          'Для реализации любого из прав достаточно письма на info@legalwin.pl - мы ответим в течение 30 дней.'
         ]
       },
       {
@@ -142,7 +142,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
             dl: [
               { term: 'Nazwa', def: 'LegalWin sp. z o.o.' },
               { term: 'Adres', def: 'ul. Świętokrzyska 30/63, 00-116 Warszawa, Polska' },
-              { term: 'Email', def: 'legalwin.warszawa@gmail.com' },
+              { term: 'Email', def: 'info@legalwin.pl' },
               { term: 'Telefon', def: '+48 506 55 07 21' }
             ]
           },
@@ -211,7 +211,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
               'Prawo wniesienia skargi do organu nadzorczego - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'Aby skorzystać z któregokolwiek z praw, wystarczy wiadomość na legalwin.warszawa@gmail.com - odpowiemy w ciągu 30 dni.'
+          'Aby skorzystać z któregokolwiek z praw, wystarczy wiadomość na info@legalwin.pl - odpowiemy w ciągu 30 dni.'
         ]
       },
       {
@@ -258,7 +258,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
             dl: [
               { term: 'Name', def: 'LegalWin sp. z o.o.' },
               { term: 'Address', def: 'ul. Świętokrzyska 30/63, 00-116 Warszawa, Poland' },
-              { term: 'Email', def: 'legalwin.warszawa@gmail.com' },
+              { term: 'Email', def: 'info@legalwin.pl' },
               { term: 'Phone', def: '+48 506 55 07 21' }
             ]
           },
@@ -327,7 +327,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
               'Right to lodge a complaint with the supervisory authority - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'To exercise any right, email legalwin.warszawa@gmail.com - we reply within 30 days.'
+          'To exercise any right, email info@legalwin.pl - we reply within 30 days.'
         ]
       },
       {
@@ -374,7 +374,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
             dl: [
               { term: 'Unvan', def: 'LegalWin sp. z o.o.' },
               { term: 'Adres', def: 'ul. Świętokrzyska 30/63, 00-116 Warszawa, Polonya' },
-              { term: 'E-posta', def: 'legalwin.warszawa@gmail.com' },
+              { term: 'E-posta', def: 'info@legalwin.pl' },
               { term: 'Telefon', def: '+48 506 55 07 21' }
             ]
           },
@@ -443,7 +443,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
               'Denetim makamına şikayet hakkı - Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'Haklarınızdan herhangi birini kullanmak için legalwin.warszawa@gmail.com adresine yazmanız yeterlidir - 30 gün içinde yanıt veriyoruz.'
+          'Haklarınızdan herhangi birini kullanmak için info@legalwin.pl adresine yazmanız yeterlidir - 30 gün içinde yanıt veriyoruz.'
         ]
       },
       {
@@ -490,7 +490,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
             dl: [
               { term: 'Назва', def: 'LegalWin sp. z o.o.' },
               { term: 'Адреса', def: 'ul. Świętokrzyska 30/63, 00-116 Warszawa, Polska' },
-              { term: 'Email', def: 'legalwin.warszawa@gmail.com' },
+              { term: 'Email', def: 'info@legalwin.pl' },
               { term: 'Телефон', def: '+48 506 55 07 21' }
             ]
           },
@@ -559,7 +559,7 @@ export const PRIVACY: Partial<Record<Locale, LegalDoc>> = {
               'Право подати скаргу до наглядового органу — Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
             ]
           },
-          'Для реалізації будь-якого з прав достатньо листа на legalwin.warszawa@gmail.com — ми відповімо протягом 30 днів.'
+          'Для реалізації будь-якого з прав достатньо листа на info@legalwin.pl — ми відповімо протягом 30 днів.'
         ]
       },
       {
@@ -673,7 +673,7 @@ export const COOKIES: Partial<Record<Locale, LegalDoc>> = {
         id: 'kontakt',
         title: 'Контакты и право жалобы',
         blocks: [
-          'Вопросы по обработке данных: legalwin.warszawa@gmail.com.',
+          'Вопросы по обработке данных: info@legalwin.pl.',
           'В случае нарушения у вас есть право подать жалобу в Prezes Urzędu Ochrony Danych Osobowych - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
@@ -755,7 +755,7 @@ export const COOKIES: Partial<Record<Locale, LegalDoc>> = {
         id: 'kontakt',
         title: 'Kontakt i prawo skargi',
         blocks: [
-          'Pytania dotyczące przetwarzania danych: legalwin.warszawa@gmail.com.',
+          'Pytania dotyczące przetwarzania danych: info@legalwin.pl.',
           'W razie naruszenia masz prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
@@ -837,7 +837,7 @@ export const COOKIES: Partial<Record<Locale, LegalDoc>> = {
         id: 'kontakt',
         title: 'Contact and right to complain',
         blocks: [
-          'Data-protection questions: legalwin.warszawa@gmail.com.',
+          'Data-protection questions: info@legalwin.pl.',
           'In case of a violation you may lodge a complaint with the President of the Polish Data Protection Authority - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
@@ -919,7 +919,7 @@ export const COOKIES: Partial<Record<Locale, LegalDoc>> = {
         id: 'kontakt',
         title: 'İletişim ve şikayet hakkı',
         blocks: [
-          'Veri koruma soruları: legalwin.warszawa@gmail.com.',
+          'Veri koruma soruları: info@legalwin.pl.',
           'İhlal durumunda Polonya Veri Koruma Kurumu Başkanı\'na şikayette bulunabilirsiniz - ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }
@@ -1001,7 +1001,7 @@ export const COOKIES: Partial<Record<Locale, LegalDoc>> = {
         id: 'kontakt',
         title: 'Контакти і право скарги',
         blocks: [
-          'Питання щодо обробки даних: legalwin.warszawa@gmail.com.',
+          'Питання щодо обробки даних: info@legalwin.pl.',
           'У разі порушення ви маєте право подати скаргу до Prezes Urzędu Ochrony Danych Osobowych — ul. Stawki 2, 00-193 Warszawa, https://uodo.gov.pl/.'
         ]
       }

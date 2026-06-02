@@ -458,10 +458,10 @@ export function Chatbot() {
                   <p className="mt-1 text-xs leading-relaxed text-ink-300">
                     {t('errorBefore')}
                     <a
-                      href="mailto:legalwin.warszawa@gmail.com"
+                      href="mailto:info@legalwin.pl"
                       className="text-gold-400 underline-offset-2 hover:underline"
                     >
-                      legalwin.warszawa@gmail.com
+                      info@legalwin.pl
                     </a>
                     {t('errorAfter')}
                   </p>

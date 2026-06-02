@@ -355,7 +355,7 @@
     "submitting": "Надсилаємо…",
     "successTitle": "Дякуємо за відгук",
     "successMessage": "Ми отримали ваш відгук. Після короткої модерації він з'явиться на сайті.",
-    "errorMessage": "Не вдалося надіслати. Спробуйте ще раз або напишіть на legalwin.warszawa@gmail.com",
+    "errorMessage": "Не вдалося надіслати. Спробуйте ще раз або напишіть на info@legalwin.pl",
     "errorBannerInvalid": "Відгук не надіслано. Виправте, будь ласка:",
     "validation": {
       "nameMin": "Ім'я - мінімум 2 символи",
@@ -495,10 +495,10 @@
     "successTitle": "Заявку прийнято",
     "successMessage": "Наш фахівець зв’яжеться протягом години в робочий час (пн–пт 8:30–19:00).",
     "errorTitle": "Не вдалося надіслати",
-    "errorMessage": "Спробуйте ще раз або напишіть на legalwin.warszawa@gmail.com",
+    "errorMessage": "Спробуйте ще раз або напишіть на info@legalwin.pl",
     "hours": "Пн–Пт · 8:30 – 19:00",
     "phoneLine": "+48 506 55 07 21",
-    "emailLine": "legalwin.warszawa@gmail.com",
+    "emailLine": "info@legalwin.pl",
     "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
     "validation": {
       "nameMin": "Мінімум 2 символи",

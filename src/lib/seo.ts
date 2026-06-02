@@ -5,7 +5,7 @@ export const SITE_URL =
 
 export const ORG_LEGAL_NAME = 'LegalWin';
 export const ORG_PHONE = '+48 506 55 07 21';
-export const ORG_EMAIL = 'legalwin.warszawa@gmail.com';
+export const ORG_EMAIL = 'info@legalwin.pl';
 export const ORG_STREET = 'ul. Świętokrzyska 30/63';
 export const ORG_POSTAL = '00-116';
 export const ORG_CITY = 'Warszawa';

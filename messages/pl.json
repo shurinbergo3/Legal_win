@@ -355,7 +355,7 @@
     "submitting": "Wysyłamy…",
     "successTitle": "Dziękujemy za opinię",
     "successMessage": "Otrzymaliśmy Twoją opinię. Po krótkiej moderacji pojawi się na stronie.",
-    "errorMessage": "Nie udało się wysłać. Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
+    "errorMessage": "Nie udało się wysłać. Spróbuj ponownie lub napisz na info@legalwin.pl",
     "errorBannerInvalid": "Opinia nie została wysłana. Popraw, proszę:",
     "validation": {
       "nameMin": "Imię - minimum 2 znaki",
@@ -495,10 +495,10 @@
     "successTitle": "Zgłoszenie przyjęte",
     "successMessage": "Nasz specjalista odpowie w ciągu godziny w godzinach pracy (pn-pt 8:30-19:00).",
     "errorTitle": "Nie udało się wysłać",
-    "errorMessage": "Spróbuj ponownie lub napisz na legalwin.warszawa@gmail.com",
+    "errorMessage": "Spróbuj ponownie lub napisz na info@legalwin.pl",
     "hours": "Pn-Pt · 8:30 - 19:00",
     "phoneLine": "+48 506 55 07 21",
-    "emailLine": "legalwin.warszawa@gmail.com",
+    "emailLine": "info@legalwin.pl",
     "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
     "validation": {
       "nameMin": "Minimum 2 znaki",

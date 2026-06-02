@@ -355,7 +355,7 @@
     "submitting": "Gönderiliyor…",
     "successTitle": "Yorumunuz için teşekkürler",
     "successMessage": "Yorumunuzu aldık. Kısa bir moderasyonun ardından sitede yayınlanacak.",
-    "errorMessage": "Gönderilemedi. Lütfen tekrar deneyin veya legalwin.warszawa@gmail.com adresine yazın",
+    "errorMessage": "Gönderilemedi. Lütfen tekrar deneyin veya info@legalwin.pl adresine yazın",
     "errorBannerInvalid": "Yorum gönderilmedi. Lütfen düzeltin:",
     "validation": {
       "nameMin": "Ad - en az 2 karakter",
@@ -495,10 +495,10 @@
     "successTitle": "Mesajınız alındı",
     "successMessage": "Danışmanımız mesai saatleri içinde 1 saat içinde dönüş yapacak (Pzt-Cum 08:30-19:00).",
     "errorTitle": "Mesaj iletilmedi",
-    "errorMessage": "Tekrar deneyin veya legalwin.warszawa@gmail.com adresine yazın",
+    "errorMessage": "Tekrar deneyin veya info@legalwin.pl adresine yazın",
     "hours": "Pzt-Cum · 08:30 - 19:00",
     "phoneLine": "+48 506 55 07 21",
-    "emailLine": "legalwin.warszawa@gmail.com",
+    "emailLine": "info@legalwin.pl",
     "address": "ul. Świętokrzyska 30/63, 00-116 Warszawa",
     "validation": {
       "nameMin": "En az 2 karakter",
