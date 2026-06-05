@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useDeferredValue } from 'react';
 import Image from 'next/image';
-import { Search, X } from 'lucide-react';
+import { Search, X, ArrowUpRight } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { serviceBlur } from '@/lib/image-blur';
 import type { BlogPostSummary } from '@/lib/blog';
@@ -38,6 +38,71 @@ function formatDate(iso: string, locale: string): string {
 
 function pluralize(n: number, one: string, many: string): string {
   return n === 1 ? `${n} ${one}` : `${n} ${many}`;
+}
+
+/**
+ * Cover image + legibility gradients shared by featured and regular cards.
+ * The photo stays visible toward the top and fades into ink where text sits,
+ * so each article reads as a distinct image rather than a uniform dark box.
+ */
+function CoverLayer({
+  cover,
+  blurData,
+  sizes,
+  featured = false
+}: {
+  cover: string;
+  blurData?: string;
+  sizes: string;
+  featured?: boolean;
+}) {
+  return (
+    <>
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 -z-10 bg-ink-950"
+      >
+        <Image
+          src={cover}
+          alt=""
+          fill
+          sizes={sizes}
+          placeholder={blurData ? 'blur' : 'empty'}
+          blurDataURL={blurData}
+          className="object-cover object-center transition-transform duration-[900ms] ease-out group-hover:scale-[1.05]"
+        />
+      </div>
+      {featured ? (
+        <>
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 -z-10"
+            style={{
+              background:
+                'linear-gradient(112deg, rgba(5,9,26,0.94) 0%, rgba(5,9,26,0.6) 46%, rgba(5,9,26,0.12) 100%)'
+            }}
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 -z-10"
+            style={{
+              background:
+                'linear-gradient(180deg, transparent 42%, rgba(5,9,26,0.82) 100%)'
+            }}
+          />
+        </>
+      ) : (
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 -z-10"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(5,9,26,0.08) 0%, rgba(5,9,26,0.34) 44%, rgba(5,9,26,0.86) 76%, rgba(5,9,26,0.96) 100%)'
+          }}
+        />
+      )}
+    </>
+  );
 }
 
 export function BlogIndex({ posts, labels }: Props) {
@@ -110,7 +175,7 @@ export function BlogIndex({ posts, labels }: Props) {
           className="pointer-events-none absolute -right-32 -top-32 h-[460px] w-[460px] rounded-full bg-gold-500/15 blur-[140px] blob-1"
         />
 
-        <div className="relative mx-auto max-w-5xl px-6 lg:px-10">
+        <div className="relative mx-auto max-w-6xl px-6 lg:px-10">
           <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {labels.eyebrow}
@@ -126,7 +191,7 @@ export function BlogIndex({ posts, labels }: Props) {
 
       {/* Toolbar - search + category filter */}
       <section className="relative border-b hairline bg-ink-950/40 backdrop-blur">
-        <div className="mx-auto max-w-5xl px-6 py-6 lg:px-10">
+        <div className="mx-auto max-w-6xl px-6 py-6 lg:px-10">
           <div className="flex flex-col gap-5">
             {/* Search */}
             <div className="relative">
@@ -197,80 +262,120 @@ export function BlogIndex({ posts, labels }: Props) {
       </section>
 
       <section className="relative pb-20 pt-10 sm:pb-24 sm:pt-12 lg:pb-32 lg:pt-16">
-        <div className="mx-auto max-w-5xl px-6 lg:px-10">
+        <div className="mx-auto max-w-6xl px-6 lg:px-10">
           {filtered.length === 0 ? (
             <p className="py-16 text-center text-ink-400">
               {posts.length === 0 ? labels.empty : labels.noResults}
             </p>
           ) : (
-            <ul className="grid gap-6 sm:grid-cols-2">
-              {filtered.map((post) => {
-                const cover = post.coverImage ?? '/services/blog.webp';
-                const blurData = serviceBlur[cover];
-                return (
-                  <li key={post.slug}>
-                    <Link
-                      href={`/blog/${post.slug}`}
-                      className="group relative flex h-full flex-col overflow-hidden rounded-2xl border hairline bg-ink-900/40 transition-all hover:border-gold-500/30 hover:shadow-elite"
-                    >
-                      {/* Photo background - heavily darkened, editorial feel */}
-                      <div
-                        aria-hidden
-                        className="pointer-events-none absolute inset-0 -z-10 bg-ink-950"
-                      >
-                        <Image
-                          src={cover}
-                          alt=""
-                          fill
-                          sizes="(max-width: 768px) 100vw, 540px"
-                          placeholder={blurData ? 'blur' : 'empty'}
-                          blurDataURL={blurData}
-                          className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
-                        />
-                      </div>
-                      <div
-                        aria-hidden
-                        className="pointer-events-none absolute inset-0 -z-10"
-                        style={{
-                          background:
-                            'linear-gradient(180deg, rgba(5,9,26,0.86) 0%, rgba(5,9,26,0.78) 40%, rgba(5,9,26,0.95) 100%)'
-                        }}
-                      />
-                      <div
-                        aria-hidden
-                        className="pointer-events-none absolute inset-0 -z-10 opacity-[0.04]"
-                        style={{
-                          backgroundImage:
-                            'linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)',
-                          backgroundSize: '64px 64px',
-                          maskImage:
-                            'radial-gradient(ellipse 70% 60% at 50% 30%, #000 60%, transparent 100%)'
-                        }}
-                      />
+            (() => {
+              // Lead the unfiltered list with a wide featured article, then a
+              // 3-up grid. While searching/filtering, drop the hero and show a
+              // plain grid so results stay scannable.
+              const showFeatured =
+                activeCategory === null &&
+                deferredQuery.trim() === '' &&
+                filtered.length > 4;
+              const featured = showFeatured ? filtered[0] : null;
+              const gridPosts = showFeatured ? filtered.slice(1) : filtered;
 
-                      <div className="flex flex-1 flex-col gap-4 p-6 sm:p-7 lg:p-8">
-                        <div className="flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-ink-400">
-                          {post.category && (
-                            <span className="text-gold-400">{post.category}</span>
-                          )}
-                          <span>{formatDate(post.publishDate, post.locale)}</span>
-                          <span>·</span>
-                          <span>
-                            {post.readingMinutes} {labels.readingTime}
-                          </span>
-                        </div>
-                        <h2 className="font-display text-xl font-semibold leading-snug text-ink-50 transition-colors group-hover:text-gold-300 sm:text-2xl">
-                          {post.title}
-                        </h2>
-                        <p className="line-clamp-3 text-sm leading-relaxed text-ink-300">
-                          {post.description}
-                        </p>
-                      </div>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
+              return (
+                <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                  {featured &&
+                    (() => {
+                      const cover = featured.coverImage ?? '/services/blog.webp';
+                      return (
+                        <li
+                          key={featured.slug}
+                          className="sm:col-span-2 lg:col-span-3"
+                        >
+                          <Link
+                            href={`/blog/${featured.slug}`}
+                            className="group relative flex min-h-[340px] flex-col justify-end overflow-hidden rounded-3xl border hairline bg-ink-950 transition-all duration-300 hover:border-gold-500/40 hover:shadow-elite lg:min-h-[440px]"
+                          >
+                            <CoverLayer
+                              cover={cover}
+                              blurData={serviceBlur[cover]}
+                              sizes="100vw"
+                              featured
+                            />
+                            <div className="relative flex max-w-2xl flex-col gap-4 p-7 sm:p-9 lg:p-12">
+                              <div className="flex flex-wrap items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em] text-ink-300">
+                                {featured.category && (
+                                  <span className="rounded-full border border-gold-500/40 bg-gold-500/10 px-3 py-1 text-gold-200">
+                                    {featured.category}
+                                  </span>
+                                )}
+                                <span>
+                                  {formatDate(featured.publishDate, featured.locale)}
+                                </span>
+                                <span aria-hidden>·</span>
+                                <span>
+                                  {featured.readingMinutes} {labels.readingTime}
+                                </span>
+                              </div>
+                              <h2 className="font-display text-2xl font-semibold leading-[1.1] tracking-[-0.02em] text-ink-50 transition-colors group-hover:text-gold-200 sm:text-3xl lg:text-[2.6rem]">
+                                {featured.title}
+                              </h2>
+                              <p className="line-clamp-2 max-w-xl text-sm leading-relaxed text-ink-200 sm:text-base">
+                                {featured.description}
+                              </p>
+                              <span
+                                aria-hidden
+                                className="mt-1 inline-flex h-10 w-10 items-center justify-center rounded-full border border-gold-500/30 bg-ink-950/40 text-gold-300 transition-all duration-300 group-hover:border-gold-500/60 group-hover:bg-gold-500/10"
+                              >
+                                <ArrowUpRight
+                                  className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                                  strokeWidth={1.8}
+                                />
+                              </span>
+                            </div>
+                          </Link>
+                        </li>
+                      );
+                    })()}
+
+                  {gridPosts.map((post) => {
+                    const cover = post.coverImage ?? '/services/blog.webp';
+                    return (
+                      <li key={post.slug}>
+                        <Link
+                          href={`/blog/${post.slug}`}
+                          className="group relative flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-2xl border hairline bg-ink-950 transition-all duration-300 hover:-translate-y-1 hover:border-gold-500/40 hover:shadow-elite"
+                        >
+                          <CoverLayer
+                            cover={cover}
+                            blurData={serviceBlur[cover]}
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          />
+                          <div className="relative flex flex-col gap-3 p-6">
+                            <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-ink-300">
+                              {post.category && (
+                                <span className="rounded-full border border-gold-500/30 bg-gold-500/10 px-2.5 py-0.5 text-gold-200">
+                                  {post.category}
+                                </span>
+                              )}
+                              <span>
+                                {post.readingMinutes} {labels.readingTime}
+                              </span>
+                            </div>
+                            <h2 className="font-display text-lg font-semibold leading-snug text-ink-50 transition-colors group-hover:text-gold-200 sm:text-xl">
+                              {post.title}
+                            </h2>
+                            <p className="line-clamp-2 text-[13px] leading-relaxed text-ink-300">
+                              {post.description}
+                            </p>
+                            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-400">
+                              {formatDate(post.publishDate, post.locale)}
+                            </span>
+                          </div>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              );
+            })()
           )}
         </div>
       </section>

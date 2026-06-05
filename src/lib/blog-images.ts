@@ -54,7 +54,14 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'skladka-zdrowotna-2026-reforma': '/services/warszawa-spire.webp',
   'ksef-luty-2026-e-faktury': '/services/warszawa-spire.webp',
   'polski-b1-egzamin-do-obywatelstwa': '/services/warszawa-swiatynia.webp',
-  'nfz-dla-cudzoziemca-2026': '/services/pesel.webp'
+  'nfz-dla-cudzoziemca-2026': '/services/pesel.webp',
+
+  // 2026-Q2 Warsaw series - karta pobytu + licence exchange spokes
+  'zapis-na-karte-pobytu-varshava-2026': '/services/karta-pobytu.webp',
+  'skolko-stoit-karta-pobytu-varshava-2026': '/services/karta-pobytu.webp',
+  'obmen-ukrainskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp',
+  'obmen-belorusskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp',
+  'obmen-rossijskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp'
 };
 
 const FALLBACK = '/services/blog.webp';
