@@ -40,6 +40,76 @@ function pluralize(n: number, one: string, many: string): string {
   return n === 1 ? `${n} ${one}` : `${n} ${many}`;
 }
 
+const FALLBACK_COVER = '/services/blog.webp';
+
+// Every scenic service cover that ships with a blur placeholder, used as the
+// reshuffle pool when a post's thematic image would repeat back-to-back.
+const COVER_POOL = [
+  '/services/gdansk-aerial.webp',
+  '/services/warszawa-spire.webp',
+  '/services/warszawa-pkin-noc.webp',
+  '/services/warszawa-defilad-noc.webp',
+  '/services/warszawa-swiatynia.webp',
+  '/services/warszawa-tramwaj.webp',
+  '/services/karta-pobytu.webp',
+  '/services/karta-stalego-pobytu.webp',
+  '/services/wymiana-prawa-jazdy.webp',
+  '/services/kod-95.webp',
+  '/services/pesel.webp',
+  '/services/apostille.webp',
+  '/services/apelacje.webp',
+  '/services/tlumaczenia-przysiegle.webp',
+  '/services/pomoc-w-zatrudnieniu.webp',
+  '/services/zapis-dzieci-do-szkoly.webp',
+  '/services/zaswiadczenia-zus-us.webp',
+  '/services/odbior-z-lotniska.webp',
+  '/services/wyszukiwanie-mieszkania.webp',
+  '/services/obywatelstwo.webp'
+];
+
+// Stable string hash (FNV-1a) so cover swaps are deterministic and SSR-safe —
+// no Math.random, so server and client render the same image.
+function hashString(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i += 1) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+/**
+ * Assigns a cover to each post in order, keeping its thematic image unless that
+ * would duplicate one of the previous two cards. On a collision it picks a
+ * deterministic alternative from the pool so the grid never shows the same
+ * photo two (or three) tiles in a row.
+ */
+function assignCovers(
+  posts: BlogPostSummary[],
+  seedCover: string | null
+): string[] {
+  const out: string[] = [];
+  let prev1 = seedCover;
+  let prev2: string | null = null;
+  for (const post of posts) {
+    let cover = post.coverImage ?? FALLBACK_COVER;
+    if (cover === prev1 || cover === prev2) {
+      const start = hashString(post.slug) % COVER_POOL.length;
+      for (let k = 0; k < COVER_POOL.length; k += 1) {
+        const cand = COVER_POOL[(start + k) % COVER_POOL.length];
+        if (cand !== prev1 && cand !== prev2) {
+          cover = cand;
+          break;
+        }
+      }
+    }
+    out.push(cover);
+    prev2 = prev1;
+    prev1 = cover;
+  }
+  return out;
+}
+
 /**
  * Cover image + legibility gradients shared by featured and regular cards.
  * The photo stays visible toward the top and fades into ink where text sits,
@@ -72,6 +142,11 @@ function CoverLayer({
           className="object-cover object-center transition-transform duration-[900ms] ease-out group-hover:scale-[1.05]"
         />
       </div>
+      {/* Flat ink wash so every photo reads as a darkened backdrop, not a bright tile. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 z-0 bg-ink-950/35"
+      />
       {featured ? (
         <>
           <div
@@ -79,7 +154,7 @@ function CoverLayer({
             className="pointer-events-none absolute inset-0 z-0"
             style={{
               background:
-                'linear-gradient(112deg, rgba(5,9,26,0.94) 0%, rgba(5,9,26,0.6) 46%, rgba(5,9,26,0.12) 100%)'
+                'linear-gradient(112deg, rgba(5,9,26,0.97) 0%, rgba(5,9,26,0.74) 46%, rgba(5,9,26,0.32) 100%)'
             }}
           />
           <div
@@ -87,7 +162,7 @@ function CoverLayer({
             className="pointer-events-none absolute inset-0 z-0"
             style={{
               background:
-                'linear-gradient(180deg, transparent 42%, rgba(5,9,26,0.82) 100%)'
+                'linear-gradient(180deg, transparent 34%, rgba(5,9,26,0.9) 100%)'
             }}
           />
         </>
@@ -97,7 +172,7 @@ function CoverLayer({
           className="pointer-events-none absolute inset-0 -z-10"
           style={{
             background:
-              'linear-gradient(180deg, rgba(5,9,26,0.08) 0%, rgba(5,9,26,0.34) 44%, rgba(5,9,26,0.86) 76%, rgba(5,9,26,0.96) 100%)'
+              'linear-gradient(180deg, rgba(5,9,26,0.32) 0%, rgba(5,9,26,0.55) 42%, rgba(5,9,26,0.92) 74%, rgba(5,9,26,0.99) 100%)'
           }}
         />
       )}
@@ -278,12 +353,15 @@ export function BlogIndex({ posts, labels }: Props) {
                 filtered.length > 4;
               const featured = showFeatured ? filtered[0] : null;
               const gridPosts = showFeatured ? filtered.slice(1) : filtered;
+              const featuredCover =
+                featured?.coverImage ?? (featured ? FALLBACK_COVER : null);
+              const gridCovers = assignCovers(gridPosts, featuredCover);
 
               return (
                 <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                   {featured &&
                     (() => {
-                      const cover = featured.coverImage ?? '/services/blog.webp';
+                      const cover = featured.coverImage ?? FALLBACK_COVER;
                       return (
                         <li
                           key={featured.slug}
@@ -335,8 +413,8 @@ export function BlogIndex({ posts, labels }: Props) {
                       );
                     })()}
 
-                  {gridPosts.map((post) => {
-                    const cover = post.coverImage ?? '/services/blog.webp';
+                  {gridPosts.map((post, i) => {
+                    const cover = gridCovers[i];
                     return (
                       <li key={post.slug}>
                         <Link
