@@ -145,7 +145,7 @@ function CoverLayer({
       {/* Flat ink wash so every photo reads as a darkened backdrop, not a bright tile. */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 z-0 bg-ink-950/55"
+        className="pointer-events-none absolute inset-0 z-0 bg-ink-950/70"
       />
       {featured ? (
         <>
@@ -154,7 +154,7 @@ function CoverLayer({
             className="pointer-events-none absolute inset-0 z-0"
             style={{
               background:
-                'linear-gradient(112deg, rgba(5,9,26,0.98) 0%, rgba(5,9,26,0.82) 46%, rgba(5,9,26,0.5) 100%)'
+                'linear-gradient(112deg, rgba(5,9,26,1) 0%, rgba(5,9,26,0.9) 46%, rgba(5,9,26,0.65) 100%)'
             }}
           />
           <div
@@ -162,7 +162,7 @@ function CoverLayer({
             className="pointer-events-none absolute inset-0 z-0"
             style={{
               background:
-                'linear-gradient(180deg, rgba(5,9,26,0.25) 0%, rgba(5,9,26,0.55) 55%, rgba(5,9,26,0.95) 100%)'
+                'linear-gradient(180deg, rgba(5,9,26,0.45) 0%, rgba(5,9,26,0.7) 55%, rgba(5,9,26,1) 100%)'
             }}
           />
         </>
@@ -172,7 +172,7 @@ function CoverLayer({
           className="pointer-events-none absolute inset-0 -z-10"
           style={{
             background:
-              'linear-gradient(180deg, rgba(5,9,26,0.55) 0%, rgba(5,9,26,0.72) 40%, rgba(5,9,26,0.95) 72%, rgba(5,9,26,1) 100%)'
+              'linear-gradient(180deg, rgba(5,9,26,0.72) 0%, rgba(5,9,26,0.85) 40%, rgba(5,9,26,1) 72%, rgba(5,9,26,1) 100%)'
           }}
         />
       )}
