@@ -61,7 +61,11 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'skolko-stoit-karta-pobytu-varshava-2026': '/services/karta-pobytu.webp',
   'obmen-ukrainskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp',
   'obmen-belorusskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp',
-  'obmen-rossijskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp'
+  'obmen-rossijskih-prav-na-polskie-2026': '/services/wymiana-prawa-jazdy.webp',
+
+  // 2026-Q2 professional-driver series
+  'karta-kierowcy-tachograf-polsha-2026': '/services/kod-95.webp',
+  'kak-stat-voditelem-v-polshe-2026': '/services/wymiana-prawa-jazdy.webp'
 };
 
 const FALLBACK = '/services/blog.webp';
