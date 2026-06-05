@@ -60,7 +60,7 @@ function CoverLayer({
     <>
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 -z-10 bg-ink-950"
+        className="pointer-events-none absolute inset-0 z-0 bg-ink-950"
       >
         <Image
           src={cover}
@@ -76,7 +76,7 @@ function CoverLayer({
         <>
           <div
             aria-hidden
-            className="pointer-events-none absolute inset-0 -z-10"
+            className="pointer-events-none absolute inset-0 z-0"
             style={{
               background:
                 'linear-gradient(112deg, rgba(5,9,26,0.94) 0%, rgba(5,9,26,0.6) 46%, rgba(5,9,26,0.12) 100%)'
@@ -84,7 +84,7 @@ function CoverLayer({
           />
           <div
             aria-hidden
-            className="pointer-events-none absolute inset-0 -z-10"
+            className="pointer-events-none absolute inset-0 z-0"
             style={{
               background:
                 'linear-gradient(180deg, transparent 42%, rgba(5,9,26,0.82) 100%)'
@@ -299,7 +299,7 @@ export function BlogIndex({ posts, labels }: Props) {
                               sizes="100vw"
                               featured
                             />
-                            <div className="relative flex max-w-2xl flex-col gap-4 p-7 sm:p-9 lg:p-12">
+                            <div className="relative z-10 flex max-w-2xl flex-col gap-4 p-7 sm:p-9 lg:p-12">
                               <div className="flex flex-wrap items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em] text-ink-300">
                                 {featured.category && (
                                   <span className="rounded-full border border-gold-500/40 bg-gold-500/10 px-3 py-1 text-gold-200">
@@ -348,7 +348,7 @@ export function BlogIndex({ posts, labels }: Props) {
                             blurData={serviceBlur[cover]}
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                           />
-                          <div className="relative flex flex-col gap-3 p-6">
+                          <div className="relative z-10 flex flex-col gap-3 p-6">
                             <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-ink-300">
                               {post.category && (
                                 <span className="rounded-full border border-gold-500/30 bg-gold-500/10 px-2.5 py-0.5 text-gold-200">
