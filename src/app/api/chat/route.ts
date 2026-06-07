@@ -43,6 +43,7 @@ const SYSTEM_PROMPT = `Ты - Mila, менеджер LegalWin (legalwin.pl, Ва
 - urgency: high (отказ воеводы / дедлайн апелляции / истекает виза/карта / жёсткие сроки), medium (есть кейс, план в недели), low (просто изучает / сравнивает).
 - readiness: hot (спрашивал цену/сроки, готов начать), warm (есть кейс, сомневается), cold (общий интерес / одно сообщение).
 - situation: 1-2 предложения на РУССКОМ, даже если диалог на другом языке - это для нашего специалиста.
+- language: язык, на котором ОБЩАЕТСЯ пользователь (ru / pl / en / uk / tr), чтобы специалист перезвонил на нужном языке.
 
 GDPR / RODO - ОБЯЗАТЕЛЬНО перед submitLead:
 1. Запроси явное согласие НА ЯЗЫКЕ ПОЛЬЗОВАТЕЛЯ: «согласны передать контакты нашему специалисту? Это согласие на обработку данных по GDPR, детали в Политике конфиденциальности на сайте».
@@ -56,6 +57,8 @@ GDPR / RODO - ОБЯЗАТЕЛЬНО перед submitLead:
 - НЕ вызывай повторно в одном диалоге.
 - Если согласие дано, но имени или контакта нет - НЕ вызывай, сначала спроси отдельным сообщением.
 - Если телефона нет - НЕ передавай поле phone. Если email нет - НЕ передавай поле email. НИКОГДА не подставляй "не указано", "нет", "n/a", "отсутствует", "-" - это сломает вызов.
+- НИКОГДА не выдумывай и не подставляй примеры/заглушки вроде "your_name", "your_phone", "имя", "телефон", "John Doe", "+48000000000". Передавай ТОЛЬКО реальные данные, которые пользователь написал в чате своими словами. Нет реального имени или контакта - переспроси, НЕ вызывай submitLead.
+- Телефон должен содержать настоящие цифры (минимум 7), email - настоящий адрес с @ и доменом.
 
 База знаний (источник истины):
 
@@ -143,21 +146,38 @@ export async function POST(req: Request) {
           readiness: z
             .enum(['hot', 'warm', 'cold'])
             .optional()
-            .describe('Готовность к действию: hot/warm/cold')
+            .describe('Готовность к действию: hot/warm/cold'),
+          language: z
+            .string()
+            .optional()
+            .describe('Язык общения пользователя: ru / pl / en / uk / tr')
         }),
-        execute: async ({ name, phone, email, topic, situation, urgency, readiness }) => {
+        execute: async ({ name, phone, email, topic, situation, urgency, readiness, language }) => {
           const PLACEHOLDERS = new Set([
             'не указано', 'не указан', 'не указана',
             'нет', 'отсутствует', 'unknown',
-            'none', 'n/a', 'na', '-', ''
+            'none', 'n/a', 'na', '-', '',
+            'имя', 'телефон', 'name', 'phone', 'email',
+            'your_name', 'your_phone', 'your_email',
+            'yourname', 'yourphone', 'youremail',
+            'john doe', 'jane doe', 'example'
           ]);
+          // Шаблонные заглушки вида your_name, my-phone, user_email и т.п.
+          const PLACEHOLDER_RE = /^(your|my|user|client|test)[\s_-]?(name|phone|email|tel|mail)$/i;
           const clean = (v?: string) => {
             if (!v) return undefined;
             const t = v.trim();
             if (PLACEHOLDERS.has(t.toLowerCase())) return undefined;
+            if (PLACEHOLDER_RE.test(t)) return undefined;
             return t;
           };
-          const cleanPhone = clean(phone);
+          // Телефон считается реальным только если в нём есть настоящие цифры.
+          const cleanPhone = (() => {
+            const c = clean(phone);
+            if (!c) return undefined;
+            const digits = c.replace(/\D/g, '');
+            return digits.length >= 7 ? c : undefined;
+          })();
           const rawEmail = clean(email);
           const cleanEmail = rawEmail && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(rawEmail)
             ? rawEmail
@@ -167,18 +187,29 @@ export async function POST(req: Request) {
             return {
               ok: false,
               error:
-                'Нужен хотя бы один реальный контакт - телефон или email. Спроси у пользователя ещё раз.'
+                'Нужен хотя бы один реальный контакт - телефон (с цифрами) или email. Не выдумывай заглушки, спроси у пользователя ещё раз.'
+            };
+          }
+
+          // Имя тоже не должно быть заглушкой.
+          const cleanName = clean(name);
+          if (!cleanName) {
+            return {
+              ok: false,
+              error:
+                'Имя выглядит как заглушка или пустое. Спроси у пользователя реальное имя и не подставляй примеры.'
             };
           }
           try {
             const report = await sendChatLeadToTelegram({
-              name,
+              name: cleanName,
               phone: cleanPhone,
               email: cleanEmail,
               topic,
               situation,
               urgency,
-              readiness
+              readiness,
+              locale: clean(language)
             });
             return {
               ok: report.ok,
