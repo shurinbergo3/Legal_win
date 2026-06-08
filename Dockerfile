@@ -26,5 +26,11 @@ COPY --from=builder /app/.next/static ./.next/static
 
 RUN mkdir -p /app/data
 
+# Next.js writes on-demand optimized images here (next/image -> sharp).
+# Mount a persistent volume at /app/.next/cache in Dokploy so this survives
+# restarts AND redeploys — otherwise sharp re-optimizes every image on the
+# first request after each deploy, which is heavy on a 4GB box. See docs/deploy.md.
+RUN mkdir -p /app/.next/cache
+
 EXPOSE 3000
 CMD ["node", "server.js"]

@@ -215,31 +215,18 @@ export function Chatbot() {
     <>
       {/* === Floating toggle === */}
       <div className="fixed bottom-5 right-5 z-40 sm:bottom-8 sm:right-8">
-        {/* Pulsing halo - only when closed and no reduced-motion */}
+        {/* Pulsing halo - only when closed and no reduced-motion.
+            CSS-driven (see globals.css .chat-halo) so it stays on the
+            compositor and never runs a JS animation loop. */}
         {!open && !reduce && (
           <>
-            <motion.span
+            <span
               aria-hidden
-              className="pointer-events-none absolute inset-0 rounded-full bg-gold-400/40"
-              animate={{ scale: [1, 1.65], opacity: [0.45, 0] }}
-              transition={{
-                duration: 2.2,
-                repeat: Infinity,
-                repeatDelay: 2.2,
-                ease: 'easeOut'
-              }}
+              className="chat-halo pointer-events-none absolute inset-0 rounded-full bg-gold-400/40"
             />
-            <motion.span
+            <span
               aria-hidden
-              className="pointer-events-none absolute inset-0 rounded-full bg-gold-400/30"
-              animate={{ scale: [1, 1.4], opacity: [0.4, 0] }}
-              transition={{
-                duration: 2.2,
-                repeat: Infinity,
-                repeatDelay: 2.2,
-                delay: 0.4,
-                ease: 'easeOut'
-              }}
+              className="chat-halo-2 pointer-events-none absolute inset-0 rounded-full bg-gold-400/30"
             />
           </>
         )}

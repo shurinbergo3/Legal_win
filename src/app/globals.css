@@ -188,6 +188,22 @@ body::before {
 
 .pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
 
+/* Chatbot floating-button halo — CSS-only (compositor) so it never wakes the
+   main thread; replaces two infinite framer-motion loops. 4.4s cycle = 2.2s
+   pulse + 2.2s rest, mirroring the old repeatDelay. */
+@keyframes chat-halo {
+  0%   { transform: scale(1);    opacity: 0.45; }
+  50%  { transform: scale(1.65); opacity: 0; }
+  100% { transform: scale(1.65); opacity: 0; }
+}
+@keyframes chat-halo-2 {
+  0%   { transform: scale(1);   opacity: 0.4; }
+  50%  { transform: scale(1.4); opacity: 0; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+.chat-halo   { animation: chat-halo   4.4s ease-out infinite; }
+.chat-halo-2 { animation: chat-halo-2 4.4s ease-out 0.4s infinite; }
+
 /* Caret blink */
 @keyframes caret-blink {
   0%, 50% { opacity: 1; }
