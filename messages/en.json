@@ -253,27 +253,93 @@
     "eyebrow": "Cases",
     "title": "Real cases, real timelines",
     "subtitle": "We show it raw: what, how fast, and with what outcome. Names changed at clients' request.",
+    "casesLabel": "cases",
+    "prev": "Previous",
+    "next": "Next",
     "items": [
       {
         "tag": "Residence · work",
         "title": "IT specialist from Belarus",
-        "duration": "38 days",
+        "duration": "≈4 months",
         "outcome": "3-year TRC",
-        "desc": "First contact Friday - filing the next Friday. Mazowiecki voivodeship decided in 38 days vs standard 90."
+        "desc": "Complete dossier on the first filing, no wezwania or follow-up requests. In Mazowieckie such cases often drag 8-14 months - here the decision came in about 4, thanks to a clean file and a by-the-book application."
       },
       {
-        "tag": "Company · IT consulting",
-        "title": "Sp. z o.o. from scratch",
-        "duration": "7 days",
-        "outcome": "KRS + account + VAT",
-        "desc": "Two founders from Kazakhstan. S24, members' resolution, mBank account, VAT registration, contracts - done in a week."
+        "tag": "Complaint · delay",
+        "title": "Case stalled 14 months",
+        "duration": "+9 weeks",
+        "outcome": "Decision + compensation",
+        "desc": "The client had waited over a year on a residence card with no movement. We filed a ponaglenie, then a delay complaint to the Administrative Court. The court ordered the voivode to decide and awarded compensation - the card issued ~9 weeks after the complaint."
       },
       {
-        "tag": "Appeal · permanent residence",
-        "title": "Overturning a PR denial",
-        "duration": "4 months",
-        "outcome": "PR granted",
-        "desc": "Client was denied PR on formal grounds. We filed a complaint to the Voivodeship Administrative Court - it quashed the denial, the voivode issued the card."
+        "tag": "Company · S24",
+        "title": "Company set up from scratch",
+        "duration": "KRS - 2 days",
+        "outcome": "KRS + NIP + REGON",
+        "desc": "Two founders from Kazakhstan. Via S24 the court entered the company into KRS in 2 business days; NIP and REGON were assigned automatically. The mBank account and VAT-R followed over the next ~3 weeks."
+      },
+      {
+        "tag": "VAT-R · tax",
+        "title": "VAT for an EU contract",
+        "duration": "≈3 weeks",
+        "outcome": "Active VAT + VAT-UE",
+        "desc": "The company needed active VAT and VAT-UE status for an EU client. We prepared the VAT-R and supporting notes - the tax office registered it without a clarification summons in about 3 weeks."
+      },
+      {
+        "tag": "EU Blue Card",
+        "title": "Senior developer from Russia",
+        "duration": "≈5 months",
+        "outcome": "Blue Card + family",
+        "desc": "Salary above the EU Blue Card threshold. We assembled the contract, proof of qualifications and housing; in parallel we filed residence for the wife and child. Cards came in about 5 months."
+      },
+      {
+        "tag": "Permanent · origin",
+        "title": "PR by Polish origin",
+        "duration": "≈7 months",
+        "outcome": "Permanent residence card",
+        "desc": "Proof of Polish origin plus archival records. We obtained the missing certificates from civil registries in Poland and Ukraine. The voivode issued the permanent residence card in about 7 months."
+      },
+      {
+        "tag": "Citizenship · recognition",
+        "title": "Citizenship after PR",
+        "duration": "≈8 months",
+        "outcome": "Polish citizenship",
+        "desc": "Recognition as a Polish citizen: confirmed permanent residence, source of income, Polish at B1. The voivode issued a positive decision in about 8 months."
+      },
+      {
+        "tag": "Appeal · residence",
+        "title": "Reversing a residence denial",
+        "duration": "≈5 months",
+        "outcome": "Denial reversed, card issued",
+        "desc": "The voivode refused, citing an unproven purpose of stay. We appealed to the Head of the Office for Foreigners with added evidence - the decision was reversed and the card issued."
+      },
+      {
+        "tag": "Residence · family",
+        "title": "Family reunification",
+        "duration": "≈6 months",
+        "outcome": "Cards for wife and 2 kids",
+        "desc": "A residence-card holder bringing his family over. We prepared proof of housing, income and insurance for each member. All three cards issued in about 6 months."
+      },
+      {
+        "tag": "Permit · job change",
+        "title": "Switching employer without losing status",
+        "duration": "Within 15 days",
+        "outcome": "Work stayed legal",
+        "desc": "The client changed jobs mid single-permit. Within the statutory 15 days we filed the change-of-employer notice - he kept working legally while the new permit was processed separately."
+      },
+      {
+        "tag": "VAT · reinstatement",
+        "title": "Company struck off the VAT register",
+        "duration": "≈3 weeks",
+        "outcome": "VAT status restored",
+        "desc": "The tax office removed the company from the VAT register for formal inactivity. We submitted explanations and proof of real activity - the active status was restored and contracts held."
+      },
+      {
+        "tag": "Complaint · court",
+        "title": "Court overturns a PR denial",
+        "duration": "≈11 months",
+        "outcome": "Denial quashed in court",
+        "desc": "The client was denied a permanent residence card on formal grounds. We went through the appeal, then a complaint to the Administrative Court - it quashed the denial and the card issued on reconsideration. Long, but won."
       }
     ]
   },

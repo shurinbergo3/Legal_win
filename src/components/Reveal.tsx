@@ -9,6 +9,7 @@ type RevealProps = {
   delay?: number;
   margin?: string;
   once?: boolean;
+  [key: `data-${string}`]: string | undefined;
 };
 
 export function Reveal({
@@ -17,7 +18,8 @@ export function Reveal({
   className = '',
   delay = 0,
   margin = '-80px',
-  once = true
+  once = true,
+  ...rest
 }: RevealProps) {
   const ref = useRef<HTMLElement | null>(null);
   const [shown, setShown] = useState(false);
@@ -52,6 +54,7 @@ export function Reveal({
       ref={ref}
       style={style}
       className={`reveal ${shown ? 'reveal-in' : ''} ${className}`}
+      {...rest}
     >
       {children}
     </Tag>

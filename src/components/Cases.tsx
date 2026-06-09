@@ -1,7 +1,8 @@
 'use client';
 
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowUpRight, Check } from 'lucide-react';
+import { ArrowUpRight, Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Reveal } from './Reveal';
 
 type Case = {
@@ -15,6 +16,32 @@ type Case = {
 export function Cases() {
   const t = useTranslations('Cases');
   const items = t.raw('items') as Case[];
+
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [atStart, setAtStart] = useState(true);
+  const [atEnd, setAtEnd] = useState(false);
+
+  const updateEdges = useCallback(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    setAtStart(el.scrollLeft <= 4);
+    setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
+  }, []);
+
+  useEffect(() => {
+    updateEdges();
+    window.addEventListener('resize', updateEdges);
+    return () => window.removeEventListener('resize', updateEdges);
+  }, [updateEdges]);
+
+  const scrollByCard = useCallback((dir: 1 | -1) => {
+    const el = trackRef.current;
+    if (!el) return;
+    const card = el.querySelector<HTMLElement>('[data-card]');
+    const gap = 20; // matches gap-5
+    const amount = (card?.offsetWidth ?? el.clientWidth * 0.85) + gap;
+    el.scrollBy({ left: amount * dir, behavior: 'smooth' });
+  }, []);
 
   return (
     <section id="cases" className="relative isolate overflow-hidden border-t hairline bg-ink-900/30 py-20 sm:py-24 lg:py-32">
@@ -32,7 +59,7 @@ export function Cases() {
       </div>
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="mb-12 grid grid-cols-12 gap-6 lg:mb-20">
+        <div className="mb-12 grid grid-cols-12 gap-6 lg:mb-16">
           <div className="col-span-12 flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-gold-400">
             <span className="inline-block h-px w-10 bg-gold-500/60" />
             {t('eyebrow')}
@@ -40,23 +67,58 @@ export function Cases() {
           <Reveal
             as="h2"
             margin="-100px"
-            className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-9"
+            className="font-display section-size col-span-12 text-balance font-semibold text-ink-50 lg:col-span-8"
           >
             {t('title')}
           </Reveal>
-          <p className="col-span-12 max-w-md self-end text-base text-ink-300 lg:col-span-3 lg:text-right">
+          <p className="col-span-12 max-w-md self-end text-base text-ink-300 lg:col-span-4 lg:text-right">
             {t('subtitle')}
           </p>
         </div>
 
-        <div className="grid grid-cols-12 gap-5">
+        {/* Controls row */}
+        <div className="mb-6 flex items-center justify-between gap-4">
+          <span className="font-mono text-[11px] uppercase tracking-[0.24em] text-ink-400">
+            {items.length.toString().padStart(2, '0')} {t('casesLabel')}
+          </span>
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => scrollByCard(-1)}
+              disabled={atStart}
+              aria-label={t('prev')}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border hairline bg-ink-900 text-ink-200 transition-all duration-300 hover:border-gold-500/60 hover:text-gold-300 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-white/10 disabled:hover:text-ink-200"
+            >
+              <ChevronLeft className="h-5 w-5" strokeWidth={1.6} aria-hidden />
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollByCard(1)}
+              disabled={atEnd}
+              aria-label={t('next')}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border hairline bg-ink-900 text-ink-200 transition-all duration-300 hover:border-gold-500/60 hover:text-gold-300 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-white/10 disabled:hover:text-ink-200"
+            >
+              <ChevronRight className="h-5 w-5" strokeWidth={1.6} aria-hidden />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Carousel track - bleeds to the edges, snaps card-by-card */}
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
+        <div
+          ref={trackRef}
+          onScroll={updateEdges}
+          className="flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        >
           {items.map((c, i) => (
             <Reveal
               as="article"
               key={c.title}
+              data-card
               margin="-80px"
-              delay={i * 80}
-              className="group relative col-span-12 flex flex-col gap-6 overflow-hidden rounded-3xl border hairline bg-ink-950 p-7 edge-glow transition-all duration-500 hover:border-gold-500/40 hover:-translate-y-1 sm:p-8 lg:col-span-4 lg:p-9"
+              delay={Math.min(i, 5) * 70}
+              className="group relative flex w-[86%] shrink-0 snap-start flex-col gap-6 overflow-hidden rounded-3xl border hairline bg-ink-950 p-7 edge-glow transition-all duration-500 hover:border-gold-500/40 hover:-translate-y-1 sm:w-[400px] sm:p-8 lg:w-[420px] lg:p-9"
             >
               {/* Hover gold glow */}
               <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-gold-500/[0.06] opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100" />
@@ -64,7 +126,7 @@ export function Cases() {
               {/* Top row: index + arrow */}
               <div className="relative flex items-center justify-between">
                 <span className="font-mono text-[10px] uppercase tracking-[0.28em] text-ink-400">
-                  / case 0{i + 1}
+                  / case {(i + 1).toString().padStart(2, '0')}
                 </span>
                 <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border hairline bg-ink-900 transition-all duration-500 group-hover:border-gold-500/60 group-hover:bg-ink-950">
                   <ArrowUpRight className="h-4 w-4 text-ink-300 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-gold-400" strokeWidth={1.6} aria-hidden />

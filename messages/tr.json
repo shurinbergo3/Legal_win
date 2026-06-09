@@ -253,27 +253,93 @@
     "eyebrow": "Dosyalar",
     "title": "Gerçek dosyalar, gerçek süreler",
     "subtitle": "Süslememeden gösteriyoruz: ne yaptık, ne kadar zamanda, hangi sonuçla. İsimler müvekkil talebi üzerine değiştirilmiştir.",
+    "casesLabel": "dosya",
+    "prev": "Önceki",
+    "next": "Sonraki",
     "items": [
       {
-        "tag": "Karta Pobytu · iş",
+        "tag": "Pobyt czasowy · iş",
         "title": "Belaruslu BT uzmanı",
-        "duration": "38 gün",
+        "duration": "≈4 ay",
         "outcome": "3 yıllık oturum",
-        "desc": "İlk başvuru cuma günü, dosya teslimi bir hafta sonra cuma. Mazowiecki Urząd standart 90 gün yerine 38 günde karar verdi."
+        "desc": "İlk seferde eksiksiz dosya; wezwanie (eksik tamamlama çağrısı) çıkmadı. Mazowieckie'de bu tür dosyalar çoğu zaman 8-14 ay sürer - burada temiz dosya ve kurallara birebir uygun başvuru sayesinde karar yaklaşık 4 ayda geldi."
       },
       {
-        "tag": "Sp. z o.o. · BT danışmanlığı",
-        "title": "Sıfırdan Sp. z o.o. kuruluşu",
-        "duration": "7 gün",
-        "outcome": "KRS + banka hesabı + VAT",
-        "desc": "Kazakistanlı iki kurucu. S24, ortaklar kurulu, mBank hesabı, VAT kaydı, sözleşmeler - bir iş haftasında tamamlandı."
+        "tag": "Skarga · gecikme",
+        "title": "Dosya 14 ay bekledi",
+        "duration": "+9 hafta",
+        "outcome": "Karar + tazminat",
+        "desc": "Müvekkil oturum kartı için bir yıldan fazla hareketsiz bekledi. Önce ponaglenie, ardından gecikmeye karşı İdare Mahkemesi'ne skarga açtık. Mahkeme voivodayı karar vermeye mecbur etti ve tazminata hükmetti - kart, başvurudan ~9 hafta sonra çıktı."
       },
       {
-        "tag": "İtiraz · daimi oturum",
-        "title": "Karta Stałego Pobytu reddinin iptali",
-        "duration": "4 ay",
-        "outcome": "Daimi oturum verildi",
-        "desc": "Müvekkilin daimi oturum başvurusu şekli gerekçeyle reddedildi. Wojewódzki Sąd Administracyjny'a (Eyalet İdare Mahkemesi) skarga (dava) açtık - mahkeme reddi iptal etti, voivoda kartı verdi."
+        "tag": "Sp. z o.o. · S24",
+        "title": "Sıfırdan şirket kuruluşu",
+        "duration": "KRS - 2 gün",
+        "outcome": "KRS + NIP + REGON",
+        "desc": "Kazakistanlı iki kurucu. S24 ile mahkeme şirketi 2 iş gününde KRS'ye kaydetti; NIP ve REGON otomatik verildi. mBank hesabı ve VAT-R sonraki ~3 hafta içinde tamamlandı."
+      },
+      {
+        "tag": "VAT-R · vergi",
+        "title": "AB sözleşmesi için VAT",
+        "duration": "≈3 hafta",
+        "outcome": "Aktif VAT + VAT-UE",
+        "desc": "Şirketin bir AB müşterisi için aktif VAT ve VAT-UE statüsüne ihtiyacı vardı. VAT-R ve açıklamaları hazırladık - vergi dairesi açıklama çağrısı çıkarmadan yaklaşık 3 haftada kaydetti."
+      },
+      {
+        "tag": "AB Mavi Kart",
+        "title": "Rusyalı kıdemli geliştirici",
+        "duration": "≈5 ay",
+        "outcome": "Mavi Kart + aile",
+        "desc": "Maaş AB Mavi Kart eşiğinin üzerindeydi. Sözleşme, yeterlilik belgesi ve konaklamayı topladık; eş ve çocuk için oturum başvurusunu paralel yürüttük. Kartlar yaklaşık 5 ayda geldi."
+      },
+      {
+        "tag": "Daimi · köken",
+        "title": "Polonya kökeniyle daimi oturum",
+        "duration": "≈7 ay",
+        "outcome": "Daimi oturum kartı",
+        "desc": "Polonya kökeni belgesi ve arşiv kayıtları. Eksik belgeleri Polonya ve Ukrayna nüfus dairelerinden temin ettik. Voivoda daimi oturum kartını yaklaşık 7 ayda verdi."
+      },
+      {
+        "tag": "Vatandaşlık · tanıma",
+        "title": "Daimi oturum sonrası vatandaşlık",
+        "duration": "≈8 ay",
+        "outcome": "Polonya vatandaşlığı",
+        "desc": "Polonya vatandaşı olarak tanınma: teyitli daimi oturum, gelir kaynağı, B1 düzeyinde Lehçe. Voivoda yaklaşık 8 ayda olumlu karar verdi."
+      },
+      {
+        "tag": "İtiraz · oturum",
+        "title": "Oturum reddinin bozulması",
+        "duration": "≈5 ay",
+        "outcome": "Ret bozuldu, kart verildi",
+        "desc": "Voivoda, kanıtlanmamış oturum amacını gerekçe göstererek reddetti. Yabancılar Dairesi Başkanlığı'na ek kanıtlarla itiraz ettik - karar bozuldu, kart verildi."
+      },
+      {
+        "tag": "Pobyt czasowy · aile",
+        "title": "Aile birleşimi",
+        "duration": "≈6 ay",
+        "outcome": "Eş ve 2 çocuğa kart",
+        "desc": "Oturum kartı sahibi ailesini getiriyordu. Her birey için konaklama, gelir ve sigorta belgelerini hazırladık. Üç kart da yaklaşık 6 ayda çıktı."
+      },
+      {
+        "tag": "İzin · iş değişikliği",
+        "title": "Statü kaybı olmadan işveren değişimi",
+        "duration": "15 gün içinde",
+        "outcome": "Çalışma yasal kaldı",
+        "desc": "Müvekkil tek izin sürecinde iş değiştirdi. Yasal 15 gün içinde işveren değişikliği bildirimini (powiadomienie) verdik - kişi yasal çalışmaya devam etti, yeni izin ayrıca işlendi."
+      },
+      {
+        "tag": "VAT · yeniden kayıt",
+        "title": "Şirketin VAT'tan silinmesi",
+        "duration": "≈3 hafta",
+        "outcome": "VAT statüsü geri alındı",
+        "desc": "Vergi dairesi şirketi şekli hareketsizlik nedeniyle VAT kaydından sildi. Açıklamaları ve gerçek faaliyet kanıtlarını sunduk - aktif statü geri alındı, sözleşmeler bozulmadı."
+      },
+      {
+        "tag": "Skarga · mahkeme",
+        "title": "Mahkeme daimi oturum reddini bozdu",
+        "duration": "≈11 ay",
+        "outcome": "Ret mahkemece iptal",
+        "desc": "Müvekkile daimi oturum kartı şekli gerekçeyle reddedildi. İtirazdan geçtik, ardından İdare Mahkemesi'ne skarga açtık - mahkeme reddi bozdu, yeniden incelemede kart verildi. Uzun ama kazanılmış bir dosya."
       }
     ]
   },

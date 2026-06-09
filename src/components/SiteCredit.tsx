@@ -32,7 +32,7 @@ export function SiteCredit({ label, locale }: SiteCreditProps) {
       />
 
       <svg
-        viewBox="0 0 196 32"
+        viewBox="0 0 184 32"
         role="img"
         aria-hidden
         xmlns="http://www.w3.org/2000/svg"
@@ -45,14 +45,13 @@ export function SiteCredit({ label, locale }: SiteCreditProps) {
           fontWeight="700"
           fontSize="30"
           letterSpacing="-0.6"
-          textLength="178"
+          textLength="184"
           lengthAdjust="spacingAndGlyphs"
         >
           <tspan fill="#E7EBF3">build</tspan>
           <tspan fill="#E7EBF3" fillOpacity="0.5">by</tspan>
-          <tspan fill="#F2682E">alex</tspan>
+          <tspan fill="#F2682E">alex.</tspan>
         </text>
-        <circle cx="187" cy="23" r="3.4" fill="#F2682E" />
       </svg>
 
       <svg

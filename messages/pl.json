@@ -253,27 +253,93 @@
     "eyebrow": "Sprawy",
     "title": "Realne sprawy, realne terminy",
     "subtitle": "Pokazujemy bez upiększeń: co, w jakim czasie i z jakim skutkiem. Imiona zmienione na prośbę klientów.",
+    "casesLabel": "spraw",
+    "prev": "Poprzednia",
+    "next": "Następna",
     "items": [
       {
-        "tag": "Karta pobytu · praca",
+        "tag": "Pobyt czasowy · praca",
         "title": "Specjalista IT z Białorusi",
-        "duration": "38 dni",
+        "duration": "≈4 miesiące",
         "outcome": "TRC na 3 lata",
-        "desc": "Pierwszy kontakt w piątek - wniosek w piątek następnego tygodnia. Urząd Mazowiecki wydał decyzję w 38 dni zamiast standardowych 90."
+        "desc": "Komplet dokumentów za pierwszym razem, bez wezwań i uzupełnień. W Mazowieckiem takie sprawy ciągną się nieraz 8-14 miesięcy - tu decyzja zapadła w około 4 dzięki czystej teczce i wnioskowi ściśle wg procedury."
       },
       {
-        "tag": "Spółka · konsulting IT",
-        "title": "Rejestracja Sp. z o.o. od zera",
-        "duration": "7 dni",
-        "outcome": "KRS + konto + VAT",
-        "desc": "Dwóch założycieli z Kazachstanu. S24, uchwała wspólników, konto w mBanku, rejestracja VAT, umowy - gotowe w tydzień roboczy."
+        "tag": "Skarga · przewlekłość",
+        "title": "Sprawa stała 14 miesięcy",
+        "duration": "+9 tygodni",
+        "outcome": "Decyzja + odszkodowanie",
+        "desc": "Klient czekał na kartę pobytu ponad rok bez ruchu. Złożyliśmy ponaglenie, potem skargę na przewlekłość do WSA. Sąd zobowiązał wojewodę do wydania decyzji i przyznał rekompensatę - kartę wydano około 9 tygodni po skardze."
       },
       {
-        "tag": "Apelacja · stały pobyt",
-        "title": "Uchylenie odmowy w Karcie Stałego Pobytu",
-        "duration": "4 miesiące",
-        "outcome": "PR uzyskany",
-        "desc": "Klientce odmówiono PR z powodów formalnych. Złożyliśmy skargę do WSA - sąd uchylił odmowę, wojewoda wydał kartę."
+        "tag": "Sp. z o.o. · S24",
+        "title": "Rejestracja spółki od zera",
+        "duration": "KRS - 2 dni",
+        "outcome": "KRS + NIP + REGON",
+        "desc": "Dwóch założycieli z Kazachstanu. Przez S24 sąd wpisał spółkę do KRS w 2 dni robocze, NIP i REGON nadane automatycznie. Konto w mBanku i VAT-R załatwiliśmy w ciągu kolejnych ~3 tygodni."
+      },
+      {
+        "tag": "VAT-R · podatki",
+        "title": "VAT pod kontrakt z UE",
+        "duration": "≈3 tygodnie",
+        "outcome": "Czynny VAT + VAT-UE",
+        "desc": "Spółka potrzebowała statusu czynnego podatnika VAT i VAT-UE pod kontrahenta z Unii. Przygotowaliśmy VAT-R i wyjaśnienia - US zarejestrował bez wzywania do wyjaśnień w około 3 tygodnie."
+      },
+      {
+        "tag": "Niebieska Karta UE",
+        "title": "Senior developer z Rosji",
+        "duration": "≈5 miesięcy",
+        "outcome": "Blue Card + rodzina",
+        "desc": "Wynagrodzenie powyżej progu Niebieskiej Karty UE. Zebraliśmy umowę, potwierdzenie kwalifikacji i zakwaterowanie; równolegle złożyliśmy wnioski pobytowe żony i dziecka. Karty po około 5 miesiącach."
+      },
+      {
+        "tag": "Pobyt stały · pochodzenie",
+        "title": "Stały pobyt po pochodzeniu",
+        "duration": "≈7 miesięcy",
+        "outcome": "Karta stałego pobytu",
+        "desc": "Potwierdzenie polskiego pochodzenia plus akty archiwalne. Pozyskaliśmy brakujące dokumenty z USC w Polsce i na Ukrainie. Wojewoda wydał kartę stałego pobytu w około 7 miesięcy."
+      },
+      {
+        "tag": "Obywatelstwo · uznanie",
+        "title": "Obywatelstwo po stałym pobycie",
+        "duration": "≈8 miesięcy",
+        "outcome": "Obywatelstwo polskie",
+        "desc": "Uznanie za obywatela polskiego: potwierdzony stały pobyt, źródło dochodu, język na B1. Wojewoda wydał decyzję pozytywną w około 8 miesięcy."
+      },
+      {
+        "tag": "Odwołanie · pobyt",
+        "title": "Uchylenie odmowy pobytu",
+        "duration": "≈5 miesięcy",
+        "outcome": "Odmowa uchylona, karta wydana",
+        "desc": "Wojewoda odmówił, powołując się na niewykazany cel pobytu. Złożyliśmy odwołanie do Szefa Urzędu ds. Cudzoziemców z dodatkowymi dowodami - decyzję uchylono, kartę wydano."
+      },
+      {
+        "tag": "Pobyt czasowy · rodzina",
+        "title": "Połączenie rodziny",
+        "duration": "≈6 miesięcy",
+        "outcome": "Karty dla żony i 2 dzieci",
+        "desc": "Posiadacz karty pobytu sprowadzał rodzinę. Przygotowaliśmy potwierdzenie zakwaterowania, dochodu i ubezpieczenia dla każdego. Wszystkie trzy karty wydano w około 6 miesięcy."
+      },
+      {
+        "tag": "Zezwolenie · zmiana pracy",
+        "title": "Zmiana pracodawcy bez utraty statusu",
+        "duration": "W terminie 15 dni",
+        "outcome": "Praca pozostała legalna",
+        "desc": "Klient zmieniał pracę w trakcie jednego zezwolenia. W ustawowym terminie 15 dni złożyliśmy powiadomienie o zmianie pracodawcy - osoba dalej pracowała legalnie, nowe zezwolenie procedowane osobno."
+      },
+      {
+        "tag": "VAT · przywrócenie",
+        "title": "Wykreślenie spółki z VAT",
+        "duration": "≈3 tygodnie",
+        "outcome": "Status VAT przywrócony",
+        "desc": "US wykreślił spółkę z rejestru VAT za formalną nieaktywność. Przygotowaliśmy wyjaśnienia i dowody realnej działalności - status czynny przywrócono, kontrakty nie przepadły."
+      },
+      {
+        "tag": "Skarga · WSA",
+        "title": "Uchylenie odmowy stałego pobytu",
+        "duration": "≈11 miesięcy",
+        "outcome": "Odmowa uchylona przez sąd",
+        "desc": "Klientce odmówiono Karty Stałego Pobytu z przyczyn formalnych. Przeszliśmy odwołanie, potem skargę do WSA - sąd uchylił odmowę, przy ponownym rozpoznaniu kartę wydano. Sprawa długa, ale wygrana."
       }
     ]
   },
