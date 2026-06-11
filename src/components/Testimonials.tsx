@@ -8,7 +8,7 @@ import { Reveal } from './Reveal';
 import { ReviewForm } from './ReviewForm';
 import { cn } from '@/lib/cn';
 
-type Testimonial = { text: string; author: string; role: string };
+type Testimonial = { text: string; author: string };
 
 const PREVIEW_COUNT = 4;
 
@@ -90,12 +90,9 @@ export function Testimonials({ locale }: { locale: string }) {
                 <figcaption className="mt-auto flex flex-wrap items-center justify-between gap-4 border-t hairline pt-6">
                   <div className="flex items-center gap-4">
                     <UserAvatar size={44} ariaLabel={it.author} />
-                    <div className="flex flex-col leading-tight">
-                      <span className="text-sm font-medium text-ink-50">
-                        {it.author}
-                      </span>
-                      <span className="text-xs text-ink-400">{it.role}</span>
-                    </div>
+                    <span className="text-sm font-medium text-ink-50">
+                      {it.author}
+                    </span>
                   </div>
                   <div className="flex items-center gap-0.5" aria-label={t('starsLabel')}>
                     {Array.from({ length: 5 }).map((_, s) => (

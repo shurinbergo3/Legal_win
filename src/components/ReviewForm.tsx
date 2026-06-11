@@ -9,7 +9,6 @@ import {
   Send,
   User,
   MessageSquare,
-  Briefcase,
   Star,
   Lock,
   Award
@@ -151,25 +150,16 @@ function InnerForm({
         </div>
       )}
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        <Field
-          name="name"
-          label={t('name')}
-          placeholder={t('namePlaceholder')}
-          autoComplete="name"
-          Icon={User}
-          required
-          defaultValue={values.name}
-          error={fieldErrors.name && t('validation.nameMin')}
-        />
-        <Field
-          name="role"
-          label={t('role')}
-          placeholder={t('rolePlaceholder')}
-          Icon={Briefcase}
-          defaultValue={values.role}
-        />
-      </div>
+      <Field
+        name="name"
+        label={t('name')}
+        placeholder={t('namePlaceholder')}
+        autoComplete="name"
+        Icon={User}
+        required
+        defaultValue={values.name}
+        error={fieldErrors.name && t('validation.nameMin')}
+      />
 
       <RatingPicker error={fieldErrors.rating && t('validation.ratingRequired')} />
 
