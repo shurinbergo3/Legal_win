@@ -19,7 +19,7 @@ const pracaKierowcaTaxi: ServiceEntry = {
       title: 'Что мы делаем для водителя',
       subtitle: 'От обмена прав до первого заказа - под ключ.',
       items: [
-        { title: 'Wymiana prawa jazdy (обмен прав)', desc: 'Меняем украинские, белорусские, российские права на польские категории B. Для не-ЕС - сдача теории на польском, данные вносятся в CEPiK. Без этого с 17.06.2024 в такси не пускают.' },
+        { title: 'Wymiana prawa jazdy (обмен прав)', desc: 'Меняем практически любые иностранные права - украинские, белорусские, российские, азербайджанские, турецкие, грузинские и другие - на польские категории B. Для не-ЕС - сдача теории на польском, данные вносятся в CEPiK. Без этого с 17.06.2024 в такси не пускают.' },
         { title: 'Licencja na taxi (лицензия на такси)', desc: 'Получаем лицензию в urząd miasta/gmina под ваш город или подключаем к partner flotowy (партнёр-флот), у которого лицензия уже есть.' },
         { title: 'Badania lekarskie i psychologiczne (медкомиссия)', desc: 'Организуем обязательные медицинский и психологический осмотры для водителя такси. Записываем к проверенным врачам, ведём до выдачи orzeczenia (заключения).' },
         { title: 'Zaświadczenie o niekaralności (справка о несудимости)', desc: 'Берём свежую KRK (польскую справку о несудимости, до 30 дней) и присяжный перевод справки из страны происхождения - платформа обязана проверять niekaralność (несудимость).' },
@@ -104,7 +104,7 @@ const pracaKierowcaTaxi: ServiceEntry = {
       title: 'Co robimy dla kierowcy',
       subtitle: 'Od wymiany prawa jazdy do pierwszego kursu - pod klucz.',
       items: [
-        { title: 'Wymiana prawa jazdy', desc: 'Wymieniamy ukraińskie, białoruskie i rosyjskie prawo jazdy na polskie kat. B. Dla spoza UE - egzamin teoretyczny po polsku, dane trafiają do CEPiK. Bez tego od 17.06.2024 nie wpuszczą do taksówki.' },
+        { title: 'Wymiana prawa jazdy', desc: 'Wymieniamy praktycznie każde zagraniczne prawo jazdy - ukraińskie, białoruskie, rosyjskie, azerbejdżańskie, tureckie, gruzińskie i inne - na polskie kat. B. Dla spoza UE - egzamin teoretyczny po polsku, dane trafiają do CEPiK. Bez tego od 17.06.2024 nie wpuszczą do taksówki.' },
         { title: 'Licencja na taxi', desc: 'Uzyskujemy licencję w urzędzie miasta/gminy pod Twoje miasto albo podłączamy do partnera flotowego, który licencję już ma.' },
         { title: 'Badania lekarskie i psychologiczne', desc: 'Organizujemy obowiązkowe badania lekarskie i psychologiczne kierowcy taksówki. Umawiamy do sprawdzonych lekarzy, prowadzimy do wydania orzeczenia.' },
         { title: 'Zaświadczenie o niekaralności', desc: 'Bierzemy świeże KRK (polskie zaświadczenie o niekaralności, do 30 dni) i tłumaczenie przysięgłe zaświadczenia z kraju pochodzenia - platforma musi weryfikować niekaralność.' },
@@ -189,7 +189,7 @@ const pracaKierowcaTaxi: ServiceEntry = {
       title: 'What we do for the driver',
       subtitle: 'From licence exchange to the first ride - turnkey.',
       items: [
-        { title: 'Wymiana prawa jazdy (licence exchange)', desc: 'We swap Ukrainian, Belarusian and Russian licences for a Polish cat. B. Non-EU drivers sit a Polish theory exam; data goes into CEPiK. Without this, since 17.06.2024 you cannot drive taxi.' },
+        { title: 'Wymiana prawa jazdy (licence exchange)', desc: 'We swap practically any foreign licence - Ukrainian, Belarusian, Russian, Azerbaijani, Turkish, Georgian and others - for a Polish cat. B. Non-EU drivers sit a Polish theory exam; data goes into CEPiK. Without this, since 17.06.2024 you cannot drive taxi.' },
         { title: 'Licencja na taxi (taxi licence)', desc: 'We obtain the licence at the city/gmina office for your city, or plug you into a partner flotowy (fleet partner) who already holds one.' },
         { title: 'Badania lekarskie i psychologiczne (medical & psych check)', desc: 'We arrange the mandatory medical and psychological exams for a taxi driver. We book trusted doctors and see it through to the orzeczenie (certificate).' },
         { title: 'Zaświadczenie o niekaralności (criminal-record certificate)', desc: 'We pull a fresh KRK (Polish criminal-record certificate, under 30 days) and a sworn translation of your home-country certificate - the platform must verify niekaralność (no criminal record).' },
@@ -274,7 +274,7 @@ const pracaKierowcaTaxi: ServiceEntry = {
       title: 'Şoför için ne yapıyoruz',
       subtitle: 'Ehliyet değişiminden ilk yolculuğa kadar - anahtar teslim.',
       items: [
-        { title: 'Wymiana prawa jazdy (ehliyet değişimi)', desc: 'Ukrayna, Belarus ve Rusya ehliyetlerini Polonya B sınıfına çeviririz. AB dışı için Lehçe teori sınavı, veriler CEPiK\'e işlenir. Bu olmadan 17.06.2024\'ten beri taksiye alınmazsınız.' },
+        { title: 'Wymiana prawa jazdy (ehliyet değişimi)', desc: 'Neredeyse her yabancı ehliyeti - Ukrayna, Belarus, Rusya, Azerbaycan, Türkiye, Gürcistan ve diğerleri - Polonya B sınıfına çeviririz. AB dışı için Lehçe teori sınavı, veriler CEPiK\'e işlenir. Bu olmadan 17.06.2024\'ten beri taksiye alınmazsınız.' },
         { title: 'Licencja na taxi (taksi lisansı)', desc: 'Şehriniz için urząd miasta/gmina\'dan (belediye) lisansı alırız ya da lisansı zaten olan bir partner flotowy\'ye (filo ortağı) bağlarız.' },
         { title: 'Badania lekarskie i psychologiczne (sağlık ve psikolojik muayene)', desc: 'Taksi şoförü için zorunlu tıbbi ve psikolojik muayeneleri organize ederiz. Güvenilir doktorlara randevu alır, orzeczenie (rapor) çıkana kadar takip ederiz.' },
         { title: 'Zaświadczenie o niekaralności (sabıka kaydı belgesi)', desc: 'Güncel KRK\'yi (Polonya sabıka kaydı belgesi, 30 günden eski olmayan) ve menşe ülke belgesinin yeminli tercümesini alırız - platform niekaralność\'ı (sabıkasızlık) doğrulamak zorundadır.' },
@@ -359,7 +359,7 @@ const pracaKierowcaTaxi: ServiceEntry = {
       title: 'Що ми робимо для водія',
       subtitle: 'Від обміну прав до першого замовлення - під ключ.',
       items: [
-        { title: 'Wymiana prawa jazdy (обмін прав)', desc: 'Міняємо українські, білоруські, російські права на польські категорії B. Для не-ЄС - складання теорії польською, дані вносяться до CEPiK. Без цього з 17.06.2024 у таксі не пускають.' },
+        { title: 'Wymiana prawa jazdy (обмін прав)', desc: 'Міняємо практично будь-які іноземні права - українські, білоруські, російські, азербайджанські, турецькі, грузинські та інші - на польські категорії B. Для не-ЄС - складання теорії польською, дані вносяться до CEPiK. Без цього з 17.06.2024 у таксі не пускають.' },
         { title: 'Licencja na taxi (ліцензія на таксі)', desc: 'Отримуємо ліцензію в urząd miasta/gmina під ваше місто або підключаємо до partner flotowy (партнер-флот), у якого ліцензія вже є.' },
         { title: 'Badania lekarskie i psychologiczne (медкомісія)', desc: 'Організовуємо обов’язкові медичний і психологічний огляди для водія таксі. Записуємо до перевірених лікарів, ведемо до видачі orzeczenia (висновку).' },
         { title: 'Zaświadczenie o niekaralności (довідка про несудимість)', desc: 'Беремо свіже KRK (польську довідку про несудимість, до 30 днів) і присяжний переклад довідки з країни походження - платформа зобов’язана перевіряти niekaralność (несудимість).' },

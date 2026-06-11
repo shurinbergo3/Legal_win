@@ -17,13 +17,15 @@ type GlowConfig = {
   ambientOpacity: number;
 };
 
+// Each category gets its own jewel-tone glow. Moderate saturation keeps it luxurious
+// on the dark navy rather than candy-bright; gold leads as the flagship/brand hue.
 const groupMeta: Record<GroupKey, GlowConfig> = {
-  immigration: { Icon: Fingerprint, rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
-  documents:   { Icon: FileText,    rgb: '34, 211, 238',  spotOpacity: 0.13, lineOpacity: 0.75, ambientOpacity: 0.04  },
-  business:    { Icon: Building2,   rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
-  realestate:  { Icon: Home,        rgb: '148, 163, 184', spotOpacity: 0.10, lineOpacity: 0.6,  ambientOpacity: 0.03  },
-  relocation:  { Icon: Plane,       rgb: '34, 211, 238',  spotOpacity: 0.13, lineOpacity: 0.75, ambientOpacity: 0.04  },
-  auto:        { Icon: Car,         rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
+  immigration: { Icon: Fingerprint, rgb: '202, 138, 4',   spotOpacity: 0.19, lineOpacity: 0.9,  ambientOpacity: 0.08 }, // gold
+  documents:   { Icon: FileText,    rgb: '34, 211, 238',  spotOpacity: 0.17, lineOpacity: 0.8,  ambientOpacity: 0.07 }, // cyan
+  business:    { Icon: Building2,   rgb: '52, 211, 153',  spotOpacity: 0.17, lineOpacity: 0.8,  ambientOpacity: 0.07 }, // emerald
+  realestate:  { Icon: Home,        rgb: '167, 139, 250', spotOpacity: 0.18, lineOpacity: 0.82, ambientOpacity: 0.075 }, // amethyst
+  relocation:  { Icon: Plane,       rgb: '56, 189, 248',  spotOpacity: 0.17, lineOpacity: 0.8,  ambientOpacity: 0.07 }, // sky
+  auto:        { Icon: Car,         rgb: '251, 113, 133', spotOpacity: 0.17, lineOpacity: 0.8,  ambientOpacity: 0.07 }, // rose
 };
 
 const groupOrder: GroupKey[] = [
@@ -119,9 +121,9 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
           the glow never meets a container edge at full opacity (kills the "square" look). */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -left-10 -top-12 h-72 w-[55%] blur-[80px]"
+        className="pointer-events-none absolute -left-16 -top-20 h-96 w-[66%] blur-[95px]"
         style={{
-          background: `radial-gradient(ellipse at 34% 38%, rgba(${rgb}, ${ambientOpacity * 2.2}) 0%, transparent 70%)`
+          background: `radial-gradient(ellipse at 34% 38%, rgba(${rgb}, ${ambientOpacity * 2.3}) 0%, transparent 72%)`
         }}
       />
 
@@ -143,9 +145,9 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
       {/* Layer 3: hover - brighter blurred spot light, same edge-free treatment as Layer 1 */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -left-10 -top-16 h-96 w-[60%] opacity-0 blur-[90px] transition-opacity duration-700 group-hover:opacity-100"
+        className="pointer-events-none absolute -left-16 -top-24 h-[28rem] w-[72%] opacity-0 blur-[105px] transition-opacity duration-700 group-hover:opacity-100"
         style={{
-          background: `radial-gradient(ellipse at 34% 38%, rgba(${rgb}, ${spotOpacity * 1.35}) 0%, transparent 68%)`
+          background: `radial-gradient(ellipse at 34% 38%, rgba(${rgb}, ${spotOpacity * 1.4}) 0%, transparent 70%)`
         }}
       />
 

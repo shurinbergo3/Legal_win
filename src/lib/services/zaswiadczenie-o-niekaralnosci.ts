@@ -57,12 +57,12 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     },
     pricing: {
       title: 'Стоимость работы',
-      subtitle: 'Гонорар за справку - от 200 PLN. Госпошлины - отдельно.',
+      subtitle: 'Гонорар за справку - от 300 PLN. Госпошлины - отдельно.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '15 минут · уточнение цели' },
-        { label: 'KRK под ключ', value: 'от 200 PLN', note: 'Wniosek, доверенность, выдача · 7 дней' },
-        { label: 'KRK срочно (1 день)', value: 'от 350 PLN', note: 'e-KRK с приоритетной обработкой' },
-        { label: 'KRK + apostille + перевод', value: 'от 480 PLN', note: 'Для использования за рубежом' }
+        { label: 'KRK под ключ', value: 'от 300 PLN', note: 'Wniosek, доверенность, выдача · 7 дней' },
+        { label: 'KRK срочно (1 день)', value: 'от 530 PLN', note: 'e-KRK с приоритетной обработкой' },
+        { label: 'KRK + apostille + перевод', value: 'от 720 PLN', note: 'Для использования за рубежом' }
       ],
       note: 'Указаны гонорары LegalWin. Госпошлины (20 PLN e-KRK, 30 PLN bumażna, 17 PLN pełnomocnictwo, 60 PLN apostille) и присяжный перевод (~80 PLN/документ) - отдельно.'
     },
@@ -145,12 +145,12 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     },
     pricing: {
       title: 'Wycena',
-      subtitle: 'Honorarium od 200 PLN. Opłaty osobno.',
+      subtitle: 'Honorarium od 300 PLN. Opłaty osobno.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '15 min · cel' },
-        { label: 'KRK pod klucz', value: 'od 200 PLN', note: 'Wniosek, pełnomocnictwo, odbiór · 7 dni' },
-        { label: 'KRK pilne (1 dzień)', value: 'od 350 PLN', note: 'e-KRK priorytet' },
-        { label: 'KRK + apostille + tłumaczenie', value: 'od 480 PLN', note: 'Do użytku zagranicznego' }
+        { label: 'KRK pod klucz', value: 'od 300 PLN', note: 'Wniosek, pełnomocnictwo, odbiór · 7 dni' },
+        { label: 'KRK pilne (1 dzień)', value: 'od 530 PLN', note: 'e-KRK priorytet' },
+        { label: 'KRK + apostille + tłumaczenie', value: 'od 720 PLN', note: 'Do użytku zagranicznego' }
       ],
       note: 'Powyżej honoraria LegalWin. Opłaty (20/30 PLN, 17 PLN pełn., 60 PLN apostille) i tłumaczenia (~80 PLN) - osobno.'
     },
@@ -233,12 +233,12 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     },
     pricing: {
       title: "Our fee",
-      subtitle: "From 200 PLN. State fees and translation billed separately.",
+      subtitle: "From 300 PLN. State fees and translation billed separately.",
       items: [
         { label: "Consultation", value: "Free", note: "15 minutes · we confirm the right form" },
-        { label: "Turnkey KRK", value: "from 200 PLN", note: "Wniosek, PoA, pickup · 1-3 days" },
-        { label: "Same-day rush", value: "from 350 PLN", note: "Filed at Czerniakowska, collected same day" },
-        { label: "KRK + apostille + sworn translation", value: "from 480 PLN", note: "Ready for foreign use" }
+        { label: "Turnkey KRK", value: "from 300 PLN", note: "Wniosek, PoA, pickup · 1-3 days" },
+        { label: "Same-day rush", value: "from 530 PLN", note: "Filed at Czerniakowska, collected same day" },
+        { label: "KRK + apostille + sworn translation", value: "from 720 PLN", note: "Ready for foreign use" }
       ],
       note: "LegalWin fees only. State fees (20 PLN ePUAP, 30 PLN paper, 17 PLN PoA, 60 PLN apostille) and sworn translation (~80 PLN per page) are billed at cost."
     },
@@ -321,12 +321,12 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     },
     pricing: {
       title: 'Hizmet bedelimiz',
-      subtitle: 'Belge başına 200 PLN\'den. Resmi harçlar ayrıdır.',
+      subtitle: 'Belge başına 300 PLN\'den. Resmi harçlar ayrıdır.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '15 dakika · amaç netleştirme' },
-        { label: 'Anahtar teslim KRK', value: '200 PLN\'den', note: 'Wniosek, vekaletname, teslim · 7 gün' },
-        { label: 'Acil KRK (1 gün)', value: '350 PLN\'den', note: 'Öncelikli e-KRK işlem' },
-        { label: 'KRK + apostille + tercüme', value: '480 PLN\'den', note: 'Yurt dışı kullanım için' }
+        { label: 'Anahtar teslim KRK', value: '300 PLN\'den', note: 'Wniosek, vekaletname, teslim · 7 gün' },
+        { label: 'Acil KRK (1 gün)', value: '530 PLN\'den', note: 'Öncelikli e-KRK işlem' },
+        { label: 'KRK + apostille + tercüme', value: '720 PLN\'den', note: 'Yurt dışı kullanım için' }
       ],
       note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. Resmi harçlar (20 PLN e-KRK, 30 PLN kağıt, 17 PLN pełnomocnictwo, 60 PLN apostille) ve yeminli tercüme (~80 PLN/belge) ayrıca ödenir.'
     },
@@ -409,12 +409,12 @@ const zaswiadczenieONiekaralnosci: ServiceEntry = {
     },
     pricing: {
       title: 'Вартість роботи',
-      subtitle: 'Гонорар за довідку — від 200 PLN. Держмита — окремо.',
+      subtitle: 'Гонорар за довідку — від 300 PLN. Держмита — окремо.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '15 хвилин · уточнення мети' },
-        { label: 'KRK під ключ', value: 'від 200 PLN', note: 'Wniosek, довіреність, видача · 7 днів' },
-        { label: 'KRK терміново (1 день)', value: 'від 350 PLN', note: 'e-KRK з пріоритетною обробкою' },
-        { label: 'KRK + apostille + переклад', value: 'від 480 PLN', note: 'Для використання за кордоном' }
+        { label: 'KRK під ключ', value: 'від 300 PLN', note: 'Wniosek, довіреність, видача · 7 днів' },
+        { label: 'KRK терміново (1 день)', value: 'від 530 PLN', note: 'e-KRK з пріоритетною обробкою' },
+        { label: 'KRK + apostille + переклад', value: 'від 720 PLN', note: 'Для використання за кордоном' }
       ],
       note: 'Зазначено гонорари LegalWin. Держмита (20 PLN e-KRK, 30 PLN паперова, 17 PLN pełnomocnictwo, 60 PLN apostille) і присяжний переклад (~80 PLN/документ) — окремо.'
     },
