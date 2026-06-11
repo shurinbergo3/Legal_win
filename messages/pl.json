@@ -223,6 +223,14 @@
             "desc": "CV w polskim standardzie, zezwolenie na pracę"
           },
           {
+            "name": "Praca kierowca taxi (Bolt, Uber)",
+            "desc": "Bolt, Uber, FreeNow: od 17.06.2024 wymagane polskie prawo jazdy. Załatwimy wymianę prawa jazdy, licencję na taxi, badania i niekaralność"
+          },
+          {
+            "name": "Praca kierowca C+E (międzynarodowy)",
+            "desc": "Transport międzynarodowy C+E: Kod 95, karta kierowcy, zezwolenie - załatwimy uprawnienia i pomożemy z pracą"
+          },
+          {
             "name": "Zapis dzieci do szkoły",
             "desc": "Obowiązek szkolny i klasa powitalna"
           }
@@ -234,24 +242,28 @@
         "lead": "Samochód w Polsce pod klucz: rejestracja, ubezpieczenie, przegląd i prawo jazdy — bez wizyt w urzędach.",
         "items": [
           {
-            "name": "Rejestracja i przerejestrowanie auta",
-            "desc": "Rejestracja i zmiana właściciela: weryfikacja dokumentów, tłumaczenia, wniosek do wydziału komunikacji, sprowadzenie i akcyza"
-          },
-          {
-            "name": "Ubezpieczenie OC / AC",
-            "desc": "Dobór i zawarcie OC, AC, NNW — także bez PESEL. Przeniesienie zniżek z zagranicy, pomoc przy zakupie używanego"
-          },
-          {
-            "name": "Przegląd techniczny",
-            "desc": "Zapis na stację SKP, asysta i tłumaczenie, badanie zerowe przy sprowadzeniu. Aktualne ceny i terminy 2025-2026"
-          },
-          {
             "name": "Wymiana prawa jazdy",
             "desc": "Wymiana zagranicznego prawa jazdy na polskie: tłumaczenia przysięgłe, badania lekarskie i psychotechniczne, zapis i obsługa w WORD"
           },
           {
             "name": "Kod 95 (kwalifikacja kierowcy)",
             "desc": "Kwalifikacja zawodowa dla kategorii C/CE/D/DE: kwalifikacja wstępna lub szkolenie okresowe (35 h / 5 lat). Dobór OSK, dokumenty, egzamin w WORD"
+          },
+          {
+            "name": "Karta kierowcy (tachograf)",
+            "desc": "Karta kierowcy do tachografu cyfrowego: wniosek przez info-car, także dla obcokrajowców bez PESEL. Opłata PWPW 172,20 zł"
+          },
+          {
+            "name": "Rejestracja i przerejestrowanie auta",
+            "desc": "Rejestracja i przerejestrowanie auta: wydział komunikacji, tablice, dowód rejestracyjny - dla cudzoziemców"
+          },
+          {
+            "name": "Ubezpieczenie OC / AC",
+            "desc": "Obowiązkowe OC i dobrowolne AC: dobór polisy, pomoc po stłuczce i przy odszkodowaniu"
+          },
+          {
+            "name": "Przegląd techniczny",
+            "desc": "Przegląd techniczny na SKP: zapis, asysta, badanie zerowe pojazdu sprowadzonego"
           }
         ]
       }
@@ -601,41 +613,41 @@
       {
         "tag": "Konsultacja",
         "q": "Ile kosztuje pierwsza konsultacja?",
-        "a": "Pierwsza konsultacja jest bezpłatna. Przeanalizujemy Twoją sytuację, powiemy, jakie dokumenty są naprawdę potrzebne, i podamy terminy oraz koszt, zanim cokolwiek zapłacisz. Jeśli potrzebna będzie głęboka analiza dokumentów lub pisemna opinia, kolejne spotkania kosztują od 200 PLN w zależności od złożoności."
+        "a": "Pierwsza konsultacja jest bezpłatna. Przeanalizujemy sytuację, powiemy, jakie dokumenty są naprawdę potrzebne, i podamy terminy oraz koszt, zanim cokolwiek zapłacisz. Głęboka analiza dokumentów lub pisemna opinia — od 200 PLN w zależności od złożoności."
+      },
+      {
+        "tag": "Zatrudnienie",
+        "q": "Czy legalny pobyt oznacza legalną pracę?",
+        "a": "Nie. To dwie odrębne kwestie. Cudzoziemiec może przebywać legalnie, ale do pracy potrzebuje osobnej podstawy — oświadczenia o powierzeniu pracy albo zezwolenia na pracę. Sprawdzimy status pobytowy pracownika i dobierzemy właściwy dokument."
+      },
+      {
+        "tag": "Ukraińcy",
+        "q": "Jak zatrudnić obywatela Ukrainy po zmianach w 2026?",
+        "a": "Ustawa z 23 stycznia 2026 r. wygasiła uproszczenia specustawy z 2022 r. Zatrudnienie obywatela Ukrainy nie opiera się już na prostym powiadomieniu — wymagane są standardowe procedury: oświadczenie lub zezwolenie na pracę. Przeprowadzimy przejście bez przerwy w legalności zatrudnienia."
+      },
+      {
+        "tag": "Obowiązki",
+        "q": "Co pracodawca musi sprawdzić przed zatrudnieniem?",
+        "a": "Status pobytowy i jego podstawę, okres legalnego pobytu, podstawę do wykonywania pracy oraz zgodność stanowiska, wynagrodzenia i wymiaru czasu z dokumentami legalizacyjnymi. Od 1 czerwca 2026 r. powiadomienia składa się wyłącznie elektronicznie przez praca.gov.pl. Zajmiemy się tym za Ciebie."
+      },
+      {
+        "tag": "Kary",
+        "q": "Jakie są kary za nielegalne zatrudnienie cudzoziemca?",
+        "a": "Grzywna od 3000 zł za pojedynczy przypadek do nawet 50 000 zł, ustalana proporcjonalnie do liczby nielegalnie zatrudnionych osób. Audyt dokumentów pracowników kosztuje znacznie mniej niż kara — robimy go i wskazujemy, co poprawić."
       },
       {
         "tag": "Terminy",
-        "q": "Ile trwa otrzymanie karty pobytu?",
-        "a": "Średnio 6–8 miesięcy. Ustawowo wojewoda ma do 90 dni, ale w Mazowieckim Urzędzie Wojewódzkim w 2026 r. decyzja zapada realnie po 6–14 miesiącach. Komplet dokumentów i prawidłowe złożenie przez MOS v2.0 trzyma Cię bliżej dolnej granicy. Przy przewlekłości składamy ponaglenie, a w razie potrzeby skargę na bezczynność do WSA."
-      },
-      {
-        "tag": "Karta pobytu",
-        "q": "Czy mogę pracować i wyjeżdżać, gdy sprawa jest w toku?",
-        "a": "Tak, jeśli złożyłeś wniosek w terminie i masz stempel w paszporcie: Twój pobyt w Polsce jest legalny do decyzji wojewody, nawet gdy wiza lub poprzednia karta wygasły. Pracować możesz, gdy masz podstawę — oświadczenie lub zezwolenie na pracę. Wyjazd z Polski na samym stemplu nie gwarantuje jednak powrotu w ramach Schengen, dlatego przed podróżą skonsultuj z nami swoją sytuację."
-      },
-      {
-        "tag": "Płatność",
-        "q": "Co wchodzi w cenę i jak wygląda płatność?",
-        "a": "Honorarium kancelarii i opłaty urzędowe (opłata skarbowa) to osobne kwoty — zawsze pokazujemy je oddzielnie, bez ukrytych dopłat. W większości spraw płatność jest etapowa: część na początku, część na kluczowych etapach. Po pierwszej konsultacji otrzymujesz stałą wycenę dopasowaną do Twojej sprawy."
-      },
-      {
-        "tag": "Apelacja",
-        "q": "Co zrobić, gdy przyszła odmowa?",
-        "a": "Przeanalizujemy przyczyny odmowy (decyzja odmowna) i złożymy odwołanie w ciągu 14 dni — to ustawowy termin. Mamy skuteczne odwołania w sprawach TRC, pobytu stałego, obywatelstwa i ochrony międzynarodowej, w tym przez Wojewódzki Sąd Administracyjny. Nawet gdy termin goni, najpierw pokaż nam decyzję — często sprawę da się jeszcze odwrócić."
-      },
-      {
-        "tag": "Prawo jazdy",
-        "q": "Czy trzeba wymienić zagraniczne prawo jazdy na polskie?",
-        "a": "To zależy od kraju i Twojego statusu. Ukraińskie prawa jazdy osób pod ochroną czasową (PESEL UKR) były ważne do 4 marca 2026 r. — teraz podlegają wymianie na polskie. Wymiana odbywa się bez egzaminów: tłumaczenie przysięgłe, wniosek w wydziale komunikacji, czas od kilku tygodni. Pomożemy skompletować pakiet, zrobić tłumaczenie przysięgłe i złożyć dokumenty bez zbędnych wizyt."
+        "q": "Ile trwa uzyskanie zezwolenia na pracę?",
+        "a": "Ustawowo 30 dni, a w sprawach wymagających postępowania wyjaśniającego do 60 dni. W praktyce bywa dłużej — pilnujemy terminów i w razie przewlekłości składamy ponaglenie."
       },
       {
         "tag": "Kod 95",
-        "q": "Kto potrzebuje kodu 95 i jak go uzyskać?",
-        "a": "Kod 95 to wpis w prawie jazdy, bez którego nie można zarobkowo przewozić rzeczy (kat. C) ani osób (kat. D). Potrzebuje go każdy kierowca zawodowy. Droga jest taka: orzeczenia od lekarza medycyny pracy i psychologa → Profil Kierowcy Zawodowego (PKZ) w wydziale komunikacji → kwalifikacja wstępna i egzamin państwowy z 30 pytań. Ważność to 5 lat, później szkolenie okresowe. Prowadzimy cały proces i tłumaczymy materiały."
+        "q": "Którzy kierowcy potrzebują kodu 95?",
+        "a": "Każdy kierowca zawodowy przewożący zarobkowo rzeczy (kat. C) lub osoby (kat. D). Droga: orzeczenia lekarza medycyny pracy i psychologa → Profil Kierowcy Zawodowego (PKZ) → kwalifikacja wstępna i egzamin państwowy z 30 pytań. Prowadzimy proces dla kierowców i firm transportowych."
       },
       {
         "tag": "Tryb pracy",
-        "q": "Czy pracujecie zdalnie i z innych miast?",
+        "q": "Czy obsługujecie klientów zdalnie i z innych miast?",
         "a": "Tak. Klienci z innych miast Polski i z zagranicy prowadzą sprawy całkowicie online: pełnomocnictwo notarialne, bezpośredni kontakt z opiekunem sprawy i portal klienta ze statusami. Wizyta w biurze przy ul. Świętokrzyskiej 30 w Warszawie nie jest konieczna."
       },
       {
@@ -733,6 +745,8 @@
     "faqEyebrow": "/ pytania",
     "faqTitle": "Najczęstsze pytania",
     "relatedTitle": "Powiązane usługi",
+    "articlesEyebrow": "Blog",
+    "articlesTitle": "Artykuły na ten temat",
     "ctaSubmit": "Wyślij zgłoszenie"
   },
   "Chat": {
@@ -779,6 +793,9 @@
     "back": "Wszystkie artykuły",
     "publishedOn": "Opublikowano",
     "related": "Powiązane materiały",
+    "servicesEyebrow": "Usługi",
+    "servicesTitle": "Usługi w tym temacie",
+    "servicesCta": "Więcej o usłudze",
     "searchPlaceholder": "Szukaj w artykułach, tematach, słowach kluczowych",
     "clearSearch": "Wyczyść wyszukiwanie",
     "allCategories": "Wszystkie tematy",

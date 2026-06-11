@@ -223,6 +223,14 @@
             "desc": "Polish-standard CV, zezwolenie na pracę"
           },
           {
+            "name": "Taxi driver jobs (Bolt, Uber)",
+            "desc": "Bolt, Uber, FreeNow: a Polish licence is required since 17 June 2024. We handle licence exchange, the taxi licence, medicals and the criminal-record check"
+          },
+          {
+            "name": "Truck driver jobs (C+E)",
+            "desc": "International C+E haulage: Code 95, the driver (tachograph) card, work permit - we arrange the qualifications and help you find the job"
+          },
+          {
             "name": "School enrolment",
             "desc": "Obowiązek szkolny and klasa powitalna placement"
           }
@@ -234,24 +242,28 @@
         "lead": "Your car in Poland, sorted: registration, insurance, inspection and licence — without the office queues.",
         "items": [
           {
-            "name": "Vehicle registration",
-            "desc": "Registration and ownership transfer: document check, translations, filing at the wydział komunikacji, import and excise"
-          },
-          {
-            "name": "Car insurance OC / AC",
-            "desc": "OC, AC and NNW selection and purchase — even without a PESEL. Foreign no-claims transfer, used-car help"
-          },
-          {
-            "name": "Technical inspection",
-            "desc": "SKP station booking, on-site help and translation, zero inspection on import. Up-to-date 2025-2026 prices and intervals"
-          },
-          {
             "name": "Driver's licence exchange",
             "desc": "Swap your national licence for a Polish one: sworn translations, badania lekarskie & psychotest, WORD booking and on-site support"
           },
           {
             "name": "Code 95 (driver CPC)",
             "desc": "Professional qualification for C/CE/D/DE: kwalifikacja wstępna or szkolenie okresowe (35 h / 5 yrs). OSK selection, paperwork, WORD exam"
+          },
+          {
+            "name": "Driver card (tachograph)",
+            "desc": "Driver card for the digital tachograph: filed via info-car, also for foreigners without PESEL. PWPW fee 172.20 zł"
+          },
+          {
+            "name": "Vehicle registration",
+            "desc": "Registering or re-registering a car in Poland: plates, registration certificate - for foreigners"
+          },
+          {
+            "name": "Car insurance OC / AC",
+            "desc": "Compulsory OC and optional AC cover: choosing a policy, help after an accident and with claims"
+          },
+          {
+            "name": "Technical inspection",
+            "desc": "Technical inspection at an SKP station: booking, assistance, zero-inspection for imported cars"
           }
         ]
       }
@@ -609,9 +621,19 @@
         "a": "On average 6–8 months. The statutory deadline for the wojewoda (regional governor) is 90 days, but in Mazowieckie Voivodeship in 2026 decisions realistically take 6–14 months. A full document pack and a clean MOS v2.0 filing keep you closer to the lower bound. If it drags, we file a ponaglenie (motion to expedite) and, if needed, a skarga na bezczynność (complaint of inaction) to the Voivodeship Administrative Court."
       },
       {
-        "tag": "Residence",
-        "q": "Can I work and travel while my case is pending?",
-        "a": "Yes — if you filed the wniosek (application) on time and got the stamp in your passport (stempel), your stay in Poland is legal until the wojewoda decides, even if your visa or previous card has expired. You can work if you have a basis for it (oświadczenie or a work permit). Leaving Poland on the stamp alone does not guarantee re-entry under Schengen, so check your situation with us before travelling."
+        "tag": "Work permit",
+        "q": "Is a residence permit the same as a work permit?",
+        "a": "No — they are separate. A residence permit lets you stay; to work you generally also need a basis such as an oświadczenie (employer's declaration) or a zezwolenie na pracę (work permit). We check your situation and arrange the right one alongside your stay."
+      },
+      {
+        "tag": "Blue Card",
+        "q": "Do I qualify for the EU Blue Card?",
+        "a": "If you have higher qualifications (a degree or equivalent experience) and a job offer paying at least 150% of the national average — about 160,264 PLN gross a year for 2026 applications. The permit runs up to 3 years, the state fee is 440 PLN, and after 12 months you gain EU mobility. We assess eligibility and file through the MOS portal."
+      },
+      {
+        "tag": "Driving",
+        "q": "Can I exchange my non-EU driving licence for a Polish one?",
+        "a": "Yes. You will need a sworn translation (tłumacz przysięgły), an application at the wydział komunikacji (traffic department) and the fee (100.50 PLN); licences from non–Vienna-Convention countries also need a medical certificate. Total cost is usually 180–300 PLN. Once you have lived here over 185 days a year, the exchange is required — we handle the paperwork end to end."
       },
       {
         "tag": "Payment",
@@ -621,17 +643,7 @@
       {
         "tag": "Appeal",
         "q": "What should I do if I'm denied?",
-        "a": "We analyse the grounds for refusal (decyzja odmowna) and file an appeal (odwołanie) within 14 days — the statutory window. We have successful appeals on TRC, permanent residence, citizenship and international protection, including through the Voivodeship Administrative Court. Even when the clock is tight, show us the decision first — a case can often still be turned around."
-      },
-      {
-        "tag": "Driving",
-        "q": "Do I need to exchange my foreign licence for a Polish one?",
-        "a": "It depends on the country and your status. Ukrainian licences held under temporary protection (PESEL UKR) were valid until 4 March 2026 — they now have to be exchanged for a Polish one. The exchange needs no exams: a sworn translation, an application at the wydział komunikacji (traffic department), and a few weeks’ wait. We help assemble the pack, arrange the tłumaczenie przysięgłe (sworn translation) and file without extra visits."
-      },
-      {
-        "tag": "Kod 95",
-        "q": "Who needs Kod 95 and how do you get it?",
-        "a": "Kod 95 is an entry on your licence; without it you can't carry goods (cat. C) or passengers (cat. D) for a living. Every professional driver needs it. The path: medical and psychological clearance → a Professional Driver Profile (PKZ) at the wydział komunikacji → initial qualification (kwalifikacja wstępna) and a 30-question state exam. It's valid for 5 years, then periodic training (szkolenie okresowe). We run the whole process and translate the materials."
+        "a": "We analyse the grounds for refusal (decyzja odmowna) and file an appeal (odwołanie) within 14 days — the statutory window. We have successful appeals on TRC, permanent residence, citizenship and international protection, including through the Voivodeship Administrative Court. Even when the clock is tight, show us the decision first."
       },
       {
         "tag": "Remote",
@@ -733,6 +745,8 @@
     "faqEyebrow": "/ questions",
     "faqTitle": "Frequently asked",
     "relatedTitle": "Related services",
+    "articlesEyebrow": "Journal",
+    "articlesTitle": "Articles on this topic",
     "ctaSubmit": "Send request"
   },
   "Chat": {
@@ -779,6 +793,9 @@
     "back": "All articles",
     "publishedOn": "Published",
     "related": "Related reading",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Related services",
+    "servicesCta": "Learn more",
     "searchPlaceholder": "Search articles, topics, keywords",
     "clearSearch": "Clear search",
     "allCategories": "All topics",

@@ -219,6 +219,27 @@ const nameBySlug: Record<string, string[]> = {
     'Technical inspection',
     'Teknik muayene',
     'Техогляд (przegląd techniczny)'
+  ],
+  'praca-kierowca-taxi': [
+    'Работа в такси (Bolt, Uber)',
+    'Praca kierowca taxi (Bolt, Uber)',
+    'Taxi driver jobs (Bolt, Uber)',
+    'Taksi şoförü işi (Bolt, Uber)',
+    'Робота в таксі (Bolt, Uber)'
+  ],
+  'praca-kierowca-ciezarowka': [
+    'Работа дальнобойщиком (C+E)',
+    'Praca kierowca C+E (międzynarodowy)',
+    'Truck driver jobs (C+E)',
+    'Tır şoförü işi (C+E)',
+    'Робота далекобійником (C+E)'
+  ],
+  'karta-kierowcy': [
+    'Карта водителя (тахограф)',
+    'Karta kierowcy (tachograf)',
+    'Driver card (tachograph)',
+    'Sürücü kartı (takograf)',
+    'Картка водія (тахограф)'
   ]
 };
 

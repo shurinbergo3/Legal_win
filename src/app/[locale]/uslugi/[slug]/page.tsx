@@ -7,6 +7,7 @@ import { Chatbot } from '@/components/Chatbot';
 import { ServiceDetail } from '@/components/ServiceDetail';
 import { JsonLd } from '@/components/JsonLd';
 import { getService, services, serviceSlugs } from '@/lib/services';
+import { getPostsForService } from '@/lib/blog';
 import { INDEX_LOCALES, routing } from '@/i18n/routing';
 import {
   OG_IMAGE_HEIGHT,
@@ -1048,6 +1049,120 @@ const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
       'how often technical inspection Poland',
       'badanie techniczne for foreigners'
     ]
+  },
+  'praca-kierowca-taxi': {
+    ru: [
+      'работа в такси в Польше',
+      'работа водителем Bolt Польша',
+      'работа Uber Польша',
+      'как стать водителем Bolt в Польше',
+      'работа в такси с украинскими правами',
+      'нужны ли польские права для такси',
+      'сколько зарабатывает таксист в Польше',
+      'лицензия на такси Польша иностранцу'
+    ],
+    pl: [
+      'praca kierowca taxi',
+      'praca kierowca Bolt',
+      'praca kierowca Uber Warszawa',
+      'jak zostać kierowcą Bolt 2026',
+      'licencja na taxi cudzoziemiec',
+      'kierowca Bolt bez polskiego prawa jazdy',
+      'ile zarabia kierowca taxi w Polsce',
+      'badania i niekaralność kierowca taxi'
+    ],
+    en: [
+      'taxi driver jobs Poland',
+      'Bolt driver Poland',
+      'Uber driver Warsaw',
+      'how to become Bolt driver Poland',
+      'taxi licence Poland foreigner',
+      'drive taxi Poland with foreign licence',
+      'taxi driver salary Poland'
+    ],
+    uk: [
+      'робота водієм таксі в Польщі',
+      'робота Bolt Польща',
+      'робота Uber Польща',
+      'як стати водієм Bolt',
+      'робота в таксі з українськими правами',
+      'чи потрібні польські права для таксі',
+      'скільки заробляє таксист у Польщі'
+    ]
+  },
+  'praca-kierowca-ciezarowka': {
+    ru: [
+      'работа дальнобойщиком в Польше',
+      'работа водителем C+E Польша',
+      'вакансии водителя фуры Польша',
+      'работа водителем международником Польша',
+      'зарплата дальнобойщика в Польше 2026',
+      'работа TIR Польша без знания польского',
+      'нужен ли код 95 водителю',
+      'работа дальнобойщиком с украинскими правами'
+    ],
+    pl: [
+      'praca kierowca C+E',
+      'praca kierowca międzynarodowy',
+      'praca kierowca ciężarówki',
+      'praca kierowca tir',
+      'praca kierowca C+E z kodem 95',
+      'ile zarabia kierowca C+E 2026',
+      'kierowca C+E dla obcokrajowca',
+      'praca kierowca C+E zagranica'
+    ],
+    en: [
+      'truck driver jobs Poland',
+      'C+E driver jobs Poland',
+      'international truck driver Poland',
+      'HGV driver Poland foreigner',
+      'truck driver salary Poland',
+      'C+E driver with Code 95'
+    ],
+    uk: [
+      'робота далекобійником у Польщі',
+      'робота водієм C+E',
+      'вакансії водія фури Польща',
+      'робота міжнародником Польща',
+      'зарплата далекобійника в Польщі',
+      'код 95 для водія'
+    ]
+  },
+  'karta-kierowcy': {
+    ru: [
+      'карта водителя тахограф Польша',
+      'как сделать карту водителя в Польше',
+      'карта водителя для иностранца',
+      'карта водителя цена Польша',
+      'karta kierowcy для украинца',
+      'оформить карту водителя info-car',
+      'карта водителя без PESEL'
+    ],
+    pl: [
+      'karta kierowcy',
+      'karta kierowcy tachograf',
+      'karta kierowcy wniosek',
+      'karta kierowcy cena 2026',
+      'jak wyrobić kartę kierowcy',
+      'karta kierowcy dla Ukraińca',
+      'karta kierowcy dla obcokrajowca',
+      'karta kierowcy PWPW info-car'
+    ],
+    en: [
+      'driver card tachograph Poland',
+      'how to get driver card Poland',
+      'driver card for foreigner Poland',
+      'karta kierowcy cost',
+      'tachograph card application Poland',
+      'driver card without PESEL'
+    ],
+    uk: [
+      'картка водія тахограф Польща',
+      'як зробити картку водія в Польщі',
+      'картка водія для іноземця',
+      'karta kierowcy для українця',
+      'оформити картку водія info-car'
+    ]
   }
 };
 
@@ -1193,6 +1308,8 @@ export default async function ServicePage({
 
   const faq = faqPageLd(content.faq);
 
+  const relatedArticles = getPostsForService(locale, slug, 3);
+
   return (
     <>
       <JsonLd data={breadcrumb} />
@@ -1200,7 +1317,11 @@ export default async function ServicePage({
       <JsonLd data={faq} />
       <Header />
       <main className="relative z-10">
-        <ServiceDetail content={content} locale={locale} />
+        <ServiceDetail
+          content={content}
+          locale={locale}
+          relatedArticles={relatedArticles}
+        />
       </main>
       <Footer />
       <Chatbot />

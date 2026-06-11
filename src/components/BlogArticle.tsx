@@ -1,11 +1,38 @@
-import { ChevronLeft, Plus } from 'lucide-react';
+import {
+  ArrowUpRight,
+  Car,
+  ChevronLeft,
+  Fingerprint,
+  Gavel,
+  Home,
+  IdCard,
+  Landmark,
+  Plus,
+  Scale,
+  Shield
+} from 'lucide-react';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
 import { Link } from '@/i18n/navigation';
 import { serviceBlur } from '@/lib/image-blur';
-import type { BlogPost, BlogPostSummary } from '@/lib/blog';
+import { services } from '@/lib/services';
+import type { ServiceContent } from '@/lib/services/types';
+import { serviceSlugFromRef, type BlogPost, type BlogPostSummary } from '@/lib/blog';
+
+const serviceIconMap = {
+  fingerprint: Fingerprint,
+  shield: Shield,
+  scale: Scale,
+  home: Home,
+  'id-card': IdCard,
+  gavel: Gavel,
+  landmark: Landmark,
+  car: Car
+} as const;
+
+type BlogLoc = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
 type Props = {
   post: BlogPost;
@@ -17,6 +44,9 @@ type Props = {
     related: string;
     faqEyebrow: string;
     faqTitle: string;
+    servicesEyebrow: string;
+    servicesTitle: string;
+    servicesCta: string;
   };
 };
 
@@ -75,6 +105,18 @@ function formatDate(iso: string, locale: string): string {
 export function BlogArticle({ post, related, labels }: Props) {
   const stamp = folioDate(post.publishDate);
   const issue = issueNumber(post.publishDate);
+
+  // Resolve the article's declared services to the current locale. No ru
+  // fallback — on partially-translated locales we'd rather hide the strip than
+  // render mixed-language cards.
+  const safeLocale: BlogLoc = (['ru', 'pl', 'en', 'tr', 'uk'] as const).includes(
+    post.locale as BlogLoc
+  )
+    ? (post.locale as BlogLoc)
+    : 'ru';
+  const relatedServices = (post.relatedServices ?? [])
+    .map((ref) => services[serviceSlugFromRef(ref)]?.[safeLocale])
+    .filter((s): s is ServiceContent => Boolean(s));
 
   return (
     <div className="relative">
@@ -364,6 +406,56 @@ export function BlogArticle({ post, related, labels }: Props) {
                 ))}
               </ul>
             </section>
+          )}
+
+          {relatedServices.length > 0 && (
+            <aside className="mt-14 rounded-3xl border hairline bg-gradient-to-br from-gold-500/[0.07] via-ink-900/30 to-transparent p-7 sm:p-9">
+              <div className="mb-7 flex items-baseline gap-4">
+                <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-gold-300">
+                  {labels.servicesEyebrow}
+                </span>
+                <span
+                  className="h-px flex-1 bg-gradient-to-r from-gold-500/40 to-transparent"
+                  aria-hidden
+                />
+              </div>
+              <h2 className="mb-7 font-display text-2xl font-semibold leading-tight text-ink-50 sm:text-3xl">
+                {labels.servicesTitle}
+              </h2>
+              <ul className="grid gap-4 sm:grid-cols-2">
+                {relatedServices.map((s) => {
+                  const Icon = serviceIconMap[s.icon];
+                  return (
+                    <li key={s.slug}>
+                      <Link
+                        href={`/uslugi/${s.slug}`}
+                        className="group flex h-full items-start gap-4 rounded-2xl border hairline bg-ink-950/60 p-5 transition-all duration-300 hover:border-gold-500/40 hover:bg-ink-900/70"
+                      >
+                        <span className="mt-0.5 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold-400/10 text-gold-400">
+                          <Icon className="h-4 w-4" strokeWidth={1.6} aria-hidden />
+                        </span>
+                        <span className="flex min-w-0 flex-col gap-1">
+                          <span className="font-display text-lg font-semibold leading-snug text-ink-50 transition-colors group-hover:text-gold-300">
+                            {s.title}
+                          </span>
+                          <span className="line-clamp-2 text-sm leading-relaxed text-ink-300">
+                            {s.subtitle}
+                          </span>
+                          <span className="mt-1 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-gold-400/80 transition-colors group-hover:text-gold-300">
+                            {labels.servicesCta}
+                            <ArrowUpRight
+                              className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                              strokeWidth={1.6}
+                              aria-hidden
+                            />
+                          </span>
+                        </span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </aside>
           )}
 
           {related.length > 0 && (

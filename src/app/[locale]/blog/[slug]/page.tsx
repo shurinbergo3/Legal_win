@@ -166,7 +166,10 @@ export default async function BlogPostPage({
             readingTime: t('readingTime'),
             related: t('related'),
             faqEyebrow: t('faqEyebrow'),
-            faqTitle: t('faqTitle')
+            faqTitle: t('faqTitle'),
+            servicesEyebrow: t('servicesEyebrow'),
+            servicesTitle: t('servicesTitle'),
+            servicesCta: t('servicesCta')
           }}
         />
       </main>

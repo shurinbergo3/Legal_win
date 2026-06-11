@@ -32,6 +32,9 @@ import zapisDzieciDoSzkoly from './zapis-dzieci-do-szkoly';
 import rejestracjaPojazdu from './rejestracja-pojazdu';
 import ubezpieczenieOcAc from './ubezpieczenie-oc-ac';
 import przegladTechniczny from './przeglad-techniczny';
+import pracaKierowcaTaxi from './praca-kierowca-taxi';
+import pracaKierowcaCiezarowka from './praca-kierowca-ciezarowka';
+import kartaKierowcy from './karta-kierowcy';
 import type { ServiceEntry, ServiceLocale } from './types';
 
 export const services: Record<string, ServiceEntry> = {
@@ -68,7 +71,10 @@ export const services: Record<string, ServiceEntry> = {
   'zapis-dzieci-do-szkoly': zapisDzieciDoSzkoly,
   'rejestracja-pojazdu': rejestracjaPojazdu,
   'ubezpieczenie-oc-ac': ubezpieczenieOcAc,
-  'przeglad-techniczny': przegladTechniczny
+  'przeglad-techniczny': przegladTechniczny,
+  'praca-kierowca-taxi': pracaKierowcaTaxi,
+  'praca-kierowca-ciezarowka': pracaKierowcaCiezarowka,
+  'karta-kierowcy': kartaKierowcy
 };
 
 export const serviceSlugs = Object.keys(services);

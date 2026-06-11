@@ -42,6 +42,17 @@ export function Services() {
 
   return (
     <section id="services" className="relative isolate overflow-clip py-28 lg:py-40">
+      {/* Section seam - a hairline that fades at both edges, giving a refined entry
+          point instead of an abrupt color break from the preceding section */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-px"
+        style={{
+          background:
+            'linear-gradient(90deg, transparent 0%, rgba(212, 166, 71, 0.28) 50%, transparent 100%)'
+        }}
+      />
+
       {/* Editorial giant "§" watermark - the legal section sign as a quiet authority mark */}
       <div
         aria-hidden
@@ -90,6 +101,10 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
   const lead = t('lead');
   const items = t.raw('items') as ServiceItem[];
 
+  // The first group is the flagship (Immigration): give it a larger heading so the
+  // six blocks read as a hierarchy, not a flat list of equals.
+  const isLead = index === 0;
+
   return (
     <>
       {/* Anchor for header dropdown deep-links (scroll-mt offsets the sticky header) */}
@@ -99,12 +114,14 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
         delay={(index % 3) * 50}
         className="group relative border-t hairline py-14 lg:py-20"
       >
-      {/* Layer 1: always-visible ambient - anchored left, not centered */}
+      {/* Layer 1: always-visible ambient - a soft blurred cloud, no hard box edges.
+          The element overhangs the top-left and relies on blur + transparent falloff so
+          the glow never meets a container edge at full opacity (kills the "square" look). */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 h-56"
+        className="pointer-events-none absolute -left-10 -top-12 h-72 w-[55%] blur-[80px]"
         style={{
-          background: `radial-gradient(ellipse 48% 100% at 14% 0%, rgba(${rgb}, ${ambientOpacity}) 0%, transparent 70%)`
+          background: `radial-gradient(ellipse at 34% 38%, rgba(${rgb}, ${ambientOpacity * 2.2}) 0%, transparent 70%)`
         }}
       />
 
@@ -123,15 +140,12 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
         }}
       />
 
-      {/* Layer 3: hover - elliptical spot light, anchored at the left content column */}
+      {/* Layer 3: hover - brighter blurred spot light, same edge-free treatment as Layer 1 */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 h-80 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+        className="pointer-events-none absolute -left-10 -top-16 h-96 w-[60%] opacity-0 blur-[90px] transition-opacity duration-700 group-hover:opacity-100"
         style={{
-          background: `radial-gradient(ellipse 52% 100% at 14% 0%,
-            rgba(${rgb}, ${spotOpacity}) 0%,
-            rgba(${rgb}, ${spotOpacity * 0.35}) 40%,
-            transparent 70%)`
+          background: `radial-gradient(ellipse at 34% 38%, rgba(${rgb}, ${spotOpacity * 1.35}) 0%, transparent 68%)`
         }}
       />
 
@@ -155,11 +169,22 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
                 }}
               />
             </span>
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border hairline bg-ink-950">
+            <span
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border hairline bg-ink-950"
+              style={{
+                boxShadow: `0 0 22px -8px rgba(${rgb}, 0.55), inset 0 0 0 1px rgba(${rgb}, 0.14)`
+              }}
+            >
               <Icon className="h-4 w-4 text-gold-400" strokeWidth={1.6} aria-hidden />
             </span>
           </div>
-          <h3 className="font-display text-[clamp(2.5rem,5.5vw,4.5rem)] font-semibold leading-[0.96] tracking-[-0.025em] text-ink-50">
+          <h3
+            className={`font-display font-semibold leading-[0.96] tracking-[-0.025em] text-ink-50 ${
+              isLead
+                ? 'text-[clamp(2.85rem,6.5vw,5.5rem)]'
+                : 'text-[clamp(2.5rem,5.5vw,4.5rem)]'
+            }`}
+          >
             {title}
           </h3>
           <p className="max-w-md text-base leading-relaxed text-ink-300">{lead}</p>
@@ -173,7 +198,7 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
         </div>
 
         {/* Right: items list */}
-        <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_8%,transparent)] lg:col-span-7">
+        <ul className="col-span-12 flex flex-col divide-y divide-[color-mix(in_oklab,var(--color-ink-50)_13%,transparent)] lg:col-span-7">
           {items.map((it, idx) => {
             const slug = slugFromName(it.name);
             return (
@@ -204,7 +229,7 @@ function ServiceItemRow({
   slug: string | null;
 }) {
   const body = (
-    <div className="group/item relative flex items-start gap-6 py-5 transition-colors hover:bg-ink-900/40">
+    <div className="group/item relative flex items-start gap-6 py-5 transition-colors hover:bg-ink-900/40 hover:bg-[linear-gradient(90deg,rgba(233,194,105,0.07)_0%,transparent_55%)]">
       <span className="flex-shrink-0 pt-1 font-mono text-[11px] text-ink-500">
         {String(index + 1).padStart(2, '0')}
       </span>
@@ -217,7 +242,7 @@ function ServiceItemRow({
         </p>
       </div>
       <ArrowUpRight
-        className="mt-1 h-5 w-5 flex-shrink-0 text-ink-500 transition-all duration-300 group-hover/item:-translate-y-0.5 group-hover/item:translate-x-0.5 group-hover/item:text-gold-400"
+        className="mt-1 h-5 w-5 flex-shrink-0 text-ink-400 transition-all duration-300 group-hover/item:-translate-y-0.5 group-hover/item:translate-x-0.5 group-hover/item:text-gold-400"
         strokeWidth={1.4}
         aria-hidden
       />

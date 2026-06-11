@@ -23,6 +23,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { services } from '@/lib/services';
 import type { ServiceContent } from '@/lib/services/types';
+import type { BlogPostSummary } from '@/lib/blog';
 import { serviceBlur, blur } from '@/lib/image-blur';
 import { cn } from '@/lib/cn';
 
@@ -41,10 +42,12 @@ const iconMap = {
 
 export function ServiceDetail({
   content,
-  locale
+  locale,
+  relatedArticles = []
 }: {
   content: ServiceContent;
   locale: string;
+  relatedArticles?: BlogPostSummary[];
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -57,6 +60,7 @@ export function ServiceDetail({
   const tServices = useTranslations('Services');
   const tNav = useTranslations('Nav');
   const tLabels = useTranslations('ServiceDetail');
+  const tBlog = useTranslations('Blog');
 
   return (
     <div ref={ref} className="relative">
@@ -93,6 +97,14 @@ export function ServiceDetail({
         data={content.faq}
         eyebrow={tLabels('faqEyebrow')}
         title={tLabels('faqTitle')}
+      />
+
+      <RelatedArticles
+        posts={relatedArticles}
+        eyebrow={tLabels('articlesEyebrow')}
+        title={tLabels('articlesTitle')}
+        allLabel={tBlog('title')}
+        readingTimeLabel={tBlog('readingTime')}
       />
 
       <Related
@@ -722,6 +734,90 @@ function Related({
               </motion.div>
             );
           })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Related articles (from the journal) ---------- */
+
+function RelatedArticles({
+  posts,
+  eyebrow,
+  title,
+  allLabel,
+  readingTimeLabel
+}: {
+  posts: BlogPostSummary[];
+  eyebrow: string;
+  title: string;
+  allLabel: string;
+  readingTimeLabel: string;
+}) {
+  if (posts.length === 0) return null;
+
+  return (
+    <section className="relative py-24 lg:py-32">
+      <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
+        <div className="mb-12 flex flex-wrap items-baseline justify-between gap-6">
+          <div className="flex flex-col gap-4">
+            <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-gold-300">
+              {eyebrow}
+            </span>
+            <h2 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-semibold leading-tight text-ink-50">
+              {title}
+            </h2>
+          </div>
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-1.5 text-sm text-gold-400 transition-colors hover:text-gold-300"
+          >
+            <span className="gold-underline">{allLabel}</span>
+            <ChevronRight className="h-4 w-4" strokeWidth={1.6} aria-hidden />
+          </Link>
+        </div>
+
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {posts.map((p, i) => (
+            <motion.div
+              key={p.slug}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.6, ease, delay: i * 0.06 }}
+            >
+              <Link
+                href={`/blog/${p.slug}`}
+                className="group relative flex h-full flex-col gap-3 overflow-hidden rounded-2xl border hairline bg-ink-900/40 p-6 transition-all duration-300 hover:border-gold-500/40 hover:bg-ink-900/70 hover:shadow-elite lg:p-7"
+              >
+                <span
+                  aria-hidden
+                  className="pointer-events-none absolute -right-8 -top-8 font-display text-[6rem] font-semibold leading-none text-gold-500/[0.06] transition-colors duration-300 group-hover:text-gold-500/[0.14]"
+                >
+                  {(i + 1).toString().padStart(2, '0')}
+                </span>
+                {p.category && (
+                  <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-gold-400">
+                    {p.category}
+                  </span>
+                )}
+                <h3 className="line-clamp-2 font-display text-lg font-semibold leading-snug text-ink-50 transition-colors group-hover:text-gold-300 sm:text-xl">
+                  {p.title}
+                </h3>
+                <p className="line-clamp-2 text-sm leading-relaxed text-ink-300">
+                  {p.description}
+                </p>
+                <span className="mt-auto inline-flex items-center gap-2 pt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-ink-400 transition-colors group-hover:text-gold-300">
+                  <span
+                    className="h-px w-6 bg-current transition-all duration-300 group-hover:w-10"
+                    aria-hidden
+                  />
+                  {p.readingMinutes} {readingTimeLabel}
+                </span>
+              </Link>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

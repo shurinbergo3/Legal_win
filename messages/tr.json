@@ -223,6 +223,14 @@
             "desc": "Polonya standartlarında özgeçmiş, zezwolenie na pracę (çalışma izni)"
           },
           {
+            "name": "Taksi şoförü işi (Bolt, Uber)",
+            "desc": "Bolt, Uber, FreeNow: 17.06.2024'ten beri Polonya ehliyeti şart. Ehliyet değişimi, licencja na taxi, badania ve niekaralność işlemlerini yürütürüz"
+          },
+          {
+            "name": "Tır şoförü işi (C+E)",
+            "desc": "Uluslararası C+E taşımacılığı: Kod 95, karta kierowcy (takograf), zezwolenie - yeterlilikleri hazırlar, işe yerleşmenize yardım ederiz"
+          },
+          {
             "name": "Çocukların okula kaydı",
             "desc": "Obowiązek szkolny (zorunlu eğitim) ve klasa powitalna (uyum sınıfı) kaydı"
           }
@@ -234,24 +242,28 @@
         "lead": "Polonya’da aracınız anahtar teslim: tescil, sigorta, muayene ve ehliyet — kurum kuyruklarına girmeden.",
         "items": [
           {
-            "name": "Araç tescili ve devri",
-            "desc": "Tescil ve mülkiyet devri: belge kontrolü, tercüme, wydział komunikacji başvurusu, ithalat ve ÖTV"
-          },
-          {
-            "name": "Araç sigortası OC / AC",
-            "desc": "OC, AC, NNW seçimi ve yapılması — PESEL olmadan da. Yurt dışı indirim aktarımı, ikinci el alımında destek"
-          },
-          {
-            "name": "Teknik muayene",
-            "desc": "SKP istasyonuna kayıt, eşlik ve tercüme, ithalatta sıfır muayene. Güncel 2025-2026 fiyat ve süreleri"
-          },
-          {
             "name": "Ehliyet değişimi",
             "desc": "BDT, Türkiye ve ABD ehliyetlerinin Polonya ehliyetine çevrilmesi: yeminli tercüme, badania lekarskie (sağlık raporu), psikoteknik, WORD'a kayıt ve eşlik"
           },
           {
             "name": "Kod 95 (sürücü mesleki yeterliliği)",
             "desc": "C/CE/D/DE kategorileri için profesyonel yeterlilik: kwalifikacja wstępna (başlangıç eğitimi) veya 5 yılda 35 saatlik szkolenie okresowe (dönemsel eğitim). OSK seçimi, belgeler, WORD'da sınav"
+          },
+          {
+            "name": "Sürücü kartı (takograf)",
+            "desc": "Dijital takograf için sürücü kartı: info-car üzerinden başvuru, PESEL'i olmayan yabancılar için de. PWPW harcı 172,20 zł"
+          },
+          {
+            "name": "Araç tescili ve devri",
+            "desc": "Polonya'da araç tescili ve devri: wydział komunikacji, plakalar, ruhsat - yabancılar için"
+          },
+          {
+            "name": "Araç sigortası OC / AC",
+            "desc": "Zorunlu OC ve isteğe bağlı AC: poliçe seçimi, kaza sonrası ve tazminat desteği"
+          },
+          {
+            "name": "Teknik muayene",
+            "desc": "SKP'de teknik muayene: randevu, eşlik, ithal araç için sıfır muayene"
           }
         ]
       }
@@ -604,44 +616,44 @@
         "a": "İlk danışmanlık ücretsizdir. Durumunuzu inceler, gerçekte hangi belgelerin gerektiğini söyler ve siz hiçbir ödeme yapmadan önce süre ile ücreti belirtiriz. Belgelerin derinlemesine incelemesi ya da yazılı görüş gerekiyorsa sonraki görüşmeler karmaşıklığa göre 200 PLN'den başlar."
       },
       {
-        "tag": "Süreler",
+        "tag": "Oturum izni",
         "q": "Karta Pobytu kaç ayda alınıyor?",
         "a": "Ortalama 6–8 ay. Yasal olarak wojewoda'nın (eyalet valisi) 90 günü vardır, ancak 2026'da Mazowiecki Urząd Wojewódzki kararı gerçekte 6–14 ayda veriyor. Eksiksiz dosya ve MOS v2.0 üzerinden doğru başvuru sizi alt sınıra yaklaştırır. Süreç uzarsa ponaglenie (acil değerlendirme talebi), gerekirse skarga na bezczynność (idari ihmal şikâyeti) ile WSA'ya başvuruyoruz."
       },
       {
-        "tag": "Karta Pobytu",
-        "q": "Dosya beklerken çalışabilir ve yurt dışına çıkabilir miyim?",
-        "a": "Evet — wniosek (başvuru) süresinde yapıldıysa ve pasaportunuza stempel (damga) alındıysa, vizeniz veya eski kartınız sona ermiş olsa bile voyvoda karar verene kadar Polonya’daki ikametiniz yasaldır. Bir dayanağınız (oświadczenie veya çalışma izni) varsa çalışabilirsiniz. Ancak yalnızca damgayla Polonya’dan çıkmak Schengen kapsamında geri dönüşü garanti etmez; bu yüzden seyahatten önce durumunuzu bizimle teyit edin."
+        "tag": "Çalışma izni",
+        "q": "Oturum iznim çalışma hakkı veriyor mu?",
+        "a": "Hayır. Oturum izni almış olmak tek başına çalışma hakkı sağlamaz; ayrıca bir çalışma izni (zezwolenie na pracę) ya da işveren beyanı (oświadczenie) gerekir. Durumunuza uygun belgeyi belirleyip oturum süreciyle birlikte hallederiz."
       },
       {
-        "tag": "Ödeme",
-        "q": "Ücrete neler dahil ve ödeme nasıl işliyor?",
-        "a": "Büro ücretimiz ile resmi harçlar (opłata skarbowa) ayrı kalemlerdir — bunları her zaman ayrı gösteririz, gizli ek ücret yoktur. Çoğu dosyada ödeme aşamalıdır: bir kısmı başta, bir kısmı kilit aşamalarda. İlk danışmanlıktan sonra dosyanıza özel sabit bir teklif alırsınız."
-      },
-      {
-        "tag": "İtiraz",
-        "q": "Başvurum reddedilirse ne yapmalıyım?",
-        "a": "Ret gerekçelerini (decyzja odmowna) inceler ve 14 gün içinde itiraz (odwołanie) sunarız — yasal süre budur. Geçici oturum, daimi oturum, vatandaşlık ve uluslararası koruma dosyalarında — Wojewódzki Sąd Administracyjny (Eyalet İdare Mahkemesi) dahil — başarılı itirazlarımız var. Süre daralmış olsa bile önce kararı bize gösterin; dosya çoğu zaman hâlâ döndürülebilir."
+        "tag": "Öğrenciler",
+        "q": "Öğrenci olarak oturum ve çalışma kurallarım nedir?",
+        "a": "Haziran 2025'ten itibaren öğrenciler artık doğrudan çalışma temelinde oturum kartına başvuramıyor; öğrenci oturumuyla çalışma kuralları da değişti. Mevcut durumunuza göre hangi geçiş yolunun açık olduğunu birlikte planlarız."
       },
       {
         "tag": "Ehliyet",
-        "q": "Yabancı ehliyetimi Polonya ehliyetine çevirmem gerekir mi?",
-        "a": "Ülkeye ve statünüze bağlı. Geçici koruma altındaki kişilerin (PESEL UKR) Ukrayna ehliyetleri 4 Mart 2026’ya kadar geçerliydi — artık Polonya ehliyetiyle değiştirilmesi gerekiyor. Değişim sınavsızdır: yeminli tercüme, wydział komunikacji’ye (trafik dairesi) başvuru ve birkaç haftalık süre. Dosyayı toplamanıza, tłumaczenie przysięgłe (yeminli tercüme) yaptırmanıza ve gereksiz ziyaret olmadan başvurmanıza yardımcı oluruz."
+        "q": "Türk ehliyetimi Polonya ehliyetine nasıl çeviririm?",
+        "a": "Türk ehliyeti Polonya'da 6 ay geçerlidir; uzun süreli kalıyorsanız değiştirmeniz gerekir. Eski tip ehliyetin önce yeni tip olarak yenilenmesi gerekir. Sonra yeminli tercüme, wydział komunikacji'ye başvuru ve 100,50 PLN ücretle ortalama 3–6 ayda Polonya ehliyetini alırsınız. Tüm süreci ve tłumaczenie przysięgłe'yi (yeminli tercüme) biz yürütürüz."
       },
       {
-        "tag": "Kod 95",
-        "q": "Kod 95 kime gerekir ve nasıl alınır?",
-        "a": "Kod 95, ehliyetinizdeki bir kayıttır; onsuz ücret karşılığı yük (C sınıfı) veya yolcu (D sınıfı) taşıyamazsınız. Her profesyonel sürücüye gereklidir. Yol şu: iş yeri hekimi ve psikolog raporları → wydział komunikacji’de Profil Kierowcy Zawodowego (PKZ) → kwalifikacja wstępna (ön yeterlilik) ve 30 soruluk devlet sınavı. Geçerlilik 5 yıldır, sonra szkolenie okresowe (periyodik eğitim). Tüm süreci yürütür ve materyalleri tercüme ederiz."
+        "tag": "Şirket",
+        "q": "Polonya'da uzaktan şirket (Sp. z o.o.) kurabilir miyim?",
+        "a": "Evet — S24 (KRS çevrimiçi portalı) üzerinden nitelikli e-imza ile ya da noter vekaletnamesiyle; kuruluş 5–10 iş günü sürer. Ana sözleşme, PKD kodları, KRS tescili ve US ile ZUS kaydını, gerekirse muhasebeyi de üstleniriz."
+      },
+      {
+        "tag": "Vatandaşlık",
+        "q": "Daimi oturum ve vatandaşlığa ne zaman başvurabilirim?",
+        "a": "Dayanağa bağlı. Daimi oturuma genelde 5 yıl kesintisiz yasal ikametten sonra, vatandaşlığa ise daimi oturum süresi ve B1 düzeyinde Lehçe sertifikasıyla geçilir. Köken, evlilik ve koruma statüsünün kendine özgü süreleri vardır. Sizin sürenizi hesaplar ve kesintisizliği kontrol ederiz."
       },
       {
         "tag": "Çalışma şekli",
         "q": "Uzaktan ve başka şehirlerden çalışıyor musunuz?",
-        "a": "Evet. Polonya’nın diğer şehirlerinden ve yurt dışından müvekkiller dosyalarını tamamen çevrimiçi yürütür: noter onaylı vekaletname, dosya sorumlusuyla doğrudan iletişim ve süreç takibi için müvekkil paneli. Varşova’daki ul. Świętokrzyska 30 ofisimize gelmeniz şart değildir."
+        "a": "Evet. Polonya'nın diğer şehirlerinden ve yurt dışından müvekkiller dosyalarını tamamen çevrimiçi yürütür: noter onaylı vekaletname, dosya sorumlusuyla doğrudan iletişim ve süreç takibi için müvekkil paneli. Varşova'daki ul. Świętokrzyska 30 ofisimize gelmeniz şart değildir."
       },
       {
         "tag": "Diller",
         "q": "Hangi dillerde çalışıyorsunuz?",
-        "a": "Lehçe, Rusça, Ukraynaca ve İngilizce. Tüm belgeleri kendi dilinizdeki tercümeyle alırsınız; yeminli tercümeleri (tłumaczenia przysięgłe) doğrudan urząd’a sunuma hazır şekilde yaparız."
+        "a": "Lehçe, Rusça, Ukraynaca ve İngilizce. Tüm belgeleri kendi dilinizdeki tercümeyle alırsınız; yeminli tercümeleri (tłumaczenia przysięgłe) doğrudan urząd'a sunuma hazır şekilde yaparız."
       }
     ],
     "moreText": "Sorunuzu bulamadınız mı?",
@@ -733,6 +745,8 @@
     "faqEyebrow": "/ sorular",
     "faqTitle": "Sık sorulan sorular",
     "relatedTitle": "İlgili hizmetler",
+    "articlesEyebrow": "Blog",
+    "articlesTitle": "Bu konudaki yazılar",
     "ctaSubmit": "Mesaj bırak"
   },
   "Chat": {
@@ -779,6 +793,9 @@
     "back": "Tüm yazılar",
     "publishedOn": "Yayın tarihi",
     "related": "İlgili içerikler",
+    "servicesEyebrow": "Hizmetler",
+    "servicesTitle": "İlgili hizmetler",
+    "servicesCta": "Hizmet hakkında",
     "searchPlaceholder": "Yazı, konu veya anahtar kelime arayın",
     "clearSearch": "Aramayı temizle",
     "allCategories": "Tüm konular",

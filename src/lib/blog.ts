@@ -103,6 +103,33 @@ export function getRelatedPosts(
     .slice(0, limit);
 }
 
+/**
+ * Extract a service slug from a `relatedServices` reference. References are
+ * stored as locale-prefixed paths (e.g. `/ru/uslugi/karta-pobytu`) but a bare
+ * slug is tolerated too — we only care about the final path segment.
+ */
+export function serviceSlugFromRef(ref: string): string {
+  const segments = ref.trim().replace(/\/+$/, '').split('/').filter(Boolean);
+  return segments[segments.length - 1] ?? '';
+}
+
+/**
+ * Reverse-lookup: posts that declare this service in their `relatedServices`
+ * frontmatter, newest first. The blog frontmatter is the single source of
+ * truth — no manual per-service article mapping needed.
+ */
+export function getPostsForService(
+  locale: string,
+  serviceSlug: string,
+  limit = 3
+): BlogPostSummary[] {
+  return getAllPosts(locale)
+    .filter((p) =>
+      (p.relatedServices ?? []).some((ref) => serviceSlugFromRef(ref) === serviceSlug)
+    )
+    .slice(0, limit);
+}
+
 export function getAvailableLocalesForSlug(slug: string): BlogLocale[] {
   return (routing.locales as readonly BlogLocale[]).filter((l) => {
     const fullPath = path.join(localeDir(l), `${slug}.md`);
