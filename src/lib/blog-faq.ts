@@ -61,6 +61,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Можно ли получить TRC ребёнку, если у родителей только виза D?', a: 'Только если родитель подаёт на TRC одновременно или уже подал. Без основания у одного из родителей у ребёнка нет своего основания. Исключение - польское происхождение или гражданство второго родителя.' },
       { q: 'На какой срок выдаётся карта побыту ребёнку?', a: 'До совершеннолетия родителя-обладателя TRC, но не дольше 3 лет. После 18 лет ребёнок подаёт самостоятельно - обычно по студенческому или рабочему основанию.' }
     ],
+    uk: [
+      { q: 'Хто подає заяву на karta pobytu для дитини-іноземця?', a: 'Wniosek (заяву) подають обидва законні представники — зазвичай батьки. Якщо батько чи мати одна, потрібне рішення суду про обмеження прав іншого з батьків або згода на виїзд / перебування. Подача — через MOS v2.0 від імені дитини.' },
+      { q: 'Скільки коштує karta pobytu для дитини?', a: 'Держмито — 340 PLN за wniosek (заяву) + 100 PLN за пластик. Діти до 16 років звільняються від opłaty skarbowej (держмита) за певними підставами (łączenie rodzin — возз\'єднання сім\'ї). Точну суму перевіряє wojewoda (воєвода) під час подачі.' },
+      { q: 'Чи може дитина отримати TRC, якщо батьки мають лише візу D?', a: 'Тільки якщо один із батьків подає на TRC одночасно або вже подав. Без підстави у когось із батьків у дитини немає власної підстави. Виняток — польське походження або громадянство другого з батьків.' },
+      { q: 'На який строк видається karta pobytu дитині?', a: 'До повноліття батька-власника TRC, але не довше ніж на 3 роки. Після 18 років дитина подає самостійно — зазвичай за студентською або робочою підставою.' }
+    ],
+
     pl: [
       { q: 'Kto składa wniosek o kartę pobytu dla dziecka cudzoziemca?', a: 'Wniosek składają oboje przedstawiciele ustawowi - zwykle rodzice. Jeśli rodzic jest sam, potrzebny jest wyrok sądu lub zgoda drugiego rodzica. Wniosek składa się przez MOS v2.0 w imieniu dziecka.' },
       { q: 'Ile kosztuje karta pobytu dla dziecka?', a: 'Opłata skarbowa - 340 PLN + 100 PLN za blankiet. Dzieci do 16 lat są zwolnione z części opłat (łączenie rodzin). Wojewoda weryfikuje przy złożeniu.' },
@@ -88,6 +95,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько дней даётся на поиск новой работы по karcie pobytu?', a: 'По обычной karcie czasowego pobytu (карте временного пребывания) - 30 дней с увольнения, чтобы уведомить wojewodę (воеводу), и до 90 дней без работы суммарно за время действия карты. По Niebieskiej Karcie UE (Голубой карте ЕС) - те же 30 дней, всего до 6 месяцев за весь срок карты.' },
       { q: 'Нужно ли менять karta pobytu при смене работодателя?', a: 'Не нужно менять сам пластик, но нужно подать zmianę zezwolenia (изменение разрешения) - форма проще, чем nowy wniosek (новое заявление). Госпошлина - 220 PLN, без сдачи биометрии. Решение - обычно 30-60 дней.' }
     ],
+    uk: [
+      { q: 'Чи прив\'язана karta pobytu до роботодавця?', a: 'Так, jednolity TRC за підставою «робота» прив\'язана до конкретного роботодавця, посади та зарплати. При зміні будь-якого з цих параметрів необхідно подати zmianę zezwolenia (зміну дозволу) протягом 15 робочих днів.' },
+      { q: 'Що робити при звільненні з роботи за karta pobytu?', a: 'У вас є 30 днів з моменту ustanie zatrudnienia (припинення трудових відносин), щоб письмово повідомити wojewodę (воєводу). Картка залишається дійсною, але якщо протягом 90 днів (TRC) або 30 днів (Niebieska Karta UE) не знайдете нову роботу — воєвода може відкликати decyzję.' },
+      { q: 'Скільки днів відводиться на пошук нової роботи за karta pobytu?', a: 'За звичайною karta czasowego pobytu — 30 днів з дня звільнення, щоб повідомити wojewodę, і до 90 днів без роботи сумарно за час дії картки. За Niebieska Karta UE — ті самі 30 днів для повідомлення, і загалом до 6 місяців за весь строк дії картки.' },
+      { q: 'Чи потрібно міняти karta pobytu при зміні роботодавця?', a: 'Сам пластик міняти не потрібно, але необхідно подати zmianę zezwolenia (зміну дозволу). Держмито — 220 PLN, без здачі біометрії. Рішення — зазвичай 30–60 днів.' }
+    ],
+
     pl: [
       { q: 'Czy karta pobytu jest powiązana z pracodawcą?', a: 'Tak, jednolite TRC na podstawie pracy jest przyznawane konkretnemu pracodawcy, stanowisku i wynagrodzeniu. Każda zmiana wymaga wniosku o zmianę zezwolenia w ciągu 15 dni roboczych.' },
       { q: 'Co zrobić po utracie pracy na karcie pobytu?', a: 'Masz 30 dni od ustania zatrudnienia na pisemne zawiadomienie wojewody. Karta pozostaje ważna, ale jeśli w ciągu 90 dni (TRC) lub 30 dni (Niebieska Karta UE) nie znajdziesz nowej pracy - wojewoda może cofnąć zezwolenie.' },
@@ -152,6 +166,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что лучше - PMŻ или статус długoterminowego rezydenta UE (долгосрочного резидента ЕС)?', a: 'Если планируете жить только в Польше - PMŻ оформляется быстрее и по тем же основаниям. Если есть планы на Германию, Францию или другую страну ЕС - статус długoterminowy rezydent UE даёт мобильность.' },
       { q: 'Можно ли иметь karta stałego pobytu (карту постоянного пребывания) и długoterminowy rezydent UE одновременно?', a: 'Нет. По польскому праву это разные пластики, и статус rezydenta UE заменяет PMŻ. На практике большинство иностранцев выбирают одну из двух карт по своему сценарию.' }
     ],
+    uk: [
+      { q: 'У чому різниця між karta stałego pobytu та długoterminowy rezydent UE?', a: 'Karta stałego pobytu діє лише в Польщі та видається за зв\'язок з РП. Rezydent długoterminowy UE — це європейський статус відповідно до Директиви 2003/109/EC, який надає право жити та працювати в будь-якій країні ЄС після 12 місяців у новій країні.' },
+      { q: 'Що краще — PMŻ чи статус długoterminowego rezydenta UE?', a: 'Якщо плануєте жити лише в Польщі — PMŻ оформляється швидше і за тими самими підставами. Якщо є плани переїхати до Німеччини, Франції чи іншої країни ЄС — статус długoterminowy rezydent UE дає мобільність.' },
+      { q: 'Чи можна мати karta stałego pobytu та długoterminowy rezydent UE одночасно?', a: 'Ні. За польським законодавством це різні картки, і статус rezydenta UE замінює PMŻ. На практиці більшість іноземців обирають одну з двох карток залежно від свого сценарію.' }
+    ],
+
     pl: [
       { q: 'Czym różni się karta stałego pobytu od rezydenta długoterminowego UE?', a: 'Karta stałego pobytu obowiązuje tylko w Polsce, wydawana za więź z RP. Rezydent długoterminowy UE to status unijny z dyrektywy 2003/109/WE - pozwala żyć i pracować w innym państwie UE po 12 miesiącach pobytu tam.' },
       { q: 'Co lepiej - pobyt stały czy rezydent długoterminowy UE?', a: 'Plan na Polskę - PR jest szybszy i ma więcej podstaw. Plan na Niemcy, Francję, Niderlandy - rezydent UE daje mobilność.' },
@@ -176,6 +196,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Можно ли подать wniosek в MOS v2.0 без PESEL?', a: 'Можно, но в анкете нужно указать причину отсутствия PESEL и приложить копию паспорта со штампом въезда. Чаще всего PESEL получают параллельно - без него трудно с zameldowaniem (регистрацией по адресу) и медстраховкой.' },
       { q: 'Как отслеживать статус заявления в MOS v2.0?', a: 'В личном кабинете MOS v2.0 - раздел "Status sprawy" (статус дела). Параллельно уведомления приходят на eDoręczenia. Звонить в wojewodę (воеводу) или через biuro podawcze (канцелярию) больше нельзя - все коммуникации через систему.' }
     ],
+    uk: [
+      { q: 'Як увійти до системи MOS v2.0?', a: 'Вхід — через Profil Zaufany, login.gov.pl, e-dowód або mDowód. Без одного з цих ідентифікаторів потрапити до системи не вийде. Profil Zaufany можна оформити через банк (mBank, PKO, ING) або в urzędzie gminy за наявності PESEL.' },
+      { q: 'Що робити, якщо MOS v2.0 не приймає документи?', a: 'Перевірте формат (PDF/A або JPG до 5 MB на файл), правильність підпису (ePUAP / qualified signature) і збіг даних у wniosku та załącznikach. Більшість помилок — це надто важкі скани або невідповідність дат народження.' },
+      { q: 'Чи можна подати wniosek у MOS v2.0 без PESEL?', a: 'Можна, але в анкеті потрібно вказати причину відсутності PESEL і додати копію паспорта зі штампом в\'їзду. Найчастіше PESEL отримують паралельно — без нього виникають труднощі із zameldowaniem і медичним страхуванням.' },
+      { q: 'Як відстежувати статус заяви в MOS v2.0?', a: 'В особистому кабінеті MOS v2.0 — розділ "Status sprawy". Паралельно сповіщення надходять на eDoręczenia. Телефонувати до воєводи більше не можна — вся комунікація відбувається через систему.' }
+    ],
+
     pl: [
       { q: 'Jak zalogować się do MOS v2.0?', a: 'Logowanie przez Profil Zaufany, login.gov.pl, e-dowód lub mDowód. Bez tych identyfikatorów nie wejdziesz. Profil Zaufany założysz przez bank (mBank, PKO, ING) lub w urzędzie gminy.' },
       { q: 'Co zrobić, gdy MOS v2.0 nie przyjmuje dokumentów?', a: 'Sprawdź format (PDF/A lub JPG do 5 MB), prawidłowość podpisu (ePUAP / podpis kwalifikowany) i zgodność danych. Najczęstsze błędy: zbyt ciężkie skany i niezgodne daty.' },
@@ -203,6 +230,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Можно ли с EU Blue Card работать в Германии или Нидерландах?', a: 'Да, после 12 месяцев работы в Польше по Blue Card вы можете подать на Blue Card в любой другой стране ЕС по упрощённой процедуре. Это главное преимущество перед национальной karcie pobytu (картой пребывания).' },
       { q: 'Сколько стоит и как долго оформляется EU Blue Card?', a: 'Госпошлина - 440 PLN (340 wniosek (заявление) + 100 пластик). Срок - официально до 60 дней (для Blue Card), реально 3-5 месяцев в Mazowieckim UW (Мазовецком воеводском управлении). Это быстрее обычной TRC за счёт ускоренной процедуры.' }
     ],
+    uk: [
+      { q: 'У чому різниця між EU Blue Card і звичайною karta pobytu?', a: 'EU Blue Card — це європейська картка для висококваліфікованих фахівців із зарплатою від 1,5× середньої по країні та вищою освітою. Звичайна karta czasowego pobytu — національний документ Польщі без вимог до освіти. Blue Card надає мобільність у межах ЄС після 12 місяців.' },
+      { q: 'Яка зарплата потрібна для EU Blue Card у Польщі в 2026 році?', a: 'Мінімум 1,5× середньої зарплати по Польщі. У 2026 році це близько 12 750 PLN brutto на місяць. Для дефіцитних професій (IT, інженерія) — знижено до 1,2× середньої. Точну цифру публікує GUS.' },
+      { q: 'Чи можна з EU Blue Card працювати в Німеччині або Нідерландах?', a: 'Так, після 12 місяців роботи в Польщі за Blue Card ви можете подати на Blue Card у будь-якій іншій країні ЄС за спрощеною процедурою. Це головна перевага перед національною karta pobytu.' },
+      { q: 'Скільки коштує і як довго оформляється EU Blue Card?', a: 'Державне мито — 440 PLN (340 за wniosek + 100 за картку). Термін — офіційно до 60 днів, реально 3–5 місяців у Mazowieckim UW. Це швидше, ніж звичайна TRC.' }
+    ],
+
     pl: [
       { q: 'Jaka jest różnica między Niebieską Kartą UE a kartą pobytu?', a: 'Niebieska Karta UE - unijny dokument dla wysoko wykwalifikowanych pracowników z pensją 1,5× średniej krajowej i wyższym wykształceniem. Standardowa karta czasowego pobytu - krajowa, bez wymogu wykształcenia. Niebieska Karta daje mobilność w UE po 12 miesiącach.' },
       { q: 'Jakie wynagrodzenie jest wymagane dla Niebieskiej Karty UE w 2026?', a: 'Co najmniej 1,5× średniej krajowej - w 2026 około 12 750 PLN brutto. Dla zawodów deficytowych (IT, inżynieria) - 1,2×. Aktualną liczbę podaje GUS.' },
@@ -262,6 +296,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что такое ponaglenie и когда его подавать?', a: 'Ponaglenie (жалоба на бездействие) - это формальная жалоба на bezczynność (бездействие) органа. Подаётся через того же wojewodу (воеводу), который рассматривает дело, на адрес Szefa Urzędu do Spraw Cudzoziemców (Главы Управления по делам иностранцев). Подавать имеет смысл по истечении ustawowego termin (установленного законом срока - 60 или 90 дней).' },
       { q: 'Сколько стоит skarga do WSA?', a: 'Opłata sądowa (судебный сбор) - 200 PLN (фиксированная для skarg na bezczynność - жалоб на бездействие). Услуги адвоката - от 1 500 PLN. При выигрыше суд возвращает opłatę (сбор) и часть расходов на представителя.' }
     ],
+    uk: [
+      { q: 'Як прискорити видачу karta pobytu?', a: 'Якщо воєвода порушив строк — подавайте ponaglenie (скаргу на бездіяльність) do Szefa Urzędu do Spraw Cudzoziemców. Якщо ponaglenie не допомогло — skargę na bezczynność do WSA. Суд може зобов\'язати воєводу вирішити справу впродовж 14–30 днів.' },
+      { q: 'Що таке ponaglenie і коли його подавати?', a: 'Ponaglenie — це формальна скарга на bezczynność (бездіяльність) органу. Подається через того самого воєводу на адресу Szefa UdSC. Має сенс подавати після закінчення встановленого строку — 60 або 90 днів.' },
+      { q: 'Скільки коштує skarga do WSA?', a: 'Opłata sądowa — 200 PLN (фіксована для skarg na bezczynność). Послуги адвоката — від 1 500 PLN. У разі виграшу суд повертає opłatę та частину витрат на представника.' }
+    ],
+
     pl: [
       { q: 'Jak przyspieszyć wydanie karty pobytu?', a: 'Po przekroczeniu terminu ustawowego (60 lub 90 dni) złóż ponaglenie do Szefa UdSC. Jeśli to nie pomoże - skarga na bezczynność do WSA. Sąd może zobowiązać wojewodę do rozstrzygnięcia w 14-30 dni.' },
       { q: 'Czym jest ponaglenie i kiedy się je składa?', a: 'Ponaglenie - formalna skarga na bezczynność. Składa się przez wojewodę do Szefa UdSC po upływie ustawowego terminu.' },
@@ -285,6 +325,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Когда заканчивается статус UKR в Польше?', a: 'Текущая редакция Ustawy o pomocy obywatelom Ukrainy (Закона о помощи гражданам Украины) продлевает статус UKR до 4 марта 2026. Дальнейшие продления зависят от решений ЕС и польского правительства.' },
       { q: 'Можно ли подать на TRC, оставаясь на UKR?', a: 'Да, и это рекомендуется. Подача wniosku (заявления) через MOS v2.0 не отменяет статус UKR - оба статуса действуют параллельно до получения karta pobytu (карты пребывания) или решения по ней.' }
     ],
+    uk: [
+      { q: 'Як українцю перейти з UKR на робочу karta pobytu?', a: 'Знайти польського роботодавця, отримати zezwolenie na pracę (дозвіл на роботу) типу A або powiadomienie, подати wniosek через MOS v2.0 упродовж дії статусу UKR. Статус UKR продовжено до 4 березня 2026.' },
+      { q: 'Коли закінчується статус UKR у Польщі?', a: 'Чинна редакція Ustawy o pomocy obywatelom Ukrainy продовжує статус UKR до 4 березня 2026. Подальші продовження залежать від рішень ЄС та польського уряду.' },
+      { q: 'Чи можна подати на TRC, залишаючись на UKR?', a: 'Так, і це рекомендовано. Подача wniosku через MOS v2.0 не скасовує статус UKR — обидва статуси діють паралельно до отримання karta pobytu або рішення по ній.' }
+    ],
+
     pl: [
       { q: 'Jak Ukrainiec może przejść z UKR na kartę pobytu pracowniczą?', a: 'Znaleźć polskiego pracodawcę, uzyskać zezwolenie na pracę typu A lub powiadomienie, złożyć wniosek przez MOS v2.0 w trakcie ważności statusu UKR.' },
       { q: 'Kiedy kończy się status UKR w Polsce?', a: 'Obecnie do 4 marca 2026 - zgodnie z ustawą o pomocy obywatelom Ukrainy. Dalsze przedłużenia zależą od decyzji UE i polskiego rządu.' },
@@ -308,6 +354,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Засчитывается ли студенческое время в стаж для PMŻ?', a: 'Только наполовину - по Art. 65 ust. 2 Ustawy o cudzoziemcach (Закона об иностранцах). Это значит 4 года студенческой karty pobytu (карты пребывания) = 2 года в зачёт 5-летнего срока для karta stałego pobytu (карты постоянного пребывания).' },
       { q: 'Можно ли работать на студенческой karcie pobytu?', a: 'Да, без zezwolenia na pracę (разрешения на работу) - на любой должности, включая umowę o pracę (трудовой договор), zlecenie (договор поручения), dzieło (договор подряда) и собственную JDG (ИП, с TRC). Но карта остаётся выданной по основанию учёбы - отчисление приведёт к её отзыву.' }
     ],
+    uk: [
+      { q: 'Чи можна перейти зі студентської візи на karta pobytu у Польщі?', a: 'Так. Подача wniosku через MOS v2.0 можлива будь-коли, поки ваша студентська віза або karta pobytu studencka є дійсною. Підстави: продовження навчання, робота, бізнес, шлюб.' },
+      { q: 'Чи зараховується студентський час до стажу для PMŻ?', a: 'Лише наполовину — згідно з Art. 65 ust. 2 Ustawy o cudzoziemcach. Це означає, що 4 роки студентської karty pobytu = 2 роки в залік 5-річного строку для karta stałego pobytu.' },
+      { q: 'Чи можна працювати на студентській karcie pobytu?', a: 'Так, без zezwolenia na pracę — на будь-якій посаді, включно з umową o pracę, zlecenie, dzieło та власною JDG. Проте картка залишається виданою на підставі навчання — відрахування призведе до її відкликання.' }
+    ],
+
     pl: [
       { q: 'Czy mogę przejść ze studenckiej karty pobytu na rezydenta?', a: 'Tak. Wniosek przez MOS v2.0 można złożyć w trakcie ważności karty studenckiej. Podstawy: kontynuacja studiów, praca, biznes, małżeństwo.' },
       { q: 'Czy okres studencki liczy się do pobytu stałego?', a: 'Tylko w połowie - art. 65 ust. 2 ustawy o cudzoziemcach. 4 lata na karcie studenckiej = 2 lata zaliczone do 5-letniego okresu PR.' },
@@ -332,6 +384,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Нужен ли супругу польский язык для воссоединения?', a: 'Нет. Польский B1 не требуется ни на TRC по łączeniu rodzin (воссоединению семьи), ни на PMŻ для супруга гражданина Польши со стажем 3+ года брака.' },
       { q: 'Может ли супруг работать после получения karta pobytu?', a: 'Да. TRC по łączeniu rodzin (воссоединению семьи) даёт неограниченное право на работу - без zezwolenia na pracę (разрешения на работу) и без необходимости менять основание при смене работодателя.' }
     ],
+    uk: [
+      { q: 'Хто може подати на возз\'єднання сім\'ї у Польщі?', a: 'Łączenie rodzin доступне подружжю, неповнолітнім дітям та залежним батькам власників PMŻ, długoterminowego rezydenta UE, beneficjenta захисту, а також власників TRC старше 2 років.' },
+      { q: 'Скільки чекати рішення щодо возз\'єднання сім\'ї?', a: 'За łączeniem rodzin строк — офіційно до 6 місяців. На практиці в Mazowieckim UW — 8–14 місяців. Можна пришвидшити через ponaglenie + WSA.' },
+      { q: 'Чи потрібна чоловіку/дружині польська мова для возз\'єднання?', a: 'Ні. Польська B1 не вимагається ні для TRC за łączeniem rodzin, ні для PMŻ для подружжя громадянина Польщі зі стажем шлюбу 3+ роки.' },
+      { q: 'Чи може чоловік/дружина працювати після отримання karta pobytu?', a: 'Так. TRC за łączeniem rodzin надає необмежене право на роботу — без zezwolenia na pracę і без необхідності змінювати підставу при зміні роботодавця.' }
+    ],
+
     pl: [
       { q: 'Kto może złożyć wniosek o łączenie rodzin w Polsce?', a: 'Małżonkowie, małoletnie dzieci, zależni rodzice obywateli RP, posiadaczy karty stałego pobytu, rezydenta długoterminowego UE, beneficjentów ochrony międzynarodowej i posiadaczy TRC z 2-letnim stażem.' },
       { q: 'Ile czeka się na decyzję w łączeniu rodzin?', a: 'Ustawowo 6 miesięcy (dyrektywa 2003/86/WE). W Mazowieckim UW realnie 8-14 miesięcy. Można skrócić przez ponaglenie i skargę do WSA.' },
@@ -358,6 +417,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что будет, если не сообщить о смене работы по karcie pobytu?', a: 'Wojewoda (воевода) вправе отозвать decyzję (решение) о karcie pobytu. На практике используется выборочно - через 6-18 месяцев с момента смены, при перепроверке status quo. Чтобы избежать риска - подайте zmianę (изменение).' },
       { q: 'Сколько стоит zmiana zezwolenia (изменение разрешения) после смены работы?', a: 'Opłata skarbowa (госпошлина) - 220 PLN. Биометрия не нужна. Решение приходит обычно за 30-90 дней. Сам пластик karty не меняется.' }
     ],
+    uk: [
+      { q: 'У який термін потрібно повідомити воєводу про зміну роботодавця?', a: '15 робочих днів з моменту підписання нового договору. Повідомлення подається через MOS v2.0. Запізнення = потенційна втрата karta pobytu.' },
+      { q: 'Що буде, якщо не повідомити про зміну роботи по karcie pobytu?', a: 'Wojewoda має право скасувати decyzję про kartę pobytu. На практиці — вибірково, через 6–18 місяців з моменту зміни. Щоб уникнути ризику — подайте zmianę.' },
+      { q: 'Скільки коштує zmiana zezwolenia після зміни роботи?', a: 'Opłata skarbowa — 220 PLN. Біометрія не потрібна. Рішення — зазвичай 30–90 днів. Сам пластик karty не змінюється.' }
+    ],
+
     pl: [
       { q: 'W jakim terminie zawiadomić wojewodę o zmianie pracodawcy?', a: '15 dni roboczych od podpisania nowej umowy - przez MOS v2.0, jako "zmiana decyzji w sprawie zezwolenia na pobyt". Spóźnienie = ryzyko utraty karty.' },
       { q: 'Co się stanie, jeśli nie zgłoszę zmiany pracy?', a: 'Wojewoda może cofnąć decyzję. W praktyce stosowane wyrywkowo - przy weryfikacji w 6-18. miesiącu od zmiany. Aby uniknąć ryzyka, złóż wniosek o zmianę.' },
@@ -420,6 +485,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Чем karta CUKR отличается от обычной karta pobytu?', a: 'Karta CUKR выдаётся только украинцам, имеет упрощённую процедуру и не требует подтверждения занятости в первый год. После 12 месяцев - переход на стандартную TRC по работе или другому основанию.' },
       { q: 'Когда заканчивается статус UKR и начинается karta CUKR?', a: 'UKR действует до 4 марта 2026. С этой даты подача - только на karta CUKR через MOS v2.0. Перевод автоматическим не будет - нужно подать новый wniosek (заявление).' }
     ],
+    uk: [
+      { q: 'Що таке karta CUKR у Польщі?', a: 'Новий формат TRC спеціально для громадян України, що замінює статус UKR з 4 березня 2026. Подача — через MOS v2.0, прискорена процедура без перевірки мінімальної зарплати в перший рік.' },
+      { q: 'Чим karta CUKR відрізняється від звичайної karta pobytu?', a: 'Karta CUKR видається лише українцям, має спрощену процедуру та не вимагає підтвердження зайнятості в перший рік. Після 12 місяців — перехід на стандартну TRC.' },
+      { q: 'Коли закінчується статус UKR і починається karta CUKR?', a: 'UKR діє до 4 березня 2026. З цієї дати подача — лише на karta CUKR через MOS v2.0. Перенесення автоматичним не буде — потрібно подати новий wniosek.' }
+    ],
+
     pl: [
       { q: 'Czym jest karta CUKR w Polsce?', a: 'Nowy format TRC dla obywateli Ukrainy, zastępujący status UKR od 4 marca 2026. Złożenie - przez MOS v2.0, procedura uproszczona, bez wymogu minimalnego wynagrodzenia w pierwszym roku.' },
       { q: 'Czym karta CUKR różni się od zwykłej karty pobytu?', a: 'Tylko dla Ukraińców, uproszczona procedura, brak wymogu zatrudnienia w pierwszym roku. Po 12 miesiącach przejście na standardowe TRC.' },
@@ -444,6 +515,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько ждать после свадьбы до получения karta pobytu?', a: 'Wniosek (заявление) о TRC по łączeniu rodzin (воссоединению семьи) можно подавать сразу после заключения брака через MOS v2.0. Решение в Mazowieckim UW (Мазовецком воеводском управлении) - 8-14 месяцев. Через 3 года брака открывается путь к karta stałego pobytu (карте постоянного пребывания).' },
       { q: 'Можно ли подать на гражданство сразу после брака?', a: 'Нет. Брак не даёт гражданства напрямую. После 3 лет брака с гражданином РП и 2 лет на karcie stałego pobytu (карте постоянного пребывания) можно подать на uznanie za obywatela polskiego (признание польским гражданином) - это самый короткий путь к польскому паспорту через брак.' }
     ],
+    uk: [
+      { q: 'Які документи потрібні для реєстрації шлюбу з громадянином Польщі?', a: 'Свідоцтво про народження з apostille та присяжним перекладом, довідка про сімейний стан не старша 6 місяців, паспорт, за потреби — судове рішення про розірвання попереднього шлюбу.' },
+      { q: 'Скільки чекати після весілля до отримання karta pobytu?', a: 'Wniosek про TRC по łączeniu rodzin можна подавати одразу після укладення шлюбу через MOS v2.0. Рішення в Mazowieckim UW — 8–14 місяців. Через 3 роки шлюбу відкривається шлях до karta stałego pobytu.' },
+      { q: 'Чи можна подати на громадянство одразу після шлюбу?', a: 'Ні. Шлюб не дає громадянства безпосередньо. Після 3 років шлюбу з громадянином РП та 2 років на karcie stałego pobytu можна подати на uznanie za obywatela polskiego.' }
+    ],
+
     pl: [
       { q: 'Jakie dokumenty są potrzebne do ślubu z obywatelem Polski?', a: 'Akt urodzenia z apostille i tłumaczeniem przysięgłym, zaświadczenie o zdolności prawnej do zawarcia małżeństwa nie starsze niż 6 miesięcy, paszport, ewentualnie wyrok rozwodowy.' },
       { q: 'Ile po ślubie czeka się na kartę pobytu?', a: 'Wniosek o TRC z łączenia rodzin można złożyć od razu po ślubie przez MOS v2.0. Decyzja w Mazowieckim UW - 8-14 miesięcy. Po 3 latach małżeństwa otwiera się ścieżka PR.' },
@@ -469,6 +546,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько стоит Kod 95 в Польше в 2026?', a: 'Kwalifikacja wstępna pełna (полная начальная квалификация) - от 4 500 PLN, przyspieszona (ускоренная) - от 2 500 PLN, szkolenie okresowe (периодическое обучение) - от 1 200 PLN. Плюс badania lekarskie i psychologiczne (медосмотр и психологические обследования, около 600 PLN) и государственный экзамен в WORD (Воеводском центре дорожного движения, 50 PLN).' },
       { q: 'Можно ли получить Kod 95 без польских прав?', a: 'Нет. Сначала нужно обменять иностранные права на польские (категория C, CE, D или DE), потом проходить kwalifikacja (квалификацию) или szkolenie okresowe (периодическое обучение). Иностранный CPC из ЕС признаётся автоматически.' }
     ],
+    uk: [
+      { q: 'Що таке Kod 95 і кому він потрібен?', a: 'Kod 95 — код у водійському посвідченні, що підтверджує право працювати професійним водієм (C/CE та D/DE). Обов\'язковий для всіх платних перевезень у ЄС з 2018 року.' },
+      { q: 'Які три способи отримання Kod 95 у Польщі?', a: 'Kwalifikacja wstępna 280 годин (для початківців від 18 років), kwalifikacja wstępna przyspieszona 140 годин, або szkolenie okresowe 35 годин раз на 5 років (для тих, хто вже мав Kod 95).' },
+      { q: 'Скільки коштує Kod 95 у Польщі у 2026 році?', a: 'Kwalifikacja wstępna pełna — від 4 500 PLN, przyspieszona — від 2 500 PLN, szkolenie okresowe — від 1 200 PLN. Плюс badania lekarskie (~600 PLN) та іспит у WORD (50 PLN).' },
+      { q: 'Чи можна отримати Kod 95 без польського водійського посвідчення?', a: 'Ні. Спочатку потрібно обміняти іноземне посвідчення на польське (C, CE, D або DE), а потім проходити kwalifikacja або szkolenie okresowe. Іноземний CPC з ЄС визнається автоматично.' }
+    ],
+
     pl: [
       { q: 'Czym jest Kod 95 i komu jest potrzebny?', a: 'Kod 95 to wpis w prawie jazdy potwierdzający kwalifikację zawodową kierowcy (C/CE i D/DE). Obowiązkowy w UE od 2018 dla wszystkich przewozów zarobkowych. Bez niego nie da się pracować w międzynarodowym transporcie.' },
       { q: 'Jakie są trzy ścieżki uzyskania Kod 95?', a: 'Kwalifikacja wstępna 280 h (od 18 lat), kwalifikacja wstępna przyspieszona 140 h (od 23 dla C, od 21 dla D), albo szkolenie okresowe 35 h co 5 lat dla osób z istniejącym wpisem.' },
@@ -495,6 +579,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько раз нужно проходить szkolenie okresowe (периодическое обучение)?', a: 'Каждые 5 лет с момента последнего прохождения. После szkolenia делается отметка в правах с новой датой действия Kod 95. Пропуск срока = потеря права работать водителем до прохождения.' },
       { q: 'Можно ли заменить kwalifikację wstępnа szkolenia okresowe?', a: 'Нет. Это разные процедуры. Если Kod 95 истёк больше года назад, нужно заново пройти kwalifikację wstępną (начальную квалификацию) - szkolenie okresowe (периодическое обучение) не годится.' }
     ],
+    uk: [
+      { q: 'У чому різниця між kwalifikacja wstępna та szkolenie okresowe?', a: 'Kwalifikacja wstępna — для тих, хто вперше отримує Kod 95 (280 або 140 годин теорії + практика + державний іспит). Szkolenie okresowe — продовження наявного Kod 95 кожні 5 років (35 годин, без іспиту).' },
+      { q: 'Як часто потрібно проходити szkolenie okresowe?', a: 'Кожні 5 років з моменту останнього проходження. Після szkolenie у посвідченні робиться відмітка з новою датою дії Kod 95. Пропуск терміну означає втрату права працювати водієм до проходження курсу.' },
+      { q: 'Чи можна замінити kwalifikację wstępną на szkolenie okresowe?', a: 'Ні. Це різні процедури. Якщо Kod 95 прострочений більш ніж на рік, потрібно заново пройти kwalifikację wstępną — szkolenie okresowe для цього не підходить.' }
+    ],
+
     pl: [
       { q: 'Czym różni się kwalifikacja wstępna od szkolenia okresowego?', a: 'Kwalifikacja wstępna - dla tych, którzy uzyskują Kod 95 po raz pierwszy (280 lub 140 godzin + egzamin państwowy). Szkolenie okresowe - przedłużenie co 5 lat (35 godzin, bez egzaminu).' },
       { q: 'Co ile lat robi się szkolenie okresowe?', a: 'Co 5 lat od ostatniego ukończenia. Wpis w prawie jazdy z nową datą Kod 95. Przekroczenie terminu = utrata uprawnień do czasu ukończenia szkolenia.' },
@@ -551,6 +641,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие документы нужны для обмена азербайджанских прав?', a: 'Оригинал водительских прав, присяжный перевод, паспорт, karta pobytu / PESEL, фото 35×45 мм, badania lekarskie (медосмотр, ~200 PLN), wniosek (заявление) по форме starostwa.' },
       { q: 'Меняются ли категории C и D из Азербайджана?', a: 'C и D меняются с экзаменом теории WORD (Воеводского центра дорожного движения). На практике многие starostwa (старостаты) также требуют экзамен на категории C, CE, D, DE - несмотря на Венскую конвенцию.' }
     ],
+    uk: [
+      { q: 'Чи можна обміняти азербайджанське водійське посвідчення на польське без іспиту?', a: 'Так. Азербайджан підписав Віденську конвенцію 1968 року, тому категорії A та B обмінюються без складання теорії та практики. Обмін здійснюється через starostwo за місцем проживання за 100,50 PLN.' },
+      { q: 'Які документи потрібні для обміну азербайджанського посвідчення?', a: 'Оригінал водійського посвідчення, присяжний переклад, паспорт, karta pobytu / PESEL, фото 35×45 мм, badania lekarskie (~200 PLN), wniosek за формою starostwa.' },
+      { q: 'Чи обмінюються категорії C та D з Азербайджану?', a: 'C та D обмінюються зі складанням теоретичного іспиту у WORD. На практиці багато starostwa вимагають іспит для категорій C, CE, D, DE навіть незважаючи на Віденську конвенцію.' }
+    ],
+
     pl: [
       { q: 'Czy można wymienić azerbejdżańskie prawo jazdy bez egzaminu?', a: 'Tak. Azerbejdżan jest stroną Konwencji Wiedeńskiej 1968 - kategorie A i B wymienia się bez egzaminu. Wymiana w starostwie za 100,50 PLN.' },
       { q: 'Jakie dokumenty potrzebne do wymiany?', a: 'Oryginał prawa jazdy, tłumaczenie przysięgłe, paszport, karta pobytu / PESEL, zdjęcie 35×45 mm, badania lekarskie (~200 PLN), wniosek starostwa.' },
@@ -573,6 +669,11 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие условия обмена турецких прав на польские в 2026?', a: 'Турция не подписала Венскую конвенцию для обмена без экзамена. Категория B меняется через сдачу теории WORD (Воеводского центра дорожного движения, 50 PLN). Категории C, CE, D, DE - теория + практический экзамен.' },
       { q: 'Сколько стоит обмен турецких прав?', a: 'Starostwo (старостат) - 100,50 PLN, перевод 50-150 PLN, badania lekarskie (медосмотр) 200 PLN, экзамен теории WORD 50 PLN. Категория B итого ~400-500 PLN. С практическим экзаменом - до 700 PLN.' }
     ],
+    uk: [
+      { q: 'Які умови обміну турецьких прав на польські у 2026 році?', a: 'Туреччина не підписала Віденську конвенцію, тому обмін без іспиту неможливий. Категорія B обмінюється через складання теоретичного іспиту WORD (50 PLN). Категорії C, CE, D, DE — теорія плюс практичний іспит.' },
+      { q: 'Скільки коштує обмін турецьких прав?', a: 'Starostwo — 100,50 PLN, переклад 50–150 PLN, badania lekarskie 200 PLN, теоретичний іспит WORD 50 PLN. Категорія B загалом ~400–500 PLN. З практичним іспитом — до 700 PLN.' }
+    ],
+
     pl: [
       { q: 'Jakie są warunki wymiany tureckich praw jazdy w 2026?', a: 'Turcja nie ratyfikowała Konwencji Wiedeńskiej w pełni - kategoria B wymaga teorii WORD. Kategorie C, CE, D, DE - teoria plus egzamin praktyczny.' },
       { q: 'Ile kosztuje wymiana tureckiego prawa jazdy?', a: 'Starostwo 100,50 PLN, tłumaczenie 50-150 PLN, badania 200 PLN, teoria WORD 50 PLN. Kategoria B łącznie 400-500 PLN. Z egzaminem praktycznym do 700 PLN.' }
@@ -593,6 +694,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько стоит экзамен теории в WORD?', a: '50 PLN за подачу. Записаться можно онлайн на сайте WORD (Воеводского центра дорожного движения) по месту жительства. Очередь - 2-6 недель в Варшаве. Можно сдавать на польском, английском, русском, украинском или немецком.' },
       { q: 'Можно ли получить международные права в Польше?', a: 'Да, после обмена иностранных прав на польские - за 35 PLN в starostwie (старостате). Действительны 3 года (Вена) или 1 год (Женева). Нужны для поездок в страны вне ЕС.' }
     ],
+    uk: [
+      { q: 'Чи потрібно складати іспит WORD при обміні прав США/Великобританії/Індії?', a: 'Так. США, Великобританія та Індія не входять до країн автоматичного обміну. Категорія B — теоретичний іспит WORD (30 питань, 75% правильних відповідей). Практика для категорії B зазвичай не потрібна, але для C і D — обов\'язкова.' },
+      { q: 'Скільки коштує теоретичний іспит у WORD?', a: '50 PLN за подачу заяви. Записатися можна онлайн на сайті WORD за місцем проживання. Черга у Варшаві — 2–6 тижнів. Іспит можна складати польською, англійською, російською, українською або німецькою мовою.' },
+      { q: 'Чи можна отримати міжнародні права у Польщі?', a: 'Так, після обміну іноземних прав на польські — за 35 PLN у starostwie. Дійсні 3 роки (Віденська конвенція) або 1 рік (Женевська конвенція). Потрібні для поїздок до країн поза ЄС.' }
+    ],
+
     pl: [
       { q: 'Czy potrzebny jest egzamin WORD przy wymianie praw USA / UK / Indii?', a: 'Tak. USA, Wielka Brytania, Indie nie są w wykazie automatycznej wymiany. Kategoria B - teoria WORD (30 pytań, 75% poprawnych). Praktyka zwykle nie dla B, ale C i D - z praktyką.' },
       { q: 'Ile kosztuje egzamin teoretyczny w WORD?', a: '50 PLN. Zapis online na stronie WORD. Kolejka 2-6 tygodni w Warszawie. Egzamin po polsku, angielsku, rosyjsku, ukraińsku lub niemiecku.' },
@@ -616,6 +723,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какой штраф за езду без польских прав после 185 дней?', a: 'Mandat (штраф) ITD (Дорожной транспортной инспекции) от 1 500 до 5 000 PLN, в случае повторных нарушений - суд и до 30 000 PLN или ограничение свободы. На дороге автомобиль могут эвакуировать на postój policyjny (полицейскую стоянку).' },
       { q: 'Как ITD (Дорожная транспортная инспекция) проверяет 185 дней пребывания?', a: 'По штампам в паспорте, базе MOS v2.0, meldunku (регистрации по адресу), базе ZUS и записям таможни. При проверке инспектор вправе требовать подтверждения адреса и работы. Игнорирование чревато mandatем (штрафом).' }
     ],
+    uk: [
+      { q: 'Що таке правило 185 днів для водійських прав у Польщі?', a: 'Іноземець, який прожив у Польщі понад 185 днів на рік, зобов\'язаний обміняти іноземні права на польські. Без обміну керування автомобілем вважається prowadzeniem pojazdu bez uprawnień.' },
+      { q: 'Який штраф за керування без польських прав після 185 днів?', a: 'Mandat ITD від 1 500 до 5 000 PLN, у разі повторних порушень — суд і до 30 000 PLN або обмеження волі. На дорозі автомобіль можуть евакуювати.' },
+      { q: 'Як ITD перевіряє 185 днів перебування?', a: 'За штампами у паспорті, базою MOS v2.0, meldunkiem, базою ZUS та записами митниці. Під час перевірки інспектор має право вимагати підтвердження адреси проживання та місця роботи.' }
+    ],
+
     pl: [
       { q: 'Czym jest zasada 185 dni dla wymiany prawa jazdy?', a: 'Cudzoziemiec mieszkający w Polsce ponad 185 dni w roku ma obowiązek wymienić prawo jazdy na polskie. Bez wymiany - jazda traktowana jako prowadzenie bez uprawnień.' },
       { q: 'Jaki jest mandat za jazdę bez polskiego prawa po 185 dniach?', a: 'Mandat ITD 1 500-5 000 PLN, w przypadku recydywy sąd i kara do 30 000 PLN lub ograniczenie wolności. Auto może być odholowane na parking policyjny.' },
@@ -639,6 +752,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие нарушения тахографа штрафуются больше всего?', a: 'Manipulacja tachografem (манипуляция тахографом) - 12 000 PLN на водителя + 12 000 PLN на фирму. Brak karty kierowcy (отсутствие карты водителя) - 2 000 PLN. Превышение времени работы - 100-500 PLN за каждый час.' },
       { q: 'Что грозит за нарушение MiLoG (минимальная зарплата ФРГ)?', a: 'BAG (Федеральная служба грузовых перевозок ФРГ) штрафует фирму до 500 000 EUR за неуплату немецкой минимальной зарплаты водителю при доставке в Германию. Дополнительно - Verbot закупочных контрактов с госорганами ФРГ.' }
     ],
+    uk: [
+      { q: 'Які штрафи ITD і BAG для водіїв вантажівок у 2026?', a: 'ITD — польські дорожні штрафи до 12 000 PLN за одне порушення. BAG — німецькі штрафи за перетин кордону без належних документів: tachograph, мінімальна зарплата за MiLoG, EES.' },
+      { q: 'За які порушення тахографа штрафують найбільше?', a: 'Manipulacja tachografem — 12 000 PLN на водія + 12 000 PLN на фірму. Brak karty kierowcy — 2 000 PLN. Перевищення часу роботи — 100–500 PLN за кожну годину.' },
+      { q: 'Що загрожує за порушення MiLoG?', a: 'BAG штрафує фірму до 500 000 EUR за несплату німецької мінімальної зарплати водієві під час доставки до Німеччини. Додатково — заборона державних контрактів у ФРН.' }
+    ],
+
     pl: [
       { q: 'Jakie są kary ITD i BAG dla kierowców ciężarowych w 2026?', a: 'ITD - kary do 12 000 PLN za naruszenie. BAG (niemiecki urząd transportu) - kary za niezgodność z tachografem, MiLoG, EES.' },
       { q: 'Które naruszenia tachografu są najwyżej karane?', a: 'Manipulacja tachografem - 12 000 PLN na kierowcę + 12 000 PLN na firmę. Brak karty kierowcy - 2 000 PLN. Przekroczenie czasu pracy - 100-500 PLN za każdą godzinę.' },
@@ -664,6 +783,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько стоит apostille в Польше в 2026?', a: 'Opłata skarbowa (госпошлина) - 60 PLN за один документ MSZ. Срочно (24-48 часов) - +50%. Услуги консультанта по сбору и подаче - от 250 PLN за документ. Курьерская доставка - 25-60 PLN.' },
       { q: 'Сколько ждать apostille в MSZ?', a: 'Стандартный срок - 5-7 рабочих дней при подаче лично или по почте. Срочно - 24-48 часов с дополнительной оплатой. Полностью онлайн пока не работает - нужен оригинал документа.' }
     ],
+    uk: [
+      { q: 'Що таке apostille і навіщо він потрібен?', a: 'Apostille — спрощена міжнародна легалізація публічних документів за Гаагською конвенцією 1961 року. Потрібен для використання польських документів за кордоном і іноземних у Польщі — громадянство, шлюб, бізнес, працевлаштування.' },
+      { q: 'Хто проставляє apostille у Польщі?', a: 'MSZ — на акти USC і судових органів. MEiN — на дипломи. KRK — самостійно легалізується через MSZ. Документи консульства оформлюються через MSZ країни видачі.' },
+      { q: 'Скільки коштує apostille у Польщі у 2026?', a: 'Opłata skarbowa — 60 PLN за один документ MSZ. Терміново (24–48 годин) — +50%. Послуги консультанта — від 250 PLN за документ. Кур\'єрська доставка — 25–60 PLN.' },
+      { q: 'Скільки чекати apostille в MSZ?', a: 'Стандартний термін — 5–7 робочих днів при поданні особисто або поштою. Терміново — 24–48 годин з додатковою оплатою. Повністю онлайн поки не працює — потрібен оригінал документа.' }
+    ],
+
     pl: [
       { q: 'Czym jest apostille i po co jest potrzebne?', a: 'Apostille - uproszczona legalizacja dokumentów urzędowych zgodnie z Konwencją Haską 1961. Potrzebne do używania polskich dokumentów za granicą i zagranicznych w Polsce - obywatelstwo, ślub, biznes, praca.' },
       { q: 'Kto wydaje apostille w Polsce?', a: 'MSZ - akty USC i sądowe. MEiN - dyplomy. KRK - z apostille MSZ. Dokumenty konsularne - przez MSZ państwa wystawienia.' },
@@ -690,6 +816,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Когда нужен присяжный перевод документа с apostille?', a: 'Когда документ из страны, не подписавшей Гаагскую конвенцию, или когда польский urząd (государственное учреждение) прямо требует tłumaczenie przysięgłe (присяжный перевод). Apostille легализует оригинал, а перевод делает текст пригодным для польского чиновника.' },
       { q: 'Сколько стоит nostryfikacja (нострификация) диплома в Польше?', a: 'Госпошлина wuź - 50% от minimalnego wynagrodzenia (минимальной зарплаты, около 2 400 PLN в 2026). Услуги bывшего вуза по сбору - варьируются. Срок - 90-180 дней. Часто нужны дополнительные документы из страны выдачи.' }
     ],
+    uk: [
+      { q: 'У чому різниця між apostille, nostryfikacją і присяжним перекладом?', a: 'Apostille — міжнародна легалізація справжності печатки/підпису. Nostryfikacja — визнання іноземного диплома польським вишем. Присяжний переклад — завірений TEPISом переклад тексту. Усі три часто потрібні разом для дипломів.' },
+      { q: 'Коли потрібен присяжний переклад документа з apostille?', a: 'Коли документ із країни, що не підписала Гаагську конвенцію, або коли польський urząd прямо вимагає tłumaczenie przysięgłe. Apostille легалізує оригінал, а переклад робить текст зрозумілим для чиновника.' },
+      { q: 'Скільки коштує nostryfikacja диплома у Польщі?', a: 'Держмито — 50% від мінімальної зарплати (~2 400 PLN у 2026). Термін — 90–180 днів. Часто потрібні додаткові документи з країни видачі.' }
+    ],
+
     pl: [
       { q: 'Czym różni się apostille, nostryfikacja i tłumaczenie przysięgłe?', a: 'Apostille - międzynarodowa legalizacja pieczęci/podpisu. Nostryfikacja - uznanie zagranicznego dyplomu przez polską uczelnię. Tłumaczenie przysięgłe - uwierzytelnione przez TEPIS. Często są wymagane łącznie.' },
       { q: 'Kiedy potrzebne tłumaczenie przysięgłe z apostille?', a: 'Gdy dokument pochodzi z państwa nie-Hagi lub gdy urząd wprost żąda tłumaczenia. Apostille legalizuje oryginał, tłumaczenie czyni go czytelnym.' },
@@ -713,6 +845,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько стоит полная легализация в Польше?', a: 'Государственные пошлины - около 800-1 200 PLN (TRC + meldunek (регистрация по адресу) + PESEL + права). Услуги консультанта - от 2 500 PLN за TRC. Если добавить PESEL, права и ZUS - обычно 4 000-7 000 PLN под ключ.' },
       { q: 'С чего начать легализацию иностранцу в Варшаве?', a: 'Запишитесь на консультацию у иммиграционного консультанта, чтобы определить основание. Без правильно подобранного основания подача в MOS v2.0 закончится отказом, а 14-дневное окно apelacji (апелляции) жёсткое.' }
     ],
+    uk: [
+      { q: 'З чого почати легалізацію у Варшаві у 2026?', a: 'Спочатку обираєте підставу (робота, бізнес, навчання, шлюб), потім подаєте wniosek через MOS v2.0, оформлюєте meldunek, PESEL, ZUS / медичне страхування. Паралельно — обмін прав, трудовий договір, відкриття рахунку.' },
+      { q: 'Скільки коштує повна легалізація в Польщі?', a: 'Державне мито — близько 800–1 200 PLN. Послуги консультанта — від 2 500 PLN за TRC. Якщо додати PESEL, права та ZUS — зазвичай 4 000–7 000 PLN під ключ.' },
+      { q: 'З чого почати легалізацію іноземцю у Варшаві?', a: 'Запишіться на консультацію до імміграційного консультанта, щоб визначити підставу. Без правильно обраної підстави подача до MOS v2.0 завершиться відмовою, а 14-денне вікно apelacji дуже жорстке.' }
+    ],
+
     pl: [
       { q: 'Od czego zacząć legalizację w Warszawie w 2026?', a: 'Najpierw wybór podstawy (praca, biznes, studia, małżeństwo), potem wniosek w MOS v2.0, meldunek, PESEL, ZUS / ubezpieczenie. Równolegle - wymiana praw, umowa, konto bankowe.' },
       { q: 'Ile kosztuje pełna legalizacja w Polsce?', a: 'Opłaty skarbowe ~800-1 200 PLN (TRC + meldunek + PESEL + prawo jazdy). Honorarium konsultanta od 2 500 PLN za TRC. Pakiet pełny pod klucz 4 000-7 000 PLN.' },
@@ -737,6 +875,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что такое Profil Zaufany (доверенный профиль) и как его оформить?', a: 'Profil Zaufany - польский цифровой ID. Получают через банк (mBank, PKO, ING, Pekao) онлайн за 5 минут с активным польским счётом, или в urzędzie gminy (городском управлении) с PESEL и паспортом.' },
       { q: 'Чем mDowód отличается от dowoda osobistego (удостоверения личности)?', a: 'mDowód - мобильная версия польского удостоверения личности в приложении mObywatel. Доступен только гражданам РП и обладателям karty stałego pobytu (карты постоянного пребывания). Иностранцам с TRC mDowód временно недоступен - используйте Profil Zaufany (доверенный профиль).' }
     ],
+    uk: [
+      { q: 'Як отримати PESEL після karta pobytu?', a: 'PESEL отримують в urzędzie gminy з чинною karta pobytu, паспортом та підтвердженням мети перебування. Послуга безкоштовна, видається протягом 1–3 робочих днів.' },
+      { q: 'Що таке Profil Zaufany і як його оформити?', a: 'Profil Zaufany — польський цифровий ID. Отримують через банк (mBank, PKO, ING, Pekao) онлайн за 5 хвилин за наявності активного польського рахунку, або в urzędzie gminy з PESEL і паспортом.' },
+      { q: 'Чим mDowód відрізняється від dowodu osobistego?', a: 'mDowód — мобільна версія польського посвідчення особи в додатку mObywatel. Доступний лише громадянам РП та власникам karty stałego pobytu. Іноземцям з TRC mDowód наразі недоступний — використовуйте Profil Zaufany.' }
+    ],
+
     pl: [
       { q: 'Jak otrzymać PESEL po karcie pobytu?', a: 'W urzędzie gminy z ważną kartą pobytu, paszportem i potwierdzeniem celu (umowa, podatki, bank). Bezpłatnie, 1-3 dni robocze.' },
       { q: 'Czym jest Profil Zaufany i jak go założyć?', a: 'Profil Zaufany - polski cyfrowy identyfikator. Przez bank (mBank, PKO, ING, Pekao) online w 5 minut lub w urzędzie gminy z PESEL i paszportem.' },
@@ -760,6 +904,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие документы нужны новоприбывшему иностранцу?', a: 'Загранпаспорт с действующей визой/штампом, договор аренды или согласие хозяина на meldunek (регистрацию по адресу), paszport, фото 35×45 мм для PESEL и karty pobytu, медстраховка с покрытием от 30 000 €, договор работы при наличии.' },
       { q: 'С чего начать новоприбывшему в Польше?', a: 'Meldunek (регистрация по адресу) и PESEL - основа. Без них трудно с банком, медициной и налогами. Их можно получить за 1-3 рабочих дня в urzędzie gminy (городском управлении). Параллельно - wniosek (заявление) о TRC, чтобы не упустить срок.' }
     ],
+    uk: [
+      { q: 'Що потрібно зробити в перші 30 днів у Польщі?', a: 'Meldunek у гміні, PESEL, відкриття банківського рахунку, подача wniosku про TRC через MOS v2.0 (якщо віза D), підключення медичного страхування та SIM-картки, реєстрація в ZUS при працевлаштуванні.' },
+      { q: 'Які документи потрібні новоприбулому іноземцю?', a: 'Закордонний паспорт з чинною візою/штампом, договір оренди або згода власника на meldunek, фото 35×45 мм, медичне страхування з покриттям від 30 000 €, трудовий договір за наявності.' },
+      { q: 'З чого почати новоприбулому в Польщі?', a: 'Meldunek і PESEL — це основа. Без них складно з банком, медициною та податками. Їх можна отримати за 1–3 робочих дні в urzędzie gminy. Паралельно — wniosek про TRC, щоб не пропустити строк.' }
+    ],
+
     pl: [
       { q: 'Co zrobić w pierwsze 30 dni w Polsce?', a: 'Meldunek w gminie, PESEL, konto bankowe, wniosek o TRC w MOS v2.0 (jeśli wiza D), ubezpieczenie zdrowotne, karta SIM, rejestracja w ZUS przy zatrudnieniu.' },
       { q: 'Jakie dokumenty potrzebne nowoprzybyłemu?', a: 'Paszport z wizą / stemplem, umowa najmu lub zgoda właściciela na meldunek, zdjęcia 35×45 mm, ubezpieczenie 30 000 €, umowa o pracę jeśli jest.' },
@@ -783,6 +933,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Касается ли EES обладателей karta pobytu?', a: 'Нет. EES работает только для краткосрочных пребываний (до 90/180 дней). Обладатели TRC, PMŻ или Karty Polaka проходят границу как резиденты - без сканирования EES.' },
       { q: 'Какие данные EES сохраняет о въезде?', a: 'Биометрические - лицо и отпечатки пальцев. Хранятся 3 года, потом автоматически удаляются. Данные передаются между странами Шенгена для проверки соблюдения 90-дневного безвизового лимита.' }
     ],
+    uk: [
+      { q: 'Що таке система EES у Євросоюзі?', a: 'EES — єдина електронна система ЄС для відстеження в\'їзду та виїзду громадян третіх країн за короткостроковими візами та безвізом. Запущена з 12 жовтня 2025 року. Замінює штампи в паспорті на біометричні дані.' },
+      { q: 'Чи стосується EES власників karta pobytu?', a: 'Ні. EES діє лише для короткострокового перебування (до 90/180 днів). Власники TRC, PMŻ або Karty Polaka перетинають кордон як резиденти — без сканування EES.' },
+      { q: 'Які дані EES зберігає про в\'їзд?', a: 'Біометричні — обличчя та відбитки пальців. Зберігаються 3 роки, після чого автоматично видаляються. Дані передаються між країнами Шенгену для перевірки дотримання 90-денного безвізового ліміту.' }
+    ],
+
     pl: [
       { q: 'Czym jest system EES w Unii Europejskiej?', a: 'EES (Entry/Exit System) - wspólny elektroniczny rejestr UE dla obywateli państw trzecich przy krótkim pobycie. Działa od 12 października 2025. Zastępuje stemple paszportowe danymi biometrycznymi.' },
       { q: 'Czy EES dotyczy posiadaczy karty pobytu?', a: 'Nie. EES dotyczy tylko krótkich pobytów (do 90/180 dni). TRC, PR, Karta Polaka - granica jak rezydent.' },
@@ -808,6 +964,13 @@ export const BLOG_FAQ: Map = {
       { q: 'Можно ли открыть Sp. z o.o. в Польше иностранцу без TRC?', a: 'Да. В отличие от JDG (ИП), Sp. z o.o. (ООО) не требует TRC - учредителем может быть нерезидент. Но при работе в фирме в Польше понадобится zezwolenie na pracę (разрешение на работу) или TRC. Управлять можно дистанционно.' },
       { q: 'Какие налоги платит Sp. z o.o. в 2026?', a: 'CIT 9% при доходе до 2 млн EUR, иначе 19%. Estonian CIT (эстонский налог на прибыль, от 10% при выплате дивидендов) - для малого бизнеса с reinwestycjami (реинвестициями). VAT 23% (8% и 5% для отдельных категорий). PIT 19% - на дивиденды.' }
     ],
+    uk: [
+      { q: 'Скільки коштує відкрити Sp. z o.o. у Польщі в 2026 році?', a: 'KRS S24 онлайн — 250 PLN, паперова подача — 500 PLN. Мінімальний капітал — 5 000 PLN. Послуги консультанта — від 1 800 PLN під ключ. Відкриття банківського рахунку — безкоштовно.' },
+      { q: 'Скільки чекати реєстрацію Sp. z o.o.?', a: 'Через KRS S24 (онлайн) — 1 робочий день за умови правильно оформленого wniosku. Через паперову подачу — 7–14 днів. NIP і REGON присвоюються автоматично. VAT — окрема реєстрація, 7–30 днів.' },
+      { q: 'Чи може іноземець без TRC відкрити Sp. z o.o. у Польщі?', a: 'Так. На відміну від JDG, Sp. z o.o. не вимагає TRC — засновником може бути нерезидент. Але для роботи в компанії в Польщі знадобиться zezwolenie na pracę або TRC. Управляти можна дистанційно.' },
+      { q: 'Які податки сплачує Sp. z o.o. у 2026 році?', a: 'CIT 9% при доході до 2 млн EUR, інакше 19%. Estonian CIT від 10% при виплаті дивідендів. VAT 23% (8% і 5% для окремих категорій). PIT 19% на дивіденди.' }
+    ],
+
     pl: [
       { q: 'Ile kosztuje założenie Sp. z o.o. w 2026?', a: 'KRS S24 online - 250 PLN, papierowo - 500 PLN. Kapitał minimalny 5 000 PLN. Honorarium konsultanta od 1 800 PLN. Konto bankowe - bezpłatnie.' },
       { q: 'Ile czeka się na rejestrację Sp. z o.o.?', a: 'Przez S24 - 1 dzień roboczy. Papierowo 7-14 dni. NIP i REGON przyznaje się automatycznie. VAT osobno 7-30 dni.' },
@@ -834,6 +997,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие налоговые льготы есть на JDG в 2026?', a: 'Ulga na start (льгота для стартующих) - освобождение от ZUS на 6 месяцев. Mały ZUS Plus (Малый ZUS Плюс) - пониженные взносы при доходе до 120 000 PLN/год. IP Box - 5% ставка PIT для разработчиков ПО. Riccio - линейная 19% или прогрессивная 12/32%.' },
       { q: 'Сколько стоит обслуживание JDG в год?', a: 'ZUS - около 500-1 700 PLN/мес в зависимости от opcji (опции). Бухгалтерия - от 200 PLN/мес. ZUS zdrowotny (медицинский взнос) - 9% от dochodu (дохода, минимум ~370 PLN). При нулевом доходе - около 6 000 PLN/год минимум.' }
     ],
+    uk: [
+      { q: 'Чи може іноземець відкрити JDG у Польщі?', a: 'Лише власники TRC на підставі роботи або бізнесу, PMŻ, długoterminowego rezydenta UE або Karta Polaka. На студентській karcie pobytu JDG відкрити не можна. Реєстрація — CEIDG онлайн через ePUAP за 1 день.' },
+      { q: 'Які податкові пільги доступні на JDG у 2026 році?', a: 'Ulga na start — звільнення від ZUS на 6 місяців. Mały ZUS Plus — знижені внески при доході до 120 000 PLN на рік. IP Box — ставка PIT 5% для розробників ПЗ. Лінійна 19% або прогресивна 12/32%.' },
+      { q: 'Скільки коштує обслуговування JDG на рік?', a: 'ZUS — близько 500–1 700 PLN на місяць залежно від обраної опції. Бухгалтерія — від 200 PLN на місяць. ZUS zdrowotny — 9% від dochodu (мінімум ~370 PLN). При нульовому доході — близько 6 000 PLN на рік мінімум.' }
+    ],
+
     pl: [
       { q: 'Czy cudzoziemiec może założyć JDG w Polsce?', a: 'Tylko z TRC na podstawie pracy lub biznesu, PR, rezydent UE lub Karta Polaka. Na karcie studenckiej nie. Rejestracja w CEIDG online przez ePUAP w 1 dzień.' },
       { q: 'Jakie ulgi podatkowe ma JDG w 2026?', a: 'Ulga na start - zwolnienie z ZUS przez 6 m-cy. Mały ZUS Plus dla przychodów do 120 000 PLN. IP Box 5% PIT dla programistów. Liniowy 19% lub skala 12/32%.' },
@@ -857,6 +1026,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что дешевле - likwidacja или sprzedaż Sp. z o.o.?', a: 'Sprzedaż udziałów (продажа долей) - 2-4 недели и от 800 PLN. Likwidacja (ликвидация) - 6+ месяцев и от 5 000 PLN. Sprzedaż подходит, если есть покупатель и нет долгов. Likwidacja - единственный путь при долгах перед ZUS / US.' },
       { q: 'Какие налоги при ликвидации Sp. z o.o.?', a: 'CIT на нераспределённую прибыль (9% или 19%). PIT 19% на ликвидационные выплаты учредителям. PCC 0,5% от sumy nettoa imienia. VAT - окончательная декларация перед wykreśleniem (исключением из реестра).' }
     ],
+    uk: [
+      { q: 'Скільки триває likwidacja Sp. z o.o. у Польщі?', a: 'Мінімум 6 місяців (згідно зі статтею 286 KSH). Повна процедура — 9–18 місяців. Включає повідомлення KRS, оголошення в Monitor Sądowy i Gospodarczy, очікування 3 місяці для wierzycieli, бухгалтерську звітність.' },
+      { q: 'Що дешевше — likwidacja чи sprzedaż Sp. z o.o.?', a: 'Sprzedaż udziałów — 2–4 тижні та від 800 PLN. Likwidacja — 6+ місяців та від 5 000 PLN. Sprzedaż підходить, якщо є покупець і немає боргів. Likwidacja — єдиний шлях при боргах перед ZUS / US.' },
+      { q: 'Які податки сплачуються при ліквідації Sp. z o.o.?', a: 'CIT на нерозподілений прибуток (9% або 19%). PIT 19% на ліквідаційні виплати засновникам. PCC 0,5%. VAT — остаточна декларація перед wykreśleniem.' }
+    ],
+
     pl: [
       { q: 'Ile trwa likwidacja Sp. z o.o.?', a: 'Minimum 6 miesięcy (art. 286 KSH). Pełen cykl 9-18 miesięcy. Obejmuje wpis do KRS, ogłoszenie w MSiG, 3-miesięczne oczekiwanie na wierzycieli, sprawozdawczość.' },
       { q: 'Co tańsze - likwidacja czy sprzedaż?', a: 'Sprzedaż udziałów 2-4 tygodnie i od 800 PLN. Likwidacja 6+ miesięcy i od 5 000 PLN. Sprzedaż gdy jest kupiec i brak długów. Likwidacja przy zaległościach ZUS / US.' },
@@ -880,6 +1055,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Кому подходит IP Box 5% в Польше?', a: 'IP Box - для разработчиков ПО, патентов и других kwalifikowanych prawa własności intelektualnej (квалифицированных прав интеллектуальной собственности). Снижает PIT/CIT с 19% до 5% на доход от лицензий и продаж IP. Требует ewidencji R&D (учёта НИОКР) и kalkulacji nexus (расчёта nexus).' },
       { q: 'Можно ли совмещать IP Box и Estonian CIT?', a: 'Нет. Estonian CIT (эстонский налог на прибыль) исключает применение IP Box, ulgi B+R (льготы НИОКР) i innych ulg. Нужно выбирать стратегию: либо отсрочка налога (Estonian), либо льготная ставка на IP (IP Box).' }
     ],
+    uk: [
+      { q: 'Що таке Estonian CIT у Польщі?', a: 'Estonian CIT — режим оподаткування, за якого податок сплачується лише при виплаті дивідендів (10% для малих підприємств, 20% для інших), а не з річного прибутку. Підходить малому бізнесу з реінвестиціями.' },
+      { q: 'Кому підходить IP Box 5% у Польщі?', a: 'IP Box — для розробників ПЗ, патентів та інших kwalifikowanych prawa własności intelektualnej. Знижує PIT/CIT з 19% до 5% на дохід від ліцензій та продажу IP. Потребує ewidencji R&D та kalkulacji nexus.' },
+      { q: 'Чи можна поєднувати IP Box та Estonian CIT?', a: 'Ні. Estonian CIT виключає застосування IP Box, ulgi B+R та інших пільг. Потрібно обирати стратегію: або відстрочення податку (Estonian), або пільгова ставка на IP (IP Box).' }
+    ],
+
     pl: [
       { q: 'Czym jest estoński CIT w Polsce?', a: 'Estoński CIT - opodatkowanie wyłącznie przy wypłacie dywidendy (10% mali, 20% pozostali). Pasuje MŚP z reinwestycjami.' },
       { q: 'Komu pasuje IP Box 5%?', a: 'Programistom, patentom, innym kwalifikowanym prawom IP. Zmniejsza PIT / CIT z 19% do 5% od dochodu z licencji i sprzedaży IP. Wymaga ewidencji B+R i kalkulacji nexus.' },
@@ -903,6 +1084,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие налоги платит налоговый резидент Польши?', a: 'PIT по прогрессивной шкале 12/32% либо линейный 19% (на JDG - ИП). Налогом облагается доход всего мира. Дивиденды - 19%. ZUS обязателен при работе. Декларация PIT-37 / PIT-36 - до 30 апреля следующего года.' },
       { q: 'Как избежать двойного налогообложения с Россией / Украиной?', a: 'У Польши есть умовы o unikaniu podwójnego opodatkowania (соглашения об избежании двойного налогообложения) с большинством стран СНГ (с РФ - приостановлено с 2024). Применяется метод pro rata или wyłączenie (исключение), в зависимости от типа дохода. Подача PIT-ZG.' }
     ],
+    uk: [
+      { q: 'Що таке правило 183 днів для податкового резидентства Польщі?', a: 'Згідно з Ustawą про PIT (art. 3 ust. 1a), ви вважаєтеся податковим резидентом РП, якщо проживаєте в Польщі більше 183 днів на рік або якщо ваш центр життєвих інтересів перебуває в Польщі.' },
+      { q: 'Які податки сплачує податковий резидент Польщі?', a: 'PIT за прогресивною шкалою 12/32% або лінійний 19% (для JDG). Оподатковується дохід з усього світу. Дивіденди — 19%. ZUS обов\'язковий при роботі. Декларація PIT-37 / PIT-36 — до 30 квітня.' },
+      { q: 'Як уникнути подвійного оподаткування з Україною?', a: 'Польща має umowy o unikaniu podwójnego opodatkowania з більшістю країн СНД. Застосовується метод pro rata або wyłączenie залежно від виду доходу. Подається PIT-ZG.' }
+    ],
+
     pl: [
       { q: 'Czym jest zasada 183 dni dla rezydencji podatkowej?', a: 'Zgodnie z art. 3 ust. 1a ustawy o PIT, rezydentem RP jest osoba mieszkająca w Polsce ponad 183 dni w roku lub mająca centrum interesów życiowych w Polsce - niezależnie od statusu wizowego.' },
       { q: 'Jakie podatki płaci rezydent podatkowy?', a: 'PIT skala 12/32% lub liniowy 19% (JDG). Podatek od dochodów światowych. Dywidendy 19%. ZUS przy pracy. Deklaracja PIT-37 / PIT-36 do 30 kwietnia.' },
@@ -926,6 +1113,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что такое PIT-11 и зачем он нужен?', a: 'PIT-11 - справка от работодателя о зарплате и удержанном налоге за прошлый год. Выдаётся до 28 февраля. На её основе заполняется PIT-37. Без PIT-11 zwrot (возврат) невозможен.' },
       { q: 'Какие льготы можно использовать в PIT в 2026?', a: 'Ulga prorodzinna (детская льгота, 1 112,04 PLN на ребёнка), ulga na internet (льгота за интернет), ulga termomodernizacyjna (льгота за термомодернизацию), ulga rehabilitacyjna (реабилитационная льгота), ulga dla młodych (льгота для молодёжи, PIT 0% до 26 лет), wspólne rozliczenie z małżonkiem (совместная декларация с супругом).' }
     ],
+    uk: [
+      { q: 'Чи може іноземець отримати повернення податку PIT у Польщі?', a: 'Так. Будь-який податковий резидент РП з доходом, з якого утримувався PIT, має право подати PIT-37 / PIT-36 і отримати zwrot. Базова kwota wolna — 30 000 PLN на рік.' },
+      { q: 'Що таке PIT-11 і навіщо він потрібен?', a: 'PIT-11 — довідка від роботодавця про зарплату та утриманий податок за минулий рік. Видається до 28 лютого. На її основі заповнюється PIT-37. Без PIT-11 zwrot неможливий.' },
+      { q: 'Які пільги можна використати в PIT у 2026 році?', a: 'Ulga prorodzinna (1 112,04 PLN на дитину), ulga na internet, ulga termomodernizacyjna, ulga rehabilitacyjna, ulga dla młodych (PIT 0% до 26 років), wspólne rozliczenie z małżonkiem.' }
+    ],
+
     pl: [
       { q: 'Czy cudzoziemiec może odzyskać podatek w Polsce?', a: 'Tak. Każdy rezydent podatkowy z pobranym PIT może złożyć PIT-37 / PIT-36. Kwota wolna - 30 000 PLN rocznie.' },
       { q: 'Czym jest PIT-11 i po co?', a: 'PIT-11 - informacja od pracodawcy o pensji i pobranym PIT. Wydawana do 28 lutego. Bez PIT-11 zwrot niemożliwy.' },
@@ -949,6 +1142,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие документы нужны для открытия счёта?', a: 'Паспорт, karta pobytu / визa D / PESEL, подтверждение адреса (договор аренды или meldunek - регистрация по адресу), подтверждение дохода (umowa o pracę - трудовой договор, оборот фирмы). Иногда - telefon польский для SMS-кода.' },
       { q: 'Можно ли открыть счёт в Польше дистанционно?', a: 'Mало банков принимают полностью удалённое открытие - большинство требует визита в отделение. Revolut, ZEN и WIO позволяют открывать через app, но с верификацией паспорта и видеосвязью.' }
     ],
+    uk: [
+      { q: 'Який банк обрати іноземцю в Польщі у 2026 році?', a: 'mBank, PKO BP, ING, Pekao SA, Santander приймають іноземців з karta pobytu або PESEL. Revolut і WIO працюють як цифрові альтернативи. Найкращий вибір залежить від мови обслуговування та тарифів на міжнародні перекази.' },
+      { q: 'Які документи потрібні для відкриття рахунку?', a: 'Паспорт, karta pobytu / віза D / PESEL, підтвердження адреси (договір оренди або meldunek), підтвердження доходу. Іноді — польський номер телефону для SMS-коду.' },
+      { q: 'Чи можна відкрити рахунок у Польщі дистанційно?', a: 'Лише небагато банків допускають повністю віддалене відкриття — більшість вимагає візиту до відділення. Revolut, ZEN і WIO дозволяють відкрити рахунок через застосунок з верифікацією паспорта та відеозв\'язком.' }
+    ],
+
     pl: [
       { q: 'Który bank wybrać cudzoziemcowi w 2026?', a: 'mBank, PKO BP, ING, Pekao, Santander przyjmują cudzoziemców z kartą pobytu lub PESEL. Revolut i WIO jako alternatywy cyfrowe.' },
       { q: 'Jakie dokumenty potrzebne do założenia konta?', a: 'Paszport, karta pobytu / wiza / PESEL, potwierdzenie adresu (umowa najmu, meldunek), potwierdzenie dochodu, czasem polski numer telefonu.' },
@@ -972,6 +1171,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что считается нелегальным трудоустройством иностранца?', a: 'Работа без zezwolenia na pracę (разрешения на работу), истёкшее или несоответствующее zezwolenie (разрешение), занятость по основанию визой не разрешено, отсутствие договора. Также - фиктивное оформление через JDG (ИП) для замаскированной работы.' },
       { q: 'Кто проверяет легальность работы иностранца?', a: 'PIP (Państwowa Inspekcja Pracy - Государственная инспекция труда) - основной контролёр. ZUS - за неуплату взносов. Straż Graniczna (Пограничная служба) - на дорогах и стройках. Urząd Skarbowy (Налоговая служба) - за уход от PIT. Все могут проверять одновременно.' }
     ],
+    uk: [
+      { q: 'Який штраф загрожує роботодавцю за нелегальне працевлаштування іноземця?', a: 'PIP штрафує роботодавця від 1 000 до 30 000 PLN за кожного нелегально зайнятого іноземця. При повторних порушеннях — до 60 000 PLN. Також можливе кримінальне провадження.' },
+      { q: 'Що вважається нелегальним працевлаштуванням іноземця?', a: 'Робота без zezwolenia na pracę, прострочений або невідповідний zezwolenie, зайнятість за підставою, яку віза не дозволяє, відсутність договору. Також — фіктивне оформлення через JDG.' },
+      { q: 'Хто перевіряє легальність роботи іноземця?', a: 'PIP — основний контролюючий орган. ZUS — за несплату внесків. Straż Graniczna — на дорогах і будівництвах. Urząd Skarbowy — за ухилення від PIT. Усі можуть перевіряти одночасно.' }
+    ],
+
     pl: [
       { q: 'Jaka kara dla pracodawcy za nielegalne zatrudnienie cudzoziemca?', a: 'PIP - od 1 000 do 30 000 PLN za każdego cudzoziemca. Recydywa - do 60 000 PLN. Możliwe sprawy karne z art. 218-219 KK.' },
       { q: 'Co liczy się jako nielegalne zatrudnienie?', a: 'Praca bez zezwolenia, zezwolenie wygasłe lub niezgodne, praca poza dozwoloną podstawą wizową, brak umowy. Również fikcyjne JDG.' },
@@ -995,6 +1200,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько времени даётся на pozew o niewypłaconą zarplatę (иск о невыплаченной зарплате)?', a: '3 года с момента, когда зарплата должна была быть выплачена (art. 291 § 1 Kodeksu pracy - Трудового кодекса). После - претензия признаётся przedawnioną (истёкшей по сроку давности). Не тяните - сразу обращайтесь.' },
       { q: 'Можно ли получить zarplatę без польского языка?', a: 'Да. Услуги PIP (Государственной инспекции труда) бесплатны и доступны переводчики (ukraiński, rosyjski, angielski). Юридическая помощь по trudному делу - от 1 500 PLN. На стадии sąd pracy (суда по трудовым делам) - обязателен польский или адвокат.' }
     ],
+    uk: [
+      { q: 'Що робити, якщо роботодавець не виплатив зарплату в Польщі?', a: 'Подайте skargę до PIP онлайн або особисто. PIP має право провести kontrolę, накласти mandat на роботодавця та вимагати виплати. Паралельно — pozew do sądu pracy з відшкодуванням + 0,12% за кожен день затримки.' },
+      { q: 'Скільки часу є на pozew про невиплачену зарплату?', a: '3 роки з моменту, коли зарплата мала бути виплачена (art. 291 § 1 Kodeksu pracy). Після — вимога вважається przedawnioną. Не зволікайте — звертайтесь одразу.' },
+      { q: 'Чи можна отримати zarplatę без знання польської мови?', a: 'Так. Послуги PIP безкоштовні та доступні перекладачі (українська, російська, англійська). Юридична допомога у складній справі — від 1 500 PLN. У sąd pracy обов\'язкова польська або адвокат.' }
+    ],
+
     pl: [
       { q: 'Co zrobić, gdy pracodawca nie wypłaca pensji?', a: 'Skarga do PIP online lub osobiście. PIP może skontrolować, nałożyć mandat i żądać wypłaty. Równolegle pozew do sądu pracy z odsetkami 0,12% za każdy dzień zwłoki.' },
       { q: 'Ile czasu na pozew o niewypłaconą pensję?', a: '3 lata od dnia, w którym pensja miała być wypłacona (art. 291 § 1 KP). Po przedawnieniu - koniec.' },
@@ -1019,6 +1230,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько ждать решения MSWiA (МВД)?', a: 'Официальный срок - 2 месяца. Реально - 3-6 месяцев. Сложные кейсы (большой участок, strefa nadgraniczna - приграничная зона) - до 12 месяцев. Подача документов - через ePUAP или письменно.' },
       { q: 'Сколько стоит zezwolenie MSWiA?', a: 'Госпошлина - 1 570 PLN. Услуги консультанта - от 3 500 PLN. Документы из страны гражданства, переводы, апостили - отдельно. Strefa nadgraniczna (приграничная зона) - обязательно консультация ABW (Агентства внутренней безопасности).' }
     ],
+    uk: [
+      { q: 'Коли потрібне zezwolenie MSWiA для купівлі нерухомості?', a: 'Громадянам не-ЄС/ЄЕП — майже завжди, крім винятків: квартира у спільній kondominacie без окремої KW, шлюб із громадянином РП та проживання 2+ роки, Karta Polaka, спадщина.' },
+      { q: 'Скільки чекати рішення MSWiA?', a: 'Офіційний строк — 2 місяці. Реально — 3-6 місяців. Складні випадки (велика ділянка, strefa nadgraniczna) — до 12 місяців.' },
+      { q: 'Скільки коштує zezwolenie MSWiA?', a: 'Держмито — 1 570 PLN. Послуги консультанта — від 3 500 PLN. Документи з країни громадянства, переклади, апостилі — окремо.' }
+    ],
+
     pl: [
       { q: 'Kiedy potrzebne zezwolenie MSWiA na zakup nieruchomości?', a: 'Obywatelom spoza UE/EOG - niemal zawsze. Wyjątki: lokal w wspólnocie bez własnej KW, małżeństwo z obywatelem RP + 2 lata pobytu, Karta Polaka, dziedziczenie, kupno udziałów w polskiej Sp. z o.o.' },
       { q: 'Ile czeka się na decyzję MSWiA?', a: 'Ustawowo 2 miesiące. Realnie 3-6 miesięcy. Trudne sprawy (duża działka, strefa nadgraniczna) - do 12 miesięcy.' },
@@ -1042,6 +1259,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько стоит najem (аренда) офиса в центре Варшавы в 2026?', a: 'Klasa A - 22-28 EUR/м²/мес + service charge 5-7 EUR/м². Класс B - 14-18 EUR. Bemowo, Mokotów - 16-20 EUR. На периферии - от 10 EUR. Контракты в EUR, оплата в PLN по NBP.' },
       { q: 'Можно ли расторгнуть najem досрочно?', a: 'Только по основаниям из umowy (договора): wypowiedzenie (расторжение) с okresem (3-6 месяцев), wypowiedzenie z winy wynajmującego (расторжение по вине арендодателя - запущенный technical defect, нарушение). В остальных случаях - kara umowna (договорной штраф) до 12 czynszów (арендных плат).' }
     ],
+    uk: [
+      { q: 'Які ризики при оренді комерційного приміщення у Варшаві?', a: 'Service charge без верхньої межі, klauzula konkurencji, automatyczne przedłużenie umowy, kara umowna за дострокове розірвання (до 12 czynszów), підвищення за wskaźnikiem GUS, обов\'язок fit-out за рахунок орендаря.' },
+      { q: 'Скільки коштує najem офісу в центрі Варшави у 2026 році?', a: 'Klasa A — 22-28 EUR/м²/міс + service charge 5-7 EUR/м². Клас B — 14-18 EUR. Bemowo, Mokotów — 16-20 EUR. На периферії — від 10 EUR. Контракти в EUR, оплата в PLN за курсом NBP.' },
+      { q: 'Чи можна розірвати najem достроково?', a: 'Лише на підставах, передбачених umową: wypowiedzenie з терміном 3-6 місяців, wypowiedzenie z winy wynajmującego. В інших випадках — kara umowna до 12 czynszów.' }
+    ],
+
     pl: [
       { q: 'Jakie ryzyka przy najmie komercyjnym w Warszawie?', a: 'Service charge bez górnego limitu, klauzula konkurencji, automatyczne przedłużenie, kara umowna za wcześniejsze wyjście (do 12 czynszów), waloryzacja GUS, fit-out po stronie najemcy.' },
       { q: 'Ile kosztuje najem biura w centrum Warszawy w 2026?', a: 'Klasa A 22-28 EUR/m²/m-c + service 5-7 EUR. Klasa B 14-18 EUR. Mokotów, Bemowo 16-20 EUR. Peryferie od 10 EUR. Umowy w EUR, płatne w PLN po NBP.' },
@@ -1068,6 +1291,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Сколько стоит экстренная подача нового wniosku?', a: 'Госпошлины те же, что при стандартной подаче: 340 PLN за wniosek (заявление) + 100 PLN за пластик. Услуги юриста по экстренной легализации в LegalWin - от 3 500 PLN, включая подачу в течение 24 часов и подготовку odwołania (апелляции).' },
       { q: 'Что считается уважительной причиной для просрочки?', a: 'Wojewody (воеводы) и Szef UdSC (Глава Управления по делам иностранцев) принимают: госпитализацию, тяжёлую болезнь, операцию (с wypisami ze szpitala - выписками из больницы), задержку работодателя с zezwoleniem na pracę (разрешением на работу), потерю документов с заявлением в полицию, технические сбои MOS v2.0 со screenshots. Не работают: «забыл», «думал, что есть время», «уезжал на родину».' }
     ],
+    uk: [
+      { q: 'Що робити, якщо karta pobytu закінчилась у 2026?', a: 'У перші 7-14 днів терміново подайте wniosek на нову kartę pobytu через MOS v2.0 з pisemnym uzasadnieniem. Не виїжджайте з Польщі. Подача wniosku зупиняє депортацію. Після 14 днів ризик zobowiązanie do powrotu та заборони Шенгену на 1-3 роки різко зростає.' },
+      { q: 'Чи загрожує депортація при простроченій karcie pobytu?', a: 'Якщо ви активно подаєте новий wniosek у перші 7 днів — практично ні. Після 14 днів без дій — у 31% випадків. Головний чинник — не сам факт прострочення, а ваша поведінка після нього.' },
+      { q: 'Чи можна виїхати з Польщі з простроченою kartą pobytu?', a: 'Технічно так, але це найгірший вибір. На кордоні Straż Graniczna фіксує nielegalny pobyt у системі SIS, і при наступній спробі в\'їзду до будь-якої країни Шенгену ви отримаєте відмову. Заборона — зазвичай 1-3 роки.' },
+      { q: 'Скільки коштує термінова подача нового wniosku?', a: 'Держмито залишається тим самим: 340 PLN за wniosek + 100 PLN за пластик. Послуги юриста з термінової легалізації в LegalWin — від 3 500 PLN, включаючи подачу протягом 24 годин.' },
+      { q: 'Що вважається поважною причиною прострочення?', a: 'Госпіталізація, тяжка хвороба, операція (з виписками з лікарні), затримка роботодавця з zezwoleniem na pracę, втрата документів із заявою до поліції, технічні збої MOS v2.0. Не приймається: «забув», «думав, що є час».' }
+    ],
+
     pl: [
       { q: 'Co robić, gdy karta pobytu wygasła w 2026?', a: 'W pierwszych 7-14 dniach - pilnie złóż wniosek o nową kartę pobytu w MOS v2.0 z pisemnym uzasadnieniem opóźnienia. Nie wyjeżdżaj z Polski. Wniosek wstrzymuje deportację (art. 305 ust. 1 ustawy o cudzoziemcach). Po 14 dniach ryzyko zobowiązania do powrotu i zakazu Schengen 1-3 lata gwałtownie rośnie.' },
       { q: 'Czy grozi deportacja przy wygasłej karcie pobytu?', a: 'Przy aktywnym złożeniu wniosku w pierwszych 7 dniach - praktycznie nie (z praktyki LegalWin: 3 z 87 klientów). Po 14 dniach bez działań - 31% przypadków. Decyduje nie sam fakt wygaśnięcia, ale Twoje zachowanie po nim.' },
@@ -1099,6 +1330,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Освобождает ли Estonian CIT (эстонский налог на прибыль) от składki zdrowotnej (медицинского взноса)?', a: 'Да. На этапе reinwestycji (реинвестиций) - 0 PLN składki zdrowotnej. Только при wypłaty dywidendy (выплате дивидендов) - 10% (mali podatnicy - малые плательщики) или 20% налога. Для одноосновной Sp. z o.o. с прибылью 200 000 PLN/год экономия по сравнению с klasycznym CIT - около 56 000 PLN/год.' },
       { q: 'Когда платится składka zdrowotna и куда?', a: 'Ежемесячно через PUE ZUS (платформу электронных услуг ZUS) до 20 числа следующего месяца. Расчёт 2026 - на основе dochodu (дохода) предыдущего года (для нового JDG - на основе минимума). Годовая декларация ZUS DRA подаётся до 30 апреля 2027 за 2026 год.' }
     ],
+    uk: [
+      { q: 'Як змінилась składka zdrowotna для JDG з 1 січня 2026?', a: 'Запроваджено фіксований мінімум 9% від 75% мінімальної зарплати — у 2026 році це 324,40 PLN/міс. А також прогресивна стеля: для лінійного 19% — близько 1 500 PLN/міс. Переломний рівень — приблизно 240 000 PLN dochodu на рік.' },
+      { q: 'Скільки платить JDG на ryczałcie 12% у 2026?', a: 'До 60 000 PLN виручки — 324 PLN/міс (новий мінімум). Від 60 000 до 300 000 PLN — 698 PLN/міс. Понад 300 000 — 1 256 PLN/міс. Головна економія — на найнижчому рівні доходу (-95 PLN/міс).' },
+      { q: 'Що змінюється для Sp. z o.o. з 2026?', a: 'ZUS отримав доступ до даних KSeF і автоматично виявляє виплати członkowi zarządu без uchwały. Донараховується składka з karą 20%. Порада: оформіть uchwałę про призначення з винагородою, навіть мінімальною 500 PLN/міс.' },
+      { q: 'Чи звільняє Estonian CIT від składki zdrowotnej?', a: 'Так. На етапі реінвестицій — 0 PLN składki. Лише при wypłacie dywidendy — 10% (малі платники) або 20% податку. Для єдиного учасника Sp. z o.o. з прибутком 200 000 PLN/рік економія становить близько 56 000 PLN/рік.' },
+      { q: 'Коли та куди сплачується składka zdrowotna?', a: 'Щомісяця через PUE ZUS до 20 числа наступного місяця. Розрахунок за 2026 рік — на основі доходу попереднього року. Річна декларація ZUS DRA подається до 30 квітня 2027 за 2026 рік.' }
+    ],
+
     pl: [
       { q: 'Jak zmieniła się składka zdrowotna dla JDG od 1 stycznia 2026?', a: 'Wprowadzono stałe minimum 9% od 75% płacy minimalnej - w 2026 to 324,40 PLN/m-c. Plus progresywny sufit: dla podatku liniowego 19% - ok. 1 500 PLN/m-c. JDG o niskich dochodach płaci nieco więcej, wysokodochodowi - wyraźnie mniej. Punkt równowagi - ok. 240 000 PLN dochodu rocznie.' },
       { q: 'Ile płaci JDG na ryczałcie 12% w 2026?', a: 'Do 60 000 PLN przychodu - 324 PLN/m-c (nowe minimum, było 419 PLN). 60 000 - 300 000 PLN - 698 PLN/m-c. Powyżej 300 000 - 1 256 PLN/m-c. Główna oszczędność - w najniższym przedziale (-95 PLN/m-c).' },
@@ -1130,6 +1369,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Как иностранцу подключиться к KSeF?', a: '4 шага: 1) получить Profil Zaufany (доверенный профиль) через польский банк или podpis kwalifikowany (квалифицированную электронную подпись, от 200 PLN/год); 2) заполнить ZAW-FA в e-Urzędzie Skarbowym (электронной налоговой) и назначить uprawnione osoby (уполномоченных лиц); 3) интегрировать бухгалтерскую программу (iFirma, wFirma, Comarch - уже интегрированы); 4) обучить сотрудников новой структуре XML-фактур. Подключение должно быть до 31 января 2026.' },
       { q: 'Что меняется для входящих фактур от ЕС-контрагентов?', a: 'Контрагенты из других стран ЕС не находятся в KSeF, поэтому для UE-faktur (фактур из ЕС) нужны отдельные шаблоны. Большинство польских ERP-систем (Comarch, Subiekt) автоматически генерируют UE-fakturę отдельно. Faktury получаемые от ЕС остаются в обычном формате PDF/electronic.' }
     ],
+    uk: [
+      { q: 'З якої дати KSeF є обов\'язковим у Польщі?', a: 'З 1 лютого 2026 року всі B2B-фактури в Польщі виставляються виключно через KSeF. Це стосується всіх Sp. z o.o., JDG-платників VAT, spółek komandytowych та іноземних фірм із постійним місцем ведення діяльності в Польщі.' },
+      { q: 'Хто поки що звільнений від KSeF?', a: 'До кінця 2026 року звільнені: JDG на zwolnieniu z VAT, постачальники B2C (для фізичних осіб-споживачів), faktury z kas fiskalnych. Ці категорії отримають обов\'язок з 2027 року.' },
+      { q: 'Які штрафи за невиставлення faktury через KSeF?', a: 'До 100% kwoty VAT з однієї фактури за невиставлення через KSeF. До 18 000 PLN за паперову B2B-фактуру. До 7 000 PLN за нереєстрацію в KSeF. До 5 000 PLN за некоректний формат.' },
+      { q: 'Як іноземцю підключитися до KSeF?', a: '4 кроки: 1) отримати Profil Zaufany через польський банк або podpis kwalifikowany; 2) заповнити ZAW-FA в e-Urzędzie Skarbowym; 3) інтегрувати бухгалтерську програму (iFirma, wFirma, Comarch); 4) навчити співробітників новій структурі XML-фактур.' },
+      { q: 'Що змінюється для вхідних фактур від контрагентів із ЄС?', a: 'Контрагенти з інших країн ЄС не перебувають у KSeF, тому для UE-faktur потрібні окремі шаблони. Більшість польських ERP (Comarch, Subiekt) автоматично генерують UE-fakturę окремо.' }
+    ],
+
     pl: [
       { q: 'Od kiedy obowiązkowy jest KSeF w Polsce?', a: 'Od 1 lutego 2026 wszystkie faktury B2B w Polsce wystawiane są wyłącznie przez KSeF. Dotyczy wszystkich Sp. z o.o., JDG płatników VAT, spółek komandytowych, jawnych i zagranicznych firm ze stałym miejscem prowadzenia działalności w Polsce. Faktury papierowe i PDF mailem przestają być legalnymi dokumentami.' },
       { q: 'Kto jest zwolniony z KSeF do 2027?', a: 'Zwolnieni: JDG na zwolnieniu z VAT (czysty ryczałt bez rejestracji VAT), dostawcy B2C (osoby fizyczne), faktury z kas fiskalnych (paragony). Ta grupa zostanie objęta obowiązkiem od 2027.' },
@@ -1161,6 +1408,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Когда сдавать экзамен B1 в 2026?', a: 'Три сессии в году: 16-17 мая, 8-9 августа, 7-8 ноября 2026. Регистрация открывается за 3 месяца и закрывается за 6 недель. Места заканчиваются за 1-2 недели до этого. Центры в Польше - 8 (Варшава, Краков, Познань, Гданьск, Вроцлав, Люблин, Лодзь, Катовице) + 23 за рубежом.' },
       { q: 'Можно ли заменить B1 дипломом польского ВУЗа?', a: 'Да - диплом полностью законченного licencjat (бакалавриата) / magistra (магистратуры) / studiów podyplomowych (последипломного образования) на польском заменяет B1. Также подходит matura z języka polskiego (выпускной экзамен по польскому), сертификат C1/C2 от Państwowej Komisji (Государственной комиссии). Karta Polaka НЕ заменяет B1 - это распространённое заблуждение.' }
     ],
+    uk: [
+      { q: 'Кому потрібен сертифікат B1 для громадянства Польщі?', a: 'B1 від Państwowej Komisji є обов\'язковим для uznania za obywatela polskiego (після 2 років PMŻ або 3 років TRC) та nadania obywatelstwa przez Prezydenta RP. Не потрібен для karta stałego pobytu і для Karty Polaka.' },
+      { q: 'З яких частин складається іспит B1?', a: '4 частини за один день (~5 годин): rozumienie ze słuchu (30 хв), rozumienie tekstów pisanych (45 хв), poprawność gramatyczna (60 хв), pisanie + mówienie (90 + 15 хв). Найскладніша для україномовних — gramatyka, особливо miejscownik та aspekty czasownika.' },
+      { q: 'Скільки коштує іспит B1 у 2026 році?', a: '150 EUR (близько 640 PLN) за реєстрацію. Копія сертифіката — 60 PLN, з apostille MSZ +60 PLN. Термінова видача +50%. При повторній здачі після невдачі — знову 150 EUR.' },
+      { q: 'Коли складати іспит B1 у 2026 році?', a: 'Три сесії на рік: 16–17 травня, 8–9 серпня, 7–8 листопада 2026. Реєстрація відкривається за 3 місяці та закривається за 6 тижнів. Центри в Польщі — 8 (Варшава, Краків, Познань, Гданськ, Вроцлав, Люблін, Лодзь, Катовіце) + 23 за кордоном.' },
+      { q: 'Чи можна замінити B1 дипломом польського ВНЗ?', a: 'Так — диплом закінченого licencjat / magistra / studiów podyplomowych польською мовою замінює B1. Також підходить matura z języka polskiego, сертифікат C1/C2. Karta Polaka НЕ замінює B1 — це поширена помилка.' }
+    ],
+
     pl: [
       { q: 'Komu jest potrzebny certyfikat B1 do obywatelstwa polskiego?', a: 'B1 z Państwowej Komisji jest obowiązkowy do uznania za obywatela polskiego (po 2 latach PR lub 3 latach TRC) i nadania obywatelstwa przez Prezydenta RP. Nie jest potrzebny do karty stałego pobytu (tylko w niektórych podstawach) ani do Karty Polaka (tam ustny A2 z konsulem).' },
       { q: 'Z czego składa się egzamin B1?', a: '4 części w jeden dzień (ok. 5 godzin): rozumienie ze słuchu (30 min), rozumienie tekstów pisanych (45 min), poprawność gramatyczna (60 min), pisanie + mówienie (90 + 15 min). Najtrudniejsza dla rosyjsko- i ukraińskojęzycznych - gramatyka, zwłaszcza miejscownik i aspekty czasownika.' },
@@ -1192,6 +1447,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Какие сроки ожидания специалистов в NFZ в 2026?', a: 'POZ (первичная помощь) - до 1 недели. Дерматолог - 4-8 недель. Гинеколог профилактика - 1-2 месяца. Кардиолог, невролог - 3-8 месяцев. Эндокринолог, ортопед, психиатр - 6-14 месяцев. Для острых случаев - pilne skierowanie (срочное направление) от POZ (1-4 недели) или SOR (отделение неотложной помощи). Запись через mObywatel или IKP (Интернет-кабинет пациента).' },
       { q: 'Что такое IKP и как его подключить?', a: 'IKP (Internetowe Konto Pacjenta - Интернет-кабинет пациента) - личный кабинет пациента на pacjent.gov.pl. Доступ - через Profil Zaufany (доверенный профиль) или mObywatel. В IKP: e-skierowania (электронные направления), e-recepty (электронные рецепты), история визитов, результаты анализов, статус NFZ. С 2026 интегрирован с mObywatel - рецепты и направления прямо в приложении.' }
     ],
+    uk: [
+      { q: 'Як іноземцю зареєструватися в NFZ у 2026 році?', a: '5 кроків: 1) отримати PESEL та karta pobytu; 2) приєднатися до ZUS через umowę o pracę / JDG / добровільне страхування; 3) перевірити статус в eWUŚ; 4) обрати lekarza POZ і подати deklarację у przychodni; 5) підключити IKP. Реєстрація безкоштовна.' },
+      { q: 'Хто має право на безкоштовну медицину NFZ?', a: 'Працівники за umową o pracę або zlecenie із ZUS, підприємці на JDG, які сплачують składkę zdrowotną, студенти денної форми навчання, члени сім\'ї застрахованих (через DRA-2), beneficjenci UKR, власники Karty Polaka, добровільно застраховані (~720 PLN/міс).' },
+      { q: 'Скільки коштує добровільне страхування NFZ?', a: 'У 2026 році: 720 PLN/міс базового тарифу. При перерві менше 3 місяців — без штрафу. Від 3 до 12 місяців — +20% (864 PLN/міс). Понад 12 місяців — +50% (1 080 PLN/міс). Для більшості іноземців приватна страховка (PZU, Allianz, Medicover) обходиться дешевше.' },
+      { q: 'Які строки очікування до фахівців NFZ у 2026 році?', a: 'POZ — до 1 тижня. Дерматолог — 4–8 тижнів. Гінеколог — 1–2 місяці. Кардіолог, невролог — 3–8 місяців. Ендокринолог, ортопед, психіатр — 6–14 місяців. У гострих випадках — pilne skierowanie від POZ або SOR.' },
+      { q: 'Що таке IKP і як його підключити?', a: 'IKP (Internetowe Konto Pacjenta) — особистий кабінет пацієнта на pacjent.gov.pl. Доступ — через Profil Zaufany або mObywatel. В IKP: e-skierowania, e-recepty, історія візитів, результати аналізів, статус NFZ.' }
+    ],
+
     pl: [
       { q: 'Jak cudzoziemiec zarejestruje się w NFZ w 2026?', a: '5 kroków: 1) zdobyć PESEL i kartę pobytu; 2) podłączyć się do ZUS przez umowę o pracę / JDG / dobrowolne ubezpieczenie; 3) sprawdzić status w eWUŚ przez mObywatel lub pacjent.gov.pl; 4) wybrać lekarza POZ i złożyć deklarację w przychodni; 5) podłączyć IKP. Rejestracja bezpłatna.' },
       { q: 'Kto ma prawo do bezpłatnej medycyny NFZ?', a: 'Pracownicy na umowie o pracę lub zlecenie z ZUS, przedsiębiorcy JDG płacący składkę zdrowotną, studenci dzienni z opłaconym ubezpieczeniem, członkowie rodziny ubezpieczonych (przez DRA-2), beneficjenci UKR, posiadacze Karty Polaka, dobrowolnie ubezpieczeni (~720 PLN/m-c). Turyści i krótkie pobyty - nie.' },
@@ -1224,6 +1487,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Что делать, если karta pobytu уже истекла, а UPO ещё нет?', a: 'Формально вы в nielegalnym pobycie (нелегальном пребывании). Не выезжайте из Польши - подавайте wniosek через MOS v2.0 как можно быстрее с pismem wyjaśniającym (объяснительным письмом). В Mazowieckim в 60-70% случаев такие дела рассматривают по существу, если задержка не больше 30 дней и есть уважительная причина.' },
       { q: 'Сколько стоит продление karty pobytu в 2026?', a: 'Госпошлины - 340 PLN за wniosek + 100 PLN за пластик новой karty. Сопровождение LegalWin - от 2 200 PLN. С тłumaczeniami przysięgłymi (присяжными переводами) и mediastraховкой минимальная общая сумма - около 2 940 PLN.' }
     ],
+    uk: [
+      { q: 'За скільки днів до закінчення karty pobytu потрібно подавати на продовження?', a: 'Мінімум за 45 днів до закінчення — тоді воєвода ставить справу в пріоритетну чергу "kontynuacja", а UPO надходить до кінця дії старої картки, легалізуючи перебування на весь час розгляду.' },
+      { q: 'Чи потрібно повторно здавати біометрію при продовженні?', a: 'Так. Відповідно до ст. 99 Ustawy o cudzoziemcach відбитки пальців і фото є обов\'язковою частиною кожного wniosku. Виклик на біометрію надходить в eDoręczenia через 4–12 тижнів після отримання UPO.' },
+      { q: 'Скільки чекати на продовження в Мазовецькому воєводстві у 2026 році?', a: 'У середньому 6–10 місяців — приблизно на 2–3 тижні швидше, ніж при першій подачі. За законом — до 90 днів. Якщо очікування перевищить 12 місяців — можна подати ponaglenie do Szefa UdSC.' },
+      { q: 'Що робити, якщо karta pobytu вже закінчилася, а UPO ще немає?', a: 'Формально ви перебуваєте в nielegalnym pobycie. Не виїжджайте з Польщі — подавайте wniosek через MOS v2.0 з pismem wyjaśniającym. У Мазовецькому воєводстві в 60–70% випадків такі справи розглядають по суті.' },
+      { q: 'Скільки коштує продовження karty pobytu у 2026 році?', a: 'Державне мито — 340 PLN за wniosek + 100 PLN за пластик нової karty. Супровід LegalWin — від 2 200 PLN. З перекладами та медичною страховкою мінімальна загальна сума складає близько 2 940 PLN.' }
+    ],
+
     pl: [
       { q: 'Ile dni przed wygaśnięciem karty pobytu należy złożyć wniosek o kontynuację?', a: 'Minimum 45 dni przed wygaśnięciem - wojewoda ustawia sprawę w priorytetowej kolejce "kontynuacja", a UPO (urzędowe poświadczenie odbioru z MOS v2.0) przychodzi przed końcem ważności starej karty, legalizując pobyt na cały okres rozpatrywania. Jeśli zostało 15 dni lub mniej - wniosek może zostać pozostawiony bez rozpoznania.' },
       { q: 'Czy trzeba ponownie pobierać biometrię przy kontynuacji karty pobytu?', a: 'Tak. Zgodnie z art. 99 Ustawy o cudzoziemcach odciski i zdjęcie są integralną częścią każdego wniosku. Wezwanie przychodzi w eDoręczeniach po 4-12 tygodniach od UPO. W Mazowieckim - najczęściej na al. Solidarności 81.' },
@@ -1256,6 +1527,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Можно ли получить karta pobytu по sp. z o.o. без сотрудников?', a: 'Только если доход компании достиг 89 952 PLN/год. Sp. z o.o. с 1 udziałowcem-иностранцем и без сотрудников - воевода почти всегда требует либо такой доход, либо 2 пасажников-резидентов. Без этого - odmowa (отказ).' },
       { q: 'Сколько ждать karta pobytu по бизнесу в Mazowieckim?', a: 'JDG с достаточным доходом - 8-12 месяцев. Sp. z o.o. с достаточным доходом - 10-14 месяцев. Sp. z o.o. на 2+ сотрудниках - 12-18 месяцев (воевода проверяет ZUS, KRS и контракты сотрудников).' }
     ],
+    uk: [
+      { q: 'Яка форма бізнесу краща для karta pobytu у 2026 — JDG чи sp. z o.o.?', a: 'Якщо працюєте самостійно як фрілансер із доходом 100 000+ PLN/рік — вигідніше JDG. Якщо 2+ партнери або планується оборот понад 200 000 PLN — краще sp. z o.o. Фінансовий поріг однаковий: 12× середня зарплата (~89 952 PLN/рік у 2026) або 2 наймані працівники-резиденти.' },
+      { q: 'Скільки потрібно заробляти для karta pobytu по бізнесу у 2026?', a: 'Згідно зі ст. 142 Ustawy o cudzoziemcach — брутто-дохід у 12 разів більший за середню зарплату по економіці за рік. У 2026 це 89 952 PLN brutto (12 × 7 496 PLN). Альтернатива — найм щонайменше 2 працівників-резидентів на pełen etat.' },
+      { q: 'Коли краще відкривати JDG перед подачею на karta pobytu?', a: 'Мінімум за 6 місяців. Воєвода перевіряє фінансову історію, faktury, банківські виписки. Якщо JDG зареєстровано за місяць — підстава вважається «неіснуючою» і у виданні відмовляють.' },
+      { q: 'Чи можна отримати karta pobytu по sp. z o.o. без працівників?', a: 'Тільки якщо дохід компанії досяг 89 952 PLN/рік. Sp. z o.o. з 1 іноземним учасником і без працівників — воєвода майже завжди вимагає або такий дохід, або 2 працівників-резидентів. Без цього — odmowa.' },
+      { q: 'Скільки чекати karta pobytu по бізнесу в Mazowieckim?', a: 'JDG із достатнім доходом — 8–12 місяців. Sp. z o.o. із достатнім доходом — 10–14 місяців. Sp. z o.o. з 2+ працівниками — 12–18 місяців.' }
+    ],
+
     pl: [
       { q: 'Która forma działalności jest lepsza do karty pobytu w 2026 - JDG czy sp. z o.o.?', a: 'Jeśli pracujesz sam jako freelancer/programista IT z dochodem 100 000+ PLN/rok - bardziej opłaca się JDG. Jeśli 2+ wspólników, zatrudniasz pracowników lub planujesz obrót powyżej 200 000 PLN - lepsza sp. z o.o. Próg finansowy do karty pobytu jest taki sam - 12-krotność średniej krajowej (~89 952 PLN/rok w 2026) lub 2 pracowników-rezydentów.' },
       { q: 'Ile trzeba zarabiać do karty pobytu na działalności w 2026?', a: 'Zgodnie z art. 142 Ustawy o cudzoziemcach - dochód brutto 12-krotności średniego wynagrodzenia w gospodarce za rok. W 2026 to **89 952 PLN brutto** (12 × 7 496 PLN). Alternatywa - zatrudnienie co najmniej 2 pracowników-rezydentów na pełny etat.' },
@@ -1288,6 +1567,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Что происходит с karta pobytu при разводе?', a: 'Карта действует до даты, указанной на пластике. На следующую karta надо подавать по другому основанию (praca, biznes, łączenie rodzin). Если есть общие дети с польским гражданством - можно karta pobytu по основанию "родитель ребёнка-гражданина Польши" (т.н. "дитя-якорь"). При смерти супруга карта остаётся в силе, если брак длился минимум 2 года.' },
       { q: 'Нужно ли знание польского для karta pobytu по браку?', a: 'Нет, для karta czasowego pobytu (карты временного пребывания) и karta stałego pobytu (ПМЖ) по браку польский не требуется. Только для гражданства (uznanie / nadanie obywatelstwa) обязателен B1 от Państwowej Komisji.' }
     ],
+    uk: [
+      { q: 'Які документи потрібні для karta pobytu по шлюбу з поляком у 2026?', a: 'Odpis zupełny aktu małżeństwa з польського USC, не старший 6 місяців. Якщо шлюб укладено за кордоном — спочатку потрібна транскрипція. Також паспорт чоловіка/дружини-поляка, підтвердження спільного проживання, медична страховка, держмито 340 PLN. Зарплата й робота НЕ вимагаються.' },
+      { q: 'Через скільки років шлюбу можна отримати karta stałego pobytu?', a: 'Через 3 роки шлюбу з громадянином Польщі + 2 роки безперервного перебування на karte czasowego pobytu. Рівень B1 польської мови НЕ вимагається. Термін розгляду в Mazowieckim — 12–18 місяців.' },
+      { q: 'Що таке fikcyjne małżeństwo і як воєвода це перевіряє?', a: 'Згідно зі ст. 169 Ustawy o cudzoziemcach воєвода може відмовити, якщо шлюб укладено для обходу правил перебування. Ознаки ризику: знайомство менше 6 місяців до весілля, різниця у віці понад 25 років, роздільний meldunek. У Mazowieckim ~12% справ проходять через wywiad środowiskowy.' },
+      { q: 'Що відбувається з karta pobytu після розлучення?', a: 'Картка діє до дати, зазначеної на пластику. На наступну karta потрібно подавати за іншою підставою. Якщо є спільні діти з польським громадянством — можна отримати karta pobytu на підставі «батьків дитини-громадянина Польщі». У разі смерті чоловіка/дружини картка залишається чинною, якщо шлюб тривав щонайменше 2 роки.' },
+      { q: 'Чи потрібне знання польської для karta pobytu по шлюбу?', a: 'Ні. Польська мова не вимагається ні для karta czasowego pobytu, ні для karta stałego pobytu по шлюбу. Лише для громадянства (uznanie / nadanie obywatelstwa) обов\'язковий рівень B1.' }
+    ],
+
     pl: [
       { q: 'Jakie dokumenty są potrzebne do karty pobytu na podstawie małżeństwa w 2026?', a: 'Najważniejsze - odpis zupełny aktu małżeństwa z polskiego USC (Urząd Stanu Cywilnego), nie starszy niż 6 miesięcy. Jeśli ślub za granicą - najpierw transkrypcja do polskiego USC. Dodatkowo paszport małżonka-Polaka, potwierdzenie wspólnego zamieszkania (meldunek pod jednym adresem), ubezpieczenie zdrowotne, opłata skarbowa 340 PLN. Wynagrodzenie i praca NIE są wymagane.' },
       { q: 'Po ilu latach małżeństwa można złożyć o kartę stałego pobytu?', a: 'Po 3 latach małżeństwa z obywatelem RP plus 2 latach nieprzerwanego pobytu na karcie czasowego pobytu w Polsce. Egzamin z polskiego B1 NIE jest wymagany - inaczej niż przy klasycznej drodze 5-letniej. Czas rozpatrywania w Mazowieckim - 12-18 miesięcy.' },
@@ -1320,6 +1607,14 @@ export const BLOG_FAQ: Map = {
       { q: 'Что происходит со старыми oświadczeniami, выданными до 2026?', a: 'Старые oświadczenia остаются в силе до даты их истечения. То есть oświadczenie на 24 месяца, выданное в декабре 2025 для гражданина Грузии, действует до декабря 2027. После истечения - нужно оформить zezwolenie typu A. При смене работодателя - старое сразу прекращает действовать.' },
       { q: 'Сколько добавляется к timeline-у karta pobytu из-за нового требования zezwolenia typu A?', a: 'От 1 до 3 месяцев. Раньше для гражданина Грузии: oświadczenie (7 дней) → подача на karta pobytu. Теперь: zezwolenie typu A (1-3 месяца) → подача. В сумме общий timeline до получения karty pobytu в Mazowieckim - 9-17 месяцев вместо 8-14 раньше.' }
     ],
+    uk: [
+      { q: 'Хто втратив право на oświadczenie з 1 січня 2026?', a: 'Громадяни Вірменії, Азербайджану, Бангладеш, Грузії, Індії, Індонезії, Казахстану, Киргизстану, Непалу, Таджикистану, Туркменістану, Узбекистану та Філіппін. Право на oświadczenie зберегли лише громадяни Білорусі, Молдови та України.' },
+      { q: 'Чим zezwolenie typu A відрізняється від oświadczenia?', a: 'Zezwolenie typu A оформлюється у wojewody за 1-3 місяці з держмитом 200 PLN, вимагає test rynku pracy та мінімальної зарплати 4 806 PLN brutto. Oświadczenie оформлюється в PUP за 7 робочих днів з держмитом 100 PLN. Термін дії zezwolenia — до 36 місяців, oświadczenia — до 24 місяців.' },
+      { q: 'Що таке test rynku pracy і чи потрібен він усім?', a: 'Test rynku pracy — перевірка PUP, чи можна заповнити вакансію поляком або громадянином ЄС. Термін — 2-3 тижні. Не потрібен для близько 60 професій: лікарі, медсестри, програмісти, викладачі, дослідники.' },
+      { q: 'Що відбувається зі старими oświadczeniami, виданими до 2026 року?', a: 'Старі oświadczenia залишаються чинними до дати їх закінчення. Після закінчення — потрібно оформити zezwolenie typu A. У разі зміни роботодавця — старе oświadczenie одразу припиняє дію.' },
+      { q: 'Наскільки збільшується timeline karta pobytu через нову вимогу zezwolenia typu A?', a: 'Від 1 до 3 місяців. Для громадянина Грузії: раніше oświadczenie (7 днів) → подача на karta pobytu. Тепер: zezwolenie typu A (1-3 місяці) → подача. Загальний timeline у Mazowieckim — 9-17 місяців.' }
+    ],
+
     pl: [
       { q: 'Kto stracił prawo do oświadczenia od 1 stycznia 2026?', a: 'Obywatele Armenii, Azerbejdżanu, Bangladeszu, Gruzji, Indii, Indonezji, Kazachstanu, Kirgistanu, Nepalu, Tadżykistanu, Turkmenistanu, Uzbekistanu i Filipin. Rosja jest wyłączona z procedury uproszczonej od 2022. Prawo do oświadczenia zachowali tylko obywatele Białorusi, Mołdawii i Ukrainy.' },
       { q: 'Czym zezwolenie typu A różni się od oświadczenia?', a: 'Zezwolenie typu A wydaje wojewoda w 1-3 miesiące, opłata 200 PLN, wymaga testu rynku pracy i minimum wynagrodzenia 4 806 PLN brutto. Oświadczenie wydaje PUP w 7 dni roboczych, opłata 100 PLN, bez minimum. Termin zezwolenia - do 36 miesięcy, oświadczenia - do 24 miesięcy.' },
@@ -1350,6 +1645,12 @@ export const BLOG_FAQ: Map = {
       { q: 'Что такое klasa powitalna (приветственный класс)?', a: 'Klasa powitalna - adaptacyjny класс для иностранных детей, не знающих польского. До года интенсивного польского языка, потом интеграция в обычный класс. Включает социальную поддержку и психолога.' },
       { q: 'Можно ли записать ребёнка в польскую школу без знания польского?', a: 'Да. Obowiązek szkolny (обязательное школьное обучение) действует для всех детей в Польше с 7 до 18 лет, независимо от языка. Школа обязана принять и предоставить дополнительные занятия польским (минимум 4 часа в неделю).' }
     ],
+    uk: [
+      { q: 'Як записати дитину-іноземця до польської школи?', a: 'В urzędzie gminy або безпосередньо в школі за місцем проживання. Потрібні: meldunek або підтвердження адреси, паспорт дитини, свідоцтво про народження з перекладом, щеплення карта, за потреби — оцінки з попередньої школи.' },
+      { q: 'Що таке klasa powitalna?', a: 'Klasa powitalna — адаптаційний клас для іноземних дітей, які не знають польської мови. До року інтенсивного вивчення польської, потім інтеграція у звичайний клас. Включає соціальну підтримку та психолога.' },
+      { q: 'Чи можна записати дитину до польської школи без знання польської мови?', a: 'Так. Obowiązek szkolny поширюється на всіх дітей у Польщі від 7 до 18 років, незалежно від мови. Школа зобов\'язана прийняти дитину та забезпечити додаткові заняття з польської мови (мінімум 4 години на тиждень).' }
+    ],
+
     pl: [
       { q: 'Jak zapisać dziecko cudzoziemca do polskiej szkoły?', a: 'W urzędzie gminy lub szkole rejonowej. Dokumenty: meldunek lub potwierdzenie adresu, paszport dziecka, akt urodzenia z tłumaczeniem, karta szczepień, ewentualnie świadectwo z poprzedniej szkoły.' },
       { q: 'Czym jest klasa powitalna?', a: 'Klasa powitalna - klasa adaptacyjna dla cudzoziemskich dzieci bez polskiego. Do roku intensywnej nauki polskiego, potem integracja. Wsparcie społeczne i psycholog w pakiecie.' },
