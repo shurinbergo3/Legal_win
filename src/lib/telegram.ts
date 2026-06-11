@@ -130,7 +130,6 @@ export async function sendReviewToTelegram(data: ReviewInput): Promise<DeliveryR
     `<b>Оценка:</b> ${stars} (${data.rating}/5)`,
     '',
     `<b>Имя:</b> ${escapeHtml(data.name)}`,
-    data.role ? `<b>Кто:</b> ${escapeHtml(data.role)}` : null,
     data.locale ? `<b>Язык сайта:</b> ${data.locale.toUpperCase()}` : null,
     `<b>RODO:</b> согласие получено ✓ (${new Date().toISOString()})`,
     '',

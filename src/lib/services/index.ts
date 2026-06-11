@@ -29,6 +29,9 @@ import wyszukiwanieMieszkania from './wyszukiwanie-mieszkania';
 import tlumaczNaWizyty from './tlumacz-na-wizyty';
 import pomocWZatrudnieniu from './pomoc-w-zatrudnieniu';
 import zapisDzieciDoSzkoly from './zapis-dzieci-do-szkoly';
+import rejestracjaPojazdu from './rejestracja-pojazdu';
+import ubezpieczenieOcAc from './ubezpieczenie-oc-ac';
+import przegladTechniczny from './przeglad-techniczny';
 import type { ServiceEntry, ServiceLocale } from './types';
 
 export const services: Record<string, ServiceEntry> = {
@@ -62,7 +65,10 @@ export const services: Record<string, ServiceEntry> = {
   'wyszukiwanie-mieszkania': wyszukiwanieMieszkania,
   'tlumacz-na-wizyty': tlumaczNaWizyty,
   'pomoc-w-zatrudnieniu': pomocWZatrudnieniu,
-  'zapis-dzieci-do-szkoly': zapisDzieciDoSzkoly
+  'zapis-dzieci-do-szkoly': zapisDzieciDoSzkoly,
+  'rejestracja-pojazdu': rejestracjaPojazdu,
+  'ubezpieczenie-oc-ac': ubezpieczenieOcAc,
+  'przeglad-techniczny': przegladTechniczny
 };
 
 export const serviceSlugs = Object.keys(services);

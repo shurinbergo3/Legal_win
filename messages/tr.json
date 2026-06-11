@@ -47,7 +47,7 @@
     "ctaSecondary": "Tüm hizmetler",
     "availableNow": "1 saat içinde dönüş yapıyoruz",
     "hoursToday": "Bugün 19:00'a kadar açığız",
-    "socialProofLabel": "müşteri yorumu · 5★"
+    "socialProofLabel": "müşteri yorumu"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
@@ -128,14 +128,6 @@
           {
             "name": "Apostille ve resmi onay",
             "desc": "Yurt dışında kullanılacak belgelere apostille uygulanması"
-          },
-          {
-            "name": "Ehliyet değişimi",
-            "desc": "BDT, Türkiye ve ABD ehliyetlerinin Polonya ehliyetine çevrilmesi: yeminli tercüme, badania lekarskie (sağlık raporu), psikoteknik, WORD'a kayıt ve eşlik"
-          },
-          {
-            "name": "Kod 95 (sürücü mesleki yeterliliği)",
-            "desc": "C/CE/D/DE kategorileri için profesyonel yeterlilik: kwalifikacja wstępna (başlangıç eğitimi) veya 5 yılda 35 saatlik szkolenie okresowe (dönemsel eğitim). OSK seçimi, belgeler, WORD'da sınav"
           },
           {
             "name": "ZUS / US belgeleri",
@@ -233,6 +225,33 @@
           {
             "name": "Çocukların okula kaydı",
             "desc": "Obowiązek szkolny (zorunlu eğitim) ve klasa powitalna (uyum sınıfı) kaydı"
+          }
+        ]
+      },
+      "auto": {
+        "number": "06",
+        "title": "Araç ve ulaşım",
+        "lead": "Polonya’da aracınız anahtar teslim: tescil, sigorta, muayene ve ehliyet — kurum kuyruklarına girmeden.",
+        "items": [
+          {
+            "name": "Araç tescili ve devri",
+            "desc": "Tescil ve mülkiyet devri: belge kontrolü, tercüme, wydział komunikacji başvurusu, ithalat ve ÖTV"
+          },
+          {
+            "name": "Araç sigortası OC / AC",
+            "desc": "OC, AC, NNW seçimi ve yapılması — PESEL olmadan da. Yurt dışı indirim aktarımı, ikinci el alımında destek"
+          },
+          {
+            "name": "Teknik muayene",
+            "desc": "SKP istasyonuna kayıt, eşlik ve tercüme, ithalatta sıfır muayene. Güncel 2025-2026 fiyat ve süreleri"
+          },
+          {
+            "name": "Ehliyet değişimi",
+            "desc": "BDT, Türkiye ve ABD ehliyetlerinin Polonya ehliyetine çevrilmesi: yeminli tercüme, badania lekarskie (sağlık raporu), psikoteknik, WORD'a kayıt ve eşlik"
+          },
+          {
+            "name": "Kod 95 (sürücü mesleki yeterliliği)",
+            "desc": "C/CE/D/DE kategorileri için profesyonel yeterlilik: kwalifikacja wstępna (başlangıç eğitimi) veya 5 yılda 35 saatlik szkolenie okresowe (dönemsel eğitim). OSK seçimi, belgeler, WORD'da sınav"
           }
         ]
       }
@@ -346,8 +365,8 @@
   "Testimonials": {
     "eyebrow": "Yorumlar",
     "title": "Müvekkillerimiz ne diyor",
-    "starsLabel": "5 üzerinden 5 yıldız",
-    "ratingLabel": "5★ ortalama müşteri puanı",
+    "starsLabel": "5 üzerinden {rating} yıldız",
+    "ratingLabel": "4.9★ ortalama müşteri puanı",
     "expand": "{count} yorum daha göster",
     "collapse": "Yorumları gizle",
     "leaveReview": "Yorum bırak",
@@ -402,6 +421,78 @@
         "text": "AB dışı bir alıcı olarak Varşova'da bir daire aldım - MSWiA izni gerekiyordu. Daire için due diligence ile birlikte tek pakette sundular, 3 ay içinde onay geldi. Onlar olmasa kaporayı kaybedebilirdim.",
         "author": "Viktor Sh.",
         "role": "gayrimenkul yatırımcısı"
+      },
+      {
+        "text": "Almanya için kızımın doğum belgesine apostil gerekiyordu. MSZ'de apostil aldılar, hemen Almanca yeminli tercüme yaptırıp kuryeyle doğrudan Münih'e, bana gönderdiler. Bir haftada bitirdiler - Varşova'ya gitmeme gerek kalmadı.",
+        "author": "Ekaterina D.",
+        "role": "eşinin yanına Almanya'ya taşındı"
+      },
+      {
+        "text": "İspanya'da iş için Polonya diplomama apostil aldırdım. Önce onay, ancak sonra apostil gerektiğini anlattılar - tek başıma sırayı kesin karıştırırdım. Belgeler 10 günde Valensiya'daki adresime geldi, her şey sorunsuz kabul edildi.",
+        "author": "Roman B.",
+        "role": "BT uzmanı"
+      },
+      {
+        "text": "Çekya'daki işveren için adli sicil belgesine acil apostil gerekiyordu. Apostili aldılar ve aslını 4 günde Prag'a yolladılar - sözleşme süresi dolmadan beni gerçekten kurtardılar.",
+        "author": "Pavel G.",
+        "role": "mühendis"
+      },
+      {
+        "text": "Ukrayna'daki bir dava için vekaletnameye apostil işini hallettiler. Tercümeyle birlikte düzgün yapıldı, belgenin Ukrayna makamınca kabul edilmesi için hangi ifadelerin gerektiğini açıkladılar. DHL ile gönderdiler, hızlı ulaştı.",
+        "author": "Svetlana M.",
+        "role": "miras davası"
+      },
+      {
+        "text": "Belarus ehliyetimi Polonya ehliyetine çevirdim. Belarus'un formatı farklı ve LegalWin ek belge ile tercüme konusunda önceden uyardı - bu sayede starostwo'dan ilk seferde geçtim, tekrar gitmeden.",
+        "author": "Andrey K.",
+        "role": "lojistik, Gdańsk"
+      },
+      {
+        "text": "Sonunda ehliyeti çevirdiler, her şey halloldu. Ama badania lekarskie söz verilenden uzun sürdü, birkaç kez durumu sormak için kendim yazdım. Sonuçtan memnunum, sadece daha hızlı olmasını bekliyordum.",
+        "author": "Oleg R.",
+        "role": "satış müdürü",
+        "rating": 4
+      },
+      {
+        "text": "Kod 95'i kwalifikacja przyspieszona modunda yaptım - 140 saat. Rusça konuşan eğitmenli bir OSK seçmeme yardım ettiler ve aylarca beklemeden WORD sınavına yazdırdılar. Beş hafta sonra AB genelinde yük taşıyordum.",
+        "author": "Denis F.",
+        "role": "CE sınıfı sürücü"
+      },
+      {
+        "text": "Kod 95'i yenileme zamanı gelmişti - 35 saatlik szkolenie okresowe. Evime yakın bir kursa yazdılar, süreleri hatırlattılar, yeni kartı zamanında aldım, işte hiç aksama olmadı.",
+        "author": "Maksim Z.",
+        "role": "uzun yol sürücüsü, 12 yıl tecrübe"
+      },
+      {
+        "text": "ZUS için bir belge paketinin yeminli tercümelerini sipariş ettim - belgeler, çalışma kaydı, beyanlar. İki günde yaptılar, tłumacz przysięgły kaşesi urząd'da tek soru sorulmadan kabul edildi.",
+        "author": "Yulia N.",
+        "role": "muhasebeci"
+      },
+      {
+        "text": "Banka hesabı açmak için şirketin kuruluş belgelerini İngilizceden Lehçeye çevirdiler. Tercüme tamdı, hukuki terimler yerli yerinde - banka hesabı hiçbir düzeltme istemeden açtı.",
+        "author": "Artem V.",
+        "role": "girişimci"
+      },
+      {
+        "text": "Yurt dışında tedavi için tıbbi belgelerin yeminli tercümesi gerekiyordu. Özenli ve hızlı yaptılar, kliniğin tam olarak hangi evrakları istediğini çözmeme yardım ettiler. Baştan sona çok ilgililerdi.",
+        "author": "Lyudmila P.",
+        "role": "Avusturya'da tedavi görüyor"
+      },
+      {
+        "text": "Oturum kartı için başvurdum. Sonunda kartı aldım ve iş yapıldı. Ama iletişim eksikti - bazen birkaç gün yanıt gelmiyordu, durumu kendim takip edip sormak zorunda kaldım. Sonuçtan memnunum ama bekleyiş sinirlerimi yıprattı.",
+        "author": "Oksana T.",
+        "role": "oturum kartı",
+        "rating": 3
+      },
+      {
+        "text": "Evlilik cüzdanına apostil alıp aile birleşimi için İtalya'ya gönderdiler. İtalyanca yeminli tercümeyle yapıldı, her şey doğruydu - konsolosluk paketi hemen kabul etti.",
+        "author": "Tatiana S.",
+        "role": "İtalya'ya taşınma"
+      },
+      {
+        "text": "Ukrayna için bir mahkeme kararının yeminli tercümesi gerekiyordu. Hukuki terminolojiyi gözeterek doğru çevirdiler, onayladılar ve gönderdiler. Belge Ukrayna makamınca sorusuz kabul edildi.",
+        "author": "Veronika L.",
+        "role": "aile davası"
       }
     ]
   },
@@ -411,8 +502,6 @@
     "subtitle": "Ne yaptığımızı ve nasıl gittiğini anlatın. Yorumunuz ekibimize ulaşacak - kısa bir moderasyonun ardından sitede yayınlanacak.",
     "name": "Ad",
     "namePlaceholder": "Olga M.",
-    "role": "Kim olduğunuz (isteğe bağlı)",
-    "rolePlaceholder": "tasarımcı, Kiev'den taşındı",
     "rating": "Puan",
     "ratingHint": "Bir yıldıza tıklayın",
     "text": "Yorum",
@@ -510,30 +599,53 @@
     "title": "En çok sorulanlar",
     "items": [
       {
-        "q": "Danışmanlık ücreti ne kadar?",
-        "a": "İlk 30 dakikalık danışmanlık ücretsizdir. Belgelerin derinlemesine incelemesi gerekiyorsa sonraki görüşmeler karmaşıklığa göre 200 PLN'den başlar."
+        "tag": "Danışmanlık",
+        "q": "İlk danışmanlık ne kadar?",
+        "a": "İlk danışmanlık ücretsizdir. Durumunuzu inceler, gerçekte hangi belgelerin gerektiğini söyler ve siz hiçbir ödeme yapmadan önce süre ile ücreti belirtiriz. Belgelerin derinlemesine incelemesi ya da yazılı görüş gerekiyorsa sonraki görüşmeler karmaşıklığa göre 200 PLN'den başlar."
       },
       {
+        "tag": "Süreler",
         "q": "Karta Pobytu kaç ayda alınıyor?",
-        "a": "Ortalama alım süresi 6-8 aydır. Yasal olarak voivoda (wojewoda, eyalet valisi) 90 gün içinde karar vermek zorundadır, ancak 2026'da Mazowiecki Urząd Wojewódzki (Mazowiecki Eyalet İdaresi) kararı 6-14 ayda veriyor. MOS v2.0 (yabancılar için yeni e-başvuru sistemi) üzerinden doğru başvuru ve eksiksiz dosyayla süre alt sınıra yaklaşır. Gerektiğinde ponaglenie (acil değerlendirme talebi) ve skarga na bezczynność (idari ihmal şikayeti) ile WSA'da süreci hızlandırıyoruz."
+        "a": "Ortalama 6–8 ay. Yasal olarak wojewoda'nın (eyalet valisi) 90 günü vardır, ancak 2026'da Mazowiecki Urząd Wojewódzki kararı gerçekte 6–14 ayda veriyor. Eksiksiz dosya ve MOS v2.0 üzerinden doğru başvuru sizi alt sınıra yaklaştırır. Süreç uzarsa ponaglenie (acil değerlendirme talebi), gerekirse skarga na bezczynność (idari ihmal şikâyeti) ile WSA'ya başvuruyoruz."
       },
       {
-        "q": "Uzaktan çalışıyor musunuz?",
-        "a": "Evet. Polonya'nın diğer şehirlerindeki ve yurt dışındaki müvekkiller dosyalarını tamamen çevrimiçi yürütüyor. Noter onaylı vekaletname, danışmanla doğrudan iletişim ve süreç takibi için müvekkil paneli sunuyoruz."
+        "tag": "Karta Pobytu",
+        "q": "Dosya beklerken çalışabilir ve yurt dışına çıkabilir miyim?",
+        "a": "Evet — wniosek (başvuru) süresinde yapıldıysa ve pasaportunuza stempel (damga) alındıysa, vizeniz veya eski kartınız sona ermiş olsa bile voyvoda karar verene kadar Polonya’daki ikametiniz yasaldır. Bir dayanağınız (oświadczenie veya çalışma izni) varsa çalışabilirsiniz. Ancak yalnızca damgayla Polonya’dan çıkmak Schengen kapsamında geri dönüşü garanti etmez; bu yüzden seyahatten önce durumunuzu bizimle teyit edin."
       },
       {
-        "q": "Ya başvurum reddedilirse?",
-        "a": "Ret gerekçelerini inceler ve 14 gün içinde itiraz başvurusunda bulunuruz. Geçici oturum, daimi oturum, vatandaşlık ve uluslararası koruma dosyalarında - Wojewódzki Sąd Administracyjny (Eyalet İdare Mahkemesi) dahil - başarılı itiraz dosyalarımız mevcut."
+        "tag": "Ödeme",
+        "q": "Ücrete neler dahil ve ödeme nasıl işliyor?",
+        "a": "Büro ücretimiz ile resmi harçlar (opłata skarbowa) ayrı kalemlerdir — bunları her zaman ayrı gösteririz, gizli ek ücret yoktur. Çoğu dosyada ödeme aşamalıdır: bir kısmı başta, bir kısmı kilit aşamalarda. İlk danışmanlıktan sonra dosyanıza özel sabit bir teklif alırsınız."
       },
       {
-        "q": "Sp. z o.o. (Polonya limited şirketi) uzaktan kurulabilir mi?",
-        "a": "Evet, S24 (KRS çevrimiçi portalı) üzerinden ePUAP / ePodpis (Polonya elektronik kimlik) ile, ya da noter onaylı vekaletnameyle. Kuruluş 5-10 iş günü sürer."
+        "tag": "İtiraz",
+        "q": "Başvurum reddedilirse ne yapmalıyım?",
+        "a": "Ret gerekçelerini (decyzja odmowna) inceler ve 14 gün içinde itiraz (odwołanie) sunarız — yasal süre budur. Geçici oturum, daimi oturum, vatandaşlık ve uluslararası koruma dosyalarında — Wojewódzki Sąd Administracyjny (Eyalet İdare Mahkemesi) dahil — başarılı itirazlarımız var. Süre daralmış olsa bile önce kararı bize gösterin; dosya çoğu zaman hâlâ döndürülebilir."
       },
       {
+        "tag": "Ehliyet",
+        "q": "Yabancı ehliyetimi Polonya ehliyetine çevirmem gerekir mi?",
+        "a": "Ülkeye ve statünüze bağlı. Geçici koruma altındaki kişilerin (PESEL UKR) Ukrayna ehliyetleri 4 Mart 2026’ya kadar geçerliydi — artık Polonya ehliyetiyle değiştirilmesi gerekiyor. Değişim sınavsızdır: yeminli tercüme, wydział komunikacji’ye (trafik dairesi) başvuru ve birkaç haftalık süre. Dosyayı toplamanıza, tłumaczenie przysięgłe (yeminli tercüme) yaptırmanıza ve gereksiz ziyaret olmadan başvurmanıza yardımcı oluruz."
+      },
+      {
+        "tag": "Kod 95",
+        "q": "Kod 95 kime gerekir ve nasıl alınır?",
+        "a": "Kod 95, ehliyetinizdeki bir kayıttır; onsuz ücret karşılığı yük (C sınıfı) veya yolcu (D sınıfı) taşıyamazsınız. Her profesyonel sürücüye gereklidir. Yol şu: iş yeri hekimi ve psikolog raporları → wydział komunikacji’de Profil Kierowcy Zawodowego (PKZ) → kwalifikacja wstępna (ön yeterlilik) ve 30 soruluk devlet sınavı. Geçerlilik 5 yıldır, sonra szkolenie okresowe (periyodik eğitim). Tüm süreci yürütür ve materyalleri tercüme ederiz."
+      },
+      {
+        "tag": "Çalışma şekli",
+        "q": "Uzaktan ve başka şehirlerden çalışıyor musunuz?",
+        "a": "Evet. Polonya’nın diğer şehirlerinden ve yurt dışından müvekkiller dosyalarını tamamen çevrimiçi yürütür: noter onaylı vekaletname, dosya sorumlusuyla doğrudan iletişim ve süreç takibi için müvekkil paneli. Varşova’daki ul. Świętokrzyska 30 ofisimize gelmeniz şart değildir."
+      },
+      {
+        "tag": "Diller",
         "q": "Hangi dillerde çalışıyorsunuz?",
-        "a": "Lehçe, Rusça, Ukraynaca ve İngilizce. Tüm belgeleri kendi dilinizdeki tercümeyle teslim alırsınız."
+        "a": "Lehçe, Rusça, Ukraynaca ve İngilizce. Tüm belgeleri kendi dilinizdeki tercümeyle alırsınız; yeminli tercümeleri (tłumaczenia przysięgłe) doğrudan urząd’a sunuma hazır şekilde yaparız."
       }
-    ]
+    ],
+    "moreText": "Sorunuzu bulamadınız mı?",
+    "moreCta": "Bize yazın — aynı gün yanıtlıyoruz"
   },
   "Contact": {
     "eyebrow": "Bize yazın",

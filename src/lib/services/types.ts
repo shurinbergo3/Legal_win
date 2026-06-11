@@ -5,7 +5,8 @@ export type ServiceGroup =
   | 'documents'
   | 'business'
   | 'realestate'
-  | 'relocation';
+  | 'relocation'
+  | 'auto';
 
 export type Fact = {
   label: string;
@@ -38,7 +39,7 @@ export type FaqItem = {
 export type ServiceContent = {
   slug: string;
   group: ServiceGroup;
-  icon: 'fingerprint' | 'shield' | 'scale' | 'home' | 'id-card' | 'gavel' | 'landmark';
+  icon: 'fingerprint' | 'shield' | 'scale' | 'home' | 'id-card' | 'gavel' | 'landmark' | 'car';
   badge?: string;
   title: string;
   subtitle: string;

@@ -47,7 +47,7 @@
     "ctaSecondary": "Wszystkie usługi",
     "availableNow": "Odpowiadamy w ciągu godziny",
     "hoursToday": "Dziś do 19:00",
-    "socialProofLabel": "opinie klientów · 5★"
+    "socialProofLabel": "opinie klientów"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
@@ -128,14 +128,6 @@
           {
             "name": "Apostille i legalizacja",
             "desc": "Apostille na dokumenty do wykorzystania za granicą"
-          },
-          {
-            "name": "Wymiana prawa jazdy",
-            "desc": "Wymiana zagranicznego prawa jazdy na polskie: tłumaczenia przysięgłe, badania lekarskie i psychotechniczne, zapis i obsługa w WORD"
-          },
-          {
-            "name": "Kod 95 (kwalifikacja kierowcy)",
-            "desc": "Kwalifikacja zawodowa dla kategorii C/CE/D/DE: kwalifikacja wstępna lub szkolenie okresowe (35 h / 5 lat). Dobór OSK, dokumenty, egzamin w WORD"
           },
           {
             "name": "Zaświadczenia ZUS / US",
@@ -233,6 +225,33 @@
           {
             "name": "Zapis dzieci do szkoły",
             "desc": "Obowiązek szkolny i klasa powitalna"
+          }
+        ]
+      },
+      "auto": {
+        "number": "06",
+        "title": "Auto i transport",
+        "lead": "Samochód w Polsce pod klucz: rejestracja, ubezpieczenie, przegląd i prawo jazdy — bez wizyt w urzędach.",
+        "items": [
+          {
+            "name": "Rejestracja i przerejestrowanie auta",
+            "desc": "Rejestracja i zmiana właściciela: weryfikacja dokumentów, tłumaczenia, wniosek do wydziału komunikacji, sprowadzenie i akcyza"
+          },
+          {
+            "name": "Ubezpieczenie OC / AC",
+            "desc": "Dobór i zawarcie OC, AC, NNW — także bez PESEL. Przeniesienie zniżek z zagranicy, pomoc przy zakupie używanego"
+          },
+          {
+            "name": "Przegląd techniczny",
+            "desc": "Zapis na stację SKP, asysta i tłumaczenie, badanie zerowe przy sprowadzeniu. Aktualne ceny i terminy 2025-2026"
+          },
+          {
+            "name": "Wymiana prawa jazdy",
+            "desc": "Wymiana zagranicznego prawa jazdy na polskie: tłumaczenia przysięgłe, badania lekarskie i psychotechniczne, zapis i obsługa w WORD"
+          },
+          {
+            "name": "Kod 95 (kwalifikacja kierowcy)",
+            "desc": "Kwalifikacja zawodowa dla kategorii C/CE/D/DE: kwalifikacja wstępna lub szkolenie okresowe (35 h / 5 lat). Dobór OSK, dokumenty, egzamin w WORD"
           }
         ]
       }
@@ -346,8 +365,8 @@
   "Testimonials": {
     "eyebrow": "Opinie",
     "title": "Co mówią klienci",
-    "starsLabel": "5 na 5 gwiazdek",
-    "ratingLabel": "5★ średnia ocena klientów",
+    "starsLabel": "{rating} na 5 gwiazdek",
+    "ratingLabel": "4.9★ średnia ocena klientów",
     "expand": "Pokaż jeszcze {count}",
     "collapse": "Zwiń opinie",
     "leaveReview": "Zostaw opinię",
@@ -402,6 +421,78 @@
         "text": "Kupiłem mieszkanie w Warszawie jako nierezydent UE - potrzebne było zezwolenie MSWiA. Złożyli w jednym pakiecie z due diligence mieszkania, po 3 miesiącach była zgoda. Bez nich straciłbym zadatek.",
         "author": "Wiktor Sz.",
         "role": "inwestor, nieruchomości"
+      },
+      {
+        "text": "Potrzebowałam apostille na akcie urodzenia córki do Niemiec. Postawili apostille w MSZ, od razu zrobili tłumaczenie przysięgłe na niemiecki i wysłali kurierem prosto do mnie do Monachium. Zmieścili się w tydzień - nie musiałam jechać do Warszawy.",
+        "author": "Jekaterina D.",
+        "role": "przeprowadziła się do męża w Niemczech"
+      },
+      {
+        "text": "Apostilowałem polski dyplom do pracy w Hiszpanii. Podpowiedzieli, że najpierw potrzebne jest poświadczenie, a dopiero potem apostille - sam na pewno pomyliłbym kolejność. Dokumenty przyszły na mój adres w Walencji w 10 dni, wszystko przyjęto bez uwag.",
+        "author": "Roman B.",
+        "role": "specjalista IT"
+      },
+      {
+        "text": "Pilnie potrzebowałem apostille na zaświadczeniu o niekaralności dla pracodawcy w Czechach. Postawili apostille i przesłali oryginał do Pragi w 4 dni - naprawdę uratowali mnie przed terminem z kontraktu.",
+        "author": "Paweł G.",
+        "role": "inżynier"
+      },
+      {
+        "text": "Załatwili apostille na pełnomocnictwie do sprawy sądowej na Ukrainie. Zrobione fachowo, z tłumaczeniem, wyjaśnili jakie sformułowania są potrzebne, żeby dokument przyjęto w ukraińskim urzędzie. Wysłali DHL-em, dotarło szybko.",
+        "author": "Swietłana M.",
+        "role": "sprawa spadkowa"
+      },
+      {
+        "text": "Wymieniałem białoruskie prawo jazdy na polskie. Białoruś ma inny format, a LegalWin z góry uprzedzili o dodatkowym zaświadczeniu i tłumaczeniu - dzięki temu w starostwie przeszedłem za pierwszym razem, bez ponownych wizyt.",
+        "author": "Andriej K.",
+        "role": "logistyka, Gdańsk"
+      },
+      {
+        "text": "Prawo jazdy ostatecznie wymienili, wszystko zrobione. Ale na badania lekarskie czekałem dłużej, niż obiecano, i parę razy sam pisałem, dopytując o etap. Z rezultatu zadowolony, tylko spodziewałem się szybciej.",
+        "author": "Oleg R.",
+        "role": "kierownik sprzedaży",
+        "rating": 4
+      },
+      {
+        "text": "Robiłem kod 95 w trybie kwalifikacji przyspieszonej - 140 godzin. Pomogli wybrać OSK z rosyjskojęzycznym instruktorem i zapisali na egzamin w WORD bez miesięcy oczekiwania. Po 5 tygodniach już woziłem ładunki po UE.",
+        "author": "Denis F.",
+        "role": "kierowca kat. CE"
+      },
+      {
+        "text": "Zbliżał się termin przedłużenia kod 95 - szkolenie okresowe 35 godzin. Zapisali mnie na kurs blisko domu, przypomnieli o terminach, nową kartę dostałem na czas, bez przestoju w pracy.",
+        "author": "Maksim Z.",
+        "role": "kierowca dalekobieżny, 12 lat stażu"
+      },
+      {
+        "text": "Zamawiałam tłumaczenia przysięgłe pakietu dokumentów do ZUS - akty, świadectwo pracy, zaświadczenia. Zrobione w dwa dni, pieczęć tłumacza przysięgłego w urzędzie przyjęto bez jednego pytania.",
+        "author": "Julia N.",
+        "role": "księgowa"
+      },
+      {
+        "text": "Tłumaczyli dokumenty założycielskie firmy z angielskiego na polski do otwarcia konta. Tłumaczenie dokładne, terminy prawnicze na miejscu - bank otworzył konto bez uwag i poprawek.",
+        "author": "Artiom W.",
+        "role": "przedsiębiorca"
+      },
+      {
+        "text": "Potrzebne były tłumaczenia przysięgłe dokumentów medycznych do leczenia za granicą. Zrobione starannie i szybko, pomogli ustalić, jakie dokładnie papiery są potrzebne klinice. Bardzo uważne podejście.",
+        "author": "Ludmiła P.",
+        "role": "w trakcie leczenia w Austrii"
+      },
+      {
+        "text": "Zgłosiłam się w sprawie karty pobytu. Kartę ostatecznie dostałam, pracę wykonali. Ale brakowało komunikacji - bywało po kilka dni bez odpowiedzi, sama musiałam dopytywać o status. Z efektu zadowolona, ale oczekiwanie nadszarpnęło nerwy.",
+        "author": "Oksana T.",
+        "role": "karta pobytu",
+        "rating": 3
+      },
+      {
+        "text": "Postawili apostille na akcie małżeństwa i wysłali do Włoch w celu połączenia rodziny. Zrobione z tłumaczeniem przysięgłym na włoski, wszystko poprawnie - konsulat przyjął pakiet od razu.",
+        "author": "Tatiana S.",
+        "role": "przeprowadzka do Włoch"
+      },
+      {
+        "text": "Potrzebowałam tłumaczenia przysięgłego wyroku sądowego na Ukrainę. Przetłumaczyli poprawnie, z uwzględnieniem terminologii prawniczej, poświadczyli i wysłali. Dokument w ukraińskim urzędzie przyjęto bez pytań.",
+        "author": "Weronika L.",
+        "role": "sprawa rodzinna"
       }
     ]
   },
@@ -411,8 +502,6 @@
     "subtitle": "Opowiedz, jak Ci pomogliśmy. Opinia trafi do naszego specjalisty - po krótkiej moderacji dodamy ją na stronę.",
     "name": "Imię",
     "namePlaceholder": "Olga M.",
-    "role": "Kim jesteś (opcjonalnie)",
-    "rolePlaceholder": "projektantka, przeprowadziła się z Kijowa",
     "rating": "Ocena",
     "ratingHint": "Kliknij gwiazdkę",
     "text": "Opinia",
@@ -510,30 +599,53 @@
     "title": "Najczęściej zadawane",
     "items": [
       {
-        "q": "Ile kosztuje konsultacja?",
-        "a": "Pierwsza 30-minutowa konsultacja - gratis. Jeśli potrzebna jest głęboka analiza dokumentów, kolejne spotkania kosztują od 200 PLN w zależności od złożoności."
+        "tag": "Konsultacja",
+        "q": "Ile kosztuje pierwsza konsultacja?",
+        "a": "Pierwsza konsultacja jest bezpłatna. Przeanalizujemy Twoją sytuację, powiemy, jakie dokumenty są naprawdę potrzebne, i podamy terminy oraz koszt, zanim cokolwiek zapłacisz. Jeśli potrzebna będzie głęboka analiza dokumentów lub pisemna opinia, kolejne spotkania kosztują od 200 PLN w zależności od złożoności."
       },
       {
+        "tag": "Terminy",
         "q": "Ile trwa otrzymanie karty pobytu?",
-        "a": "Średni czas uzyskania karty to 6-8 miesięcy. Ustawowo wojewoda ma do 90 dni, ale w Mazowieckim Urzędzie Wojewódzkim w 2026 r. decyzja zapada realnie po 6-14 miesiącach. Przy prawidłowym złożeniu przez MOS v2.0 i pełnym pakiecie - bliżej dolnej granicy. Przyspieszamy przez ponaglenie i, w razie potrzeby, skargę na bezczynność do WSA."
+        "a": "Średnio 6–8 miesięcy. Ustawowo wojewoda ma do 90 dni, ale w Mazowieckim Urzędzie Wojewódzkim w 2026 r. decyzja zapada realnie po 6–14 miesiącach. Komplet dokumentów i prawidłowe złożenie przez MOS v2.0 trzyma Cię bliżej dolnej granicy. Przy przewlekłości składamy ponaglenie, a w razie potrzeby skargę na bezczynność do WSA."
       },
       {
-        "q": "Czy pracujecie zdalnie?",
-        "a": "Tak. Klienci z innych miast Polski i z zagranicy prowadzą sprawy całkowicie online. Pełnomocnictwo notarialne, bezpośredni kontakt z opiekunem sprawy i portal klienta ze statusami."
+        "tag": "Karta pobytu",
+        "q": "Czy mogę pracować i wyjeżdżać, gdy sprawa jest w toku?",
+        "a": "Tak, jeśli złożyłeś wniosek w terminie i masz stempel w paszporcie: Twój pobyt w Polsce jest legalny do decyzji wojewody, nawet gdy wiza lub poprzednia karta wygasły. Pracować możesz, gdy masz podstawę — oświadczenie lub zezwolenie na pracę. Wyjazd z Polski na samym stemplu nie gwarantuje jednak powrotu w ramach Schengen, dlatego przed podróżą skonsultuj z nami swoją sytuację."
       },
       {
-        "q": "Co jeśli otrzymam odmowę?",
-        "a": "Przeanalizujemy przyczyny odmowy i złożymy apelację w ciągu 14 dni. Mamy skuteczne apelacje w sprawach TRC, PR, obywatelstwa i ochrony międzynarodowej - w tym przez Wojewódzki Sąd Administracyjny."
+        "tag": "Płatność",
+        "q": "Co wchodzi w cenę i jak wygląda płatność?",
+        "a": "Honorarium kancelarii i opłaty urzędowe (opłata skarbowa) to osobne kwoty — zawsze pokazujemy je oddzielnie, bez ukrytych dopłat. W większości spraw płatność jest etapowa: część na początku, część na kluczowych etapach. Po pierwszej konsultacji otrzymujesz stałą wycenę dopasowaną do Twojej sprawy."
       },
       {
-        "q": "Czy można otworzyć spółkę zdalnie?",
-        "a": "Tak, przez S24 z kwalifikowanym podpisem elektronicznym (ePUAP / ePodpis) lub przez pełnomocnictwo notarialne. Rejestracja trwa 5-10 dni roboczych."
+        "tag": "Apelacja",
+        "q": "Co zrobić, gdy przyszła odmowa?",
+        "a": "Przeanalizujemy przyczyny odmowy (decyzja odmowna) i złożymy odwołanie w ciągu 14 dni — to ustawowy termin. Mamy skuteczne odwołania w sprawach TRC, pobytu stałego, obywatelstwa i ochrony międzynarodowej, w tym przez Wojewódzki Sąd Administracyjny. Nawet gdy termin goni, najpierw pokaż nam decyzję — często sprawę da się jeszcze odwrócić."
       },
       {
-        "q": "Jakie języki w pracy?",
-        "a": "Polski, rosyjski, ukraiński, angielski. Wszystkie dokumenty otrzymujesz z tłumaczeniem na swój język."
+        "tag": "Prawo jazdy",
+        "q": "Czy trzeba wymienić zagraniczne prawo jazdy na polskie?",
+        "a": "To zależy od kraju i Twojego statusu. Ukraińskie prawa jazdy osób pod ochroną czasową (PESEL UKR) były ważne do 4 marca 2026 r. — teraz podlegają wymianie na polskie. Wymiana odbywa się bez egzaminów: tłumaczenie przysięgłe, wniosek w wydziale komunikacji, czas od kilku tygodni. Pomożemy skompletować pakiet, zrobić tłumaczenie przysięgłe i złożyć dokumenty bez zbędnych wizyt."
+      },
+      {
+        "tag": "Kod 95",
+        "q": "Kto potrzebuje kodu 95 i jak go uzyskać?",
+        "a": "Kod 95 to wpis w prawie jazdy, bez którego nie można zarobkowo przewozić rzeczy (kat. C) ani osób (kat. D). Potrzebuje go każdy kierowca zawodowy. Droga jest taka: orzeczenia od lekarza medycyny pracy i psychologa → Profil Kierowcy Zawodowego (PKZ) w wydziale komunikacji → kwalifikacja wstępna i egzamin państwowy z 30 pytań. Ważność to 5 lat, później szkolenie okresowe. Prowadzimy cały proces i tłumaczymy materiały."
+      },
+      {
+        "tag": "Tryb pracy",
+        "q": "Czy pracujecie zdalnie i z innych miast?",
+        "a": "Tak. Klienci z innych miast Polski i z zagranicy prowadzą sprawy całkowicie online: pełnomocnictwo notarialne, bezpośredni kontakt z opiekunem sprawy i portal klienta ze statusami. Wizyta w biurze przy ul. Świętokrzyskiej 30 w Warszawie nie jest konieczna."
+      },
+      {
+        "tag": "Języki",
+        "q": "W jakich językach pracujecie?",
+        "a": "Polski, rosyjski, ukraiński, angielski. Wszystkie dokumenty otrzymujesz z tłumaczeniem na swój język, a tłumaczenia przysięgłe wykonujemy od razu pod złożenie w urzędzie."
       }
-    ]
+    ],
+    "moreText": "Nie znalazłeś swojego pytania?",
+    "moreCta": "Napisz do nas — odpowiemy tego samego dnia"
   },
   "Contact": {
     "eyebrow": "Kontakt",

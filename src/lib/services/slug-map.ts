@@ -198,6 +198,27 @@ const nameBySlug: Record<string, string[]> = {
     'School enrolment',
     'Çocukların okula kaydı',
     'Зарахування дітей до школи'
+  ],
+  'rejestracja-pojazdu': [
+    'Регистрация и переоформление авто',
+    'Rejestracja i przerejestrowanie auta',
+    'Vehicle registration',
+    'Araç tescili ve devri',
+    'Реєстрація та переоформлення авто'
+  ],
+  'ubezpieczenie-oc-ac': [
+    'Автостраховка OC / AC',
+    'Ubezpieczenie OC / AC',
+    'Car insurance OC / AC',
+    'Araç sigortası OC / AC',
+    'Автострахування OC / AC'
+  ],
+  'przeglad-techniczny': [
+    'Техосмотр (przegląd techniczny)',
+    'Przegląd techniczny',
+    'Technical inspection',
+    'Teknik muayene',
+    'Техогляд (przegląd techniczny)'
   ]
 };
 

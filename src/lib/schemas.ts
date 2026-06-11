@@ -42,10 +42,6 @@ export type ContactInput = z.infer<typeof contactSchema>;
 // needed, but text + rating are required to be useful.
 export const reviewSchema = z.object({
   name: z.string().trim().min(2).max(80),
-  role: z.preprocess(
-    emptyToUndefined,
-    z.string().trim().max(120).optional()
-  ),
   rating: z.coerce.number().int().min(1).max(5),
   text: z.string().trim().min(2).max(2000),
   consent: z.literal('on', {

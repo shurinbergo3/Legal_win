@@ -952,6 +952,102 @@ const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
       'non-compete clause lease',
       'Polish commercial real estate specialist'
     ]
+  },
+  'rejestracja-pojazdu': {
+    ru: [
+      'регистрация авто в Польше',
+      'переоформление машины в Польше',
+      'поставить машину на учёт в Польше',
+      'регистрация авто без мельдунка',
+      'регистрация авто для иностранцев',
+      'растаможка авто из Украины Польша',
+      'акциза на авто Польша',
+      'штраф за несвоевременную регистрацию авто'
+    ],
+    pl: [
+      'przerejestrowanie samochodu',
+      'rejestracja pojazdu cudzoziemiec',
+      'rejestracja samochodu bez meldunku',
+      'ile kosztuje przerejestrowanie samochodu 2025',
+      'rejestracja auta z Ukrainy',
+      'akcyza za samochód',
+      'kara za brak rejestracji pojazdu',
+      'pomoc w rejestracji samochodu Warszawa'
+    ],
+    en: [
+      'vehicle registration Poland for foreigners',
+      're-register a car in Poland',
+      'car registration without meldunek',
+      'register imported car Poland',
+      'car excise tax AKC-U Poland',
+      'transfer car ownership Poland',
+      'register Ukrainian car in Poland',
+      'vehicle registration Warsaw'
+    ]
+  },
+  'ubezpieczenie-oc-ac': {
+    ru: [
+      'страховка на авто в Польше',
+      'OC страховка Польша',
+      'страховка OC без PESEL',
+      'автостраховка для украинцев Польша',
+      'сколько стоит OC в Польше',
+      'штраф UFG за отсутствие OC',
+      'перенос скидок OC из Украины',
+      'OC graniczne зелёная карта'
+    ],
+    pl: [
+      'ubezpieczenie OC samochodu',
+      'OC AC kalkulator',
+      'OC dla obcokrajowca',
+      'OC bez PESEL',
+      'najtańsze OC Warszawa',
+      'kara UFG za brak OC 2026',
+      'OC dla obywatela Ukrainy',
+      'przeniesienie zniżek OC z zagranicy'
+    ],
+    en: [
+      'car insurance Poland OC',
+      'OC insurance without PESEL',
+      'car insurance for foreigners Poland',
+      'cheapest OC Poland',
+      'UFG fine no OC Poland',
+      'green card OC graniczne Poland',
+      'transfer no-claims discount Poland',
+      'OC AC NNW Poland broker'
+    ]
+  },
+  'przeglad-techniczny': {
+    ru: [
+      'техосмотр в Польше',
+      'техосмотр авто Польша 2026 цена',
+      'сколько стоит техосмотр в Польше',
+      'просроченный техосмотр штраф Польша',
+      'техосмотр на газу LPG Польша',
+      'нулевой техосмотр при ввозе',
+      'где пройти техосмотр SKP',
+      'техосмотр на украинских номерах'
+    ],
+    pl: [
+      'przegląd techniczny samochodu',
+      'badanie techniczne ile kosztuje 2025',
+      'przegląd techniczny po terminie kara',
+      'przegląd techniczny LPG cena',
+      'badanie zerowe pojazdu sprowadzonego',
+      'stacja kontroli pojazdów SKP',
+      'co ile lat przegląd techniczny',
+      'mandat za brak przeglądu technicznego'
+    ],
+    en: [
+      'technical inspection Poland',
+      'vehicle inspection cost Poland 2025',
+      'expired inspection fine Poland',
+      'LPG car inspection price Poland',
+      'zero inspection imported car Poland',
+      'SKP station Poland',
+      'how often technical inspection Poland',
+      'badanie techniczne for foreigners'
+    ]
   }
 };
 

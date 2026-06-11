@@ -19,7 +19,8 @@ const GROUP_LABEL: Record<ServiceGroup, string> = {
   business: 'Business & Tax',
   documents: 'Documents & Licences',
   realestate: 'Real Estate',
-  relocation: 'Relocation Support'
+  relocation: 'Relocation Support',
+  auto: 'Vehicles & Transport'
 };
 
 const GROUP_ORDER: ServiceGroup[] = [
@@ -27,7 +28,8 @@ const GROUP_ORDER: ServiceGroup[] = [
   'business',
   'documents',
   'realestate',
-  'relocation'
+  'relocation',
+  'auto'
 ];
 
 const RECENT_POSTS_LIMIT = 12;

@@ -47,7 +47,7 @@
     "ctaSecondary": "All services",
     "availableNow": "Reply within an hour",
     "hoursToday": "Open today until 7 PM",
-    "socialProofLabel": "client reviews · 5★"
+    "socialProofLabel": "client reviews"
   },
   "Marquee": {
     "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
@@ -128,14 +128,6 @@
           {
             "name": "Apostille & legalization",
             "desc": "Apostille on documents for international use"
-          },
-          {
-            "name": "Driver's licence exchange",
-            "desc": "Swap your national licence for a Polish one: sworn translations, badania lekarskie & psychotest, WORD booking and on-site support"
-          },
-          {
-            "name": "Code 95 (driver CPC)",
-            "desc": "Professional qualification for C/CE/D/DE: kwalifikacja wstępna or szkolenie okresowe (35 h / 5 yrs). OSK selection, paperwork, WORD exam"
           },
           {
             "name": "ZUS / tax certificates",
@@ -233,6 +225,33 @@
           {
             "name": "School enrolment",
             "desc": "Obowiązek szkolny and klasa powitalna placement"
+          }
+        ]
+      },
+      "auto": {
+        "number": "06",
+        "title": "Vehicles & transport",
+        "lead": "Your car in Poland, sorted: registration, insurance, inspection and licence — without the office queues.",
+        "items": [
+          {
+            "name": "Vehicle registration",
+            "desc": "Registration and ownership transfer: document check, translations, filing at the wydział komunikacji, import and excise"
+          },
+          {
+            "name": "Car insurance OC / AC",
+            "desc": "OC, AC and NNW selection and purchase — even without a PESEL. Foreign no-claims transfer, used-car help"
+          },
+          {
+            "name": "Technical inspection",
+            "desc": "SKP station booking, on-site help and translation, zero inspection on import. Up-to-date 2025-2026 prices and intervals"
+          },
+          {
+            "name": "Driver's licence exchange",
+            "desc": "Swap your national licence for a Polish one: sworn translations, badania lekarskie & psychotest, WORD booking and on-site support"
+          },
+          {
+            "name": "Code 95 (driver CPC)",
+            "desc": "Professional qualification for C/CE/D/DE: kwalifikacja wstępna or szkolenie okresowe (35 h / 5 yrs). OSK selection, paperwork, WORD exam"
           }
         ]
       }
@@ -346,8 +365,8 @@
   "Testimonials": {
     "eyebrow": "Testimonials",
     "title": "What clients say",
-    "starsLabel": "5 of 5 stars",
-    "ratingLabel": "5★ average client rating",
+    "starsLabel": "{rating} of 5 stars",
+    "ratingLabel": "4.9★ average client rating",
     "expand": "Show {count} more",
     "collapse": "Collapse reviews",
     "leaveReview": "Leave a review",
@@ -402,6 +421,78 @@
         "text": "Bought a flat in Warsaw as a non-EU buyer - I needed MSWiA approval. They filed it together with due diligence on the property; three months later the permit was through. Without them I'd have lost the deposit.",
         "author": "Viktor Sh.",
         "role": "real-estate investor"
+      },
+      {
+        "text": "Needed an apostille on my daughter's birth certificate for Germany. They had it apostilled at the MSZ, arranged a sworn German translation right away and couriered it straight to me in Munich. Done in a week - no trip to Warsaw needed.",
+        "author": "Ekaterina D.",
+        "role": "moved to Germany to join her husband"
+      },
+      {
+        "text": "Got my Polish diploma apostilled for a job in Spain. They explained that it first needs certification and only then the apostille - I'd have definitely got the order wrong on my own. Documents arrived at my address in Valencia in 10 days, accepted with no issues.",
+        "author": "Roman B.",
+        "role": "IT specialist"
+      },
+      {
+        "text": "Urgently needed an apostille on a criminal-record certificate for an employer in the Czech Republic. They apostilled it and forwarded the original to Prague in 4 days - genuinely saved me before the contract deadline.",
+        "author": "Pavel G.",
+        "role": "engineer"
+      },
+      {
+        "text": "They handled an apostille on a power of attorney for a court case in Ukraine. Done properly, with translation, and they explained which wording was needed so the document would be accepted by the Ukrainian authority. Sent by DHL, arrived fast.",
+        "author": "Svetlana M.",
+        "role": "inheritance case"
+      },
+      {
+        "text": "Exchanged my Belarusian licence for a Polish one. Belarus uses a different format, and LegalWin warned me in advance about an extra certificate and translation - so I cleared the starostwo on the first try, no repeat visits.",
+        "author": "Andrey K.",
+        "role": "logistics, Gdańsk"
+      },
+      {
+        "text": "They did get the licence exchanged in the end, everything sorted. But the badania lekarskie took longer than promised, and a couple of times I had to write myself to check the status. Happy with the result, just expected it faster.",
+        "author": "Oleg R.",
+        "role": "sales manager",
+        "rating": 4
+      },
+      {
+        "text": "Did kod 95 via kwalifikacja przyspieszona - 140 hours. They helped me pick an OSK with a Russian-speaking instructor and booked the WORD exam without months of waiting. Five weeks later I was already hauling freight across the EU.",
+        "author": "Denis F.",
+        "role": "category CE driver"
+      },
+      {
+        "text": "My kod 95 was up for renewal - szkolenie okresowe, 35 hours. They booked me onto a course near home, reminded me about deadlines, and I got the new card on time with no downtime at work.",
+        "author": "Maksim Z.",
+        "role": "long-haul driver, 12 years' experience"
+      },
+      {
+        "text": "Ordered sworn translations of a document package for ZUS - certificates, work record, statements. Done in two days, and the tłumacz przysięgły stamp was accepted at the urząd without a single question.",
+        "author": "Yulia N.",
+        "role": "accountant"
+      },
+      {
+        "text": "They translated the company's founding documents from English to Polish to open a bank account. The translation was precise, legal terms in place - the bank opened the account with no corrections needed.",
+        "author": "Artem V.",
+        "role": "entrepreneur"
+      },
+      {
+        "text": "Needed sworn translations of medical documents for treatment abroad. Done neatly and fast, and they helped me work out exactly which papers the clinic required. Very attentive throughout.",
+        "author": "Lyudmila P.",
+        "role": "undergoing treatment in Austria"
+      },
+      {
+        "text": "I came to them about a residence card. I did get the card in the end and the work was done. But communication was lacking - sometimes several days with no reply, I had to chase and ask for status myself. Happy with the outcome, but the waiting frayed my nerves.",
+        "author": "Oksana T.",
+        "role": "residence card",
+        "rating": 3
+      },
+      {
+        "text": "They apostilled a marriage certificate and sent it to Italy for family reunification. Done with a sworn Italian translation, all correct - the consulate accepted the package straight away.",
+        "author": "Tatiana S.",
+        "role": "relocating to Italy"
+      },
+      {
+        "text": "Needed a sworn translation of a court ruling for Ukraine. Translated correctly with the right legal terminology, certified and sent. The document was accepted by the Ukrainian authority with no questions.",
+        "author": "Veronika L.",
+        "role": "family case"
       }
     ]
   },
@@ -411,8 +502,6 @@
     "subtitle": "Tell us what we did and how it went. Your review goes to our team - after a short moderation it'll appear on the site.",
     "name": "Name",
     "namePlaceholder": "Olga M.",
-    "role": "Who you are (optional)",
-    "rolePlaceholder": "designer, moved from Kyiv",
     "rating": "Rating",
     "ratingHint": "Click a star",
     "text": "Review",
@@ -510,30 +599,53 @@
     "title": "Frequently asked",
     "items": [
       {
-        "q": "How much is a consultation?",
-        "a": "The first 30-minute consultation is free. For deep document review, follow-up sessions start at 200 PLN depending on complexity."
+        "tag": "Consultation",
+        "q": "How much is the first consultation?",
+        "a": "The first consultation is free. We review your situation, tell you which documents you actually need, and lay out timing and cost before you pay anything. If deep document review or a written opinion is required, follow-up sessions start at 200 PLN depending on complexity."
       },
       {
+        "tag": "Timing",
         "q": "How long does a residence permit take?",
-        "a": "Average time to receive the card - 6-8 months. The statutory deadline for the wojewoda (regional governor) is 90 days, but in Mazowieckie Voivodeship in 2026 decisions realistically take 6-14 months. A clean MOS v2.0 filing with the full document pack lands closer to the lower bound. We accelerate through a ponaglenie (motion to expedite) and, if needed, a skarga na bezczynność (complaint of inaction) to the Voivodeship Administrative Court."
+        "a": "On average 6–8 months. The statutory deadline for the wojewoda (regional governor) is 90 days, but in Mazowieckie Voivodeship in 2026 decisions realistically take 6–14 months. A full document pack and a clean MOS v2.0 filing keep you closer to the lower bound. If it drags, we file a ponaglenie (motion to expedite) and, if needed, a skarga na bezczynność (complaint of inaction) to the Voivodeship Administrative Court."
       },
       {
-        "q": "Do you work remotely?",
-        "a": "Yes. Clients from other Polish cities and abroad run cases fully online. Notarial power of attorney, a direct channel with your case manager, and a client portal with live statuses."
+        "tag": "Residence",
+        "q": "Can I work and travel while my case is pending?",
+        "a": "Yes — if you filed the wniosek (application) on time and got the stamp in your passport (stempel), your stay in Poland is legal until the wojewoda decides, even if your visa or previous card has expired. You can work if you have a basis for it (oświadczenie or a work permit). Leaving Poland on the stamp alone does not guarantee re-entry under Schengen, so check your situation with us before travelling."
       },
       {
-        "q": "What if I get denied?",
-        "a": "We analyse the grounds and file an appeal within 14 days. We have successful appeals on TRC, PR, citizenship and international protection - including through the Voivodeship Administrative Court."
+        "tag": "Payment",
+        "q": "What's included in the price and how does payment work?",
+        "a": "Our fee and the government charges (opłata skarbowa) are separate amounts — we always show them apart, with no hidden add-ons. For most cases payment is staged: part at the start, part at key milestones. After the first consultation you receive a fixed quote tailored to your case."
       },
       {
-        "q": "Can I register a company remotely?",
-        "a": "Yes, via S24 (the online KRS portal) with a qualified e-signature (ePUAP / ePodpis - Poland's national e-ID) or by notarial power of attorney. Registration takes 5-10 business days."
+        "tag": "Appeal",
+        "q": "What should I do if I'm denied?",
+        "a": "We analyse the grounds for refusal (decyzja odmowna) and file an appeal (odwołanie) within 14 days — the statutory window. We have successful appeals on TRC, permanent residence, citizenship and international protection, including through the Voivodeship Administrative Court. Even when the clock is tight, show us the decision first — a case can often still be turned around."
       },
       {
+        "tag": "Driving",
+        "q": "Do I need to exchange my foreign licence for a Polish one?",
+        "a": "It depends on the country and your status. Ukrainian licences held under temporary protection (PESEL UKR) were valid until 4 March 2026 — they now have to be exchanged for a Polish one. The exchange needs no exams: a sworn translation, an application at the wydział komunikacji (traffic department), and a few weeks’ wait. We help assemble the pack, arrange the tłumaczenie przysięgłe (sworn translation) and file without extra visits."
+      },
+      {
+        "tag": "Kod 95",
+        "q": "Who needs Kod 95 and how do you get it?",
+        "a": "Kod 95 is an entry on your licence; without it you can't carry goods (cat. C) or passengers (cat. D) for a living. Every professional driver needs it. The path: medical and psychological clearance → a Professional Driver Profile (PKZ) at the wydział komunikacji → initial qualification (kwalifikacja wstępna) and a 30-question state exam. It's valid for 5 years, then periodic training (szkolenie okresowe). We run the whole process and translate the materials."
+      },
+      {
+        "tag": "Remote",
+        "q": "Do you work remotely and with other cities?",
+        "a": "Yes. Clients from other Polish cities and from abroad run their cases entirely online: notarial power of attorney, a direct line to your case manager and a client portal with live statuses. A visit to our office at ul. Świętokrzyska 30 in Warsaw is not required."
+      },
+      {
+        "tag": "Languages",
         "q": "What languages do you work in?",
-        "a": "Polish, Russian, Ukrainian, English. All documents come translated into your language."
+        "a": "Polish, Russian, Ukrainian, English. All documents come translated into your language, and we produce sworn translations (tłumaczenia przysięgłe) ready for filing with the urząd."
       }
-    ]
+    ],
+    "moreText": "Didn't find your question?",
+    "moreCta": "Write to us — we reply the same day"
   },
   "Contact": {
     "eyebrow": "Get in touch",

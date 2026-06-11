@@ -4,6 +4,7 @@ import { AnimatePresence, motion, useScroll, useSpring } from 'framer-motion';
 import { useRef, useState } from 'react';
 import {
   ArrowUpRight,
+  Car,
   Check,
   ChevronLeft,
   ChevronRight,
@@ -34,7 +35,8 @@ const iconMap = {
   home: Home,
   'id-card': IdCard,
   gavel: Gavel,
-  landmark: Landmark
+  landmark: Landmark,
+  car: Car
 };
 
 export function ServiceDetail({
@@ -144,6 +146,9 @@ const servicePhotos: Record<string, string> = {
   'tlumacz-na-wizyty':             '/services/tlumacz-na-wizyty.webp',             // Old + modern skyline - bridging
   'pomoc-w-zatrudnieniu':          '/services/warszawa-spire.webp',                // Warsaw Spire towers - corporate jobs
   'zapis-dzieci-do-szkoly':        '/services/pomoc-w-zatrudnieniu.webp',          // Gdansk canal - calm, family
+  'rejestracja-pojazdu':           '/services/warszawa-tramwaj.webp',              // Trams + road - registration / traffic authority
+  'ubezpieczenie-oc-ac':           '/services/wyszukiwanie-mieszkania.webp',       // Bridge with road - insurance / coverage on the road
+  'przeglad-techniczny':           '/services/zaproszenia.webp',                   // Top-down roundabout - inspection / roadworthiness
 };
 
 function DetailHero({

@@ -18,7 +18,7 @@ import { ChatbotLoader } from '@/components/ChatbotLoader';
 
 const Contact = dynamic(() => import('@/components/Contact').then(m => ({ default: m.Contact })));
 
-type FaqItem = { q: string; a: string };
+type FaqItem = { q: string; a: string; tag?: string };
 
 export default async function HomePage({
   params

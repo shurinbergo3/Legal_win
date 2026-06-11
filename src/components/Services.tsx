@@ -1,13 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ArrowUpRight, Fingerprint, FileText, Building2, Home, Plane } from 'lucide-react';
+import { ArrowUpRight, Fingerprint, FileText, Building2, Home, Plane, Car } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { slugFromName } from '@/lib/services/slug-map';
 import { Reveal } from './Reveal';
 
-type GroupKey = 'immigration' | 'documents' | 'business' | 'realestate' | 'relocation';
+type GroupKey = 'immigration' | 'documents' | 'business' | 'realestate' | 'relocation' | 'auto';
 
 type GlowConfig = {
   Icon: LucideIcon;
@@ -23,6 +23,7 @@ const groupMeta: Record<GroupKey, GlowConfig> = {
   business:    { Icon: Building2,   rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
   realestate:  { Icon: Home,        rgb: '148, 163, 184', spotOpacity: 0.10, lineOpacity: 0.6,  ambientOpacity: 0.03  },
   relocation:  { Icon: Plane,       rgb: '34, 211, 238',  spotOpacity: 0.13, lineOpacity: 0.75, ambientOpacity: 0.04  },
+  auto:        { Icon: Car,         rgb: '202, 138, 4',   spotOpacity: 0.17, lineOpacity: 0.9,  ambientOpacity: 0.055 },
 };
 
 const groupOrder: GroupKey[] = [
@@ -30,7 +31,8 @@ const groupOrder: GroupKey[] = [
   'documents',
   'business',
   'realestate',
-  'relocation'
+  'relocation',
+  'auto'
 ];
 
 type ServiceItem = { name: string; desc: string };
@@ -89,11 +91,14 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
   const items = t.raw('items') as ServiceItem[];
 
   return (
-    <Reveal
-      margin="-80px"
-      delay={(index % 3) * 50}
-      className="group relative border-t hairline py-14 lg:py-20"
-    >
+    <>
+      {/* Anchor for header dropdown deep-links (scroll-mt offsets the sticky header) */}
+      <div id={`services-${groupKey}`} aria-hidden className="scroll-mt-28" />
+      <Reveal
+        margin="-80px"
+        delay={(index % 3) * 50}
+        className="group relative border-t hairline py-14 lg:py-20"
+      >
       {/* Layer 1: always-visible ambient - anchored left, not centered */}
       <div
         aria-hidden
@@ -184,7 +189,8 @@ function ServiceGroup({ groupKey, index }: { groupKey: GroupKey; index: number }
           })}
         </ul>
       </div>
-    </Reveal>
+      </Reveal>
+    </>
   );
 }
 

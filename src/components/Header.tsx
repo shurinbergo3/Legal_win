@@ -18,12 +18,37 @@ const navItems: NavItem[] = [
   { key: 'contact', href: '/#contact' },
 ];
 
+// Service categories surfaced in the "Услуги" dropdown. Labels are reused from
+// the Services.groups namespace (no extra strings), each links to its anchor in
+// the homepage Services section (see Services.tsx → `#services-<key>`).
+const serviceCategories = [
+  'immigration',
+  'documents',
+  'business',
+  'realestate',
+  'relocation',
+  'auto',
+] as const;
+
 export function Header() {
   const t = useTranslations('Nav');
+  const tg = useTranslations('Services.groups');
   const pathname = usePathname();
   const isHome = pathname === '/';
   const [shrunk, setShrunk] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+
+  // Close the desktop services dropdown on Escape.
+  useEffect(() => {
+    if (!servicesOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setServicesOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [servicesOpen]);
 
   useEffect(() => {
     let raf = 0;
@@ -52,6 +77,7 @@ export function Header() {
 
   function closeMobile() {
     setMobileOpen(false);
+    setMobileServicesOpen(false);
   }
 
   return (
@@ -84,11 +110,72 @@ export function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden items-center gap-8 text-sm text-ink-300 lg:flex">
-            {navItems.map((item) => (
-              <Link key={item.key} href={item.href} className="relative transition-colors duration-200 hover:text-ink-50">
-                {t(item.key)}
-              </Link>
-            ))}
+            {navItems.map((item) =>
+              item.key === 'services' ? (
+                <div
+                  key={item.key}
+                  className="relative"
+                  onMouseEnter={() => setServicesOpen(true)}
+                  onMouseLeave={() => setServicesOpen(false)}
+                >
+                  <Link
+                    href="/#services"
+                    onClick={() => setServicesOpen(false)}
+                    aria-expanded={servicesOpen}
+                    className="relative inline-flex items-center gap-1.5 transition-colors duration-200 hover:text-ink-50"
+                  >
+                    {t(item.key)}
+                    <svg
+                      className={cn('h-3 w-3 text-ink-500 transition-transform duration-200', servicesOpen && 'rotate-180')}
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      aria-hidden
+                    >
+                      <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </Link>
+
+                  {/* Dropdown panel — pt-3 keeps the hover bridge contiguous (no gap drop) */}
+                  <div
+                    className={cn(
+                      'absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3 transition-all duration-200',
+                      servicesOpen
+                        ? 'visible translate-y-0 opacity-100'
+                        : 'pointer-events-none invisible -translate-y-1 opacity-0'
+                    )}
+                  >
+                    <div className="glass-strong relative overflow-hidden rounded-2xl border hairline p-2 shadow-elite">
+                      <div
+                        aria-hidden
+                        className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/50 to-transparent"
+                      />
+                      {serviceCategories.map((key) => (
+                        <Link
+                          key={key}
+                          href={`/#services-${key}`}
+                          onClick={() => setServicesOpen(false)}
+                          className="group/cat flex items-center justify-between rounded-xl px-3 py-2.5 text-sm text-ink-200 transition-colors hover:bg-ink-50/[0.06] hover:text-gold-300"
+                        >
+                          {tg(`${key}.title`)}
+                          <svg
+                            className="h-4 w-4 text-ink-600 transition-all duration-200 group-hover/cat:translate-x-0.5 group-hover/cat:text-gold-400"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                            aria-hidden
+                          >
+                            <path d="M3 8h10m-4-4 4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <Link key={item.key} href={item.href} className="relative transition-colors duration-200 hover:text-ink-50">
+                  {t(item.key)}
+                </Link>
+              )
+            )}
           </nav>
 
           <div className="flex items-center gap-3">
@@ -146,24 +233,65 @@ export function Header() {
 
           <nav className="flex flex-1 flex-col px-8">
             <ul className="flex flex-col divide-y divide-ink-800/60">
-              {navItems.map((item, i) => (
-                <li
-                  key={item.key}
-                  className="mobile-menu-item"
-                  style={{ animationDelay: `${50 + i * 60}ms` }}
-                >
-                  <Link
-                    href={item.href}
-                    onClick={closeMobile}
-                    className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
+              {navItems.map((item, i) =>
+                item.key === 'services' ? (
+                  <li
+                    key={item.key}
+                    className="mobile-menu-item"
+                    style={{ animationDelay: `${50 + i * 60}ms` }}
                   >
-                    {t(item.key)}
-                    <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
-                      <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </Link>
-                </li>
-              ))}
+                    <button
+                      type="button"
+                      onClick={() => setMobileServicesOpen((v) => !v)}
+                      aria-expanded={mobileServicesOpen}
+                      className="flex w-full items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
+                    >
+                      {t(item.key)}
+                      <svg
+                        className={cn('h-5 w-5 text-ink-500 transition-transform duration-300', mobileServicesOpen && 'rotate-180')}
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        aria-hidden
+                      >
+                        <path d="M5 8l5 5 5-5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </button>
+                    {mobileServicesOpen && (
+                      <ul className="-mt-1 flex flex-col gap-0.5 pb-4 pl-1">
+                        {serviceCategories.map((key) => (
+                          <li key={key}>
+                            <Link
+                              href={`/#services-${key}`}
+                              onClick={closeMobile}
+                              className="flex items-center gap-3 py-2.5 text-lg text-ink-300 transition-colors hover:text-gold-300"
+                            >
+                              <span aria-hidden className="h-px w-5 bg-gold-500/50" />
+                              {tg(`${key}.title`)}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ) : (
+                  <li
+                    key={item.key}
+                    className="mobile-menu-item"
+                    style={{ animationDelay: `${50 + i * 60}ms` }}
+                  >
+                    <Link
+                      href={item.href}
+                      onClick={closeMobile}
+                      className="flex items-center justify-between py-5 font-display text-2xl font-semibold text-ink-50 transition-colors hover:text-gold-300"
+                    >
+                      {t(item.key)}
+                      <svg className="h-5 w-5 text-ink-600" viewBox="0 0 20 20" fill="none" aria-hidden>
+                        <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </Link>
+                  </li>
+                )
+              )}
             </ul>
 
             <div

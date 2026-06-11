@@ -8,7 +8,7 @@ import { Reveal } from './Reveal';
 import { ReviewForm } from './ReviewForm';
 import { cn } from '@/lib/cn';
 
-type Testimonial = { text: string; author: string };
+type Testimonial = { text: string; author: string; rating?: number };
 
 const PREVIEW_COUNT = 4;
 
@@ -94,11 +94,19 @@ export function Testimonials({ locale }: { locale: string }) {
                       {it.author}
                     </span>
                   </div>
-                  <div className="flex items-center gap-0.5" aria-label={t('starsLabel')}>
+                  <div
+                    className="flex items-center gap-0.5"
+                    aria-label={t('starsLabel', { rating: it.rating ?? 5 })}
+                  >
                     {Array.from({ length: 5 }).map((_, s) => (
                       <Star
                         key={s}
-                        className="h-3.5 w-3.5 fill-gold-400 text-gold-400"
+                        className={cn(
+                          'h-3.5 w-3.5',
+                          s < (it.rating ?? 5)
+                            ? 'fill-gold-400 text-gold-400'
+                            : 'fill-transparent text-ink-600'
+                        )}
                         aria-hidden
                       />
                     ))}

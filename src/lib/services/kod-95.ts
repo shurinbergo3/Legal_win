@@ -3,7 +3,7 @@ import type { ServiceEntry } from './types';
 const kod95: ServiceEntry = {
   ru: {
     slug: 'kod-95',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'C/CE/D/DE · EU CPC',
     title: 'Kod 95',
@@ -125,7 +125,7 @@ const kod95: ServiceEntry = {
   },
   pl: {
     slug: 'kod-95',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'C/CE/D/DE · CPC UE',
     title: 'Kod 95',
@@ -247,7 +247,7 @@ const kod95: ServiceEntry = {
   },
   en: {
     slug: 'kod-95',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'C/CE/D/DE · EU CPC',
     title: 'Code 95',
@@ -369,7 +369,7 @@ const kod95: ServiceEntry = {
   },
   tr: {
     slug: 'kod-95',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'C/CE/D/DE · AB CPC',
     title: 'Kod 95',
@@ -491,7 +491,7 @@ const kod95: ServiceEntry = {
   },
   uk: {
     slug: 'kod-95',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'C/CE/D/DE · EU CPC',
     title: 'Kod 95',

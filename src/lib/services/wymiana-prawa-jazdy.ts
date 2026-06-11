@@ -3,7 +3,7 @@ import type { ServiceEntry } from './types';
 const wymianaPrawaJazdy: ServiceEntry = {
   ru: {
     slug: 'wymiana-prawa-jazdy',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'Starostwo · WORD · 185 dni',
     title: 'Обмен водительских прав',
@@ -94,7 +94,7 @@ const wymianaPrawaJazdy: ServiceEntry = {
   },
   pl: {
     slug: 'wymiana-prawa-jazdy',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'Starostwo · WORD · 185 dni',
     title: 'Wymiana prawa jazdy',
@@ -185,7 +185,7 @@ const wymianaPrawaJazdy: ServiceEntry = {
   },
   en: {
     slug: 'wymiana-prawa-jazdy',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'Wydział Komunikacji · WORD · 185 days',
     title: "Exchange a foreign driving licence for a Polish one",
@@ -276,7 +276,7 @@ const wymianaPrawaJazdy: ServiceEntry = {
   },
   tr: {
     slug: 'wymiana-prawa-jazdy',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'Starostwo · WORD · 185 gün',
     title: 'Ehliyet değişimi',
@@ -368,7 +368,7 @@ const wymianaPrawaJazdy: ServiceEntry = {
   },
   uk: {
     slug: 'wymiana-prawa-jazdy',
-    group: 'documents',
+    group: 'auto',
     icon: 'id-card',
     badge: 'Starostwo · WORD · 185 dni',
     title: 'Обмін водійських прав',
