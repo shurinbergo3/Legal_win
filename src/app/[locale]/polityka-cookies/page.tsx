@@ -26,6 +26,13 @@ export async function generateMetadata({
         routing.locales.map((l) => [l, `/${l}/polityka-cookies`])
       )
     },
+    // Without an own openGraph block the page inherits the homepage's og:url
+    // and og:title from the locale layout.
+    openGraph: {
+      title: `${doc.title} - LegalWin`,
+      description: doc.intro.slice(0, 160),
+      url: `/${locale}/polityka-cookies`
+    },
     robots: { index: true, follow: true }
   };
 }

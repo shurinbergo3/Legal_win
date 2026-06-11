@@ -7,7 +7,6 @@ import { Cookie, Settings as SettingsIcon, ShieldCheck, X } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import {
   ACCEPT_ALL,
-  CONSENT_EVENT,
   NECESSARY_ONLY,
   loadConsent,
   saveConsent,
@@ -40,6 +39,13 @@ export function CookieConsent() {
   // Allow other parts of the app to re-open settings (e.g. footer button).
   useEffect(() => {
     function reopen() {
+      // Seed the toggles from the saved consent, otherwise the modal shows
+      // hardcoded defaults and "Save" silently overwrites the user's choice.
+      const saved = loadConsent();
+      if (saved) {
+        const { functional, analytical, marketing } = saved.choices;
+        setChoices({ functional, analytical, marketing });
+      }
       setShow(true);
       setSettingsOpen(true);
     }
@@ -52,6 +58,13 @@ export function CookieConsent() {
     saveConsent(c);
     setShow(false);
     setSettingsOpen(false);
+  }
+
+  function closeSettings() {
+    setSettingsOpen(false);
+    // Don't resurrect the banner for users who already gave valid consent
+    // (e.g. the modal was reopened from the footer and dismissed unchanged).
+    if (loadConsent() !== null) setShow(false);
   }
 
   if (!show) return null;
@@ -131,7 +144,7 @@ export function CookieConsent() {
             onSave={() => commit(choices)}
             onAcceptAll={() => commit(ACCEPT_ALL)}
             onNecessaryOnly={() => commit(NECESSARY_ONLY)}
-            onClose={() => setSettingsOpen(false)}
+            onClose={closeSettings}
           />
         )}
       </AnimatePresence>

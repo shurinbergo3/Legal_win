@@ -32,7 +32,7 @@ export function languagesAlternate(
 ): Record<string, string> {
   const out: Record<string, string> = {};
   // INDEX_LOCALES (not routing.locales) — only advertise locales whose content
-  // is actually translated. 'uk' is excluded until Этап 1 ships.
+  // is actually translated.
   for (const l of INDEX_LOCALES as readonly SeoLocale[]) {
     out[l] = basePath(l);
   }

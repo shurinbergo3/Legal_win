@@ -68,6 +68,16 @@ function newId(): string {
   return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 }
 
+// Serializes read-modify-write cycles: two concurrent submissions would
+// otherwise read the same array and the later write silently drops the
+// earlier lead. A module-level chain suffices in a single Node container.
+let lock: Promise<unknown> = Promise.resolve();
+function withLock<T>(fn: () => Promise<T>): Promise<T> {
+  const run = lock.then(fn, fn);
+  lock = run.catch(() => {});
+  return run;
+}
+
 export async function storeLead(data: ContactInput): Promise<LeadRecord> {
   const record: LeadRecord = {
     id: newId(),
@@ -79,9 +89,11 @@ export async function storeLead(data: ContactInput): Promise<LeadRecord> {
     message: data.message,
     locale: data.locale
   };
-  const store = await read();
-  store.items = [record, ...store.items];
-  await write(store);
+  await withLock(async () => {
+    const store = await read();
+    store.items = [record, ...store.items];
+    await write(store);
+  });
   return record;
 }
 

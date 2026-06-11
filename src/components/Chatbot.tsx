@@ -457,7 +457,15 @@ export function Chatbot() {
             </div>
 
             <form
-              onSubmit={handleSubmit}
+              onSubmit={(e) => {
+                // Enter in the input bypasses the disabled send button: block
+                // concurrent submits while streaming and whitespace-only input.
+                if (loading || !input.trim() || !consentGiven) {
+                  e.preventDefault();
+                  return;
+                }
+                handleSubmit(e);
+              }}
               className="flex items-center gap-2 border-t hairline px-3 py-3"
             >
               <input

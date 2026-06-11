@@ -11,6 +11,12 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
+# Real content dates for the sitemap <lastmod>. The build context has no .git,
+# so CI computes these from full git history and passes them as build args.
+ARG SERVICES_LAST_MODIFIED
+ARG LEGAL_LAST_MODIFIED
+ENV SERVICES_LAST_MODIFIED=$SERVICES_LAST_MODIFIED
+ENV LEGAL_LAST_MODIFIED=$LEGAL_LAST_MODIFIED
 RUN npm run build
 
 FROM node:22-alpine AS runner

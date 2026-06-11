@@ -164,7 +164,12 @@ const serviceLabels: Record<string, string> = {
 };
 
 function escapeHtml(v: string) {
-  return v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  // `"` matters too — escaped values end up inside href="..." attributes.
+  return v
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 function fmtDate(iso: string): string {
@@ -254,8 +259,10 @@ async function buildSubscriberList(): Promise<string> {
 
   const lines = list.map((s) => {
     const tag = ops.includes(s.chatId) ? ' 👑' : '';
-    const uname = s.username ? ` (@${s.username})` : '';
-    return `• <b>${s.name}</b>${uname}${tag}\n  ID: <code>${s.chatId}</code>`;
+    // Telegram display names regularly contain & < > — unescaped they make
+    // sendMessage fail with "can't parse entities" and the reply is lost.
+    const uname = s.username ? ` (@${escapeHtml(s.username)})` : '';
+    return `• <b>${escapeHtml(s.name)}</b>${uname}${tag}\n  ID: <code>${s.chatId}</code>`;
   });
 
   return `👥 <b>Подписчики (${list.length}):</b>\n\n${lines.join('\n\n')}`;
@@ -264,11 +271,15 @@ async function buildSubscriberList(): Promise<string> {
 // ─── Webhook handler ─────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
+  // Fail closed: without a configured secret anyone could POST forged updates
+  // (e.g. /adduser their own chat ID) and start receiving lead PII.
   const expected = process.env.TELEGRAM_WEBHOOK_SECRET;
-  if (expected) {
-    const got = req.headers.get('x-telegram-bot-api-secret-token');
-    if (got !== expected) return NextResponse.json({ ok: false }, { status: 401 });
+  if (!expected) {
+    console.error('[telegram] TELEGRAM_WEBHOOK_SECRET is not configured - rejecting webhook');
+    return NextResponse.json({ ok: false }, { status: 503 });
   }
+  const got = req.headers.get('x-telegram-bot-api-secret-token');
+  if (got !== expected) return NextResponse.json({ ok: false }, { status: 401 });
 
   let update: TgUpdate;
   try {
@@ -284,12 +295,13 @@ export async function POST(req: NextRequest) {
     const msgId = cq.message?.message_id;
     const data = cq.data ?? '';
 
-    await tgAnswer(cq.id);
-
+    // A callback query can only be answered once — answer with the error for
+    // non-admins, otherwise acknowledge silently before doing the work.
     if (!isAdmin(chatId)) {
       await tgAnswer(cq.id, '❌ Нет доступа');
       return NextResponse.json({ ok: true });
     }
+    await tgAnswer(cq.id);
 
     if (data.startsWith('admin:leads:')) {
       const offset = Number(data.slice('admin:leads:'.length)) || 0;
@@ -410,6 +422,9 @@ export async function POST(req: NextRequest) {
   const chatId = message.chat.id;
   const text = message.text.trim();
   const greeting = displayName(message.chat);
+  // Raw name goes to the subscriber store; the HTML-escaped variant is for
+  // parse_mode:'HTML' replies (names with & < > would break sendMessage).
+  const safeGreeting = escapeHtml(greeting);
   const admin = isAdmin(chatId);
 
   // /myid
@@ -558,20 +573,20 @@ export async function POST(req: NextRequest) {
       if (admin) {
         await tgSend(
           chatId,
-          `👋 Здравствуйте, ${greeting}!\n\nВы подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n👑 Вы - администратор.`,
+          `👋 Здравствуйте, ${safeGreeting}!\n\nВы подписаны и получаете заявки с сайта <b>LegalWin</b>.\n\n👑 Вы - администратор.`,
           { reply_markup: adminReplyKeyboard() }
         );
       } else {
         await tgSend(
           chatId,
-          `👋 Здравствуйте, ${greeting}!\n\nВы уже подписаны и получаете заявки с сайта <b>LegalWin</b>.`,
+          `👋 Здравствуйте, ${safeGreeting}!\n\nВы уже подписаны и получаете заявки с сайта <b>LegalWin</b>.`,
           { reply_markup: subscriberReplyKeyboard() }
         );
       }
     } else {
       await tgSend(
         chatId,
-        `👋 Здравствуйте, ${greeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы получать заявки, передайте администратору ваш Chat ID:\n<code>${chatId}</code>\n\n/myid - показать ID ещё раз`
+        `👋 Здравствуйте, ${safeGreeting}!\n\nЭто бот <b>LegalWin</b> для получения заявок с сайта.\n\nЧтобы получать заявки, передайте администратору ваш Chat ID:\n<code>${chatId}</code>\n\n/myid - показать ID ещё раз`
       );
     }
     return NextResponse.json({ ok: true });

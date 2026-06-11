@@ -6,6 +6,12 @@ import { CONSENT_EVENT, loadConsent, type ConsentState } from '@/lib/cookie-cons
 
 const COUNTER_ID = 101710963;
 
+declare global {
+  interface Window {
+    ym?: (...args: unknown[]) => void;
+  }
+}
+
 export function YandexMetrika() {
   const [allowed, setAllowed] = useState(false);
 
@@ -13,7 +19,15 @@ export function YandexMetrika() {
     setAllowed(loadConsent()?.choices.analytical === true);
     function onChange(e: Event) {
       const detail = (e as CustomEvent<ConsentState | null>).detail;
-      setAllowed(detail?.choices.analytical === true);
+      const next = detail?.choices.analytical === true;
+      // Unmounting the <Script> doesn't stop an already-loaded Metrika tag
+      // (webvisor/clickmap keep running) — a reload is the only reliable
+      // teardown when the user revokes analytics consent.
+      if (!next && typeof window.ym === 'function') {
+        window.location.reload();
+        return;
+      }
+      setAllowed(next);
     }
     window.addEventListener(CONSENT_EVENT, onChange);
     return () => window.removeEventListener(CONSENT_EVENT, onChange);

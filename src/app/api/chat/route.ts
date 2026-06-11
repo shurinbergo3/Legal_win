@@ -87,8 +87,46 @@ function humanThinkingDelay(messages: UIMessage[]): number {
   return baseMs + jitter;
 }
 
+// The endpoint is public: without validation a malformed body crashes with an
+// unhandled 500, and forged system/assistant roles or unbounded history turn
+// it into a free LLM proxy.
+const MAX_MESSAGES = 40;
+const MAX_CONTENT_LENGTH = 4000;
+
+function validateMessages(body: unknown): UIMessage[] | null {
+  if (!body || typeof body !== 'object') return null;
+  const messages = (body as { messages?: unknown }).messages;
+  if (!Array.isArray(messages) || messages.length === 0) return null;
+  if (messages.length > MAX_MESSAGES) return null;
+  for (const m of messages) {
+    if (!m || typeof m !== 'object') return null;
+    const { role, content } = m as { role?: unknown; content?: unknown };
+    if (role !== 'user' && role !== 'assistant') return null;
+    if (typeof content !== 'string' || content.length > MAX_CONTENT_LENGTH) {
+      return null;
+    }
+  }
+  return messages as UIMessage[];
+}
+
 export async function POST(req: Request) {
-  const { messages }: { messages: UIMessage[] } = await req.json();
+  let body: unknown;
+  try {
+    body = await req.json();
+  } catch {
+    return new Response(JSON.stringify({ error: 'Invalid JSON' }), {
+      status: 400,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
+
+  const messages = validateMessages(body);
+  if (!messages) {
+    return new Response(JSON.stringify({ error: 'Invalid messages' }), {
+      status: 400,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
 
   if (!process.env.GROQ_API_KEY) {
     return new Response(

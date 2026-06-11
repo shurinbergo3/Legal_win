@@ -12,13 +12,24 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://legalwin.pl';
 // Using `new Date()` would mark every URL fresh on every deploy, defeating the
 // filter and getting the domain throttled by Bing as spam.
 
-// Derived from the last git commit that touched each section, so editing
-// a service file is enough to refresh its lastmod. Fallback constants
-// apply when git history isn't available (e.g. shallow clone).
+// Resolution order for section lastmod:
+//   1. Build-arg env (set by CI from full git history — see deploy.yml). The
+//      production Docker build excludes .git, so this is the real source there.
+//   2. Local git (works in `next dev` / local builds).
+//   3. Hardcoded fallback constant.
+function envDate(name: string): Date | null {
+  const raw = process.env[name];
+  if (!raw) return null;
+  const d = new Date(raw);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
 const SERVICES_LAST_MODIFIED =
+  envDate('SERVICES_LAST_MODIFIED') ??
   getGitLastModified(['src/lib/services', 'src/components/ServiceDetail.tsx']) ??
   new Date('2026-04-15');
 const LEGAL_LAST_MODIFIED =
+  envDate('LEGAL_LAST_MODIFIED') ??
   getGitLastModified(['src/lib/legal-content.ts', 'src/components/LegalPage.tsx']) ??
   new Date('2025-04-10');
 

@@ -11,10 +11,14 @@ const labels: Record<NonNullable<ContactInput['service']>, string> = {
 };
 
 function escapeHtml(v: string) {
+  // `"` must be escaped too: these values are also interpolated into
+  // href="tel:..."/href="mailto:..." attributes, where a raw quote truncates
+  // the attribute and makes Telegram reject the whole message with a 400.
   return v
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 export type DeliveryReport = {

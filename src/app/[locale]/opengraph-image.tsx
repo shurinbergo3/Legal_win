@@ -61,6 +61,7 @@ export default async function OpengraphImage({
       >
         <img
           src={bgDataUrl}
+          alt=""
           width={1200}
           height={630}
           style={{

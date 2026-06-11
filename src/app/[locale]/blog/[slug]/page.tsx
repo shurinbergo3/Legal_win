@@ -84,7 +84,7 @@ export async function generateMetadata({
           width: OG_IMAGE_WIDTH,
           height: OG_IMAGE_HEIGHT,
           alt: post.title,
-          type: 'image/jpeg'
+          type: 'image/webp'
         }
       ]
     },

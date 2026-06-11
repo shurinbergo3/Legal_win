@@ -224,6 +224,10 @@ function ContactForm({
   const t = useTranslations('Contact');
   const fieldErrors =
     state.status === 'invalid' ? state.fieldErrors : ({} as Record<string, string[]>);
+  // React 19 resets the form after the action; re-seed fields with the
+  // submitted values so a validation error doesn't wipe the user's input.
+  const values =
+    state.status === 'invalid' ? state.values : ({} as Record<string, string>);
 
   return (
     <form action={action} className="relative flex flex-col gap-5" noValidate>
@@ -244,6 +248,7 @@ function ContactForm({
           placeholder={t('namePlaceholder')}
           autoComplete="name"
           Icon={User}
+          defaultValue={values.name}
           error={fieldErrors.name && t('validation.nameMin')}
         />
         <Field
@@ -253,6 +258,7 @@ function ContactForm({
           placeholder={t('emailPlaceholder')}
           autoComplete="email"
           Icon={Mail}
+          defaultValue={values.email}
           error={fieldErrors.email && t('validation.emailInvalid')}
         />
       </motion.div>
@@ -271,6 +277,7 @@ function ContactForm({
           autoComplete="tel"
           Icon={Phone}
           required
+          defaultValue={values.phone}
           error={fieldErrors.phone && t('validation.phoneInvalid')}
         />
       </motion.div>
@@ -299,6 +306,7 @@ function ContactForm({
           label={t('message')}
           placeholder={t('messagePlaceholder')}
           Icon={MessageSquare}
+          defaultValue={values.message}
           error={fieldErrors.message && t('validation.messageMin')}
         />
       </motion.div>
@@ -400,7 +408,9 @@ function ConsentCheckbox({ error }: { error: boolean }) {
   const [touched, setTouched] = useState(false);
   const [checked, setChecked] = useState(false);
 
-  const showError = error || (touched && !checked);
+  // Once the user checks the box the server-side error is resolved — keep
+  // showing it only while the box is still unchecked.
+  const showError = !checked && (error || touched);
 
   return (
     <div className="flex flex-col gap-1.5">
@@ -508,6 +518,7 @@ function Field({
   autoComplete,
   Icon,
   required,
+  defaultValue,
   error
 }: {
   name: string;
@@ -517,6 +528,7 @@ function Field({
   autoComplete?: string;
   Icon?: LucideIcon;
   required?: boolean;
+  defaultValue?: string;
   error?: string | false;
 }) {
   const id = useId();
@@ -547,6 +559,7 @@ function Field({
           placeholder={placeholder}
           autoComplete={autoComplete}
           required={required}
+          defaultValue={defaultValue}
           aria-invalid={!!error}
           aria-describedby={error ? `${id}-err` : undefined}
           onFocus={() => setFocused(true)}
@@ -576,6 +589,7 @@ function TextareaField({
   placeholder,
   Icon,
   required,
+  defaultValue,
   error
 }: {
   name: string;
@@ -583,6 +597,7 @@ function TextareaField({
   placeholder?: string;
   Icon?: LucideIcon;
   required?: boolean;
+  defaultValue?: string;
   error?: string | false;
 }) {
   const id = useId();
@@ -611,6 +626,7 @@ function TextareaField({
           name={name}
           placeholder={placeholder}
           required={required}
+          defaultValue={defaultValue}
           rows={4}
           aria-invalid={!!error}
           aria-describedby={error ? `${id}-err` : undefined}
@@ -675,7 +691,6 @@ function ServiceChips({
                 checked={isSelected}
                 onChange={() => setSelected(value)}
                 className="sr-only"
-                aria-invalid={!!error}
               />
               <Icon
                 className={cn(

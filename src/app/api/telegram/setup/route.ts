@@ -6,6 +6,7 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
+import { SITE_URL } from '@/lib/seo';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -21,10 +22,17 @@ async function tgApi(token: string, method: string, body: unknown) {
 }
 
 export async function GET(req: NextRequest) {
+  // Fail closed: without a secret this endpoint would let anyone re-point the
+  // bot's webhook and intercept all updates.
   const secret = process.env.TELEGRAM_WEBHOOK_SECRET;
+  if (!secret) {
+    return NextResponse.json(
+      { ok: false, error: 'TELEGRAM_WEBHOOK_SECRET not set' },
+      { status: 503 }
+    );
+  }
   const provided = req.nextUrl.searchParams.get('secret');
-
-  if (secret && provided !== secret) {
+  if (provided !== secret) {
     return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 });
   }
 
@@ -54,12 +62,15 @@ export async function GET(req: NextRequest) {
 
   const results: Record<string, unknown> = {};
 
-  // Register webhook with all required update types
-  const webhookUrl = `${req.nextUrl.origin}/api/telegram/webhook`;
+  // Register webhook with all required update types.
+  // SITE_URL, not req.nextUrl.origin: behind the Dokploy/Traefik proxy the
+  // request origin is the internal http://host:3000 (and derives from the
+  // client-controlled Host header) — Telegram requires a public HTTPS URL.
+  const webhookUrl = `${SITE_URL}/api/telegram/webhook`;
   results.webhook = await tgApi(token, 'setWebhook', {
     url: webhookUrl,
     allowed_updates: ['message', 'callback_query'],
-    ...(secret ? { secret_token: secret } : {})
+    secret_token: secret
   });
 
   // Set default commands for all users

@@ -83,46 +83,59 @@ function permanentOperators(): number[] {
     .filter((n) => Number.isFinite(n) && n !== 0);
 }
 
+// Serializes read-modify-write cycles so concurrent webhook updates can't
+// overwrite each other's changes (lost-update race).
+let lock: Promise<unknown> = Promise.resolve();
+function withLock<T>(fn: () => Promise<T>): Promise<T> {
+  const run = lock.then(fn, fn);
+  lock = run.catch(() => {});
+  return run;
+}
+
 export async function addSubscriber(
   chatId: number,
   info?: { name?: string; username?: string }
 ): Promise<'added' | 'duplicate' | 'ephemeral'> {
   if (permanentOperators().includes(chatId)) return 'duplicate';
-  const data = await read();
-  if (data.chatIds.includes(chatId)) {
-    if (info?.name) {
-      const idx = data.meta.findIndex((m) => m.chatId === chatId);
-      if (idx >= 0) {
-        data.meta[idx].name = info.name;
-        if (info.username) data.meta[idx].username = info.username;
-      } else {
-        data.meta.push({ chatId, name: info.name, username: info.username, addedAt: new Date().toISOString() });
+  return withLock(async () => {
+    const data = await read();
+    if (data.chatIds.includes(chatId)) {
+      if (info?.name) {
+        const idx = data.meta.findIndex((m) => m.chatId === chatId);
+        if (idx >= 0) {
+          data.meta[idx].name = info.name;
+          if (info.username) data.meta[idx].username = info.username;
+        } else {
+          data.meta.push({ chatId, name: info.name, username: info.username, addedAt: new Date().toISOString() });
+        }
+        await write(data);
       }
-      await write(data);
+      return 'duplicate';
     }
-    return 'duplicate';
-  }
-  data.chatIds.push(chatId);
-  data.meta.push({
-    chatId,
-    name: info?.name ?? String(chatId),
-    username: info?.username,
-    addedAt: new Date().toISOString()
+    data.chatIds.push(chatId);
+    data.meta.push({
+      chatId,
+      name: info?.name ?? String(chatId),
+      username: info?.username,
+      addedAt: new Date().toISOString()
+    });
+    data.updatedAt = new Date().toISOString();
+    const ok = await write(data);
+    return ok ? 'added' : 'ephemeral';
   });
-  data.updatedAt = new Date().toISOString();
-  const ok = await write(data);
-  return ok ? 'added' : 'ephemeral';
 }
 
 export async function removeSubscriber(chatId: number): Promise<boolean> {
-  const data = await read();
-  const before = data.chatIds.length;
-  data.chatIds = data.chatIds.filter((id) => id !== chatId);
-  data.meta = data.meta.filter((m) => m.chatId !== chatId);
-  if (data.chatIds.length === before) return false;
-  data.updatedAt = new Date().toISOString();
-  await write(data);
-  return true;
+  return withLock(async () => {
+    const data = await read();
+    const before = data.chatIds.length;
+    data.chatIds = data.chatIds.filter((id) => id !== chatId);
+    data.meta = data.meta.filter((m) => m.chatId !== chatId);
+    if (data.chatIds.length === before) return false;
+    data.updatedAt = new Date().toISOString();
+    await write(data);
+    return true;
+  });
 }
 
 export async function isSubscribed(chatId: number): Promise<boolean> {

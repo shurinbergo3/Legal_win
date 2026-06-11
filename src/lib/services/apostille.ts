@@ -10,7 +10,7 @@ const apostille: ServiceEntry = {
     subtitle: 'Apostille и легализация документов для использования за границей',
     lead: 'Apostille - упрощённая международная легализация документов между странами Гаагской конвенции 1961 года. Для использования польского документа за рубежом (или иностранного - в Польше) на нём должен стоять apostille. Ставим apostille на свидетельства USC, нотариальные акты, выписки из KRS, дипломы и судебные решения. Для стран вне Конвенции - делаем полную легализацию через MSZ и консульство.',
     facts: [
-      { label: 'Срок', value: '3-5 дней', note: 'apostille MSZ · standardowo' },
+      { label: 'Срок', value: '1-3 недели', note: 'apostille MSZ · обычная очередь' },
       { label: 'Госпошлина', value: '60 PLN', note: 'за один apostille' },
       { label: 'Где ставится', value: 'MSZ Warszawa', note: '+ wojewoda для USC' },
       { label: 'Действует', value: 'бессрочно', note: 'для документа без срока' }
@@ -23,7 +23,7 @@ const apostille: ServiceEntry = {
         { title: 'Нотариальные акты', desc: 'Akt notarialny, pełnomocnictwo, oświadczenie - apostille MSZ после legalizacji izby notarialnej.' },
         { title: 'Выписки из KRS / CEIDG', desc: 'Полные выписки регистров для регистрации фирмы за рубежом, открытия счёта или сделок.' },
         { title: 'Свидетельства о несудимости (KRK)', desc: 'Zaświadczenie z Krajowego Rejestru Karnego - для рабочих виз, гражданства, ВНЖ за рубежом.' },
-        { title: 'Дипломы и аттестаты', desc: 'Apostille от Ministerstwa Edukacji или Nauki - для нострификации дипломов в США, ЕС, СНГ.' },
+        { title: 'Дипломы и аттестаты', desc: 'Дипломы вузов - apostille ставит NAWA (не MSZ), у неё своя очередь. Школьные аттестаты - kuratorium oświaty. Для нострификации в США, ЕС, СНГ.' },
         { title: 'Судебные решения', desc: 'Wyroki sądów - для исполнения за рубежом, признания брака/развода, наследственных дел.' },
         { title: 'Apostille иностранных документов', desc: 'Помогаем оформить apostille в стране выдачи через консульство или местного партнёра.' },
         { title: 'Полная легализация (страны вне Конвенции)', desc: 'Для Канады, Китая, ОАЭ - полный цикл: notariusz → MSZ → консульство. До 4 недель.' }
@@ -31,12 +31,12 @@ const apostille: ServiceEntry = {
     },
     timeline: {
       title: 'Как мы оформляем apostille',
-      subtitle: 'Стандартный цикл от документа до apostille - 3-5 рабочих дней.',
+      subtitle: 'Стандартный цикл от документа до apostille - 1-3 недели. При личной подаче в MSZ иногда успевают в день обращения, по почте - дольше. Дипломы вузов идут отдельно через NAWA, со своими сроками.',
       steps: [
-        { title: 'Консультация', duration: '20 мин', desc: 'Уточняем тип документа, страну использования, наличие предварительной заверки (notariusz, izba notarialna).' },
-        { title: 'Подготовка документа', duration: '1-2 дня', desc: 'Получаем актуальный odpis (для USC, KRS, KRK), при необходимости - нотариальная заверка перевода или копии.' },
+        { title: 'Консультация', duration: '20 мин', desc: 'Уточняем тип документа, страну использования, наличие предварительной заверки (notariusz, izba notarialna). Для диплома вуза - отдельный маршрут через NAWA.' },
+        { title: 'Подготовка документа', duration: '1-7 дней', desc: 'Получаем актуальный odpis (для USC, KRS, KRK), при необходимости - нотариальная заверка перевода или копии.' },
         { title: 'Подача в MSZ или wojewodу', duration: '1 день', desc: 'Подаём через e-Apostille MSZ (онлайн) или физически в Warszawa, ul. Krucza 38/42. Для USC - wojewoda по месту выдачи.' },
-        { title: 'Постановка apostille', duration: '3-5 дней', desc: 'MSZ ставит apostille с уникальным номером, проверяемым онлайн. Для срочных - express tariff (1 день, +50%).' },
+        { title: 'Постановка apostille', duration: '5-15 дней', desc: 'MSZ ставит apostille с уникальным номером, проверяемым онлайн. Сроки зависят от загрузки и способа подачи. Для срочных - express tariff (+50%).' },
         { title: 'Курьерская доставка', duration: '1-2 дня', desc: 'Отправляем оригинал DHL Express в любую страну мира или передаём лично в Варшаве.' },
         { title: 'Перевод (если нужен)', duration: '2-3 дня', desc: 'Присяжный перевод apostille и документа на язык страны использования.' }
       ]
@@ -60,7 +60,7 @@ const apostille: ServiceEntry = {
       subtitle: 'Apostille MSZ - 60 PLN/документ, wojewoda - 60 PLN. Express +50%.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '20 минут · оценка ситуации' },
-        { label: 'Apostille под ключ', value: 'от 250 PLN', note: 'MSZ + курьер · 3-5 дней' },
+        { label: 'Apostille под ключ', value: 'от 250 PLN', note: 'MSZ + курьер · 1-3 недели' },
         { label: 'Apostille + присяжный перевод', value: 'от 380 PLN', note: 'С переводом на язык страны' },
         { label: 'Полная легализация', value: 'от 750 PLN', note: 'Notariusz → MSZ → консульство · 2-4 недели' }
       ],
@@ -86,8 +86,8 @@ const apostille: ServiceEntry = {
       { q: 'Нужен ли перевод apostille?', a: 'Сам apostille имеет двуязычный (польский + английский/французский) формат и переводится автоматически. Документ под ним - нужен присяжный перевод на язык страны использования.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
-    ctaTitle: 'Apostille за 3-5 дней',
-    ctaSubtitle: 'Бесплатная консультация: уточним документ, страну использования, форму легализации. Стандартный цикл - 3-5 рабочих дней.'
+    ctaTitle: 'Apostille под ключ',
+    ctaSubtitle: 'Бесплатная консультация: уточним документ, страну использования, форму легализации. Стандартный цикл - 1-3 недели.'
   },
   pl: {
     slug: 'apostille',
@@ -98,7 +98,7 @@ const apostille: ServiceEntry = {
     subtitle: 'Apostille i legalizacja dokumentów do użytku zagranicznego',
     lead: 'Apostille - uproszczona międzynarodowa legalizacja dokumentów między państwami Konwencji Haskiej 1961. Do użytku polskiego dokumentu za granicą (lub zagranicznego w Polsce) potrzebny jest apostille. Załatwiamy apostille na odpisy USC, akty notarialne, wypisy z KRS, dyplomy i wyroki sądowe. Dla państw spoza Konwencji - pełna legalizacja przez MSZ i konsulat.',
     facts: [
-      { label: 'Termin', value: '3-5 dni', note: 'apostille MSZ standardowo' },
+      { label: 'Termin', value: '1-3 tygodnie', note: 'apostille MSZ · zwykła kolejka' },
       { label: 'Opłata', value: '60 PLN', note: 'za jeden apostille' },
       { label: 'Gdzie', value: 'MSZ Warszawa', note: '+ wojewoda dla USC' },
       { label: 'Ważność', value: 'bezterminowo', note: 'dla dokumentu bez terminu' }
@@ -111,7 +111,7 @@ const apostille: ServiceEntry = {
         { title: 'Akty notarialne', desc: 'Akt notarialny, pełnomocnictwo, oświadczenie - apostille MSZ po legalizacji w izbie notarialnej.' },
         { title: 'Wypisy KRS / CEIDG', desc: 'Pełne wypisy do rejestracji firm za granicą, otwierania kont i transakcji.' },
         { title: 'Zaświadczenie o niekaralności (KRK)', desc: 'Zaświadczenie z KRK - do wiz pracowniczych, obywatelstwa, TRC za granicą.' },
-        { title: 'Dyplomy i świadectwa', desc: 'Apostille z MEiN - do nostryfikacji dyplomów w USA, UE, krajach WNP.' },
+        { title: 'Dyplomy i świadectwa', desc: 'Dyplomy uczelni wyższych - apostille wydaje NAWA (nie MSZ), z osobną kolejką. Świadectwa szkolne - kuratorium oświaty. Do nostryfikacji w USA, UE, krajach WNP.' },
         { title: 'Wyroki sądów', desc: 'Wyroki - do egzekucji za granicą, uznania ślubu/rozwodu, spadku.' },
         { title: 'Apostille zagranicznych dokumentów', desc: 'Pomagamy uzyskać apostille w kraju wydania przez konsulat lub lokalnego partnera.' },
         { title: 'Pełna legalizacja (poza Konwencją)', desc: 'Dla Kanady (do 2024), Chin, ZEA - pełen cykl: notariusz → MSZ → konsulat. Do 4 tygodni.' }
@@ -119,12 +119,12 @@ const apostille: ServiceEntry = {
     },
     timeline: {
       title: 'Przebieg sprawy',
-      subtitle: 'Standardowy cykl 3-5 dni roboczych.',
+      subtitle: 'Standardowy cykl 1-3 tygodnie. Przy osobistym złożeniu w MSZ czasem tego samego dnia, pocztą - dłużej. Dyplomy uczelni idą osobno przez NAWA, z własnymi terminami.',
       steps: [
-        { title: 'Konsultacja', duration: '20 min', desc: 'Ustalamy rodzaj dokumentu, kraj użycia, czy potrzebne wstępne uwierzytelnienie.' },
-        { title: 'Przygotowanie dokumentu', duration: '1-2 dni', desc: 'Pobieramy aktualny odpis, w razie potrzeby - uwierzytelnienie notarialne.' },
+        { title: 'Konsultacja', duration: '20 min', desc: 'Ustalamy rodzaj dokumentu, kraj użycia, czy potrzebne wstępne uwierzytelnienie. Dla dyplomu uczelni - osobna ścieżka przez NAWA.' },
+        { title: 'Przygotowanie dokumentu', duration: '1-7 dni', desc: 'Pobieramy aktualny odpis, w razie potrzeby - uwierzytelnienie notarialne.' },
         { title: 'Złożenie w MSZ / u wojewody', duration: '1 dzień', desc: 'Przez e-Apostille MSZ lub osobiście w Warszawie. Dla USC - wojewoda właściwy dla wydania.' },
-        { title: 'Apostille', duration: '3-5 dni', desc: 'MSZ nadaje apostille z numerem do weryfikacji online. Express +50% (1 dzień).' },
+        { title: 'Apostille', duration: '5-15 dni', desc: 'MSZ nadaje apostille z numerem do weryfikacji online. Termin zależy od obłożenia i sposobu złożenia. Express +50%.' },
         { title: 'Kurier', duration: '1-2 dni', desc: 'DHL Express w dowolne miejsce na świecie lub osobisty odbiór.' },
         { title: 'Tłumaczenie', duration: '2-3 dni', desc: 'Tłumaczenie przysięgłe na język kraju użycia.' }
       ]
@@ -148,7 +148,7 @@ const apostille: ServiceEntry = {
       subtitle: 'Apostille MSZ - 60 PLN/dok., wojewoda - 60 PLN. Express +50%.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '20 min · ocena' },
-        { label: 'Apostille pod klucz', value: 'od 250 PLN', note: 'MSZ + kurier · 3-5 dni' },
+        { label: 'Apostille pod klucz', value: 'od 250 PLN', note: 'MSZ + kurier · 1-3 tygodnie' },
         { label: 'Apostille + tłumaczenie', value: 'od 380 PLN', note: 'Z tłumaczeniem przysięgłym' },
         { label: 'Pełna legalizacja', value: 'od 750 PLN', note: 'Notariusz → MSZ → konsulat · 2-4 tygodnie' }
       ],
@@ -174,8 +174,8 @@ const apostille: ServiceEntry = {
       { q: 'Tłumaczenie apostille?', a: 'Sam apostille jest dwujęzyczny (PL + EN/FR) - nie wymaga tłumaczenia. Dokument pod nim - tłumaczenie przysięgłe na język docelowy.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
-    ctaTitle: 'Apostille w 3-5 dni',
-    ctaSubtitle: 'Bezpłatna konsultacja: dokument, kraj użycia, forma legalizacji. Standard - 3-5 dni roboczych.'
+    ctaTitle: 'Apostille pod klucz',
+    ctaSubtitle: 'Bezpłatna konsultacja: dokument, kraj użycia, forma legalizacji. Standard - 1-3 tygodnie.'
   },
   en: {
     slug: 'apostille',
@@ -199,7 +199,7 @@ const apostille: ServiceEntry = {
         { title: 'Notarial acts and powers of attorney', desc: "Akt notarialny gets pre-authenticated at the regional izba notarialna (26 PLN), then MSZ apostille. We use this route weekly for clients selling property abroad or filing pełnomocnictwo with a UK conveyancer." },
         { title: 'KRS and CEIDG extracts', desc: "Company extracts for opening a US bank account, registering a UK subsidiary, or contracting with Saudi state buyers. Fresh wypis only. KRS goes stale at 3 months and KYC officers do check." },
         { title: 'KRK criminal record certificates', desc: "Zaświadczenie z KRK is the standard ask for UK Skilled Worker visas, US green cards, Australian 482 visas, and Canadian PR. KRK ages out at 6 months, so apostille it the day it's issued." },
-        { title: 'Diplomas and academic transcripts', desc: "Polish university diplomas need Ministerstwo Nauki sign-off before MSZ. We handle that pre-step. Recognised by ECCTIS in the UK, WES in Canada, and by every US state board we've encountered." },
+        { title: 'Diplomas and academic transcripts', desc: "Polish university diplomas are apostilled by NAWA, not MSZ — a separate agency with its own queue. School certificates go through the regional kuratorium oświaty. We route each to the right office. Recognised by ECCTIS in the UK, WES in Canada, and by every US state board we've encountered." },
         { title: 'Court judgements and divorce decrees', desc: "Wyrok rozwodowy for remarrying in California, an inheritance ruling for probate in New York. Court documents need the court president's clause, then MSZ. Two-step, but routine." },
         { title: 'Apostille on foreign documents (reverse case)', desc: "Got a US birth certificate, UK marriage cert, or Australian degree and need it to work in Poland? Each Hague country issues its own apostille. We coordinate with local partners (UK FCDO, US Secretary of State, DFAT Canberra)." },
         { title: 'Full consular legalisation for non-Hague countries', desc: "Saudi Arabia, UAE, Qatar, Vietnam and a few others still want the full chain: MSZ apostille → embassy in Warsaw → ministry stamp in the destination country. Budget 3-4 weeks and 200-400 EUR in embassy fees." }
@@ -211,7 +211,7 @@ const apostille: ServiceEntry = {
       steps: [
         { title: 'Free 20-min call', duration: '20 min', desc: "We confirm the document type, the receiving country, and which authority back home will see the stamp (court clerk, registrar, bank KYC, embassy). That dictates the chain. A divorce decree for the UK is one thing; the same decree for a Saudi court is another." },
         { title: 'Source document refresh', duration: '1-7 days', desc: "Old certificates rarely fly. We order a fresh odpis from USC (24-48 hours in Warsaw, up to a week if the act is held in another voivodeship), or a current KRS wypis from the registration court." },
-        { title: 'Pre-authentication where needed', duration: '1-3 days', desc: "Notarial acts go through izba notarialna. Court papers get the president's clause. Diplomas go through Ministerstwo Nauki. Skip this step and MSZ rejects on the spot." },
+        { title: 'Pre-authentication where needed', duration: '1-3 days', desc: "Notarial acts go through izba notarialna. Court papers get the president's clause. University diplomas don't go to MSZ at all — they're apostilled by NAWA on a separate track. Skip the right step and MSZ rejects on the spot." },
         { title: 'MSZ filing at ul. Krucza 38/42', duration: '1 day', desc: "We file in person at the Warsaw legalisation desk. 60 PLN per stamp, paid at the cashier. The e-Apostille online channel exists for some document classes but it's slower in practice. We use in-person." },
         { title: 'Apostille issued', duration: '5-15 days', desc: "MSZ stamps with a serial that the receiving authority can verify at e-konsulat.gov.pl. Express is +50% and shaves about a week. Worth it if you're closing a property sale, not worth it for a green card filing." },
         { title: 'Translation, courier, or embassy', duration: '2-5 days', desc: "Sworn translation into English (or the destination language) if needed. Apostille itself is bilingual, but the underlying document usually isn't. DHL Express to wherever, or onward to a Warsaw embassy for non-Hague legalisation." }
@@ -274,7 +274,7 @@ const apostille: ServiceEntry = {
     subtitle: 'Yurt dışında kullanılacak belgelerin apostille ve legalizasyonu',
     lead: 'Apostille, 1961 Lahey Sözleşmesi\'ne taraf devletler arasında belgelerin basitleştirilmiş uluslararası onayıdır. Polonya belgesinin yurt dışında (veya yabancı belgenin Polonya\'da) kullanılması için üzerinde apostille bulunması zorunludur. USC nüfus belgelerine, noter senetlerine, KRS çıktılarına, diplomalara ve mahkeme kararlarına apostille çıkartıyoruz. Sözleşme dışı ülkeler (Türkiye dahil değildir - Türkiye Lahey üyesidir) için MSZ ve konsolosluk üzerinden tam legalizasyon yürütüyoruz.',
     facts: [
-      { label: 'Süre', value: '3-5 gün', note: 'MSZ apostille · standart' },
+      { label: 'Süre', value: '1-3 hafta', note: 'MSZ apostille · normal kuyruk' },
       { label: 'Resmi harç', value: '60 PLN', note: 'her bir apostille için' },
       { label: 'Yer', value: 'MSZ Varşova', note: 'USC için ayrıca wojewoda' },
       { label: 'Geçerlilik', value: 'süresiz', note: 'süresiz belgeler için' }
@@ -287,7 +287,7 @@ const apostille: ServiceEntry = {
         { title: 'Noter senetleri', desc: 'Akt notarialny, pełnomocnictwo (vekaletname), oświadczenie (beyan) - izba notarialna (noterler birliği) onayının ardından MSZ apostille\'i.' },
         { title: 'KRS / CEIDG çıktıları', desc: 'Yurt dışında şirket kuruluşu, hesap açma veya işlem yapmak için tam sicil çıktıları.' },
         { title: 'Adli sicil belgeleri (KRK)', desc: 'Krajowy Rejestr Karny zaświadczenie\'si - yurt dışı çalışma vizesi, vatandaşlık, oturum izni başvuruları için.' },
-        { title: 'Diplomalar ve sertifikalar', desc: 'Eğitim ve Bilim Bakanlığı (MEiN) apostille\'i - Türkiye, ABD, AB, BDT\'de diploma denkliği için.' },
+        { title: 'Diplomalar ve sertifikalar', desc: 'Üniversite diplomalarına apostille\'i NAWA düzenler (MSZ değil), kendi kuyruğu vardır. Okul belgelerine ise kuratorium oświaty. Türkiye, ABD, AB, BDT\'de diploma denkliği için.' },
         { title: 'Mahkeme kararları', desc: 'Wyroki sądów - yurt dışı icra, evlilik / boşanma tanınması, miras davaları için.' },
         { title: 'Yabancı belgelere apostille', desc: 'Belgenin verildiği ülkenin konsolosluğu veya yerel ortağımız aracılığıyla apostille temin etmenize yardımcı oluyoruz.' },
         { title: 'Tam legalizasyon (Sözleşme dışı ülkeler)', desc: 'Çin, BAE gibi ülkeler için tam zincir: noter → MSZ → hedef ülkenin konsolosluğu. 4 haftaya kadar.' }
@@ -295,12 +295,12 @@ const apostille: ServiceEntry = {
     },
     timeline: {
       title: 'Apostille süreci',
-      subtitle: 'Belge teslimden apostille\'ye standart döngü - 3-5 iş günü.',
+      subtitle: 'Belge teslimden apostille\'ye standart döngü - 1-3 hafta. MSZ\'ye bizzat başvuruda bazen aynı gün, posta ile daha uzun. Üniversite diplomaları ayrıca NAWA üzerinden, kendi süreleriyle gider.',
       steps: [
-        { title: 'Danışmanlık', duration: '20 dk', desc: 'Belge türü, kullanılacak ülke, ön onay durumu (notariusz, izba notarialna) hakkında konuşuyoruz.' },
-        { title: 'Belge hazırlığı', duration: '1-2 gün', desc: 'Güncel odpis (USC, KRS, KRK için) alıyor, gerekiyorsa tercüme veya kopya için noter onayı yaptırıyoruz.' },
+        { title: 'Danışmanlık', duration: '20 dk', desc: 'Belge türü, kullanılacak ülke, ön onay durumu (notariusz, izba notarialna) hakkında konuşuyoruz. Üniversite diploması için ayrı yol - NAWA.' },
+        { title: 'Belge hazırlığı', duration: '1-7 gün', desc: 'Güncel odpis (USC, KRS, KRK için) alıyor, gerekiyorsa tercüme veya kopya için noter onayı yaptırıyoruz.' },
         { title: 'MSZ veya wojewoda\'ya başvuru', duration: '1 gün', desc: 'e-Apostille MSZ üzerinden çevrimiçi veya Varşova ul. Krucza 38/42 adresine bizzat. USC için belgenin verildiği yerin wojewoda\'sı.' },
-        { title: 'Apostille düzenlenmesi', duration: '3-5 gün', desc: 'MSZ, çevrimiçi sorgulanabilir benzersiz numarayla apostille basar. Acil işlem için express tarife (+%50, 1 gün).' },
+        { title: 'Apostille düzenlenmesi', duration: '5-15 gün', desc: 'MSZ, çevrimiçi sorgulanabilir benzersiz numarayla apostille basar. Süre yoğunluğa ve başvuru biçimine bağlıdır. Acil işlem için express tarife (+%50).' },
         { title: 'Kurye teslimatı', duration: '1-2 gün', desc: 'Orijinali DHL Express ile dünya çapında gönderiyor veya Varşova\'da bizzat teslim ediyoruz.' },
         { title: 'Tercüme (gerekirse)', duration: '2-3 gün', desc: 'Apostille ve belgenin hedef ülke diline yeminli tercümesi.' }
       ]
@@ -324,7 +324,7 @@ const apostille: ServiceEntry = {
       subtitle: 'MSZ apostille\'i belge başına 60 PLN, wojewoda\'da da 60 PLN. Express %50 fazla.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '20 dakika · durum değerlendirmesi' },
-        { label: 'Anahtar teslim apostille', value: '250 PLN\'den', note: 'MSZ + kurye · 3-5 gün' },
+        { label: 'Anahtar teslim apostille', value: '250 PLN\'den', note: 'MSZ + kurye · 1-3 hafta' },
         { label: 'Apostille + yeminli tercüme', value: '380 PLN\'den', note: 'Hedef ülke diline tercümeyle' },
         { label: 'Tam legalizasyon', value: '750 PLN\'den', note: 'Noter → MSZ → konsolosluk · 2-4 hafta' }
       ],
@@ -350,8 +350,8 @@ const apostille: ServiceEntry = {
       { q: 'Apostille\'in tercümesi gerekli mi?', a: 'Apostille\'in kendisi iki dilli (Lehçe + İngilizce/Fransızca) düzenlenir, tercümeye gerek yoktur. Altındaki belgenin hedef ülke diline yeminli tercümesi gerekir.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
-    ctaTitle: 'Apostille 3-5 günde',
-    ctaSubtitle: 'Ücretsiz danışmanlık: belgeyi, kullanılacağı ülkeyi ve legalizasyon biçimini netleştiririz. Standart döngü 3-5 iş günüdür.'
+    ctaTitle: 'Anahtar teslim apostille',
+    ctaSubtitle: 'Ücretsiz danışmanlık: belgeyi, kullanılacağı ülkeyi ve legalizasyon biçimini netleştiririz. Standart döngü 1-3 haftadır.'
   },
   uk: {
     slug: 'apostille',
@@ -362,7 +362,7 @@ const apostille: ServiceEntry = {
     subtitle: 'Apostille та легалізація документів для використання за кордоном',
     lead: 'Apostille — спрощена міжнародна легалізація документів між країнами Гаазької конвенції 1961 року. Для використання польського документа за кордоном (або іноземного — у Польщі) на ньому має стояти apostille. Ставимо apostille на свідоцтва USC, нотаріальні акти, виписки з KRS, дипломи і судові рішення. Для країн поза Конвенцією — робимо повну легалізацію через MSZ і консульство.',
     facts: [
-      { label: 'Термін', value: '3–5 днів', note: 'apostille MSZ · standardowo' },
+      { label: 'Термін', value: '1–3 тижні', note: 'apostille MSZ · звичайна черга' },
       { label: 'Держмито', value: '60 PLN', note: 'за один apostille' },
       { label: 'Де ставиться', value: 'MSZ Warszawa', note: '+ wojewoda для USC' },
       { label: 'Діє', value: 'безстроково', note: 'для документа без терміну' }
@@ -375,7 +375,7 @@ const apostille: ServiceEntry = {
         { title: 'Нотаріальні акти', desc: 'Akt notarialny, pełnomocnictwo, oświadczenie — apostille MSZ після legalizacji izby notarialnej.' },
         { title: 'Виписки з KRS / CEIDG', desc: 'Повні виписки реєстрів для реєстрації фірми за кордоном, відкриття рахунку або угод.' },
         { title: 'Довідки про несудимість (KRK)', desc: 'Zaświadczenie z Krajowego Rejestru Karnego — для робочих віз, громадянства, ВНЖ за кордоном.' },
-        { title: 'Дипломи та атестати', desc: 'Apostille від Ministerstwa Edukacji або Nauki — для нострифікації дипломів у США, ЄС, Україні.' },
+        { title: 'Дипломи та атестати', desc: 'Дипломи ВНЗ — apostille ставить NAWA (не MSZ), у неї своя черга. Шкільні атестати — kuratorium oświaty. Для нострифікації у США, ЄС, Україні.' },
         { title: 'Судові рішення', desc: 'Wyroki sądów — для виконання за кордоном, визнання шлюбу/розлучення, спадкових справ.' },
         { title: 'Apostille іноземних документів', desc: 'Допомагаємо оформити apostille в країні видачі через консульство або місцевого партнера.' },
         { title: 'Повна легалізація (країни поза Конвенцією)', desc: 'Для Канади, Китаю, ОАЕ — повний цикл: notariusz → MSZ → консульство. До 4 тижнів.' }
@@ -383,12 +383,12 @@ const apostille: ServiceEntry = {
     },
     timeline: {
       title: 'Як ми оформлюємо apostille',
-      subtitle: 'Стандартний цикл від документа до apostille — 3–5 робочих днів.',
+      subtitle: 'Стандартний цикл від документа до apostille — 1–3 тижні. При особистій подачі в MSZ інколи встигають у день звернення, поштою — довше. Дипломи ВНЗ ідуть окремо через NAWA, зі своїми термінами.',
       steps: [
-        { title: 'Консультація', duration: '20 хв', desc: 'Уточнюємо тип документа, країну використання, наявність попереднього засвідчення (notariusz, izba notarialna).' },
-        { title: 'Підготовка документа', duration: '1–2 дні', desc: 'Отримуємо актуальний odpis (для USC, KRS, KRK), за потреби — нотаріальне засвідчення перекладу або копії.' },
+        { title: 'Консультація', duration: '20 хв', desc: 'Уточнюємо тип документа, країну використання, наявність попереднього засвідчення (notariusz, izba notarialna). Для диплома ВНЗ — окремий маршрут через NAWA.' },
+        { title: 'Підготовка документа', duration: '1–7 днів', desc: 'Отримуємо актуальний odpis (для USC, KRS, KRK), за потреби — нотаріальне засвідчення перекладу або копії.' },
         { title: 'Подання в MSZ або wojewodу', duration: '1 день', desc: 'Подаємо через e-Apostille MSZ (онлайн) або фізично у Warszawa, ul. Krucza 38/42. Для USC — wojewoda за місцем видачі.' },
-        { title: 'Постановка apostille', duration: '3–5 днів', desc: 'MSZ ставить apostille з унікальним номером, що перевіряється онлайн. Для термінових — express tariff (1 день, +50%).' },
+        { title: 'Постановка apostille', duration: '5–15 днів', desc: 'MSZ ставить apostille з унікальним номером, що перевіряється онлайн. Терміни залежать від завантаження і способу подання. Для термінових — express tariff (+50%).' },
         { title: 'Кур’єрська доставка', duration: '1–2 дні', desc: 'Відправляємо оригінал DHL Express у будь-яку країну світу або передаємо особисто у Варшаві.' },
         { title: 'Переклад (якщо потрібен)', duration: '2–3 дні', desc: 'Присяжний переклад apostille і документа мовою країни використання.' }
       ]
@@ -412,7 +412,7 @@ const apostille: ServiceEntry = {
       subtitle: 'Apostille MSZ — 60 PLN/документ, wojewoda — 60 PLN. Express +50%.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '20 хвилин · оцінка ситуації' },
-        { label: 'Apostille під ключ', value: 'від 250 PLN', note: 'MSZ + кур’єр · 3–5 днів' },
+        { label: 'Apostille під ключ', value: 'від 250 PLN', note: 'MSZ + кур’єр · 1–3 тижні' },
         { label: 'Apostille + присяжний переклад', value: 'від 380 PLN', note: 'З перекладом мовою країни' },
         { label: 'Повна легалізація', value: 'від 750 PLN', note: 'Notariusz → MSZ → консульство · 2–4 тижні' }
       ],
@@ -438,8 +438,8 @@ const apostille: ServiceEntry = {
       { q: 'Чи потрібен переклад apostille?', a: 'Сам apostille має двомовний (польський + англійський/французький) формат і перекладається автоматично. Документ під ним — потребує присяжного перекладу мовою країни використання.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
-    ctaTitle: 'Apostille за 3–5 днів',
-    ctaSubtitle: 'Безкоштовна консультація: уточнимо документ, країну використання, форму легалізації. Стандартний цикл — 3–5 робочих днів.'
+    ctaTitle: 'Apostille під ключ',
+    ctaSubtitle: 'Безкоштовна консультація: уточнимо документ, країну використання, форму легалізації. Стандартний цикл — 1–3 тижні.'
   }
 };
 

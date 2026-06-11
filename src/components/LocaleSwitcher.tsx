@@ -34,7 +34,12 @@ export function LocaleSwitcher({ className }: { className?: string }) {
             type="button"
             disabled={pending || active}
             onClick={() =>
-              startTransition(() => router.replace(pathname, { locale: l }))
+              startTransition(() => {
+                // next-intl's usePathname() excludes query string and hash —
+                // re-attach them so ?utm_* etc. survive a locale switch.
+                const suffix = window.location.search + window.location.hash;
+                router.replace(pathname + suffix, { locale: l });
+              })
             }
             className={cn(
               'cursor-pointer rounded-full px-2.5 py-1 uppercase transition-colors duration-200',

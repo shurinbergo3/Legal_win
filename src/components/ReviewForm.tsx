@@ -32,7 +32,13 @@ export function ReviewForm({
   const [state, formAction, pending] = useActionState(submitReview, initialState);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
 
+  // Track the last handled status so a parent re-render (which gives
+  // `onSuccess` a new identity) can't re-fire the effect and yank the
+  // viewport back here long after the submit finished.
+  const handledStatus = useRef<ReviewState['status']>('idle');
   useEffect(() => {
+    if (state.status === handledStatus.current) return;
+    handledStatus.current = state.status;
     if (state.status === 'success' || state.status === 'error' || state.status === 'invalid') {
       if (state.status === 'success') onSuccess?.();
       wrapperRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -106,6 +112,10 @@ function InnerForm({
   const t = useTranslations('ReviewForm');
   const fieldErrors =
     state.status === 'invalid' ? state.fieldErrors : ({} as Record<string, string[]>);
+  // React 19 resets the form after the action; re-seed fields with the
+  // submitted values so a validation error doesn't wipe the user's input.
+  const values =
+    state.status === 'invalid' ? state.values : ({} as Record<string, string>);
 
   const errorMessages: string[] = [];
   if (state.status === 'invalid') {
@@ -149,6 +159,7 @@ function InnerForm({
           autoComplete="name"
           Icon={User}
           required
+          defaultValue={values.name}
           error={fieldErrors.name && t('validation.nameMin')}
         />
         <Field
@@ -156,6 +167,7 @@ function InnerForm({
           label={t('role')}
           placeholder={t('rolePlaceholder')}
           Icon={Briefcase}
+          defaultValue={values.role}
         />
       </div>
 
@@ -167,6 +179,7 @@ function InnerForm({
         placeholder={t('textPlaceholder')}
         Icon={MessageSquare}
         required
+        defaultValue={values.text}
         error={fieldErrors.text && t('validation.textMin')}
       />
 
@@ -282,7 +295,9 @@ function ConsentCheckbox({ error }: { error: boolean }) {
   const [touched, setTouched] = useState(false);
   const [checked, setChecked] = useState(false);
 
-  const showError = error || (touched && !checked);
+  // Once the user checks the box the server-side error is resolved — keep
+  // showing it only while the box is still unchecked.
+  const showError = !checked && (error || touched);
 
   return (
     <div className="flex flex-col gap-1.5">
@@ -380,6 +395,7 @@ function Field({
   autoComplete,
   Icon,
   required,
+  defaultValue,
   error
 }: {
   name: string;
@@ -389,6 +405,7 @@ function Field({
   autoComplete?: string;
   Icon?: React.ComponentType<{ className?: string; strokeWidth?: number; 'aria-hidden'?: boolean }>;
   required?: boolean;
+  defaultValue?: string;
   error?: string | false;
 }) {
   const id = useId();
@@ -419,6 +436,7 @@ function Field({
           placeholder={placeholder}
           autoComplete={autoComplete}
           required={required}
+          defaultValue={defaultValue}
           aria-invalid={!!error}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
@@ -445,6 +463,7 @@ function TextareaField({
   placeholder,
   Icon,
   required,
+  defaultValue,
   error
 }: {
   name: string;
@@ -452,6 +471,7 @@ function TextareaField({
   placeholder?: string;
   Icon?: React.ComponentType<{ className?: string; strokeWidth?: number; 'aria-hidden'?: boolean }>;
   required?: boolean;
+  defaultValue?: string;
   error?: string | false;
 }) {
   const id = useId();
@@ -480,6 +500,7 @@ function TextareaField({
           name={name}
           placeholder={placeholder}
           required={required}
+          defaultValue={defaultValue}
           rows={5}
           aria-invalid={!!error}
           onFocus={() => setFocused(true)}

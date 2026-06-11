@@ -68,7 +68,13 @@ export function saveConsent(choices: Omit<ConsentChoices, 'necessary'>) {
     ts: Date.now(),
     choices: { necessary: true, ...choices }
   };
-  window.localStorage.setItem(CONSENT_KEY, JSON.stringify(state));
+  // localStorage can throw (storage blocked, private mode). The banner must
+  // still close and consumers must still hear about the in-session choice.
+  try {
+    window.localStorage.setItem(CONSENT_KEY, JSON.stringify(state));
+  } catch {
+    // Consent simply won't persist across reloads.
+  }
   window.dispatchEvent(
     new CustomEvent(CONSENT_EVENT, { detail: state })
   );

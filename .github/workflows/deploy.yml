@@ -19,6 +19,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Полная история нужна, чтобы посчитать реальные даты последнего
+          # изменения секций для sitemap <lastmod> (git log по путям).
+          fetch-depth: 0
+
+      - name: Compute sitemap lastmod dates from git history
+        id: lastmod
+        run: |
+          SERVICES=$(git log -1 --format=%cI -- src/lib/services src/components/ServiceDetail.tsx)
+          LEGAL=$(git log -1 --format=%cI -- src/lib/legal-content.ts src/components/LegalPage.tsx)
+          echo "services=$SERVICES" >> "$GITHUB_OUTPUT"
+          echo "legal=$LEGAL" >> "$GITHUB_OUTPUT"
+          echo "Services lastmod: $SERVICES"
+          echo "Legal lastmod:    $LEGAL"
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -35,6 +49,9 @@ jobs:
         with:
           context: .
           push: true
+          build-args: |
+            SERVICES_LAST_MODIFIED=${{ steps.lastmod.outputs.services }}
+            LEGAL_LAST_MODIFIED=${{ steps.lastmod.outputs.legal }}
           tags: |
             ${{ env.IMAGE }}:latest
             ${{ env.IMAGE }}:${{ github.sha }}
@@ -43,3 +60,14 @@ jobs:
 
       - name: Trigger Dokploy redeploy
         run: curl -fsS -X GET "${{ secrets.DOKPLOY_WEBHOOK }}"
+
+      # IndexNow нельзя запускать на этапе build (внутри Docker нет ни ключа,
+      # ни задеплоенного сайта). Запускаем после редеплоя против живого
+      # sitemap.xml — скрипт сам отфильтрует свежие URL по <lastmod>.
+      - name: Wait for Dokploy to redeploy
+        run: sleep 90
+
+      - name: Submit fresh URLs to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: node scripts/notify-indexnow.mjs
