@@ -65,7 +65,15 @@ const SLUG_TO_IMAGE: Record<string, string> = {
 
   // 2026-Q2 professional-driver series
   'karta-kierowcy-tachograf-polsha-2026': '/services/kod-95.webp',
-  'kak-stat-voditelem-v-polshe-2026': '/services/wymiana-prawa-jazdy.webp'
+  'kak-stat-voditelem-v-polshe-2026': '/services/wymiana-prawa-jazdy.webp',
+
+  // 2026-Q2 apostille + KRK series
+  'spravka-o-nesudimosti-polsha-krk': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'spravka-o-nesudimosti-grazhdanstvo-pmzh': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'spravka-o-nesudimosti-iz-strany-proishozhdeniya': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'apostille-spravki-o-nesudimosti': '/services/apostille.webp',
+  'apostille-svidetelstv-usc-wojewoda': '/services/apostille.webp',
+  'apostille-i-nesudimost-klienty-iz-raznyh-stran': '/services/warszawa-spire.webp'
 };
 
 const FALLBACK = '/services/blog.webp';
