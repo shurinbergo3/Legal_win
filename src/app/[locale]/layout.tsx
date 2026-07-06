@@ -7,7 +7,6 @@ import { routing } from '@/i18n/routing';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsentLoader } from '@/components/CookieConsentLoader';
 import { ScrollToTop } from '@/components/ScrollToTop';
-import { YandexMetrika } from '@/components/YandexMetrika';
 import {
   OG_IMAGE_HEIGHT,
   OG_IMAGE_PATH,
@@ -169,7 +168,6 @@ export default async function LocaleLayout({
           {children}
           <ScrollToTop />
           <CookieConsentLoader />
-          <YandexMetrika />
         </NextIntlClientProvider>
       </body>
     </html>
