@@ -5,6 +5,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch: {} # позволяет запустить вручную из вкладки Actions
+  schedule:
+    # Ежедневный ребилд в 06:15 UTC публикует отложенные посты блога: date-gate
+    # в src/lib/blog.ts показывает статьи, чья publishDate уже наступила. Так
+    # запланированные материалы выходят по одному в день без ручных пушей.
+    - cron: '15 6 * * *'
 
 env:
   IMAGE: ghcr.io/shurinbergo3/legal_win

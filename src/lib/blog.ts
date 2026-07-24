@@ -41,6 +41,19 @@ function estimateReadingMinutes(text: string): number {
   return Math.max(1, Math.round(words / 220));
 }
 
+/**
+ * Scheduled publishing: a post with a future `publishDate` stays hidden until
+ * its date. The check runs at build time, so a daily rebuild (see the cron in
+ * .github/workflows/deploy.yml) reveals queued posts one day at a time. Set
+ * BLOG_SHOW_SCHEDULED=1 to preview future-dated posts locally.
+ */
+function isPublished(publishDate: string): boolean {
+  if (process.env.BLOG_SHOW_SCHEDULED === '1') return true;
+  const ts = Date.parse(publishDate);
+  if (Number.isNaN(ts)) return true;
+  return ts <= Date.now();
+}
+
 function readPost(locale: string, fileName: string): BlogPost | null {
   const fullPath = path.join(localeDir(locale), fileName);
   if (!fs.existsSync(fullPath)) return null;
@@ -48,6 +61,7 @@ function readPost(locale: string, fileName: string): BlogPost | null {
   const parsed = matter(raw);
   const fm = parsed.data as Partial<BlogFrontmatter>;
   if (!fm.slug || !fm.title || !fm.description || !fm.publishDate) return null;
+  if (!isPublished(fm.publishDate)) return null;
   const safeLocale: BlogLocale = (routing.locales as readonly string[]).includes(locale)
     ? (locale as BlogLocale)
     : routing.defaultLocale;
@@ -71,10 +85,14 @@ function readPost(locale: string, fileName: string): BlogPost | null {
 export function listPostSlugs(locale: string): string[] {
   const dir = localeDir(locale);
   if (!fs.existsSync(dir)) return [];
+  // Only slugs whose post is already published — keeps future-dated posts out
+  // of generateStaticParams so they 404 until their publishDate.
   return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith('.md'))
-    .map((f) => f.replace(/\.md$/, ''));
+    .map((f) => readPost(locale, f))
+    .filter((p): p is BlogPost => p !== null)
+    .map((p) => p.slug);
 }
 
 export function getAllPosts(locale: string): BlogPostSummary[] {

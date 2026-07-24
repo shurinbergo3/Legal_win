@@ -73,7 +73,34 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'spravka-o-nesudimosti-iz-strany-proishozhdeniya': '/services/zaswiadczenie-o-niekaralnosci.webp',
   'apostille-spravki-o-nesudimosti': '/services/apostille.webp',
   'apostille-svidetelstv-usc-wojewoda': '/services/apostille.webp',
-  'apostille-i-nesudimost-klienty-iz-raznyh-stran': '/services/warszawa-spire.webp'
+  'apostille-i-nesudimost-klienty-iz-raznyh-stran': '/services/warszawa-spire.webp',
+
+  // 2026-Q3 series - 25 new articles (ВНЖ/ПМЖ/несудимость/апостиль/права/фирмы/JDG)
+  'karta-pobytu-utrata-kradzha-wtornik-2026': '/services/karta-pobytu.webp',
+  'zmiana-celu-pobytu-bez-vyezda-2026': '/services/karta-pobytu.webp',
+  'karta-pobytu-60-dney-na-otbor-2026': '/services/karta-pobytu.webp',
+  'stempel-w-paszporcie-ozhidanie-karty-pobytu-2026': '/services/karta-pobytu.webp',
+  'otkaz-po-karte-stalego-pobytu-odwolanie-2026': '/services/apelacje.webp',
+  'pmzh-po-polskomu-proishozhdeniyu-2026': '/services/karta-stalego-pobytu.webp',
+  'pmzh-nepreryvnost-5-let-vyezdy-2026': '/services/karta-stalego-pobytu.webp',
+  'spravka-o-nesudimosti-e-krk-online-2026': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'spravka-o-nesudimosti-dlya-raboty-2026': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'krk-dlya-inostranca-bez-pesel-2026': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'apostille-na-diplom-nawa-kuratorium-2026': '/services/tlumaczenia-przysiegle.webp',
+  'apostille-doverennosti-notarialnyh-dokumentov-2026': '/services/apostille.webp',
+  'apostille-inostrannyh-dokumentov-dlya-polshi-2026': '/services/apostille.webp',
+  'obmen-prav-pkk-zapis-na-egzamin-word-2026': '/services/wymiana-prawa-jazdy.webp',
+  'obmen-prav-medspravka-i-kategorii-2026': '/services/wymiana-prawa-jazdy.webp',
+  'obmen-prav-uteryany-prosrocheny-drugaya-familiya-2026': '/services/wymiana-prawa-jazdy.webp',
+  'registraciya-sp-z-oo-s24-bez-pesel-2026': '/services/warszawa-spire.webp',
+  'jdg-ili-sp-z-oo-chto-vybrat-inostrancu-2026': '/services/warszawa-spire.webp',
+  'crbr-beneficjent-rzeczywisty-2026': '/services/warszawa-spire.webp',
+  'gotowa-spolka-pokupka-gotovoy-firmy-2026': '/services/warszawa-tramwaj.webp',
+  'jdg-nalogi-2026-skala-liniowy-ryczalt': '/services/zaswiadczenia-zus-us.webp',
+  'przeksztalcenie-jdg-v-sp-z-oo-2026': '/services/warszawa-spire.webp',
+  'relokaciya-biznesa-v-polshu-przedstawicielstwo-2026': '/services/gdansk-aerial.webp',
+  'zakrytie-ili-zawieszenie-jdg-2026': '/services/pomoc-w-zatrudnieniu.webp',
+  'prodat-ili-likvidirovat-sp-z-oo-2026': '/services/pomoc-w-zatrudnieniu.webp'
 };
 
 const FALLBACK = '/services/blog.webp';
