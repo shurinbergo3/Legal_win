@@ -130,6 +130,9 @@ export function Chatbot() {
 
   const { messages, input, handleInputChange, handleSubmit, status, error } = useChat({
     api: '/api/chat',
+    // Язык страницы - стартовая догадка для ответа бота: по коротким «ок» /
+    // «tak» текст не распознаётся, и сервер опирается на локаль.
+    body: { locale },
     initialMessages: loadSessionMessages(),
   });
 

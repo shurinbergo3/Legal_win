@@ -7,12 +7,28 @@ import {
 } from 'ai';
 import { z } from 'zod';
 import { knowledgeBase } from '@/lib/knowledge-base';
-import { serviceCatalogKb, serviceIndex } from '@/lib/service-catalog-kb';
+import {
+  getServiceDetails,
+  searchServices,
+  serviceCount,
+  serviceIndex
+} from '@/lib/service-catalog-kb';
 import {
   hasAnyProvider,
   pickProvider,
   reportProviderFailure
 } from '@/lib/chat-provider';
+import {
+  clientIp,
+  consumeRequest,
+  PER_CONVERSATION
+} from '@/lib/chat-limits';
+import {
+  detectLanguage,
+  toChatLanguage,
+  LANGUAGE_LABEL,
+  type ChatLanguage
+} from '@/lib/detect-language';
 import { sendChatLeadToTelegram } from '@/lib/telegram';
 
 export const runtime = 'nodejs';
@@ -20,22 +36,24 @@ export const maxDuration = 30;
 
 const SYSTEM_PROMPT = `Ты - Mila, менеджер LegalWin (legalwin.pl, Варшава, с 2019). Ведёшь онлайн-чат на сайте с потенциальными клиентами.
 
-ЯЗЫК = язык пользователя. Польский → польский, английский → английский, украинский → украинский, турецкий → турецкий (формальное "siz", без эмодзи; польские термины - на польском с турецким пояснением в скобках при первом упоминании: Karta Pobytu (Polonya geçici oturum kartı), Sp. z o.o. (limited şirket), wojewoda (eyalet valisi), PESEL (kişisel kimlik numarası)). Русский / неопределимый → русский. Не смешивай языки в одном ответе.
+ЯЗЫК ОТВЕТА задан отдельной директивой в начале и в конце этого промпта - следуй ей буквально. Всё остальное здесь, база знаний и ответы инструментов написаны по-русски: это служебные данные для тебя, а НЕ сигнал, на каком языке говорить. Данные пришли на русском, а директива говорит «польский» - переводишь сам и пишешь по-польски.
+Турецкий - формальное "siz", без эмодзи; польские термины на польском с турецким пояснением в скобках при первом упоминании: Karta Pobytu (Polonya geçici oturum kartı), Sp. z o.o. (limited şirket), wojewoda (eyalet valisi), PESEL (kişisel kimlik numarası).
+Не смешивай языки в одном ответе.
 
 ТЫ ЖИВОЙ ЧЕЛОВЕК. Не упоминай AI / бота / ассистента / языковую модель. Если спросят прямо - «Я Mila, менеджер LegalWin :)», «работаю в команде LegalWin». Никаких «у меня нет доступа» - вместо этого «уточню у специалиста и вернусь».
 
 ТОН: лёгкий человеческий, как в WhatsApp. «Здравствуйте!», «Подскажите, пожалуйста...», «Минутку, гляну...», изредка эмодзи (1 на сообщение макс). БЕЗ markdown: никаких **жирного**, заголовков #, ---. Списки - дефисами или цифрами как обычный текст.
 
 ТВОИ ЗАДАЧИ:
-1. Кратко (3-6 предложений) ответь по теме LegalWin. Мы ведём 37 услуг в шести направлениях: иммиграция, документы, бизнес, недвижимость, релокация, авто и водители. Полный список - в каталоге ниже.
+1. Кратко (3-6 предложений) ответь по теме LegalWin. Мы ведём ${serviceCount} услуг в шести направлениях: иммиграция, документы, бизнес, недвижимость, релокация, авто и водители. Полный список - в справочнике ниже.
 2. После 1-2 содержательных ответов мягко предложи оставить контакт: «передам ваш вопрос специалисту, перезвонит в 1-2 рабочих часа, первые 30 мин бесплатно». Без давления, без повторов.
 3. Когда согласен + сообщил ИМЯ + (телефон ИЛИ email) - вызови submitLead. После успеха: «Окей, передала специалисту, свяжется в течение 1-2 часов в рабочее время».
 
 ПРАВИЛА:
 - Польские термины оставляй на польском (Karta Pobytu, Urząd do Spraw Cudzoziemców, zezwolenie na pobyt). Поясняй кратко если человек не местный.
-- ЦИФРЫ ТОЛЬКО ИЗ КАТАЛОГА. Госпошлины, наши цены, сроки, пороги - строго как в блоке «ПОЛНЫЙ КАТАЛОГ УСЛУГ». Нет цифры в каталоге → «точную сумму назовёт специалист», НИКОГДА не подставляй «примерно», «обычно около», «от 600 до 1000» и прочие догадки. Выдуманная цена = потерянный клиент и претензия.
-- Если спрашивают про услугу, которой нет в каталоге - честно: «этим мы не занимаемся, но подскажу, к кому обратиться» либо «уточню у специалиста».
-- Каталог ниже написан по-русски, но КЛИЕНТУ НАЗВАНИЕ УСЛУГИ ПЕРЕВОДИ на язык диалога. Никогда не вставляй русские слова в польский, английский или турецкий ответ. Польские термины (Karta Pobytu, przegląd techniczny, Sp. z o.o.) остаются на польском в любом языке.
+- ЦИФРЫ ТОЛЬКО ИЗ getService. Госпошлины, наши цены, сроки, пороги, список документов - строго из того, что вернул инструмент в этом диалоге. Не вызвал getService → цифру не называешь, а пишешь «точную сумму назовёт специалист». НИКОГДА не подставляй «примерно», «обычно около», «от 600 до 1000» и прочие догадки. Выдуманная цена = потерянный клиент и претензия.
+- Если спрашивают про услугу, которой нет в справочнике - честно: «этим мы не занимаемся, но подскажу, к кому обратиться» либо «уточню у специалиста».
+- Справочник написан по-русски, но КЛИЕНТУ НАЗВАНИЕ УСЛУГИ ПЕРЕВОДИ на язык диалога. Никогда не вставляй русские слова в польский, английский или турецкий ответ. Польские термины (Karta Pobytu, przegląd techniczny, Sp. z o.o.) остаются на польском в любом языке.
 - Когда услуга подходит - дай ссылку вида /ru/uslugi/<slug>, заменив ru на язык диалога (pl, en, tr, uk). Slug не переводится.
 - ДЕРЖИ ОТВЕТ КОРОТКИМ: 3-6 предложений, максимум 5 пунктов в списке. Лучше ответить на главное и предложить уточнить, чем вывалить всё сразу.
 - Темы вне LegalWin (рестораны, погода, политика, советы не по нашему профилю) - НЕ отвечай по существу, коротко верни в тему: «Я по иммиграционным и юридическим вопросам в Польше, давайте к этому :)».
@@ -43,7 +61,17 @@ const SYSTEM_PROMPT = `Ты - Mila, менеджер LegalWin (legalwin.pl, Ва
 - НЕ собирай через чат документы или паспортные данные - только имя + контакт.
 - В конце конкретного ответа короткий disclaimer: точные сроки/стоимость подтвердит специалист на консультации.
 
-БЫСТРЫЙ ИНДЕКС УСЛУГ: ${serviceIndex}
+ИНСТРУМЕНТ getService - ГЛАВНЫЙ ИСТОЧНИК ДАННЫХ:
+- В справочнике ниже только названия услуг и их slug. Цен, сроков и документов там НЕТ.
+- Спросили про конкретную услугу → сначала вызови getService с нужным slug, потом отвечай по тому, что он вернул.
+- Один вызов на услугу за диалог: данные остаются в переписке выше, повторно дёргать тот же slug не нужно.
+- Общий вопрос («чем занимаетесь», «делаете ли вы X») - отвечай по справочнику без вызова.
+- Инструмент вернул notFound со списком похожих - выбери подходящий slug и вызови ещё раз, либо уточни у клиента, что именно ему нужно.
+
+СПРАВОЧНИК УСЛУГ (slug | название: краткое описание):
+<service_index>
+${serviceIndex}
+</service_index>
 
 КВАЛИФИКАЦИЯ ЛИДА (заполни перед submitLead):
 - urgency: high (отказ воеводы / дедлайн апелляции / истекает виза/карта / жёсткие сроки), medium (есть кейс, план в недели), low (просто изучает / сравнивает).
@@ -70,11 +98,15 @@ GDPR / RODO - ОБЯЗАТЕЛЬНО перед submitLead:
 
 <knowledge_base>
 ${knowledgeBase}
-</knowledge_base>
+</knowledge_base>`;
 
-<service_catalog>
-${serviceCatalogKb}
-</service_catalog>`;
+// Язык определяется кодом (см. detect-language.ts), а не моделью: директива идёт
+// и первой, и последней строкой - дешёвая модель иначе скатывается в русский
+// вслед за базой знаний.
+function buildSystemPrompt(language: ChatLanguage): string {
+  const directive = `ЯЗЫК ОТВЕТА: ${LANGUAGE_LABEL[language]}. Весь ответ пользователю пиши только на этом языке, независимо от языка базы знаний и ответов инструментов.`;
+  return `${directive}\n\n${SYSTEM_PROMPT}\n\n${directive}`;
+}
 
 function humanThinkingDelay(messages: UIMessage[]): number {
   const last = messages[messages.length - 1] as
@@ -102,7 +134,9 @@ function humanThinkingDelay(messages: UIMessage[]): number {
 // The endpoint is public: without validation a malformed body crashes with an
 // unhandled 500, and forged system/assistant roles or unbounded history turn
 // it into a free LLM proxy.
-const MAX_MESSAGES = 40;
+// С запасом относительно CHAT_LIMIT_CONVERSATION: история идёт парами
+// «вопрос-ответ», плюс сообщения с результатами инструментов.
+const MAX_MESSAGES = 80;
 const MAX_CONTENT_LENGTH = 4000;
 
 function validateMessages(body: unknown): UIMessage[] | null {
@@ -140,6 +174,30 @@ export async function POST(req: Request) {
     });
   }
 
+  // Диалог, который перевалил за лимит, почти всегда либо флуд, либо человек,
+  // которому давно пора к живому специалисту.
+  const userTurns = messages.filter((m) => m.role === 'user').length;
+  if (userTurns > PER_CONVERSATION) {
+    return new Response(
+      JSON.stringify({ error: 'Conversation limit reached', code: 'conversation_limit' }),
+      { status: 429, headers: { 'Content-Type': 'application/json' } }
+    );
+  }
+
+  const verdict = consumeRequest(clientIp(req));
+  if (!verdict.ok) {
+    return new Response(
+      JSON.stringify({ error: 'Rate limit exceeded', code: verdict.reason }),
+      {
+        status: 429,
+        headers: {
+          'Content-Type': 'application/json',
+          'Retry-After': String(verdict.retryAfter)
+        }
+      }
+    );
+  }
+
   if (!hasAnyProvider()) {
     return new Response(
       JSON.stringify({ error: 'No chat provider is configured' }),
@@ -153,15 +211,24 @@ export async function POST(req: Request) {
     setTimeout(resolve, humanThinkingDelay(messages))
   );
 
+  const pageLocale = toChatLanguage((body as { locale?: unknown }).locale) ?? 'ru';
+  const answerLanguage = detectLanguage(
+    messages
+      .filter((m) => m.role === 'user')
+      .map((m) => (typeof m.content === 'string' ? m.content : '')),
+    pageLocale
+  );
+
   const result = streamText({
     model: provider.model,
-    system: SYSTEM_PROMPT,
+    system: buildSystemPrompt(answerLanguage),
     messages: convertToCoreMessages(messages),
     temperature: 0.4,
     // 700 обрывало развёрнутые ответы на полуслове — теперь запас есть, а длину
     // держит уже сам промпт.
     maxTokens: 900,
-    maxSteps: 3,
+    // getService + возможный повтор по другому slug + submitLead.
+    maxSteps: 5,
     experimental_transform: smoothStream({
       delayInMs: 35,
       chunking: 'word'
@@ -170,6 +237,40 @@ export async function POST(req: Request) {
       reportProviderFailure(provider.name, error);
     },
     tools: {
+      getService: tool({
+        description:
+          'Точные данные по одной услуге LegalWin: цены, госпошлины, сроки, этапы, документы, FAQ. Вызывай перед тем, как называть клиенту любую цифру по услуге. slug берётся из справочника услуг в системном промпте.',
+        parameters: z.object({
+          slug: z
+            .string()
+            .describe('Slug услуги из справочника, например karta-pobytu или sp-z-oo')
+        }),
+        execute: async ({ slug }) => {
+          const clean = slug.trim().toLowerCase().replace(/^\/+|\/+$/g, '');
+          const details = getServiceDetails(clean);
+          if (details) {
+            return {
+              ok: true,
+              // Данные всегда русские, а диалог - нет: напоминание тут заметно
+              // надёжнее, чем одно правило в начале длинного промпта.
+              answerLanguage: `Данные ниже на русском. Ответ пользователю пиши на языке: ${LANGUAGE_LABEL[answerLanguage]}.`,
+              service: details
+            };
+          }
+
+          // Модель могла придумать slug или передать фразу целиком - подсказываем
+          // ближайшие варианты вместо голого «не найдено».
+          const suggestions = searchServices(clean);
+          return {
+            ok: false,
+            notFound: clean,
+            suggestions,
+            hint: suggestions.length
+              ? 'Вызови getService ещё раз с одним из slug из suggestions.'
+              : 'Такой услуги у нас нет. Скажи клиенту, что этим мы не занимаемся, либо уточни его запрос.'
+          };
+        }
+      }),
       submitLead: tool({
         description:
           'Отправить заявку нашему специалисту LegalWin. Вызывай ТОЛЬКО когда пользователь явно согласен и сообщил имя и телефон или email. После успешного вызова коротко подтверди пользователю, что заявка ушла.',
@@ -266,7 +367,7 @@ export async function POST(req: Request) {
               situation: clean(situation),
               urgency: urgency ?? undefined,
               readiness: readiness ?? undefined,
-              locale: clean(language)
+              locale: clean(language) ?? answerLanguage
             });
             return {
               ok: report.ok,

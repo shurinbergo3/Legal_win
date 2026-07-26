@@ -13,7 +13,10 @@ import type { LanguageModelV1 } from '@ai-sdk/provider';
  * and every request for the next FAILOVER_WINDOW_MS goes straight to Groq.
  */
 
-const OPENAI_MODEL = process.env.OPENAI_CHAT_MODEL ?? 'gpt-5.4';
+// mini вместо полной gpt-5.4: бот работает по готовой базе знаний и каталогу,
+// рассуждать ему почти не над чем, а счёт отличается на порядок. Если качество
+// где-то просядет - модель переопределяется через OPENAI_CHAT_MODEL без релиза.
+const OPENAI_MODEL = process.env.OPENAI_CHAT_MODEL ?? 'gpt-5.4-mini';
 const GROQ_MODEL = process.env.GROQ_CHAT_MODEL ?? 'llama-3.3-70b-versatile';
 const FAILOVER_WINDOW_MS = 3 * 60 * 1000;
 

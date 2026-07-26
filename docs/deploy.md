@@ -18,11 +18,12 @@ source of "the site lags when I open it" right after a deploy.
 
 **Fix: mount a persistent volume at `/app/.next/cache`.**
 
-In Dokploy → the app → **Advanced → Volumes**, add:
+In Dokploy → the app → **Advanced → Volumes**, add (not configured yet as of
+2026-07-26):
 
-| Type         | Host path / volume name | Container path      |
-|--------------|-------------------------|---------------------|
-| Volume mount | `legalwin-next-cache`   | `/app/.next/cache`  |
+| Mount Type | Host Path                             | Mount Path         |
+|------------|---------------------------------------|--------------------|
+| Bind       | `/var/lib/dokploy/legalwin-next-cache`| `/app/.next/cache` |
 
 The cache keys are based on source image content + request params (not the build
 ID), so the volume stays valid across redeploys as long as the source images in
@@ -43,15 +44,25 @@ requests until they message it again, and `/admin` shows an empty lead list.
 
 **Fix: mount a persistent volume at `/app/data`.**
 
-In Dokploy → the app → **Advanced → Volumes**, add:
+This is already configured on prod as a bind mount - do not add a second one:
 
-| Type         | Host path / volume name | Container path |
-|--------------|-------------------------|----------------|
-| Volume mount | `legalwin-data`         | `/app/data`    |
+| Mount Type | Host Path                        | Mount Path  |
+|------------|----------------------------------|-------------|
+| Bind       | `/var/lib/dokploy/legalwin-data` | `/app/data` |
 
-Then hit **Redeploy** (volume changes only apply on redeploy). After the first
-deploy, re-register the operators once by messaging the bot with
-`TELEGRAM_PASSWORD`; from then on the list survives deploys.
+Live data lives there (`leads.json`, and `subscribers.json` once an operator
+registers). Verify with
+`ssh shurinbergo 'ls -la /var/lib/dokploy/legalwin-data'`.
+
+> **Do not add a second mount to the same container path.** Two rows pointing at
+> `/app/data` (e.g. a Bind plus a Volume) make Swarm reject the deploy with
+> `ContainerSpec: duplicate mount point: /app/data`, and the image is already
+> built and pushed by then - the failure only shows up at container start.
+> Happened on 2026-07-26, fixed by deleting the empty `legalwin-data` Volume row.
+
+Volume changes only apply on **Redeploy**. After the first deploy, re-register
+the operators once by messaging the bot with `TELEGRAM_PASSWORD`; from then on
+the list survives deploys.
 
 Alternative: set `KV_REST_API_URL` + `KV_REST_API_TOKEN` in **Environment** and
 both stores move to KV automatically — no volume needed. Either works; the
