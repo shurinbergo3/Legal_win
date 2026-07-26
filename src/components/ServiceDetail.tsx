@@ -21,7 +21,6 @@ import {
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { services } from '@/lib/services';
 import type { ServiceContent } from '@/lib/services/types';
 import type { BlogPostSummary } from '@/lib/blog';
 import { serviceBlur, blur } from '@/lib/image-blur';
@@ -40,14 +39,21 @@ const iconMap = {
   car: Car
 };
 
+// Only the fields the related strip renders. Resolved on the server so the
+// client bundle never has to import the full service catalogue.
+export type RelatedServiceCard = Pick<
+  ServiceContent,
+  'slug' | 'title' | 'subtitle' | 'icon'
+>;
+
 export function ServiceDetail({
   content,
-  locale,
-  relatedArticles = []
+  relatedArticles = [],
+  relatedServices = []
 }: {
   content: ServiceContent;
-  locale: string;
   relatedArticles?: BlogPostSummary[];
+  relatedServices?: RelatedServiceCard[];
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -108,8 +114,7 @@ export function ServiceDetail({
       />
 
       <Related
-        slugs={content.related}
-        locale={locale}
+        entries={relatedServices}
         allServicesLabel={tServices('title')}
         relatedLabel={tLabels('relatedTitle')}
       />
@@ -658,30 +663,14 @@ function Faq({
 /* ---------- Related ---------- */
 
 function Related({
-  slugs,
-  locale,
+  entries,
   allServicesLabel,
   relatedLabel
 }: {
-  slugs: string[];
-  locale: string;
+  entries: RelatedServiceCard[];
   allServicesLabel: string;
   relatedLabel: string;
 }) {
-  type Loc = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
-  const safeLocale: Loc = (['ru', 'pl', 'en', 'tr', 'uk'] as const).includes(
-    locale as Loc
-  )
-    ? (locale as Loc)
-    : 'ru';
-
-  // Show related services only when translated for the current locale — no ru
-  // fallback here. Otherwise on partially-translated locales (e.g. uk during
-  // Этап 1) the related strip would render mixed-language content.
-  const entries = slugs
-    .map((s) => services[s]?.[safeLocale])
-    .filter(Boolean) as ServiceContent[];
-
   if (entries.length === 0) return null;
 
   return (

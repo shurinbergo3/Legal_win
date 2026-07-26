@@ -69,13 +69,13 @@ export function Footer() {
           </div>
 
           <div className="col-span-6 sm:col-span-4 lg:col-span-3">
-            <h4 className="mb-5 text-[11px] uppercase tracking-[0.25em] text-ink-400">
+            <h3 className="mb-5 text-[11px] uppercase tracking-[0.25em] text-ink-400">
               {t('servicesTitle')}
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-3 text-sm text-ink-200">
               {services.map((s) => (
                 <li key={s}>
-                  <Link href="/#services" className="transition-colors hover:text-gold-400">
+                  <Link href="/#services" className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">
                     {tS(`${s}.title`)}
                   </Link>
                 </li>
@@ -84,29 +84,29 @@ export function Footer() {
           </div>
 
           <div className="col-span-6 sm:col-span-4 lg:col-span-2">
-            <h4 className="mb-5 text-[11px] uppercase tracking-[0.25em] text-ink-400">
+            <h3 className="mb-5 text-[11px] uppercase tracking-[0.25em] text-ink-400">
               {t('companyTitle')}
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-3 text-sm text-ink-200">
-              <li><Link href="/#cases" className="transition-colors hover:text-gold-400">{tNav('cases')}</Link></li>
-              <li><Link href="/#process" className="transition-colors hover:text-gold-400">{tNav('process')}</Link></li>
-              <li><Link href="/#faq" className="transition-colors hover:text-gold-400">{tNav('faq')}</Link></li>
-              <li><Link href="/blog" className="transition-colors hover:text-gold-400">{tNav('blog')}</Link></li>
+              <li><Link href="/#cases" className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">{tNav('cases')}</Link></li>
+              <li><Link href="/#process" className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">{tNav('process')}</Link></li>
+              <li><Link href="/#faq" className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">{tNav('faq')}</Link></li>
+              <li><Link href="/blog" className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">{tNav('blog')}</Link></li>
             </ul>
           </div>
 
           <div className="col-span-12 sm:col-span-4 lg:col-span-2">
-            <h4 className="mb-5 text-[11px] uppercase tracking-[0.25em] text-ink-400">
+            <h3 className="mb-5 text-[11px] uppercase tracking-[0.25em] text-ink-400">
               {t('contactTitle')}
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-3 text-sm text-ink-200">
               <li>
-                <a href={`mailto:${tContact('emailLine')}`} className="transition-colors hover:text-gold-400">
+                <a href={`mailto:${tContact('emailLine')}`} className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">
                   {tContact('emailLine')}
                 </a>
               </li>
               <li>
-                <a href={`tel:${tContact('phoneLine').replace(/\s/g, '')}`} className="transition-colors hover:text-gold-400">
+                <a href={`tel:${tContact('phoneLine').replace(/\s/g, '')}`} className="inline-block py-1 -my-1 transition-colors hover:text-gold-400">
                   {tContact('phoneLine')}
                 </a>
               </li>
@@ -120,9 +120,9 @@ export function Footer() {
             the editorial layout stays unchanged on tablet & desktop. */}
         <div className="mt-14 grid grid-cols-12 gap-x-6 gap-y-4 border-t hairline pt-8">
           <div className="col-span-12 flex flex-col gap-1 lg:col-span-4">
-            <h4 className="text-[11px] uppercase tracking-[0.25em] text-gold-400">
+            <h3 className="text-[11px] uppercase tracking-[0.25em] text-gold-400">
               {t('sourcesTitle')}
-            </h4>
+            </h3>
             <p className="max-w-xs text-xs leading-relaxed text-ink-500">
               {t('sourcesIntro')}
             </p>
@@ -158,10 +158,10 @@ export function Footer() {
             © {year} LegalWin · {t('rights')}
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
-            <Link href="/polityka-prywatnosci" className="transition-colors hover:text-ink-200">
+            <Link href="/polityka-prywatnosci" className="inline-block py-1 -my-1 transition-colors hover:text-ink-200">
               {t('privacy')}
             </Link>
-            <Link href="/polityka-cookies" className="transition-colors hover:text-ink-200">
+            <Link href="/polityka-cookies" className="inline-block py-1 -my-1 transition-colors hover:text-ink-200">
               {t('cookies')}
             </Link>
             <button
@@ -171,7 +171,7 @@ export function Footer() {
                   window.dispatchEvent(new CustomEvent('legalwin-open-cookie-settings'));
                 }
               }}
-              className="cursor-pointer transition-colors hover:text-ink-200"
+              className="cursor-pointer py-1 -my-1 transition-colors hover:text-ink-200"
             >
               {t('manageCookies')}
             </button>

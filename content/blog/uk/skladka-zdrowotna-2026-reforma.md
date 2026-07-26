@@ -7,7 +7,7 @@ description: >-
 locale: uk
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
-category: Податки та бухгалтерія
+category: Податки
 keywords:
   - składka zdrowotna 2026
   - реформа медичного внеску Польща

@@ -28,7 +28,10 @@ export function Reveal({
     const el = ref.current;
     if (!el) return;
     if (typeof IntersectionObserver === 'undefined') {
-      setShown(true);
+      // Defensive path for a browser without IO: reveal immediately. Toggled on
+      // the node rather than through state — Reveal wraps dozens of elements per
+      // page and a state flip on mount would re-render all of them.
+      el.classList.add('reveal-in');
       return;
     }
     const io = new IntersectionObserver(

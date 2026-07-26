@@ -7,7 +7,7 @@ description: >-
 locale: en
 publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
-category: Tax & accounting
+category: Tax
 keywords:
   - KSeF 2026
   - Polish national e-invoicing system

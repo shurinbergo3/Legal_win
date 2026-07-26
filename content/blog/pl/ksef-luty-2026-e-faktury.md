@@ -7,7 +7,7 @@ description: >-
 locale: pl
 publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
-category: Podatki i księgowość
+category: Podatki
 keywords:
   - KSeF 2026
   - krajowy system e-faktur

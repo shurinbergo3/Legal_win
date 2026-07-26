@@ -24,7 +24,10 @@ export function CountUp({
     const el = ref.current;
     if (!el) return;
     if (typeof IntersectionObserver === 'undefined') {
-      setStarted(true);
+      // Defensive path for a browser without IO: show the final number instead
+      // of animating. Written straight to the DOM — flipping state here would
+      // re-render every counter on mount for no visual gain.
+      el.textContent = String(to);
       return;
     }
     const io = new IntersectionObserver(
@@ -40,7 +43,7 @@ export function CountUp({
     );
     io.observe(el);
     return () => io.disconnect();
-  }, []);
+  }, [to]);
 
   useEffect(() => {
     if (!started) return;

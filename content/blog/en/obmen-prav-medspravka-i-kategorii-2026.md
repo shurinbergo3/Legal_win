@@ -2,8 +2,7 @@
 slug: obmen-prav-medspravka-i-kategorii-2026
 title: Medical Exam and Categories for Licence Exchange 2026
 description: >-
-  Medical exam and categories for a Polish licence exchange: where to sit badania
-  lekarskie, which categories transfer, psychotesty for C and D, validity and cost.
+  Medical exam and categories for a Polish licence exchange: where to sit badania lekarskie, which categories transfer, psychotesty for C and D, validity, cost.
 locale: en
 publishDate: 2026-08-07T00:00:00.000Z
 author: LegalWin

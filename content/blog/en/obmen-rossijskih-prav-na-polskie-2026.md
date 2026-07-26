@@ -1,6 +1,6 @@
 ---
 slug: obmen-rossijskih-prav-na-polskie-2026
-title: 'Exchanging a Russian Driving Licence for a Polish One in 2026: Procedure and Timelines'
+title: 'Russian Driving Licence Exchange in Poland 2026'
 description: >-
   Russian licence exchange without exams under the Vienna Convention, documents,
   costs from 180 PLN, verification 90-120+ days, Wydział Komunikacji in Warsaw.

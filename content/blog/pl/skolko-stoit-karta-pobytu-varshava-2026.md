@@ -2,8 +2,7 @@
 slug: skolko-stoit-karta-pobytu-varshava-2026
 title: 'Ile kosztuje karta pobytu w Warszawie w 2026: pełne wyliczenie'
 description: >-
-  Pełne wyliczenie kosztów karty pobytu w Warszawie 2026: opłata skarbowa 340 PLN,
-  plastik 100, tłumaczenia, ubezpieczenie. Samodzielnie czy z prawnikiem od 2 500 PLN.
+  Pełne wyliczenie kosztów karty pobytu w Warszawie 2026: opłata skarbowa 340 PLN, plastik 100, tłumaczenia, ubezpieczenie. Samodzielnie czy z prawnikiem.
 locale: pl
 publishDate: 2026-06-03T00:00:00.000Z
 author: LegalWin

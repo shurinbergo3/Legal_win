@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Chatbot } from '@/components/Chatbot';
+import { ChatbotLoader } from '@/components/ChatbotLoader';
 import { ServiceDetail } from '@/components/ServiceDetail';
 import { JsonLd } from '@/components/JsonLd';
 import { getService, services, serviceSlugs } from '@/lib/services';
@@ -18,6 +18,7 @@ import {
   breadcrumbLd,
   faqPageLd,
   serviceLd,
+  titleWithSubtitle,
   type SeoLocale
 } from '@/lib/seo';
 
@@ -1195,7 +1196,14 @@ export async function generateMetadata({
     uk: 'Варшава'
   };
 
-  const title = `${content.title} - ${content.subtitle} | ${ORG_LEGAL_NAME} ${cityByLocale[safeLocale]}`;
+  // Unconditionally gluing title + subtitle + brand pushed 184 of 185 service
+  // pages past the ~65 char SERP cut-off (worst case 206 chars). The subtitle
+  // now only survives when the whole thing still fits.
+  const title = titleWithSubtitle(
+    content.title,
+    content.subtitle,
+    `${ORG_LEGAL_NAME} ${cityByLocale[safeLocale]}`
+  );
   const description = content.lead.slice(0, 160);
   const url = `/${locale}/uslugi/${slug}`;
   const keywords = KEYWORDS_BY_SLUG[slug]?.[safeLocale] ?? [];
@@ -1310,6 +1318,15 @@ export default async function ServicePage({
 
   const relatedArticles = getPostsForService(locale, slug, 3);
 
+  // Resolved here rather than inside the (client) ServiceDetail: importing the
+  // services barrel from a client component ships every service in every locale
+  // to the browser. No ru fallback — a partially translated locale must not
+  // render a mixed-language related strip.
+  const relatedServices = content.related
+    .map((s) => services[s]?.[safeLocale])
+    .filter((r) => r !== undefined)
+    .map(({ slug: s, title, subtitle, icon }) => ({ slug: s, title, subtitle, icon }));
+
   return (
     <>
       <JsonLd data={breadcrumb} />
@@ -1319,12 +1336,12 @@ export default async function ServicePage({
       <main className="relative z-10">
         <ServiceDetail
           content={content}
-          locale={locale}
           relatedArticles={relatedArticles}
+          relatedServices={relatedServices}
         />
       </main>
       <Footer />
-      <Chatbot />
+      <ChatbotLoader />
     </>
   );
 }

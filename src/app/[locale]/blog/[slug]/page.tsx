@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Chatbot } from '@/components/Chatbot';
+import { ChatbotLoader } from '@/components/ChatbotLoader';
 import { BlogArticle } from '@/components/BlogArticle';
 import { JsonLd } from '@/components/JsonLd';
 import {
@@ -22,6 +22,7 @@ import {
   articleLd,
   breadcrumbLd,
   faqPageLd,
+  withBrand,
   type SeoLocale
 } from '@/lib/seo';
 
@@ -65,7 +66,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${post.title} | ${ORG_LEGAL_NAME}`,
+    title: withBrand(post.title),
     description: post.description,
     keywords: post.keywords,
     alternates: { canonical: url, languages },
@@ -155,7 +156,12 @@ export default async function BlogPostPage({
       <JsonLd data={breadcrumb} />
       <JsonLd data={article} />
       {faq && <JsonLd data={faq} />}
-      <Header />
+      {/* Nationality-specific posts ship in a subset of locales; without this
+          the switcher would send readers to a 404 of the same path. */}
+      <Header
+        availableLocales={getAvailableLocalesForSlug(slug)}
+        localeFallbackPath="/blog"
+      />
       <main className="relative z-10">
         <BlogArticle
           post={post}
@@ -174,7 +180,7 @@ export default async function BlogPostPage({
         />
       </main>
       <Footer />
-      <Chatbot />
+      <ChatbotLoader />
     </>
   );
 }

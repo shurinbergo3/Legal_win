@@ -2,9 +2,7 @@
 slug: zezwolenie-typu-a-vs-oswiadczenie-2026
 title: 'Zezwolenie typu A vs oświadczenie 2026: nowe zasady'
 description: >-
-  Od 1 stycznia 2026 obywatele Gruzji, Kazachstanu, Uzbekistanu i innych
-  krajów muszą mieć zezwolenie typu A zamiast oświadczenia. Co to oznacza
-  dla cudzoziemców i pracodawców w Polsce.
+  Od 1 stycznia 2026 obywatele Gruzji, Kazachstanu, Uzbekistanu i innych krajów muszą mieć zezwolenie typu A zamiast oświadczenia. Co to zmienia w praktyce.
 locale: pl
 publishDate: 2026-05-23T00:00:00.000Z
 author: LegalWin

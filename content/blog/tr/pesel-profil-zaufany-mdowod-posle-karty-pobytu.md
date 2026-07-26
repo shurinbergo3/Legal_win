@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-03-12T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - yabancı için PESEL
   - Polonya Profil Zaufany

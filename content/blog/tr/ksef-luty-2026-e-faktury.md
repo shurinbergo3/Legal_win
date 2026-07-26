@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
-category: Vergi ve muhasebe
+category: Vergi
 keywords:
   - KSeF 2026
   - Polonya e-fatura

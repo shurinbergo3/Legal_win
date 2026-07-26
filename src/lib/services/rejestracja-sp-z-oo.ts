@@ -61,7 +61,7 @@ const rejestracjaSpZOo: ServiceEntry = {
       subtitle: 'Фиксированная цена под ключ. Госпошлины и нотариус - отдельно.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '30 минут · структура и налоги' },
-        { label: 'Sp. z o.o. через S24', value: 'от 1 800 PLN', note: 'KRS + NIP + адрес 12 мес' },
+        { label: 'Sp. z o.o. через S24', value: 'от 3 000 PLN', note: 'KRS + NIP + адрес 12 мес' },
         { label: 'Sp. z o.o. нотариально', value: 'от 3 500 PLN', note: 'Индивидуальный статут' },
         { label: 'Под ключ + банк + VAT', value: 'от 4 800 PLN', note: 'KRS + банк + VAT-R + бухгалтер' }
       ],
@@ -150,7 +150,7 @@ const rejestracjaSpZOo: ServiceEntry = {
       subtitle: 'Stała cena pod klucz. Opłaty osobno.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '30 min · struktura' },
-        { label: 'S24', value: 'od 1 800 PLN', note: 'KRS + NIP + adres 12 mies.' },
+        { label: 'S24', value: 'od 3 000 PLN', note: 'KRS + NIP + adres 12 mies.' },
         { label: 'Notarialnie', value: 'od 3 500 PLN', note: 'Indywidualna umowa' },
         { label: 'Pod klucz + bank + VAT', value: 'od 4 800 PLN', note: 'KRS + bank + VAT-R + księgowość' }
       ],
@@ -239,7 +239,7 @@ const rejestracjaSpZOo: ServiceEntry = {
       subtitle: 'Fixed turnkey price. State fees billed separately.',
       items: [
         { label: 'Consultation', value: 'Free', note: '30 minutes · structure & taxes' },
-        { label: 'S24', value: 'from 1,800 PLN', note: 'KRS + NIP + 12-mo office' },
+        { label: 'S24', value: 'from 3,000 PLN', note: 'KRS + NIP + 12-mo office' },
         { label: 'Notary', value: 'from 3,500 PLN', note: 'Custom articles' },
         { label: 'Turnkey + bank + VAT', value: 'from 4,800 PLN', note: 'KRS + bank + VAT-R + bookkeeping' }
       ],
@@ -328,7 +328,7 @@ const rejestracjaSpZOo: ServiceEntry = {
       subtitle: 'Anahtar teslim sabit fiyat. Resmi harçlar ve noter ayrıdır.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · yapı ve vergi planlaması' },
-        { label: 'S24 üzerinden Sp. z o.o.', value: '1.800 PLN\'den', note: 'KRS + NIP + 12 ay merkez adresi' },
+        { label: 'S24 üzerinden Sp. z o.o.', value: '3.000 PLN\'den', note: 'KRS + NIP + 12 ay merkez adresi' },
         { label: 'Noterli Sp. z o.o.', value: '3.500 PLN\'den', note: 'Bireysel esas sözleşme' },
         { label: 'Anahtar teslim + banka + VAT', value: '4.800 PLN\'den', note: 'KRS + banka + VAT-R + muhasebe' }
       ],
@@ -417,7 +417,7 @@ const rejestracjaSpZOo: ServiceEntry = {
       subtitle: 'Фіксована ціна під ключ. Держмита й нотаріус — окремо.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · структура і податки' },
-        { label: 'Sp. z o.o. через S24', value: 'від 1 800 PLN', note: 'KRS + NIP + адреса 12 міс.' },
+        { label: 'Sp. z o.o. через S24', value: 'від 3 000 PLN', note: 'KRS + NIP + адреса 12 міс.' },
         { label: 'Sp. z o.o. нотаріально', value: 'від 3 500 PLN', note: 'Індивідуальний статут' },
         { label: 'Під ключ + банк + VAT', value: 'від 4 800 PLN', note: 'KRS + банк + VAT-R + бухгалтер' }
       ],

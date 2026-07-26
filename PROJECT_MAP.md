@@ -43,7 +43,7 @@ Legalwin/
 │   ├── pl.json
 │   └── en.json
 └── src/
-    ├── middleware.ts             ← i18n-роутинг: / → /ru, /pl, /en (обязательно в src/, т.к. app в src/)
+    ├── proxy.ts                  ← i18n-роутинг: / → /ru, /pl, /en (обязательно в src/, т.к. app в src/)
     ├── i18n/
     │   ├── routing.ts            ← список локалей, дефолт, режим префиксов
     │   ├── navigation.ts         ← локализованные <Link>, useRouter, usePathname
@@ -153,7 +153,7 @@ model: anthropic('claude-sonnet-4-6')
 ### Добавить новую локаль (напр. `ua`)
 1. `src/i18n/routing.ts` → `locales: ['ru', 'pl', 'en', 'ua']`
 2. Скопировать `messages/ru.json` → `messages/ua.json`, перевести
-3. Всё: sitemap / LocaleSwitcher / middleware подхватят автоматически
+3. Всё: sitemap / LocaleSwitcher / proxy подхватят автоматически
 
 ### Добавить новую страницу (напр. `/ru/uslugi/karta-pobytu`)
 1. Создать `src/app/[locale]/uslugi/karta-pobytu/page.tsx`
@@ -198,8 +198,8 @@ Edge-runtime для `/api/chat` уже включён (`export const runtime = '
 
 | Проблема | Решение |
 |---|---|
-| `GET / 404` | Next.js 16 не нашёл middleware. Проверь что он в `src/middleware.ts` (не в корне, поскольку есть папка `src/`). Останови dev-сервер, `rm -rf .next`, запусти снова |
-| `Could not parse module middleware.ts` | Turbopack закэшировал старый путь после перемещения файла. `rm -rf .next`, перезапусти |
+| `GET / 404` | Next.js 16 не нашёл proxy. Проверь что он в `src/proxy.ts` (не в корне, поскольку есть папка `src/`). Останови dev-сервер, `rm -rf .next`, запусти снова |
+| `Could not parse module proxy.ts` | Turbopack закэшировал старый путь после перемещения файла. `rm -rf .next`, перезапусти |
 | `localhost:3000` показывает чужой ответ | другой процесс занял порт. `lsof -iTCP:3000 -sTCP:LISTEN` + `kill -9 PID`, либо заходи на 3001 |
 | Форма молчит после отправки | проверь `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`; бот добавлен в чат админом? |
 | Чат отвечает ошибкой | проверь `GROQ_API_KEY` (получи на console.groq.com) и логи `[chat] lead delivery failed` |

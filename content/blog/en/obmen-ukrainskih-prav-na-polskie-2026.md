@@ -1,9 +1,8 @@
 ---
 slug: obmen-ukrainskih-prav-na-polskie-2026
-title: 'Exchanging a Ukrainian Driving Licence for a Polish One in 2026: No Exam'
+title: 'Ukrainian Driving Licence Exchange in Poland 2026'
 description: >-
-  How a Ukrainian can exchange their driving licence for a Polish one without an
-  exam in 2026: PESEL UKR, fast Ukrainian MIA channel, 100.50 PLN, Wydział Komunikacji Warsaw.
+  How a Ukrainian exchanges a driving licence for a Polish one without an exam in 2026: PESEL UKR, the fast MIA channel, 100.50 PLN, Wydział Komunikacji Warsaw.
 locale: en
 publishDate: 2026-06-04T00:00:00.000Z
 author: LegalWin

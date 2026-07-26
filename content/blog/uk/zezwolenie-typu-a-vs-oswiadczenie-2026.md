@@ -2,9 +2,7 @@
 slug: zezwolenie-typu-a-vs-oswiadczenie-2026
 title: 'Zezwolenie typu A vs oświadczenie 2026: нові правила'
 description: >-
-  З 1 січня 2026 громадяни Грузії, Казахстану, Узбекистану та інших країн
-  зобов’язані оформлювати zezwolenie typu A замість oświadczenie. Що це означає
-  для іноземців і роботодавців у Польщі.
+  З 1 січня 2026 громадяни Грузії, Казахстану, Узбекистану та інших країн оформлюють zezwolenie typu A замість oświadczenie. Що це означає на практиці.
 locale: uk
 publishDate: 2026-05-23T00:00:00.000Z
 author: LegalWin

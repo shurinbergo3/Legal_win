@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2025-11-25T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - Polonya kontrol listesi yeni gelenler
   - Polonya'ya taşınınca yapılması gerekenler

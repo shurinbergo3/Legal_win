@@ -7,7 +7,7 @@ description: >-
 locale: pl
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
-category: Podatki i księgowość
+category: Podatki
 keywords:
   - składka zdrowotna 2026
   - reforma składki zdrowotnej

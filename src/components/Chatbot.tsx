@@ -119,17 +119,14 @@ export function Chatbot() {
   const t = useTranslations('Chat');
   const locale = useLocale();
   const reduce = useReducedMotion();
-  const [open, setOpen] = useState(false);
+  // Seeded straight from storage rather than through a mount effect: the whole
+  // component is loaded with ssr:false (see ChatbotLoader), so there is no
+  // server render to mismatch against and no need for a second render pass.
+  const [open, setOpen] = useState(loadSessionOpen);
   const [tease, setTease] = useState(false);
-  const [consentGiven, setConsentGiven] = useState(false);
+  const [consentGiven, setConsentGiven] = useState(consentAlreadyGiven);
   const [consentChecked, setConsentChecked] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
-
-  // Restore consent and session state from storage on mount
-  useEffect(() => {
-    setConsentGiven(consentAlreadyGiven());
-    if (loadSessionOpen()) setOpen(true);
-  }, []);
 
   const { messages, input, handleInputChange, handleSubmit, status, error } = useChat({
     api: '/api/chat',

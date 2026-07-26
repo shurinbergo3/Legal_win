@@ -2,12 +2,15 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Chatbot } from '@/components/Chatbot';
+import { ChatbotLoader } from '@/components/ChatbotLoader';
 import { BlogIndex } from '@/components/BlogIndex';
 import { JsonLd } from '@/components/JsonLd';
 import { getAllPosts } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 import {
+  OG_IMAGE_HEIGHT,
+  OG_IMAGE_PATH,
+  OG_IMAGE_WIDTH,
   ORG_LEGAL_NAME,
   SITE_URL,
   blogLd,
@@ -33,7 +36,9 @@ export async function generateMetadata({
     ? (locale as SeoLocale)
     : 'ru';
   const url = `/${locale}/blog`;
-  const title = `${t('title')} | ${ORG_LEGAL_NAME}`;
+  // t('title') already reads "Блог LegalWin" / "LegalWin Blog", so appending the
+  // brand again would render "Блог LegalWin | LegalWin".
+  const title = t('title');
   const description = t('intro');
 
   const ogLocaleMap: Record<string, string> = {
@@ -57,12 +62,24 @@ export async function generateMetadata({
       url,
       siteName: ORG_LEGAL_NAME,
       type: 'website',
-      locale: ogLocaleMap[safeLocale]
+      locale: ogLocaleMap[safeLocale],
+      // A page-level openGraph block replaces the locale layout's one wholesale,
+      // so the image has to be repeated here or the page ships without a preview.
+      images: [
+        {
+          url: OG_IMAGE_PATH,
+          width: OG_IMAGE_WIDTH,
+          height: OG_IMAGE_HEIGHT,
+          alt: title,
+          type: 'image/webp'
+        }
+      ]
     },
     twitter: {
       card: 'summary_large_image',
       title,
-      description
+      description,
+      images: [OG_IMAGE_PATH]
     },
     robots: {
       index: true,
@@ -137,7 +154,7 @@ export default async function BlogIndexPage({
         />
       </main>
       <Footer />
-      <Chatbot />
+      <ChatbotLoader />
     </>
   );
 }

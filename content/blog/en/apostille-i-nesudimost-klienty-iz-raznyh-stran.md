@@ -1,6 +1,6 @@
 ---
 slug: apostille-i-nesudimost-klienty-iz-raznyh-stran
-title: 'Apostille and Criminal Record Certificates for Clients from Many Countries'
+title: 'Apostille and Criminal Record Certificates by Country'
 description: >-
   Why people from different countries order apostille and KRK from us: typical
   scenarios by country, how we do it remotely, and what makes legalisation hard.

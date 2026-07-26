@@ -2,9 +2,7 @@
 slug: obmen-belorusskih-prav-na-polskie-2026
 title: 'Обмен белорусских прав на польские в 2026: сроки и нюансы'
 description: >-
-  Венская конвенция, без экзаменов для cat. A/B, проверка через МВД Беларуси,
-  apostille для старых прав, сроки 60-90 дней, цены от 180 PLN, Wydział
-  Komunikacji в Варшаве.
+  Венская конвенция, без экзаменов для cat. A/B, проверка через МВД Беларуси, apostille для старых прав, сроки 60-90 дней, цены от 180 PLN.
 locale: ru
 publishDate: 2026-06-05T00:00:00.000Z
 author: LegalWin

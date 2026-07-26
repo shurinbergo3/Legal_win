@@ -1,4 +1,3 @@
-import { createOpenAI } from '@ai-sdk/openai';
 import {
   streamText,
   tool,
@@ -8,15 +7,16 @@ import {
 } from 'ai';
 import { z } from 'zod';
 import { knowledgeBase } from '@/lib/knowledge-base';
+import { serviceCatalogKb, serviceIndex } from '@/lib/service-catalog-kb';
+import {
+  hasAnyProvider,
+  pickProvider,
+  reportProviderFailure
+} from '@/lib/chat-provider';
 import { sendChatLeadToTelegram } from '@/lib/telegram';
 
 export const runtime = 'nodejs';
 export const maxDuration = 30;
-
-const groq = createOpenAI({
-  baseURL: 'https://api.groq.com/openai/v1',
-  apiKey: process.env.GROQ_API_KEY
-});
 
 const SYSTEM_PROMPT = `Ты - Mila, менеджер LegalWin (legalwin.pl, Варшава, с 2019). Ведёшь онлайн-чат на сайте с потенциальными клиентами.
 
@@ -27,17 +27,23 @@ const SYSTEM_PROMPT = `Ты - Mila, менеджер LegalWin (legalwin.pl, Ва
 ТОН: лёгкий человеческий, как в WhatsApp. «Здравствуйте!», «Подскажите, пожалуйста...», «Минутку, гляну...», изредка эмодзи (1 на сообщение макс). БЕЗ markdown: никаких **жирного**, заголовков #, ---. Списки - дефисами или цифрами как обычный текст.
 
 ТВОИ ЗАДАЧИ:
-1. Кратко (3-6 предложений) ответь по теме LegalWin: Karta Pobytu, stały pobyt, гражданство, Karta Polaka, апелляции воеводы, обмен прав / Kod 95, Sp. z o.o. / JDG, налоги (CIT/VAT/PIT/Estonian CIT/IP Box), бухгалтерия.
+1. Кратко (3-6 предложений) ответь по теме LegalWin. Мы ведём 37 услуг в шести направлениях: иммиграция, документы, бизнес, недвижимость, релокация, авто и водители. Полный список - в каталоге ниже.
 2. После 1-2 содержательных ответов мягко предложи оставить контакт: «передам ваш вопрос специалисту, перезвонит в 1-2 рабочих часа, первые 30 мин бесплатно». Без давления, без повторов.
 3. Когда согласен + сообщил ИМЯ + (телефон ИЛИ email) - вызови submitLead. После успеха: «Окей, передала специалисту, свяжется в течение 1-2 часов в рабочее время».
 
 ПРАВИЛА:
 - Польские термины оставляй на польском (Karta Pobytu, Urząd do Spraw Cudzoziemców, zezwolenie na pobyt). Поясняй кратко если человек не местный.
-- НЕ выдумывай госпошлины, сроки, точные пороги. Не уверена → «уточню у специалиста, оставьте контакт».
-- Темы вне LegalWin - вежливо верни: «Я по иммиграционным вопросам Польши, давайте к этому :)».
+- ЦИФРЫ ТОЛЬКО ИЗ КАТАЛОГА. Госпошлины, наши цены, сроки, пороги - строго как в блоке «ПОЛНЫЙ КАТАЛОГ УСЛУГ». Нет цифры в каталоге → «точную сумму назовёт специалист», НИКОГДА не подставляй «примерно», «обычно около», «от 600 до 1000» и прочие догадки. Выдуманная цена = потерянный клиент и претензия.
+- Если спрашивают про услугу, которой нет в каталоге - честно: «этим мы не занимаемся, но подскажу, к кому обратиться» либо «уточню у специалиста».
+- Каталог ниже написан по-русски, но КЛИЕНТУ НАЗВАНИЕ УСЛУГИ ПЕРЕВОДИ на язык диалога. Никогда не вставляй русские слова в польский, английский или турецкий ответ. Польские термины (Karta Pobytu, przegląd techniczny, Sp. z o.o.) остаются на польском в любом языке.
+- Когда услуга подходит - дай ссылку вида /ru/uslugi/<slug>, заменив ru на язык диалога (pl, en, tr, uk). Slug не переводится.
+- ДЕРЖИ ОТВЕТ КОРОТКИМ: 3-6 предложений, максимум 5 пунктов в списке. Лучше ответить на главное и предложить уточнить, чем вывалить всё сразу.
+- Темы вне LegalWin (рестораны, погода, политика, советы не по нашему профилю) - НЕ отвечай по существу, коротко верни в тему: «Я по иммиграционным и юридическим вопросам в Польше, давайте к этому :)».
 - НЕ давай юр. заключений по кейсу - нужен специалист с документами.
 - НЕ собирай через чат документы или паспортные данные - только имя + контакт.
 - В конце конкретного ответа короткий disclaimer: точные сроки/стоимость подтвердит специалист на консультации.
+
+БЫСТРЫЙ ИНДЕКС УСЛУГ: ${serviceIndex}
 
 КВАЛИФИКАЦИЯ ЛИДА (заполни перед submitLead):
 - urgency: high (отказ воеводы / дедлайн апелляции / истекает виза/карта / жёсткие сроки), medium (есть кейс, план в недели), low (просто изучает / сравнивает).
@@ -64,7 +70,11 @@ GDPR / RODO - ОБЯЗАТЕЛЬНО перед submitLead:
 
 <knowledge_base>
 ${knowledgeBase}
-</knowledge_base>`;
+</knowledge_base>
+
+<service_catalog>
+${serviceCatalogKb}
+</service_catalog>`;
 
 function humanThinkingDelay(messages: UIMessage[]): number {
   const last = messages[messages.length - 1] as
@@ -81,9 +91,11 @@ function humanThinkingDelay(messages: UIMessage[]): number {
     }
   }
   const len = text.trim().length;
-  // Чем длиннее вопрос - тем дольше «читает».
-  const baseMs = 700 + Math.min(len * 12, 1800);
-  const jitter = Math.floor(Math.random() * 700);
+  // Чем длиннее вопрос - тем дольше «читает». Держим паузу небольшой: модель
+  // сама думает 2-4 с, и вместе со старыми значениями первое слово появлялось
+  // только через 6 с - это уже читается как зависший чат, а не как человек.
+  const baseMs = 300 + Math.min(len * 6, 700);
+  const jitter = Math.floor(Math.random() * 400);
   return baseMs + jitter;
 }
 
@@ -128,66 +140,73 @@ export async function POST(req: Request) {
     });
   }
 
-  if (!process.env.GROQ_API_KEY) {
+  if (!hasAnyProvider()) {
     return new Response(
-      JSON.stringify({ error: 'GROQ_API_KEY is not configured' }),
+      JSON.stringify({ error: 'No chat provider is configured' }),
       { status: 500, headers: { 'Content-Type': 'application/json' } }
     );
   }
+
+  const provider = pickProvider()!;
 
   await new Promise((resolve) =>
     setTimeout(resolve, humanThinkingDelay(messages))
   );
 
   const result = streamText({
-    model: groq('llama-3.3-70b-versatile'),
+    model: provider.model,
     system: SYSTEM_PROMPT,
     messages: convertToCoreMessages(messages),
     temperature: 0.4,
-    maxTokens: 700,
+    // 700 обрывало развёрнутые ответы на полуслове — теперь запас есть, а длину
+    // держит уже сам промпт.
+    maxTokens: 900,
     maxSteps: 3,
     experimental_transform: smoothStream({
       delayInMs: 35,
       chunking: 'word'
     }),
     onError({ error }) {
-      console.error('[chat] streamText error:', error);
+      reportProviderFailure(provider.name, error);
     },
     tools: {
       submitLead: tool({
         description:
           'Отправить заявку нашему специалисту LegalWin. Вызывай ТОЛЬКО когда пользователь явно согласен и сообщил имя и телефон или email. После успешного вызова коротко подтверди пользователю, что заявка ушла.',
+        // OpenAI validates function schemas strictly: every key in `properties`
+        // must also be listed in `required`. `.optional()` fields are therefore
+        // rejected outright, so unknown values travel as explicit null instead.
         parameters: z.object({
           name: z.string().min(2).describe('Имя пользователя'),
           phone: z
             .string()
-            .optional()
-            .describe('Телефон с кодом страны, если пользователь его сообщил. Если телефона нет — НЕ передавай это поле.'),
+            .nullable()
+            .describe('Телефон с кодом страны, если пользователь его сообщил. Если телефона нет — передай null.'),
           email: z
             .string()
-            .optional()
-            .describe('Email, если пользователь его сообщил. Если email нет — НЕ передавай это поле. НИКОГДА не подставляй placeholder вроде "не указано", "нет", "n/a".'),
+            .nullable()
+            .describe('Email, если пользователь его сообщил. Если email нет — передай null. НИКОГДА не подставляй placeholder вроде "не указано", "нет", "n/a".'),
           topic: z
             .string()
-            .optional()
+            .nullable()
             .describe(
-              'Краткая тема обращения: TRC, гражданство, Sp. z o.o., налоги, Kod 95 и т. п.'
+              'Краткая тема обращения: TRC, гражданство, Sp. z o.o., налоги, Kod 95 и т. п. Нет — null.'
             ),
           situation: z
             .string()
-            .optional()
-            .describe('1-2 предложения: конкретная ситуация клиента и что он хочет получить. На русском.'),
+            .nullable()
+            .describe('1-2 предложения: конкретная ситуация клиента и что он хочет получить. На русском. Нет — null.'),
           urgency: z
             .enum(['high', 'medium', 'low'])
-            .optional()
-            .describe('Срочность по сигналам диалога: high/medium/low'),
+            .nullable()
+            .describe('Срочность по сигналам диалога: high/medium/low. Не ясно — null.'),
           readiness: z
             .enum(['hot', 'warm', 'cold'])
-            .optional()
-            .describe('Готовность к действию: hot/warm/cold'),
+            .nullable()
+            .describe('Готовность к действию: hot/warm/cold. Не ясно — null.'),
           language: z
             .string()
-            .optional()
+            .nullable()
             .describe('Язык общения пользователя: ru / pl / en / uk / tr')
         }),
         execute: async ({ name, phone, email, topic, situation, urgency, readiness, language }) => {
@@ -202,7 +221,7 @@ export async function POST(req: Request) {
           ]);
           // Шаблонные заглушки вида your_name, my-phone, user_email и т.п.
           const PLACEHOLDER_RE = /^(your|my|user|client|test)[\s_-]?(name|phone|email|tel|mail)$/i;
-          const clean = (v?: string) => {
+          const clean = (v?: string | null) => {
             if (!v) return undefined;
             const t = v.trim();
             if (PLACEHOLDERS.has(t.toLowerCase())) return undefined;
@@ -243,10 +262,10 @@ export async function POST(req: Request) {
               name: cleanName,
               phone: cleanPhone,
               email: cleanEmail,
-              topic,
-              situation,
-              urgency,
-              readiness,
+              topic: clean(topic),
+              situation: clean(situation),
+              urgency: urgency ?? undefined,
+              readiness: readiness ?? undefined,
               locale: clean(language)
             });
             return {

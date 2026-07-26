@@ -2,8 +2,7 @@
 slug: skolko-stoit-karta-pobytu-varshava-2026
 title: 'Скільки коштує карта побиту у Варшаві у 2026: повний розрахунок'
 description: >-
-  Повний розрахунок вартості karty pobytu у Варшаві 2026: opłata skarbowa 340 PLN,
-  пластик 100, переклади, страховка. Самостійно проти юриста під ключ від 2 500 PLN.
+  Повний розрахунок вартості karty pobytu у Варшаві 2026: opłata skarbowa 340 PLN, пластик 100, переклади, страховка. Самостійно чи під ключ від 2 500 PLN.
 locale: uk
 publishDate: 2026-06-03T00:00:00.000Z
 author: LegalWin

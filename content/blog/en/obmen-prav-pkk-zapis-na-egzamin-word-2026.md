@@ -2,8 +2,7 @@
 slug: obmen-prav-pkk-zapis-na-egzamin-word-2026
 title: PKK and WORD Theory Test for Licence Exchange 2026
 description: >-
-  PKK and the WORD theory exam for a Polish licence exchange: who has to sit it,
-  how to get a PKK number, how to book WORD, plus language, price and timing in 2026.
+  PKK and the WORD theory exam for a Polish licence exchange: who must sit it, how to get a PKK number and book WORD, plus language, price and timing in 2026.
 locale: en
 publishDate: 2026-08-06T00:00:00.000Z
 author: LegalWin

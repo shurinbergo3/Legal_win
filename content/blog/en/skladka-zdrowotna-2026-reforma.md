@@ -7,7 +7,7 @@ description: >-
 locale: en
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
-category: Tax & accounting
+category: Tax
 keywords:
   - składka zdrowotna 2026
   - Polish health contribution reform 2026

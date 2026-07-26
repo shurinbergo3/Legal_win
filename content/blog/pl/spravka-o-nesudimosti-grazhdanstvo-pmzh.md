@@ -1,6 +1,6 @@
 ---
 slug: spravka-o-nesudimosti-grazhdanstvo-pmzh
-title: 'Zaświadczenie o niekaralności do obywatelstwa i pobytu stałego 2026'
+title: 'Zaświadczenie o niekaralności do obywatelstwa i PR 2026'
 description: >-
   Gdzie w imigracji potrzebne jest KRK, a gdzie dodatkowo zaświadczenie z kraju
   pochodzenia z apostille. Ważność do obywatelstwa (3 mies.) i pobytu stałego.

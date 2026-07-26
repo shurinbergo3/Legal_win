@@ -2,13 +2,11 @@
 slug: zezwolenie-typu-a-vs-oswiadczenie-2026
 title: 'Zezwolenie typu A vs oświadczenie 2026: Polonya yeni kuralları'
 description: >-
-  1 Ocak 2026'dan itibaren Gürcistan, Kazakistan, Özbekistan ve diğer
-  ülke vatandaşları için oświadczenie yerine zezwolenie typu A zorunlu.
-  Yabancılar ve Polonyalı işverenler için ne anlama geliyor.
+  1 Ocak 2026'dan itibaren Gürcistan, Kazakistan, Özbekistan ve diğer ülke vatandaşları için oświadczenie yerine zezwolenie typu A zorunlu. Pratikte ne değişiyor.
 locale: tr
 publishDate: 2026-05-23T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - zezwolenie typu A 2026
   - oświadczenie powierzenia pracy

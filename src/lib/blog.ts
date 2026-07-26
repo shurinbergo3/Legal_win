@@ -148,9 +148,11 @@ export function getPostsForService(
     .slice(0, limit);
 }
 
+// Goes through readPost rather than a bare fs.existsSync so a file that is
+// still behind its publishDate doesn't get advertised — the route 404s until
+// the scheduled date, and hreflang/the locale switcher must agree with that.
 export function getAvailableLocalesForSlug(slug: string): BlogLocale[] {
-  return (routing.locales as readonly BlogLocale[]).filter((l) => {
-    const fullPath = path.join(localeDir(l), `${slug}.md`);
-    return fs.existsSync(fullPath);
-  });
+  return (routing.locales as readonly BlogLocale[]).filter(
+    (l) => readPost(l, `${slug}.md`) !== null
+  );
 }

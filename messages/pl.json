@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Karta pobytu w Polsce - konsultanci imigracyjni LegalWin · Warszawa 2026",
-    "description": "Karta czasowego i stałego pobytu, obywatelstwo polskie, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, rejestracja Sp. z o.o. Konsultanci imigracyjni w Warszawie od 2019 roku, 500+ spraw rocznie.",
+    "title": "Karta pobytu w Polsce - konsultanci LegalWin, Warszawa",
+    "description": "Karta pobytu i pobyt stały, obywatelstwo, apelacje od decyzji wojewody, wymiana prawa jazdy, Kod 95, Sp. z o.o. Konsultanci imigracyjni w Warszawie od 2019.",
     "keywords": "karta pobytu, karta czasowego pobytu, karta stałego pobytu, TRC Polska, obywatelstwo polskie, konsultant imigracyjny Warszawa, pomoc dla cudzoziemców Warszawa, wymiana prawa jazdy w Polsce, Kod 95, kwalifikacja wstępna, szkolenie okresowe, rejestracja Sp. z o.o., odwołanie od decyzji wojewody, MOS v2.0, eDoręczenia, LegalWin"
   },
   "Common": {
@@ -95,6 +95,10 @@
             "desc": "Naturalizacja, uznanie, potwierdzenie pochodzenia"
           },
           {
+            "name": "Rezydent długoterminowy UE",
+            "desc": "Zezwolenie na pobyt rezydenta długoterminowego UE: 5 lat pobytu, dochód i certyfikat B1"
+          },
+          {
             "name": "Karta Polaka",
             "desc": "Przygotowanie do rozmowy, zebranie dowodów polskich korzeni"
           },
@@ -171,6 +175,14 @@
           {
             "name": "Likwidacja i sprzedaż",
             "desc": "Zamknięcie firmy lub transakcje M&A pod klucz"
+          },
+          {
+            "name": "Deklaracje i raporty zerowe",
+            "desc": "JPK_V7, PIT, CIT-8 i sprawozdanie finansowe dla firmy bez obrotów. Jednorazowo, od 800 PLN"
+          },
+          {
+            "name": "Otwarcie konta bankowego",
+            "desc": "Konto osobiste i firmowe, także bez PESEL. Dobór banku, asysta, zgłoszenie na białą listę"
           }
         ]
       },
@@ -537,12 +549,78 @@
     "subtitle": "Nasze honorarium - stałe za etap. Opłaty urzędowe i tłumaczenia są osobno. Pełen rozkład - na stronie każdej usługi.",
     "consultationCta": "Pierwsza konsultacja gratis · 30-60 min",
     "items": [
-      { "slug": "karta-pobytu", "name": "Karta pobytu (TRC)", "value": "od 2 500 PLN", "note": "Pod klucz: od dokumentów do wydania · średnio 6-8 miesięcy" },
-      { "slug": "karta-stalego-pobytu", "name": "Karta stałego pobytu (PR)", "value": "od 3 500 PLN", "note": "Pod klucz. Opłaty 640 + 100 PLN osobno" },
-      { "slug": "obywatelstwo", "name": "Obywatelstwo polskie", "value": "od 4 500 PLN", "note": "Uznanie - pod klucz. Nadanie - od 6 000 PLN" },
-      { "slug": "apelacje", "name": "Apelacja od decyzji", "value": "od 1 800 PLN", "note": "Ekspres-analiza decyzji 48 h - 500 PLN, zalicza się" },
-      { "slug": "kod-95", "name": "Kod 95 dla kierowców", "value": "od 1 200 PLN", "note": "OSK, dokumenty, badania, egzamin w WORD" },
-      { "slug": "wymiana-prawa-jazdy", "name": "Wymiana prawa jazdy", "value": "od 600 PLN", "note": "Tłumaczenia, badania lekarskie, starostwo" }
+      {
+        "slug": "karta-pobytu",
+        "name": "Karta pobytu (TRC)",
+        "value": "od 2 000 PLN",
+        "note": "Pod klucz: od dokumentów do wydania · średnio 6-8 miesięcy"
+      },
+      {
+        "slug": "karta-stalego-pobytu",
+        "name": "Karta stałego pobytu (PR)",
+        "value": "od 3 500 PLN",
+        "note": "Pod klucz. Opłaty 640 + 100 PLN osobno"
+      },
+      {
+        "slug": "obywatelstwo",
+        "name": "Obywatelstwo polskie",
+        "value": "od 4 500 PLN",
+        "note": "Uznanie - pod klucz. Nadanie - od 6 000 PLN"
+      },
+      {
+        "slug": "rezydent-ue",
+        "name": "Rezydent długoterminowy UE",
+        "value": "od 2 000 PLN",
+        "note": "5 lat pobytu + certyfikat B1 · bezterminowo"
+      },
+      {
+        "slug": "apelacje",
+        "name": "Apelacja od decyzji",
+        "value": "od 1 800 PLN",
+        "note": "Ekspres-analiza decyzji 48 h - 500 PLN, zalicza się"
+      },
+      {
+        "slug": "kod-95",
+        "name": "Kod 95 dla kierowców",
+        "value": "od 1 200 PLN",
+        "note": "OSK, dokumenty, badania, egzamin w WORD"
+      },
+      {
+        "slug": "wymiana-prawa-jazdy",
+        "name": "Wymiana prawa jazdy",
+        "value": "od 600 PLN",
+        "note": "Tłumaczenia, badania lekarskie, starostwo"
+      },
+      {
+        "slug": "rejestracja-sp-z-oo",
+        "name": "Otwarcie Sp. z o.o. albo JDG",
+        "value": "od 3 000 PLN",
+        "note": "Rejestracja pod klucz. Zamknięcie firmy - od 3 000 PLN"
+      },
+      {
+        "slug": "podatki-ksiegowosc",
+        "name": "Księgowość i sprawozdania",
+        "value": "od 700 PLN/mies.",
+        "note": "Prowadzenie + raporty miesięczne i roczne"
+      },
+      {
+        "slug": "deklaracje-zerowe",
+        "name": "Deklaracje i raporty zerowe",
+        "value": "od 800 PLN",
+        "note": "Płatność jednorazowa · JPK_V7, PIT, CIT-8, sprawozdanie"
+      },
+      {
+        "slug": "konto-bankowe",
+        "name": "Otwarcie konta bankowego",
+        "value": "od 800 PLN",
+        "note": "Osobiste albo firmowe · ze zgłoszeniem na białą listę"
+      },
+      {
+        "slug": "pomoc-w-zatrudnieniu",
+        "name": "Pomoc w zatrudnieniu",
+        "value": "od 600 PLN",
+        "note": "CV pod polski rynek, aplikacje, rozmowy"
+      }
     ],
     "footnote": "Wszystkie ceny to nasze honoraria. Opłaty urzędowe (opłata skarbowa) i tłumaczenia przysięgłe są osobno. Po bezpłatnej konsultacji wszystko fiksujemy w umowie.",
     "ctaDetails": "Pełna kalkulacja"
@@ -787,7 +865,7 @@
   "Blog": {
     "eyebrow": "/ Dziennik",
     "title": "Blog LegalWin",
-    "intro": "Praktyczne przewodniki dotyczące legalizacji w Polsce - karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo. Bez lania wody, z linkami do polskich urzędów i realnymi cenami na 2026 rok.",
+    "intro": "Praktyczne przewodniki po legalizacji w Polsce - karta pobytu, wymiana prawa jazdy, Kod 95, obywatelstwo. Z linkami do urzędów i cenami na 2026.",
     "empty": "Wkrótce pojawią się tutaj pierwsze artykuły.",
     "readingTime": "min czytania",
     "back": "Wszystkie artykuły",

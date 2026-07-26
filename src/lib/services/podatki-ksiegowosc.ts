@@ -61,10 +61,11 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Стоимость обслуживания',
       subtitle: 'Тарифы по объёму операций. Разовые задачи (декларации, оптимизация) - отдельно.',
       items: [
-        { label: 'JDG · ryczałt', value: 'от 250 PLN/мес', note: 'до 30 операций · JPK_V7' },
-        { label: 'JDG · KPiR + VAT', value: 'от 450 PLN/мес', note: 'до 50 операций' },
-        { label: 'Sp. z o.o. · księga handlowa', value: 'от 950 PLN/мес', note: 'до 50 операций · sprawozdanie' },
-        { label: 'Sp. z o.o. · комплекс', value: 'от 1 800 PLN/мес', note: 'IP Box / Estoński CIT / TP' }
+        { label: 'JDG · ryczałt', value: 'от 700 PLN/мес', note: 'до 30 операций · JPK_V7' },
+        { label: 'JDG · KPiR + VAT', value: 'от 900 PLN/мес', note: 'до 50 операций' },
+        { label: 'Sp. z o.o. · księga handlowa', value: 'от 1 200 PLN/мес', note: 'до 50 операций · sprawozdanie' },
+        { label: 'Sp. z o.o. · комплекс', value: 'от 1 800 PLN/мес', note: 'IP Box / Estoński CIT / TP' },
+        { label: 'Нулевые декларации и отчёты', value: 'от 800 PLN', note: 'Разово · JPK_V7 / CIT-8 / sprawozdanie' }
       ],
       note: 'Тарифы для małej skali. Для среднего бизнеса (100+ операций/мес) - индивидуальный расчёт. Sprawozdanie roczne - отдельно (600-1 800 PLN). Налоговый аудит и переход на новую форму - 1 500-4 000 PLN.'
     },
@@ -86,12 +87,12 @@ const podatkiKsiegowosc: ServiceEntry = {
       { q: 'Что такое KSeF и когда переход?', a: 'KSeF - Krajowy System e-Faktur (Национальная система электронных фактур). С 1 февраля 2026 - обязательный для всех VAT podatników (плательщиков НДС). Все faktury (счета-фактуры) выставляются через KSeF онлайн, каждая с уникальным KSeF ID. Подготавливаем интеграцию вашего софта (Comarch, iFirma, Subiekt, Symfonia) с KSeF, обучаем сотрудников.' },
       { q: 'JDG → Sp. z o.o. - как переходить?', a: 'Не «преобразование», а две операции: закрытие JDG (CEIDG - реестр индивидуальных предпринимателей) + регистрация Sp. z o.o. + transfer активов. Транзит активов - apport (вклад в капитал, освобождение от VAT при apporcie przedsiębiorstwa - внесении предприятия как вклада) или sprzedaż (продажа, обычный VAT и PIT). Под ключ за 4-6 недель, 4 500-7 500 PLN.' },
       { q: 'Налоговая проверка - что делать?', a: 'Не общайтесь с inspektorem (инспектором) без налогового консультанта. Получив zawiadomienie o kontroli (уведомление о проверке), у вас есть 7 дней на подготовку. Делаем экспресс-аудит того, что проверяют, готовим документы, представляем интересы. При risiku negatywnej decyzji (риске негативного решения) - заранее идём на porozumienie i wyjaśnienia (соглашение и пояснения). После: апелляция в Dyrektora Izby Administracji Skarbowej (Директору налоговой палаты) и WSA (Воеводский админсуд).' },
-      { q: 'Сколько стоит content бухгалтерия для Sp. z o.o.?', a: 'JDG ryczałt - 250 PLN/мес, JDG KPiR (книга доходов и расходов) - 450, Sp. z o.o. księga (полная книга учёта) - 950, Sp. z o.o. с IP Box - 1 800. Это для малого бизнеса (до 50 операций/мес). Sprawozdanie roczne (годовой отчёт) - отдельно 600-1 800 PLN. Реальная стоимость для активной Sp. z o.o. - 12-25 тыс. PLN/год вкл. sprawozdanie.' },
+      { q: 'Сколько реально стоит бухгалтерия для Sp. z o.o.?', a: 'JDG ryczałt - 700 PLN/мес, JDG KPiR (книга доходов и расходов) - 900, Sp. z o.o. księga (полная книга учёта) - 1 200, Sp. z o.o. с IP Box - 1 800. Это для малого бизнеса (до 50 операций/мес). Sprawozdanie roczne (годовой отчёт) - отдельно 600-1 800 PLN. Реальная стоимость для активной Sp. z o.o. - 12-25 тыс. PLN/год вкл. sprawozdanie.' },
       { q: 'Сроки подачи деклараций?', a: 'JPK_V7 (электронная декларация НДС + регистр) - до 25 числа следующего месяца. CIT-8 - 31 марта (за прошлый год). PIT-36/36L - 30 апреля. Sprawozdanie finansowe (финансовый отчёт) - 6 месяцев после końca roku obrotowego (конца финансового года, для Sp. z o.o. - 30 czerwca). За опоздание - kary do 720 stawek dziennych (штрафы до 720 дневных ставок, ~50 000 PLN).' }
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Налоги и бухгалтерия под ключ',
-    ctaSubtitle: 'Бесплатный аудит текущей формы и расчёт экономии при переходе на оптимальную. От 250 PLN/мес.'
+    ctaSubtitle: 'Бесплатный аудит текущей формы и расчёт экономии при переходе на оптимальную. От 700 PLN/мес.'
   },
   pl: {
     slug: 'podatki-ksiegowosc',
@@ -153,10 +154,11 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Wycena',
       subtitle: 'Tarify wg liczby operacji.',
       items: [
-        { label: 'JDG ryczałt', value: 'od 250 PLN/mies.', note: 'do 30 operacji' },
-        { label: 'JDG KPiR + VAT', value: 'od 450 PLN/mies.', note: 'do 50 operacji' },
-        { label: 'Sp. z o.o. księga handlowa', value: 'od 950 PLN/mies.', note: 'do 50 operacji' },
-        { label: 'Sp. z o.o. kompleks', value: 'od 1 800 PLN/mies.', note: 'IP Box / Estoński / TP' }
+        { label: 'JDG ryczałt', value: 'od 700 PLN/mies.', note: 'do 30 operacji' },
+        { label: 'JDG KPiR + VAT', value: 'od 900 PLN/mies.', note: 'do 50 operacji' },
+        { label: 'Sp. z o.o. księga handlowa', value: 'od 1 200 PLN/mies.', note: 'do 50 operacji' },
+        { label: 'Sp. z o.o. kompleks', value: 'od 1 800 PLN/mies.', note: 'IP Box / Estoński / TP' },
+        { label: 'Deklaracje i raporty zerowe', value: 'od 800 PLN', note: 'Jednorazowo · JPK_V7 / CIT-8 / sprawozdanie' }
       ],
       note: 'Mała skala. Sprawozdanie roczne osobno (600-1 800 PLN). Średni biznes - kalkulacja indywidualna.'
     },
@@ -183,7 +185,7 @@ const podatkiKsiegowosc: ServiceEntry = {
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Podatki pod klucz',
-    ctaSubtitle: 'Bezpłatny audyt formy. Od 250 PLN/mies.'
+    ctaSubtitle: 'Bezpłatny audyt formy. Od 700 PLN/mies.'
   },
   en: {
     slug: 'podatki-ksiegowosc',
@@ -245,10 +247,11 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Service fee',
       subtitle: 'By transaction volume.',
       items: [
-        { label: 'JDG · lump sum', value: 'from 250 PLN/mo', note: 'up to 30 ops · JPK_V7' },
-        { label: 'JDG · KPiR + VAT', value: 'from 450 PLN/mo', note: 'up to 50 ops' },
-        { label: 'Sp. z o.o. · full ledger', value: 'from 950 PLN/mo', note: 'up to 50 ops · statements' },
-        { label: 'Sp. z o.o. · complex', value: 'from 1,800 PLN/mo', note: 'IP Box / Estonian / TP' }
+        { label: 'JDG · lump sum', value: 'from 700 PLN/mo', note: 'up to 30 ops · JPK_V7' },
+        { label: 'JDG · KPiR + VAT', value: 'from 900 PLN/mo', note: 'up to 50 ops' },
+        { label: 'Sp. z o.o. · full ledger', value: 'from 1,200 PLN/mo', note: 'up to 50 ops · statements' },
+        { label: 'Sp. z o.o. · complex', value: 'from 1,800 PLN/mo', note: 'IP Box / Estonian / TP' },
+        { label: 'Nil returns and reports', value: 'from 800 PLN', note: 'One-off · JPK_V7 / CIT-8 / statements' }
       ],
       note: 'Small-scale tariffs. Annual statements separate (600-1,800 PLN). Mid-size businesses (100+ ops/month) - custom quote.'
     },
@@ -275,7 +278,7 @@ const podatkiKsiegowosc: ServiceEntry = {
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Tax and accounting turnkey',
-    ctaSubtitle: 'Free form audit and savings calc. From 250 PLN/month.'
+    ctaSubtitle: 'Free form audit and savings calc. From 700 PLN/month.'
   },
   tr: {
     slug: 'podatki-ksiegowosc',
@@ -337,10 +340,11 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Hizmet ücretimiz',
       subtitle: 'İşlem hacmine göre tarifeler. Tek seferlik işler (beyanname, optimizasyon) ayrıdır.',
       items: [
-        { label: 'JDG · ryczałt', value: '250 PLN/aydan', note: '30 işleme kadar · JPK_V7' },
-        { label: 'JDG · KPiR + VAT', value: '450 PLN/aydan', note: '50 işleme kadar' },
-        { label: 'Sp. z o.o. · księga handlowa', value: '950 PLN/aydan', note: '50 işleme kadar · sprawozdanie' },
-        { label: 'Sp. z o.o. · kompleks', value: '1.800 PLN/aydan', note: 'IP Box / Estonyan CIT / TP' }
+        { label: 'JDG · ryczałt', value: '700 PLN/aydan', note: '30 işleme kadar · JPK_V7' },
+        { label: 'JDG · KPiR + VAT', value: '900 PLN/aydan', note: '50 işleme kadar' },
+        { label: 'Sp. z o.o. · księga handlowa', value: '1.200 PLN/aydan', note: '50 işleme kadar · sprawozdanie' },
+        { label: 'Sp. z o.o. · kompleks', value: '1.800 PLN/aydan', note: 'IP Box / Estonyan CIT / TP' },
+        { label: 'Sıfır beyan ve raporlar', value: '800 PLN\'den', note: 'Tek seferlik · JPK_V7 / CIT-8 / sprawozdanie' }
       ],
       note: 'Belirtilen tarifeler küçük ölçek içindir. Orta ölçekli işletme (aylık 100+ işlem) için bireysel hesap. Sprawozdanie roczne ayrıca 600-1.800 PLN. Vergi denetimi ve yeni rejime geçiş 1.500-4.000 PLN.'
     },
@@ -362,12 +366,12 @@ const podatkiKsiegowosc: ServiceEntry = {
       { q: 'KSeF nedir, geçiş ne zaman?', a: 'KSeF - Krajowy System e-Faktur (Ulusal Elektronik Fatura Sistemi). 1 Şubat 2026\'dan itibaren tüm VAT mükellefleri için zorunludur. Tüm faktury KSeF üzerinden çevrimiçi düzenlenir, her birinin benzersiz KSeF ID\'si olur. Yazılımınızın (Comarch, iFirma, Subiekt, Symfonia) KSeF ile entegrasyonunu yapıyor, çalışanlarınızı eğitiyoruz.' },
       { q: 'JDG\'den Sp. z o.o.\'ya nasıl geçilir?', a: 'Doğrudan "dönüşüm" değildir, iki ayrı işlemdir: JDG\'nin CEIDG\'den kapatılması + Sp. z o.o.\'nun tescili + varlık devri. Varlık geçişi - apport (sermayeye katkı, işletmenin tamamı sermaye olarak konursa VAT muafiyeti) veya sprzedaż (satış, normal VAT ve PIT). Anahtar teslim 4-6 hafta, 4.500-7.500 PLN.' },
       { q: 'Vergi denetiminde ne yapmalı?', a: 'Vergi danışmanı olmadan müfettişle iletişime geçmeyin. Zawiadomienie o kontroli (denetim bildirimi) aldıktan sonra hazırlık için 7 gününüz vardır. Ne denetlendiğini hızlı analiz eder, belgeleri hazırlar, çıkarlarınızı temsil ederiz. Olumsuz karar riski varsa - önceden porozumienie i wyjaśnienia (uzlaşma ve açıklama) yoluna gidiyoruz. Sonrasında: Dyrektor Izby Administracji Skarbowej\'a (Vergi İdaresi Odası Müdürü) ve WSA\'ya itiraz.' },
-      { q: 'Sp. z o.o. muhasebesi gerçekte ne tutar?', a: 'JDG ryczałt 250 PLN/ay, JDG KPiR (gelir-gider defteri) 450 PLN/ay, Sp. z o.o. tam księga 950 PLN/ay, IP Box\'lı Sp. z o.o. 1.800 PLN/ay. Bu küçük işletmeler içindir (ayda 50 işleme kadar). Sprawozdanie roczne ayrıca 600-1.800 PLN. Aktif Sp. z o.o. için gerçek yıllık maliyet 12-25 bin PLN (yıllık rapor dahil).' },
+      { q: 'Sp. z o.o. muhasebesi gerçekte ne tutar?', a: 'JDG ryczałt 700 PLN/ay, JDG KPiR (gelir-gider defteri) 900 PLN/ay, Sp. z o.o. tam księga 1.200 PLN/ay, IP Box\'lı Sp. z o.o. 1.800 PLN/ay. Bu küçük işletmeler içindir (ayda 50 işleme kadar). Sprawozdanie roczne ayrıca 600-1.800 PLN. Aktif Sp. z o.o. için gerçek yıllık maliyet 12-25 bin PLN (yıllık rapor dahil).' },
       { q: 'Beyanname süreleri nedir?', a: 'JPK_V7 (elektronik VAT beyannamesi + sicil) - takip eden ayın 25\'ine kadar. CIT-8 - 31 Mart (önceki yıl için). PIT-36/36L - 30 Nisan. Sprawozdanie finansowe - mali yıl bitiminden sonra 6 ay içinde (Sp. z o.o. için 30 Haziran). Geç sunma - 720 dziennej stawki (günlük asgari ücret) cezasına kadar (~50.000 PLN).' }
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Vergi ve muhasebe anahtar teslim',
-    ctaSubtitle: 'Mevcut rejiminizi ücretsiz analiz eder, optimal forma geçişte tasarrufu hesaplarız. 250 PLN/aydan başlar.'
+    ctaSubtitle: 'Mevcut rejiminizi ücretsiz analiz eder, optimal forma geçişte tasarrufu hesaplarız. 700 PLN/aydan başlar.'
   },
   uk: {
     slug: 'podatki-ksiegowosc',
@@ -429,10 +433,11 @@ const podatkiKsiegowosc: ServiceEntry = {
       title: 'Вартість обслуговування',
       subtitle: 'Тарифи за обсягом операцій. Разові задачі (декларації, оптимізація) — окремо.',
       items: [
-        { label: 'JDG · ryczałt', value: 'від 250 PLN/міс.', note: 'до 30 операцій · JPK_V7' },
-        { label: 'JDG · KPiR + VAT', value: 'від 450 PLN/міс.', note: 'до 50 операцій' },
-        { label: 'Sp. z o.o. · księga handlowa', value: 'від 950 PLN/міс.', note: 'до 50 операцій · sprawozdanie' },
-        { label: 'Sp. z o.o. · комплекс', value: 'від 1 800 PLN/міс.', note: 'IP Box / Estoński CIT / TP' }
+        { label: 'JDG · ryczałt', value: 'від 700 PLN/міс.', note: 'до 30 операцій · JPK_V7' },
+        { label: 'JDG · KPiR + VAT', value: 'від 900 PLN/міс.', note: 'до 50 операцій' },
+        { label: 'Sp. z o.o. · księga handlowa', value: 'від 1 200 PLN/міс.', note: 'до 50 операцій · sprawozdanie' },
+        { label: 'Sp. z o.o. · комплекс', value: 'від 1 800 PLN/міс.', note: 'IP Box / Estoński CIT / TP' },
+        { label: 'Нульові декларації та звіти', value: 'від 800 PLN', note: 'Разово · JPK_V7 / CIT-8 / sprawozdanie' }
       ],
       note: 'Тарифи для małej skali. Для середнього бізнесу (100+ операцій/міс.) — індивідуальний розрахунок. Sprawozdanie roczne — окремо (600–1 800 PLN). Податковий аудит і перехід на нову форму — 1 500–4 000 PLN.'
     },
@@ -454,12 +459,12 @@ const podatkiKsiegowosc: ServiceEntry = {
       { q: 'Що таке KSeF і коли перехід?', a: 'KSeF — Krajowy System e-Faktur (Національна система електронних фактур). З 1 лютого 2026 — обов’язкова для всіх VAT podatników (платників ПДВ). Усі faktury (рахунки-фактури) виставляються через KSeF онлайн, кожна з унікальним KSeF ID. Підготовуємо інтеграцію вашого софту (Comarch, iFirma, Subiekt, Symfonia) з KSeF, навчаємо співробітників.' },
       { q: 'JDG → Sp. z o.o. — як переходити?', a: 'Не «перетворення», а дві операції: закриття JDG (CEIDG — реєстр індивідуальних підприємців) + реєстрація Sp. z o.o. + transfer активів. Транзит активів — apport (вклад у капітал, звільнення від VAT при apporcie przedsiębiorstwa — внесенні підприємства як вкладу) або sprzedaż (продаж, звичайний VAT і PIT). Під ключ за 4–6 тижнів, 4 500–7 500 PLN.' },
       { q: 'Податкова перевірка — що робити?', a: 'Не спілкуйтеся з inspektorem (інспектором) без податкового консультанта. Отримавши zawiadomienie o kontroli (повідомлення про перевірку), у вас є 7 днів на підготовку. Робимо експрес-аудит того, що перевіряють, готуємо документи, представляємо інтереси. При risiku negatywnej decyzji (ризику негативного рішення) — заздалегідь ідемо на porozumienie i wyjaśnienia (угоду і пояснення). Після: апеляція до Dyrektora Izby Administracji Skarbowej (Директора податкової палати) і WSA (Воєводський адмінсуд).' },
-      { q: 'Скільки коштує бухгалтерія для Sp. z o.o.?', a: 'JDG ryczałt — 250 PLN/міс., JDG KPiR (книга доходів і витрат) — 450, Sp. z o.o. księga (повна книга обліку) — 950, Sp. z o.o. з IP Box — 1 800. Це для малого бізнесу (до 50 операцій/міс.). Sprawozdanie roczne (річний звіт) — окремо 600–1 800 PLN. Реальна вартість для активної Sp. z o.o. — 12–25 тис. PLN/рік разом зі sprawozdaniem.' },
+      { q: 'Скільки коштує бухгалтерія для Sp. z o.o.?', a: 'JDG ryczałt — 700 PLN/міс., JDG KPiR (книга доходів і витрат) — 900, Sp. z o.o. księga (повна книга обліку) — 1 200, Sp. z o.o. з IP Box — 1 800. Це для малого бізнесу (до 50 операцій/міс.). Sprawozdanie roczne (річний звіт) — окремо 600–1 800 PLN. Реальна вартість для активної Sp. z o.o. — 12–25 тис. PLN/рік разом зі sprawozdaniem.' },
       { q: 'Строки подання декларацій?', a: 'JPK_V7 (електронна декларація ПДВ + реєстр) — до 25 числа наступного місяця. CIT-8 — 31 березня (за попередній рік). PIT-36/36L — 30 квітня. Sprawozdanie finansowe (фінансовий звіт) — 6 місяців після końca roku obrotowego (кінця фінансового року, для Sp. z o.o. — 30 czerwca). За запізнення — kary do 720 stawek dziennych (штрафи до 720 денних ставок, ~50 000 PLN).' }
     ],
     related: ['rejestracja-sp-z-oo', 'jdg', 'zaswiadczenia-zus-us'],
     ctaTitle: 'Податки і бухгалтерія під ключ',
-    ctaSubtitle: 'Безкоштовний аудит поточної форми і розрахунок економії при переході на оптимальну. Від 250 PLN/міс.'
+    ctaSubtitle: 'Безкоштовний аудит поточної форми і розрахунок економії при переході на оптимальну. Від 700 PLN/міс.'
   }
 };
 

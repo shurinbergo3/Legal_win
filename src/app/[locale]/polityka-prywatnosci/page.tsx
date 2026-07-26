@@ -5,6 +5,7 @@ import { Footer } from '@/components/Footer';
 import { LegalPage } from '@/components/LegalPage';
 import { getLegalDoc } from '@/lib/legal-content';
 import { routing } from '@/i18n/routing';
+import { OG_IMAGE_HEIGHT, OG_IMAGE_PATH, OG_IMAGE_WIDTH } from '@/lib/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -26,12 +27,21 @@ export async function generateMetadata({
         routing.locales.map((l) => [l, `/${l}/polityka-prywatnosci`])
       )
     },
-    // Without an own openGraph block the page inherits the homepage's og:url
-    // and og:title from the locale layout.
+    // A page-level openGraph block replaces the locale layout's one wholesale,
+    // so the image has to be repeated here or the page ships without a preview.
     openGraph: {
       title: `${doc.title} - LegalWin`,
       description: doc.intro.slice(0, 160),
-      url: `/${locale}/polityka-prywatnosci`
+      url: `/${locale}/polityka-prywatnosci`,
+      images: [
+        {
+          url: OG_IMAGE_PATH,
+          width: OG_IMAGE_WIDTH,
+          height: OG_IMAGE_HEIGHT,
+          alt: doc.title,
+          type: 'image/webp'
+        }
+      ]
     },
     robots: { index: true, follow: true }
   };

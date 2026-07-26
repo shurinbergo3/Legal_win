@@ -1,6 +1,6 @@
 ---
 slug: spravka-o-nesudimosti-grazhdanstvo-pmzh
-title: 'Certificate of No Criminal Record for Citizenship and PR in Poland 2026'
+title: 'Criminal Record Certificate for Citizenship and PR 2026'
 description: >-
   Where immigration needs KRK and where it also needs a home-country
   certificate with apostille. Validity for citizenship (3 mo) and pobyt stały.

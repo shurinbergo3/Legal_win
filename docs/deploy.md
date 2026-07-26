@@ -30,6 +30,37 @@ ID), so the volume stays valid across redeploys as long as the source images in
 `deviceSizes` entry in `next.config.ts`) to keep sharp's decode cost down — see
 the image-compression note below.
 
+## 1b. Persist the Telegram subscribers and lead history (important)
+
+`src/lib/subscribers.ts` and `src/lib/leads-store.ts` use Vercel KV when
+`KV_REST_API_URL` + `KV_REST_API_TOKEN` are set, and otherwise fall back to JSON
+files under `<cwd>/data/`. Prod currently has no KV vars, so it is on the file
+path — and the Dockerfile only does `mkdir -p /app/data` inside the image.
+
+That means **every redeploy wipes the bot's subscriber list and the whole lead
+history**: operators who registered with the bot silently stop receiving new
+requests until they message it again, and `/admin` shows an empty lead list.
+
+**Fix: mount a persistent volume at `/app/data`.**
+
+In Dokploy → the app → **Advanced → Volumes**, add:
+
+| Type         | Host path / volume name | Container path |
+|--------------|-------------------------|----------------|
+| Volume mount | `legalwin-data`         | `/app/data`    |
+
+Then hit **Redeploy** (volume changes only apply on redeploy). After the first
+deploy, re-register the operators once by messaging the bot with
+`TELEGRAM_PASSWORD`; from then on the list survives deploys.
+
+Alternative: set `KV_REST_API_URL` + `KV_REST_API_TOKEN` in **Environment** and
+both stores move to KV automatically — no volume needed. Either works; the
+volume is the cheaper option on a single-box setup.
+
+Belt and braces: `TELEGRAM_OPERATOR_CHAT_IDS` (comma-separated chat IDs) is
+merged in on every read and lives in env, so operators listed there keep working
+even if the store is empty. Worth setting for the permanent staff accounts.
+
 ## 2. Put a CDN / edge cache in front (recommended)
 
 Routing the domain through Cloudflare (free plan is enough) caches both the

@@ -27,6 +27,34 @@ export const REVIEW_RATING_VALUE = '4.9';
 
 export type SeoLocale = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
+// Google truncates the SERP title around 60-65 characters. Content titles vary
+// a lot in length, so the brand suffix is appended only when it still fits —
+// a cut-off "…| Lega" reads worse than no brand at all.
+const TITLE_LIMIT = 65;
+
+export function withBrand(title: string, brand = ORG_LEGAL_NAME): string {
+  const suffix = ` | ${brand}`;
+  return title.length + suffix.length <= TITLE_LIMIT ? title + suffix : title;
+}
+
+/**
+ * Title for a page that has both a name and a descriptive subtitle.
+ * Keeps as much of it as fits, dropping the least valuable part first:
+ * name + subtitle + brand → name + subtitle → name + brand → name.
+ */
+export function titleWithSubtitle(
+  title: string,
+  subtitle: string,
+  brand = ORG_LEGAL_NAME
+): string {
+  const suffix = ` | ${brand}`;
+  const full = `${title} - ${subtitle}`;
+  if ((full + suffix).length <= TITLE_LIMIT) return full + suffix;
+  if (full.length <= TITLE_LIMIT) return full;
+  if ((title + suffix).length <= TITLE_LIMIT) return title + suffix;
+  return title;
+}
+
 export function languagesAlternate(
   basePath: (locale: SeoLocale) => string
 ): Record<string, string> {

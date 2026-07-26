@@ -2,8 +2,7 @@
 slug: obmen-ukrainskih-prav-na-polskie-2026
 title: 'Обмін українських прав на польські у 2026: без іспиту'
 description: >-
-  Як українцю обміняти права на польські без іспиту у 2026: PESEL UKR, швидкий
-  канал МВС України, ціна 100,50 PLN, Wydział Komunikacji у Варшаві, строки 30-60 днів.
+  Як українцю обміняти права на польські без іспиту у 2026: PESEL UKR, канал МВС України, 100,50 PLN, Wydział Komunikacji у Варшаві, строки 30-60 днів.
 locale: uk
 publishDate: 2026-06-04T00:00:00.000Z
 author: LegalWin

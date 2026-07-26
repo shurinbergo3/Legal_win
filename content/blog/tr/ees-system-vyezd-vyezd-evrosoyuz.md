@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-04-15T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - EES Entry Exit System
   - AB biyometrik kayıt 2026

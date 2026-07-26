@@ -1,10 +1,8 @@
 ---
 slug: obmen-belorusskih-prav-na-polskie-2026
-title: 'Exchanging a Belarusian Driving Licence for a Polish One in 2026: Timelines and Nuances'
+title: 'Belarusian Driving Licence Exchange in Poland 2026'
 description: >-
-  Vienna Convention, no exams for cat. A/B, verification through the Belarusian
-  MIA, apostille for older licences, timelines 60-90 days, costs from 180 PLN,
-  Wydział Komunikacji in Warsaw.
+  Vienna Convention, no exams for cat. A/B, verification through the Belarusian MIA, apostille for older licences, 60-90 days, costs from 180 PLN.
 locale: en
 publishDate: 2026-06-05T00:00:00.000Z
 author: LegalWin

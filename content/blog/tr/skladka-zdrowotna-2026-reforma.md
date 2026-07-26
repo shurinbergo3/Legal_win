@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
-category: Vergi ve Muhasebe
+category: Vergi
 keywords:
   - składka zdrowotna 2026
   - Polonya sağlık primi reformu

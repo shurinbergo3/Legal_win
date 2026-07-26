@@ -1,8 +1,9 @@
 @import 'tailwindcss';
 
 @theme {
-  /* Per-glyph cascade: Fraunces (Latin/Wonky) → Source Serif 4 (Cyrillic). */
-  --font-display: var(--font-fraunces), var(--font-source-serif), Georgia, serif;
+  /* One display face across all locales — Playfair Display carries Latin,
+     Latin-ext and Cyrillic, so headings no longer switch typeface by language. */
+  --font-display: var(--font-display-family), Georgia, serif;
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 

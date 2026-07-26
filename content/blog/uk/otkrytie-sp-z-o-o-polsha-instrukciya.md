@@ -15,7 +15,7 @@ keywords:
   - spółka z o.o. без karty pobytu
   - бізнес у Польщі іммігрант
 relatedServices:
-  - /uk/uslugi/business
+  - /uk/uslugi/rejestracja-sp-z-oo
   - /uk/uslugi/karta-pobytu
 schema: Article
 ---
@@ -178,4 +178,4 @@ PKD (Polska Klasyfikacja Działalności) — це класифікатор ви�
 
 Відкриття Sp. z o.o. у Польщі — процедура цілком реальна навіть без karty pobytu, але потребує точності: від вибору PKD-кодів до коректного ZUS-статусу директора. Помилки тут коштують дорожче, ніж у побутових питаннях.
 
-Якщо хочете, щоб ми взяли реєстрацію на себе або проконсультували щодо структури — [запишіться у LegalWin](/uk/uslugi/business). Працюємо з іммігрантами без karty pobytu і з kartą pobytu, українською та польською.
+Якщо хочете, щоб ми взяли реєстрацію на себе або проконсультували щодо структури — [запишіться у LegalWin](/uk/uslugi/rejestracja-sp-z-oo). Працюємо з іммігрантами без karty pobytu і з kartą pobytu, українською та польською.

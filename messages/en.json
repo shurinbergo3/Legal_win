@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Karta Pobytu (TRC) Poland - LegalWin immigration consultants · Warsaw 2026",
-    "description": "Polish residence cards (TRC/PR), citizenship, appeals against voivode denials, driving-licence exchange, Code 95, Sp. z o.o. registration. Warsaw immigration consultants since 2019, 500+ cases a year.",
+    "title": "Karta Pobytu (TRC) Poland - LegalWin consultants, Warsaw",
+    "description": "Polish residence cards and permanent residence, citizenship, appeals, licence exchange, Code 95, Sp. z o.o. Warsaw immigration consultants since 2019.",
     "keywords": "Karta Pobytu, temporary residence card Poland, permanent residence Poland, Polish citizenship, immigration consultant Warsaw, Polish residence permit, EU Blue Card Poland, driving licence exchange Poland, Code 95, driver CPC Poland, register company in Poland, Sp. z o.o., appeal residence permit denial, MOS v2.0, LegalWin"
   },
   "Common": {
@@ -95,6 +95,10 @@
             "desc": "Naturalization, recognition, confirmation of origin"
           },
           {
+            "name": "EU long-term resident",
+            "desc": "EU long-term resident permit: five years of residence, stable income and a B1 certificate"
+          },
+          {
             "name": "Karta Polaka",
             "desc": "Interview prep, gathering evidence of Polish roots"
           },
@@ -171,6 +175,14 @@
           {
             "name": "Wind-down & M&A",
             "desc": "Closing the company or M&A deals end-to-end"
+          },
+          {
+            "name": "Nil returns and dormant filings",
+            "desc": "JPK_V7, PIT, CIT-8 and financial statements for a dormant company. One-off, from 800 PLN"
+          },
+          {
+            "name": "Bank account opening",
+            "desc": "Personal and business accounts, including without PESEL. Bank selection, support, white list"
           }
         ]
       },
@@ -537,12 +549,78 @@
     "subtitle": "Our fees are fixed per stage. Official fees and sworn translations are billed separately. Full breakdown lives on each service page.",
     "consultationCta": "First consultation free · 30-60 min",
     "items": [
-      { "slug": "karta-pobytu", "name": "Karta Pobytu (TRC)", "value": "from 2,500 PLN", "note": "Turnkey, from filing to card · ~6-8 months average" },
-      { "slug": "karta-stalego-pobytu", "name": "Permanent residence (PR)", "value": "from 3,500 PLN", "note": "Turnkey. Official fees 640 + 100 PLN separate" },
-      { "slug": "obywatelstwo", "name": "Polish citizenship", "value": "from 4,500 PLN", "note": "Recognition - turnkey. Naturalisation from 6,000 PLN" },
-      { "slug": "apelacje", "name": "Appeal on a denial", "value": "from 1,800 PLN", "note": "48-hour express decision review - 500 PLN, credited" },
-      { "slug": "kod-95", "name": "Code 95 for drivers", "value": "from 1,200 PLN", "note": "OSK, paperwork, medicals, WORD exam" },
-      { "slug": "wymiana-prawa-jazdy", "name": "Driving licence exchange", "value": "from 600 PLN", "note": "Translations, badania lekarskie, starostwo" }
+      {
+        "slug": "karta-pobytu",
+        "name": "Karta Pobytu (TRC)",
+        "value": "from 2,000 PLN",
+        "note": "Turnkey, from filing to card · ~6-8 months average"
+      },
+      {
+        "slug": "karta-stalego-pobytu",
+        "name": "Permanent residence (PR)",
+        "value": "from 3,500 PLN",
+        "note": "Turnkey. Official fees 640 + 100 PLN separate"
+      },
+      {
+        "slug": "obywatelstwo",
+        "name": "Polish citizenship",
+        "value": "from 4,500 PLN",
+        "note": "Recognition - turnkey. Naturalisation from 6,000 PLN"
+      },
+      {
+        "slug": "rezydent-ue",
+        "name": "EU long-term resident",
+        "value": "from 2,000 PLN",
+        "note": "Five years of residence + B1 certificate · indefinite"
+      },
+      {
+        "slug": "apelacje",
+        "name": "Appeal on a denial",
+        "value": "from 1,800 PLN",
+        "note": "48-hour express decision review - 500 PLN, credited"
+      },
+      {
+        "slug": "kod-95",
+        "name": "Code 95 for drivers",
+        "value": "from 1,200 PLN",
+        "note": "OSK, paperwork, medicals, WORD exam"
+      },
+      {
+        "slug": "wymiana-prawa-jazdy",
+        "name": "Driving licence exchange",
+        "value": "from 600 PLN",
+        "note": "Translations, badania lekarskie, starostwo"
+      },
+      {
+        "slug": "rejestracja-sp-z-oo",
+        "name": "Sp. z o.o. or JDG setup",
+        "value": "from 3,000 PLN",
+        "note": "Turnkey registration. Closing a business from 3,000 PLN"
+      },
+      {
+        "slug": "podatki-ksiegowosc",
+        "name": "Bookkeeping and financial reports",
+        "value": "from 700 PLN/mo",
+        "note": "Ongoing bookkeeping + monthly and annual filings"
+      },
+      {
+        "slug": "deklaracje-zerowe",
+        "name": "Nil returns and dormant filings",
+        "value": "from 800 PLN",
+        "note": "One-off · JPK_V7, PIT, CIT-8, financial statements"
+      },
+      {
+        "slug": "konto-bankowe",
+        "name": "Bank account opening",
+        "value": "from 800 PLN",
+        "note": "Personal or business · white-list registration included"
+      },
+      {
+        "slug": "pomoc-w-zatrudnieniu",
+        "name": "Employment help",
+        "value": "from 600 PLN",
+        "note": "Polish-market CV, applications, interview prep"
+      }
     ],
     "footnote": "Listed prices are LegalWin fees only. Official fees (opłata skarbowa) and sworn translations are billed separately. After the free consultation, exact pricing is fixed in writing.",
     "ctaDetails": "Full breakdown"
@@ -787,7 +865,7 @@
   "Blog": {
     "eyebrow": "/ Journal",
     "title": "LegalWin Blog",
-    "intro": "Practical guides on legalisation in Poland - residence cards, driving licence exchange, Code 95, Polish citizenship. No filler, with links to Polish urzędy and real 2026 prices.",
+    "intro": "Practical guides to legalisation in Poland - residence cards, licence exchange, Code 95, citizenship. With links to Polish urzędy and real 2026 prices.",
     "empty": "First articles will appear here soon.",
     "readingTime": "min read",
     "back": "All articles",

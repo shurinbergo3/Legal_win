@@ -7,7 +7,7 @@ description: >-
 locale: ru
 publishDate: 2026-08-08T00:00:00.000Z
 author: LegalWin
-category: Права
+category: Транспорт
 keywords:
   - обмен прав если утеряны
   - wymiana prawa jazdy другая фамилия

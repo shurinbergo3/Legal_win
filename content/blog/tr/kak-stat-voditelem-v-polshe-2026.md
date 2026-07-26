@@ -1,6 +1,6 @@
 ---
 slug: kak-stat-voditelem-v-polshe-2026
-title: 'Polonya''da Profesyonel Şoför Nasıl Olunur 2026: Ehliyet, Kod 95, Karta Kierowcy'
+title: 'Polonya''da Profesyonel Şoför Nasıl Olunur 2026'
 description: >-
   Yabancılar için tam yol haritası: ehliyet değişimi, Kod 95 ve karta kierowcy.
   Üç belge, süreler, masraflar ve doğru sıra. LegalWin Varşova hukuk bürosu.

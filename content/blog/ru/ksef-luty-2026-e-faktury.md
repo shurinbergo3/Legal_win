@@ -7,7 +7,7 @@ description: >-
 locale: ru
 publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
-category: Налоги и бухгалтерия
+category: Налоги
 keywords:
   - KSeF 2026
   - krajowy system e-faktur

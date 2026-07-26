@@ -35,6 +35,9 @@ import przegladTechniczny from './przeglad-techniczny';
 import pracaKierowcaTaxi from './praca-kierowca-taxi';
 import pracaKierowcaCiezarowka from './praca-kierowca-ciezarowka';
 import kartaKierowcy from './karta-kierowcy';
+import rezydentUe from './rezydent-ue';
+import deklaracjeZerowe from './deklaracje-zerowe';
+import kontoBankowe from './konto-bankowe';
 import type { ServiceEntry, ServiceLocale } from './types';
 
 export const services: Record<string, ServiceEntry> = {
@@ -74,7 +77,10 @@ export const services: Record<string, ServiceEntry> = {
   'przeglad-techniczny': przegladTechniczny,
   'praca-kierowca-taxi': pracaKierowcaTaxi,
   'praca-kierowca-ciezarowka': pracaKierowcaCiezarowka,
-  'karta-kierowcy': kartaKierowcy
+  'karta-kierowcy': kartaKierowcy,
+  'rezydent-ue': rezydentUe,
+  'deklaracje-zerowe': deklaracjeZerowe,
+  'konto-bankowe': kontoBankowe
 };
 
 export const serviceSlugs = Object.keys(services);

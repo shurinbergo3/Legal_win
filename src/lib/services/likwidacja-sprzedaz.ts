@@ -61,6 +61,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
       subtitle: 'Likwidacja - fixed price. M&A - % от сделки.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '30 минут · выбор пути' },
+        { label: 'Закрытие JDG', value: 'от 3 000 PLN', note: 'CEIDG-1 + ZUS ZWUA + VAT-Z + wykaz' },
         { label: 'Sprzedaż udziałów', value: 'от 1 800 PLN', note: 'Umowa у нотариуса + KRS' },
         { label: 'Likwidacja Sp. z o.o.', value: 'от 6 500 PLN', note: 'Полный цикл 6+ месяцев' },
         { label: 'M&A полный цикл', value: 'от 15 000 PLN', note: 'Due diligence + договор + закрытие' }
@@ -150,6 +151,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
       subtitle: 'Likwidacja - stała. M&A - % od transakcji.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '30 min · wybór ścieżki' },
+        { label: 'Zamknięcie JDG', value: 'od 3 000 PLN', note: 'CEIDG-1 + ZUS ZWUA + VAT-Z + wykaz' },
         { label: 'Sprzedaż udziałów', value: 'od 1 800 PLN', note: 'Notariusz + KRS' },
         { label: 'Likwidacja', value: 'od 6 500 PLN', note: 'Pełen cykl 6+ mies.' },
         { label: 'M&A pełny', value: 'od 15 000 PLN', note: 'DD + umowa + zamknięcie' }
@@ -239,6 +241,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
       subtitle: 'Liquidation - fixed. M&A - % of deal.',
       items: [
         { label: 'Consultation', value: 'Free', note: '30 min · path selection' },
+        { label: 'JDG closure', value: 'from 3,000 PLN', note: 'CEIDG-1 + ZUS ZWUA + VAT-Z + inventory' },
         { label: 'Share sale', value: 'from 1,800 PLN', note: 'Notary + KRS' },
         { label: 'Liquidation', value: 'from 6,500 PLN', note: 'Full cycle 6+ months' },
         { label: 'Full M&A', value: 'from 15,000 PLN', note: 'DD + agreement + close' }
@@ -328,6 +331,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
       subtitle: 'Likwidacja sabit fiyat. M&A için işlemden % alıyoruz.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · yol seçimi' },
+        { label: 'JDG kapanışı', value: '3.000 PLN\'den', note: 'CEIDG-1 + ZUS ZWUA + VAT-Z + envanter' },
         { label: 'Pay devri', value: '1.800 PLN\'den', note: 'Noter umowa\'sı + KRS' },
         { label: 'Sp. z o.o. likwidacja', value: '6.500 PLN\'den', note: '6+ aylık tam döngü' },
         { label: 'Tam M&A süreci', value: '15.000 PLN\'den', note: 'Due diligence + sözleşme + kapanış' }
@@ -417,6 +421,7 @@ const likwidacjaSprzedaz: ServiceEntry = {
       subtitle: 'Likwidacja — fixed price. M&A — % від угоди.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · вибір шляху' },
+        { label: 'Закриття JDG', value: 'від 3 000 PLN', note: 'CEIDG-1 + ZUS ZWUA + VAT-Z + wykaz' },
         { label: 'Sprzedaż udziałów', value: 'від 1 800 PLN', note: 'Umowa у нотаріуса + KRS' },
         { label: 'Likwidacja Sp. z o.o.', value: 'від 6 500 PLN', note: 'Повний цикл 6+ місяців' },
         { label: 'M&A повний цикл', value: 'від 15 000 PLN', note: 'Due diligence + договір + закриття' }

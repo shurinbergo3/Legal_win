@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-03-22T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - Polonya oturum kartı 2026
   - Karta Pobytu nasıl alınır

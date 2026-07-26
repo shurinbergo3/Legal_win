@@ -10,7 +10,17 @@ import { cn } from '@/lib/cn';
 // can surface uk before ru without touching SEO/middleware ordering.
 const SWITCHER_ORDER: readonly Locale[] = ['uk', 'ru', 'pl', 'en', 'tr'];
 
-export function LocaleSwitcher({ className }: { className?: string }) {
+export function LocaleSwitcher({
+  className,
+  availableLocales,
+  fallbackPath = '/'
+}: {
+  className?: string;
+  /** Locales this page actually exists in. Omit when every locale has it. */
+  availableLocales?: readonly string[];
+  /** Where to land when the target locale has no translation of this page. */
+  fallbackPath?: string;
+}) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -35,6 +45,12 @@ export function LocaleSwitcher({ className }: { className?: string }) {
             disabled={pending || active}
             onClick={() =>
               startTransition(() => {
+                // Untranslated page in the target locale — the same path would
+                // 404 there, so land on the section index instead.
+                if (availableLocales && !availableLocales.includes(l)) {
+                  router.replace(fallbackPath, { locale: l });
+                  return;
+                }
                 // next-intl's usePathname() excludes query string and hash —
                 // re-attach them so ?utm_* etc. survive a locale switch.
                 const suffix = window.location.search + window.location.hash;

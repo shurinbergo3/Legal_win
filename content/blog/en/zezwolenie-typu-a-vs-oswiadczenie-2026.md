@@ -2,9 +2,7 @@
 slug: zezwolenie-typu-a-vs-oswiadczenie-2026
 title: 'Zezwolenie typu A vs Oświadczenie 2026: New Polish Rules'
 description: >-
-  From 1 January 2026 nationals of Georgia, Kazakhstan, Uzbekistan and other
-  states must hold a zezwolenie typu A instead of an oświadczenie. What it
-  means for foreigners and employers in Poland.
+  From 1 January 2026 nationals of Georgia, Kazakhstan, Uzbekistan and other states need a zezwolenie typu A instead of an oświadczenie. What changes in practice.
 locale: en
 publishDate: 2026-05-23T00:00:00.000Z
 author: LegalWin

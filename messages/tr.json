@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Polonya oturum kartı ve göçmenlik danışmanlığı - LegalWin Varşova 2026",
-    "description": "Polonya'da Karta Pobytu (oturum kartı), vatandaşlık, ret kararlarına itiraz, ehliyet değişimi, Kod 95, Sp. z o.o. (limited şirket) kuruluşu. Varşova'da 2019'dan beri çalışan göçmenlik ekibi, yılda 500'den fazla dosya.",
+    "title": "Polonya oturum kartı - LegalWin danışmanları, Varşova",
+    "description": "Karta Pobytu ve daimi oturum, vatandaşlık, ret kararlarına itiraz, ehliyet değişimi, Kod 95, Sp. z o.o. Varşova'da 2019'dan beri göçmenlik danışmanlığı.",
     "keywords": "Polonya oturum kartı, Karta Pobytu, Polonya'da oturum izni, Polonya vatandaşlığı, Polonya pasaportu, göçmenlik danışmanlığı Varşova, Polonya'da ehliyet değişimi, Kod 95, Polonya'da şirket kurmak, Sp. z o.o., PESEL nasıl alınır, Polonya oturum izni reddi itiraz, yabancılar için hukuk Polonya, LegalWin"
   },
   "Common": {
@@ -95,6 +95,10 @@
             "desc": "Vatandaşlığa kabul (uznanie), tanınma, köken kanıtı"
           },
           {
+            "name": "AB uzun dönem ikamet",
+            "desc": "AB uzun dönem ikamet izni: 5 yıl ikamet, istikrarlı gelir ve B1 sertifikası"
+          },
+          {
             "name": "Karta Polaka",
             "desc": "Mülakat hazırlığı, Polonya kökenine dair belge derlemesi"
           },
@@ -171,6 +175,14 @@
           {
             "name": "Tasfiye ve satış",
             "desc": "Şirket kapanışı veya M&A sürecinin baştan sona yürütülmesi"
+          },
+          {
+            "name": "Sıfır beyan ve raporlar",
+            "desc": "Cirosu olmayan şirket için JPK_V7, PIT, CIT-8 ve sprawozdanie finansowe. Tek seferlik, 800 PLN'den"
+          },
+          {
+            "name": "Banka hesabı açma",
+            "desc": "Bireysel ve şirket hesabı, PESEL olmadan da. Banka seçimi, eşlik, biała lista"
           }
         ]
       },
@@ -537,12 +549,78 @@
     "subtitle": "Ücretimiz aşama başına sabittir. Damga vergileri ve tercümeler ayrı ödenir. Tam dökümü her hizmet sayfasında bulabilirsiniz.",
     "consultationCta": "İlk danışmanlık ücretsiz · 30-60 dk",
     "items": [
-      { "slug": "karta-pobytu", "name": "Karta Pobytu (geçici oturum)", "value": "2.500 PLN'den başlar", "note": "Anahtar teslim: belge derlemesinden alıma kadar - ortalama 6-8 ay" },
-      { "slug": "karta-stalego-pobytu", "name": "Karta Stałego Pobytu (daimi oturum)", "value": "3.500 PLN'den başlar", "note": "Anahtar teslim. 640 + 100 PLN damga vergisi ayrıca" },
-      { "slug": "obywatelstwo", "name": "Polonya vatandaşlığı", "value": "4.500 PLN'den başlar", "note": "Uznanie (tanınma) - tam paket. Vatandaşlığa kabul (natüralizasyon) - 6.000 PLN'den" },
-      { "slug": "apelacje", "name": "Ret kararına itiraz", "value": "1.800 PLN'den başlar", "note": "Karar analizi 48 saat - 500 PLN, ana ücretten düşülür" },
-      { "slug": "kod-95", "name": "Sürücüler için Kod 95", "value": "1.200 PLN'den başlar", "note": "OSK, belgeler, sağlık raporu, WORD sınavı" },
-      { "slug": "wymiana-prawa-jazdy", "name": "Ehliyet değişimi", "value": "600 PLN'den başlar", "note": "Tercümeler, badania lekarskie (sağlık raporu), starostwo işlemleri" }
+      {
+        "slug": "karta-pobytu",
+        "name": "Karta Pobytu (geçici oturum)",
+        "value": "2.000 PLN'den başlar",
+        "note": "Anahtar teslim: belge derlemesinden alıma kadar - ortalama 6-8 ay"
+      },
+      {
+        "slug": "karta-stalego-pobytu",
+        "name": "Karta Stałego Pobytu (daimi oturum)",
+        "value": "3.500 PLN'den başlar",
+        "note": "Anahtar teslim. 640 + 100 PLN damga vergisi ayrıca"
+      },
+      {
+        "slug": "obywatelstwo",
+        "name": "Polonya vatandaşlığı",
+        "value": "4.500 PLN'den başlar",
+        "note": "Uznanie (tanınma) - tam paket. Vatandaşlığa kabul (natüralizasyon) - 6.000 PLN'den"
+      },
+      {
+        "slug": "rezydent-ue",
+        "name": "AB uzun dönem ikamet",
+        "value": "2.000 PLN'den başlar",
+        "note": "5 yıl ikamet + B1 sertifikası · süresiz"
+      },
+      {
+        "slug": "apelacje",
+        "name": "Ret kararına itiraz",
+        "value": "1.800 PLN'den başlar",
+        "note": "Karar analizi 48 saat - 500 PLN, ana ücretten düşülür"
+      },
+      {
+        "slug": "kod-95",
+        "name": "Sürücüler için Kod 95",
+        "value": "1.200 PLN'den başlar",
+        "note": "OSK, belgeler, sağlık raporu, WORD sınavı"
+      },
+      {
+        "slug": "wymiana-prawa-jazdy",
+        "name": "Ehliyet değişimi",
+        "value": "600 PLN'den başlar",
+        "note": "Tercümeler, badania lekarskie (sağlık raporu), starostwo işlemleri"
+      },
+      {
+        "slug": "rejestracja-sp-z-oo",
+        "name": "Sp. z o.o. veya JDG kuruluşu",
+        "value": "3.000 PLN'den başlar",
+        "note": "Anahtar teslim kuruluş. Şirket kapatma 3.000 PLN'den"
+      },
+      {
+        "slug": "podatki-ksiegowosc",
+        "name": "Muhasebe ve finansal raporlar",
+        "value": "700 PLN/aydan",
+        "note": "Defter tutma + aylık ve yıllık raporlar"
+      },
+      {
+        "slug": "deklaracje-zerowe",
+        "name": "Sıfır beyan ve raporlar",
+        "value": "800 PLN'den başlar",
+        "note": "Tek seferlik · JPK_V7, PIT, CIT-8, sprawozdanie"
+      },
+      {
+        "slug": "konto-bankowe",
+        "name": "Banka hesabı açma",
+        "value": "800 PLN'den başlar",
+        "note": "Bireysel veya şirket · biała lista bildirimi dahil"
+      },
+      {
+        "slug": "pomoc-w-zatrudnieniu",
+        "name": "İşe yerleşmede destek",
+        "value": "600 PLN'den başlar",
+        "note": "Polonya standardında CV, başvurular, mülakat"
+      }
     ],
     "footnote": "Tüm fiyatlar danışmanlık ücretimizdir. Damga vergileri (opłata skarbowa) ve yeminli tercümeler ayrı ödenir. Ücretsiz danışmanlığın ardından kesin fiyatı sözleşmede sabitleriz.",
     "ctaDetails": "Tam döküm"
@@ -787,7 +865,7 @@
   "Blog": {
     "eyebrow": "/ Dergi",
     "title": "LegalWin Blogu",
-    "intro": "Polonya'da yasal süreçlere dair pratik rehberler - karta pobytu, ehliyet değişimi, Kod 95, vatandaşlık. Özden uzaklaşmadan, Polonya urzęd'lerine bağlantılar ve 2026 fiyatlarıyla.",
+    "intro": "Polonya'da yasal süreçler için pratik rehberler - karta pobytu, ehliyet değişimi, Kod 95, vatandaşlık. Urząd bağlantıları ve 2026 fiyatlarıyla.",
     "empty": "İlk yazılar yakında yayınlanacak.",
     "readingTime": "dk okuma",
     "back": "Tüm yazılar",

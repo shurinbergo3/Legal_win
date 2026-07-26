@@ -59,8 +59,8 @@ const jdg: ServiceEntry = {
       subtitle: 'Открытие JDG бесплатное в государстве. Платите только за наше время и бухгалтерию.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '30 минут · форма налога и PKD' },
-        { label: 'Открытие JDG', value: 'от 600 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
-        { label: 'Бухгалтерия JDG', value: 'от 250 PLN/мес', note: 'KPiR / ryczałt + JPK_V7' },
+        { label: 'Открытие JDG', value: 'от 3 000 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
+        { label: 'Бухгалтерия JDG', value: 'от 700 PLN/мес', note: 'KPiR / ryczałt + JPK_V7' },
         { label: 'JDG + ВНЖ через бизнес', value: 'от 4 800 PLN', note: 'JDG + karta pobytu для samozatrudnionych' }
       ],
       note: 'Госпошлин нет - CEIDG и ZUS бесплатны. ZUS-składki ~314 PLN/мес (Ulga), ~460 PLN (Mały ZUS+), ~1 700 PLN (pełny). Налог - отдельно по результатам.'
@@ -146,8 +146,8 @@ const jdg: ServiceEntry = {
       subtitle: 'CEIDG i ZUS bezpłatne. Płacisz za naszą pracę.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '30 min · forma + PKD' },
-        { label: 'Otwarcie JDG', value: 'od 600 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
-        { label: 'Księgowość JDG', value: 'od 250 PLN/mies.', note: 'KPiR / ryczałt + JPK_V7' },
+        { label: 'Otwarcie JDG', value: 'od 3 000 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
+        { label: 'Księgowość JDG', value: 'od 700 PLN/mies.', note: 'KPiR / ryczałt + JPK_V7' },
         { label: 'JDG + karta pobytu', value: 'od 4 800 PLN', note: 'JDG + samozatrudniony' }
       ],
       note: 'Bez opłat skarbowych. ZUS ~314 (Ulga), ~460 (Mały+), ~1 700 (pełny). Podatek osobno.'
@@ -233,8 +233,8 @@ const jdg: ServiceEntry = {
       subtitle: 'CEIDG and ZUS are free. You pay for our time and bookkeeping.',
       items: [
         { label: 'Consultation', value: 'Free', note: '30 min · form & PKD' },
-        { label: 'JDG opening', value: 'from 600 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
-        { label: 'JDG bookkeeping', value: 'from 250 PLN/mo', note: 'KPiR / lump sum + JPK_V7' },
+        { label: 'JDG opening', value: 'from 3,000 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
+        { label: 'JDG bookkeeping', value: 'from 700 PLN/mo', note: 'KPiR / lump sum + JPK_V7' },
         { label: 'JDG + self-employed TRC', value: 'from 4,800 PLN', note: 'JDG + residence permit' }
       ],
       note: 'No state fees. ZUS ~314 (Ulga), ~460 (Mały+), ~1,700 (full). Tax billed separately.'
@@ -320,8 +320,8 @@ const jdg: ServiceEntry = {
       subtitle: 'JDG açılışı devlette ücretsizdir. Yalnızca emek ve muhasebe için ödersiniz.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '30 dakika · vergi rejimi ve PKD' },
-        { label: 'JDG açılışı', value: '600 PLN\'den', note: 'CEIDG + ZUS + banka + VAT-R' },
-        { label: 'JDG muhasebesi', value: '250 PLN/aydan', note: 'KPiR / ryczałt + JPK_V7' },
+        { label: 'JDG açılışı', value: '3.000 PLN\'den', note: 'CEIDG + ZUS + banka + VAT-R' },
+        { label: 'JDG muhasebesi', value: '700 PLN/aydan', note: 'KPiR / ryczałt + JPK_V7' },
         { label: 'JDG + işletme üzerinden oturum izni', value: '4.800 PLN\'den', note: 'JDG + samozatrudniony karta pobytu' }
       ],
       note: 'Devlet harcı yoktur - CEIDG ve ZUS ücretsizdir. ZUS-składki ~314 PLN/ay (Ulga), ~460 PLN (Mały+), ~1.700 PLN (tam). Vergi sonuçlara göre ayrıdır.'
@@ -407,8 +407,8 @@ const jdg: ServiceEntry = {
       subtitle: 'Відкриття JDG в державі безкоштовне. Платите лише за наш час і бухгалтерію.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '30 хвилин · форма податку і PKD' },
-        { label: 'Відкриття JDG', value: 'від 600 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
-        { label: 'Бухгалтерія JDG', value: 'від 250 PLN/міс.', note: 'KPiR / ryczałt + JPK_V7' },
+        { label: 'Відкриття JDG', value: 'від 3 000 PLN', note: 'CEIDG + ZUS + bank + VAT-R' },
+        { label: 'Бухгалтерія JDG', value: 'від 700 PLN/міс.', note: 'KPiR / ryczałt + JPK_V7' },
         { label: 'JDG + карта побуту через бізнес', value: 'від 4 800 PLN', note: 'JDG + karta pobytu для samozatrudnionych' }
       ],
       note: 'Держмита немає — CEIDG і ZUS безкоштовні. ZUS-składki ~314 PLN/міс. (Ulga), ~460 PLN (Mały ZUS+), ~1 700 PLN (pełny). Податок — окремо за результатами.'

@@ -7,7 +7,7 @@ description: >-
 locale: ru
 publishDate: 2026-08-07T00:00:00.000Z
 author: LegalWin
-category: Права
+category: Транспорт
 keywords:
   - медсправка обмен прав
   - badania lekarskie prawo jazdy

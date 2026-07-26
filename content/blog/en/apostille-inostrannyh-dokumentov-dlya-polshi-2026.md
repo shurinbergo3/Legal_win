@@ -2,8 +2,7 @@
 slug: apostille-inostrannyh-dokumentov-dlya-polshi-2026
 title: Apostille on Foreign Documents for Poland 2026
 description: >-
-  How to get foreign documents recognised in Poland: apostille in the issuing
-  country or consular legalisation, plus a sworn translation. Broken down by document type.
+  How to get foreign documents recognised in Poland: apostille in the issuing country or consular legalisation, plus a sworn translation. Broken down by type.
 locale: en
 publishDate: 2026-08-05T00:00:00.000Z
 author: LegalWin

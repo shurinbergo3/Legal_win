@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-05-05T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - Lehçe B1 sınavı
   - Polonya vatandaşlığı dil sertifikası

@@ -2,8 +2,7 @@
 slug: obmen-ukrainskih-prav-na-polskie-2026
 title: 'Обмен украинских прав на польские в 2026: без экзамена'
 description: >-
-  Как украинцу обменять права на польские без экзамена в 2026: PESEL UKR, быстрый
-  канал МВД Украины, цена 100,50 PLN, Wydział Komunikacji в Варшаве, сроки 30-60 дней.
+  Как украинцу обменять права на польские без экзамена в 2026: PESEL UKR, канал МВД Украины, 100,50 PLN, Wydział Komunikacji в Варшаве, сроки 30-60 дней.
 locale: ru
 publishDate: 2026-06-04T00:00:00.000Z
 author: LegalWin

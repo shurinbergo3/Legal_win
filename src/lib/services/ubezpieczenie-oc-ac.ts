@@ -58,9 +58,7 @@ const ubezpieczenieOcAc: ServiceEntry = {
       subtitle: 'Гонорар за подбор и оформление. Сама премия страховки оплачивается страховщику отдельно.',
       items: [
         { label: 'Консультация и расчёт', value: 'Бесплатно', note: '20 минут · сравнение тарифов' },
-        { label: 'Подбор и оформление OC', value: 'от 150 PLN', note: 'Сравнение тарифов нескольких страховщиков' },
-        { label: 'Пакет OC + AC + NNW + Assistance', value: 'от 250 PLN', note: 'Полная защита под ключ' },
-        { label: 'Перенос зарубежных скидок', value: 'от 200 PLN', note: 'Со справкой и присяжным переводом' }
+        { label: 'Подбор и оформление полиса', value: 'от 400 PLN', note: 'OC или пакет OC + AC + NNW + Assistance' }
       ],
       note: 'Указаны гонорары LegalWin за услугу. Сама премия OC (в среднем ~679 PLN/год, реально 400-900 PLN в зависимости от авто, возраста и стажа) и AC оплачиваются напрямую страховщику. Присяжный перевод справки истории страхования (~80 PLN) - отдельно.'
     },
@@ -145,9 +143,7 @@ const ubezpieczenieOcAc: ServiceEntry = {
       subtitle: 'Honorarium za dobór i zawarcie. Sama składka opłacana ubezpieczycielowi osobno.',
       items: [
         { label: 'Konsultacja i kalkulacja', value: 'Gratis', note: '20 minut · porównanie stawek' },
-        { label: 'Dobór i zawarcie OC', value: 'od 150 PLN', note: 'Porównanie stawek kilku ubezpieczycieli' },
-        { label: 'Pakiet OC + AC + NNW + Assistance', value: 'od 250 PLN', note: 'Pełna ochrona pod klucz' },
-        { label: 'Przeniesienie zagranicznych zniżek', value: 'od 200 PLN', note: 'Z zaświadczeniem i tłumaczeniem przysięgłym' }
+        { label: 'Dobór i zawarcie polisy', value: 'od 400 PLN', note: 'OC albo pakiet OC + AC + NNW + Assistance' }
       ],
       note: 'Powyżej honoraria LegalWin za usługę. Sama składka OC (średnio ~679 PLN/rok, realnie 400-900 PLN zależnie od auta, wieku i stażu) oraz AC opłacane są bezpośrednio ubezpieczycielowi. Tłumaczenie przysięgłe zaświadczenia o przebiegu ubezpieczenia (~80 PLN) - osobno.'
     },
@@ -232,9 +228,7 @@ const ubezpieczenieOcAc: ServiceEntry = {
       subtitle: 'A fee for sourcing and signing. The premium itself is paid to the insurer separately.',
       items: [
         { label: 'Consultation and quote', value: 'Free', note: '20 minutes · rate comparison' },
-        { label: 'Sourcing and signing OC', value: 'from 150 PLN', note: 'Rate comparison across several insurers' },
-        { label: 'OC + AC + NNW + Assistance bundle', value: 'from 250 PLN', note: 'Full turnkey protection' },
-        { label: 'Foreign no-claims transfer', value: 'from 200 PLN', note: 'With certificate and sworn translation' }
+        { label: 'Sourcing and signing the policy', value: 'from 400 PLN', note: 'OC or the OC + AC + NNW + Assistance bundle' }
       ],
       note: 'Above are LegalWin\'s service fees. The OC premium itself (on average ~679 PLN/year, realistically 400-900 PLN depending on the car, age and driving years) and AC are paid directly to the insurer. The sworn translation of the no-claims certificate (~80 PLN) is separate.'
     },
@@ -319,9 +313,7 @@ const ubezpieczenieOcAc: ServiceEntry = {
       subtitle: 'Dobör ve poliçe yapımı için ücret. Primin kendisi sigortacıya ayrıca ödenir.',
       items: [
         { label: 'Danışmanlık ve hesaplama', value: 'Ücretsiz', note: '20 dakika · tarife karşılaştırması' },
-        { label: 'OC dobör ve yapımı', value: '150 PLN\'den', note: 'Birkaç sigortacının tarifesini karşılaştırma' },
-        { label: 'OC + AC + NNW + Assistance paketi', value: '250 PLN\'den', note: 'Anahtar teslim tam koruma' },
-        { label: 'Yurt dışı indirimlerinin taşınması', value: '200 PLN\'den', note: 'Belge ve yeminli tercümeyle' }
+        { label: 'Poliçe seçimi ve yapımı', value: '400 PLN\'den', note: 'OC veya OC + AC + NNW + Assistance paketi' }
       ],
       note: 'Belirtilen ücretler LegalWin\'in hizmet bedelidir. OC priminin kendisi (ortalama ~679 PLN/yıl, araç, yaş ve geçmişe göre fiilen 400-900 PLN) ve AC doğrudan sigortacıya ödenir. Hasarsızlık belgesinin yeminli tercümesi (~80 PLN) ayrıdır.'
     },
@@ -406,9 +398,7 @@ const ubezpieczenieOcAc: ServiceEntry = {
       subtitle: 'Гонорар за підбір та оформлення. Сама премія страховки сплачується страховику окремо.',
       items: [
         { label: 'Консультація та розрахунок', value: 'Безкоштовно', note: '20 хвилин · порівняння тарифів' },
-        { label: 'Підбір та оформлення OC', value: 'від 150 PLN', note: 'Порівняння тарифів кількох страховиків' },
-        { label: 'Пакет OC + AC + NNW + Assistance', value: 'від 250 PLN', note: 'Повний захист під ключ' },
-        { label: 'Перенесення закордонних знижок', value: 'від 200 PLN', note: 'З довідкою та присяжним перекладом' }
+        { label: 'Підбір та оформлення полісу', value: 'від 400 PLN', note: 'OC або пакет OC + AC + NNW + Assistance' }
       ],
       note: 'Зазначено гонорари LegalWin за послугу. Сама премія OC (у середньому ~679 PLN/рік, реально 400-900 PLN залежно від авто, віку та стажу) та AC сплачуються безпосередньо страховику. Присяжний переклад довідки про безаварійний стаж (~80 PLN) - окремо.'
     },

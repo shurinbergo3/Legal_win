@@ -60,7 +60,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Фиксированная цена за этап. Обсуждаем и подписываем договор до начала.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '30-60 минут · оценка шансов' },
-        { label: 'Сопровождение ВНЖ под ключ', value: 'от 2 500 PLN', note: 'Все этапы: от сбора до выдачи' },
+        { label: 'Сопровождение ВНЖ под ключ', value: 'от 2 000 PLN', note: 'Все этапы: от сбора до выдачи' },
         { label: 'Apelacja при отказе', value: 'от 1 800 PLN', note: 'Отдельный договор на оспаривание' }
       ],
       note: 'Указаны наши гонорары. Госпошлины (340 + 100 PLN) и присяжные переводы - отдельно.'
@@ -146,7 +146,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Stała cena za etap. Umowę podpisujemy przed rozpoczęciem.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '30-60 minut · ocena szans' },
-        { label: 'Prowadzenie TRC pod klucz', value: 'od 2 500 PLN', note: 'Wszystkie etapy' },
+        { label: 'Prowadzenie TRC pod klucz', value: 'od 2 000 PLN', note: 'Wszystkie etapy' },
         { label: 'Apelacja po odmowie', value: 'od 1 800 PLN', note: 'Odrębna umowa' }
       ],
       note: 'To nasze honoraria. Opłaty urzędowe (340 + 100 PLN) i tłumaczenia przysięgłe - osobno.'
@@ -232,7 +232,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Fixed price per stage. Signed agreement before we start.',
       items: [
         { label: 'Consultation', value: 'Free', note: '30-60 minutes · odds assessment' },
-        { label: 'End-to-end TRC handling', value: 'from 2,500 PLN', note: 'All stages' },
+        { label: 'End-to-end TRC handling', value: 'from 2,000 PLN', note: 'All stages' },
         { label: 'Appeal on denial', value: 'from 1,800 PLN', note: 'Separate agreement' }
       ],
       note: 'Our fees. Official fees (340 + 100 PLN) and sworn translations billed separately.'
@@ -318,7 +318,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Aşama başına sabit ücret. Başlamadan önce sözleşme imzalanır.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '30-60 dakika · şans değerlendirmesi' },
-        { label: 'Anahtar teslim TRC takibi', value: '2.500 PLN\'den', note: 'Tüm aşamalar: belge derlemesinden teslime' },
+        { label: 'Anahtar teslim TRC takibi', value: '2.000 PLN\'den', note: 'Tüm aşamalar: belge derlemesinden teslime' },
         { label: 'Ret kararına itiraz', value: '1.800 PLN\'den', note: 'İtiraz için ayrı sözleşme' }
       ],
       note: 'Belirtilen ücretler bizim danışmanlık bedelimizdir. Resmi harçlar (340 + 100 PLN) ve yeminli tercümeler ayrıca ödenir.'
@@ -404,7 +404,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Фіксована ціна за етап. Обговорюємо й підписуємо договір до початку.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '30–60 хвилин · оцінка шансів' },
-        { label: 'Супровід карти побуту під ключ', value: 'від 2 500 PLN', note: 'Усі етапи: від збору до видачі' },
+        { label: 'Супровід карти побуту під ключ', value: 'від 2 000 PLN', note: 'Усі етапи: від збору до видачі' },
         { label: 'Apelacja при відмові', value: 'від 1 800 PLN', note: 'Окремий договір на оскарження' }
       ],
       note: 'Зазначено наші гонорари. Держмита (340 + 100 PLN) та присяжні переклади — окремо.'

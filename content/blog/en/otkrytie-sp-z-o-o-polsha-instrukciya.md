@@ -15,7 +15,7 @@ keywords:
   - spolka z oo without residence card
   - business Poland immigrant
 relatedServices:
-  - /en/uslugi/business
+  - /en/uslugi/rejestracja-sp-z-oo
   - /en/uslugi/karta-pobytu
 schema: Article
 ---
@@ -178,4 +178,4 @@ PKD is Poland's business activity classification. Choose one primary code that b
 
 Setting up a sp. z o.o. in Poland without a karta pobytu is genuinely doable - but it requires getting the details right, from PKD code selection to the director's ZUS status. Mistakes here cost more to fix than routine immigration paperwork.
 
-If you'd like us to handle the registration, or just want a consultation on the right structure for your situation - [get in touch with LegalWin](/en/uslugi/business). We work with foreign founders with and without residence cards.
+If you'd like us to handle the registration, or just want a consultation on the right structure for your situation - [get in touch with LegalWin](/en/uslugi/rejestracja-sp-z-oo). We work with foreign founders with and without residence cards.

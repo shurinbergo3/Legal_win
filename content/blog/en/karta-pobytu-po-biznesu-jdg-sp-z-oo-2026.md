@@ -2,9 +2,7 @@
 slug: karta-pobytu-po-biznesu-jdg-sp-z-oo-2026
 title: 'Karta Pobytu via Business in 2026: JDG vs Sp. z o.o.'
 description: >-
-  Which business form fits a karta czasowego pobytu application - JDG or
-  Sp. z o.o. Financial thresholds, common mistakes and realistic timelines
-  in Mazowieckie in 2026.
+  Which business form fits a karta czasowego pobytu application - JDG or Sp. z o.o. Thresholds, common mistakes and realistic timelines in Mazowieckie in 2026.
 locale: en
 publishDate: 2026-05-23T00:00:00.000Z
 author: LegalWin

@@ -15,7 +15,7 @@ keywords:
   - Sp z o o oturum kartı olmadan
   - Polonya'da Türk girişimci
 relatedServices:
-  - /tr/uslugi/business
+  - /tr/uslugi/rejestracja-sp-z-oo
   - /tr/uslugi/karta-pobytu
 schema: Article
 ---
@@ -176,4 +176,4 @@ PKD (Polska Klasyfikacja Działalności) faaliyet türü sınıflandırmasıdır
 
 Polonya'da Sp. z o.o. kurmak Karta Pobytu olmadan da mümkündür. Ancak süreç titizlik gerektirir: PKD kodu seçiminden yöneticinin doğru ZUS statüsüne kadar. Buradaki hatalar günlük işlerdekinden daha pahalıya patlar.
 
-Tescil işlemini bizim üstlenmemizi veya yapı konusunda danışmanlık almak istiyorsanız [LegalWin'den randevu alın](/tr/uslugi/business). Hem Karta Pobytu sahibi hem de Karta Pobytu olmayan müvekkillerle çalışıyoruz. Yazışmalar Türkçe ve Lehçe yürütülmektedir, yüz yüze görüşmelerde tercüman desteği sağlanır.
+Tescil işlemini bizim üstlenmemizi veya yapı konusunda danışmanlık almak istiyorsanız [LegalWin'den randevu alın](/tr/uslugi/rejestracja-sp-z-oo). Hem Karta Pobytu sahibi hem de Karta Pobytu olmayan müvekkillerle çalışıyoruz. Yazışmalar Türkçe ve Lehçe yürütülmektedir, yüz yüze görüşmelerde tercüman desteği sağlanır.

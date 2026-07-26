@@ -48,14 +48,23 @@ export async function submitContact(
 
   // Persist first so the lead is recoverable from /admin even if Telegram
   // delivery is flaky. Storage failure must not block the user submit.
+  let stored = false;
   try {
     await storeLead(parsed.data);
+    stored = true;
   } catch (err) {
     console.error('[contact] lead store failed (non-fatal)', err);
   }
 
   try {
-    await sendContactToTelegram(parsed.data);
+    const report = await sendContactToTelegram(parsed.data);
+    // report.ok is false only when there were subscribers and every send
+    // failed. With the lead also unstored nothing survives the request, so
+    // showing "success" would lose it silently — tell the user to call.
+    if (!report.ok && !stored) {
+      console.error('[contact] lead lost: telegram + store both failed', report.errors);
+      return { status: 'error', message: 'Delivery failed' };
+    }
     return { status: 'success' };
   } catch (err) {
     console.error('[contact] telegram failed', err);

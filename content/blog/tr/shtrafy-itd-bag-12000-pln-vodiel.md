@@ -7,7 +7,7 @@ description: >-
 locale: tr
 publishDate: 2026-04-13T00:00:00.000Z
 author: LegalWin
-category: Taşımacılık
+category: Ulaşım
 keywords:
   - ITD BAG cezaları şoför
   - sürüş dinlenme rejimi 2026

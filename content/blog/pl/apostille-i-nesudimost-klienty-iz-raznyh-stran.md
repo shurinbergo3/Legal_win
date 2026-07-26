@@ -1,6 +1,6 @@
 ---
 slug: apostille-i-nesudimost-klienty-iz-raznyh-stran
-title: 'Apostille i zaświadczenie o niekaralności dla klientów z różnych krajów'
+title: 'Apostille i zaświadczenie o niekaralności według kraju'
 description: >-
   Dlaczego ludzie z różnych krajów zamawiają u nas apostille i KRK: typowe
   scenariusze według krajów, jak robimy to zdalnie i co utrudnia legalizację.

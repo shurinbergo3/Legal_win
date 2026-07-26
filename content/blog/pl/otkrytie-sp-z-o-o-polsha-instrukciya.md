@@ -15,7 +15,7 @@ keywords:
   - spółka z oo bez karty pobytu
   - biznes w Polsce imigracja
 relatedServices:
-  - /pl/uslugi/business
+  - /pl/uslugi/rejestracja-sp-z-oo
   - /pl/uslugi/karta-pobytu
 schema: Article
 ---
@@ -178,4 +178,4 @@ PKD to klasyfikator rodzajów działalności. Wybierz jeden kod główny najlepi
 
 Założenie sp. z o.o. w Polsce jest jak najbardziej możliwe bez karty pobytu, ale wymaga precyzji - od wyboru kodów PKD po prawidłowy status ZUS prezesa. Błędy tu kosztują więcej niż w codziennych sprawach urzędowych.
 
-Chcesz, żebyśmy zajęli się rejestracją lub doradzili w kwestii struktury? [Umów się w LegalWin](/pl/uslugi/business). Obsługujemy cudzoziemców - z kartą pobytu i bez - po polsku i angielsku.
+Chcesz, żebyśmy zajęli się rejestracją lub doradzili w kwestii struktury? [Umów się w LegalWin](/pl/uslugi/rejestracja-sp-z-oo). Obsługujemy cudzoziemców - z kartą pobytu i bez - po polsku i angielsku.

@@ -7,7 +7,7 @@ description: >-
 locale: ru
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
-category: Налоги и бухгалтерия
+category: Налоги
 keywords:
   - składka zdrowotna 2026
   - реформа здоровотного взноса Польша

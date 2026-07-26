@@ -1,6 +1,6 @@
 ---
 slug: kak-stat-voditelem-v-polshe-2026
-title: 'Jak zostać zawodowym kierowcą w Polsce 2026: prawo jazdy, Kod 95, karta kierowcy'
+title: 'Jak zostać zawodowym kierowcą w Polsce 2026'
 description: >-
   Pełna droga dla obcokrajowca: wymiana prawa jazdy, Kod 95 i karta kierowcy.
   Trzy dokumenty, terminy, koszty i kolejność dla kierowców z WNP.

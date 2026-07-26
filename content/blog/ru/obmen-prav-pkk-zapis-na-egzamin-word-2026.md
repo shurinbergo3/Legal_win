@@ -7,7 +7,7 @@ description: >-
 locale: ru
 publishDate: 2026-08-06T00:00:00.000Z
 author: LegalWin
-category: Права
+category: Транспорт
 keywords:
   - PKK обмен прав
   - egzamin WORD теория

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Fraunces, Source_Serif_4, Inter } from 'next/font/google';
+import { Playfair_Display, Inter } from 'next/font/google';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -20,21 +20,15 @@ import {
 } from '@/lib/seo';
 import '../globals.css';
 
-const fraunces = Fraunces({
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-fraunces',
-  display: 'swap',
-  axes: ['opsz']
-});
-
-// Cyrillic fallback for display: Fraunces lacks Cyrillic glyphs, so the
-// browser would fall back to Georgia. Source Serif 4 carries the same
-// editorial-luxury feel and has full Cyrillic + matching italic.
-const sourceSerif = Source_Serif_4({
+// One display face for every locale. The site used to ship Fraunces (no
+// Cyrillic) plus Source Serif 4 as its Cyrillic stand-in, which meant a Polish
+// visitor and a Russian visitor saw two different serifs for the same brand —
+// and every page paid for both families. Playfair Display covers latin,
+// latin-ext and cyrillic in one variable file per subset, with a true italic.
+const playfair = Playfair_Display({
   subsets: ['latin', 'latin-ext', 'cyrillic'],
-  variable: '--font-source-serif',
-  display: 'swap',
-  axes: ['opsz']
+  variable: '--font-display-family',
+  display: 'swap'
 });
 
 const inter = Inter({
@@ -160,7 +154,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${playfair.variable} ${inter.variable}`}>
       <body className="grain min-h-dvh antialiased">
         <JsonLd data={organizationLd()} />
         <JsonLd data={websiteLd(locale as SeoLocale)} />

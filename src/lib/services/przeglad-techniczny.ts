@@ -53,10 +53,9 @@ const przegladTechniczny: ServiceEntry = {
       subtitle: 'Гонорар за запись, сопровождение и перевод. Сам техосмотр оплачивается станции по фиксированному тарифу.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '15 минут · расчёт срока и типа' },
-        { label: 'Запись + сопровождение + перевод', value: 'от 150 PLN', note: 'Периодический техосмотр' },
-        { label: '«Нулевой» техосмотр при ввозе', value: 'от 250 PLN', note: 'Окружная SKP · перед регистрацией' }
+        { label: 'Запись, сопровождение и перевод', value: 'По договорённости', note: 'Считаем под ваш случай на консультации' }
       ],
-      note: 'Указаны гонорары LegalWin. Сам техосмотр оплачивается станции по фиксированному государственному тарифу: легковое - 149 PLN (с 19.09.2025), на газу/LPG - 245 PLN, повторный - 21-55 PLN. Доплаты за просрочку на станции НЕТ. Сбора «+1 PLN CEPiK» больше нет (отменён).'
+      note: 'Стоимость нашего сопровождения обсуждаем индивидуально. Сам техосмотр оплачивается станции по фиксированному государственному тарифу: легковое - 149 PLN (с 19.09.2025), на газу/LPG - 245 PLN, повторный - 21-55 PLN. Доплаты за просрочку на станции НЕТ. Сбора «+1 PLN CEPiK» больше нет (отменён).'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -134,10 +133,9 @@ const przegladTechniczny: ServiceEntry = {
       subtitle: 'Honorarium za zapis, asystę i tłumaczenie. Sam przegląd opłaca się na stacji według stałej stawki.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '15 minut · obliczenie terminu i rodzaju' },
-        { label: 'Zapis + asysta + tłumaczenie', value: 'od 150 PLN', note: 'Przegląd okresowy' },
-        { label: 'Badanie zerowe przy sprowadzeniu', value: 'od 250 PLN', note: 'Okręgowa SKP · przed rejestracją' }
+        { label: 'Zapis, asysta i tłumaczenie', value: 'Do uzgodnienia', note: 'Wyceniamy pod Twój przypadek na konsultacji' }
       ],
-      note: 'Powyżej honoraria LegalWin. Sam przegląd opłaca się na stacji według stałej stawki państwowej: osobowe - 149 PLN (od 19.09.2025), na gazie/LPG - 245 PLN, powtórne - 21-55 PLN. Na stacji NIE ma dopłaty za spóźnienie. Opłaty „+1 PLN CEPiK" już nie ma (zniesiona).'
+      note: 'Koszt naszej asysty ustalamy indywidualnie. Sam przegląd opłaca się na stacji według stałej stawki państwowej: osobowe - 149 PLN (od 19.09.2025), na gazie/LPG - 245 PLN, powtórne - 21-55 PLN. Na stacji NIE ma dopłaty za spóźnienie. Opłaty „+1 PLN CEPiK" już nie ma (zniesiona).'
     },
     legalBase: {
       title: 'Podstawa prawna',
@@ -215,10 +213,9 @@ const przegladTechniczny: ServiceEntry = {
       subtitle: 'Fee for the booking, attendance and translation. The inspection itself is paid to the station at the fixed rate.',
       items: [
         { label: 'Consultation', value: 'Free', note: '15 minutes · date and type calculation' },
-        { label: 'Booking + attendance + translation', value: 'from 150 PLN', note: 'Periodic inspection' },
-        { label: '"Zero" inspection on import', value: 'from 250 PLN', note: 'District SKP · before registration' }
+        { label: 'Booking, attendance and translation', value: 'Quoted individually', note: 'Priced for your case at the consultation' }
       ],
-      note: 'These are LegalWin fees. The inspection itself is paid to the station at the fixed state rate: passenger car - 149 PLN (since 19.09.2025), LPG - 245 PLN, re-inspection - 21-55 PLN. There is NO late surcharge at the station. The "+1 PLN CEPiK" fee no longer exists (abolished).'
+      note: 'Our attendance fee is agreed individually. The inspection itself is paid to the station at the fixed state rate: passenger car - 149 PLN (since 19.09.2025), LPG - 245 PLN, re-inspection - 21-55 PLN. There is NO late surcharge at the station. The "+1 PLN CEPiK" fee no longer exists (abolished).'
     },
     legalBase: {
       title: 'Legal basis',
@@ -296,10 +293,9 @@ const przegladTechniczny: ServiceEntry = {
       subtitle: 'Randevu, eşlik ve tercüme için bedel. Muayenenin kendisi istasyona sabit tarifeden ödenir.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '15 dakika · tarih ve tür hesabı' },
-        { label: 'Randevu + eşlik + tercüme', value: '150 PLN\'den', note: 'Periyodik muayene' },
-        { label: 'İthalatta "sıfır" muayene', value: '250 PLN\'den', note: 'Bölge SKP · tescilden önce' }
+        { label: 'Randevu, eşlik ve tercüme', value: 'Anlaşmaya göre', note: 'Danışmada durumunuza göre fiyatlandırıyoruz' }
       ],
-      note: 'Belirtilen bedeller LegalWin ücretleridir. Muayenenin kendisi istasyona sabit devlet tarifesinden ödenir: binek - 149 PLN (19.09.2025\'ten), gazda/LPG - 245 PLN, tekrar muayene - 21-55 PLN. İstasyonda gecikme için ek ücret YOKTUR. "+1 PLN CEPiK" ücreti artık yoktur (kaldırıldı).'
+      note: 'Eşlik ücretimizi ayrıca belirliyoruz. Muayenenin kendisi istasyona sabit devlet tarifesinden ödenir: binek - 149 PLN (19.09.2025\'ten), gazda/LPG - 245 PLN, tekrar muayene - 21-55 PLN. İstasyonda gecikme için ek ücret YOKTUR. "+1 PLN CEPiK" ücreti artık yoktur (kaldırıldı).'
     },
     legalBase: {
       title: 'Yasal dayanak',
@@ -377,10 +373,9 @@ const przegladTechniczny: ServiceEntry = {
       subtitle: 'Гонорар за запис, супровід і переклад. Сам техогляд оплачується станції за фіксованим тарифом.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '15 хвилин · розрахунок терміну та типу' },
-        { label: 'Запис + супровід + переклад', value: 'від 150 PLN', note: 'Періодичний техогляд' },
-        { label: '«Нульовий» техогляд при ввезенні', value: 'від 250 PLN', note: 'Окружна SKP · перед реєстрацією' }
+        { label: 'Запис, супровід і переклад', value: 'За домовленістю', note: 'Рахуємо під ваш випадок на консультації' }
       ],
-      note: 'Зазначено гонорари LegalWin. Сам техогляд оплачується станції за фіксованим державним тарифом: легкове - 149 PLN (з 19.09.2025), на газу/LPG - 245 PLN, повторний - 21-55 PLN. Доплати за прострочення на станції НЕМАЄ. Збору «+1 PLN CEPiK» більше немає (скасований).'
+      note: 'Вартість нашого супроводу обговорюємо індивідуально. Сам техогляд оплачується станції за фіксованим державним тарифом: легкове - 149 PLN (з 19.09.2025), на газу/LPG - 245 PLN, повторний - 21-55 PLN. Доплати за прострочення на станції НЕМАЄ. Збору «+1 PLN CEPiK» більше немає (скасований).'
     },
     legalBase: {
       title: 'Нормативна база',

@@ -1,6 +1,6 @@
 ---
 slug: kak-stat-voditelem-v-polshe-2026
-title: 'How to Become a Professional Driver in Poland 2026: Licence, Kod 95, Karta Kierowcy'
+title: 'How to Become a Professional Driver in Poland 2026'
 description: >-
   The complete roadmap for a foreigner: licence exchange, Kod 95 and karta
   kierowcy. Three documents, timelines, costs and the right sequence for CIS drivers.

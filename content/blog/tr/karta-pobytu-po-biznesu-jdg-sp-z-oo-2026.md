@@ -8,7 +8,7 @@ description: >-
 locale: tr
 publishDate: 2026-05-23T00:00:00.000Z
 author: LegalWin
-category: Göç
+category: Göçmenlik
 keywords:
   - iş gerekçesiyle Karta Pobytu 2026
   - JDG ile oturum izni

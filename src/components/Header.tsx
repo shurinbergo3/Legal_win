@@ -30,7 +30,14 @@ const serviceCategories = [
   'auto',
 ] as const;
 
-export function Header() {
+export function Header({
+  availableLocales,
+  localeFallbackPath
+}: {
+  /** Locales the current page exists in — pass on partially translated routes. */
+  availableLocales?: readonly string[];
+  localeFallbackPath?: string;
+} = {}) {
   const t = useTranslations('Nav');
   const tg = useTranslations('Services.groups');
   const pathname = usePathname();
@@ -49,6 +56,32 @@ export function Header() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [servicesOpen]);
+
+  // Lock the page behind the mobile menu. Without this the document keeps
+  // scrolling under the fixed overlay, so closing the menu drops the user at a
+  // different scroll position than where they opened it.
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const { body } = document;
+    const scrollY = window.scrollY;
+    const prev = {
+      position: body.style.position,
+      top: body.style.top,
+      width: body.style.width,
+      overflow: body.style.overflow
+    };
+    body.style.position = 'fixed';
+    body.style.top = `-${scrollY}px`;
+    body.style.width = '100%';
+    body.style.overflow = 'hidden';
+    return () => {
+      body.style.position = prev.position;
+      body.style.top = prev.top;
+      body.style.width = prev.width;
+      body.style.overflow = prev.overflow;
+      window.scrollTo({ top: scrollY, behavior: 'instant' as ScrollBehavior });
+    };
+  }, [mobileOpen]);
 
   useEffect(() => {
     let raf = 0;
@@ -179,7 +212,11 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <LocaleSwitcher className="hidden sm:inline-flex" />
+            <LocaleSwitcher
+              className="hidden sm:inline-flex"
+              availableLocales={availableLocales}
+              fallbackPath={localeFallbackPath}
+            />
 
             {/* Desktop CTA */}
             <Link
@@ -226,7 +263,10 @@ export function Header() {
       {mobileOpen && (
         <div
           key="mobile-menu"
-          className="mobile-menu-enter fixed inset-x-0 top-0 z-40 flex min-h-[100svh] flex-col bg-ink-950/98 pt-24 pb-10 backdrop-blur-xl lg:hidden"
+          // z-45: above the chat toggle and the scroll-to-top button (both
+          // z-40, both rendered after the header, so at equal z they'd paint
+          // on top of the open menu), still below the header itself (z-50).
+          className="mobile-menu-enter fixed inset-x-0 top-0 z-[45] flex min-h-[100svh] flex-col bg-ink-950/98 pt-24 pb-10 backdrop-blur-xl lg:hidden"
         >
           {/* Subtle gold line at top */}
           <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/50 to-transparent" />
@@ -298,7 +338,11 @@ export function Header() {
               className="mobile-menu-cta mt-auto flex flex-col gap-4 pt-10"
               style={{ animationDelay: '400ms' }}
             >
-              <LocaleSwitcher className="self-start" />
+              <LocaleSwitcher
+                className="self-start"
+                availableLocales={availableLocales}
+                fallbackPath={localeFallbackPath}
+              />
               <Link
                 href="/#contact"
                 onClick={closeMobile}

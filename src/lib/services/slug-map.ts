@@ -1,5 +1,6 @@
-import { serviceSlugs } from './index';
-
+// Deliberately does not import from './index' — that barrel pulls all 37
+// service modules (every locale of every service) into whatever bundle
+// touches it, and this map is used from a client component.
 const nameBySlug: Record<string, string[]> = {
   'karta-pobytu': [
     'Karta Czasowego Pobytu (ВНЖ)',
@@ -240,12 +241,33 @@ const nameBySlug: Record<string, string[]> = {
     'Driver card (tachograph)',
     'Sürücü kartı (takograf)',
     'Картка водія (тахограф)'
+  ],
+  'rezydent-ue': [
+    'Статус резидента ЕС',
+    'Rezydent długoterminowy UE',
+    'EU long-term resident',
+    'AB uzun dönem ikamet',
+    'Статус резидента ЄС'
+  ],
+  'deklaracje-zerowe': [
+    'Нулевые декларации и отчёты',
+    'Deklaracje i raporty zerowe',
+    'Nil returns and dormant filings',
+    'Sıfır beyan ve raporlar',
+    'Нульові декларації та звіти'
+  ],
+  'konto-bankowe': [
+    'Открытие банковских счетов',
+    'Otwarcie konta bankowego',
+    'Bank account opening',
+    'Banka hesabı açma',
+    'Відкриття банківських рахунків'
   ]
 };
 
 const nameToSlugIndex = new Map<string, string>();
-for (const slug of serviceSlugs) {
-  for (const name of nameBySlug[slug] ?? []) {
+for (const [slug, names] of Object.entries(nameBySlug)) {
+  for (const name of names) {
     nameToSlugIndex.set(name.toLowerCase(), slug);
   }
 }
