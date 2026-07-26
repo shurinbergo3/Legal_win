@@ -100,7 +100,12 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'przeksztalcenie-jdg-v-sp-z-oo-2026': '/services/warszawa-spire.webp',
   'relokaciya-biznesa-v-polshu-przedstawicielstwo-2026': '/services/gdansk-aerial.webp',
   'zakrytie-ili-zawieszenie-jdg-2026': '/services/pomoc-w-zatrudnieniu.webp',
-  'prodat-ili-likvidirovat-sp-z-oo-2026': '/services/pomoc-w-zatrudnieniu.webp'
+  'prodat-ili-likvidirovat-sp-z-oo-2026': '/services/pomoc-w-zatrudnieniu.webp',
+
+  // 2026-Q3 - три новые услуги
+  'status-rezidenta-es-polsha-2026': '/services/karta-stalego-pobytu.webp',
+  'nulevye-deklaracii-polsha-2026': '/services/zaswiadczenia-zus-us.webp',
+  'konto-firmowe-v-polshe-2026': '/services/warszawa-spire.webp'
 };
 
 const FALLBACK = '/services/blog.webp';

@@ -166,6 +166,9 @@ const servicePhotos: Record<string, string> = {
   'rejestracja-pojazdu':           '/services/warszawa-tramwaj.webp',              // Trams + road - registration / traffic authority
   'ubezpieczenie-oc-ac':           '/services/wyszukiwanie-mieszkania.webp',       // Bridge with road - insurance / coverage on the road
   'przeglad-techniczny':           '/services/zaproszenia.webp',                   // Top-down roundabout - inspection / roadworthiness
+  'rezydent-ue':                   '/services/karta-stalego-pobytu.webp',          // Krakow basilica - permanence, indefinite status
+  'deklaracje-zerowe':             '/services/zaswiadczenia-zus-us.webp',          // Warsaw towers at dusk - filings and registers
+  'konto-bankowe':                 '/services/warszawa-spire.webp',                // Warsaw Spire - banking district
 };
 
 function DetailHero({
