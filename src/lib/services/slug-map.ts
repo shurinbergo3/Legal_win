@@ -41,7 +41,6 @@ const nameBySlug: Record<string, string[]> = {
     'Kod 95 (кваліфікація водія)'
   ],
   'pesel': ['PESEL'],
-  'meldunek': ['Meldunek'],
   'akty-stanu-cywilnego': [
     'Акты гражданского состояния',
     'Akty stanu cywilnego',

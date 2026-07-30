@@ -86,7 +86,7 @@ const pomocWZatrudnieniu: ServiceEntry = {
       { q: 'Подходит ли мне Blue Card?', a: 'Niebieska Karta UE (Голубая карта ЕС) - да, если: 1) высшее образование (бакалавр+); 2) контракт от 12 месяцев; 3) зарплата ≥ 1,5× средней по Польше (~10 500 PLN brutto/мес. в 2026); 4) умова с польским работодателем. Преимущества: TRC на 3 года, переезд по ЕС после 18 мес., упрощённое łączenie rodzin (воссоединение семьи), ускоренный путь к ПМЖ.' },
       { q: 'Что если не нашёл работу за 3 месяца?', a: 'Анализируем причины: CV, профиль, зарплатные ожидания, локация. Корректируем стратегию. Гарантия трудоустройства за 6 месяцев - у нас в премиум-пакете «Поиск работы под ключ» - если не находим, возвращаем 50% гонорара.' }
     ],
-    related: ['zaproszenia', 'meldunek', 'pesel'],
+    related: ['zaproszenia', 'pesel', 'karta-pobytu'],
     ctaTitle: 'От CV до umowy за 6-8 недель',
     ctaSubtitle: 'Бесплатная консультация: оценим профиль, рассчитаем зарплату на рынке 2026, выберем оптимальный путь (umowa o pracę, B2B, Blue Card).'
   },
@@ -175,7 +175,7 @@ const pomocWZatrudnieniu: ServiceEntry = {
       { q: 'Niebieska Karta dla mnie?', a: 'Tak, jeśli: wyższe, umowa ≥ 12 mies., pensja ≥ 1,5× średniej (~10 500 PLN brutto), polski pracodawca. Korzyści: TRC 3 lata, mobilność UE po 18 mies., łączenie rodzin, szybsze PR.' },
       { q: 'Brak ofert po 3 mies.?', a: 'Analiza: CV, profil, oczekiwania, lokalizacja. Korekta. Gwarancja zatrudnienia w 6 mies. w pakiecie premium - jeśli nie znajdziemy, 50% zwrotu.' }
     ],
-    related: ['zaproszenia', 'meldunek', 'pesel'],
+    related: ['zaproszenia', 'pesel', 'karta-pobytu'],
     ctaTitle: 'Od CV do umowy w 6-8 tyg.',
     ctaSubtitle: 'Bezpłatna konsultacja: ocena profilu, kalkulacja pensji 2026, wybór ścieżki (umowa, B2B, Niebieska Karta).'
   },
@@ -264,7 +264,7 @@ const pomocWZatrudnieniu: ServiceEntry = {
       { q: 'Blue Card for me?', a: "Yes if: 1) higher education (BA+); 2) contract ≥ 12 months; 3) salary ≥ 1.5× national average (~10,500 PLN gross/month in 2026); 4) Polish-employer contract. Benefits: 3-year TRC, EU mobility after 18 months, simplified family reunification, faster PR." },
       { q: 'No job offer in 3 months?', a: 'We diagnose: CV, profile, salary expectations, location. Strategy correction. Premium "Turnkey" package has a 6-month guarantee - if we fail, 50% refund.' }
     ],
-    related: ['zaproszenia', 'meldunek', 'pesel'],
+    related: ['zaproszenia', 'pesel', 'karta-pobytu'],
     ctaTitle: 'CV → contract in 6-8 weeks',
     ctaSubtitle: 'Free consultation: profile review, 2026 salary calc, optimal path (employment, B2B, Blue Card).'
   },
@@ -353,7 +353,7 @@ const pomocWZatrudnieniu: ServiceEntry = {
       { q: 'AB Mavi Kartı bana uygun mu?', a: 'Niebieska Karta UE şu koşullar varsa size uygundur: 1) yüksek öğrenim (lisans+); 2) en az 12 aylık sözleşme; 3) Polonya ortalama maaşının 1,5 katı maaş (2026\'da ~10.500 PLN brüt/ay); 4) Polonyalı işverenle umowa. Avantajlar: 3 yıllık TRC, 18 ay sonra AB içi geçiş, basitleştirilmiş aile birleşimi, daimi ikamete hızlandırılmış yol.' },
       { q: '3 ayda iş bulamadım, ne yapacaksınız?', a: 'Sebepleri analiz ediyoruz: CV, profil, maaş beklentisi, lokasyon. Stratejiyi düzeltiyoruz. Premium "Anahtar teslim iş arama" paketimizde 6 ay içinde iş garantisi vardır - bulamazsak ücretin %50\'sini iade ediyoruz.' }
     ],
-    related: ['zaproszenia', 'meldunek', 'pesel'],
+    related: ['zaproszenia', 'pesel', 'karta-pobytu'],
     ctaTitle: 'CV\'den umowa\'ya 6-8 hafta',
     ctaSubtitle: 'Ücretsiz danışmanlık: profilinizi inceler, 2026 piyasasında maaş hesabı yapar, en uygun yolu seçeriz (umowa o pracę, B2B, Mavi Kart).'
   },
@@ -442,7 +442,7 @@ const pomocWZatrudnieniu: ServiceEntry = {
       { q: 'Чи підходить мені Blue Card?', a: 'Niebieska Karta UE (Блакитна карта ЄС) — так, якщо: 1) вища освіта (бакалавр+); 2) контракт від 12 місяців; 3) зарплата ≥ 1,5× середньої по Польщі (~10 500 PLN brutto/міс. у 2026); 4) umowa з польським роботодавцем. Переваги: карта побуту на 3 роки, переїзд по ЄС після 18 міс., спрощене łączenie rodzin (возз’єднання сім’ї), пришвидшений шлях до ПМЖ.' },
       { q: 'Що, якщо не знайшов роботу за 3 місяці?', a: 'Аналізуємо причини: CV, профіль, зарплатні очікування, локація. Коригуємо стратегію. Гарантія працевлаштування за 6 місяців — у нас у преміум-пакеті «Пошук роботи під ключ» — якщо не знаходимо, повертаємо 50% гонорару.' }
     ],
-    related: ['zaproszenia', 'meldunek', 'pesel'],
+    related: ['zaproszenia', 'pesel', 'karta-pobytu'],
     ctaTitle: 'Від CV до umowy за 6–8 тижнів',
     ctaSubtitle: 'Безкоштовна консультація: оцінимо профіль, розрахуємо зарплату на ринку 2026, виберемо оптимальний шлях (umowa o pracę, B2B, Blue Card).'
   }

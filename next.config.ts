@@ -49,7 +49,14 @@ const nextConfig: NextConfig = {
         destination: '/ru/polityka-prywatnosci',
         permanent: true
       },
-      { source: '/tr/uslugi/business', destination: '/tr', permanent: true }
+      { source: '/tr/uslugi/business', destination: '/tr', permanent: true },
+      // Meldunek is no longer part of the offer; the page is gone.
+      {
+        source: '/:locale(ru|pl|en|tr|uk)/uslugi/meldunek',
+        destination: '/:locale/uslugi/pesel',
+        permanent: true
+      },
+      { source: '/uslugi/meldunek', destination: '/ru/uslugi/pesel', permanent: true }
     ];
   }
 };

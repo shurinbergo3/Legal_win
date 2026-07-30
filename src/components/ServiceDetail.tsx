@@ -140,7 +140,6 @@ const servicePhotos: Record<string, string> = {
   'apelacje':                      '/services/zaswiadczenia-zus-us.webp',          // Warsaw business towers at dusk - institutional gravity
   'kod-95':                        '/services/zaproszenia.webp',                   // Top-down roundabout - drivers / road code
   'pesel':                         '/services/pesel.webp',                         // Old town at sunset - civic foundation
-  'meldunek':                      '/services/meldunek.webp',                      // Market square with stalls - daily registration
   'akty-stanu-cywilnego':          '/services/akty-stanu-cywilnego.webp',          // Old town + skyline - heritage records
   'apostille':                     '/services/apostille.webp',                     // Poznan market square - formal European document
   'wymiana-prawa-jazdy':           '/services/wyszukiwanie-mieszkania.webp',       // Bridge with road - driving licence

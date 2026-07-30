@@ -243,34 +243,6 @@ const KEYWORDS_BY_SLUG: Record<string, Partial<Record<SeoLocale, string[]>>> = {
       'PESEL application Warsaw'
     ]
   },
-  'meldunek': {
-    ru: [
-      'meldunek в Польше',
-      'прописка иностранца Польша',
-      'zameldowanie na pobyt czasowy',
-      'регистрация места жительства Польша',
-      'meldunek для TRC',
-      'прописка Варшава иностранец',
-      'юридический адрес для бизнеса Варшава'
-    ],
-    pl: [
-      'meldunek cudzoziemca',
-      'zameldowanie na pobyt czasowy',
-      'zameldowanie na pobyt stały',
-      'zaświadczenie o zameldowaniu',
-      'meldunek do TRC MOS v2.0',
-      'kancelaria meldunek Warszawa',
-      'adres firmowy Warszawa'
-    ],
-    en: [
-      'meldunek Poland',
-      'residence registration Poland',
-      'zameldowanie for foreigners',
-      'temporary residence registration Warsaw',
-      'business address Poland',
-      'meldunek certificate'
-    ]
-  },
   'akty-stanu-cywilnego': {
     ru: [
       'свидетельство о рождении Польша',

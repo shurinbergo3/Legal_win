@@ -6,7 +6,6 @@ import ochronaMiedzynarodowa from './ochrona-miedzynarodowa';
 import apelacje from './apelacje';
 import kod95 from './kod-95';
 import pesel from './pesel';
-import meldunek from './meldunek';
 import aktyStanuCywilnego from './akty-stanu-cywilnego';
 import apostille from './apostille';
 import wymianaPrawaJazdy from './wymiana-prawa-jazdy';
@@ -49,7 +48,6 @@ export const services: Record<string, ServiceEntry> = {
   'apelacje': apelacje,
   'kod-95': kod95,
   'pesel': pesel,
-  'meldunek': meldunek,
   'akty-stanu-cywilnego': aktyStanuCywilnego,
   'apostille': apostille,
   'wymiana-prawa-jazdy': wymianaPrawaJazdy,

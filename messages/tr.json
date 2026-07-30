@@ -50,7 +50,7 @@
     "socialProofLabel": "müşteri yorumu"
   },
   "Marquee": {
-    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
+    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
   },
   "Stats": {
     "title": "Bizi anlatan rakamlar",
@@ -120,10 +120,6 @@
           {
             "name": "PESEL",
             "desc": "Tüm işlemler için kişisel kimlik numarasının çıkarılması"
-          },
-          {
-            "name": "Meldunek",
-            "desc": "İkamet adresinin beyanı (geçici ve daimi)"
           },
           {
             "name": "Nüfus kayıt belgeleri",
