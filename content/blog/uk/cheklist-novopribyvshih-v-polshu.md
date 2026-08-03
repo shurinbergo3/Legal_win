@@ -17,6 +17,7 @@ keywords:
 relatedServices:
   - /uk/uslugi/karta-pobytu
   - /uk/uslugi/pesel
+  - /uk/uslugi/meldunek
 schema: Article
 ---
 
@@ -112,7 +113,7 @@ schema: Article
 
 - **Аналіз вашої підстави** для karty pobytu (30 хвилин консультації)
 - **Підготовка пакета документів** для MOS v2.0 (частина «pod klucz» сервісу)
-- **Оформлення PESEL** — підготовка заяви та супровід в urząd
+- **Допомога з meldunkiem і PESEL** — якщо власник квартири не йде в urząd
 - **Допомога роботодавцю** із заповненням Załącznika nr 1
 - **Tłumaczenia przysięgłe** через перевіреного перекладача
 

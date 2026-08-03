@@ -50,7 +50,7 @@
     "socialProofLabel": "отзывы клиентов"
   },
   "Marquee": {
-    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
+    "items": "Karta Pobytu · Wymiana Prawa Jazdy · Kod 95 · Obywatelstwo Polskie · Spółka z o.o. · PESEL · Meldunek · Apostille · Karta Polaka · Tłumaczenia Przysięgłe · ZUS · Urząd Skarbowy · MSWiA · KRS · CIT · VAT"
   },
   "Stats": {
     "title": "Цифры, которые говорят за нас",
@@ -120,6 +120,10 @@
           {
             "name": "PESEL",
             "desc": "Оформление идентификационного номера для всех целей"
+          },
+          {
+            "name": "Meldunek",
+            "desc": "Регистрация места жительства (временная и постоянная)"
           },
           {
             "name": "Акты гражданского состояния",

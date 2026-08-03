@@ -34,7 +34,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Шесть шагов от первого звонка до получения карты.',
       steps: [
         { title: 'Консультация', duration: '30-60 мин', desc: 'Разбираем ваше основание, оцениваем шансы, составляем список документов.' },
-        { title: 'Сбор пакета', duration: '5-14 дней', desc: 'Собираем документы, переводим присяжно, готовим справки ZUS / US при необходимости.' },
+        { title: 'Сбор пакета', duration: '5-14 дней', desc: 'Собираем документы, переводим присяжно, готовим ZUS / US / meldunek при необходимости.' },
         { title: 'Подача в MOS v2.0', duration: '1 день', desc: 'Загружаем заявление и вложения в государственную систему, оплачиваем opłatę skarbową 340 PLN.' },
         { title: 'Сдача биометрии', duration: '1 визит', desc: 'Единственный обязательный визит - отпечатки и фото в воеводе. Сопровождаем нашим иммиграционным консультантом.' },
         { title: 'Ожидание и запросы', duration: '30-60 дней', desc: 'Отвечаем на uzupełnienia через eDoręczenia. Следите за статусом в клиентском портале.' },
@@ -120,7 +120,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Sześć kroków od pierwszego telefonu do odbioru karty.',
       steps: [
         { title: 'Konsultacja', duration: '30-60 min', desc: 'Analizujemy podstawę, oceniamy szanse, sporządzamy listę dokumentów.' },
-        { title: 'Zbiór pakietu', duration: '5-14 dni', desc: 'Zbieramy dokumenty, tłumaczymy przysięgle, wyrabiamy zaświadczenia ZUS / US.' },
+        { title: 'Zbiór pakietu', duration: '5-14 dni', desc: 'Zbieramy dokumenty, tłumaczymy przysięgle, wyrabiamy ZUS / US / meldunek.' },
         { title: 'Złożenie w MOS v2.0', duration: '1 dzień', desc: 'Ładujemy wniosek i załączniki do systemu państwowego, opłacamy 340 PLN.' },
         { title: 'Odciski palców', duration: '1 wizyta', desc: 'Jedyna obowiązkowa wizyta - odciski i zdjęcie u wojewody. Asystuje konsultant imigracyjny.' },
         { title: 'Oczekiwanie', duration: '30-60 dni', desc: 'Odpowiadamy na wezwania przez eDoręczenia. Statusy na portalu klienta.' },
@@ -206,7 +206,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Six steps from the first call to card collection.',
       steps: [
         { title: 'Consultation', duration: '30-60 min', desc: 'We assess your ground, rate the odds, and list required documents.' },
-        { title: 'Document pack', duration: '5-14 days', desc: 'We gather docs, arrange sworn translations, handle ZUS and tax certificates.' },
+        { title: 'Document pack', duration: '5-14 days', desc: 'We gather docs, arrange sworn translations, handle ZUS / tax / meldunek.' },
         { title: 'Filing via MOS v2.0', duration: '1 day', desc: 'We upload the application and attachments to the state system, pay 340 PLN.' },
         { title: 'Biometrics', duration: '1 visit', desc: 'Only mandatory visit - fingerprints and photo at the voivode\'s. Immigration consultant accompanies.' },
         { title: 'Waiting & requests', duration: '30-60 days', desc: 'We reply to uzupełnienia via eDoręczenia. Status on client portal.' },
@@ -292,7 +292,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'İlk görüşmeden kartın teslimine altı adım.',
       steps: [
         { title: 'Danışmanlık', duration: '30-60 dk', desc: 'Gerekçenizi inceler, şansları değerlendirir, belge listesini çıkarırız.' },
-        { title: 'Belge derlemesi', duration: '5-14 gün', desc: 'Belgeleri toplar, yeminli tercüme yaptırır, gerekirse ZUS (Sosyal Güvenlik Kurumu) ve US (vergi dairesi) belgelerini hallederiz.' },
+        { title: 'Belge derlemesi', duration: '5-14 gün', desc: 'Belgeleri toplar, yeminli tercüme yaptırır, gerekirse ZUS (Sosyal Güvenlik Kurumu) / US (vergi dairesi) / meldunek (ikamet beyanı) işlemlerini hallederiz.' },
         { title: 'MOS v2.0\'a yükleme', duration: '1 gün', desc: 'Başvuruyu ve ekleri devlet sistemine yükler, 340 PLN opłata skarbowa (damga vergisi) öderiz.' },
         { title: 'Biyometrik veri', duration: '1 ziyaret', desc: 'Tek zorunlu fiziki ziyaret - voivoda nezdinde parmak izi ve fotoğraf. Göçmenlik danışmanımız eşlik eder.' },
         { title: 'Bekleme ve ek talep', duration: '30-60 gün', desc: 'eDoręczenia üzerinden gelen uzupełnienia (ek belge taleplerine) yanıt veririz. Süreci müvekkil panelinden takip edersiniz.' },
@@ -378,7 +378,7 @@ const kartaPobytu: ServiceEntry = {
       subtitle: 'Шість кроків від першого дзвінка до отримання карти.',
       steps: [
         { title: 'Консультація', duration: '30–60 хв', desc: 'Розбираємо вашу підставу, оцінюємо шанси, складаємо список документів.' },
-        { title: 'Збір пакета', duration: '5–14 днів', desc: 'Збираємо документи, перекладаємо присяжно, готуємо довідки ZUS / US за потреби.' },
+        { title: 'Збір пакета', duration: '5–14 днів', desc: 'Збираємо документи, перекладаємо присяжно, готуємо ZUS / US / meldunek за потреби.' },
         { title: 'Подання у MOS v2.0', duration: '1 день', desc: 'Завантажуємо заяву та додатки в державну систему, сплачуємо opłatę skarbową 340 PLN.' },
         { title: 'Здавання біометрії', duration: '1 візит', desc: 'Єдиний обов’язковий візит — відбитки та фото у воєводи. Супроводжує наш імміграційний консультант.' },
         { title: 'Очікування і запити', duration: '30–60 днів', desc: 'Відповідаємо на uzupełnienia через eDoręczenia. За статусом стежите в клієнтському порталі.' },

@@ -17,6 +17,7 @@ keywords:
 relatedServices:
   - /en/uslugi/karta-pobytu
   - /en/uslugi/pesel
+  - /en/uslugi/meldunek
 schema: Article
 ---
 
@@ -110,7 +111,7 @@ Not everything is worth doing alone. The 30-day items that pay off:
 
 - **Analysis of your basis** for karta pobytu (30-minute consultation)
 - **Document package preparation** for MOS v2.0 (part of "pod klucz" service)
-- **PESEL application** - we draft the wniosek and go to the office with you
+- **Help with meldunek and PESEL** - if your landlord refuses to come to the office
 - **Help for the employer** with completing Załącznik nr 1
 - **Sworn translations** through a vetted translator
 

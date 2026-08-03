@@ -18,6 +18,7 @@ keywords:
 relatedServices:
   - /tr/uslugi/karta-pobytu
   - /tr/uslugi/pesel
+  - /tr/uslugi/meldunek
 schema: Article
 ---
 
@@ -111,7 +112,7 @@ Her şeyi kendiniz yapmak gerekmiyor. 30 günde kendini amorti edenler:
 
 - **`Karta pobytu` dayanağınızın analizi** (30 dakikalık danışmanlık).
 - **`MOS v2.0` için belge paketinin hazırlanması** ("anahtar teslim" hizmetinin parçası).
-- **PESEL başvurusu** - dilekçenin hazırlanması ve `urząd`'da refakat.
+- **`Meldunek` ve PESEL'de yardım** - ev sahibi `urząd`'a gitmek istemezse.
 - **İşverene `Załącznik nr 1` *(işveren beyanı)* doldurmada destek**.
 - **Doğrulanmış tercümanlardan `tłumaczenie przysięgłe`**.
 

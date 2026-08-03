@@ -86,7 +86,7 @@ const wyszukiwanieMieszkania: ServiceEntry = {
       { q: 'Сколько по факту стоит купить квартиру 60 м² в Варшаве?', a: '2026 год: 60 м² в Mokotów - 850 000-1 200 000 PLN, центр - 1 100 000-1 500 000 PLN. К цене + 2% PCC + 1-1,5% нотариус + 0,5% wpisu w KW + 1,5-2,5% наш гонорар = 5-7% к цене объекта на покупательскую сторону. Плюс ремонт 2 000-4 000 PLN/м².' },
       { q: 'Нужно ли разрешение MSWiA для не-ЕС покупателя?', a: 'Для квартиры в городе - нет. Для дома, дачи, участка свыше 0,4 га - да. Также для коммерческой недвижимости вне города. Срок выдачи zezwolenia - 60-90 дней, гонорар MSWiA - 1 570 PLN. Делаем под ключ за 2 800 PLN наших + госпошлина.' }
     ],
-    related: ['odbior-z-lotniska', 'pesel', 'tlumacz-na-wizyty'],
+    related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
     ctaTitle: 'Найдём жильё за 7-21 день',
     ctaSubtitle: 'Бесплатная консультация: бриф ваши потребности и бюджет, дадим список 3-5 топ-вариантов в течение 48 часов. Подбор и переговоры - 7-21 день.'
   },
@@ -175,7 +175,7 @@ const wyszukiwanieMieszkania: ServiceEntry = {
       { q: 'Realny koszt zakupu 60 m² w WAW?', a: '2026: Mokotów - 850 000-1 200 000 PLN, centrum - 1 100 000-1 500 000. + 2% PCC + 1-1,5% notariusz + 0,5% wpis KW + 1,5-2,5% nasze = 5-7% na stronę kupującego. Remont 2 000-4 000 PLN/m².' },
       { q: 'MSWiA dla spoza UE?', a: 'Mieszkanie w mieście - nie. Dom/działka >0,4 ha - tak. Komercja pozamiejska - tak. Termin 60-90 dni, opłata 1 570 PLN. Pod klucz 2 800 PLN naszych.' }
     ],
-    related: ['odbior-z-lotniska', 'pesel', 'tlumacz-na-wizyty'],
+    related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
     ctaTitle: 'Mieszkanie w 7-21 dni',
     ctaSubtitle: 'Bezpłatna konsultacja: brief, lista 3-5 topów w 48 h. Dobór i negocjacje - 7-21 dni.'
   },
@@ -264,7 +264,7 @@ const wyszukiwanieMieszkania: ServiceEntry = {
       { q: 'Real cost to buy 60 m² in Warsaw?', a: '2026: Mokotów - 850,000-1,200,000 PLN, centre - 1,100,000-1,500,000. + 2% PCC + 1-1.5% notary + 0.5% KW entry + 1.5-2.5% our fee = 5-7% buyer-side. Renovation 2,000-4,000 PLN/m².' },
       { q: 'MSWiA for non-EU buyers?', a: 'Urban apartment - no. House or land >0.4 ha - yes. Non-urban commercial - yes. 60-90 days, 1,570 PLN MSWiA fee. Turnkey for 2,800 PLN of our fee.' }
     ],
-    related: ['odbior-z-lotniska', 'pesel', 'tlumacz-na-wizyty'],
+    related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
     ctaTitle: 'Housing in 7-21 days',
     ctaSubtitle: 'Free consultation: brief and a 3-5 top-options list within 48h. Full sourcing and negotiation - 7-21 days.'
   },
@@ -353,7 +353,7 @@ const wyszukiwanieMieszkania: ServiceEntry = {
       { q: 'Varşova\'da 60 m² daire almak gerçekten ne tutar?', a: '2026: Mokotów\'da 60 m² - 850.000-1.200.000 PLN, merkezde - 1.100.000-1.500.000 PLN. Fiyata + %2 PCC + %1-1,5 noter + %0,5 KW wpis + %1,5-2,5 danışmanlık ücretimiz = alıcı tarafında %5-7. Plus tadilat m² başına 2.000-4.000 PLN.' },
       { q: 'AB dışı alıcı için MSWiA izni gerekli mi?', a: 'Şehirde daire için - hayır. Müstakil ev, yazlık, 0,4 ha üzeri arsa için - evet. Şehir dışı ticari gayrimenkulde de - evet. Zezwolenie verilme süresi 60-90 gün, MSWiA harcı 1.570 PLN. Anahtar teslim 2.800 PLN danışmanlık + resmi harç.' }
     ],
-    related: ['odbior-z-lotniska', 'pesel', 'tlumacz-na-wizyty'],
+    related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
     ctaTitle: 'Konutu 7-21 günde buluyoruz',
     ctaSubtitle: 'Ücretsiz danışmanlık: ihtiyaç ve bütçenizi dinler, 48 saat içinde 3-5 en iyi seçeneği listeleriz. Seçim ve müzakere 7-21 gün.'
   },
@@ -442,7 +442,7 @@ const wyszukiwanieMieszkania: ServiceEntry = {
       { q: 'Скільки фактично коштує купити квартиру 60 м² у Варшаві?', a: '2026 рік: 60 м² на Mokotów — 850 000–1 200 000 PLN, центр — 1 100 000–1 500 000 PLN. До ціни + 2% PCC + 1–1,5% нотаріус + 0,5% wpisu w KW + 1,5–2,5% наш гонорар = 5–7% до ціни об’єкта на сторону покупця. Плюс ремонт 2 000–4 000 PLN/м².' },
       { q: 'Чи потрібен дозвіл MSWiA для не-ЄС покупця?', a: 'Для квартири в місті — ні. Для будинку, дачі, ділянки понад 0,4 га — так. Також для комерційної нерухомості поза містом. Термін видачі zezwolenia — 60–90 днів, гонорар MSWiA — 1 570 PLN. Робимо під ключ за 2 800 PLN наших + держмито.' }
     ],
-    related: ['odbior-z-lotniska', 'pesel', 'tlumacz-na-wizyty'],
+    related: ['odbior-z-lotniska', 'meldunek', 'pesel'],
     ctaTitle: 'Знайдемо житло за 7–21 день',
     ctaSubtitle: 'Безкоштовна консультація: брифуємо ваші потреби та бюджет, дамо список 3–5 топ-варіантів протягом 48 годин. Добір і переговори — 7–21 день.'
   }

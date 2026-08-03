@@ -85,7 +85,7 @@ const pesel: ServiceEntry = {
       { q: 'Что делать, если потерял zaświadczenie o PESEL?', a: 'Само zaświadczenie (справка) не нужно - PESEL запрашивается из реестра PESEL по запросу любого учреждения. Дубликат можно бесплатно получить в любом urząd gminy (городском управлении) в течение 1 дня.' },
       { q: 'Получу ли PESEL детям иностранцев?', a: 'Да. На детей до 18 лет PESEL оформляется родителем - нужно свидетельство о рождении (присяжный перевод), паспорта родителей, документы о пребывании ребёнка в Польше. Делаем одновременно со взрослым PESEL - экономия времени и сборов.' }
     ],
-    related: ['apostille', 'tlumaczenia-przysiegle', 'konto-bankowe'],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Получим PESEL за 1 день',
     ctaSubtitle: 'Бесплатная консультация: уточним цель оформления, соберём пакет документов и запишем в urząd. От первого звонка до zaświadczenia z PESEL - обычно 1-3 рабочих дня.'
   },
@@ -173,7 +173,7 @@ const pesel: ServiceEntry = {
       { q: 'Co jeśli zgubię zaświadczenie?', a: 'Samo zaświadczenie nie jest potrzebne - PESEL pobierany jest z rejestru przez urzędy. Duplikat - bezpłatnie w urzędzie gminy w 1 dzień.' },
       { q: 'PESEL dla dzieci?', a: 'Tak - wnioskuje rodzic. Akt urodzenia (tłumaczenie przysięgłe), paszporty rodziców, dokumenty pobytu dziecka. Robimy razem z PESEL dorosłego.' }
     ],
-    related: ['apostille', 'tlumaczenia-przysiegle', 'konto-bankowe'],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Załatwimy PESEL w 1 dzień',
     ctaSubtitle: 'Bezpłatna konsultacja: ustalimy cel, zbierzemy dokumenty i umówimy w urzędzie. Od pierwszego telefonu do zaświadczenia - zwykle 1-3 dni robocze.'
   },
@@ -211,7 +211,7 @@ const pesel: ServiceEntry = {
       steps: [
         { title: 'Free 20-min call', duration: '20 min', desc: 'We pick the cel that fits your situation, check whether you already have meldunek, and flag any document gaps that would trigger a refusal.' },
         { title: 'Wniosek prepared', duration: '1 day', desc: 'We fill the cudzoziemiec PESEL form per the 2022 MSWiA regulation and line up sworn translations of your birth and (if relevant) marriage certificate.' },
-        { title: 'Address paperwork check', duration: '1 day', desc: "Urząd will refuse PESEL without an address it can verify. We go through your tenancy agreement and the owner's details in advance, so the clerk has nothing to push back on." },
+        { title: 'Meldunek first, if needed', duration: '1 day', desc: "Urząd will refuse PESEL without an address logged in the register. Classic Catch-22 for new arrivals. We file meldunek in parallel so both go in on the same visit." },
         { title: 'Filing at urząd dzielnicy', duration: '1 visit', desc: "In person, passport in hand. You sign the form at the clerk's desk. For UKR status, no visit, the application moves through mObywatel." },
         { title: 'PESEL issued', duration: 'same day', desc: 'Clean files come back same day, zaświadczenie o nadaniu PESEL printed free of charge. Busy urzęds in Warsaw and Wrocław sometimes push to the next working day.' },
         { title: 'profil zaufany + mObywatel', duration: '45 min', desc: 'We set up profil zaufany through your bank (mBank or Santander is fastest) and install mObywatel so your digital ID is ready before you leave the office.' }
@@ -254,16 +254,16 @@ const pesel: ServiceEntry = {
     },
     faq: [
       { q: 'Do I need a karta pobytu first?', a: 'No. Since the 2022 reform PESEL is granted on a stated cel, not on TRC status. A work contract, KRS extract, uczelnia letter, or notarial deed is enough, paired with any valid stay basis: D-visa, visa-free stamp, or the receipt for a pending TRC.' },
-      { q: "Urząd refused because I have no meldunek. What now?", a: "Classic Catch-22 for new arrivals: the clerk wants an address in the register before assigning a PESEL. Meldunek is filed at the same urząd, either with the property owner present or on a notarised authorisation if the landlord won't come along, around 150 PLN at any notariusz. Once the address sits in the register, the PESEL application goes through normally." },
+      { q: "Urząd refused because I have no meldunek. What now?", a: "Classic Catch-22. The clerk wants an address in the register before they assign a PESEL, but most landlords drag their feet on meldunek. We solve it by filing both on the same visit, with a notarised owner authorisation if the landlord won't come along. Around 150 PLN at any notariusz." },
       { q: 'How fast is fast?', a: "Same-day in Gdańsk, Łódź or Poznań when files are clean. Warsaw and Wrocław run 1 to 3 working days during peak loads, usually September and January. UKR status moves entirely through mObywatel, 24 hours start to finish, no visit." },
       { q: 'Does PESEL let me work?', a: "No. PESEL is identification, not authorisation. To work you also need a zezwolenie na pracę, an oświadczenie o powierzeniu pracy, or a TRC with work rights baked in. PESEL is necessary but never sufficient on its own." },
       { q: 'Why does my bank suddenly want PESEL?', a: "Polish banks open a passport-only account as a stopgap. Around day 30 their KYC system flags it and asks you to come back with PESEL. Once you do, they convert the account to a full residential one, enable BLIK, open online banking, and drop the foreign-correspondent fees on PLN transfers." },
       { q: "I'm a US citizen. Does PESEL replace my SSN?", a: "No. The two coexist. You keep your SSN for IRS filing. The Polish side, FATCA forms at brokerages like XTB or Bossa, asks for PESEL. Without it the form is incomplete and the account sits in compliance review until you fix it." },
       { q: 'Can PESEL be changed?', a: 'Almost never. Three legal grounds: gender reassignment, a confirmed date-of-birth error in the register, witness protection. Application through MSWiA, takes months. Plan as if the number is permanent.' }
     ],
-    related: ['apostille', 'tlumaczenia-przysiegle', 'konto-bankowe'],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'PESEL sorted in a day',
-    ctaSubtitle: 'Free 20-min consultation. We pick the cel, prepare the wniosek, file at urząd dzielnicy, and link profil zaufany and mObywatel before you head home. Typical turnaround is 1 to 3 working days.'
+    ctaSubtitle: 'Free 20-min consultation. We pick the cel, line up meldunek if you need it, file at urząd dzielnicy, and link profil zaufany and mObywatel before you head home. Typical turnaround is 1 to 3 working days.'
   },
   tr: {
     slug: 'pesel',
@@ -349,7 +349,7 @@ const pesel: ServiceEntry = {
       { q: 'PESEL belgesini kaybettim, ne yapmalıyım?', a: 'Belgenin kendisi gerekli değil - PESEL, talep eden kurumlar tarafından doğrudan PESEL sicilinden çekilir. Duplikat herhangi bir urząd gminy\'den 1 günde ücretsiz alınır.' },
       { q: 'Yabancı çocuklara PESEL alabilir miyim?', a: 'Evet. 18 yaş altı çocuklara PESEL ebeveyn tarafından çıkartılır - yeminli tercümeli doğum belgesi, ebeveynlerin pasaportları, çocuğun Polonya\'da ikametine dair belgeler gerekir. Yetişkin PESEL\'iyle birlikte aynı anda yapıyoruz - zaman ve ücretten tasarruf sağlar.' }
     ],
-    related: ['apostille', 'tlumaczenia-przysiegle', 'konto-bankowe'],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'PESEL\'i 1 günde alalım',
     ctaSubtitle: 'Ücretsiz danışmanlık: amacı netleştirir, belgeleri toplar, urząd\'a randevu alırız. İlk görüşmeden PESEL belgesine genelde 1-3 iş günü sürer.'
   },
@@ -437,7 +437,7 @@ const pesel: ServiceEntry = {
       { q: 'Що робити, якщо загубив zaświadczenie o PESEL?', a: 'Саме zaświadczenie (довідка) не потрібна — PESEL запитується з реєстру PESEL на запит будь-якої установи. Дублікат можна безкоштовно отримати в будь-якому urząd gminy (міському управлінні) протягом 1 дня.' },
       { q: 'Чи отримаю PESEL дітям іноземців?', a: 'Так. На дітей до 18 років PESEL оформлюється батьком/матір’ю — потрібне свідоцтво про народження (присяжний переклад), паспорти батьків, документи про перебування дитини в Польщі. Робимо одночасно з дорослим PESEL — економія часу та зборів.' }
     ],
-    related: ['apostille', 'tlumaczenia-przysiegle', 'konto-bankowe'],
+    related: ['meldunek', 'apostille', 'tlumaczenia-przysiegle'],
     ctaTitle: 'Отримаємо PESEL за 1 день',
     ctaSubtitle: 'Безкоштовна консультація: уточнимо ціль оформлення, зберемо пакет документів і запишемо в urząd. Від першого дзвінка до zaświadczenia z PESEL — зазвичай 1–3 робочих дні.'
   }

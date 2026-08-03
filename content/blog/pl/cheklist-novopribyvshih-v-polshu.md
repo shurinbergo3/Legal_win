@@ -17,6 +17,7 @@ keywords:
 relatedServices:
   - /pl/uslugi/karta-pobytu
   - /pl/uslugi/pesel
+  - /pl/uslugi/meldunek
 schema: Article
 ---
 
@@ -110,7 +111,7 @@ Nie wszystko da się zrobić samodzielnie. Pozycje, które zwracają się w 30 d
 
 - **Analiza Twojej podstawy** dla karty pobytu (30-minutowa konsultacja)
 - **Przygotowanie pakietu dokumentów** dla MOS v2.0 (część usługi „pod klucz")
-- **Uzyskanie PESEL** - przygotowanie wniosku i wsparcie w urzędzie
+- **Pomoc z meldunkiem i PESEL** - gdy właściciel mieszkania nie idzie do urzędu
 - **Pomoc pracodawcy** w wypełnieniu Załącznika nr 1
 - **Tłumaczenia przysięgłe** przez sprawdzonego tłumacza
 

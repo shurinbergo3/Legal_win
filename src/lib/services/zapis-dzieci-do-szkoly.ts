@@ -86,7 +86,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
       { q: 'Бесплатные обеды в школе?', a: 'В большинстве szkół podstawowych - да, по вниоsku от MOPS для семей с доходом ≤ 600 PLN/чел./мес. Иначе - 6-12 PLN/обед, оплата раз в месяц. Помогаем оформить wniosek в MOPS.' },
       { q: 'Можно ли записать в школу в другом районе?', a: 'Школы podstawowe берут по zameldowaniu в районе (rejon). Если хотите в другой район - подача через rekrutację электронну в апреле-мае на сентябрь. После - только за zgodą dyrektora obu szkół. Liceum / technikum принимают свободно по баллам.' }
     ],
-    related: ['pesel', 'tlumacz-na-wizyty', 'apostille'],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'Запишем ребёнка в школу за 7-14 дней',
     ctaSubtitle: 'Бесплатная консультация: подбор школ под ваш район и потребности, проверка документов, сопровождение к dyrektorovi. Klasa powitalna для не-польскоговорящих доступна везде.'
   },
@@ -175,7 +175,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
       { q: 'Bezpłatne obiady?', a: 'W większości podstawówek - tak, po wniosku do MOPS przy dochodzie ≤ 600 PLN/os./mies. Inaczej 6-12 PLN/obiad. Pomagamy z wnioskiem.' },
       { q: 'Inny rejon?', a: 'Podstawówki biorą po rejonie. Inny - przez rekrutację elektroniczną kwiecień-maj. Później - za zgodą obu dyrektorów. Liceum / technikum - wolny wybór po punktach.' }
     ],
-    related: ['pesel', 'tlumacz-na-wizyty', 'apostille'],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'Zapis do szkoły w 7-14 dni',
     ctaSubtitle: 'Bezpłatna konsultacja: dobór pod rejon i potrzeby, weryfikacja dokumentów, asysta u dyrektora. Klasa powitalna dostępna wszędzie.'
   },
@@ -264,7 +264,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
       { q: 'Free school meals?', a: "Most primary schools - yes, via MOPS application for families earning ≤ 600 PLN/person/month. Otherwise 6-12 PLN/meal. We help file the MOPS application." },
       { q: 'Different district?', a: 'Primary schools enrol by district. Other districts - via electronic recruitment in April-May. Later - only with both directors\' consent. Liceum / technikum - open by score.' }
     ],
-    related: ['pesel', 'tlumacz-na-wizyty', 'apostille'],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'School enrolment in 7-14 days',
     ctaSubtitle: 'Free consultation: school options for your district and needs, document review, accompaniment to the director. Welcome class available everywhere.'
   },
@@ -353,7 +353,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
       { q: 'Okulda ücretsiz yemek var mı?', a: 'Çoğu szkoła podstawowa\'da - evet, geliri kişi başı 600 PLN/ay altındaki aileler için MOPS\'a wniosek yapılarak. Aksi halde - öğün başına 6-12 PLN, ayda bir ödeme. MOPS başvurusunu hazırlamada yardım ediyoruz.' },
       { q: 'Başka bölgedeki okula kayıt mümkün mü?', a: 'Szkoła podstawowa\'lar bölgeye (rejon) göre öğrenci alır. Başka bir bölgeye gitmek isterseniz - eylül için nisan-mayısta elektronik rekrutacja\'ya başvurursunuz. Sonrasında - yalnızca her iki okul müdürünün onayıyla. Liceum / technikum puanlara göre serbest seçim sunar.' }
     ],
-    related: ['pesel', 'tlumacz-na-wizyty', 'apostille'],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'Çocuğunuzu okula 7-14 günde kaydediyoruz',
     ctaSubtitle: 'Ücretsiz danışmanlık: bölgenize ve ihtiyacınıza uygun okulu seçer, belgeleri kontrol eder, dyrektor görüşmesinde eşlik ederiz. Klasa powitalna her yerde mevcuttur.'
   },
@@ -442,7 +442,7 @@ const zapisDzieciDoSzkoly: ServiceEntry = {
       { q: 'Безкоштовні обіди в школі?', a: 'У більшості szkół podstawowych — так, за wnioskiem від MOPS для сімей із доходом ≤ 600 PLN/особу/міс. Інакше — 6–12 PLN/обід, оплата раз на місяць. Допомагаємо оформити wniosek у MOPS.' },
       { q: 'Чи можна записати до школи в іншому районі?', a: 'Школи podstawowe беруть за zameldowaniu в районі (rejon). Якщо хочете в інший район — подання через rekrutację електронну в квітні-травні на вересень. Після — лише за zgodą dyrektora obu szkół. Liceum / technikum приймають вільно за балами.' }
     ],
-    related: ['pesel', 'tlumacz-na-wizyty', 'apostille'],
+    related: ['meldunek', 'pesel', 'tlumacz-na-wizyty'],
     ctaTitle: 'Запишемо дитину до школи за 7–14 днів',
     ctaSubtitle: 'Безкоштовна консультація: добір шкіл під ваш район і потреби, перевірка документів, супровід до dyrektora. Klasa powitalna для тих, хто не говорить польською, доступна всюди.'
   }
