@@ -105,7 +105,34 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   // 2026-Q3 - три новые услуги
   'status-rezidenta-es-polsha-2026': '/services/karta-stalego-pobytu.webp',
   'nulevye-deklaracii-polsha-2026': '/services/zaswiadczenia-zus-us.webp',
-  'konto-firmowe-v-polshe-2026': '/services/warszawa-spire.webp'
+  'konto-firmowe-v-polshe-2026': '/services/warszawa-spire.webp',
+
+  // 2026-Q3/Q4 - кластер из 25 статей (meldunek, апостиль, KRK, тренды)
+  'meldunek-dlya-inostranca-2026': '/services/meldunek.webp',
+  'zameldowanie-bez-soglasiya-sobstvennika-2026': '/services/meldunek.webp',
+  'meldunek-czasowy-vs-staly-2026': '/services/meldunek.webp',
+  'zaswiadczenie-o-zameldowaniu-2026': '/services/meldunek.webp',
+  'wymeldowanie-i-fiktivnaya-propiska-2026': '/services/meldunek.webp',
+  'apostille-ili-legalizacja-konsularna-2026': '/services/apostille.webp',
+  'apostille-na-korporativnye-dokumenty-krs-2026': '/services/apostille.webp',
+  'pochemu-otkazyvayut-v-apostile-2026': '/services/apostille.webp',
+  'e-apostille-elektronnye-dokumenty-2026': '/services/apostille.webp',
+  'krk-i-rstpn-rabota-s-detmi-2026': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'krk-o-podmiocie-zbiorowym-dlya-firmy-2026': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'krk-dlya-litsenziy-i-professiy-2026': '/services/zaswiadczenie-o-niekaralnosci.webp',
+  'pesel-ukr-aktualizacja-danych-31-avgusta-2026': '/services/pesel.webp',
+  'obywatelstwo-polskie-2026-reforma-10-let': '/services/obywatelstwo.webp',
+  'karta-pobytu-udalennaya-rabota-2026': '/services/karta-pobytu.webp',
+  'zmiana-danych-wymiana-karty-pobytu-2026': '/services/karta-pobytu.webp',
+  'zezwolenie-na-prace-2026-praca-gov-pl': '/services/pomoc-w-zatrudnieniu.webp',
+  'etias-2026-kogo-kasaetsya': '/services/odbior-z-lotniska.webp',
+  'transkrypcja-aktu-w-usc-2026': '/services/akty-stanu-cywilnego.webp',
+  'arenda-kvartiry-najem-okazjonalny-2026': '/services/wyszukiwanie-mieszkania.webp',
+  'zaswiadczenia-zus-us-o-niezaleganiu-2026': '/services/zaswiadczenia-zus-us.webp',
+  'pokupka-kvartiry-v-polshe-inostrancem-2026': '/services/warszawa-tramwaj.webp',
+  'registraciya-avto-i-oc-v-polshe-2026': '/services/wymiana-prawa-jazdy.webp',
+  'licenciya-taxi-bolt-uber-dlya-inostranca-2026': '/services/wymiana-prawa-jazdy.webp',
+  'zaproszenie-dlya-inostranca-v-polshu-2026': '/services/zaproszenia.webp'
 };
 
 const FALLBACK = '/services/blog.webp';

@@ -4,6 +4,8 @@
 // also ask" suggestions for each topic, refined for the 2026 legal landscape
 // in Poland (MOS v2.0, eDoręczenia, KSeF, EES, ITD/BAG fines, etc.).
 
+import { BLOG_FAQ_2026_Q4 } from './blog-faq-2026-q4';
+
 export type BlogFaqItem = { q: string; a: string };
 export type BlogFaqLocale = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 
@@ -2194,7 +2196,9 @@ export const BLOG_FAQ: Map = {
       { q: 'Why do banks refuse business accounts?', a: 'Almost always because of AML procedures, and the bank is not obliged to explain. Typical causes: no genuine link to Poland (address, registration, lease), an unclear source of funds, "risky" PKD activity codes such as crypto, consulting or international trade, a complex ownership structure, and no PESEL alongside a thin document pack. Returning to the same bank rarely helps.' },
       { q: 'Do I need an account to register an Sp. z o.o. through S24?', a: 'Not for the registration itself: the 5,000 PLN share capital can be declared as contributed and paid in later, including in kind (art. 158 of the Commercial Companies Code). But right after the KRS entry the account is needed to contribute the capital in cash, to file NIP-8, to get onto the white list, and for the first payments and ZUS.' }
     ]
-  }
+  },
+
+  ...BLOG_FAQ_2026_Q4
 };
 
 export function getBlogFaq(slug: string, locale: BlogFaqLocale): BlogFaqItem[] {
