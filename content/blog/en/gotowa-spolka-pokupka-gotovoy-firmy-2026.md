@@ -113,23 +113,4 @@ Put simply, a ready-made company is what you pay for time and peace of mind. If 
 
 ---
 
-## Frequently Asked Questions
-
-**What is a ready-made company (gotowa spółka)?**
-It is a sp. z o.o. already registered in KRS with no activity, debts or turnover, and with a NIP, REGON and KRS in place. You buy it by transferring the shares and management to the new owner, and you get a working company in a single day.
-
-**What does a buyer of a ready-made company risk?**
-That the company answers for its prior obligations regardless of a change of owner. If it has hidden debts, tax tails or disputes, they pass along with it. That is why due diligence - a check against the registers and documents - is essential before buying.
-
-**Is a ready-made company suitable for a residence card through business?**
-It can suit when you need to show an operating company quickly. But the voivodeship looks at real activity and income, so buying the shell alone is not enough - the business has to actually work. It is best to agree the form and strategy in advance.
-
-**Which is cheaper - buying a ready-made one or opening a new one?**
-Opening a new one is usually cheaper: the state costs through S24 are small. A ready-made company costs more because you are paying for speed and for the fact that someone has already been through registration and vetting. The choice depends on what matters more - money or time.
-
-**How do I check that a ready-made company is clean?**
-Study the current KRS extract, the financial statements, the absence of ZUS and tax office debts, the CRBR data, any obligations and the trading history. The ideal option is a company that never traded at all. The check is worth entrusting to specialists before you sign.
-
----
-
 A ready-made company is a good tool when time is worth more than money, but only with honest vetting. Buying a pig in a poke with someone else's debts is far more expensive than waiting a couple of days and opening your own. We source and check clean ready-made companies, handle the transfer at the notary and update all the registers - or register a new sp. z o.o. if there is no rush. This is general information, not individual legal advice. To find a safe option that fits your deadline, [get in touch with us about company support](/en/uslugi/rejestracja-sp-z-oo).

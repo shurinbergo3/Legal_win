@@ -143,26 +143,4 @@ Over years of practice we have collected the things people trip over most often:
 
 ---
 
-## Frequently Asked Questions
-
-**How long do I have to notify the wojewoda about a lost card?**
-14 days from the moment you discover the loss. That deadline comes from the ustawa o cudzoziemcach. The count runs from the day of discovery, not the day you decide to deal with it, so file the notification right away.
-
-**How much does a wtórnik karty pobytu cost in 2026?**
-The fee to produce the plastic card is 100 PLN. There is no separate large opłata skarbowa (stamp duty) like the one on a first permit application, because the zezwolenie itself is already valid and is not being issued again.
-
-**Do I have to re-prove my grounds for staying when I file for a wtórnik?**
-No. A wtórnik replaces only the physical card; your residence permit keeps running. You do not re-gather documents on work, income, and housing - the set for a duplicate is minimal.
-
-**Can I travel abroad while the duplicate is being made?**
-Not recommended. The zaświadczenie for a wtórnik application legalizes your stay inside Poland, but it does not guarantee a smooth return from abroad - without the card you risk not getting back in without a separate visa. Hold off on serious trips until you have the plastic.
-
-**What do I do if my card was stolen?**
-First file a zawiadomienie o kradzieży with the police and get a potwierdzenie with the case number. Then notify the wojewoda and submit a wtórnik application, attaching the police record. That record protects you if a stranger uses the card.
-
-**Does mObywatel replace a lost karta pobytu?**
-Inside Poland the digital services are handy in many situations, but they do not replace the karta pobytu at the border and are not a travel document. For trips you need the physical card.
-
----
-
 Losing your card, or having it stolen, is a nuisance but not a disaster if you act fast and in the right order. We take on filing the wtórnik application and dealing with the urząd, keep an eye on the deadlines, and tell you exactly how to prove your legal stay while you wait. This is general information, not individual legal advice - your situation may have its own nuances. If your card is gone and you need the duplicate handled without errors, [book us for karta pobytu support](/en/uslugi/karta-pobytu).

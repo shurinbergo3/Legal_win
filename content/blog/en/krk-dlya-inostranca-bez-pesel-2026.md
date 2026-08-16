@@ -104,23 +104,4 @@ The reverse situation: you have your Polish KRK certificate, but you need it abr
 
 ---
 
-## Frequently Asked Questions
-
-**Can a foreigner without a PESEL get a criminal record certificate in Poland?**
-Yes. The Krajowy Rejestr Karny (KRK) issues information on foreigners without a PESEL too - identification runs on passport data and date of birth. The e-KRK online account is not available (it requires a Profil Zaufany tied to a PESEL), so you file on paper, with a podpis kwalifikowany, by post, or through a proxy.
-
-**How much does a KRK certificate cost without a PESEL?**
-The paper form is 30 PLN, and the electronic one (with a podpis kwalifikowany) is 20 PLN. If you go through a representative under a power of attorney, the service fee is added to the state charge.
-
-**Do I need a Profil Zaufany for a criminal record certificate?**
-For online issuance through e-KRK, yes - and it requires a PESEL. But without a profile you can still get the certificate: on paper at a KRK point at the court, by post, with a qualified electronic signature, or through a proxy.
-
-**Does the Polish KRK certificate replace a certificate from my country of origin?**
-No. KRK shows only the Polish register. For citizenship, permanent residence, and a range of procedures, you additionally need a criminal record certificate from the country where you lived before, with an apostille and a sworn translation. They are two different documents.
-
-**How long is a criminal record certificate valid?**
-There is no hard universal limit - it is set by whoever requests the document. The certificate is often treated as current within 3-6 months of the issue date. Check the requirement with the specific employer or urząd so you do not get it too early.
-
----
-
 Without a PESEL and a profile, a criminal record certificate can feel out of reach, but really it is a matter of the right filing channel and a carefully completed form. We obtain KRK certificates for foreigners under a power of attorney - you do not have to visit the court, wrestle with Polish forms, or worry about transliteration. This is general information, not individual legal advice. To get your certificate without the trips between offices, [get in touch with us to arrange your criminal record certificate](/en/uslugi/zaswiadczenie-o-niekaralnosci).

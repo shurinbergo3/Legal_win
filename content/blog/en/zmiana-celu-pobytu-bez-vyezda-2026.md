@@ -121,23 +121,4 @@ Both cases share one lesson: grounds first, activity second. The reverse order i
 
 ---
 
-## Frequently Asked Questions
-
-**Do I have to leave Poland to change my residence purpose?**
-No. If you hold a valid karta czasowego pobytu and file a new wniosek on the new basis while your stay is still legal, there is no need to leave. The change of purpose is handled inside the country by filing a new application.
-
-**What happens to my old card when I change purpose?**
-As long as there is no decision on the new wniosek, the old zezwolenie (permit) keeps running. After a positive decision the old basis lapses and you move to the new card. But you cannot carry out the new activity on the old basis.
-
-**Can I work while my new application is under review?**
-That depends on your current basis and what exactly you want to do. Working beyond what your valid zezwolenie allows before the new decision arrives is not permitted - it creates a violation. The order is: secure the grounds first, then carry out the activity.
-
-**Will my legal stay be interrupted by a change of purpose?**
-If you file the new wniosek in time, while your stay is legal, there is no break - the timely filing holds your legal stay. A break appears when the old basis no longer fits the new activity and the new one is not yet issued.
-
-**How much does a change of residence purpose cost in 2026?**
-The same as an ordinary karta czasowego pobytu: opłata skarbowa of 340 PLN plus 100 PLN to produce the plastic card. The change is handled through a separate wniosek, so the fee matches a new application.
-
----
-
 A change of residence purpose without leaving the country is a workable tool, but it demands precise timing and the right order of steps. One slip in the sequence can cost you continuity of status - and with it your future right to stały pobyt. We map out a safe route for your situation, weighing your current basis, the new purpose, and the dates, so you switch without a gap. This is general information, not individual legal advice. If you are planning to move from study to work or work to business, [book us for karta pobytu support](/en/uslugi/karta-pobytu).

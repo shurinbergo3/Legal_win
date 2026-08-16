@@ -128,25 +128,6 @@ We support drawing up the power of attorney with a notary as part of our [notary
 
 ---
 
-## Frequently Asked Questions
-
-**Can a power of attorney be apostilled directly at MSZ?**
-No. A notarial document must first be certified by the prezes sądu okręgowego (the president of the regional court) to which the notary is assigned, and only then does MSZ stamp the apostille. Without the court's certification the ministry will not accept the document.
-
-**How much does an apostille on a notarial power of attorney cost?**
-The opłata skarbowa for the apostille itself at MSZ is 60 PLN per document. On top of that you pay the notary's tariff for drawing it up and a fee for certifying the notary's signature at court. A sworn translation, if needed, is billed separately by the page.
-
-**Which court certifies the notary's signature?**
-The sąd okręgowy to which the specific notary who drew up the document is territorially assigned. Certification is done by the prezes sądu okręgowego or an authorised court official. You cannot use any nearby court at random.
-
-**Do I need a translation of the power of attorney after the apostille?**
-If the document is used in a non-Polish-speaking country - yes. The sworn translation (tłumaczenie przysięgłe) is done after the apostille and together with it, so the stamp is translated too. The order is apostille first, translation second.
-
-**How long does the whole procedure take?**
-In practice 2-4 weeks if you go through the stages in sequence: notary, court certification, apostille at MSZ, and translation if needed. With postal delivery the timeline moves toward the upper end. For a specific deal date, start the procedure early.
-
----
-
 An apostille on a power of attorney looks like a formality until a deal collapses over a skipped court step or powers that were worded wrong. We move the document through the whole chain, from the notary to a finished, apostilled and translated set. If you need to draw up and apostille a power of attorney or another notarial document, [arrange a full-service apostille with LegalWin](/en/uslugi/apostille).
 
 This is general information and does not replace individual legal advice. The requirements of foreign notaries and authorities differ, so it is best to agree the details for your deal in advance.

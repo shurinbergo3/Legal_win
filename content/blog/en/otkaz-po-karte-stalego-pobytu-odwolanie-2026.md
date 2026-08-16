@@ -138,26 +138,4 @@ Timing is everything. Fourteen days go fast, especially if you spend the first f
 
 ---
 
-## Frequently Asked Questions
-
-**How many days do I have to appeal a PR refusal?**
-You have 14 days from the date the decyzja was served to file an odwołanie to the Szef Urzędu do Spraw Cudzoziemców. If the second instance upholds the refusal, you then have 30 days for a skarga to the Wojewódzki Sąd Administracyjny. The deadlines run on calendar days, and missing one closes that stage.
-
-**Will I be deported right after an odmowa on stały pobyt?**
-No. An odmowa on stały pobyt does not cancel your prior basis of stay. While the appeal is running the decyzja is not enforced, and you remain legal on whatever status you held before you applied - a temporary card, a visa or UKR status.
-
-**Do I have to pay for an odwołanie?**
-There is no fee for an odwołanie to the Szef Urzędu. A skarga to the WSA carries a 200 PLN court fee. If the court annuls the decision as unlawful, costs may be recovered.
-
-**Can I supply documents after the refusal?**
-Yes. At the odwołanie stage you can still attach the missing evidence - PIT returns, certificates, proof of continuity, proof of cohabitation. At the WSA stage new evidence is barely accepted anymore; the court assesses the legality of the decision on the existing file.
-
-**What if I missed the 14 days?**
-There is a mechanism called przywrócenie terminu (restoration of the deadline), but it only works where the miss had a valid cause - illness, a faulty pouczenie, non-delivery. It's filed together with the odwołanie itself within 7 days of the cause ending. The odds depend on the circumstances, so it's far better not to let the deadline slip.
-
-**Appeal alone or with a lawyer?**
-A first-stage odwołanie you can file yourself if the urząd's error is obvious. But a skarga to the WSA is already a legal document about the legality of the decision, and a self-drafted one loses more often than not. Having the decyzja analysed before filing saves both time and the chance itself.
-
----
-
 An odmowa on karta stałego pobytu is not the end - it's a fork: either months lost, or a decision competently challenged and a card in hand. The difference almost always comes down to whether you dissected the decyzja and filed in time. This is general information, not individual legal advice - your situation may differ in the details. If an odmowa has arrived and the clock is already running, [hand us the refusal analysis and the conduct of your appeal](/en/uslugi/apelacje) before the 14 days are up.

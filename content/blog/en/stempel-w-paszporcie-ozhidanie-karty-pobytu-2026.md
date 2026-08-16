@@ -113,23 +113,4 @@ If you want to understand every nuance of your basis up front - whether you can 
 
 ---
 
-## Frequently Asked Questions
-
-**What does the passport stamp give you when you apply for a karta pobytu?**
-The stempel confirms that your stay in Poland is lawful for the entire review period of a correctly filed wniosek (application), even if your visa or visa-free window expired in the meantime. It is not a visa or a work permit, but a mark of lawful stay until the decyzja (decision) is issued.
-
-**Can I work if there is a stamp in my passport?**
-The stamp itself does not grant the right to work. Whether you can work depends on your basis: if you applied on the grounds of work and already held a zezwolenie na pracę (work permit) or worked lawfully before filing, you usually can. On other bases the stamp does not create the right to work.
-
-**Can I leave Poland on the stamp and come back?**
-No. The stamp legalizes your stay inside Poland but gives no right of re-entry. After leaving you cannot return on it - you would need a valid visa or a visa-free basis. Traveling during the procedure without one closes your way back.
-
-**Is the wojewoda's stamp valid across Schengen?**
-No. It is not a Schengen visa. Moving through other Schengen countries on the strength of the stamp is not legalized and can lead to problems at the border. For trips you need a valid visa or a visa-free basis.
-
-**How is the stamp different from UPO?**
-UPO is the electronic confirmation that the application was received, arriving right after filing. The stempel is the mark in your passport, placed later by the wojewoda once the documents are confirmed complete. Both relate to lawful stay during the procedure, but the stempel makes it visible in your passport.
-
----
-
 The passport stamp is your lawful right to live in Poland while your case runs, but it is not a license to work or a ticket abroad. Working out what you can actually do in your situation is best done at the start, not once the ticket is bought or the contract signed. This is general information, not individual legal advice. If you want to travel the road from filing to card without status mistakes, [book us for karta pobytu support](/en/uslugi/karta-pobytu).

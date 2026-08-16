@@ -112,23 +112,4 @@ On that last point: both a JDG and a sp. z o.o. can serve as grounds for a karta
 
 ---
 
-## Frequently Asked Questions
-
-**Can any foreigner open a JDG in Poland?**
-No. A JDG is available to EU citizens and to foreigners with a specific status - karta stałego pobytu, EU long-term resident, Karta Polaka, and on a number of grounds under a karta czasowego pobytu (for example, marriage to a Polish citizen). Without such a ground, what remains is a sp. z o.o., which any foreigner is entitled to open.
-
-**Which is cheaper - JDG or sp. z o.o.?**
-At the start a JDG is cheaper: registration in CEIDG is free and done online. A sp. z o.o. requires capital of 5 000 PLN and state costs of around 275-350 PLN when registered through S24, plus more complex bookkeeping down the line.
-
-**Where is liability lower?**
-In a sp. z o.o. The company answers for debts with its own assets, and the shareholder's private property is, as a rule, protected. In a JDG the entrepreneur answers with all of their private property, so for a risky business a company is safer.
-
-**Which to choose for a residence card through business?**
-Either form can be grounds, but the voivodeship looks at income and how stable the business is. Requirements differ for a sp. z o.o. and a JDG, so it is better to choose the form with the future karta pobytu in mind from the outset rather than reworking it later.
-
-**Can I switch from JDG to sp. z o.o. later?**
-Yes, there is a procedure for the przekształcenie (transformation) of a JDG into a sp. z o.o. that preserves its history and part of its rights. We have a separate article on it. But if growth and partners are obvious from the start, it is sometimes simpler to open a sp. z o.o. right away.
-
----
-
 Choosing between a JDG and a sp. z o.o. is not about "which is trendier," it is the sum of your residence status, risks, taxes and growth plans. It is easy to get wrong: starting a JDG where you have no right to one, or overpaying on a company where a simple form would have done. We match the structure to the specific situation and status, register it and keep the books. This is general information, not individual legal advice. To pick the right form for your case, [get in touch with us about registering your business](/en/uslugi/rejestracja-sp-z-oo).

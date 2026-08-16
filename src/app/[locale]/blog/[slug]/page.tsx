@@ -8,6 +8,7 @@ import { BlogArticle } from '@/components/BlogArticle';
 import { JsonLd } from '@/components/JsonLd';
 import {
   getPost,
+  getPublishedSlugs,
   getRelatedPosts,
   listPostSlugs,
   getAvailableLocalesForSlug
@@ -166,6 +167,7 @@ export default async function BlogPostPage({
         <BlogArticle
           post={post}
           related={related}
+          publishedSlugs={getPublishedSlugs(locale)}
           labels={{
             back: t('back'),
             publishedOn: t('publishedOn'),

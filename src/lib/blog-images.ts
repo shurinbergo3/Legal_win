@@ -132,7 +132,13 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'pokupka-kvartiry-v-polshe-inostrancem-2026': '/services/warszawa-tramwaj.webp',
   'registraciya-avto-i-oc-v-polshe-2026': '/services/wymiana-prawa-jazdy.webp',
   'licenciya-taxi-bolt-uber-dlya-inostranca-2026': '/services/wymiana-prawa-jazdy.webp',
-  'zaproszenie-dlya-inostranca-v-polshu-2026': '/services/zaproszenia.webp'
+  'zaproszenie-dlya-inostranca-v-polshu-2026': '/services/zaproszenia.webp',
+
+  // Основания и продление карты побыту
+  'karta-pobytu-na-osnovanii-braka-s-polyakom-2026': '/services/warszawa-swiatynia.webp',
+  'karta-pobytu-po-biznesu-jdg-sp-z-oo-2026': '/services/warszawa-spire.webp',
+  'karta-pobytu-prodlenie-2026-kogda-podavat': '/services/karta-pobytu.webp',
+  'zezwolenie-typu-a-vs-oswiadczenie-2026': '/services/pomoc-w-zatrudnieniu.webp'
 };
 
 const FALLBACK = '/services/blog.webp';

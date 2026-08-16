@@ -124,23 +124,4 @@ Sometimes the call isn't obvious, and it's worth weighing both routes on your ow
 
 ---
 
-## Frequently Asked Questions
-
-**Which is faster - selling or liquidating a sp. z o.o.?**
-Selling. A share sale is done in a few days, while liquidation takes at least 7-9 months because of the mandatory creditor period. But a sale needs a buyer and a reasonably "clean" firm.
-
-**How much does liquidating a sp. z o.o. cost in 2026?**
-Official costs run roughly 1 550-2 450 PLN, not counting legal and accounting support across the procedure. On the procedural side a share sale is usually cheaper, but it comes with a notary and tax obligations.
-
-**What taxes apply to a share sale?**
-The buyer usually pays PCC of about 1% of the value of the udziały, and the seller pays PIT on the gain from the sale (the difference between price and acquisition cost). Model these amounts in advance so a fast deal doesn't bring an unexpected tax.
-
-**Is the seller liable for the firm's debts after a sale?**
-The company answers for its own debts. But the seller carries risk on the representations and warranties they gave: hide liabilities, and the buyer can bring claims. That's why an honest sale of a clean firm is safer.
-
-**Can you suspend the firm instead of closing it?**
-For a sp. z o.o., suspending activity is possible under certain conditions, but if the business is genuinely no longer needed, people choose liquidation or a sale. Suspension is more of a temporary fix, for when a return to activity isn't ruled out.
-
----
-
 Sell or liquidate is a choice between speed and certainty, and the right answer depends on the state of the firm, whether there's a buyer, and how much your time is worth. We analyse the company, model the tax under both scenarios, and handle both KRS liquidation and a notarial share sale. This is general information, not individual legal advice. To pick the best route for your firm, [get in touch with us about liquidating or selling your company](/en/uslugi/likwidacja-sprzedaz).

@@ -145,28 +145,6 @@ If you also run a spółka z o.o. (limited liability company) and want to close 
 
 ---
 
-## Frequently Asked Questions
-
-**How much does it cost to close a JDG in Poland in 2026?**
-The wykreślenie z CEIDG itself is free and done online. The real costs are VAT od remanentu (the VAT charged on leftover property bought with a deduction) and possibly repaying the ulga za kasę fiskalną. There's no state fee for closing.
-
-**What's the deadline to close a JDG after you stop trading?**
-The CEIDG-1 removal application is filed within 7 days of the data zaprzestania działalności. VAT-Z goes in within the same 7 days if you were a VAT payer. The annual PIT-36 or PIT-36L is due on the normal deadline, by 30 April the following year.
-
-**What is a spis z natury when closing a JDG?**
-A spis z natury (remanent likwidacyjny) is an inventory of the firm's remaining property on the closing date: goods, materials and equipment on which VAT was deducted. It's the basis for VAT od remanentu, which is paid to the budget. You can't close VAT correctly without it.
-
-**How long can you suspend a JDG?**
-The minimum zawieszenie działalności for a JDG is 30 days, with no maximum - you can suspend indefinitely. You can return to business any time through CEIDG with no re-registration; all your data and your NIP are preserved.
-
-**Can you receive money during zawieszenie działalności?**
-Ordinary current income, no. But you may collect payment on contracts signed before the suspension, sell środki trwałe, and take in receivables that arose before the zawieszenie date. So you can still settle old amounts owed by your counterparties.
-
-**How is closing a JDG different from zawieszenie?**
-Closing (wykreślenie) ends the firm for good, requires a spis z natury and VAT-Z, and getting back into business means registering again. Zawieszenie freezes the firm: no contributions, but it stays alive and you return with one click. If the decision isn't final, suspension is the better deal.
-
----
-
 Closing a JDG looks like a five-minute job in CEIDG - right up until VAT od remanentu surfaces, a family member is still on health insurance, or a wrong date sends every deadline off track. We close and suspend one-person firms end to end: we calculate the remanent, file VAT-Z, deregister you from ZUS, and make sure nothing is left behind you but a clean file. If you're not sure which route pays off in your case, [request support with closing or suspending your JDG](/en/uslugi/likwidacja-sprzedaz) and we'll go through your specific situation.
 
 This is general information and does not replace individual legal advice.

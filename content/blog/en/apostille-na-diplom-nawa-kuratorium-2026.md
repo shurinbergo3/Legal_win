@@ -155,25 +155,6 @@ This is especially handy when admission or start-date deadlines are looming and 
 
 ---
 
-## Frequently Asked Questions
-
-**Where do I get an apostille on a Polish university diploma?**
-At NAWA (Narodowa Agencja Wymiany Akademickiej) in Warsaw - the body that apostilles higher education diplomas. MSZ does not handle diplomas. The opłata skarbowa is 60 PLN per document, and you can file in person, by proxy or by post.
-
-**Where do I apply for an apostille on a school certificate?**
-At the właściwe kuratorium oświaty - the kuratorium of the voivodeship where the issuing school is located. For a Warsaw school, that is the Mazowiecki Kurator Oświaty. The cost is 60 PLN per document.
-
-**How much does a diploma apostille cost in Poland in 2026?**
-The opłata skarbowa is 60 PLN per document, whether at NAWA or a kuratorium. The diploma and the suplement count as separate documents, so each carries its own fee. The sworn translation is billed separately by the number of pages.
-
-**Do I need a sworn translation after the apostille?**
-Almost always, if the diploma is going to a non-Polish-speaking country. The sworn translation (tłumaczenie przysięgłe) is done after the apostille and together with it, so the stamp is translated too. The "apostille first, translation second" order is a must.
-
-**Is a technikum diploma apostilled by NAWA or the kuratorium?**
-The kuratorium oświaty. A technikum is secondary education, so its certificate is apostilled by the kuratorium, not NAWA. NAWA handles only higher education diplomas - licencjat, inżynier, magister, doktor.
-
----
-
 A diploma apostille looks simple until it turns out the document has to go to a different authority, then be translated in the right order, all while you race an admissions deadline. We walk that path for you, from identifying the right body to a finished, translated set. If you need to apostille and translate a diploma or certificate, [arrange a full-service apostille with LegalWin](/en/uslugi/apostille).
 
 This is general information and does not replace individual legal advice. Requirements of receiving authorities differ, so it is worth confirming the details for your specific situation before you file.

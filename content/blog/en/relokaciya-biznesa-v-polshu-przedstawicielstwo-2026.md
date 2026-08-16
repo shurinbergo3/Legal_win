@@ -105,23 +105,4 @@ The mistake here is costly: open a representative office expecting to sell, and 
 
 ---
 
-## Frequently Asked Questions
-
-**What is the difference between a branch and a representative office in Poland?**
-An oddział (branch) can run commercial activity within the scope of the parent company and can earn income. A przedstawicielstwo (representative office) serves only to advertise and promote the parent and has no right to trade or earn in Poland. That is the key distinction.
-
-**Can you earn money through a representative office?**
-No. A representative office is created solely to promote and market the parent company. It may not make sales, sign commercial contracts or earn income in Poland. To earn, you need a sp. z o.o. or a branch.
-
-**What should you choose for a full business in Poland?**
-As a rule, a new sp. z o.o. - a standalone Polish entity with full market access, limited liability and the ability to serve as a basis for a karta pobytu. A branch fits if working under the parent company's name is what matters.
-
-**Does opening a firm grant the right to a karta pobytu?**
-A full sp. z o.o. can be a basis for residence for the owner and staff, given real activity and income. A representative office does not grant such a basis. It is best to plan the karta pobytu strategy together with the choice of form.
-
-**Do you need a Polish partner to relocate a business?**
-No. A foreigner can be the sole owner of a sp. z o.o., and a foreign parent company can open a branch or a representative office. No Polish partner is required - all you need is correctly prepared documents and, for online procedures, a suitable signature.
-
----
-
 Business relocation to Poland starts not with registration but with matching the form to the goal: to earn, to be present under your own brand, or just to study the market for now. It is easy to get wrong and expensive to rebuild. We match the entry format, register the spółka, branch or representative office, and help with the account, the taxes and residence cards for the team. This is general information, not individual legal advice. To plan your entry onto the Polish market, [contact us for business support](/en/uslugi/rejestracja-sp-z-oo).

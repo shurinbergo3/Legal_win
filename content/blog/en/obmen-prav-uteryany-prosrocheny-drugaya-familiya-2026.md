@@ -95,23 +95,4 @@ We covered the medical certificate and how categories transfer in detail in a [s
 
 ---
 
-## Frequently Asked Questions
-
-**Can I exchange a licence if the card is lost?**
-Yes, but you will need confirmation from the issuing authority in your country that the licence was issued, is valid and for which categories. That request goes through the issuing country's authority or its consulate. In the event of theft, add a police report.
-
-**How do I exchange an expired foreign licence?**
-If only the card's validity has lapsed but the driving entitlement stands, the exchange is usually possible on current proof from the country of issue. If the driving entitlement itself has expired, a one-for-one exchange may not be possible and you may have to re-confirm your qualification - it depends on the country and category.
-
-**What if the licence is in my maiden name but the passport shows a different one?**
-You have to prove it is one person. For that you present a marriage certificate or a name-change certificate. If the document is foreign, it gets an apostille (or consular legalisation) and a sworn translation into Polish.
-
-**Do I need a sworn translation for the exchange?**
-Yes, the foreign licence and the accompanying documents (marriage certificate, confirmations) are translated by a tłumacz przysięgły (sworn translator) on the Polish register. The urząd will not accept an ordinary translation.
-
-**How long does the exchange take in complex cases?**
-Longer than the standard one, because the slowest stage is getting confirmation from the country of issue or legalising foreign documents. Plan with a margin and start requesting the missing papers as early as you can.
-
----
-
 A lost, expired or "wrong name" licence is not a dead end - just a couple of extra documents to request and prepare correctly. We handle these cases end to end: we word the requests to the country of issue, arrange the apostille and sworn translations, and lodge the application with the wydział komunikacji. This is general information, not individual legal advice. To go through your own exchange, [get in touch with us about a driving licence exchange](/en/uslugi/wymiana-prawa-jazdy).

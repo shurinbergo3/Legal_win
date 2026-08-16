@@ -154,28 +154,6 @@ The last two are what most often bring people to us: the clock is ticking and th
 
 ---
 
-## Frequently Asked Questions
-
-**How much does the criminal record certificate cost online in 2026?**
-Through the e-KRK system it is 20 PLN for the zaświadczenie o niekaralności (criminal record certificate). That is cheaper than the paper version, which costs 30 PLN. You pay online by card or fast transfer right as you submit the application.
-
-**How many days does the certificate take through e-KRK?**
-By law the limit is up to 10 days, but in practice the electronic certificate is often ready in 1-3 working days. The finished PDF appears in your account on the Krajowy Rejestr Karny (KRK) site.
-
-**Can I print the electronic certificate and submit it as an original?**
-The electronic certificate keeps the force of an original only as a PDF file with the qualified seal. Printing it on a printer "loses" the seal, and the printout becomes a copy. If you need a paper original with a stamp, order the paper certificate at a punkt KRK.
-
-**What do I need to file through e-KRK?**
-You need a Profil Zaufany or a podpis kwalifikowany (qualified electronic signature) to sign the application, plus your passport and birth details. Without an electronic signature, the system will not let you complete the submission.
-
-**Can a foreigner without a PESEL file for the certificate online?**
-On their own, only if they hold a podpis kwalifikowany, because a Profil Zaufany usually requires a PESEL. Without a signature and without a PESEL, online filing is not available, so the certificate is done on paper or through a representative.
-
-**What is the difference between "o osobie" and "o podmiocie"?**
-"Zapytanie o osobie" is a certificate about a physical person, meaning you. "Zapytanie o podmiocie" is about a legal entity, meaning a company. A foreigner who needs it for work or legalisation wants the "o osobie" certificate.
-
----
-
 Filing online through e-KRK is the fast, cheap way to get a criminal record certificate - if you have a Profil Zaufany or a qualified signature. If you have neither, or you are not sure which certificate fits your case and whether an apostille will be needed later, we handle the whole thing for you, from filing to the finished document. [Order your criminal record certificate with LegalWin](/en/uslugi/zaswiadczenie-o-niekaralnosci) and skip the forms and the signature headache entirely.
 
 *This is general information, not individual legal advice. Every situation is different - book a consultation with us about your specific case.*

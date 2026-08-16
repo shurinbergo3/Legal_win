@@ -138,26 +138,4 @@ The point is to find the problem before the wojewoda does. If the history is cle
 
 ---
 
-## Frequently Asked Questions
-
-**How long can I spend abroad without losing the five years for PR?**
-No more than 6 months in total in each single year of the five, and no more than 10 months in total across all five years together. Both conditions apply at once. Exceeding either breaks continuity (ciągłość pobytu) and resets the counter.
-
-**What resets the five-year counter?**
-Any break in legal status - an expired card, a gap between permits, an overstay - as well as exceeding the absence limit. Changing employer does not break the counter, provided a valid zezwolenie (permit) existed at every moment. A reset means the five years are counted from scratch.
-
-**Does study count toward the five years?**
-Only at half value, under Article 65 of the Ustawa o cudzoziemcach. Four years on student status give two years of credit toward stały pobyt. Years on a work card or through marriage run one-to-one, so a mixed history has to be added up period by period.
-
-**How does the wojewoda learn about my absences?**
-From passport stamps, from the EES system that logs Schengen entries and exits electronically, and from your permit history, ZUS data and meldunek. A discrepancy between what you declared in the wniosek and the actual data is grounds for refusal and a question over the truthfulness of your declaration.
-
-**Does changing employer break continuity?**
-No. Changing employer does not affect the counter, provided a valid zezwolenie na pobyt (residence permit) existed at every point in time. What matters is the continuity of legal status, not who you work for. A break arises only from a gap in the basis of stay itself.
-
-**What if I find a doubtful break before applying?**
-Don't apply blind. Depending on the situation you can move the application so the "heavy" year drops out of the five-year window, prove that continuity was preserved despite a short delay, or change to a basis where the five years aren't needed - marriage or Polish descent. Strategy first, wniosek second.
-
----
-
 Five-year continuity isn't about how long you've lived in Poland "by feel" - it's about an exact count of days and status. One unnoticed month decides whether you get your karta stałego pobytu or start the count over. This is general information, not individual legal advice - your residence history is unique and needs a separate review. Before you apply, [order a residence-history audit from us](/en/uslugi/karta-stalego-pobytu) - we'll find the doubtful spots before the wojewoda does.

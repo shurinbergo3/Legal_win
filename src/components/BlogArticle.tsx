@@ -37,6 +37,8 @@ type BlogLoc = 'ru' | 'pl' | 'en' | 'tr' | 'uk';
 type Props = {
   post: BlogPost;
   related: BlogPostSummary[];
+  /** Blog slugs live in this locale — links to anything else get unlinked. */
+  publishedSlugs?: ReadonlySet<string>;
   labels: {
     back: string;
     publishedOn: string;
@@ -102,9 +104,19 @@ function formatDate(iso: string, locale: string): string {
   }
 }
 
-export function BlogArticle({ post, related, labels }: Props) {
+export function BlogArticle({ post, related, publishedSlugs, labels }: Props) {
   const stamp = folioDate(post.publishDate);
   const issue = issueNumber(post.publishDate);
+
+  // A cluster post links to its siblings, but the drip schedule publishes them
+  // on different days — so some of those targets still 404. Render them as
+  // plain text until the daily rebuild picks the article up.
+  const isScheduledAway = (href: string | undefined): boolean => {
+    if (!publishedSlugs || !href) return false;
+    const m = href.match(/^\/([a-z]{2})\/blog\/([a-z0-9-]+)\/?$/);
+    if (!m || m[1] !== post.locale) return false;
+    return !publishedSlugs.has(m[2]);
+  };
 
   // Resolve the article's declared services to the current locale. No ru
   // fallback — on partially-translated locales we'd rather hide the strip than
@@ -321,6 +333,7 @@ export function BlogArticle({ post, related, labels }: Props) {
                       </a>
                     );
                   }
+                  if (isScheduledAway(href)) return <>{children}</>;
                   return (
                     <a
                       href={href}

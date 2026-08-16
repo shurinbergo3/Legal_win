@@ -120,26 +120,4 @@ In parallel we handle legalisation: we arrange the apostille on foreign records 
 
 ---
 
-## Frequently Asked Questions
-
-**Who counts as a person of Polish descent?**
-Anyone with at least one parent, grandmother or grandfather of Polish nationality - back to one generation of ancestors inclusive (do jednego pokolenia). Nationality is proven by the ancestor's documents: civil status records, archival entries, old passports marked with Polish narodowość. A valid Karta Polaka confirms descent on its own.
-
-**Do I need five years of residence for stały pobyt by descent?**
-No. That's the key difference from the general route. By Polish descent, or on the basis of a Karta Polaka, five years of continuous residence are not required, nor is proof of stable income. You can apply without having built up any record.
-
-**Do I need Polish for PR by descent?**
-For stały pobyt itself - no, the language isn't required. It comes into play later, for citizenship: there you sit the egzamin z języka polskiego at B1 level. So it's worth learning the language in advance if you're planning a passport.
-
-**What if the archival documents haven't survived?**
-The line of ancestors is rebuilt from indirect evidence - census entries, house registers, church (parish) books, documents of the ancestor's siblings. Sometimes a targeted request to a specific archive in Poland, Ukraine or Belarus is needed. A gap in one link doesn't always close the road.
-
-**Is a Karta Polaka mandatory?**
-No. A Karta Polaka is a convenient basis, because the consul has already confirmed nationality, but stały pobyt can also be obtained directly by descent, proving the ancestor's nationality with documents. If the line documents easily, a Karta Polaka isn't required.
-
-**How quickly does descent lead to citizenship?**
-Karta stałego pobytu grants permanent status straight away, and after 3 years of living on stały pobyt the road to citizenship through naturalizacja opens. The descent evidence gathered for PR is largely the same needed for the passport - you do the double work once.
-
----
-
 Polish roots are the most underrated asset among immigrants from the former USSR: people live for years on temporary cards, unaware they had the right to permanent status from day one. This is general information, not individual legal advice - much turns on the details of your family tree and the survival of your documents. If one of your ancestors was Polish or you hold a Karta Polaka, [put the evidence-gathering and the stały pobyt application in our hands](/en/uslugi/karta-stalego-pobytu) - we'll start by checking your line.

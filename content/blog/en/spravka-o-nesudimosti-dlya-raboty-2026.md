@@ -124,28 +124,6 @@ If it is unclear which certificate your employer's requirement actually calls fo
 
 ---
 
-## Frequently Asked Questions
-
-**Is a criminal record certificate mandatory for any job in Poland?**
-No. An employer may require a zaświadczenie o niekaralności (criminal record certificate) only for positions where the law allows it - security, finance, work with children, the public sector, licensed professions. For ordinary roles with no legal basis, the demand is unlawful.
-
-**How long is a criminal record certificate valid for an employer?**
-There is no formal expiry date in law, but in practice the certificate is accepted fresh - usually no older than 3 months, and for one-off checks often no older than 30 days. For tenders the 3-month limit is normally written into the documentation, so ordering it far in advance is a bad idea.
-
-**Which certificate do I order for a job - o osobie or o podmiocie?**
-For employment as an individual you need the o osobie certificate - the request about a person. The o podmiocie certificate relates to a legal entity, a company, and an employee does not need it. It is used for business, such as a company bidding in a tender.
-
-**What does the employer see in the criminal record certificate?**
-The employer sees whether the Krajowy Rejestr Karny (KRK) register holds records of a conviction against you. The certificate shows either a note that you are not listed or a list of existing records. There are no case details or specifics in it.
-
-**Is a certificate needed for a company to bid in a tender?**
-Yes. Public procurement (zamówienia publiczne) usually requires a certificate about the company (o podmiocie) and criminal record certificates for board members (o osobie). All must be fresh, no older than the limit in the tender documentation, or the bid is rejected on a formal ground.
-
-**Are foreigners checked against the register of their country of origin?**
-Sometimes yes. The Polish certificate reflects only the KRK register. If you arrived recently, the employer or licensing body may additionally request a criminal record certificate from your country of origin - a separate document that often has to be legalised.
-
----
-
 A criminal record certificate for work is a matter not of the paper itself but of precision: the right type, a fresh date, the correct format for the specific requirement. A mistake here costs a missed start date or a rejected tender bid. We obtain the certificate for your exact purpose - we work out what the employer actually wants and prepare precisely that. [Order your criminal record certificate with LegalWin](/en/uslugi/zaswiadczenie-o-niekaralnosci) and start your job without the paperwork stress.
 
 *This is general information, not individual legal advice. Every situation is different - book a consultation with us about your specific case.*

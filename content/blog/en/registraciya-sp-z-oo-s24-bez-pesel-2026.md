@@ -149,25 +149,6 @@ The real time sink is not the registration itself but the preparation: getting t
 
 ---
 
-## Frequently Asked Questions
-
-**Can I register a sp. z o.o. from abroad without coming to Poland?**
-Yes, if you use a podpis kwalifikowany - the whole S24 procedure runs online and no physical visit is required. Registration through a notary does require you to be present, so that route will not work remotely.
-
-**Do I have to get a PESEL to open a company?**
-No. A PESEL is needed neither to be an udziałowiec nor to sit on the zarząd. It is only needed for Profil Zaufany, and that is replaced by a podpis kwalifikowany or notary registration.
-
-**How much money do I really need to start?**
-The minimum kapitał zakładowy of 5 000 PLN, plus state fees of ~275-350 PLN, plus the cost of the signature (~300-500 PLN) or the notary fees. The capital stays inside the company and funds its activity - it does not disappear.
-
-**What happens if I miss the 14-day CRBR deadline?**
-Late filing of beneficial owner data in CRBR carries a fine of up to 1 000 000 PLN. It is one of the most common deadlines missed by people who registered a company themselves, so put it in your calendar right away.
-
-**Can I do S24 myself and arrange the signature separately?**
-Technically yes, but in practice people get stuck exactly at "the form is ready but the signature does not work." If you go it alone, get the signing tool first and only then fill in the application, or you risk hitting a wall at the final step.
-
----
-
 Registering a sp. z o.o. without a PESEL is not about "you cannot," it is about choosing the right signing tool up front and not missing the deadlines after KRS. We handle the whole path end to end: we match the registration method to your situation, prepare the umowa spółki and the PKD codes, solve the signature question for a foreigner, and carry it through to NIP, VAT and CRBR. If you would rather open a company without the office runaround, [book your sp. z o.o. registration](/en/uslugi/rejestracja-sp-z-oo). We can also help you work out what suits you better - a company or [JDG for foreigners in Poland](/en/blog/jdg-dlya-inostrancev-v-polshe) - and [open a business bank account in Poland](/en/blog/otkrytie-bankovskogo-scheta-v-polshe) for the new company.
 
 This article is general information and does not replace individual legal advice.

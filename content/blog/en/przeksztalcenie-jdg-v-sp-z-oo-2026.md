@@ -87,23 +87,4 @@ If you are still choosing your starting form and the growth is not obvious, look
 
 ---
 
-## Frequently Asked Questions
-
-**What is przekształcenie JDG w sp. z o.o.?**
-It is a legal procedure that changes the business form from a sole proprietorship to a limited liability company while the firm keeps its continuity. Under the principle of succession, contracts and most rights pass to the spółka, and the NIP is often preserved. Clients barely notice the change.
-
-**When is it worth converting a JDG into a sp. z o.o.?**
-When personal liability for debts worries you, partners or investors appear, turnover and large contracts grow, or a company structure becomes more tax-efficient. Also when a sale is planned - a share in a spółka can realistically be sold, a JDG almost never.
-
-**Is the NIP kept after conversion?**
-With a formal przekształcenie with succession, the NIP is often kept, and contracts and rights pass to the spółka. If instead you go through closing the JDG and opening a new spółka, the NIP will be new and contracts will have to be re-signed.
-
-**How long does a conversion take?**
-A formal przekształcenie with a plan, a possible audit and KRS registration runs for weeks, sometimes up to a couple of months. The new-spółka route is faster, but without automatic succession.
-
-**Can I just open a spółka and move the business into it?**
-Yes, that is the alternative: open a sp. z o.o., contribute the assets as an aport and gradually move the activity across, then close the JDG. It is faster and simpler, but without succession - contracts and licences are reissued from scratch. It suits a simple business with little history.
-
----
-
 Converting a JDG into a sp. z o.o. is not about the fashion for "having your own company" - it is about the moment when a simple form starts costing more than its risks. Which route to take, a formal przekształcenie with succession or a new spółka with an aport, depends on how many contracts and licences you hold and how much continuity matters. We calculate both scenarios, run the procedure and take on the KRS, the notary and the register updates. This is general information, not individual legal advice. To work through your case, [contact us for business support](/en/uslugi/rejestracja-sp-z-oo).

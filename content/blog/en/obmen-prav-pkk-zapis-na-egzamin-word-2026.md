@@ -120,25 +120,6 @@ If you fail the theory, nothing bad happens to your PKK - it stays active. You j
 
 ---
 
-## Frequently Asked Questions
-
-**Does everyone need the theory exam when exchanging a licence?**
-No. The exam is only for drivers whose issuing country is not a party to the 1968 Vienna Convention, or whose licence does not match its format. Licences from party countries (Ukraine, Belarus, Russia, Kazakhstan and others) are exchanged with no theory and no driving test.
-
-**What is a PKK and where do I get it?**
-A PKK (Profil Kandydata na Kierowcę) is your electronic candidate driver profile in a state system. It is opened by the wydział komunikacji for your registered address when you lodge the full exchange package. You book the WORD exam using the PKK number.
-
-**Which languages can I sit the egzamin teoretyczny in at WORD?**
-The core options are Polish, English and German. Russian and Ukrainian are not available at every WORD and depend on the specific centre, so check the language when you book online - you choose from the available slots. Many people sit in English or prepare in Polish.
-
-**How much is the theory exam and a retake?**
-One attempt at the egzamin teoretyczny is around 50 PLN. A retake is the same 50 PLN each time, with no cap on attempts. Issuing the Polish licence adds 100 PLN plus the opłata ewidencyjna.
-
-**Do I have to deliver the exam result to the urząd myself?**
-No. The result moves from WORD into your PKK automatically, and the wydział komunikacji sees it in the system. All that is left is to wait for the card and collect it in person.
-
----
-
 An exchange with an exam is a chain across several urzędy, and at every step it is easy to get stuck on a bad translation, an expired medical certificate or the wrong language chosen at booking. We run this route with clients regularly: we check whether you even need the exam, assemble the package, get the PKK and book WORD for a date that suits you. If you want the exchange done without extra visits and reworks, [request a licence exchange with LegalWin](/en/uslugi/wymiana-prawa-jazdy).
 
 This is general information and not a substitute for individual legal advice. For your specific case, [exchanging a foreign licence for a Polish one in 2026](/en/blog/obmen-prav-na-polskie-2026), [how to become a driver in Poland](/en/blog/kak-stat-voditelem-v-polshe-2026) and [exchanging US, UK and Indian licences via the WORD exam](/en/blog/zamena-prav-ssha-uk-india-word-ekzamen) will help you get your bearings, but the decision is best made after we review your documents.

@@ -107,23 +107,4 @@ Over years of practice we see the same slip-ups:
 
 ---
 
-## Frequently Asked Questions
-
-**Where do I apostille a foreign document for Poland?**
-In the country that issued it. If that country is party to the Hague Convention, its authorised bodies stamp the apostille (usually the ministry of justice, the foreign ministry or a specialist authority). The Polish MSZ apostilles only Polish documents, so a foreign paper will not be apostilled in Warsaw.
-
-**What if the issuing country is not in the Hague Convention?**
-Then consular legalisation is required instead of an apostille - the document is certified in turn by the authorities of the issuing country and at the consulate. This is slower than an apostille, so such cases should be planned ahead. After legalisation, a sworn translator in Poland still translates the document.
-
-**Do I need a sworn translation if I already have an apostille?**
-Yes. The apostille confirms the document is genuine but does not translate it. A Polish urząd needs a translation done by a tłumacz przysięgły from the Polish register. Both the text of the document and the apostille itself are translated.
-
-**Can I use a document without an apostille, with only a translation?**
-As a rule, no. For official procedures (karta pobytu, marriage, citizenship, work) the urząd requires a legalised document - with an apostille or consular legalisation. A translation alone, without legalisation, does not confirm the authenticity of the original.
-
-**Which documents are most often apostilled for Poland?**
-Certificates of birth, marriage and divorce, diplomas and school certificates, criminal record certificates from the country of origin, and powers of attorney. They are prepared for a karta pobytu, family reunification, work, study and citizenship.
-
----
-
 A foreign document for Poland is always a chain: apostille or legalisation in the issuing country, then a sworn translation here. Miss a link and your filing falls apart. We advise on what to apostille and where for your specific procedure, and handle the sworn translations so the document is ready to file the first time. This is general information, not individual legal advice. To review your document package, [get in touch with us about apostille and legalisation](/en/uslugi/apostille).

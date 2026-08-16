@@ -92,23 +92,4 @@ In practice it is not always the maximum, but even a fraction of that sum dwarfs
 
 ---
 
-## Frequently Asked Questions
-
-**What is CRBR and what is it for?**
-CRBR (Centralny Rejestr Beneficjentów Rzeczywistych) is a state register of companies' beneficial owners. It records which natural person effectively owns or controls a company. The register exists to counter money laundering and is mandatory for a sp. z o.o. and a range of other forms.
-
-**By when must the data be filed with CRBR?**
-Within 14 days of the company's registration in KRS, and for any change, within 14 days of that change. The deadline is strict and often missed while people are busy with the company's other start-up tasks.
-
-**Who counts as the beneficial owner?**
-A natural person who, directly or indirectly, holds more than 25% of the shares or votes, or otherwise controls the company. If no such person exists by ownership criteria, you list the board members (zarząd). Citizenship is irrelevant - a foreigner is entered on the same footing as a Pole.
-
-**Does a JDG have to file with CRBR?**
-No. A JDG is not a separate legal person, so it does not file with CRBR. The obligation applies to a sp. z o.o. and to other companies and partnerships.
-
-**What is the fine for not filing with CRBR?**
-Up to 1 000 000 PLN for failing to file the data on time, plus separate liability for reporting inaccurate information. Filing on time is incomparably cheaper than any of that risk.
-
----
-
 CRBR is an inconspicuous but dangerous duty: 14 days fly by, and the cost of a mistake is a six-figure sum. We file and update the beneficial owner data together with the company registration, build the ownership chain correctly even in complex structures, and solve the signature question for a foreigner. This is general information, not individual legal advice. To avoid missing the deadline and file CRBR correctly, [get in touch with us about company registration and support](/en/uslugi/rejestracja-sp-z-oo).

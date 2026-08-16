@@ -113,23 +113,4 @@ One related rule worth repeating: if the card is lost or stolen, you have 14 day
 
 ---
 
-## Frequently Asked Questions
-
-**How long do I get to collect my ready karta pobytu in 2026?**
-60 days from the urząd's notice that the card is ready. If you do not collect it in that window, the zezwolenie (permit) is not issued and the card is annulled. The count runs from the notice, not from when the plastic was physically made.
-
-**What happens if I do not collect the card within 60 days?**
-The residence permit is annulled and the positive decision on your application loses its force. Fees already paid are not refunded, and to obtain the status you have to file a wniosek (application) again and wait out a new review.
-
-**How do I find out my karta pobytu is ready?**
-The wojewoda sends a readiness notice, but do not rely on it alone. You can check the case yourself - in your account in the filing system, through the wojewoda's online card-readiness check, or by contacting the urząd directly. Check at least once a week after a positive decision.
-
-**Can I collect my karta pobytu by power of attorney?**
-Yes, a representative can collect the ready card under a pełnomocnictwo (power of attorney) drawn up for a specific person and act. In some cases your personal presence is still required to activate the card, so confirm the specifics of your case ahead of time.
-
-**Can I reinstate the deadline if I missed the 60 days?**
-If the deadline was missed for a valid reason - illness, forced absence, a notice never received because of an error - you can apply to reinstate it (przywrócenie terminu). The reason should ideally be backed by documents, and you must apply quickly, as soon as the obstacle is gone. The decision rests with the urząd.
-
----
-
 The 60-day rule is a case where relaxing at the finish means going back to the start. We monitor your card's readiness, catch the urząd's notice in time, and tell you when and how to collect it safely, including by power of attorney. This is general information, not individual legal advice - your case may have its own details. To avoid missing your ready card and losing the permit, [book us for karta pobytu support](/en/uslugi/karta-pobytu).

@@ -130,25 +130,6 @@ None of these is about your health - it is pure document logistics. And that is 
 
 ---
 
-## Frequently Asked Questions
-
-**Can I have the medical done by an ordinary GP?**
-No. The certificate for a licence is issued only by an uprawniony lekarz on the voivodeship register. A slip from an ordinary GP or a workplace medical does not work for the exchange - the wydział komunikacji will not accept it.
-
-**Do categories C and D transfer automatically?**
-Not automatically. C, D and their derivatives transfer only if you pass the extended medical and the psychotesty (badania psychologiczne) with an authorised psychologist. Without an orzeczenie psychologiczne these categories are not entered on the Polish licence.
-
-**How long is a medical certificate valid for an exchange?**
-For category B the certificate is often open-ended, unless the doctor limited it for health or age reasons. For C and D the validity is almost always limited. What matters for the exchange is that the certificate is fresh when you lodge the wniosek; a stale one may be refused.
-
-**How much do badania lekarskie cost in 2026?**
-The category B exam is around 200 PLN. For C and D it is 200-350 PLN plus psychotesty at 150-250 PLN. Extra specialist consultations are billed separately, per the practice's price list.
-
-**What if I sit the exam only for B but the licence also has C?**
-You can exchange only B, but you then lose C and D. Rebuilding them means going through Polish training and exams. If you need the heavy categories for work, carry them over together with B.
-
----
-
 The medical side of the exchange looks like a minor detail until you spend a day on an exam that then gets rejected. We line up an uprawnionego lekarza in advance, add a psychologa for C and D where needed, and make sure the certificate is drawn up correctly and for the right categories. That way you lose neither the truck on your licence nor time on reworks. If you want the exchange done without slip-ups at the medical stage, [book a licence exchange with LegalWin](/en/uslugi/wymiana-prawa-jazdy).
 
 This is general information, not individual advice. For related topics see [exchanging a foreign licence for a Polish one in 2026](/en/blog/obmen-prav-na-polskie-2026) and [how to become a driver in Poland](/en/blog/kak-stat-voditelem-v-polshe-2026), and for the legal-driving deadlines, [the 185-day rule and fines](/en/blog/pravilo-185-dney-itd-shtrafy).

@@ -95,6 +95,28 @@ export function listPostSlugs(locale: string): string[] {
     .map((p) => p.slug);
 }
 
+const publishedCache = new Map<string, Set<string>>();
+
+/**
+ * Slugs a reader can actually open in this locale right now.
+ *
+ * Cluster posts cross-link to their siblings, but the drip schedule publishes
+ * those siblings days or weeks apart — so an already-live post routinely points
+ * at one that still 404s. Callers use this to render such links as plain text
+ * until the target goes live; the daily rebuild restores them on the day.
+ *
+ * Cached in production only: a build is a single point in time, and re-reading
+ * every markdown file once per rendered page is pure waste. `next dev` keeps
+ * the uncached path so edits show up without a restart.
+ */
+export function getPublishedSlugs(locale: string): Set<string> {
+  const cached = publishedCache.get(locale);
+  if (cached) return cached;
+  const set = new Set(listPostSlugs(locale));
+  if (process.env.NODE_ENV === 'production') publishedCache.set(locale, set);
+  return set;
+}
+
 export function getAllPosts(locale: string): BlogPostSummary[] {
   const dir = localeDir(locale);
   if (!fs.existsSync(dir)) return [];
