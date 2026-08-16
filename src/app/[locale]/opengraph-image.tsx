@@ -2,6 +2,7 @@ import { ImageResponse } from 'next/og';
 import { getTranslations } from 'next-intl/server';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { routing } from '@/i18n/routing';
 import { REVIEW_RATING_VALUE } from '@/lib/seo';
 
 export const runtime = 'nodejs';
@@ -9,16 +10,34 @@ export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 export const alt = 'LegalWin - immigration consultants · Warsaw, Poland';
 
+// Prerender one image per locale at build time. Without this the route is
+// dynamic and every scrape by Facebook/Twitter/Slack re-runs Satori and pulls
+// three fonts off Google Fonts first — a slow preview at best, a 500 and no
+// preview at all whenever fonts.googleapis.com is unreachable.
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 // Source Serif 4 has full Cyrillic + matching italic. Without a desktop
 // User-Agent, Google Fonts serves a single unsegmented TTF per weight that
 // covers Latin + Latin-ext + Cyrillic - exactly what Satori needs.
-async function loadFont(weight: number, italic = false): Promise<ArrayBuffer> {
+// Returns null instead of throwing: a font that won't load should degrade the
+// typography, not take down the whole image (or the build).
+async function loadFont(weight: number, italic = false): Promise<ArrayBuffer | null> {
   const axes = italic ? `ital,wght@1,${weight}` : `wght@${weight}`;
   const cssUrl = `https://fonts.googleapis.com/css2?family=Source+Serif+4:${axes}&display=swap`;
-  const css = await fetch(cssUrl).then((r) => r.text());
-  const match = css.match(/src:\s*url\(([^)]+)\)\s*format\('truetype'\)/);
-  if (!match) throw new Error(`Font URL not found (${weight} ${italic ? 'italic' : 'normal'})`);
-  return fetch(match[1]).then((r) => r.arrayBuffer());
+  try {
+    const css = await fetch(cssUrl).then((r) => r.text());
+    const match = css.match(/src:\s*url\(([^)]+)\)\s*format\('truetype'\)/);
+    if (!match) throw new Error('font URL not found in CSS');
+    return await fetch(match[1]).then((r) => r.arrayBuffer());
+  } catch (err) {
+    console.warn(
+      `[og] Source Serif 4 ${weight}${italic ? ' italic' : ''} failed to load:`,
+      err instanceof Error ? err.message : err
+    );
+    return null;
+  }
 }
 
 export default async function OpengraphImage({
@@ -45,6 +64,16 @@ export default async function OpengraphImage({
 
   const bgDataUrl = `data:image/jpeg;base64,${bg.toString('base64')}`;
 
+  const fonts = [
+    { name: 'Source Serif 4', data: fontRegular, weight: 400 as const, style: 'normal' as const },
+    { name: 'Source Serif 4', data: fontBold, weight: 700 as const, style: 'normal' as const },
+    { name: 'Source Serif 4', data: fontItalic, weight: 700 as const, style: 'italic' as const }
+  ].filter((f): f is typeof f & { data: ArrayBuffer } => f.data !== null);
+
+  // No Source Serif means Satori falls back to its bundled face; naming a
+  // family it doesn't have would just make it guess.
+  const fontFamily = fonts.length ? '"Source Serif 4"' : 'serif';
+
   return new ImageResponse(
     (
       <div
@@ -54,7 +83,7 @@ export default async function OpengraphImage({
           display: 'flex',
           flexDirection: 'column',
           position: 'relative',
-          fontFamily: '"Source Serif 4"',
+          fontFamily,
           color: '#F5F2EA',
           backgroundColor: '#05091a'
         }}
@@ -262,11 +291,7 @@ export default async function OpengraphImage({
     ),
     {
       ...size,
-      fonts: [
-        { name: 'Source Serif 4', data: fontRegular, weight: 400, style: 'normal' },
-        { name: 'Source Serif 4', data: fontBold, weight: 700, style: 'normal' },
-        { name: 'Source Serif 4', data: fontItalic, weight: 700, style: 'italic' }
-      ]
+      ...(fonts.length ? { fonts } : {})
     }
   );
 }

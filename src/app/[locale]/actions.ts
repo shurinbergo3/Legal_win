@@ -42,7 +42,9 @@ export async function submitContact(
     };
   }
 
-  if (parsed.data.hp) {
+  // Honeypot: a bot filled the hidden field. Answer like a normal success so it
+  // gets no signal, and drop the submission.
+  if (parsed.data.hp?.trim()) {
     return { status: 'success' };
   }
 
@@ -86,14 +88,6 @@ export async function submitReview(
   // feedback. Convert any unexpected error into a visible 'error' state.
   try {
     const raw = Object.fromEntries(formData.entries());
-    console.log('[review] received', {
-      hasName: typeof raw.name === 'string' && raw.name.length > 0,
-      rating: raw.rating,
-      textLen: typeof raw.text === 'string' ? raw.text.length : 0,
-      consent: raw.consent,
-      locale: raw.locale
-    });
-
     const parsed = reviewSchema.safeParse(raw);
     if (!parsed.success) {
       const fieldErrors = parsed.error.flatten().fieldErrors as Record<string, string[]>;
@@ -101,13 +95,11 @@ export async function submitReview(
       return { status: 'invalid', fieldErrors, values: submittedValues(raw) };
     }
 
-    if (parsed.data.hp) {
-      console.log('[review] honeypot tripped - silently dropping');
+    if (parsed.data.hp?.trim()) {
       return { status: 'success' };
     }
 
     const report = await sendReviewToTelegram(parsed.data);
-    console.log('[review] delivery report', report);
     // Reviews are not persisted anywhere, so a failed Telegram delivery means
     // the review is lost — the user must see an error, not a fake success.
     if (!report.ok) {

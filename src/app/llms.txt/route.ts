@@ -1,6 +1,8 @@
 import { services, serviceSlugs } from '@/lib/services';
 import { getAllPosts } from '@/lib/blog';
+import { INDEX_LOCALES } from '@/i18n/routing';
 import type { ServiceGroup } from '@/lib/services/types';
+import type { SeoLocale } from '@/lib/seo';
 import {
   ORG_CITY,
   ORG_EMAIL,
@@ -33,6 +35,28 @@ const GROUP_ORDER: ServiceGroup[] = [
 ];
 
 const RECENT_POSTS_LIMIT = 12;
+
+// Driven off INDEX_LOCALES so adding a locale can't leave the prose claiming
+// "four languages" while /uk quietly ships (which is exactly what happened).
+const LOCALE_LINE: Record<SeoLocale, { label: string; blurb: string }> = {
+  ru: { label: 'Russian (default)', blurb: 'Полная версия для русскоязычной аудитории' },
+  uk: { label: 'Ukrainian', blurb: 'Повна версія українською' },
+  pl: { label: 'Polish', blurb: 'Pełna wersja po polsku' },
+  en: { label: 'English', blurb: 'Full English version' },
+  tr: { label: 'Turkish', blurb: 'Tam Türkçe versiyon' }
+};
+
+const LOCALE_ORDER: SeoLocale[] = ['ru', 'uk', 'pl', 'en', 'tr'];
+const activeLocales = LOCALE_ORDER.filter((l) =>
+  (INDEX_LOCALES as readonly string[]).includes(l)
+);
+const LOCALE_COUNT_WORD =
+  ['zero', 'one', 'two', 'three', 'four', 'five', 'six'][activeLocales.length] ??
+  String(activeLocales.length);
+const LOCALE_PATHS = activeLocales.map((l) => `/${l}`).join(', ');
+const LOCALE_NAMES = activeLocales
+  .map((l) => LOCALE_LINE[l].label.replace(' (default)', ''))
+  .join(', ');
 
 export function GET() {
   const grouped = new Map<ServiceGroup, string[]>();
@@ -69,21 +93,20 @@ export function GET() {
   const body = [
     `# ${ORG_LEGAL_NAME}`,
     '',
-    `> Warsaw-based Polish law firm helping foreigners with residence permits (Karta Pobytu), Polish citizenship, business setup (Sp. z o.o., JDG), tax compliance (CIT/VAT/PIT/Estonian CIT/IP Box), driving licence exchange, document legalization and relocation support. Established ${ORG_FOUNDED}. Native client support in four languages: Russian, Polish, English, Turkish.`,
+    `> Warsaw-based Polish law firm helping foreigners with residence permits (Karta Pobytu), Polish citizenship, business setup (Sp. z o.o., JDG), tax compliance (CIT/VAT/PIT/Estonian CIT/IP Box), driving licence exchange, document legalization and relocation support. Established ${ORG_FOUNDED}. Native client support in ${LOCALE_COUNT_WORD} languages: ${LOCALE_NAMES}.`,
     '',
-    `${ORG_LEGAL_NAME} Kancelaria Prawna is located at ${ORG_STREET}, ${ORG_POSTAL} ${ORG_CITY}, Poland. Office hours Monday–Friday 08:30–19:00. The website is fully localized at /ru (default), /pl, /en and /tr — every locale is hand-written by native speakers, not machine translation. URLs below point to the English version; the same content is available in all four locales via hreflang.`,
+    `${ORG_LEGAL_NAME} Kancelaria Prawna is located at ${ORG_STREET}, ${ORG_POSTAL} ${ORG_CITY}, Poland. Office hours Monday–Friday 08:30–19:00. The website is localized at ${LOCALE_PATHS} (/ru is the default) — every locale is hand-written by native speakers, not machine translation. URLs below point to the English version; where a page exists in another locale it is declared via hreflang.`,
     '',
     ...serviceSections,
     '## Locales',
-    `- [Russian (default)](${SITE_URL}/ru): Полная версия для русскоязычной аудитории`,
-    `- [Polish](${SITE_URL}/pl): Pełna wersja po polsku`,
-    `- [English](${SITE_URL}/en): Full English version`,
-    `- [Turkish](${SITE_URL}/tr): Tam Türkçe versiyon`,
+    ...activeLocales.map(
+      (l) => `- [${LOCALE_LINE[l].label}](${SITE_URL}/${l}): ${LOCALE_LINE[l].blurb}`
+    ),
     '',
     ...blogSection,
     '## Resources',
     `- [Blog](${SITE_URL}/en/blog): Practical guides on Polish immigration, business setup, tax procedures and document legalization`,
-    `- [Sitemap](${SITE_URL}/sitemap.xml): XML sitemap with hreflang declarations for all four locales`,
+    `- [Sitemap](${SITE_URL}/sitemap.xml): XML sitemap with per-page hreflang declarations`,
     `- [Privacy Policy](${SITE_URL}/en/polityka-prywatnosci)`,
     `- [Cookie Policy](${SITE_URL}/en/polityka-cookies)`,
     '',

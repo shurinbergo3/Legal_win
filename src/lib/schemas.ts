@@ -33,7 +33,11 @@ export const contactSchema = z.object({
     errorMap: () => ({ message: 'consent_required' })
   }),
   locale: z.enum(['ru', 'pl', 'en', 'tr', 'uk']).optional(),
-  hp: z.string().max(0).optional()
+  // Honeypot. Deliberately NOT constrained to an empty string: a `.max(0)` here
+  // fails the whole parse, so the filled-in case never reaches the "pretend it
+  // worked" branch in the action — it surfaces as a field error nobody renders
+  // and the form just silently refuses to submit.
+  hp: z.string().optional()
 });
 
 export type ContactInput = z.infer<typeof contactSchema>;
@@ -48,7 +52,7 @@ export const reviewSchema = z.object({
     errorMap: () => ({ message: 'consent_required' })
   }),
   locale: z.enum(['ru', 'pl', 'en', 'tr', 'uk']).optional(),
-  hp: z.string().max(0).optional()
+  hp: z.string().optional()
 });
 
 export type ReviewInput = z.infer<typeof reviewSchema>;
