@@ -17,6 +17,14 @@ ARG SERVICES_LAST_MODIFIED
 ARG LEGAL_LAST_MODIFIED
 ENV SERVICES_LAST_MODIFIED=$SERVICES_LAST_MODIFIED
 ENV LEGAL_LAST_MODIFIED=$LEGAL_LAST_MODIFIED
+# Date-gate в src/lib/blog.ts вычисляется во время `next build`, поэтому
+# ежедневный cron обязан реально пересобрать статику. Без этого ARG слой
+# `npm run build` берётся из GHA-кеша (исходники не менялись), сборка не
+# запускается и sitemap с листингом блога застывают на дате прошлого пуша.
+# BUILD_DATE меняется раз в сутки и инвалидирует именно этот слой; deps-стейдж
+# с node_modules остаётся закешированным.
+ARG BUILD_DATE
+ENV BUILD_DATE=$BUILD_DATE
 RUN npm run build
 
 FROM node:22-alpine AS runner

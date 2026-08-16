@@ -36,6 +36,7 @@ jobs:
           LEGAL=$(git log -1 --format=%cI -- src/lib/legal-content.ts src/components/LegalPage.tsx)
           echo "services=$SERVICES" >> "$GITHUB_OUTPUT"
           echo "legal=$LEGAL" >> "$GITHUB_OUTPUT"
+          echo "build_date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
           echo "Services lastmod: $SERVICES"
           echo "Legal lastmod:    $LEGAL"
 
@@ -57,6 +58,7 @@ jobs:
           build-args: |
             SERVICES_LAST_MODIFIED=${{ steps.lastmod.outputs.services }}
             LEGAL_LAST_MODIFIED=${{ steps.lastmod.outputs.legal }}
+            BUILD_DATE=${{ steps.lastmod.outputs.build_date }}
           tags: |
             ${{ env.IMAGE }}:latest
             ${{ env.IMAGE }}:${{ github.sha }}
