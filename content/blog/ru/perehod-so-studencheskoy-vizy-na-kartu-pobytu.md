@@ -96,7 +96,7 @@ Wykaz публикуется на сайте Ministerstwa Nauki и обновл�
 
 Базовый пакет:
 
-- Wniosek o kartę czasowego pobytu (форма от 1 grudnia 2025).
+- Wniosek o kartę czasowego pobytu (актуальная форма в MOS 2.0).
 - Паспорт со сканом действующей основания пребывания (визы или предыдущей karty).
 - Диплом (или Suplement do dyplomu) - со сканом и tłumaczeniem przysięgłym, если выдавался на иностранном языке.
 - Документ от вуза, подтверждающий dzienne studia - справка со ссылкой на Wykaz, если применимо.

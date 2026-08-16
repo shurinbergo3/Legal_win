@@ -23,13 +23,15 @@ schema: Article
 
 # MOS 2.0 Üzerinden Polonya'da Başvuru Nasıl Yapılır - 2026 Rehberi
 
-1 Aralık 2025'ten itibaren Polonya'da tüm oturum başvuruları - Karta Czasowego Pobytu *(geçici oturum kartı)*, Karta Stałego Pobytu *(daimi oturum kartı)*, Karta CUKR, uzatma ve işveren değişikliği bildirimleri - yalnızca MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* (mos.cudzoziemcy.gov.pl) üzerinden alınır. Eski inPOL *(eski yabancılar e-başvuru sistemi)* kapatılmıştır. Kağıt wniosek *(başvuru formu)* yalnızca istisnai durumlarda kabul edilir (örneğin belirli engelliliklerde, resmi başvurudan sonra). Diğer herkes için yalnızca elektronik yol vardır.
+27 Nisan 2026'ten itibaren Polonya'da tüm oturum başvuruları - Karta Czasowego Pobytu *(geçici oturum kartı)*, Karta Stałego Pobytu *(daimi oturum kartı)*, Karta CUKR, uzatma ve işveren değişikliği bildirimleri - yalnızca MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* (mos.cudzoziemcy.gov.pl) üzerinden alınır. Eski inPOL *(eski yabancılar e-başvuru sistemi)* kapatılmıştır. Kağıt wniosek *(başvuru formu)* yalnızca istisnai durumlarda kabul edilir (örneğin belirli engelliliklerde, resmi başvurudan sonra). Diğer herkes için yalnızca elektronik yol vardır.
+
+Geçiş dönemine dair ayrı bir not: 26 Nisan 2026 dahil olmak üzere urząd wojewódzki'ye ulaşmayan kağıt başvurular incelenmeden bırakılır. Postaya veriliş tarihi değil, kuruma ulaşma tarihi esastır - 25 Nisan'da gönderilip 30'unda ulaşan mektup artık işe yaramaz.
 
 Aşağıda gov.pl ekran görüntülerinden değil, sistemi ilk kez görenlerin saatlerini tüketen detaylardan hareketle 2026'da MOS v2.0 ile çalışmanın gerçek bir rehberi yer alıyor.
 
 ## MOS v2.0 nedir - kısa açıklama
 
-MOS, Urząd do Spraw Cudzoziemców *(Yabancılar Dairesi)*'nin Polonya'daki yabancı işlerine yönelik tek portalıdır - "Moduł Obsługi Spraw" yani vaka yönetim modülü. Versiyon 2.0, eski inPOL ve eski MOS yerine Aralık 2025'te devreye girdi; 2026 yılında tek başvuru kanalıdır. Sistem şunları kapsar:
+MOS, Urząd do Spraw Cudzoziemców *(Yabancılar Dairesi)*'nin Polonya'daki yabancı işlerine yönelik tek portalıdır - "Moduł Obsługi Spraw" yani vaka yönetim modülü. Versiyon 2.0, eski inPOL ve eski MOS yerine 27 Nisan 2026'te devreye girdi; 2026 yılında tek başvuru kanalıdır. Sistem şunları kapsar:
 
 - Yabancı hesabı kaydı
 - Tüm Karta Pobytu türlerinde wniosek başvuruları
@@ -194,7 +196,7 @@ Karta, Polska Wytwórnia Papierów Wartościowych'da basılır ve 7-14 gün içi
 ## MOS v2.0'da en sık hatalar
 
 1. **Pobyt'ın son gününde wniosek gönderme.** Urząd wniosku iade ederse (örneğin yanlış Załącznik), legalny pobyt'ınız sona erer. Vize veya eski karta'nın dolmasına en az 30 gün rezerv tanıyın.
-2. **Eski form versiyonunu kullanma.** inPOL'dan kayıtlı bir wniosku varsa unutun; 1 Aralık 2025'ten itibaren form farklı.
+2. **Eski form versiyonunu kullanma.** inPOL'dan kayıtlı bir wniosku varsa unutun; 27 Nisan 2026'ten itibaren form farklı.
 3. **Siyah-beyaz istenirken renkli tarama yükleme.** Pasaport taramaları yalnızca renkli olmalı. Załącznik nr 1 yalnızca imzalı PDF, ekran görüntüsü değil.
 4. **İşverende PKD onaylanmaması.** Ana faaliyet PKD'si pozisyona uymalı.
 5. **eDoręczenia SMS'lerini görmezden gelme.** Wojewoda mesajları kritik, cevap için 7 gün.
@@ -216,7 +218,7 @@ Avukat şu durumlarda mantıklıdır:
 - Eş zamanlı medeni hâl, işveren veya meldunek değiştiriyorsunuz
 - Karmaşık gerekçe (działalność, nauka, standart dışı bir aile durumu)
 
-LegalWin, MOS v2.0 ile Aralık 2025'teki lansmanından beri çalışıyor. İlk danışmadan wniosku gönderimine ortalama süre 14 gün; karta tesliminin ortalama süresi 280 gündür.
+LegalWin, MOS v2.0 ile 27 Nisan 2026'teki lansmanından beri çalışıyor. İlk danışmadan wniosku gönderimine ortalama süre 14 gün; karta tesliminin ortalama süresi 280 gündür.
 
 [MOS 2.0'da wniosku gönderimi için yardım alın -](/tr/uslugi/karta-pobytu#contact)
 

@@ -49,7 +49,7 @@ Istotne ograniczenie: JDG nie jest dostępna dla każdego cudzoziemca. Obywatele
 
 **Scenariusz 2: spółka z o.o.** Powołanie spółki, członkostwo w zarządzie, kontrakty zawierane przez spółkę. Dostępne dla każdego cudzoziemca niezależnie od aktualnego statusu, rejestracja możliwa zdalnie. Wyższe koszty obsługi, brak ograniczeń pobytowych.
 
-**Scenariusz 3: karta studencka** jako pomost. Przyjęcie na studia legalizuje pobyt, w tym czasie powstaje działalność albo spółka, a następnie zmienia się cel pobytu - [jak to zrobić bez wyjazdu](/pl/blog/zmiana-celu-pobytu-bez-vyezda-2026).
+**Scenariusz 3: karta studencka** jako pomost. Przyjęcie na studia legalizuje pobyt, w tym czasie powstaje działalność albo spółka, a następnie zmienia się cel pobytu - [jak to zrobić bez wyjazdu](/pl/uslugi/karta-pobytu).
 
 ## Progi dochodowe
 
@@ -89,7 +89,7 @@ Karta pobytu z tytułu działalności nie jest dokumentem "na start". Jest wynik
 
 ## Zakres naszej pracy
 
-- **Dobór konstrukcji** - JDG albo spółka, pod status, dochód i plany. Różnicę podatkową w horyzoncie trzech lat liczymy, a nie szacujemy: [JDG czy spółka z o.o.](/pl/blog/jdg-ili-sp-z-oo-chto-vybrat-inostrancu-2026).
+- **Dobór konstrukcji** - JDG albo spółka, pod status, dochód i plany. Różnicę podatkową w horyzoncie trzech lat liczymy, a nie szacujemy: [JDG czy spółka z o.o.](/pl/uslugi/jdg).
 - **Rejestracja działalności**, również zdalna.
 - **Meldunek, PESEL, Profil Zaufany** jako podstawa techniczna wniosku.
 - **Księgowość prowadzona pod wniosek pobytowy**, aby dochód był widoczny dla wojewody.
@@ -112,7 +112,7 @@ Orientacyjnie w Mazowieckiem około 100 000 PLN dochodu rocznie. Kwota wynika ze
 Zastosowanie znajduje trzeci warunek: dowody posiadania środków i prowadzenia działań. Potrzebne są umowy i środki, nie deklaracje.
 
 **Czy okres na karcie z tytułu działalności liczy się do pobytu stałego?**
-Tak, w całości - inaczej niż okres ochrony czasowej. Pięć lat otwiera [status rezydenta długoterminowego UE](/pl/blog/status-rezidenta-es-polsha-2026).
+Tak, w całości - inaczej niż okres ochrony czasowej. Pięć lat otwiera [status rezydenta długoterminowego UE](/pl/uslugi/rezydent-ue).
 
 **Czy można łączyć JDG z umową o pracę?**
 Tak, a dla wniosku pobytowego dwa źródła dochodu są argumentem za stabilnością.

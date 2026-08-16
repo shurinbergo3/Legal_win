@@ -33,7 +33,7 @@ Wielu klientów przychodzi z hasłem „muszę przedłużyć kartę". Takiej pro
 
 W praktyce oznacza to:
 
-- **Nowy wniosek przez MOS v2.0** - stary inPOL nie działa od grudnia 2025
+- **Nowy wniosek przez MOS v2.0** - stary inPOL nie działa od 27 kwietnia 2026
 - **Świeże dokumenty** - zaświadczenia z ZUS, PIT-11 za aktualny rok, zaktualizowana umowa o pracę lub potwierdzenie działalności
 - **Pełny komplet** - te same 340 PLN opłaty skarbowej + 100 PLN za blankiet karty
 - **Nowa biometria** - odciski palców pobiera się ponownie, jak przy pierwszym wniosku
@@ -82,7 +82,7 @@ Najczęstsze zmiany:
 
 Pakiet podstawowy w 2026 roku:
 
-- Wniosek na formularzu z 1 grudnia 2025 (tylko przez MOS v2.0)
+- Wniosek na formularzu z 27 kwietnia 2026 (tylko przez MOS v2.0)
 - Paszport + kserokopie wszystkich stron
 - 4 zdjęcia biometryczne 35×45 mm
 - Potwierdzenie zakwaterowania - umowa najmu lub zameldowanie
@@ -112,7 +112,7 @@ Pod podstawę JDG (jednoosobowa działalność gospodarcza):
 
 ## Składanie przez MOS v2.0
 
-Od grudnia 2025 jedyny kanał to mos.cudzoziemcy.gov.pl. Logika składania kontynuacji i pierwszego wniosku jest taka sama, ale jest jeden szczegół techniczny: w formularzu trzeba zaznaczyć opcję „kontynuacja zezwolenia" i wpisać numer dotychczasowej decyzji.
+Od 27 kwietnia 2026 jedyny kanał to mos.cudzoziemcy.gov.pl. Logika składania kontynuacji i pierwszego wniosku jest taka sama, ale jest jeden szczegół techniczny: w formularzu trzeba zaznaczyć opcję „kontynuacja zezwolenia" i wpisać numer dotychczasowej decyzji.
 
 Co często zapomina się dodać:
 

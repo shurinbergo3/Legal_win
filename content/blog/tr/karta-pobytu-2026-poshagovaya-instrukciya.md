@@ -23,7 +23,7 @@ schema: Article
 
 # Polonya oturum kartı 2026: adım adım rehber
 
-Kısaca özetlemek gerekirse: Aralık 2025'ten itibaren Karta Pobytu *(Polonya geçici oturum kartı)* başvuruları yalnızca MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* üzerinden çevrimiçi alınmaktadır. Wojewoda *(eyalet valisi)* ile yazışma artık eDoręczenia *(elektronik resmi yazışma sistemi)* üzerinden yürütülmektedir. Pasaporta vurulan kaşe uygulaması kaldırıldı. "Çalışma" gerekçesiyle başvuru için asgari ücret 4.806 PLN brüt olarak belirlendi. Opłata skarbowa *(damga vergisi)* 340 PLN, kart bedeli ise 100 PLN'dir. Mazowiecki Urząd Wojewódzki *(Mazowiecki Voyvodalık Ofisi)* için 2026 yılı ortalama karar süresi 8-14 ay arasındadır. LegalWin'de ilk danışmanlıktan başvurunun tamamlanmasına kadar geçen süre genellikle 42 gündür.
+Kısaca özetlemek gerekirse: 27 Nisan 2026'ten itibaren Karta Pobytu *(Polonya geçici oturum kartı)* başvuruları yalnızca MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* üzerinden çevrimiçi alınmaktadır. Wojewoda *(eyalet valisi)* ile yazışma artık eDoręczenia *(elektronik resmi yazışma sistemi)* üzerinden yürütülmektedir. Pasaporta vurulan kaşe uygulaması kaldırıldı. "Çalışma" gerekçesiyle başvuru için asgari ücret 4.806 PLN brüt olarak belirlendi. Opłata skarbowa *(damga vergisi)* 340 PLN, kart bedeli ise 100 PLN'dir. Mazowiecki Urząd Wojewódzki *(Mazowiecki Voyvodalık Ofisi)* için 2026 yılı ortalama karar süresi 8-14 ay arasındadır. LegalWin'de ilk danışmanlıktan başvurunun tamamlanmasına kadar geçen süre genellikle 42 gündür.
 
 Şimdi adım adım anlatalım.
 
@@ -31,7 +31,7 @@ Kısaca özetlemek gerekirse: Aralık 2025'ten itibaren Karta Pobytu *(Polonya g
 
 Bu yıl başvuru sürecini doğrudan etkileyen üç temel değişiklik var.
 
-**1. MOS v2.0 tek elektronik başvuru kanalı oldu.** Eski inPOL *(eski yabancılar e-başvuru sistemi)* kapatıldı. Aralık 2025'ten itibaren yeni wniosek *(başvuru formu)* formatı geçerlidir. Eski formla yapılan başvurular "formalnie niekompletny" olarak iade edilir ve sıranızı kaybedersiniz. MOS sistemine giriş için Profil Zaufany, login.gov.pl, e-dowód veya mDowód gereklidir. Bu kimlik araçlarından biri olmadan sisteme giremezsiniz.
+**1. MOS v2.0 tek elektronik başvuru kanalı oldu.** Eski inPOL *(eski yabancılar e-başvuru sistemi)* kapatıldı. 27 Nisan 2026'ten itibaren yeni wniosek *(başvuru formu)* formatı geçerlidir. Eski formla yapılan başvurular "formalnie niekompletny" olarak iade edilir ve sıranızı kaybedersiniz. MOS sistemine giriş için Profil Zaufany, login.gov.pl, e-dowód veya mDowód gereklidir. Bu kimlik araçlarından biri olmadan sisteme giremezsiniz.
 
 **2. Pasaport kaşesinin sonu.** Daha önce başvurunun değerlendirilmesi sırasında yasal ikameti kanıtlayan ve pasaportun tamamına basılan kırmızı kaşe kaldırıldı. Yerine Urzędowe Poświadczenie Odbioru (UPO) ve hesabınızdaki elektronik sertifika geçerli oldu. Sınırda ve işveren kontrollerinde UPO çıktısı ile MOS sistem durum ekranının ekran görüntüsünü yanınızda bulundurmanız önerilir.
 

@@ -98,7 +98,7 @@ schema: Article
 | Opłata ewidencyjna | 0,50 PLN |
 | Tłumaczenie przysięgłe прав | 60–110 PLN |
 | Badania lekarskie (тільки для C, D або прострочених прав) | 180–250 PLN |
-| Badania psychologiczne (тільки для C, D) | 130–180 PLN |
+| Badania psychologiczne (тільки для C, D) | 150 PLN |
 | **Разом для cat. B** | **160–210 PLN** |
 | **Разом для cat. C/D з іспитами** | **600–900 PLN** |
 

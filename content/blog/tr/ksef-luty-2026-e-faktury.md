@@ -1,9 +1,9 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: 'KSeF 2026: Polonya''da zorunlu e-fatura sistemi'
+title: 'KSeF 2026: ne zaman zorunlu ve kime erteleme var'
 description: >-
-  1 Şubat 2026'dan itibaren Polonya'daki tüm B2B faturalar KSeF üzerinden. Türk
-  girişimci için bağlanma, cezalar, Sp. z o.o. ve JDG adımları.
+  KSeF: 1 Şubat 2026 cirosu 200 mln zł üstü firmalar, 1 Nisan diğer herkes,
+  aylık 10 000 zł altı mikro firmalar yıl sonuna kadar bekleyebilir.
 locale: tr
 publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
@@ -22,9 +22,13 @@ relatedServices:
 schema: Article
 ---
 
-# KSeF - Polonya'da Şubat 2026'dan itibaren zorunlu e-fatura
+# KSeF: ne zaman zorunlu ve kime erteleme var
 
-1 Şubat 2026 tarihinden itibaren Polonya'daki tüm girişimciler - JDG *(şahıs şirketi)*, Sp. z o.o. *(limited şirket)*, spółki komandytowe *(komandit ortaklık)* - B2B faturalarını yalnızca **KSeF (Krajowy System e-Faktur) *(Polonya elektronik fatura sistemi)*** üzerinden düzenlemek zorundadır. Posta yoluyla gönderilen kağıt veya PDF faturalar artık VAT *(KDV)* ve CIT *(kurumlar vergisi)* açısından geçerli belge sayılmaz. Uyumsuzluk cezası, tek bir fatura için VAT tutarının %100'üne kadar çıkar. Türk girişimci için bu şu anlama gelir: ya 31 Ocak 2026 tarihine kadar KSeF'e bağlanırsınız ya da iş ortaklarınız faturalarınızı kayıtlarına alamaz.
+KSeF etrafında çok fazla panik ve tarih karmaşası var, o yüzden önce en önemlisi. Yükümlülük üç dalga hâlinde geliyor: **1 Şubat 2026** - yalnızca 2024 cirosu 200 milyon zł üzerindeki firmalar, **1 Nisan 2026** - JDG ve Sp. z o.o. dahil diğer herkes; faturalı satışı aylık 10 000 zł brütü aşmayan mikro firmalar ise **31 Aralık 2026**'ya kadar eski usulde fatura kesebilir.
+
+Paniği azaltan ikinci nokta: **yaptırımlar ancak 1 Ocak 2027'de başlıyor**. 1 Şubat - 31 Aralık 2026 arasında KSeF yükümlülüğünün ihlali cezalandırılmıyor. Bu, süreçleri oturtmak için geçiş dönemidir, erteleme gerekçesi değil - gelen faturaları ilk günden sistem üzerinden almak yine gerekiyor.
+
+Tarihiniz geldiğinde B2B faturalar yalnızca **KSeF (Krajowy System e-Faktur) *(Polonya elektronik fatura sistemi)*** üzerinden düzenlenir. Posta yoluyla gönderilen kağıt veya PDF faturalar artık VAT *(KDV)* ve CIT *(kurumlar vergisi)* açısından geçerli belge sayılmaz. Türk girişimci için bu şu anlama gelir: ya kendi dalganızın tarihine kadar KSeF'e bağlanırsınız ya da iş ortaklarınız faturalarınızı kayıtlarına alamaz.
 
 ## KSeF nedir?
 
@@ -34,7 +38,17 @@ Reformun amacı VAT açığını kapatmak (Maliye Bakanlığı verilerine göre 
 
 ## Zorunluluk kimleri kapsıyor?
 
-1 Şubat 2026 itibarıyla KSeF kullanım zorunluluğu şunları kapsar:
+Tarihler işletmenin büyüklüğüne bağlı:
+
+| Kim | KSeF ne zaman zorunlu |
+|---|---|
+| 2024 cirosu 200 milyon zł üzeri | 1 Şubat 2026 |
+| Diğer herkes: Sp. z o.o., JDG, spółki komandytowe, jawne, partnerskie | 1 Nisan 2026 |
+| Aylık faturalı satışı 10 000 zł brütü aşmayan mikro firmalar | 1 Ocak 2027 (2026 sonuna kadar eski usul) |
+
+Mikro firmalar için önemli ayrıntı: sınır aylık hesaplanır. Belirli bir ayda 10 000 zł aşılırsa sonraki faturadan itibaren KSeF'e geçilir ve geri dönüş yoktur.
+
+Yükümlülük şunları da kapsar:
 
 - **Tüm Sp. z o.o. şirketleri** - ciroya bakılmaksızın
 - **VAT mükellefi tüm JDG'ler** (czynni podatnicy VAT *(aktif VAT mükellefi)* olarak kayıtlı olanlar)
@@ -51,7 +65,7 @@ Bu kategoriler 2027'den itibaren yükümlülük kapsamına alınacaktır.
 
 ## Türk girişimci sisteme nasıl bağlanır?
 
-KSeF'e bağlanmak için 31 Ocak 2026 tarihine kadar tamamlanması gereken adımlar:
+KSeF'e bağlanmak için 1 Nisan 2026'ya kadar tamamlanması gereken adımlar (cironuz 200 milyon zł üzerindeyse 1 Şubat'a kadar):
 
 ### 1. Kwalifikowany podpis elektroniczny veya Profil Zaufany edinin
 
@@ -88,7 +102,7 @@ Maliye Bakanlığı'nın ücretsiz eğitimleri podatki.gov.pl adresinde mevcuttu
 
 ## Uyumsuzluk cezaları
 
-1 Şubat 2026 itibarıyla geçerli yaptırımlar:
+Asıl yanlış anlaşılma burada. Aşağıdaki yaptırımlar ustawa o VAT'ta yazılıdır, ancak **yalnızca 1 Ocak 2027'de yürürlüğe girer**. 2026 boyunca KSeF yükümlülüğünün ihlali resmen cezalandırılmaz:
 
 | İhlal | Ceza |
 |---|---|
@@ -119,7 +133,7 @@ Yabancı yönetimli JDG ve Sp. z o.o. şirketleri için temel pratik sonuçlar:
 
 ## Şu anda ne yapmalısınız?
 
-Polonya'da girişimciyseniz, 31 Ocak 2026'ya kadar yapılacaklar:
+Polonya'da girişimciyseniz, 1 Nisan 2026'ya kadar yapılacaklar:
 
 1. **Bugün:** PUE *(elektronik müşteri platformu)* üzerinden e-Urząd Skarbowy kaydınızın aktif olduğunu kontrol edin.
 2. **Bu hafta:** Profil Zaufany veya podpis kwalifikowany alın.

@@ -28,7 +28,7 @@ In short: for the "work" basis, doing it yourself, hard costs come to roughly 60
 
 ## Mandatory payments
 
-Everyone pays these, regardless of basis and regardless of whether they file alone or with a lawyer. Filing through MOS v2.0 (the electronic application system, in force since December 2025) is free - the online form costs nothing. The payments are separate.
+Everyone pays these, regardless of basis and regardless of whether they file alone or with a lawyer. Filing through MOS v2.0 (the electronic application system, in force since 27 April 2026) is free - the online form costs nothing. The payments are separate.
 
 | Item | Amount | When paid |
 |---|---|---|

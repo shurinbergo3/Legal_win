@@ -105,7 +105,7 @@ Wymiana ukraińskiego prawa jazdy в Варшаве происходит в Wydz
 **Дополнительно для категорий C, D, C+E, D+E:**
 
 - Действующие badania lekarskie (медкомиссия) от lekarza uprawnionego - 180-250 PLN
-- Действующие badania psychologiczne (психологическое обследование) - 130-180 PLN
+- Действующие badania psychologiczne (психологическое обследование) - 150 PLN
 - Сертификат Kod 95 - если планируете работать профессиональным водителем
 
 **Если меняли фамилию:**
@@ -121,7 +121,7 @@ Wymiana ukraińskiego prawa jazdy в Варшаве происходит в Wydz
 | Opłata ewidencyjna | 0,50 PLN |
 | Tłumaczenie przysięgłe (с украинского) | 60-80 PLN |
 | Badania lekarskie (только для C/D или просроченных) | 180-250 PLN |
-| Badania psychologiczne (только для C/D) | 130-180 PLN |
+| Badania psychologiczne (только для C/D) | 150 PLN |
 | **Итого для cat. B** | **160-210 PLN** |
 
 Если идёте через юриста (запись + перевод + сопровождение в urząd) - добавьте 400-600 PLN сверху. Для простой категории B это редко имеет смысл, но окупается при старых правах с дополнительной верификацией, при смене фамилии или когда параллельно нужен Kod 95.

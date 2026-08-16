@@ -46,7 +46,7 @@ Odrębną pozycją jest **zaświadczenie o niekaralności podmiotu zbiorowego**,
 Rzecz kluczowa: **apostille wystawia MSZ, ale nie na każdym dokumencie bezpośrednio**. Część dokumentów przechodzi instancję pośrednią, a kolejności nie da się pominąć.
 
 **Ścieżka 1: odpis z KRS - bezpośrednio do MSZ.**
-Papierowy odpis (aktualny albo pełny) z podpisem i pieczęcią sądu trafia do MSZ, opłata 60 PLN, apostille gotowe. Wariant najprostszy.
+Papierowy odpis (aktualny albo pełny) z podpisem i pieczęcią sądu trafia do MSZ, opłata 60 zł, apostille gotowe. Wariant najprostszy.
 
 **Ścieżka 2: dokumenty notarialne - przez sąd okręgowy.**
 Umowa spółki, pełnomocnictwo notarialne, wypis aktu notarialnego. Najpierw prezes sądu okręgowego poświadcza podpis notariusza, następnie MSZ wystawia apostille.
@@ -62,7 +62,7 @@ Wydruk z systemu eKRS ma moc dokumentu urzędowego **w obrocie krajowym**. MSZ p
 
 Dwa wyjścia:
 
-1. **Zamówić papierowy odpis** w sądzie rejestrowym - osobiście, listownie albo przez pełnomocnika. Koszt 30-60 PLN, termin 1-7 dni.
+1. **Zamówić papierowy odpis** w sądzie rejestrowym - osobiście, listownie albo przez pełnomocnika. Koszt 30-60 zł, termin 1-7 dni.
 2. **Poświadczyć wydruk notarialnie** i poprowadzić sprawę ścieżką trzecią. Drożej, ale bywa szybciej, gdy sąd zwleka.
 
 Ta sama logika dotyczy e-KRK i innych dokumentów elektronicznych - [szczegóły tutaj](/pl/blog/e-apostille-elektronnye-dokumenty-2026).
@@ -72,11 +72,11 @@ Ta sama logika dotyczy e-KRK i innych dokumentów elektronicznych - [szczegóły
 | Pozycja | Koszt | Termin |
 |---|---|---|
 | Odpis aktualny z KRS (papierowy) | 30 PLN | 1-7 dni |
-| Odpis pełny z KRS | 60 PLN | 1-7 dni |
+| Odpis pełny z KRS | 60 zł | 1-7 dni |
 | Poświadczenie podpisu u notariusza | 20-50 PLN + VAT | tego samego dnia |
 | Wypis aktu notarialnego | 6 PLN + VAT za stronę | tego samego dnia |
-| Poświadczenie w sądzie okręgowym | 26 PLN za dokument | 1-5 dni |
-| Apostille MSZ | 60 PLN za dokument | 1-3 dni |
+| Poświadczenie w sądzie okręgowym | 26 zł za dokument | 1-5 dni |
+| Apostille MSZ | 60 zł za dokument | 1-3 dni |
 | Tłumaczenie przysięgłe | zależnie od objętości | 1-3 dni |
 
 Komplet "KRS, umowa spółki, pełnomocnictwo" wraz z apostille i tłumaczeniami mieści się w 700-1 200 PLN opłat urzędowych i 7-14 dniach roboczych.
@@ -97,7 +97,7 @@ Komplet "KRS, umowa spółki, pełnomocnictwo" wraz z apostille i tłumaczeniami
 4. **Tłumaczenie przysięgłe** we właściwym momencie, wraz z klauzulą apostille.
 5. **Wysyłka** oryginałów kurierem do państwa docelowego.
 
-Terminy i ceny - na [stronie usługi](/pl/uslugi/apostille). Przy równoległym otwieraniu struktury za granicą warto zajrzeć do tekstu o [relokacji biznesu i przedstawicielstwach](/pl/blog/relokaciya-biznesa-v-polshu-przedstawicielstwo-2026).
+Terminy i ceny - na [stronie usługi](/pl/uslugi/apostille). Przy równoległym otwieraniu struktury za granicą przyda się usługa [przedstawicielstwa zagranicznych firm](/pl/uslugi/przedstawicielstwa).
 
 ## Najczęstsze pytania
 
@@ -114,7 +114,7 @@ Tyle oryginałów, ile państw. Apostille przypisane jest do konkretnego egzempl
 Dowolna osoba na podstawie pełnomocnictwa. Pracujemy właśnie w ten sposób.
 
 **Spółka jest świeżo zarejestrowana i nie ma jeszcze wpisu do KRS.**
-Do czasu wpisu odpis nie zostanie wydany. Przy rejestracji w S24 wpis pojawia się zwykle w 1-3 dni - [jak to działa](/pl/blog/registraciya-sp-z-oo-s24-bez-pesel-2026).
+Do czasu wpisu odpis nie zostanie wydany. Przy rejestracji w S24 wpis pojawia się zwykle w 1-3 dni - [jak to działa](/pl/uslugi/rejestracja-sp-z-oo).
 
 ---
 

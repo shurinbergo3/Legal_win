@@ -85,7 +85,7 @@ Azerbaycan zorluk açısından Gürcistan ve Beyaz Rusya'ya yakındır. Asıl ge
 **C, D, C+E, D+E sınıfları için:**
 
 - Yetkili hekimden geçerli badania lekarskie *(sağlık raporu)* (180-250 PLN)
-- Geçerli badania psychologiczne *(psikoteknik rapor)* (130-180 PLN)
+- Geçerli badania psychologiczne *(psikoteknik rapor)* (150 PLN)
 - Profesyonel sürücülük yapacaksanız Kod 95 sertifikası
 
 ## Tercüme ayrıntıları
@@ -130,7 +130,7 @@ Randevu warszawa19115.pl portalı veya Warszawa 19115 uygulaması üzerinden al�
 | Yeminli tercüme | 70-120 PLN |
 | Azerbaycan Dışişleri apostili (gerekirse) | 60 PLN eşdeğer |
 | Sağlık raporu (yalnızca C/D veya süresi dolanlar) | 180-250 PLN |
-| Psikoteknik rapor (yalnızca C/D) | 130-180 PLN |
+| Psikoteknik rapor (yalnızca C/D) | 150 PLN |
 | **A/B sınıfı toplam (yeni belge)** | **170-220 PLN** |
 | **A/B sınıfı toplam (eski belge + apostille)** | **230-280 PLN** |
 | **C/D sınıfı toplam (sağlık dahil)** | **480-680 PLN** |

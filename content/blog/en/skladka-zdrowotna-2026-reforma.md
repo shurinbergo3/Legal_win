@@ -1,9 +1,9 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: 'Składka Zdrowotna 2026: Reform for JDG, Sp. z o.o.'
+title: 'Składka Zdrowotna 2026: No Reform, Higher Minimum'
 description: >-
-  From 1 January 2026: flat health contribution for JDG, new rates for Sp. z
-  o.o. and Estonian CIT, how the foreign entrepreneur's burden shifts.
+  The health contribution reform died on a presidential veto. Old rules still
+  apply in 2026 and the minimum contribution rose to PLN 432.54. What to do.
 locale: en
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
@@ -22,18 +22,25 @@ relatedServices:
 schema: Article
 ---
 
-# Polish health contribution 2026 - reform for JDG and Sp. z o.o.
+# Polish health contribution 2026: no reform, and the minimum went up
 
-A new health-contribution model (składka zdrowotna) is in force in Poland from 1 January 2026. It's the largest reform of entrepreneur tax burden since 2022 (Polski Ład). For most foreign-owned JDGs and single-shareholder Sp. z o.o.'s, the annual burden falls by PLN 2,000-8,000. But not for everyone - for some high-income groups the contribution went up. Here's the breakdown by business form.
+The health-contribution reform written about all through 2025 never came into force: the president vetoed the act of 4 April 2025 on 6 May 2025, and that closed the subject. No replacement bill is in the works.
+
+For an entrepreneur that means two things. First, in 2026 the contribution is still calculated the old way - 9% of income on the tax scale, 4.9% on the flat rate, fixed brackets on ryczałt. Second, and far less pleasant: the temporary relief that in 2025 set the minimum contribution at 75% of the minimum wage has expired. The base is back at 100% and the minimum contribution rose from PLN 314.96 to **PLN 432.54 a month** - up PLN 117.58, or 37.4%.
+
+What follows are the real 2026 numbers by tax form, and what to do about them.
+
+For reference, the old framing: For most foreign-owned JDGs and single-shareholder Sp. z o.o.'s, the annual burden falls by PLN 2,000-8,000. But not for everyone - for some high-income groups the contribution went up. Here's the breakdown by business form.
 
 ## What changed on 1 January 2026
 
 Before 2026, the health contribution for JDGs was 9% (progressive scale) or 4.9% (flat tax) of income - no cap, no minimum. It produced a paradox: an entrepreneur earning PLN 250,000 paid more health contribution than an employee on a regular contract with the same salary.
 
-From 2026, the rules are rewritten:
+What actually changed:
 
-- **Fixed minimum for all JDGs** - 9% of 75% of the minimum wage. With a 2026 minimum of PLN 4,806 gross, that's **PLN 324.40/month** (PLN 3,893/year).
-- **Progressive cap** - above a certain income, the contribution stops growing. For the 19% flat rate the cap is around PLN 1,500/month.
+- **The minimum contribution rose to PLN 432.54/month** (PLN 5,190.48 a year). That is 9% of the PLN 4,806 gross minimum wage. In 2025 a temporary relief set the base at 75% of the minimum, or PLN 314.96. It was not extended.
+- **Ryczałt is calculated off the average wage** for Q4 of the previous year. For 2026 that is PLN 9,228.64, up PLN 679.46 year on year - which is why all three ryczałt brackets went up too.
+- **No cap.** The progressive ceiling that was in the reform bill does not exist.
 - **Sp. z o.o.** - unchanged: a board member pays 9% of the board-member salary (if appointed by a shareholder resolution).
 - **Estonian CIT** - still exempt from the health contribution during the reinvestment phase.
 
@@ -45,11 +52,11 @@ It depends on the taxation form. Two most popular among foreigners - flat 19% an
 
 | Annual income (PLN) | 2025 contribution (4.9%) | 2026 contribution | Difference |
 |---|---|---|---|
-| 60,000 | PLN 245/m | PLN 324/m (minimum) | +79/m |
+| 60,000 | PLN 314.96/m (minimum) | PLN 432.54/m (minimum) | +117.58/m |
 | 120,000 | PLN 490/m | PLN 490/m | 0 |
 | 240,000 | PLN 980/m | PLN 980/m | 0 |
-| 500,000 | PLN 2,042/m | PLN 1,500/m (cap) | -542/m |
-| 1,000,000 | PLN 4,083/m | PLN 1,500/m | -2,583/m |
+| 500,000 | PLN 2,042/m | PLN 2,042/m | 0 |
+| 1,000,000 | PLN 4,083/m | PLN 4,083/m | 0 |
 
 Low-income JDGs pay slightly more (the minimum). High-income - significantly less (the cap). Break-even sits around PLN 240,000 income.
 
@@ -59,11 +66,11 @@ Smaller changes - ryczałt already paid contributions in fixed brackets keyed to
 
 | Annual revenue (PLN) | 2025 | 2026 |
 |---|---|---|
-| Up to 60,000 | PLN 419/m | PLN 324/m (new minimum) |
-| 60,000 - 300,000 | PLN 698/m | PLN 698/m |
-| Over 300,000 | PLN 1,256/m | PLN 1,256/m |
+| Up to 60,000 | PLN 419/m | PLN 498.35/m |
+| 60,000 - 300,000 | PLN 698/m | PLN 830.58/m |
+| Over 300,000 | PLN 1,256/m | PLN 1,495.04/m |
 
-The main saving on ryczałt is in the lowest bracket (-PLN 95/month).
+There is no saving on ryczałt this year: the base grew, so every bracket grew with it.
 
 ## Sp. z o.o. - what changes
 

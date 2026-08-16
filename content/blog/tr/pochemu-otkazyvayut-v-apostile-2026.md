@@ -120,7 +120,7 @@ Genellikle anlamlı değildir; retler şeklîdir ve nedeni gidermek daha hızlı
 Nüsha başına bir. Üç ülke için üç asıl gerekir.
 
 **Yurt dışı belgesi Polonya'da apostillenir mi?**
-Hayır, yalnızca düzenleyen ülke tarafından - [uzaktan nasıl organize edilir](/tr/blog/apostille-inostrannyh-dokumentov-dlya-polshi-2026).
+Hayır, yalnızca düzenleyen ülke tarafından - [uzaktan nasıl organize edilir](/tr/uslugi/apostille).
 
 **Eski Sovyet dönemi belgesi için ne yapmalı?**
 Genellikle kaydın tutulduğu ülkenin arşivinden yeni nüsha alınır; apostil yeni belgeye vurulur.

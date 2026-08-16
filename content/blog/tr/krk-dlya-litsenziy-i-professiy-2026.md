@@ -78,7 +78,7 @@ Koşullar sanılandan geniştir:
 
 Şema sayılan tüm sektörlerde aynıdır:
 
-1. **Polonya KRK belgesi** - 20-30 PLN, çevrimiçi ya da bilgi noktasından. PESEL yoksa [ikinci kanal](/tr/blog/krk-dlya-inostranca-bez-pesel-2026) devrededir.
+1. **Polonya KRK belgesi** - 20-30 PLN, çevrimiçi ya da bilgi noktasından. PESEL yoksa [ikinci kanal](/tr/uslugi/zaswiadczenie-o-niekaralnosci) devrededir.
 2. **Vatandaşı olunan ülkeden belge** - Türkiye için adli sicil kaydı, Ukrayna için İçişleri Bakanlığı belgesi, Belarus, Gürcistan, Kazakistan karşılıkları.
 3. **Tasdik** - Ukrayna, Belarus ve Rusya için ikili anlaşmalar apostilden muaf tutar; çoğu ülke için apostil gerekir. [Kendi durumunuzu nasıl belirlersiniz](/tr/blog/apostille-ili-legalizacja-konsularna-2026).
 4. Lehçeye **yeminli tercüme** - her zaman.
@@ -99,7 +99,7 @@ Tek bir kural yoktur; ölçütler şöyle:
 
 - Lisans ya da göreve göre **tam listenin belirlenmesi**; sektörler arasında farklıdır ve karışıklık burada doğar.
 - Vekâletle **Polonya KRK belgesinin alınması**, PESEL olmayan hâller dâhil.
-- Siz seyahat etmeden **yurt dışı belgelerinin talebi** - [ayrıntılar](/tr/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+- Siz seyahat etmeden **yurt dışı belgelerinin talebi** - [ayrıntılar](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 - Gerekiyorsa **apostil veya konsolosluk tasdiki**.
 - **Yeminli tercüme** ve ilgili makama uygun dosyanın hazırlanması.
 

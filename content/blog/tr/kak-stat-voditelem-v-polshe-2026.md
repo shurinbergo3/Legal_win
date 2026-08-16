@@ -65,7 +65,7 @@ Polonya yasasına göre (Ustawa o kierujących pojazdami, art. 14), Polonya'da *
 - Süreler: Ukrayna ehliyeti için **30-60 gün**, Belarus ehliyeti için **60-90 gün** (veren ülkenin içişleri bakanlığının cevabına bağlı).
 - Ukrayna ve Belarus Viyana Sözleşmesi'ne dahildir, bu yüzden değişim sınavsız yapılır.
 
-Süreci ülke ülke üç yazıda anlattık: [genel değişim rehberi](/tr/blog/obmen-prav-na-polskie-2026), [Ukrayna ehliyeti değişimi](/tr/blog/obmen-prav-na-polskie-2026) ve [Belarus ehliyeti değişimi](/tr/blog/obmen-prav-na-polskie-2026). Destek [wymiana prawa jazdy](/tr/uslugi/wymiana-prawa-jazdy) hizmetindedir.
+Süreci adım adım [ehliyet değişimi rehberinde](/tr/blog/obmen-prav-na-polskie-2026) anlattık. Destek [wymiana prawa jazdy](/tr/uslugi/wymiana-prawa-jazdy) hizmetindedir.
 
 Ukraynalılar için önemli bir ayrıntı: PESEL UKR ile Ukrayna ehliyetiniz **kişisel** sürüş için geçici korumanın sonuna kadar geçerli kalır (mevcut süre Mart 2027). Ancak şoför olarak **çalışmak** için Polonya ehliyeti ile Kod 95 ve karta kierowcy yine de gerekir. 185 gün tuzağı hakkında daha fazlası [185 gün kuralı ve ITD cezaları](/tr/blog/pravilo-185-dney-itd-shtrafy) yazısındadır.
 

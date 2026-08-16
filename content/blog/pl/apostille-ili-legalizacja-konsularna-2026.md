@@ -2,7 +2,7 @@
 slug: apostille-ili-legalizacja-konsularna-2026
 title: 'Apostille czy legalizacja konsularna: jak wybrać w 2026 r.'
 description: >-
-  60 PLN za apostille i 26 PLN za poświadczenie MSZ. Kraje spoza konwencji
+  60 zł za apostille i 26 zł za poświadczenie MSZ. Kraje spoza konwencji
   haskiej, umowy dwustronne i sytuacje, w których legalizacja nie jest potrzebna.
 locale: pl
 publishDate: 2026-08-11T00:00:00.000Z
@@ -25,14 +25,14 @@ schema: Article
 
 Połowa zleceń na apostille, które do nas trafiają, apostille w ogóle nie wymaga. Albo dokument jedzie do państwa, które apostille nie uznaje - i potrzebna jest pełna legalizacja konsularna. Albo odwrotnie: między Polską a państwem przeznaczenia obowiązuje umowa dwustronna, na podstawie której dokument przyjmowany jest bez jakichkolwiek poświadczeń.
 
-Różnica w kosztach i terminach jest realna: apostille w MSZ kosztuje 60 PLN od dokumentu i zajmuje dzień lub dwa, legalizacja konsularna to dwie instancje, 26 PLN w MSZ plus opłata konsularna i co najmniej tydzień. Poniżej sposób, by ustalić swój wariant w pięć minut.
+Różnica w kosztach i terminach jest realna: apostille w MSZ kosztuje 60 zł od dokumentu i zajmuje dzień lub dwa, legalizacja konsularna to dwie instancje, 26 zł w MSZ plus opłata konsularna i co najmniej tydzień. Poniżej sposób, by ustalić swój wariant w pięć minut.
 
 ## Trzy warianty, nie dwa
 
 | Wariant | Co należy zrobić | Opłata w MSZ | Termin |
 |---|---|---|---|
-| Państwo strona konwencji haskiej z 1961 r. | Apostille | 60 PLN od dokumentu | 1-3 dni robocze |
-| Państwo spoza konwencji | Poświadczenie MSZ + legalizacja w ambasadzie | 26 PLN + opłata konsularna | 5-15 dni roboczych |
+| Państwo strona konwencji haskiej z 1961 r. | Apostille | 60 zł od dokumentu | 1-3 dni robocze |
+| Państwo spoza konwencji | Poświadczenie MSZ + legalizacja w ambasadzie | 26 zł + opłata konsularna | 5-15 dni roboczych |
 | Obowiązuje umowa dwustronna o pomocy prawnej | Zwykle nic, wyłącznie tłumaczenie przysięgłe | 0 PLN | 0 dni |
 
 Trzeci wariant bywa pomijany, a to właśnie on daje największą oszczędność.
@@ -70,7 +70,7 @@ Zasada, o której warto pamiętać: lista zmienia się kilka razy w roku. Przed 
 Jeżeli państwo jest poza konwencją, łańcuch jest dłuższy i nie da się go skrócić:
 
 1. **Przygotowanie dokumentu.** Oryginał z podpisem i pieczęcią. Dokumenty notarialne i kopie wymagają wcześniejszego poświadczenia w sądzie okręgowym.
-2. **Poświadczenie MSZ.** Dział Legalizacji, ul. Krucza 38/42 w Warszawie. Opłata 26 PLN od dokumentu.
+2. **Poświadczenie MSZ.** Dział Legalizacji, ul. Krucza 38/42 w Warszawie. Opłata 26 zł od dokumentu.
 3. **Legalizacja w ambasadzie państwa przeznaczenia.** Każda placówka ma własne zasady, terminy i taryfę. Część wymaga tłumaczenia na język urzędowy, część wyłącznie na angielski.
 4. **Tłumaczenie.** Przysięgłe albo konsularne, zależnie od wymogów odbiorcy.
 
@@ -78,7 +78,7 @@ Najczęstszy błąd na tej ścieżce to wykonanie tłumaczenia zbyt wcześnie. W
 
 ## Apostille w Polsce: kto poświadcza
 
-Organem właściwym jest **MSZ, Dział Legalizacji**. Wizyty osobiste: ul. Krucza 38/42 w Warszawie po rezerwacji terminu, korespondencja pocztowa: al. Szucha 23. Opłata 60 PLN od dokumentu, płatna na rachunek Urzędu Dzielnicy Śródmieście.
+Organem właściwym jest **MSZ, Dział Legalizacji**. Wizyty osobiste: ul. Krucza 38/42 w Warszawie po rezerwacji terminu, korespondencja pocztowa: al. Szucha 23. Opłata 60 zł od dokumentu, płatna na rachunek Urzędu Dzielnicy Śródmieście.
 
 Istotne w 2026 r.: **MSZ nadal przyjmuje wyłącznie papierowe oryginały**. Wydruk dokumentu elektronicznego (e-KRK, wydruk z KRS, dokument z ePUAP) nie jest przyjmowany bezpośrednio - trzeba go poświadczyć notarialnie albo uzyskać oryginał papierowy w organie wydającym. Tę pułapkę omawiamy w tekście o [dokumentach elektronicznych i apostille](/pl/blog/e-apostille-elektronnye-dokumenty-2026).
 
@@ -126,7 +126,7 @@ Na kopii poświadczonej notarialnie tak, po wcześniejszym poświadczeniu w sąd
 Zdarza się, że placówka używa słowa "apostille" w znaczeniu poświadczenia MSZ. Warto uzyskać wymóg na piśmie - nazewnictwo i praktyka bywają rozbieżne.
 
 **Czy w Polsce można poświadczyć dokument wydany za granicą?**
-Nie. Apostille wystawia wyłącznie państwo wydania dokumentu. Ukraiński odpis poświadcza się w Ukrainie, turecki w Turcji. Sposób zdalnej organizacji opisaliśmy w tekście o [apostille dokumentów zagranicznych](/pl/blog/apostille-inostrannyh-dokumentov-dlya-polshi-2026).
+Nie. Apostille wystawia wyłącznie państwo wydania dokumentu. Ukraiński odpis poświadcza się w Ukrainie, turecki w Turcji. Zdalną organizację bierzemy na siebie w ramach usługi [apostille i legalizacja](/pl/uslugi/apostille).
 
 **Czy dokumenty spółki wymagają apostille przy otwieraniu rachunku za granicą?**
 Zwykle tak - to odrębna procedura obejmująca KRS i umowę spółki, [omawiamy ją osobno](/pl/blog/apostille-na-korporativnye-dokumenty-krs-2026).

@@ -96,7 +96,7 @@ Procedura:
 
 Pakiet podstawowy:
 
-- wniosek o kartę czasowego pobytu (formularz z 1 grudnia 2025);
+- wniosek o kartę czasowego pobytu (aktualny formularz w MOS 2.0);
 - paszport ze stroną zawierającą aktualną podstawę pobytu;
 - dyplom (lub Suplement do dyplomu) - z tłumaczeniem przysięgłym, jeśli wystawiony w obcym języku;
 - zaświadczenie z uczelni potwierdzające studia stacjonarne, z odniesieniem do wykazu (jeśli dotyczy);

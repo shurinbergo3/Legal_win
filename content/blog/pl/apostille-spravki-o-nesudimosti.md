@@ -2,7 +2,7 @@
 slug: apostille-spravki-o-nesudimosti
 title: 'Apostille na zaświadczeniu o niekaralności (KRK) 2026 za granicę'
 description: >-
-  Apostille na polskim KRK do wizy i pracy za granicą: MSZ 60 PLN, termin 3-5
+  Apostille na polskim KRK do wizy i pracy za granicą: MSZ 60 zł, termin 3-5
   dni, kolejność zaświadczenie-apostille-tłumaczenie. Wyjątek dla państw UE.
 locale: pl
 publishDate: 2026-06-30T00:00:00.000Z
@@ -22,11 +22,11 @@ schema: Article
 
 # Apostille na zaświadczeniu o niekaralności (KRK) do użytku za granicą
 
-Jeśli polskie zaświadczenie o niekaralności (wypis z KRK) jedzie za granicę - na wizę do USA, na PR w Kanadzie, na skilled worker w Wielkiej Brytanii, na rezydencję w ZEA - trzeba je zalegalizować przez apostille. Apostille przybija Ministerstwo Spraw Zagranicznych (MSZ): opłata 60 PLN, termin zwykle 3-5 dni. Kolejność jest sztywna: najpierw świeże KRK, potem apostille, a dopiero później tłumaczenie przysięgłe na język kraju docelowego. Do państw UE apostille na polskim KRK od 2019 roku w ogóle nie jest potrzebne.
+Jeśli polskie zaświadczenie o niekaralności (wypis z KRK) jedzie za granicę - na wizę do USA, na PR w Kanadzie, na skilled worker w Wielkiej Brytanii, na rezydencję w ZEA - trzeba je zalegalizować przez apostille. Apostille przybija Ministerstwo Spraw Zagranicznych (MSZ): opłata 60 zł, termin zwykle 3-5 dni. Kolejność jest sztywna: najpierw świeże KRK, potem apostille, a dopiero później tłumaczenie przysięgłe na język kraju docelowego. Do państw UE apostille na polskim KRK od 2019 roku w ogóle nie jest potrzebne.
 
 ## Komu i po co apostille na KRK
 
-Wewnątrz Polski apostille na zaświadczeniu nie jest wymagane - żądają go organy zagraniczne, gdy używasz polskiego dokumentu poza krajem. Apostille przybija MSZ za 60 PLN, zwykle w 3-5 dni. Właściwa kolejność: uzyskać świeże KRK, przybić apostille w MSZ, następnie zrobić tłumaczenie przysięgłe. Do państw UE apostille jest zbędne na mocy Rozporządzenia 2016/1191.
+Wewnątrz Polski apostille na zaświadczeniu nie jest wymagane - żądają go organy zagraniczne, gdy używasz polskiego dokumentu poza krajem. Apostille przybija MSZ za 60 zł, zwykle w 3-5 dni. Właściwa kolejność: uzyskać świeże KRK, przybić apostille w MSZ, następnie zrobić tłumaczenie przysięgłe. Do państw UE apostille jest zbędne na mocy Rozporządzenia 2016/1191.
 
 ## Gdzie najczęściej żądają apostille na KRK
 
@@ -48,7 +48,7 @@ Do większości państw pozaeuropejskich potrzebne są i apostille, i tłumaczen
 To miejsce, gdzie traci się pieniądze i czas. Kolejność jest sztywna:
 
 1. **Świeże KRK.** Uzyskujesz zaświadczenie z Krajowego Rejestru Karnego pod konkretną datę - termin ważności u strony przyjmującej to często 3-6 miesięcy.
-2. **Apostille w MSZ.** Przybijasz apostille na samym zaświadczeniu: 60 PLN, zwykle 3-5 dni, dla pilnych - tryb ekspresowy (+50%).
+2. **Apostille w MSZ.** Przybijasz apostille na samym zaświadczeniu: 60 zł, zwykle 3-5 dni, dla pilnych - tryb ekspresowy (+50%).
 3. **Tłumaczenie przysięgłe.** Tłumaczysz gotowy dokument razem z tekstem samego apostille.
 
 Dlaczego właśnie tak: apostille to klauzula z własnym tekstem i numerem. Jeśli przetłumaczysz zaświadczenie przed apostille, klauzula zostanie bez tłumaczenia i trzeba będzie tłumaczyć ponownie. Dlatego tłumaczenie zawsze na końcu.
@@ -61,7 +61,7 @@ KRK wydawane jest w dwóch formatach i dla apostille to istotne. Elektroniczne e
 
 ## Wyjątek dla państw UE - apostille zbędne
 
-Jeśli zaświadczenie jedzie do innego państwa Unii Europejskiej, apostille na polskim KRK nie jest potrzebne od lutego 2019 - na mocy Rozporządzenia (UE) 2016/1191. Wystarczy samo zaświadczenie, a do niego - wielojęzyczny formularz standardowy albo tłumaczenie przysięgłe. To oszczędza i 60 PLN, i kilka dni. Ważne: wyjątek działa tylko wewnątrz UE. Do USA, Kanady, Wielkiej Brytanii, ZEA apostille jest obowiązkowe.
+Jeśli zaświadczenie jedzie do innego państwa Unii Europejskiej, apostille na polskim KRK nie jest potrzebne od lutego 2019 - na mocy Rozporządzenia (UE) 2016/1191. Wystarczy samo zaświadczenie, a do niego - wielojęzyczny formularz standardowy albo tłumaczenie przysięgłe. To oszczędza i 60 zł, i kilka dni. Ważne: wyjątek działa tylko wewnątrz UE. Do USA, Kanady, Wielkiej Brytanii, ZEA apostille jest obowiązkowe.
 
 ## Terminy ważności - apostille od razu po wydaniu
 
@@ -71,7 +71,7 @@ KRK domyślnie jest ważne 6 miesięcy, ale kraj przyjmujący często patrzy na 
 
 | Pozycja | Orientacyjnie |
 |---|---|
-| Opłata za apostille (MSZ) | 60 PLN |
+| Opłata za apostille (MSZ) | 60 zł |
 | Apostille ekspresowe | +50% |
 | Tłumaczenie przysięgłe | ~80 PLN za dokument |
 | KRK + apostille + tłumaczenie pod klucz (nasz honorarium) | od 720 PLN |

@@ -83,7 +83,7 @@ schema: Article
 **Для cat. C, D, C+E, D+E:**
 
 - Чинні badania lekarskie від lekarza uprawnionego (180–250 PLN)
-- Чинні badania psychologiczne (130–180 PLN)
+- Чинні badania psychologiczne (150 PLN)
 - Сертифікат Kod 95 для професійного водіння (окремий курс)
 
 ## Переклад з турецької: де знайти присяжного перекладача
@@ -130,7 +130,7 @@ Wymiana tureckiego prawa jazdy у Варшаві відбувається в Wyd
 | Tłumaczenie przysięgłe | 80–130 PLN |
 | Apostille / consular legalization (для «eski tip») | 60–80 PLN |
 | Badania lekarskie (тільки для C/D або прострочених) | 180–250 PLN |
-| Badania psychologiczne (тільки для C/D) | 130–180 PLN |
+| Badania psychologiczne (тільки для C/D) | 150 PLN |
 | **Разом для cat. A/B (нові права)** | **180–230 PLN** |
 | **Разом для cat. A/B (старі з apostille)** | **240–310 PLN** |
 | **Разом для cat. C/D з медициною** | **490–740 PLN** |

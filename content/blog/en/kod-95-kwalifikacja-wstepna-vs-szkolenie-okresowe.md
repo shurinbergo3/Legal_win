@@ -2,7 +2,7 @@
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
 title: 'Code 95 in Poland 2026: Long vs Short Course'
 description: >-
-  Kwalifikacja Wstępna (140 h, 2,800 PLN, state exam) vs Szkolenie Okresowe (35
+  Kwalifikacja Wstępna (140 h, 3,700 PLN, state exam) vs Szkolenie Okresowe (35
   h, 900 PLN). Choice depends on the issue date of category C licence.
 locale: en
 publishDate: 2026-05-04T00:00:00.000Z
@@ -25,7 +25,7 @@ schema: Article
 Short version: from August 2025, Ukrainian, Belarusian and other foreign international drivers in categories C/CE/D/DE must hold an EU-format Code 95 (świadectwo kwalifikacji zawodowej kierowcy). There are two paths to it, and **the choice depends solely on the issue date of the category C licence** in the country of origin:
 
 - **Category C licence issued before 10 September 2009** → the **short Szkolenie Okresowe** suffices (35 hours, no exam, ~900 PLN).
-- **Category C licence issued on or after 10 September 2009** → the **long Kwalifikacja Wstępna** is required (140 hours, with a state exam, ~2,800 PLN).
+- **Category C licence issued on or after 10 September 2009** → the **long Kwalifikacja Wstępna** is required (140 hours, with a state exam, ~3,700 PLN).
 
 ## What Code 95 Is
 
@@ -65,7 +65,7 @@ If the licence has been exchanged or extended - the original first-issue date fo
 - Topics: updated traffic rules, eco-driving, ergonomics, cargo safety, new techniques.
 - **No state exam.**
 
-**Cost:** 800-1,200 PLN in Mazowieckie 2026, depending on the OSK. LegalWin recommends 4+ vetted schools in Warsaw.
+**Cost:** 700-900 PLN in Mazowieckie 2026, depending on the OSK. LegalWin recommends 4+ vetted schools in Warsaw.
 
 **Timeline:** 5 days of course + 1 week paperwork = 2 weeks max.
 
@@ -73,7 +73,7 @@ If the licence has been exchanged or extended - the original first-issue date fo
 - category C/CE licence (original + sworn translation if foreign);
 - karta pobytu or stay confirmation;
 - medical from authorised physician;
-- transport psychologist test (300-400 PLN);
+- transport psychologist test (150 PLN);
 - 2 photos 3.5 × 4.5 cm.
 
 **On completion:**
@@ -98,7 +98,7 @@ Code 95 validity after Szkolenie Okresowe - 5 years. Then - repeat Szkolenie Okr
 - Practice - driving with a WORD examiner on a defined route.
 - Exam fee ~200 PLN. Retake ~200 PLN.
 
-**Cost:** 2,500-3,200 PLN in Mazowieckie 2026.
+**Cost:** 3,600-3,800 PLN in Mazowieckie 2026.
 
 **Timeline:** 4-6 weeks of course + 2-3 weeks for the state exam = 7-9 weeks.
 
@@ -115,13 +115,15 @@ Code 95 validity after Kwalifikacja Wstępna - 5 years. Then - Szkolenie Okresow
 | Step | Szkolenie Okresowe | Kwalifikacja Wstępna |
 |---|---|---|
 | 1. Medical | 200 PLN | 200 PLN |
-| 2. Psychologist test | 300-400 PLN | 300-400 PLN |
-| 3. PKZ creation at Wydział Komunikacji | 50 PLN | 50 PLN |
+| 2. Psychologist test | 150 PLN | 150 PLN |
+| 3. PKZ creation at Wydział Komunikacji | free | free |
 | 4. OSK enrolment | free | free |
-| 5. Course | 800-1,200 PLN, 5 days | 2,500-3,200 PLN, 4-6 weeks |
-| 6. State exam | - | 200 PLN |
-| 7. Driver qualification card | 100 PLN | 100 PLN |
-| **Total** | **1,350-1,950 PLN, 2 weeks** | **3,350-4,150 PLN, 7-9 weeks** |
+| 5. Course | 700-900 PLN, 5 days | 3,600-3,800 PLN, 4-6 weeks |
+| 6. State exam | - | 50 PLN |
+| 7. Kod 95 entry in the licence | 100.50 PLN | 100.50 PLN |
+| **Total** | **1,150-1,350 PLN, 2 weeks** | **4,100-4,300 PLN, 7-9 weeks** |
+
+If you hold no Polish licence and don't intend to swap yours, you get a karta kwalifikacji kierowcy instead of an entry - 150 PLN. It is a separate document, not the same thing.
 
 ## Common Mistakes
 

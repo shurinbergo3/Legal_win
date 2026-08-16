@@ -1,9 +1,9 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: 'Składka zdrowotna 2026: JDG ve Sp. z o.o. reformu'
+title: 'Składka zdrowotna 2026: reform yok, prim arttı'
 description: >-
-  1 Ocak 2026: JDG için sabit prim, Sp. z o.o. ve Estonian CIT için yeni
-  oranlar. Yabancı girişimcinin toplam yükü nasıl değişiyor?
+  Sağlık primi reformunu cumhurbaşkanının vetosu durdurdu. 2026'da eski kurallar
+  geçerli, asgari prim 432,54 zł'ye yükseldi. JDG için ne anlama geliyor?
 locale: tr
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
@@ -22,18 +22,25 @@ relatedServices:
 schema: Article
 ---
 
-# Składka zdrowotna 2026 - JDG ve Sp. z o.o. için sağlık primi reformu
+# Składka zdrowotna 2026: reform yok, prim arttı
 
-1 Ocak 2026'dan itibaren Polonya'da składka zdrowotna *(sağlık primi)* için yeni model uygulanmaktadır. Bu, 2022 Polski Ład *(Polonya Düzeni)* reformundan bu yana girişimcilerin vergi yükünde yapılan en büyük değişikliktir. Yabancı JDG *(şahıs şirketi)* sahiplerinin ve tek ortaklı Sp. z o.o. *(limited şirket)* sahiplerinin çoğu için yıllık toplam yük 2.000-8.000 PLN düşmektedir. Ancak herkes için değil - bazı yüksek gelirli kategorilerde prim arttı. İşletme türüne göre inceleyelim.
+2025 boyunca yazılıp çizilen sağlık primi reformu yürürlüğe girmedi: 4 Nisan 2025 tarihli kanunu cumhurbaşkanı 6 Mayıs 2025'te veto etti ve konu kapandı. Hükümet yeni bir tasarı hazırlamıyor.
+
+Girişimci için bu iki anlama geliyor. Birincisi: 2026'da prim eski kurallara göre hesaplanıyor - basamaklı sistemde dochód'un %9'u, doğrusalda %4,9, ryczałt'ta sabit oranlar. İkincisi ve çok daha can sıkıcı olanı: 2025'te asgari primi asgari ücretin %75'i üzerinden hesaplatan geçici indirim sona erdi. Matrah %100'e döndü ve asgari prim 314,96 zł'den **432,54 zł/ay**'a çıktı - yani 117,58 zł, %37,4 artış.
+
+Aşağıda vergilendirme biçimlerine göre 2026'nın gerçek rakamları var.
+
+Eski çerçeve, kayıt için: Bu, 2022 Polski Ład *(Polonya Düzeni)* reformundan bu yana girişimcilerin vergi yükünde yapılan en büyük değişikliktir. Yabancı JDG *(şahıs şirketi)* sahiplerinin ve tek ortaklı Sp. z o.o. *(limited şirket)* sahiplerinin çoğu için yıllık toplam yük 2.000-8.000 PLN düşmektedir. Ancak herkes için değil - bazı yüksek gelirli kategorilerde prim arttı. İşletme türüne göre inceleyelim.
 
 ## 1 Ocak 2026'dan itibaren ne değişti
 
 2026'ya kadar JDG'lerde składka zdrowotna, dochód *(gelir)*'un %9'u (basamaklı vergide) veya %4,9'u (doğrusal vergide) olarak hesaplanıyordu - üst sınır ve asgari sınır olmaksızın. Bu paradoksal bir duruma yol açtı: 250.000 PLN/yıl gelirli bir girişimci, aynı maaşa sahip umowa o pracę *(belirli/belirsiz süreli iş sözleşmesi)*'li bir çalışana göre daha fazla zdrowotka ödüyordu.
 
-2026'dan itibaren kurallar yeniden yazıldı:
+Gerçekte değişen şunlar:
 
-- **Tüm JDG'ler için asgari sabit prim** - asgari ücretin %75'inin %9'u. 2026'da asgari ücret 4.806 PLN brutto, yani asgari prim **324,40 PLN/ay** (yılda 3.893 PLN).
-- **Aşamalı tavan** - belirli bir dochód seviyesinin üzerinde prim büyümeyi durduruyor. Doğrusal %19 için tavan yaklaşık 1.500 PLN/aydır.
+- **Asgari prim 432,54 PLN/ay'a yükseldi** (yılda 5.190,48 PLN). Bu, 4.806 PLN brüt asgari ücretin %9'udur. 2025'te matrahı asgari ücretin %75'ine indiren geçici bir düzenleme vardı - 314,96 PLN. Uzatılmadı.
+- **Ryczałt, önceki yılın IV. çeyreğindeki ortalama ücretten hesaplanır.** 2026'da bu 9.228,64 PLN, bir önceki yıla göre 679,46 PLN fazla - üç oranın da artmasının nedeni bu.
+- **Tavan yok.** Reform tasarısındaki aşamalı tavan uygulanmıyor.
 - **Sp. z o.o.** - değişiklik yok: członek zarządu *(yönetim kurulu üyesi)*, uchwała o powołaniu *(atama kararı)* varsa yönetim kurulu üyesi ücretinden %9 składka zdrowotna öder.
 - **Estonya CIT** *(CIT estoński, Estonyalı CIT)* - reinwestycja *(yeniden yatırım)* aşamasında składka zdrowotna'dan muaf olmaya devam ediyor.
 
@@ -45,13 +52,13 @@ Hesap, vergi türüne göre değişir. Yabancı girişimcilerin en yaygın iki t
 
 | Yıllık dochód (PLN) | 2025 składka (dochód %4,9) | 2026 składka (yeni model) | Fark |
 |---|---|---|---|
-| 60.000 | 245 PLN/ay | 324 PLN/ay (asgari) | +79 PLN/ay |
+| 60.000 | 314,96 PLN/ay (asgari) | 432,54 PLN/ay (asgari) | +117,58 PLN/ay |
 | 120.000 | 490 PLN/ay | 490 PLN/ay | 0 |
 | 240.000 | 980 PLN/ay | 980 PLN/ay | 0 |
-| 500.000 | 2.042 PLN/ay | 1.500 PLN/ay (tavan) | -542 PLN/ay |
-| 1.000.000 | 4.083 PLN/ay | 1.500 PLN/ay | -2.583 PLN/ay |
+| 500.000 | 2.042 PLN/ay | 2.042 PLN/ay | 0 |
+| 1.000.000 | 4.083 PLN/ay | 4.083 PLN/ay | 0 |
 
-Düşük gelirli JDG'ler asgari nedeniyle biraz daha fazla ödüyor. Yüksek gelirliler tavan nedeniyle keskin biçimde daha az ödüyor. Denge noktası - yıllık 240.000 PLN dochód civarındadır.
+Reform tasarısında vaat edilen tavan yok. Yalnızca asgariden ödeyenlerin yükü arttı - yani en küçük JDG'lerin, ve artış hissediliyor: yılda 1.411 zł.
 
 ### Ryczałt %12 üzerinden JDG
 
@@ -59,11 +66,11 @@ Burada değişimler daha azdır - ryczałt zaten gelire bağlı sabit oranlarda 
 
 | Yıllık ciro (PLN) | 2025 składka | 2026 składka |
 |---|---|---|
-| 60.000'e kadar | 419 PLN/ay | 324 PLN/ay (yeni asgari) |
-| 60.000 - 300.000 | 698 PLN/ay | 698 PLN/ay |
-| 300.000'in üzerinde | 1.256 PLN/ay | 1.256 PLN/ay |
+| 60.000'e kadar | 419 PLN/ay | 498,35 PLN/ay |
+| 60.000 - 300.000 | 698 PLN/ay | 830,58 PLN/ay |
+| 300.000'in üzerinde | 1.256 PLN/ay | 1.495,04 PLN/ay |
 
-Ryczałt için asıl tasarruf en düşük gelir seviyesindedir (-95 PLN/ay).
+Bu yıl ryczałt'ta tasarruf yok: matrah büyüdü, üç oran da onunla birlikte arttı.
 
 ## Sp. z o.o. - neler değişiyor
 
@@ -97,7 +104,7 @@ Estonya CIT hakkında daha fazlası - rehberimizde [Polonya'da vergi avantajlar�
 2026 için adımlar:
 
 1. **Doğrusal %19 üzerinde JDG'siniz ve yılda 240.000 PLN'den fazla kazanıyorsanız** - yapılacak bir şey yok. Otomatik olarak tasarruf ediyorsunuz.
-2. **Basamaklı (12/32%) JDG'siniz ve yıllık geliriniz 60.000 PLN'nin altındaysa** - faaliyet profili izin veriyorsa ryczałt %12'ye geçişi değerlendirin. Ryczałt'ta asgari 324 PLN'dir, ancak vergi cirodan hesaplanır, dochód'dan değil.
+2. **Basamaklı (12/32%) JDG'siniz ve geliriniz düşükse** - 2026'da hangisinin daha avantajlı olduğunu yeniden hesaplayın: dochód'un %9'u mu, yoksa 60.000 PLN'ye kadar ciroda sabit 498,35 PLN mi. Cevap cironuza ve giderlerinize bağlı, evrensel bir yanıt yok.
 3. **Uchwała o powołaniu olmayan Sp. z o.o.'nuz varsa** - ZUS doliczeń'lerinden kaçınmak için 31 Mart 2026'ya kadar oluşturun.
 4. **Kârlı tek ortaklı Sp. z o.o.'nuz varsa** - Estonya CIT'i hesaplatın. Sp. z o.o. müşterilerimizin %80'ine kadarı geçişle yılda en az 30.000 PLN tasarruf ediyor.
 

@@ -84,7 +84,7 @@ schema: Article
 **Для категорій C, D, C+E, D+E:**
 
 - Чинні badania lekarskie від lekarza uprawnionego (180–250 PLN)
-- Чинні badania psychologiczne (130–180 PLN)
+- Чинні badania psychologiczne (150 PLN)
 - Сертифікат Kod 95, якщо плануєте працювати професійним водієм
 
 ## Особливості перекладу
@@ -129,7 +129,7 @@ Wymiana zagranicznego prawa jazdy у Варшаві відбувається в 
 | Tłumaczenie przysięgłe прав | 70–120 PLN |
 | Apostille МЗС АР (якщо потрібен) | 60 PLN еквівалент |
 | Badania lekarskie (тільки для C/D або прострочених) | 180–250 PLN |
-| Badania psychologiczne (тільки для C/D) | 130–180 PLN |
+| Badania psychologiczne (тільки для C/D) | 150 PLN |
 | **Разом для cat. A/B (нові права)** | **170–220 PLN** |
 | **Разом для cat. A/B (старі права з apostille)** | **230–280 PLN** |
 | **Разом для cat. C/D з медициною** | **480–680 PLN** |

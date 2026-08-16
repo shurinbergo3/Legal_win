@@ -27,7 +27,7 @@ W skrócie: dla kategorii „praca" przy samodzielnej podaży koszty twarde wyno
 
 ## Opłaty obowiązkowe
 
-To zapłaci każdy, niezależnie od podstawy i od tego, czy robi to sam, czy z prawnikiem. Samo złożenie przez MOS v2.0 (elektroniczny system składania wniosków, działa od grudnia 2025) jest bezpłatne - formularz online nie kosztuje. Opłaty idą osobno.
+To zapłaci każdy, niezależnie od podstawy i od tego, czy robi to sam, czy z prawnikiem. Samo złożenie przez MOS v2.0 (elektroniczny system składania wniosków, działa od 27 kwietnia 2026) jest bezpłatne - formularz online nie kosztuje. Opłaty idą osobno.
 
 | Pozycja | Kwota | Kiedy płatne |
 |---|---|---|

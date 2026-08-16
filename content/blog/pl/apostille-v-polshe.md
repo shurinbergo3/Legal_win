@@ -2,8 +2,8 @@
 slug: apostille-v-polshe
 title: 'Apostille w Polsce 2026: gdzie i ile kosztuje'
 description: >-
-  Apostille w MSZ przy ul. Kruczej 38/42: na jakie dokumenty, opłata 60 PLN,
-  termin 1-3 tygodnie. Alternatywa - legalizacja konsularna.
+  Apostille w MSZ przy ul. Kruczej 38/42: na jakie dokumenty, opłata 60 zł,
+  przy wizycie osobistej - tego samego dnia. Alternatywa - legalizacja konsularna.
 locale: pl
 publishDate: 2025-12-18T00:00:00.000Z
 author: LegalWin
@@ -23,7 +23,7 @@ schema: Article
 
 # Apostille w Polsce - czym jest i kiedy jest potrzebny w 2026
 
-Apostille to uproszczona forma legalizacji dokumentów urzędowych pomiędzy państwami będącymi stronami **Konwencji Haskiej z 1961 roku**. Polska przystąpiła do konwencji w 2005 roku i od tego czasu apostille zastąpił długą procedurę legalizacji konsularnej dla dokumentów wystawianych do użytku w ponad 120 krajach. W Polsce apostille wydaje **Ministerstwo Spraw Zagranicznych (MSZ)** przy ul. Kruczej 38/42 w Warszawie. Koszt - 60 PLN za dokument, czas - 1-3 tygodnie zależnie od typu.
+Apostille to uproszczona forma legalizacji dokumentów urzędowych pomiędzy państwami będącymi stronami **Konwencji Haskiej z 1961 roku**. Polska przystąpiła do konwencji w 2005 roku i od tego czasu apostille zastąpił długą procedurę legalizacji konsularnej dla dokumentów wystawianych do użytku w ponad 120 krajach. W Polsce apostille wydaje **Ministerstwo Spraw Zagranicznych (MSZ)** przy ul. Kruczej 38/42 w Warszawie. Koszt - 60 zł za dokument. Przy wizycie osobistej apostille nadawana jest tego samego dnia, korespondencyjnie - do 30 dni.
 
 ## Czym jest apostille - krótkie wyjaśnienie
 
@@ -57,13 +57,13 @@ Apostille jest też potrzebny dla **dokumentów zagranicznych przywiezionych do 
 
 **Krok 2.** Jeśli dokument to kopia (np. notarialna), apostille jest na poświadczeniu notarialnym, nie na samym dokumencie. Uzgodnij to z notariuszem przed poświadczeniem.
 
-**Krok 3.** Umów się w MSZ. Rezerwacja przez msz.gov.pl lub mailowo na rejestracja.apostille@msz.gov.pl. Czas oczekiwania - 1-3 tygodnie.
+**Krok 3.** Umów wizytę w MSZ przez legalizacja.msz.gov.pl. Nowe terminy otwierają się rano w każdy dzień roboczy, na dwa tygodnie do przodu - dlatego warto wchodzić z samego rana. Pytania: legalizacja@msz.gov.pl.
 
-**Krok 4.** Opłacenie 60 PLN na konto MSZ. Dane na stronie msz.gov.pl. Potwierdzenie wpłaty wymagane przy złożeniu.
+**Krok 4.** Opłać 60 zł. To opłata skarbowa i trafia nie do MSZ, tylko do miasta: odbiorca to Centrum Obsługi Podatnika, rachunek 21 1030 1508 0000 0005 5000 0070 w Banku Handlowym w Warszawie. Tytuł przelewu: „opłata skarbowa za wydanie apostille". Potwierdzenie wydrukuj i weź ze sobą - na miejscu w MSZ nie zapłacisz.
 
 **Krok 5.** Przynieś oryginał dokumentu do MSZ (Krucza 38/42, II piętro). Złożenie zajmuje 5-10 minut.
 
-**Krok 6.** Odbierz dokument po 7-21 dniach. Dwie opcje:
+**Krok 6.** Przy wizycie osobistej apostille nadawana jest w miarę możliwości od ręki, tego samego dnia, przy limicie 10 dokumentów na osobę. Wnioski wysłane pocztą na al. Szucha 23 MSZ realizuje do 30 dni od daty wpływu. Odbiór na dwa sposoby:
 - Osobiście w MSZ (bez konieczności zapisu na odbiór)
 - Kurierem (zamówienie przy złożeniu) - dodatkowe 30-50 PLN
 
@@ -71,7 +71,7 @@ Apostille jest też potrzebny dla **dokumentów zagranicznych przywiezionych do 
 
 Jeśli kraj docelowy **nie przystąpił** do Konwencji Haskiej, wymagana jest pełna legalizacja konsularna w trzech etapach:
 
-1. Potwierdzenie autentyczności podpisu w polskim MSZ - 60 PLN
+1. Potwierdzenie autentyczności podpisu w polskim MSZ - 60 zł
 2. Tłumaczenie na język kraju docelowego przez tłumacza przysięgłego - 100-300 PLN
 3. Legalizacja w konsulacie kraju docelowego w Warszawie - 50-300 PLN
 
@@ -124,10 +124,10 @@ Dla typowej karty pobytu z rodziny cudzoziemiec przywozi:
 
 | Dokument | Apostille | Tłumaczenie | Razem |
 |---|---|---|---|
-| Akt urodzenia | 60 PLN ekw. | 80 PLN | 140 PLN |
-| Akt małżeństwa | 60 PLN ekw. | 100 PLN | 160 PLN |
-| Zaświadczenie o niekaralności | 60 PLN ekw. | 60 PLN | 120 PLN |
-| Dyplom uczelni | 60 PLN ekw. | 200 PLN | 260 PLN |
+| Akt urodzenia | 60 zł ekw. | 80 PLN | 140 PLN |
+| Akt małżeństwa | 60 zł ekw. | 100 PLN | 160 zł |
+| Zaświadczenie o niekaralności | 60 zł ekw. | 60 zł | 120 PLN |
+| Dyplom uczelni | 60 zł ekw. | 200 PLN | 260 zł |
 | **Razem** | | | **680 PLN** |
 
 Do tego doliczane są koszty podróży do kraju wydania lub zdalnej obsługi przez znajomych (50-200 USD dodatkowo).
@@ -142,7 +142,7 @@ Do tego doliczane są koszty podróży do kraju wydania lub zdalnej obsługi prz
 
 **4. Tłumaczenie przed apostille.** Apostille musi być nałożone **przed** tłumaczeniem. W przeciwnym razie tłumaczenie trzeba ponowić po apostille (włącznie z tekstem samego stempla).
 
-**5. Spóźnienie z rezerwacją w MSZ.** Rezerwacja na 1-3 tygodnie wcześniej. Pilne potrzeby - spróbuj alternatywnych urzędów w Krakowie lub Wrocławiu (czas może być krótszy).
+**5. Spóźnienie z rezerwacją w MSZ.** Terminy otwierają się rano w każdy dzień roboczy, na dwa tygodnie do przodu, i schodzą szybko. Apostille nadaje wyłącznie MSZ w Warszawie - „alternatywnych" urzędów w innych miastach nie ma. Jeśli nie zdążysz przyjechać, wyślij dokumenty pocztą na al. Szucha 23, ale licz się z terminem do 30 dni.
 
 ## Kiedy potrzebujesz prawnika
 

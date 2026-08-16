@@ -22,17 +22,17 @@ schema: Article
 
 # Varşova 2026 Karta Pobytu Randevusu: Termin ve MOS v2.0
 
-Her hafta bize aynı soruyla geliyorlar: Varşova'da karta pobytu *(Polonya oturum kartı)* belgelerini teslim etmek için randevu nasıl yakalanır. Kafalarında eski tablo var - inPOL *(eski yabancılar e-başvuru sistemi)*, geceleri ekran başında boş slot avlamak. Bu tablo artık geçerli değil. Aralık 2025'ten itibaren belge teslimi internete taşındı. „Teslim için randevu” diye bir şey kalmadı. Geriye yalnızca tek bir yüz yüze tarih kaldı: biyometri için termin *(randevu tarihi)*.
+Her hafta bize aynı soruyla geliyorlar: Varşova'da karta pobytu *(Polonya oturum kartı)* belgelerini teslim etmek için randevu nasıl yakalanır. Kafalarında eski tablo var - inPOL *(eski yabancılar e-başvuru sistemi)*, geceleri ekran başında boş slot avlamak. Bu tablo artık geçerli değil. 27 Nisan 2026'ten itibaren belge teslimi internete taşındı. „Teslim için randevu” diye bir şey kalmadı. Geriye yalnızca tek bir yüz yüze tarih kaldı: biyometri için termin *(randevu tarihi)*.
 
-Kısaca: 1 Aralık 2025'ten itibaren karta pobytu başvurusu MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* üzerinden çevrimiçi yapılır. Artık kuyruk avlamak gerekmez; wniosek *(başvuru)* evden gönderilir. Yüz yüze termin artık tek tanedir: biyometri için. Bunu Mazowiecki Urząd *(Mazowiecki eyalet idaresi)* kendisi belirler, genellikle UPO *(başvurunun elektronik alındı belgesi)* sonrası 30-60 gün içinde. Mazowieckie eyaletinde 2026'da karar (decyzja) 8-14 ay sürer.
+Kısaca: 27 Nisan 2026'ten itibaren karta pobytu başvurusu MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* üzerinden çevrimiçi yapılır. Artık kuyruk avlamak gerekmez; wniosek *(başvuru)* evden gönderilir. Yüz yüze termin artık tek tanedir: biyometri için. Bunu Mazowiecki Urząd *(Mazowiecki eyalet idaresi)* kendisi belirler, genellikle UPO *(başvurunun elektronik alındı belgesi)* sonrası 30-60 gün içinde. Mazowieckie eyaletinde 2026'da karar (decyzja) 8-14 ay sürer.
 
 Devamı sade ve adım adım.
 
 ## Ne değişti: „randevu” artık kuyruk değil
 
-Aralık 2025'e kadar Mazowieckie eyaletinde karta pobytu belgelerini teslim etmek gerçekten bir zaman yarışıydı. inPOL sistemi sınırlı sayıda yüz yüze slot açardı. Slotlar dakikalar içinde tükenirdi. İnsanlar sadece bir klasör belge teslim etmek için aylarca „randevu avlardı”. Hâlâ bize gelinen arama bu yüzden: „Varşova karta pobytu randevusu”.
+27 Nisan 2026'e kadar Mazowieckie eyaletinde karta pobytu belgelerini teslim etmek gerçekten bir zaman yarışıydı. inPOL sistemi sınırlı sayıda yüz yüze slot açardı. Slotlar dakikalar içinde tükenirdi. İnsanlar sadece bir klasör belge teslim etmek için aylarca „randevu avlardı”. Hâlâ bize gelinen arama bu yüzden: „Varşova karta pobytu randevusu”.
 
-1 Aralık 2025'ten itibaren inPOL kapatıldı. Tüm oturum başvuruları - karta czasowego pobytu *(geçici oturum kartı)*, karta stałego pobytu *(daimi oturum kartı)*, karta CUKR, uzatmalar, işveren değişikliği bildirimleri - yalnızca MOS v2.0 *(mos.cudzoziemcy.gov.pl)* üzerinden yapılır. Başvuru tamamen elektronik hâle geldi. Bu şu anlama gelir:
+27 Nisan 2026'ten itibaren inPOL kapatıldı. Tüm oturum başvuruları - karta czasowego pobytu *(geçici oturum kartı)*, karta stałego pobytu *(daimi oturum kartı)*, karta CUKR, uzatmalar, işveren değişikliği bildirimleri - yalnızca MOS v2.0 *(mos.cudzoziemcy.gov.pl)* üzerinden yapılır. Başvuru tamamen elektronik hâle geldi. Bu şu anlama gelir:
 
 - Wniosek vermek için yüz yüze ziyaret hiç gerekmez. Başvuruyu çevrimiçi doldurup gönderirsiniz.
 - Avlanacak „teslim slotu” kalmadı. Her gün, hatta gece üçte bile başvuru yapılabilir.
@@ -116,7 +116,7 @@ Tablodan çıkan ana sonuç: çaba yer değiştirdi. Eskiden enerji idareye gire
 
 Şu durumlarda avukata gitmek yerinde olur: aile veya şirket dayanağıyla başvuruyorsanız, geçmişte ret ya da iade olduysa, işvereniniz ilk kez yabancı istihdam ediyorsa, ince noktalarınız varsa (aşılmış vize, inceleme sırasında çıkış, işveren değişikliği), termin veya decyzja anormal şekilde uzuyorsa, ya da yalnızca bir deneme değil sonuç istiyorsanız. Eski kartınızın bitişi yaklaşıyorsa zamanlamayı ayrıca kontrol edin - bunun için [2026'da karta pobytu uzatma: ne zaman başvurmalı](/tr/blog/karta-pobytu-prodlenie-2026-kogda-podavat) yazısına bakın.
 
-LegalWin olarak Polonya'da legalizasyonla 2019'dan, MOS v2.0 ile ise Aralık 2025'teki başlangıcından beri ilgileniyoruz. Dosyayı ilk danışmadan doğru hazırlanmış wniosek'in złożenie *(teslimi)* aşamasına kadar yürütürüz, eDoręczenia'yı sizin yerinize takip ederiz, biyometri terminini izleriz ve gecikmede ponaglenie hazırlarız. Bütçeyi önceden bilmek isterseniz [Varşova'da 2026'da karta pobytu ne kadara mal olur](/tr/blog/skolko-stoit-karta-pobytu-varshava-2026) yazısına göz atın.
+LegalWin olarak Polonya'da legalizasyonla 2019'dan, MOS v2.0 ile ise 27 Nisan 2026'teki başlangıcından beri ilgileniyoruz. Dosyayı ilk danışmadan doğru hazırlanmış wniosek'in złożenie *(teslimi)* aşamasına kadar yürütürüz, eDoręczenia'yı sizin yerinize takip ederiz, biyometri terminini izleriz ve gecikmede ponaglenie hazırlarız. Bütçeyi önceden bilmek isterseniz [Varşova'da 2026'da karta pobytu ne kadara mal olur](/tr/blog/skolko-stoit-karta-pobytu-varshava-2026) yazısına göz atın.
 
 [Karta pobytu danışmanlığı için randevu alın →](/tr/uslugi/karta-pobytu#contact)
 

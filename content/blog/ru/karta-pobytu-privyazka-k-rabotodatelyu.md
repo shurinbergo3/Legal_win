@@ -79,7 +79,7 @@ Karta czasowego pobytu по основанию praca (Ustawa o cudzoziemcach, ar
 
 ## Powiadomienie o zmianie pracodawcy: пошагово
 
-С декабря 2025 уведомление о смене работодателя подаётся через MOS v2.0 (mos.cudzoziemcy.gov.pl). Это формальная процедура, не равнозначная подаче новой karty pobytu.
+С 27 апреля 2026 уведомление о смене работодателя подаётся через MOS v2.0 (mos.cudzoziemcy.gov.pl). Это формальная процедура, не равнозначная подаче новой karty pobytu.
 
 **Шаг 1. Сбор документов.** Нужны:
 

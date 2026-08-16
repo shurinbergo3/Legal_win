@@ -2,7 +2,7 @@
 slug: kod-95-polsha-kak-poluchit
 title: 'Code 95 in Poland 2026: Who Needs It and How'
 description: >-
-  Code 95 for C, D, C+E, D+E drivers: KWP at 2,800 PLN or Szkolenie Okresowe at
+  Code 95 for C, D, C+E, D+E drivers: KWP at 3,700 PLN or Szkolenie Okresowe at
   900 PLN, 3 months, documents for foreigners from CIS.
 locale: en
 publishDate: 2026-03-02T00:00:00.000Z
@@ -55,7 +55,7 @@ For you if you obtained category C **after 10 September 2009** (for D - after 10
 
 - **Duration:** 140 hours (roughly 4-6 weeks of intensive training)
 - **Content:** theory + practical driving in an articulated lorry + extreme conditions simulator
-- **Cost:** 2,800-3,200 PLN in Mazowieckie in 2026
+- **Cost:** 3,600-3,800 PLN in Mazowieckie in 2026
 - **Ends with:** a state theory examination at WORD
 - **Minimum age:** 18 (C1), 21 (C), 24 (D)
 
@@ -65,7 +65,7 @@ For you if you obtained category C **before 10 September 2009** (for D - before 
 
 - **Duration:** 35 hours (5 days)
 - **Content:** theory only (regulatory updates, eco-driving, safety)
-- **Cost:** 800-1,100 PLN in Mazowieckie in 2026
+- **Cost:** 700-900 PLN in Mazowieckie in 2026
 - **Ends with:** certificate issued on attendance - **no examination**
 - **Requirement:** minimum 5 years of experience in the relevant category
 
@@ -74,9 +74,9 @@ For you if you obtained category C **before 10 September 2009** (for D - before 
 | For | Cat. C/D obtained after 2009 | Cat. C/D obtained before 2009 |
 | Hours | 140 | 35 |
 | Duration | 4-6 weeks | 5-7 days |
-| Course cost | 2,800-3,200 PLN | 800-1,100 PLN |
+| Course cost | 3,600-3,800 PLN | 700-900 PLN |
 | WORD state exam | yes | no |
-| Total cost incl. exam and card | ~3,250 PLN | ~1,350 PLN |
+| Total cost incl. exam and card | ~4,200 PLN | ~1,250 PLN |
 
 Most of our clients from CIS countries end up on the KWP route. If your category C dates to Soviet times and was re-issued in Ukraine or Belarus without a reset date, it's sometimes possible to go via SO - but that's determined by the office when it reviews your documents.
 
@@ -84,9 +84,9 @@ Most of our clients from CIS countries end up on the KWP route. If your category
 
 Before enrolling on a course, you need two separate certificates.
 
-**Medical examination (badania lekarskie)** for professional drivers is a distinct procedure from the standard driving medical. It must be carried out by a **lekarz uprawniony do badań kierowców** (a physician licenced to examine drivers - not just any GP). It covers a general check, vision, hearing, blood pressure, sometimes an ECG. Cost in Warsaw: 200-280 PLN. Valid for 5 years up to age 60; every 30 months after that.
+**Medical examination (badania lekarskie)** for professional drivers is a distinct procedure from the standard driving medical. It must be carried out by a **lekarz uprawniony do badań kierowców** (a physician licenced to examine drivers - not just any GP). It covers a general check, vision, hearing, blood pressure, sometimes an ECG. The rate is set by law: 200 PLN, and no clinic may charge more. Valid for 5 years up to age 60; every 30 months after that.
 
-**Psychological examination (badania psychologiczne)** is conducted by an authorised psychologist at a licenced centre. It includes a reaction time test (psychotechnic apparatus), attention assessment, and a personality questionnaire. Takes 1-2 hours. Cost: 130-180 PLN. Also valid for 5 years.
+**Psychological examination (badania psychologiczne)** is conducted by an authorised psychologist at a licenced centre. It includes a reaction time test (psychotechnic apparatus), attention assessment, and a personality questionnaire. Takes 1-2 hours. This rate is fixed by law too: 150 PLN. Also valid for 5 years.
 
 Most OSK (driving schools) in Warsaw arrange both tests on the same day - either in-house or through a partner clinic. Far easier than hunting each one down separately.
 
@@ -121,11 +121,11 @@ The course runs across roughly a month, 8 hours a day. Miss more than 10% of ses
 
 ## Step 4. State Examination at WORD (KWP only)
 
-Once you've completed the course, the OSK issues a zaświadczenie (completion certificate) and registers you for the state theory exam at WORD. It's computer-based - 65 questions, 60 minutes.
+Once you've completed the course, the OSK issues a zaświadczenie (completion certificate) and registers you for the state theory exam at WORD. It's computer-based - 30 questions, 45 minutes.
 
-- 20 general questions (as in a standard driving test)
-- 45 specialist questions (tachograph, dangerous goods, working hours, insurance, maintenance)
-- Pass mark: 51 correct out of 65
+- 20 questions in the basic part (general rules, driving and rest times, safety)
+- 10 questions in the specialist part, matched to your category: C/C+E or D/D+E
+- Pass mark: 16 correct out of 20 in the basic part and 5 out of 10 in the specialist one
 - Available in Polish, Russian, Ukrainian, English (choose when you register)
 - Fee: 50 PLN per attempt
 - Fail and you can resit after 7 days, same fee
@@ -161,12 +161,12 @@ If you're also exchanging your foreign licence for a Polish one at the same time
 
 | Item | KWP | Szkolenie Okresowe |
 |---|---|---|
-| Medical examination | 200-280 PLN | 200-280 PLN |
-| Psychological examination | 130-180 PLN | 130-180 PLN |
-| OSK course | 2,800-3,200 PLN | 800-1,100 PLN |
+| Medical examination | 200 PLN | 200 PLN |
+| Psychological examination | 150 PLN | 150 PLN |
+| OSK course | 3,600-3,800 PLN | 700-900 PLN |
 | State exam at WORD | 50 PLN (one attempt) | - |
 | Physical licence | 100.50 PLN | 100.50 PLN |
-| **Total** | **3,280-3,810 PLN** | **1,230-1,660 PLN** |
+| **Total** | **4,100-4,300 PLN** | **1,150-1,350 PLN** |
 
 Warsaw OSK prices vary by 500-700 PLN for essentially the same course content. But check the language of instruction before optimising for price - saving 500 PLN at a Polish-only school can cost you a failed course if your Polish isn't up to it.
 

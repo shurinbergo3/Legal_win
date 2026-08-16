@@ -1,9 +1,9 @@
 ---
 slug: skladka-zdrowotna-2026-reforma
-title: 'Składka zdrowotna 2026: reforma JDG i Sp. z o.o.'
+title: 'Składka zdrowotna 2026: reformy nie będzie, składka wzrosła'
 description: >-
-  Od 1 stycznia 2026: stała składka dla JDG, nowe stawki dla Sp. z o.o. i CIT
-  estońskiego, jak zmieni się obciążenie przedsiębiorcy.
+  Reformę składki zdrowotnej zablokowało weto prezydenta. W 2026 obowiązują stare
+  zasady, a minimalna składka wzrosła do 432,54 zł. Co z tym zrobić.
 locale: pl
 publishDate: 2026-05-02T00:00:00.000Z
 author: LegalWin
@@ -22,18 +22,24 @@ relatedServices:
 schema: Article
 ---
 
-# Składka zdrowotna 2026 - reforma dla JDG i Sp. z o.o.
+# Składka zdrowotna 2026: reformy nie będzie, a składka wzrosła
 
-Od 1 stycznia 2026 w Polsce obowiązuje nowy model składki zdrowotnej. To największa reforma obciążeń przedsiębiorców od 2022 roku (Polski Ład). Dla większości zagranicznych JDG i jednoosobowych Sp. z o.o. roczne obciążenie spada o 2 000-8 000 PLN. Ale nie dla wszystkich - w niektórych grupach o wyższych dochodach składka wzrosła. Poniżej - według formy działalności.
+Reforma składki zdrowotnej, o której pisano przez cały 2025 rok, nie weszła w życie: ustawę z 4 kwietnia 2025 prezydent zawetował 6 maja 2025 i temat się zamknął. Rząd nowego projektu nie przygotowuje.
 
-## Co zmieniło się od 1 stycznia 2026
+Dla przedsiębiorcy oznacza to dwie rzeczy. Pierwsza: w 2026 składka liczona jest na starych zasadach - 9% od dochodu na skali, 4,9% na liniowym, stałe stawki na ryczałcie. Druga, znacznie mniej przyjemna: skończyła się tymczasowa ulga, która w 2025 liczyła minimalną składkę od 75% minimalnego wynagrodzenia. Podstawa wróciła do 100%, a minimalna składka wzrosła z 314,96 do **432,54 zł miesięcznie** - o 117,58 zł, czyli o 37,4%.
 
-Do 2026 składka zdrowotna dla JDG była liczona jako 9% (skala) lub 4,9% (liniowy) od dochodu - bez sufitu, bez minimum. Doprowadziło to do paradoksu: przedsiębiorca z dochodem 250 000 PLN/rok płacił więcej zdrowotki niż pracownik na etacie z taką samą pensją.
+Poniżej realne liczby 2026 według form opodatkowania i co z tym zrobić. Ale nie dla wszystkich - w niektórych grupach o wyższych dochodach składka wzrosła. Poniżej - według formy działalności.
 
-Od 2026 zasady są przepisane:
+## Co realnie zmieniło się w 2026
 
-- **Minimalna stała składka dla JDG** - 9% od 75% minimalnego wynagrodzenia. W 2026 minimalne to 4 806 PLN brutto, więc minimum to **324,40 PLN/m-c** (3 893 PLN/rok).
-- **Sufit progresywny** - powyżej określonego progu dochodu składka przestaje rosnąć. Dla podatku liniowego 19% sufit to ok. 1 500 PLN/m-c.
+Mechanika została ta sama: składka dla JDG to 9% od dochodu na skali i 4,9% na liniowym, ale nie mniej niż minimum. Ani sufitu, ani stałej składki dla wszystkich z projektu reformy nie ma.
+
+Dla porządku, jak było wcześniej: składka liczona jako 9% (skala) lub 4,9% (liniowy) od dochodu - bez sufitu. Doprowadziło to do paradoksu: przedsiębiorca z dochodem 250 000 PLN/rok płacił więcej zdrowotki niż pracownik na etacie z taką samą pensją.
+
+Co faktycznie się zmieniło:
+
+- **Minimalna składka wzrosła do 432,54 zł/m-c** (5 190,48 zł rocznie). To 9% od minimalnego wynagrodzenia 4 806 zł brutto. W 2025 obowiązywała tymczasowa ulga - podstawa 75% minimalnego, czyli 314,96 zł. Ulgi nie przedłużono.
+- **Ryczałt liczy się od przeciętnego wynagrodzenia** za IV kwartał roku poprzedniego. W 2026 to 9 228,64 zł, o 679,46 zł więcej niż rok wcześniej - dlatego wszystkie trzy stawki na ryczałcie też wzrosły.
 - **Sp. z o.o.** - bez zmian: członek zarządu płaci 9% od kwoty wynagrodzenia (jeśli jest uchwała o powołaniu).
 - **CIT estoński** - nadal zwolniony ze składki zdrowotnej na etapie reinwestycji.
 
@@ -45,13 +51,13 @@ Wynik zależy od formy opodatkowania. Porównajmy dwie najpopularniejsze u cudzo
 
 | Dochód roczny (PLN) | Składka 2025 (4,9%) | Składka 2026 | Różnica |
 |---|---|---|---|
-| 60 000 | 245 PLN/m-c | 324 PLN/m-c (minimum) | +79 PLN/m-c |
+| 60 000 | 314,96 PLN/m-c | 432,54 PLN/m-c (minimum) | +117,58 PLN/m-c |
 | 120 000 | 490 PLN/m-c | 490 PLN/m-c | 0 |
 | 240 000 | 980 PLN/m-c | 980 PLN/m-c | 0 |
-| 500 000 | 2 042 PLN/m-c | 1 500 PLN/m-c (sufit) | -542 PLN/m-c |
-| 1 000 000 | 4 083 PLN/m-c | 1 500 PLN/m-c | -2 583 PLN/m-c |
+| 500 000 | 2 042 PLN/m-c | 2 042 PLN/m-c | 0 |
+| 1 000 000 | 4 083 PLN/m-c | 4 083 PLN/m-c | 0 |
 
-JDG o niskich dochodach płaci nieco więcej (minimum). Wysokodochodowi - znacząco mniej (sufit). Punkt równowagi - ok. 240 000 PLN dochodu rocznie.
+Sufitu obiecanego w projekcie reformy nie ma. W górę poszli wyłącznie ci, którzy płacili minimum - czyli najmniejsze JDG, i dla nich wzrost jest odczuwalny: 1 411 zł w skali roku.
 
 ### JDG na ryczałcie 12%
 
@@ -59,9 +65,9 @@ Tu zmiany mniejsze - ryczałt już płacił składki w stałych kwotach od przyc
 
 | Przychód roczny (PLN) | Składka 2025 | Składka 2026 |
 |---|---|---|
-| Do 60 000 | 419 PLN/m-c | 324 PLN/m-c (nowe minimum) |
-| 60 000 - 300 000 | 698 PLN/m-c | 698 PLN/m-c |
-| Powyżej 300 000 | 1 256 PLN/m-c | 1 256 PLN/m-c |
+| Do 60 000 | 419 PLN/m-c | 498,35 PLN/m-c |
+| 60 000 - 300 000 | 698 PLN/m-c | 830,58 PLN/m-c |
+| Powyżej 300 000 | 1 256 PLN/m-c | 1 495,04 PLN/m-c |
 
 Dla ryczałtu główna oszczędność - w najniższym progu (-95 PLN/m-c).
 

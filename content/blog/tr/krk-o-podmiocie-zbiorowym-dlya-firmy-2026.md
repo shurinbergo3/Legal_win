@@ -38,7 +38,7 @@ Bu belgenin varlığı genellikle uygunsuz bir anda hatırlanır: ihale teslimin
 | İş ortaklığı ve tedarikçi süreçleri | muhatabın talebine göre |
 | Şirket satışı | standart paketin parçası |
 
-Kamu ihalelerinde bir tuzak vardır: **tek başına şirket belgesi yetmez**. İdare, yönetim kurulu üyeleri ve ticari vekil gibi gerçek kişileri de sorgular; şahıs şirketlerinde ortaklar ya da komandite ortaklar da eklenir. Yönetimde yabancı varsa Polonya belgesine vatandaşı olduğu ülkenin belgesi eklenir. [Nasıl yapıldığı](/tr/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+Kamu ihalelerinde bir tuzak vardır: **tek başına şirket belgesi yetmez**. İdare, yönetim kurulu üyeleri ve ticari vekil gibi gerçek kişileri de sorgular; şahıs şirketlerinde ortaklar ya da komandite ortaklar da eklenir. Yönetimde yabancı varsa Polonya belgesine vatandaşı olduğu ülkenin belgesi eklenir. [Nasıl yapıldığı](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 
 ## Gerçek kişi belgesinden farkı
 
@@ -82,7 +82,7 @@ Pratik sonuç: belgeyi belirli bir tarihe göre sipariş edin. 20-30 PLN'lik yen
 ## Bizim yaptığımız iş
 
 1. **Tam listenin belirlenmesi.** Neredeyse hiç tek belge olmaz: şirket artı her yönetici, yabancılar için ayrıca ulusal belgeler.
-2. **Belgelerin temini** - hem şirket hem gerçek kişiler için; yöneticinin PESEL'i yoksa da: [PESEL olmadan KRK](/tr/blog/krk-dlya-inostranca-bez-pesel-2026).
+2. **Belgelerin temini** - hem şirket hem gerçek kişiler için; yöneticinin PESEL'i yoksa da: [PESEL olmadan KRK](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 3. **Apostil veya konsolosluk tasdiki**, belgeler yurt dışına gidiyorsa.
 4. **Yeminli tercüme** apostilden sonra, önce değil.
 5. **İhale dosyasının derlenmesi** - belgeler, KRS kaydı, US ve ZUS borcu yoktur yazıları; idarenin koşullarına göre.

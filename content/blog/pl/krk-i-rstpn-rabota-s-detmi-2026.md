@@ -41,7 +41,7 @@ Weryfikacje są trzy i mają różny charakter:
 
 **Informację z KRK** przedkłada kandydat. Nie chodzi o dowolne zaświadczenie, lecz o zakres wskazany w ustawie: rozdziały XIX i XXV Kodeksu karnego, art. 189a i art. 207 k.k. oraz ustawa o przeciwdziałaniu narkomanii. W praktyce prościej wystąpić o pełne zaświadczenie, które ten zakres pokrywa.
 
-Sposób uzyskania zaświadczenia przez internet opisaliśmy w materiale o [e-KRK](/pl/blog/spravka-o-nesudimosti-e-krk-online-2026).
+Zaświadczenie zamawiamy również przez internet, w systemie e-KRK - [zobacz usługę](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 
 ## Dodatkowe obowiązki cudzoziemca
 
@@ -89,10 +89,10 @@ Wniosek praktyczny: w aktach każdego pracownika powinny znaleźć się wydruk z
 Zamykamy część zagraniczną - tam, gdzie sprawy zwykle się zatrzymują:
 
 1. **Audyt wymogów** - ustalenie, które państwa objęte są zasadą 20 lat w Państwa sprawie.
-2. **Pozyskanie zaświadczeń zagranicznych** - Ukraina, Białoruś, Turcja, Kazachstan, Gruzja, państwa UE, na podstawie pełnomocnictwa. Szczegóły: [zaświadczenie z państwa pochodzenia](/pl/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+2. **Pozyskanie zaświadczeń zagranicznych** - Ukraina, Białoruś, Turcja, Kazachstan, Gruzja, państwa UE, na podstawie pełnomocnictwa. Szczegóły: [zaświadczenie z państwa pochodzenia](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 3. **Apostille albo legalizacja konsularna**, jeżeli są wymagane.
 4. **Tłumaczenia przysięgłe** wszystkich dokumentów.
-5. **Polskie zaświadczenie z KRK**, również gdy kandydat nie ma jeszcze numeru PESEL: [jak to działa](/pl/blog/krk-dlya-inostranca-bez-pesel-2026).
+5. **Polskie zaświadczenie z KRK**, również gdy kandydat nie ma jeszcze numeru PESEL: [jak to działa](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 6. **Komplet dla pracodawcy** wraz z opisem, aby dział kadr nie odsyłał kandydata po raz drugi.
 
 Terminy i ceny - na [stronie usługi](/pl/uslugi/zaswiadczenie-o-niekaralnosci). Skompletowanie części zagranicznej zajmuje średnio 2-4 tygodnie, warto więc zacząć przed podpisaniem umowy.

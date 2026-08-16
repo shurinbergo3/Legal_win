@@ -49,7 +49,7 @@ Tek sonuç şudur: **uzaktan çalışan kişi, yabancı sözleşmesinin etrafın
 
 **Senaryo 2: Sp. z o.o.** Şirket kurulur, yönetim kuruluna girilir, sözleşmeleri şirket yapar. Mevcut statüden bağımsız olarak her yabancıya açıktır ve uzaktan tescil edilebilir. İşletme maliyeti daha yüksek, statü kısıtı yok.
 
-**Senaryo 3: köprü olarak öğrenci kartı.** Kabul, ikameti yasallaştırır; bu sürede şirket veya JDG kurulur, ardından ikamet amacı değiştirilir - [ülkeden çıkmadan nasıl yapılır](/tr/blog/zmiana-celu-pobytu-bez-vyezda-2026).
+**Senaryo 3: köprü olarak öğrenci kartı.** Kabul, ikameti yasallaştırır; bu sürede şirket veya JDG kurulur, ardından ikamet amacı değiştirilir - [ülkeden çıkmadan nasıl yapılır](/tr/uslugi/karta-pobytu).
 
 ## Gelir eşikleri
 
@@ -89,7 +89,7 @@ Temel fikir: ticari gerekçeli karta pobytu "gelir gelmez alınan" bir belge de�
 
 ## Bizim yaptığımız iş
 
-- **Yapının seçimi** - statünüze, gelirinize ve planlarınıza göre JDG veya şirket. Üç yıllık vergi farkı tahmin edilmez, hesaplanır: [JDG mi Sp. z o.o. mu](/tr/blog/jdg-ili-sp-z-oo-chto-vybrat-inostrancu-2026).
+- **Yapının seçimi** - statünüze, gelirinize ve planlarınıza göre JDG veya şirket. Üç yıllık vergi farkı tahmin edilmez, hesaplanır: [JDG mi Sp. z o.o. mu](/tr/uslugi/jdg).
 - **Şirket tescili**, uzaktan dâhil.
 - **Meldunek, PESEL, Profil Zaufany** - başvurunun teknik temeli.
 - **Başvuruya dönük muhasebe** - gelirin wojewoda tarafından görülebilir olması.
@@ -112,7 +112,7 @@ Hayır. Polonyalı işveren ya da kendi Polonya yapınız gerekir. Ara çözüm,
 Üçüncü koşul devreye girer: kaynak ve faaliyet kanıtı. Niyet beyanı değil, sözleşme ve para gerekir.
 
 **Ticari kartla geçen süre daimi ikamete sayılır mı?**
-Evet, tamamen - geçici koruma döneminin aksine. Beş yıl [AB mukim statüsünü](/tr/blog/status-rezidenta-es-polsha-2026) açar.
+Evet, tamamen - geçici koruma döneminin aksine. Beş yıl [AB mukim statüsünü](/tr/uslugi/rezydent-ue) açar.
 
 **JDG ile umowa o pracę birlikte yürütülebilir mi?**
 Evet ve başvuru için avantajdır: iki gelir kaynağı istikrar göstergesi sayılır.

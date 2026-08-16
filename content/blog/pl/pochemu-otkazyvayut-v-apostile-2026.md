@@ -23,7 +23,7 @@ schema: Article
 
 # Dlaczego MSZ odsyła dokumenty: 9 przyczyn odmowy apostille
 
-Apostille wygląda prosto: 60 PLN, MSZ, klauzula. W praktyce co piąty komplet wraca do wnioskodawcy - i niemal zawsze z jednej z dziewięciu przyczyn, które powtarzają się od lat.
+Apostille wygląda prosto: 60 zł, MSZ, klauzula. W praktyce co piąty komplet wraca do wnioskodawcy - i niemal zawsze z jednej z dziewięciu przyczyn, które powtarzają się od lat.
 
 Poniżej lista według częstotliwości, żeby nie tracić tygodnia na drugie podejście.
 
@@ -84,9 +84,9 @@ Zasada: **dokumentów przeznaczonych do obrotu zagranicznego nie należy laminow
 
 ## 8. Nieprawidłowa opłata
 
-Opłata wynosi 60 PLN od każdego dokumentu, nie od kompletu, i trafia na rachunek Urzędu Dzielnicy Śródmieście m.st. Warszawy. Typowe błędy: jedna zbiorcza wpłata bez wskazania liczby dokumentów, błędny odbiorca, brak potwierdzenia przelewu w pakiecie.
+Opłata wynosi 60 zł od każdego dokumentu, nie od kompletu, i trafia na rachunek Urzędu Dzielnicy Śródmieście m.st. Warszawy. Typowe błędy: jedna zbiorcza wpłata bez wskazania liczby dokumentów, błędny odbiorca, brak potwierdzenia przelewu w pakiecie.
 
-Przy legalizacji konsularnej stawka jest inna - 26 PLN. Różnicę omawiamy w [osobnym tekście](/pl/blog/apostille-ili-legalizacja-konsularna-2026).
+Przy legalizacji konsularnej stawka jest inna - 26 zł. Różnicę omawiamy w [osobnym tekście](/pl/blog/apostille-ili-legalizacja-konsularna-2026).
 
 ## 9. Dokument nieaktualny dla odbiorcy
 
@@ -120,7 +120,7 @@ Zwykle nie ma to sensu - szybciej usunąć przyczynę, ponieważ zwroty mają ch
 Jedno apostille na jeden egzemplarz. Trzy państwa docelowe oznaczają trzy odpisy.
 
 **Czy w Polsce poświadczy się dokument zagraniczny?**
-Nie, wyłącznie państwo wydania - [jak zorganizować to zdalnie](/pl/blog/apostille-inostrannyh-dokumentov-dlya-polshi-2026).
+Nie, wyłącznie państwo wydania - [jak zorganizować to zdalnie](/pl/uslugi/apostille).
 
 **Co zrobić ze starym dokumentem radzieckim?**
 Zwykle konieczne jest ponowne wydanie odpisu w archiwum państwa przechowującego akt. Apostille dotyczy nowego dokumentu.

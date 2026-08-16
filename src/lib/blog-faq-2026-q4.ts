@@ -179,35 +179,35 @@ export const BLOG_FAQ_2026_Q4: Map = {
 
   'apostille-ili-legalizacja-konsularna-2026': {
     ru: [
-      { q: 'Сколько стоит апостиль в Польше в 2026 году?', a: '60 PLN за каждый документ, оплата на счёт Urzędu Dzielnicy Śródmieście. Для стран вне Гаагской конвенции применяется другой тариф - poświadczenie MSZ за 26 PLN плюс консульский сбор.' },
+      { q: 'Сколько стоит апостиль в Польше в 2026 году?', a: '60 PLN за каждый документ, оплата на счёт Centrum Obsługi Podatnika (21 1030 1508 0000 0005 5000 0070). Для стран вне Гаагской конвенции применяется другой тариф - poświadczenie MSZ за 26 PLN плюс консульский сбор.' },
       { q: 'Нужен ли апостиль на украинские документы для Польши?', a: 'Нет. Договор между Польшей и Украиной от 24 мая 1993 года (Dz.U. 1994 nr 96 poz. 465) освобождает официальные документы от легализации - достаточно присяжного перевода. Аналогичные договоры действуют с Беларусью и Россией.' },
       { q: 'Какие страны не признают апостиль?', a: 'По состоянию на 2026 год это, в частности, ОАЭ, Вьетнам, Ирак, Иордания, Ливия, Египет, Алжир, Ливан, Куба, Таиланд, Малайзия, Мьянма и Тайвань. Китай, Канада, Саудовская Аравия и Пакистан присоединились к конвенции и апостиль признают.' },
       { q: 'Сколько действует апостиль?', a: 'Сам апостиль бессрочен. Ограничение всегда идёт от документа: справка о несудимости обычно принимается 3-6 месяцев, выписка из KRS - 3-6 месяцев, свидетельства USC формально бессрочны.' },
       { q: 'Можно ли поставить апостиль в Польше на иностранный документ?', a: 'Нет. Апостиль ставит только страна, выдавшая документ: украинское свидетельство апостилируется в Украине, турецкое - в Турции.' }
     ],
     uk: [
-      { q: 'Скільки коштує апостиль у Польщі у 2026 році?', a: '60 PLN за кожен документ, оплата на рахунок Urzędu Dzielnicy Śródmieście. Для країн поза Гаазькою конвенцією застосовується інший тариф - poświadczenie MSZ за 26 PLN плюс консульський збір.' },
+      { q: 'Скільки коштує апостиль у Польщі у 2026 році?', a: '60 PLN за кожен документ, оплата на рахунок Centrum Obsługi Podatnika (21 1030 1508 0000 0005 5000 0070). Для країн поза Гаазькою конвенцією застосовується інший тариф - poświadczenie MSZ за 26 PLN плюс консульський збір.' },
       { q: 'Чи потрібен апостиль на українські документи для Польщі?', a: 'Ні. Договір між Польщею та Україною від 24 травня 1993 року (Dz.U. 1994 nr 96 poz. 465) звільняє офіційні документи від легалізації - достатньо присяжного перекладу. Аналогічні договори діють з Білоруссю та Росією.' },
       { q: 'Які країни не визнають апостиль?', a: 'Станом на 2026 рік це, зокрема, ОАЕ, В\'єтнам, Ірак, Йорданія, Лівія, Єгипет, Алжир, Ліван, Куба, Таїланд, Малайзія, М\'янма і Тайвань. Китай, Канада, Саудівська Аравія і Пакистан приєдналися до конвенції та апостиль визнають.' },
       { q: 'Скільки діє апостиль?', a: 'Сам апостиль безстроковий. Обмеження завжди йде від документа: довідка про несудимість зазвичай приймається 3-6 місяців, витяг із KRS - 3-6 місяців, свідоцтва USC формально безстрокові.' },
       { q: 'Чи можна поставити в Польщі апостиль на іноземний документ?', a: 'Ні. Апостиль ставить лише країна, що видала документ: українське свідоцтво апостилюється в Україні, турецьке - у Туреччині.' }
     ],
     pl: [
-      { q: 'Ile kosztuje apostille w Polsce w 2026 r.?', a: '60 PLN od każdego dokumentu, płatne na rachunek Urzędu Dzielnicy Śródmieście. Dla państw spoza konwencji haskiej obowiązuje inna stawka - poświadczenie MSZ za 26 PLN plus opłata konsularna.' },
+      { q: 'Ile kosztuje apostille w Polsce w 2026 r.?', a: '60 PLN od każdego dokumentu, płatne na rachunek Centrum Obsługi Podatnika (21 1030 1508 0000 0005 5000 0070). Dla państw spoza konwencji haskiej obowiązuje inna stawka - poświadczenie MSZ za 26 PLN plus opłata konsularna.' },
       { q: 'Czy dokumenty z Ukrainy wymagają apostille w Polsce?', a: 'Nie. Umowa z 24 maja 1993 r. (Dz.U. 1994 nr 96 poz. 465) zwalnia dokumenty urzędowe z legalizacji - wystarcza tłumaczenie przysięgłe. Analogiczne umowy obowiązują z Białorusią i Rosją.' },
       { q: 'Które państwa nie honorują apostille?', a: 'Według stanu na 2026 r. m.in. ZEA, Wietnam, Irak, Jordania, Libia, Egipt, Algieria, Liban, Kuba, Tajlandia, Malezja, Mjanma i Tajwan. Chiny, Kanada, Arabia Saudyjska i Pakistan przystąpiły do konwencji.' },
       { q: 'Jak długo ważne jest apostille?', a: 'Samo apostille jest bezterminowe. Ograniczenie wynika z dokumentu: zaświadczenie o niekaralności honoruje się zwykle 3-6 miesięcy, odpis z KRS 3-6 miesięcy, a odpisy z USC są formalnie bezterminowe.' },
       { q: 'Czy w Polsce można poświadczyć dokument zagraniczny?', a: 'Nie. Apostille wystawia wyłącznie państwo wydania dokumentu - ukraiński odpis poświadcza się w Ukrainie, turecki w Turcji.' }
     ],
     en: [
-      { q: 'What does an apostille cost in Poland in 2026?', a: 'PLN 60 per document, paid to the Śródmieście District Office account. Countries outside the Hague Convention follow a different tariff - MSZ certification at PLN 26 plus a consular fee.' },
+      { q: 'What does an apostille cost in Poland in 2026?', a: 'PLN 60 per document, paid to the Centrum Obsługi Podatnika account (21 1030 1508 0000 0005 5000 0070). Countries outside the Hague Convention follow a different tariff - MSZ certification at PLN 26 plus a consular fee.' },
       { q: 'Do Ukrainian documents need an apostille for Poland?', a: 'No. The Poland-Ukraine treaty of 24 May 1993 (Journal of Laws 1994 no. 96 item 465) exempts official documents from legalisation - a sworn translation is enough. Equivalent treaties apply with Belarus and Russia.' },
       { q: 'Which countries do not recognise apostilles?', a: 'As of 2026 these include the UAE, Vietnam, Iraq, Jordan, Libya, Egypt, Algeria, Lebanon, Cuba, Thailand, Malaysia, Myanmar and Taiwan. China, Canada, Saudi Arabia and Pakistan have acceded and do recognise them.' },
       { q: 'How long is an apostille valid?', a: 'The apostille itself never expires. Any limit comes from the document: criminal record certificates are usually accepted for three to six months, company extracts likewise, and civil registry certificates are formally open-ended.' },
       { q: 'Can a foreign document be apostilled in Poland?', a: 'No. Only the issuing country can apostille its own document - a Ukrainian certificate in Ukraine, a Turkish one in Turkey.' }
     ],
     tr: [
-      { q: '2026\'da Polonya\'da apostil ne kadar?', a: 'Belge başına 60 PLN; Urząd Dzielnicy Śródmieście hesabına ödenir. Lahey Sözleşmesi dışındaki ülkeler için tarife farklıdır: 26 PLN MSZ tasdiki artı konsolosluk harcı.' },
+      { q: '2026\'da Polonya\'da apostil ne kadar?', a: 'Belge başına 60 PLN; Centrum Obsługi Podatnika hesabına ödenir (21 1030 1508 0000 0005 5000 0070). Lahey Sözleşmesi dışındaki ülkeler için tarife farklıdır: 26 PLN MSZ tasdiki artı konsolosluk harcı.' },
       { q: 'Ukrayna belgeleri Polonya için apostil gerektirir mi?', a: 'Hayır. 24 Mayıs 1993 tarihli Polonya-Ukrayna anlaşması (Dz.U. 1994 nr 96 poz. 465) resmî belgeleri tasdikten muaf tutar; yeminli tercüme yeterlidir. Belarus ve Rusya ile de benzer anlaşmalar vardır.' },
       { q: 'Hangi ülkeler apostili tanımıyor?', a: '2026 itibarıyla BAE, Vietnam, Irak, Ürdün, Libya, Mısır, Cezayir, Lübnan, Küba, Tayland, Malezya, Myanmar ve Tayvan bunlar arasındadır. Çin, Kanada, Suudi Arabistan ve Pakistan sözleşmeye katılmıştır.' },
       { q: 'Apostil ne kadar geçerli?', a: 'Apostilin kendisi süresizdir. Sınır belgeden gelir: adli sicil belgesi genellikle 3-6 ay, KRS kaydı 3-6 ay kabul edilir; USC belgeleri biçimsel olarak süresizdir.' },

@@ -34,7 +34,7 @@ Birçok müşterimiz "kartımı yenilemem lazım" diyerek geliyor. Hukuken Ustaw
 
 Pratikte bu şu anlama gelir:
 
-- **MOS v2.0 üzerinden yeni wniosek** - eski inPOL sistemi Aralık 2025'ten beri çalışmıyor
+- **MOS v2.0 üzerinden yeni wniosek** - eski inPOL sistemi 27 Nisan 2026'ten beri çalışmıyor
 - **Güncel belgeler** - ZUS *(Sosyal Güvenlik Kurumu)* belgeleri, güncel yıla ait PIT-11 *(yıllık gelir bildirimi)*, yenilenmiş umowa o pracę *(iş sözleşmesi)* veya iş faaliyeti belgesi
 - **Tam ücret paketi** - aynı 340 PLN opłata skarbowa *(damga vergisi)* + 100 PLN kart bedeli
 - **Yeniden biyometri** - parmak izleri ilk başvurudaki gibi yeniden alınır
@@ -83,7 +83,7 @@ En sık değişiklikler:
 
 2026 yılı temel paketi:
 
-- 1 grudnia 2025 tarihli formattaki wniosek (yalnızca MOS v2.0)
+- 27 kwietnia 2026 tarihli formattaki wniosek (yalnızca MOS v2.0)
 - Pasaport + tüm sayfaların fotokopisi
 - 4 adet 35×45 mm biyometrik fotoğraf
 - Konut belgesi - umowa najmu *(kira sözleşmesi)* veya meldunek *(adres kaydı)*
@@ -113,7 +113,7 @@ JDG *(şahıs şirketi)* gerekçesi için:
 
 ## MOS v2.0 üzerinden başvuru
 
-Aralık 2025'ten itibaren tek kanal mos.cudzoziemcy.gov.pl'dir. Kontynuacja ve ilk başvurunun mantığı aynıdır, ancak teknik bir ayrıntı vardır: formda "kontynuacja zezwolenia" *(iznin devamı)* seçeneğini işaretlemeli ve dotychczasowa decyzja *(önceki karar)* numarasını girmelisiniz.
+27 Nisan 2026'ten itibaren tek kanal mos.cudzoziemcy.gov.pl'dir. Kontynuacja ve ilk başvurunun mantığı aynıdır, ancak teknik bir ayrıntı vardır: formda "kontynuacja zezwolenia" *(iznin devamı)* seçeneğini işaretlemeli ve dotychczasowa decyzja *(önceki karar)* numarasını girmelisiniz.
 
 Çoğunlukla unutulan üç şey:
 

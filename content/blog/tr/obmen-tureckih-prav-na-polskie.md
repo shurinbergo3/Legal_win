@@ -84,7 +84,7 @@ Türkiye, çevredeki ülkelere kıyasla belirgin biçimde öndedir. Emniyet Gene
 **C, D, C+E, D+E sınıfları için:**
 
 - Yetkili hekimden geçerli badania lekarskie *(sağlık raporu)* (180-250 PLN)
-- Geçerli badania psychologiczne *(psikoteknik rapor)* (130-180 PLN)
+- Geçerli badania psychologiczne *(psikoteknik rapor)* (150 PLN)
 - Profesyonel sürücülük için Kod 95 *(AB mesleki yeterlilik kodu)* sertifikası (ayrı kurs)
 
 ## Türkçe yeminli tercüme: tercümana nasıl ulaşılır
@@ -131,7 +131,7 @@ Randevu warszawa19115.pl portalı veya Warszawa 19115 uygulaması üzerinden al�
 | Yeminli tercüme | 80-130 PLN |
 | Apostille / konsolosluk onayı (eski tip için) | 60-80 PLN |
 | Sağlık raporu (yalnızca C/D veya süresi dolanlar) | 180-250 PLN |
-| Psikoteknik rapor (yalnızca C/D) | 130-180 PLN |
+| Psikoteknik rapor (yalnızca C/D) | 150 PLN |
 | **A/B sınıfı toplam (yeni tip)** | **180-230 PLN** |
 | **A/B sınıfı toplam (eski tip + apostille)** | **240-310 PLN** |
 | **C/D sınıfı toplam (sağlık dahil)** | **490-740 PLN** |

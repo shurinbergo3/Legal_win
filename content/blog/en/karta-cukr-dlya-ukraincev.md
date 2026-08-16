@@ -24,7 +24,7 @@ schema: Article
 
 # Karta CUKR in Poland for Ukrainians - Complete 2026 Guide
 
-The karta CUKR (formal name: "zezwolenie na pobyt czasowy dla obywatela Ukrainy") is a special residence permit available only to Ukrainian citizens who hold an active temporary-protection status (PESEL UKR) at the time of filing. Introduced by the "specustawa o pomocy obywatelom Ukrainy" in March 2022 and reworked in 2024-2025, it now grants a three-year residence permit without comparing salary to the minimum wage and without requiring a specific basis such as employment or business.
+The karta CUKR (formal name: "zezwolenie na pobyt czasowy dla obywatela Ukrainy") is a special residence permit available only to Ukrainian citizens who hold an active temporary-protection status (PESEL UKR) at the time of filing. Applications under the current procedure opened on **4 May 2026** and close on **4 March 2027** - a hard window that nobody has promised to extend. Introduced by the "specustawa o pomocy obywatelom Ukrainy" in March 2022 and reworked since, it now grants a three-year residence permit without comparing salary to the minimum wage and without requiring a specific basis such as employment or business.
 
 Below - what distinguishes CUKR from an ordinary karta czasowego pobytu, who it actually suits, how to obtain it in 2026, and what happens after temporary protection expires in March 2027.
 
@@ -37,7 +37,7 @@ Below - what distinguishes CUKR from an ordinary karta czasowego pobytu, who it 
 | Minimum salary | not required | 4,806 PLN gross in 2026 |
 | Tied to employer | no | yes |
 | Counts toward stałe residence | yes (since 2024) | yes |
-| State fee | 100 PLN | 340 PLN |
+| Fees | 340 PLN opłata skarbowa + 100 PLN for the card | 340 PLN + 100 PLN |
 | Processing time in Mazowieckie | 3-6 months | 8-14 months |
 
 The main advantage of CUKR is the freedom to change employers without notification and faster processing. The main risk is that its existence depends on a political decision to extend EU temporary protection (uncertain after March 2027).
@@ -70,7 +70,7 @@ No employer Załącznik nr 1, no ZUS confirmations, no PIT-11. CUKR is the simpl
 
 ## Step 2. Filing via MOS v2.0
 
-Since December 2025, filing is exclusively via mos.cudzoziemcy.gov.pl. Login via your Profil Zaufany (mandatory for CUKR - this is the same system Polish citizens use).
+Since 27 April 2026, filing is exclusively via mos.cudzoziemcy.gov.pl. Login via your Profil Zaufany (mandatory for CUKR - this is the same system Polish citizens use).
 
 In MOS v2.0:
 

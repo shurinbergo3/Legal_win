@@ -2,7 +2,7 @@
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
 title: 'Kod 95 w Polsce 2026: kurs długi vs krótki'
 description: >-
-  Kwalifikacja Wstępna (140 h, 2 800 PLN, egzamin państwowy) vs Szkolenie
+  Kwalifikacja Wstępna (140 h, 3 700 PLN, egzamin państwowy) vs Szkolenie
   Okresowe (35 h, 900 PLN). Wybór zależy od daty wydania kat. C.
 locale: pl
 publishDate: 2026-05-04T00:00:00.000Z
@@ -25,7 +25,7 @@ schema: Article
 W skrócie: od sierpnia 2025 ukraińscy, białoruscy i inni cudzoziemscy kierowcy międzynarodowi kategorii C/CE/D/DE muszą posiadać Kod 95 (świadectwo kwalifikacji zawodowej kierowcy) w formacie UE. Są dwie ścieżki, a **wybór zależy wyłącznie od daty wydania prawa jazdy kategorii C** w kraju pochodzenia:
 
 - **Prawo jazdy C wydane przed 10 września 2009** → wystarczy **krótkie Szkolenie Okresowe** (35 godzin, bez egzaminu, ~900 PLN).
-- **Prawo jazdy C wydane 10 września 2009 lub później** → **długa Kwalifikacja Wstępna** (140 godzin, z egzaminem państwowym, ~2 800 PLN).
+- **Prawo jazdy C wydane 10 września 2009 lub później** → **długa Kwalifikacja Wstępna** (140 godzin, z egzaminem państwowym, ~3 700 PLN).
 
 ## Czym jest Kod 95
 
@@ -65,7 +65,7 @@ Jeśli prawo było wymieniane lub przedłużane - liczy się oryginalna data pie
 - tematy: aktualne przepisy ruchu drogowego, eko-jazda, ergonomia, bezpieczeństwo ładunku, nowe techniki;
 - **bez egzaminu państwowego.**
 
-**Koszt:** 800-1 200 PLN w mazowieckim 2026 zależnie od OSK.
+**Koszt:** 700-900 PLN w mazowieckim 2026 zależnie od OSK.
 
 **Czas:** 5 dni kursu + 1 tydzień formalności = max 2 tygodnie.
 
@@ -73,7 +73,7 @@ Jeśli prawo było wymieniane lub przedłużane - liczy się oryginalna data pie
 - prawo jazdy kat. C/CE (oryginał + tłumaczenie przysięgłe, jeśli zagraniczne);
 - karta pobytu lub potwierdzenie pobytu;
 - orzeczenie lekarskie od lekarza uprawnionego;
-- test psychologa transportu (300-400 PLN);
+- test psychologa transportu (150 PLN);
 - 2 zdjęcia 3,5 × 4,5 cm.
 
 **Po ukończeniu:**
@@ -98,7 +98,7 @@ Ważność Kodu 95 po Szkoleniu Okresowym - 5 lat. Następnie - kolejne Szkoleni
 - praktyka - jazda z egzaminatorem WORD wyznaczoną trasą;
 - opłata egzaminacyjna ~200 PLN; powtórka ~200 PLN.
 
-**Koszt kursu:** 2 500-3 200 PLN w mazowieckim 2026.
+**Koszt kursu:** 3 600-3 800 PLN w mazowieckim 2026.
 
 **Czas:** 4-6 tygodni kursu + 2-3 tygodnie na egzamin = 7-9 tygodni.
 
@@ -115,13 +115,15 @@ Ważność Kodu 95 po Kwalifikacji Wstępnej - 5 lat. Następnie Szkolenie Okres
 | Krok | Szkolenie Okresowe | Kwalifikacja Wstępna |
 |---|---|---|
 | 1. Badania lekarskie | 200 PLN | 200 PLN |
-| 2. Test psychologa | 300-400 PLN | 300-400 PLN |
-| 3. PKZ w Wydziale Komunikacji | 50 PLN | 50 PLN |
+| 2. Test psychologa | 150 PLN | 150 PLN |
+| 3. PKZ w Wydziale Komunikacji | bezpłatnie | bezpłatnie |
 | 4. Zapis do OSK | bezpłatnie | bezpłatnie |
-| 5. Kurs | 800-1 200 PLN, 5 dni | 2 500-3 200 PLN, 4-6 tyg. |
-| 6. Egzamin państwowy | - | 200 PLN |
-| 7. Karta kwalifikacji kierowcy | 100 PLN | 100 PLN |
-| **Łącznie** | **1 350-1 950 PLN, 2 tyg.** | **3 350-4 150 PLN, 7-9 tyg.** |
+| 5. Kurs | 700-900 PLN, 5 dni | 3 600-3 800 PLN, 4-6 tyg. |
+| 6. Egzamin państwowy | - | 50 PLN |
+| 7. Wpis Kod 95 do prawa jazdy | 100,50 PLN | 100,50 PLN |
+| **Łącznie** | **1 150-1 350 PLN, 2 tyg.** | **4 100-4 300 PLN, 7-9 tyg.** |
+
+Jeśli nie masz polskiego prawa jazdy i nie planujesz go wymieniać, zamiast wpisu wyrabia się kartę kwalifikacji kierowcy - 150 PLN. To osobny dokument, nie to samo.
 
 ## Najczęstsze błędy
 

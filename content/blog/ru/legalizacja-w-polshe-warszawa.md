@@ -66,7 +66,7 @@ schema: Article
 
 ## Шаг 2. Karta czasowego pobytu - первый ВНЖ
 
-Это ключевой документ для всех, кто планирует остаться больше чем на полгода. Подаётся через **MOS v2.0** (mos.cudzoziemcy.gov.pl), система, которая с декабря 2025 заменила inPOL. Подробный разбор шагов - в нашем [гиде по karta pobytu](/ru/blog/karta-pobytu-2026-poshagovaya-instrukciya).
+Это ключевой документ для всех, кто планирует остаться больше чем на полгода. Подаётся через **MOS v2.0** (mos.cudzoziemcy.gov.pl), система, которая с 27 апреля 2026 заменила inPOL. Подробный разбор шагов - в нашем [гиде по karta pobytu](/ru/blog/karta-pobytu-2026-poshagovaya-instrukciya).
 
 Главное про Mazowieckie в 2026:
 

@@ -23,7 +23,9 @@ schema: Article
 
 # Jak złożyć wniosek przez MOS 2.0 w Polsce - przewodnik 2026
 
-Od 1 grudnia 2025 roku wszystkie wnioski dotyczące zezwolenia na pobyt w Polsce - karta czasowego pobytu, karta stałego pobytu, karta CUKR, przedłużenia, powiadomienia o zmianie pracodawcy - składa się wyłącznie przez MOS v2.0 (mos.cudzoziemcy.gov.pl). Stary system inPOL został zamknięty. Wnioski papierowe są przyjmowane tylko w wyjątkowych sytuacjach (określone formy niepełnosprawności, na pisemny wniosek). Dla pozostałych - wyłącznie droga elektroniczna.
+Od 27 kwietnia 2026 roku wszystkie wnioski dotyczące zezwolenia na pobyt w Polsce - karta czasowego pobytu, karta stałego pobytu, karta CUKR, przedłużenia, powiadomienia o zmianie pracodawcy - składa się wyłącznie przez MOS v2.0 (mos.cudzoziemcy.gov.pl). Stary system inPOL został zamknięty. Wnioski papierowe są przyjmowane tylko w wyjątkowych sytuacjach (określone formy niepełnosprawności, na pisemny wniosek). Dla pozostałych - wyłącznie droga elektroniczna.
+
+Osobno o okresie przejściowym: wnioski papierowe, które nie wpłynęły do urzędu wojewódzkiego do 26 kwietnia 2026 włącznie, pozostają bez rozpoznania. Liczy się data wpływu do urzędu, a nie data stempla pocztowego - list nadany 25 kwietnia, a doręczony 30., już nie ratuje sprawy.
 
 Poniżej - realny przewodnik po MOS v2.0 w 2026 roku. Bez zrzutów ekranu z instrukcji gov.pl, lecz ze szczegółami, które niepostrzeżenie pochłaniają godziny tym, którzy widzą system po raz pierwszy.
 
@@ -194,7 +196,7 @@ Karta drukowana jest w Polskiej Wytwórni Papierów Wartościowych i przybywa do
 ## Najczęstsze błędy w MOS v2.0
 
 1. **Składanie wniosku w ostatnim dniu pobytu.** Jeśli urząd zwróci wniosek (np. zły Załącznik), legalny pobyt się kończy. Bufor: minimum 30 dni przed upływem wizy lub starej karty.
-2. **Używanie starszej wersji formularza.** Jeśli masz zachowany wniosek z inPOL - odrzuć go; formularz obowiązujący od 1 grudnia 2025 jest inny.
+2. **Używanie starszej wersji formularza.** Jeśli masz zachowany wniosek z inPOL - odrzuć go; formularz obowiązujący od 27 kwietnia 2026 jest inny.
 3. **Skan kolorowy zamiast czarno-białego (lub odwrotnie).** Skany paszportu - wyłącznie kolorowe. Załącznik nr 1 - wyłącznie podpisany PDF, nie zrzut.
 4. **Niepotwierdzone PKD u pracodawcy.** PKD podstawowej działalności musi odpowiadać stanowisku.
 5. **Ignorowanie SMS od eDoręczeń.** Wiadomości od wojewody są krytyczne - 7 dni na odpowiedź.

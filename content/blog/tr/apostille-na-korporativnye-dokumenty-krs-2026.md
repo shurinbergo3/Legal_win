@@ -97,7 +97,7 @@ Aynı mantık e-KRK ve diğer elektronik belgeler için geçerlidir - [ayrıntı
 4. **Yeminli tercüme** doğru aşamada, apostil şerhi dâhil.
 5. **Teslimat** - asılların kuryeyle hedef ülkeye gönderimi.
 
-Süre ve ücretler [hizmet sayfasında](/tr/uslugi/apostille). Paralel olarak yurt dışında yapı kuruyorsanız [iş relokasyonu ve temsilcilikler yazımıza](/tr/blog/relokaciya-biznesa-v-polshu-przedstawicielstwo-2026) bakın.
+Süre ve ücretler [hizmet sayfasında](/tr/uslugi/apostille). Paralel olarak yurt dışında yapı kuruyorsanız [yabancı şirket temsilcilikleri](/tr/uslugi/przedstawicielstwa) hizmetimize bakın.
 
 ## Sık sorulan sorular
 
@@ -114,7 +114,7 @@ Apostil Lehçe asla işlenir. İngilizce metin, apostilden sonra yeminli tercüm
 Vekâletnameli herhangi bir kişi. Biz tam olarak bu şekilde çalışıyoruz.
 
 **Şirket yeni kuruldu, KRS kaydı henüz yok.**
-Kayıt işlenmeden odpis verilmez. S24 üzerinden tescilde kayıt genellikle 1-3 günde görünür - [nasıl işlediği](/tr/blog/registraciya-sp-z-oo-s24-bez-pesel-2026).
+Kayıt işlenmeden odpis verilmez. S24 üzerinden tescilde kayıt genellikle 1-3 günde görünür - [nasıl işlediği](/tr/uslugi/rejestracja-sp-z-oo).
 
 ---
 

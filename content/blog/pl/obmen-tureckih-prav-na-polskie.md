@@ -84,7 +84,7 @@ Turcja wypada korzystnie w porównaniu ze swoimi postsowieckimi sąsiadami - dzi
 **Dla kategorii C, D, C+E, D+E:**
 
 - Aktualne badania lekarskie od lekarza uprawnionego (180-250 PLN)
-- Aktualne badania psychologiczne (130-180 PLN)
+- Aktualne badania psychologiczne (150 PLN)
 - Świadectwo Kodu 95 dla zawodowego prowadzenia (osobny kurs)
 
 ## Tłumaczenie z tureckiego: gdzie znaleźć tłumacza przysięgłego
@@ -131,7 +131,7 @@ Rezerwacja przez warszawa19115.pl lub aplikację Warszawa 19115. Sekcja: „Wydz
 | Tłumaczenie przysięgłe | 80-130 PLN |
 | Apostille / legalizacja konsularna (dla „eski tip") | 60-80 PLN |
 | Badania lekarskie (tylko C/D lub przeterminowane) | 180-250 PLN |
-| Badania psychologiczne (tylko C/D) | 130-180 PLN |
+| Badania psychologiczne (tylko C/D) | 150 PLN |
 | **Razem dla kat. A/B (po 2016)** | **180-230 PLN** |
 | **Razem dla kat. A/B (przed 2016 z apostille)** | **240-310 PLN** |
 | **Razem dla kat. C/D z badaniami** | **490-740 PLN** |

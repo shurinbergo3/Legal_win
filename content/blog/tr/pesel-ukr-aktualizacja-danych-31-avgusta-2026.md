@@ -89,7 +89,7 @@ UKR statüsü, bitiş tarihi belli geçici bir yapıdır. 4 Mart 2027 göründü
 
 Normal ikamet iznine şimdi geçmek için üç neden:
 
-1. **Süre hesabı.** Geçici koruma dönemi, AB uzun dönem mukim statüsü için gereken beş yıla **sayılmaz**. Sayaç ancak zezwolenie na pobyt czasowy ile başlar - [AB mukim statüsü yazımızda](/tr/blog/status-rezidenta-es-polsha-2026) anlattık.
+1. **Süre hesabı.** Geçici koruma dönemi, AB uzun dönem mukim statüsü için gereken beş yıla **sayılmaz**. Sayaç ancak zezwolenie na pobyt czasowy ile başlar - ayrıntılar [AB uzun dönem mukim statüsü](/tr/uslugi/rezydent-ue) sayfasında.
 2. **İşlem süreleri.** Mazowieckie'de dosya 8-14 ay sürüyor. Bugün verilen başvuru, özel kanunun tamamen sona ereceği döneme denk gelir.
 3. **İstikrar.** Karta pobytu, yardım kanununun sonraki değişikliklerine bağlı değildir.
 

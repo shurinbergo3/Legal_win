@@ -66,7 +66,7 @@ The most common mistake among new arrivals is leaving these four items "for late
 
 ## Step 2. Karta Czasowego Pobytu - The First Residence Permit
 
-This is the core document for anyone planning to stay longer than six months. It is filed through **MOS v2.0** (mos.cudzoziemcy.gov.pl), the system that replaced inPOL in December 2025. A detailed walkthrough of each step is in our [karta pobytu guide](/en/blog/karta-pobytu-2026-poshagovaya-instrukciya).
+This is the core document for anyone planning to stay longer than six months. It is filed through **MOS v2.0** (mos.cudzoziemcy.gov.pl), the system that replaced inPOL in 27 April 2026. A detailed walkthrough of each step is in our [karta pobytu guide](/en/blog/karta-pobytu-2026-poshagovaya-instrukciya).
 
 Key points for Mazowieckie in 2026:
 

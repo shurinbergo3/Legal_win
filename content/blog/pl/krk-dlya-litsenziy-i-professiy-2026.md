@@ -78,7 +78,7 @@ Dla samej spółki potrzebne bywa dodatkowo zaświadczenie o niekaralności podm
 
 Schemat jest identyczny we wszystkich wymienionych branżach:
 
-1. **Polskie zaświadczenie z KRK** - 20-30 PLN, elektronicznie albo w punkcie informacyjnym. Bez numeru PESEL działa [druga ścieżka](/pl/blog/krk-dlya-inostranca-bez-pesel-2026).
+1. **Polskie zaświadczenie z KRK** - 20-30 PLN, elektronicznie albo w punkcie informacyjnym. Bez numeru PESEL działa [druga ścieżka](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 2. **Zaświadczenie z państwa obywatelstwa** - ukraińskie z MSW, tureckie adli sicil kaydı, białoruskie, gruzińskie, kazachskie.
 3. **Legalizacja** - dla Ukrainy, Białorusi i Rosji umowy dwustronne zwalniają z apostille, dla większości pozostałych państw apostille jest wymagane. [Jak ustalić swój przypadek](/pl/blog/apostille-ili-legalizacja-konsularna-2026).
 4. **Tłumaczenie przysięgłe** na język polski.
@@ -99,7 +99,7 @@ Zamawianie z dużym wyprzedzeniem nie ma sensu - przy koszcie 20 PLN prościej p
 
 - **Ustalenie dokładnej listy** dokumentów pod daną licencję albo stanowisko.
 - **Uzyskanie polskiego zaświadczenia** na podstawie pełnomocnictwa, także bez numeru PESEL.
-- **Pozyskanie zaświadczeń zagranicznych** bez wyjazdu klienta - [szczegóły](/pl/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+- **Pozyskanie zaświadczeń zagranicznych** bez wyjazdu klienta - [szczegóły](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 - **Apostille albo legalizacja konsularna**, jeżeli jest wymagana.
 - **Tłumaczenie przysięgłe** i złożenie kompletu w odpowiednim organie.
 

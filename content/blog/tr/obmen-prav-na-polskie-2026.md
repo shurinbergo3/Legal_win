@@ -97,7 +97,7 @@ Temel paket bütün kategoriler ve uyruklar için aynıdır. Farklar; C, D kateg
 | Opłata ewidencyjna | 0,50 PLN |
 | Ehliyetin yeminli tercümesi | 60-110 PLN |
 | Sağlık raporu (yalnızca C, D veya süresi geçmiş ehliyetler için) | 180-250 PLN |
-| Psikoteknik (yalnızca C, D için) | 130-180 PLN |
+| Psikoteknik (yalnızca C, D için) | 150 PLN |
 | WORD teorik sınav harcı (Türk ehliyeti için zorunlu) | 50 PLN |
 | Apostille (gerekirse - Beyaz Rusya nadir durumlarında) | 60 PLN + süre |
 | **B kategorisi için Türk ehliyetinde toplam** | **400-500 PLN** |

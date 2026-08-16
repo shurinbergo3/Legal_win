@@ -22,17 +22,17 @@ schema: Article
 
 # Karta Pobytu Appointment in Warsaw 2026: Termin and MOS v2.0
 
-Every week people come to us with the same question: how do I catch an appointment to submit my karta pobytu documents in Warsaw. In their heads sits the old picture - inPOL, where you sat at the screen at night hunting for a free slot. That picture is out of date. Since December 2025 the filing moved online, and the "appointment to submit" as a thing is gone. What remains is a single real in-person date - the termin (visit date) for biometrics.
+Every week people come to us with the same question: how do I catch an appointment to submit my karta pobytu documents in Warsaw. In their heads sits the old picture - inPOL, where you sat at the screen at night hunting for a free slot. That picture is out of date. Since 27 April 2026 the filing moved online, and the "appointment to submit" as a thing is gone. What remains is a single real in-person date - the termin (visit date) for biometrics.
 
-In short: since 1 December 2025, the karta pobytu application is filed online through MOS v2.0, and there is no queue to hunt for - you send the wniosek (application) from home. There is now only one in-person termin, for biometrics, and the Mazowiecki Urząd assigns it itself, usually 30-60 days after the UPO (electronic confirmation of receipt). A decyzja (decision) in Mazovia in 2026 takes 8-14 months.
+In short: since 27 April 2026, the karta pobytu application is filed online through MOS v2.0, and there is no queue to hunt for - you send the wniosek (application) from home. There is now only one in-person termin, for biometrics, and the Mazowiecki Urząd assigns it itself, usually 30-60 days after the UPO (electronic confirmation of receipt). A decyzja (decision) in Mazovia in 2026 takes 8-14 months.
 
 What follows is the practical, step-by-step version.
 
 ## What changed: "booking" is no longer a queue
 
-Until December 2025, submitting karta pobytu documents in Mazovia really was a race against the clock. The inPOL system released a limited number of in-person slots, they vanished within minutes, and people spent months "hunting for an appointment" just to hand a folder of documents over a counter. Hence the search people still arrive with: "karta pobytu appointment Warsaw".
+Until 27 April 2026, submitting karta pobytu documents in Mazovia really was a race against the clock. The inPOL system released a limited number of in-person slots, they vanished within minutes, and people spent months "hunting for an appointment" just to hand a folder of documents over a counter. Hence the search people still arrive with: "karta pobytu appointment Warsaw".
 
-Since 1 December 2025, inPOL has been shut down. All residence applications - karta czasowego pobytu, karta stałego pobytu, karta CUKR, extensions, change-of-employer notifications - are filed exclusively through MOS v2.0 (mos.cudzoziemcy.gov.pl). Filing is now fully electronic. That means:
+Since 27 April 2026, inPOL has been shut down. All residence applications - karta czasowego pobytu, karta stałego pobytu, karta CUKR, extensions, change-of-employer notifications - are filed exclusively through MOS v2.0 (mos.cudzoziemcy.gov.pl). Filing is now fully electronic. That means:
 
 - To file the wniosek, you need no in-person visit at all. You fill it in and send it online.
 - There are no "submission slots" left to hunt for. You can file any day, even at three in the morning.
@@ -116,7 +116,7 @@ You can file a first wniosek through MOS v2.0 yourself if the basis is simple (w
 
 It is worth going to a lawyer if: you are applying on the basis of family or business, there was a refusal or a returned wniosek in the past, your employer is hiring a foreigner for the first time, you have nuances (an overstayed visa, a trip during examination, a change of employer), the termin or decyzja are dragging on abnormally, or you simply want an outcome rather than an attempt. Check the timing separately if the end of your old card is approaching - see the piece on [extending the karta pobytu in 2026: when to file](/en/blog/karta-pobytu-prodlenie-2026-kogda-podavat).
 
-At LegalWin we have handled legalisation in Poland since 2019, and MOS v2.0 since its launch in December 2025. We run the case from the first consultation to the złożenie of a correctly prepared wniosek, watch eDoręczenia for you, monitor the biometrics termin, and prepare a ponaglenie if things drag. If you want to know the budget in advance, see the breakdown of [how much a karta pobytu costs in Warsaw in 2026](/en/blog/skolko-stoit-karta-pobytu-varshava-2026).
+At LegalWin we have handled legalisation in Poland since 2019, and MOS v2.0 since its launch in 27 April 2026. We run the case from the first consultation to the złożenie of a correctly prepared wniosek, watch eDoręczenia for you, monitor the biometrics termin, and prepare a ponaglenie if things drag. If you want to know the budget in advance, see the breakdown of [how much a karta pobytu costs in Warsaw in 2026](/en/blog/skolko-stoit-karta-pobytu-varshava-2026).
 
 [Book a karta pobytu consultation →](/en/uslugi/karta-pobytu#contact)
 

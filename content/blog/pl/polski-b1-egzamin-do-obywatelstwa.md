@@ -88,7 +88,7 @@ Rejestracja otwiera się 3 miesiące przed i zamyka 6 tygodni przed. Miejsca ko�
 |---|---|
 | Rejestracja na egzamin | 150 EUR (~640 PLN) |
 | Powtórne zdanie (po niezdaniu) | 150 EUR pełnej kwoty |
-| Pisemna kopia certyfikatu | 60 PLN (z apostille MSZ - +60 PLN) |
+| Pisemna kopia certyfikatu | 60 zł (z apostille MSZ - +60 zł) |
 | Pilne wydanie | +50% |
 
 **Termin wydania certyfikatu** - 6-8 tygodni po egzaminie. Zalecamy zdawać minimum 6 miesięcy przed wnioskiem o obywatelstwo, aby mieć bufor na ewentualne powtórne podejście.

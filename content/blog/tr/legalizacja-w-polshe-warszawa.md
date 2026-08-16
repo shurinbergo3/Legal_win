@@ -67,7 +67,7 @@ Yeni gelenlerin en sık yaptığı hata bu 4 maddeyi "sonraya" bırakmak. 3 ay s
 
 ## Adım 2. Karta czasowego pobytu - ilk oturum izni
 
-Bu, altı aydan uzun kalacak herkes için anahtar belgedir. Başvuru, Aralık 2025'ten itibaren `inPOL`'un yerine geçen **`MOS v2.0`** *(yabancılar için yeni e-başvuru sistemi)* (mos.cudzoziemcy.gov.pl) üzerinden yapılır. Adımların ayrıntılı analizi için [karta pobytu rehberimize](/tr/blog/karta-pobytu-2026-poshagovaya-instrukciya) bakın.
+Bu, altı aydan uzun kalacak herkes için anahtar belgedir. Başvuru, 27 Nisan 2026'ten itibaren `inPOL`'un yerine geçen **`MOS v2.0`** *(yabancılar için yeni e-başvuru sistemi)* (mos.cudzoziemcy.gov.pl) üzerinden yapılır. Adımların ayrıntılı analizi için [karta pobytu rehberimize](/tr/blog/karta-pobytu-2026-poshagovaya-instrukciya) bakın.
 
 2026'da Mazowieckie eyaletinde önemli noktalar:
 

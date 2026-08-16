@@ -38,7 +38,7 @@ O jego istnieniu przypomina się zwykle w niewygodnym momencie: trzy dni przed t
 | Programy partnerskie, procesy vendorowe | według wymogu kontrahenta |
 | Sprzedaż spółki | standardowy element pakietu |
 
-W zamówieniach publicznych bywa pułapka: **samo zaświadczenie dla spółki nie wystarcza**. Zamawiający weryfikuje również osoby fizyczne - członków zarządu, prokurenta, a w spółkach osobowych wspólników albo komplementariuszy. Gdy w zarządzie zasiada cudzoziemiec, do polskiego zaświadczenia dochodzi dokument z państwa obywatelstwa. [Jak to przeprowadzić](/pl/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+W zamówieniach publicznych bywa pułapka: **samo zaświadczenie dla spółki nie wystarcza**. Zamawiający weryfikuje również osoby fizyczne - członków zarządu, prokurenta, a w spółkach osobowych wspólników albo komplementariuszy. Gdy w zarządzie zasiada cudzoziemiec, do polskiego zaświadczenia dochodzi dokument z państwa obywatelstwa. [Jak to przeprowadzić](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 
 ## Różnica wobec zaświadczenia dla osoby
 
@@ -82,7 +82,7 @@ Wniosek praktyczny: zaświadczenie zamawia się pod konkretny termin. Koszt 20-3
 ## Zakres naszej pracy
 
 1. **Ustalenie pełnej listy dokumentów.** Niemal zawsze potrzebny jest komplet: spółka oraz każda osoba zarządzająca, a przy cudzoziemcach także zaświadczenia krajowe.
-2. **Uzyskanie zaświadczeń** dla spółki i osób fizycznych, również gdy członek zarządu nie ma numeru PESEL: [zaświadczenie z KRK bez PESEL](/pl/blog/krk-dlya-inostranca-bez-pesel-2026).
+2. **Uzyskanie zaświadczeń** dla spółki i osób fizycznych, również gdy członek zarządu nie ma numeru PESEL: [zaświadczenie z KRK bez PESEL](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 3. **Apostille albo legalizacja konsularna** przy obrocie zagranicznym.
 4. **Tłumaczenie przysięgłe** po apostille, nie przed.
 5. **Skompletowanie pakietu przetargowego** - zaświadczenia, odpis z KRS, zaświadczenia o niezaleganiu z US i ZUS.

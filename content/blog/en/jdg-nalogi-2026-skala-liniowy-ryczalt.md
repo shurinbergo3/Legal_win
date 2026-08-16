@@ -92,9 +92,9 @@ Here składka does not track your actual income - it is fixed, tied to annual re
 
 | Annual revenue | Monthly składka zdrowotna 2026 (guideline) |
 |----------------|--------------------------------------------|
-| up to 60,000 zł | about 470 zł |
-| 60,000 - 300,000 zł | about 780 zł |
-| over 300,000 zł | about 1,400 zł |
+| up to 60,000 zł | 498.35 zł |
+| 60,000 - 300,000 zł | 830.58 zł |
+| over 300,000 zł | 1,495.04 zł |
 
 The exact amounts are indexed to the average wage in Q4 of the prior year, so by 2026 they sit slightly above the figures above. The logic holds either way: on ryczałt the składka is predictable. Earn 250,000 zł in a year with low costs and you pay the middle bracket, which is often cheaper than 9% of the same sum on skala.
 
@@ -143,28 +143,6 @@ The classic mistake among our clients: they register the JDG, drift along on ska
 Before you count taxes, check that you are allowed a JDG. Not every foreigner can register one. The right belongs to EU citizens, holders of a karta stałego pobytu (permanent residence card), holders of long-term EU resident status (rezydent długoterminowy UE), holders of a karta Polaka (Pole's Card), and some holders of a karta czasowego pobytu (temporary residence card) on specific grounds (for example, marriage to a Polish citizen or study on certain grounds). If your basis is not on the list, JDG is closed to you and the way into business runs through a sp. z o.o. We covered this in detail in the article on [JDG for foreigners in Poland](/en/blog/jdg-dlya-inostrancev-v-polshe), and the choice between business forms in [JDG or sp. z o.o.: what foreigners should choose](/en/blog/jdg-ili-sp-z-oo-chto-vybrat-inostrancu-2026).
 
 Keep the składka reform in mind too - the details and transitional rules are in our piece on the [składka zdrowotna 2026 reform](/en/blog/skladka-zdrowotna-2026-reforma). And do not forget KSeF: from February 2026 electronic invoices become mandatory, and that hits a JDG on any tax form ([what KSeF and e-faktury mean](/en/blog/ksef-luty-2026-e-faktury)).
-
----
-
-## Frequently Asked Questions
-
-**What is better for a programmer - ryczałt or liniowy?**
-In most cases ryczałt at 12% on turnover beats liniowy at 19% on profit, because an IT specialist has few costs and the składka on ryczałt is fixed. Liniowy makes sense if you carry large costs or run a team of subcontractors. The precise answer comes from a calculation on your own przychód and koszty.
-
-**Does the 30,000 zł kwota wolna apply on ryczałt and liniowy?**
-No. The 30,000 zł tax-free amount exists only on skala podatkowa. On podatek liniowy and ryczałt it does not apply - tax there is charged from the first złoty of income or revenue respectively.
-
-**What is the minimum składka zdrowotna in 2026?**
-Roughly 314-432 zł a month for skala and liniowy, depending on the new rules for the minimum base after the 2026 reform. On ryczałt the składka is not a minimum but a fixed amount across three revenue brackets: about 470, 780 and 1,400 zł a month.
-
-**By what date can the tax form be changed?**
-By 20 February (do 20 lutego) of the year you want the new form to cover. The change applies to that whole year from 1 January. Miss the deadline and you wait until the next year.
-
-**Can costs be deducted on ryczałt?**
-No. On ryczałt tax is charged on revenue (przychód), and costs are not deducted at all. That is why ryczałt pays off with a high margin and low expenses, and loses to skala and liniowy - where tax is charged on profit - when costs are large.
-
-**Can the tax form be changed mid-year?**
-No, only once a year and only by 20 February. You cannot switch mid-year - you finish the year on the current form and plan the change for the next tax period.
 
 ---
 

@@ -2,7 +2,7 @@
 slug: kod-95-polsha-kak-poluchit
 title: 'Kod 95 w Polsce 2026: dla kogo i jak uzyskać'
 description: >-
-  Kod 95 dla kat. C, D, C+E, D+E: KWP za 2 800 PLN lub Szkolenie Okresowe za 900
+  Kod 95 dla kat. C, D, C+E, D+E: KWP za 3 700 PLN lub Szkolenie Okresowe za 900
   PLN, 3 miesiące, dokumenty dla cudzoziemców z WNP.
 locale: pl
 publishDate: 2026-03-02T00:00:00.000Z
@@ -24,7 +24,7 @@ schema: Article
 
 Kod 95 to wpis „95" w polskim prawie jazdy, bez którego nie możesz pracować zawodowo jako kierowca ciężarówki (kat. C, C+E) ani autobusu (D, D+E) - ani w Polsce, ani w żadnym innym kraju UE. Przyjeżdżasz z Ukrainy, Białorusi lub innego kraju WNP z prawem jazdy kat. C i chcesz pracować w transporcie? Kod 95 jest obowiązkowy - i to niezależnie od wymiany prawa jazdy na polskie.
 
-Poniżej: dla kogo jest, dwie drogi uzyskania (szybsza za 2 800 PLN z egzaminem lub spokojniejsza za 900 PLN bez egzaminu), ile to zajmuje w Mazowieckim i jakie pułapki czekają kierowców-cudzoziemców.
+Poniżej: dla kogo jest, dwie drogi uzyskania (szybsza za 3 700 PLN z egzaminem lub spokojniejsza za 900 PLN bez egzaminu), ile to zajmuje w Mazowieckim i jakie pułapki czekają kierowców-cudzoziemców.
 
 ## Czym jest Kod 95
 
@@ -55,7 +55,7 @@ Dla tych, którzy kategorię C uzyskali **po 10 września 2009 r.** (dla D - po 
 
 - **Czas trwania:** 140 godzin (ok. miesiąca intensywnych zajęć)
 - **Program:** teoria + praktyka na ciągnikach + symulator warunków ekstremalnych
-- **Koszt:** 2 800-3 200 PLN w Mazowieckim w 2026
+- **Koszt:** 3 600-3 800 PLN w Mazowieckim w 2026
 - **Na końcu:** państwowy egzamin teoretyczny w WORD
 - **Minimalny wiek:** 18 lat (C1), 21 lat (C), 24 lata (D)
 
@@ -65,7 +65,7 @@ Dla tych, którzy kategorię C uzyskali **przed 10 września 2009 r.** (dla D - 
 
 - **Czas trwania:** 35 godzin (5 dni)
 - **Program:** tylko zajęcia teoretyczne (zmiany przepisów, eco-driving, bezpieczeństwo)
-- **Koszt:** 800-1 100 PLN w Mazowieckim w 2026
+- **Koszt:** 700-900 PLN w Mazowieckim w 2026
 - **Na końcu:** świadectwo kwalifikacji na podstawie obecności - **bez egzaminu**
 - **Warunek:** co najmniej 5 lat stażu w danej kategorii
 
@@ -74,9 +74,9 @@ Dla tych, którzy kategorię C uzyskali **przed 10 września 2009 r.** (dla D - 
 | Dla kogo | Kat. C/D po 2009 r. | Kat. C/D przed 2009 r. |
 | Godzin | 140 | 35 |
 | Czas trwania | 4-6 tygodni | 5-7 dni |
-| Koszt kursu | 2 800-3 200 PLN | 800-1 100 PLN |
+| Koszt kursu | 3 600-3 800 PLN | 700-900 PLN |
 | Egzamin w WORD | tak | nie |
-| Łączny koszt z egzaminem i plastikiem | ~3 250 PLN | ~1 350 PLN |
+| Łączny koszt z egzaminem i plastikiem | ~4 200 PLN | ~1 250 PLN |
 
 Większość klientów z krajów WNP trafia na ścieżkę KWP. Jeśli kategorię C uzyskałeś jeszcze za czasów radzieckich i była ona później przekwalifikowana w Ukrainie lub Białorusi bez zerowania daty - czasem udaje się iść przez SO. To ustala urząd przy weryfikacji dokumentów.
 
@@ -84,9 +84,9 @@ Większość klientów z krajów WNP trafia na ścieżkę KWP. Jeśli kategorię
 
 Zanim zapiszesz się na kurs, musisz mieć dwa zaświadczenia.
 
-**Badania lekarskie** dla zawodowych kierowców to osobna procedura od zwykłej komisji na prawo jazdy. Wykonuje je **lekarz uprawniony do badań kierowców** (nie każdy internista). Obejmują: badanie ogólne, wzrok, słuch, ciśnienie, czasem EKG. Koszt w Warszawie: 200-280 PLN. Ważność: 5 lat do 60. roku życia, później co 30 miesięcy.
+**Badania lekarskie** dla zawodowych kierowców to osobna procedura od zwykłej komisji na prawo jazdy. Wykonuje je **lekarz uprawniony do badań kierowców** (nie każdy internista). Obejmują: badanie ogólne, wzrok, słuch, ciśnienie, czasem EKG. Stawka jest ustawowa: 200 PLN, więcej pobrać nie wolno. Ważność: 5 lat do 60. roku życia, później co 30 miesięcy.
 
-**Badania psychologiczne** przeprowadza **psycholog uprawniony do badań kierowców** w licencjonowanym ośrodku. Zakres: test czasu reakcji (psychotechnika), test koncentracji uwagi, kwestionariusz osobowości. Trwa 1-2 godziny. Koszt: 130-180 PLN. Ważność: 5 lat.
+**Badania psychologiczne** przeprowadza **psycholog uprawniony do badań kierowców** w licencjonowanym ośrodku. Zakres: test czasu reakcji (psychotechnika), test koncentracji uwagi, kwestionariusz osobowości. Trwa 1-2 godziny. Stawka również ustawowa: 150 PLN. Ważność: 5 lat.
 
 Większość ośrodków szkolenia kierowców (OSK) w Warszawie umawia oba badania tego samego dnia - w swoim gabinecie lub u partnera. To wygodniejsze niż szukanie każdego oddzielnie.
 
@@ -121,11 +121,11 @@ Kurs odbywa się przez ok. miesiąc, po 8 godzin dziennie. Nieobecność na pona
 
 ## Krok 4. Egzamin w WORD (tylko KWP)
 
-Po zakończeniu kursu OSK wystawia zaświadczenie i zapisuje cię na teoretyczny egzamin państwowy w WORD. Format: komputerowy, 65 pytań, 60 minut.
+Po zakończeniu kursu OSK wystawia zaświadczenie i zapisuje cię na teoretyczny egzamin państwowy w WORD. Format: komputerowy, 30 pytań, 45 minut.
 
-- 20 pytań ogólnych (jak w szkole nauki jazdy)
-- 45 pytań specjalistycznych (tachograf, przewóz materiałów niebezpiecznych, czas pracy, ubezpieczenia, przeglądy techniczne)
-- Próg zdania: 51 poprawnych odpowiedzi z 65
+- 20 pytań z części podstawowej (przepisy ogólne, czas pracy, bezpieczeństwo)
+- 10 pytań z części specjalistycznej - dla twojej kategorii: C/C+E albo D/D+E
+- Próg zdania: 16 poprawnych z 20 w części podstawowej i 5 z 10 w specjalistycznej
 - Języki: polski, rosyjski, ukraiński, angielski (do wyboru przy rejestracji)
 - Koszt jednej próby: 50 PLN
 - Oblanie - poprawka po 7 dniach, ta sama opłata
@@ -164,12 +164,12 @@ Jeśli jednocześnie wymieniasz prawo jazdy na polskie (bo przyjechałeś z ukra
 
 | Pozycja | KWP | Szkolenie Okresowe |
 |---|---|---|
-| Badania lekarskie | 200-280 PLN | 200-280 PLN |
-| Badania psychologiczne | 130-180 PLN | 130-180 PLN |
-| Kurs w OSK | 2 800-3 200 PLN | 800-1 100 PLN |
+| Badania lekarskie | 200 PLN | 200 PLN |
+| Badania psychologiczne | 150 PLN | 150 PLN |
+| Kurs w OSK | 3 600-3 800 PLN | 700-900 PLN |
 | Egzamin w WORD | 50 PLN (jedna próba) | - |
 | Plastik nowego prawa jazdy | 100,50 PLN | 100,50 PLN |
-| **Łącznie** | **3 280-3 810 PLN** | **1 230-1 660 PLN** |
+| **Łącznie** | **4 100-4 300 PLN** | **1 150-1 350 PLN** |
 
 Różnice między OSK w Warszawie sięgają 500-700 PLN za ten sam w istocie kurs. Ale zanim wybierzesz najtańszą opcję, sprawdź język wykładowy - jeśli twój polski jest poniżej B2, oszczędność 500 PLN może kosztować oblanie kursu.
 

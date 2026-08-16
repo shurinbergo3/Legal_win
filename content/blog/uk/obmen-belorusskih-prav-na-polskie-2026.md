@@ -111,7 +111,7 @@ Wymiana białoruskiego prawa jazdy (обмін білоруського посв
 **Додатково для категорій C, D, C+E, D+E:**
 
 - Чинні badania lekarskie (медична довідка) від lekarza uprawnionego - 180-250 PLN
-- Чинні badania psychologiczne (психологічна довідка) - 130-180 PLN
+- Чинні badania psychologiczne (психологічна довідка) - 150 PLN
 - Свідоцтво про Kod 95 - для професійного водіння
 
 **Якщо змінювали прізвище:**
@@ -128,7 +128,7 @@ Wymiana białoruskiego prawa jazdy (обмін білоруського посв
 | Tłumaczenie przysięgłe (з білоруської) | 80-110 PLN |
 | Apostille (якщо потрібен для старих прав) | ~60 PLN + час |
 | Badania lekarskie (тільки для C/D або прострочених) | 180-250 PLN |
-| Badania psychologiczne (тільки для C/D) | 130-180 PLN |
+| Badania psychologiczne (тільки для C/D) | 150 PLN |
 | **Разом для cat. B** | **180-260 PLN** |
 | **Разом для cat. B з apostille** | **вище за рахунок apostille і часу** |
 | **Разом для cat. C/D з медициною** | **490-740 PLN** |

@@ -34,7 +34,7 @@ Many clients come in asking how to "renew" their card. There is no such procedur
 
 In practice this means:
 
-- **A new wniosek through MOS v2.0** - the old inPOL system has been off since December 2025
+- **A new wniosek through MOS v2.0** - the old inPOL system has been off since 27 April 2026
 - **Current documents** - ZUS statements, PIT-11 for the latest tax year, an updated employment contract or business confirmation
 - **Full fee package** - the same 340 PLN stamp duty plus 100 PLN for the physical card
 - **New biometrics** - fingerprints have to be taken again, just like the first time
@@ -83,7 +83,7 @@ Typical changes:
 
 Base package in 2026:
 
-- Wniosek on the form dated 1 grudnia 2025 (MOS v2.0 only)
+- Wniosek on the form dated 27 kwietnia 2026 (MOS v2.0 only)
 - Passport plus copies of all pages
 - 4 biometric photos 35×45 mm
 - Proof of accommodation - umowa najmu or meldunek (current address registration)
@@ -113,7 +113,7 @@ For JDG (jednoosobowa działalność gospodarcza, sole proprietorship):
 
 ## Filing through MOS v2.0
 
-Since December 2025, the only filing channel is mos.cudzoziemcy.gov.pl. The logic is the same as for a first-time application, with one technical detail: in the wniosek you must tick the "kontynuacja zezwolenia" (continuation of permit) box and enter the number of your previous decyzja (decision).
+Since 27 April 2026, the only filing channel is mos.cudzoziemcy.gov.pl. The logic is the same as for a first-time application, with one technical detail: in the wniosek you must tick the "kontynuacja zezwolenia" (continuation of permit) box and enter the number of your previous decyzja (decision).
 
 What people often forget:
 

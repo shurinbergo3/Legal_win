@@ -104,7 +104,7 @@ Booking — via the warszawa19115.pl portal or the Warszawa 19115 app. Section: 
 **For categories C, D, C+E, D+E:**
 
 - Valid badania lekarskie (180-250 PLN)
-- Valid badania psychologiczne (130-180 PLN)
+- Valid badania psychologiczne (150 PLN)
 - A Kod 95 certificate for professional driving
 
 ## What it costs
@@ -116,7 +116,7 @@ Booking — via the warszawa19115.pl portal or the Warszawa 19115 app. Section: 
 | Tłumaczenie przysięgłe of the licence (from Russian) | 70-110 PLN |
 | Apostille (if required) | about 60 PLN + time |
 | Badania lekarskie (only for C/D or expired) | 180-250 PLN |
-| Badania psychologiczne (only for C/D) | 130-180 PLN |
+| Badania psychologiczne (only for C/D) | 150 PLN |
 | **Total for cat. A/B (new licence)** | **180-270 PLN** |
 | **Total for cat. C/D with examinations** | **490-740 PLN** |
 

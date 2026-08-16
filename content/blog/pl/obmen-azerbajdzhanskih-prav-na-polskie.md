@@ -85,7 +85,7 @@ Azerbejdżan plasuje się bliżej Gruzji i Białorusi w skali złożoności - g�
 **Dla kategorii C, D, C+E, D+E:**
 
 - Aktualne badania lekarskie od lekarza uprawnionego (180-250 PLN)
-- Aktualne badania psychologiczne (130-180 PLN)
+- Aktualne badania psychologiczne (150 PLN)
 - Świadectwo Kodu 95, jeśli planujesz pracę zawodowego kierowcy
 
 ## Specyfika tłumaczenia
@@ -130,7 +130,7 @@ Rezerwacja przez warszawa19115.pl lub aplikację Warszawa 19115. Sekcja: „Wydz
 | Tłumaczenie przysięgłe | 70-120 PLN |
 | Apostille MSZ Azerbejdżanu (jeśli wymagany) | ~60 PLN ekwiwalentu |
 | Badania lekarskie (tylko C/D lub przeterminowane prawa) | 180-250 PLN |
-| Badania psychologiczne (tylko C/D) | 130-180 PLN |
+| Badania psychologiczne (tylko C/D) | 150 PLN |
 | **Razem dla kat. A/B (po 2017)** | **170-220 PLN** |
 | **Razem dla kat. A/B (przed 2017 z apostille)** | **230-280 PLN** |
 | **Razem dla kat. C/D z badaniami** | **480-680 PLN** |

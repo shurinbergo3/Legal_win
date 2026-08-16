@@ -68,7 +68,7 @@ Müvekkillerimize hep aynı şeyi söylüyoruz ve bu telaş değil, aritmetik me
 
 **Hâlâ karta czasowego pobytu'daysanız** öncelik vatandaşlık değil, süresiz statüdür; sayaç oradan başlar. İki güzergâh: Polonya ile bağlara dayanan [karta stałego pobytu](/tr/uslugi/karta-stalego-pobytu) ve süre ile gelire dayanan [AB mukim statüsü](/tr/uslugi/rezydent-ue). İkincisi hafife alınır ve çoğu kez daha erişilebilirdir.
 
-**Polonya kökeniniz varsa** yol daha kısadır; bunu [Polonya kökenine dayalı daimi ikamet yazısında](/tr/blog/pmzh-po-polskomu-proishozhdeniyu-2026) ele alıyoruz.
+**Polonya kökeniniz varsa** yol daha kısadır ve [daimi ikamet](/tr/uslugi/karta-stalego-pobytu) üzerinden ilerler.
 
 Geçiş hükümleri ayrı bir başlık. Tasarıların hiçbiri, yürürlükten önce açılmış dosyaların eski kurallara göre sonuçlanacağını bugün garanti etmiyor. Polonya yasama pratiği derdest işlemleri genelde korur, ancak bunu kesinlik saymak tedbirsizlik olur.
 

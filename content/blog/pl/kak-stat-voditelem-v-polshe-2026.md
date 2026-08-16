@@ -65,7 +65,7 @@ Kluczowe liczby:
 - Terminy: dla ukraińskiego prawa jazdy - **30-60 dni**, dla białoruskiego - **60-90 dni** (zależy od odpowiedzi MSW kraju wydania).
 - Ukraina i Białoruś należą do Konwencji Wiedeńskiej, więc wymiana odbywa się bez egzaminów.
 
-Osobno po krajach opisaliśmy proces w trzech materiałach: [ogólny przewodnik po wymianie](/pl/blog/obmen-prav-na-polskie-2026), [wymiana ukraińskiego prawa jazdy](/pl/blog/obmen-prav-na-polskie-2026) i [wymiana białoruskiego prawa jazdy](/pl/blog/obmen-prav-na-polskie-2026). Obsługa - w usłudze [wymiana prawa jazdy](/pl/uslugi/wymiana-prawa-jazdy).
+Cały proces krok po kroku opisaliśmy w [przewodniku po wymianie prawa jazdy](/pl/blog/obmen-prav-na-polskie-2026). Obsługa - w usłudze [wymiana prawa jazdy](/pl/uslugi/wymiana-prawa-jazdy).
 
 Ważny niuans dla Ukraińców: z PESEL UKR ukraińskie prawo jazdy pozostaje ważne do **prywatnej** jazdy do końca ochrony czasowej (obecny termin - marzec 2027). Ale żeby **pracować** jako kierowca, polskie prawo jazdy plus Kod 95 i karta kierowcy są potrzebne i tak. Więcej o pułapce 185 dni - w analizie [reguła 185 dni i mandaty ITD](/pl/blog/pravilo-185-dney-itd-shtrafy).
 

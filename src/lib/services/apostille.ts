@@ -12,14 +12,14 @@ const apostille: ServiceEntry = {
     facts: [
       { label: 'Срок', value: '1-3 недели', note: 'apostille MSZ · обычная очередь' },
       { label: 'Госпошлина', value: '60 PLN', note: 'за один apostille' },
-      { label: 'Где ставится', value: 'MSZ Warszawa', note: '+ wojewoda для USC' },
+      { label: 'Где ставится', value: 'MSZ Warszawa', note: 'ul. Krucza 38/42, по записи' },
       { label: 'Действует', value: 'бессрочно', note: 'для документа без срока' }
     ],
     grounds: {
       title: 'На какие документы ставится apostille',
       subtitle: 'Согласно Конвенции Гаага 1961 - на публичные документы. Для коммерческих - нужна предварительная нотариальная заверка.',
       items: [
-        { title: 'Свидетельства USC', desc: 'Akt urodzenia, małżeństwa, zgonu - apostille ставит wojewoda по месту выдачи документа.' },
+        { title: 'Свидетельства USC', desc: 'Akt urodzenia, małżeństwa, zgonu - apostille ставит MSZ. Нужен свежий бумажный odpis с печатью и подписью, распечатка из ePUAP не подойдёт.' },
         { title: 'Нотариальные акты', desc: 'Akt notarialny, pełnomocnictwo, oświadczenie - apostille MSZ после legalizacji izby notarialnej.' },
         { title: 'Выписки из KRS / CEIDG', desc: 'Полные выписки регистров для регистрации фирмы за рубежом, открытия счёта или сделок.' },
         { title: 'Свидетельства о несудимости (KRK)', desc: 'Zaświadczenie z Krajowego Rejestru Karnego - для рабочих виз, гражданства, ВНЖ за рубежом.' },
@@ -35,8 +35,8 @@ const apostille: ServiceEntry = {
       steps: [
         { title: 'Консультация', duration: '20 мин', desc: 'Уточняем тип документа, страну использования, наличие предварительной заверки (notariusz, izba notarialna). Для диплома вуза - отдельный маршрут через NAWA.' },
         { title: 'Подготовка документа', duration: '1-7 дней', desc: 'Получаем актуальный odpis (для USC, KRS, KRK), при необходимости - нотариальная заверка перевода или копии.' },
-        { title: 'Подача в MSZ или wojewodу', duration: '1 день', desc: 'Подаём через e-Apostille MSZ (онлайн) или физически в Warszawa, ul. Krucza 38/42. Для USC - wojewoda по месту выдачи.' },
-        { title: 'Постановка apostille', duration: '5-15 дней', desc: 'MSZ ставит apostille с уникальным номером, проверяемым онлайн. Сроки зависят от загрузки и способа подачи. Для срочных - express tariff (+50%).' },
+        { title: 'Подача в MSZ', duration: '1 день', desc: 'Записываемся через legalizacja.msz.gov.pl и подаём лично в Warszawa, ul. Krucza 38/42. Слоты открываются утром каждый рабочий день. Электронного апостиля в Польше нет - только бумажный оригинал.' },
+        { title: 'Постановка apostille', duration: 'в день визита', desc: 'При личной подаче апостиль ставят во время визита, до 10 документов на человека в день. Если отправляем почтой на al. Szucha 23 - до 30 дней. Экспресс-тарифа у MSZ не существует.' },
         { title: 'Курьерская доставка', duration: '1-2 дня', desc: 'Отправляем оригинал DHL Express в любую страну мира или передаём лично в Варшаве.' },
         { title: 'Перевод (если нужен)', duration: '2-3 дня', desc: 'Присяжный перевод apostille и документа на язык страны использования.' }
       ]
@@ -57,7 +57,7 @@ const apostille: ServiceEntry = {
     },
     pricing: {
       title: 'Стоимость работы',
-      subtitle: 'Apostille MSZ - 60 PLN/документ, wojewoda - 60 PLN. Express +50%.',
+      subtitle: 'Госпошлина - 60 PLN за документ, платится отдельно в Centrum Obsługi Podatnika.',
       items: [
         { label: 'Консультация', value: 'Бесплатно', note: '20 минут · оценка ситуации' },
         { label: 'Apostille под ключ', value: 'от 250 PLN', note: 'MSZ + курьер · 1-3 недели' },
@@ -79,10 +79,10 @@ const apostille: ServiceEntry = {
     faq: [
       { q: 'В каких странах apostille заменяет легализацию?', a: 'Во всех странах Гаагской конвенции 1961 г. - это около 130 государств: ЕС, США, Канада (с 2024), Великобритания, Россия, Украина (с 2003), Беларусь, Казахстан, Турция, Япония, Корея, Бразилия и др. Для документов между этими странами достаточно одного apostille (апостиля).' },
       { q: 'Что делать для стран вне Конвенции (Китай, ОАЭ, Канада до 2024)?', a: 'Полная легализация: 1) нотариальная заверка → 2) izba notarialna (нотариальная палата, для нотариальных актов) → 3) MSZ (МИД Польши) → 4) консульство страны назначения в Польше. Цикл - 2-4 недели, стоимость 750+ PLN наших + консульские сборы.' },
-      { q: 'Сколько по факту стоит apostille в Польше?', a: 'Госпошлина MSZ (МИД Польши) - 60 PLN/документ. Если документ - нотариальный акт, нужна сначала заверка izby notarialnej (нотариальной палаты, 26 PLN). Наш гонорар - от 250 PLN под ключ. Для USC apostille ставит wojewoda (воевода) - те же 60 PLN.' },
+      { q: 'Сколько по факту стоит apostille в Польше?', a: 'Госпошлина MSZ (МИД Польши) - 60 PLN/документ. Если документ - нотариальный акт, нужна сначала заверка izby notarialnej (нотариальной палаты, 26 PLN). Наш гонорар - от 250 PLN под ключ. Свидетельства USC апостилирует тот же MSZ - те же 60 PLN за документ.' },
       { q: 'Можно ли поставить apostille на копию?', a: 'Нет - только на оригинал или нотариально заверенную копию. Для документов, которые нельзя сдавать (диплом, оригинал свидетельства), делаем notarialną kopię (нотариальную копию) и на неё ставим apostille.' },
       { q: 'Apostille действует бессрочно?', a: 'Да, сам apostille (апостиль) не имеет срока. Но многие документы имеют свой срок: KRS-выписка - 3 месяца, KRK (справка о несудимости) - 6 месяцев. Делайте apostille сразу после получения свежего odpisu (выписки).' },
-      { q: 'Как проверить подлинность apostille?', a: 'На сайте MSZ (МИД Польши, apostille.gov.pl) - по номеру и дате. Это рекомендуем для всех документов из Польши. Аналогично - у других стран Конвенции (через e-Apostille register).' },
+      { q: 'Как проверить подлинность apostille?', a: 'У каждого апостиля есть номер и дата - по ним принимающий орган запрашивает подтверждение в MSZ. Отдельного публичного онлайн-реестра для польских апостилей нет, вопреки тому, что пишут посредники.' },
       { q: 'Нужен ли перевод apostille?', a: 'Сам apostille имеет двуязычный (польский + английский/французский) формат и переводится автоматически. Документ под ним - нужен присяжный перевод на язык страны использования.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
@@ -100,14 +100,14 @@ const apostille: ServiceEntry = {
     facts: [
       { label: 'Termin', value: '1-3 tygodnie', note: 'apostille MSZ · zwykła kolejka' },
       { label: 'Opłata', value: '60 PLN', note: 'za jeden apostille' },
-      { label: 'Gdzie', value: 'MSZ Warszawa', note: '+ wojewoda dla USC' },
+      { label: 'Gdzie', value: 'MSZ Warszawa', note: 'ul. Krucza 38/42, po rezerwacji' },
       { label: 'Ważność', value: 'bezterminowo', note: 'dla dokumentu bez terminu' }
     ],
     grounds: {
       title: 'Na jakie dokumenty apostille',
       subtitle: 'Wg Konwencji Haskiej 1961 - na dokumenty publiczne. Dla handlowych - najpierw notarialne uwierzytelnienie.',
       items: [
-        { title: 'Odpisy USC', desc: 'Akt urodzenia, małżeństwa, zgonu - apostille u wojewody właściwego dla miejsca wystawienia.' },
+        { title: 'Odpisy USC', desc: 'Akt urodzenia, małżeństwa, zgonu - apostille nadaje MSZ. Potrzebny świeży papierowy odpis z pieczęcią i podpisem, wydruk z ePUAP nie wystarczy.' },
         { title: 'Akty notarialne', desc: 'Akt notarialny, pełnomocnictwo, oświadczenie - apostille MSZ po legalizacji w izbie notarialnej.' },
         { title: 'Wypisy KRS / CEIDG', desc: 'Pełne wypisy do rejestracji firm za granicą, otwierania kont i transakcji.' },
         { title: 'Zaświadczenie o niekaralności (KRK)', desc: 'Zaświadczenie z KRK - do wiz pracowniczych, obywatelstwa, TRC za granicą.' },
@@ -123,8 +123,8 @@ const apostille: ServiceEntry = {
       steps: [
         { title: 'Konsultacja', duration: '20 min', desc: 'Ustalamy rodzaj dokumentu, kraj użycia, czy potrzebne wstępne uwierzytelnienie. Dla dyplomu uczelni - osobna ścieżka przez NAWA.' },
         { title: 'Przygotowanie dokumentu', duration: '1-7 dni', desc: 'Pobieramy aktualny odpis, w razie potrzeby - uwierzytelnienie notarialne.' },
-        { title: 'Złożenie w MSZ / u wojewody', duration: '1 dzień', desc: 'Przez e-Apostille MSZ lub osobiście w Warszawie. Dla USC - wojewoda właściwy dla wydania.' },
-        { title: 'Apostille', duration: '5-15 dni', desc: 'MSZ nadaje apostille z numerem do weryfikacji online. Termin zależy od obłożenia i sposobu złożenia. Express +50%.' },
+        { title: 'Złożenie w MSZ', duration: '1 dzień', desc: 'Rezerwujemy termin przez legalizacja.msz.gov.pl i składamy osobiście w Warszawie, ul. Krucza 38/42. Terminy otwierają się rano w dni robocze. Polska nie wydaje apostille elektronicznej - tylko papierowy oryginał.' },
+        { title: 'Apostille', duration: 'w dniu wizyty', desc: 'Przy złożeniu osobistym apostille nadawana jest w trakcie wizyty, do 10 dokumentów na osobę dziennie. Korespondencyjnie na al. Szucha 23 - do 30 dni. MSZ nie ma taryfy ekspresowej.' },
         { title: 'Kurier', duration: '1-2 dni', desc: 'DHL Express w dowolne miejsce na świecie lub osobisty odbiór.' },
         { title: 'Tłumaczenie', duration: '2-3 dni', desc: 'Tłumaczenie przysięgłe na język kraju użycia.' }
       ]
@@ -145,7 +145,7 @@ const apostille: ServiceEntry = {
     },
     pricing: {
       title: 'Wycena',
-      subtitle: 'Apostille MSZ - 60 PLN/dok., wojewoda - 60 PLN. Express +50%.',
+      subtitle: 'Opłata skarbowa - 60 zł za dokument, płatna osobno do Centrum Obsługi Podatnika.',
       items: [
         { label: 'Konsultacja', value: 'Gratis', note: '20 min · ocena' },
         { label: 'Apostille pod klucz', value: 'od 250 PLN', note: 'MSZ + kurier · 1-3 tygodnie' },
@@ -167,10 +167,10 @@ const apostille: ServiceEntry = {
     faq: [
       { q: 'W jakich krajach apostille zastępuje legalizację?', a: 'We wszystkich państwach Konwencji Haskiej 1961 - ok. 130: UE, USA, Kanada (od 2024), UK, Rosja, Ukraina (od 2003), Białoruś, Kazachstan, Turcja, Japonia, Korea, Brazylia. Wystarczy jeden apostille.' },
       { q: 'Co dla państw spoza Konwencji?', a: 'Pełna legalizacja: notariusz → izba notarialna → MSZ → konsulat. Cykl 2-4 tygodnie, koszty od 750 PLN + konsulat.' },
-      { q: 'Realny koszt?', a: 'MSZ 60 PLN/dok. Akt notarialny - najpierw izba notarialna (26 PLN). Honorarium od 250 PLN. USC - wojewoda 60 PLN.' },
+      { q: 'Realny koszt?', a: 'MSZ 60 PLN/dok. Akt notarialny - najpierw izba notarialna (26 PLN). Honorarium od 250 PLN. Odpisy USC - też MSZ, 60 zł.' },
       { q: 'Apostille na kopii?', a: 'Nie - tylko na oryginale lub kopii notarialnej. Dla dokumentów, których nie oddaje się (dyplom) - apostille na kopii notarialnej.' },
       { q: 'Czy apostille jest bezterminowy?', a: 'Tak, sam apostille nie ma terminu. Ale dokumenty mają: KRS - 3 miesiące, KRK - 6 miesięcy.' },
-      { q: 'Jak zweryfikować apostille?', a: 'Na apostille.gov.pl po numerze i dacie. Inne kraje - przez e-Apostille register.' },
+      { q: 'Jak zweryfikować apostille?', a: 'Każda apostille ma numer i datę - na ich podstawie organ przyjmujący potwierdza autentyczność w MSZ. Publicznego rejestru online polskich apostille nie ma, wbrew temu, co piszą pośrednicy.' },
       { q: 'Tłumaczenie apostille?', a: 'Sam apostille jest dwujęzyczny (PL + EN/FR) - nie wymaga tłumaczenia. Dokument pod nim - tłumaczenie przysięgłe na język docelowy.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
@@ -195,7 +195,7 @@ const apostille: ServiceEntry = {
       title: 'What we apostille (and where it actually goes)',
       subtitle: "Hague 1961 covers public documents. We've sent stamped papers to all 50 US states, to Companies House, to Australian DFAT-recognising agencies, and to consulates for non-Hague jurisdictions. Each route is slightly different.",
       items: [
-        { title: 'USC certificates: birth, marriage, death', desc: "Issued by USC (urząd stanu cywilnego), apostille goes through the wojewoda of the issuing region. We pull a fresh odpis zupełny first. Your old certificate from 2015 won't pass at HMRC or an American county clerk." },
+        { title: 'USC certificates: birth, marriage, death', desc: "Issued by USC (urząd stanu cywilnego), apostilled by the MSZ like every other Polish official document. We pull a fresh odpis zupełny first. Your old certificate from 2015 won't pass at HMRC or an American county clerk." },
         { title: 'Notarial acts and powers of attorney', desc: "Akt notarialny gets pre-authenticated at the regional izba notarialna (26 PLN), then MSZ apostille. We use this route weekly for clients selling property abroad or filing pełnomocnictwo with a UK conveyancer." },
         { title: 'KRS and CEIDG extracts', desc: "Company extracts for opening a US bank account, registering a UK subsidiary, or contracting with Saudi state buyers. Fresh wypis only. KRS goes stale at 3 months and KYC officers do check." },
         { title: 'KRK criminal record certificates', desc: "Zaświadczenie z KRK is the standard ask for UK Skilled Worker visas, US green cards, Australian 482 visas, and Canadian PR. KRK ages out at 6 months, so apostille it the day it's issued." },
@@ -207,13 +207,13 @@ const apostille: ServiceEntry = {
     },
     timeline: {
       title: 'How the process actually runs',
-      subtitle: "Most cases are MSZ-only and close in 1-3 weeks. Express MSZ slots exist but they're booked out two weeks ahead, so we plan rather than rush.",
+      subtitle: "Most cases are MSZ-only. The stamp itself is same-day at the counter; what takes time is getting the source document and catching a slot.",
       steps: [
         { title: 'Free 20-min call', duration: '20 min', desc: "We confirm the document type, the receiving country, and which authority back home will see the stamp (court clerk, registrar, bank KYC, embassy). That dictates the chain. A divorce decree for the UK is one thing; the same decree for a Saudi court is another." },
         { title: 'Source document refresh', duration: '1-7 days', desc: "Old certificates rarely fly. We order a fresh odpis from USC (24-48 hours in Warsaw, up to a week if the act is held in another voivodeship), or a current KRS wypis from the registration court." },
         { title: 'Pre-authentication where needed', duration: '1-3 days', desc: "Notarial acts go through izba notarialna. Court papers get the president's clause. University diplomas don't go to MSZ at all — they're apostilled by NAWA on a separate track. Skip the right step and MSZ rejects on the spot." },
-        { title: 'MSZ filing at ul. Krucza 38/42', duration: '1 day', desc: "We file in person at the Warsaw legalisation desk. 60 PLN per stamp, paid at the cashier. The e-Apostille online channel exists for some document classes but it's slower in practice. We use in-person." },
-        { title: 'Apostille issued', duration: '5-15 days', desc: "MSZ stamps with a serial that the receiving authority can verify at e-konsulat.gov.pl. Express is +50% and shaves about a week. Worth it if you're closing a property sale, not worth it for a green card filing." },
+        { title: 'MSZ filing at ul. Krucza 38/42', duration: '1 day', desc: "We book through legalizacja.msz.gov.pl and file in person at the Warsaw legalisation desk. The 60 PLN is an opłata skarbowa paid in advance to Centrum Obsługi Podatnika, not at the counter, and Poland issues no electronic apostille - paper originals only." },
+        { title: 'Apostille issued', duration: 'same day', desc: "Filed in person, the stamp is issued during the visit, capped at 10 documents per person per day. Posted to al. Szucha 23, it takes up to 30 days. MSZ has no express tariff - anyone selling you one is selling their own queueing." },
         { title: 'Translation, courier, or embassy', duration: '2-5 days', desc: "Sworn translation into English (or the destination language) if needed. Apostille itself is bilingual, but the underlying document usually isn't. DHL Express to wherever, or onward to a Warsaw embassy for non-Hague legalisation." }
       ]
     },
@@ -276,14 +276,14 @@ const apostille: ServiceEntry = {
     facts: [
       { label: 'Süre', value: '1-3 hafta', note: 'MSZ apostille · normal kuyruk' },
       { label: 'Resmi harç', value: '60 PLN', note: 'her bir apostille için' },
-      { label: 'Yer', value: 'MSZ Varşova', note: 'USC için ayrıca wojewoda' },
+      { label: 'Yer', value: 'MSZ Varşova', note: 'ul. Krucza 38/42, randevuyla' },
       { label: 'Geçerlilik', value: 'süresiz', note: 'süresiz belgeler için' }
     ],
     grounds: {
       title: 'Hangi belgelere apostille çıkartılır',
       subtitle: '1961 Lahey Sözleşmesi gereği kamusal belgelere. Ticari belgeler için önce noter onayı gereklidir.',
       items: [
-        { title: 'USC nüfus belgeleri', desc: 'Akt urodzenia (doğum), małżeństwa (evlilik), zgonu (ölüm) belgeleri - apostille\'i belgenin verildiği yerin wojewoda\'sı düzenler.' },
+        { title: 'USC nüfus belgeleri', desc: 'Akt urodzenia (doğum), małżeństwa (evlilik), zgonu (ölüm) belgeleri - apostille\'i MSZ vurur. Mühürlü ve imzalı taze kağıt odpis gerekir, ePUAP çıktısı kabul edilmez.' },
         { title: 'Noter senetleri', desc: 'Akt notarialny, pełnomocnictwo (vekaletname), oświadczenie (beyan) - izba notarialna (noterler birliği) onayının ardından MSZ apostille\'i.' },
         { title: 'KRS / CEIDG çıktıları', desc: 'Yurt dışında şirket kuruluşu, hesap açma veya işlem yapmak için tam sicil çıktıları.' },
         { title: 'Adli sicil belgeleri (KRK)', desc: 'Krajowy Rejestr Karny zaświadczenie\'si - yurt dışı çalışma vizesi, vatandaşlık, oturum izni başvuruları için.' },
@@ -299,8 +299,8 @@ const apostille: ServiceEntry = {
       steps: [
         { title: 'Danışmanlık', duration: '20 dk', desc: 'Belge türü, kullanılacak ülke, ön onay durumu (notariusz, izba notarialna) hakkında konuşuyoruz. Üniversite diploması için ayrı yol - NAWA.' },
         { title: 'Belge hazırlığı', duration: '1-7 gün', desc: 'Güncel odpis (USC, KRS, KRK için) alıyor, gerekiyorsa tercüme veya kopya için noter onayı yaptırıyoruz.' },
-        { title: 'MSZ veya wojewoda\'ya başvuru', duration: '1 gün', desc: 'e-Apostille MSZ üzerinden çevrimiçi veya Varşova ul. Krucza 38/42 adresine bizzat. USC için belgenin verildiği yerin wojewoda\'sı.' },
-        { title: 'Apostille düzenlenmesi', duration: '5-15 gün', desc: 'MSZ, çevrimiçi sorgulanabilir benzersiz numarayla apostille basar. Süre yoğunluğa ve başvuru biçimine bağlıdır. Acil işlem için express tarife (+%50).' },
+        { title: 'MSZ\'ye başvuru', duration: '1 gün', desc: 'legalizacja.msz.gov.pl üzerinden randevu alıp Varşova ul. Krucza 38/42 adresine bizzat başvuruyoruz. Kontenjanlar iş günleri sabah açılır. Polonya elektronik apostille vermez - yalnızca kağıt orijinal.' },
+        { title: 'Apostille düzenlenmesi', duration: 'ziyaret günü', desc: 'Şahsen başvuruda apostille ziyaret sırasında verilir, kişi başı günlük 10 belge sınırıyla. al. Szucha 23 adresine postayla gönderilirse 30 güne kadar sürer. MSZ\'de express tarife yoktur.' },
         { title: 'Kurye teslimatı', duration: '1-2 gün', desc: 'Orijinali DHL Express ile dünya çapında gönderiyor veya Varşova\'da bizzat teslim ediyoruz.' },
         { title: 'Tercüme (gerekirse)', duration: '2-3 gün', desc: 'Apostille ve belgenin hedef ülke diline yeminli tercümesi.' }
       ]
@@ -321,7 +321,7 @@ const apostille: ServiceEntry = {
     },
     pricing: {
       title: 'Hizmet bedelimiz',
-      subtitle: 'MSZ apostille\'i belge başına 60 PLN, wojewoda\'da da 60 PLN. Express %50 fazla.',
+      subtitle: 'Devlet harcı belge başına 60 PLN, ayrıca Centrum Obsługi Podatnika hesabına ödenir.',
       items: [
         { label: 'Danışmanlık', value: 'Ücretsiz', note: '20 dakika · durum değerlendirmesi' },
         { label: 'Anahtar teslim apostille', value: '250 PLN\'den', note: 'MSZ + kurye · 1-3 hafta' },
@@ -346,7 +346,7 @@ const apostille: ServiceEntry = {
       { q: 'Polonya\'da apostille gerçekte ne kadara mal olur?', a: 'MSZ damga vergisi - belge başına 60 PLN. Belge bir noter senediyse önce izba notarialna (noterler birliği) onayı (26 PLN) gerekir. Anahtar teslim danışmanlığımız 250 PLN\'den başlar. USC için apostille\'i wojewoda düzenler - aynı 60 PLN.' },
       { q: 'Fotokopiye apostille yapılabilir mi?', a: 'Hayır - yalnızca orijinale veya noter onaylı suretine. İade edilemeyecek belgeler (diploma, doğum belgesinin orijinali) için noter onaylı kopya çıkartır ve ona apostille basarız.' },
       { q: 'Apostille\'in süresi var mı?', a: 'Hayır, apostille\'in kendisinin süresi yoktur. Ancak altındaki belgenin süresi olabilir: KRS çıktısı 3 ay, KRK 6 ay. Apostille\'i taze odpis aldıktan hemen sonra düzenletin.' },
-      { q: 'Apostille\'in gerçekliği nasıl doğrulanır?', a: 'MSZ\'nin apostille.gov.pl sitesinde numara ve tarihle. Polonya\'dan tüm belgeler için bunu öneriyoruz. Diğer Sözleşme ülkelerinde de e-Apostille register üzerinden.' },
+      { q: 'Apostille\'in gerçekliği nasıl doğrulanır?', a: 'Her apostille\'in bir numarası ve tarihi vardır; belgeyi kabul eden kurum bunlarla MSZ\'den teyit alır. Aracıların yazdığının aksine, Polonya apostilleri için herkese açık çevrimiçi kayıt sistemi yoktur.' },
       { q: 'Apostille\'in tercümesi gerekli mi?', a: 'Apostille\'in kendisi iki dilli (Lehçe + İngilizce/Fransızca) düzenlenir, tercümeye gerek yoktur. Altındaki belgenin hedef ülke diline yeminli tercümesi gerekir.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],
@@ -364,14 +364,14 @@ const apostille: ServiceEntry = {
     facts: [
       { label: 'Термін', value: '1–3 тижні', note: 'apostille MSZ · звичайна черга' },
       { label: 'Держмито', value: '60 PLN', note: 'за один apostille' },
-      { label: 'Де ставиться', value: 'MSZ Warszawa', note: '+ wojewoda для USC' },
+      { label: 'Де ставиться', value: 'MSZ Warszawa', note: 'ul. Krucza 38/42, за записом' },
       { label: 'Діє', value: 'безстроково', note: 'для документа без терміну' }
     ],
     grounds: {
       title: 'На які документи ставиться apostille',
       subtitle: 'Згідно з Конвенцією Гаага 1961 — на публічні документи. Для комерційних — потрібне попереднє нотаріальне засвідчення.',
       items: [
-        { title: 'Свідоцтва USC', desc: 'Akt urodzenia, małżeństwa, zgonu — apostille ставить wojewoda за місцем видачі документа.' },
+        { title: 'Свідоцтва USC', desc: 'Akt urodzenia, małżeństwa, zgonu — apostille ставить MSZ. Потрібен свіжий паперовий odpis із печаткою та підписом, роздруківка з ePUAP не підійде.' },
         { title: 'Нотаріальні акти', desc: 'Akt notarialny, pełnomocnictwo, oświadczenie — apostille MSZ після legalizacji izby notarialnej.' },
         { title: 'Виписки з KRS / CEIDG', desc: 'Повні виписки реєстрів для реєстрації фірми за кордоном, відкриття рахунку або угод.' },
         { title: 'Довідки про несудимість (KRK)', desc: 'Zaświadczenie z Krajowego Rejestru Karnego — для робочих віз, громадянства, ВНЖ за кордоном.' },
@@ -387,8 +387,8 @@ const apostille: ServiceEntry = {
       steps: [
         { title: 'Консультація', duration: '20 хв', desc: 'Уточнюємо тип документа, країну використання, наявність попереднього засвідчення (notariusz, izba notarialna). Для диплома ВНЗ — окремий маршрут через NAWA.' },
         { title: 'Підготовка документа', duration: '1–7 днів', desc: 'Отримуємо актуальний odpis (для USC, KRS, KRK), за потреби — нотаріальне засвідчення перекладу або копії.' },
-        { title: 'Подання в MSZ або wojewodу', duration: '1 день', desc: 'Подаємо через e-Apostille MSZ (онлайн) або фізично у Warszawa, ul. Krucza 38/42. Для USC — wojewoda за місцем видачі.' },
-        { title: 'Постановка apostille', duration: '5–15 днів', desc: 'MSZ ставить apostille з унікальним номером, що перевіряється онлайн. Терміни залежать від завантаження і способу подання. Для термінових — express tariff (+50%).' },
+        { title: 'Подання в MSZ', duration: '1 день', desc: 'Записуємося через legalizacja.msz.gov.pl і подаємо особисто у Warszawa, ul. Krucza 38/42. Слоти відкриваються зранку щоробочого дня. Електронного апостиля Польща не видає — лише паперовий оригінал.' },
+        { title: 'Постановка apostille', duration: 'у день візиту', desc: 'За особистого подання апостиль ставлять під час візиту, до 10 документів на людину на день. Якщо надсилаємо поштою на al. Szucha 23 — до 30 днів. Експрес-тарифу в MSZ не існує.' },
         { title: 'Кур’єрська доставка', duration: '1–2 дні', desc: 'Відправляємо оригінал DHL Express у будь-яку країну світу або передаємо особисто у Варшаві.' },
         { title: 'Переклад (якщо потрібен)', duration: '2–3 дні', desc: 'Присяжний переклад apostille і документа мовою країни використання.' }
       ]
@@ -409,7 +409,7 @@ const apostille: ServiceEntry = {
     },
     pricing: {
       title: 'Вартість роботи',
-      subtitle: 'Apostille MSZ — 60 PLN/документ, wojewoda — 60 PLN. Express +50%.',
+      subtitle: 'Держмито — 60 PLN за документ, сплачується окремо в Centrum Obsługi Podatnika.',
       items: [
         { label: 'Консультація', value: 'Безкоштовно', note: '20 хвилин · оцінка ситуації' },
         { label: 'Apostille під ключ', value: 'від 250 PLN', note: 'MSZ + кур’єр · 1–3 тижні' },
@@ -431,10 +431,10 @@ const apostille: ServiceEntry = {
     faq: [
       { q: 'У яких країнах apostille замінює легалізацію?', a: 'У всіх країнах Гаазької конвенції 1961 р. — це близько 130 держав: ЄС, США, Канада (з 2024), Велика Британія, Україна (з 2003), Білорусь, Казахстан, Туреччина, Японія, Корея, Бразилія тощо. Для документів між цими країнами достатньо одного apostille (апостиля).' },
       { q: 'Що робити для країн поза Конвенцією (Китай, ОАЕ, Канада до 2024)?', a: 'Повна легалізація: 1) нотаріальне засвідчення → 2) izba notarialna (нотаріальна палата, для нотаріальних актів) → 3) MSZ (МЗС Польщі) → 4) консульство країни призначення в Польщі. Цикл — 2–4 тижні, вартість 750+ PLN наших + консульські збори.' },
-      { q: 'Скільки фактично коштує apostille в Польщі?', a: 'Держмито MSZ (МЗС Польщі) — 60 PLN/документ. Якщо документ — нотаріальний акт, потрібне спочатку засвідчення izby notarialnej (нотаріальної палати, 26 PLN). Наш гонорар — від 250 PLN під ключ. Для USC apostille ставить wojewoda (воєвода) — ті ж 60 PLN.' },
+      { q: 'Скільки фактично коштує apostille в Польщі?', a: 'Держмито MSZ (МЗС Польщі) — 60 PLN/документ. Якщо документ — нотаріальний акт, потрібне спочатку засвідчення izby notarialnej (нотаріальної палати, 26 PLN). Наш гонорар — від 250 PLN під ключ. Свідоцтва USC апостилює той самий MSZ — ті самі 60 PLN за документ.' },
       { q: 'Чи можна поставити apostille на копію?', a: 'Ні — лише на оригінал або нотаріально засвідчену копію. Для документів, які не можна здавати (диплом, оригінал свідоцтва), робимо notarialną kopię (нотаріальну копію) і на неї ставимо apostille.' },
       { q: 'Чи діє apostille безстроково?', a: 'Так, сам apostille (апостиль) не має терміну. Але багато документів мають свій термін: KRS-виписка — 3 місяці, KRK (довідка про несудимість) — 6 місяців. Робіть apostille одразу після отримання свіжого odpisu (виписки).' },
-      { q: 'Як перевірити справжність apostille?', a: 'На сайті MSZ (МЗС Польщі, apostille.gov.pl) — за номером і датою. Це рекомендуємо для всіх документів з Польщі. Аналогічно — в інших країнах Конвенції (через e-Apostille register).' },
+      { q: 'Як перевірити справжність apostille?', a: 'У кожного апостиля є номер і дата — за ними орган, що приймає документ, підтверджує автентичність у MSZ. Окремого публічного онлайн-реєстру польських апостилів немає, попри те, що пишуть посередники.' },
       { q: 'Чи потрібен переклад apostille?', a: 'Сам apostille має двомовний (польський + англійський/французький) формат і перекладається автоматично. Документ під ним — потребує присяжного перекладу мовою країни використання.' }
     ],
     related: ['akty-stanu-cywilnego', 'tlumaczenia-przysiegle', 'zaswiadczenie-o-niekaralnosci'],

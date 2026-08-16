@@ -2,7 +2,7 @@
 slug: kod-95-kwalifikacja-wstepna-vs-szkolenie-okresowe
 title: 'Polonya''da Kod 95 2026: uzun kurs mu, kısa mı?'
 description: >-
-  Kwalifikacja Wstępna (140 saat, 2.800 PLN, devlet sınavı) ile Szkolenie
+  Kwalifikacja Wstępna (140 saat, 3.700 PLN, devlet sınavı) ile Szkolenie
   Okresowe (35 saat, 900 PLN). C sınıfı belge tarihine göre seçim.
 locale: tr
 publishDate: 2026-05-04T00:00:00.000Z
@@ -25,7 +25,7 @@ schema: Article
 Kısaca: Ağustos 2025'ten itibaren C/CE/D/DE sınıflarında ticari taşımacılık yapan tüm yabancı sürücülerin Avrupa standardında Kod 95 *(świadectwo kwalifikacji zawodowej kierowcy / mesleki yeterlilik belgesi)* taşıması zorunludur. Polonya mevzuatı iki yol sunar ve **seçim, C sınıfı belgenizin menşe ülkenizdeki veriliş tarihine göre yapılır**:
 
 - **C sınıfı belgesi 10 Eylül 2009 öncesi verildiyse** -> 35 saatlik **kısa kurs Szkolenie Okresowe** *(periyodik eğitim)* yeterlidir (sınavsız, yaklaşık 900 PLN).
-- **C sınıfı belgesi 10 Eylül 2009 ya da sonrasında verildiyse** -> devlet sınavlı 140 saatlik **uzun kurs Kwalifikacja Wstępna** *(başlangıç yeterlilik kursu)* gerekir (yaklaşık 2.800 PLN).
+- **C sınıfı belgesi 10 Eylül 2009 ya da sonrasında verildiyse** -> devlet sınavlı 140 saatlik **uzun kurs Kwalifikacja Wstępna** *(başlangıç yeterlilik kursu)* gerekir (yaklaşık 3.700 PLN).
 
 Bu rehberde yolunuzu nasıl belirleyeceğiniz, her kursun içeriği, devlet sınavının nasıl geçildiği (uzun kurs için) ve 2026 yılında Mazowieckim eyaletinde akredite kurum *(ośrodek)* nerede bulunduğu açıklanmaktadır.
 
@@ -67,7 +67,7 @@ Belge daha sonra değiştirilmiş veya uzatılmışsa, **C/CE sınıfının ilk 
 - Konular: güncellenmiş trafik kuralları, ekonomik sürüş, ergonomi, yük güvenliği, yeni teknikler
 - **Devlet sınavı yok**
 
-**Maliyet:** 2026'da Mazowieckim'de eğitim kurumuna göre 800-1.200 PLN. LegalWin Varşova'da 4'ten fazla güvenilir okul önerir.
+**Maliyet:** 2026'da Mazowieckim'de eğitim kurumuna göre 700-900 PLN. LegalWin Varşova'da 4'ten fazla güvenilir okul önerir.
 
 **Süre:** 5 gün ders + 1 hafta belge işlemi = en fazla 2 hafta.
 
@@ -75,7 +75,7 @@ Belge daha sonra değiştirilmiş veya uzatılmışsa, **C/CE sınıfının ilk 
 - C/CE sınıfı prawo jazdy (orijinal + yabancıysa yeminli tercüme)
 - karta pobytu *(Polonya geçici oturum kartı)* veya yasal ikamet kanıtı
 - yetkili hekimden sağlık raporu
-- ulaşım psikoloğundan psikoteknik rapor *(psicholog transportu)* (300-400 PLN)
+- ulaşım psikoloğundan psikoteknik rapor *(psicholog transportu)* (150 PLN)
 - 2 fotoğraf 3,5 × 4,5 cm
 
 **Kurs sonrası:**
@@ -100,7 +100,7 @@ Szkolenie Okresowe sonrası Kod 95 geçerlilik süresi 5 yıldır. Sonrasında y
 - Uygulama - WORD eğiticisiyle belirli bir parkurda sürüş
 - Sınav ücreti yaklaşık 200 PLN. Tekrar sınav 200 PLN'dir.
 
-**Kurs maliyeti:** 2026'da Mazowieckim'de 2.500-3.200 PLN.
+**Kurs maliyeti:** 2026'da Mazowieckim'de 3.600-3.800 PLN.
 
 **Süre:** 4-6 hafta kurs + 2-3 hafta sınav süreci = 7-9 hafta.
 
@@ -118,13 +118,15 @@ Kwalifikacja Wstępna sonrası Kod 95 geçerlilik süresi 5 yıldır. Sonrasınd
 | Adım | Szkolenie Okresowe | Kwalifikacja Wstępna |
 |---|---|---|
 | 1. Sağlık raporu | 200 PLN | 200 PLN |
-| 2. Psikoteknik | 300-400 PLN | 300-400 PLN |
-| 3. Wydział Komunikacji'de PKZ açılışı | 50 PLN | 50 PLN |
+| 2. Psikoteknik | 150 PLN | 150 PLN |
+| 3. Wydział Komunikacji'de PKZ açılışı | ücretsiz | ücretsiz |
 | 4. Sürücü kursuna *(OSK)* kayıt | ücretsiz | ücretsiz |
-| 5. Kurs | 800-1.200 PLN, 5 gün | 2.500-3.200 PLN, 4-6 hafta |
-| 6. Devlet sınavı | - | 200 PLN |
-| 7. Karta kwalifikacji kierowcy | 100 PLN | 100 PLN |
-| **Toplam** | **1.350-1.950 PLN, 2 hafta** | **3.350-4.150 PLN, 7-9 hafta** |
+| 5. Kurs | 700-900 PLN, 5 gün | 3.600-3.800 PLN, 4-6 hafta |
+| 6. Devlet sınavı | - | 50 PLN |
+| 7. Ehliyete Kod 95 kaydı | 100,50 PLN | 100,50 PLN |
+| **Toplam** | **1.150-1.350 PLN, 2 hafta** | **4.100-4.300 PLN, 7-9 hafta** |
+
+Polonya ehliyetiniz yoksa ve değiştirmeyi de düşünmüyorsanız, kayıt yerine karta kwalifikacji kierowcy çıkarılır - 150 PLN. Bu ayrı bir belgedir, aynı şey değildir.
 
 ## En sık yapılan hatalar
 

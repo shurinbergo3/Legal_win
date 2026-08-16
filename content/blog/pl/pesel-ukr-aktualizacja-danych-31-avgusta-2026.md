@@ -89,7 +89,7 @@ Status UKR to konstrukcja tymczasowa z określoną datą końcową. 4 marca 2027
 
 Trzy powody, by przejść na zwykłe zezwolenie na pobyt już teraz:
 
-1. **Staż pobytowy.** Okres ochrony czasowej **nie wlicza się** do pięciu lat wymaganych dla statusu rezydenta długoterminowego UE. Licznik rusza dopiero od zezwolenia na pobyt czasowy - omawiamy to w tekście o [statusie rezydenta UE](/pl/blog/status-rezidenta-es-polsha-2026).
+1. **Staż pobytowy.** Okres ochrony czasowej **nie wlicza się** do pięciu lat wymaganych dla statusu rezydenta długoterminowego UE. Licznik rusza dopiero od zezwolenia na pobyt czasowy - szczegóły przy [statusie rezydenta długoterminowego UE](/pl/uslugi/rezydent-ue).
 2. **Czas rozpatrywania.** W Mazowieckim Urzędzie Wojewódzkim sprawa trwa 8-14 miesięcy. Wniosek złożony dziś rozstrzygnie się mniej więcej wtedy, gdy specustawa wygaśnie ostatecznie.
 3. **Stabilność.** Karta pobytu nie zależy od kolejnych nowelizacji ustawy pomocowej.
 

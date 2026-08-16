@@ -105,7 +105,7 @@ Booking is via the warszawa19115.pl portal or the Warszawa 19115 app (section "W
 **Additionally for categories C, D, C+E, D+E:**
 
 - Valid badania lekarskie from a lekarz uprawniony - 180-250 PLN
-- Valid badania psychologiczne - 130-180 PLN
+- Valid badania psychologiczne - 150 PLN
 - A Kod 95 certificate - if you plan to work as a professional driver
 
 **If you changed your surname:**
@@ -121,7 +121,7 @@ Booking is via the warszawa19115.pl portal or the Warszawa 19115 app (section "W
 | Opłata ewidencyjna | 0.50 PLN |
 | Tłumaczenie przysięgłe (from Ukrainian) | 60-80 PLN |
 | Badania lekarskie (only for C/D or expired) | 180-250 PLN |
-| Badania psychologiczne (only for C/D) | 130-180 PLN |
+| Badania psychologiczne (only for C/D) | 150 PLN |
 | **Total for cat. B** | **160-210 PLN** |
 
 If you go through a lawyer (booking + translation + accompaniment at the office) - add 400-600 PLN. For a simple category B this rarely makes sense, but it pays off with old licences needing extra verification, with a change of surname, or when you also need Kod 95.

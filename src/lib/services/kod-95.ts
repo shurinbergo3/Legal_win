@@ -47,7 +47,7 @@ const kod95: ServiceEntry = {
         { title: 'Запись в OSK', duration: '1-7 дней', desc: 'Подбираем ośrodek szkolenia с занятиями на удобном для вас языке (часто доступен русскоязычный преподаватель) и удобным графиком.' },
         { title: 'Обучение', duration: '35-280 ч', desc: 'Szkolenie okresowe - обычно 5 дней по 7 часов или модулями. Kwalifikacja wstępna - несколько недель с разрывом на работу.' },
         { title: 'Экзамен в WORD', duration: '1 день', desc: 'Только для kwalifikacji wstępnej. Тест на 30 вопросов, проходной балл - 16. Сопровождаем нашим специалистом, при провале - пересдача.' },
-        { title: 'Внесение Kod 95 в права', duration: '14 дней', desc: 'Подаём wniosek в starostwo, оплачиваем opłatę 100 PLN. На обороте prawa jazdy появляется «95» с датой окончания через 5 лет.' }
+        { title: 'Внесение Kod 95 в права', duration: '14 дней', desc: 'Подаём wniosek в starostwo, оплачиваем opłatę 100,50 PLN. На обороте prawa jazdy появляется «95» с датой окончания через 5 лет.' }
       ]
     },
     documents: {
@@ -73,7 +73,7 @@ const kod95: ServiceEntry = {
         { label: 'Только обмен прав на польские', value: 'от 600 PLN', note: 'Переводы, медкомиссия, starostwo' },
         { label: 'Apelacja при отказе starosty', value: 'от 1 200 PLN', note: 'Отдельный договор на оспаривание' }
       ],
-      note: 'Указаны гонорары LegalWin. Стоимость курсов в OSK (от 1 800 PLN за szkolenie okresowe, от 5 500 PLN за kwalifikację wstępną przyspieszoną), badań lekarskich (~250 PLN), psychotechniki (~200 PLN) и opłaty skarbowej (100 PLN) - отдельно по фактическим тарифам поставщиков.'
+      note: 'Указаны гонорары LegalWin. Стоимость курсов в OSK (от 700 PLN за szkolenie okresowe, от 3 600 PLN за kwalifikację wstępną przyspieszoną), badań lekarskich (200 PLN), psychotechniki (150 PLN) и opłaty skarbowej (100,50 PLN) - отдельно по фактическим тарифам поставщиков.'
     },
     legalBase: {
       title: 'Нормативная база',
@@ -88,7 +88,7 @@ const kod95: ServiceEntry = {
     faq: [
       {
         q: 'Сколько по факту стоит получить Kod 95 в Польше?',
-        a: 'Szkolenie okresowe (периодическое обучение, 35 ч) под ключ - около 3 200-3 700 PLN всего: ~1 800 PLN сам курс, ~250 PLN badania lekarskie (медобследование), ~200 PLN psychotechnika (психотест), 100 PLN opłata skarbowa (госпошлина) и наш гонорар от 1 200 PLN. Kwalifikacja wstępna przyspieszona (ускоренная начальная квалификация, 140 ч) выходит в 7 500-9 000 PLN, полная (280 ч) - 11 000+ PLN.'
+        a: 'Szkolenie okresowe (периодическое обучение, 35 ч) под ключ - около 2 350-2 550 PLN всего: 700-900 PLN сам курс, 200 PLN badania lekarskie (медобследование), 150 PLN psychotechnika (психотест), 100,50 PLN opłata skarbowa (госпошлина) и наш гонорар от 1 200 PLN. Kwalifikacja wstępna przyspieszona (ускоренная начальная квалификация, 140 ч) выходит в 5 300-5 500 PLN, полная (280 ч) - 6 700-7 400 PLN.'
       },
       {
         q: 'Можно ли пройти Kod 95 без знания польского языка?',
@@ -169,7 +169,7 @@ const kod95: ServiceEntry = {
         { title: 'Zapis do OSK', duration: '1-7 dni', desc: 'Dobieramy ośrodek szkolenia z zajęciami w wygodnym dla Ciebie języku (często jest rosyjskojęzyczny lektor) i pasującym terminarzem.' },
         { title: 'Szkolenie', duration: '35-280 h', desc: 'Szkolenie okresowe to zwykle 5 dni po 7 h lub moduły. Kwalifikacja wstępna - kilka tygodni z przerwami na pracę.' },
         { title: 'Egzamin w WORD', duration: '1 dzień', desc: 'Tylko dla kwalifikacji wstępnej. Test 30 pytań, próg zdawalności 16. Asystuje konsultant, w razie niepowodzenia - poprawka.' },
-        { title: 'Wpis Kod 95 do prawa jazdy', duration: '14 dni', desc: 'Składamy wniosek w starostwie, opłata 100 PLN. Na odwrocie prawa jazdy pojawia się „95" z datą ważności za 5 lat.' }
+        { title: 'Wpis Kod 95 do prawa jazdy', duration: '14 dni', desc: 'Składamy wniosek w starostwie, opłata 100,50 PLN. Na odwrocie prawa jazdy pojawia się „95" z datą ważności za 5 lat.' }
       ]
     },
     documents: {
@@ -195,7 +195,7 @@ const kod95: ServiceEntry = {
         { label: 'Sama wymiana prawa jazdy', value: 'od 600 PLN', note: 'Tłumaczenia, badania, starostwo' },
         { label: 'Apelacja od decyzji starosty', value: 'od 1 200 PLN', note: 'Osobna umowa na zaskarżenie' }
       ],
-      note: 'Powyżej honoraria LegalWin. Koszty kursów w OSK (od 1 800 PLN za szkolenie okresowe, od 5 500 PLN za kwalifikację wstępną przyspieszoną), badań lekarskich (~250 PLN), psychotechniki (~200 PLN) i opłaty skarbowej (100 PLN) - osobno, według taryf dostawców.'
+      note: 'Powyżej honoraria LegalWin. Koszty kursów w OSK (od 700 PLN za szkolenie okresowe, od 3 600 PLN za kwalifikację wstępną przyspieszoną), badań lekarskich (200 PLN), psychotechniki (150 PLN) i opłaty skarbowej (100,50 PLN) - osobno, według taryf dostawców.'
     },
     legalBase: {
       title: 'Podstawa prawna',
@@ -210,7 +210,7 @@ const kod95: ServiceEntry = {
     faq: [
       {
         q: 'Ile faktycznie kosztuje uzyskanie Kod 95 w Polsce?',
-        a: 'Szkolenie okresowe (35 h) pod klucz - około 3 200-3 700 PLN łącznie: ~1 800 PLN sam kurs, ~250 PLN badania lekarskie, ~200 PLN psychotechnika, 100 PLN opłata skarbowa i nasze honorarium od 1 200 PLN. Kwalifikacja wstępna przyspieszona (140 h) - 7 500-9 000 PLN, pełna (280 h) - od 11 000 PLN.'
+        a: 'Szkolenie okresowe (35 h) pod klucz - około 2 350-2 550 PLN łącznie: 700-900 PLN sam kurs, 200 PLN badania lekarskie, 150 PLN psychotechnika, 100,50 PLN opłata skarbowa i nasze honorarium od 1 200 PLN. Kwalifikacja wstępna przyspieszona (140 h) - 5 300-5 500 PLN, pełna (280 h) - od 6 700 PLN.'
       },
       {
         q: 'Czy można przejść Kod 95 bez znajomości polskiego?',
@@ -287,11 +287,11 @@ const kod95: ServiceEntry = {
       steps: [
         { title: 'Free diagnosis', duration: '30 min', desc: "We work out which route you're on (renewal vs. full vs. accelerated) and whether your current licence even qualifies for exchange. About 20% of UK and Irish drivers we see have surprises in their paperwork." },
         { title: 'Licence exchange (if needed)', duration: '14-30 days', desc: "If you're driving on a Ukrainian, Belarusian or non-EU licence, we swap it for a Polish prawo jazdy first. Sworn translation, badania lekarskie, application to starostwo. UK Photocard licences exchange directly without a retest under the bilateral arrangement; we handle that filing too." },
-        { title: 'Medical + psychotechnika', duration: '1-2 days', desc: "Cat. 2 medical with a doctor licensed for professional drivers (around 250 PLN), and a psychotechnical assessment with an accredited psychologist (around 200 PLN). Both required, both valid 5 years. We book both for the same morning." },
+        { title: 'Medical + psychotechnika', duration: '1-2 days', desc: "Cat. 2 medical with a doctor licensed for professional drivers (200 PLN), and a psychotechnical assessment with an accredited psychologist (150 PLN). Both required, both valid 5 years. We book both for the same morning." },
         { title: 'OSK enrolment', duration: '1-7 days', desc: "We pick an OSK (ośrodek szkolenia kierowców - the licensed driver school) with the right language for you. English-only OSKs are rare; mixed Polish-Russian classes with materials in English do exist in Warsaw, Wrocław and Gdańsk. We've vetted the ones that actually deliver." },
         { title: 'The training itself', duration: '35-280 hours', desc: "Periodic training: usually five 7-hour days, sometimes spread over weekends if you're still driving. Full or accelerated initial qualification runs three to six weeks with built-in breaks. The 2024 update added 2.5 hours of mandatory practical per 35-hour block." },
         { title: 'WORD state exam', duration: '1 day', desc: "Only for initial qualification (not renewal). 30 multiple-choice questions, 16 right to pass. Available in English in most voivodeships, though Mazowieckie and Małopolska have the widest slots. Fail and you retake; the consultant who came with you the first time comes again." },
-        { title: 'Kod 95 entered on your licence', duration: '14 days', desc: "We file the wniosek at starostwo and pay the 100 PLN opłata skarbowa. Your new licence (printed at PWPW, the state security printer) arrives with \"95\" on the back next to each professional category, with a fresh 5-year date." }
+        { title: 'Kod 95 entered on your licence', duration: '14 days', desc: "We file the wniosek at starostwo and pay the 100,50 PLN opłata skarbowa. Your new licence (printed at PWPW, the state security printer) arrives with \"95\" on the back next to each professional category, with a fresh 5-year date." }
       ]
     },
     documents: {
@@ -317,7 +317,7 @@ const kod95: ServiceEntry = {
         { label: 'Licence exchange only', value: 'from 600 PLN', note: 'Translations, medicals, starostwo wniosek' },
         { label: 'Appeal after a starosta refusal', value: 'from 1,200 PLN', note: 'Separate retainer, separate scope' }
       ],
-      note: "Above is what LegalWin charges. Third-party costs run separately at the provider's rate: OSK course (from 1,800 PLN for szkolenie okresowe; from 5,500 PLN for kwalifikacja wstępna przyspieszona), badania lekarskie around 250 PLN, psychotechnika around 200 PLN, and 100 PLN opłata skarbowa at starostwo. Budget around 3,200-3,700 PLN all-in for a renewal."
+      note: "Above is what LegalWin charges. Third-party costs run separately at the provider's rate: OSK course (from 700 PLN for szkolenie okresowe; from 3,600 PLN for kwalifikacja wstępna przyspieszona), badania lekarskie 200 PLN, psychotechnika 150 PLN, and 100,50 PLN opłata skarbowa at starostwo. Budget around 2,350-2,550 PLN all-in for a renewal."
     },
     legalBase: {
       title: 'The law behind it',
@@ -352,7 +352,7 @@ const kod95: ServiceEntry = {
       },
       {
         q: 'What does it actually cost end-to-end?',
-        a: "For a renewal (szkolenie okresowe, 35 hours): around 3,200-3,700 PLN total - 1,800 PLN course, 250 PLN medical, 200 PLN psychotechnika, 100 PLN state fee, 1,200 PLN+ our retainer. Accelerated initial qualification (140 hours): 7,500-9,000 PLN all-in. Full initial qualification (280 hours): 11,000 PLN and up. Cheaper than a UK CPC course of equivalent length, and the WORD exam fee is built into the OSK package."
+        a: "For a renewal (szkolenie okresowe, 35 hours): around 2,350-2,550 PLN total - 700-900 PLN course, 200 PLN medical, 150 PLN psychotechnika, 100.50 PLN state fee, 1,200 PLN+ our retainer. Accelerated initial qualification (140 hours): 5,300-5,500 PLN all-in. Full initial qualification (280 hours): 6,700-7,400 PLN. Cheaper than a UK CPC course of equivalent length, and the WORD exam fee is built into the OSK package."
       },
       {
         q: 'What happens if I keep driving after kod 95 expires?',
@@ -439,7 +439,7 @@ const kod95: ServiceEntry = {
         { label: 'Yalnızca ehliyet değişimi', value: '600 PLN\'den', note: 'Tercümeler, badania lekarskie, starostwo' },
         { label: 'Starosta ret kararına itiraz', value: '1.200 PLN\'den', note: 'İtiraz için ayrı sözleşme' }
       ],
-      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. OSK kurs ücretleri (szkolenie okresowe için 1.800 PLN\'den, kwalifikacja wstępna przyspieszona için 5.500 PLN\'den), badania lekarskie (~250 PLN), psikoteknik (~200 PLN) ve opłata skarbowa (100 PLN) sağlayıcı tarifelerine göre ayrıca ödenir.'
+      note: 'Belirtilen ücretler LegalWin danışmanlık bedelidir. OSK kurs ücretleri (szkolenie okresowe için 700 PLN\'den, kwalifikacja wstępna przyspieszona için 3.600 PLN\'den), badania lekarskie (200 PLN), psikoteknik (150 PLN) ve opłata skarbowa (100,50 PLN) sağlayıcı tarifelerine göre ayrıca ödenir.'
     },
     legalBase: {
       title: 'Yasal dayanak',
@@ -454,7 +454,7 @@ const kod95: ServiceEntry = {
     faq: [
       {
         q: 'Polonya\'da Kod 95 fiilen ne kadara mal olur?',
-        a: 'Anahtar teslim szkolenie okresowe (35 sa) yaklaşık 3.200-3.700 PLN: ~1.800 PLN kursun kendisi, ~250 PLN badania lekarskie, ~200 PLN psikoteknik, 100 PLN opłata skarbowa ve 1.200 PLN\'den danışmanlık ücretimiz. Kwalifikacja wstępna przyspieszona (140 sa) 7.500-9.000 PLN, tam kwalifikacja (280 sa) 11.000+ PLN tutar.'
+        a: 'Anahtar teslim szkolenie okresowe (35 sa) yaklaşık 2.350-2.550 PLN: 700-900 PLN kursun kendisi, 200 PLN badania lekarskie, 150 PLN psikoteknik, 100,50 PLN opłata skarbowa ve 1.200 PLN\'den danışmanlık ücretimiz. Kwalifikacja wstępna przyspieszona (140 sa) 5.300-5.500 PLN, tam kwalifikacja (280 sa) 6.700-7.400 PLN tutar.'
       },
       {
         q: 'Lehçe bilmeden Kod 95 alabilir miyim?',
@@ -535,7 +535,7 @@ const kod95: ServiceEntry = {
         { title: 'Запис в OSK', duration: '1–7 днів', desc: 'Підбираємо ośrodek szkolenia з заняттями зручною для вас мовою (часто доступний україномовний викладач) і зручним графіком.' },
         { title: 'Навчання', duration: '35–280 год', desc: 'Szkolenie okresowe — зазвичай 5 днів по 7 годин або модулями. Kwalifikacja wstępna — кілька тижнів з перервою на роботу.' },
         { title: 'Іспит у WORD', duration: '1 день', desc: 'Лише для kwalifikacji wstępnej. Тест на 30 питань, прохідний бал — 16. Супроводжуємо нашим спеціалістом, при провалі — перездача.' },
-        { title: 'Внесення Kod 95 у права', duration: '14 днів', desc: 'Подаємо wniosek у starostwo, сплачуємо opłatę 100 PLN. На звороті prawa jazdy з’являється «95» з датою закінчення через 5 років.' }
+        { title: 'Внесення Kod 95 у права', duration: '14 днів', desc: 'Подаємо wniosek у starostwo, сплачуємо opłatę 100,50 PLN. На звороті prawa jazdy з’являється «95» з датою закінчення через 5 років.' }
       ]
     },
     documents: {
@@ -561,7 +561,7 @@ const kod95: ServiceEntry = {
         { label: 'Лише обмін прав на польські', value: 'від 600 PLN', note: 'Переклади, медкомісія, starostwo' },
         { label: 'Apelacja при відмові starosty', value: 'від 1 200 PLN', note: 'Окремий договір на оскарження' }
       ],
-      note: 'Зазначено гонорари LegalWin. Вартість курсів в OSK (від 1 800 PLN за szkolenie okresowe, від 5 500 PLN за kwalifikację wstępną przyspieszoną), badań lekarskich (~250 PLN), psychotechniki (~200 PLN) і opłaty skarbowej (100 PLN) — окремо за фактичними тарифами постачальників.'
+      note: 'Зазначено гонорари LegalWin. Вартість курсів в OSK (від 700 PLN за szkolenie okresowe, від 3 600 PLN за kwalifikację wstępną przyspieszoną), badań lekarskich (200 PLN), psychotechniki (150 PLN) і opłaty skarbowej (100,50 PLN) — окремо за фактичними тарифами постачальників.'
     },
     legalBase: {
       title: 'Нормативна база',
@@ -576,7 +576,7 @@ const kod95: ServiceEntry = {
     faq: [
       {
         q: 'Скільки фактично коштує отримання Kod 95 у Польщі?',
-        a: 'Szkolenie okresowe (періодичне навчання, 35 год) під ключ — близько 3 200–3 700 PLN загалом: ~1 800 PLN сам курс, ~250 PLN badania lekarskie (медогляд), ~200 PLN psychotechnika (психотест), 100 PLN opłata skarbowa (держмито) і наш гонорар від 1 200 PLN. Kwalifikacja wstępna przyspieszona (прискорена початкова кваліфікація, 140 год) виходить у 7 500–9 000 PLN, повна (280 год) — 11 000+ PLN.'
+        a: 'Szkolenie okresowe (періодичне навчання, 35 год) під ключ — близько 2 350–2 550 PLN загалом: 700-900 PLN сам курс, 200 PLN badania lekarskie (медогляд), 150 PLN psychotechnika (психотест), 100,50 PLN opłata skarbowa (держмито) і наш гонорар від 1 200 PLN. Kwalifikacja wstępna przyspieszona (прискорена початкова кваліфікація, 140 год) виходить у 5 300–5 500 PLN, повна (280 год) — 6 700-7 400 PLN.'
       },
       {
         q: 'Чи можна пройти Kod 95 без знання польської мови?',

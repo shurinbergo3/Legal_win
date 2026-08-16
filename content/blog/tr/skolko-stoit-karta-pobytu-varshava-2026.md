@@ -28,7 +28,7 @@ Kısaca: „çalışma" temeline göre kendiniz başvurursanız sabit masraflar 
 
 ## Zorunlu ödemeler
 
-Bunları herkes öder. Başvuru temeli ne olursa olsun, kendiniz ya da avukatla başvurun fark etmez. MOS v2.0 *(yabancılar için yeni e-başvuru sistemi, Aralık 2025'ten beri yürürlükte)* üzerinden başvurunun kendisi ücretsizdir. Çevrimiçi form para istemez. Ödemeler ayrıdır.
+Bunları herkes öder. Başvuru temeli ne olursa olsun, kendiniz ya da avukatla başvurun fark etmez. MOS v2.0 *(yabancılar için yeni e-başvuru sistemi, 27 Nisan 2026'ten beri yürürlükte)* üzerinden başvurunun kendisi ücretsizdir. Çevrimiçi form para istemez. Ödemeler ayrıdır.
 
 | Kalem | Tutar | Ne zaman ödenir |
 |---|---|---|

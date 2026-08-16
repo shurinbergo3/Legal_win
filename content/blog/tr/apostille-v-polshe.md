@@ -3,7 +3,7 @@ slug: apostille-v-polshe
 title: 'Polonya''da apostille 2026: nereden alınır, ücret'
 description: >-
   MSZ Polonya, ul. Krucza 38/42'de apostille: hangi belgeler için, ücret 60 PLN,
-  süre 1-3 hafta. Alternatif - legalizacja konsularna.
+  şahsen başvuruda aynı gün. Alternatif - legalizacja konsularna.
 locale: tr
 publishDate: 2025-12-18T00:00:00.000Z
 author: LegalWin
@@ -24,7 +24,7 @@ schema: Article
 
 # Polonya'da apostille - 2026 itibarıyla ne için ve nereden alınır
 
-Apostille, **1961 Lahey Sözleşmesi**'ne taraf ülkeler arasında resmi belgelerin basitleştirilmiş bir legalizasyon biçimidir. Polonya 2005'te sözleşmeye katıldı ve o tarihten bu yana apostille, 120'den fazla ülkede kullanılacak Polonya kaynaklı belgeler için uzun `legalizacja konsularna` *(konsolosluk legalizasyonu)* sürecinin yerini aldı. Polonya'da apostille'i Varşova'da `Ministerstwo Spraw Zagranicznych` *(MSZ - Polonya Dışişleri Bakanlığı)* veriyor, adres ul. Krucza 38/42. Belge başına ücret 60 PLN, süre belge tipine göre 1-3 hafta.
+Apostille, **1961 Lahey Sözleşmesi**'ne taraf ülkeler arasında resmi belgelerin basitleştirilmiş bir legalizasyon biçimidir. Polonya 2005'te sözleşmeye katıldı ve o tarihten bu yana apostille, 120'den fazla ülkede kullanılacak Polonya kaynaklı belgeler için uzun `legalizacja konsularna` *(konsolosluk legalizasyonu)* sürecinin yerini aldı. Polonya'da apostille'i Varşova'da `Ministerstwo Spraw Zagranicznych` *(MSZ - Polonya Dışişleri Bakanlığı)* veriyor, adres ul. Krucza 38/42. Belge başına ücret 60 PLN. Şahsen başvuruda apostille aynı gün verilir, postayla 30 güne kadar sürer.
 
 ## Apostille nedir - kısa açıklama
 
@@ -73,13 +73,13 @@ Türk vatandaşlarının en çok karşılaştığı senaryo: Türkiye'de düzenl
 
 **Adım 2.** Belge bir kopya ise (örneğin `kopia notarialna` *(noter onaylı kopya)*), apostille belgenin kendisine değil, noterin sertifikasına basılır. Onaylatmadan önce noteriniz ile teyit edin.
 
-**Adım 3.** MSZ'ye randevu alın. Randevu msz.gov.pl üzerinden veya rejestracja.apostille@msz.gov.pl e-posta adresine gönderilen taleple alınabilir. Randevu süresi 1-3 hafta.
+**Adım 3.** MSZ randevunuzu legalizacja.msz.gov.pl üzerinden alın. Yeni kontenjanlar her iş günü sabah, iki hafta ilerisi için açılır - bu yüzden sabah erkenden girmek gerekir. Sorular: legalizacja@msz.gov.pl.
 
-**Adım 4.** MSZ hesabına 60 PLN yatırın. Banka bilgileri msz.gov.pl üzerinde mevcut. Ödeme dekontu başvuruda zorunludur.
+**Adım 4.** 60 PLN'yi yatırın. Bu bir opłata skarbowa'dır ve MSZ'ye değil şehre gider: alıcı Centrum Obsługi Podatnika, hesap 21 1030 1508 0000 0005 5000 0070, Bank Handlowy w Warszawie. Açıklamaya „opłata skarbowa za wydanie apostille" yazın. Dekontu yazdırıp yanınızda getirin - MSZ'de yerinde ödeme yapılamaz.
 
 **Adım 5.** Belgenin orijinalini MSZ'ye getirin (Krucza 38/42, II. kat). Teslim 5-10 dakika sürer.
 
-**Adım 6.** Hazır belgeyi 7-21 gün içinde teslim alın. İki seçenek vardır:
+**Adım 6.** Şahsen başvuruda apostille mümkün olduğunca aynı gün, ziyaret sırasında verilir; kişi başı günlük sınır 10 belgedir. al. Szucha 23 adresine postayla gönderilen başvurular MSZ'ye ulaştığı tarihten itibaren 30 gün içinde işlenir. Teslim almanın iki yolu var:
 
 - MSZ'den şahsen (teslim için randevu gerekmez);
 - Kurye ile (başvuru sırasında talep edilir) - ek 30-50 PLN.
@@ -158,7 +158,7 @@ Türk Valilik'lerinde apostille genellikle harçsız veya damga vergisi karşıl
 
 **4. Apostille'den önce tercüme.** Apostille **tercümeden önce** yapılmalıdır. Aksi halde apostili damgasıyla birlikte belge yeniden tercüme edilmek zorunda kalır.
 
-**5. MSZ randevusunda gecikme.** Randevu 1-3 hafta önceden alınmalı. Belge acil ise Krakov veya Wrocław'daki alternatif `urzędy` (süre daha kısa olabilir) denenebilir.
+**5. MSZ randevusunda gecikme.** Kontenjanlar her iş günü sabah, iki hafta ilerisi için açılır ve hızla dolar. Apostille'i yalnızca Varşova'daki MSZ verir - başka şehirlerde „alternatif" kurum yoktur. Gelemeyecekseniz belgeleri al. Szucha 23 adresine postalayın, ancak 30 güne kadar süre hesaplayın.
 
 ## Avukat ne zaman gerekli
 

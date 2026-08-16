@@ -22,17 +22,17 @@ schema: Article
 
 # Termin na kartę pobytu w Warszawie 2026: MOS v2.0 i biometria
 
-Co tydzień zgłaszają się do nas osoby z tym samym pytaniem: „jak złapać termin na złożenie dokumentów na kartę pobytu w Warszawie”. W głowie mają stary obraz - inPOL, gdzie trzeba było nocą siedzieć przy ekranie i polować na wolny slot. Ten obraz jest już nieaktualny. Od grudnia 2025 składanie dokumentów przeniosło się do internetu, a „zapis na złożenie wniosku” jako zjawisko zniknął. Został tylko jeden realny termin stacjonarny - na biometrię.
+Co tydzień zgłaszają się do nas osoby z tym samym pytaniem: „jak złapać termin na złożenie dokumentów na kartę pobytu w Warszawie”. W głowie mają stary obraz - inPOL, gdzie trzeba było nocą siedzieć przy ekranie i polować na wolny slot. Ten obraz jest już nieaktualny. Od 27 kwietnia 2026 składanie dokumentów przeniosło się do internetu, a „zapis na złożenie wniosku” jako zjawisko zniknął. Został tylko jeden realny termin stacjonarny - na biometrię.
 
-W skrócie: od 1 grudnia 2025 wniosek o kartę pobytu składa się online przez MOS v2.0 i nie trzeba już polować na kolejkę - wniosek wysyłasz z domu. Stacjonarny termin jest teraz tylko jeden - na biometrię, a Mazowiecki Urząd wyznacza go sam, zwykle 30-60 dni po UPO (urzędowym poświadczeniu odbioru). Decyzja w sprawie na Mazowszu w 2026 zajmuje 8-14 miesięcy.
+W skrócie: od 27 kwietnia 2026 wniosek o kartę pobytu składa się online przez MOS v2.0 i nie trzeba już polować na kolejkę - wniosek wysyłasz z domu. Stacjonarny termin jest teraz tylko jeden - na biometrię, a Mazowiecki Urząd wyznacza go sam, zwykle 30-60 dni po UPO (urzędowym poświadczeniu odbioru). Decyzja w sprawie na Mazowszu w 2026 zajmuje 8-14 miesięcy.
 
 Dalej - konkretnie, krok po kroku.
 
 ## Co się zmieniło: „zapis” to już nie kolejka
 
-Do grudnia 2025 składanie dokumentów na kartę pobytu na Mazowszu rzeczywiście było grą na czas. System inPOL udostępniał ograniczoną liczbę slotów na wizytę stacjonarną, sloty znikały w minuty, a ludzie miesiącami „polowali na termin”, żeby po prostu złożyć papiery w okienku. Stąd zapytanie, z którym wciąż do nas trafiają: „zapis na kartę pobytu Warszawa”.
+Do 27 kwietnia 2026 składanie dokumentów na kartę pobytu na Mazowszu rzeczywiście było grą na czas. System inPOL udostępniał ograniczoną liczbę slotów na wizytę stacjonarną, sloty znikały w minuty, a ludzie miesiącami „polowali na termin”, żeby po prostu złożyć papiery w okienku. Stąd zapytanie, z którym wciąż do nas trafiają: „zapis na kartę pobytu Warszawa”.
 
-Od 1 grudnia 2025 inPOL został wyłączony. Wszystkie wnioski pobytowe - karta czasowego pobytu, karta stałego pobytu, karta CUKR, przedłużenia, powiadomienia o zmianie pracodawcy - składa się wyłącznie przez MOS v2.0 (mos.cudzoziemcy.gov.pl). Składanie stało się w pełni elektroniczne. To znaczy:
+Od 27 kwietnia 2026 inPOL został wyłączony. Wszystkie wnioski pobytowe - karta czasowego pobytu, karta stałego pobytu, karta CUKR, przedłużenia, powiadomienia o zmianie pracodawcy - składa się wyłącznie przez MOS v2.0 (mos.cudzoziemcy.gov.pl). Składanie stało się w pełni elektroniczne. To znaczy:
 
 - Żeby złożyć wniosek, wizyta stacjonarna nie jest w ogóle potrzebna. Wniosek wypełniasz i wysyłasz online.
 - Nie ma już „slotów na złożenie”, na które trzeba polować. Złożyć można każdego dnia, choćby o trzeciej w nocy.

@@ -1,9 +1,9 @@
 ---
 slug: apostille-svidetelstv-usc-wojewoda
-title: 'Apostille odpisów USC 2026: przybija wojewoda, nie MSZ'
+title: 'Apostille odpisów USC 2026: przybija MSZ, nie wojewoda'
 description: >-
-  Apostille na akcie urodzenia, małżeństwa, zgonu przybija wojewoda właściwy dla
-  USC, a nie MSZ. Opłata 60 PLN, odpis wielojęzyczny i kolejność za granicę.
+  Apostille na akcie urodzenia, małżeństwa, zgonu przybija MSZ przy ul. Kruczej
+  38/42, nie wojewoda. Opłata 60 zł, odpis wielojęzyczny i kolejność za granicę.
 locale: pl
 publishDate: 2026-06-30T00:00:00.000Z
 author: LegalWin
@@ -20,13 +20,13 @@ relatedServices:
 schema: Article
 ---
 
-# Apostille odpisów USC: przybija wojewoda, nie MSZ
+# Apostille odpisów USC: przybija MSZ, nie wojewoda
 
-Najczęstszy błąd przy apostille na aktach urodzenia, małżeństwa i zgonu to pójście po nie do MSZ. Na dokumenty z USC (Urzędu Stanu Cywilnego) apostille przybija nie MSZ, lecz wojewoda - wojewoda właściwy dla tego USC, który wydał odpis. Cena ta sama, 60 PLN, ale organ inny, i przez to zamieszanie ludzie tracą dni. Poniżej wyjaśniamy, który dokładnie wojewoda, jaki odpis jest potrzebny, kiedy ratuje formularz wielojęzyczny i w jakiej kolejności wszystko robić do użytku za granicą.
+W internecie szeroko rozeszła się rada, żeby po apostille na akt urodzenia czy małżeństwa iść do wojewody. Jest błędna i kosztuje ludzi stracone dni. Na dokumenty z USC (Urzędu Stanu Cywilnego), tak jak na pozostałe polskie dokumenty urzędowe, apostille nadaje **MSZ** - Referat ds. Legalizacji przy ul. Kruczej 38/42 w Warszawie. Opłata skarbowa to 60 zł od dokumentu. Poniżej: jaki odpis jest potrzebny, kiedy ratuje formularz wielojęzyczny i w jakiej kolejności wszystko robić do użytku za granicą.
 
 ## Kto przybija apostille na odpisach USC - krótka odpowiedź
 
-Na polskie akty stanu cywilnego (akt urodzenia, małżeństwa, zgonu, odpis o rozwodzie) apostille przybija wojewoda właściwy dla tego USC, który wydał dokument, a nie MSZ. Opłata - 60 PLN za dokument. Potrzebny jest aktualny odpis z USC. Wewnątrz UE apostille często zastępuje odpis wielojęzyczny. Kolejność za granicę: odpis, apostille u wojewody, tłumaczenie przysięgłe.
+Na polskie akty stanu cywilnego (akt urodzenia, małżeństwa, zgonu, odpis o rozwodzie) apostille nadaje MSZ. Wojewoda nie ma z apostille nic wspólnego - to rozpowszechniony mit. Opłata - 60 zł za dokument. Potrzebny jest aktualny odpis z USC. Wewnątrz UE apostille często zastępuje odpis wielojęzyczny. Kolejność za granicę: odpis, apostille w MSZ, tłumaczenie przysięgłe.
 
 ## Jakie dokumenty i dokąd jadą
 
@@ -41,17 +41,17 @@ Apostille na odpisach USC najczęściej przechodzi się, gdy polski dokument pot
 
 Jeśli dokument zostaje w Polsce albo jedzie do kraju UE, apostille często nie jest potrzebne wcale - zobacz blok o formularzu wielojęzycznym poniżej.
 
-## Najważniejsze: apostille przybija wojewoda, nie MSZ
+## Najważniejsze: apostille nadaje MSZ, nie wojewoda
 
-Tu właśnie tkwi zamieszanie. MSZ przybija apostille na aktach notarialnych, dokumentach sądowych, KRK. Ale odpisy z USC to strefa wojewody. Konkretnie - wojewody tego województwa, w którym znajduje się USC, który wydał odpis. Urodziłeś się w Krakowie - apostille przybija Małopolski Urząd Wojewódzki. Małżeństwo zawarte w Warszawie - Mazowiecki Urząd Wojewódzki na pl. Bankowym 3/5.
+Tu właśnie tkwi zamieszanie. MSZ nadaje apostille i na aktach notarialnych, i na dokumentach sądowych, i na KRK, i na odpisach z USC. Osobnego „wojewódzkiego" apostille nie ma: urzędy wojewódzkie zajmują się legalizacją pobytu cudzoziemców, a nie klauzulą haską.
+
+Organy inne niż MSZ pojawiają się wyłącznie przy dokumentach o wykształceniu: dyplomy uczelni apostilluje NAWA, świadectwa szkolne - kurator oświaty, świadectwa dojrzałości - dyrektor OKE.
 
 W praktyce:
 
-1. Bierzesz aktualny odpis aktu z USC (albo pobierasz przez profil zaufany).
-2. Idziesz/składasz po apostille do wojewody właściwego dla tego USC, a nie do MSZ.
-3. Opłata - 60 PLN za dokument.
-
-Jeśli przez pomyłkę przyjdziesz do MSZ z aktem urodzenia, zostanie odesłany - i trzeba będzie iść do wojewody. To właśnie te stracone dni.
+1. Bierzesz aktualny odpis aktu z USC. Musi to być papierowy oryginał z okrągłą pieczęcią i podpisem urzędnika - na wydruku z ePUAP apostille nie zostanie nadana.
+2. Rezerwujesz termin przez legalizacja.msz.gov.pl i składasz dokument przy ul. Kruczej 38/42.
+3. Opłata - 60 zł za dokument, płatna z góry do Centrum Obsługi Podatnika.
 
 ## Odpis skrócony czy zupełny i jak świeży
 
@@ -75,14 +75,14 @@ Ważne: wyjątek działa tylko wewnątrz UE. Do USA, Kanady, ZEA, Wielkiej Bryta
 Do kraju pozaeuropejskiego sekwencja jest sztywna:
 
 1. **Świeży odpis** z USC pod datę złożenia.
-2. **Apostille u wojewody** właściwego dla USC - 60 PLN.
+2. **Apostille w MSZ** - 60 zł za dokument.
 3. **Tłumaczenie przysięgłe** gotowego dokumentu razem z tekstem apostille.
 
 Tłumaczenie zawsze po apostille, inaczej tekst klauzuli zostanie bez tłumaczenia i trzeba będzie tłumaczyć ponownie. Ogólny przewodnik po apostille - zobacz [apostille w Polsce](/pl/blog/apostille-v-polshe). Apostille na zaświadczeniu o niekaralności - zobacz [apostille zaświadczenia o niekaralności](/pl/blog/apostille-spravki-o-nesudimosti).
 
 ## Najczęstsze błędy
 
-**1. Pójście do MSZ zamiast do wojewody.** Odpisy USC apostilluje wojewoda właściwy dla USC. MSZ ich nie przyjmuje.
+**1. Pójście do wojewody zamiast do MSZ.** Najczęstszy błąd, podpowiadany przez sam internet. Apostille na odpisach USC nadaje MSZ przy ul. Kruczej 38/42, urząd wojewódzki się tym nie zajmuje.
 
 **2. Apostille na starym odpisie.** Wiele krajów patrzy na „wiek" odpisu. Bierz świeży odpis pod datę złożenia.
 
@@ -96,13 +96,13 @@ Tłumaczenie zawsze po apostille, inaczej tekst klauzuli zostanie bez tłumaczen
 
 Jeden odpis z apostille do jednego kraju realnie załatwisz sam. Prawnik ma sens, gdy:
 
-- akt wydano w jednym województwie, a mieszkasz w innym i dojazd jest niewygodny;
+- mieszkasz poza Warszawą i dojazd do MSZ jest niewygodny (wtedy działamy z pełnomocnictwa albo korespondencyjnie);
 - potrzebny jest pakiet kilku aktów USC z apostille i tłumaczeniami (imigracja rodziny, spadek);
 - w akcie były zmiany (zmiana imienia, sprostowania) i potrzebny właściwy odpis zupełny;
 - dokument jedzie do kraju z legalizacją konsularną ponad apostille;
 - terminy gonią i trzeba zgrać świeżość odpisu, apostille i tłumaczenia do terminu.
 
-W LegalWin usługa [apostille i legalizacja](/pl/uslugi/apostille) obejmuje apostille u wojewody i tłumaczenie przysięgłe, a usługa [akty stanu cywilnego (USC)](/pl/uslugi/akty-stanu-cywilnego) - uzyskanie i przygotowanie samych odpisów, w tym wielojęzycznych.
+W LegalWin usługa [apostille i legalizacja](/pl/uslugi/apostille) obejmuje apostille w MSZ i tłumaczenie przysięgłe, a usługa [akty stanu cywilnego (USC)](/pl/uslugi/akty-stanu-cywilnego) - uzyskanie i przygotowanie samych odpisów, w tym wielojęzycznych.
 
 [Zamów apostille odpisu USC →](/pl/uslugi/apostille#contact)
 

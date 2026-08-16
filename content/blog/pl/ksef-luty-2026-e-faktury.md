@@ -1,6 +1,6 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: 'KSeF 2026: obowiązkowe e-faktury w Polsce'
+title: 'KSeF 2026: od kiedy obowiązkowy i kto ma odroczenie'
 description: >-
   Od 1 lutego 2026 wszystkie faktury B2B w Polsce wystawiane są przez KSeF.
   Podłączenie dla cudzoziemców, kary, kroki dla Sp. z o.o. i JDG.
@@ -22,9 +22,11 @@ relatedServices:
 schema: Article
 ---
 
-# KSeF - obowiązkowe e-faktury w Polsce od lutego 2026
+# KSeF: od kiedy obowiązkowy i kto ma odroczenie
 
-Od 1 lutego 2026 wszyscy polscy przedsiębiorcy - JDG, Sp. z o.o., spółki komandytowe - muszą wystawiać faktury B2B wyłącznie przez **KSeF (Krajowy System e-Faktur)**. Faktury papierowe i PDF mailem przestają być legalnymi dokumentami zakupu dla VAT i CIT. Kara za nieprzestrzeganie - do 100% kwoty VAT z jednej faktury. Dla zagranicznego przedsiębiorcy oznacza to: albo podłączasz się do KSeF do 31 stycznia 2026, albo Twoi kontrahenci nie zaksięgują Twoich faktur.
+Wokół KSeF jest sporo paniki i zamieszania z datami, więc od razu najważniejsze. Obowiązek wchodzi trzema falami: **od 1 lutego 2026** - tylko firmy z obrotem powyżej 200 mln zł za 2024 rok, **od 1 kwietnia 2026** - wszyscy pozostali, w tym JDG i Sp. z o.o., a mikroprzedsiębiorcy, u których sprzedaż udokumentowana fakturami nie przekracza 10 000 zł brutto miesięcznie, mogą do **31 grudnia 2026** wystawiać faktury po staremu.
+
+Druga rzecz, która zdejmuje panikę: **sankcje ruszają dopiero 1 stycznia 2027 roku**. Od 1 lutego do 31 grudnia 2026 naruszenia obowiązków KSeF nie są karane. To okres przejściowy na ułożenie procesów, a nie powód do zwlekania - faktury przychodzące i tak trzeba odbierać przez system od pierwszego dnia.
 
 ## Czym jest KSeF
 
@@ -34,7 +36,17 @@ Cel reformy - zamknąć luki VAT (według MF luka VAT w 2024 wynosiła 12,1%), z
 
 ## Kogo dotyczy obowiązek
 
-Obowiązkowe użycie KSeF od 1 lutego 2026 obejmuje:
+Daty zależą od wielkości firmy:
+
+| Kto | Od kiedy KSeF obowiązkowy |
+|---|---|
+| Obrót powyżej 200 mln zł za 2024 rok | 1 lutego 2026 |
+| Wszyscy pozostali: Sp. z o.o., JDG, spółki komandytowe, jawne, partnerskie | 1 kwietnia 2026 |
+| Mikrofirmy ze sprzedażą fakturową do 10 000 zł brutto miesięcznie | 1 stycznia 2027 (do końca 2026 po staremu) |
+
+Ważny szczegół przy mikrofirmach: limit liczy się miesięcznie. Przekroczysz 10 000 zł w danym miesiącu - od kolejnej faktury przechodzisz na KSeF i powrotu już nie ma.
+
+Obowiązek dotyczy również:
 
 - **Wszystkie Sp. z o.o.** niezależnie od obrotu
 - **JDG płatnicy VAT** (czynni podatnicy VAT)
@@ -51,7 +63,7 @@ Te grupy zostaną objęte obowiązkiem od 2027.
 
 ## Jak podłączyć się jako cudzoziemiec-przedsiębiorca
 
-Kroki do podłączenia - do 31 stycznia 2026:
+Kroki do podłączenia - trzeba zdążyć do 1 kwietnia 2026 (a przy obrocie powyżej 200 mln zł - już do 1 lutego):
 
 ### 1. Uzyskać kwalifikowany podpis lub Profil Zaufany
 
@@ -88,7 +100,7 @@ Szkolenia MF są bezpłatne na podatki.gov.pl. Czas - 4-8 godzin dla poziomu pod
 
 ## Kary za niezgodność
 
-Od 1 lutego 2026 obowiązują:
+Tu kryje się główne nieporozumienie. Poniższe sankcje są zapisane w ustawie o VAT, ale **wchodzą w życie dopiero 1 stycznia 2027 roku**. Przez cały 2026 rok naruszenia obowiązków KSeF formalnie nie są karane:
 
 | Naruszenie | Kara |
 |---|---|
@@ -119,7 +131,7 @@ Praktyczne skutki dla JDG i Sp. z o.o. z zagranicznym zarządem:
 
 ## Co zrobić od razu
 
-Jeśli prowadzisz biznes w Polsce - kroki do 31 stycznia 2026:
+Jeśli prowadzisz biznes w Polsce - kroki do 1 kwietnia 2026:
 
 1. **Dziś:** sprawdź rejestrację w e-Urzędzie Skarbowym przez PUE - musi być aktywna.
 2. **W tym tygodniu:** zrób Profil Zaufany lub podpis kwalifikowany.

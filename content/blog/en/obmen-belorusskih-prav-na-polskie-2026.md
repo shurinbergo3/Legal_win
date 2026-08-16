@@ -111,7 +111,7 @@ The base package is the same for all categories. The differences concern additio
 **Additionally for categories C, D, C+E, D+E:**
 
 - Valid badania lekarskie (medical certificate) from a lekarz uprawniony - 180-250 PLN
-- Valid badania psychologiczne (psychological certificate) - 130-180 PLN
+- Valid badania psychologiczne (psychological certificate) - 150 PLN
 - A Kod 95 certificate - for professional driving
 
 **If you changed your surname:**
@@ -128,7 +128,7 @@ The base package is the same for all categories. The differences concern additio
 | Tłumaczenie przysięgłe (from Belarusian) | 80-110 PLN |
 | Apostille (if required for old licences) | ~60 PLN + time |
 | Badania lekarskie (only for C/D or expired) | 180-250 PLN |
-| Badania psychologiczne (only for C/D) | 130-180 PLN |
+| Badania psychologiczne (only for C/D) | 150 PLN |
 | **Total for cat. B** | **180-260 PLN** |
 | **Total for cat. B with apostille** | **higher due to apostille and time** |
 | **Total for cat. C/D with medicals** | **490-740 PLN** |

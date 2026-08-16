@@ -23,7 +23,7 @@ schema: Article
 
 # Polonya'da Ukraynalılar için CUKR Kartı - 2026 Tam Rehberi
 
-Karta CUKR (resmi adıyla "zezwolenie na pobyt czasowy dla obywatela Ukrainy" *(Ukrayna vatandaşları için geçici oturum izni)*) yalnızca aktif geçici koruma statüsüne (PESEL UKR) sahip Ukrayna vatandaşlarının başvurabildiği özel bir karta pobytu türüdür. Mart 2022'de "specustawa o pomocy obywatelom Ukrainy" *(Ukrayna vatandaşlarına yardım özel kanunu)* ile getirildi, 2024-2025'te yenilendi ve mevcut hâliyle 3 yıllık oturma izni sağlar. Asgari ücret karşılaştırması yapılmaz, "çalışma" veya "iş kurma" gibi belirli bir gerekçe gerektirilmez.
+Karta CUKR (resmi adıyla "zezwolenie na pobyt czasowy dla obywatela Ukrainy" *(Ukrayna vatandaşları için geçici oturum izni)*) yalnızca aktif geçici koruma statüsüne (PESEL UKR) sahip Ukrayna vatandaşlarının başvurabildiği özel bir karta pobytu türüdür. Mart 2022'de "Mevcut prosedürde başvurular **4 Mayıs 2026**'da açıldı ve **4 Mart 2027**'de kapanıyor - kimsenin uzatma sözü vermediği kesin bir pencere. Kart, specustawa o pomocy obywatelom Ukrainy" *(Ukrayna vatandaşlarına yardım özel kanunu)* ile getirildi, 2024-2025'te yenilendi ve mevcut hâliyle 3 yıllık oturma izni sağlar. Asgari ücret karşılaştırması yapılmaz, "çalışma" veya "iş kurma" gibi belirli bir gerekçe gerektirilmez.
 
 **Türkiye okuyucusu için not:** Bu rehber yalnızca Ukrayna vatandaşları için geçerlidir. Türk vatandaşları ulusal D vizesi ve standart karta czasowego pobytu yolundan ilerler. Bu yazı Polonya göç sistemine genel bakış için referans olarak yayınlanmıştır.
 
@@ -38,7 +38,7 @@ Aşağıda CUKR'un standart karta czasowego pobytu'dan farkı, kimlere uygun old
 | Asgari maaş | gerekmez | 2026'da 4.806 PLN brüt |
 | İşverene bağlılık | yok | var |
 | Daimi karta için süreye sayılır | evet (2024'ten beri) | evet |
-| Devlet harcı | 100 PLN | 340 PLN |
+| Harçlar | 340 PLN opłata skarbowa + kart için 100 PLN | 340 PLN + 100 PLN |
 | Mazowieckie'de inceleme süresi | 3-6 ay | 8-14 ay |
 
 CUKR'un ana avantajı powiadomienie *(bildirim)* yapmadan işveren değiştirme özgürlüğü ve daha hızlı incelemedir. Ana risk, varlığının AB'de geçici korumanın uzatılmasına ilişkin siyasi karara bağlı olmasıdır (Mart 2027 sonrası belirsiz).
@@ -71,7 +71,7 @@ Reşit olmayanlar için doğum belgesi ve tłumaczenie przysięgłe *(yeminli te
 
 ## Adım 2. MOS v2.0 üzerinden başvuru
 
-Aralık 2025'ten itibaren başvuru yalnızca mos.cudzoziemcy.gov.pl adresinden yapılır. Giriş Profil Zaufany *(güvenilir profil)* ile yapılır (CUKR için PZ zorunludur - Polonyalıların kullandığı sistemin aynısıdır).
+27 Nisan 2026'ten itibaren başvuru yalnızca mos.cudzoziemcy.gov.pl adresinden yapılır. Giriş Profil Zaufany *(güvenilir profil)* ile yapılır (CUKR için PZ zorunludur - Polonyalıların kullandığı sistemin aynısıdır).
 
 MOS v2.0'da:
 

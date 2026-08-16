@@ -2,7 +2,7 @@
 slug: kod-95-polsha-kak-poluchit
 title: 'Polonya''da Kod 95 2026: kimler ve nasıl alır?'
 description: >-
-  C, D, C+E, D+E sürücüleri için Kod 95: KWP 2.800 PLN veya Szkolenie Okresowe
+  C, D, C+E, D+E sürücüleri için Kod 95: KWP 3.700 PLN veya Szkolenie Okresowe
   900 PLN, 3 ay, yabancılar için belgeler.
 locale: tr
 publishDate: 2026-03-02T00:00:00.000Z
@@ -22,7 +22,7 @@ schema: Article
 
 # Polonya'da Kod 95: kimler için zorunludur ve 3 ayda nasıl alınır
 
-Kod 95, Polonya ehliyetinde yer alan bir kayıttır. Bu kayıt olmadan ne Polonya'da ne de herhangi bir AB ülkesinde profesyonel kamyon (C, C+E) veya otobüs (D, D+E) şoförlüğü yapılamaz. Türkiye'den, Ukrayna'dan, Beyaz Rusya'dan veya başka bir ülkeden C ya da D kategorisi ehliyetle gelip uluslararası nakliyede ya da otobüste çalışmak istiyorsanız, ehliyet değişimine ek olarak Kod 95 da gereklidir. Aşağıda kimler için zorunlu olduğunu, iki edinim yolunu (sınavlı 2.800 PLN'den hızlı yol veya sınavsız 900 PLN'den uzun yol), Mazowieckie eyaletinde ne kadar sürdüğünü ve yabancı sürücüleri bekleyen riskleri anlatıyoruz.
+Kod 95, Polonya ehliyetinde yer alan bir kayıttır. Bu kayıt olmadan ne Polonya'da ne de herhangi bir AB ülkesinde profesyonel kamyon (C, C+E) veya otobüs (D, D+E) şoförlüğü yapılamaz. Türkiye'den, Ukrayna'dan, Beyaz Rusya'dan veya başka bir ülkeden C ya da D kategorisi ehliyetle gelip uluslararası nakliyede ya da otobüste çalışmak istiyorsanız, ehliyet değişimine ek olarak Kod 95 da gereklidir. Aşağıda kimler için zorunlu olduğunu, iki edinim yolunu (sınavlı 3.700 PLN'den hızlı yol veya sınavsız 900 PLN'den uzun yol), Mazowieckie eyaletinde ne kadar sürdüğünü ve yabancı sürücüleri bekleyen riskleri anlatıyoruz.
 
 ## Kod 95 nedir
 
@@ -55,7 +55,7 @@ C kategorisini **10 Eylül 2009'dan sonra** (D için 10 Eylül 2008'den sonra) a
 
 - **Süre:** 140 saat (yoğun şekilde yaklaşık 1 ay)
 - **İçerik:** teori + römorklu çekicide pratik + ekstrem koşul simülatörü
-- **Ücret:** 2026'da Mazowieckie'de 2.800-3.200 PLN
+- **Ücret:** 2026'da Mazowieckie'de 3.600-3.800 PLN
 - **Final:** WORD'de devlet teorik sınavı
 - **Yaş:** C1 için minimum 18, C için 21, D için 24
 
@@ -65,7 +65,7 @@ C kategorisini **10 Eylül 2009'dan önce** (D için 10.09.2008'den önce) almı
 
 - **Süre:** 35 saat (5 gün)
 - **İçerik:** yalnızca teorik dersler (kural değişiklikleri, eco-driving, güvenlik)
-- **Ücret:** 2026'da Mazowieckie'de 800-1.100 PLN
+- **Ücret:** 2026'da Mazowieckie'de 700-900 PLN
 - **Final:** **devlet sınavı yok** - katılım esasıyla świadectwo verilir
 - **Koşul:** C/D kategorisinde minimum 5 yıl sürücü kıdemi
 
@@ -74,9 +74,9 @@ C kategorisini **10 Eylül 2009'dan önce** (D için 10.09.2008'den önce) almı
 | Kimler için | 2009 sonrası C/D | 2009 öncesi C/D |
 | Saat | 140 | 35 |
 | Tamamlanma süresi | 4-6 hafta | 5-7 gün |
-| Kurs ücreti | 2.800-3.200 PLN | 800-1.100 PLN |
+| Kurs ücreti | 3.600-3.800 PLN | 700-900 PLN |
 | WORD'de devlet sınavı | var | yok |
-| Sınavlar ve plastik dahil toplam | ~3.250 PLN | ~1.350 PLN |
+| Sınavlar ve plastik dahil toplam | ~4.200 PLN | ~1.250 PLN |
 
 Müşterilerimizin büyük kısmı için ilk yol - KWP - geçerlidir. C kategorisini eski tarihte alıp Türkiye veya başka bir ülkede kıdeminizi sıfırlamadan yenilettiyseniz, bazen SO yolu mümkündür. Bu, urząd'ın *(makam)* belge incelemesi sırasında karar vereceği bir konudur.
 
@@ -84,9 +84,9 @@ Müşterilerimizin büyük kısmı için ilk yol - KWP - geçerlidir. C kategori
 
 Kursa kayıttan önce iki muayeneden geçilir.
 
-**Badania lekarskie** *(profesyonel sürücü tıbbi muayenesi)* sıradan ehliyet raporundan ayrı bir prosedürdür. Onu **lekarz uprawniony do badań kierowców** *(sürücü muayenelerine yetkili hekim)* yapar (herhangi bir aile hekimi değil). Genel muayene, görme, işitme, tansiyon, gerekirse EKG içerir. Varşova'da ücret 200-280 PLN. Geçerlilik süresi: 60 yaşına kadar 5 yıl, sonrasında her 30 ayda bir.
+**Badania lekarskie** *(profesyonel sürücü tıbbi muayenesi)* sıradan ehliyet raporundan ayrı bir prosedürdür. Onu **lekarz uprawniony do badań kierowców** *(sürücü muayenelerine yetkili hekim)* yapar (herhangi bir aile hekimi değil). Genel muayene, görme, işitme, tansiyon, gerekirse EKG içerir. Ücret kanunla belirlenmiştir: 200 PLN, daha fazlası alınamaz. Geçerlilik süresi: 60 yaşına kadar 5 yıl, sonrasında her 30 ayda bir.
 
-**Badania psychologiczne** *(psikolojik muayene)*, lisanslı merkezlerden birinde **psycholog uprawniony do badań kierowców** *(sürücü muayenelerine yetkili psikolog)* tarafından yapılır. Reaksiyon testi (psikoteknik cihaz), dikkat testi, kişilik anketi içerir. 1-2 saat sürer. Ücret 130-180 PLN. Geçerlilik aynı: 5 yıl.
+**Badania psychologiczne** *(psikolojik muayene)*, lisanslı merkezlerden birinde **psycholog uprawniony do badań kierowców** *(sürücü muayenelerine yetkili psikolog)* tarafından yapılır. Reaksiyon testi (psikoteknik cihaz), dikkat testi, kişilik anketi içerir. 1-2 saat sürer. Bu ücret de kanunla sabittir: 150 PLN. Geçerlilik aynı: 5 yıl.
 
 Varşova'daki ośrodków szkolenia kierowców *(OSK, sürücü kursu merkezleri)* çoğu, her iki muayeneyi aynı gün kendi ofisinde veya iş ortağı poliklinikte düzenler. Bu, ayrı ayrı aramaktan daha pratiktir.
 
@@ -123,11 +123,11 @@ Kurs bir ay boyunca 5 gün x 8 saat formatında yürür. Derslerin %10'undan faz
 
 ## Adım 4. WORD'de devlet sınavı (yalnızca KWP için)
 
-Kursu bitirdikten sonra OSK katılım zaświadczenie'si verir ve sizi WORD'de teoretyczny egzamin państwowy *(devlet teorik sınavı)* için kaydeder. Sınav bilgisayarlıdır, 65 soru, toplam 60 dakika.
+Kursu bitirdikten sonra OSK katılım zaświadczenie'si verir ve sizi WORD'de teoretyczny egzamin państwowy *(devlet teorik sınavı)* için kaydeder. Sınav bilgisayarlıdır, 30 soru, toplam 45 dakika.
 
-- 20 genel soru (sürücü kursundaki gibi)
-- 45 uzmanlık sorusu (takometre, tehlikeli madde taşıma, çalışma rejimi, sigorta, tamir)
-- Geçer not: 65 üzerinden 51 doğru
+- Temel bölümden 20 soru (genel kurallar, çalışma ve dinlenme süreleri, güvenlik)
+- Uzmanlık bölümünden 10 soru - kategorinize göre: C/C+E veya D/D+E
+- Geçer not: temel bölümde 20 üzerinden 16, uzmanlık bölümünde 10 üzerinden 5 doğru
 - Diller: Lehçe, Rusça, Ukraynaca, İngilizce (kayıtta seçilir)
 - Bir deneme ücreti: 50 PLN
 - Geçilemezse - 7 gün sonra tekrar, aynı ücret
@@ -167,14 +167,14 @@ Aynı zamanda ehliyetinizi de değiştiriyorsanız (Türk, Ukraynalı veya Beyaz
 
 | Kalem | KWP | Szkolenie Okresowe |
 |---|---|---|
-| Badania lekarskie | 200-280 PLN | 200-280 PLN |
-| Badania psychologiczne | 130-180 PLN | 130-180 PLN |
-| OSK kursu | 2.800-3.200 PLN | 800-1.100 PLN |
+| Badania lekarskie | 200 PLN | 200 PLN |
+| Badania psychologiczne | 150 PLN | 150 PLN |
+| OSK kursu | 3.600-3.800 PLN | 700-900 PLN |
 | WORD devlet sınavı | 50 PLN (bir deneme) | - |
 | Yeni ehliyet plastiği | 100,50 PLN | 100,50 PLN |
-| **Toplam** | **3.280-3.810 PLN** | **1.230-1.660 PLN** |
+| **Toplam** | **4.100-4.300 PLN** | **1.150-1.350 PLN** |
 
-OSK'da tasarruf mümkündür - Varşova'da fiyatlar aynı kurs için 2.800 ile 3.500 PLN arasında değişir. Ancak eğitim diline dikkat edin: Lehçeniz B2 altındaysa OSK'da 500 PLN tasarruf, kursu geçememeye mal olabilir.
+OSK'da tasarruf mümkündür - Varşova'da fiyatlar aynı kurs için 3.200 ile 3.800 PLN arasında değişir. Ancak eğitim diline dikkat edin: Lehçeniz B2 altındaysa OSK'da 500 PLN tasarruf, kursu geçememeye mal olabilir.
 
 ## Yabancılar için süreci zorlaştıran etkenler
 

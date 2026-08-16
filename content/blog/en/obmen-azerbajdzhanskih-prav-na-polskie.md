@@ -85,7 +85,7 @@ Azerbaijan sits closer to Georgia and Belarus in complexity - the main delay com
 **For categories C, D, C+E, D+E:**
 
 - Valid badania lekarskie from an authorised lekarz (180-250 PLN)
-- Valid badania psychologiczne (130-180 PLN)
+- Valid badania psychologiczne (150 PLN)
 - Code 95 certificate, if you intend to drive professionally
 
 ## Translation Specifics
@@ -130,7 +130,7 @@ Booking is via warszawa19115.pl or the Warszawa 19115 app. Section: "Wydział Ko
 | Sworn translation | 70-120 PLN |
 | Apostille (Azerbaijan MFA) if required | ~60 PLN equivalent |
 | Badania lekarskie (only C/D or expired) | 180-250 PLN |
-| Badania psychologiczne (only C/D) | 130-180 PLN |
+| Badania psychologiczne (only C/D) | 150 PLN |
 | **Total for cat. A/B (post-2017)** | **170-220 PLN** |
 | **Total for cat. A/B (pre-2017 with apostille)** | **230-280 PLN** |
 | **Total for cat. C/D with medical** | **480-680 PLN** |

@@ -66,7 +66,7 @@ Najczęstszy błąd nowo przybyłych - zostawienie tych czterech punktów „na 
 
 ## Krok 2. Karta czasowego pobytu - pierwsze zezwolenie
 
-To kluczowy dokument dla każdego, kto planuje pobyt dłuższy niż pół roku. Wniosek składa się przez **MOS v2.0** (mos.cudzoziemcy.gov.pl) - system, który zastąpił inPOL od grudnia 2025 r. Szczegółowy opis każdego kroku znajdziesz w [naszym przewodniku po karcie pobytu](/pl/blog/karta-pobytu-2026-poshagovaya-instrukciya).
+To kluczowy dokument dla każdego, kto planuje pobyt dłuższy niż pół roku. Wniosek składa się przez **MOS v2.0** (mos.cudzoziemcy.gov.pl) - system, który zastąpił inPOL od 27 kwietnia 2026 r. Szczegółowy opis każdego kroku znajdziesz w [naszym przewodniku po karcie pobytu](/pl/blog/karta-pobytu-2026-poshagovaya-instrukciya).
 
 Najważniejsze dla Mazowieckiego w 2026:
 
@@ -97,7 +97,7 @@ Po 5 latach ciągłej karty czasowego (lub 3 latach małżeństwa z Polakiem alb
 
 Kluczowy wymóg - **certyfikat B1 wydany przez Państwową Komisję Poświadczania Znajomości Języka Polskiego**. Nie z prywatnej szkoły, nie Pearson, nie Telc - wyłącznie certyfikat państwowy. Egzamin odbywa się dwa razy w roku (marzec i listopad) w Warszawie przy ul. Hożej 88. Zapisy ruszają 3-4 miesiące wcześniej, sam egzamin trwa 4 godziny (gramatyka, czytanie, słuchanie, pisanie, mówienie).
 
-Koszt: 240 PLN + 60 PLN za wydanie, gotowy w 6-8 tygodni. Po niezdaniu - minimum 6 miesięcy do następnego podejścia.
+Koszt: 240 PLN + 60 zł za wydanie, gotowy w 6-8 tygodni. Po niezdaniu - minimum 6 miesięcy do następnego podejścia.
 
 Opłata skarbowa za samą kartę stałego - 640 PLN (zwolnieni są posiadacze Karty Polaka). Wniosek przez MOS v2.0. Czas rozpatrzenia w Mazowieckim - 6-12 miesięcy. Szczegóły w [naszym artykule o pobycie stałym](/pl/blog/karta-stalego-pobytu-pmzh-polsha-2026).
 

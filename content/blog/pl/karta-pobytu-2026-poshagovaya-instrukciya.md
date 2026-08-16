@@ -23,7 +23,7 @@ schema: Article
 
 # Karta czasowego pobytu w Polsce 2026: instrukcja krok po kroku
 
-Najważniejsze w skrócie: od grudnia 2025 wniosek o kartę czasowego pobytu składa się wyłącznie online przez MOS v2.0, korespondencja z wojewodą odbywa się przez eDoręczenia, pieczątka w paszporcie została zniesiona, a minimalne wynagrodzenie wymagane przy podstawie „praca" wynosi 4 806 PLN brutto. Opłata skarbowa to 340 PLN, plastik karty - kolejne 100. Średni czas oczekiwania w Mazowieckim Urzędzie Wojewódzkim w 2026 roku wynosi około 8-14 miesięcy. W LegalWin pracujemy w rytmie 42 dni - od pierwszej konsultacji do złożenia wniosku.
+Najważniejsze w skrócie: od 27 kwietnia 2026 wniosek o kartę czasowego pobytu składa się wyłącznie online przez MOS v2.0, korespondencja z wojewodą odbywa się przez eDoręczenia, pieczątka w paszporcie została zniesiona, a minimalne wynagrodzenie wymagane przy podstawie „praca" wynosi 4 806 PLN brutto. Opłata skarbowa to 340 PLN, plastik karty - kolejne 100. Średni czas oczekiwania w Mazowieckim Urzędzie Wojewódzkim w 2026 roku wynosi około 8-14 miesięcy. W LegalWin pracujemy w rytmie 42 dni - od pierwszej konsultacji do złożenia wniosku.
 
 Poniżej - konkretnie, krok po kroku.
 
@@ -31,7 +31,7 @@ Poniżej - konkretnie, krok po kroku.
 
 Trzy główne zmiany, które bezpośrednio wpływają na to, jak wygląda składanie wniosku w tym roku.
 
-**1. MOS v2.0 - jedyna droga elektroniczna.** Stary system inPOL został zamknięty. Od grudnia 2025 obowiązuje nowy formularz wniosku. Złożenie starego druku zakończy się zwrotem jako „formalnie niekompletny" - i utratą kolejki. Logowanie do MOS odbywa się przez Profil Zaufany, login.gov.pl, e-dowód lub mDowód. Bez jednego z tych identyfikatorów nie wejdziesz do systemu.
+**1. MOS v2.0 - jedyna droga elektroniczna.** Stary system inPOL został zamknięty. Od 27 kwietnia 2026 obowiązuje nowy formularz wniosku. Złożenie starego druku zakończy się zwrotem jako „formalnie niekompletny" - i utratą kolejki. Logowanie do MOS odbywa się przez Profil Zaufany, login.gov.pl, e-dowód lub mDowód. Bez jednego z tych identyfikatorów nie wejdziesz do systemu.
 
 **2. Koniec pieczątki.** Czerwony stempel przez całą stronę paszportu, który dotychczas potwierdzał legalność pobytu w trakcie rozpatrywania sprawy, został zniesiony. Zastępują go Urzędowe Poświadczenie Odbioru (UPO) oraz certyfikat elektroniczny w koncie użytkownika MOS. Na granicy i podczas kontroli przez pracodawcę warto nosić wydruk UPO wraz ze zrzutem ekranu statusu w MOS.
 
@@ -72,7 +72,7 @@ Podstawowy pakiet zbiera się przez 5-14 dni - jeśli wszystko jest w porządku.
 Co potrzebne zawsze:
 
 - Paszport (strona ze zdjęciem + strona z aktualną podstawą pobytu)
-- Wypełniony wniosek według formularza z 1 grudnia 2025 (stary formularz nie jest akceptowany)
+- Wypełniony wniosek na aktualnym formularzu w MOS 2.0 (papierowe blankiety nie są przyjmowane)
 - 4 zdjęcia biometryczne 35 × 45 mm
 - Potwierdzenie miejsca zamieszkania (umowa najmu + meldunek, albo umowa użyczenia od krewnego, albo potwierdzenie od pracodawcy)
 - Polisa medyczna z pokryciem min. 30 000 € (dla tych, którzy nie są objęci ZUS/NFZ przez pracodawcę)

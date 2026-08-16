@@ -23,7 +23,7 @@ schema: Article
 
 # Karta CUKR w Polsce dla Ukraińców - kompletny przewodnik 2026
 
-Karta CUKR (formalna nazwa: „zezwolenie na pobyt czasowy dla obywatela Ukrainy") to specjalny typ zezwolenia na pobyt, dostępny wyłącznie dla obywateli Ukrainy posiadających aktywny status ochrony czasowej (PESEL UKR) w momencie składania wniosku. Wprowadzona ustawą „specustawa o pomocy obywatelom Ukrainy" w marcu 2022 i przeformułowana w latach 2024-2025, w obecnym kształcie daje 3-letnie zezwolenie bez porównywania wynagrodzenia z minimalnym i bez konkretnej podstawy typu „praca" lub „działalność".
+Karta CUKR (formalna nazwa: „zezwolenie na pobyt czasowy dla obywatela Ukrainy") to specjalny typ zezwolenia na pobyt, dostępny wyłącznie dla obywateli Ukrainy posiadających aktywny status ochrony czasowej (PESEL UKR) w momencie składania wniosku. Wnioski w obecnej procedurze przyjmowane są od **4 maja 2026** do **4 marca 2027** - to sztywne okno, którego nikt na razie nie obiecał przedłużyć. Kartę wprowadzono ustawą „specustawa o pomocy obywatelom Ukrainy" w marcu 2022 i przeformułowana w latach 2024-2025, w obecnym kształcie daje 3-letnie zezwolenie bez porównywania wynagrodzenia z minimalnym i bez konkretnej podstawy typu „praca" lub „działalność".
 
 Poniżej - co odróżnia CUKR od zwykłej karty czasowego pobytu, komu rzeczywiście pasuje, jak ją uzyskać w 2026 roku oraz co stanie się po wygaśnięciu ochrony czasowej w marcu 2027 r.
 
@@ -36,7 +36,7 @@ Poniżej - co odróżnia CUKR od zwykłej karty czasowego pobytu, komu rzeczywi�
 | Minimalne wynagrodzenie | nie wymagane | 4 806 PLN brutto w 2026 |
 | Przypisanie do pracodawcy | nie | tak |
 | Liczy się do stażu na stałe | tak (od 2024) | tak |
-| Opłata skarbowa | 100 PLN | 340 PLN |
+| Opłaty | 340 zł opłaty skarbowej + 100 zł za kartę | 340 zł + 100 zł |
 | Czas rozpatrzenia w Mazowieckim | 3-6 miesięcy | 8-14 miesięcy |
 
 Główna zaleta CUKR - swoboda zmiany pracodawcy bez powiadomienia oraz szybsze rozpatrzenie. Główne ryzyko - istnienie karty zależy od decyzji politycznej o przedłużeniu ochrony czasowej w UE (po marcu 2027 r. niewiadoma).
@@ -69,7 +69,7 @@ Brak Załącznika nr 1 od pracodawcy, brak zaświadczeń ZUS, brak PIT-11. CUKR 
 
 ## Krok 2. Złożenie przez MOS v2.0
 
-Od grudnia 2025 składanie - wyłącznie przez mos.cudzoziemcy.gov.pl. Logowanie przez Profil Zaufany (dla CUKR PZ jest obowiązkowy - to ten sam system, którego używają obywatele polscy).
+Od 27 kwietnia 2026 składanie - wyłącznie przez mos.cudzoziemcy.gov.pl. Logowanie przez Profil Zaufany (dla CUKR PZ jest obowiązkowy - to ten sam system, którego używają obywatele polscy).
 
 W MOS v2.0:
 

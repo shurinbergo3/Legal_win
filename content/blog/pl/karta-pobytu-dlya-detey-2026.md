@@ -65,7 +65,7 @@ Składanie przez MOS v2.0 w imieniu dziecka (podpisuje rodzic jako opiekun prawn
 **6. Techniczne:**
 - 4 zdjęcia biometryczne 35×45 mm;
 - opłata skarbowa 340 PLN;
-- formularz wniosku z 1 grudnia 2025.
+- aktualny formularz wniosku w MOS 2.0.
 
 ## Liczenie dochodu rodziny
 

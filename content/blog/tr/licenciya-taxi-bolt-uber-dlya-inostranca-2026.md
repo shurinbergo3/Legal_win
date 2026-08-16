@@ -33,7 +33,7 @@ Binek araçla yolcu taşıyan sürücü, **Polonya'da ya da başka bir AB veya A
 
 2025'te sürücülerin önemli bir kısmını devre dışı bırakan madde tam olarak budur.
 
-Ehliyet değişimi ayrı bir süreçtir ve birçok ülke için WORD'de teorik ya da pratik sınav içerir. Süreleri ve belgeleri [ayrıntılı yazdık](/tr/blog/obmen-prav-na-polskie-2026); PKK ve sınav konusunu [burada](/tr/blog/obmen-prav-pkk-zapis-na-egzamin-word-2026) ele aldık.
+Ehliyet değişimi ayrı bir süreçtir ve birçok ülke için WORD'de teorik ya da pratik sınav içerir. Süreleri ve belgeleri [ayrıntılı yazdık](/tr/blog/obmen-prav-na-polskie-2026); PKK ve sınav kaydını [wymiana prawa jazdy](/tr/uslugi/wymiana-prawa-jazdy) hizmetimizde biz hallediyoruz.
 
 Genel kural da geçerlidir: Polonya'da yılda 185 günden fazla yaşıyorsanız, taksi işinden bağımsız olarak ehliyeti değiştirmek zorundasınız.
 
@@ -48,7 +48,7 @@ Genel kural da geçerlidir: Polonya'da yılda 185 günden fazla yaşıyorsanız,
 | Çalışma hakkı veren yasal ikamet | wojewoda | karta pobytu, UKR statüsü vb. |
 | Kimlik doğrulaması | uygulama operatörü | yüz yüze, belgeyle |
 
-İncelenen suçlar arasında yaşama ve sağlığa, cinsel dokunulmazlığa ve genel ahlaka, trafik güvenliğine, mala, ticari hayata ve belgelerin güvenilirliğine karşı kasıtlı suçlar ile mali suçlar yer alır. Yabancı ayrıca vatandaşı olduğu ülkeden yeminli tercümeli belge sunar - [nasıl alınır](/tr/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+İncelenen suçlar arasında yaşama ve sağlığa, cinsel dokunulmazlığa ve genel ahlaka, trafik güvenliğine, mala, ticari hayata ve belgelerin güvenilirliğine karşı kasıtlı suçlar ile mali suçlar yer alır. Yabancı ayrıca vatandaşı olduğu ülkeden yeminli tercümeli belge sunar - [nasıl alınır](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 
 ## Lisanslar: hangisi kime
 

@@ -41,7 +41,7 @@ Kuralları ustawa o przeciwdziałaniu zagrożeniom przestępczością na tle sek
 
 **KRK belgesini** aday getirir. Herhangi bir adli sicil kaydı değil, kanunda sayılan kapsam istenir: Ceza Kanunu'nun XIX ve XXV. bölümleri, art. 189a ve art. 207 ile uyuşturucuyla mücadele kanunu. Pratikte tam belge almak daha kolaydır; bu kapsamı zaten karşılar.
 
-Belgeyi internetten nasıl alacağınızı [e-KRK yazımızda](/tr/blog/spravka-o-nesudimosti-e-krk-online-2026) anlattık.
+Belgeyi e-KRK üzerinden internetten de alıyoruz - [hizmet sayfasına bakın](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 
 ## Yabancıdan ek olarak istenenler
 
@@ -89,10 +89,10 @@ Pratik sonuç: her personel dosyasında üç şey bulunsun - sonucuyla birlikte 
 Sürecin genellikle tıkandığı yabancı ayağını biz kapatıyoruz:
 
 1. **Koşul analizi** - 20 yıl kuralının sizin dosyanızda hangi ülkeleri kapsadığı.
-2. **Yurt dışı belgelerinin temini** - Türkiye, Ukrayna, Belarus, Kazakistan, Gürcistan, AB ülkeleri; vekâletle, seyahat etmenize gerek kalmadan. Ayrıntılar: [köken ülkeden adli sicil belgesi](/tr/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+2. **Yurt dışı belgelerinin temini** - Türkiye, Ukrayna, Belarus, Kazakistan, Gürcistan, AB ülkeleri; vekâletle, seyahat etmenize gerek kalmadan. Ayrıntılar: [köken ülkeden adli sicil belgesi](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 3. **Apostil veya konsolosluk tasdiki**, gerektiği yerde.
 4. **Tüm belgelerin yeminli tercümesi.**
-5. **Polonya KRK belgesi**, henüz PESEL'iniz yoksa da: [nasıl işliyor](/tr/blog/krk-dlya-inostranca-bez-pesel-2026).
+5. **Polonya KRK belgesi**, henüz PESEL'iniz yoksa da: [nasıl işliyor](/tr/uslugi/zaswiadczenie-o-niekaralnosci).
 6. **İşverene hazır dosya** - derlenmiş, tercüme edilmiş ve açıklamalı; insan kaynakları sizi ikinci kez geri göndermesin.
 
 Süre ve ücretler [hizmet sayfasında](/tr/uslugi/zaswiadczenie-o-niekaralnosci). Yabancı bölümün toplanması ortalama 2-4 hafta sürer; bu nedenle sözleşmeyi imzaladıktan sonra değil, öncesinde başlamak gerekir.

@@ -84,7 +84,7 @@ Turkey compares favourably with its post-Soviet neighbours - thanks to the digit
 **For categories C, D, C+E, D+E:**
 
 - Valid badania lekarskie from an authorised lekarz (180-250 PLN)
-- Valid badania psychologiczne (130-180 PLN)
+- Valid badania psychologiczne (150 PLN)
 - Code 95 certificate for professional driving (separate course)
 
 ## Translation from Turkish: Finding a Sworn Translator
@@ -131,7 +131,7 @@ Booking via the warszawa19115.pl portal or the Warszawa 19115 app. Section: "Wyd
 | Sworn translation | 80-130 PLN |
 | Apostille / consular legalisation (for "eski tip") | 60-80 PLN |
 | Badania lekarskie (only C/D or expired) | 180-250 PLN |
-| Badania psychologiczne (only C/D) | 130-180 PLN |
+| Badania psychologiczne (only C/D) | 150 PLN |
 | **Total for cat. A/B (post-2016)** | **180-230 PLN** |
 | **Total for cat. A/B (pre-2016 with apostille)** | **240-310 PLN** |
 | **Total for cat. C/D with medical** | **490-740 PLN** |

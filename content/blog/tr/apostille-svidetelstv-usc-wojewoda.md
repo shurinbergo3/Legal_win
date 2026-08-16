@@ -1,9 +1,9 @@
 ---
 slug: apostille-svidetelstv-usc-wojewoda
-title: 'USC Belgelerine Apostille 2026: MSZ Değil, Wojewoda Vurur'
+title: 'USC Belgelerine Apostille 2026: Wojewoda Değil, MSZ Vurur'
 description: >-
-  Doğum, evlilik, ölüm belgesine apostille'yi MSZ değil, USC için yetkili
-  wojewoda vurur. Ücret 60 PLN, çok dilli odpis ve yurt dışı sırası.
+  Doğum, evlilik, ölüm belgesine apostille'yi wojewoda değil, ul. Krucza 38/42
+  adresindeki MSZ vurur. Ücret 60 PLN, çok dilli odpis ve yurt dışı sırası.
 locale: tr
 publishDate: 2026-06-30T00:00:00.000Z
 author: LegalWin
@@ -20,13 +20,13 @@ relatedServices:
 schema: Article
 ---
 
-# USC Belgelerine Apostille: MSZ Değil, Wojewoda Vurur
+# USC Belgelerine Apostille: Wojewoda Değil, MSZ Vurur
 
-Doğum, evlilik ve ölüm belgelerine apostille konusunda en sık yapılan hata, onu MSZ'den almaya gitmektir. USC (Urząd Stanu Cywilnego, nüfus dairesi) belgelerine apostille'yi MSZ değil, wojewoda vurur - belgeyi veren USC için yetkili vali. Fiyat aynıdır, 60 PLN, ama makam farklıdır ve bu karışıklık insanlara günler kaybettirir. Aşağıda hangi valinin yetkili olduğunu, hangi odpis'in gerektiğini, çok dilli formun ne zaman kurtardığını ve yurt dışı kullanımı için her şeyin hangi sırada yapılacağını anlatıyoruz.
+Doğum ya da evlilik belgesine apostille için valiye gidin tavsiyesi internette yaygın olarak dolaşıyor. Yanlıştır ve insanlara günler kaybettirir. USC (Urząd Stanu Cywilnego, nüfus dairesi) belgelerine de, diğer tüm Polonya resmi belgelerinde olduğu gibi, apostille'yi **MSZ** vurur - Varşova ul. Krucza 38/42 adresindeki Referat ds. Legalizacji. Ücret belge başına 60 PLN. Aşağıda: hangi odpis gerekir, çok dilli form ne zaman kurtarır ve yurt dışı kullanımı için her şey hangi sırada yapılır.
 
 ## USC belgelerine apostille'yi kim vurur - kısa cevap
 
-Polonya nüfus kayıtlarına (akt urodzenia, małżeństwa, zgonu, boşanma odpis'i) apostille'yi MSZ değil, belgeyi veren USC için yetkili wojewoda vurur. Ücret belge başına 60 PLN'dir. USC'den güncel bir odpis (örnek) gerekir. AB içinde apostille çoğu zaman çok dilli odpis ile değiştirilir. Yurt dışı sırası: odpis, valilikte apostille, yeminli tercüme.
+Polonya nüfus kayıtlarına (akt urodzenia, małżeństwa, zgonu, boşanma odpis'i) apostille'yi MSZ vurur. Wojewoda'nın apostille ile ilgisi yoktur - bu yaygın bir yanlış bilgidir. Ücret belge başına 60 PLN'dir. USC'den güncel bir odpis (örnek) gerekir. AB içinde apostille çoğu zaman çok dilli odpis ile değiştirilir. Yurt dışı sırası: odpis, valilikte apostille, yeminli tercüme.
 
 ## Hangi belgeler ve nereye gider
 
@@ -41,17 +41,17 @@ USC belgelerine apostille genellikle Polonya belgesi yurt dışında gerektiğin
 
 Belge Polonya'da kalıyorsa veya bir AB ülkesine gidiyorsa apostille çoğu zaman hiç gerekmez - aşağıdaki çok dilli form bölümüne bakın.
 
-## En önemlisi: apostille'yi MSZ değil, wojewoda vurur
+## En önemlisi: apostille'yi wojewoda değil, MSZ vurur
 
-Karışıklık tam da burada. MSZ apostille'yi noter belgelerine, mahkeme belgelerine, KRK'ye vurur. Ama USC odpis'leri valinin alanıdır. Tam olarak - belgeyi veren USC'nin bulunduğu eyaletin valisi. Kraków'da doğdunuz - apostille'yi Małopolski Urząd Wojewódzki vurur. Evlilik Varşova'da yapıldı - pl. Bankowy 3/5'teki Mazowiecki Urząd Wojewódzki.
+Karışıklık tam da burada. MSZ apostille'yi noter belgelerine de, mahkeme belgelerine de, KRK'ye de, USC odpis'lerine de vurur. Ayrı bir „valilik apostille'i" yoktur: urzędy wojewódzkie yabancıların ikamet işlemleriyle ilgilenir, Lahey şerhiyle değil.
+
+MSZ dışındaki kurumlar yalnızca eğitim belgelerinde devreye girer: üniversite diplomalarını NAWA, okul belgelerini kurator oświaty, olgunluk belgelerini OKE müdürü apostille'ler.
 
 Uygulamada:
 
-1. USC'den belgenin güncel odpis'ini alırsınız (veya profil zaufany ile indirirsiniz).
-2. Apostille için MSZ'ye değil, o USC için yetkili valiye gider/başvurursunuz.
-3. Ücret belge başına 60 PLN.
-
-Yanlışlıkla doğum belgesiyle MSZ'ye giderseniz geri çevrilir - ve valiye gitmeniz gerekir. İşte kaybedilen günler bunlardır.
+1. USC'den belgenin güncel odpis'ini alırsınız. Yuvarlak mühürlü ve memur imzalı kağıt orijinal olmalıdır - ePUAP çıktısına apostille vurulmaz.
+2. legalizacja.msz.gov.pl üzerinden randevu alıp belgeyi ul. Krucza 38/42 adresine sunarsınız.
+3. Ücret belge başına 60 PLN, önceden Centrum Obsługi Podatnika hesabına ödenir.
 
 ## Odpis skrócony mı, zupełny mı ve ne kadar taze
 
@@ -75,14 +75,14 @@ Bunun kurtardığı durumlar:
 Avrupa dışı bir ülke için sıralama katıdır:
 
 1. **Taze odpis** - USC'den, başvuru tarihine göre.
-2. **Valilikte apostille** - USC için yetkili vali, 60 PLN.
+2. **MSZ'de apostille** - belge başına 60 PLN.
 3. **Yeminli tercüme** - hazır belge, apostille metniyle birlikte.
 
 Tercüme her zaman apostille'den sonra gelir, aksi hâlde şerhin metni tercümesiz kalır ve yeniden tercüme gerekir. Apostille için genel rehber - bkz. [Polonya'da apostille](/tr/blog/apostille-v-polshe). Adli sicil belgesine apostille - bkz. [adli sicil belgesine apostille](/tr/blog/apostille-spravki-o-nesudimosti).
 
 ## En sık yapılan hatalar
 
-**1. Vali yerine MSZ'ye gitmek.** USC belgelerini USC için yetkili wojewoda apostille'ler. MSZ onları kabul etmez.
+**1. MSZ yerine valiye gitmek.** En sık yapılan hata ve internetin kendisi bunu öneriyor. USC belgelerine apostille'yi ul. Krucza 38/42'deki MSZ vurur; valilik bu işi hiç yapmaz.
 
 **2. Eski odpis'e apostille.** Birçok ülke örneğin „yaşına" bakar. Başvuru tarihine göre taze odpis alın.
 

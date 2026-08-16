@@ -126,7 +126,7 @@ Noter onaylı suret üzerine evet, önce bölge mahkemesi tasdikiyle. Sıradan f
 Bazı temsilcilikler "apostil" sözcüğünü MSZ tasdiki anlamında kullanır. Koşulu yazılı isteyin; kullanılan terim ile uygulama sıkça ayrışır.
 
 **Yurt dışında düzenlenmiş bir belge Polonya'da apostillenebilir mi?**
-Hayır. Apostili yalnızca belgeyi düzenleyen ülke verir. Ukrayna belgesi Ukrayna'da, Türk belgesi Türkiye'de apostillenir. Bunu uzaktan nasıl organize edeceğinizi [yabancı belgelerin apostili yazımızda](/tr/blog/apostille-inostrannyh-dokumentov-dlya-polshi-2026) anlatıyoruz.
+Hayır. Apostili yalnızca belgeyi düzenleyen ülke verir. Ukrayna belgesi Ukrayna'da, Türk belgesi Türkiye'de apostillenir. Uzaktan organizasyonu [apostille ve resmi onay](/tr/uslugi/apostille) hizmetimiz kapsamında biz üstleniyoruz.
 
 **Yurt dışında hesap açmak için şirket belgeleri apostil gerektirir mi?**
 Genellikle evet; KRS kaydı ve şirket sözleşmesini kapsayan ayrı bir süreçtir, [ayrıca ele alıyoruz](/tr/blog/apostille-na-korporativnye-dokumenty-krs-2026).

@@ -80,7 +80,7 @@ W każdym z tych przypadków masz **15 dni roboczych** na powiadomienie wojewody
 
 ## Powiadomienie o zmianie pracodawcy: krok po kroku
 
-Od grudnia 2025 powiadomienie o zmianie pracodawcy składa się przez MOS v2.0 (mos.cudzoziemcy.gov.pl). Jest to procedura formalna, ale nie tożsama ze złożeniem nowej karty pobytu.
+Od 27 kwietnia 2026 powiadomienie o zmianie pracodawcy składa się przez MOS v2.0 (mos.cudzoziemcy.gov.pl). Jest to procedura formalna, ale nie tożsama ze złożeniem nowej karty pobytu.
 
 **Krok 1. Zebranie dokumentów:**
 

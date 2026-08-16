@@ -104,7 +104,7 @@ schema: Article
 **Для категорій C, D, C+E, D+E:**
 
 - Дійсні badania lekarskie (180-250 PLN)
-- Дійсні badania psychologiczne (130-180 PLN)
+- Дійсні badania psychologiczne (150 PLN)
 - Сертифікат Kod 95 для професійного водіння
 
 ## Скільки коштує
@@ -116,7 +116,7 @@ schema: Article
 | Tłumaczenie przysięgłe прав (з російської) | 70-110 PLN |
 | Apostille (якщо знадобиться) | ~60 PLN + час |
 | Badania lekarskie (тільки для C/D або прострочених) | 180-250 PLN |
-| Badania psychologiczne (тільки для C/D) | 130-180 PLN |
+| Badania psychologiczne (тільки для C/D) | 150 PLN |
 | **Разом для cat. A/B (нові права)** | **180-270 PLN** |
 | **Разом для cat. C/D з медициною** | **490-740 PLN** |
 

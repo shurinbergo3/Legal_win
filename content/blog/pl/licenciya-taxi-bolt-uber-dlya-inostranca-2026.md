@@ -33,7 +33,7 @@ Kierowca wykonujący przewóz osób samochodem osobowym musi posiadać prawo jaz
 
 To właśnie ten wymóg wyeliminował w 2025 r. znaczną część kierowców.
 
-Wymiana prawa jazdy jest odrębną procedurą, a dla wielu państw obejmuje egzamin teoretyczny albo praktyczny w WORD. Terminy i dokumenty opisaliśmy [szczegółowo](/pl/blog/obmen-prav-na-polskie-2026), a kwestię PKK i egzaminu [tutaj](/pl/blog/obmen-prav-pkk-zapis-na-egzamin-word-2026).
+Wymiana prawa jazdy jest odrębną procedurą, a dla wielu państw obejmuje egzamin teoretyczny albo praktyczny w WORD. Terminy i dokumenty opisaliśmy [szczegółowo](/pl/blog/obmen-prav-na-polskie-2026), a PKK i zapis na egzamin bierzemy na siebie w ramach usługi [wymiana prawa jazdy](/pl/uslugi/wymiana-prawa-jazdy).
 
 Obowiązuje też zasada ogólna: przy pobycie dłuższym niż 185 dni w roku wymiana prawa jazdy jest konieczna niezależnie od pracy w przewozie osób.
 
@@ -48,7 +48,7 @@ Obowiązuje też zasada ogólna: przy pobycie dłuższym niż 185 dni w roku wym
 | Legalny pobyt z prawem do pracy | wojewoda | karta pobytu, status UKR i inne |
 | Weryfikacja tożsamości | operator aplikacji | osobista, z okazaniem dokumentów |
 
-Zakres badanej niekaralności obejmuje przestępstwa umyślne przeciwko życiu i zdrowiu, wolności seksualnej i obyczajności, bezpieczeństwu w komunikacji, mieniu, obrotowi gospodarczemu i wiarygodności dokumentów, a także przestępstwa skarbowe. Cudzoziemiec dołącza zaświadczenie z państwa obywatelstwa wraz z tłumaczeniem - [jak je uzyskać](/pl/blog/spravka-o-nesudimosti-iz-strany-proishozhdeniya).
+Zakres badanej niekaralności obejmuje przestępstwa umyślne przeciwko życiu i zdrowiu, wolności seksualnej i obyczajności, bezpieczeństwu w komunikacji, mieniu, obrotowi gospodarczemu i wiarygodności dokumentów, a także przestępstwa skarbowe. Cudzoziemiec dołącza zaświadczenie z państwa obywatelstwa wraz z tłumaczeniem - [jak je uzyskać](/pl/uslugi/zaswiadczenie-o-niekaralnosci).
 
 ## Licencje: która i dla kogo
 

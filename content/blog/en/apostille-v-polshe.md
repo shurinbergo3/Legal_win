@@ -3,7 +3,7 @@ slug: apostille-v-polshe
 title: 'Apostille in Poland 2026: Where to Get It and Costs'
 description: >-
   Apostille at MSZ Polska, ul. Krucza 38/42: which documents need it, fee 60
-  PLN, timeline 1-3 weeks. Alternative - legalizacja konsularna.
+  PLN, same day if you come in person. Alternative - legalizacja konsularna.
 locale: en
 publishDate: 2025-12-18T00:00:00.000Z
 author: LegalWin
@@ -23,7 +23,7 @@ schema: Article
 
 # Apostille in Poland - What It Is and When You Need It in 2026
 
-An apostille is a simplified form of legalisation of official documents between countries party to the **Hague Convention of 1961**. Poland joined the convention in 2005, and since then the apostille has replaced the lengthy procedure of legalizacja konsularna for documents issued for use in over 120 countries. In Poland the apostille is issued by the **Ministerstwo Spraw Zagranicznych (MSZ)** at ul. Krucza 38/42 in Warsaw. Cost - 60 PLN per document, time - 1-3 weeks depending on type.
+An apostille is a simplified form of legalisation of official documents between countries party to the **Hague Convention of 1961**. Poland joined the convention in 2005, and since then the apostille has replaced the lengthy procedure of legalizacja konsularna for documents issued for use in over 120 countries. In Poland the apostille is issued by the **Ministerstwo Spraw Zagranicznych (MSZ)** at ul. Krucza 38/42 in Warsaw. Cost - 60 PLN per document. In person the apostille is issued the same day; by post it takes up to 30 days.
 
 ## What an Apostille Is - A Brief Explanation
 
@@ -57,13 +57,13 @@ The apostille is also needed for **foreign documents brought to Poland** - but i
 
 **Step 2.** If the document is a copy (e.g., a notarial copy), the apostille is on the notary's certificate, not the document itself. Confirm this with the notary before certification.
 
-**Step 3.** Book an appointment at MSZ. Booking via msz.gov.pl or by email at rejestracja.apostille@msz.gov.pl. Wait time - 1-3 weeks.
+**Step 3.** Book your MSZ slot at legalizacja.msz.gov.pl. Fresh slots open every working morning, two weeks ahead, so log in early. Questions go to legalizacja@msz.gov.pl.
 
-**Step 4.** Pay 60 PLN to the MSZ account. Details on msz.gov.pl. Payment confirmation is required at submission.
+**Step 4.** Pay the 60 PLN. It is an opłata skarbowa and it goes to the city, not to MSZ: the payee is Centrum Obsługi Podatnika, account 21 1030 1508 0000 0005 5000 0070 at Bank Handlowy w Warszawie. Use "opłata skarbowa za wydanie apostille" as the transfer title, print the confirmation and bring it along - you cannot pay on the spot at MSZ.
 
 **Step 5.** Bring the original document to MSZ (Krucza 38/42, II piętro). Submission takes 5-10 minutes.
 
-**Step 6.** Collect the finished document in 7-21 days. Two options:
+**Step 6.** If you come in person, the apostille is issued during the visit wherever possible, capped at 10 documents per person per day. Applications posted to al. Szucha 23 are processed within 30 days of arrival at MSZ. Two ways to collect:
 - In person at MSZ (no appointment needed for collection)
 - By courier (request at submission) - additional 30-50 PLN
 
@@ -142,7 +142,7 @@ To this add the cost of travel to the country of origin or remote processing thr
 
 **4. Translation before apostille.** The apostille must be affixed **before** translation. Otherwise translation must be redone after apostille (including the apostille text itself).
 
-**5. Late MSZ booking.** Booking is 1-3 weeks ahead. For urgent needs, try alternative offices in Kraków or Wrocław (waiting time may be shorter).
+**5. Late MSZ booking.** Slots open every working morning, two weeks ahead, and go fast. Only MSZ in Warsaw issues apostilles - there are no "alternative" offices in other cities. If you can't travel, post the documents to al. Szucha 23 and allow up to 30 days.
 
 ## When You Need a Lawyer
 

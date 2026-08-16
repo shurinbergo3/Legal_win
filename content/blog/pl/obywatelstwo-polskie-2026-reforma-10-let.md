@@ -68,7 +68,7 @@ Doradzamy klientom to samo, i nie chodzi o pośpiech, lecz o arytmetykę.
 
 **Jeżeli posiadają Państwo kartę czasowego pobytu**, priorytetem nie jest obywatelstwo, lecz uzyskanie statusu bezterminowego - to od niego liczy się termin. Dwie ścieżki: [karta stałego pobytu](/pl/uslugi/karta-stalego-pobytu) oparta na więziach z Polską oraz [status rezydenta długoterminowego UE](/pl/uslugi/rezydent-ue) oparty na stażu i dochodzie. Ten drugi bywa niedoceniany, a często jest łatwiej dostępny.
 
-**Przy polskim pochodzeniu** droga jest krótsza - omawiamy ją w tekście o [pobycie stałym na podstawie pochodzenia](/pl/blog/pmzh-po-polskomu-proishozhdeniyu-2026).
+**Przy polskim pochodzeniu** droga jest krótsza i prowadzi przez [pobyt stały](/pl/uslugi/karta-stalego-pobytu).
 
 Osobna kwestia to przepisy przejściowe. Żaden z projektów nie gwarantuje dziś, że sprawy wszczęte przed wejściem w życie będą rozpatrywane według dotychczasowych zasad. Praktyka legislacyjna zwykle chroni postępowania w toku, ale traktowanie tego jako pewnika byłoby nieostrożne.
 

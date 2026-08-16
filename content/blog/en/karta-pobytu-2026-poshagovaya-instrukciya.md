@@ -23,7 +23,7 @@ schema: Article
 
 # Temporary Residence Card in Poland 2026: Step-by-Step Guide
 
-Here is the short version: from December 2025, applications for a karta czasowego pobytu must be submitted online through MOS v2.0, all correspondence with the voivode is handled via eDoręczenia, the passport stamp has been abolished, and the minimum salary requirement for the "employment" basis is 4,806 PLN gross. The state fee is 340 PLN, with an additional 100 PLN for the physical card. The average processing time at the Mazowieckie Voivodeship Office in 2026 is approximately 8-14 months. At LegalWin, our standard timeline is 42 days from the initial consultation to złożenia wniosku (filing the application).
+Here is the short version: from 27 April 2026, applications for a karta czasowego pobytu must be submitted online through MOS v2.0, all correspondence with the voivode is handled via eDoręczenia, the passport stamp has been abolished, and the minimum salary requirement for the "employment" basis is 4,806 PLN gross. The state fee is 340 PLN, with an additional 100 PLN for the physical card. The average processing time at the Mazowieckie Voivodeship Office in 2026 is approximately 8-14 months. At LegalWin, our standard timeline is 42 days from the initial consultation to złożenia wniosku (filing the application).
 
 Below - no filler, just steps.
 
@@ -31,7 +31,7 @@ Below - no filler, just steps.
 
 Three major changes define how applications work this year.
 
-**1. MOS v2.0 - the only electronic filing route.** The old inPOL system has been shut down. A new application form has been in effect since December 2025. Submitting the old form will result in a return marked "formalnie niekompletny" - and you will lose your place in the queue. Login to MOS requires a Profil Zaufany, login.gov.pl, e-dowód, or mDowód. Without one of these digital identifiers, access to the system is not possible.
+**1. MOS v2.0 - the only electronic filing route.** The old inPOL system has been shut down. A new application form has been in effect since 27 April 2026. Submitting the old form will result in a return marked "formalnie niekompletny" - and you will lose your place in the queue. Login to MOS requires a Profil Zaufany, login.gov.pl, e-dowód, or mDowód. Without one of these digital identifiers, access to the system is not possible.
 
 **2. End of the passport stamp.** The red stamp across an entire passport page - which previously confirmed lawful stay while a case was under review - has been abolished. In its place: an Urzędowe Poświadczenie Odbioru (UPO) and an electronic certificate in the MOS user account. When crossing a border or presenting proof of status to an employer, it is advisable to carry a printed UPO along with a screenshot of the MOS status.
 

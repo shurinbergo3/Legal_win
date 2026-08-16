@@ -23,13 +23,15 @@ schema: Article
 
 # How to Submit an Application Through MOS 2.0 in Poland - 2026 Guide
 
-From 1 December 2025, every residence permit application in Poland - karta czasowego pobytu, karta stałego pobytu, karta CUKR, renewals, employer-change notifications - is filed exclusively through MOS v2.0 (mos.cudzoziemcy.gov.pl). The old inPOL system has been retired. Paper applications are accepted only in exceptional circumstances (specific disability cases, by formal request). For everyone else - electronic only.
+From 27 April 2026, every residence permit application in Poland - karta czasowego pobytu, karta stałego pobytu, karta CUKR, renewals, employer-change notifications - is filed exclusively through MOS v2.0 (mos.cudzoziemcy.gov.pl). The old inPOL system has been retired. Paper applications are accepted only in exceptional circumstances (specific disability cases, by formal request). For everyone else - electronic only.
+
+One note on the transition: paper applications that did not reach the urząd wojewódzki by 26 April 2026 are left without consideration. What counts is the date it arrived at the office, not the postmark - a letter posted on 25 April and delivered on the 30th no longer saves the case.
 
 What follows is a real working guide for MOS v2.0 in 2026. Not a screenshot tour of the gov.pl manual, but the details that quietly cost hours when first encountered.
 
 ## What MOS v2.0 Is - In Brief
 
-MOS stands for "Moduł Obsługi Spraw" - the unified portal of the Office for Foreigners (Urząd do Spraw Cudzoziemców) for all immigration cases. Version 2.0 launched in December 2025, replacing the old inPOL and the previous MOS, and in 2026 it is the only filing channel. The system handles:
+MOS stands for "Moduł Obsługi Spraw" - the unified portal of the Office for Foreigners (Urząd do Spraw Cudzoziemców) for all immigration cases. Version 2.0 launched in 27 April 2026, replacing the old inPOL and the previous MOS, and in 2026 it is the only filing channel. The system handles:
 
 - Foreigner account registration
 - Filing of all karta pobytu types
@@ -194,7 +196,7 @@ The card is printed at the Polska Wytwórnia Papierów Wartościowych and arrive
 ## The Most Common MOS v2.0 Mistakes
 
 1. **Filing on the last day of stay.** If the office returns the wniosek (e.g., wrong Załącznik), your legal stay ends. Buffer: at least 30 days before visa or old card expiry.
-2. **Using the old form version.** If you saved a wniosek from inPOL - discard it; the form effective from 1 December 2025 is different.
+2. **Using the old form version.** If you saved a wniosek from inPOL - discard it; the form effective from 27 April 2026 is different.
 3. **Colour scan when black-and-white is required (or vice versa).** Passport scans must be colour. Załącznik nr 1 must be a signed PDF, not a screenshot.
 4. **Unconfirmed PKD at the employer.** The main PKD must correspond to the position.
 5. **Ignoring eDoręczenia SMS.** Voivode messages are critical - 7 days to respond.
@@ -216,7 +218,7 @@ A lawyer makes sense if:
 - Family status, employer, or meldunek address is changing in parallel
 - The basis is complex (działalność, nauka, family with non-standard situation)
 
-At LegalWin we have been working with MOS v2.0 since its launch in December 2025. Average time from first consultation to złożenia wniosku - 14 days; average time to receiving the card - 280 days.
+At LegalWin we have been working with MOS v2.0 since its launch in 27 April 2026. Average time from first consultation to złożenia wniosku - 14 days; average time to receiving the card - 280 days.
 
 [Get help with filing in MOS 2.0 →](/en/uslugi/karta-pobytu#contact)
 

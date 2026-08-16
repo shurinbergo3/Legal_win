@@ -94,7 +94,7 @@ schema: Article
 | Opłata ewidencyjna | 0,50 PLN |
 | Tłumaczenie przysięgłe прав | 60-110 PLN |
 | Badania lekarskie (только для C, D или просроченных прав) | 180-250 PLN |
-| Badania psychologiczne (только для C, D) | 130-180 PLN |
+| Badania psychologiczne (только для C, D) | 150 PLN |
 | Apostille (если нужен - для белорусских в редких случаях) | 60 PLN + время |
 | **Итого для cat. B** | **160-210 PLN** |
 | **Итого для cat. C/D с экзаменами** | **600-900 PLN** |

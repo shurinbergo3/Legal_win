@@ -79,7 +79,7 @@ Her durumda wojewoda'ya bildirim için **15 iş gününüz** vardır. 15 günü 
 
 ## Powiadomienie o zmianie pracodawcy: adım adım
 
-Aralık 2025'ten itibaren işveren değişikliği bildirimi MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* (mos.cudzoziemcy.gov.pl) üzerinden yapılır. Bu, yeni bir Karta Pobytu başvurusuyla aynı şey olmayan resmi bir prosedürdür.
+27 Nisan 2026'ten itibaren işveren değişikliği bildirimi MOS v2.0 *(yabancılar için yeni e-başvuru sistemi)* (mos.cudzoziemcy.gov.pl) üzerinden yapılır. Bu, yeni bir Karta Pobytu başvurusuyla aynı şey olmayan resmi bir prosedürdür.
 
 **Adım 1. Belgelerin toplanması.** Gerekenler:
 

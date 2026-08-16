@@ -41,7 +41,7 @@ Genel kural: **kart yenileme başvurusu için kanun 14 gün tanır**; veri ve ik
 
 Karışıklığı önleyen ayrıntı: **karta pobytu üzerinde adres yazmaz**. Taşınma, kart yenilemesiyle değil; yeni meldunek ve bildirimle çözülür.
 
-Kayıp ve çalınma polis tutanağıyla kendi usulünü izler - [ayrıca ele alıyoruz](/tr/blog/karta-pobytu-utrata-kradzha-wtornik-2026).
+Kayıp ve çalınma polis tutanağıyla kendi usulünü izler - [bu süreçte de yanınızdayız](/tr/uslugi/karta-pobytu).
 
 ## Evlilik sonrası soyadı değişikliği
 

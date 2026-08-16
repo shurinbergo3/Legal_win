@@ -53,10 +53,10 @@ Różnice kosztowe są niewielkie:
 
 - odpis aktualny z KRS - 30 PLN papierowo wobec bezpłatnego wydruku;
 - zaświadczenie z KRK - 30 PLN papierowo wobec 20 PLN elektronicznie;
-- odpis z księgi wieczystej - 30-60 PLN zależnie od rodzaju;
+- odpis z księgi wieczystej - 30-60 zł zależnie od rodzaju;
 - odpis z USC - 22-33 PLN.
 
-Termin: od jednego dnia do tygodnia. Dalej dokument idzie standardową ścieżką, w razie potrzeby przez instancję pośrednią, a następnie do MSZ za 60 PLN - [omawiamy ją tutaj](/pl/blog/apostille-ili-legalizacja-konsularna-2026).
+Termin: od jednego dnia do tygodnia. Dalej dokument idzie standardową ścieżką, w razie potrzeby przez instancję pośrednią, a następnie do MSZ za 60 zł - [omawiamy ją tutaj](/pl/blog/apostille-ili-legalizacja-konsularna-2026).
 
 ## Ścieżka druga: notariusz
 
@@ -65,8 +65,8 @@ Dla dokumentów wydawanych wyłącznie cyfrowo - CEIDG, sprawozdania finansowe, 
 Notariusz poświadcza zgodność wydruku z dokumentem elektronicznym. Następnie:
 
 1. **Notariusz** - poświadczenie, 20-50 PLN plus VAT.
-2. **Sąd okręgowy** - poświadczenie podpisu notariusza, 26 PLN.
-3. **MSZ** - apostille, 60 PLN.
+2. **Sąd okręgowy** - poświadczenie podpisu notariusza, 26 zł.
+3. **MSZ** - apostille, 60 zł.
 
 Trzy instancje zamiast jednej i 5-10 dni roboczych zamiast dwóch. Działa jednak zawsze, także tam, gdzie organ w ogóle nie wydaje papieru.
 

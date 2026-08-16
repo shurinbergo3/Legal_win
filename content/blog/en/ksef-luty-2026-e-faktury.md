@@ -1,9 +1,9 @@
 ---
 slug: ksef-luty-2026-e-faktury
-title: 'KSeF 2026: Mandatory Polish E-Invoices'
+title: 'KSeF 2026: When It Becomes Mandatory and Who Gets a Delay'
 description: >-
-  From 1 February 2026 all B2B invoices in Poland go through KSeF. How a foreign
-  entrepreneur connects, penalties, steps for Sp. z o.o. and JDG.
+  KSeF: 1 February 2026 for turnover above PLN 200m, 1 April for everyone else,
+  micro-firms under PLN 10,000 can wait until year end. Penalties from 2027.
 locale: en
 publishDate: 2026-05-04T00:00:00.000Z
 author: LegalWin
@@ -22,9 +22,13 @@ relatedServices:
 schema: Article
 ---
 
-# KSeF - mandatory Polish e-invoices from February 2026
+# KSeF: when it becomes mandatory and who gets a delay
 
-From 1 February 2026, every Polish business - JDG, Sp. z o.o., spółki komandytowe - must issue B2B invoices exclusively through **KSeF (Krajowy System e-Faktur)**. Paper invoices and PDF-by-email no longer count as legal purchase documents for VAT and CIT. The penalty for non-compliance reaches 100% of the VAT amount on a single invoice. For a foreign entrepreneur this means: connect to KSeF before 31 January 2026, or your contracting parties cannot book your invoices.
+There is a lot of panic and date confusion around KSeF, so here is the short version. The duty arrives in three waves: **1 February 2026** for firms with 2024 turnover above PLN 200 million, **1 April 2026** for everyone else including JDG and Sp. z o.o., and micro-firms whose invoiced sales stay at or below PLN 10,000 gross per month may keep invoicing the old way until **31 December 2026**.
+
+The second thing that takes the edge off: **penalties only start on 1 January 2027**. Between 1 February and 31 December 2026 breaches of the KSeF duty carry no sanction. That is a transition window to get your processes right, not a reason to stall - you still have to receive incoming invoices through the system from day one.
+
+Once your date arrives, B2B invoices go exclusively through **KSeF (Krajowy System e-Faktur)**. Paper invoices and PDF-by-email no longer count as legal purchase documents for VAT and CIT. For a foreign entrepreneur this means: connect to KSeF before your wave date, or your contracting parties cannot book your invoices.
 
 ## What KSeF is
 
@@ -34,7 +38,17 @@ The reform aims to close VAT gaps (the Polish VAT gap was 12.1% in 2024 accordin
 
 ## Who is covered by the obligation
 
-Mandatory KSeF use from 1 February 2026 applies to:
+The date depends on the size of the business:
+
+| Who | KSeF mandatory from |
+|---|---|
+| Turnover above PLN 200 million in 2024 | 1 February 2026 |
+| Everyone else: Sp. z o.o., JDG, spółki komandytowe, jawne, partnerskie | 1 April 2026 |
+| Micro-firms invoicing up to PLN 10,000 gross per month | 1 January 2027 (old rules until end of 2026) |
+
+One detail on the micro-firm relief: the limit is counted month by month. Go over PLN 10,000 in a given month and the next invoice goes through KSeF, with no way back.
+
+The duty also covers:
 
 - **All Sp. z o.o.** regardless of turnover
 - **All JDG VAT payers** (registered as active VAT taxpayers)
@@ -51,7 +65,7 @@ These groups will be covered from 2027.
 
 ## How a foreign entrepreneur connects
 
-Connection steps - required before 31 January 2026:
+Connection steps - to be done before 1 April 2026 (or before 1 February if your turnover exceeds PLN 200 million):
 
 ### 1. Get a qualified e-signature or Profil Zaufany
 
@@ -88,7 +102,7 @@ MF training is free at podatki.gov.pl. Duration: 4-8 hours for the basic level.
 
 ## Penalties for non-compliance
 
-From 1 February 2026:
+This is where the main misunderstanding sits. The penalties below are written into the VAT act, but they **only take effect on 1 January 2027**. Throughout 2026 breaches of the KSeF duty carry no sanction:
 
 | Violation | Penalty |
 |---|---|
@@ -119,7 +133,7 @@ Practical impact for JDG and Sp. z o.o. with foreign management:
 
 ## What to do right now
 
-Steps before 31 January 2026:
+Steps before 1 April 2026:
 
 1. **Today:** verify your registration in e-Urząd Skarbowy via PUE - must be active.
 2. **This week:** set up Profil Zaufany or a qualified e-signature.

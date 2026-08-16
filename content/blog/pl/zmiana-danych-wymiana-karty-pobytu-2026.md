@@ -41,7 +41,7 @@ Reguła ogólna: **na wniosek o wymianę karty przysługuje 14 dni** od zaistnie
 
 Rzecz, która oszczędza wiele nieporozumień: **na karcie pobytu nie widnieje adres**. Przeprowadzki nie załatwia się wymianą karty, lecz nowym meldunkiem i zawiadomieniem wojewody.
 
-Utratę i kradzież omawiamy [osobno](/pl/blog/karta-pobytu-utrata-kradzha-wtornik-2026) - tam obowiązuje własna procedura z zawiadomieniem policji.
+Utrata i kradzież mają własną procedurę, z zawiadomieniem policji - [prowadzimy ją razem z klientem](/pl/uslugi/karta-pobytu).
 
 ## Zmiana nazwiska po ślubie
 

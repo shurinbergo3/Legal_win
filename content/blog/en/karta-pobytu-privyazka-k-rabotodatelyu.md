@@ -80,7 +80,7 @@ In each of these cases you have **15 working days** to notify the voivode. After
 
 ## Powiadomienie o zmianie pracodawcy: Step by Step
 
-Since December 2025 the notification of a change of employer is filed via MOS v2.0 (mos.cudzoziemcy.gov.pl). It is a formal procedure but not equivalent to filing a new karta pobytu.
+Since 27 April 2026 the notification of a change of employer is filed via MOS v2.0 (mos.cudzoziemcy.gov.pl). It is a formal procedure but not equivalent to filing a new karta pobytu.
 
 **Step 1. Document gathering.** You will need:
 
