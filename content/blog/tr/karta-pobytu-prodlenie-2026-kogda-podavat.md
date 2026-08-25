@@ -201,7 +201,7 @@ Avukata gitmek mantıklı durumlar:
 - Wojewoda daha önce wezwanie do uzupełnienia *(eksik tamamlama bildirimi)* veya ponaglenie gönderdiyse
 - Başvuruyu geciktirdiyseniz ve 30 günden az kaldıysa
 
-LegalWin'de karta czasowego pobytu kontynuacja işlerini 2019'dan beri yürütüyoruz. Danışmadan doğru wniosek'in tesliminе kadar ortalama süre 28 gün (ilk başvurudan 14 gün daha kısa). Ücretsiz 30 dakikalık değerlendirme - eyaletinizin güncel koşullarında gerekçenizi ve riskleri haritalıyoruz.
+LegalWin'de karta czasowego pobytu kontynuacja işlerini 2019'dan beri yürütüyoruz. Danışmadan doğru wniosek'in teslimine kadar ortalama süre 28 gün (ilk başvurudan 14 gün daha kısa). Ücretsiz 30 dakikalık değerlendirme - eyaletinizin güncel koşullarında gerekçenizi ve riskleri haritalıyoruz.
 
 [Kontynuacja danışması için randevu →](/tr/uslugi/karta-pobytu)
 

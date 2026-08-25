@@ -11,6 +11,7 @@
     "postbuild": "node scripts/notify-indexnow.mjs",
     "start": "next start",
     "lint": "eslint src",
+    "check:text": "node scripts/check-mixed-script.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

@@ -64,7 +64,7 @@ eWUŚ (Elektroniczny System Weryfikacji Uprawnień Świadczeniobiorców) - эт�
 - В личном кабинете **PUE ZUS**
 - По телефону NFZ infolinii: 800 190 590
 
-Если еWUŚ показывает зелёный (uprawniony) - всё в порядке, можете идти к врачу. Если красный - что-то не так с ZUS, надо проверить.
+Если eWUŚ показывает зелёный (uprawniony) - всё в порядке, можете идти к врачу. Если красный - что-то не так с ZUS, надо проверить.
 
 ### Шаг 4: выбрать lekarza POZ
 
@@ -72,7 +72,7 @@ POZ (Podstawowa Opieka Zdrowotna) - ваш «семейный врач». К н�
 
 Как выбрать:
 
-1. На сайте **pacjent.gov.pl** найти przychodnie POZ рядом с местом проживания (по PESEL и адресу из meldunkу)
+1. На сайте **pacjent.gov.pl** найти przychodnie POZ рядом с местом проживания (по PESEL и адресу из meldunku)
 2. Заполнить **deklarację wyboru lekarza POZ** (можно онлайн через IKP или лично в przychodni)
 3. Выбрать lekarza POZ, pielęgniarkę środowiskową и położną (для женщин)
 
@@ -109,7 +109,7 @@ IKP (Internetowe Konto Pacjenta) - личный кабинет пациента 
 С co-payments (доплатой) или платно:
 
 - Стоматология для взрослых (только некоторые процедуры бесплатны)
-- Очки (kontaktные линзы и оправы - платно)
+- Очки (контактные линзы и оправы - платно)
 - Лекарства без recept y NFZ
 - Косметические операции
 

@@ -397,11 +397,6 @@
     "hideForm": "Ukryj formularz",
     "items": [
       {
-        "text": "Kartę pobytu dostałam w 40 dni. Bez moich wizyt w urzędzie i nerwów przy korespondencji - wszystko robili prawnicy, ja tylko podpisywałam.",
-        "author": "Olga M.",
-        "role": "projektantka, przeprowadziła się z Kijowa"
-      },
-      {
         "text": "Otworzyliśmy spółkę w tydzień, od razu z VAT i rachunkiem. Zespół LegalWin odpowiada na czacie natychmiast, tłumaczą jasno - bez biurokratycznej kaszy.",
         "author": "Dymitr K.",
         "role": "CTO, startup SaaS"
@@ -417,7 +412,7 @@
         "role": "rodzina z dwójką dzieci"
       },
       {
-        "text": "Wymieniłem ukraińskie prawo jazdy na polskie w 6 tygodni. Podpowiedzieli, z jakimi dokumentami iść do starostwa, żeby nie wracać drugi raz. Badania lekarskie umówili wcześniej - nie musiałem szukać kliniki.",
+        "text": "Wymieniłem ukraińskie prawo jazdy na polskie w 2 tygodnie. Podpowiedzieli, z jakimi dokumentami iść do starostwa, żeby nie wracać drugi raz. Badania lekarskie umówili wcześniej - nie musiałem szukać kliniki.",
         "author": "Igor W.",
         "role": "kierowca, Wrocław"
       },
@@ -517,6 +512,41 @@
         "text": "Potrzebowałam tłumaczenia przysięgłego wyroku sądowego na Ukrainę. Przetłumaczyli poprawnie, z uwzględnieniem terminologii prawniczej, poświadczyli i wysłali. Dokument w ukraińskim urzędzie przyjęto bez pytań.",
         "author": "Weronika L.",
         "role": "sprawa rodzinna"
+      },
+      {
+        "text": "Składałem na kartę pobytu z tytułu pracy, do końca wizy zostały trzy tygodnie. Komplet zebrali szybko, złożyli w Mazowieckim Urzędzie Wojewódzkim na czas, stempel w paszporcie dostałem tego samego dnia. Decyzja przyszła po siedmiu miesiącach - karta na trzy lata.",
+        "author": "Rusłan A.",
+        "role": "inżynier mechanik, Warszawa"
+      },
+      {
+        "text": "Zmieniłam pracodawcę w trakcie postępowania o kartę pobytu. Byłam pewna, że trzeba składać wszystko od nowa - okazało się, że wystarczy powiadomić urząd i donieść nowy załącznik nr 1. Wyjaśnili w dziesięć minut, dokumenty wysłali tego samego dnia.",
+        "author": "Alina Ż.",
+        "role": "pielęgniarka, Łódź"
+      },
+      {
+        "text": "Przedłużałem kartę pobytu, stara kończyła się w marcu. Przypomnieli wcześniej, że wniosek trzeba złożyć przed upływem terminu, inaczej traci się legalność pobytu. Jedyne - kolejka na złożenie w urzędzie była rozpisana miesiąc do przodu, ale uprzedzili o tym od razu.",
+        "author": "Taras M.",
+        "role": "spawacz, Poznań"
+      },
+      {
+        "text": "Potrzebowałem zaświadczenia o niekaralności dla nowego pracodawcy w Norwegii. Załatwili przez e-KRK na pełnomocnictwie, od razu z apostille i tłumaczeniem przysięgłym na angielski. Zmieścili się w cztery dni, nawet nie przyjeżdżałem do Warszawy.",
+        "author": "Bohdan S.",
+        "role": "monter, praca rotacyjna"
+      },
+      {
+        "text": "Kompletowałam dokumenty na obywatelstwo, potrzebne było zaświadczenie o niekaralności i z KRK, i z Ukrainy. Podpowiedzieli, że polskie przyjmują tylko świeże, i policzyli, kiedy je zamówić, żeby nie straciło ważności do złożenia. Drobiazg, a bez tego cofnęliby cały wniosek.",
+        "author": "Iryna W.",
+        "role": "księgowa, Kraków"
+      },
+      {
+        "text": "Potrzebowałem apostille na odpis z KRS i umowę spółki, żeby otworzyć konto w banku w ZEA. Poświadczyli u notariusza, przybili apostille w MSZ, zrobili tłumaczenie przysięgłe na angielski. Bank przyjął komplet bez jednej uwagi.",
+        "author": "Stanisław E.",
+        "role": "właściciel firmy handlowej"
+      },
+      {
+        "text": "Pierwsze tygodnie w Polsce to PESEL, meldunek i profil zaufany - bez nich ani konta nie założysz, ani do lekarza się nie zapiszesz. Umówili wizytę w urzędzie, poszli ze mną i za jednym razem załatwili wszystkie trzy. Pół roku później wróciłam do nich po kartę pobytu.",
+        "author": "Daria F.",
+        "role": "przeprowadziła się z Mińska"
       }
     ]
   },

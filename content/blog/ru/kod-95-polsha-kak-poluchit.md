@@ -90,7 +90,7 @@ Kod 95 - это запись в польских правах, без котор
 
 ## Шаг 2. Получение PKZ в Wydziale Komunikacji
 
-PKZ - Profil Kierowcy Zawodowego - это электронный профиль вашего дела, который ведёт urząd. Без активного PKZ ośrodek шkolenia не имеет права записать вас на курс.
+PKZ - Profil Kierowcy Zawodowego - это электронный профиль вашего дела, который ведёт urząd. Без активного PKZ ośrodek szkolenia не имеет права записать вас на курс.
 
 Что нужно для получения PKZ:
 

@@ -43,7 +43,7 @@ Bu maddeleri ertelemek mümkün değil. Onlar olmadan hiçbir şey ilerlemez.
 - [ ] **`Profil Zaufany` aktive edin** - internet bankacılığı (PKO BP, Santander, mBank, Pekao, ING, Millennium) üzerinden. Süre 5-10 dakika.
 - [ ] **Banka hesabı açın** - maaş, ödemeler, ZUS hesaplamaları için. PKO BP, Santander, mBank, Millennium - hepsi PESEL'i olan yeni gelenleri kabul eder.
 - [ ] **İşverenle anlaşın** - `umowa o pracę` *(iş sözleşmesi)* imzalayın; brüt maaş Ocak 2026 itibarıyla 4.806 PLN'den az olmamalı.
-- [ ] **NIP alın** - `pracа` veya `działalność` ile çalışıyorsanız. İlk işveren tarafından otomatik atanır.
+- [ ] **NIP alın** - `praca` veya `działalność` ile çalışıyorsanız. İlk işveren tarafından otomatik atanır.
 - [ ] **ZUS/NFZ'ye bağlanın** - `umowa o pracę` imzalandığında otomatik. İşveren sizi 7 gün içinde ZUS'a kaydetmek zorundadır.
 
 ## İlk 60 gün - legalizasyonun devamı

@@ -52,7 +52,7 @@ Karta czasowego pobytu по основанию praca (Ustawa o cudzoziemcach, ar
 | Karta czasowego pobytu (nauka) | Нет (но лимит часов) | До 20 часов/нед. в учебный период |
 | Karta stałego pobytu | Нет | Безусловная свобода |
 
-Если у вас karta czasowego pobytu по «pracy» (samый частый случай) - привязка действует. Если CUKR, по семье, по бизнесу или по учёбе - привязки нет.
+Если у вас karta czasowego pobytu по «pracy» (самый частый случай) - привязка действует. Если CUKR, по семье, по бизнесу или по учёбе - привязки нет.
 
 ## Что НЕ требует уведомления воеводы
 

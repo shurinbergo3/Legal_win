@@ -31,7 +31,7 @@ const rejestracjaSpZOo: ServiceEntry = {
       title: 'Этапы регистрации Sp. z o.o.',
       subtitle: 'От первого звонка до полного запуска (KRS + банк + VAT + бухгалтер) - 7-14 рабочих дней.',
       steps: [
-        { title: 'Бесплатная консультация', duration: '30 мин', desc: 'Структура учредителей, налоговая форма (CIT/Estonian CIT/IP Box), вид деятельности (PKD коды). Решаем S24 или nota­rial.' },
+        { title: 'Бесплатная консультация', duration: '30 мин', desc: 'Структура учредителей, налоговая форма (CIT/Estonian CIT/IP Box), вид деятельности (PKD коды). Решаем: S24 или notarialnie.' },
         { title: 'Подготовка статута', duration: '1-2 дня', desc: 'Umowa spółki: PKD коды, доли, члены правления, sposób reprezentacji, дивидендная политика. S24 - шаблон, нотариально - индивидуально.' },
         { title: 'Подписание', duration: '1 день', desc: 'S24 - электронные подписи через profil zaufany / kwalifikowany. Нотариально - у нотариуса в Варшаве (можем дистанционно через pełnomocnika).' },
         { title: 'Подача в KRS', duration: '24 ч (S24) / 5-7 дней', desc: 'Электронно через Portal S24 или PRS. KRS присваивает номер, NIP, REGON автоматически. Сообщаем klient.' },

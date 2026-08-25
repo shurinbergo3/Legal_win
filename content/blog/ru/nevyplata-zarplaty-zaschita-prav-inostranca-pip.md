@@ -49,7 +49,7 @@ schema: Article
 При задержке выплаты больше чем на 1 день после установленной в умове даты:
 
 1. **Зафиксируйте письменно.** Email на работодателя с темой «Wezwanie do zapłaty wynagrodzenia za miesiąc XYZ». Текст - короткий: «Zgodnie z umową o pracę z dnia DD.MM.RRRR wezwany jest Pan/Pani do zapłaty zaległego wynagrodzenia za XX.RRRR w kwocie NN PLN brutto w terminie 7 dni od daty otrzymania wezwania, pod rygorem dalszych kroków prawnych». Сохраните себе копию.
-2. **Соберите доказательства существования договора.** Сканы умовы, последних wypłат на банковский счёт, переписки с работодателем, графика рабочего времени.
+2. **Соберите доказательства существования договора.** Сканы умовы, последних wypłat на банковский счёт, переписки с работодателем, графика рабочего времени.
 3. **Не увольняйтесь.** Многие иностранцы в этот момент пишут wypowiedzenie, потому что обижены - это лишает их части прав. Если решили уходить - делайте rozwiązanie umowy bez wypowiedzenia z winy pracodawcy на основании art. 55 §1¹ Kodeksu Pracy, тогда вам полагается odprawa.
 
 ## Шаг 2: жалоба в PIP

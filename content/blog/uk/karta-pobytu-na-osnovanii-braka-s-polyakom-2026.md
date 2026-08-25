@@ -110,7 +110,7 @@ schema: Article
 
 | Етап | Строк |
 |---|---|
-| Транскрипція аktu małżeństwa у USC | 1–3 місяці |
+| Транскрипція aktu małżeństwa у USC | 1–3 місяці |
 | Подання через MOS v2.0 + UPO | 5–14 днів |
 | Біометрія | 30–90 днів після UPO |
 | Wywiad środowiskowy (якщо призначено) | +30–60 днів |
@@ -181,7 +181,7 @@ schema: Article
 
 | Стаття | Сума |
 |---|---|
-| Транскрипція аktu małżeństwa | 39 PLN |
+| Транскрипція aktu małżeństwa | 39 PLN |
 | Tłumaczenia przysięgłe | 80–200 PLN |
 | Apostille іноземного свідоцтва | 250–1 500 PLN |
 | Держмито за wniosek | 340 PLN |

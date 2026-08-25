@@ -59,7 +59,7 @@ Połączenie z rodziną - это специальное основание дл�
 | EU Blue Card | dostęp do rynku pracy + ускоренное воссоединение |
 | Karta CUKR | dostęp do rynku pracy |
 | Гражданство РП | супруг получает не karta pobytu, а специальное право пребывания + полные права на работу |
-| Karta czasowego pobytu (праca, бизнес) | **без аннотации**, нужны oświadczenie или zezwolenie |
+| Karta czasowego pobytu (praca, бизнес) | **без аннотации**, нужны oświadczenie или zezwolenie |
 | Studencka karta czasowego pobytu | без аннотации |
 
 В 2026 году правило закрепилось ещё жёстче: с момента имплементации Директивы 2003/86/WE и реформы Blue Card 2.0, супруги обладателей Blue Card получают аннотацию **в день выдачи** karty, без ожидания. Раньше нужно было прожить 12 месяцев, прежде чем подать на zmianę decyzji.

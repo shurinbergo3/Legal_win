@@ -397,11 +397,6 @@
     "hideForm": "Formu gizle",
     "items": [
       {
-        "text": "Karta pobytu'yu 40 günde aldım. Urzęd'lere kendim gitmek ve yazışmalarla uğraşmak zorunda kalmadım - her şeyi LegalWin yaptı, ben sadece imzaladım.",
-        "author": "Olga M.",
-        "role": "tasarımcı, Kiev'den taşındı"
-      },
-      {
         "text": "Sp. z o.o.'yu bir haftada kurduk, KDV ve banka hesabıyla birlikte. Sohbette anında yanıt veriyorlar, açıklamaları net - bürokrasi karmaşası yaşatmadan.",
         "author": "Dmitry K.",
         "role": "CTO, SaaS girişimi"
@@ -417,7 +412,7 @@
         "role": "iki çocuklu aile"
       },
       {
-        "text": "Ukrayna ehliyetimi 6 haftada Polonya ehliyetiyle değiştirdim. Starostwo'ya hangi belgelerle gitmem gerektiğini önceden söylediler, ikinci kez gitmek zorunda kalmadım. Sağlık muayenesini önceden ayarladılar - klinik aramak zorunda kalmadım.",
+        "text": "Ukrayna ehliyetimi 2 haftada Polonya ehliyetiyle değiştirdim. Starostwo'ya hangi belgelerle gitmem gerektiğini önceden söylediler, ikinci kez gitmek zorunda kalmadım. Sağlık muayenesini önceden ayarladılar - klinik aramak zorunda kalmadım.",
         "author": "Igor V.",
         "role": "şoför, Wrocław"
       },
@@ -517,6 +512,41 @@
         "text": "Ukrayna için bir mahkeme kararının yeminli tercümesi gerekiyordu. Hukuki terminolojiyi gözeterek doğru çevirdiler, onayladılar ve gönderdiler. Belge Ukrayna makamınca sorusuz kabul edildi.",
         "author": "Veronika L.",
         "role": "aile davası"
+      },
+      {
+        "text": "İş üzerinden oturum kartına başvurdum, vizemin bitmesine üç hafta kalmıştı. Dosyayı hızlıca hazırladılar, Mazowiecki Urząd Wojewódzki'ye zamanında verdiler, pasaport damgasını aynı gün aldım. Karar yedi ay sonra geldi - üç yıllık kart.",
+        "author": "Ruslan A.",
+        "role": "makine mühendisi, Varşova"
+      },
+      {
+        "text": "Oturum kartı işlemim sürerken işveren değiştirdim. Her şeye baştan başlayacağımı sanıyordum - meğer urząd'a bildirim yapıp yeni załącznik nr 1 vermek yetiyormuş. On dakikada anlattılar, belgeleri aynı gün gönderdiler.",
+        "author": "Alina J.",
+        "role": "hemşire, Łódź"
+      },
+      {
+        "text": "Oturum kartımı uzatıyordum, eskisi martta bitiyordu. Başvurunun süre dolmadan yapılması gerektiğini, yoksa yasal kalış hakkının kaybedildiğini önceden hatırlattılar. Tek şey - urząd'daki başvuru sırası bir ay ilerisine doluydu, ama bunu baştan söylediler.",
+        "author": "Taras M.",
+        "role": "kaynakçı, Poznań"
+      },
+      {
+        "text": "Norveç'teki yeni işverenim için adli sicil belgesi gerekti. Vekaletle e-KRK üzerinden hallettiler, apostil ve İngilizce yeminli tercümesiyle birlikte. Dört günde bitti, Varşova'ya gitmem bile gerekmedi.",
+        "author": "Bohdan S.",
+        "role": "montajcı, dönüşümlü çalışıyor"
+      },
+      {
+        "text": "Vatandaşlık için belge topluyordum, hem KRK'dan hem Ukrayna'dan adli sicil belgesi gerekiyordu. Polonya belgesinin yalnızca yeni tarihlisinin kabul edildiğini söylediler ve başvuruya kadar süresi dolmasın diye ne zaman sipariş edeceğimizi hesapladılar. Küçük bir ayrıntı ama olmasa dosya geri dönerdi.",
+        "author": "Iryna V.",
+        "role": "muhasebeci, Kraków"
+      },
+      {
+        "text": "BAE'de banka hesabı açmak için KRS kaydı ve şirket ana sözleşmesine apostil gerekiyordu. Noterde onaylattılar, MSZ'de apostil aldılar, İngilizce yeminli tercümesini yaptılar. Banka dosyayı tek bir itiraz olmadan kabul etti.",
+        "author": "Stanislav E.",
+        "role": "ticaret şirketi sahibi"
+      },
+      {
+        "text": "Polonya'daki ilk haftalar PESEL, meldunek ve profil zaufany demek - bunlar olmadan ne hesap açabiliyorsun ne doktora yazılabiliyorsun. Urząd'dan randevu aldılar, benimle geldiler, tek ziyarette üçünü de hallettik. Altı ay sonra oturum kartı için yine onlara döndüm.",
+        "author": "Daria F.",
+        "role": "Minsk'ten taşındı"
       }
     ]
   },

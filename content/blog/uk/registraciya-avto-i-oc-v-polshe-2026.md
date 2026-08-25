@@ -40,7 +40,7 @@ schema: Article
 
 ## Що потрібно для реєстрації
 
-Пакет для wydziału komunikacji у старостві або урядi міста:
+Пакет для wydziału komunikacji у старостві або уряді міста:
 
 - **документ про право власності** - umowa kupna-sprzedaży, faktura або akt darowizny;
 - **dowód rejestracyjny** попередній, з чинним badaniem technicznym;

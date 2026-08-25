@@ -72,7 +72,7 @@ Kod 95 не нужен:
 **Срок:** 5 дней + 1 неделя на оформление документов = 2 недели максимум.
 
 **Документы для записи:**
-- prawo jazdy katу C/CE (оригинал + tłumaczenie przysięgłe, если иностранное);
+- prawo jazdy kat. C/CE (оригинал + tłumaczenie przysięgłe, если иностранное);
 - karta pobytu или подтверждение pobytu;
 - медицинская справка от lekarza uprawnionego;
 - психотест от psychologa transportu (150 PLN);

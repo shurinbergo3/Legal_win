@@ -57,7 +57,7 @@ Decyzja odmowna содержит формальные ссылки на artykuł
 В первые 24 часа после получения decyzji внимательно прочитайте её несколько раз. Выпишите:
 
 - На какие artykuły Ustawy o cudzoziemcach ссылается воевода
-- Какие фактические обстоятельства он считает niewystarczająco doказанными
+- Какие фактические обстоятельства он считает niewystarczająco доказанными
 - Какие документы он считает niewiarygodnymi или irrelewantnymi
 - Есть ли формальные procedural ошибки в самом тексте decyzji
 

@@ -397,11 +397,6 @@
     "hideForm": "Hide form",
     "items": [
       {
-        "text": "Got my residence card in 40 days. No solo trips to the office, no letter stress - the LegalWin team did everything, I just signed.",
-        "author": "Olga M.",
-        "role": "designer, moved from Kyiv"
-      },
-      {
         "text": "Set up our company in a week, with VAT and bank account. They reply on chat instantly, explain things clearly - no legalese soup.",
         "author": "Dmitry K.",
         "role": "CTO, SaaS startup"
@@ -417,7 +412,7 @@
         "role": "family with two kids"
       },
       {
-        "text": "Swapped my Ukrainian licence for a Polish one in 6 weeks. They told me exactly what to bring to starostwo so I didn't have to come back twice. Booked the medical exam in advance - I didn't have to hunt for a clinic.",
+        "text": "Swapped my Ukrainian licence for a Polish one in 2 weeks. They told me exactly what to bring to starostwo so I didn't have to come back twice. Booked the medical exam in advance - I didn't have to hunt for a clinic.",
         "author": "Igor V.",
         "role": "driver, Wrocław"
       },
@@ -517,6 +512,41 @@
         "text": "Needed a sworn translation of a court ruling for Ukraine. Translated correctly with the right legal terminology, certified and sent. The document was accepted by the Ukrainian authority with no questions.",
         "author": "Veronika L.",
         "role": "family case"
+      },
+      {
+        "text": "I applied for a residence card through work with three weeks left on my visa. They put the file together fast, filed it at the Mazowiecki Urząd Wojewódzki in time, and I got the stamp in my passport the same day. The decision came seven months later - a card for three years.",
+        "author": "Ruslan A.",
+        "role": "mechanical engineer, Warsaw"
+      },
+      {
+        "text": "I changed employers in the middle of my residence card procedure. I was sure I'd have to start over - turned out I only had to notify the urząd and file a new załącznik nr 1. They explained it in ten minutes and sent the papers the same day.",
+        "author": "Alina Z.",
+        "role": "nurse, Łódź"
+      },
+      {
+        "text": "I was renewing my residence card, the old one expired in March. They reminded me well ahead that the application has to go in before it runs out, otherwise you lose legal stay. The only thing: the filing queue at the urząd was booked a month out, but they warned me about that upfront.",
+        "author": "Taras M.",
+        "role": "welder, Poznań"
+      },
+      {
+        "text": "I needed a criminal record certificate for a new employer in Norway. They handled it through e-KRK under a power of attorney, with the apostille and a sworn English translation right away. Done in four days, and I never had to travel to Warsaw.",
+        "author": "Bohdan S.",
+        "role": "installer, rotation work"
+      },
+      {
+        "text": "I was gathering documents for citizenship and needed criminal record certificates from the KRK and from Ukraine. They pointed out that the Polish one is only accepted while it's recent, and worked out when to order it so it wouldn't expire before filing. A small thing, but without it the whole file would have come back.",
+        "author": "Iryna V.",
+        "role": "accountant, Kraków"
+      },
+      {
+        "text": "I needed an apostille on the KRS extract and the company's articles to open a bank account in the UAE. They had it notarised, got the apostille at the MSZ and did a sworn English translation. The bank accepted the whole package without a single comment.",
+        "author": "Stanislav E.",
+        "role": "owner of a trading company"
+      },
+      {
+        "text": "Your first weeks in Poland are PESEL, meldunek and profil zaufany - without them you can't open an account or book a doctor. They made the appointment, came with me and closed all three in one visit. Six months later I came back to them for my residence card.",
+        "author": "Daria F.",
+        "role": "relocated from Minsk"
       }
     ]
   },
