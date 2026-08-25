@@ -138,7 +138,14 @@ const SLUG_TO_IMAGE: Record<string, string> = {
   'karta-pobytu-na-osnovanii-braka-s-polyakom-2026': '/services/warszawa-swiatynia.webp',
   'karta-pobytu-po-biznesu-jdg-sp-z-oo-2026': '/services/warszawa-spire.webp',
   'karta-pobytu-prodlenie-2026-kogda-podavat': '/services/karta-pobytu.webp',
-  'zezwolenie-typu-a-vs-oswiadczenie-2026': '/services/pomoc-w-zatrudnieniu.webp'
+  'zezwolenie-typu-a-vs-oswiadczenie-2026': '/services/pomoc-w-zatrudnieniu.webp',
+
+  // 2026-Q3 lead-gen series (ВНЖ статус, страховка, переоформление, апостиль Варшава)
+  'strahovka-avto-oc-ac-polsha-2026': '/services/wymiana-prawa-jazdy.webp',
+  'pereoformlenie-avto-przerejestrowanie-2026': '/services/wymiana-prawa-jazdy.webp',
+  'status-dela-w-urzedzie-mazowieckim-2026': '/services/karta-pobytu.webp',
+  'karta-pobytu-varshava-kogda-nuzhen-yurist-2026': '/services/karta-pobytu.webp',
+  'apostille-v-varshave-gde-postavit-2026': '/services/apostille.webp'
 };
 
 const FALLBACK = '/services/blog.webp';
